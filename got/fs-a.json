@@ -1,6 +1,6 @@
 {
-    "at": "2026-11-07T14:15:58+00:00",
-    "done": 11,
+    "at": "2026-11-07T14:21:30+00:00",
+    "done": 12,
     "total": 16,
     "files": [
         "F-ar-pro.json",
@@ -12,9 +12,10 @@
         "F-de-dev.json",
         "F-it-pro.json",
         "F-it-dev.json",
-        "F-pt-pro.json"
+        "F-pt-pro.json",
+        "F-pt-dev.json"
     ],
     "failed": [],
-    "calls": 3,
-    "last_note": ""
+    "calls": 2,
+    "last_note": "tr-pro-0: ai: ai: ai_unavailable {\"tried\":[\"groq\/qwen\/qwen3.8-27b: larger than its plan takes (1000)\",\"groq\/qwen\/qwen3.8-27b: larger than its plan takes (1000)\",\"groq\/qwen\/qwen3.8-27b: larger than its plan takes (1000)\",\"groq\/qwen\/qwen3.8-27b: larger than its plan takes (1000)\",\"groq\/qwen\/qwen3.8-27"
 }
