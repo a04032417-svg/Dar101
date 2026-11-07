@@ -1,6 +1,6 @@
 {
-    "at": "2026-11-07T14:36:50+00:00",
-    "done": 11,
+    "at": "2026-11-07T17:56:02+00:00",
+    "done": 23,
     "total": 24,
     "files": [
         "F-nl-pro.json",
@@ -8,9 +8,16 @@
         "F-ru-dev.json",
         "F-fa-pro.json",
         "F-ur-pro.json",
-        "F-ur-dev.json"
+        "F-ur-dev.json",
+        "F-hi-dev.json",
+        "F-zh-pro.json",
+        "F-zh-dev.json",
+        "F-id-pro.json",
+        "F-id-dev.json"
     ],
-    "failed": [],
-    "calls": 3,
+    "failed": [
+        "hi-pro-0: item 0 (sheet.clients) still in English: «Clients» | item 1 (sheet.props) still in English: «Listings» | item 2 (sheet.views) still in English: «Viewings»"
+    ],
+    "calls": 0,
     "last_note": ""
 }
