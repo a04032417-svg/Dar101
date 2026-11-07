@@ -1,0 +1,33 @@
+# Dar's verification worker (2026-11-07 — the owner: «يجب ان تتأكد منظومة دار ان القوالب ستعمل فعليا بعد ذلك انت تتأكد، لا مجال للخطأ»).
+# Every 2 hours: read Dar's feed (each spec encrypted for this worker's key alone), build every file of each ready suite in 15 languages,
+# recalculate each in LibreOffice and verify it strictly, draw the pictures, and post the result on branch fx: the suite's package
+# encrypted for Dar, or each failing file with its errors (Dar repairs it and learns the lesson). Claude reviews what passed and publishes.
+name: fxverify
+on:
+  schedule: [{ cron: '23 */2 * * *' }]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: fxverify, cancel-in-progress: false }
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: fx, fetch-depth: 1 }
+      - name: tools (LibreOffice, fonts, Python)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends libreoffice-calc fonts-liberation fonts-dejavu fonts-noto-core fonts-noto-cjk fonts-inter poppler-utils >/dev/null
+          if ! fc-list | grep -q "Inter Display"; then curl -fsSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip && mkdir -p ~/.fonts && unzip -qo /tmp/inter.zip 'extras/otf/*' -d /tmp/inter && cp /tmp/inter/extras/otf/*.otf ~/.fonts/ && fc-cache -f >/dev/null; fi
+          pip install -q openpyxl cryptography pillow playwright
+          python -m playwright install --with-deps chromium >/dev/null
+      - name: verify what Dar prepared
+        env:
+          FX_VERIFY_KEY: ${{ secrets.FX_VERIFY_KEY }}
+          FX_FEED: https://dar.ink/fxv/6c5b0240f916684723f4
+        run: |
+          [ -n "$FX_VERIFY_KEY" ] || { echo "no FX_VERIFY_KEY secret"; exit 1; }
+          python3 runtime/verifier.py "$PWD" | tee /tmp/v.log
+          if [ -n "$(git status --porcelain)" ]; then python3 runtime/fx.py push . "fxverify: $(tail -1 /tmp/v.log | cut -c1-200)"; else echo "nothing new"; fi
