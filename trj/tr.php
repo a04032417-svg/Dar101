@@ -58,7 +58,7 @@ $done = 0; $total = 0; $fail = []; $calls = 0; $last = '';
 $order = []; foreach ($job['chunks'] as $c) foreach ($langs as $code => $ln) $order[] = [$code, $c]; // (every language's tab names first: the rest uses them)
 foreach ($order as [$code, $c]) {
     $total++; $r = $get($code, $c['id']); if ($r && !empty($r['ok'])) { $done++; continue; }
-    if (($r['tries'] ?? 0) >= 4) { $fail[] = "$code/{$c['id']}"; continue; }
+    if (($r['tries'] ?? 0) >= 8) { $fail[] = "$code/{$c['id']}: " . implode(' | ', array_slice($r['errors'] ?? [], 0, 3)); continue; }
     if (empty($c['sheets'])) { $z = $get($code, $c['kind'] . '-0'); if (!$z || empty($z['ok'])) continue; }
     if ($c['kind'] === 'dev' && !empty($c['sheets'])) { $z = $get($code, 'pro-0'); if (!$z || empty($z['ok'])) continue; }
     if ($left() < 75) continue;
@@ -79,5 +79,7 @@ foreach ($langs as $code => $ln) foreach (['pro', 'dev'] as $kind) {
     file_put_contents("$pub/$name.bin", $iv . $tag . $ct); $files[] = $name;
 }
 $sfile = data_dir() . '/fx/tr-status-' . ($only ? implode('', $only) : 'all') . '.json';
+$sj = json_encode(['at' => gmdate('c'), 'done' => $done, 'total' => $total, 'files' => $files, 'failed' => $fail, 'calls' => $calls, 'last_note' => mb_substr($last, 0, 300)], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+@file_put_contents("$pub/status-" . ($only ? implode('', $only) : 'all') . '.json', $sj);
 @file_put_contents($sfile, json_encode(['at' => gmdate('c'), 'done' => $done, 'total' => $total, 'files' => $files, 'failed' => $fail, 'calls' => $calls, 'last_note' => mb_substr($last, 0, 300)], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
 echo json_encode(['done' => $done, 'total' => $total, 'files' => count($files), 'calls' => $calls]), "\n";
