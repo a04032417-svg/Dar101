@@ -1,0 +1,19 @@
+name: fxio
+on:
+  push:
+    branches: [fxio]
+    paths: [want.txt]
+permissions:
+  contents: write
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: fxio }
+      - name: fetch the files Dar left for Claude
+        run: |
+          mkdir -p got
+          while read -r u n; do [ -n "$u" ] && curl -fsSL --retry 3 -o "got/$n" "$u" || echo "miss $n"; done < want.txt
+          git config user.name fxio; git config user.email fxio@users.noreply.github.com
+          git add got; git commit -qm "fxio: got files" || true; git push -q origin HEAD:fxio
