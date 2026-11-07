@@ -1,9 +1,12 @@
 {
-    "at": "2026-11-07T14:22:40+00:00",
-    "done": 0,
+    "at": "2026-11-07T14:36:38+00:00",
+    "done": 4,
     "total": 14,
-    "files": [],
+    "files": [
+        "L-ar.json",
+        "L-fr.json"
+    ],
     "failed": [],
-    "calls": 1,
-    "last_note": "ar\/pro: ai: ai: ai_unavailable {\"tried\":[\"gemini\/gemini-3.5-flash: 429 You exceeded your current quota, please check your plan and billing details. For\",\"gemini\/gemini-3.8-flash: 429 You exceeded your current quota, please check your plan and billing details. For\",\"gemini\/gemini-3.7-flash: 429 You e"
+    "calls": 2,
+    "last_note": "es\/pro: ai: ai: ai_unavailable {\"tried\":[\"gemini\/gemini-3.5-flash: 503 This model is currently experiencing high demand. Spikes in demand are usually t\",\"groq\/qwen\/qwen3.8-27b: larger than its plan takes (1000)\",\"groq\/qwen\/qwen3.8-27b: larger than its plan takes (1000)\",\"groq\/qwen\/qwen3.8-27b: large"
 }

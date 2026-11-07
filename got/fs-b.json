@@ -1,12 +1,16 @@
 {
-    "at": "2026-11-07T14:22:13+00:00",
-    "done": 5,
+    "at": "2026-11-07T14:36:50+00:00",
+    "done": 11,
     "total": 24,
     "files": [
         "F-nl-pro.json",
-        "F-nl-dev.json"
+        "F-nl-dev.json",
+        "F-ru-dev.json",
+        "F-fa-pro.json",
+        "F-ur-pro.json",
+        "F-ur-dev.json"
     ],
     "failed": [],
-    "calls": 1,
-    "last_note": "ru-dev-0: ai: ai: ai_unavailable {\"tried\":[\"groq\/qwen\/qwen3.8-27b: larger than its plan takes (1000)\",\"groq\/qwen\/qwen3.8-27b: larger than its plan takes (1000)\",\"groq\/qwen\/qwen3.8-27b: larger than its plan takes (1000)\",\"groq\/qwen\/qwen3.8-27b: larger than its plan takes (1000)\",\"groq\/qwen\/qwen3.8-27"
+    "calls": 3,
+    "last_note": ""
 }
