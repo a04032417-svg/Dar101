@@ -14,6 +14,7 @@ jobs:
       - name: fetch the files Dar left for Claude
         run: |
           mkdir -p got
-          while read -r u n; do [ -n "$u" ] && curl -fsSL --retry 3 -o "got/$n" "$u" || echo "miss $n"; done < want.txt
+          : > got/log.txt
+          while read -r u n; do [ -n "$u" ] || continue; c=$(curl -sSL --retry 3 -A "Mozilla/5.0 (fxio)" -o "got/$n" -w '%{http_code}' "$u" 2>>got/log.txt); echo "$c $n $(stat -c %s "got/$n" 2>/dev/null)" >> got/log.txt; [ "$c" = 200 ] || rm -f "got/$n"; done < want.txt
           git config user.name fxio; git config user.email fxio@users.noreply.github.com
           git add got; git commit -qm "fxio: got files" || true; git push -q origin HEAD:fxio
