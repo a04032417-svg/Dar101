@@ -44,7 +44,7 @@ foreach ($job['chunks'] as $c) {
         if (isset($SCRIPT[$L]) && !preg_match('/' . $SCRIPT[$L] . '/u', $v) && !preg_match($KEEP, trim($v))) $e[] = "item $i ($sec.$key) still in English: «" . mb_substr($v, 0, 60) . '»';
         if (isset($SCRIPT[$L]) === false && trim($v) === trim($en) && mb_strlen($en) > 40) $e[] = "item $i ($sec.$key): a whole sentence left in English — translate it";
     }
-    if ($e) { file_put_contents($f, json_encode(['ok' => false, 'tries' => ($r['tries'] ?? 0) + (isset($a['err']) && str_contains($a['err'], 'no_time') ? 0 : 1), 'errors' => array_slice($e, 0, 20)], JSON_UNESCAPED_UNICODE)); $last = "{$c['id']}: " . $e[0]; continue; }
+    if ($e) { file_put_contents($f, json_encode(['ok' => false, 'tries' => ($r['tries'] ?? 0) + (isset($a['err']) && (str_contains($a['err'], 'no_time') || str_contains($a['err'], 'unavailable')) ? 0 : 1), 'errors' => array_slice($e, 0, 20)], JSON_UNESCAPED_UNICODE)); $last = "{$c['id']}: " . $e[0]; continue; }
     file_put_contents($f, json_encode(['ok' => true, 'out' => array_values($o), 'by' => $a['by'] ?? '', 'at' => gmdate('c')], JSON_UNESCAPED_UNICODE)); $done++;
 }
 $files = []; $pairs = [];

@@ -51,7 +51,7 @@ foreach ($langs as $code => $lname) foreach ($job['items'] as $kind => $en) {
     $usr = "THE ENGLISH LISTING:\n" . json_encode($en, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . "\nWrite the $lname listing now. One JSON object only." . (!empty($r['errors']) ? "\nYour previous answer was refused: " . implode('; ', array_slice($r['errors'], 0, 10)) : '');
     $a = fx_ai($sys, $usr, 'deep', 6000, (int)min(160, $left() - 10), ['temp' => 0.5]); $calls++;
     $o = $a['j'] ?? null; $e = isset($a['err']) ? ['ai: ' . $a['err']] : $check($en, $o, $code);
-    if ($e) { file_put_contents($f, json_encode(['ok' => false, 'tries' => ($r['tries'] ?? 0) + (isset($a['err']) && str_contains($a['err'], 'no_time') ? 0 : 1), 'errors' => $e, 'by' => $a['by'] ?? ''], JSON_UNESCAPED_UNICODE)); $last = "$code/$kind: " . $e[0]; continue; }
+    if ($e) { file_put_contents($f, json_encode(['ok' => false, 'tries' => ($r['tries'] ?? 0) + (isset($a['err']) && (str_contains($a['err'], 'no_time') || str_contains($a['err'], 'unavailable')) ? 0 : 1), 'errors' => $e, 'by' => $a['by'] ?? ''], JSON_UNESCAPED_UNICODE)); $last = "$code/$kind: " . $e[0]; continue; }
     $o = ['title' => trim($o['title']), 'tags' => array_map('trim', $o['tags']), 'headline' => trim($o['headline']), 'features' => array_map('strval', $o['features']), 'description' => trim($o['description'])];
     file_put_contents($f, json_encode(['ok' => true, 'out' => $o, 'by' => $a['by'] ?? '', 'at' => gmdate('c')], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)); $done++;
 }
