@@ -1,0 +1,547 @@
+{
+    "v": 1,
+    "at": "2026-11-07T17:14:41+00:00",
+    "pubkey_pem": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA02mIAHSwPumamz75Ac3+\nN5G1yZx26df1PaWGilaxCIWI/NsRMUzV5LTo49a5V+Bb9d1HHH+aa03UcarcogEu\nnz0fC+oH7cm6oRqsHC6J5gVkZoVjvbcrTuK4UQnVbt/AjjUxtnrGQCQ9rK3cAOwM\n/pKe6t9lXyJ3U3N62enX2BarXdRBs6m3ZFh83bw/arKcfi3DooyYQE08vh9lI7UB\n+vsze3pCmbHkxYxy7eagBVBle3m+o5aYpN93N6nxygddc/DCvUKOowmXvLjGXvLC\nFa0/oIg0X8zVHebgCj8KNjk/q3iyyrrZvE0t2VYfWD1tZcM+onJwuubEaRoirRZr\nGthQJ3WkdoIURmTgqMcjElV/47Xr/z2QprJCvzoty3101pjsutu/E3Gq8D0d29dr\n//MfroeRfw8MtqAdRbHN1AEz/IAo4UziA50yXtMHRgKdLFJZf2bsmUsfBs/1BKxj\nfRfaOUr40Tsb25C1di8N2iIRz+aCdlxOWDalarSbeqTpAgMBAAE=\n-----END PUBLIC KEY-----\n",
+    "suites": [
+        {
+            "key": "fx-20261107-0804-daycare-center",
+            "profession": "Daycare center",
+            "of": 5,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-0804-daycare-center",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-0930-family-office",
+            "profession": "Family office",
+            "of": 5,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-0930-family-office",
+                    "part": 1,
+                    "status": "ready",
+                    "sha": "c4696520eac4ecd252aededba1bef2102197eaf11e0ed53544fed042f459c2aa"
+                },
+                {
+                    "id": "fx-20261107-0930-family-office-p2",
+                    "part": 2,
+                    "status": "ready",
+                    "sha": "d90fb2ced3d83fd8f642d5994a768329d2f7ca7099330d29a78767632acf95c6"
+                },
+                {
+                    "id": "fx-20261107-0930-family-office-p3",
+                    "part": 3,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-0930-family-office-p4",
+                    "part": 4,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-0930-family-office-p5",
+                    "part": 5,
+                    "status": "work",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1426-dropshipping-store",
+            "profession": "Dropshipping store",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1426-dropshipping-store",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1426-flower-farm",
+            "profession": "Flower farm",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1426-flower-farm",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1426-tattoo-studio",
+            "profession": "Tattoo studio",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1426-tattoo-studio",
+                    "part": 1,
+                    "status": "ready",
+                    "sha": "12aa5a1b779bdc877fd7ae73507e944ab2ea315cd2f898dc34c3ab8ea2c5bf76"
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1426-cafe",
+            "profession": "Cafe",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1426-cafe",
+                    "part": 1,
+                    "status": "work",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1426-small-business-lender",
+            "profession": "Small business lender",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1426-small-business-lender",
+                    "part": 1,
+                    "status": "work",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1426-waste-collection-company",
+            "profession": "Waste collection company",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1426-waste-collection-company",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1426-waste-collection-company-p2",
+                    "part": 2,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1426-waste-collection-company-p3",
+                    "part": 3,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1611-home-healthcare-agency",
+            "profession": "Home healthcare agency",
+            "of": 4,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1611-home-healthcare-agency",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1620-home-healthcare-agency",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1620-home-healthcare-agency",
+            "profession": "Home healthcare agency",
+            "of": 4,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1611-home-healthcare-agency",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1620-home-healthcare-agency",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1621-trucking-company",
+            "profession": "Trucking company",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1621-trucking-company",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1637-trucking-company",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1624-auto-body-shop",
+            "profession": "Auto body shop",
+            "of": 4,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1624-auto-body-shop",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1624-auto-body-shop-p2",
+                    "part": 2,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1635-self-published-author",
+            "profession": "Self-published author",
+            "of": 4,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1635-self-published-author",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1636-self-published-author",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1636-self-published-author",
+            "profession": "Self-published author",
+            "of": 2,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1635-self-published-author",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1636-self-published-author",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1637-car-rental-agency",
+            "profession": "Car rental agency",
+            "of": 4,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1637-car-rental-agency",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1637-car-rental-agency-p2",
+                    "part": 2,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1637-trucking-company",
+            "profession": "Trucking company",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1621-trucking-company",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1637-trucking-company",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1638-videographer",
+            "profession": "Videographer",
+            "of": 4,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1638-videographer",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1638-videographer-p2",
+                    "part": 2,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1641-plumber",
+            "profession": "Plumber",
+            "of": 2,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1641-plumber",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1648-plumber",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1642-after-school-program",
+            "profession": "After-school program",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1642-after-school-program",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1651-after-school-program",
+                    "part": 1,
+                    "status": "work",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1642-3d-printing-service",
+            "profession": "3D printing service",
+            "of": 4,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1642-3d-printing-service",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1645-3d-printing-service",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1645-3d-printing-service",
+            "profession": "3D printing service",
+            "of": 2,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1642-3d-printing-service",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1645-3d-printing-service",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1648-plumber",
+            "profession": "Plumber",
+            "of": 2,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1641-plumber",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1648-plumber",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1649-medical-spa",
+            "profession": "Medical spa",
+            "of": 5,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1649-medical-spa",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1649-medical-spa-p2",
+                    "part": 2,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1649-medical-spa-p3",
+                    "part": 3,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1651-after-school-program",
+            "profession": "After-school program",
+            "of": 4,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1642-after-school-program",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1651-after-school-program",
+                    "part": 1,
+                    "status": "work",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1657-video-editor",
+            "profession": "Video editor",
+            "of": 4,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1657-video-editor",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1657-video-editor-p2",
+                    "part": 2,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1657-video-editor-p3",
+                    "part": 3,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1657-video-editor-p4",
+                    "part": 4,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1659-company-fleet-manager",
+            "profession": "Company fleet manager",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1659-company-fleet-manager",
+                    "part": 1,
+                    "status": "dropped",
+                    "sha": ""
+                },
+                {
+                    "id": "fx-20261107-1659-company-fleet-manager-p2",
+                    "part": 2,
+                    "status": "dropped",
+                    "sha": ""
+                }
+            ]
+        },
+        {
+            "key": "fx-20261107-1706-social-media-manager",
+            "profession": "Social media manager",
+            "of": 3,
+            "listing": false,
+            "parts": [
+                {
+                    "id": "fx-20261107-1706-social-media-manager",
+                    "part": 1,
+                    "status": "work",
+                    "sha": ""
+                }
+            ]
+        }
+    ]
+}
