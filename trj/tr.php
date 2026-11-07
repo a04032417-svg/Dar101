@@ -27,7 +27,7 @@ $check = function (array $c, $o, string $code) use ($ph, $names): array {
         $g = $o[$sec] ?? null; if (!is_array($g) || array_values($g) !== $g) { $e[] = "section \"$sec\" missing or not an array"; continue; }
         if (count($g) !== count($items)) { $e[] = "section \"$sec\": " . count($g) . ' strings, ' . count($items) . ' expected (one per input item, same order)'; continue; }
         foreach ($items as $i => [$k, $en]) {
-            $v = $g[$i]; if (!is_string($v) || trim($v) === '') { $e[] = "$sec[$i] ($k) empty"; continue; }
+            $v = $g[$i]; if (!is_string($v) || trim($v) === '') { $e[] = "{$sec}[{$i}] ({$k}) empty — translate it (a proper name may stay as it is), never leave it empty"; continue; }
             if ($ph($v) !== $ph($en)) $e[] = "$sec[$i] ($k): keep exactly the placeholders " . implode(' ', $ph($en) ?: ['(none)']) . ' — got: ' . mb_substr($v, 0, 80);
             if (str_starts_with($en, '★') && !str_starts_with(ltrim($v), '★')) $e[] = "$sec[$i] ($k) must start with ★";
         }
@@ -58,13 +58,15 @@ $done = 0; $total = 0; $fail = []; $calls = 0; $last = '';
 $order = []; foreach ($job['chunks'] as $c) foreach ($langs as $code => $ln) $order[] = [$code, $c]; // (every language's tab names first: the rest uses them)
 foreach ($order as [$code, $c]) {
     $total++; $r = $get($code, $c['id']); if ($r && !empty($r['ok'])) { $done++; continue; }
-    if (($r['tries'] ?? 0) >= 8) { $fail[] = "$code/{$c['id']}: " . implode(' | ', array_slice($r['errors'] ?? [], 0, 3)); continue; }
+    if (($r['tries'] ?? 0) >= 14) { $fail[] = "$code/{$c['id']}: " . implode(' | ', array_slice($r['errors'] ?? [], 0, 3)); continue; }
     if (empty($c['sheets'])) { $z = $get($code, $c['kind'] . '-0'); if (!$z || empty($z['ok'])) continue; }
     if ($c['kind'] === 'dev' && !empty($c['sheets'])) { $z = $get($code, 'pro-0'); if (!$z || empty($z['ok'])) continue; }
     if ($left() < 75) continue;
-    $usr = json_encode(['hints' => $c['hints'], 'texts' => $c['texts']], JSON_UNESCAPED_UNICODE) . "\nTranslate now. One JSON object only." . (!empty($r['errors']) ? "\nYour previous answer was refused: " . implode('; ', array_slice($r['errors'], 0, 12)) : '');
+    $send = $c['texts']; foreach ($send as $sk => $items) foreach ($items as $ii => [$kk, $en]) if (str_starts_with($en, '★')) $send[$sk][$ii][1] = ltrim(mb_substr($en, 1)); // (the ★ is put back after: models drop starred texts)
+    $usr = json_encode(['hints' => $c['hints'], 'texts' => $send], JSON_UNESCAPED_UNICODE) . "\nTranslate now. One JSON object only." . (!empty($r['errors']) ? "\nYour previous answer was refused: " . implode('; ', array_slice($r['errors'], 0, 12)) : '');
     $a = fx_ai($prompt($c, $code, $langs[$code]), $usr, 'standard', 7000, (int)min(150, $left() - 10), ['temp' => 0.3]); $calls++;
     $o = $a['j'] ?? null; if (is_array($o) && isset($o['texts']) && is_array($o['texts']) && count($o) <= 2) $o = $o['texts'];
+    if (is_array($o)) foreach ($c['texts'] as $sk => $items) foreach ($items as $ii => [$kk, $en]) if (str_starts_with($en, '★') && isset($o[$sk][$ii]) && is_string($o[$sk][$ii]) && trim($o[$sk][$ii]) !== '' && !str_starts_with(ltrim($o[$sk][$ii]), '★')) $o[$sk][$ii] = '★ ' . ltrim($o[$sk][$ii]);
     $e = isset($a['err']) ? ['ai: ' . $a['err']] : $check($c, $o, $code);
     if ($e) { $put($code, $c['id'], ['ok' => false, 'tries' => ($r['tries'] ?? 0) + (isset($a['err']) && str_contains($a['err'], 'no_time') ? 0 : 1), 'errors' => $e, 'by' => $a['by'] ?? '']); $last = "$code/{$c['id']}: " . $e[0]; continue; }
     $put($code, $c['id'], ['ok' => true, 'out' => $o, 'by' => $a['by'] ?? '', 'at' => gmdate('c')]); $done++;
