@@ -9,7 +9,7 @@ $lk = fopen("$here/aichk.lock", 'c'); if (!flock($lk, LOCK_EX | LOCK_NB)) { echo
 chdir($site); $_SERVER['REQUEST_TIME_FLOAT'] = microtime(true); $argv = ['dar-sync.php', 'job']; $argc = 2;
 require $site . '/dar-sync.php';
 $T0 = time(); $left = fn() => 230 - (time() - $T0);
-$sf = "$here/aichk-state.json"; $S = is_file($sf) ? (json_decode(file_get_contents($sf), true) ?: []) : []; $S['keys'] = $S['keys'] ?? [];
+$sf = "$here/aichk-state-" . (defined("SYNC_VERSION") ? SYNC_VERSION : "x") . ".json"; $S = is_file($sf) ? (json_decode(file_get_contents($sf), true) ?: []) : []; $S['keys'] = $S['keys'] ?? [];
 $cfg = ai_cfg(); $big = str_repeat("A real-estate office tracks clients, listings, viewings, deals, rentals and commissions in one workbook. ", 260); // (~6,000 tokens)
 foreach ($cfg['order'] as $id) {
     $slots = ai_slots($cfg, $id); if (!$slots) continue;
@@ -17,13 +17,14 @@ foreach ($cfg['order'] as $id) {
         $nm = "$id#" . ($i + 1); if (isset($S['keys'][$nm]['done'])) continue; if ($left() < 45) break 2;
         $st = ai_key_state($cfg, $slot); $open = ai_is_open($slot); $key = $open ? '' : (string)(vault_get($slot) ?? '');
         $row = ['provider' => $id, 'n' => $i + 1, 'enabled' => (bool)($cfg['providers'][$id]['enabled'] ?? false), 'open' => $open, 'resting_until' => (int)($st['rest_until'] ?? 0) > time() ? gmdate('c', (int)$st['rest_until']) : '', 'empty_key' => !$open && $key === ''];
+        $cfgK = $cfg; if ($id === 'cloudflare' && !$open && function_exists('ai_cf_base')) { $tmp = $cfg; ai_cf_base($tmp, $slot, $key); if (isset($tmp['kbase'][$slot])) { $cfgK['providers'][$id]['base'] = $tmp['kbase'][$slot]; $row['own_account'] = true; } } // (3.34.3: each Cloudflare key with its own account — read here, saved by Dar itself)
         foreach (['standard', 'deep'] as $tier) {
             $m = ai_model($cfg, $id, $tier); if ($m === '' || ($tier === 'deep' && $m === ai_model($cfg, $id, 'standard'))) continue;
-            $t = microtime(true); $r = ai_try($cfg, $id, $key, $m, [['role' => 'user', 'content' => 'Reply with the single word: OK']], ['max_tokens' => 64, 'temperature' => 0], 25);
+            $t = microtime(true); $r = ai_try($cfgK, $id, $key, $m, [['role' => 'user', 'content' => 'Reply with the single word: OK']], ['max_tokens' => 64, 'temperature' => 0], 25);
             $row[$tier] = ['model' => $m, 'code' => (int)$r['code'], 'ms' => (int)round((microtime(true) - $t) * 1000), 'ok' => $r['code'] >= 200 && $r['code'] < 300 && trim((string)$r['text']) !== '', 'err' => mb_substr((string)preg_replace('/(sk|gsk|AIza|key)[-_A-Za-z0-9]{8,}/', '[key]', (string)$r['err']), 0, 160)];
         }
         if (($row['standard']['ok'] ?? false) && $left() > 60) { $m = ai_model($cfg, $id, 'standard'); $t = microtime(true);
-            $r = ai_try($cfg, $id, $key, $m, [['role' => 'user', 'content' => $big . "\nHow many sentences above? Answer with one number."]], ['max_tokens' => 64, 'temperature' => 0], 40);
+            $r = ai_try($cfgK, $id, $key, $m, [['role' => 'user', 'content' => $big . "\nHow many sentences above? Answer with one number."]], ['max_tokens' => 64, 'temperature' => 0], 40);
             $row['big'] = ['code' => (int)$r['code'], 'ms' => (int)round((microtime(true) - $t) * 1000), 'ok' => $r['code'] >= 200 && $r['code'] < 300, 'err' => mb_substr((string)preg_replace('/(sk|gsk|AIza|key)[-_A-Za-z0-9]{8,}/', '[key]', (string)$r['err']), 0, 160)]; }
         $row['done'] = 1; $S['keys'][$nm] = $row; file_put_contents($sf, json_encode($S, JSON_UNESCAPED_UNICODE));
     }
