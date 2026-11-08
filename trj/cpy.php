@@ -16,7 +16,7 @@ if (!is_array($job)) { echo "job?\n"; exit(1); }
 $st = "$here/cst"; @mkdir($st, 0700, true); $tok = substr(hash('sha256', $K . 'fxtr'), 0, 20); $pub = "$site/fxtr/$tok"; @mkdir($pub, 0755, true);
 $langs = $job['langs']; if ($only) $langs = array_intersect_key($langs, array_flip($only));
 const LENS = ['*' => ['t' => [25, 80], 'st' => 60, 'sd' => [110, 165], 'd' => [800, 1600]], 'zh' => ['t' => [10, 40], 'st' => 30, 'sd' => [45, 90], 'd' => [380, 900]]];
-const RULES = 4; // a failure under older rules gets fresh tries
+const RULES = 5; // a failure under older rules gets fresh tries
 $get = fn(string $f) => is_file($f) ? json_decode((string)file_get_contents($f), true) : null;
 $SCRIPT = ['ar' => '\p{Arabic}', 'fa' => '\p{Arabic}', 'ur' => '\p{Arabic}', 'ru' => '\p{Cyrillic}', 'hi' => '\p{Devanagari}', 'zh' => '\p{Han}'];
 $KEEP = ['Excel', 'WhatsApp', 'LibreOffice', 'Microsoft', 'ZIP', 'CRM', 'PRO', 'Real Estate', 'Toolkit', 'Charts', 'Dashboard'];
@@ -68,6 +68,7 @@ foreach ($langs as $code => $lname) foreach ($job['items'] as $kind => $it) fore
     if (($r['tries'] ?? 0) >= 8) { $fail[] = "$code/$kind/$part: " . implode(' | ', array_slice($r['errors'] ?? [], 0, 3)); continue; }
     if ($left() < 100) continue;
     $prev = !empty($r['errors']) ? "\nYour previous answer was refused for: " . implode('; ', array_slice($r['errors'], 0, 12)) . "\nFix every point." : '';
+    if ($part === 'L' && is_array($r['last'] ?? null)) $prev .= "\nYOUR PREVIOUS ANSWER (keep its best lines, cut it down to the limits — shorter sentences, fewer words):\n" . json_encode($r['last'], JSON_UNESCAPED_UNICODE);
     if ($part === 'L') { $N = LENS[$code] ?? LENS['*'];
         $punct = in_array($code, ['ar', 'fa', 'ur'], true) ? "\nPunctuation of the language: the Arabic comma «،» (never «,»), its own question mark." : ($code === 'zh' ? "\nChinese punctuation (，。：)." : '');
         $sys = "FX-STAGE: listing-science\nYou are the senior conversion copywriter of a premium template store, a native $lname speaker who knows how real-estate professionals of that market speak and search. "
@@ -103,7 +104,7 @@ foreach ($langs as $code => $lname) foreach ($job['items'] as $kind => $it) fore
         $e = isset($a['err']) ? ['ai: ' . $a['err']] : $chkC($o, $it['captions'], $code);
         if (!$e) $o = array_map(fn($s) => trim((string)$s), array_values($o));
     }
-    if ($e) { $soft = isset($a['err']) && preg_match('/no_time|unavailable|deadline/', (string)$a['err']); file_put_contents($f, json_encode(['ok' => false, 'tries' => ($r['tries'] ?? 0) + ($soft ? 0 : 1), 'rules' => RULES, 'errors' => $e, 'by' => $a['by'] ?? ''], JSON_UNESCAPED_UNICODE)); $last = "$code/$kind/$part: " . $e[0]; continue; }
+    if ($e) { $soft = isset($a['err']) && preg_match('/no_time|unavailable|deadline/', (string)$a['err']); file_put_contents($f, json_encode(['ok' => false, 'tries' => ($r['tries'] ?? 0) + ($soft ? 0 : 1), 'rules' => RULES, 'last' => ($part === 'L' && is_array($o ?? null)) ? $o : ($r['last'] ?? null), 'errors' => $e, 'by' => $a['by'] ?? ''], JSON_UNESCAPED_UNICODE)); $last = "$code/$kind/$part: " . $e[0]; continue; }
     file_put_contents($f, json_encode(['ok' => true, 'out' => $o, 'by' => $a['by'] ?? '', 'at' => gmdate('c')], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)); $done++;
 }
 $files = [];
