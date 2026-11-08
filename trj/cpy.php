@@ -41,6 +41,8 @@ $chkL = function ($o, array $it, string $code) use ($own): array {
     else { foreach ($tg as $t) if (!is_string($t) || trim($t) === '' || mb_strlen($t) > 20) $e[] = 'tag «' . (is_string($t) ? $t : '?') . '»: 1 to 20 characters';
         if (count(array_unique(array_map(fn($t) => mb_strtolower(trim((string)$t)), $tg))) !== 13) $e[] = 'tags: two are the same'; }
     if (!$own($o['title'] . ' ' . $o['headline'] . ' ' . $o['description'], $code)) $e[] = 'too much left in English — write it in the language (only Excel, WhatsApp, LibreOffice, Microsoft, ZIP, CRM stay)';
+    foreach (['title', 'headline', 'seo_title'] as $k) if (!$own($o[$k], $code)) $e[] = "$k: written in English — write it in the language of the buyer";
+    if ($code !== 'en') foreach (['title', 'headline', 'seo_title'] as $k) if (preg_match('/\b(Real Estate|Spreadsheet|Languages|Toolkit|Template|Developer|Agent|Feasibility|Tracker|Charts)\b/i', $o[$k])) $e[] = "$k: English words — use the words buyers of this market type in search (only Excel, CRM, WhatsApp stay)";
     return $e; };
 $chkC = function ($a, array $en, string $code) use ($own): array {
     if (!is_array($a) || array_is_list($a) === false) { if (is_array($a) && isset($a['captions']) && is_array($a['captions'])) $a = $a['captions']; else return ['answer with a JSON array of strings']; }
@@ -56,7 +58,9 @@ $chkC = function ($a, array $en, string $code) use ($own): array {
 $done = 0; $total = 0; $fail = []; $calls = 0; $last = '';
 foreach ($langs as $code => $lname) foreach ($job['items'] as $kind => $it) foreach (['L', 'C'] as $part) {
     if ($part === 'C' && $code === 'en') continue; // (the English picture texts are the reviewed originals)
-    $total++; $f = "$st/$code-$kind-$part.json"; $r = $get($f); if ($r && !empty($r['ok'])) { $done++; continue; }
+    $total++; $f = "$st/$code-$kind-$part.json"; $r = $get($f);
+    if ($r && !empty($r['ok']) && $part === 'L' && ($e0 = $chkL($r['out'], $it, $code))) { $r = ['ok' => false, 'tries' => 0, 'errors' => $e0]; file_put_contents($f, json_encode($r, JSON_UNESCAPED_UNICODE)); } // a newer rule re-reads earlier answers
+    if ($r && !empty($r['ok'])) { $done++; continue; }
     if (($r['tries'] ?? 0) >= 8) { $fail[] = "$code/$kind/$part: " . implode(' | ', array_slice($r['errors'] ?? [], 0, 3)); continue; }
     if ($left() < 100) continue;
     $prev = !empty($r['errors']) ? "\nYour previous answer was refused for: " . implode('; ', array_slice($r['errors'], 0, 12)) . "\nFix every point." : '';
