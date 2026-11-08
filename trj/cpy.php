@@ -15,6 +15,8 @@ $jb = (string)@file_get_contents("$here/cjob.bin"); $job = json_decode((string)o
 if (!is_array($job)) { echo "job?\n"; exit(1); }
 $st = "$here/cst"; @mkdir($st, 0700, true); $tok = substr(hash('sha256', $K . 'fxtr'), 0, 20); $pub = "$site/fxtr/$tok"; @mkdir($pub, 0755, true);
 $langs = $job['langs']; if ($only) $langs = array_intersect_key($langs, array_flip($only));
+const LENS = ['*' => ['t' => [25, 80], 'st' => 60, 'sd' => [110, 165], 'd' => [800, 1600]], 'zh' => ['t' => [10, 40], 'st' => 30, 'sd' => [45, 90], 'd' => [380, 900]]];
+const RULES = 3; // a failure under older rules gets fresh tries
 $get = fn(string $f) => is_file($f) ? json_decode((string)file_get_contents($f), true) : null;
 $SCRIPT = ['ar' => '\p{Arabic}', 'fa' => '\p{Arabic}', 'ur' => '\p{Arabic}', 'ru' => '\p{Cyrillic}', 'hi' => '\p{Devanagari}', 'zh' => '\p{Han}'];
 $KEEP = ['Excel', 'WhatsApp', 'LibreOffice', 'Microsoft', 'ZIP', 'CRM', 'PRO', 'Real Estate', 'Toolkit', 'Charts', 'Dashboard'];
@@ -26,10 +28,11 @@ $chkL = function ($o, array $it, string $code) use ($own): array {
     foreach (['title', 'headline', 'description', 'seo_title', 'seo_description'] as $k) if (!is_string($o[$k] ?? null) || trim($o[$k]) === '') $e[] = "\"$k\" missing";
     if ($e) return $e;
     $L = fn($k) => mb_strlen(trim($o[$k]));
-    if ($L('title') > 80 || $L('title') < 25) $e[] = 'title: ' . $L('title') . ' characters — 25 to 80';
-    if ($L('headline') > 80 || $L('headline') < 25) $e[] = 'headline: ' . $L('headline') . ' characters — one complete sentence of 25 to 80';
-    if ($L('seo_title') > 60) $e[] = 'seo_title: at most 60 characters'; if ($L('seo_description') < 110 || $L('seo_description') > 165) $e[] = 'seo_description: 110 to 165 characters';
-    if ($L('description') < 800 || $L('description') > 1600) $e[] = 'description: ' . $L('description') . ' characters — 800 to 1600';
+    $N = LENS[$code] ?? LENS['*']; // Chinese says in one character what a Latin script says in three
+    if ($L('title') > $N['t'][1] || $L('title') < $N['t'][0]) $e[] = 'title: ' . $L('title') . " characters — {$N['t'][0]} to {$N['t'][1]}";
+    if ($L('headline') > $N['t'][1] || $L('headline') < $N['t'][0]) $e[] = 'headline: ' . $L('headline') . " characters — one complete sentence of {$N['t'][0]} to {$N['t'][1]}";
+    if ($L('seo_title') > $N['st']) $e[] = "seo_title: at most {$N['st']} characters"; if ($L('seo_description') < $N['sd'][0] || $L('seo_description') > $N['sd'][1]) $e[] = "seo_description: {$N['sd'][0]} to {$N['sd'][1]} characters";
+    if ($L('description') < $N['d'][0] || $L('description') > $N['d'][1]) $e[] = 'description: ' . $L('description') . " characters — {$N['d'][0]} to {$N['d'][1]}";
     foreach (['title', 'headline', 'description', 'seo_title', 'seo_description'] as $k) if (preg_match('/…|\.\.\./u', $o[$k])) $e[] = "$k: no ellipsis — every sentence complete";
     if (preg_match_all('/[,،，、]/u', $o['title']) > 1) $e[] = 'title: a list of words separated by commas is refused — one search phrase, then one benefit (at most one separator – or :)';
     if (in_array($code, ['ar', 'fa', 'ur'], true)) foreach (['title', 'headline', 'description'] as $k) if (preg_match('/[A-Za-z0-9\p{Arabic}\s]\s*,\s*[\p{Arabic}]/u', $o[$k])) $e[] = "$k: use the Arabic comma «،», never «,»";
@@ -59,25 +62,26 @@ $done = 0; $total = 0; $fail = []; $calls = 0; $last = '';
 foreach ($langs as $code => $lname) foreach ($job['items'] as $kind => $it) foreach (['L', 'C'] as $part) {
     if ($part === 'C' && $code === 'en') continue; // (the English picture texts are the reviewed originals)
     $total++; $f = "$st/$code-$kind-$part.json"; $r = $get($f);
-    if ($r && !empty($r['ok']) && $part === 'L' && ($e0 = $chkL($r['out'], $it, $code))) { $r = ['ok' => false, 'tries' => 0, 'errors' => $e0]; file_put_contents($f, json_encode($r, JSON_UNESCAPED_UNICODE)); } // a newer rule re-reads earlier answers
+    if ($r && !empty($r['ok']) && $part === 'L' && ($e0 = $chkL($r['out'], $it, $code))) { $r = ['ok' => false, 'tries' => 0, 'rules' => RULES, 'errors' => $e0]; file_put_contents($f, json_encode($r, JSON_UNESCAPED_UNICODE)); } // a newer rule re-reads earlier answers
     if ($r && !empty($r['ok'])) { $done++; continue; }
+    if ($r && empty($r['ok']) && ($r['rules'] ?? 1) < RULES) $r['tries'] = 0;
     if (($r['tries'] ?? 0) >= 8) { $fail[] = "$code/$kind/$part: " . implode(' | ', array_slice($r['errors'] ?? [], 0, 3)); continue; }
     if ($left() < 100) continue;
     $prev = !empty($r['errors']) ? "\nYour previous answer was refused for: " . implode('; ', array_slice($r['errors'], 0, 12)) . "\nFix every point." : '';
-    if ($part === 'L') {
+    if ($part === 'L') { $N = LENS[$code] ?? LENS['*'];
         $punct = in_array($code, ['ar', 'fa', 'ur'], true) ? "\nPunctuation of the language: the Arabic comma «،» (never «,»), its own question mark." : ($code === 'zh' ? "\nChinese punctuation (，。：)." : '');
         $sys = "FX-STAGE: listing-science\nYou are the senior conversion copywriter of a premium template store, a native $lname speaker who knows how real-estate professionals of that market speak and search. "
             . "Write the store listing of this digital product for $lname-speaking buyers — written from scratch for that market, NOT a translation — applying research-based persuasion:\n"
             . "1. PAS (Problem, Agitate, Solution) in the opening: name the buyer's daily pain concretely, let the cost of doing nothing be felt (loss aversion, Kahneman & Tversky), then present the product as the way out.\n"
             . "2. AIDA for the whole description: Attention (the opening), Interest (what changes for the buyer), Desire (benefits with exact numbers), Action (one calm, clear next step at the end).\n"
-            . "3. Headline by the 4U rule: useful, unique, ultra-specific (urgent only if true). One complete sentence, 25 to 80 characters, never cut, no ellipsis.\n"
+            . "3. Headline by the 4U rule: useful, unique, ultra-specific (urgent only if true). One complete sentence, {$N['t'][0]} to {$N['t'][1]} characters, never cut, no ellipsis.\n"
             . "4. Specificity effect: use the exact numbers of the facts (sheets, charts, gauges, languages, steps) — specific claims are believed, vague ones are not.\n"
             . "5. Benefit before feature (jobs to be done): each bullet starts with what the buyer gains, then the feature that gives it.\n"
             . "6. Processing fluency: short sentences, the everyday words of that market's professionals, one idea per line.\n"
             . "7. Serial-position effect: the strongest benefit first, the second strongest last.\n"
             . "8. Honest authority (Cialdini without manipulation): authority only through concrete facts. NO invented reviews, ratings, buyer counts, awards, guarantees, discounts, deadlines or scarcity.\n"
-            . "9. Search: the main phrase that market's buyers type into a marketplace search comes in the first 40 characters of the title; title 25 to 80 characters; at most ONE separator (– or :) — never a comma list of keywords.\n"
-            . "Fields: title; headline; description (800 to 1600 characters: the PAS opening paragraph, a blank line, 5 to 7 bullets starting with «• », a blank line, one line on what the buyer receives (the ZIP, the 15 languages, the demo copy, Excel 2019/2021/Microsoft 365 or LibreOffice), and a closing call to action); seo_title (at most 60); seo_description (110 to 165); tags (13 different search phrases of that market, at most 20 characters each).\n"
+            . "9. Search: the main phrase that market's buyers type into a marketplace search comes in the first 40 characters of the title; title {$N['t'][0]} to {$N['t'][1]} characters; at most ONE separator (– or :) — never a comma list of keywords.\n"
+            . "Fields: title; headline; description ({$N['d'][0]} to {$N['d'][1]} characters: the PAS opening paragraph, a blank line, 5 to 7 bullets starting with «• », a blank line, one line on what the buyer receives (the ZIP, the 15 languages, the demo copy, Excel 2019/2021/Microsoft 365 or LibreOffice), and a closing call to action); seo_title (at most {$N['st']}); seo_description ({$N['sd'][0]} to {$N['sd'][1]}); tags (13 different search phrases of that market, at most 20 characters each).\n"
             . "Keep as they are: Excel, WhatsApp, LibreOffice, Microsoft 365, ZIP. Numbers as digits.$punct\n"
             . "Use ONLY the facts given — add no feature and no claim. Answer with ONE JSON object: {\"title\":\"…\",\"headline\":\"…\",\"description\":\"…\",\"seo_title\":\"…\",\"seo_description\":\"…\",\"tags\":[13]}.";
         $usr = "PRODUCT: " . $it['name'] . "\nPRICE: USD 29, one payment, instant download.\nTHE VERIFIED FACTS (an earlier English listing — its facts are true, its style is not to be copied):\n" . json_encode($it['facts'], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . "\nWrite the $lname listing now. One JSON object only.$prev";
@@ -97,7 +101,7 @@ foreach ($langs as $code => $lname) foreach ($job['items'] as $kind => $it) fore
         $e = isset($a['err']) ? ['ai: ' . $a['err']] : $chkC($o, $it['captions'], $code);
         if (!$e) $o = array_map(fn($s) => trim((string)$s), array_values($o));
     }
-    if ($e) { $soft = isset($a['err']) && preg_match('/no_time|unavailable|deadline/', (string)$a['err']); file_put_contents($f, json_encode(['ok' => false, 'tries' => ($r['tries'] ?? 0) + ($soft ? 0 : 1), 'errors' => $e, 'by' => $a['by'] ?? ''], JSON_UNESCAPED_UNICODE)); $last = "$code/$kind/$part: " . $e[0]; continue; }
+    if ($e) { $soft = isset($a['err']) && preg_match('/no_time|unavailable|deadline/', (string)$a['err']); file_put_contents($f, json_encode(['ok' => false, 'tries' => ($r['tries'] ?? 0) + ($soft ? 0 : 1), 'rules' => RULES, 'errors' => $e, 'by' => $a['by'] ?? ''], JSON_UNESCAPED_UNICODE)); $last = "$code/$kind/$part: " . $e[0]; continue; }
     file_put_contents($f, json_encode(['ok' => true, 'out' => $o, 'by' => $a['by'] ?? '', 'at' => gmdate('c')], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)); $done++;
 }
 $files = [];
