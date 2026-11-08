@@ -24,15 +24,15 @@ $chk = function ($o, string $code) use ($EN, $own): array {
     if (!is_array($o)) return ['answer with one JSON object'];
     $e = [];
     foreach ($EN as $k => $s) { $t = $o[$k] ?? null;
-        if (!is_string($t) || trim($t) === '') { $e[] = "«$k» missing"; continue; }
+        if (!is_string($t) || trim($t) === '') { $e[] = "«{$k}» missing"; continue; }
         preg_match_all('/\{[a-z_]+\}/', $s, $a); preg_match_all('/\{[a-z_]+\}/', $t, $b); sort($a[0]); sort($b[0]);
-        if ($a[0] !== $b[0]) $e[] = "«$k»: keep exactly the placeholders " . (implode(' ', $a[0]) ?: '(none)') . ' untranslated';
-        if (substr_count($s, '<b>') !== substr_count($t, '<b>') || substr_count($s, '</b>') !== substr_count($t, '</b>')) $e[] = "«$k»: keep the <b>…</b> tags";
-        preg_match_all('/\d+/', $s, $m); foreach ($m[0] as $n) if (!preg_match('/(?<![0-9])' . $n . '(?![0-9])/u', $t)) $e[] = "«$k»: keep the number $n";
-        $lim = (int)ceil(mb_strlen(strip_tags($s)) * ($code === 'zh' ? 1.0 : 1.45)) + 10; if (mb_strlen(strip_tags($t)) > $lim) $e[] = "«$k»: too long for the picture";
-        if (mb_strlen($s) > 20 && !$own($t, $code)) $e[] = "«$k»: write it in the language";
-        if (preg_match('/…|\.\.\./u', $t)) $e[] = "«$k»: no ellipsis"; }
-    foreach (array_keys($o) as $k) if (!isset($EN[$k])) { $e[] = "unknown key «$k»"; break; }
+        if ($a[0] !== $b[0]) $e[] = "«{$k}»: keep exactly the placeholders " . (implode(' ', $a[0]) ?: '(none)') . ' untranslated';
+        if (substr_count($s, '<b>') !== substr_count($t, '<b>') || substr_count($s, '</b>') !== substr_count($t, '</b>')) $e[] = "«{$k}»: keep the <b>…</b> tags";
+        preg_match_all('/\d+/', $s, $m); foreach ($m[0] as $n) if (!preg_match('/(?<![0-9])' . $n . '(?![0-9])/u', $t)) $e[] = "«{$k}»: keep the number $n";
+        $lim = (int)ceil(mb_strlen(strip_tags($s)) * ($code === 'zh' ? 1.0 : 1.45)) + 10; if (mb_strlen(strip_tags($t)) > $lim) $e[] = "«{$k}»: too long for the picture";
+        if (mb_strlen($s) > 20 && !$own($t, $code)) $e[] = "«{$k}»: write it in the language";
+        if (preg_match('/…|\.\.\./u', $t)) $e[] = "«{$k}»: no ellipsis"; }
+    foreach (array_keys($o) as $k) if (!isset($EN[$k])) { $e[] = "unknown key «{$k}»"; break; }
     return array_slice($e, 0, 16); };
 $done = 0; $calls = 0; $last = ''; $fail = [];
 foreach ($LN as $code => $lname) {
