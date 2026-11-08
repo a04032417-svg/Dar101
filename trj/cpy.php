@@ -15,8 +15,8 @@ $jb = (string)@file_get_contents("$here/cjob.bin"); $job = json_decode((string)o
 if (!is_array($job)) { echo "job?\n"; exit(1); }
 $st = "$here/cst"; @mkdir($st, 0700, true); $tok = substr(hash('sha256', $K . 'fxtr'), 0, 20); $pub = "$site/fxtr/$tok"; @mkdir($pub, 0755, true);
 $langs = $job['langs']; if ($only) $langs = array_intersect_key($langs, array_flip($only));
-const LENS = ['*' => ['t' => [25, 80], 'st' => 60, 'sd' => [110, 165], 'd' => [800, 1600]], 'zh' => ['t' => [10, 40], 'st' => 30, 'sd' => [45, 90], 'd' => [380, 900]]];
-const RULES = 5; // a failure under older rules gets fresh tries
+const LENS = ['*' => ['t' => [25, 80], 'st' => 60, 'sd' => [110, 165], 'd' => [800, 1600]], 'zh' => ['t' => [10, 40], 'st' => 30, 'sd' => [45, 90], 'd' => [380, 900]], 'ur' => ['t' => [18, 80], 'st' => 60, 'sd' => [90, 165], 'd' => [700, 1600]]];
+const RULES = 6; // a failure under older rules gets fresh tries
 $get = fn(string $f) => is_file($f) ? json_decode((string)file_get_contents($f), true) : null;
 $SCRIPT = ['ar' => '\p{Arabic}', 'fa' => '\p{Arabic}', 'ur' => '\p{Arabic}', 'ru' => '\p{Cyrillic}', 'hi' => '\p{Devanagari}', 'zh' => '\p{Han}'];
 $KEEP = ['Excel', 'WhatsApp', 'LibreOffice', 'Microsoft', 'ZIP', 'CRM', 'PRO', 'Real Estate', 'Toolkit', 'Charts', 'Dashboard'];
@@ -38,7 +38,7 @@ $chkL = function ($o, array $it, string $code) use ($own): array {
     if (in_array($code, ['ar', 'fa', 'ur'], true)) foreach (['title', 'headline', 'description'] as $k) if (preg_match('/[A-Za-z0-9\p{Arabic}\s]\s*,\s*[\p{Arabic}]/u', $o[$k])) $e[] = "$k: use the Arabic comma «،», never «,»";
     $b = substr_count($o['description'], '•'); if ($b < 4 || $b > 8) $e[] = "description: 4 to 8 bullets «•» (got $b)";
     foreach ($it['must'] as $n) if (!preg_match('/(?<![0-9])' . $n . '(?![0-9])/u', $o['description'])) $e[] = "description: the number $n is missing (write it as a digit)";
-    if (!str_contains($o['description'], 'Excel')) $e[] = 'description: keep the word «Excel»';
+    if (!str_contains($o['description'], 'Excel')) $e[] = 'description: write the product name «Excel» in Latin letters exactly (E-x-c-e-l), at least once — not transliterated';
     if ($code === 'en' && preg_match('/\b(reviews?|rated|stars?|best[- ]?selling|#1|guarantee[ds]?|limited time|discount|% off|bestseller)\b/i', $o['title'] . ' ' . $o['headline'] . ' ' . $o['description'])) $e[] = 'no reviews, ratings, rankings, guarantees, discounts or deadlines — they are not in the facts';
     $tg = $o['tags'] ?? null; if (!is_array($tg) || count($tg) !== 13) $e[] = 'tags: exactly 13 (got ' . (is_array($tg) ? count($tg) : 0) . ')';
     else { foreach ($tg as $t) if (!is_string($t) || trim($t) === '' || mb_strlen($t) > 20) $e[] = 'tag «' . (is_string($t) ? $t : '?') . '»: 1 to 20 characters';
