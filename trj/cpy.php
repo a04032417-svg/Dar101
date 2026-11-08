@@ -16,7 +16,7 @@ if (!is_array($job)) { echo "job?\n"; exit(1); }
 $st = "$here/cst"; @mkdir($st, 0700, true); $tok = substr(hash('sha256', $K . 'fxtr'), 0, 20); $pub = "$site/fxtr/$tok"; @mkdir($pub, 0755, true);
 $langs = $job['langs']; if ($only) $langs = array_intersect_key($langs, array_flip($only));
 const LENS = ['*' => ['t' => [25, 80], 'st' => 60, 'sd' => [110, 165], 'd' => [800, 1600]], 'zh' => ['t' => [10, 40], 'st' => 30, 'sd' => [45, 90], 'd' => [380, 900]]];
-const RULES = 3; // a failure under older rules gets fresh tries
+const RULES = 4; // a failure under older rules gets fresh tries
 $get = fn(string $f) => is_file($f) ? json_decode((string)file_get_contents($f), true) : null;
 $SCRIPT = ['ar' => '\p{Arabic}', 'fa' => '\p{Arabic}', 'ur' => '\p{Arabic}', 'ru' => '\p{Cyrillic}', 'hi' => '\p{Devanagari}', 'zh' => '\p{Han}'];
 $KEEP = ['Excel', 'WhatsApp', 'LibreOffice', 'Microsoft', 'ZIP', 'CRM', 'PRO', 'Real Estate', 'Toolkit', 'Charts', 'Dashboard'];
@@ -81,6 +81,8 @@ foreach ($langs as $code => $lname) foreach ($job['items'] as $kind => $it) fore
             . "7. Serial-position effect: the strongest benefit first, the second strongest last.\n"
             . "8. Honest authority (Cialdini without manipulation): authority only through concrete facts. NO invented reviews, ratings, buyer counts, awards, guarantees, discounts, deadlines or scarcity.\n"
             . "9. Search: the main phrase that market's buyers type into a marketplace search comes in the first 40 characters of the title; title {$N['t'][0]} to {$N['t'][1]} characters; at most ONE separator (– or :) — never a comma list of keywords.\n"
+            . ($code === 'zh' ? "Size guide (the checker counts characters): title at most 20 Chinese characters plus Excel/CRM; headline one sentence of at most 30 characters; opening paragraph at most 120 characters; each bullet at most 60 characters; the receive line at most 110; the call to action at most 40.\n"
+               : "Size guide (the checker counts characters, so stay well inside): title at most 9 words; headline one sentence of at most 11 words; opening paragraph at most 3 short sentences (350 characters); 6 bullets of ONE sentence each, at most 140 characters; the receive line at most 230 characters; the call to action at most 90 characters.\n")
             . "Fields: title; headline; description ({$N['d'][0]} to {$N['d'][1]} characters: the PAS opening paragraph, a blank line, 5 to 7 bullets starting with «• », a blank line, one line on what the buyer receives (the ZIP, the 15 languages, the demo copy, Excel 2019/2021/Microsoft 365 or LibreOffice), and a closing call to action); seo_title (at most {$N['st']}); seo_description ({$N['sd'][0]} to {$N['sd'][1]}); tags (13 different search phrases of that market, at most 20 characters each).\n"
             . "Keep as they are: Excel, WhatsApp, LibreOffice, Microsoft 365, ZIP. Numbers as digits.$punct\n"
             . "Use ONLY the facts given — add no feature and no claim. Answer with ONE JSON object: {\"title\":\"…\",\"headline\":\"…\",\"description\":\"…\",\"seo_title\":\"…\",\"seo_description\":\"…\",\"tags\":[13]}.";
