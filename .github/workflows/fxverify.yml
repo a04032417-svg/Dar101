@@ -2,6 +2,7 @@
 # Every 2 hours: read Dar's feed (each spec encrypted for this worker's key alone), build every file of each ready suite in 15 languages,
 # recalculate each in LibreOffice and verify it strictly, draw the pictures, and post the result on branch fx: the suite's package
 # encrypted for Dar, or each failing file with its errors (Dar repairs it and learns the lesson). Claude reviews what passed and publishes.
+# 2026-11-09: fxstatus.py also writes fx/status.json (work for Claude: yes/no + reasons), so Claude's watcher reads one small file.
 name: fxverify
 on:
   schedule: [{ cron: '23 */2 * * *' }]
@@ -30,4 +31,5 @@ jobs:
         run: |
           [ -n "$FX_VERIFY_KEY" ] || { echo "no FX_VERIFY_KEY secret"; exit 1; }
           python3 runtime/verifier.py "$PWD" | tee /tmp/v.log
+          if [ -f runtime/fxstatus.py ]; then python3 runtime/fxstatus.py "$PWD" || echo "status file skipped"; fi
           if [ -n "$(git status --porcelain)" ]; then python3 runtime/fx.py push . "fxverify: $(tail -1 /tmp/v.log | cut -c1-200)"; else echo "nothing new"; fi
