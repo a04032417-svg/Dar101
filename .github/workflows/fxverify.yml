@@ -3,10 +3,16 @@
 # recalculate each in LibreOffice and verify it strictly, draw the pictures, and post the result on branch fx: the suite's package
 # encrypted for Dar, or each failing file with its errors (Dar repairs it and learns the lesson). Claude reviews what passed and publishes.
 # 2026-11-09: fxstatus.py also writes fx/status.json (work for Claude: yes/no + reasons), so Claude's watcher reads one small file.
+# 2026-11-09 (the owner: one specialised product every 3 hours; speed, quality, Excel files that really work): every hour instead of
+# every 2 — a run first asks `verifier.py --plan` whether anything is ready and skips LibreOffice and the build when not (about a
+# minute); each built suite's ZIP is checked by xlcheck.py against the rules Excel enforces and LibreOffice does not; on demand,
+# `audit_urls` checks ZIPs already on sale the same way (fx/xlcheck/audit.json).
 name: fxverify
 on:
-  schedule: [{ cron: '23 */2 * * *' }]
+  schedule: [{ cron: '23 * * * *' }]
   workflow_dispatch:
+    inputs:
+      audit_urls: { description: 'ZIP URLs already on sale to check with xlcheck (space-separated)', required: false, default: '' }
 permissions:
   contents: write
 concurrency: { group: fxverify, cancel-in-progress: false }
@@ -17,7 +23,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { ref: fx, fetch-depth: 1 }
+      - name: anything to build?
+        id: plan
+        env:
+          FX_FEED: https://dar.ink/fxv/6c5b0240f916684723f4
+        run: echo "n=$(python3 runtime/verifier.py --plan "$PWD" 2>/dev/null || echo 1)" >> "$GITHUB_OUTPUT"
       - name: tools (LibreOffice, fonts, Python)
+        if: steps.plan.outputs.n != '0'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq --no-install-recommends libreoffice-calc fonts-liberation fonts-dejavu fonts-noto-core fonts-noto-cjk fonts-inter poppler-utils >/dev/null
@@ -25,11 +37,24 @@ jobs:
           pip install -q openpyxl cryptography pillow playwright
           python -m playwright install --with-deps chromium >/dev/null
       - name: verify what Dar prepared
+        if: steps.plan.outputs.n != '0'
         env:
           FX_VERIFY_KEY: ${{ secrets.FX_VERIFY_KEY }}
           FX_FEED: https://dar.ink/fxv/6c5b0240f916684723f4
         run: |
           [ -n "$FX_VERIFY_KEY" ] || { echo "no FX_VERIFY_KEY secret"; exit 1; }
           python3 runtime/verifier.py "$PWD" | tee /tmp/v.log
+      - name: check ZIPs on sale (on demand)
+        if: github.event_name == 'workflow_dispatch' && inputs.audit_urls != ''
+        env:
+          URLS: ${{ inputs.audit_urls }}
+        run: |
+          mkdir -p /tmp/audit; i=0
+          for u in $URLS; do i=$((i+1)); curl -fsSL --max-time 300 -o "/tmp/audit/zip$i.zip" "$u" || echo "download failed: zip$i"; done
+          python3 runtime/xlcheck.py /tmp/audit/*.zip --json fx/xlcheck/audit.json | tee -a /tmp/v.log
+      - name: status file and push
+        env:
+          FX_FEED: https://dar.ink/fxv/6c5b0240f916684723f4
+        run: |
           if [ -f runtime/fxstatus.py ]; then python3 runtime/fxstatus.py "$PWD" || echo "status file skipped"; fi
-          if [ -n "$(git status --porcelain)" ]; then python3 runtime/fx.py push . "fxverify: $(tail -1 /tmp/v.log | cut -c1-200)"; else echo "nothing new"; fi
+          if [ -n "$(git status --porcelain)" ]; then python3 runtime/fx.py push . "fxverify: $(tail -1 /tmp/v.log 2>/dev/null | cut -c1-200)"; else echo "nothing new"; fi
