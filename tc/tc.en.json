@@ -4,7 +4,7 @@
  "slug": "teacher-gradebook-attendance-planner",
  "profession": "Classroom teacher",
  "name": "ClassMark Teacher Planner",
- "tagline": "Gradebook, attendance, lesson plans and parent messages in one Excel file",
+ "tagline": "Grades, attendance, support plans and parent messages in one Excel file",
  "price_usd": 29,
  "colors": {
   "primary": "#1F4E6E",
@@ -94,6 +94,30 @@
    "label": "Missing assignments that put a student at risk",
    "type": "int",
    "default": 2
+  },
+  {
+   "key": "late_penalty",
+   "label": "Share of the points taken off late work",
+   "type": "pct",
+   "default": 0.1
+  },
+  {
+   "key": "retake_cap",
+   "label": "Highest score a retake can earn",
+   "type": "pct",
+   "default": 0.85
+  },
+  {
+   "key": "drop_alert",
+   "label": "Fall in the 30-day average that triggers a warning",
+   "type": "pct",
+   "default": 0.08
+  },
+  {
+   "key": "reading_goal",
+   "label": "Reading minutes each student should log per month",
+   "type": "int",
+   "default": 300
   }
  ],
  "lists": [
@@ -404,6 +428,148 @@
     {
      "key": "owed",
      "label": "To be repaid"
+    },
+    {
+     "key": "falling",
+     "label": "Falling"
+    },
+    {
+     "key": "review",
+     "label": "Review due"
+    },
+    {
+     "key": "overdue",
+     "label": "Overdue"
+    }
+   ]
+  },
+  {
+   "key": "area",
+   "label": "Support Area",
+   "values": [
+    {
+     "key": "reading",
+     "label": "Reading"
+    },
+    {
+     "key": "maths",
+     "label": "Maths"
+    },
+    {
+     "key": "behavior",
+     "label": "Behavior"
+    },
+    {
+     "key": "attendance",
+     "label": "Attendance"
+    },
+    {
+     "key": "language",
+     "label": "Language"
+    },
+    {
+     "key": "wellbeing",
+     "label": "Wellbeing"
+    }
+   ]
+  },
+  {
+   "key": "iv_status",
+   "label": "Plan Status",
+   "values": [
+    {
+     "key": "active",
+     "label": "Active"
+    },
+    {
+     "key": "met",
+     "label": "Goal met"
+    },
+    {
+     "key": "changed",
+     "label": "Changed"
+    },
+    {
+     "key": "stopped",
+     "label": "Stopped"
+    }
+   ]
+  },
+  {
+   "key": "loan_type",
+   "label": "Item Type",
+   "values": [
+    {
+     "key": "book",
+     "label": "Book"
+    },
+    {
+     "key": "device",
+     "label": "Laptop or tablet"
+    },
+    {
+     "key": "calculator",
+     "label": "Calculator"
+    },
+    {
+     "key": "kit",
+     "label": "Lab or sports kit"
+    },
+    {
+     "key": "other",
+     "label": "Other"
+    }
+   ]
+  },
+  {
+   "key": "conf_status",
+   "label": "Meeting Status",
+   "values": [
+    {
+     "key": "booked",
+     "label": "Booked"
+    },
+    {
+     "key": "held",
+     "label": "Held"
+    },
+    {
+     "key": "missed",
+     "label": "Missed"
+    },
+    {
+     "key": "moved",
+     "label": "Moved"
+    }
+   ]
+  },
+  {
+   "key": "event_type",
+   "label": "Calendar Type",
+   "values": [
+    {
+     "key": "trip",
+     "label": "Trip"
+    },
+    {
+     "key": "event",
+     "label": "Class event"
+    },
+    {
+     "key": "meeting",
+     "label": "Staff meeting"
+    },
+    {
+     "key": "duty",
+     "label": "Duty"
+    },
+    {
+     "key": "deadline",
+     "label": "Deadline"
+    },
+    {
+     "key": "training",
+     "label": "Training"
     }
    ]
   }
@@ -542,6 +708,63 @@
      "width": 8
     },
     {
+     "key": "handed",
+     "label": "Work handed in",
+     "type": "calc",
+     "format": "pct",
+     "width": 10,
+     "visual": "up",
+     "formula": "IFERROR((COUNTIFS({range:scores.student},{col:st_id},{range:scores.status},{list:sub_status.submitted})+COUNTIFS({range:scores.student},{col:st_id},{range:scores.status},{list:sub_status.late}))/(COUNTIFS({range:scores.student},{col:st_id})-COUNTIFS({range:scores.student},{col:st_id},{range:scores.status},{list:sub_status.excused})),\"\")"
+    },
+    {
+     "key": "recent",
+     "label": "Average, last 30 days",
+     "type": "calc",
+     "format": "pct",
+     "width": 11,
+     "formula": "IFERROR(AVERAGEIFS({range:scores.pct},{range:scores.student},{col:st_id},{range:scores.due},\">=\"&({today}-29)),\"\")"
+    },
+    {
+     "key": "trend",
+     "label": "Trend",
+     "type": "calc",
+     "format": "text",
+     "width": 10,
+     "formula": "IF(AND(ISNUMBER({col:recent}),ISNUMBER({col:term})),IF({col:recent}<{col:term}-{set:drop_alert},{list:alert_level.falling},\"\"),\"\")"
+    },
+    {
+     "key": "merit",
+     "label": "Merit points",
+     "type": "calc",
+     "format": "int",
+     "width": 9,
+     "formula": "SUMIFS({range:behavior.points},{range:behavior.student},{col:st_id})"
+    },
+    {
+     "key": "reading_month",
+     "label": "Reading minutes this month",
+     "type": "calc",
+     "format": "int",
+     "width": 11,
+     "formula": "SUMIFS({range:reading.minutes},{range:reading.student},{col:st_id},{range:reading.date},\">=\"&(EOMONTH({today},-1)+1))"
+    },
+    {
+     "key": "plans",
+     "label": "Open support plans",
+     "type": "calc",
+     "format": "int",
+     "width": 10,
+     "formula": "COUNTIFS({range:interventions.student},{col:st_id},{range:interventions.status},{list:iv_status.active})"
+    },
+    {
+     "key": "comment",
+     "label": "Report card comment",
+     "type": "calc",
+     "format": "text",
+     "width": 40,
+     "formula": "IFERROR(INDEX({range:comments.text},MATCH({col:grade},{range:comments.grade},0)),\"\")"
+    },
+    {
      "key": "positives",
      "label": "Positive notes",
      "type": "calc",
@@ -586,6 +809,16 @@
      "column": "term",
      "when": "< {set:risk_mark}",
      "style": "bad"
+    },
+    {
+     "column": "trend",
+     "when": "= {list:alert_level.falling}",
+     "style": "bad"
+    },
+    {
+     "column": "reading_month",
+     "when": "< {set:reading_goal}",
+     "style": "warn"
     }
    ],
    "demo": [
@@ -1087,7 +1320,7 @@
    "key": "scores",
    "sheet": "Scores",
    "title": "Scores",
-   "hint": "One row per student per assignment. A missing piece of work counts as zero; an excused one is left out of the averages.",
+   "hint": "One row per student per assignment. Late work loses your penalty, missing work counts as zero, a retake counts when it is better (up to your cap) and excused work is left out.",
    "rows": 3000,
    "columns": [
     {
@@ -1115,6 +1348,12 @@
     {
      "key": "points",
      "label": "Points",
+     "type": "num",
+     "width": 9
+    },
+    {
+     "key": "retake",
+     "label": "Retake points",
      "type": "num",
      "width": 9
     },
@@ -1157,13 +1396,29 @@
      "formula": "IFERROR(INDEX({range:assignments.max},MATCH({col:assignment},{range:assignments.as_id},0)),\"\")"
     },
     {
+     "key": "due",
+     "label": "Due",
+     "type": "calc",
+     "format": "date",
+     "width": 11,
+     "formula": "IFERROR(INDEX({range:assignments.due},MATCH({col:assignment},{range:assignments.as_id},0)),\"\")"
+    },
+    {
+     "key": "standard",
+     "label": "Standard",
+     "type": "calc",
+     "format": "text",
+     "width": 10,
+     "formula": "IFERROR(INDEX({range:assignments.standard},MATCH({col:assignment},{range:assignments.as_id},0)),\"\")"
+    },
+    {
      "key": "pct",
      "label": "Score %",
      "type": "calc",
      "format": "pct",
      "width": 9,
      "visual": "up",
-     "formula": "IF({col:status}={list:sub_status.excused},\"\",IF({col:status}={list:sub_status.missing},0,IF(OR({col:points}=\"\",{col:max}=\"\",{col:max}=0),\"\",{col:points}/{col:max})))"
+     "formula": "IF({col:status}={list:sub_status.excused},\"\",IF(OR({col:max}=\"\",{col:max}=0),\"\",IF({col:status}={list:sub_status.missing},IF({col:retake}=\"\",0,MIN({col:retake},{set:retake_cap}*{col:max}))/{col:max},IF({col:points}=\"\",\"\",MAX(IF({col:status}={list:sub_status.late},{col:points}*(1-{set:late_penalty}),{col:points}),IF({col:retake}=\"\",0,MIN({col:retake},{set:retake_cap}*{col:max})))/{col:max}))))"
     }
    ],
    "alerts": [
@@ -1373,7 +1628,8 @@
      "assignment": "A-202",
      "status": "submitted",
      "points": 11.0,
-     "comment": ""
+     "comment": "",
+     "retake": 16
     },
     {
      "student": "S-105",
@@ -1625,7 +1881,8 @@
      "assignment": "A-203",
      "status": "submitted",
      "points": 13.0,
-     "comment": ""
+     "comment": "",
+     "retake": 23
     },
     {
      "student": "S-117",
@@ -1961,7 +2218,8 @@
      "assignment": "A-205",
      "status": "submitted",
      "points": 11.0,
-     "comment": "Show your working"
+     "comment": "Show your working",
+     "retake": 16
     },
     {
      "student": "S-117",
@@ -2129,7 +2387,8 @@
      "assignment": "A-206",
      "status": "submitted",
      "points": 27.0,
-     "comment": ""
+     "comment": "",
+     "retake": 39
     },
     {
      "student": "S-117",
@@ -2801,7 +3060,8 @@
      "assignment": "A-210",
      "status": "submitted",
      "points": 5.5,
-     "comment": ""
+     "comment": "",
+     "retake": 8
     },
     {
      "student": "S-117",
@@ -2969,7 +3229,8 @@
      "assignment": "A-211",
      "status": "submitted",
      "points": 10.5,
-     "comment": "Show your working"
+     "comment": "Show your working",
+     "retake": 16
     },
     {
      "student": "S-117",
@@ -3137,7 +3398,8 @@
      "assignment": "A-212",
      "status": "submitted",
      "points": 46.0,
-     "comment": ""
+     "comment": "",
+     "retake": 62
     },
     {
      "student": "S-117",
@@ -3473,7 +3735,8 @@
      "assignment": "A-214",
      "status": "submitted",
      "points": 10.5,
-     "comment": ""
+     "comment": "",
+     "retake": 16
     },
     {
      "student": "S-117",
@@ -6516,6 +6779,12 @@
      "width": 14
     },
     {
+     "key": "points",
+     "label": "Merit points",
+     "type": "int",
+     "width": 9
+    },
+    {
      "key": "note",
      "label": "What happened",
      "type": "text",
@@ -6554,210 +6823,240 @@
      "student": "S-101",
      "type": "positive",
      "note": "Helped a classmate with the lab",
-     "action": "Praised in class"
+     "action": "Praised in class",
+     "points": 2
     },
     {
      "date": "today-58",
      "student": "S-108",
      "type": "positive",
      "note": "Excellent questions during the lesson",
-     "action": "Merit point"
+     "action": "Merit point",
+     "points": 2
     },
     {
      "date": "today-56",
      "student": "S-115",
      "type": "minor",
      "note": "Talking during the test instructions",
-     "action": "Reminder"
+     "action": "Reminder",
+     "points": -1
     },
     {
      "date": "today-54",
      "student": "S-122",
      "type": "minor",
      "note": "Phone out in class",
-     "action": "Phone kept until the end of the day"
+     "action": "Phone kept until the end of the day",
+     "points": -1
     },
     {
      "date": "today-52",
      "student": "S-105",
      "type": "positive",
      "note": "Led the group project well",
-     "action": "Note home"
+     "action": "Note home",
+     "points": 2
     },
     {
      "date": "today-50",
      "student": "S-112",
      "type": "positive",
      "note": "Helped a classmate with the lab",
-     "action": "Praised in class"
+     "action": "Praised in class",
+     "points": 2
     },
     {
      "date": "today-48",
      "student": "S-119",
      "type": "minor",
      "note": "No homework three times",
-     "action": "Lunch catch-up session"
+     "action": "Lunch catch-up session",
+     "points": -1
     },
     {
      "date": "today-46",
      "student": "S-102",
      "type": "positive",
      "note": "Most improved this month",
-     "action": "Certificate"
+     "action": "Certificate",
+     "points": 2
     },
     {
      "date": "today-44",
      "student": "S-109",
      "type": "positive",
      "note": "Helped a classmate with the lab",
-     "action": "Praised in class"
+     "action": "Praised in class",
+     "points": 2
     },
     {
      "date": "today-42",
      "student": "S-116",
      "type": "positive",
      "note": "Excellent questions during the lesson",
-     "action": "Merit point"
+     "action": "Merit point",
+     "points": 2
     },
     {
      "date": "today-40",
      "student": "S-123",
      "type": "positive",
      "note": "Helped a classmate with the lab",
-     "action": "Praised in class"
+     "action": "Praised in class",
+     "points": 2
     },
     {
      "date": "today-38",
      "student": "S-106",
      "type": "minor",
      "note": "Phone out in class",
-     "action": "Phone kept until the end of the day"
+     "action": "Phone kept until the end of the day",
+     "points": -1
     },
     {
      "date": "today-36",
      "student": "S-113",
      "type": "positive",
      "note": "Led the group project well",
-     "action": "Note home"
+     "action": "Note home",
+     "points": 2
     },
     {
      "date": "today-34",
      "student": "S-120",
      "type": "major",
      "note": "Pushed another student",
-     "action": "Referred to the head of year"
+     "action": "Referred to the head of year",
+     "points": -3
     },
     {
      "date": "today-32",
      "student": "S-103",
      "type": "minor",
      "note": "No homework three times",
-     "action": "Lunch catch-up session"
+     "action": "Lunch catch-up session",
+     "points": -1
     },
     {
      "date": "today-30",
      "student": "S-110",
      "type": "positive",
      "note": "Helped a classmate with the lab",
-     "action": "Praised in class"
+     "action": "Praised in class",
+     "points": 2
     },
     {
      "date": "today-28",
      "student": "S-117",
      "type": "positive",
      "note": "Helped a classmate with the lab",
-     "action": "Praised in class"
+     "action": "Praised in class",
+     "points": 2
     },
     {
      "date": "today-26",
      "student": "S-124",
      "type": "positive",
      "note": "Excellent questions during the lesson",
-     "action": "Merit point"
+     "action": "Merit point",
+     "points": 2
     },
     {
      "date": "today-24",
      "student": "S-107",
      "type": "minor",
      "note": "Talking during the test instructions",
-     "action": "Reminder"
+     "action": "Reminder",
+     "points": -1
     },
     {
      "date": "today-22",
      "student": "S-114",
      "type": "minor",
      "note": "Phone out in class",
-     "action": "Phone kept until the end of the day"
+     "action": "Phone kept until the end of the day",
+     "points": -1
     },
     {
      "date": "today-20",
      "student": "S-121",
      "type": "positive",
      "note": "Helped a classmate with the lab",
-     "action": "Praised in class"
+     "action": "Praised in class",
+     "points": 2
     },
     {
      "date": "today-18",
      "student": "S-104",
      "type": "major",
      "note": "Pushed another student",
-     "action": "Referred to the head of year"
+     "action": "Referred to the head of year",
+     "points": -3
     },
     {
      "date": "today-16",
      "student": "S-111",
      "type": "minor",
      "note": "No homework three times",
-     "action": "Lunch catch-up session"
+     "action": "Lunch catch-up session",
+     "points": -1
     },
     {
      "date": "today-14",
      "student": "S-118",
      "type": "positive",
      "note": "Most improved this month",
-     "action": "Certificate"
+     "action": "Certificate",
+     "points": 2
     },
     {
      "date": "today-12",
      "student": "S-101",
      "type": "positive",
      "note": "Helped a classmate with the lab",
-     "action": "Praised in class"
+     "action": "Praised in class",
+     "points": 2
     },
     {
      "date": "today-10",
      "student": "S-108",
      "type": "positive",
      "note": "Helped a classmate with the lab",
-     "action": "Praised in class"
+     "action": "Praised in class",
+     "points": 2
     },
     {
      "date": "today-8",
      "student": "S-115",
      "type": "minor",
      "note": "Talking during the test instructions",
-     "action": "Reminder"
+     "action": "Reminder",
+     "points": -1
     },
     {
      "date": "today-6",
      "student": "S-122",
      "type": "minor",
      "note": "Phone out in class",
-     "action": "Phone kept until the end of the day"
+     "action": "Phone kept until the end of the day",
+     "points": -1
     },
     {
      "date": "today-4",
      "student": "S-105",
      "type": "positive",
      "note": "Led the group project well",
-     "action": "Note home"
+     "action": "Note home",
+     "points": 2
     },
     {
      "date": "today-2",
      "student": "S-112",
      "type": "major",
      "note": "Pushed another student",
-     "action": "Referred to the head of year"
+     "action": "Referred to the head of year",
+     "points": -3
     }
    ]
   },
@@ -7056,6 +7355,12 @@
    "rows": 500,
    "columns": [
     {
+     "key": "ls_id",
+     "label": "Lesson ID",
+     "type": "text",
+     "width": 9
+    },
+    {
      "key": "date",
      "label": "Date",
      "type": "date",
@@ -7093,6 +7398,12 @@
      "width": 14
     },
     {
+     "key": "link",
+     "label": "Slides or resource link",
+     "type": "link",
+     "width": 22
+    },
+    {
      "key": "status",
      "label": "Status",
      "type": "list",
@@ -7128,7 +7439,9 @@
      "objective": "Name the parts of a cell",
      "materials": "Slides and worksheet",
      "homework": "Worksheet",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-301",
+     "link": "https://example.com/science/lesson-301"
     },
     {
      "date": "today-29",
@@ -7137,7 +7450,9 @@
      "objective": "Name the parts of a cell",
      "materials": "Microscopes",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-302",
+     "link": "https://example.com/science/lesson-302"
     },
     {
      "date": "today-28",
@@ -7146,7 +7461,9 @@
      "objective": "Name the parts of a cell",
      "materials": "Batteries, bulbs and wires",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-303",
+     "link": "https://example.com/science/lesson-303"
     },
     {
      "date": "today-27",
@@ -7155,7 +7472,9 @@
      "objective": "Name the parts of a cell",
      "materials": "Spring scales",
      "homework": "Worksheet",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-304",
+     "link": "https://example.com/science/lesson-304"
     },
     {
      "date": "today-24",
@@ -7164,7 +7483,9 @@
      "objective": "Name the parts of a cell",
      "materials": "Laptops",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-305",
+     "link": "https://example.com/science/lesson-305"
     },
     {
      "date": "today-23",
@@ -7173,7 +7494,9 @@
      "objective": "Explain a food chain",
      "materials": "Card, tape and weights",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-306",
+     "link": "https://example.com/science/lesson-306"
     },
     {
      "date": "today-22",
@@ -7182,7 +7505,9 @@
      "objective": "Explain a food chain",
      "materials": "Slides and worksheet",
      "homework": "Worksheet",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-307",
+     "link": "https://example.com/science/lesson-307"
     },
     {
      "date": "today-21",
@@ -7191,7 +7516,9 @@
      "objective": "Explain a food chain",
      "materials": "Microscopes",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-308",
+     "link": "https://example.com/science/lesson-308"
     },
     {
      "date": "today-20",
@@ -7200,7 +7527,9 @@
      "objective": "Explain a food chain",
      "materials": "Batteries, bulbs and wires",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-309",
+     "link": "https://example.com/science/lesson-309"
     },
     {
      "date": "today-17",
@@ -7209,7 +7538,9 @@
      "objective": "Compare forms of energy",
      "materials": "Spring scales",
      "homework": "Worksheet",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-310",
+     "link": "https://example.com/science/lesson-310"
     },
     {
      "date": "today-16",
@@ -7218,7 +7549,9 @@
      "objective": "Compare forms of energy",
      "materials": "Laptops",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-311",
+     "link": "https://example.com/science/lesson-311"
     },
     {
      "date": "today-15",
@@ -7227,7 +7560,9 @@
      "objective": "Compare forms of energy",
      "materials": "Card, tape and weights",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-312",
+     "link": "https://example.com/science/lesson-312"
     },
     {
      "date": "today-14",
@@ -7236,7 +7571,9 @@
      "objective": "Compare forms of energy",
      "materials": "Slides and worksheet",
      "homework": "Worksheet",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-313",
+     "link": "https://example.com/science/lesson-313"
     },
     {
      "date": "today-13",
@@ -7245,7 +7582,9 @@
      "objective": "Build a simple circuit",
      "materials": "Microscopes",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-314",
+     "link": "https://example.com/science/lesson-314"
     },
     {
      "date": "today-10",
@@ -7254,7 +7593,9 @@
      "objective": "Build a simple circuit",
      "materials": "Batteries, bulbs and wires",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-315",
+     "link": "https://example.com/science/lesson-315"
     },
     {
      "date": "today-9",
@@ -7263,7 +7604,9 @@
      "objective": "Build a simple circuit",
      "materials": "Spring scales",
      "homework": "Worksheet",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-316",
+     "link": "https://example.com/science/lesson-316"
     },
     {
      "date": "today-8",
@@ -7272,7 +7615,9 @@
      "objective": "Build a simple circuit",
      "materials": "Laptops",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-317",
+     "link": "https://example.com/science/lesson-317"
     },
     {
      "date": "today-7",
@@ -7281,7 +7626,9 @@
      "objective": "Build a simple circuit",
      "materials": "Card, tape and weights",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-318",
+     "link": "https://example.com/science/lesson-318"
     },
     {
      "date": "today-6",
@@ -7290,7 +7637,9 @@
      "objective": "Measure force with a spring scale",
      "materials": "Slides and worksheet",
      "homework": "Worksheet",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-319",
+     "link": "https://example.com/science/lesson-319"
     },
     {
      "date": "today-3",
@@ -7299,7 +7648,9 @@
      "objective": "Measure force with a spring scale",
      "materials": "Microscopes",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-320",
+     "link": "https://example.com/science/lesson-320"
     },
     {
      "date": "today-2",
@@ -7308,7 +7659,9 @@
      "objective": "Measure force with a spring scale",
      "materials": "Batteries, bulbs and wires",
      "homework": "",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-321",
+     "link": "https://example.com/science/lesson-321"
     },
     {
      "date": "today-1",
@@ -7317,7 +7670,9 @@
      "objective": "Measure force with a spring scale",
      "materials": "Spring scales",
      "homework": "Worksheet",
-     "status": "taught"
+     "status": "taught",
+     "ls_id": "L-322",
+     "link": "https://example.com/science/lesson-322"
     },
     {
      "date": "today+0",
@@ -7326,7 +7681,9 @@
      "objective": "Calculate speed",
      "materials": "Laptops",
      "homework": "",
-     "status": "planned"
+     "status": "planned",
+     "ls_id": "L-323",
+     "link": "https://example.com/science/lesson-323"
     },
     {
      "date": "today+1",
@@ -7335,7 +7692,9 @@
      "objective": "Calculate speed",
      "materials": "Card, tape and weights",
      "homework": "",
-     "status": "planned"
+     "status": "planned",
+     "ls_id": "L-324",
+     "link": "https://example.com/science/lesson-324"
     },
     {
      "date": "today+4",
@@ -7344,7 +7703,9 @@
      "objective": "Calculate speed",
      "materials": "Slides and worksheet",
      "homework": "Worksheet",
-     "status": "planned"
+     "status": "planned",
+     "ls_id": "L-325",
+     "link": "https://example.com/science/lesson-325"
     },
     {
      "date": "today+5",
@@ -7353,7 +7714,9 @@
      "objective": "Calculate speed",
      "materials": "Microscopes",
      "homework": "",
-     "status": "planned"
+     "status": "planned",
+     "ls_id": "L-326",
+     "link": "https://example.com/science/lesson-326"
     },
     {
      "date": "today+6",
@@ -7362,7 +7725,9 @@
      "objective": "Test a bridge design",
      "materials": "Batteries, bulbs and wires",
      "homework": "",
-     "status": "planned"
+     "status": "planned",
+     "ls_id": "L-327",
+     "link": "https://example.com/science/lesson-327"
     },
     {
      "date": "today+7",
@@ -7371,7 +7736,9 @@
      "objective": "Test a bridge design",
      "materials": "Spring scales",
      "homework": "Worksheet",
-     "status": "moved"
+     "status": "moved",
+     "ls_id": "L-328",
+     "link": "https://example.com/science/lesson-328"
     },
     {
      "date": "today+8",
@@ -7380,7 +7747,9 @@
      "objective": "Test a bridge design",
      "materials": "Laptops",
      "homework": "",
-     "status": "planned"
+     "status": "planned",
+     "ls_id": "L-329",
+     "link": "https://example.com/science/lesson-329"
     },
     {
      "date": "today+11",
@@ -7389,7 +7758,9 @@
      "objective": "Test a bridge design",
      "materials": "Card, tape and weights",
      "homework": "",
-     "status": "planned"
+     "status": "planned",
+     "ls_id": "L-330",
+     "link": "https://example.com/science/lesson-330"
     }
    ]
   },
@@ -7661,23 +8032,30 @@
   },
   {
    "key": "trips",
-   "sheet": "Trips & Events",
-   "title": "Trips and events",
-   "hint": "Field trips and class events. The permission slip and the trip checklist are filled from this sheet.",
+   "sheet": "Calendar",
+   "title": "Trips, events, meetings and duties",
+   "hint": "Everything with a date: trips, class events, staff meetings, duties and deadlines. Trips use the cost and slip columns.",
    "rows": 50,
    "columns": [
     {
      "key": "ev_id",
-     "label": "Trip ID",
+     "label": "Item ID",
      "type": "text",
      "width": 9
     },
     {
      "key": "title",
-     "label": "Trip or event",
+     "label": "What",
      "type": "text",
      "width": 28,
      "required": true
+    },
+    {
+     "key": "type",
+     "label": "Type",
+     "type": "list",
+     "list": "event_type",
+     "width": 13
     },
     {
      "key": "date",
@@ -7733,7 +8111,8 @@
      "place": "School hall",
      "cost": 0,
      "slip_due": "today-260",
-     "plan_start": "today-271"
+     "plan_start": "today-271",
+     "type": "event"
     },
     {
      "ev_id": "T-02",
@@ -7742,7 +8121,8 @@
      "place": "City park",
      "cost": 0,
      "slip_due": "today-230",
-     "plan_start": "today-241"
+     "plan_start": "today-241",
+     "type": "trip"
     },
     {
      "ev_id": "T-03",
@@ -7751,7 +8131,8 @@
      "place": "City Planetarium",
      "cost": 9,
      "slip_due": "today-200",
-     "plan_start": "today-211"
+     "plan_start": "today-211",
+     "type": "trip"
     },
     {
      "ev_id": "T-04",
@@ -7760,7 +8141,8 @@
      "place": "Green Recycling Centre",
      "cost": 4,
      "slip_due": "today-170",
-     "plan_start": "today-181"
+     "plan_start": "today-181",
+     "type": "trip"
     },
     {
      "ev_id": "T-05",
@@ -7769,7 +8151,8 @@
      "place": "Classroom",
      "cost": 0,
      "slip_due": "today-140",
-     "plan_start": "today-151"
+     "plan_start": "today-151",
+     "type": "event"
     },
     {
      "ev_id": "T-06",
@@ -7778,7 +8161,8 @@
      "place": "City Zoo",
      "cost": 11,
      "slip_due": "today-110",
-     "plan_start": "today-121"
+     "plan_start": "today-121",
+     "type": "trip"
     },
     {
      "ev_id": "T-07",
@@ -7787,7 +8171,8 @@
      "place": "School labs",
      "cost": 0,
      "slip_due": "today-80",
-     "plan_start": "today-91"
+     "plan_start": "today-91",
+     "type": "event"
     },
     {
      "ev_id": "T-08",
@@ -7796,7 +8181,108 @@
      "place": "Water Works",
      "cost": 3,
      "slip_due": "today-50",
-     "plan_start": "today-61"
+     "plan_start": "today-61",
+     "type": "trip"
+    },
+    {
+     "ev_id": "T-24",
+     "title": "Safeguarding training",
+     "type": "training",
+     "date": "today-12",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
+    },
+    {
+     "ev_id": "T-13",
+     "title": "Lunch duty, playground",
+     "type": "duty",
+     "date": "today-3",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
+    },
+    {
+     "ev_id": "T-23",
+     "title": "Bus duty",
+     "type": "duty",
+     "date": "today+1",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
+    },
+    {
+     "ev_id": "T-14",
+     "title": "Staff meeting",
+     "type": "meeting",
+     "date": "today+2",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
+    },
+    {
+     "ev_id": "T-17",
+     "title": "Lunch duty, playground",
+     "type": "duty",
+     "date": "today+4",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
+    },
+    {
+     "ev_id": "T-19",
+     "title": "Exam papers to the office",
+     "type": "deadline",
+     "date": "today+5",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
+    },
+    {
+     "ev_id": "T-15",
+     "title": "Report cards due",
+     "type": "deadline",
+     "date": "today+9",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
+    },
+    {
+     "ev_id": "T-20",
+     "title": "Lunch duty, playground",
+     "type": "duty",
+     "date": "today+11",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
+    },
+    {
+     "ev_id": "T-16",
+     "title": "First aid training",
+     "type": "training",
+     "date": "today+12",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
+    },
+    {
+     "ev_id": "T-18",
+     "title": "Department meeting",
+     "type": "meeting",
+     "date": "today+16",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
     },
     {
      "ev_id": "T-09",
@@ -7805,7 +8291,28 @@
      "place": "City Science Museum",
      "cost": 12,
      "slip_due": "today+8",
-     "plan_start": "today-3"
+     "plan_start": "today-3",
+     "type": "trip"
+    },
+    {
+     "ev_id": "T-22",
+     "title": "Coursework marks deadline",
+     "type": "deadline",
+     "date": "today+24",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
+    },
+    {
+     "ev_id": "T-21",
+     "title": "Staff meeting",
+     "type": "meeting",
+     "date": "today+30",
+     "place": "School",
+     "cost": "",
+     "slip_due": "",
+     "plan_start": ""
     },
     {
      "ev_id": "T-10",
@@ -7814,7 +8321,8 @@
      "place": "Botanical Garden",
      "cost": 6,
      "slip_due": "today+36",
-     "plan_start": "today+25"
+     "plan_start": "today+25",
+     "type": "trip"
     },
     {
      "ev_id": "T-11",
@@ -7823,7 +8331,8 @@
      "place": "School hall",
      "cost": 0,
      "slip_due": "today+50",
-     "plan_start": "today+39"
+     "plan_start": "today+39",
+     "type": "event"
     },
     {
      "ev_id": "T-12",
@@ -7832,7 +8341,2213 @@
      "place": "Lakeside park",
      "cost": 5,
      "slip_due": "today+70",
-     "plan_start": "today+59"
+     "plan_start": "today+59",
+     "type": "trip"
+    }
+   ]
+  },
+  {
+   "key": "interventions",
+   "sheet": "Support Plans",
+   "title": "Support plans",
+   "hint": "Extra help for a student: the goal, what you do, the review date and how it is going.",
+   "rows": 300,
+   "columns": [
+    {
+     "key": "iv_id",
+     "label": "Plan ID",
+     "type": "text",
+     "width": 9
+    },
+    {
+     "key": "student",
+     "label": "Student ID",
+     "type": "ref",
+     "ref": "students.st_id",
+     "width": 11,
+     "required": true
+    },
+    {
+     "key": "start",
+     "label": "Started",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "area",
+     "label": "Area",
+     "type": "list",
+     "list": "area",
+     "width": 12
+    },
+    {
+     "key": "goal",
+     "label": "Goal",
+     "type": "text",
+     "width": 30
+    },
+    {
+     "key": "strategy",
+     "label": "What you do",
+     "type": "text",
+     "width": 30
+    },
+    {
+     "key": "review",
+     "label": "Review on",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "status",
+     "label": "Status",
+     "type": "list",
+     "list": "iv_status",
+     "width": 11
+    },
+    {
+     "key": "progress",
+     "label": "Progress",
+     "type": "text",
+     "width": 22
+    },
+    {
+     "key": "s_name",
+     "label": "Student",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.name},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "guardian",
+     "label": "Parent or guardian",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.guardian},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "phone",
+     "label": "Phone",
+     "type": "calc",
+     "format": "text",
+     "width": 16,
+     "formula": "IFERROR(INDEX({range:students.phone},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "flag",
+     "label": "Alert",
+     "type": "calc",
+     "format": "text",
+     "width": 11,
+     "formula": "IF(OR({col:review}=\"\",{col:status}<>{list:iv_status.active}),\"\",IF({col:review}<{today},{list:alert_level.overdue},IF({col:review}-{today}<=7,{list:alert_level.review},{list:alert_level.ok})))"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "flag",
+     "when": "= {list:alert_level.overdue}",
+     "style": "bad"
+    },
+    {
+     "column": "flag",
+     "when": "= {list:alert_level.review}",
+     "style": "warn"
+    },
+    {
+     "column": "status",
+     "when": "= {list:iv_status.met}",
+     "style": "good"
+    }
+   ],
+   "demo": [
+    {
+     "iv_id": "P-11",
+     "student": "S-102",
+     "start": "today-80",
+     "area": "reading",
+     "goal": "Read 20 minutes a day and retell the story",
+     "strategy": "Daily guided reading with a partner",
+     "review": "today-38",
+     "status": "met",
+     "progress": "Steady progress"
+    },
+    {
+     "iv_id": "P-12",
+     "student": "S-104",
+     "start": "today-74",
+     "area": "maths",
+     "goal": "Solve two-step problems without help",
+     "strategy": "Small-group practice twice a week",
+     "review": "today-32",
+     "status": "active",
+     "progress": "Small steps forward"
+    },
+    {
+     "iv_id": "P-13",
+     "student": "S-108",
+     "start": "today-68",
+     "area": "behavior",
+     "goal": "No more than one reminder per lesson",
+     "strategy": "Seat near the front and a daily check-in",
+     "review": "today-26",
+     "status": "active",
+     "progress": "Needs more time"
+    },
+    {
+     "iv_id": "P-14",
+     "student": "S-110",
+     "start": "today-62",
+     "area": "attendance",
+     "goal": "Attendance above 95%",
+     "strategy": "Call home on the first absence",
+     "review": "today-20",
+     "status": "active",
+     "progress": "Goal almost reached"
+    },
+    {
+     "iv_id": "P-15",
+     "student": "S-112",
+     "start": "today-56",
+     "area": "language",
+     "goal": "Use science words in full sentences",
+     "strategy": "Word bank and sentence starters",
+     "review": "today-14",
+     "status": "met",
+     "progress": "Steady progress"
+    },
+    {
+     "iv_id": "P-16",
+     "student": "S-116",
+     "start": "today-50",
+     "area": "wellbeing",
+     "goal": "Talk to a trusted adult once a week",
+     "strategy": "Weekly check-in with the counsellor",
+     "review": "today-8",
+     "status": "active",
+     "progress": "Small steps forward"
+    },
+    {
+     "iv_id": "P-17",
+     "student": "S-118",
+     "start": "today-44",
+     "area": "reading",
+     "goal": "Read 20 minutes a day and retell the story",
+     "strategy": "Daily guided reading with a partner",
+     "review": "today-2",
+     "status": "active",
+     "progress": "Needs more time"
+    },
+    {
+     "iv_id": "P-18",
+     "student": "S-120",
+     "start": "today-38",
+     "area": "maths",
+     "goal": "Solve two-step problems without help",
+     "strategy": "Small-group practice twice a week",
+     "review": "today+4",
+     "status": "changed",
+     "progress": "Goal almost reached"
+    },
+    {
+     "iv_id": "P-19",
+     "student": "S-121",
+     "start": "today-32",
+     "area": "behavior",
+     "goal": "No more than one reminder per lesson",
+     "strategy": "Seat near the front and a daily check-in",
+     "review": "today+10",
+     "status": "active",
+     "progress": "Steady progress"
+    },
+    {
+     "iv_id": "P-20",
+     "student": "S-124",
+     "start": "today-26",
+     "area": "attendance",
+     "goal": "Attendance above 95%",
+     "strategy": "Call home on the first absence",
+     "review": "today+16",
+     "status": "active",
+     "progress": "Small steps forward"
+    },
+    {
+     "iv_id": "P-21",
+     "student": "S-106",
+     "start": "today-20",
+     "area": "language",
+     "goal": "Use science words in full sentences",
+     "strategy": "Word bank and sentence starters",
+     "review": "today+22",
+     "status": "active",
+     "progress": "Needs more time"
+    },
+    {
+     "iv_id": "P-22",
+     "student": "S-114",
+     "start": "today-14",
+     "area": "wellbeing",
+     "goal": "Talk to a trusted adult once a week",
+     "strategy": "Weekly check-in with the counsellor",
+     "review": "today+28",
+     "status": "active",
+     "progress": "Goal almost reached"
+    }
+   ]
+  },
+  {
+   "key": "reading",
+   "sheet": "Reading Log",
+   "title": "Reading log",
+   "hint": "Books, pages and minutes each student reads. The monthly total is compared with your goal.",
+   "rows": 3000,
+   "columns": [
+    {
+     "key": "date",
+     "label": "Date",
+     "type": "date",
+     "width": 12,
+     "required": true
+    },
+    {
+     "key": "student",
+     "label": "Student ID",
+     "type": "ref",
+     "ref": "students.st_id",
+     "width": 11
+    },
+    {
+     "key": "book",
+     "label": "Book",
+     "type": "text",
+     "width": 24
+    },
+    {
+     "key": "pages",
+     "label": "Pages",
+     "type": "int",
+     "width": 8
+    },
+    {
+     "key": "minutes",
+     "label": "Minutes",
+     "type": "int",
+     "width": 9
+    },
+    {
+     "key": "level",
+     "label": "Reading level",
+     "type": "text",
+     "width": 11
+    },
+    {
+     "key": "s_name",
+     "label": "Student",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.name},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    }
+   ],
+   "alerts": [],
+   "demo": [
+    {
+     "date": "today-62",
+     "student": "S-101",
+     "book": "Wonder",
+     "pages": 10,
+     "minutes": 102,
+     "level": "Level M"
+    },
+    {
+     "date": "today-53",
+     "student": "S-101",
+     "book": "Wonder",
+     "pages": 13,
+     "minutes": 117,
+     "level": "Level M"
+    },
+    {
+     "date": "today-44",
+     "student": "S-101",
+     "book": "Wonder",
+     "pages": 16,
+     "minutes": 132,
+     "level": "Level M"
+    },
+    {
+     "date": "today-35",
+     "student": "S-101",
+     "book": "Holes",
+     "pages": 19,
+     "minutes": 102,
+     "level": "Level M"
+    },
+    {
+     "date": "today-26",
+     "student": "S-101",
+     "book": "Holes",
+     "pages": 22,
+     "minutes": 117,
+     "level": "Level M"
+    },
+    {
+     "date": "today-17",
+     "student": "S-101",
+     "book": "Holes",
+     "pages": 25,
+     "minutes": 132,
+     "level": "Level M"
+    },
+    {
+     "date": "today-8",
+     "student": "S-101",
+     "book": "The Wild Robot",
+     "pages": 28,
+     "minutes": 102,
+     "level": "Level M"
+    },
+    {
+     "date": "today-61",
+     "student": "S-102",
+     "book": "Holes",
+     "pages": 17,
+     "minutes": 78,
+     "level": "Level N"
+    },
+    {
+     "date": "today-52",
+     "student": "S-102",
+     "book": "Holes",
+     "pages": 20,
+     "minutes": 93,
+     "level": "Level N"
+    },
+    {
+     "date": "today-43",
+     "student": "S-102",
+     "book": "Holes",
+     "pages": 23,
+     "minutes": 108,
+     "level": "Level N"
+    },
+    {
+     "date": "today-34",
+     "student": "S-102",
+     "book": "The Wild Robot",
+     "pages": 26,
+     "minutes": 78,
+     "level": "Level N"
+    },
+    {
+     "date": "today-25",
+     "student": "S-102",
+     "book": "The Wild Robot",
+     "pages": 29,
+     "minutes": 93,
+     "level": "Level N"
+    },
+    {
+     "date": "today-16",
+     "student": "S-102",
+     "book": "The Wild Robot",
+     "pages": 32,
+     "minutes": 108,
+     "level": "Level N"
+    },
+    {
+     "date": "today-7",
+     "student": "S-102",
+     "book": "Hatchet",
+     "pages": 10,
+     "minutes": 78,
+     "level": "Level N"
+    },
+    {
+     "date": "today-60",
+     "student": "S-103",
+     "book": "The Wild Robot",
+     "pages": 24,
+     "minutes": 97,
+     "level": "Level P"
+    },
+    {
+     "date": "today-51",
+     "student": "S-103",
+     "book": "The Wild Robot",
+     "pages": 27,
+     "minutes": 112,
+     "level": "Level P"
+    },
+    {
+     "date": "today-42",
+     "student": "S-103",
+     "book": "The Wild Robot",
+     "pages": 30,
+     "minutes": 127,
+     "level": "Level P"
+    },
+    {
+     "date": "today-33",
+     "student": "S-103",
+     "book": "Hatchet",
+     "pages": 33,
+     "minutes": 97,
+     "level": "Level P"
+    },
+    {
+     "date": "today-24",
+     "student": "S-103",
+     "book": "Hatchet",
+     "pages": 11,
+     "minutes": 112,
+     "level": "Level P"
+    },
+    {
+     "date": "today-15",
+     "student": "S-103",
+     "book": "Hatchet",
+     "pages": 14,
+     "minutes": 127,
+     "level": "Level P"
+    },
+    {
+     "date": "today-6",
+     "student": "S-103",
+     "book": "A Boy Called Christmas",
+     "pages": 17,
+     "minutes": 97,
+     "level": "Level P"
+    },
+    {
+     "date": "today-59",
+     "student": "S-104",
+     "book": "Hatchet",
+     "pages": 31,
+     "minutes": 68,
+     "level": "Level R"
+    },
+    {
+     "date": "today-50",
+     "student": "S-104",
+     "book": "Hatchet",
+     "pages": 34,
+     "minutes": 83,
+     "level": "Level R"
+    },
+    {
+     "date": "today-41",
+     "student": "S-104",
+     "book": "Hatchet",
+     "pages": 12,
+     "minutes": 98,
+     "level": "Level R"
+    },
+    {
+     "date": "today-32",
+     "student": "S-104",
+     "book": "A Boy Called Christmas",
+     "pages": 15,
+     "minutes": 68,
+     "level": "Level R"
+    },
+    {
+     "date": "today-23",
+     "student": "S-104",
+     "book": "A Boy Called Christmas",
+     "pages": 18,
+     "minutes": 83,
+     "level": "Level R"
+    },
+    {
+     "date": "today-14",
+     "student": "S-104",
+     "book": "A Boy Called Christmas",
+     "pages": 21,
+     "minutes": 98,
+     "level": "Level R"
+    },
+    {
+     "date": "today-5",
+     "student": "S-104",
+     "book": "The Explorer",
+     "pages": 24,
+     "minutes": 68,
+     "level": "Level R"
+    },
+    {
+     "date": "today-62",
+     "student": "S-105",
+     "book": "A Boy Called Christmas",
+     "pages": 13,
+     "minutes": 104,
+     "level": "Level M"
+    },
+    {
+     "date": "today-53",
+     "student": "S-105",
+     "book": "A Boy Called Christmas",
+     "pages": 16,
+     "minutes": 120,
+     "level": "Level M"
+    },
+    {
+     "date": "today-44",
+     "student": "S-105",
+     "book": "A Boy Called Christmas",
+     "pages": 19,
+     "minutes": 134,
+     "level": "Level M"
+    },
+    {
+     "date": "today-35",
+     "student": "S-105",
+     "book": "The Explorer",
+     "pages": 22,
+     "minutes": 104,
+     "level": "Level M"
+    },
+    {
+     "date": "today-26",
+     "student": "S-105",
+     "book": "The Explorer",
+     "pages": 25,
+     "minutes": 120,
+     "level": "Level M"
+    },
+    {
+     "date": "today-17",
+     "student": "S-105",
+     "book": "The Explorer",
+     "pages": 28,
+     "minutes": 134,
+     "level": "Level M"
+    },
+    {
+     "date": "today-8",
+     "student": "S-105",
+     "book": "Coraline",
+     "pages": 31,
+     "minutes": 104,
+     "level": "Level M"
+    },
+    {
+     "date": "today-61",
+     "student": "S-106",
+     "book": "The Explorer",
+     "pages": 20,
+     "minutes": 87,
+     "level": "Level N"
+    },
+    {
+     "date": "today-52",
+     "student": "S-106",
+     "book": "The Explorer",
+     "pages": 23,
+     "minutes": 102,
+     "level": "Level N"
+    },
+    {
+     "date": "today-43",
+     "student": "S-106",
+     "book": "The Explorer",
+     "pages": 26,
+     "minutes": 117,
+     "level": "Level N"
+    },
+    {
+     "date": "today-34",
+     "student": "S-106",
+     "book": "Coraline",
+     "pages": 29,
+     "minutes": 87,
+     "level": "Level N"
+    },
+    {
+     "date": "today-25",
+     "student": "S-106",
+     "book": "Coraline",
+     "pages": 32,
+     "minutes": 102,
+     "level": "Level N"
+    },
+    {
+     "date": "today-16",
+     "student": "S-106",
+     "book": "Coraline",
+     "pages": 10,
+     "minutes": 117,
+     "level": "Level N"
+    },
+    {
+     "date": "today-7",
+     "student": "S-106",
+     "book": "Kensuke's Kingdom",
+     "pages": 13,
+     "minutes": 87,
+     "level": "Level N"
+    },
+    {
+     "date": "today-60",
+     "student": "S-107",
+     "book": "Coraline",
+     "pages": 27,
+     "minutes": 92,
+     "level": "Level P"
+    },
+    {
+     "date": "today-51",
+     "student": "S-107",
+     "book": "Coraline",
+     "pages": 30,
+     "minutes": 107,
+     "level": "Level P"
+    },
+    {
+     "date": "today-42",
+     "student": "S-107",
+     "book": "Coraline",
+     "pages": 33,
+     "minutes": 122,
+     "level": "Level P"
+    },
+    {
+     "date": "today-33",
+     "student": "S-107",
+     "book": "Kensuke's Kingdom",
+     "pages": 11,
+     "minutes": 92,
+     "level": "Level P"
+    },
+    {
+     "date": "today-24",
+     "student": "S-107",
+     "book": "Kensuke's Kingdom",
+     "pages": 14,
+     "minutes": 107,
+     "level": "Level P"
+    },
+    {
+     "date": "today-15",
+     "student": "S-107",
+     "book": "Kensuke's Kingdom",
+     "pages": 17,
+     "minutes": 122,
+     "level": "Level P"
+    },
+    {
+     "date": "today-6",
+     "student": "S-107",
+     "book": "Matilda",
+     "pages": 20,
+     "minutes": 92,
+     "level": "Level P"
+    },
+    {
+     "date": "today-59",
+     "student": "S-108",
+     "book": "Kensuke's Kingdom",
+     "pages": 34,
+     "minutes": 64,
+     "level": "Level R"
+    },
+    {
+     "date": "today-50",
+     "student": "S-108",
+     "book": "Kensuke's Kingdom",
+     "pages": 12,
+     "minutes": 79,
+     "level": "Level R"
+    },
+    {
+     "date": "today-41",
+     "student": "S-108",
+     "book": "Kensuke's Kingdom",
+     "pages": 15,
+     "minutes": 94,
+     "level": "Level R"
+    },
+    {
+     "date": "today-32",
+     "student": "S-108",
+     "book": "Matilda",
+     "pages": 18,
+     "minutes": 64,
+     "level": "Level R"
+    },
+    {
+     "date": "today-23",
+     "student": "S-108",
+     "book": "Matilda",
+     "pages": 21,
+     "minutes": 79,
+     "level": "Level R"
+    },
+    {
+     "date": "today-14",
+     "student": "S-108",
+     "book": "Matilda",
+     "pages": 24,
+     "minutes": 94,
+     "level": "Level R"
+    },
+    {
+     "date": "today-5",
+     "student": "S-108",
+     "book": "The Iron Man",
+     "pages": 27,
+     "minutes": 64,
+     "level": "Level R"
+    },
+    {
+     "date": "today-62",
+     "student": "S-109",
+     "book": "Matilda",
+     "pages": 16,
+     "minutes": 99,
+     "level": "Level M"
+    },
+    {
+     "date": "today-53",
+     "student": "S-109",
+     "book": "Matilda",
+     "pages": 19,
+     "minutes": 114,
+     "level": "Level M"
+    },
+    {
+     "date": "today-44",
+     "student": "S-109",
+     "book": "Matilda",
+     "pages": 22,
+     "minutes": 129,
+     "level": "Level M"
+    },
+    {
+     "date": "today-35",
+     "student": "S-109",
+     "book": "The Iron Man",
+     "pages": 25,
+     "minutes": 99,
+     "level": "Level M"
+    },
+    {
+     "date": "today-26",
+     "student": "S-109",
+     "book": "The Iron Man",
+     "pages": 28,
+     "minutes": 114,
+     "level": "Level M"
+    },
+    {
+     "date": "today-17",
+     "student": "S-109",
+     "book": "The Iron Man",
+     "pages": 31,
+     "minutes": 129,
+     "level": "Level M"
+    },
+    {
+     "date": "today-8",
+     "student": "S-109",
+     "book": "Charlotte's Web",
+     "pages": 34,
+     "minutes": 99,
+     "level": "Level M"
+    },
+    {
+     "date": "today-61",
+     "student": "S-110",
+     "book": "The Iron Man",
+     "pages": 23,
+     "minutes": 81,
+     "level": "Level N"
+    },
+    {
+     "date": "today-52",
+     "student": "S-110",
+     "book": "The Iron Man",
+     "pages": 26,
+     "minutes": 96,
+     "level": "Level N"
+    },
+    {
+     "date": "today-43",
+     "student": "S-110",
+     "book": "The Iron Man",
+     "pages": 29,
+     "minutes": 111,
+     "level": "Level N"
+    },
+    {
+     "date": "today-34",
+     "student": "S-110",
+     "book": "Charlotte's Web",
+     "pages": 32,
+     "minutes": 81,
+     "level": "Level N"
+    },
+    {
+     "date": "today-25",
+     "student": "S-110",
+     "book": "Charlotte's Web",
+     "pages": 10,
+     "minutes": 96,
+     "level": "Level N"
+    },
+    {
+     "date": "today-16",
+     "student": "S-110",
+     "book": "Charlotte's Web",
+     "pages": 13,
+     "minutes": 111,
+     "level": "Level N"
+    },
+    {
+     "date": "today-7",
+     "student": "S-110",
+     "book": "Percy Jackson",
+     "pages": 16,
+     "minutes": 81,
+     "level": "Level N"
+    },
+    {
+     "date": "today-60",
+     "student": "S-111",
+     "book": "Charlotte's Web",
+     "pages": 30,
+     "minutes": 107,
+     "level": "Level P"
+    },
+    {
+     "date": "today-51",
+     "student": "S-111",
+     "book": "Charlotte's Web",
+     "pages": 33,
+     "minutes": 122,
+     "level": "Level P"
+    },
+    {
+     "date": "today-42",
+     "student": "S-111",
+     "book": "Charlotte's Web",
+     "pages": 11,
+     "minutes": 137,
+     "level": "Level P"
+    },
+    {
+     "date": "today-33",
+     "student": "S-111",
+     "book": "Percy Jackson",
+     "pages": 14,
+     "minutes": 107,
+     "level": "Level P"
+    },
+    {
+     "date": "today-24",
+     "student": "S-111",
+     "book": "Percy Jackson",
+     "pages": 17,
+     "minutes": 122,
+     "level": "Level P"
+    },
+    {
+     "date": "today-15",
+     "student": "S-111",
+     "book": "Percy Jackson",
+     "pages": 20,
+     "minutes": 137,
+     "level": "Level P"
+    },
+    {
+     "date": "today-6",
+     "student": "S-111",
+     "book": "Wonder",
+     "pages": 23,
+     "minutes": 107,
+     "level": "Level P"
+    },
+    {
+     "date": "today-59",
+     "student": "S-112",
+     "book": "Percy Jackson",
+     "pages": 12,
+     "minutes": 75,
+     "level": "Level R"
+    },
+    {
+     "date": "today-50",
+     "student": "S-112",
+     "book": "Percy Jackson",
+     "pages": 15,
+     "minutes": 90,
+     "level": "Level R"
+    },
+    {
+     "date": "today-41",
+     "student": "S-112",
+     "book": "Percy Jackson",
+     "pages": 18,
+     "minutes": 105,
+     "level": "Level R"
+    },
+    {
+     "date": "today-32",
+     "student": "S-112",
+     "book": "Wonder",
+     "pages": 21,
+     "minutes": 75,
+     "level": "Level R"
+    },
+    {
+     "date": "today-23",
+     "student": "S-112",
+     "book": "Wonder",
+     "pages": 24,
+     "minutes": 90,
+     "level": "Level R"
+    },
+    {
+     "date": "today-14",
+     "student": "S-112",
+     "book": "Wonder",
+     "pages": 27,
+     "minutes": 105,
+     "level": "Level R"
+    },
+    {
+     "date": "today-5",
+     "student": "S-112",
+     "book": "Holes",
+     "pages": 30,
+     "minutes": 75,
+     "level": "Level R"
+    },
+    {
+     "date": "today-62",
+     "student": "S-113",
+     "book": "Wonder",
+     "pages": 19,
+     "minutes": 95,
+     "level": "Level M"
+    },
+    {
+     "date": "today-53",
+     "student": "S-113",
+     "book": "Wonder",
+     "pages": 22,
+     "minutes": 110,
+     "level": "Level M"
+    },
+    {
+     "date": "today-44",
+     "student": "S-113",
+     "book": "Wonder",
+     "pages": 25,
+     "minutes": 125,
+     "level": "Level M"
+    },
+    {
+     "date": "today-35",
+     "student": "S-113",
+     "book": "Holes",
+     "pages": 28,
+     "minutes": 95,
+     "level": "Level M"
+    },
+    {
+     "date": "today-26",
+     "student": "S-113",
+     "book": "Holes",
+     "pages": 31,
+     "minutes": 110,
+     "level": "Level M"
+    },
+    {
+     "date": "today-17",
+     "student": "S-113",
+     "book": "Holes",
+     "pages": 34,
+     "minutes": 125,
+     "level": "Level M"
+    },
+    {
+     "date": "today-8",
+     "student": "S-113",
+     "book": "The Wild Robot",
+     "pages": 12,
+     "minutes": 95,
+     "level": "Level M"
+    },
+    {
+     "date": "today-61",
+     "student": "S-114",
+     "book": "Holes",
+     "pages": 26,
+     "minutes": 85,
+     "level": "Level N"
+    },
+    {
+     "date": "today-52",
+     "student": "S-114",
+     "book": "Holes",
+     "pages": 29,
+     "minutes": 100,
+     "level": "Level N"
+    },
+    {
+     "date": "today-43",
+     "student": "S-114",
+     "book": "Holes",
+     "pages": 32,
+     "minutes": 115,
+     "level": "Level N"
+    },
+    {
+     "date": "today-34",
+     "student": "S-114",
+     "book": "The Wild Robot",
+     "pages": 10,
+     "minutes": 85,
+     "level": "Level N"
+    },
+    {
+     "date": "today-25",
+     "student": "S-114",
+     "book": "The Wild Robot",
+     "pages": 13,
+     "minutes": 100,
+     "level": "Level N"
+    },
+    {
+     "date": "today-16",
+     "student": "S-114",
+     "book": "The Wild Robot",
+     "pages": 16,
+     "minutes": 115,
+     "level": "Level N"
+    },
+    {
+     "date": "today-7",
+     "student": "S-114",
+     "book": "Hatchet",
+     "pages": 19,
+     "minutes": 85,
+     "level": "Level N"
+    },
+    {
+     "date": "today-60",
+     "student": "S-115",
+     "book": "The Wild Robot",
+     "pages": 33,
+     "minutes": 89,
+     "level": "Level P"
+    },
+    {
+     "date": "today-51",
+     "student": "S-115",
+     "book": "The Wild Robot",
+     "pages": 11,
+     "minutes": 104,
+     "level": "Level P"
+    },
+    {
+     "date": "today-42",
+     "student": "S-115",
+     "book": "The Wild Robot",
+     "pages": 14,
+     "minutes": 119,
+     "level": "Level P"
+    },
+    {
+     "date": "today-33",
+     "student": "S-115",
+     "book": "Hatchet",
+     "pages": 17,
+     "minutes": 89,
+     "level": "Level P"
+    },
+    {
+     "date": "today-24",
+     "student": "S-115",
+     "book": "Hatchet",
+     "pages": 20,
+     "minutes": 104,
+     "level": "Level P"
+    },
+    {
+     "date": "today-15",
+     "student": "S-115",
+     "book": "Hatchet",
+     "pages": 23,
+     "minutes": 119,
+     "level": "Level P"
+    },
+    {
+     "date": "today-6",
+     "student": "S-115",
+     "book": "A Boy Called Christmas",
+     "pages": 26,
+     "minutes": 89,
+     "level": "Level P"
+    },
+    {
+     "date": "today-59",
+     "student": "S-116",
+     "book": "Hatchet",
+     "pages": 15,
+     "minutes": 61,
+     "level": "Level R"
+    },
+    {
+     "date": "today-50",
+     "student": "S-116",
+     "book": "Hatchet",
+     "pages": 18,
+     "minutes": 76,
+     "level": "Level R"
+    },
+    {
+     "date": "today-41",
+     "student": "S-116",
+     "book": "Hatchet",
+     "pages": 21,
+     "minutes": 90,
+     "level": "Level R"
+    },
+    {
+     "date": "today-32",
+     "student": "S-116",
+     "book": "A Boy Called Christmas",
+     "pages": 24,
+     "minutes": 61,
+     "level": "Level R"
+    },
+    {
+     "date": "today-23",
+     "student": "S-116",
+     "book": "A Boy Called Christmas",
+     "pages": 27,
+     "minutes": 76,
+     "level": "Level R"
+    },
+    {
+     "date": "today-14",
+     "student": "S-116",
+     "book": "A Boy Called Christmas",
+     "pages": 30,
+     "minutes": 90,
+     "level": "Level R"
+    },
+    {
+     "date": "today-5",
+     "student": "S-116",
+     "book": "The Explorer",
+     "pages": 33,
+     "minutes": 61,
+     "level": "Level R"
+    },
+    {
+     "date": "today-62",
+     "student": "S-117",
+     "book": "A Boy Called Christmas",
+     "pages": 22,
+     "minutes": 100,
+     "level": "Level M"
+    },
+    {
+     "date": "today-53",
+     "student": "S-117",
+     "book": "A Boy Called Christmas",
+     "pages": 25,
+     "minutes": 115,
+     "level": "Level M"
+    },
+    {
+     "date": "today-44",
+     "student": "S-117",
+     "book": "A Boy Called Christmas",
+     "pages": 28,
+     "minutes": 130,
+     "level": "Level M"
+    },
+    {
+     "date": "today-35",
+     "student": "S-117",
+     "book": "The Explorer",
+     "pages": 31,
+     "minutes": 100,
+     "level": "Level M"
+    },
+    {
+     "date": "today-26",
+     "student": "S-117",
+     "book": "The Explorer",
+     "pages": 34,
+     "minutes": 115,
+     "level": "Level M"
+    },
+    {
+     "date": "today-17",
+     "student": "S-117",
+     "book": "The Explorer",
+     "pages": 12,
+     "minutes": 130,
+     "level": "Level M"
+    },
+    {
+     "date": "today-8",
+     "student": "S-117",
+     "book": "Coraline",
+     "pages": 15,
+     "minutes": 100,
+     "level": "Level M"
+    },
+    {
+     "date": "today-61",
+     "student": "S-118",
+     "book": "The Explorer",
+     "pages": 29,
+     "minutes": 80,
+     "level": "Level N"
+    },
+    {
+     "date": "today-52",
+     "student": "S-118",
+     "book": "The Explorer",
+     "pages": 32,
+     "minutes": 95,
+     "level": "Level N"
+    },
+    {
+     "date": "today-43",
+     "student": "S-118",
+     "book": "The Explorer",
+     "pages": 10,
+     "minutes": 110,
+     "level": "Level N"
+    },
+    {
+     "date": "today-34",
+     "student": "S-118",
+     "book": "Coraline",
+     "pages": 13,
+     "minutes": 80,
+     "level": "Level N"
+    },
+    {
+     "date": "today-25",
+     "student": "S-118",
+     "book": "Coraline",
+     "pages": 16,
+     "minutes": 95,
+     "level": "Level N"
+    },
+    {
+     "date": "today-16",
+     "student": "S-118",
+     "book": "Coraline",
+     "pages": 19,
+     "minutes": 110,
+     "level": "Level N"
+    },
+    {
+     "date": "today-7",
+     "student": "S-118",
+     "book": "Kensuke's Kingdom",
+     "pages": 22,
+     "minutes": 80,
+     "level": "Level N"
+    },
+    {
+     "date": "today-60",
+     "student": "S-119",
+     "book": "Coraline",
+     "pages": 11,
+     "minutes": 96,
+     "level": "Level P"
+    },
+    {
+     "date": "today-51",
+     "student": "S-119",
+     "book": "Coraline",
+     "pages": 14,
+     "minutes": 111,
+     "level": "Level P"
+    },
+    {
+     "date": "today-42",
+     "student": "S-119",
+     "book": "Coraline",
+     "pages": 17,
+     "minutes": 126,
+     "level": "Level P"
+    },
+    {
+     "date": "today-33",
+     "student": "S-119",
+     "book": "Kensuke's Kingdom",
+     "pages": 20,
+     "minutes": 96,
+     "level": "Level P"
+    },
+    {
+     "date": "today-24",
+     "student": "S-119",
+     "book": "Kensuke's Kingdom",
+     "pages": 23,
+     "minutes": 111,
+     "level": "Level P"
+    },
+    {
+     "date": "today-15",
+     "student": "S-119",
+     "book": "Kensuke's Kingdom",
+     "pages": 26,
+     "minutes": 126,
+     "level": "Level P"
+    },
+    {
+     "date": "today-6",
+     "student": "S-119",
+     "book": "Matilda",
+     "pages": 29,
+     "minutes": 96,
+     "level": "Level P"
+    },
+    {
+     "date": "today-59",
+     "student": "S-120",
+     "book": "Kensuke's Kingdom",
+     "pages": 18,
+     "minutes": 73,
+     "level": "Level R"
+    },
+    {
+     "date": "today-50",
+     "student": "S-120",
+     "book": "Kensuke's Kingdom",
+     "pages": 21,
+     "minutes": 88,
+     "level": "Level R"
+    },
+    {
+     "date": "today-41",
+     "student": "S-120",
+     "book": "Kensuke's Kingdom",
+     "pages": 24,
+     "minutes": 103,
+     "level": "Level R"
+    },
+    {
+     "date": "today-32",
+     "student": "S-120",
+     "book": "Matilda",
+     "pages": 27,
+     "minutes": 73,
+     "level": "Level R"
+    },
+    {
+     "date": "today-23",
+     "student": "S-120",
+     "book": "Matilda",
+     "pages": 30,
+     "minutes": 88,
+     "level": "Level R"
+    },
+    {
+     "date": "today-14",
+     "student": "S-120",
+     "book": "Matilda",
+     "pages": 33,
+     "minutes": 103,
+     "level": "Level R"
+    },
+    {
+     "date": "today-5",
+     "student": "S-120",
+     "book": "The Iron Man",
+     "pages": 11,
+     "minutes": 73,
+     "level": "Level R"
+    },
+    {
+     "date": "today-62",
+     "student": "S-121",
+     "book": "Matilda",
+     "pages": 25,
+     "minutes": 103,
+     "level": "Level M"
+    },
+    {
+     "date": "today-53",
+     "student": "S-121",
+     "book": "Matilda",
+     "pages": 28,
+     "minutes": 118,
+     "level": "Level M"
+    },
+    {
+     "date": "today-44",
+     "student": "S-121",
+     "book": "Matilda",
+     "pages": 31,
+     "minutes": 133,
+     "level": "Level M"
+    },
+    {
+     "date": "today-35",
+     "student": "S-121",
+     "book": "The Iron Man",
+     "pages": 34,
+     "minutes": 103,
+     "level": "Level M"
+    },
+    {
+     "date": "today-26",
+     "student": "S-121",
+     "book": "The Iron Man",
+     "pages": 12,
+     "minutes": 118,
+     "level": "Level M"
+    },
+    {
+     "date": "today-17",
+     "student": "S-121",
+     "book": "The Iron Man",
+     "pages": 15,
+     "minutes": 133,
+     "level": "Level M"
+    },
+    {
+     "date": "today-8",
+     "student": "S-121",
+     "book": "Charlotte's Web",
+     "pages": 18,
+     "minutes": 103,
+     "level": "Level M"
+    },
+    {
+     "date": "today-61",
+     "student": "S-122",
+     "book": "The Iron Man",
+     "pages": 32,
+     "minutes": 77,
+     "level": "Level N"
+    },
+    {
+     "date": "today-52",
+     "student": "S-122",
+     "book": "The Iron Man",
+     "pages": 10,
+     "minutes": 92,
+     "level": "Level N"
+    },
+    {
+     "date": "today-43",
+     "student": "S-122",
+     "book": "The Iron Man",
+     "pages": 13,
+     "minutes": 107,
+     "level": "Level N"
+    },
+    {
+     "date": "today-34",
+     "student": "S-122",
+     "book": "Charlotte's Web",
+     "pages": 16,
+     "minutes": 77,
+     "level": "Level N"
+    },
+    {
+     "date": "today-25",
+     "student": "S-122",
+     "book": "Charlotte's Web",
+     "pages": 19,
+     "minutes": 92,
+     "level": "Level N"
+    },
+    {
+     "date": "today-16",
+     "student": "S-122",
+     "book": "Charlotte's Web",
+     "pages": 22,
+     "minutes": 107,
+     "level": "Level N"
+    },
+    {
+     "date": "today-7",
+     "student": "S-122",
+     "book": "Percy Jackson",
+     "pages": 25,
+     "minutes": 77,
+     "level": "Level N"
+    },
+    {
+     "date": "today-60",
+     "student": "S-123",
+     "book": "Charlotte's Web",
+     "pages": 14,
+     "minutes": 91,
+     "level": "Level P"
+    },
+    {
+     "date": "today-51",
+     "student": "S-123",
+     "book": "Charlotte's Web",
+     "pages": 17,
+     "minutes": 106,
+     "level": "Level P"
+    },
+    {
+     "date": "today-42",
+     "student": "S-123",
+     "book": "Charlotte's Web",
+     "pages": 20,
+     "minutes": 121,
+     "level": "Level P"
+    },
+    {
+     "date": "today-33",
+     "student": "S-123",
+     "book": "Percy Jackson",
+     "pages": 23,
+     "minutes": 91,
+     "level": "Level P"
+    },
+    {
+     "date": "today-24",
+     "student": "S-123",
+     "book": "Percy Jackson",
+     "pages": 26,
+     "minutes": 106,
+     "level": "Level P"
+    },
+    {
+     "date": "today-15",
+     "student": "S-123",
+     "book": "Percy Jackson",
+     "pages": 29,
+     "minutes": 121,
+     "level": "Level P"
+    },
+    {
+     "date": "today-6",
+     "student": "S-123",
+     "book": "Wonder",
+     "pages": 32,
+     "minutes": 91,
+     "level": "Level P"
+    },
+    {
+     "date": "today-59",
+     "student": "S-124",
+     "book": "Percy Jackson",
+     "pages": 21,
+     "minutes": 84,
+     "level": "Level R"
+    },
+    {
+     "date": "today-50",
+     "student": "S-124",
+     "book": "Percy Jackson",
+     "pages": 24,
+     "minutes": 99,
+     "level": "Level R"
+    },
+    {
+     "date": "today-41",
+     "student": "S-124",
+     "book": "Percy Jackson",
+     "pages": 27,
+     "minutes": 114,
+     "level": "Level R"
+    },
+    {
+     "date": "today-32",
+     "student": "S-124",
+     "book": "Wonder",
+     "pages": 30,
+     "minutes": 84,
+     "level": "Level R"
+    },
+    {
+     "date": "today-23",
+     "student": "S-124",
+     "book": "Wonder",
+     "pages": 33,
+     "minutes": 99,
+     "level": "Level R"
+    },
+    {
+     "date": "today-14",
+     "student": "S-124",
+     "book": "Wonder",
+     "pages": 11,
+     "minutes": 114,
+     "level": "Level R"
+    },
+    {
+     "date": "today-5",
+     "student": "S-124",
+     "book": "Holes",
+     "pages": 14,
+     "minutes": 84,
+     "level": "Level R"
+    }
+   ]
+  },
+  {
+   "key": "loans",
+   "sheet": "Loans",
+   "title": "Books and equipment lent",
+   "hint": "What a student borrowed from the class, when it is due back, and a reminder message when it is late.",
+   "rows": 500,
+   "columns": [
+    {
+     "key": "ln_id",
+     "label": "Loan ID",
+     "type": "text",
+     "width": 9
+    },
+    {
+     "key": "item",
+     "label": "Item",
+     "type": "text",
+     "width": 24,
+     "required": true
+    },
+    {
+     "key": "type",
+     "label": "Type",
+     "type": "list",
+     "list": "loan_type",
+     "width": 15
+    },
+    {
+     "key": "student",
+     "label": "Student ID",
+     "type": "ref",
+     "ref": "students.st_id",
+     "width": 11
+    },
+    {
+     "key": "out",
+     "label": "Lent on",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "due",
+     "label": "Due back",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "returned",
+     "label": "Returned on",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "s_name",
+     "label": "Student",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.name},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "guardian",
+     "label": "Parent or guardian",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.guardian},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "phone",
+     "label": "Phone",
+     "type": "calc",
+     "format": "text",
+     "width": 16,
+     "formula": "IFERROR(INDEX({range:students.phone},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "flag",
+     "label": "Alert",
+     "type": "calc",
+     "format": "text",
+     "width": 10,
+     "formula": "IF(OR({col:item}=\"\",{col:returned}<>\"\",{col:due}=\"\"),\"\",IF({col:due}<{today},{list:alert_level.overdue},{list:alert_level.ok}))"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "flag",
+     "when": "= {list:alert_level.overdue}",
+     "style": "bad"
+    }
+   ],
+   "demo": [
+    {
+     "ln_id": "B-41",
+     "item": "Science encyclopedia",
+     "type": "book",
+     "student": "S-103",
+     "out": "today-40",
+     "due": "today-26",
+     "returned": "today-30"
+    },
+    {
+     "ln_id": "B-42",
+     "item": "Class laptop 07",
+     "type": "device",
+     "student": "S-108",
+     "out": "today-37",
+     "due": "today-23",
+     "returned": ""
+    },
+    {
+     "ln_id": "B-43",
+     "item": "Scientific calculator",
+     "type": "calculator",
+     "student": "S-113",
+     "out": "today-34",
+     "due": "today-20",
+     "returned": ""
+    },
+    {
+     "ln_id": "B-44",
+     "item": "Microscope kit",
+     "type": "kit",
+     "student": "S-118",
+     "out": "today-31",
+     "due": "today-17",
+     "returned": "today-21"
+    },
+    {
+     "ln_id": "B-45",
+     "item": "Novel: Holes",
+     "type": "book",
+     "student": "S-123",
+     "out": "today-28",
+     "due": "today-14",
+     "returned": ""
+    },
+    {
+     "ln_id": "B-46",
+     "item": "Tablet 03",
+     "type": "device",
+     "student": "S-104",
+     "out": "today-25",
+     "due": "today-11",
+     "returned": ""
+    },
+    {
+     "ln_id": "B-47",
+     "item": "Graphing calculator",
+     "type": "calculator",
+     "student": "S-109",
+     "out": "today-22",
+     "due": "today-8",
+     "returned": "today-12"
+    },
+    {
+     "ln_id": "B-48",
+     "item": "Football and cones",
+     "type": "kit",
+     "student": "S-114",
+     "out": "today-19",
+     "due": "today-5",
+     "returned": ""
+    },
+    {
+     "ln_id": "B-49",
+     "item": "Atlas",
+     "type": "book",
+     "student": "S-119",
+     "out": "today-16",
+     "due": "today-2",
+     "returned": ""
+    },
+    {
+     "ln_id": "B-50",
+     "item": "Class laptop 12",
+     "type": "device",
+     "student": "S-124",
+     "out": "today-13",
+     "due": "today+1",
+     "returned": "today-3"
+    },
+    {
+     "ln_id": "B-51",
+     "item": "Novel: Wonder",
+     "type": "book",
+     "student": "S-105",
+     "out": "today-10",
+     "due": "today+4",
+     "returned": ""
+    },
+    {
+     "ln_id": "B-52",
+     "item": "Magnet kit",
+     "type": "kit",
+     "student": "S-110",
+     "out": "today-7",
+     "due": "today+7",
+     "returned": ""
+    },
+    {
+     "ln_id": "B-53",
+     "item": "Dictionary",
+     "type": "book",
+     "student": "S-115",
+     "out": "today-4",
+     "due": "today+10",
+     "returned": ""
+    },
+    {
+     "ln_id": "B-54",
+     "item": "Tablet 05",
+     "type": "device",
+     "student": "S-120",
+     "out": "today-1",
+     "due": "today+13",
+     "returned": ""
+    }
+   ]
+  },
+  {
+   "key": "conferences",
+   "sheet": "Parent Meetings",
+   "title": "Parent meetings",
+   "hint": "Book parent-teacher meetings, send the reminder and keep what you agreed.",
+   "rows": 300,
+   "columns": [
+    {
+     "key": "cf_id",
+     "label": "Meeting ID",
+     "type": "text",
+     "width": 10
+    },
+    {
+     "key": "student",
+     "label": "Student ID",
+     "type": "ref",
+     "ref": "students.st_id",
+     "width": 11,
+     "required": true
+    },
+    {
+     "key": "booked",
+     "label": "Booked on",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "date",
+     "label": "Meeting date",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "time",
+     "label": "Time",
+     "type": "text",
+     "width": 8
+    },
+    {
+     "key": "with",
+     "label": "With",
+     "type": "text",
+     "width": 13
+    },
+    {
+     "key": "status",
+     "label": "Status",
+     "type": "list",
+     "list": "conf_status",
+     "width": 10
+    },
+    {
+     "key": "notes",
+     "label": "What we agreed",
+     "type": "text",
+     "width": 28
+    },
+    {
+     "key": "s_name",
+     "label": "Student",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.name},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "guardian",
+     "label": "Parent or guardian",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.guardian},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "phone",
+     "label": "Phone",
+     "type": "calc",
+     "format": "text",
+     "width": 16,
+     "formula": "IFERROR(INDEX({range:students.phone},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "days",
+     "label": "Days to go",
+     "type": "calc",
+     "format": "int",
+     "width": 9,
+     "formula": "IF({col:date}=\"\",\"\",{col:date}-{today})"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "status",
+     "when": "= {list:conf_status.missed}",
+     "style": "bad"
+    },
+    {
+     "column": "days",
+     "when": "= 0",
+     "style": "good"
+    }
+   ],
+   "demo": [
+    {
+     "cf_id": "M-51",
+     "student": "S-102",
+     "booked": "today-37",
+     "date": "today-30",
+     "time": "15:30",
+     "with": "Mother",
+     "status": "missed",
+     "notes": ""
+    },
+    {
+     "cf_id": "M-52",
+     "student": "S-105",
+     "booked": "today-34",
+     "date": "today-27",
+     "time": "15:45",
+     "with": "Father",
+     "status": "held",
+     "notes": "Agreed a reading plan"
+    },
+    {
+     "cf_id": "M-53",
+     "student": "S-108",
+     "booked": "today-31",
+     "date": "today-24",
+     "time": "16:00",
+     "with": "Both parents",
+     "status": "held",
+     "notes": "Agreed a reading plan"
+    },
+    {
+     "cf_id": "M-54",
+     "student": "S-111",
+     "booked": "today-28",
+     "date": "today-21",
+     "time": "16:15",
+     "with": "Guardian",
+     "status": "held",
+     "notes": "Agreed a reading plan"
+    },
+    {
+     "cf_id": "M-55",
+     "student": "S-114",
+     "booked": "today-25",
+     "date": "today-18",
+     "time": "16:30",
+     "with": "Mother",
+     "status": "held",
+     "notes": "Agreed a reading plan"
+    },
+    {
+     "cf_id": "M-56",
+     "student": "S-117",
+     "booked": "today-22",
+     "date": "today-15",
+     "time": "15:30",
+     "with": "Father",
+     "status": "missed",
+     "notes": ""
+    },
+    {
+     "cf_id": "M-57",
+     "student": "S-120",
+     "booked": "today-19",
+     "date": "today-12",
+     "time": "15:45",
+     "with": "Both parents",
+     "status": "held",
+     "notes": "Agreed a reading plan"
+    },
+    {
+     "cf_id": "M-58",
+     "student": "S-123",
+     "booked": "today-16",
+     "date": "today-9",
+     "time": "16:00",
+     "with": "Guardian",
+     "status": "held",
+     "notes": "Agreed a reading plan"
+    },
+    {
+     "cf_id": "M-59",
+     "student": "S-102",
+     "booked": "today-13",
+     "date": "today-6",
+     "time": "16:15",
+     "with": "Mother",
+     "status": "held",
+     "notes": "Agreed a reading plan"
+    },
+    {
+     "cf_id": "M-60",
+     "student": "S-105",
+     "booked": "today-10",
+     "date": "today-3",
+     "time": "16:30",
+     "with": "Father",
+     "status": "held",
+     "notes": "Agreed a reading plan"
+    },
+    {
+     "cf_id": "M-61",
+     "student": "S-108",
+     "booked": "today-7",
+     "date": "today+0",
+     "time": "15:30",
+     "with": "Both parents",
+     "status": "booked",
+     "notes": ""
+    },
+    {
+     "cf_id": "M-62",
+     "student": "S-111",
+     "booked": "today-4",
+     "date": "today+3",
+     "time": "15:45",
+     "with": "Guardian",
+     "status": "booked",
+     "notes": ""
+    },
+    {
+     "cf_id": "M-63",
+     "student": "S-114",
+     "booked": "today-1",
+     "date": "today+6",
+     "time": "16:00",
+     "with": "Mother",
+     "status": "booked",
+     "notes": ""
+    },
+    {
+     "cf_id": "M-64",
+     "student": "S-117",
+     "booked": "today+2",
+     "date": "today+9",
+     "time": "16:15",
+     "with": "Father",
+     "status": "booked",
+     "notes": ""
+    },
+    {
+     "cf_id": "M-65",
+     "student": "S-120",
+     "booked": "today+5",
+     "date": "today+12",
+     "time": "16:30",
+     "with": "Both parents",
+     "status": "booked",
+     "notes": ""
+    },
+    {
+     "cf_id": "M-66",
+     "student": "S-123",
+     "booked": "today+8",
+     "date": "today+15",
+     "time": "15:30",
+     "with": "Guardian",
+     "status": "booked",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "key": "comments",
+   "sheet": "Comment Bank",
+   "title": "Report card comments",
+   "hint": "One comment per grade (the first row of each grade is used). Students get the comment of their grade on the progress report.",
+   "rows": 100,
+   "columns": [
+    {
+     "key": "grade",
+     "label": "Grade",
+     "type": "list",
+     "list": "grade",
+     "width": 8,
+     "required": true
+    },
+    {
+     "key": "text",
+     "label": "Comment",
+     "type": "text",
+     "width": 70
+    }
+   ],
+   "alerts": [],
+   "demo": [
+    {
+     "grade": "ga",
+     "text": "An excellent term: careful, curious and always ready to help others."
+    },
+    {
+     "grade": "gb",
+     "text": "A strong term with good effort. Keep checking your work to reach the top grade."
+    },
+    {
+     "grade": "gc",
+     "text": "Steady progress. Hand in every piece of work on time to move up a grade."
+    },
+    {
+     "grade": "gd",
+     "text": "Some good moments, but missing work is holding you back. Let's make a plan together."
+    },
+    {
+     "grade": "gf",
+     "text": "This term was difficult. We will meet with your family to agree how to catch up."
+    },
+    {
+     "grade": "ga",
+     "text": "Outstanding results and leadership in group work."
+    },
+    {
+     "grade": "gb",
+     "text": "Good understanding; take more care with explanations."
+    },
+    {
+     "grade": "gc",
+     "text": "You can do more: ask for help early when something is unclear."
+    },
+    {
+     "grade": "gd",
+     "text": "Attend every lesson and use the catch-up sessions."
+    },
+    {
+     "grade": "gf",
+     "text": "Let's work with your family on a support plan for next term."
     }
    ]
   }
@@ -7919,6 +10634,41 @@
     "label": "Still owed to you by the school",
     "formula": "SUM({range:expenses.owed})",
     "format": "money"
+   },
+   {
+    "label": "Students with a falling average",
+    "formula": "COUNTIFS({range:students.trend},{list:alert_level.falling})",
+    "format": "int"
+   },
+   {
+    "label": "Work handed in",
+    "formula": "IFERROR(AVERAGE({range:students.handed}),\"\")",
+    "format": "pct"
+   },
+   {
+    "label": "Support plans due for review",
+    "formula": "COUNTIFS({range:interventions.flag},{list:alert_level.review})+COUNTIFS({range:interventions.flag},{list:alert_level.overdue})",
+    "format": "int"
+   },
+   {
+    "label": "Reading minutes this month",
+    "formula": "SUMIFS({range:reading.minutes},{range:reading.date},\">=\"&(EOMONTH({today},-1)+1))",
+    "format": "int"
+   },
+   {
+    "label": "Books and equipment overdue",
+    "formula": "COUNTIFS({range:loans.flag},{list:alert_level.overdue})",
+    "format": "int"
+   },
+   {
+    "label": "Parent meetings in the next 7 days",
+    "formula": "COUNTIFS({range:conferences.date},\">=\"&{today},{range:conferences.date},\"<=\"&({today}+7))",
+    "format": "int"
+   },
+   {
+    "label": "Calendar items in the next 7 days",
+    "formula": "COUNTIFS({range:trips.date},\">=\"&{today},{range:trips.date},\"<=\"&({today}+7))",
+    "format": "int"
    }
   ],
   "monthly": {
@@ -8016,6 +10766,26 @@
     {
      "label": "Positive notes",
      "value": "students.positives"
+    },
+    {
+     "label": "Average, last 30 days",
+     "value": "students.recent"
+    },
+    {
+     "label": "Work handed in",
+     "value": "students.handed"
+    },
+    {
+     "label": "Merit points",
+     "value": "students.merit"
+    },
+    {
+     "label": "Reading minutes this month",
+     "value": "students.reading_month"
+    },
+    {
+     "label": "Teacher's comment",
+     "value": "students.comment"
     }
    ],
    "lines": {
@@ -8031,23 +10801,87 @@
     ],
     "max": 30
    }
+  },
+  {
+   "key": "student_file",
+   "sheet": "Student File",
+   "title": "Student file",
+   "pick": "students.st_id",
+   "fields": [
+    {
+     "label": "Student",
+     "value": "students.name"
+    },
+    {
+     "label": "Parent or guardian",
+     "value": "students.guardian"
+    },
+    {
+     "label": "Relation",
+     "value": "students.relation"
+    },
+    {
+     "label": "Phone",
+     "value": "students.phone"
+    },
+    {
+     "label": "E-mail",
+     "value": "students.email"
+    },
+    {
+     "label": "Support plan",
+     "value": "students.support"
+    },
+    {
+     "label": "Notes (health, seating)",
+     "value": "students.notes"
+    },
+    {
+     "label": "Open support plans",
+     "value": "students.plans"
+    },
+    {
+     "label": "Last parent contact",
+     "value": "students.last_contact"
+    },
+    {
+     "label": "Merit points",
+     "value": "students.merit"
+    }
+   ],
+   "lines": {
+    "from": "contacts",
+    "match": "contacts.student",
+    "columns": [
+     "date",
+     "way",
+     "reason",
+     "summary",
+     "follow_up"
+    ],
+    "max": 20
+   }
   }
  ],
  "guide": [
   "Open the Start sheet and type your school, your name, the class and the weight of each assessment type in the yellow cells.",
-  "Set your grade scale (the lowest average for A, B, C and D) and the alerts for averages, absences and missing work.",
+  "Set your grade scale, the late penalty, the retake cap, the reading goal and the alerts for averages, absences and missing work.",
   "List your students on the Students sheet with a parent or guardian and a phone number with the country code.",
-  "Add each homework, quiz, project and test on the Assignments sheet with its maximum points.",
-  "Enter scores on the Scores sheet, one row per student per assignment. Mark missing or excused work in the Submission column.",
+  "Add each homework, quiz, project and test on the Assignments sheet with its maximum points and its standard or unit.",
+  "Enter scores on the Scores sheet, one row per student per assignment. Mark late, missing or excused work, and add retake points when a student redoes it.",
   "Take attendance on the Attendance sheet: one row per student per day.",
-  "Log positive notes and issues on the Behavior Log, and every call or message on Parent Contacts.",
-  "Plan your lessons on the Lesson Plan sheet and mark them taught or moved.",
-  "Record what you buy for the class on Classroom Spending to see what the school owes you.",
-  "Check the Class Dashboard and the Charts every week, and send a ready message from the Students sheet.",
-  "Print the Progress Report, the Meeting Letter or the Permission Slip by choosing a student or a trip at the top of the sheet."
+  "Log merit points and issues on the Behavior Log, reading on the Reading Log and every call or message on Parent Contacts.",
+  "Open a support plan for a student who needs extra help, with a goal and a review date.",
+  "Book parent meetings on Parent Meetings and send the reminder from the same row.",
+  "Plan your lessons on the Lesson Plan sheet; print the Cover Plan for a substitute teacher when you are away.",
+  "Record books and devices you lend on Loans, and what you buy for the class on Classroom Spending.",
+  "Put duties, meetings, deadlines and trips on the Calendar.",
+  "Write one comment per grade on the Comment Bank; each student's comment appears on the progress report.",
+  "Check the Class Dashboard and the Charts every week, and send ready messages from the Students sheet.",
+  "Print the Progress Report, Student File, Meeting Letter, Permission Slip or Certificate by choosing a student, a trip or a lesson at the top."
  ],
  "listing": {
-  "title": "Teacher Excel Template: Gradebook, Attendance, Lesson Plan, Parent Contacts, Missing Work Tracker, 15 Languages",
+  "title": "Teacher Excel Template: Gradebook, Attendance, Lesson Plan, Parent Contacts, Support Plans, Reading Log, 15 Languages",
   "headline": "Teacher gradebook in Excel: weighted grades, attendance, parent messages",
   "tags": [
    "teacher planner",
@@ -8065,18 +10899,20 @@
    "school planner"
   ],
   "features": [
-   "Weighted gradebook with your own A-F scale",
-   "Attendance with 30-day rate and alerts",
-   "Missing work counted and tracked per student",
-   "At-risk students flagged automatically",
-   "Ready WhatsApp messages to parents",
-   "Printable progress report",
-   "Score needed on the final and grade curve calculators",
-   "Lesson plan, behavior log and parent contact log",
-   "Classroom spending and what the school owes you",
-   "Trip permission slip and field-trip checklist"
+   "Weighted gradebook with late penalty, retakes and your A-F scale",
+   "Early warning: at-risk students and falling averages",
+   "Attendance with 30-day rate and absences by month",
+   "11 ready WhatsApp messages to parents",
+   "Support plans with review dates and checklists",
+   "Reading log against a monthly goal",
+   "Automatic report card comments from your comment bank",
+   "Parent meetings with reminders and a preparation checklist",
+   "6 calculators: final score, curve, marking, rubric, grades, mastery",
+   "Progress report, student file, certificate, cover plan and more",
+   "Loans, classroom spending and a calendar of duties and deadlines",
+   "Dashboard with 23 key figures and 11 charts"
   ],
-  "description": "Run your class from one Excel workbook: a weighted gradebook, attendance, missing work, behavior notes, parent contacts, lesson plans and your own classroom spending, with every average, grade and alert worked out for you.\n\nMost teachers keep grades in one file, attendance on paper and parent calls in their head. Missing work slips through until the report card, and nobody adds up what you spend on the class. ClassMark puts it all in one place.\n\nWHAT IT DOES\n• Weighted term grade from homework, quizzes, projects and tests, with your own weights and A-F scale\n• Missing work counts as zero and excused work is left out\n• Attendance rate and absences of the last 30 days for every student\n• Students at risk flagged when the average, the absences or the missing work cross your limits\n• Ready WhatsApp messages for an absence, missing work, good news, a meeting or a grade update\n• Printable progress report with every assignment of one student, a meeting letter and a trip permission slip\n• Score needed on the final, grade curve and marking time calculators\n• Lesson plan, behavior log and parent contact log with follow-up dates\n• Classroom spending and what the school still owes you\n• Dashboard and charts: class average, attendance, missing work, contacts and spending\n\nYOU RECEIVE a ZIP with the workbook in 15 languages and an English copy filled with sample data. Standard .xlsx files for Microsoft Excel and LibreOffice. No macros, no subscription. Licence for one teacher."
+  "description": "Run your class from one Excel workbook: a weighted gradebook, attendance, missing work, support plans, reading, parent contacts and meetings, lesson plans, loans and your own classroom spending, with every average, grade and alert worked out for you.\n\nMost teachers keep grades in one file, attendance on paper and parent calls in their head. Missing work and falling results are noticed too late, and nobody adds up what you spend on the class. ClassMark puts it all in one place.\n\nWHAT IT DOES\n• Weighted term grade from homework, quizzes, projects and tests, with your weights and A-F scale\n• Late work loses your penalty, a better retake counts up to your cap, missing work counts as zero\n• Early warning: students at risk, and a warning when the 30-day average falls\n• Attendance rate and absences of the last 30 days for every student\n• 11 ready WhatsApp messages: absence, missing work, good news, falling results, reading, meetings, loans, support plans\n• Support plans with goals, review dates, alerts and a checklist\n• Reading log against your monthly goal, merit points and a behavior log\n• Report card comments filled in from your own comment bank\n• Parent meetings with reminders, a preparation checklist and what you agreed\n• Calculators: score needed on the final, grade curve, marking time, rubric scorer, grade converter, standard mastery\n• Printables: progress report, student file, meeting letter, permission slip, certificate, cover plan for a substitute teacher\n• Loans of books and devices, classroom spending and what the school owes you, and a calendar of duties, meetings and deadlines\n• Dashboard and charts: class average, attendance, missing work, reading, support plans, contacts and spending\n\nYOU RECEIVE a ZIP with the workbook in 15 languages and an English copy filled with sample data. Standard .xlsx files for Microsoft Excel and LibreOffice. No macros, no subscription. Licence for one teacher."
  },
  "insights": {
   "filters": [
@@ -8140,6 +10976,24 @@
      "agg": "sum",
      "table": "expenses",
      "value": "expenses.amount"
+    }
+   },
+   {
+    "title": "Support plans that met their goal",
+    "num": {
+     "agg": "count",
+     "table": "interventions",
+     "where": [
+      {
+       "column": "status",
+       "op": "=",
+       "value": "{list:iv_status.met}"
+      }
+     ]
+    },
+    "den": {
+     "agg": "count",
+     "table": "interventions"
     }
    }
   ],
@@ -8226,6 +11080,70 @@
       "label": "Spending"
      }
     ]
+   },
+   {
+    "title": "Reading minutes by month",
+    "type": "column",
+    "by": "month",
+    "series": [
+     {
+      "agg": "sum",
+      "table": "reading",
+      "value": "reading.minutes",
+      "date": "reading.date",
+      "label": "Minutes"
+     }
+    ]
+   },
+   {
+    "title": "Missing work by assignment type",
+    "type": "bar",
+    "by": "assignments.category",
+    "series": [
+     {
+      "agg": "sum",
+      "table": "assignments",
+      "value": "assignments.missing",
+      "label": "Missing"
+     }
+    ]
+   },
+   {
+    "title": "Merit points by note type",
+    "type": "bar",
+    "by": "behavior.type",
+    "series": [
+     {
+      "agg": "sum",
+      "table": "behavior",
+      "value": "behavior.points",
+      "label": "Merit points"
+     }
+    ]
+   },
+   {
+    "title": "Support plans by area",
+    "type": "bar",
+    "by": "interventions.area",
+    "series": [
+     {
+      "agg": "count",
+      "table": "interventions",
+      "label": "Plans"
+     }
+    ]
+   },
+   {
+    "title": "Calendar by type",
+    "type": "doughnut",
+    "by": "trips.type",
+    "series": [
+     {
+      "agg": "count",
+      "table": "trips",
+      "label": "Items"
+     }
+    ]
    }
   ]
  },
@@ -8237,18 +11155,18 @@
  },
  "signature": [
   {
-   "name": "Weighted gradebook",
-   "why": "homework, quizzes, projects and tests each count with your own weights, and the term grade follows your A-F scale",
-   "where": "Students"
+   "name": "Weighted gradebook with late penalty and retakes",
+   "why": "your own weights and A-F scale; late work loses your penalty and a better retake counts, up to your cap",
+   "where": "Scores"
   },
   {
-   "name": "At-risk alert",
-   "why": "a student with a low average, too many absences or missing work is flagged before the report card",
+   "name": "Early warning",
+   "why": "students at risk by average, absences or missing work, and a warning when the 30-day average falls",
    "where": "Students"
   },
   {
    "name": "Missing work tracker",
-   "why": "every missing piece of work counts as zero and shows per student and per assignment",
+   "why": "missing work counts as zero and shows per student, per assignment and per standard",
    "where": "Scores"
   },
   {
@@ -8257,34 +11175,44 @@
    "where": "Attendance"
   },
   {
-   "name": "Parent messages",
-   "why": "ready WhatsApp messages for absence, missing work, good news, meetings and grades",
+   "name": "11 ready parent messages",
+   "why": "absence, missing work, good news, falling results, reading, meetings, loans and support plans on WhatsApp",
    "where": "Students"
   },
   {
-   "name": "Printable progress report",
-   "why": "averages by type, grade, attendance and every assignment of one student on one page",
-   "where": "Progress Report"
+   "name": "Support plans with review dates",
+   "why": "goal, strategy and review date for every plan, with a checklist and an alert when the review is due",
+   "where": "Support Plans"
   },
   {
-   "name": "Score needed on the final",
-   "why": "tells a student exactly what they need on the final to reach a grade",
-   "where": "Final Score Needed"
+   "name": "Reading log",
+   "why": "minutes and books per student against your monthly reading goal",
+   "where": "Reading Log"
   },
   {
-   "name": "Classroom spending",
-   "why": "what you paid from your own pocket and what the school still owes you",
-   "where": "Classroom Spending"
+   "name": "Automatic report card comments",
+   "why": "your comment bank gives each student the comment of their grade on the progress report",
+   "where": "Comment Bank"
   },
   {
-   "name": "Trip permission slip",
-   "why": "a slip filled from the trip details, plus a field-trip checklist with due dates",
-   "where": "Permission Slip"
+   "name": "Parent meetings",
+   "why": "booking, reminder message, preparation checklist and what you agreed",
+   "where": "Parent Meetings"
   },
   {
-   "name": "Lesson plan",
-   "why": "topic, objective, materials and homework for every lesson",
-   "where": "Lesson Plan"
+   "name": "Six teacher calculators",
+   "why": "score needed on the final, grade curve, marking time, rubric scorer, grade converter and standard mastery",
+   "where": "Rubric Scorer"
+  },
+  {
+   "name": "Printables",
+   "why": "progress report, student file, meeting letter, permission slip, certificate and a cover plan for the substitute teacher",
+   "where": "Cover Plan"
+  },
+  {
+   "name": "Loans, spending and calendar",
+   "why": "books and devices lent with return reminders, what the school owes you, and every duty, meeting and deadline",
+   "where": "Calendar"
   }
  ],
  "competitors": [
@@ -8303,6 +11231,10 @@
   {
    "what": "school management software",
    "lacks": "costs a subscription and is set up for the school, not for your own class"
+  },
+  {
+   "what": "a teacher planner printable",
+   "lacks": "no support plans, no reading log, no loans and no report card comments"
   }
  ],
  "tools": [
@@ -8429,6 +11361,134 @@
      "formula": "IFERROR(ROUND({in:papers}*{in:minutes}/{in:days},0),\"\")"
     }
    ]
+  },
+  {
+   "key": "rubric",
+   "sheet": "Rubric Scorer",
+   "title": "Rubric scorer",
+   "hint": "Score four criteria of a rubric and get the points, the percent and the grade.",
+   "inputs": [
+    {
+     "key": "levels",
+     "label": "Highest level of the rubric",
+     "type": "int",
+     "default": 4
+    },
+    {
+     "key": "c1",
+     "label": "Criterion 1: content",
+     "type": "int",
+     "default": 3
+    },
+    {
+     "key": "c2",
+     "label": "Criterion 2: method",
+     "type": "int",
+     "default": 4
+    },
+    {
+     "key": "c3",
+     "label": "Criterion 3: presentation",
+     "type": "int",
+     "default": 2
+    },
+    {
+     "key": "c4",
+     "label": "Criterion 4: teamwork",
+     "type": "int",
+     "default": 3
+    },
+    {
+     "key": "points",
+     "label": "Points the task is worth",
+     "type": "num",
+     "default": 40
+    }
+   ],
+   "outputs": [
+    {
+     "label": "Rubric score %",
+     "format": "pct",
+     "formula": "IFERROR(({in:c1}+{in:c2}+{in:c3}+{in:c4})/(4*{in:levels}),\"\")"
+    },
+    {
+     "label": "Points earned",
+     "format": "num",
+     "formula": "IFERROR(ROUND(({in:c1}+{in:c2}+{in:c3}+{in:c4})/(4*{in:levels})*{in:points},1),\"\")"
+    },
+    {
+     "label": "Grade",
+     "format": "text",
+     "formula": "IFERROR(IF(({in:c1}+{in:c2}+{in:c3}+{in:c4})/(4*{in:levels})>={set:grade_a},{list:grade.ga},IF(({in:c1}+{in:c2}+{in:c3}+{in:c4})/(4*{in:levels})>={set:grade_b},{list:grade.gb},IF(({in:c1}+{in:c2}+{in:c3}+{in:c4})/(4*{in:levels})>={set:grade_c},{list:grade.gc},IF(({in:c1}+{in:c2}+{in:c3}+{in:c4})/(4*{in:levels})>={set:grade_d},{list:grade.gd},{list:grade.gf})))),\"\")"
+    }
+   ]
+  },
+  {
+   "key": "converter",
+   "sheet": "Grade Converter",
+   "title": "Grade converter",
+   "hint": "Turn a percent into your letter grade and 4-point grade points, and see how far the next grade is.",
+   "inputs": [
+    {
+     "key": "score",
+     "label": "Score %",
+     "type": "pct",
+     "default": 0.77
+    }
+   ],
+   "outputs": [
+    {
+     "label": "Letter grade",
+     "format": "text",
+     "formula": "IF({in:score}>={set:grade_a},{list:grade.ga},IF({in:score}>={set:grade_b},{list:grade.gb},IF({in:score}>={set:grade_c},{list:grade.gc},IF({in:score}>={set:grade_d},{list:grade.gd},{list:grade.gf}))))"
+    },
+    {
+     "label": "Grade points (4.0 scale)",
+     "format": "num",
+     "formula": "IF({in:score}>={set:grade_a},4,IF({in:score}>={set:grade_b},3,IF({in:score}>={set:grade_c},2,IF({in:score}>={set:grade_d},1,0))))"
+    },
+    {
+     "label": "Points to the next grade",
+     "format": "pct",
+     "formula": "IF({in:score}>={set:grade_a},0,IF({in:score}>={set:grade_b},{set:grade_a},IF({in:score}>={set:grade_c},{set:grade_b},IF({in:score}>={set:grade_d},{set:grade_c},{set:grade_d}))))-{in:score}"
+    }
+   ]
+  },
+  {
+   "key": "mastery",
+   "sheet": "Standard Mastery",
+   "title": "Mastery of a standard",
+   "hint": "Type a standard or unit code from the Assignments sheet to see how the class did on it.",
+   "inputs": [
+    {
+     "key": "std",
+     "label": "Standard or unit code",
+     "type": "text",
+     "default": "PS3.A"
+    }
+   ],
+   "outputs": [
+    {
+     "label": "Assignments on this standard",
+     "format": "int",
+     "formula": "COUNTIFS({range:assignments.standard},{in:std})"
+    },
+    {
+     "label": "Class average on this standard",
+     "format": "pct",
+     "formula": "IFERROR(AVERAGEIFS({range:scores.pct},{range:scores.standard},{in:std}),\"\")"
+    },
+    {
+     "label": "Scores below grade D",
+     "format": "int",
+     "formula": "COUNTIFS({range:scores.standard},{in:std},{range:scores.pct},\"<\"&{set:grade_d})"
+    },
+    {
+     "label": "Missing work on this standard",
+     "format": "int",
+     "formula": "COUNTIFS({range:scores.standard},{in:std},{range:scores.status},{list:sub_status.missing})"
+    }
+   ]
   }
  ],
  "messages": [
@@ -8466,6 +11526,48 @@
    "table": "students",
    "phone": "students.phone",
    "text": "Hello {guardian}, {name}'s grade in my class is {grade} so far this term. I will send the full progress report soon."
+  },
+  {
+   "key": "falling",
+   "moment": "Falling results",
+   "table": "students",
+   "phone": "students.phone",
+   "text": "Hello {guardian}, {name}'s results in the last few weeks are lower than usual. Could we work on this together? I am happy to talk."
+  },
+  {
+   "key": "reading",
+   "moment": "Reading",
+   "table": "students",
+   "phone": "students.phone",
+   "text": "Hello {guardian}, {name} read for {reading_month} minutes this month. Thank you for reading together at home!"
+  },
+  {
+   "key": "issue",
+   "moment": "Behavior",
+   "table": "students",
+   "phone": "students.phone",
+   "text": "Hello {guardian}, I need to tell you about something that happened in class with {name} today. Please call me when you can."
+  },
+  {
+   "key": "meet_rem",
+   "moment": "Meeting reminder",
+   "table": "conferences",
+   "phone": "conferences.phone",
+   "text": "Hello {guardian}, a reminder of our meeting about {s_name} on {date} at {time}. See you then!"
+  },
+  {
+   "key": "loan_rem",
+   "moment": "Return reminder",
+   "table": "loans",
+   "phone": "loans.phone",
+   "text": "Hello {guardian}, {s_name} borrowed {item} from our class. Please help {s_name} bring it back by {due}. Thank you."
+  },
+  {
+   "key": "plan_upd",
+   "moment": "Support plan",
+   "table": "interventions",
+   "phone": "interventions.phone",
+   "text": "Hello {guardian}, an update on {s_name}'s support plan: {progress}. Next review: {review}."
   }
  ],
  "documents": [
@@ -8502,6 +11604,40 @@
     "Teacher"
    ],
    "note": "Sample wording: add your school's own safety and medical questions."
+  },
+  {
+   "key": "certificate",
+   "sheet": "Certificate",
+   "title": "Certificate of achievement",
+   "pick": "students.st_id",
+   "paragraphs": [
+    "This certificate is awarded to {col:students.name}",
+    "for great effort and {col:students.merit} merit points this term.",
+    "Well done, and keep it up!"
+   ],
+   "sign": [
+    "Teacher",
+    "Head teacher"
+   ],
+   "note": "Print on card. Choose any student at the top."
+  },
+  {
+   "key": "cover_plan",
+   "sheet": "Cover Plan",
+   "title": "Plan for a cover teacher",
+   "pick": "lessons.ls_id",
+   "paragraphs": [
+    "Lesson {col:lessons.ls_id} on {col:lessons.date}, {col:lessons.period}.",
+    "Topic: {col:lessons.topic}. Learning objective: {col:lessons.objective}.",
+    "Materials: {col:lessons.materials}. Homework to set: {col:lessons.homework}.",
+    "Slides or resources: {col:lessons.link}",
+    "Seating plan and class notes are on the Students sheet. Please leave a short note on how the lesson went."
+   ],
+   "sign": [
+    "Class teacher",
+    "Cover teacher"
+   ],
+   "note": "Choose the lesson from the Lesson Plan sheet."
   }
  ],
  "checklists": [
@@ -8570,6 +11706,70 @@
     {
      "label": "Marks and feedback returned",
      "days": 20
+    }
+   ]
+  },
+  {
+   "key": "meeting_prep",
+   "title": "Parent meeting",
+   "table": "conferences",
+   "start": "conferences.booked",
+   "steps": [
+    {
+     "label": "Confirm the time with the family",
+     "days": 0
+    },
+    {
+     "label": "Print the progress report and the student file",
+     "days": 3
+    },
+    {
+     "label": "Pick two pieces of work to show",
+     "days": 4
+    },
+    {
+     "label": "Write two strengths and two goals",
+     "days": 5
+    },
+    {
+     "label": "Send the meeting reminder",
+     "days": 6
+    },
+    {
+     "label": "Meeting day",
+     "days": 7
+    },
+    {
+     "label": "Send a short summary to the family",
+     "days": 8
+    }
+   ]
+  },
+  {
+   "key": "support_plan",
+   "title": "Support plan",
+   "table": "interventions",
+   "start": "interventions.start",
+   "steps": [
+    {
+     "label": "Share the plan with the family",
+     "days": 1
+    },
+    {
+     "label": "Start the strategy in class",
+     "days": 2
+    },
+    {
+     "label": "First check: is it working?",
+     "days": 14
+    },
+    {
+     "label": "Update the family",
+     "days": 21
+    },
+    {
+     "label": "Review: continue, change or close the plan",
+     "days": 42
     }
    ]
   }
