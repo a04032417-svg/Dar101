@@ -1,0 +1,42 @@
+{
+ "items": [
+  {
+   "id": "fx-20261107-0930-family-office",
+   "status": "failed",
+   "error": "listing.features[6]: 127 characters, 70 at most: 'Ready‑to‑use sheets for members, entities, trusts, assets, t'",
+   "at": "2026-11-07T23:42:57Z",
+   "spec_sha": "2aa351c889d395beae8ab9832661fc3012a709e7f6002d2ab27fc2583f500d4e"
+  },
+  {
+   "id": "fx-20261107-0930-family-office-p2",
+   "status": "failed",
+   "error": "listing.features[0]: 84 characters, 70 at most: 'Directory for family participants and external board members'\nlisting.features[3]: 76 characters, 70 at most: 'Committee assignment tracking for investment, philanthropy, '\nlisting.features[5]: 71 characters, 70 at most: 'Conflict of interest tracking with entity details and mitiga'\nlisting.features[7]: 72 characters, 70 at most: 'Governance Dashboard with 8 KPIs, monthly attendee chart, an'",
+   "at": "2026-11-07T23:42:57Z",
+   "spec_sha": "ecb6f45459bafea73e320574f77c7767f9df7c7a255b589778143b1df64583ba"
+  },
+  {
+   "id": "fx-20261107-2348-photographer",
+   "status": "failed",
+   "error": "QUALITY GATE (spec+depth) — fix every item, then the file is rebuilt:\ndepth.services: `signature` has 0, a specialised file needs at least 6 — services only this profession needs (a planner, a calculator, a checklist, a printable document …), each with a `where` sheet\ndepth.services: `competitors` has 0, a specialised file needs at least 3 — named competitors with what each lacks\ndepth.services: `tools` has 0, a specialised file needs at least 2 — calculators / planners (what-if grids included)\ndepth.services: `messages` has 0, a specialised file needs at least 3 — ready WhatsApp texts for the profession's real moments\ndepth.services: `documents` has 0, a specialised file needs at least 1 — printable letters or contracts filled from a record\ndepth.services: `checklists` has 0, a specialised file needs at least 1 — stage checklists whose steps get due dates\ndepth.demo: table clients has 10 demo rows, at least 12 realistic rows are needed (24+ in the main tables)\ndepth.demo: 0 table(s) have 24+ demo rows, at least 2 are needed so the dashboard and charts show a real year\ndepth.demo: the widest demo date column covers 75 days, spread the demo over at least 270 days\ndepth.pictures: i18n.ar lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in ar\ndepth.pictures: i18n.fr lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in fr\ndepth.pictures: i18n.es lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in es\ndepth.pictures: i18n.de lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in de\ndepth.pictures: i18n.it lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in it\ndepth.pictures: i18n.pt lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in pt\ndepth.pictures: i18n.tr lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in tr\ndepth.pictures: i18n.nl lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in nl\ndepth.pictures: i18n.ru lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in ru\ndepth.pictures: i18n.fa lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in fa\ndepth.pictures: i18n.ur lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in ur\ndepth.pictures: i18n.hi lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in hi\ndepth.pictures: i18n.zh lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in zh\ndepth.pictures: i18n.id lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in id",
+   "at": "2026-11-09T10:34:44Z",
+   "spec_sha": "6c2c7af4db9074012add6ff2fc9ae8ac6b4a9c5763ce4b8b1abf932d5b1d03a4",
+   "gate": "spec+depth"
+  },
+  {
+   "id": "fx-20261107-2348-photographer-p2",
+   "status": "failed",
+   "error": "QUALITY GATE (spec+depth) — fix every item, then the file is rebuilt:\nforms[invoice].fields[2].format: only with \"formula\" (a value keeps its column format)\nforms[invoice].fields[3].format: only with \"formula\" (a value keeps its column format)\nforms[invoice].fields[4].format: only with \"formula\" (a value keeps its column format)\nforms[invoice].fields[5].format: only with \"formula\" (a value keeps its column format)\nforms[invoice].fields[6].format: only with \"formula\" (a value keeps its column format)\ndepth.services: `signature` has 0, a specialised file needs at least 6 — services only this profession needs (a planner, a calculator, a checklist, a printable document …), each with a `where` sheet\ndepth.services: `competitors` has 0, a specialised file needs at least 3 — named competitors with what each lacks\ndepth.services: `tools` has 0, a specialised file needs at least 2 — calculators / planners (what-if grids included)\ndepth.services: `messages` has 0, a specialised file needs at least 3 — ready WhatsApp texts for the profession's real moments\ndepth.services: `documents` has 0, a specialised file needs at least 1 — printable letters or contracts filled from a record\ndepth.services: `checklists` has 0, a specialised file needs at least 1 — stage checklists whose steps get due dates\ndepth.demo: invoices.subtotal is near-identical (4 distinct values, the commonest in 80% of 15 rows)\ndepth.demo: invoices.paid is near-identical (5 distinct values, the commonest in 67% of 15 rows)\ndepth.demo: inv_items.rate is near-identical (4 distinct values, the commonest in 80% of 15 rows)\ndepth.names: sheet name 'Invoice_Lines' contains an underscore, write it with spaces\ndepth.demo: monthly.month_start must hold the 1st of each month as an absolute date (YYYY-MM-01), found ['today-365', 'today-335']\ndepth.names: sheet name 'Monthly_Summary' contains an underscore, write it with spaces\ndepth.demo: 0 table(s) have 24+ demo rows, at least 2 are needed so the dashboard and charts show a real year",
+   "at": "2026-11-09T10:34:48Z",
+   "spec_sha": "37a7b09b0e0b992389fe2292dbcdf063c6fec45d19aec4e35d6bb3613f6cfb08",
+   "gate": "spec+depth"
+  },
+  {
+   "id": "fx-20261108-0813-cleaning-company-p2",
+   "status": "failed",
+   "error": "QUALITY GATE (spec+depth) — fix every item, then the file is rebuilt:\ndepth.services: `signature` has 0, a specialised file needs at least 6 — services only this profession needs (a planner, a calculator, a checklist, a printable document …), each with a `where` sheet\ndepth.services: `competitors` has 0, a specialised file needs at least 3 — named competitors with what each lacks\ndepth.services: `tools` has 0, a specialised file needs at least 2 — calculators / planners (what-if grids included)\ndepth.services: `messages` has 0, a specialised file needs at least 3 — ready WhatsApp texts for the profession's real moments\ndepth.services: `documents` has 0, a specialised file needs at least 1 — printable letters or contracts filled from a record\ndepth.services: `checklists` has 0, a specialised file needs at least 1 — stage checklists whose steps get due dates\ndepth.demo: table staff has 8 demo rows, at least 12 realistic rows are needed (24+ in the main tables)\ndepth.demo: 1 table(s) have 24+ demo rows, at least 2 are needed so the dashboard and charts show a real year",
+   "at": "2026-11-09T18:56:40Z",
+   "spec_sha": "872031feb01866f7a586d64ebef4abf9586dddb77296f4c3588812c5f764d1e6",
+   "gate": "spec+depth"
+  }
+ ]
+}

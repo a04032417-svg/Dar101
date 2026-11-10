@@ -1,0 +1,35 @@
+{
+ "fingerprint": "1e7abb8ec1a445b9",
+ "last_change_at": "2026-11-10T10:03:45Z",
+ "work": false,
+ "reasons": [],
+ "parts": {
+  "ready": 0,
+  "work": 19,
+  "dropped": 994,
+  "other": 0
+ },
+ "suites_total": 78,
+ "undelivered": [],
+ "complete_not_built": [],
+ "in_progress": [
+  "fx-20261107-1706-social-media-manager (Social media manager)",
+  "fx-20261107-2255-accounting-firm (Accounting firm)",
+  "fx-20261107-2256-accounting-firm (Accounting firm)",
+  "fx-20261109-1922-accounting-firm (Accounting firm)",
+  "fx-20261109-1924-social-media-manager (Social media manager)",
+  "fx-20261109-1926-crop-farm (Crop farm)",
+  "fx-20261110-0005-classroom-teacher (Classroom teacher)",
+  "fx-20261110-0005-classroom-teacher-2 (Classroom teacher)",
+  "fx-20261110-0008-classroom-teacher-2 (Classroom teacher)",
+  "fx-20261110-0009-classroom-teacher (Classroom teacher)"
+ ],
+ "failed": [],
+ "complete_seen": {},
+ "complete_last_24h": 0,
+ "target_per_day": 8,
+ "last_complete_at": null,
+ "counter_since": "2026-11-09T01:10:24Z",
+ "note": "last_change_at = when any file of Dar last changed status; stalled if now minus last_change_at >= 12 h. 3-hour alert (the owner, 2026-11-09: one specialised product every 3 hours): now minus the later of last_complete_at and counter_since >= 3 h. The watcher computes both, so this file changes only when Dar does.",
+ "excel_problems": {}
+}

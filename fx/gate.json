@@ -1,0 +1,58 @@
+{
+ "fx-20261107-2348-photographer": {
+  "sha": "6c2c7af4db9074012add6ff2fc9ae8ac6b4a9c5763ce4b8b1abf932d5b1d03a4",
+  "ok": false,
+  "stage": "spec+depth",
+  "at": "2026-11-09T10:34:44Z",
+  "errors": [
+   "depth.services: `signature` has 0, a specialised file needs at least 6 — services only this profession needs (a planner, a calculator, a checklist, a printable document …), each with a `where` sheet",
+   "depth.services: `competitors` has 0, a specialised file needs at least 3 — named competitors with what each lacks",
+   "depth.services: `tools` has 0, a specialised file needs at least 2 — calculators / planners (what-if grids included)",
+   "depth.services: `messages` has 0, a specialised file needs at least 3 — ready WhatsApp texts for the profession's real moments",
+   "depth.services: `documents` has 0, a specialised file needs at least 1 — printable letters or contracts filled from a record",
+   "depth.services: `checklists` has 0, a specialised file needs at least 1 — stage checklists whose steps get due dates",
+   "depth.demo: table clients has 10 demo rows, at least 12 realistic rows are needed (24+ in the main tables)",
+   "depth.demo: 0 table(s) have 24+ demo rows, at least 2 are needed so the dashboard and charts show a real year",
+   "depth.demo: the widest demo date column covers 75 days, spread the demo over at least 270 days",
+   "depth.pictures: i18n.ar lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in ar",
+   "depth.pictures: i18n.fr lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in fr",
+   "depth.pictures: i18n.es lacks 1 text(s) the pictures print, e.g. 'Control your photography bookings and revenue with a profess' — every picture would show English in es"
+  ]
+ },
+ "fx-20261107-2348-photographer-p2": {
+  "sha": "37a7b09b0e0b992389fe2292dbcdf063c6fec45d19aec4e35d6bb3613f6cfb08",
+  "ok": false,
+  "stage": "spec+depth",
+  "at": "2026-11-09T10:34:48Z",
+  "errors": [
+   "forms[invoice].fields[2].format: only with \"formula\" (a value keeps its column format)",
+   "forms[invoice].fields[3].format: only with \"formula\" (a value keeps its column format)",
+   "forms[invoice].fields[4].format: only with \"formula\" (a value keeps its column format)",
+   "forms[invoice].fields[5].format: only with \"formula\" (a value keeps its column format)",
+   "forms[invoice].fields[6].format: only with \"formula\" (a value keeps its column format)",
+   "depth.services: `signature` has 0, a specialised file needs at least 6 — services only this profession needs (a planner, a calculator, a checklist, a printable document …), each with a `where` sheet",
+   "depth.services: `competitors` has 0, a specialised file needs at least 3 — named competitors with what each lacks",
+   "depth.services: `tools` has 0, a specialised file needs at least 2 — calculators / planners (what-if grids included)",
+   "depth.services: `messages` has 0, a specialised file needs at least 3 — ready WhatsApp texts for the profession's real moments",
+   "depth.services: `documents` has 0, a specialised file needs at least 1 — printable letters or contracts filled from a record",
+   "depth.services: `checklists` has 0, a specialised file needs at least 1 — stage checklists whose steps get due dates",
+   "depth.demo: invoices.subtotal is near-identical (4 distinct values, the commonest in 80% of 15 rows)"
+  ]
+ },
+ "fx-20261108-0813-cleaning-company-p2": {
+  "sha": "872031feb01866f7a586d64ebef4abf9586dddb77296f4c3588812c5f764d1e6",
+  "ok": false,
+  "stage": "spec+depth",
+  "at": "2026-11-09T18:56:40Z",
+  "errors": [
+   "depth.services: `signature` has 0, a specialised file needs at least 6 — services only this profession needs (a planner, a calculator, a checklist, a printable document …), each with a `where` sheet",
+   "depth.services: `competitors` has 0, a specialised file needs at least 3 — named competitors with what each lacks",
+   "depth.services: `tools` has 0, a specialised file needs at least 2 — calculators / planners (what-if grids included)",
+   "depth.services: `messages` has 0, a specialised file needs at least 3 — ready WhatsApp texts for the profession's real moments",
+   "depth.services: `documents` has 0, a specialised file needs at least 1 — printable letters or contracts filled from a record",
+   "depth.services: `checklists` has 0, a specialised file needs at least 1 — stage checklists whose steps get due dates",
+   "depth.demo: table staff has 8 demo rows, at least 12 realistic rows are needed (24+ in the main tables)",
+   "depth.demo: 1 table(s) have 24+ demo rows, at least 2 are needed so the dashboard and charts show a real year"
+  ]
+ }
+}
