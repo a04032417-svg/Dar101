@@ -1,0 +1,8578 @@
+{
+ "fx": 1,
+ "id": "fx-20261110-2000-classroom-teacher",
+ "slug": "teacher-gradebook-attendance-planner",
+ "profession": "Classroom teacher",
+ "name": "ClassMark Teacher Planner",
+ "tagline": "Gradebook, attendance, lesson plans and parent messages in one Excel file",
+ "price_usd": 29,
+ "colors": {
+  "primary": "#1F4E6E",
+  "accent": "#E8A33D"
+ },
+ "settings": [
+  {
+   "key": "school",
+   "label": "School name",
+   "type": "text",
+   "default": "Your School"
+  },
+  {
+   "key": "teacher",
+   "label": "Teacher name",
+   "type": "text",
+   "default": "Your Name"
+  },
+  {
+   "key": "class_name",
+   "label": "Class or subject",
+   "type": "text",
+   "default": "Grade 7 Science"
+  },
+  {
+   "key": "w_homework",
+   "label": "Weight of homework in the term grade %",
+   "type": "pct",
+   "default": 0.2
+  },
+  {
+   "key": "w_quiz",
+   "label": "Weight of quizzes in the term grade %",
+   "type": "pct",
+   "default": 0.25
+  },
+  {
+   "key": "w_project",
+   "label": "Weight of projects in the term grade %",
+   "type": "pct",
+   "default": 0.2
+  },
+  {
+   "key": "w_exam",
+   "label": "Weight of tests and exams in the term grade %",
+   "type": "pct",
+   "default": 0.35
+  },
+  {
+   "key": "grade_a",
+   "label": "Lowest term average for grade A",
+   "type": "pct",
+   "default": 0.9
+  },
+  {
+   "key": "grade_b",
+   "label": "Lowest term average for grade B",
+   "type": "pct",
+   "default": 0.8
+  },
+  {
+   "key": "grade_c",
+   "label": "Lowest term average for grade C",
+   "type": "pct",
+   "default": 0.7
+  },
+  {
+   "key": "grade_d",
+   "label": "Lowest term average for grade D",
+   "type": "pct",
+   "default": 0.6
+  },
+  {
+   "key": "risk_mark",
+   "label": "Term average below which a student is at risk",
+   "type": "pct",
+   "default": 0.65
+  },
+  {
+   "key": "absence_alert",
+   "label": "Absences in 30 days that put a student at risk",
+   "type": "int",
+   "default": 3
+  },
+  {
+   "key": "missing_alert",
+   "label": "Missing assignments that put a student at risk",
+   "type": "int",
+   "default": 2
+  }
+ ],
+ "lists": [
+  {
+   "key": "category",
+   "label": "Assessment Type",
+   "values": [
+    {
+     "key": "homework",
+     "label": "Homework"
+    },
+    {
+     "key": "quiz",
+     "label": "Quiz"
+    },
+    {
+     "key": "project",
+     "label": "Project"
+    },
+    {
+     "key": "exam",
+     "label": "Test or exam"
+    }
+   ]
+  },
+  {
+   "key": "att_status",
+   "label": "Attendance",
+   "values": [
+    {
+     "key": "present",
+     "label": "Present"
+    },
+    {
+     "key": "late",
+     "label": "Late"
+    },
+    {
+     "key": "absent",
+     "label": "Absent"
+    },
+    {
+     "key": "excused",
+     "label": "Excused absence"
+    }
+   ]
+  },
+  {
+   "key": "sub_status",
+   "label": "Submission",
+   "values": [
+    {
+     "key": "submitted",
+     "label": "Submitted"
+    },
+    {
+     "key": "late",
+     "label": "Submitted late"
+    },
+    {
+     "key": "missing",
+     "label": "Missing"
+    },
+    {
+     "key": "excused",
+     "label": "Excused"
+    }
+   ]
+  },
+  {
+   "key": "grade",
+   "label": "Grade",
+   "values": [
+    {
+     "key": "ga",
+     "label": "A"
+    },
+    {
+     "key": "gb",
+     "label": "B"
+    },
+    {
+     "key": "gc",
+     "label": "C"
+    },
+    {
+     "key": "gd",
+     "label": "D"
+    },
+    {
+     "key": "gf",
+     "label": "F"
+    }
+   ]
+  },
+  {
+   "key": "behavior",
+   "label": "Note Type",
+   "values": [
+    {
+     "key": "positive",
+     "label": "Positive"
+    },
+    {
+     "key": "minor",
+     "label": "Minor issue"
+    },
+    {
+     "key": "major",
+     "label": "Serious issue"
+    }
+   ]
+  },
+  {
+   "key": "contact_way",
+   "label": "Contact Way",
+   "values": [
+    {
+     "key": "call",
+     "label": "Phone call"
+    },
+    {
+     "key": "whatsapp",
+     "label": "WhatsApp"
+    },
+    {
+     "key": "email",
+     "label": "E-mail"
+    },
+    {
+     "key": "meeting",
+     "label": "Meeting"
+    },
+    {
+     "key": "note",
+     "label": "Note home"
+    }
+   ]
+  },
+  {
+   "key": "contact_reason",
+   "label": "Reason",
+   "values": [
+    {
+     "key": "absence",
+     "label": "Absence"
+    },
+    {
+     "key": "missing",
+     "label": "Missing work"
+    },
+    {
+     "key": "behavior",
+     "label": "Behavior"
+    },
+    {
+     "key": "praise",
+     "label": "Praise"
+    },
+    {
+     "key": "progress",
+     "label": "Progress"
+    },
+    {
+     "key": "meeting",
+     "label": "Meeting request"
+    }
+   ]
+  },
+  {
+   "key": "relation",
+   "label": "Relation",
+   "values": [
+    {
+     "key": "mother",
+     "label": "Mother"
+    },
+    {
+     "key": "father",
+     "label": "Father"
+    },
+    {
+     "key": "guardian",
+     "label": "Guardian"
+    }
+   ]
+  },
+  {
+   "key": "support",
+   "label": "Support Plan",
+   "values": [
+    {
+     "key": "none",
+     "label": "None"
+    },
+    {
+     "key": "extra_time",
+     "label": "Extra time"
+    },
+    {
+     "key": "seating",
+     "label": "Front seating"
+    },
+    {
+     "key": "reading",
+     "label": "Reading support"
+    },
+    {
+     "key": "language",
+     "label": "Language support"
+    },
+    {
+     "key": "other",
+     "label": "Other plan"
+    }
+   ]
+  },
+  {
+   "key": "lesson_status",
+   "label": "Lesson Status",
+   "values": [
+    {
+     "key": "planned",
+     "label": "Planned"
+    },
+    {
+     "key": "taught",
+     "label": "Taught"
+    },
+    {
+     "key": "moved",
+     "label": "Moved"
+    }
+   ]
+  },
+  {
+   "key": "exp_cat",
+   "label": "Spending Type",
+   "values": [
+    {
+     "key": "supplies",
+     "label": "Classroom supplies"
+    },
+    {
+     "key": "books",
+     "label": "Books"
+    },
+    {
+     "key": "printing",
+     "label": "Printing"
+    },
+    {
+     "key": "prizes",
+     "label": "Rewards and prizes"
+    },
+    {
+     "key": "tech",
+     "label": "Tech and apps"
+    },
+    {
+     "key": "trip",
+     "label": "Trips and events"
+    },
+    {
+     "key": "other",
+     "label": "Other"
+    }
+   ]
+  },
+  {
+   "key": "yes_no",
+   "label": "Yes / No",
+   "values": [
+    {
+     "key": "yes",
+     "label": "Yes"
+    },
+    {
+     "key": "no",
+     "label": "No"
+    }
+   ]
+  },
+  {
+   "key": "alert_level",
+   "label": "Alert",
+   "values": [
+    {
+     "key": "ok",
+     "label": "OK"
+    },
+    {
+     "key": "at_risk",
+     "label": "At risk"
+    },
+    {
+     "key": "due",
+     "label": "Due soon"
+    },
+    {
+     "key": "missing",
+     "label": "Missing work"
+    },
+    {
+     "key": "follow",
+     "label": "Follow up"
+    },
+    {
+     "key": "owed",
+     "label": "To be repaid"
+    }
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "key": "students",
+   "sheet": "Students",
+   "title": "Students",
+   "hint": "One row per student, with the parent or guardian to contact. Averages, grade and alerts fill in from the other sheets.",
+   "rows": 200,
+   "columns": [
+    {
+     "key": "st_id",
+     "label": "Student ID",
+     "type": "text",
+     "width": 10
+    },
+    {
+     "key": "name",
+     "label": "Student",
+     "type": "text",
+     "width": 22,
+     "required": true
+    },
+    {
+     "key": "guardian",
+     "label": "Parent or guardian",
+     "type": "text",
+     "width": 20
+    },
+    {
+     "key": "relation",
+     "label": "Relation",
+     "type": "list",
+     "list": "relation",
+     "width": 11
+    },
+    {
+     "key": "phone",
+     "label": "Phone (with country code)",
+     "type": "text",
+     "width": 17
+    },
+    {
+     "key": "email",
+     "label": "E-mail",
+     "type": "text",
+     "width": 24
+    },
+    {
+     "key": "support",
+     "label": "Support plan",
+     "type": "list",
+     "list": "support",
+     "width": 15
+    },
+    {
+     "key": "notes",
+     "label": "Notes (health, seating)",
+     "type": "text",
+     "width": 24
+    },
+    {
+     "key": "att30",
+     "label": "Attendance (30 days)",
+     "type": "calc",
+     "format": "pct",
+     "formula": "IFERROR((COUNTIFS({range:attendance.student},{col:st_id},{range:attendance.status},{list:att_status.present},{range:attendance.date},\">=\"&({today}-29))+COUNTIFS({range:attendance.student},{col:st_id},{range:attendance.status},{list:att_status.late},{range:attendance.date},\">=\"&({today}-29)))/COUNTIFS({range:attendance.student},{col:st_id},{range:attendance.date},\">=\"&({today}-29)),\"\")",
+     "width": 12,
+     "visual": "up"
+    },
+    {
+     "key": "abs30",
+     "label": "Absences (30 days)",
+     "type": "calc",
+     "format": "int",
+     "width": 11,
+     "formula": "COUNTIFS({range:attendance.student},{col:st_id},{range:attendance.status},{list:att_status.absent},{range:attendance.date},\">=\"&({today}-29))"
+    },
+    {
+     "key": "missing",
+     "label": "Missing work",
+     "type": "calc",
+     "format": "int",
+     "width": 10,
+     "formula": "COUNTIFS({range:scores.student},{col:st_id},{range:scores.status},{list:sub_status.missing})"
+    },
+    {
+     "key": "hw",
+     "label": "Homework average",
+     "type": "calc",
+     "format": "pct",
+     "formula": "IFERROR(AVERAGEIFS({range:scores.pct},{range:scores.student},{col:st_id},{range:scores.category},{list:category.homework}),\"\")",
+     "width": 11
+    },
+    {
+     "key": "quiz",
+     "label": "Quiz average",
+     "type": "calc",
+     "format": "pct",
+     "formula": "IFERROR(AVERAGEIFS({range:scores.pct},{range:scores.student},{col:st_id},{range:scores.category},{list:category.quiz}),\"\")",
+     "width": 10
+    },
+    {
+     "key": "project",
+     "label": "Project average",
+     "type": "calc",
+     "format": "pct",
+     "formula": "IFERROR(AVERAGEIFS({range:scores.pct},{range:scores.student},{col:st_id},{range:scores.category},{list:category.project}),\"\")",
+     "width": 10
+    },
+    {
+     "key": "exam",
+     "label": "Test average",
+     "type": "calc",
+     "format": "pct",
+     "formula": "IFERROR(AVERAGEIFS({range:scores.pct},{range:scores.student},{col:st_id},{range:scores.category},{list:category.exam}),\"\")",
+     "width": 10
+    },
+    {
+     "key": "term",
+     "label": "Term average",
+     "type": "calc",
+     "format": "pct",
+     "formula": "IFERROR((IF(ISNUMBER({col:hw}),{col:hw}*{set:w_homework},0)+IF(ISNUMBER({col:quiz}),{col:quiz}*{set:w_quiz},0)+IF(ISNUMBER({col:project}),{col:project}*{set:w_project},0)+IF(ISNUMBER({col:exam}),{col:exam}*{set:w_exam},0))/(IF(ISNUMBER({col:hw}),{set:w_homework},0)+IF(ISNUMBER({col:quiz}),{set:w_quiz},0)+IF(ISNUMBER({col:project}),{set:w_project},0)+IF(ISNUMBER({col:exam}),{set:w_exam},0)),\"\")",
+     "width": 11,
+     "visual": "up"
+    },
+    {
+     "key": "grade",
+     "label": "Grade",
+     "type": "calc",
+     "format": "text",
+     "formula": "IF({col:term}=\"\",\"\",IF({col:term}>={set:grade_a},{list:grade.ga},IF({col:term}>={set:grade_b},{list:grade.gb},IF({col:term}>={set:grade_c},{list:grade.gc},IF({col:term}>={set:grade_d},{list:grade.gd},{list:grade.gf})))))",
+     "width": 8
+    },
+    {
+     "key": "positives",
+     "label": "Positive notes",
+     "type": "calc",
+     "format": "int",
+     "width": 10,
+     "formula": "COUNTIFS({range:behavior.student},{col:st_id},{range:behavior.type},{list:behavior.positive})"
+    },
+    {
+     "key": "last_contact",
+     "label": "Last parent contact",
+     "type": "calc",
+     "format": "date",
+     "width": 13,
+     "formula": "IF(MAXIFS({range:contacts.date},{range:contacts.student},{col:st_id})=0,\"\",MAXIFS({range:contacts.date},{range:contacts.student},{col:st_id}))"
+    },
+    {
+     "key": "flag",
+     "label": "Alert",
+     "type": "calc",
+     "format": "text",
+     "width": 11,
+     "formula": "IF({col:name}=\"\",\"\",IF(OR(AND(ISNUMBER({col:term}),{col:term}<{set:risk_mark}),{col:abs30}>={set:absence_alert},{col:missing}>={set:missing_alert}),{list:alert_level.at_risk},{list:alert_level.ok}))"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "flag",
+     "when": "= {list:alert_level.at_risk}",
+     "style": "bad"
+    },
+    {
+     "column": "abs30",
+     "when": ">= {set:absence_alert}",
+     "style": "warn"
+    },
+    {
+     "column": "missing",
+     "when": ">= {set:missing_alert}",
+     "style": "warn"
+    },
+    {
+     "column": "term",
+     "when": "< {set:risk_mark}",
+     "style": "bad"
+    }
+   ],
+   "demo": [
+    {
+     "st_id": "S-101",
+     "name": "Emma Walker",
+     "guardian": "Sarah Walker",
+     "relation": "father",
+     "phone": "+1 555 0110",
+     "email": "sarah.walker@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-102",
+     "name": "Noah Haddad",
+     "guardian": "Michael Haddad",
+     "relation": "mother",
+     "phone": "+1 555 0111",
+     "email": "michael.haddad@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-103",
+     "name": "Olivia Brooks",
+     "guardian": "Laura Brooks",
+     "relation": "guardian",
+     "phone": "+1 555 0112",
+     "email": "laura.brooks@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-104",
+     "name": "Liam Moreno",
+     "guardian": "David Moreno",
+     "relation": "father",
+     "phone": "+1 555 0113",
+     "email": "david.moreno@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-105",
+     "name": "Ava Kim",
+     "guardian": "Anna Kim",
+     "relation": "father",
+     "phone": "+1 555 0114",
+     "email": "anna.kim@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-106",
+     "name": "Lucas Schmidt",
+     "guardian": "Peter Schmidt",
+     "relation": "mother",
+     "phone": "+1 555 0115",
+     "email": "peter.schmidt@example.com",
+     "support": "none",
+     "notes": "Allergic to peanuts"
+    },
+    {
+     "st_id": "S-107",
+     "name": "Mia Rossi",
+     "guardian": "Julia Rossi",
+     "relation": "father",
+     "phone": "+1 555 0116",
+     "email": "julia.rossi@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-108",
+     "name": "Adam Khan",
+     "guardian": "Karim Khan",
+     "relation": "mother",
+     "phone": "+1 555 0117",
+     "email": "karim.khan@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-109",
+     "name": "Sofia Novak",
+     "guardian": "Elena Novak",
+     "relation": "father",
+     "phone": "+1 555 0118",
+     "email": "elena.novak@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-110",
+     "name": "Omar Silva",
+     "guardian": "Tariq Silva",
+     "relation": "guardian",
+     "phone": "+1 555 0119",
+     "email": "tariq.silva@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-111",
+     "name": "Hana Tanaka",
+     "guardian": "Mei Tanaka",
+     "relation": "mother",
+     "phone": "+1 555 0120",
+     "email": "mei.tanaka@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-112",
+     "name": "Leo Okafor",
+     "guardian": "John Okafor",
+     "relation": "father",
+     "phone": "+1 555 0121",
+     "email": "john.okafor@example.com",
+     "support": "none",
+     "notes": "Needs glasses for the board"
+    },
+    {
+     "st_id": "S-113",
+     "name": "Zara Dubois",
+     "guardian": "Amira Dubois",
+     "relation": "guardian",
+     "phone": "+1 555 0122",
+     "email": "amira.dubois@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-114",
+     "name": "Yusuf Yilmaz",
+     "guardian": "Mehmet Yilmaz",
+     "relation": "guardian",
+     "phone": "+1 555 0123",
+     "email": "mehmet.yilmaz@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-115",
+     "name": "Chloe Evans",
+     "guardian": "Rachel Evans",
+     "relation": "mother",
+     "phone": "+1 555 0124",
+     "email": "rachel.evans@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-116",
+     "name": "Daniel Costa",
+     "guardian": "Carlos Costa",
+     "relation": "mother",
+     "phone": "+1 555 0125",
+     "email": "carlos.costa@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-117",
+     "name": "Layla Rahman",
+     "guardian": "Fatima Rahman",
+     "relation": "guardian",
+     "phone": "+1 555 0126",
+     "email": "fatima.rahman@example.com",
+     "support": "none",
+     "notes": ""
+    },
+    {
+     "st_id": "S-118",
+     "name": "Ethan Baker",
+     "guardian": "Mark Baker",
+     "relation": "mother",
+     "phone": "+1 555 0127",
+     "email": "mark.baker@example.com",
+     "support": "extra_time",
+     "notes": ""
+    },
+    {
+     "st_id": "S-119",
+     "name": "Nora Jensen",
+     "guardian": "Ingrid Jensen",
+     "relation": "mother",
+     "phone": "+1 555 0128",
+     "email": "ingrid.jensen@example.com",
+     "support": "reading",
+     "notes": ""
+    },
+    {
+     "st_id": "S-120",
+     "name": "Samir Nasser",
+     "guardian": "Rami Nasser",
+     "relation": "mother",
+     "phone": "+1 555 0129",
+     "email": "rami.nasser@example.com",
+     "support": "seating",
+     "notes": ""
+    },
+    {
+     "st_id": "S-121",
+     "name": "Grace Patel",
+     "guardian": "Priya Patel",
+     "relation": "mother",
+     "phone": "+1 555 0130",
+     "email": "priya.patel@example.com",
+     "support": "language",
+     "notes": ""
+    },
+    {
+     "st_id": "S-122",
+     "name": "Ali Hassan",
+     "guardian": "Samira Hassan",
+     "relation": "father",
+     "phone": "+1 555 0131",
+     "email": "samira.hassan@example.com",
+     "support": "extra_time",
+     "notes": ""
+    },
+    {
+     "st_id": "S-123",
+     "name": "Maya Lopez",
+     "guardian": "Isabel Lopez",
+     "relation": "mother",
+     "phone": "+1 555 0132",
+     "email": "isabel.lopez@example.com",
+     "support": "other",
+     "notes": ""
+    },
+    {
+     "st_id": "S-124",
+     "name": "Jack Reid",
+     "guardian": "Paul Reid",
+     "relation": "mother",
+     "phone": "+1 555 0133",
+     "email": "paul.reid@example.com",
+     "support": "reading",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "key": "assignments",
+   "sheet": "Assignments",
+   "title": "Assignments",
+   "hint": "Every homework, quiz, project and test, with its maximum points. Hand-in counts and the class average fill in from Scores.",
+   "rows": 300,
+   "columns": [
+    {
+     "key": "as_id",
+     "label": "Assignment ID",
+     "type": "text",
+     "width": 12
+    },
+    {
+     "key": "title",
+     "label": "Assignment",
+     "type": "text",
+     "width": 30,
+     "required": true
+    },
+    {
+     "key": "category",
+     "label": "Type",
+     "type": "list",
+     "list": "category",
+     "width": 13
+    },
+    {
+     "key": "set",
+     "label": "Set on",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "due",
+     "label": "Due",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "max",
+     "label": "Maximum points",
+     "type": "num",
+     "width": 11
+    },
+    {
+     "key": "standard",
+     "label": "Standard or unit",
+     "type": "text",
+     "width": 13
+    },
+    {
+     "key": "handed",
+     "label": "Handed in",
+     "type": "calc",
+     "format": "int",
+     "width": 10,
+     "formula": "COUNTIFS({range:scores.assignment},{col:as_id},{range:scores.status},{list:sub_status.submitted})+COUNTIFS({range:scores.assignment},{col:as_id},{range:scores.status},{list:sub_status.late})"
+    },
+    {
+     "key": "missing",
+     "label": "Missing",
+     "type": "calc",
+     "format": "int",
+     "width": 9,
+     "formula": "COUNTIFS({range:scores.assignment},{col:as_id},{range:scores.status},{list:sub_status.missing})"
+    },
+    {
+     "key": "avg",
+     "label": "Class average",
+     "type": "calc",
+     "format": "pct",
+     "width": 11,
+     "formula": "IFERROR(AVERAGEIFS({range:scores.pct},{range:scores.assignment},{col:as_id}),\"\")",
+     "visual": "up"
+    },
+    {
+     "key": "days",
+     "label": "Days to due date",
+     "type": "calc",
+     "format": "int",
+     "width": 11,
+     "formula": "IF({col:due}=\"\",\"\",{col:due}-{today})"
+    },
+    {
+     "key": "flag",
+     "label": "Alert",
+     "type": "calc",
+     "format": "text",
+     "width": 12,
+     "formula": "IF({col:title}=\"\",\"\",IF(AND(ISNUMBER({col:days}),{col:days}>=0,{col:days}<=7),{list:alert_level.due},IF({col:missing}>0,{list:alert_level.missing},{list:alert_level.ok})))"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "flag",
+     "when": "= {list:alert_level.due}",
+     "style": "warn"
+    },
+    {
+     "column": "missing",
+     "when": "> 0",
+     "style": "warn"
+    }
+   ],
+   "demo": [
+    {
+     "as_id": "A-201",
+     "title": "Cells: label the diagram",
+     "category": "homework",
+     "set": "today-66",
+     "due": "today-62",
+     "max": 10,
+     "standard": "LS1.A"
+    },
+    {
+     "as_id": "A-202",
+     "title": "Quiz 1: cells and organisms",
+     "category": "quiz",
+     "set": "today-60",
+     "due": "today-59",
+     "max": 20,
+     "standard": "LS1.A"
+    },
+    {
+     "as_id": "A-203",
+     "title": "Microscope lab report",
+     "category": "project",
+     "set": "today-58",
+     "due": "today-50",
+     "max": 30,
+     "standard": "LS1.A"
+    },
+    {
+     "as_id": "A-204",
+     "title": "Food chains worksheet",
+     "category": "homework",
+     "set": "today-52",
+     "due": "today-48",
+     "max": 10,
+     "standard": "LS2.B"
+    },
+    {
+     "as_id": "A-205",
+     "title": "Quiz 2: ecosystems",
+     "category": "quiz",
+     "set": "today-46",
+     "due": "today-45",
+     "max": 20,
+     "standard": "LS2.B"
+    },
+    {
+     "as_id": "A-206",
+     "title": "Unit test: living things",
+     "category": "exam",
+     "set": "today-44",
+     "due": "today-40",
+     "max": 50,
+     "standard": "LS1-LS2"
+    },
+    {
+     "as_id": "A-207",
+     "title": "Energy vocabulary",
+     "category": "homework",
+     "set": "today-38",
+     "due": "today-34",
+     "max": 10,
+     "standard": "PS3.A"
+    },
+    {
+     "as_id": "A-208",
+     "title": "Quiz 3: forms of energy",
+     "category": "quiz",
+     "set": "today-32",
+     "due": "today-31",
+     "max": 20,
+     "standard": "PS3.A"
+    },
+    {
+     "as_id": "A-209",
+     "title": "Renewable energy poster",
+     "category": "project",
+     "set": "today-36",
+     "due": "today-24",
+     "max": 40,
+     "standard": "PS3.D"
+    },
+    {
+     "as_id": "A-210",
+     "title": "Circuits practice",
+     "category": "homework",
+     "set": "today-27",
+     "due": "today-23",
+     "max": 10,
+     "standard": "PS3.B"
+    },
+    {
+     "as_id": "A-211",
+     "title": "Quiz 4: electricity",
+     "category": "quiz",
+     "set": "today-20",
+     "due": "today-19",
+     "max": 20,
+     "standard": "PS3.B"
+    },
+    {
+     "as_id": "A-212",
+     "title": "Midterm exam",
+     "category": "exam",
+     "set": "today-17",
+     "due": "today-14",
+     "max": 80,
+     "standard": "PS3"
+    },
+    {
+     "as_id": "A-213",
+     "title": "Forces reading questions",
+     "category": "homework",
+     "set": "today-12",
+     "due": "today-8",
+     "max": 10,
+     "standard": "PS2.A"
+    },
+    {
+     "as_id": "A-214",
+     "title": "Quiz 5: forces and motion",
+     "category": "quiz",
+     "set": "today-6",
+     "due": "today-5",
+     "max": 20,
+     "standard": "PS2.A"
+    },
+    {
+     "as_id": "A-215",
+     "title": "Bridge building project",
+     "category": "project",
+     "set": "today-9",
+     "due": "today+6",
+     "max": 40,
+     "standard": "ETS1.B"
+    },
+    {
+     "as_id": "A-216",
+     "title": "Unit test: forces",
+     "category": "exam",
+     "set": "today+1",
+     "due": "today+9",
+     "max": 50,
+     "standard": "PS2"
+    }
+   ]
+  },
+  {
+   "key": "scores",
+   "sheet": "Scores",
+   "title": "Scores",
+   "hint": "One row per student per assignment. A missing piece of work counts as zero; an excused one is left out of the averages.",
+   "rows": 3000,
+   "columns": [
+    {
+     "key": "student",
+     "label": "Student ID",
+     "type": "ref",
+     "ref": "students.st_id",
+     "width": 11,
+     "required": true
+    },
+    {
+     "key": "assignment",
+     "label": "Assignment ID",
+     "type": "ref",
+     "ref": "assignments.as_id",
+     "width": 12
+    },
+    {
+     "key": "status",
+     "label": "Submission",
+     "type": "list",
+     "list": "sub_status",
+     "width": 14
+    },
+    {
+     "key": "points",
+     "label": "Points",
+     "type": "num",
+     "width": 9
+    },
+    {
+     "key": "comment",
+     "label": "Feedback",
+     "type": "text",
+     "width": 24
+    },
+    {
+     "key": "s_name",
+     "label": "Student",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.name},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "a_title",
+     "label": "Assignment",
+     "type": "calc",
+     "format": "text",
+     "width": 26,
+     "formula": "IFERROR(INDEX({range:assignments.title},MATCH({col:assignment},{range:assignments.as_id},0)),\"\")"
+    },
+    {
+     "key": "category",
+     "label": "Type",
+     "type": "calc",
+     "format": "text",
+     "width": 12,
+     "formula": "IFERROR(INDEX({range:assignments.category},MATCH({col:assignment},{range:assignments.as_id},0)),\"\")"
+    },
+    {
+     "key": "max",
+     "label": "Out of",
+     "type": "calc",
+     "format": "num",
+     "width": 8,
+     "formula": "IFERROR(INDEX({range:assignments.max},MATCH({col:assignment},{range:assignments.as_id},0)),\"\")"
+    },
+    {
+     "key": "pct",
+     "label": "Score %",
+     "type": "calc",
+     "format": "pct",
+     "width": 9,
+     "visual": "up",
+     "formula": "IF({col:status}={list:sub_status.excused},\"\",IF({col:status}={list:sub_status.missing},0,IF(OR({col:points}=\"\",{col:max}=\"\",{col:max}=0),\"\",{col:points}/{col:max})))"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "status",
+     "when": "= {list:sub_status.missing}",
+     "style": "bad"
+    },
+    {
+     "column": "pct",
+     "when": "< {set:grade_d}",
+     "style": "warn"
+    }
+   ],
+   "demo": [
+    {
+     "student": "S-101",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 6.0,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 7.5,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-201",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 7.5,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-201",
+     "status": "excused",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 7.5,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-201",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-201",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-201",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 18.5,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 13.0,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 17.0,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 11.0,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 20,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 14.5,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 17.5,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 11.0,
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 17.5,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 13.0,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 18.5,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 13.5,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 16.5,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 17.5,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 16.5,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 12.5,
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 15.5,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-202",
+     "status": "late",
+     "points": 14.5,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-202",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 13.5,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 16.5,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 15.0,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 14.0,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-202",
+     "status": "submitted",
+     "points": 13.5,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 29.0,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 19.5,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 23.5,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 20.5,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 30,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 23.5,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 21.0,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 16.5,
+     "comment": "Show your working"
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 30,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 21.0,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 22.5,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 19.0,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 28.5,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 21.0,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 22.0,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 13.0,
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 26.5,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 28.5,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 28.5,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 23.0,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 30,
+     "comment": "Great reasoning"
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 22.0,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 25.0,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-203",
+     "status": "submitted",
+     "points": 19.0,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-204",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-204",
+     "status": "late",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 5.5,
+     "comment": "Show your working"
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 7.5,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-204",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 10,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-204",
+     "status": "submitted",
+     "points": 6.0,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 18.0,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 13.5,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 17.5,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 14.5,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 20,
+     "comment": "Great reasoning"
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 18.5,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 10.0,
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 20,
+     "comment": "Great reasoning"
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-205",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 18.5,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 15.5,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 17.5,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-205",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 11.0,
+     "comment": "Show your working"
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 16.5,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 15.5,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 18.0,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 11.5,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 19.0,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 13.5,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 14.5,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-205",
+     "status": "submitted",
+     "points": 14.5,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 46.0,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 40.0,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 47.0,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-206",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 50,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 50,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 41.0,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 32.0,
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 41.5,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 37.0,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 50,
+     "comment": "Great reasoning"
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-206",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 45.5,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 39.0,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 40.5,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 27.0,
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 38.5,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 37.5,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 39.0,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 29.5,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 44.5,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 32.5,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 37.5,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-206",
+     "status": "submitted",
+     "points": 36.5,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 10,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-207",
+     "status": "excused",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 5.5,
+     "comment": "Show your working"
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 5.5,
+     "comment": "Show your working"
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-207",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 7.5,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 7.5,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-207",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-207",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 19.0,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 15.0,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 12.0,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 17.5,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 12.5,
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 17.5,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 14.5,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 19.0,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 14.0,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 16.5,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-208",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-208",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 15.0,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 17.5,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 19.0,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 15.0,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 17.0,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-208",
+     "status": "submitted",
+     "points": 16.5,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 40,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 29.5,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 33.0,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 28.5,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 36.5,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 30.0,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 36.0,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 24.0,
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 39.5,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 35.0,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 39.5,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 28.0,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 34.5,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 29.0,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 34.5,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-209",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 37.0,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 27.5,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 37.0,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 27.0,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 35.0,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 26.5,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 37.5,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-209",
+     "status": "submitted",
+     "points": 34.0,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 7.5,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 7.5,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-210",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 10,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 4.0,
+     "comment": "Show your working"
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 7.5,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 5.5,
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 10,
+     "comment": "Great reasoning"
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-210",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-210",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 17.0,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 14.0,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 20,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 13.5,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-211",
+     "status": "late",
+     "points": 16.5,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 19.0,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 13.5,
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 17.5,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 14.0,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 18.0,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 13.0,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 18.0,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 13.5,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 15.5,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 10.5,
+     "comment": "Show your working"
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 18.0,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-211",
+     "status": "late",
+     "points": 13.5,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 18.5,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-211",
+     "status": "late",
+     "points": 12.5,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 18.5,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-211",
+     "status": "late",
+     "points": 13.0,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-211",
+     "status": "submitted",
+     "points": 16.5,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 69.0,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 52.0,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-212",
+     "status": "late",
+     "points": 69.0,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 48.5,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 80,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 69.0,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 74.5,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-212",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 73.5,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 62.0,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 74.0,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 58.5,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 68.5,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 55.5,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 62.5,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 46.0,
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 68.0,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 53.0,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 70.0,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 51.0,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 80,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-212",
+     "status": "submitted",
+     "points": 61.5,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-212",
+     "status": "excused",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-212",
+     "status": "late",
+     "points": 62.5,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 9.5,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 6.0,
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 7.5,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 9.0,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-213",
+     "status": "missing",
+     "points": "",
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 10,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 8.0,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 6.0,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 6.5,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 8.5,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-213",
+     "status": "submitted",
+     "points": 7.0,
+     "comment": ""
+    },
+    {
+     "student": "S-101",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 15.0,
+     "comment": ""
+    },
+    {
+     "student": "S-102",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 15.0,
+     "comment": ""
+    },
+    {
+     "student": "S-103",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 14.5,
+     "comment": ""
+    },
+    {
+     "student": "S-104",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 12.0,
+     "comment": ""
+    },
+    {
+     "student": "S-105",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 18.5,
+     "comment": ""
+    },
+    {
+     "student": "S-106",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 17.0,
+     "comment": ""
+    },
+    {
+     "student": "S-107",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 17.0,
+     "comment": ""
+    },
+    {
+     "student": "S-108",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 13.0,
+     "comment": ""
+    },
+    {
+     "student": "S-109",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 20,
+     "comment": ""
+    },
+    {
+     "student": "S-110",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 13.0,
+     "comment": ""
+    },
+    {
+     "student": "S-111",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 18.5,
+     "comment": ""
+    },
+    {
+     "student": "S-112",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 13.5,
+     "comment": ""
+    },
+    {
+     "student": "S-113",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 19.0,
+     "comment": ""
+    },
+    {
+     "student": "S-114",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 15.5,
+     "comment": ""
+    },
+    {
+     "student": "S-115",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 15.0,
+     "comment": ""
+    },
+    {
+     "student": "S-116",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 10.5,
+     "comment": ""
+    },
+    {
+     "student": "S-117",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 19.0,
+     "comment": ""
+    },
+    {
+     "student": "S-118",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 15.5,
+     "comment": ""
+    },
+    {
+     "student": "S-119",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 16.5,
+     "comment": ""
+    },
+    {
+     "student": "S-120",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 13.0,
+     "comment": ""
+    },
+    {
+     "student": "S-121",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 19.0,
+     "comment": ""
+    },
+    {
+     "student": "S-122",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 16.0,
+     "comment": ""
+    },
+    {
+     "student": "S-123",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 17.5,
+     "comment": ""
+    },
+    {
+     "student": "S-124",
+     "assignment": "A-214",
+     "status": "submitted",
+     "points": 16.5,
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "key": "attendance",
+   "sheet": "Attendance",
+   "title": "Attendance",
+   "hint": "One row per student per school day. Absences and lates of the last 30 days show on Students and the dashboard.",
+   "rows": 3000,
+   "columns": [
+    {
+     "key": "date",
+     "label": "Date",
+     "type": "date",
+     "width": 12,
+     "required": true
+    },
+    {
+     "key": "student",
+     "label": "Student ID",
+     "type": "ref",
+     "ref": "students.st_id",
+     "width": 11
+    },
+    {
+     "key": "status",
+     "label": "Attendance",
+     "type": "list",
+     "list": "att_status",
+     "width": 15
+    },
+    {
+     "key": "note",
+     "label": "Note",
+     "type": "text",
+     "width": 22
+    },
+    {
+     "key": "s_name",
+     "label": "Student",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.name},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "absent_n",
+     "label": "Absent",
+     "type": "calc",
+     "format": "int",
+     "width": 8,
+     "formula": "IF({col:status}={list:att_status.absent},1,0)"
+    },
+    {
+     "key": "late_n",
+     "label": "Late",
+     "type": "calc",
+     "format": "int",
+     "width": 7,
+     "formula": "IF({col:status}={list:att_status.late},1,0)"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "status",
+     "when": "= {list:att_status.absent}",
+     "style": "bad"
+    },
+    {
+     "column": "status",
+     "when": "= {list:att_status.late}",
+     "style": "warn"
+    }
+   ],
+   "demo": [
+    {
+     "date": "today-28",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-105",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-111",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-28",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-118",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-27",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-106",
+     "status": "excused",
+     "note": "Doctor's appointment"
+    },
+    {
+     "date": "today-24",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-24",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-103",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-117",
+     "status": "late",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-23",
+     "student": "S-124",
+     "status": "late",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-101",
+     "status": "excused",
+     "note": "Doctor's appointment"
+    },
+    {
+     "date": "today-22",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-114",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-115",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-22",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-109",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-118",
+     "status": "late",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-21",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-17",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-102",
+     "status": "excused",
+     "note": "Doctor's appointment"
+    },
+    {
+     "date": "today-16",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-16",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-104",
+     "status": "late",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-108",
+     "status": "late",
+     "note": "Bus late"
+    },
+    {
+     "date": "today-15",
+     "student": "S-109",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-15",
+     "student": "S-124",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-108",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-112",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-116",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-123",
+     "status": "excused",
+     "note": "Doctor's appointment"
+    },
+    {
+     "date": "today-14",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-104",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-105",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-115",
+     "status": "late",
+     "note": "Bus late"
+    },
+    {
+     "date": "today-13",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-118",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-13",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-118",
+     "status": "late",
+     "note": "Bus late"
+    },
+    {
+     "date": "today-10",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-122",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-10",
+     "student": "S-124",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-118",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-9",
+     "student": "S-124",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-104",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-121",
+     "status": "late",
+     "note": "Bus late"
+    },
+    {
+     "date": "today-8",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-8",
+     "student": "S-124",
+     "status": "late",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-103",
+     "status": "late",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-104",
+     "status": "excused",
+     "note": "Doctor's appointment"
+    },
+    {
+     "date": "today-7",
+     "student": "S-105",
+     "status": "excused",
+     "note": "Doctor's appointment"
+    },
+    {
+     "date": "today-7",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-7",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-103",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-109",
+     "status": "late",
+     "note": "Bus late"
+    },
+    {
+     "date": "today-6",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-116",
+     "status": "late",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-6",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-101",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-3",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-101",
+     "status": "late",
+     "note": "Bus late"
+    },
+    {
+     "date": "today-2",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-106",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-110",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-118",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-123",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-2",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-101",
+     "status": "excused",
+     "note": "Doctor's appointment"
+    },
+    {
+     "date": "today-1",
+     "student": "S-102",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-103",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-104",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-105",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-106",
+     "status": "absent",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-107",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-108",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-109",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-110",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-111",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-112",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-113",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-114",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-115",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-116",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-117",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-118",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-119",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-120",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-121",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-122",
+     "status": "present",
+     "note": ""
+    },
+    {
+     "date": "today-1",
+     "student": "S-123",
+     "status": "excused",
+     "note": "Doctor's appointment"
+    },
+    {
+     "date": "today-1",
+     "student": "S-124",
+     "status": "present",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "key": "behavior",
+   "sheet": "Behavior Log",
+   "title": "Behavior log",
+   "hint": "Positive notes as well as issues, with what you did about them.",
+   "rows": 1000,
+   "columns": [
+    {
+     "key": "date",
+     "label": "Date",
+     "type": "date",
+     "width": 12,
+     "required": true
+    },
+    {
+     "key": "student",
+     "label": "Student ID",
+     "type": "ref",
+     "ref": "students.st_id",
+     "width": 11
+    },
+    {
+     "key": "type",
+     "label": "Type",
+     "type": "list",
+     "list": "behavior",
+     "width": 14
+    },
+    {
+     "key": "note",
+     "label": "What happened",
+     "type": "text",
+     "width": 34
+    },
+    {
+     "key": "action",
+     "label": "Action taken",
+     "type": "text",
+     "width": 26
+    },
+    {
+     "key": "s_name",
+     "label": "Student",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.name},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "type",
+     "when": "= {list:behavior.major}",
+     "style": "bad"
+    },
+    {
+     "column": "type",
+     "when": "= {list:behavior.positive}",
+     "style": "good"
+    }
+   ],
+   "demo": [
+    {
+     "date": "today-60",
+     "student": "S-101",
+     "type": "positive",
+     "note": "Helped a classmate with the lab",
+     "action": "Praised in class"
+    },
+    {
+     "date": "today-58",
+     "student": "S-108",
+     "type": "positive",
+     "note": "Excellent questions during the lesson",
+     "action": "Merit point"
+    },
+    {
+     "date": "today-56",
+     "student": "S-115",
+     "type": "minor",
+     "note": "Talking during the test instructions",
+     "action": "Reminder"
+    },
+    {
+     "date": "today-54",
+     "student": "S-122",
+     "type": "minor",
+     "note": "Phone out in class",
+     "action": "Phone kept until the end of the day"
+    },
+    {
+     "date": "today-52",
+     "student": "S-105",
+     "type": "positive",
+     "note": "Led the group project well",
+     "action": "Note home"
+    },
+    {
+     "date": "today-50",
+     "student": "S-112",
+     "type": "positive",
+     "note": "Helped a classmate with the lab",
+     "action": "Praised in class"
+    },
+    {
+     "date": "today-48",
+     "student": "S-119",
+     "type": "minor",
+     "note": "No homework three times",
+     "action": "Lunch catch-up session"
+    },
+    {
+     "date": "today-46",
+     "student": "S-102",
+     "type": "positive",
+     "note": "Most improved this month",
+     "action": "Certificate"
+    },
+    {
+     "date": "today-44",
+     "student": "S-109",
+     "type": "positive",
+     "note": "Helped a classmate with the lab",
+     "action": "Praised in class"
+    },
+    {
+     "date": "today-42",
+     "student": "S-116",
+     "type": "positive",
+     "note": "Excellent questions during the lesson",
+     "action": "Merit point"
+    },
+    {
+     "date": "today-40",
+     "student": "S-123",
+     "type": "positive",
+     "note": "Helped a classmate with the lab",
+     "action": "Praised in class"
+    },
+    {
+     "date": "today-38",
+     "student": "S-106",
+     "type": "minor",
+     "note": "Phone out in class",
+     "action": "Phone kept until the end of the day"
+    },
+    {
+     "date": "today-36",
+     "student": "S-113",
+     "type": "positive",
+     "note": "Led the group project well",
+     "action": "Note home"
+    },
+    {
+     "date": "today-34",
+     "student": "S-120",
+     "type": "major",
+     "note": "Pushed another student",
+     "action": "Referred to the head of year"
+    },
+    {
+     "date": "today-32",
+     "student": "S-103",
+     "type": "minor",
+     "note": "No homework three times",
+     "action": "Lunch catch-up session"
+    },
+    {
+     "date": "today-30",
+     "student": "S-110",
+     "type": "positive",
+     "note": "Helped a classmate with the lab",
+     "action": "Praised in class"
+    },
+    {
+     "date": "today-28",
+     "student": "S-117",
+     "type": "positive",
+     "note": "Helped a classmate with the lab",
+     "action": "Praised in class"
+    },
+    {
+     "date": "today-26",
+     "student": "S-124",
+     "type": "positive",
+     "note": "Excellent questions during the lesson",
+     "action": "Merit point"
+    },
+    {
+     "date": "today-24",
+     "student": "S-107",
+     "type": "minor",
+     "note": "Talking during the test instructions",
+     "action": "Reminder"
+    },
+    {
+     "date": "today-22",
+     "student": "S-114",
+     "type": "minor",
+     "note": "Phone out in class",
+     "action": "Phone kept until the end of the day"
+    },
+    {
+     "date": "today-20",
+     "student": "S-121",
+     "type": "positive",
+     "note": "Helped a classmate with the lab",
+     "action": "Praised in class"
+    },
+    {
+     "date": "today-18",
+     "student": "S-104",
+     "type": "major",
+     "note": "Pushed another student",
+     "action": "Referred to the head of year"
+    },
+    {
+     "date": "today-16",
+     "student": "S-111",
+     "type": "minor",
+     "note": "No homework three times",
+     "action": "Lunch catch-up session"
+    },
+    {
+     "date": "today-14",
+     "student": "S-118",
+     "type": "positive",
+     "note": "Most improved this month",
+     "action": "Certificate"
+    },
+    {
+     "date": "today-12",
+     "student": "S-101",
+     "type": "positive",
+     "note": "Helped a classmate with the lab",
+     "action": "Praised in class"
+    },
+    {
+     "date": "today-10",
+     "student": "S-108",
+     "type": "positive",
+     "note": "Helped a classmate with the lab",
+     "action": "Praised in class"
+    },
+    {
+     "date": "today-8",
+     "student": "S-115",
+     "type": "minor",
+     "note": "Talking during the test instructions",
+     "action": "Reminder"
+    },
+    {
+     "date": "today-6",
+     "student": "S-122",
+     "type": "minor",
+     "note": "Phone out in class",
+     "action": "Phone kept until the end of the day"
+    },
+    {
+     "date": "today-4",
+     "student": "S-105",
+     "type": "positive",
+     "note": "Led the group project well",
+     "action": "Note home"
+    },
+    {
+     "date": "today-2",
+     "student": "S-112",
+     "type": "major",
+     "note": "Pushed another student",
+     "action": "Referred to the head of year"
+    }
+   ]
+  },
+  {
+   "key": "contacts",
+   "sheet": "Parent Contacts",
+   "title": "Parent contacts",
+   "hint": "Every call, message or meeting with a family, and the date to follow up.",
+   "rows": 1000,
+   "columns": [
+    {
+     "key": "date",
+     "label": "Date",
+     "type": "date",
+     "width": 12,
+     "required": true
+    },
+    {
+     "key": "student",
+     "label": "Student ID",
+     "type": "ref",
+     "ref": "students.st_id",
+     "width": 11
+    },
+    {
+     "key": "way",
+     "label": "Contact way",
+     "type": "list",
+     "list": "contact_way",
+     "width": 13
+    },
+    {
+     "key": "reason",
+     "label": "Reason",
+     "type": "list",
+     "list": "contact_reason",
+     "width": 15
+    },
+    {
+     "key": "summary",
+     "label": "Summary",
+     "type": "text",
+     "width": 34
+    },
+    {
+     "key": "follow_up",
+     "label": "Follow up on",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "done",
+     "label": "Follow-up done",
+     "type": "list",
+     "list": "yes_no",
+     "width": 10
+    },
+    {
+     "key": "s_name",
+     "label": "Student",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.name},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "guardian",
+     "label": "Parent or guardian",
+     "type": "calc",
+     "format": "text",
+     "width": 20,
+     "formula": "IFERROR(INDEX({range:students.guardian},MATCH({col:student},{range:students.st_id},0)),\"\")"
+    },
+    {
+     "key": "flag",
+     "label": "Alert",
+     "type": "calc",
+     "format": "text",
+     "width": 11,
+     "formula": "IF(OR({col:follow_up}=\"\",{col:done}={list:yes_no.yes}),\"\",IF({col:follow_up}<={today}+2,{list:alert_level.follow},{list:alert_level.ok}))"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "flag",
+     "when": "= {list:alert_level.follow}",
+     "style": "warn"
+    }
+   ],
+   "demo": [
+    {
+     "date": "today-56",
+     "student": "S-104",
+     "way": "whatsapp",
+     "reason": "missing",
+     "summary": "Asked to help with two missing homework tasks",
+     "follow_up": "today-49",
+     "done": "yes"
+    },
+    {
+     "date": "today-53",
+     "student": "S-109",
+     "way": "call",
+     "reason": "absence",
+     "summary": "Three absences, family visit abroad",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-50",
+     "student": "S-114",
+     "way": "whatsapp",
+     "reason": "praise",
+     "summary": "Shared the poster score",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-50",
+     "student": "S-119",
+     "way": "meeting",
+     "reason": "behavior",
+     "summary": "Met about the incident in the corridor",
+     "follow_up": "today-36",
+     "done": "yes"
+    },
+    {
+     "date": "today-47",
+     "student": "S-124",
+     "way": "email",
+     "reason": "progress",
+     "summary": "Sent the midterm progress report",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-44",
+     "student": "S-105",
+     "way": "note",
+     "reason": "meeting",
+     "summary": "Invited to the parents' evening",
+     "follow_up": "today-34",
+     "done": "yes"
+    },
+    {
+     "date": "today-44",
+     "student": "S-110",
+     "way": "whatsapp",
+     "reason": "missing",
+     "summary": "Asked to help with two missing homework tasks",
+     "follow_up": "today-37",
+     "done": "yes"
+    },
+    {
+     "date": "today-41",
+     "student": "S-115",
+     "way": "call",
+     "reason": "absence",
+     "summary": "Three absences, family visit abroad",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-38",
+     "student": "S-120",
+     "way": "whatsapp",
+     "reason": "praise",
+     "summary": "Shared the poster score",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-38",
+     "student": "S-101",
+     "way": "meeting",
+     "reason": "behavior",
+     "summary": "Met about the incident in the corridor",
+     "follow_up": "today-24",
+     "done": "yes"
+    },
+    {
+     "date": "today-35",
+     "student": "S-106",
+     "way": "email",
+     "reason": "progress",
+     "summary": "Sent the midterm progress report",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-32",
+     "student": "S-111",
+     "way": "note",
+     "reason": "meeting",
+     "summary": "Invited to the parents' evening",
+     "follow_up": "today-22",
+     "done": "yes"
+    },
+    {
+     "date": "today-32",
+     "student": "S-116",
+     "way": "whatsapp",
+     "reason": "missing",
+     "summary": "Asked to help with two missing homework tasks",
+     "follow_up": "today-25",
+     "done": "yes"
+    },
+    {
+     "date": "today-29",
+     "student": "S-121",
+     "way": "call",
+     "reason": "absence",
+     "summary": "Three absences, family visit abroad",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-26",
+     "student": "S-102",
+     "way": "whatsapp",
+     "reason": "praise",
+     "summary": "Shared the poster score",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-26",
+     "student": "S-107",
+     "way": "meeting",
+     "reason": "behavior",
+     "summary": "Met about the incident in the corridor",
+     "follow_up": "today-12",
+     "done": "yes"
+    },
+    {
+     "date": "today-23",
+     "student": "S-112",
+     "way": "email",
+     "reason": "progress",
+     "summary": "Sent the midterm progress report",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-20",
+     "student": "S-117",
+     "way": "note",
+     "reason": "meeting",
+     "summary": "Invited to the parents' evening",
+     "follow_up": "today-10",
+     "done": "yes"
+    },
+    {
+     "date": "today-20",
+     "student": "S-122",
+     "way": "whatsapp",
+     "reason": "missing",
+     "summary": "Asked to help with two missing homework tasks",
+     "follow_up": "today-13",
+     "done": "yes"
+    },
+    {
+     "date": "today-17",
+     "student": "S-103",
+     "way": "call",
+     "reason": "absence",
+     "summary": "Three absences, family visit abroad",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-108",
+     "way": "whatsapp",
+     "reason": "praise",
+     "summary": "Shared the poster score",
+     "follow_up": "",
+     "done": ""
+    },
+    {
+     "date": "today-14",
+     "student": "S-113",
+     "way": "meeting",
+     "reason": "behavior",
+     "summary": "Met about the incident in the corridor",
+     "follow_up": "today+0",
+     "done": "no"
+    }
+   ]
+  },
+  {
+   "key": "lessons",
+   "sheet": "Lesson Plan",
+   "title": "Lesson plan",
+   "hint": "Plan each lesson: topic, objective, materials and homework. Mark it taught or moved.",
+   "rows": 500,
+   "columns": [
+    {
+     "key": "date",
+     "label": "Date",
+     "type": "date",
+     "width": 12,
+     "required": true
+    },
+    {
+     "key": "period",
+     "label": "Period",
+     "type": "text",
+     "width": 10
+    },
+    {
+     "key": "topic",
+     "label": "Topic",
+     "type": "text",
+     "width": 22
+    },
+    {
+     "key": "objective",
+     "label": "Learning objective",
+     "type": "text",
+     "width": 30
+    },
+    {
+     "key": "materials",
+     "label": "Materials",
+     "type": "text",
+     "width": 24
+    },
+    {
+     "key": "homework",
+     "label": "Homework set",
+     "type": "text",
+     "width": 14
+    },
+    {
+     "key": "status",
+     "label": "Status",
+     "type": "list",
+     "list": "lesson_status",
+     "width": 11
+    },
+    {
+     "key": "days",
+     "label": "Days from today",
+     "type": "calc",
+     "format": "int",
+     "width": 10,
+     "formula": "IF({col:date}=\"\",\"\",{col:date}-{today})"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "status",
+     "when": "= {list:lesson_status.moved}",
+     "style": "warn"
+    },
+    {
+     "column": "days",
+     "when": "= 0",
+     "style": "good"
+    }
+   ],
+   "demo": [
+    {
+     "date": "today-30",
+     "period": "Period 1",
+     "topic": "Cells and organisms",
+     "objective": "Name the parts of a cell",
+     "materials": "Slides and worksheet",
+     "homework": "Worksheet",
+     "status": "taught"
+    },
+    {
+     "date": "today-29",
+     "period": "Period 2",
+     "topic": "Cells and organisms",
+     "objective": "Name the parts of a cell",
+     "materials": "Microscopes",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-28",
+     "period": "Period 3",
+     "topic": "Cells and organisms",
+     "objective": "Name the parts of a cell",
+     "materials": "Batteries, bulbs and wires",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-27",
+     "period": "Period 1",
+     "topic": "Cells and organisms",
+     "objective": "Name the parts of a cell",
+     "materials": "Spring scales",
+     "homework": "Worksheet",
+     "status": "taught"
+    },
+    {
+     "date": "today-24",
+     "period": "Period 2",
+     "topic": "Cells and organisms",
+     "objective": "Name the parts of a cell",
+     "materials": "Laptops",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-23",
+     "period": "Period 3",
+     "topic": "Ecosystems",
+     "objective": "Explain a food chain",
+     "materials": "Card, tape and weights",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-22",
+     "period": "Period 1",
+     "topic": "Ecosystems",
+     "objective": "Explain a food chain",
+     "materials": "Slides and worksheet",
+     "homework": "Worksheet",
+     "status": "taught"
+    },
+    {
+     "date": "today-21",
+     "period": "Period 2",
+     "topic": "Ecosystems",
+     "objective": "Explain a food chain",
+     "materials": "Microscopes",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-20",
+     "period": "Period 3",
+     "topic": "Ecosystems",
+     "objective": "Explain a food chain",
+     "materials": "Batteries, bulbs and wires",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-17",
+     "period": "Period 1",
+     "topic": "Energy",
+     "objective": "Compare forms of energy",
+     "materials": "Spring scales",
+     "homework": "Worksheet",
+     "status": "taught"
+    },
+    {
+     "date": "today-16",
+     "period": "Period 2",
+     "topic": "Energy",
+     "objective": "Compare forms of energy",
+     "materials": "Laptops",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-15",
+     "period": "Period 3",
+     "topic": "Energy",
+     "objective": "Compare forms of energy",
+     "materials": "Card, tape and weights",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-14",
+     "period": "Period 1",
+     "topic": "Energy",
+     "objective": "Compare forms of energy",
+     "materials": "Slides and worksheet",
+     "homework": "Worksheet",
+     "status": "taught"
+    },
+    {
+     "date": "today-13",
+     "period": "Period 2",
+     "topic": "Electricity",
+     "objective": "Build a simple circuit",
+     "materials": "Microscopes",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-10",
+     "period": "Period 3",
+     "topic": "Electricity",
+     "objective": "Build a simple circuit",
+     "materials": "Batteries, bulbs and wires",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-9",
+     "period": "Period 1",
+     "topic": "Electricity",
+     "objective": "Build a simple circuit",
+     "materials": "Spring scales",
+     "homework": "Worksheet",
+     "status": "taught"
+    },
+    {
+     "date": "today-8",
+     "period": "Period 2",
+     "topic": "Electricity",
+     "objective": "Build a simple circuit",
+     "materials": "Laptops",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-7",
+     "period": "Period 3",
+     "topic": "Electricity",
+     "objective": "Build a simple circuit",
+     "materials": "Card, tape and weights",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-6",
+     "period": "Period 1",
+     "topic": "Forces",
+     "objective": "Measure force with a spring scale",
+     "materials": "Slides and worksheet",
+     "homework": "Worksheet",
+     "status": "taught"
+    },
+    {
+     "date": "today-3",
+     "period": "Period 2",
+     "topic": "Forces",
+     "objective": "Measure force with a spring scale",
+     "materials": "Microscopes",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-2",
+     "period": "Period 3",
+     "topic": "Forces",
+     "objective": "Measure force with a spring scale",
+     "materials": "Batteries, bulbs and wires",
+     "homework": "",
+     "status": "taught"
+    },
+    {
+     "date": "today-1",
+     "period": "Period 1",
+     "topic": "Forces",
+     "objective": "Measure force with a spring scale",
+     "materials": "Spring scales",
+     "homework": "Worksheet",
+     "status": "taught"
+    },
+    {
+     "date": "today+0",
+     "period": "Period 2",
+     "topic": "Motion",
+     "objective": "Calculate speed",
+     "materials": "Laptops",
+     "homework": "",
+     "status": "planned"
+    },
+    {
+     "date": "today+1",
+     "period": "Period 3",
+     "topic": "Motion",
+     "objective": "Calculate speed",
+     "materials": "Card, tape and weights",
+     "homework": "",
+     "status": "planned"
+    },
+    {
+     "date": "today+4",
+     "period": "Period 1",
+     "topic": "Motion",
+     "objective": "Calculate speed",
+     "materials": "Slides and worksheet",
+     "homework": "Worksheet",
+     "status": "planned"
+    },
+    {
+     "date": "today+5",
+     "period": "Period 2",
+     "topic": "Motion",
+     "objective": "Calculate speed",
+     "materials": "Microscopes",
+     "homework": "",
+     "status": "planned"
+    },
+    {
+     "date": "today+6",
+     "period": "Period 3",
+     "topic": "Bridges",
+     "objective": "Test a bridge design",
+     "materials": "Batteries, bulbs and wires",
+     "homework": "",
+     "status": "planned"
+    },
+    {
+     "date": "today+7",
+     "period": "Period 1",
+     "topic": "Bridges",
+     "objective": "Test a bridge design",
+     "materials": "Spring scales",
+     "homework": "Worksheet",
+     "status": "moved"
+    },
+    {
+     "date": "today+8",
+     "period": "Period 2",
+     "topic": "Bridges",
+     "objective": "Test a bridge design",
+     "materials": "Laptops",
+     "homework": "",
+     "status": "planned"
+    },
+    {
+     "date": "today+11",
+     "period": "Period 3",
+     "topic": "Bridges",
+     "objective": "Test a bridge design",
+     "materials": "Card, tape and weights",
+     "homework": "",
+     "status": "planned"
+    }
+   ]
+  },
+  {
+   "key": "expenses",
+   "sheet": "Classroom Spending",
+   "title": "Classroom spending",
+   "hint": "What you pay for the class out of your own pocket, and what the school still owes you.",
+   "rows": 500,
+   "columns": [
+    {
+     "key": "date",
+     "label": "Date",
+     "type": "date",
+     "width": 12,
+     "required": true
+    },
+    {
+     "key": "category",
+     "label": "Type",
+     "type": "list",
+     "list": "exp_cat",
+     "width": 17
+    },
+    {
+     "key": "item",
+     "label": "What you bought",
+     "type": "text",
+     "width": 32
+    },
+    {
+     "key": "amount",
+     "label": "Amount",
+     "type": "money",
+     "width": 11
+    },
+    {
+     "key": "reimbursable",
+     "label": "School repays it",
+     "type": "list",
+     "list": "yes_no",
+     "width": 11
+    },
+    {
+     "key": "reimbursed",
+     "label": "Repaid",
+     "type": "list",
+     "list": "yes_no",
+     "width": 9
+    },
+    {
+     "key": "owed",
+     "label": "Still owed to you",
+     "type": "calc",
+     "format": "money",
+     "width": 12,
+     "formula": "IF(AND({col:reimbursable}={list:yes_no.yes},{col:reimbursed}<>{list:yes_no.yes}),{col:amount},0)"
+    },
+    {
+     "key": "flag",
+     "label": "Alert",
+     "type": "calc",
+     "format": "text",
+     "width": 12,
+     "formula": "IF({col:owed}>0,{list:alert_level.owed},\"\")"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "flag",
+     "when": "= {list:alert_level.owed}",
+     "style": "warn"
+    }
+   ],
+   "demo": [
+    {
+     "date": "today-300",
+     "category": "supplies",
+     "item": "Markers, glue and card",
+     "amount": 34.5,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-287",
+     "category": "books",
+     "item": "Science readers for the library corner",
+     "amount": 48,
+     "reimbursable": "no",
+     "reimbursed": "no"
+    },
+    {
+     "date": "today-274",
+     "category": "printing",
+     "item": "Colour printing for the lab booklet",
+     "amount": 22,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-261",
+     "category": "prizes",
+     "item": "Stickers and merit prizes",
+     "amount": 18,
+     "reimbursable": "no",
+     "reimbursed": "no"
+    },
+    {
+     "date": "today-248",
+     "category": "supplies",
+     "item": "Batteries and bulbs for the circuits lesson",
+     "amount": 41.8,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-235",
+     "category": "tech",
+     "item": "Quiz app subscription (month)",
+     "amount": 12,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-222",
+     "category": "supplies",
+     "item": "Craft sticks and tape for the bridge project",
+     "amount": 27.4,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-209",
+     "category": "prizes",
+     "item": "Certificates and frames",
+     "amount": 16,
+     "reimbursable": "no",
+     "reimbursed": "no"
+    },
+    {
+     "date": "today-196",
+     "category": "trip",
+     "item": "Snacks for the science museum trip",
+     "amount": 35,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-183",
+     "category": "printing",
+     "item": "Permission slips and trip booklet",
+     "amount": 9.5,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-170",
+     "category": "books",
+     "item": "Guided reading set",
+     "amount": 39,
+     "reimbursable": "no",
+     "reimbursed": "no"
+    },
+    {
+     "date": "today-157",
+     "category": "supplies",
+     "item": "Spring scales (2 extra)",
+     "amount": 23,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-144",
+     "category": "supplies",
+     "item": "Seeds, soil and pots for the plant study",
+     "amount": 19.9,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-131",
+     "category": "tech",
+     "item": "Quiz app subscription (month)",
+     "amount": 12,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-118",
+     "category": "other",
+     "item": "Tissues and hand sanitiser",
+     "amount": 14.5,
+     "reimbursable": "no",
+     "reimbursed": "no"
+    },
+    {
+     "date": "today-105",
+     "category": "supplies",
+     "item": "Safety goggles (6 pairs)",
+     "amount": 31,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-92",
+     "category": "printing",
+     "item": "Revision booklets",
+     "amount": 26,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-79",
+     "category": "prizes",
+     "item": "End-of-term prizes",
+     "amount": 28,
+     "reimbursable": "no",
+     "reimbursed": "no"
+    },
+    {
+     "date": "today-66",
+     "category": "tech",
+     "item": "Quiz app subscription (month)",
+     "amount": 12,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-53",
+     "category": "supplies",
+     "item": "Magnets and iron filings",
+     "amount": 17.6,
+     "reimbursable": "yes",
+     "reimbursed": "yes"
+    },
+    {
+     "date": "today-40",
+     "category": "books",
+     "item": "Lab notebooks",
+     "amount": 33,
+     "reimbursable": "yes",
+     "reimbursed": "no"
+    },
+    {
+     "date": "today-27",
+     "category": "trip",
+     "item": "Planetarium tickets top-up",
+     "amount": 40,
+     "reimbursable": "yes",
+     "reimbursed": "no"
+    },
+    {
+     "date": "today-14",
+     "category": "supplies",
+     "item": "Poster paper and paint",
+     "amount": 21.3,
+     "reimbursable": "yes",
+     "reimbursed": "no"
+    },
+    {
+     "date": "today-1",
+     "category": "other",
+     "item": "Cleaning wipes for the lab",
+     "amount": 11,
+     "reimbursable": "no",
+     "reimbursed": "no"
+    }
+   ]
+  },
+  {
+   "key": "trips",
+   "sheet": "Trips & Events",
+   "title": "Trips and events",
+   "hint": "Field trips and class events. The permission slip and the trip checklist are filled from this sheet.",
+   "rows": 50,
+   "columns": [
+    {
+     "key": "ev_id",
+     "label": "Trip ID",
+     "type": "text",
+     "width": 9
+    },
+    {
+     "key": "title",
+     "label": "Trip or event",
+     "type": "text",
+     "width": 28,
+     "required": true
+    },
+    {
+     "key": "date",
+     "label": "Date",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "place",
+     "label": "Place",
+     "type": "text",
+     "width": 22
+    },
+    {
+     "key": "cost",
+     "label": "Cost per student",
+     "type": "money",
+     "width": 11
+    },
+    {
+     "key": "slip_due",
+     "label": "Slips due back",
+     "type": "date",
+     "width": 12
+    },
+    {
+     "key": "plan_start",
+     "label": "Start planning on",
+     "type": "date",
+     "width": 13
+    },
+    {
+     "key": "days",
+     "label": "Days to go",
+     "type": "calc",
+     "format": "int",
+     "width": 9,
+     "formula": "IF({col:date}=\"\",\"\",{col:date}-{today})"
+    }
+   ],
+   "alerts": [
+    {
+     "column": "slip_due",
+     "when": "< {today}",
+     "style": "warn"
+    }
+   ],
+   "demo": [
+    {
+     "ev_id": "T-01",
+     "title": "Welcome evening for families",
+     "date": "today-250",
+     "place": "School hall",
+     "cost": 0,
+     "slip_due": "today-260",
+     "plan_start": "today-271"
+    },
+    {
+     "ev_id": "T-02",
+     "title": "Nature walk in the park",
+     "date": "today-220",
+     "place": "City park",
+     "cost": 0,
+     "slip_due": "today-230",
+     "plan_start": "today-241"
+    },
+    {
+     "ev_id": "T-03",
+     "title": "Planetarium visit",
+     "date": "today-190",
+     "place": "City Planetarium",
+     "cost": 9,
+     "slip_due": "today-200",
+     "plan_start": "today-211"
+    },
+    {
+     "ev_id": "T-04",
+     "title": "Recycling plant tour",
+     "date": "today-160",
+     "place": "Green Recycling Centre",
+     "cost": 4,
+     "slip_due": "today-170",
+     "plan_start": "today-181"
+    },
+    {
+     "ev_id": "T-05",
+     "title": "Parents' evening",
+     "date": "today-130",
+     "place": "Classroom",
+     "cost": 0,
+     "slip_due": "today-140",
+     "plan_start": "today-151"
+    },
+    {
+     "ev_id": "T-06",
+     "title": "Zoo field study",
+     "date": "today-100",
+     "place": "City Zoo",
+     "cost": 11,
+     "slip_due": "today-110",
+     "plan_start": "today-121"
+    },
+    {
+     "ev_id": "T-07",
+     "title": "Science week workshops",
+     "date": "today-70",
+     "place": "School labs",
+     "cost": 0,
+     "slip_due": "today-80",
+     "plan_start": "today-91"
+    },
+    {
+     "ev_id": "T-08",
+     "title": "Water treatment visit",
+     "date": "today-40",
+     "place": "Water Works",
+     "cost": 3,
+     "slip_due": "today-50",
+     "plan_start": "today-61"
+    },
+    {
+     "ev_id": "T-09",
+     "title": "Science museum visit",
+     "date": "today+18",
+     "place": "City Science Museum",
+     "cost": 12,
+     "slip_due": "today+8",
+     "plan_start": "today-3"
+    },
+    {
+     "ev_id": "T-10",
+     "title": "Botanical garden field study",
+     "date": "today+46",
+     "place": "Botanical Garden",
+     "cost": 6,
+     "slip_due": "today+36",
+     "plan_start": "today+25"
+    },
+    {
+     "ev_id": "T-11",
+     "title": "Science fair",
+     "date": "today+60",
+     "place": "School hall",
+     "cost": 0,
+     "slip_due": "today+50",
+     "plan_start": "today+39"
+    },
+    {
+     "ev_id": "T-12",
+     "title": "End-of-year class picnic",
+     "date": "today+80",
+     "place": "Lakeside park",
+     "cost": 5,
+     "slip_due": "today+70",
+     "plan_start": "today+59"
+    }
+   ]
+  }
+ ],
+ "dashboard": {
+  "title": "Class Dashboard",
+  "kpis": [
+   {
+    "label": "Students",
+    "formula": "COUNTA({range:students.name})",
+    "format": "int"
+   },
+   {
+    "label": "Class average",
+    "formula": "IFERROR(AVERAGE({range:students.term}),\"\")",
+    "format": "pct"
+   },
+   {
+    "label": "Students at risk",
+    "formula": "COUNTIFS({range:students.flag},{list:alert_level.at_risk})",
+    "format": "int"
+   },
+   {
+    "label": "Attendance, last 30 days",
+    "format": "pct",
+    "formula": "IFERROR((COUNTIFS({range:attendance.status},{list:att_status.present},{range:attendance.date},\">=\"&({today}-29))+COUNTIFS({range:attendance.status},{list:att_status.late},{range:attendance.date},\">=\"&({today}-29)))/COUNTIFS({range:attendance.date},\">=\"&({today}-29)),\"\")"
+   },
+   {
+    "label": "Absences, last 30 days",
+    "formula": "COUNTIFS({range:attendance.status},{list:att_status.absent},{range:attendance.date},\">=\"&({today}-29))",
+    "format": "int"
+   },
+   {
+    "label": "Missing assignments",
+    "formula": "COUNTIFS({range:scores.status},{list:sub_status.missing})",
+    "format": "int"
+   },
+   {
+    "label": "Work handed in but not marked",
+    "formula": "COUNTIFS({range:scores.status},{list:sub_status.submitted},{range:scores.points},\"\")+COUNTIFS({range:scores.status},{list:sub_status.late},{range:scores.points},\"\")",
+    "format": "int"
+   },
+   {
+    "label": "Assignments due in 7 days",
+    "formula": "COUNTIFS({range:assignments.due},\">=\"&{today},{range:assignments.due},\"<=\"&({today}+7))",
+    "format": "int"
+   },
+   {
+    "label": "Lessons planned for the next 7 days",
+    "formula": "COUNTIFS({range:lessons.date},\">=\"&{today},{range:lessons.date},\"<=\"&({today}+7))",
+    "format": "int"
+   },
+   {
+    "label": "Parent contacts this month",
+    "formula": "COUNTIFS({range:contacts.date},\">=\"&(EOMONTH({today},-1)+1))",
+    "format": "int"
+   },
+   {
+    "label": "Follow-ups due",
+    "formula": "COUNTIFS({range:contacts.flag},{list:alert_level.follow})",
+    "format": "int"
+   },
+   {
+    "label": "Positive notes, last 30 days",
+    "formula": "COUNTIFS({range:behavior.type},{list:behavior.positive},{range:behavior.date},\">=\"&({today}-29))",
+    "format": "int"
+   },
+   {
+    "label": "Issues, last 30 days",
+    "formula": "COUNTIFS({range:behavior.type},{list:behavior.minor},{range:behavior.date},\">=\"&({today}-29))+COUNTIFS({range:behavior.type},{list:behavior.major},{range:behavior.date},\">=\"&({today}-29))",
+    "format": "int"
+   },
+   {
+    "label": "Students with a support plan",
+    "formula": "COUNTA({range:students.support})-COUNTIFS({range:students.support},{list:support.none})",
+    "format": "int"
+   },
+   {
+    "label": "Your classroom spending this year",
+    "formula": "SUMIFS({range:expenses.amount},{range:expenses.date},\">=\"&DATE(YEAR({today}),1,1))",
+    "format": "money"
+   },
+   {
+    "label": "Still owed to you by the school",
+    "formula": "SUM({range:expenses.owed})",
+    "format": "money"
+   }
+  ],
+  "monthly": {
+   "title": "Absences and lates by month",
+   "date": "attendance.date",
+   "series": [
+    {
+     "label": "Absences",
+     "sum": "attendance.absent_n"
+    },
+    {
+     "label": "Lates",
+     "sum": "attendance.late_n"
+    }
+   ]
+  },
+  "breakdowns": [
+   {
+    "title": "Submissions by status",
+    "by": "scores.status",
+    "value": "scores.points",
+    "agg": "count"
+   },
+   {
+    "title": "Parent contacts by reason",
+    "by": "contacts.reason",
+    "value": "contacts.date",
+    "agg": "count"
+   },
+   {
+    "title": "Behavior notes by type",
+    "by": "behavior.type",
+    "value": "behavior.date",
+    "agg": "count"
+   },
+   {
+    "title": "Spending by type",
+    "by": "expenses.category",
+    "value": "expenses.amount",
+    "agg": "sum"
+   }
+  ]
+ },
+ "forms": [
+  {
+   "key": "progress",
+   "sheet": "Progress Report",
+   "title": "Progress report",
+   "pick": "students.st_id",
+   "fields": [
+    {
+     "label": "Student",
+     "value": "students.name"
+    },
+    {
+     "label": "Parent or guardian",
+     "value": "students.guardian"
+    },
+    {
+     "label": "Attendance, last 30 days",
+     "value": "students.att30"
+    },
+    {
+     "label": "Absences, last 30 days",
+     "value": "students.abs30"
+    },
+    {
+     "label": "Homework average",
+     "value": "students.hw"
+    },
+    {
+     "label": "Quiz average",
+     "value": "students.quiz"
+    },
+    {
+     "label": "Project average",
+     "value": "students.project"
+    },
+    {
+     "label": "Test average",
+     "value": "students.exam"
+    },
+    {
+     "label": "Term average",
+     "value": "students.term"
+    },
+    {
+     "label": "Grade",
+     "value": "students.grade"
+    },
+    {
+     "label": "Missing assignments",
+     "value": "students.missing"
+    },
+    {
+     "label": "Positive notes",
+     "value": "students.positives"
+    }
+   ],
+   "lines": {
+    "from": "scores",
+    "match": "scores.student",
+    "columns": [
+     "a_title",
+     "category",
+     "status",
+     "points",
+     "max",
+     "pct"
+    ],
+    "max": 30
+   }
+  }
+ ],
+ "guide": [
+  "Open the Start sheet and type your school, your name, the class and the weight of each assessment type in the yellow cells.",
+  "Set your grade scale (the lowest average for A, B, C and D) and the alerts for averages, absences and missing work.",
+  "List your students on the Students sheet with a parent or guardian and a phone number with the country code.",
+  "Add each homework, quiz, project and test on the Assignments sheet with its maximum points.",
+  "Enter scores on the Scores sheet, one row per student per assignment. Mark missing or excused work in the Submission column.",
+  "Take attendance on the Attendance sheet: one row per student per day.",
+  "Log positive notes and issues on the Behavior Log, and every call or message on Parent Contacts.",
+  "Plan your lessons on the Lesson Plan sheet and mark them taught or moved.",
+  "Record what you buy for the class on Classroom Spending to see what the school owes you.",
+  "Check the Class Dashboard and the Charts every week, and send a ready message from the Students sheet.",
+  "Print the Progress Report, the Meeting Letter or the Permission Slip by choosing a student or a trip at the top of the sheet."
+ ],
+ "listing": {
+  "title": "Teacher Excel Template: Gradebook, Attendance, Lesson Plan, Parent Contacts, Missing Work Tracker, 15 Languages",
+  "headline": "Teacher gradebook in Excel: weighted grades, attendance, parent messages",
+  "tags": [
+   "teacher planner",
+   "gradebook excel",
+   "teacher gradebook",
+   "attendance tracker",
+   "lesson plan",
+   "classroom planner",
+   "grade calculator",
+   "teacher binder",
+   "student tracker",
+   "parent contact log",
+   "behavior tracker",
+   "teacher template",
+   "school planner"
+  ],
+  "features": [
+   "Weighted gradebook with your own A-F scale",
+   "Attendance with 30-day rate and alerts",
+   "Missing work counted and tracked per student",
+   "At-risk students flagged automatically",
+   "Ready WhatsApp messages to parents",
+   "Printable progress report",
+   "Score needed on the final and grade curve calculators",
+   "Lesson plan, behavior log and parent contact log",
+   "Classroom spending and what the school owes you",
+   "Trip permission slip and field-trip checklist"
+  ],
+  "description": "Run your class from one Excel workbook: a weighted gradebook, attendance, missing work, behavior notes, parent contacts, lesson plans and your own classroom spending, with every average, grade and alert worked out for you.\n\nMost teachers keep grades in one file, attendance on paper and parent calls in their head. Missing work slips through until the report card, and nobody adds up what you spend on the class. ClassMark puts it all in one place.\n\nWHAT IT DOES\n• Weighted term grade from homework, quizzes, projects and tests, with your own weights and A-F scale\n• Missing work counts as zero and excused work is left out\n• Attendance rate and absences of the last 30 days for every student\n• Students at risk flagged when the average, the absences or the missing work cross your limits\n• Ready WhatsApp messages for an absence, missing work, good news, a meeting or a grade update\n• Printable progress report with every assignment of one student, a meeting letter and a trip permission slip\n• Score needed on the final, grade curve and marking time calculators\n• Lesson plan, behavior log and parent contact log with follow-up dates\n• Classroom spending and what the school still owes you\n• Dashboard and charts: class average, attendance, missing work, contacts and spending\n\nYOU RECEIVE a ZIP with the workbook in 15 languages and an English copy filled with sample data. Standard .xlsx files for Microsoft Excel and LibreOffice. No macros, no subscription. Licence for one teacher."
+ },
+ "insights": {
+  "filters": [
+   {
+    "label": "Assessment type",
+    "list": "category"
+   }
+  ],
+  "gauges": [
+   {
+    "title": "Work handed in",
+    "num": {
+     "agg": "count",
+     "table": "scores",
+     "where": [
+      {
+       "column": "status",
+       "op": "<>",
+       "value": "{list:sub_status.missing}"
+      }
+     ]
+    },
+    "den": {
+     "agg": "count",
+     "table": "scores"
+    }
+   },
+   {
+    "title": "Present at school",
+    "num": {
+     "agg": "count",
+     "table": "attendance",
+     "where": [
+      {
+       "column": "status",
+       "op": "<>",
+       "value": "{list:att_status.absent}"
+      }
+     ]
+    },
+    "den": {
+     "agg": "count",
+     "table": "attendance"
+    }
+   },
+   {
+    "title": "Spending repaid",
+    "num": {
+     "agg": "sum",
+     "table": "expenses",
+     "value": "expenses.amount",
+     "where": [
+      {
+       "column": "reimbursed",
+       "op": "=",
+       "value": "{list:yes_no.yes}"
+      }
+     ]
+    },
+    "den": {
+     "agg": "sum",
+     "table": "expenses",
+     "value": "expenses.amount"
+    }
+   }
+  ],
+  "charts": [
+   {
+    "title": "Absences by month",
+    "type": "column",
+    "by": "month",
+    "series": [
+     {
+      "agg": "count",
+      "table": "attendance",
+      "date": "attendance.date",
+      "where": [
+       {
+        "column": "status",
+        "op": "=",
+        "value": "{list:att_status.absent}"
+       }
+      ],
+      "label": "Absences"
+     }
+    ]
+   },
+   {
+    "title": "Class average by assignment type",
+    "type": "bar",
+    "by": "assignments.category",
+    "series": [
+     {
+      "agg": "avg",
+      "table": "assignments",
+      "value": "assignments.avg",
+      "label": "Class average"
+     }
+    ]
+   },
+   {
+    "title": "Submissions by status",
+    "type": "doughnut",
+    "by": "scores.status",
+    "series": [
+     {
+      "agg": "count",
+      "table": "scores",
+      "label": "Submissions"
+     }
+    ]
+   },
+   {
+    "title": "Parent contacts by reason",
+    "type": "bar",
+    "by": "contacts.reason",
+    "series": [
+     {
+      "agg": "count",
+      "table": "contacts",
+      "label": "Contacts"
+     }
+    ]
+   },
+   {
+    "title": "Behavior notes by type",
+    "type": "pie",
+    "by": "behavior.type",
+    "series": [
+     {
+      "agg": "count",
+      "table": "behavior",
+      "label": "Notes"
+     }
+    ]
+   },
+   {
+    "title": "Classroom spending by month",
+    "type": "column",
+    "by": "month",
+    "series": [
+     {
+      "agg": "sum",
+      "table": "expenses",
+      "value": "expenses.amount",
+      "date": "expenses.date",
+      "label": "Spending"
+     }
+    ]
+   }
+  ]
+ },
+ "suite": {
+  "key": "fx-20261110-2000-classroom-teacher",
+  "part": 1,
+  "of": 1,
+  "focus": "Grades, attendance, families and lessons of one class"
+ },
+ "signature": [
+  {
+   "name": "Weighted gradebook",
+   "why": "homework, quizzes, projects and tests each count with your own weights, and the term grade follows your A-F scale",
+   "where": "Students"
+  },
+  {
+   "name": "At-risk alert",
+   "why": "a student with a low average, too many absences or missing work is flagged before the report card",
+   "where": "Students"
+  },
+  {
+   "name": "Missing work tracker",
+   "why": "every missing piece of work counts as zero and shows per student and per assignment",
+   "where": "Scores"
+  },
+  {
+   "name": "Attendance and lates",
+   "why": "30-day attendance rate per student and absences by month",
+   "where": "Attendance"
+  },
+  {
+   "name": "Parent messages",
+   "why": "ready WhatsApp messages for absence, missing work, good news, meetings and grades",
+   "where": "Students"
+  },
+  {
+   "name": "Printable progress report",
+   "why": "averages by type, grade, attendance and every assignment of one student on one page",
+   "where": "Progress Report"
+  },
+  {
+   "name": "Score needed on the final",
+   "why": "tells a student exactly what they need on the final to reach a grade",
+   "where": "Final Score Needed"
+  },
+  {
+   "name": "Classroom spending",
+   "why": "what you paid from your own pocket and what the school still owes you",
+   "where": "Classroom Spending"
+  },
+  {
+   "name": "Trip permission slip",
+   "why": "a slip filled from the trip details, plus a field-trip checklist with due dates",
+   "where": "Permission Slip"
+  },
+  {
+   "name": "Lesson plan",
+   "why": "topic, objective, materials and homework for every lesson",
+   "where": "Lesson Plan"
+  }
+ ],
+ "competitors": [
+  {
+   "what": "a typical gradebook template",
+   "lacks": "no attendance, no parent contacts and no messages; missing work is not counted"
+  },
+  {
+   "what": "a printable lesson planner",
+   "lacks": "no grades, no averages and nothing that updates from your data"
+  },
+  {
+   "what": "a free attendance sheet",
+   "lacks": "no 30-day rate, no alerts and no link to grades or families"
+  },
+  {
+   "what": "school management software",
+   "lacks": "costs a subscription and is set up for the school, not for your own class"
+  }
+ ],
+ "tools": [
+  {
+   "key": "final_needed",
+   "sheet": "Final Score Needed",
+   "title": "Score needed on the final",
+   "hint": "Enter the student's average so far, how much the final counts and the grade they want.",
+   "inputs": [
+    {
+     "key": "current",
+     "label": "Average so far",
+     "type": "pct",
+     "default": 0.72
+    },
+    {
+     "key": "final_w",
+     "label": "Weight of the final in the grade",
+     "type": "pct",
+     "default": 0.3
+    },
+    {
+     "key": "target",
+     "label": "Term average the student wants",
+     "type": "pct",
+     "default": 0.8
+    }
+   ],
+   "outputs": [
+    {
+     "label": "Score needed on the final",
+     "format": "pct",
+     "formula": "IFERROR(({in:target}-{in:current}*(1-{in:final_w}))/{in:final_w},\"\")"
+    },
+    {
+     "label": "Reachable with 100% or less",
+     "format": "text",
+     "formula": "IF(IFERROR(({in:target}-{in:current}*(1-{in:final_w}))/{in:final_w},2)>1,{list:yes_no.no},{list:yes_no.yes})"
+    },
+    {
+     "label": "Term average with a perfect final",
+     "format": "pct",
+     "formula": "{in:current}*(1-{in:final_w})+{in:final_w}"
+    }
+   ]
+  },
+  {
+   "key": "curve",
+   "sheet": "Grade Curve",
+   "title": "Curve a test",
+   "hint": "Scale scores so the top score of the class becomes the score you choose.",
+   "inputs": [
+    {
+     "key": "raw",
+     "label": "Student's score %",
+     "type": "pct",
+     "default": 0.62
+    },
+    {
+     "key": "top",
+     "label": "Top score in the class %",
+     "type": "pct",
+     "default": 0.86
+    },
+    {
+     "key": "new_top",
+     "label": "Top score after the curve %",
+     "type": "pct",
+     "default": 1
+    }
+   ],
+   "outputs": [
+    {
+     "label": "Curved score",
+     "format": "pct",
+     "formula": "IFERROR(MIN(1,{in:raw}*{in:new_top}/{in:top}),\"\")"
+    },
+    {
+     "label": "Points added (percentage points)",
+     "format": "pct",
+     "formula": "IFERROR(MIN(1,{in:raw}*{in:new_top}/{in:top})-{in:raw},\"\")"
+    }
+   ]
+  },
+  {
+   "key": "marking",
+   "sheet": "Marking Time",
+   "title": "Marking time planner",
+   "hint": "How long a pile of marking will take, and how much per day until you hand it back.",
+   "inputs": [
+    {
+     "key": "papers",
+     "label": "Pieces of work to mark",
+     "type": "int",
+     "default": 28
+    },
+    {
+     "key": "minutes",
+     "label": "Minutes per piece",
+     "type": "num",
+     "default": 6
+    },
+    {
+     "key": "days",
+     "label": "Days until you hand them back",
+     "type": "int",
+     "default": 3
+    }
+   ],
+   "outputs": [
+    {
+     "label": "Total marking time (hours)",
+     "format": "num",
+     "formula": "ROUND({in:papers}*{in:minutes}/60,1)"
+    },
+    {
+     "label": "Pieces to mark per day",
+     "format": "int",
+     "formula": "IFERROR(ROUNDUP({in:papers}/{in:days},0),\"\")"
+    },
+    {
+     "label": "Minutes per day",
+     "format": "int",
+     "formula": "IFERROR(ROUND({in:papers}*{in:minutes}/{in:days},0),\"\")"
+    }
+   ]
+  }
+ ],
+ "messages": [
+  {
+   "key": "absence",
+   "moment": "Absence",
+   "table": "students",
+   "phone": "students.phone",
+   "text": "Hello {guardian}, {name} was absent from class today. Absences in the last 30 days: {abs30}. Please let me know if there is anything I should know."
+  },
+  {
+   "key": "missing",
+   "moment": "Missing work",
+   "table": "students",
+   "phone": "students.phone",
+   "text": "Hello {guardian}, {name} has {missing} missing assignments in my class. Could you help {name} hand them in this week? Thank you."
+  },
+  {
+   "key": "praise",
+   "moment": "Good news",
+   "table": "students",
+   "phone": "students.phone",
+   "text": "Hello {guardian}, some good news: {name} has worked really well in class this week. I wanted you to know."
+  },
+  {
+   "key": "meeting",
+   "moment": "Meeting request",
+   "table": "students",
+   "phone": "students.phone",
+   "text": "Hello {guardian}, I would like to meet you to talk about how {name} is doing in class. Which day suits you?"
+  },
+  {
+   "key": "grade",
+   "moment": "Grade update",
+   "table": "students",
+   "phone": "students.phone",
+   "text": "Hello {guardian}, {name}'s grade in my class is {grade} so far this term. I will send the full progress report soon."
+  }
+ ],
+ "documents": [
+  {
+   "key": "meeting_letter",
+   "sheet": "Meeting Letter",
+   "title": "Invitation to a parent meeting",
+   "pick": "students.st_id",
+   "paragraphs": [
+    "Dear {col:students.guardian},",
+    "I would like to meet you to talk about how {col:students.name} is doing in class.",
+    "In the last 30 days {col:students.name} was absent {col:students.abs30} times and has {col:students.missing} missing assignments. The current grade is {col:students.grade}.",
+    "Please reply with a day and time that suits you. Thank you for your support."
+   ],
+   "sign": [
+    "Teacher",
+    "Parent or guardian"
+   ],
+   "note": "Sample wording: change it to fit your school's rules."
+  },
+  {
+   "key": "permission",
+   "sheet": "Permission Slip",
+   "title": "Trip permission slip",
+   "pick": "trips.ev_id",
+   "paragraphs": [
+    "Our class is going on a trip: {col:trips.title}.",
+    "Date: {col:trips.date}. Place: {col:trips.place}. Cost per student: {col:trips.cost}.",
+    "Please sign and return this slip by {col:trips.slip_due}.",
+    "I give permission for my child, ____________________, to take part in this trip."
+   ],
+   "sign": [
+    "Parent or guardian",
+    "Teacher"
+   ],
+   "note": "Sample wording: add your school's own safety and medical questions."
+  }
+ ],
+ "checklists": [
+  {
+   "key": "trip_plan",
+   "title": "Field trip",
+   "table": "trips",
+   "start": "trips.plan_start",
+   "steps": [
+    {
+     "label": "Get approval from the school",
+     "days": 0
+    },
+    {
+     "label": "Book transport and tickets",
+     "days": 2
+    },
+    {
+     "label": "Send permission slips home",
+     "days": 5
+    },
+    {
+     "label": "Collect slips, payments and medical notes",
+     "days": 12
+    },
+    {
+     "label": "Arrange supervising adults",
+     "days": 14
+    },
+    {
+     "label": "Share the plan and emergency contacts",
+     "days": 18
+    },
+    {
+     "label": "Trip day: count the students before leaving and returning",
+     "days": 21
+    }
+   ]
+  },
+  {
+   "key": "project_plan",
+   "title": "Class project",
+   "table": "assignments",
+   "start": "assignments.set",
+   "steps": [
+    {
+     "label": "Share the brief and the marking rubric",
+     "days": 0
+    },
+    {
+     "label": "Check every group has a plan",
+     "days": 3
+    },
+    {
+     "label": "Mid-project check-in",
+     "days": 7
+    },
+    {
+     "label": "Feedback on drafts",
+     "days": 10
+    },
+    {
+     "label": "Final work handed in",
+     "days": 14
+    },
+    {
+     "label": "Marks and feedback returned",
+     "days": 20
+    }
+   ]
+  }
+ ],
+ "i18n": {}
+}
