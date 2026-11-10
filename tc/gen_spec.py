@@ -376,8 +376,274 @@ listing = {"title": "Teacher Excel Template: Gradebook, Attendance, Lesson Plan,
                            "• Classroom spending and what the school still owes you\n• Dashboard and charts: class average, attendance, missing work, contacts and spending\n\n"
                            "YOU RECEIVE a ZIP with the workbook in 15 languages and an English copy filled with sample data. Standard .xlsx files for Microsoft Excel "
                            "and LibreOffice. No macros, no subscription. Licence for one teacher.")}
+
+# ---------------------------------------------------------------- v2 (owner 2026-11-10: «الخدمات لا تكفي، زدها إلى الضعف بطريقة إبداعية»)
+T = {t["key"]: t for t in tables}
+def col(t, k): return next(c for c in T[t]["columns"] if c["key"] == k)
+def ins_after(t, after, new):
+    cs = T[t]["columns"]; i = next(j for j, c in enumerate(cs) if c["key"] == after); cs[i + 1:i + 1] = new
+settings += [{"key": "late_penalty", "label": "Share of the points taken off late work", "type": "pct", "default": 0.1},
+             {"key": "retake_cap", "label": "Highest score a retake can earn", "type": "pct", "default": 0.85},
+             {"key": "drop_alert", "label": "Fall in the 30-day average that triggers a warning", "type": "pct", "default": 0.08},
+             {"key": "reading_goal", "label": "Reading minutes each student should log per month", "type": "int", "default": 300}]
+lists += [L("area", "Support Area", [("reading", "Reading"), ("maths", "Maths"), ("behavior", "Behavior"), ("attendance", "Attendance"), ("language", "Language"), ("wellbeing", "Wellbeing")]),
+          L("iv_status", "Plan Status", [("active", "Active"), ("met", "Goal met"), ("changed", "Changed"), ("stopped", "Stopped")]),
+          L("loan_type", "Item Type", [("book", "Book"), ("device", "Laptop or tablet"), ("calculator", "Calculator"), ("kit", "Lab or sports kit"), ("other", "Other")]),
+          L("conf_status", "Meeting Status", [("booked", "Booked"), ("held", "Held"), ("missed", "Missed"), ("moved", "Moved")]),
+          L("event_type", "Calendar Type", [("trip", "Trip"), ("event", "Class event"), ("meeting", "Staff meeting"), ("duty", "Duty"), ("deadline", "Deadline"), ("training", "Training")])]
+next(l for l in lists if l["key"] == "alert_level")["values"] += [{"key": "falling", "label": "Falling"}, {"key": "review", "label": "Review due"}, {"key": "overdue", "label": "Overdue"}]
+
+# scores: late penalty and retakes (the better score counts, capped)
+ins_after("scores", "points", [{"key": "retake", "label": "Retake points", "type": "num", "width": 9}])
+ins_after("scores", "max", [{"key": "due", "label": "Due", "type": "calc", "format": "date", "width": 11, "formula": LOOK("assignments.due", "assignments.as_id", "assignment")},
+                            {"key": "standard", "label": "Standard", "type": "calc", "format": "text", "width": 10, "formula": LOOK("assignments.standard", "assignments.as_id", "assignment")}])
+RT = "IF({col:retake}=\"\",0,MIN({col:retake},{set:retake_cap}*{col:max}))"
+col("scores", "pct")["formula"] = ("IF({col:status}=%s,\"\",IF(OR({col:max}=\"\",{col:max}=0),\"\",IF({col:status}=%s,%s/{col:max},IF({col:points}=\"\",\"\","
+                                   "MAX(IF({col:status}=%s,{col:points}*(1-{set:late_penalty}),{col:points}),%s)/{col:max}))))") % (
+                                   LV("sub_status", "excused"), LV("sub_status", "missing"), RT, LV("sub_status", "late"), RT)
+T["scores"]["hint"] = "One row per student per assignment. Late work loses your penalty, missing work counts as zero, a retake counts when it is better (up to your cap) and excused work is left out."
+for k, sc in enumerate(scores):
+    if sc["points"] != "" and sc["points"] < 0.6 * next(a["max"] for a in assignments if a["as_id"] == sc["assignment"]) and k % 3 == 0:
+        sc["retake"] = round(next(a["max"] for a in assignments if a["as_id"] == sc["assignment"]) * 0.78)
+# behavior: merit points
+ins_after("behavior", "type", [{"key": "points", "label": "Merit points", "type": "int", "width": 9}])
+for b in behavior: b["points"] = {"positive": 2, "minor": -1, "major": -3}[b["type"]]
+# lessons: an id, a resource link
+T["lessons"]["columns"].insert(0, {"key": "ls_id", "label": "Lesson ID", "type": "text", "width": 9})
+ins_after("lessons", "homework", [{"key": "link", "label": "Slides or resource link", "type": "link", "width": 22}])
+for k, l in enumerate(lessons): l["ls_id"] = f"L-{301 + k}"; l["link"] = f"https://example.com/science/lesson-{301 + k}"
+# students: handed-in rate, 30-day average, trend, merit, reading, open plans, report-card comment
+S30 = "IFERROR(AVERAGEIFS({range:scores.pct},{range:scores.student},{col:st_id},{range:scores.due},%s),\"\")" % D30
+ins_after("students", "grade", [
+ {"key": "handed", "label": "Work handed in", "type": "calc", "format": "pct", "width": 10, "visual": "up",
+  "formula": "IFERROR((COUNTIFS({range:scores.student},{col:st_id},{range:scores.status},%s)+COUNTIFS({range:scores.student},{col:st_id},{range:scores.status},%s))/(COUNTIFS({range:scores.student},{col:st_id})-COUNTIFS({range:scores.student},{col:st_id},{range:scores.status},%s)),\"\")" % (LV("sub_status", "submitted"), LV("sub_status", "late"), LV("sub_status", "excused"))},
+ {"key": "recent", "label": "Average, last 30 days", "type": "calc", "format": "pct", "width": 11, "formula": S30},
+ {"key": "trend", "label": "Trend", "type": "calc", "format": "text", "width": 10,
+  "formula": "IF(AND(ISNUMBER({col:recent}),ISNUMBER({col:term})),IF({col:recent}<{col:term}-{set:drop_alert},%s,\"\"),\"\")" % AL("falling")},
+ {"key": "merit", "label": "Merit points", "type": "calc", "format": "int", "width": 9, "formula": "SUMIFS({range:behavior.points},{range:behavior.student},{col:st_id})"},
+ {"key": "reading_month", "label": "Reading minutes this month", "type": "calc", "format": "int", "width": 11,
+  "formula": "SUMIFS({range:reading.minutes},{range:reading.student},{col:st_id},{range:reading.date},%s)" % MONTH0},
+ {"key": "plans", "label": "Open support plans", "type": "calc", "format": "int", "width": 10,
+  "formula": "COUNTIFS({range:interventions.student},{col:st_id},{range:interventions.status},%s)" % LV("iv_status", "active")},
+ {"key": "comment", "label": "Report card comment", "type": "calc", "format": "text", "width": 40,
+  "formula": "IFERROR(INDEX({range:comments.text},MATCH({col:grade},{range:comments.grade},0)),\"\")"}])
+T["students"]["alerts"] += [{"column": "trend", "when": "= " + AL("falling"), "style": "bad"}, {"column": "reading_month", "when": "< {set:reading_goal}", "style": "warn"}]
+# calendar: trips become one sheet for trips, events, meetings, duties and deadlines
+T["trips"]["sheet"] = "Calendar"; T["trips"]["title"] = "Trips, events, meetings and duties"
+T["trips"]["hint"] = "Everything with a date: trips, class events, staff meetings, duties and deadlines. Trips use the cost and slip columns."
+ins_after("trips", "title", [{"key": "type", "label": "Type", "type": "list", "list": "event_type", "width": 13}])
+col("trips", "ev_id")["label"] = "Item ID"; col("trips", "title")["label"] = "What"
+for t in trips: t["type"] = "event" if t["cost"] == 0 and "evening" in t["title"].lower() or "fair" in t["title"].lower() or "week" in t["title"].lower() else "trip"
+EXTRA = [("Lunch duty, playground", "duty", -3), ("Staff meeting", "meeting", 2), ("Report cards due", "deadline", 9), ("First aid training", "training", 12),
+         ("Lunch duty, playground", "duty", 4), ("Department meeting", "meeting", 16), ("Exam papers to the office", "deadline", 5), ("Lunch duty, playground", "duty", 11),
+         ("Staff meeting", "meeting", 30), ("Coursework marks deadline", "deadline", 24), ("Bus duty", "duty", 1), ("Safeguarding training", "training", -12)]
+for k, (t, ty, d) in enumerate(EXTRA):
+    trips.append({"ev_id": f"T-{13 + k:02d}", "title": t, "type": ty, "date": f"today{d:+d}", "place": "School", "cost": "", "slip_due": "", "plan_start": ""})
+trips.sort(key=lambda r: int(r["date"][5:]))
+# new sheets
+iv = []
+AREA = {"reading": ("Read 20 minutes a day and retell the story", "Daily guided reading with a partner"), "maths": ("Solve two-step problems without help", "Small-group practice twice a week"),
+        "behavior": ("No more than one reminder per lesson", "Seat near the front and a daily check-in"), "attendance": ("Attendance above 95%", "Call home on the first absence"),
+        "language": ("Use science words in full sentences", "Word bank and sentence starters"), "wellbeing": ("Talk to a trusted adult once a week", "Weekly check-in with the counsellor")}
+for k, i in enumerate([1, 3, 7, 9, 11, 15, 17, 19, 20, 23, 5, 13]):
+    ar = ["reading", "maths", "behavior", "attendance", "language", "wellbeing"][k % 6]; st = students[i]; d = -80 + k * 6
+    iv.append({"iv_id": f"P-{11 + k}", "student": st["st_id"], "start": f"today{d:+d}", "area": ar, "goal": AREA[ar][0], "strategy": AREA[ar][1],
+               "review": f"today{d + 42:+d}", "status": "met" if k in (0, 4) else "changed" if k == 7 else "active", "progress": ["Steady progress", "Small steps forward", "Needs more time", "Goal almost reached"][k % 4]})
+reading = []
+BOOKS = ["Wonder", "Holes", "The Wild Robot", "Hatchet", "A Boy Called Christmas", "The Explorer", "Coraline", "Kensuke's Kingdom", "Matilda", "The Iron Man", "Charlotte's Web", "Percy Jackson"]
+for i, st in enumerate(students):
+    for j in range(7):
+        d = -62 + j * 9 + (i % 4)
+        if d >= 0: continue
+        reading.append({"date": f"today{d:+d}", "student": st["st_id"], "book": BOOKS[(i + j // 3) % len(BOOKS)], "pages": 10 + (i * 7 + j * 3) % 25,
+                        "minutes": round(ABILITY[i] * 110 + (j % 3) * 15), "level": ["Level M", "Level N", "Level P", "Level R"][i % 4]})
+loans = []
+ITEMS = [("Science encyclopedia", "book"), ("Class laptop 07", "device"), ("Scientific calculator", "calculator"), ("Microscope kit", "kit"), ("Novel: Holes", "book"),
+         ("Tablet 03", "device"), ("Graphing calculator", "calculator"), ("Football and cones", "kit"), ("Atlas", "book"), ("Class laptop 12", "device"),
+         ("Novel: Wonder", "book"), ("Magnet kit", "kit"), ("Dictionary", "book"), ("Tablet 05", "device")]
+for k, (it, ty) in enumerate(ITEMS):
+    st = students[(k * 5 + 2) % 24]; o = -40 + k * 3
+    loans.append({"ln_id": f"B-{41 + k}", "item": it, "type": ty, "student": st["st_id"], "out": f"today{o:+d}", "due": f"today{o + 14:+d}",
+                  "returned": f"today{o + 10:+d}" if k % 3 == 0 and o + 10 < 0 else ""})
+conferences = []
+for k in range(16):
+    st = students[(k * 3 + 1) % 24]; d = -30 + k * 3
+    conferences.append({"cf_id": f"M-{51 + k}", "student": st["st_id"], "booked": f"today{d - 7:+d}", "date": f"today{d:+d}", "time": ["15:30", "15:45", "16:00", "16:15", "16:30"][k % 5],
+                        "with": ["Mother", "Father", "Both parents", "Guardian"][k % 4], "status": "held" if d < 0 and k % 5 else "missed" if d < 0 else "booked",
+                        "notes": "Agreed a reading plan" if d < 0 and k % 5 else ""})
+comments = [{"grade": "ga", "text": "An excellent term: careful, curious and always ready to help others."},
+            {"grade": "gb", "text": "A strong term with good effort. Keep checking your work to reach the top grade."},
+            {"grade": "gc", "text": "Steady progress. Hand in every piece of work on time to move up a grade."},
+            {"grade": "gd", "text": "Some good moments, but missing work is holding you back. Let's make a plan together."},
+            {"grade": "gf", "text": "This term was difficult. We will meet with your family to agree how to catch up."},
+            {"grade": "ga", "text": "Outstanding results and leadership in group work."}, {"grade": "gb", "text": "Good understanding; take more care with explanations."},
+            {"grade": "gc", "text": "You can do more: ask for help early when something is unclear."}, {"grade": "gd", "text": "Attend every lesson and use the catch-up sessions."},
+            {"grade": "gf", "text": "Let's work with your family on a support plan for next term."}]
+PH = lambda t: [{"key": "s_name", "label": "Student", "type": "calc", "format": "text", "width": 20, "formula": LOOK("students.name", "students.st_id", "student")},
+                {"key": "guardian", "label": "Parent or guardian", "type": "calc", "format": "text", "width": 20, "formula": LOOK("students.guardian", "students.st_id", "student")},
+                {"key": "phone", "label": "Phone", "type": "calc", "format": "text", "width": 16, "formula": LOOK("students.phone", "students.st_id", "student")}]
+tables += [
+ {"key": "interventions", "sheet": "Support Plans", "title": "Support plans", "hint": "Extra help for a student: the goal, what you do, the review date and how it is going.", "rows": 300,
+  "columns": [{"key": "iv_id", "label": "Plan ID", "type": "text", "width": 9}, {"key": "student", "label": "Student ID", "type": "ref", "ref": "students.st_id", "width": 11, "required": True},
+              {"key": "start", "label": "Started", "type": "date", "width": 12}, {"key": "area", "label": "Area", "type": "list", "list": "area", "width": 12},
+              {"key": "goal", "label": "Goal", "type": "text", "width": 30}, {"key": "strategy", "label": "What you do", "type": "text", "width": 30},
+              {"key": "review", "label": "Review on", "type": "date", "width": 12}, {"key": "status", "label": "Status", "type": "list", "list": "iv_status", "width": 11},
+              {"key": "progress", "label": "Progress", "type": "text", "width": 22}] + PH("interventions") + [
+              {"key": "flag", "label": "Alert", "type": "calc", "format": "text", "width": 11,
+               "formula": "IF(OR({col:review}=\"\",{col:status}<>%s),\"\",IF({col:review}<{today},%s,IF({col:review}-{today}<=7,%s,%s)))" % (LV("iv_status", "active"), AL("overdue"), AL("review"), AL("ok"))}],
+  "alerts": [{"column": "flag", "when": "= " + AL("overdue"), "style": "bad"}, {"column": "flag", "when": "= " + AL("review"), "style": "warn"}, {"column": "status", "when": "= " + LV("iv_status", "met"), "style": "good"}],
+  "demo": iv},
+ {"key": "reading", "sheet": "Reading Log", "title": "Reading log", "hint": "Books, pages and minutes each student reads. The monthly total is compared with your goal.", "rows": 3000,
+  "columns": [{"key": "date", "label": "Date", "type": "date", "width": 12, "required": True}, {"key": "student", "label": "Student ID", "type": "ref", "ref": "students.st_id", "width": 11},
+              {"key": "book", "label": "Book", "type": "text", "width": 24}, {"key": "pages", "label": "Pages", "type": "int", "width": 8}, {"key": "minutes", "label": "Minutes", "type": "int", "width": 9},
+              {"key": "level", "label": "Reading level", "type": "text", "width": 11},
+              {"key": "s_name", "label": "Student", "type": "calc", "format": "text", "width": 20, "formula": LOOK("students.name", "students.st_id", "student")}],
+  "alerts": [], "demo": reading},
+ {"key": "loans", "sheet": "Loans", "title": "Books and equipment lent", "hint": "What a student borrowed from the class, when it is due back, and a reminder message when it is late.", "rows": 500,
+  "columns": [{"key": "ln_id", "label": "Loan ID", "type": "text", "width": 9}, {"key": "item", "label": "Item", "type": "text", "width": 24, "required": True},
+              {"key": "type", "label": "Type", "type": "list", "list": "loan_type", "width": 15}, {"key": "student", "label": "Student ID", "type": "ref", "ref": "students.st_id", "width": 11},
+              {"key": "out", "label": "Lent on", "type": "date", "width": 12}, {"key": "due", "label": "Due back", "type": "date", "width": 12}, {"key": "returned", "label": "Returned on", "type": "date", "width": 12}] + PH("loans") + [
+              {"key": "flag", "label": "Alert", "type": "calc", "format": "text", "width": 10,
+               "formula": "IF(OR({col:item}=\"\",{col:returned}<>\"\",{col:due}=\"\"),\"\",IF({col:due}<{today},%s,%s))" % (AL("overdue"), AL("ok"))}],
+  "alerts": [{"column": "flag", "when": "= " + AL("overdue"), "style": "bad"}], "demo": loans},
+ {"key": "conferences", "sheet": "Parent Meetings", "title": "Parent meetings", "hint": "Book parent-teacher meetings, send the reminder and keep what you agreed.", "rows": 300,
+  "columns": [{"key": "cf_id", "label": "Meeting ID", "type": "text", "width": 10}, {"key": "student", "label": "Student ID", "type": "ref", "ref": "students.st_id", "width": 11, "required": True},
+              {"key": "booked", "label": "Booked on", "type": "date", "width": 12}, {"key": "date", "label": "Meeting date", "type": "date", "width": 12}, {"key": "time", "label": "Time", "type": "text", "width": 8},
+              {"key": "with", "label": "With", "type": "text", "width": 13}, {"key": "status", "label": "Status", "type": "list", "list": "conf_status", "width": 10},
+              {"key": "notes", "label": "What we agreed", "type": "text", "width": 28}] + PH("conferences") + [
+              {"key": "days", "label": "Days to go", "type": "calc", "format": "int", "width": 9, "formula": "IF({col:date}=\"\",\"\",{col:date}-{today})"}],
+  "alerts": [{"column": "status", "when": "= " + LV("conf_status", "missed"), "style": "bad"}, {"column": "days", "when": "= 0", "style": "good"}], "demo": conferences},
+ {"key": "comments", "sheet": "Comment Bank", "title": "Report card comments", "hint": "One comment per grade (the first row of each grade is used). Students get the comment of their grade on the progress report.", "rows": 100,
+  "columns": [{"key": "grade", "label": "Grade", "type": "list", "list": "grade", "width": 8, "required": True}, {"key": "text", "label": "Comment", "type": "text", "width": 70}],
+  "alerts": [], "demo": comments},
+]
+dashboard["kpis"] += [
+ {"label": "Students with a falling average", "formula": "COUNTIFS({range:students.trend},%s)" % AL("falling"), "format": "int"},
+ {"label": "Work handed in", "formula": "IFERROR(AVERAGE({range:students.handed}),\"\")", "format": "pct"},
+ {"label": "Support plans due for review", "formula": "COUNTIFS({range:interventions.flag},%s)+COUNTIFS({range:interventions.flag},%s)" % (AL("review"), AL("overdue")), "format": "int"},
+ {"label": "Reading minutes this month", "formula": "SUMIFS({range:reading.minutes},{range:reading.date},%s)" % MONTH0, "format": "int"},
+ {"label": "Books and equipment overdue", "formula": "COUNTIFS({range:loans.flag},%s)" % AL("overdue"), "format": "int"},
+ {"label": "Parent meetings in the next 7 days", "formula": "COUNTIFS({range:conferences.date},\">=\"&{today},{range:conferences.date},\"<=\"&({today}+7))", "format": "int"},
+ {"label": "Calendar items in the next 7 days", "formula": "COUNTIFS({range:trips.date},\">=\"&{today},{range:trips.date},\"<=\"&({today}+7))", "format": "int"}]
+insights["gauges"].append({"title": "Support plans that met their goal", "num": {"agg": "count", "table": "interventions", "where": [{"column": "status", "op": "=", "value": LV("iv_status", "met")}]}, "den": {"agg": "count", "table": "interventions"}})
+insights["charts"] += [
+ {"title": "Reading minutes by month", "type": "column", "by": "month", "series": [{"agg": "sum", "table": "reading", "value": "reading.minutes", "date": "reading.date", "label": "Minutes"}]},
+ {"title": "Missing work by assignment type", "type": "bar", "by": "assignments.category", "series": [{"agg": "sum", "table": "assignments", "value": "assignments.missing", "label": "Missing"}]},
+ {"title": "Merit points by note type", "type": "bar", "by": "behavior.type", "series": [{"agg": "sum", "table": "behavior", "value": "behavior.points", "label": "Merit points"}]},
+ {"title": "Support plans by area", "type": "bar", "by": "interventions.area", "series": [{"agg": "count", "table": "interventions", "label": "Plans"}]},
+ {"title": "Calendar by type", "type": "doughnut", "by": "trips.type", "series": [{"agg": "count", "table": "trips", "label": "Items"}]}]
+forms[0]["fields"] += [{"label": "Average, last 30 days", "value": "students.recent"}, {"label": "Work handed in", "value": "students.handed"},
+                       {"label": "Merit points", "value": "students.merit"}, {"label": "Reading minutes this month", "value": "students.reading_month"},
+                       {"label": "Teacher's comment", "value": "students.comment"}]
+forms.append({"key": "student_file", "sheet": "Student File", "title": "Student file", "pick": "students.st_id",
+              "fields": [{"label": "Student", "value": "students.name"}, {"label": "Parent or guardian", "value": "students.guardian"}, {"label": "Relation", "value": "students.relation"},
+                         {"label": "Phone", "value": "students.phone"}, {"label": "E-mail", "value": "students.email"}, {"label": "Support plan", "value": "students.support"},
+                         {"label": "Notes (health, seating)", "value": "students.notes"}, {"label": "Open support plans", "value": "students.plans"},
+                         {"label": "Last parent contact", "value": "students.last_contact"}, {"label": "Merit points", "value": "students.merit"}],
+              "lines": {"from": "contacts", "match": "contacts.student", "columns": ["date", "way", "reason", "summary", "follow_up"], "max": 20}})
+GL = (LV("grade", "ga"), LV("grade", "gb"), LV("grade", "gc"), LV("grade", "gd"), LV("grade", "gf"))
+LET = lambda x: "IF(%s>={set:grade_a},%s,IF(%s>={set:grade_b},%s,IF(%s>={set:grade_c},%s,IF(%s>={set:grade_d},%s,%s))))" % (x, GL[0], x, GL[1], x, GL[2], x, GL[3], GL[4])
+RUB = "({in:c1}+{in:c2}+{in:c3}+{in:c4})/(4*{in:levels})"
+tools += [
+ {"key": "rubric", "sheet": "Rubric Scorer", "title": "Rubric scorer", "hint": "Score four criteria of a rubric and get the points, the percent and the grade.",
+  "inputs": [{"key": "levels", "label": "Highest level of the rubric", "type": "int", "default": 4}, {"key": "c1", "label": "Criterion 1: content", "type": "int", "default": 3},
+             {"key": "c2", "label": "Criterion 2: method", "type": "int", "default": 4}, {"key": "c3", "label": "Criterion 3: presentation", "type": "int", "default": 2},
+             {"key": "c4", "label": "Criterion 4: teamwork", "type": "int", "default": 3}, {"key": "points", "label": "Points the task is worth", "type": "num", "default": 40}],
+  "outputs": [{"label": "Rubric score %", "format": "pct", "formula": "IFERROR(%s,\"\")" % RUB}, {"label": "Points earned", "format": "num", "formula": "IFERROR(ROUND(%s*{in:points},1),\"\")" % RUB},
+              {"label": "Grade", "format": "text", "formula": "IFERROR(%s,\"\")" % LET(RUB)}]},
+ {"key": "converter", "sheet": "Grade Converter", "title": "Grade converter", "hint": "Turn a percent into your letter grade and 4-point grade points, and see how far the next grade is.",
+  "inputs": [{"key": "score", "label": "Score %", "type": "pct", "default": 0.77}],
+  "outputs": [{"label": "Letter grade", "format": "text", "formula": LET("{in:score}")},
+              {"label": "Grade points (4.0 scale)", "format": "num", "formula": "IF({in:score}>={set:grade_a},4,IF({in:score}>={set:grade_b},3,IF({in:score}>={set:grade_c},2,IF({in:score}>={set:grade_d},1,0))))"},
+              {"label": "Points to the next grade", "format": "pct", "formula": "IF({in:score}>={set:grade_a},0,IF({in:score}>={set:grade_b},{set:grade_a},IF({in:score}>={set:grade_c},{set:grade_b},IF({in:score}>={set:grade_d},{set:grade_c},{set:grade_d}))))-{in:score}"}]},
+ {"key": "mastery", "sheet": "Standard Mastery", "title": "Mastery of a standard", "hint": "Type a standard or unit code from the Assignments sheet to see how the class did on it.",
+  "inputs": [{"key": "std", "label": "Standard or unit code", "type": "text", "default": "PS3.A"}],
+  "outputs": [{"label": "Assignments on this standard", "format": "int", "formula": "COUNTIFS({range:assignments.standard},{in:std})"},
+              {"label": "Class average on this standard", "format": "pct", "formula": "IFERROR(AVERAGEIFS({range:scores.pct},{range:scores.standard},{in:std}),\"\")"},
+              {"label": "Scores below grade D", "format": "int", "formula": "COUNTIFS({range:scores.standard},{in:std},{range:scores.pct},\"<\"&{set:grade_d})"},
+              {"label": "Missing work on this standard", "format": "int", "formula": "COUNTIFS({range:scores.standard},{in:std},{range:scores.status},%s)" % LV("sub_status", "missing")}]}]
+messages += [
+ {"key": "falling", "moment": "Falling results", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, {name}'s results in the last few weeks are lower than usual. Could we work on this together? I am happy to talk."},
+ {"key": "reading", "moment": "Reading", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, {name} read for {reading_month} minutes this month. Thank you for reading together at home!"},
+ {"key": "issue", "moment": "Behavior", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, I need to tell you about something that happened in class with {name} today. Please call me when you can."},
+ {"key": "meet_rem", "moment": "Meeting reminder", "table": "conferences", "phone": "conferences.phone", "text": "Hello {guardian}, a reminder of our meeting about {s_name} on {date} at {time}. See you then!"},
+ {"key": "loan_rem", "moment": "Return reminder", "table": "loans", "phone": "loans.phone", "text": "Hello {guardian}, {s_name} borrowed {item} from our class. Please help {s_name} bring it back by {due}. Thank you."},
+ {"key": "plan_upd", "moment": "Support plan", "table": "interventions", "phone": "interventions.phone", "text": "Hello {guardian}, an update on {s_name}'s support plan: {progress}. Next review: {review}."}]
+documents += [
+ {"key": "certificate", "sheet": "Certificate", "title": "Certificate of achievement", "pick": "students.st_id",
+  "paragraphs": ["This certificate is awarded to {col:students.name}", "for great effort and {col:students.merit} merit points this term.", "Well done, and keep it up!"],
+  "sign": ["Teacher", "Head teacher"], "note": "Print on card. Choose any student at the top."},
+ {"key": "cover_plan", "sheet": "Cover Plan", "title": "Plan for a cover teacher", "pick": "lessons.ls_id",
+  "paragraphs": ["Lesson {col:lessons.ls_id} on {col:lessons.date}, {col:lessons.period}.", "Topic: {col:lessons.topic}. Learning objective: {col:lessons.objective}.",
+                 "Materials: {col:lessons.materials}. Homework to set: {col:lessons.homework}.", "Slides or resources: {col:lessons.link}",
+                 "Seating plan and class notes are on the Students sheet. Please leave a short note on how the lesson went."],
+  "sign": ["Class teacher", "Cover teacher"], "note": "Choose the lesson from the Lesson Plan sheet."}]
+checklists += [
+ {"key": "meeting_prep", "title": "Parent meeting", "table": "conferences", "start": "conferences.booked",
+  "steps": [{"label": "Confirm the time with the family", "days": 0}, {"label": "Print the progress report and the student file", "days": 3}, {"label": "Pick two pieces of work to show", "days": 4},
+            {"label": "Write two strengths and two goals", "days": 5}, {"label": "Send the meeting reminder", "days": 6}, {"label": "Meeting day", "days": 7}, {"label": "Send a short summary to the family", "days": 8}]},
+ {"key": "support_plan", "title": "Support plan", "table": "interventions", "start": "interventions.start",
+  "steps": [{"label": "Share the plan with the family", "days": 1}, {"label": "Start the strategy in class", "days": 2}, {"label": "First check: is it working?", "days": 14},
+            {"label": "Update the family", "days": 21}, {"label": "Review: continue, change or close the plan", "days": 42}]}]
+signature[:] = [
+ {"name": "Weighted gradebook with late penalty and retakes", "why": "your own weights and A-F scale; late work loses your penalty and a better retake counts, up to your cap", "where": "Scores"},
+ {"name": "Early warning", "why": "students at risk by average, absences or missing work, and a warning when the 30-day average falls", "where": "Students"},
+ {"name": "Missing work tracker", "why": "missing work counts as zero and shows per student, per assignment and per standard", "where": "Scores"},
+ {"name": "Attendance and lates", "why": "30-day attendance rate per student and absences by month", "where": "Attendance"},
+ {"name": "11 ready parent messages", "why": "absence, missing work, good news, falling results, reading, meetings, loans and support plans on WhatsApp", "where": "Students"},
+ {"name": "Support plans with review dates", "why": "goal, strategy and review date for every plan, with a checklist and an alert when the review is due", "where": "Support Plans"},
+ {"name": "Reading log", "why": "minutes and books per student against your monthly reading goal", "where": "Reading Log"},
+ {"name": "Automatic report card comments", "why": "your comment bank gives each student the comment of their grade on the progress report", "where": "Comment Bank"},
+ {"name": "Parent meetings", "why": "booking, reminder message, preparation checklist and what you agreed", "where": "Parent Meetings"},
+ {"name": "Six teacher calculators", "why": "score needed on the final, grade curve, marking time, rubric scorer, grade converter and standard mastery", "where": "Rubric Scorer"},
+ {"name": "Printables", "why": "progress report, student file, meeting letter, permission slip, certificate and a cover plan for the substitute teacher", "where": "Cover Plan"},
+ {"name": "Loans, spending and calendar", "why": "books and devices lent with return reminders, what the school owes you, and every duty, meeting and deadline", "where": "Calendar"}]
+competitors += [{"what": "a teacher planner printable", "lacks": "no support plans, no reading log, no loans and no report card comments"}]
+guide[:] = ["Open the Start sheet and type your school, your name, the class and the weight of each assessment type in the yellow cells.",
+            "Set your grade scale, the late penalty, the retake cap, the reading goal and the alerts for averages, absences and missing work.",
+            "List your students on the Students sheet with a parent or guardian and a phone number with the country code.",
+            "Add each homework, quiz, project and test on the Assignments sheet with its maximum points and its standard or unit.",
+            "Enter scores on the Scores sheet, one row per student per assignment. Mark late, missing or excused work, and add retake points when a student redoes it.",
+            "Take attendance on the Attendance sheet: one row per student per day.",
+            "Log merit points and issues on the Behavior Log, reading on the Reading Log and every call or message on Parent Contacts.",
+            "Open a support plan for a student who needs extra help, with a goal and a review date.",
+            "Book parent meetings on Parent Meetings and send the reminder from the same row.",
+            "Plan your lessons on the Lesson Plan sheet; print the Cover Plan for a substitute teacher when you are away.",
+            "Record books and devices you lend on Loans, and what you buy for the class on Classroom Spending.",
+            "Put duties, meetings, deadlines and trips on the Calendar.",
+            "Write one comment per grade on the Comment Bank; each student's comment appears on the progress report.",
+            "Check the Class Dashboard and the Charts every week, and send ready messages from the Students sheet.",
+            "Print the Progress Report, Student File, Meeting Letter, Permission Slip or Certificate by choosing a student, a trip or a lesson at the top."]
+listing["title"] = "Teacher Excel Template: Gradebook, Attendance, Lesson Plan, Parent Contacts, Support Plans, Reading Log, 15 Languages"
+listing["features"] = ["Weighted gradebook with late penalty, retakes and your A-F scale", "Early warning: at-risk students and falling averages",
+                       "Attendance with 30-day rate and absences by month", "11 ready WhatsApp messages to parents", "Support plans with review dates and checklists",
+                       "Reading log against a monthly goal", "Automatic report card comments from your comment bank", "Parent meetings with reminders and a preparation checklist",
+                       "6 calculators: final score, curve, marking, rubric, grades, mastery",
+                       "Progress report, student file, certificate, cover plan and more", "Loans, classroom spending and a calendar of duties and deadlines",
+                       "Dashboard with 23 key figures and 11 charts"]
+listing["description"] = ("Run your class from one Excel workbook: a weighted gradebook, attendance, missing work, support plans, reading, parent contacts and meetings, "
+    "lesson plans, loans and your own classroom spending, with every average, grade and alert worked out for you.\n\n"
+    "Most teachers keep grades in one file, attendance on paper and parent calls in their head. Missing work and falling results are noticed too late, and "
+    "nobody adds up what you spend on the class. ClassMark puts it all in one place.\n\n"
+    "WHAT IT DOES\n"
+    "• Weighted term grade from homework, quizzes, projects and tests, with your weights and A-F scale\n"
+    "• Late work loses your penalty, a better retake counts up to your cap, missing work counts as zero\n"
+    "• Early warning: students at risk, and a warning when the 30-day average falls\n"
+    "• Attendance rate and absences of the last 30 days for every student\n"
+    "• 11 ready WhatsApp messages: absence, missing work, good news, falling results, reading, meetings, loans, support plans\n"
+    "• Support plans with goals, review dates, alerts and a checklist\n"
+    "• Reading log against your monthly goal, merit points and a behavior log\n"
+    "• Report card comments filled in from your own comment bank\n"
+    "• Parent meetings with reminders, a preparation checklist and what you agreed\n"
+    "• Calculators: score needed on the final, grade curve, marking time, rubric scorer, grade converter, standard mastery\n"
+    "• Printables: progress report, student file, meeting letter, permission slip, certificate, cover plan for a substitute teacher\n"
+    "• Loans of books and devices, classroom spending and what the school owes you, and a calendar of duties, meetings and deadlines\n"
+    "• Dashboard and charts: class average, attendance, missing work, reading, support plans, contacts and spending\n\n"
+    "YOU RECEIVE a ZIP with the workbook in 15 languages and an English copy filled with sample data. Standard .xlsx files for Microsoft Excel and LibreOffice. "
+    "No macros, no subscription. Licence for one teacher.")
+
 spec = {"fx": 1, "id": "fx-20261110-2000-classroom-teacher", "slug": "teacher-gradebook-attendance-planner", "profession": "Classroom teacher",
-        "name": "ClassMark Teacher Planner", "tagline": "Gradebook, attendance, lesson plans and parent messages in one Excel file", "price_usd": 29,
+        "name": "ClassMark Teacher Planner", "tagline": "Grades, attendance, support plans and parent messages in one Excel file", "price_usd": 29,
         "colors": {"primary": "#1F4E6E", "accent": "#E8A33D"}, "settings": settings, "lists": lists, "tables": tables, "dashboard": dashboard, "forms": forms,
         "guide": guide, "listing": listing, "insights": insights, "suite": {"key": "fx-20261110-2000-classroom-teacher", "part": 1, "of": 1, "focus": "Grades, attendance, families and lessons of one class"},
         "signature": signature, "competitors": competitors, "tools": tools, "messages": messages, "documents": documents, "checklists": checklists, "i18n": {}}
