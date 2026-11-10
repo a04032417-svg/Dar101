@@ -293,7 +293,7 @@ tools = [
 ]
 messages = [
  {"key": "absence", "moment": "Absence", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, {name} was absent from class today. Absences in the last 30 days: {abs30}. Please let me know if there is anything I should know."},
- {"key": "missing", "moment": "Missing work", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, {name} has {missing} missing assignments in my class. Could you help {name} hand them in this week? Thank you."},
+ {"key": "missing", "moment": "Missing work", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, {name} has {missing} missing assignments in my class. Could you help with handing them in this week? Thank you."},
  {"key": "praise", "moment": "Good news", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, some good news: {name} has worked really well in class this week. I wanted you to know."},
  {"key": "meeting", "moment": "Meeting request", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, I would like to meet you to talk about how {name} is doing in class. Which day suits you?"},
  {"key": "grade", "moment": "Grade update", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, {name}'s grade in my class is {grade} so far this term. I will send the full progress report soon."},
@@ -567,7 +567,7 @@ messages += [
  {"key": "reading", "moment": "Reading", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, {name} read for {reading_month} minutes this month. Thank you for reading together at home!"},
  {"key": "issue", "moment": "Behavior", "table": "students", "phone": "students.phone", "text": "Hello {guardian}, I need to tell you about something that happened in class with {name} today. Please call me when you can."},
  {"key": "meet_rem", "moment": "Meeting reminder", "table": "conferences", "phone": "conferences.phone", "text": "Hello {guardian}, a reminder of our meeting about {s_name} on {date} at {time}. See you then!"},
- {"key": "loan_rem", "moment": "Return reminder", "table": "loans", "phone": "loans.phone", "text": "Hello {guardian}, {s_name} borrowed {item} from our class. Please help {s_name} bring it back by {due}. Thank you."},
+ {"key": "loan_rem", "moment": "Return reminder", "table": "loans", "phone": "loans.phone", "text": "Hello {guardian}, {s_name} borrowed {item} from our class. Please help bring it back by {due}. Thank you."},
  {"key": "plan_upd", "moment": "Support plan", "table": "interventions", "phone": "interventions.phone", "text": "Hello {guardian}, an update on {s_name}'s support plan: {progress}. Next review: {review}."}]
 documents += [
  {"key": "certificate", "sheet": "Certificate", "title": "Certificate of achievement", "pick": "students.st_id",
@@ -579,10 +579,10 @@ documents += [
                  "Seating plan and class notes are on the Students sheet. Please leave a short note on how the lesson went."],
   "sign": ["Class teacher", "Cover teacher"], "note": "Choose the lesson from the Lesson Plan sheet."}]
 checklists += [
- {"key": "meeting_prep", "title": "Parent meeting", "table": "conferences", "start": "conferences.booked",
+ {"key": "meeting_prep", "title": "Meeting preparation", "table": "conferences", "start": "conferences.booked",
   "steps": [{"label": "Confirm the time with the family", "days": 0}, {"label": "Print the progress report and the student file", "days": 3}, {"label": "Pick two pieces of work to show", "days": 4},
             {"label": "Write two strengths and two goals", "days": 5}, {"label": "Send the meeting reminder", "days": 6}, {"label": "Meeting day", "days": 7}, {"label": "Send a short summary to the family", "days": 8}]},
- {"key": "support_plan", "title": "Support plan", "table": "interventions", "start": "interventions.start",
+ {"key": "support_plan", "title": "Support plan steps", "table": "interventions", "start": "interventions.start",
   "steps": [{"label": "Share the plan with the family", "days": 1}, {"label": "Start the strategy in class", "days": 2}, {"label": "First check: is it working?", "days": 14},
             {"label": "Update the family", "days": 21}, {"label": "Review: continue, change or close the plan", "days": 42}]}]
 signature[:] = [
