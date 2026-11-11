@@ -1,0 +1,44 @@
+[
+{
+"en": "Team And Finance Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "لوحة القيادة الخاصة بالفريق والتمويل",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Profile audit and strategy",
+"kind": "list",
+"max": 30,
+"mt": "تدقيق الملف الشخصي والاستراتيجية",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Photo and video shoot",
+"kind": "list",
+"max": 30,
+"mt": "تبادل لاطلاق النار الصور والفيديو",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Hi {name}, your billable utilisation over the last 90 days is {util} ({bill90} of {avail90} hours). Can we talk about your workload this week?",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، استخدامك القابل للفوترة خلال آخر 90 يومًا هو {util} ({bill90} من {avail90} ساعة). هل يمكننا التحدث عن عبء عملك هذا الأسبوع؟",
+"why": "English/Latin words left: bill avail"
+},
+{
+"en": "Hi {name}, you logged {hours90} hours in the last 90 days, with room for more. Can you take on a few extra posts?",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، لقد قمت بتسجيل {hours90} ساعة خلال آخر 90 يومًا، وهناك مساحة للمزيد. هل يمكنك الحصول على بعض المنشورات الإضافية؟",
+"why": "English/Latin words left: hours"
+},
+{
+"en": "If you already paid, please send us the transfer details so we can match it.",
+"kind": "document",
+"max": null,
+"mt": "إذا كنت قد دفعت بالفعل، يرجى إرسال تفاصيل التحويل إلينا حتى نتمكن من مطابقتها.",
+"why": "never use the word for \"compatible\""
+}
+]

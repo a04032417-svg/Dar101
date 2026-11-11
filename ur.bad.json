@@ -1,0 +1,51 @@
+[
+{
+"en": "Receivables Ageing",
+"kind": "sheet",
+"max": 31,
+"mt": "Receivables عمر بڑھنے",
+"why": "English/Latin words left: Receivables"
+},
+{
+"en": "Rate Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "جائزہ لینے کے اقدامات کی درجہ بندی کریں۔",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Ken Mutua",
+"kind": "list",
+"max": 30,
+"mt": "Ken mutua",
+"why": "English/Latin words left: Ken mutua"
+},
+{
+"en": "Hi {name}, your billable utilisation over the last 90 days is {util} ({bill90} of {avail90} hours). Can we talk about your workload this week?",
+"kind": "message",
+"max": null,
+"mt": "ہائے {name}، پچھلے 90 دنوں میں آپ کا بل قابل استعمال استعمال {util} ہے ({bull90} of {avail90} گھنٹے)۔ کیا ہم اس ہفتے آپ کے کام کے بوجھ کے بارے میں بات کر سکتے ہیں؟",
+"why": "English/Latin words left: bull of avail"
+},
+{
+"en": "Hi {name}, you logged {hours90} hours in the last 90 days, with room for more. Can you take on a few extra posts?",
+"kind": "message",
+"max": null,
+"mt": "ہائے {name}، آپ نے پچھلے 90 دنوں میں {hours90} گھنٹے لاگ ان کیے، مزید کے لیے جگہ کے ساتھ۔ کیا آپ کچھ اضافی پوسٹس لے سکتے ہیں؟",
+"why": "English/Latin words left: hours"
+},
+{
+"en": "This keeps pace with our costs and the work we do for you. The extra is {col:pi.extra_month} a month.",
+"kind": "document",
+"max": null,
+"mt": "یہ ہمارے اخراجات اور جو کام ہم آپ کے لیے کرتے ہیں اس کے ساتھ مطابقت رکھتا ہے۔ اضافی رقم {col:pi.extra_month} ایک مہینہ ہے۔",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Raise each invoice on Invoices and each payment on Payments Received. Tax, balance, days overdue and the late fee fill in, and Receivables Ageing shows who to chase.",
+"kind": "sentence",
+"max": null,
+"mt": "انوائس پر ہر انوائس اور ہر ادائیگی ادائیگیاں موصول ہوئیں کو بڑھائیں۔ ٹیکس، بیلنس، واجب الادا دن اور لیٹ فیس بھرتی ہے، اور Receivables عمر بڑھنے دکھاتا ہے کہ کس کا پیچھا کرنا ہے۔",
+"why": "English/Latin words left: Receivables"
+}
+]

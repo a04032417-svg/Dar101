@@ -1,0 +1,163 @@
+[
+{
+"en": "Team And Finance Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Панель управления командой и финансами",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Receivables Ageing",
+"kind": "sheet",
+"max": 31,
+"mt": "Старение дебиторской задолженности",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Cash Flow Forecast",
+"kind": "sheet",
+"max": 31,
+"mt": "Прогноз движения денежных средств",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Cash Runway",
+"kind": "sheet",
+"max": 31,
+"mt": "Денежный взлетно-посадочная полоса",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Tool Cost Per Client",
+"kind": "sheet",
+"max": 31,
+"mt": "Стоимость инструмента за клиента",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Late Fee Notice",
+"kind": "sheet",
+"max": 31,
+"mt": "Уведомление о штрафе за просрочку",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Extra Work Quote",
+"kind": "sheet",
+"max": 31,
+"mt": "Дополнительная расценка на работу",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Leave And Cover Note",
+"kind": "sheet",
+"max": 31,
+"mt": "Оставить и сопроводительную записку",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Timesheet, invoices, profit and cash for your social media agency",
+"kind": "sentence",
+"max": 80,
+"mt": "Табель учета рабочего времени, счета-фактуры, прибыль и деньги для вашего агентства в социальных сетях",
+"why": "too long: 102 characters, the limit is 80"
+},
+{
+"en": "Timesheet, invoices, profit and cash for your agency",
+"kind": "sentence",
+"max": 80,
+"mt": "Табель учета рабочего времени, счета-фактуры, прибыль и денежные средства для вашего агентства",
+"why": "too long: 94 characters, the limit is 80"
+},
+{
+"en": "Timesheet that prices every hour",
+"kind": "label",
+"max": 50,
+"mt": "Табель учета рабочего времени с ценами за каждый час",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Invoices with tax and late fees",
+"kind": "label",
+"max": 50,
+"mt": "Счета-фактуры с налогами и пенями за просрочку платежа",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Pro 30 posts and video",
+"kind": "list",
+"max": 30,
+"mt": "Pro 30 публикаций и видео",
+"why": "English/Latin words left: Pro"
+},
+{
+"en": "Premium 45 posts and ads",
+"kind": "list",
+"max": 30,
+"mt": "Премиум 45 публикаций и рекламы",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Creator campaign",
+"kind": "list",
+"max": 30,
+"mt": "Кампания для создателей контента",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Ad spend for clients",
+"kind": "list",
+"max": 30,
+"mt": "Расходы на рекламу для клиентов",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Billing and admin tasks with owner and hours",
+"kind": "title",
+"max": 60,
+"mt": "Выставление счетов и административные задачи с указанием владельца и часов работы",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Invoices to clients with tax, balance and late fee",
+"kind": "title",
+"max": 60,
+"mt": "Счета-фактуры клиентам с налогами, остатком и штрафом за просрочку платежа",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Tool subscriptions and what they cost for each client",
+"kind": "title",
+"max": 60,
+"mt": "Подписки на инструменты и сколько они стоят для каждого клиента",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Hiring plan and what each hire must earn",
+"kind": "title",
+"max": 60,
+"mt": "План найма и сколько должен зарабатывать каждый нанятый сотрудник",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Hi {name}, your billable utilisation over the last 90 days is {util} ({bill90} of {avail90} hours). Can we talk about your workload this week?",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! Ваше оплачиваемое использование за последние 90 дней составляет {util} ({bill90} из {avail90} часов). Можем ли мы поговорить о вашей рабочей нагрузке на этой неделе?",
+"why": "English/Latin words left: bill avail"
+},
+{
+"en": "Hi {name}, you logged {hours90} hours in the last 90 days, with room for more. Can you take on a few extra posts?",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! За последние 90 дней вы наработали {hours90} часов, и есть место еще. Можете ли вы взять на себя несколько дополнительных публикаций?",
+"why": "English/Latin words left: hours"
+},
+{
+"en": "Raise each invoice on Invoices and each payment on Payments Received. Tax, balance, days overdue and the late fee fill in, and Receivables Ageing shows who to chase.",
+"kind": "sentence",
+"max": null,
+"mt": "Поднимите каждый счет в Invoices и каждый платеж в Полученные платежи. Заполните данные о налоге, балансе, днях просрочки и штрафе за просрочку платежа, а Старение дебиторской задолженности покажет, кого следует преследовать.",
+"why": "English/Latin words left: Invoices"
+}
+]
