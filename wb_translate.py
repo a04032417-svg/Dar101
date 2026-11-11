@@ -105,8 +105,9 @@ def run(items, langs=None, budget=140, size=60, workers=14):
     """translate every missing/invalid string; returns after `budget` seconds (call again until done)"""
     t0 = time.time(); langs = langs or list(LANGS); by_en = {x['en']: x for x in items}
     jobs = []
+    with cf.ThreadPoolExecutor(len(langs)) as gp: gls = dict(zip(langs, gp.map(make_gloss, langs)))
     for l in langs:
-        gl = make_gloss(l); st = load_state(l)
+        gl = gls[l]; st = load_state(l)
         todo = [x for x in items if x['en'] not in st]
         # long items first so batches have similar size
         for i in range(0, len(todo), size): jobs.append((l, todo[i:i + size], gl))
