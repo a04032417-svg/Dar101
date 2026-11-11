@@ -1,0 +1,520 @@
+[
+{
+"en": "Watch",
+"where": "pt4:lists[state].values[watch]",
+"kind": "list",
+"max": 30,
+"src": "Keep an eye on"
+},
+{
+"en": "Cleared",
+"where": "pt2:lists[istatus].values[cleared]",
+"kind": "list",
+"max": 30,
+"src": "Cleared to train"
+},
+{
+"en": "Slipping",
+"where": "pt2:lists[state].values[slipping]",
+"kind": "list",
+"max": 30,
+"src": "Declining"
+},
+{
+"en": "Slipping away",
+"where": "pt4:lists[state].values[risk]",
+"kind": "list",
+"max": 30,
+"src": "At risk of leaving"
+},
+{
+"en": "No go",
+"where": "pt4:lists[state].values[nogo]",
+"kind": "list",
+"max": 30,
+"src": "Not suitable"
+},
+{
+"en": "Foundation",
+"where": "pt2:lists[phase].values[foundation]",
+"kind": "list",
+"max": 30,
+"src": "Base phase"
+},
+{
+"en": "Build",
+"where": "pt2:lists[phase].values[build]",
+"kind": "list",
+"max": 30,
+"src": "Build-up phase"
+},
+{
+"en": "Peak",
+"where": "pt2:lists[phase].values[peak]",
+"kind": "list",
+"max": 30,
+"src": "Peak phase"
+},
+{
+"en": "Maintain",
+"where": "pt2:lists[phase].values[maintain]",
+"kind": "list",
+"max": 30,
+"src": "Maintenance phase"
+},
+{
+"en": "Carry",
+"where": "pt2:lists[pattern].values[carry]",
+"kind": "list",
+"max": 30,
+"src": "Weight carrying"
+},
+{
+"en": "Band",
+"where": "pt2:lists[equip].values[band]",
+"kind": "list",
+"max": 30,
+"src": "Resistance band"
+},
+{
+"en": "Cable",
+"where": "pt2:lists[equip].values[cable]",
+"kind": "list",
+"max": 30,
+"src": "Cable machine"
+},
+{
+"en": "Machine",
+"where": "pt2:lists[equip].values[machine]",
+"kind": "list",
+"max": 30,
+"src": "Weight machine"
+},
+{
+"en": "Core brace",
+"where": "pt2:lists[pattern].values[core]",
+"kind": "list",
+"max": 30,
+"src": "Trunk stability hold"
+},
+{
+"en": "Conditioning",
+"where": "pt2:lists[muscle].values[cond]",
+"kind": "list",
+"max": 30,
+"src": "Stamina training"
+},
+{
+"en": "Moved",
+"where": "pt4:lists[bstat].values[moved]",
+"kind": "list",
+"max": 30,
+"src": "Rescheduled"
+},
+{
+"en": "Moved in time",
+"where": "pt1:lists[result].values[moved]",
+"kind": "list",
+"max": 30,
+"src": "Rescheduled"
+},
+{
+"en": "Gaps found",
+"where": "pt4:lists[state].values[gaps]",
+"kind": "list",
+"max": 30,
+"src": "Empty slots found"
+},
+{
+"en": "Goodwill",
+"where": "pt3:lists[rf_reason].values[goodwill]",
+"kind": "list",
+"max": 30,
+"src": "Goodwill gesture"
+},
+{
+"en": "Standing order",
+"where": "pt1:lists[method].values[standing]",
+"kind": "list",
+"max": 30,
+"src": "Bank standing order"
+},
+{
+"en": "Settled",
+"where": "pt3:lists[ageing].values[clear]",
+"kind": "list",
+"max": 30,
+"src": "Fully paid"
+},
+{
+"en": "Credited",
+"where": "pt3:lists[state].values[credited]",
+"kind": "list",
+"max": 30,
+"src": "Credit applied"
+},
+{
+"en": "Promoter",
+"where": "pt4:lists[state].values[pro]",
+"kind": "list",
+"max": 30,
+"src": "Promoter (fan)"
+},
+{
+"en": "Passive",
+"where": "pt4:lists[state].values[pas]",
+"kind": "list",
+"max": 30,
+"src": "Passive"
+},
+{
+"en": "Detractor",
+"where": "pt4:lists[state].values[det]",
+"kind": "list",
+"max": 30,
+"src": "Detractor (critic)"
+},
+{
+"en": "Studio zone",
+"where": "pt4:lists[room_kind].values[zone]",
+"kind": "list",
+"max": 30,
+"src": "Studio area"
+},
+{
+"en": "No-show",
+"where": "pt1:lists[result].values[noshow]",
+"kind": "list",
+"max": 30,
+"src": "Did not turn up"
+},
+{
+"en": "No show",
+"where": "pt4:lists[bstat].values[noshow]",
+"kind": "list",
+"max": 30,
+"src": "Did not turn up"
+},
+{
+"en": "Not trained lately",
+"where": "pt2:lists[state].values[dormant]",
+"kind": "list",
+"max": 30,
+"src": "No recent training"
+},
+{
+"en": "Sessions owed",
+"where": "pt3:lists[state].values[owed]",
+"kind": "list",
+"max": 30,
+"src": "Prepaid sessions left"
+},
+{
+"en": "Circuits",
+"where": "pt2:lists[split].values[circuit]",
+"kind": "list",
+"max": 30,
+"src": "Circuit training"
+},
+{
+"en": "Away now",
+"where": "pt4:lists[state].values[now]",
+"kind": "list",
+"max": 30,
+"src": "Currently away"
+},
+{
+"en": "Coach full",
+"where": "pt1:lists[state].values[full]",
+"kind": "list",
+"max": 30,
+"src": "Coach has no places"
+},
+{
+"en": "Place free",
+"where": "pt1:lists[state].values[slot]",
+"kind": "list",
+"max": 30,
+"src": "Free place"
+},
+{
+"en": "Lunge or step",
+"where": "pt2:lists[pattern].values[lunge]",
+"kind": "list",
+"max": 30,
+"src": "Lunge or step-up"
+},
+{
+"en": "Hip hinge",
+"where": "pt2:lists[pattern].values[hinge]",
+"kind": "list",
+"max": 30,
+"src": "Hip hinge movement"
+},
+{
+"en": "Horizontal push",
+"where": "pt2:lists[pattern].values[hpush]",
+"kind": "list",
+"max": 30,
+"src": "Horizontal push movement"
+},
+{
+"en": "Horizontal pull",
+"where": "pt2:lists[pattern].values[hpull]",
+"kind": "list",
+"max": 30,
+"src": "Horizontal pull movement"
+},
+{
+"en": "Vertical push",
+"where": "pt2:lists[pattern].values[vpush]",
+"kind": "list",
+"max": 30,
+"src": "Vertical push movement"
+},
+{
+"en": "Vertical pull",
+"where": "pt2:lists[pattern].values[vpull]",
+"kind": "list",
+"max": 30,
+"src": "Vertical pull movement"
+},
+{
+"en": "Rotation",
+"where": "pt2:lists[pattern].values[rotate]",
+"kind": "list",
+"max": 30,
+"src": "Trunk rotation"
+},
+{
+"en": "Core",
+"where": "pt2:lists[muscle].values[core]",
+"kind": "list",
+"max": 30,
+"src": "Core muscles"
+},
+{
+"en": "Body weight",
+"where": "pt2:lists[equip].values[body]",
+"kind": "list",
+"max": 30,
+"src": "Own body weight"
+},
+{
+"en": "Cardio machine",
+"where": "pt2:lists[equip].values[cardio]",
+"kind": "list",
+"max": 30,
+"src": "Cardio equipment"
+},
+{
+"en": "Upper and lower",
+"where": "pt2:lists[split].values[upper_lower]",
+"kind": "list",
+"max": 30,
+"src": "Upper and lower body"
+},
+{
+"en": "Add-on",
+"where": "pt1:lists[kind].values[addon]",
+"kind": "list",
+"max": 30,
+"src": "Extra service"
+},
+{
+"en": "Walk-in",
+"where": "pt1:lists[source].values[walkin]",
+"kind": "list",
+"max": 30,
+"src": "Walk-in visit"
+},
+{
+"en": "Frozen",
+"where": "pt1:lists[state].values[frozen]",
+"kind": "list",
+"max": 30,
+"src": "Paused"
+},
+{
+"en": "Late cancel",
+"where": "pt1:lists[result].values[late]",
+"kind": "list",
+"max": 30,
+"src": "Cancelled too late"
+},
+{
+"en": "Booked in",
+"where": "pt1:lists[wl_state].values[booked]",
+"kind": "list",
+"max": 30,
+"src": "Booking confirmed"
+},
+{
+"en": "Gave up",
+"where": "pt1:lists[wl_state].values[gave_up]",
+"kind": "list",
+"max": 30,
+"src": "Stopped trying"
+},
+{
+"en": "Reward paid",
+"where": "pt1:lists[rf_state].values[rewarded]",
+"kind": "list",
+"max": 30,
+"src": "Reward given"
+},
+{
+"en": "Thinking about it",
+"where": "pt1:lists[t_outcome].values[thinking]",
+"kind": "list",
+"max": 30,
+"src": "Still deciding"
+},
+{
+"en": "Tried a session",
+"where": "pt1:lists[rf_state].values[tried]",
+"kind": "list",
+"max": 30,
+"src": "Tried one session"
+},
+{
+"en": "Place offered",
+"where": "pt1:lists[wl_state].values[offered]",
+"kind": "list",
+"max": 30,
+"src": "Place was offered"
+},
+{
+"en": "Follow up",
+"where": "pt1:lists[state].values[follow]",
+"kind": "list",
+"max": 30,
+"src": "Needs a follow-up"
+},
+{
+"en": "Starts later",
+"where": "pt1:lists[state].values[upcoming]",
+"kind": "list",
+"max": 30,
+"src": "Starts in the future"
+},
+{
+"en": "Near miss",
+"where": "pt4:lists[inc_kind].values[near]",
+"kind": "list",
+"max": 30,
+"src": "Near miss (no injury)"
+},
+{
+"en": "Hazard found",
+"where": "pt4:lists[inc_kind].values[hazard]",
+"kind": "list",
+"max": 30,
+"src": "Hazard spotted"
+},
+{
+"en": "Waived",
+"where": "pt4:lists[decision].values[waived]",
+"kind": "list",
+"max": 30,
+"src": "Fee waived"
+},
+{
+"en": "Taken from the pack",
+"where": "pt4:lists[decision].values[pack]",
+"kind": "list",
+"max": 30,
+"src": "Used from the package"
+},
+{
+"en": "No cover",
+"where": "pt4:lists[state].values[nocover]",
+"kind": "list",
+"max": 30,
+"src": "No substitute"
+},
+{
+"en": "Covered",
+"where": "pt4:lists[state].values[covered]",
+"kind": "list",
+"max": 30,
+"src": "Substitute found"
+},
+{
+"en": "Consumable",
+"where": "pt4:lists[stock_kind].values[cons]",
+"kind": "list",
+"max": 30,
+"src": "Consumable supply"
+},
+{
+"en": "Part replaced",
+"where": "pt4:lists[rp_kind].values[part]",
+"kind": "list",
+"max": 30,
+"src": "Part was replaced"
+},
+{
+"en": "Small kit",
+"where": "pt3:lists[eq_type].values[small]",
+"kind": "list",
+"max": 30,
+"src": "Small equipment"
+},
+{
+"en": "Studio fit-out",
+"where": "pt3:lists[eq_type].values[fit]",
+"kind": "list",
+"max": 30,
+"src": "Studio fit-out"
+},
+{
+"en": "Loyalty",
+"where": "pt1:lists[why].values[loyalty]",
+"kind": "list",
+"max": 30,
+"src": "Loyalty discount"
+},
+{
+"en": "Launch offer",
+"where": "pt1:lists[why].values[launch]",
+"kind": "list",
+"max": 30,
+"src": "Launch discount"
+},
+{
+"en": "Student",
+"where": "pt1:lists[why].values[student]",
+"kind": "list",
+"max": 30,
+"src": "Student discount"
+},
+{
+"en": "Corporate",
+"where": "pt1:lists[why].values[corporate]",
+"kind": "list",
+"max": 30,
+"src": "Corporate discount"
+},
+{
+"en": "Open",
+"where": "pt2:lists[istatus].values[open]",
+"kind": "list",
+"max": 30,
+"src": "Open (injury)"
+},
+{
+"en": "Trial",
+"where": "pt1:lists[kind].values[trial]",
+"kind": "list",
+"max": 30,
+"src": "Trial session"
+},
+{
+"en": "Top client",
+"where": "pt3:lists[state].values[top]",
+"kind": "list",
+"max": 30,
+"src": "Best client"
+}
+]
