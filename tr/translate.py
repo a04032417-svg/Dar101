@@ -145,6 +145,90 @@ def edge(items):
     return res
 
 
+TRAINER = {'ar', 'fa', 'ur', 'hi', 'zh', 'id', 'ru', 'es', 'de'}     # languages where «trainer» (not «coach») gives the right word
+_RW = {}
+_LASTREQ = [0.0]
+
+
+def pre_build(x, sheetT):
+    """English pre-edit (tr/<suite>/rewrite.py): ambiguous words replaced, sheet names inside texts held as placeholders that are filled with the
+    translated sheet name, {placeholders} protected. Returns (text sent, list of values to put back)."""
+    import importlib.util
+    if 'rw' not in _RW:
+        f = f'tr/{SUITE}/rewrite.py'
+        spec = importlib.util.spec_from_file_location('rw', f); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m); _RW['rw'] = m.rewrite
+        _RW['sheets'] = sorted({y['en'] for y in todo if y['kind'] == 'sheet' and ' ' in y['en']}, key=lambda s_: -len(s_))
+    en, kind, t, toks = x['en'], x['kind'], x['en'], []
+    if sheetT and kind != 'sheet':
+        for sn in _RW['sheets']:
+            if sn in t and sn in sheetT:
+                def rp(m, sn=sn): toks.append(sheetT[sn]); return '\x02%d\x02' % (len(toks) - 1)
+                t = re.sub(r'(?<![A-Za-z])' + re.escape(sn) + r'(?![A-Za-z])', rp, t)
+    t = _RW['rw'](t, kind, LANG in TRAINER)
+    ph = []
+    def tk(m): ph.append(toks[int(m.group(1))]); return '{%d}' % (len(ph) - 1)
+    t = re.sub('\x02(\\d+)\x02', tk, t)
+    for p_ in PH.findall(t):
+        ph.append(p_); t = t.replace(p_, '{%d}' % (len(ph) - 1), 1)
+    return t, ph
+
+
+def google2(items, sheetT=None):
+    import urllib.parse
+    lines, maps = [], []
+    for x in items:
+        t, ph = pre_build(x, sheetT); lines.append(t.replace('\n', ' ¶ ')); maps.append(ph)
+    w = _LASTREQ[0] + float(os.environ.get('TR_SPACING', '8')) - time.time()
+    if w > 0: time.sleep(w)
+    _LASTREQ[0] = time.time()
+    data = urllib.parse.urlencode({'q': '\n'.join(lines)}).encode()
+    url = f'https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl={GL.get(LANG, LANG)}&dt=t'
+    req = urllib.request.Request(url, data=data, headers={'User-Agent': 'Mozilla/5.0', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        d = json.loads(r.read().decode('utf8'))
+    out = ''.join(seg[0] for seg in d[0] if seg and seg[0]).split('\n')
+    if len(out) != len(items): raise ValueError(f'lines {len(out)} != {len(items)}')
+    res = {}
+    for i, (t, ph) in enumerate(zip(out, maps)):
+        t = t.replace(' ¶ ', '\n').replace('¶', '\n').strip()
+        t = re.sub(r'\{\s*(\d+)\s*\}', lambda m: ph[int(m.group(1))] if int(m.group(1)) < len(ph) else m.group(0), t)
+        res[str(i)] = t
+    return res
+
+
+if os.environ.get('TR_ENGINE') == 'google2':
+    miss = [x for x in todo if x['en'] not in done]
+    print(LANG, 'google2: todo', len(todo), 'done', len(done), 'missing', len(miss), flush=True)
+    time.sleep(abs(hash(LANG)) % 60)
+    bad, n = [], 0
+    def batch(part, sheetT):
+        global n
+        for attempt in range(400):
+            try: res = google2(part, sheetT); break
+            except urllib.error.HTTPError as e:
+                if e.code == 429:
+                    if attempt % 10 == 0: print('  HTTP 429, waiting', attempt, flush=True)
+                    time.sleep(120)
+                else: print('  HTTP', e.code, flush=True); time.sleep(20)
+                res = None
+            except Exception as e:
+                print('  error', repr(e)[:200], flush=True); res = None; time.sleep(20)
+        for j, x in enumerate(part):
+            v = (res or {}).get(str(j)); why = check(x, v)
+            if why: bad.append({'en': x['en'], 'kind': x['kind'], 'max': x['max'], 'mt': v, 'why': why})
+            done[x['en']] = v if v else done.get(x['en'], ''); n += 1 if not why else 0
+            if not v: done.pop(x['en'], None)
+        json.dump(done, open(OUT, 'w', encoding='utf8'), ensure_ascii=False, indent=0)
+    sh = [x for x in miss if x['kind'] == 'sheet']
+    for k in range(0, len(sh), 30): batch(sh[k:k + 30], None)
+    sheetT = {x['en']: done[x['en']] for x in todo if x['kind'] == 'sheet' and x['en'] in done}
+    rest = [x for x in miss if x['kind'] != 'sheet']
+    for k in range(0, len(rest), 30): batch(rest[k:k + 30], sheetT)
+    json.dump(bad, open(OUT.replace('.json', '.bad.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=0)
+    print(LANG, 'google2 done', n, 'bad', len(bad), flush=True)
+    sys.exit(0)
+
+
 if os.environ.get('TR_ENGINE') in ('google', 'edge'):
     ENG = edge if os.environ.get('TR_ENGINE') == 'edge' else google
     miss = [x for x in todo if x['en'] not in done]
