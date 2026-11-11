@@ -50,6 +50,9 @@ jobs:
           [ "${{ needs.plan.outputs.fresh }}" = yes ] && exit 0
           git fetch -q origin "tr-out/${{ needs.plan.outputs.suite }}" 2>/dev/null && git show "FETCH_HEAD:${{ matrix.lang }}.json" > /tmp/res/${{ matrix.lang }}.json 2>/dev/null || rm -f /tmp/res/${{ matrix.lang }}.json
           ls -la /tmp/res
+      - name: models (NLLB engine only)
+        if: needs.plan.outputs.engine == 'nllb'
+        run: pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu && pip install --quiet transformers sentencepiece protobuf
       - name: translate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -173,20 +173,47 @@ def pre_build(x, sheetT):
     return t, ph
 
 
+_NL = {}
+NLLB = {'ar': 'arb_Arab', 'fr': 'fra_Latn', 'es': 'spa_Latn', 'de': 'deu_Latn', 'it': 'ita_Latn', 'pt': 'por_Latn', 'tr': 'tur_Latn', 'nl': 'nld_Latn', 'ru': 'rus_Cyrl',
+        'fa': 'pes_Arab', 'ur': 'urd_Arab', 'hi': 'hin_Deva', 'zh': 'zho_Hans', 'id': 'ind_Latn'}
+
+
+def nllb_call(lines):
+    """Meta's NLLB-200 (open model, runs on the runner's CPU: no quota, no account) — used when Google blocks the runner."""
+    import torch
+    from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+    if 'm' not in _NL:
+        name = os.environ.get('TR_NLLB', 'facebook/nllb-200-distilled-1.3B')
+        _NL['t'] = AutoTokenizer.from_pretrained(name, src_lang='eng_Latn'); _NL['m'] = AutoModelForSeq2SeqLM.from_pretrained(name).eval()
+        torch.set_num_threads(os.cpu_count() or 4)
+    tok, m = _NL['t'], _NL['m']
+    res = []
+    for k in range(0, len(lines), 12):
+        part = [l.replace(' ¶ ', ' ') for l in lines[k:k + 12]]
+        enc = tok(part, return_tensors='pt', padding=True, truncation=True, max_length=200)
+        with torch.no_grad():
+            out = m.generate(**enc, forced_bos_token_id=tok.convert_tokens_to_ids(NLLB[LANG]), num_beams=4, max_new_tokens=int(enc['input_ids'].shape[1] * 2.2 + 10))
+        res += tok.batch_decode(out, skip_special_tokens=True)
+    return res
+
+
 def google2(items, sheetT=None):
     import urllib.parse
     lines, maps = [], []
     for x in items:
         t, ph = pre_build(x, sheetT); lines.append(t.replace('\n', ' ¶ ')); maps.append(ph)
-    w = _LASTREQ[0] + float(os.environ.get('TR_SPACING', '8')) - time.time()
-    if w > 0: time.sleep(w)
-    _LASTREQ[0] = time.time()
-    data = urllib.parse.urlencode({'q': '\n'.join(lines)}).encode()
-    url = f'https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl={GL.get(LANG, LANG)}&dt=t'
-    req = urllib.request.Request(url, data=data, headers={'User-Agent': 'Mozilla/5.0', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        d = json.loads(r.read().decode('utf8'))
-    out = ''.join(seg[0] for seg in d[0] if seg and seg[0]).split('\n')
+    if os.environ.get('TR_ENGINE') == 'nllb':
+        out = nllb_call(lines)
+    else:
+        w = _LASTREQ[0] + float(os.environ.get('TR_SPACING', '8')) - time.time()
+        if w > 0: time.sleep(w)
+        _LASTREQ[0] = time.time()
+        data = urllib.parse.urlencode({'q': '\n'.join(lines)}).encode()
+        url = f'https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl={GL.get(LANG, LANG)}&dt=t'
+        req = urllib.request.Request(url, data=data, headers={'User-Agent': 'Mozilla/5.0', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            d = json.loads(r.read().decode('utf8'))
+        out = ''.join(seg[0] for seg in d[0] if seg and seg[0]).split('\n')
     if len(out) != len(items): raise ValueError(f'lines {len(out)} != {len(items)}')
     res = {}
     for i, (t, ph) in enumerate(zip(out, maps)):
@@ -196,10 +223,10 @@ def google2(items, sheetT=None):
     return res
 
 
-if os.environ.get('TR_ENGINE') == 'google2':
+if os.environ.get('TR_ENGINE') in ('google2', 'nllb'):
     miss = [x for x in todo if x['en'] not in done]
     print(LANG, 'google2: todo', len(todo), 'done', len(done), 'missing', len(miss), flush=True)
-    time.sleep(abs(hash(LANG)) % 60)
+    if os.environ.get('TR_ENGINE') == 'google2': time.sleep(abs(hash(LANG)) % 60)
     bad, n = [], 0
     def batch(part, sheetT):
         global n
