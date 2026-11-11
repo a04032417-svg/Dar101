@@ -1,0 +1,29 @@
+# Pull one public file (a result the Composio workbench uploaded) into branch tr-out/fetch-<name> so the sandbox can read it.
+# Push fetch/run.json = {"url": "https://...", "name": "file.json"} on branch `suite`.
+name: fetch
+on:
+  push:
+    branches: [suite]
+    paths: ['fetch/run.json']
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: download and publish
+        run: |
+          set -e
+          name=$(python3 -c "import json;print(json.load(open('fetch/run.json'))['name'])")
+          url=$(python3 -c "import json;print(json.load(open('fetch/run.json'))['url'])")
+          mkdir -p /tmp/o
+          curl -sSL --retry 3 --max-time 120 -o "/tmp/o/$name" "$url"
+          ls -la /tmp/o
+          b="tr-out/fetch-${name%%.*}"
+          git init -q /tmp/r && cd /tmp/r
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git checkout -q --orphan w
+          cp /tmp/o/* .
+          git add -A && git -c user.name=translator -c user.email=translator@users.noreply.github.com commit -qm "fetch $name $(date -u +%FT%TZ)"
+          git push -q -f origin "w:refs/heads/$b"
