@@ -1,0 +1,79 @@
+[
+{
+"en": "Build or edit your Exercise Library: muscle group, movement pattern, equipment and whether it is joint friendly. The pattern is what injury rules use.",
+"kind": "sentence",
+"max": null,
+"mt": "Создайте или отредактируйте ваш Библиотека упражнений: группа мышц, тип движения, оборудование и совместимость с суставами. Шаблон используется для правил травм.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hi {name}, before we keep progress photos please confirm you agree that they are used for your plan only and never shared. Reply YES to confirm.",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}, перед тем как делать фотографии прогресса, подтвердите, что соглашаетесь на их использование только для вашего плана и что они никогда не будут расшарены. Ответьте YES, чтобы подтвердить.",
+"why": "English/Latin words left: YES"
+},
+{
+"en": "Hi {name}, we noticed {lost_90} late cancels or missed sessions in the last 90 days. Would a fixed weekly slot with {coach} work better for you?",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}, мы заметили {lost_90} поздних отмен или пропущенных сессий за последние 90 дней. Подойдет ли вам фиксированное еженедельное время с {coach}?",
+"why": "English/Latin words left: lost"
+},
+{
+"en": "Horizontal pull",
+"kind": "list",
+"max": 30,
+"mt": "Горизонтальное тянущее движение",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Horizontal push",
+"kind": "list",
+"max": 30,
+"mt": "Горизонтальное толкающее движение",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Lead pipeline with cost per source",
+"kind": "label",
+"max": 50,
+"mt": "Потенциальные клиенты с указанием стоимости за источник",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Leave and shift cover with slots to cover",
+"kind": "label",
+"max": 50,
+"mt": "Замена на время отсутствия, свободные слоты для заполнения",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Next steps: keep the sessions steady, repeat the measurements and tests on schedule, and review the goals together at the next session.",
+"kind": "document",
+"max": null,
+"mt": "Следующие шаги: поддерживать стабильность занятий, повторять измерения и тесты по расписанию и совместно пересматривать цели на следующей сессии.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Planned against done sessions",
+"kind": "label",
+"max": 50,
+"mt": "Запланированные vs выполненные сеансы",
+"why": "English/Latin words left: vs"
+},
+{
+"en": "Recovery kit",
+"kind": "list",
+"max": 30,
+"mt": "Оборудование для восстановления",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Vertical push",
+"kind": "list",
+"max": 30,
+"mt": "Вертикальное толкающее движение",
+"why": "too long: 31 characters, the limit is 30"
+}
+]
