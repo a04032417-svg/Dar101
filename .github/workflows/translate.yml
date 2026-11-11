@@ -42,10 +42,10 @@ jobs:
       - name: translate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 tr/translate.py "${{ needs.plan.outputs.suite }}" "${{ matrix.lang }}" "/tmp/res/${{ matrix.lang }}.json"
+        run: python3 tr/translate.py "${{ needs.plan.outputs.suite }}" "${{ matrix.lang }}" "/tmp/res/${{ matrix.lang }}.json" 2>&1 | tee "/tmp/res/${{ matrix.lang }}.log"
       - uses: actions/upload-artifact@v4
         if: always()
-        with: { name: 'tr-${{ matrix.lang }}', path: '/tmp/res/${{ matrix.lang }}.json', if-no-files-found: ignore }
+        with: { name: 'tr-${{ matrix.lang }}', path: '/tmp/res/${{ matrix.lang }}.*', if-no-files-found: ignore }
   collect:
     needs: [plan, tr]
     if: always()
@@ -60,7 +60,7 @@ jobs:
           git init -q /tmp/r && cd /tmp/r
           git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           if git fetch -q origin "$b" 2>/dev/null; then git checkout -q -b w FETCH_HEAD; else git checkout -q --orphan w; fi
-          cp /tmp/a/*.json . 2>/dev/null || true
+          cp /tmp/a/*.json /tmp/a/*.log . 2>/dev/null || true
           git add -A && git -c user.name=translator -c user.email=translator@users.noreply.github.com commit -qm "translations $(date -u +%FT%TZ)" || true
           git push -q origin "w:refs/heads/$b"
           ls -la
