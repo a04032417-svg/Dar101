@@ -16,7 +16,8 @@ NAMES = {'ar': 'Arabic', 'fr': 'French', 'es': 'Spanish', 'de': 'German', 'it': 
 MODELS = [m for m in os.environ.get('TR_MODELS', 'openai/gpt-4.1-mini,openai/gpt-4o-mini,openai/gpt-4.1,openai/gpt-4o,mistral-ai/mistral-medium-2505,deepseek/DeepSeek-V3-0324').split(',') if m]
 TOKEN = os.environ['GITHUB_TOKEN']
 PH = re.compile(r'\{[a-z_]+(?::[a-z0-9_.]+)?\}')
-KEEP = {'WhatsApp', 'Excel', 'LibreOffice', 'Airbnb', 'Booking.com', 'Vrbo', 'IBAN', 'VAT', 'ID', 'm²', 'PDF', 'OK', 'xlsx', 'Microsoft'}
+KEEP = {'WhatsApp', 'Excel', 'LibreOffice', 'Airbnb', 'Booking.com', 'Vrbo', 'IBAN', 'VAT', 'ID', 'm²', 'PDF', 'OK', 'xlsx', 'Microsoft', 'Windows', 'Mac', 'Calc'}
+KEEPL = {k.lower() for k in KEEP}
 NONLATIN = LANG in ('ar', 'fa', 'ur', 'hi', 'zh', 'ru')
 BUDGET = 2000 if NONLATIN else 2800          # English characters per request (output stays under 4000 tokens)
 
@@ -42,7 +43,7 @@ def check(x, v):
     if x.get('max') and len(v) > x['max']: return f'too long: {len(v)} characters, the limit is {x["max"]}'
     if x['kind'] == 'sheet' and re.search(r'[\[\]:*?/\\]', v): return 'sheet names cannot contain [ ] : * ? / \\'
     if NONLATIN:
-        lat = [w for w in re.findall(r'[A-Za-z][A-Za-z.²]+', PH.sub('', v)) if w not in KEEP]
+        lat = [w for w in re.findall(r'[A-Za-z][A-Za-z.²]+', PH.sub('', v)) if w.strip('.').lower() not in KEEPL]
         if lat: return 'English/Latin words left: ' + ' '.join(lat[:4])
     if re.search(r'compat|متوافق|kompatib|совмест|兼容|संगत|uyumlu|سازگار|مطابقت', v, re.I): return 'never use the word for "compatible"'
     if v.strip() == en.strip() and re.search(r'[A-Za-z]{4}', en) and en not in KEEP: return 'not translated'
@@ -70,6 +71,8 @@ def call(model, items, notes=None):
 
 
 GL = {'zh': 'zh-CN', 'pt': 'pt'}
+GTERMS = sorted([(k, v) for k, v in G.get('glossary', {}).items() if isinstance(v, str) and k.strip() and not re.search(r'[/()]', k + v)
+                 and LANG not in ('ru',) and len(k) >= 4], key=lambda kv: -len(kv[0]))
 
 
 def google(items):
@@ -77,8 +80,13 @@ def google(items):
     import urllib.parse
     lines, maps = [], []
     for x in items:
-        ph = PH.findall(x['en']); t = x['en']
+        t = x.get('src') or x['en']; ph = PH.findall(t)
         for k, p_ in enumerate(ph): t = t.replace(p_, '{%d}' % k, 1)
+        for en_t, tr_t in GTERMS:          # approved multi-word terms go through untouched (terminology, not literal MT)
+            def sub(m, tr_t=tr_t):
+                ph.append(tr_t[0].upper() + tr_t[1:] if m.group(0)[0].isupper() and tr_t[:1].isalpha() and tr_t[:1].lower() != tr_t[:1].upper() else tr_t)
+                return '{%d}' % (len(ph) - 1)
+            t = re.sub(r'(?<![A-Za-z{])' + re.escape(en_t) + r'(?:e?s)?(?![A-Za-z}])', sub, t, flags=re.I)
         lines.append(t.replace('\n', ' ¶ ')); maps.append(ph)
     data = urllib.parse.urlencode({'q': '\n'.join(lines)}).encode()
     url = f'https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl={GL.get(LANG, LANG)}&dt=t'
