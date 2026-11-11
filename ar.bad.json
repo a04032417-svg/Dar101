@@ -1,0 +1,170 @@
+[
+{
+"en": "Sales Tax or VAT Return",
+"kind": "sheet",
+"max": 31,
+"mt": "إقرار ضريبة المبيعات أو ضريبة القيمة المضافة",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Weather Go or No-Go",
+"kind": "sheet",
+"max": 31,
+"mt": "حالة الطقس: الذهاب أم لا",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Hi {name}, your {pack} is paused from {start} to {end} ({days} days). Your new end date is {new_end} and your {left} session(s) are kept. See you when you are back!",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، تم إيقاف جلستك {pack} مؤقتًا من {start} إلى {end} ({days} أيام). تاريخ الانتهاء الجديد هو {5 وتم الاحتفاظ بجلستك {left}. نراك عند عودتك!",
+"why": "placeholders must be exactly: {name} {pack} {start} {end} {days} {new_end} {left}"
+},
+{
+"en": "Welcome to {set:company}! Your coach is {col:clients.coach} and your goal is {col:clients.goal}. Your current package is {col:clients.cur_pack}.",
+"kind": "document",
+"max": null,
+"mt": "مرحبًا بك في {set:company}! مدربك هو {1 وهدفك هو {col:clients.goal}. الحزمة الحالية الخاصة بك هي {col:clients.cur_pack}.",
+"why": "placeholders must be exactly: {set:company} {col:clients.coach} {col:clients.goal} {col:clients.cur_pack}"
+},
+{
+"en": "from the pace so far it gives the finish date, and the weekly change needed to hit the deadline; goals read reached, on track, behind or overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "بناءً على الوتيرة الحالية، يعطي تاريخ الانتهاء، والتغيير الأسبوعي اللازم للوصول إلى الموعد النهائي؛ تُقرأ الأهداف على أنها تم الوصول إليها، على المسار الصحيح، متأخرة أو متأخرة عن الموعد",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "Fat mass, lean mass and the weight at a body fat goal",
+"kind": "title",
+"max": 60,
+"mt": "كتلة الدهون، الكتلة الخالية من الدهون والوزن عند هدف نسبة الدهون في الجسم",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Daily calories and protein from lean mass",
+"kind": "title",
+"max": 60,
+"mt": "السعرات الحرارية والبروتين اليومية من الكتلة العضلية الخالية من الدهون",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"kind": "message",
+"max": null,
+"mt": "مرحباً {name}، آخر 90 يومًا: {sess_90} جلسات و {prs_90} سجلات جديدة. التغير في الوزن منذ بدأت: {w_chg} كغ. عمل رائع، استمر!",
+"why": "English/Latin words left: sess prs"
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"kind": "message",
+"max": null,
+"mt": "مرحباً {name}، أفضل نتيجة جديدة في {exercise}: الحد الأقصى المقدر {best_e1} كيلوغرام، بزيادة {gain} منذ أن بدأت. هذا تقدم حقيقي!",
+"why": "English/Latin words left: best"
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً {name}، {exercise} أقل من أفضل ما لديك ({last_e1} كيلوغرام الآن، أفضل {best_e1} كيلوغرام). قد يكون السبب النوم أو التوتر أو الألم العضلي. دعنا نتحدث قبل الجلسة القادمة.",
+"why": "English/Latin words left: last best"
+},
+{
+"en": "Hi {name}, your last 30 days: {sets_30} sets logged, {prs_30} records, {n_plat} plateaued lifts and {n_inj} open injuries. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، آخر 30 يومًا لك: تم تسجيل {sets_30} مجموعات، {prs_30} سجلات، {n_plat} تمارين متوقفة و{n_inj} إصابات مفتوحة. دعنا نراجعها يوم الاثنين.",
+"why": "English/Latin words left: sets prs"
+},
+{
+"en": "Run challenges on Challenges and Challenge Entries: results give the improvement, rank and winner.",
+"kind": "sentence",
+"max": null,
+"mt": "قم بتشغيل التحديات على Challenges و إدخالات التحدي: تعطي النتائج التحسين، الترتيب والفائز.",
+"why": "English/Latin words left: Challenges"
+},
+{
+"en": "Income ledger with tax, net income and margin",
+"kind": "label",
+"max": 50,
+"mt": "دفتر الحسابات للإيرادات مع الضرائب، صافي الدخل والهامش",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Sales tax or VAT return by month",
+"kind": "label",
+"max": 50,
+"mt": "إقرار ضريبة المبيعات أو ضريبة القيمة المضافة حسب الشهر",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "12-week cash forecast with low-cash flags",
+"kind": "label",
+"max": 50,
+"mt": "توقعات التدفق النقدي لمدة 12 أسبوعًا مع إشارات انخفاض النقد",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "takings at the recent pace, overdue invoices you expect to collect, pay, rent, costs and tax returns give the cash at the end of each week against your minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "الإيرادات بالمعدل الأخير، والفواتير المتأخرة التي تتوقع تحصيلها، والدفع، والإيجار، والتكاليف وعوائد الضرائب تعطي النقد في نهاية كل أسبوع مقارنةً بالحد الأدنى الخاص بك",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Hi {name}, your last 3 months: {hrs_3m} hours, utilisation {util} and {n_clients} active clients. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً {name}، آخر 3 أشهر لك: {hrs_3m} ساعات، معدل الاستخدام {util} و {n_clients} عملاء نشطين. دعنا نراجع يوم الاثنين.",
+"why": "English/Latin words left: hrs"
+},
+{
+"en": "Fill heat map by start hour and weekday",
+"kind": "label",
+"max": 50,
+"mt": "املأ خريطة الحرارة حسب ساعة البدء واليوم من الأسبوع",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Coach load and free slots for the next 7 days",
+"kind": "label",
+"max": 50,
+"mt": "وزن المدرب والفترات الزمنية المتاحة للأيام السبعة القادمة",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Incident and near-miss log with open actions",
+"kind": "label",
+"max": 50,
+"mt": "سجل الحوادث والقريبة من الحوادث مع الإجراءات المفتوحة",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Team, weekly hours, load and free slots",
+"kind": "title",
+"max": 60,
+"mt": "الفريق، ساعات العمل الأسبوعية، الوزن والفترات الزمنية الفارغة",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hi {name}, you have {next7} sessions in the next 7 days and {free7} free slots. Please check the timetable and fill the gaps if you can.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، لديك {next7} جلسات في الأيام السبعة القادمة و{free7} أوقات متاحة مجانية. يرجى التحقق من الجدول وملء الفجوات إذا استطعت.",
+"why": "English/Latin words left: next free"
+},
+{
+"en": "Hi {name}, in the last 4 weeks you delivered {hrs_28} of {cap_28} timetable hours, a use of {util}. Shall we talk about filling the gaps?",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، خلال الأسابيع الأربعة الماضية قدمت {hrs_28} من {cap_28} ساعات الجدول، وهو استخدام {util}. هل نناقش كيفية ملء الفجوات؟",
+"why": "English/Latin words left: hrs cap"
+},
+{
+"en": "Hi {name}, we noticed {lost_90} late cancels or missed sessions in the last 90 days. Would a fixed weekly slot with {coach} work better for you?",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، لاحظنا {lost_90} إلغاءات متأخرة أو جلسات فائتة في آخر 90 يومًا. هل يناسبك جدول أسبوعي ثابت مع {coach} بشكل أفضل؟",
+"why": "English/Latin words left: lost"
+}
+]

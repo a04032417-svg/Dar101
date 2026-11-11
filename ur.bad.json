@@ -1,0 +1,359 @@
+[
+{
+"en": "Referral Voucher",
+"kind": "sheet",
+"max": 31,
+"mt": "ریفerral ووچر",
+"why": "English/Latin words left: erral"
+},
+{
+"en": "Cancellation and Win-back",
+"kind": "sheet",
+"max": 31,
+"mt": "منسوخی اور دوبارہ حاصل کرنے کے اقدامات",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Referral Reward Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "ریفerral انعام کے اقدامات",
+"why": "English/Latin words left: erral"
+},
+{
+"en": "Weather Go or No-Go",
+"kind": "sheet",
+"max": 31,
+"mt": "موسم: جانا ہے یا نہیں",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "What missed sessions cost and what a fee recovers",
+"kind": "title",
+"max": 60,
+"mt": "جو کھوئے ہوئے سیشنز کی قیمت ہے اور کونسی فیس اس کی بھرپائی کرتی ہے",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "How many leads you need for the clients you want",
+"kind": "title",
+"max": 60,
+"mt": "جتنے کلائنٹس آپ چاہتے ہیں ان کے لیے آپ کو کتنے ممکنہ کلائنٹس کی ضرورت ہے",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Type a coach name exactly as on the Coaches sheet; see their free places, the people waiting for them and the longest wait.",
+"kind": "sentence",
+"max": null,
+"mt": "ٹرینر کا نام بالکل اسی طرح ٹائپ کریں جیسا کہ 'Trainers' شیٹ میں ہے؛ ان کی مفت جگہیں، ان کے لیے انتظار کرنے والے افراد اور سب سے طویل انتظار دیکھیں۔",
+"why": "English/Latin words left: Trainers"
+},
+{
+"en": "Referral reward ready",
+"kind": "label",
+"max": null,
+"mt": "ریفerral انعام تیار ہے",
+"why": "English/Latin words left: erral"
+},
+{
+"en": "Hi {name}, your {type} is valid until {valid_until}. Please sign a new one before then so you can keep training without a break.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {name}, آپ کا {type} {valid_until} تک válido ہے۔ براہ کرم اس سے پہلے نیا دستخط کریں تاکہ آپ بغیر رکے تربیت جاری رکھ سکیں۔",
+"why": "English/Latin words left: lido"
+},
+{
+"en": "Referral reward voucher",
+"kind": "title",
+"max": 60,
+"mt": "ریفerral ریوارڈ واؤچر",
+"why": "English/Latin words left: erral"
+},
+{
+"en": "Tap a message link on any sheet to open WhatsApp with the text already filled in; all wording is on the Messages sheet.",
+"kind": "sentence",
+"max": null,
+"mt": "کسی بھی شیٹ پر موجود میسج لنک کو ٹیپ کریں تاکہ WhatsApp کھل جائے اور ٹیکسٹ پہلے سے بھرا ہوا ہو؛ تمام الفاظ Messages شیٹ پر ہیں۔",
+"why": "English/Latin words left: Messages"
+},
+{
+"en": "Type weight, body fat, activity and the change you want; the resting need uses lean mass (Katch-McArdle, same for everyone), then protein, fat and carbs are set. A starting guide only.",
+"kind": "sentence",
+"max": null,
+"mt": "وزن، جسمانی چربی، سرگرمی اور جو تبدیلی آپ چاہتے ہیں ٹائپ کریں؛ آرام کی ضرورت بغیر چربی کے ماس استعمال کرتی ہے (Katch-McArdle، سب کے لیے ایک جیسا)، پھر پروٹین، چربی اور کاربوہائڈریٹس مقرر کیے جاتے ہیں۔ صرف ابتدائی رہنمائی کے لیے۔",
+"why": "English/Latin words left: Katch McArdle"
+},
+{
+"en": "Type the name of a programme exactly as on the Programmes sheet; see its days, minutes and the weekly sets for each muscle group against your minimum.",
+"kind": "sentence",
+"max": null,
+"mt": "تربیتی منصوبے کا نام بالکل ویسا ہی ٹائپ کریں جیسا کہ Training plans شیٹ میں ہے؛ اس کے دن، منٹ اور ہر عضلے کے گروپ کے لیے ہفتہ وار سیٹ اپنے کم از کم کے مقابلے دیکھیں۔",
+"why": "English/Latin words left: Training plans"
+},
+{
+"en": "Plan a lighter week and see who needs one",
+"kind": "title",
+"max": 60,
+"mt": "ایک ہلکے ہفتے کی منصوبہ بندی کریں اور دیکھیں کہ کس کو ضرورت ہے",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {name}, آپ کے پچھلے 90 دن: {sess_90} سیشن اور {prs_90} نئے ریکارڈز۔ آغاز سے وزن میں تبدیلی: {w_chg} کلو۔ شاندار کام، جاری رکھیں!",
+"why": "English/Latin words left: sess prs"
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {name}, {exercise} پر نیا بہترین: اندازہ شدہ زیادہ سے زیادہ {best_e1} کلو، شروع سے {gain} زیادہ۔ یہ حقیقی ترقی ہے!",
+"why": "English/Latin words left: best"
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {name}, آپ کا {exercise} آپ کے بہترین سے کم ہے ({last_e1} کلو اب، بہترین {best_e1} کلو)۔ نیند، دباؤ یا درد اس کی وجہ ہو سکتی ہے۔ اگلی سیشن سے پہلے اس پر بات کرتے ہیں۔",
+"why": "English/Latin words left: last best"
+},
+{
+"en": "Hi {name}, you are {progress} of the way to your goal ({metric}, target {target}). At this pace you finish around {eta}. Keep it up!",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {name}, آپ اپنے ہدف ({progress}, ہدف {metric}) کے {progress} راستے پر ہیں۔ اس رفتار سے آپ تقریبا {eta} پر ختم کریں گے۔ جاری رکھیں!",
+"why": "placeholders must be exactly: {name} {progress} {metric} {target} {eta}"
+},
+{
+"en": "Hi {name}, before we keep progress photos please confirm you agree that they are used for your plan only and never shared. Reply YES to confirm.",
+"kind": "message",
+"max": null,
+"mt": "ہی {name}, پروگریس تصاویر جاری رکھنے سے پہلے براہِ مہربانی تصدیق کریں کہ آپ اتفاق کرتے ہیں کہ یہ صرف آپ کے منصوبے کے لیے استعمال ہوں گی اور کبھی شیئر نہیں کی جائیں گی۔ تصدیق کے لیے YES جواب دیں۔",
+"why": "English/Latin words left: YES"
+},
+{
+"en": "Hi {name}, your last 30 days: {sets_30} sets logged, {prs_30} records, {n_plat} plateaued lifts and {n_inj} open injuries. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "ہائے {name}, آپ کے گزشتہ 30 دن: {sets_30} سیٹ لاگ کی گئی، {prs_30} ریکارڈ، {n_plat} رکھی ہوئی مشقیں اور {n_inj} کھلی چوٹیں۔ آئیے پیر کو جائزہ لیتے ہیں۔",
+"why": "English/Latin words left: sets prs"
+},
+{
+"en": "Enter the numbers on Measurements",
+"kind": "label",
+"max": null,
+"mt": "اعداد کو Measurements میں درج کریں",
+"why": "English/Latin words left: Measurements"
+},
+{
+"en": "Open Start and type your studio name and your rules in the yellow cells: plateau weeks, slip percent, deload weeks, weekly set range, habit targets and the share of a plan that counts as done.",
+"kind": "sentence",
+"max": null,
+"mt": "کھولیں Start اور اپنے اسٹوڈیو کا نام اور اپنے قواعد پیلے خلیوں میں درج کریں: رکاؤٹ والی ترقی والے ہفتے، سلپ فیصد، بحالی کا ہفتہ، ہفتہ وار سیٹ کی حد، عادت کے اہداف اور کسی منصوبے کا حصہ جو مکمل سمجھا جائے۔",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Check the Coaches and Progress Board sheets: one row per client with coach, goal, level and status. The yellow cells are yours; everything else fills in by itself.",
+"kind": "sentence",
+"max": null,
+"mt": "Trainers اور پیشرفت بورڈ شیٹس چیک کریں: ہر کلائنٹ کے لیے ایک صف جس میں ٹرینر، مقصد، سطح اور حیثیت ہو۔ پیلے خلیے آپ کے ہیں؛ باقی سب خود بخود بھر جائے گا۔",
+"why": "English/Latin words left: Trainers"
+},
+{
+"en": "Write programmes on Programmes and Programme Lines: days, exercises, sets, reps and rest. Programme Builder then shows the weekly sets per muscle group.",
+"kind": "sentence",
+"max": null,
+"mt": "Training plans اور ٹریننگ پلان لائنز پر تربیتی منصوبے لکھیں: دن، ورزشیں، سیٹ، تکرار اور آرام۔ پھر ٹریننگ پلان بنانے والا پٹھوں کے گروپ کے لیے ہفتہ وار سیٹ دکھاتا ہے۔",
+"why": "English/Latin words left: Training plans"
+},
+{
+"en": "Add every injury on Injuries with the pattern to avoid. Any logged session that breaks the rule turns the alert red.",
+"kind": "sentence",
+"max": null,
+"mt": "ہر چوٹ کو Injuries پر اسپیٹرن کے ساتھ شامل کریں جس سے بچنا ہو۔ کوئی بھی لاگ شدہ سیشن جو اصول توڑتا ہے الارٹ کو سرخ کر دیتا ہے۔",
+"why": "English/Latin words left: Injuries"
+},
+{
+"en": "Run challenges on Challenges and Challenge Entries: results give the improvement, rank and winner.",
+"kind": "sentence",
+"max": null,
+"mt": "چیلنجز کو Challenges اور چیلنج اندراجات پر چلائیں: نتائج بہتری، رینک اور فاتح بتاتے ہیں۔",
+"why": "English/Latin words left: Challenges"
+},
+{
+"en": "invoices read paid, part paid, open or overdue from the ledger and credit notes, fall into 30, 60 and 90 day buckets and show the instalment of a plan",
+"kind": "sentence",
+"max": 160,
+"mt": "لیجر اور کریڈٹ نوٹس سے رسیدیں پڑھی جاتی ہیں کہ وہ ادا شدہ، جزوی طور پر ادا شدہ، کھلی یا واجب الادا ہیں، اور انہیں 30، 60 اور 90 دن کے خانوں میں تقسیم کیا جاتا ہے اور منصوبے کی قسط دکھائی جاتی ہے",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "Deferred revenue for unused paid sessions",
+"kind": "label",
+"max": 50,
+"mt": "استعمال نہ ہونے والے ادا شدہ سیشنز کے لیے موخر آمدنی",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "what each client paid net of tax less the cost to serve them, profit a month, expected lifetime profit and a rank from top client to low value",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر کلائنٹ نے ٹیکس کے بعد کتنا ادا کیا، جس کو خدمت فراہم کرنے کی لاگت کم کی جائے، ایک ماہ کا منافع، متوقع لائف ٹائم منافع اور اعلیٰ سے کم قیمت والے کلائنٹ تک درجہ بندی",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "takings at the recent pace, overdue invoices you expect to collect, pay, rent, costs and tax returns give the cash at the end of each week against your minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "حالیہ رفتار پر آمدنی، واجب الادا انوائسز جنہیں آپ جمع کرنے کی توقع رکھتے ہیں، ادائیگی، کرایہ، اخراجات اور ٹیکس کی واپسی ہر ہفتے کے آخر میں نقد رقم آپ کے کم از کم مقدار کے خلاف دیتی ہے",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "Credentials and insurance expiry per coach",
+"kind": "label",
+"max": 50,
+"mt": "ہر ٹرینر کے لیے اسناد اور انشورنس کی میعاد ختم ہونے کی تاریخ",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "Hi {name}, your last 3 months: {hrs_3m} hours, utilisation {util} and {n_clients} active clients. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {name}, آپ کے پچھلے 3 ماہ: {hrs_3m} گھنٹے، استعمال {util} اور {n_clients} فعال کلائنٹس۔ آئیے پیر کو جائزہ لیں۔",
+"why": "English/Latin words left: hrs"
+},
+{
+"en": "Enter the item and its useful life on Equipment",
+"kind": "label",
+"max": null,
+"mt": "آئٹم اور اس کی مفید عمر Equipment پر درج کریں",
+"why": "English/Latin words left: Equipment"
+},
+{
+"en": "Issue invoices on Invoices and put the invoice number on the ledger row when it is paid. Balance, days overdue, status and the ageing bucket update, and credit notes reduce the balance.",
+"kind": "sentence",
+"max": null,
+"mt": "انویس جاری کریں Invoices پر اور جب ادائیگی ہو جائے تو پراپرٹی نمبر لیجر کی قطار میں ڈالیں۔ بیلنس، دن کی تاخیر، اسٹیٹس اور ایجنگ بکٹ اپ ڈیٹ ہوتے ہیں، اور کریڈٹ نوٹس بیلنس کم کرتے ہیں۔",
+"why": "English/Latin words left: Invoices"
+},
+{
+"en": "Fill heat map by start hour and weekday",
+"kind": "label",
+"max": 50,
+"mt": "شروع ہونے کے وقت اور ہفتے کے دن کے حساب سے ہیٹ میپ بھریں",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Weekly timetable with a live slot status",
+"kind": "label",
+"max": 50,
+"mt": "ہفتہ وار شیڈول جس میں وقت کے حصوں کی موجودہ حیثیت دکھائی دیتی ہے",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "Coach load and free slots for the next 7 days",
+"kind": "label",
+"max": 50,
+"mt": "ٹرینر کا وزن اور آئندہ 7 دنوں کے لئے خالی وقت کے حصے",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Client reliability and slipping-away flag",
+"kind": "label",
+"max": 50,
+"mt": "کلائنٹ کی بھروسے مندی اور دور ہونے کے امکان کا نشان",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Leave and shift cover with slots to cover",
+"kind": "label",
+"max": 50,
+"mt": "چھٹی اور متبادل شفٹیں جن کے لیے وقت کے حصے پُر کرنے ہیں",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Incident and near-miss log with open actions",
+"kind": "label",
+"max": 50,
+"mt": "حادثے اور قریب سے ہونے والے حادثے کی لاگ کے ساتھ کھلے اقدامات",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "First aid, emergency and facility check dates",
+"kind": "label",
+"max": 50,
+"mt": "ابتدائی امداد، ایمرجنسی اور سہولت کی جانچ کی تاریخیں",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Closure and weather calendar with sessions moved",
+"kind": "label",
+"max": 50,
+"mt": "بندش اور موسم کا کیلنڈر جس میں سیشنز منتقل کیے گئے ہیں۔",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Hi {name}, you have {next7} sessions in the next 7 days and {free7} free slots. Please check the timetable and fill the gaps if you can.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {name}, آپ کے پاس اگلے 7 دنوں میں {next7} سیشنز اور {free7} خالی وقت کے سلاٹس ہیں۔ براہ کرم ٹائم ٹیبل چیک کریں اور اگر ممکن ہو تو خالی وقت بھر دیں۔",
+"why": "English/Latin words left: next free"
+},
+{
+"en": "Hi {name}, in the last 4 weeks you delivered {hrs_28} of {cap_28} timetable hours, a use of {util}. Shall we talk about filling the gaps?",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {name}, پچھلے 4 ہفتوں میں آپ نے {cap_28} ٹائم ٹیبل گھنٹوں میں {hrs_28} گھنٹے فراہم کیے، جو کہ {util} کے استعمال کے مترادف ہیں۔ کیا ہم خلا کو پر کرنے کے بارے میں بات کریں؟",
+"why": "English/Latin words left: cap hrs"
+},
+{
+"en": "Hi {name}, we noticed {lost_90} late cancels or missed sessions in the last 90 days. Would a fixed weekly slot with {coach} work better for you?",
+"kind": "message",
+"max": null,
+"mt": "ہی {name}, ہم نے گزشتہ 90 دنوں میں {lost_90} دیر سے منسوخ یا چھوٹے ہوئے سیشنز دیکھے ہیں۔ کیا {coach} کے ساتھ ایک متعين ہفتہ وار وقت آپ کے لیے بہتر رہے گا؟",
+"why": "English/Latin words left: lost"
+},
+{
+"en": "Slot fill by start hour",
+"kind": "title",
+"max": 60,
+"mt": "شروع ہونے کے گھنٹے کے لحاظ سے وقت کے سلاٹس کی پُر ہونے کی شرح",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Build your template week on Weekly Timetable: one row for each slot with day, start time, coach, room, type and places. Fill rate and a Busy, OK or Quiet status appear by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "اپنے ٹیمپلیٹ ہفتے کو ہفتہ وار شیڈول پر بنائیں: ہر ٹائم سلاٹ کے لیے ایک قطار جس میں دن، شروع ہونے کا وقت، ٹرینر، کمرہ، قسم اور جگہیں ہوں۔ فل ریٹ اور Busy، OK یا Quiet کی حیثیت خود بخود ظاہر ہو جاتی ہے۔",
+"why": "English/Latin words left: Busy Quiet"
+},
+{
+"en": "Enter every session on Bookings: date, start time, client, coach, place, type and status. Mark each one Done, Late cancel, No show, Moved or Weather cancel, and add the arrival time and any pain or injury to note.",
+"kind": "sentence",
+"max": null,
+"mt": "ہر سیشن کو بُکنگز میں درج کریں: تاریخ، شروع ہونے کا وقت، کلائنٹ، ٹرینر، جگہ، قسم اور حیثیت۔ ہر ایک کو Done، Late cancel، No show، Moved یا Weather cancel کے طور پر نشان زد کریں، اور نوٹ میں آمد کا وقت اور کسی بھی درد یا چوٹ کو شامل کریں۔",
+"why": "English/Latin words left: Done Late cancel No"
+},
+{
+"en": "List every item on Equipment with its cost, life and service interval, and log each service or repair on Repair Log. Service dates and replacement flags come out by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "ہر آئٹم کی تفصیل، لاگت، زندگی اور سروس انٹرول کے ساتھ Equipment میں درج کریں، اور ہر سروس یا مرمت مرمت کی لاگ پر لاگ کریں۔ سروس کی تاریخیں اور ریپلیسمنٹ کے فلیگز خود ظاہر ہو جاتے ہیں۔",
+"why": "English/Latin words left: Equipment"
+},
+{
+"en": "Count your consumables and shop items on Stock. Items at or below the reorder level are flagged and the order in whole packs is worked out.",
+"kind": "sentence",
+"max": null,
+"mt": "اپنی مصرف اور شاپ آئٹمز Stock پر گنیں۔ جو آئٹمز آرڈر لیول یا اس سے کم ہوں، ان پر نشان لگایا جاتا ہے اور پورے پیک میں آرڈر کام میں لایا جاتا ہے۔",
+"why": "English/Latin words left: Stock"
+},
+{
+"en": "Keep classes, workshops, challenges and events on Classes and Events, supplier and partner details on Contacts, and client scores on Reviews to see your recommendation score.",
+"kind": "sentence",
+"max": null,
+"mt": "اپنی سفارش کے اسکور کو دیکھنے کے لیے کلاسیں، ورکشاپس، چیلنجز اور تقریبات کلاسز اور تقریبات پر رکھیں، سپلائر اور پارٹنر کی تفصیلات Contacts پر، اور کلائنٹ کے اسکور Reviews پر۔",
+"why": "English/Latin words left: Contacts Reviews"
+}
+]

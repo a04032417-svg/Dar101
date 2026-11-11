@@ -1,0 +1,100 @@
+[
+{
+"en": "Type weight, body fat, activity and the change you want; the resting need uses lean mass (Katch-McArdle, same for everyone), then protein, fat and carbs are set. A starting guide only.",
+"kind": "sentence",
+"max": null,
+"mt": "输入体重、体脂、活动量以及你想要的变化；基础需求使用瘦体重（Katch-McArdle公式，每个人相同），然后设置蛋白质、脂肪和碳水化合物。仅作初始指南。",
+"why": "English/Latin words left: Katch McArdle"
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，你过去 90 天的情况：{sess_90} 次训练，{prs_90} 项新记录。自开始以来体重变化：{w_chg} 公斤。干得好，继续努力！",
+"why": "English/Latin words left: sess prs"
+},
+{
+"en": "Hi {name}, block review: {sessions} sessions, {sets} sets and {tonnes} tonnes lifted in {template}. Well done! Next we build on it.",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，训练周期回顾：{sessions} 次课程，{sets} 组，总计举起 {tonnes} 吨。干得好！下一步我们将在此基础上进步。",
+"why": "placeholders must be exactly: {name} {sessions} {sets} {tonnes} {template}"
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，在 {exercise} 创下了新最好成绩：估计最大重量 {best_e1} 公斤，比你开始时增加了 {gain}。这是真正的进步！",
+"why": "English/Latin words left: best"
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，你的 {exercise} 低于你的最佳纪录（现在 {last_e1} 公斤，最佳 {best_e1} 公斤）。睡眠、压力或肌肉酸痛可能是原因。让我们在下次课程前讨论一下。",
+"why": "English/Latin words left: last best"
+},
+{
+"en": "Hi {name}, before we keep progress photos please confirm you agree that they are used for your plan only and never shared. Reply YES to confirm.",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，在继续拍摄进度照片之前，请确认你同意这些照片仅用于你的计划，并且绝不分享。回复 YES 以确认。",
+"why": "English/Latin words left: YES"
+},
+{
+"en": "Hi {name}, your last 30 days: {sets_30} sets logged, {prs_30} records, {n_plat} plateaued lifts and {n_inj} open injuries. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，你过去 30 天的情况：记录了 {sets_30} 组，{prs_30} 条记录，{n_plat} 个停滞的练习和 {n_inj} 处未愈合伤病。让我们在周一进行回顾。",
+"why": "English/Latin words left: sets prs"
+},
+{
+"en": "Progress photo consent for {col:photos.name}.",
+"kind": "document",
+"max": null,
+"mt": "{ \"Translation\": \"{col:photos.name} 的进展照片同意书。",
+"why": "English/Latin words left: Translation"
+},
+{
+"en": "Run challenges on Challenges and Challenge Entries: results give the improvement, rank and winner.",
+"kind": "sentence",
+"max": null,
+"mt": "在 Challenges 和 挑战条目 上进行挑战：结果显示进步、排名和获胜者。",
+"why": "English/Latin words left: Challenges"
+},
+{
+"en": "Hi {coach}, last month you delivered {hours} of {avail} available hours. Let us see how to fill the idle {idle} hours.",
+"kind": "message",
+"max": null,
+"mt": "你好 {coach}，上个月您完成了 {hours} 的 {avail} 可用小时。让我们看看如何填补 idle 的 {idle} 小时。",
+"why": "English/Latin words left: idle"
+},
+{
+"en": "Hi {name}, your last 3 months: {hrs_3m} hours, utilisation {util} and {n_clients} active clients. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "你好 {name}，您过去三个月的情况：{hrs_3m} 小时，利用率 {util} ，{n_clients} 个活跃客户。我们周一进行复盘。",
+"why": "English/Latin words left: hrs"
+},
+{
+"en": "Hi {name}, you have {next7} sessions in the next 7 days and {free7} free slots. Please check the timetable and fill the gaps if you can.",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，在接下来的 7 天中，您有 {next7} 节课程和 {free7} 个空闲时间段。请查看时间表，并在可能的情况下填补空缺。",
+"why": "English/Latin words left: next free"
+},
+{
+"en": "Hi {name}, in the last 4 weeks you delivered {hrs_28} of {cap_28} timetable hours, a use of {util}. Shall we talk about filling the gaps?",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，在过去的 4 周中，您共提供了 {hrs_28} 小时的 {cap_28} 课程时长，占用率为 {util}。我们是否需要讨论如何填补空缺？",
+"why": "English/Latin words left: hrs cap"
+},
+{
+"en": "Hi {name}, we noticed {lost_90} late cancels or missed sessions in the last 90 days. Would a fixed weekly slot with {coach} work better for you?",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，我们注意到您在过去 90 天内有 {lost_90} 次迟到取消或缺席课程。每周固定时间段的课程对您会更合适吗？",
+"why": "placeholders must be exactly: {name} {coach}"
+}
+]

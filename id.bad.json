@@ -1,0 +1,555 @@
+[
+{
+"en": "Late Payment Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pembayaran terlambat",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Cancellation and Win-back",
+"kind": "sheet",
+"max": 31,
+"mt": "Pembatalan dan penarikan kembali",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Records and Plateaus",
+"kind": "sheet",
+"max": 31,
+"mt": "Rekor dan kemajuan yang terhenti",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Goal Setting Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah penetapan tujuan",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Sales Tax or VAT Return",
+"kind": "sheet",
+"max": 31,
+"mt": "Pengembalian pajak penjualan atau PPN",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Renewal pipeline with revenue at risk",
+"kind": "label",
+"max": 50,
+"mt": "Pipeline perpanjangan dengan pendapatan yang berisiko",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "No-show and late cancel rates",
+"kind": "label",
+"max": 50,
+"mt": "Tingkat pemesanan yang terlewat dan pembatalan terlambat",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Waiting list matched to coach places",
+"kind": "label",
+"max": 50,
+"mt": "Daftar tunggu yang dicocokkan dengan tempat pelatih",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Mobility and back care",
+"kind": "list",
+"max": 30,
+"mt": "Mobilitas dan perawatan punggung",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Online",
+"kind": "list",
+"max": 30,
+"mt": "Online",
+"why": "not translated"
+},
+{
+"en": "Status",
+"kind": "label",
+"max": null,
+"mt": "Status",
+"why": "not translated"
+},
+{
+"en": "Valid",
+"kind": "list",
+"max": 30,
+"mt": "Valid",
+"why": "not translated"
+},
+{
+"en": "E-mail",
+"kind": "label",
+"max": null,
+"mt": "E-mail",
+"why": "not translated"
+},
+{
+"en": "Price a new package that still leaves your profit",
+"kind": "title",
+"max": 60,
+"mt": "Tetapkan harga paket baru yang tetap meninggalkan keuntungan Anda",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Fair refund when a client leaves mid-package",
+"kind": "title",
+"max": 60,
+"mt": "Pengembalian uang yang wajar saat klien keluar di tengah paket",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What one client is worth and when you earn back the cost",
+"kind": "title",
+"max": 60,
+"mt": "Berapa nilai satu klien dan kapan Anda mendapatkan kembali biayanya",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "How many leads you need for the clients you want",
+"kind": "title",
+"max": 60,
+"mt": "Berapa banyak prospek yang Anda butuhkan untuk klien yang Anda inginkan",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Packages ending soon and the revenue you may lose",
+"kind": "title",
+"max": 60,
+"mt": "Paket yang akan segera berakhir dan pendapatan yang mungkin hilang",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Programmes, workout log, records, plateaus and goals for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "Rencana pelatihan, catatan latihan, rekaman, kemajuan yang terhenti, dan tujuan untuk pelatihan pribadi",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "Exercise library, programmes, workout log, records and goals in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Perpustakaan latihan, rencana pelatihan, catatan latihan, rekaman dan tujuan dalam satu file",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "every logged set is compared with the client's best estimated max on that exercise before that day, so a new record flags itself",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap set yang dicatat dibandingkan dengan perkiraan maksimum terbaik klien pada latihan tersebut sebelum hari itu, sehingga catatan baru menandai dirinya sendiri",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Plateau and slipping-lift detector",
+"kind": "label",
+"max": 50,
+"mt": "Detektor kemajuan yang terhenti dan latihan yang menurun",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "each lift reads progressing, plateau, slipping, not trained lately or too early to judge, from your own weeks and percent rules",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap latihan membaca progresi, kemajuan terhenti, menurun, belum dilatih baru-baru ini atau terlalu cepat untuk menilai, dari minggu Anda sendiri dan aturan persentase",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "counts hard weeks since the last deload for every client, flags who is due, and plans the lighter week's loads and sets",
+"kind": "sentence",
+"max": 160,
+"mt": "menghitung minggu-minggu berat sejak minggu pemulihan terakhir untuk setiap klien, menandai siapa yang harus mendapatkan, dan merencanakan berat dan set minggu yang lebih ringan",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "from the pace so far it gives the finish date, and the weekly change needed to hit the deadline; goals read reached, on track, behind or overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "dari kecepatan sejauh ini, memberikan tanggal selesai, dan perubahan mingguan yang dibutuhkan untuk mencapai tenggat waktu; tujuan terbaca tercapai, sesuai jalur, tertinggal, atau terlambat",
+"why": "too long: 189 characters, the limit is 160"
+},
+{
+"en": "Squat",
+"kind": "list",
+"max": 30,
+"mt": "Squat",
+"why": "not translated"
+},
+{
+"en": "Kettlebell",
+"kind": "list",
+"max": 30,
+"mt": "Kettlebell",
+"why": "not translated"
+},
+{
+"en": "Protein",
+"kind": "list",
+"max": 30,
+"mt": "Protein",
+"why": "not translated"
+},
+{
+"en": "Volume, kg",
+"kind": "label",
+"max": null,
+"mt": "Volume, kg",
+"why": "not translated"
+},
+{
+"en": "Target",
+"kind": "label",
+"max": null,
+"mt": "Target",
+"why": "not translated"
+},
+{
+"en": "Area",
+"kind": "label",
+"max": null,
+"mt": "Area",
+"why": "not translated"
+},
+{
+"en": "Fat mass, lean mass and the weight at a body fat goal",
+"kind": "title",
+"max": 60,
+"mt": "Massa lemak, massa tanpa lemak, dan berat badan pada target lemak tubuh",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Plan a lighter week and see who needs one",
+"kind": "title",
+"max": 60,
+"mt": "Rencanakan minggu yang lebih ringan dan lihat siapa yang membutuhkannya",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Pick the next load from how hard a set felt",
+"kind": "title",
+"max": 60,
+"mt": "Pilih berat berikutnya berdasarkan seberapa sulit satu set terasa",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Income, invoices, coach pay, margins and cash forecast for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "Pendapatan, faktur, pembayaran pelatih, margin, dan perkiraan kas untuk pelatihan pribadi.",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "Income, invoices, coach pay, margins and cash forecast in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Pendapatan, faktur, pembayaran pelatih, margin, dan perkiraan kas dalam satu file.",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "Income ledger with tax, net income and margin",
+"kind": "label",
+"max": 50,
+"mt": "Buku besar pendapatan dengan pajak, pendapatan bersih, dan margin",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "invoices read paid, part paid, open or overdue from the ledger and credit notes, fall into 30, 60 and 90 day buckets and show the instalment of a plan",
+"kind": "sentence",
+"max": 160,
+"mt": "faktur dibaca sebagai dibayar, sebagian dibayar, terbuka, atau jatuh tempo dari buku besar dan nota kredit, masuk ke dalam kategori 30, 60, dan 90 hari serta menunjukkan angsuran dari sebuah rencana",
+"why": "too long: 198 characters, the limit is 160"
+},
+{
+"en": "Deferred revenue for unused paid sessions",
+"kind": "label",
+"max": 50,
+"mt": "Pendapatan ditangguhkan untuk sesi berbayar yang tidak digunakan",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "Coach pay sheet with utilisation and margin",
+"kind": "label",
+"max": 50,
+"mt": "Lembar pembayaran pelatih dengan pemanfaatan dan margin",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "hours against hours available, hourly pay, class fees and renewal bonus give total pay, cost per session and the margin each coach earns per hour",
+"kind": "sentence",
+"max": 160,
+"mt": "jam terhadap jam yang tersedia, gaji per jam, biaya kelas dan bonus perpanjangan memberikan total pembayaran, biaya per sesi dan margin yang diperoleh setiap pelatih per jam",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "what each client paid net of tax less the cost to serve them, profit a month, expected lifetime profit and a rank from top client to low value",
+"kind": "sentence",
+"max": 160,
+"mt": "apa yang dibayar setiap klien setelah pajak dikurangi biaya pelayanan mereka, keuntungan per bulan, perkiraan keuntungan seumur hidup dan peringkat dari klien terbaik hingga nilai rendah",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "Monthly profit, owner pay and tax set-aside",
+"kind": "label",
+"max": 50,
+"mt": "Keuntungan bulanan, gaji pemilik dan cadangan pajak",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "income less coach pay, running costs and depreciation, the income tax to set aside, what you took and what stays in the business",
+"kind": "sentence",
+"max": 160,
+"mt": "pendapatan dikurangi gaji pelatih, biaya operasional dan depresiasi, pajak penghasilan yang harus disisihkan, apa yang Anda ambil dan apa yang tetap di dalam bisnis",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "tax charged on sales less tax paid on costs gives the return amount, its due date and a status of paid, due or overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "pajak yang dibebankan pada penjualan dikurangi pajak yang dibayarkan pada biaya memberikan jumlah pengembalian, tanggal jatuh tempo dan status dibayar, jatuh tempo atau terlambat",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "12-week cash forecast with low-cash flags",
+"kind": "label",
+"max": 50,
+"mt": "Prakiraan kas 12 minggu dengan tanda peringatan kas rendah",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "takings at the recent pace, overdue invoices you expect to collect, pay, rent, costs and tax returns give the cash at the end of each week against your minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "Pemasukan pada kecepatan terbaru, faktur jatuh tempo yang Anda harapkan untuk dikumpulkan, bayar, sewa, biaya dan pengembalian pajak memberikan kas pada akhir setiap minggu terhadap minimum Anda",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "Partner contracts with margin and fees to come",
+"kind": "label",
+"max": 50,
+"mt": "Kontrak mitra dengan margin dan biaya yang akan datang",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Walk-in or drop-in",
+"kind": "list",
+"max": 30,
+"mt": "Datang tanpa janji atau kunjungan tunggal",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Margin",
+"kind": "label",
+"max": null,
+"mt": "Margin",
+"why": "not translated"
+},
+{
+"en": "Prepaid sessions owed to clients (deferred revenue)",
+"kind": "title",
+"max": 60,
+"mt": "Sesi prabayar yang masih berhutang kepada klien (pendapatan ditangguhkan)",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Item",
+"kind": "label",
+"max": null,
+"mt": "Item",
+"why": "not translated"
+},
+{
+"en": "Margin per unit",
+"kind": "label",
+"max": null,
+"mt": "Margin per unit",
+"why": "not translated"
+},
+{
+"en": "Monthly profit, owner pay, tax set-aside and tax return",
+"kind": "title",
+"max": 60,
+"mt": "Laba bulanan, gaji pemilik, cadangan pajak dan pengembalian pajak",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Studio",
+"kind": "label",
+"max": null,
+"mt": "Studio",
+"why": "not translated"
+},
+{
+"en": "Timetable, slot fill, rooms, equipment and safety log for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "Jadwal, pengisian slot waktu, ruangan, peralatan, dan log keselamatan untuk pelatihan pribadi",
+"why": "too long: 93 characters, the limit is 80"
+},
+{
+"en": "Timetable, slot fill, rooms, equipment and safety log in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Jadwal, pengisian slot waktu, ruangan, peralatan, dan log keselamatan dalam satu file",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Fill heat map by start hour and weekday",
+"kind": "label",
+"max": 50,
+"mt": "Isi peta panas berdasarkan jam mulai dan hari kerja",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "slots offered against sessions held over the last weeks, for every hour and every weekday, so quiet and busy hours stand out at once",
+"kind": "sentence",
+"max": 160,
+"mt": "Slot waktu yang ditawarkan dibandingkan dengan sesi yang diadakan dalam beberapa minggu terakhir, untuk setiap jam dan setiap hari kerja, sehingga jam ramai dan sepi terlihat sekaligus",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "Coach load and free slots for the next 7 days",
+"kind": "label",
+"max": 50,
+"mt": "Bobot pelatih dan slot waktu kosong untuk 7 hari berikutnya",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "timetable hours against hours delivered, sessions already booked and the free slots left, so you know who can take a new client",
+"kind": "sentence",
+"max": 160,
+"mt": "Jam jadwal dibandingkan dengan jam yang sudah dijalankan, sesi yang sudah dipesan, dan slot waktu kosong yang tersisa, sehingga Anda tahu siapa yang bisa mengambil klien baru",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Late cancel and no-show policy tracker",
+"kind": "label",
+"max": 50,
+"mt": "Pelacak kebijakan pembatalan terlambat dan pemesanan yang terlewat",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "every missed session picked from the bookings gets a fee under your settings, a decision of charged, waived or taken from the pack, and a running total",
+"kind": "sentence",
+"max": 160,
+"mt": "Setiap sesi yang terlewat dari pemesanan akan dikenakan biaya sesuai pengaturan Anda, keputusan untuk dikenakan biaya, dibebaskan, atau diambil dari paket, dan total berjalan",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Client reliability and slipping-away flag",
+"kind": "label",
+"max": 50,
+"mt": "Keandalan klien dan tanda peringatan klien yang mulai menjauh",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "kept sessions against late cancels and no-shows over 90 days, plus days since the last session, flag who is slipping away before they leave",
+"kind": "sentence",
+"max": 160,
+"mt": "Sesi yang dijaga dibandingkan dengan pembatalan terlambat dan pemesanan yang terlewat selama 90 hari, ditambah hari sejak sesi terakhir, menandai siapa yang mulai menjauh sebelum mereka pergi",
+"why": "too long: 191 characters, the limit is 160"
+},
+{
+"en": "Leave and shift cover with slots to cover",
+"kind": "label",
+"max": 50,
+"mt": "Waktu libur dan shift pengganti dengan slot waktu yang harus diisi",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "Stock reorder quantities with delivery lead time",
+"kind": "label",
+"max": 50,
+"mt": "Jumlah pemesanan ulang stok dengan waktu pengiriman",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Incident and near-miss log with open actions",
+"kind": "label",
+"max": 50,
+"mt": "Catatan insiden dan hampir celaka dengan tindakan terbuka",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "type, severity, first aid and action due date give days open and an Open, Overdue or Closed status so no action is forgotten",
+"kind": "sentence",
+"max": 160,
+"mt": "tipe, tingkat keparahan, pertolongan pertama dan tanggal jatuh tempo tindakan memberi hari terbuka dan status Terbuka, Terlewat, atau Ditutup sehingga tidak ada tindakan yang terlupakan",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "First aid, emergency and facility check dates",
+"kind": "label",
+"max": 50,
+"mt": "Tanggal pertolongan pertama, darurat, dan inspeksi fasilitas",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "Closure and weather calendar with sessions moved",
+"kind": "label",
+"max": 50,
+"mt": "Kalender penutupan dan cuaca dengan sesi yang dipindahkan",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Weather, moved indoors",
+"kind": "list",
+"max": 30,
+"mt": "Cuaca, dipindahkan ke dalam ruangan",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "First aid, emergency equipment and facility checks",
+"kind": "title",
+"max": 60,
+"mt": "Inspeksi pertolongan pertama, peralatan darurat, dan fasilitas",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Late cancellation and no-show policy tracker",
+"kind": "title",
+"max": 60,
+"mt": "Pelacak kebijakan pembatalan terlambat dan pemesanan yang terlewat",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Late and no-shows",
+"kind": "label",
+"max": 30,
+"mt": "Reservasi terlambat dan terlewat",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Late cancel and no-show fee calculator",
+"kind": "title",
+"max": 60,
+"mt": "Kalkulator biaya pembatalan terlambat dan pemesanan yang terlewat",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Late cancel and no-show fee notice",
+"kind": "title",
+"max": 60,
+"mt": "Pemberitahuan biaya pembatalan terlambat dan pemesanan yang terlewat",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Late cancels and no-shows by coach",
+"kind": "title",
+"max": 60,
+"mt": "Pembatalan terlambat dan pemesanan yang terlewat oleh pelatih",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Late fees due, charged and waived by month",
+"kind": "title",
+"max": 60,
+"mt": "Biaya keterlambatan yang jatuh tempo, dikenakan, dan dibebaskan per bulan",
+"why": "too long: 73 characters, the limit is 60"
+}
+]
