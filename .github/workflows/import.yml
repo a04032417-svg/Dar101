@@ -1,0 +1,35 @@
+# Takes files the owner's other tools produced (public download links) into branch tr-out/<suite>.
+# Push tr/<suite>/import.json = {"files": {"ar.json": "https://…", …}} on branch `suite`.
+name: import
+on:
+  push:
+    branches: [suite]
+    paths: ['tr/*/import.json']
+permissions:
+  contents: write
+jobs:
+  imp:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - name: fetch and push
+        run: |
+          set -e
+          f=$(git diff --name-only HEAD~1 HEAD -- 'tr/*/import.json' | head -1)
+          suite=$(basename $(dirname $f))
+          mkdir -p /tmp/in
+          python3 - "$f" <<'PY'
+          import json, sys, subprocess
+          d = json.load(open(sys.argv[1]))['files']
+          for name, url in d.items():
+              subprocess.run(['curl', '-fsSL', '--retry', '3', '-o', '/tmp/in/' + name, url], check=True)
+              print(name, subprocess.run(['wc', '-c', '/tmp/in/' + name], capture_output=True, text=True).stdout.strip())
+          PY
+          b="tr-out/$suite"
+          git init -q /tmp/r && cd /tmp/r
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          if git fetch -q origin "$b" 2>/dev/null; then git checkout -q -b w FETCH_HEAD; else git checkout -q --orphan w; fi
+          cp /tmp/in/* . 
+          git add -A && git -c user.name=translator -c user.email=translator@users.noreply.github.com commit -qm "import $(date -u +%FT%TZ)" || true
+          git push -q origin "w:refs/heads/$b"
