@@ -1,0 +1,667 @@
+[
+{
+"en": "Coach Client List",
+"kind": "sheet",
+"max": 31,
+"mt": "Lista de clientes del entrenador",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Lead Funnel Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Planificador de embudo de prospectos",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Package Renewal Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para la renovación del paquete",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Referral Reward Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de recompensa por referencia",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Programme Blocks",
+"kind": "sheet",
+"max": 31,
+"mt": "Bloques de plan de entrenamiento",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Programme Builder",
+"kind": "sheet",
+"max": 31,
+"mt": "Creador de planes de entrenamiento",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Deload Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Planificador de semana de recuperación",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Effort Load Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Planificador de peso de esfuerzo",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Programme Handover",
+"kind": "sheet",
+"max": 31,
+"mt": "Entrega del plan de entrenamiento",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "New Programme Start",
+"kind": "sheet",
+"max": 31,
+"mt": "Inicio del nuevo plan de entrenamiento",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Deload Week Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Semana de recuperación pasos de la semana",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Fitness Test Day",
+"kind": "sheet",
+"max": 31,
+"mt": "Día de prueba de condición física",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Coach Pay Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculadora de pago de entrenador",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Owner Pay and Tax",
+"kind": "sheet",
+"max": 31,
+"mt": "Pago y impuestos del propietario",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "New Coach Onboarding",
+"kind": "sheet",
+"max": 31,
+"mt": "Incorporación de nuevos entrenadores",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Partner Contract Renewal",
+"kind": "sheet",
+"max": 31,
+"mt": "Renovación de contratos de socios",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Sales Tax or VAT Return",
+"kind": "sheet",
+"max": 31,
+"mt": "Declaración de impuestos sobre ventas o IVA",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Coach Load Card",
+"kind": "sheet",
+"max": 31,
+"mt": "Tarjeta de carga de trabajo del entrenador",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Free Slot Finder",
+"kind": "sheet",
+"max": 31,
+"mt": "Buscador de franjas horarias libres",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Late Fee Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculadora de recargos por retraso",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Weather Go or No-Go",
+"kind": "sheet",
+"max": 31,
+"mt": "Clima: ir o no ir",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Off-Peak Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Planificador de horarios fuera de pico",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Equipment Repair Round",
+"kind": "sheet",
+"max": 31,
+"mt": "Recorrido de reparación de equipos",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Clients, packages, sessions left, payments, renewals and leads in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Clientes, paquetes, sesiones restantes, pagos, renovaciones y prospectos en un solo archivo",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "Trial-to-package conversion by coach",
+"kind": "label",
+"max": 50,
+"mt": "Conversión de sesión de prueba a paquete por entrenador",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Waiting list matched to coach places",
+"kind": "label",
+"max": 50,
+"mt": "Lista de espera asignada a los lugares de los entrenadores",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Mobility and back care",
+"kind": "list",
+"max": 30,
+"mt": "Movilidad y cuidado de la espalda",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "What missed sessions cost and what a fee recovers",
+"kind": "title",
+"max": 60,
+"mt": "Qué cuestan las sesiones perdidas y lo que recupera una tarifa",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Packages ending soon and the revenue you may lose",
+"kind": "title",
+"max": 60,
+"mt": "Paquetes que terminan pronto y los ingresos que podrías perder",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Free places with a coach against the people waiting",
+"kind": "title",
+"max": 60,
+"mt": "Lugares libres con un entrenador frente a las personas en espera",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Programmes, workout log, records, plateaus and goals for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "Planes de entrenamiento, registro de ejercicios, récords, progreso detenido y metas para entrenamiento personal",
+"why": "too long: 111 characters, the limit is 80"
+},
+{
+"en": "Exercise library, programmes, workout log, records and goals in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Biblioteca de ejercicios, planes de entrenamiento, registro de ejercicios, récords y objetivos en un solo archivo",
+"why": "too long: 113 characters, the limit is 80"
+},
+{
+"en": "every logged set is compared with the client's best estimated max on that exercise before that day, so a new record flags itself",
+"kind": "sentence",
+"max": 160,
+"mt": "cada serie registrada se compara con el mejor máximo estimado del cliente en ese ejercicio antes de ese día, por lo que un nuevo récord se señala automáticamente",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Plateau and slipping-lift detector",
+"kind": "label",
+"max": 50,
+"mt": "Detector de progreso estancado y ejercicios que disminuyen",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "each lift reads progressing, plateau, slipping, not trained lately or too early to judge, from your own weeks and percent rules",
+"kind": "sentence",
+"max": 160,
+"mt": "cada ejercicio determina si hay progreso, progreso estancado, disminución, no entrenado últimamente o demasiado pronto para juzgar, según tus propias semanas y reglas de porcentaje",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Client progress board with attention score",
+"kind": "label",
+"max": 50,
+"mt": "Tablero de progreso del cliente con puntuación de atención",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "counts hard weeks since the last deload for every client, flags who is due, and plans the lighter week's loads and sets",
+"kind": "sentence",
+"max": 160,
+"mt": "cuenta las semanas duras desde la última semana de recuperación para cada cliente, señala quién la debe tener y planifica pesos y series más ligeros para esa semana",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "from the pace so far it gives the finish date, and the weekly change needed to hit the deadline; goals read reached, on track, behind or overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "Según el ritmo hasta ahora, da la fecha de finalización y el cambio semanal necesario para cumplir con la fecha límite; los objetivos se leen como alcanzados, en camino, atrasados o vencidos",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "Habit score from weekly check-ins",
+"kind": "label",
+"max": 50,
+"mt": "Puntuación de hábitos a partir de actualizaciones semanales de progreso",
+"why": "too long: 71 characters, the limit is 50"
+},
+{
+"en": "Hip hinge",
+"kind": "list",
+"max": 30,
+"mt": "Movimiento de bisagra de cadera",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Horizontal push",
+"kind": "list",
+"max": 30,
+"mt": "Movimiento de empuje horizontal",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Horizontal pull",
+"kind": "list",
+"max": 30,
+"mt": "Movimiento de tracción horizontal",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Vertical pull",
+"kind": "list",
+"max": 30,
+"mt": "Movimiento de tracción vertical",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Core brace",
+"kind": "list",
+"max": 30,
+"mt": "Ejercicio de estabilización del tronco",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Cardio",
+"kind": "list",
+"max": 30,
+"mt": "Cardio",
+"why": "not translated"
+},
+{
+"en": "Cable",
+"kind": "list",
+"max": 30,
+"mt": "Cable",
+"why": "not translated"
+},
+{
+"en": "Programme lines (exercises, sets and reps)",
+"kind": "title",
+"max": 60,
+"mt": "Líneas del plan de entrenamiento (ejercicios, series y repeticiones)",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Heart rate zones from age and resting heart rate",
+"kind": "title",
+"max": 60,
+"mt": "Zonas de frecuencia cardíaca según edad y frecuencia cardíaca en reposo",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Estimated one-rep max and working loads",
+"kind": "title",
+"max": 60,
+"mt": "Estimación de un máximo para una repetición y pesos de trabajo",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Fat mass, lean mass and the weight at a body fat goal",
+"kind": "title",
+"max": 60,
+"mt": "Masa grasa, masa magra y peso en un objetivo de grasa corporal",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Weekly sets per muscle group in a programme",
+"kind": "title",
+"max": 60,
+"mt": "Series semanales por grupo muscular en un plan de entrenamiento",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Check-ins with a good habit score",
+"kind": "title",
+"max": 60,
+"mt": "Actualizaciones de progreso con una buena puntuación de hábitos",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Income, invoices, coach pay, margins and cash forecast for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "Ingresos, facturas, pago de entrenadores, márgenes y pronóstico de efectivo para entrenamiento personal",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "Income, invoices, coach pay, margins and cash forecast in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Ingresos, facturas, pago de entrenadores, márgenes y pronóstico de efectivo en un solo archivo",
+"why": "too long: 94 characters, the limit is 80"
+},
+{
+"en": "Income ledger with tax, net income and margin",
+"kind": "label",
+"max": 50,
+"mt": "Libro de ingresos con impuestos, ingreso neto y margen",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Receivables ageing with payment-plan instalments",
+"kind": "label",
+"max": 50,
+"mt": "Antigüedad de cuentas por cobrar con cuotas de plan de pagos",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "invoices read paid, part paid, open or overdue from the ledger and credit notes, fall into 30, 60 and 90 day buckets and show the instalment of a plan",
+"kind": "sentence",
+"max": 160,
+"mt": "las facturas se leen como pagadas, parcialmente pagadas, abiertas o vencidas del libro mayor y las notas de crédito, se clasifican en intervalos de 30, 60 y 90 días y muestran la cuota de un plan",
+"why": "too long: 195 characters, the limit is 160"
+},
+{
+"en": "Deferred revenue for unused paid sessions",
+"kind": "label",
+"max": 50,
+"mt": "Ingresos diferidos por sesiones pagadas no utilizadas",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Coach pay sheet with utilisation and margin",
+"kind": "label",
+"max": 50,
+"mt": "Hoja de pago de entrenadores con utilización y margen",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "hours against hours available, hourly pay, class fees and renewal bonus give total pay, cost per session and the margin each coach earns per hour",
+"kind": "sentence",
+"max": 160,
+"mt": "horas versus horas disponibles, pago por hora, tarifas de clases y bono de renovación dan el pago total, costo por sesión y el margen que cada entrenador gana por hora",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "what each client paid net of tax less the cost to serve them, profit a month, expected lifetime profit and a rank from top client to low value",
+"kind": "sentence",
+"max": 160,
+"mt": "lo que cada cliente pagó neto de impuestos menos el costo de atenderlos, beneficio mensual, beneficio esperado de por vida y un ranking de cliente principal a bajo valor",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Monthly profit, owner pay and tax set-aside",
+"kind": "label",
+"max": 50,
+"mt": "Beneficio mensual, pago al propietario y reserva de impuestos",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "tax charged on sales less tax paid on costs gives the return amount, its due date and a status of paid, due or overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "el impuesto cobrado sobre las ventas menos el impuesto pagado sobre los costos da el monto de la devolución, su fecha de vencimiento y un estado de pagado, pendiente o vencido",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "12-week cash forecast with low-cash flags",
+"kind": "label",
+"max": 50,
+"mt": "pronóstico de caja a 12 semanas con alertas de baja liquidez",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "takings at the recent pace, overdue invoices you expect to collect, pay, rent, costs and tax returns give the cash at the end of each week against your minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "ingresos al ritmo reciente, facturas vencidas que esperas cobrar, pagar, alquiler, costos y declaraciones de impuestos dan el efectivo al final de cada semana frente a tu mínimo",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Credentials and insurance expiry per coach",
+"kind": "label",
+"max": 50,
+"mt": "Credenciales y vencimiento del seguro por entrenador",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Partner contracts with margin and fees to come",
+"kind": "label",
+"max": 50,
+"mt": "Contratos de socios con margen y honorarios futuros",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Promotion return and gift voucher balances",
+"kind": "label",
+"max": 50,
+"mt": "Devolución de promociones y saldos de vales de regalo",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Software",
+"kind": "list",
+"max": 30,
+"mt": "Software",
+"why": "not translated"
+},
+{
+"en": "Marketing",
+"kind": "list",
+"max": 30,
+"mt": "Marketing",
+"why": "not translated"
+},
+{
+"en": "Prepaid sessions owed to clients (deferred revenue)",
+"kind": "title",
+"max": 60,
+"mt": "Sesiones prepagadas adeudadas a los clientes (ingresos diferidos)",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Monthly profit, owner pay, tax set-aside and tax return",
+"kind": "title",
+"max": 60,
+"mt": "Beneficio mensual, pago al propietario, reserva para impuestos y declaración de impuestos",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Timetable, slot fill, rooms, equipment and safety log for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "Horario, llenado de franjas horarias, salas, equipo y registro de seguridad para entrenamiento personal",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "Timetable, slot fill, rooms, equipment and safety log in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Horario, llenado de franjas horarias, salas, equipo y registro de seguridad en un solo archivo",
+"why": "too long: 94 characters, the limit is 80"
+},
+{
+"en": "Fill heat map by start hour and weekday",
+"kind": "label",
+"max": 50,
+"mt": "Rellena el mapa de calor por hora de inicio y día de la semana",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "slots offered against sessions held over the last weeks, for every hour and every weekday, so quiet and busy hours stand out at once",
+"kind": "sentence",
+"max": 160,
+"mt": "franjas horarias ofrecidas frente a sesiones realizadas durante las últimas semanas, para cada hora y cada día de la semana, de modo que las horas tranquilas y ocupadas destaquen de inmediato",
+"why": "too long: 191 characters, the limit is 160"
+},
+{
+"en": "Weekly timetable with a live slot status",
+"kind": "label",
+"max": 50,
+"mt": "Horario semanal con estado en tiempo real de las franjas horarias",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "Coach load and free slots for the next 7 days",
+"kind": "label",
+"max": 50,
+"mt": "Peso del entrenador y franjas horarias libres para los próximos 7 días",
+"why": "too long: 70 characters, the limit is 50"
+},
+{
+"en": "Late cancel and no-show policy tracker",
+"kind": "label",
+"max": 50,
+"mt": "Seguimiento de cancelaciones tardías y reservas perdidas",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "kept sessions against late cancels and no-shows over 90 days, plus days since the last session, flag who is slipping away before they leave",
+"kind": "sentence",
+"max": 160,
+"mt": "sesiones realizadas frente a cancelaciones tardías y reservas perdidas en 90 días, más días desde la última sesión, marcar quién se está alejando antes de que se vaya",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Leave and shift cover with slots to cover",
+"kind": "label",
+"max": 50,
+"mt": "Tiempo libre y turnos de sustitución con franjas horarias por cubrir",
+"why": "too long: 68 characters, the limit is 50"
+},
+{
+"en": "each leave shows its days, the timetable slots it empties, the cover coach and a warning when no one covers it",
+"kind": "sentence",
+"max": 160,
+"mt": "cada vez que alguien se ausenta muestra sus días, los espacios de tiempo del horario se vacían, el entrenador de cobertura y una advertencia cuando nadie lo cubre",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "next service, days left, age, replacement date and repair spend against price give a replace-soon flag before kit fails",
+"kind": "sentence",
+"max": 160,
+"mt": "próximo servicio, días restantes, antigüedad, fecha de reemplazo y gastos de reparación frente al precio proporcionan una alerta de reemplazo pronto antes de que falle el equipo",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Stock reorder quantities with delivery lead time",
+"kind": "label",
+"max": 50,
+"mt": "Cantidades de reorden de stock con tiempo de entrega",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Incident and near-miss log with open actions",
+"kind": "label",
+"max": 50,
+"mt": "Registro de incidentes y casi accidentes con acciones abiertas",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "type, severity, first aid and action due date give days open and an Open, Overdue or Closed status so no action is forgotten",
+"kind": "sentence",
+"max": 160,
+"mt": "tipo, gravedad, primeros auxilios y fecha de vencimiento de la acción indicarán días abiertos y un estado de Abierto, Atrasado o Cerrado para que no se olvide ninguna acción",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "First aid, emergency and facility check dates",
+"kind": "label",
+"max": 50,
+"mt": "Fechas de primeros auxilios, emergencias e inspección de instalaciones",
+"why": "too long: 70 characters, the limit is 50"
+},
+{
+"en": "Class fill, show-up rate and waiting list",
+"kind": "label",
+"max": 50,
+"mt": "Ocupación de clases, tasa de asistencia y lista de espera",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "First aid supply",
+"kind": "list",
+"max": 30,
+"mt": "Suministro de primeros auxilios",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Facility inspection",
+"kind": "list",
+"max": 30,
+"mt": "Inspección de las instalaciones",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Detractor",
+"kind": "list",
+"max": 30,
+"mt": "Detractor",
+"why": "not translated"
+},
+{
+"en": "First aid, emergency equipment and facility checks",
+"kind": "title",
+"max": 60,
+"mt": "Inspecciones de primeros auxilios, equipo de emergencia e instalaciones",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Late cancellation and no-show policy tracker",
+"kind": "title",
+"max": 60,
+"mt": "Rastreador de política de cancelación tardía y reservas perdidas",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Late and no-shows",
+"kind": "label",
+"max": 30,
+"mt": "Reservas tardías y no asistidas",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Late cancel and no-show fee calculator",
+"kind": "title",
+"max": 60,
+"mt": "Calculadora de tarifa por cancelación tardía y reserva perdida",
+"why": "too long: 62 characters, the limit is 60"
+}
+]
