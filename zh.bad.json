@@ -1,0 +1,23 @@
+[
+{
+"en": "Hi {name}, before we keep progress photos please confirm you agree that they are used for your plan only and never shared. Reply YES to confirm.",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，在继续拍摄进度照片之前，请确认您同意这些照片仅用于您的计划，绝不分享。回复 YES 以确认。",
+"why": "English/Latin words left: YES"
+},
+{
+"en": "Hi {name}, we noticed {lost_90} late cancels or missed sessions in the last 90 days. Would a fixed weekly slot with {coach} work better for you?",
+"kind": "message",
+"max": null,
+"mt": "嗨 {name}，我们注意到您在过去 90 天里有 {lost_90} 次迟到取消或错过课程。固定每周与 {coach} 的时间段会更适合您吗？",
+"why": "English/Latin words left: lost"
+},
+{
+"en": "Planned against done sessions",
+"kind": "label",
+"max": 50,
+"mt": "计划 vs 完成的课程",
+"why": "English/Latin words left: vs"
+}
+]
