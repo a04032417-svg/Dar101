@@ -160,8 +160,14 @@ def pre_build(x, sheetT):
     if 'rw' not in _RW:
         f = f'tr/{SUITE}/rewrite.py'
         spec = importlib.util.spec_from_file_location('rw', f); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m); _RW['rw'] = m.rewrite
-        _RW['sheets'] = sorted({y['en'] for y in todo if y['kind'] == 'sheet' and ' ' in y['en']}, key=lambda s_: -len(s_))
-    en, kind, t, toks = x['en'], x['kind'], x['en'], []
+        names = {y['en'] for y in todo if y['kind'] == 'sheet'}
+        _SF = f'tr/{SUITE}/sheets/{LANG}.json'
+        if os.path.exists(_SF): _RW['base'] = json.load(open(_SF, encoding='utf8')); names |= set(_RW['base'])
+        else: _RW['base'] = {}
+        _RW['sheets'] = sorted({n_ for n_ in names if ' ' in n_ or bool(_RW['base'])}, key=lambda s_: -len(s_))
+    en, kind, t, toks = x['en'], x['kind'], x.get('src') or x['en'], []
+    if sheetT is not None: sheetT = {**_RW['base'], **sheetT}
+    elif _RW['base'] and kind != 'sheet': sheetT = _RW['base']
     if sheetT and kind != 'sheet':
         for sn in _RW['sheets']:
             if sn in t and sn in sheetT:
@@ -283,6 +289,7 @@ def google2(items, sheetT=None):
     res = {}
     for i, (t, ph) in enumerate(zip(out, maps)):
         t = t.replace(' ¶ ', '\n').replace('¶', '\n').strip()
+        t = re.sub(r'\{\s*(\d+)(?=[^}\d]|$)', r'{\1}', t)          # «{5 » → «{5}» (the translator sometimes eats the closing brace)
         t = re.sub(r'\{\s*(\d+)\s*\}', lambda m: ph[int(m.group(1))] if int(m.group(1)) < len(ph) else m.group(0), t)
         res[str(i)] = t
     return res
@@ -318,6 +325,7 @@ if os.environ.get('TR_ENGINE') in ('google2', 'nllb', 'bing'):
     sh = [x for x in miss if x['kind'] == 'sheet']
     for k in range(0, len(sh), 30): batch(sh[k:k + 30], None)
     sheetT = {x['en']: done[x['en']] for x in todo if x['kind'] == 'sheet' and x['en'] in done}
+    if not sheetT and os.path.exists(f'tr/{SUITE}/sheets/{LANG}.json'): sheetT = {}
     rest = [x for x in miss if x['kind'] != 'sheet']
     for k in range(0, len(rest), 30): batch(rest[k:k + 30], sheetT)
     json.dump(bad, open(OUT.replace('.json', '.bad.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=0)
