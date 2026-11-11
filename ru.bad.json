@@ -1,0 +1,86 @@
+[
+{
+"en": "Owner pays, recovered from tenants",
+"kind": "list",
+"max": 30,
+"mt": "Расходы, оплаченные арендатором",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {owner}, обновленная информация о {name}: заполняемость за последние 90 дней {occ90}, доход от номеров за последние 12 месяцев {rev12}. Позвоните нам, если хотите узнать цены.",
+"why": "English/Latin words left: occ rev"
+},
+{
+"en": "Utilities recovered",
+"kind": "list",
+"max": 30,
+"mt": "Коммунальные услуги восстановлены",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Permit and tourism fees",
+"kind": "list",
+"max": 30,
+"mt": "Разрешение и туристические сборы",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "fee proposal, capacity, client profit, break-even, commission split, fee benchmark, hire cost, referral fee, cash runway, price rise, staff benchmark, churn",
+"kind": "sentence",
+"max": 160,
+"mt": "предложение по вознаграждению, мощность, прибыль клиента, безубыточность, разделение комиссионных, контрольный уровень вознаграждения, найм, реферальная плата, взлетно-посадочная полоса и отток денежных средств",
+"why": "too long: 210 characters, the limit is 160"
+},
+{
+"en": "Owner manages it alone",
+"kind": "list",
+"max": 30,
+"mt": "Владелец самостоятельно управляет",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Owner statements that build themselves",
+"kind": "label",
+"max": 50,
+"mt": "Заявления владельцев самостоятельного строительства",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Software and lock fees",
+"kind": "list",
+"max": 30,
+"mt": "Плата за программное обеспечение и блокировку",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Booking.com",
+"kind": "list",
+"max": 30,
+"mt": "Бронирование.com",
+"why": "English/Latin words left: com"
+},
+{
+"en": "Stationery and printing",
+"kind": "list",
+"max": 30,
+"mt": "Канцелярские товары, полиграфия",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Maintenance coordinator",
+"kind": "list",
+"max": 30,
+"mt": "Руководитель технического обслуживания",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Software subscription",
+"kind": "list",
+"max": 30,
+"mt": "Подписка на программное обеспечение",
+"why": "too long: 35 characters, the limit is 30"
+}
+]

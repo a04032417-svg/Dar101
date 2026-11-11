@@ -1,0 +1,23 @@
+[
+{
+"en": "VAT on fees tied to the ledger",
+"kind": "label",
+"max": 50,
+"mt": "ضريبة القيمة المضافة على الرسوم، مرتبطة بدفتر الأستاذ",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "VAT on management fees",
+"kind": "list",
+"max": 30,
+"mt": "ضريبة القيمة المضافة على الرسوم",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {owner}، تحديث بشأن {name}: نسبة الإشغال خلال آخر 90 يومًا {occ90}، إيرادات الغرفة خلال آخر 12 شهرًا {rev12}. اتصل بنا إذا كنت ترغب في مراجعة الأسعار.",
+"why": "English/Latin words left: occ rev"
+}
+]

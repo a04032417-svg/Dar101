@@ -1,0 +1,16 @@
+[
+{
+"en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {owner}، {name} پر ایک اپ ڈیٹ: آبادی کی شرح پچھلے 90 دنوں میں {occ90}، پچھلے 12 مہینوں میں کمرے کی آمدنی {rev12}۔ اگر آپ قیمتوں کا جائزہ لینا چاہتے ہیں تو ہمیں کال کریں۔",
+"why": "English/Latin words left: occ rev"
+},
+{
+"en": "Tenants pay direct",
+"kind": "list",
+"max": 30,
+"mt": "کرایہ دار براہ راست ادائیگی کریں۔",
+"why": "too long: 33 characters, the limit is 30"
+}
+]
