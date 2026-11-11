@@ -24,7 +24,7 @@ BUDGET = 2000 if NONLATIN else 2800          # English characters per request (o
 todo = json.load(open(f'tr/{SUITE}/todo.json', encoding='utf8'))
 done = json.load(open(f'tr/{SUITE}/done/{LANG}.json', encoding='utf8')) if os.path.exists(f'tr/{SUITE}/done/{LANG}.json') else {}
 if os.path.exists(OUT): done.update(json.load(open(OUT, encoding='utf8')))
-G = json.load(open(f'tr/glossary/{LANG}.json', encoding='utf8'))
+G = json.load(open(next(f for f in (f'tr/{SUITE}/glossary/{LANG}.json', f'tr/glossary/{LANG}.json') if os.path.exists(f)), encoding='utf8'))  # a suite may carry its own glossary
 rules = open('tr/RULES.md', encoding='utf8').read()
 
 SYSTEM = (f"You are a senior native {NAMES[LANG]} localiser of business software (Excel templates for professionals, sold worldwide). "
