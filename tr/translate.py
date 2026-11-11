@@ -113,7 +113,8 @@ def edge(items):
     around them (plain placeholders broke the order: «Client Carte»); {placeholders} are protected with a notranslate span."""
     import html as _h
     if 'jwt' not in _TOK:
-        _TOK['jwt'] = urllib.request.urlopen(urllib.request.Request('https://edge.microsoft.com/translate/auth', headers={'User-Agent': 'Mozilla/5.0'}), timeout=30).read().decode().strip()
+        try: _TOK['jwt'] = urllib.request.urlopen(urllib.request.Request('https://edge.microsoft.com/translate/auth', headers={'User-Agent': 'Mozilla/5.0'}), timeout=30).read().decode().strip()
+        except urllib.error.HTTPError as e: print('  auth HTTP', e.code, flush=True); raise
     texts = []
     for x in items:
         t = _h.escape(x.get('src') or x['en'], quote=False)
@@ -128,11 +129,12 @@ def edge(items):
             t = re.sub(r'(?<![A-Za-z\x01])' + re.escape(_h.escape(en_t, quote=False)) + r'(?:e?s)?(?![A-Za-z\x01])', sub, t, flags=re.I)
         t = re.sub('\x01(\\d+)\x01', lambda m: toks[int(m.group(1))], t)
         texts.append({'Text': t})
-    url = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=' + EDGE_L.get(LANG, LANG) + '&textType=html'
+    url = 'https://api-edge.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=' + EDGE_L.get(LANG, LANG) + '&textType=html'
     req = urllib.request.Request(url, data=json.dumps(texts).encode(), headers={'Authorization': 'Bearer ' + _TOK['jwt'], 'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'})
     try:
         with urllib.request.urlopen(req, timeout=60) as r: d = json.loads(r.read().decode('utf8'))
     except urllib.error.HTTPError as e:
+        print('  translate HTTP', e.code, e.read()[:200], flush=True)
         if e.code == 401: _TOK.clear()
         raise
     res = {}
