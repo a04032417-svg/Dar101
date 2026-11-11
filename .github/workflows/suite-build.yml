@@ -1,0 +1,60 @@
+# Builds Claude's suites in all 15 languages on GitHub's free runners (the owner, 2026-11-09: heavy, repeatable work goes to GitHub, not to
+# Claude's limit). Push a complete spec to build/<suite>/<part>.json on branch `suite`: every changed spec is built in its own job (validate,
+# 15 workbooks + demo, LibreOffice recalculation and strict verification, pictures in every language, ZIP), checked by xlcheck, and the
+# result is pushed to its own branch out/<suite>/<part> (one orphan commit). Claude reads result.json and the pictures from there.
+name: suite-build
+on:
+  push:
+    branches: [suite]
+    paths: ['build/**.json']
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      specs: ${{ steps.p.outputs.specs }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: p
+        run: |
+          files=$(git diff --name-only HEAD~1 HEAD -- 'build/**.json' | grep -v '/listing' || true)
+          echo "specs=$(printf '%s\n' $files | python3 -c 'import sys,json; print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')" >> "$GITHUB_OUTPUT"
+  build:
+    needs: plan
+    if: needs.plan.outputs.specs != '[]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        spec: ${{ fromJson(needs.plan.outputs.specs) }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends libreoffice-calc fonts-liberation fonts-dejavu fonts-noto-core fonts-noto-cjk fonts-noto-extra fonts-inter poppler-utils >/dev/null
+          if ! fc-list | grep -q "Inter Display"; then curl -fsSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip && mkdir -p ~/.fonts && unzip -qo /tmp/inter.zip 'extras/otf/*' -d /tmp/inter && cp /tmp/inter/extras/otf/*.otf ~/.fonts/ && fc-cache -f >/dev/null; fi
+          pip install -q openpyxl cryptography pillow playwright
+          python -m playwright install --with-deps chromium >/dev/null
+      - name: build
+        env:
+          SPEC: '${{ matrix.spec }}'
+          FX_LANGS: "${{ contains(matrix.spec, '.test.') && 'en' || '' }}"
+          FX_PIC_LANGS: "${{ contains(matrix.spec, '.test.') && 'none' || 'all' }}"
+        run: |
+          name=$(basename "$SPEC" .json | sed 's/\.test$//'); suite=$(basename "$(dirname "$SPEC")"); out=/tmp/out/$name
+          python3 engine/run.py "$SPEC" "$out" | tail -40 || true
+          python3 runtime/xlcheck.py "$out"/*.zip --json "$out/xlcheck.json" | tail -5 || true
+          echo "SUITE=$suite" >> $GITHUB_ENV; echo "PART=$name" >> $GITHUB_ENV; echo "OUT=$out" >> $GITHUB_ENV
+      - name: publish result branch
+        run: |
+          mkdir -p /tmp/pub && cd /tmp/pub && git init -q && git checkout -q -b r
+          cp "$OUT"/result.json . ; cp "$OUT"/xlcheck.json . 2>/dev/null || true
+          cp "$OUT"/*.zip . 2>/dev/null || true
+          [ -d "$OUT/images" ] && cp -r "$OUT/images" . || true
+          git add -A && git -c user.name=suite-build -c user.email=actions@github.com commit -q -m "build $SUITE/$PART $(python3 -c "import json;r=json.load(open('result.json'));print('ok' if r.get('ok') else 'FAILED '+r.get('stage',''))")"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" r:refs/heads/out/$SUITE/$PART
