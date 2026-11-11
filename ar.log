@@ -1,0 +1,19 @@
+ar todo 15 done 0 missing 15
+all models out of quota — stopping; the work so far is saved
+  FAILED 'Hi {name}, your {pack} is paused from {start} to {end} ({days} days). ' None
+  FAILED 'Welcome to {set:company}! Your coach is {col:clients.coach} and your g' None
+  FAILED 'from the pace so far it gives the finish date, and the weekly change n' None
+  FAILED 'Fat mass, lean mass and the weight at a body fat goal' None
+  FAILED 'Daily calories and protein from lean mass' None
+  FAILED 'Income ledger with tax, net income and margin' None
+  FAILED 'Sales tax or VAT return by month' None
+  FAILED '12-week cash forecast with low-cash flags' None
+  FAILED 'takings at the recent pace, overdue invoices you expect to collect, pa' None
+  FAILED 'Sales Tax or VAT Return' None
+  FAILED 'Fill heat map by start hour and weekday' None
+  FAILED 'Coach load and free slots for the next 7 days' None
+  FAILED 'Incident and near-miss log with open actions' None
+  FAILED 'Team, weekly hours, load and free slots' None
+  FAILED 'Weather Go or No-Go' None
+batch 1/1 {'ok': 0, 'retry': 0, 'failed': 15}
+ar FINAL missing 15 {'ok': 0, 'retry': 0, 'failed': 15}
