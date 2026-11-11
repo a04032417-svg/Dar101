@@ -145,7 +145,7 @@ class V:
 
     def lists(self):
         ls = self.s.get('lists'); seen = set()
-        if not self.arr(ls, 'lists', 1, 20): return
+        if not self.arr(ls, 'lists', 1, 30): return
         for i, l in enumerate(ls):
             w = f'lists[{l.get("key", i) if isinstance(l, dict) else i}]'
             if not self.obj(l, w, ['key', 'label', 'values']): continue
@@ -165,7 +165,7 @@ class V:
 
     def tables(self):
         tb = self.s.get('tables'); seen = set()
-        if not self.arr(tb, 'tables', 3, 14): return
+        if not self.arr(tb, 'tables', 3, 20): return
         for i, t in enumerate(tb):
             w = f'tables[{t.get("key", i) if isinstance(t, dict) else i}]'
             if not self.obj(t, w, ['key', 'sheet', 'title', 'hint', 'rows', 'columns', 'demo'], ['alerts']): continue
@@ -255,7 +255,7 @@ class V:
         if not self.obj(d, 'dashboard', ['title', 'kpis', 'monthly'], ['breakdowns']): return
         bad = bad_sheet_name(d['title'])
         if bad: self.e('dashboard.title', f'{d["title"]!r} (it is also the sheet name): {bad}')
-        if self.arr(d['kpis'], 'dashboard.kpis', 6, 24):
+        if self.arr(d['kpis'], 'dashboard.kpis', 6, 30):
             for i, k in enumerate(d['kpis']):
                 w = f'dashboard.kpis[{i}]'
                 if not self.obj(k, w, ['label', 'formula', 'format'], ['alert']): continue
@@ -303,7 +303,7 @@ class V:
 
     def forms(self):
         fs = self.s.get('forms', []); seen = set()
-        if not self.arr(fs, 'forms', 0, 4): return
+        if not self.arr(fs, 'forms', 0, 10): return
         for i, f in enumerate(fs):
             w = f'forms[{f.get("key", i) if isinstance(f, dict) else i}]'
             if not self.obj(f, w, ['key', 'sheet', 'title', 'pick', 'fields'], ['lines']): continue
@@ -358,7 +358,7 @@ class V:
                 seen.add(t.lower())
         d = L['description']
         if not isinstance(d, str) or not 900 <= len(d) <= 2500: self.e('listing.description', f'{len(d) if isinstance(d, str) else "?"} characters, 900..2500 required')
-        if self.arr(L['features'], 'listing.features', 6, 12):
+        if self.arr(L['features'], 'listing.features', 6, 14):
             for i, x in enumerate(L['features']): self.text(x, f'listing.features[{i}]', 70)
 
     def cycles(self):
@@ -440,7 +440,7 @@ def _ext(V):
             for i, c in enumerate(s['competitors']):
                 if self.obj(c, f'competitors[{i}]', ['what', 'lacks']): self.text(c['what'], f'competitors[{i}].what', 80); self.text(c['lacks'], f'competitors[{i}].lacks', 160)
         if 'signature' not in s: return
-        if not self.arr(s['signature'], 'signature', 5, 12): return
+        if not self.arr(s['signature'], 'signature', 5, 16): return
         try: names = {n.lower() for _, n in sheet_names(s, lambda x: x)}
         except Exception: names = set()
         seen = set()
@@ -454,7 +454,7 @@ def _ext(V):
 
     def tools(self):
         ts = self.s.get('tools', []); seen = set()
-        if not self.arr(ts, 'tools', 0, 6): return
+        if not self.arr(ts, 'tools', 0, 14): return
         for i, t in enumerate(ts):
             w = f'tools[{t.get("key", i) if isinstance(t, dict) else i}]'
             if not self.obj(t, w, ['key', 'sheet', 'title', 'hint', 'inputs', 'outputs'], ['grid']): continue
@@ -500,7 +500,7 @@ def _ext(V):
 
     def messages(self):
         ms = self.s.get('messages', []); seen = set()
-        if not self.arr(ms, 'messages', 0, 20): return
+        if not self.arr(ms, 'messages', 0, 30): return
         for i, m in enumerate(ms):
             w = f'messages[{m.get("key", i) if isinstance(m, dict) else i}]'
             if not self.obj(m, w, ['key', 'moment', 'text', 'table', 'phone']): continue
@@ -517,7 +517,7 @@ def _ext(V):
 
     def documents(self):
         ds = self.s.get('documents', []); seen = set()
-        if not self.arr(ds, 'documents', 0, 4): return
+        if not self.arr(ds, 'documents', 0, 10): return
         sets = {x.get('key') for x in self.s.get('settings', []) if isinstance(x, dict)}
         for i, d in enumerate(ds):
             w = f'documents[{d.get("key", i) if isinstance(d, dict) else i}]'
@@ -545,7 +545,7 @@ def _ext(V):
 
     def checklists(self):
         cs = self.s.get('checklists', []); seen = set()
-        if not self.arr(cs, 'checklists', 0, 4): return
+        if not self.arr(cs, 'checklists', 0, 10): return
         for i, c in enumerate(cs):
             w = f'checklists[{c.get("key", i) if isinstance(c, dict) else i}]'
             if not self.obj(c, w, ['key', 'title', 'table', 'start', 'steps']): continue
@@ -630,7 +630,7 @@ def _v13(V):
                 if not self.obj(g, w, ['title', 'num', 'den']): continue
                 self.text(g['title'], w + '.title', 40); self.agg(g['num'], w + '.num', False, False); self.agg(g['den'], w + '.den', False, False)
         ch = ins.get('charts')
-        if not self.arr(ch, 'insights.charts', 1, 16): return
+        if not self.arr(ch, 'insights.charts', 1, 20): return
         seen = set()
         for i, c in enumerate(ch):
             w = f'insights.charts[{i}]'

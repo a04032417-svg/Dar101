@@ -1,0 +1,38 @@
+# Sends built files to the shops' own storage (Whop's upload links): Claude asks Whop for an upload link per file and pushes
+# uploads/<job>.json = {"branch": "out/<suite>/pack", "files": [{"path": "...", "url": "<presigned PUT>", "type": "image/png"}]}; this job PUTs
+# each file from that branch (Claude's own machine cannot reach the storage). Result: branch upload-log/<job> with the HTTP code of each file.
+name: upload
+on:
+  push:
+    branches: [suite]
+    paths: ['uploads/*.json']
+permissions:
+  contents: write
+jobs:
+  put:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - name: put files
+        run: |
+          mkdir -p /tmp/log
+          for job in $(git diff --name-only HEAD~1 HEAD -- 'uploads/*.json'); do
+            name=$(basename "$job" .json)
+            br=$(python3 -c "import json;print(json.load(open('$job'))['branch'])")
+            rm -rf /tmp/src && git clone -q --depth 1 -b "$br" "https://github.com/${{ github.repository }}" /tmp/src
+            python3 - "$job" > "/tmp/log/$name.json" <<'PY'
+          import json, subprocess, sys
+          j = json.load(open(sys.argv[1])); out = []
+          for f in j['files']:
+              r = subprocess.run(['curl', '-s', '-o', '/dev/null', '-w', '%{http_code}', '-X', 'PUT', '-H', 'Content-Type: ' + f.get('type', 'application/octet-stream'),
+                                  '--upload-file', '/tmp/src/' + f['path'], f['url']], capture_output=True, text=True)
+              out.append({'path': f['path'], 'code': r.stdout.strip()})
+          print(json.dumps(out, indent=0))
+          PY
+          done
+      - name: log
+        run: |
+          cd /tmp/log && git init -q && git checkout -q -b r && git add -A && git -c user.name=upload -c user.email=actions@github.com commit -q -m log
+          for f in *.json; do n=$(basename $f .json); git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" r:refs/heads/upload-log/$n; done
