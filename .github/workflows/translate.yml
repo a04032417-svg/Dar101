@@ -15,6 +15,7 @@ jobs:
     outputs:
       suite: ${{ steps.p.outputs.suite }}
       langs: ${{ steps.p.outputs.langs }}
+      engine: ${{ steps.p.outputs.engine }}
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 2 }
@@ -23,13 +24,14 @@ jobs:
           f=$(git diff --name-only HEAD~1 HEAD -- 'tr/*/run.json' | head -1)
           echo "suite=$(basename $(dirname $f))" >> "$GITHUB_OUTPUT"
           echo "langs=$(python3 -c "import json;print(json.dumps(json.load(open('$f'))['langs']))")" >> "$GITHUB_OUTPUT"
+          echo "engine=$(python3 -c "import json;print(json.load(open('$f')).get('engine','llm'))")" >> "$GITHUB_OUTPUT"
   tr:
     needs: plan
     runs-on: ubuntu-24.04
     timeout-minutes: 340
     strategy:
       fail-fast: false
-      max-parallel: 3
+      max-parallel: 14
       matrix:
         lang: ${{ fromJson(needs.plan.outputs.langs) }}
     steps:
@@ -42,6 +44,7 @@ jobs:
       - name: translate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TR_ENGINE: ${{ needs.plan.outputs.engine }}
         run: python3 tr/translate.py "${{ needs.plan.outputs.suite }}" "${{ matrix.lang }}" "/tmp/res/${{ matrix.lang }}.json" 2>&1 | tee "/tmp/res/${{ matrix.lang }}.log"
       - uses: actions/upload-artifact@v4
         if: always()

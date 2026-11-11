@@ -69,13 +69,62 @@ def call(model, items, notes=None):
         print('  RAW', r.status, hdr, repr(raw[:400]), flush=True); raise
 
 
-if SUITE == 'probe':
-    import subprocess
-    body = json.dumps({'model': 'openai/gpt-4.1-mini', 'messages': [{'role': 'user', 'content': 'Say hi in Arabic as JSON {"t": ...}'}]})
-    for url in ('https://models.github.ai/inference/chat/completions', 'https://models.inference.ai.azure.com/chat/completions'):
-        r = subprocess.run(['curl', '-sS', '-i', '-X', 'POST', url, '-H', 'Authorization: Bearer ' + TOKEN, '-H', 'Content-Type: application/json',
-                            '-H', 'Accept: application/vnd.github+json', '-H', 'X-GitHub-Api-Version: 2022-11-28', '-d', body], capture_output=True, text=True)
-        print('PROBE', url, (r.stdout + r.stderr)[:1200], flush=True)
+GL = {'zh': 'zh-CN', 'pt': 'pt'}
+
+
+def google(items):
+    """Google's free web translator (no key). Placeholders become {0} {1} … and come back; one item per line."""
+    import urllib.parse
+    lines, maps = [], []
+    for x in items:
+        ph = PH.findall(x['en']); t = x['en']
+        for k, p_ in enumerate(ph): t = t.replace(p_, '{%d}' % k, 1)
+        lines.append(t.replace('\n', ' ¶ ')); maps.append(ph)
+    data = urllib.parse.urlencode({'q': '\n'.join(lines)}).encode()
+    url = f'https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl={GL.get(LANG, LANG)}&dt=t'
+    req = urllib.request.Request(url, data=data, headers={'User-Agent': 'Mozilla/5.0', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        d = json.loads(r.read().decode('utf8'))
+    out = ''.join(seg[0] for seg in d[0] if seg and seg[0]).split('\n')
+    if len(out) != len(items): raise ValueError(f'lines {len(out)} != {len(items)}')
+    res = {}
+    for i, (x, t, ph) in enumerate(zip(items, out, maps)):
+        t = t.replace(' ¶ ', '\n').replace('¶', '\n').strip()
+        t = re.sub(r'\{\s*(\d+)\s*\}', lambda m: ph[int(m.group(1))] if int(m.group(1)) < len(ph) else m.group(0), t)
+        res[str(i)] = t
+    return res
+
+
+if os.environ.get('TR_ENGINE') == 'google':
+    miss = [x for x in todo if x['en'] not in done]
+    print(LANG, 'google: todo', len(todo), 'done', len(done), 'missing', len(miss), flush=True)
+    bad, n = [], 0
+    for k in range(0, len(miss), 30):
+        part = miss[k:k + 30]
+        for attempt in range(5):
+            try: res = google(part); break
+            except urllib.error.HTTPError as e:
+                print('  HTTP', e.code, flush=True); time.sleep(60 if e.code == 429 else 10); res = None
+            except Exception as e:
+                print('  error', repr(e)[:200], flush=True); res = None
+                if 'lines' in repr(e) and len(part) > 1:          # line split failed: go one by one
+                    res = {}
+                    for j, x in enumerate(part):
+                        try: res[str(j)] = google([x])['0']
+                        except Exception as e2: print('   single', repr(e2)[:100])
+                        time.sleep(0.5)
+                    break
+                time.sleep(10)
+        for j, x in enumerate(part):
+            v = (res or {}).get(str(j)); why = check(x, v)
+            if why: bad.append({'en': x['en'], 'kind': x['kind'], 'max': x['max'], 'mt': v, 'why': why})
+            else: done[x['en']] = v; n += 1
+        json.dump(done, open(OUT, 'w', encoding='utf8'), ensure_ascii=False, indent=0)
+        time.sleep(1.5)
+    json.dump(bad, open(OUT.replace('.json', '.bad.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=0)
+    print(LANG, 'google done', n, 'bad', len(bad), flush=True)
+    sys.exit(0)
+
 miss = [x for x in todo if x['en'] not in done]
 print(LANG, 'todo', len(todo), 'done', len(done), 'missing', len(miss), flush=True)
 batches, cur, size = [], [], 0
