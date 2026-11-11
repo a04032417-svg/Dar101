@@ -1,0 +1,62 @@
+{
+"Hi {name}, your {pack} is paused from {start} to {end} ({days} days). Your new end date is {new_end} and your {left} session(s) are kept. See you when you are back!": {
+"mt": "مرحبًا {name}، تم إيقاف حصتك {pack} مؤقتًا من {start} إلى {end} ({days} أيام). تاريخ الانتهاء الجديد هو {5 وتم الاحتفاظ بحصتك {left}. نراك عند عودتك!",
+"why": "placeholders"
+},
+"Welcome to {set:company}! Your coach is {col:clients.coach} and your goal is {col:clients.goal}. Your current package is {col:clients.cur_pack}.": {
+"mt": "مرحبًا بك في {set:company}! مدربك هو {1 وهدفك هو {col:clients.goal}. الباقة الحالية الخاصة بك هي {col:clients.cur_pack}.",
+"why": "placeholders"
+},
+"from the pace so far it gives the finish date, and the weekly change needed to hit the deadline; goals read reached, on track, behind or overdue": {
+"mt": "بناءً على الوتيرة الحالية، يعطي تاريخ الانتهاء، والتغيير الأسبوعي اللازم للوصول إلى الموعد النهائي؛ تُقرأ الأهداف على أنها تم الوصول إليها، على المسار الصحيح، متأخرة أو متأخرة عن الموعد",
+"why": "too long 185>160"
+},
+"Fat mass, lean mass and the weight at a body fat goal": {
+"mt": "كتلة الدهون، الكتلة الخالية من الدهون والوزن عند هدف نسبة الدهون في الجسم",
+"why": "too long 73>60"
+},
+"Daily calories and protein from lean mass": {
+"mt": "السعرات الحرارية والبروتين اليومية من الكتلة العضلية الخالية من الدهون",
+"why": "too long 70>60"
+},
+"Income ledger with tax, net income and margin": {
+"mt": "دفتر الحسابات للإيرادات مع الضرائب، صافي الدخل والهامش",
+"why": "too long 54>50"
+},
+"Sales tax or VAT return by month": {
+"mt": "إقرار ضريبة المبيعات أو ضريبة القيمة المضافة حسب الشهر",
+"why": "too long 54>50"
+},
+"12-week cash forecast with low-cash flags": {
+"mt": "توقعات التدفق النقدي لمدة 12 أسبوعًا مع إشارات انخفاض النقد",
+"why": "too long 59>50"
+},
+"takings at the recent pace, overdue invoices you expect to collect, pay, rent, costs and tax returns give the cash at the end of each week against your minimum": {
+"mt": "الإيرادات بالمعدل الأخير، والفواتير المتأخرة التي تتوقع تحصيلها، والدفع، والإيجار، والتكاليف وعوائد الضرائب تعطي النقد في نهاية كل أسبوع مقارنةً بالحد الأدنى الخاص بك",
+"why": "too long 166>160"
+},
+"Sales Tax or VAT Return": {
+"mt": "إقرار ضريبة المبيعات أو ضريبة القيمة المضافة",
+"why": "too long 44>31"
+},
+"Fill heat map by start hour and weekday": {
+"mt": "املأ خريطة الحرارة حسب ساعة البدء واليوم من الأسبوع",
+"why": "too long 51>50"
+},
+"Coach load and free slots for the next 7 days": {
+"mt": "وزن المدرب والفترات الزمنية المتاحة للأيام السبعة القادمة",
+"why": "too long 57>50"
+},
+"Incident and near-miss log with open actions": {
+"mt": "سجل الحوادث والقريبة من الحوادث مع الإجراءات المفتوحة",
+"why": "too long 53>50"
+},
+"Team, weekly hours, load and free slots": {
+"mt": "الفريق، ساعات العمل الأسبوعية، الوزن والفترات الزمنية الفارغة",
+"why": "too long 61>60"
+},
+"Weather Go or No-Go": {
+"mt": "حالة الطقس: الذهاب أم لا",
+"why": "sheet chars"
+}
+}
