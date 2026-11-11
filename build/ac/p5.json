@@ -22127,7 +22127,7 @@
      "type": "calc",
      "width": 11,
      "format": "date",
-     "formula": "IFERROR(INDEX({range:assets.disposed_on},MATCH({col:asset},{range:assets.fa_id},0)),\"\")"
+     "formula": "IF(IFERROR(INDEX({range:assets.disposed_on},MATCH({col:asset},{range:assets.fa_id},0)),\"\")=0,\"\",IFERROR(INDEX({range:assets.disposed_on},MATCH({col:asset},{range:assets.fa_id},0)),\"\"))"
     },
     {
      "key": "age",
@@ -22143,7 +22143,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:age}<0,0,IF({col:disp}>0,IF(YEAR({col:disp})<{col:year},0,1),1))"
+     "formula": "IF({col:age}<0,0,IF({col:disp}=\"\",1,IF(YEAR({col:disp})<{col:year},0,1)))"
     },
     {
      "key": "open",
