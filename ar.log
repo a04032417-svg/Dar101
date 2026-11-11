@@ -1,15 +1,3 @@
 ar todo 8 done 0 missing 8
-  openai HTTP 400 retry-after 0: {"success":false,"error":{"message":"The model exhausted its output token limit before producing an answer. Increase the token limit or reduce reasoning effort.","code":"output_token_limit_exceeded","timestamp":"2026-11-11T07:31:20.035Z","details":{"name":"UpstreamError","upstreamHost":"portkey.myce
-  openai HTTP 400 retry-after 0: {"success":false,"error":{"message":"The model exhausted its output token limit before producing an answer. Increase the token limit or reduce reasoning effort.","code":"output_token_limit_exceeded","timestamp":"2026-11-11T07:31:20.035Z","details":{"name":"UpstreamError","upstreamHost":"portkey.myce
-  openai-fast HTTP 402 retry-after 16: {"status":402,"success":false,"error":{"code":"FREE_LIMIT","message":"Free limit reached: 1 reply every 45 seconds per IP. Retry after 16s, or get unlimited replies with a pollen key at https://enter.pollinations.ai/?ref=classic","timestamp":"2026-11-11T07:31:25.546Z","fixUrl":"https://enter.pollina
-  openai HTTP 400 retry-after 0: {"success":false,"error":{"message":"The model exhausted its output token limit before producing an answer. Increase the token limit or reduce reasoning effort.","code":"output_token_limit_exceeded","timestamp":"2026-11-11T07:31:20.035Z","details":{"name":"UpstreamError","upstreamHost":"portkey.myce
-  FAILED 'Rent roll, tenants, leases, arrears, deposits and renewals for every o' None
-  FAILED 'Owner Accounting Dashboard' None
-  FAILED 'Owner statements that build themselves' None
-  FAILED 'Client account reconciliation' None
-  FAILED 'VAT on our fees' None
-  FAILED 'Rent received' None
-  FAILED 'Hello {owner_name}, your owner statement for {month} is ready. Net inc' None
-  FAILED 'This agreement starts on {col:agreements.start} between {set:company} ' None
-batch 1/1 {'ok': 0, 'retry': 0, 'failed': 8}
-ar FINAL missing 8 {'ok': 0, 'retry': 0, 'failed': 8}
+batch 1/1 {'ok': 8, 'retry': 0, 'failed': 0}
+ar FINAL missing 0 {'ok': 8, 'retry': 0, 'failed': 0}
