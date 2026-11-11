@@ -74,10 +74,10 @@ def main(suite_json, parts_dir, out):
             body = ''
             for j, (nm, tg, shs, h) in enumerate(names[k:k + 3]):
                 y = 110 + j * 570
-                chips = ''.join(f'<span style="display:inline-block;margin:0 10px 10px 0;padding:6px 14px;border-radius:8px;background:#fff;border:1px solid #D5DDE6;font-size:19px">{E(s)}</span>' for s in shs)
-                body += (f'<div style="position:absolute;left:880px;top:{y}px;width:1420px;height:540px;{"direction:rtl;text-align:right;" if rtl else ""}">'
+                chips = ''.join(f'<span style="display:inline-block;margin:0 8px 8px 0;padding:3px 10px;border-radius:7px;background:#fff;border:1px solid #D5DDE6;font-size:16px;line-height:1.35">{E(s)}</span>' for s in shs)
+                body += (f'<div style="position:absolute;left:880px;top:{y}px;width:1420px;height:540px;overflow:hidden;{"direction:rtl;text-align:right;" if rtl else ""}">'
                          f'<div style="font-size:36px;font-weight:800;color:#13233A">{k + j + 1:02d} · {E(nm)} <span style="font-weight:500;color:#5A6B80;font-size:26px">({len(shs)})</span></div>'
-                         f'<div style="font-size:24px;color:#3E5068;margin:10px 0 18px">{E(tg)}</div><div>{chips}</div></div>')
+                         f'<div style="font-size:22px;color:#3E5068;margin:6px 0 12px">{E(tg)}</div><div>{chips}</div></div>')
             pages.append((f'01-inside-{k // 3 + 1}', B.page(E(title), E(S['inside_h1'].get(lang, S['inside_h1']['en'])), E(note), [], body)))
         imgs = B.shoot(pages, os.path.join(out, 'images', lang), lang_head(lang))
         # gallery: cover, inside, then each part's hero picture, 8 at most (Whop's limit)
