@@ -1,0 +1,485 @@
+[
+{
+"en": "Rent roll, tenants, leases, arrears, deposits and renewals for every owner",
+"kind": "sentence",
+"max": 80,
+"mt": "Liste des loyers, locataires, baux, arriérés, dépôts et renouvellements pour chaque propriétaire",
+"why": "too long: 96 characters, the limit is 80"
+},
+{
+"en": "Owner statements, fees, payouts, reserves and budgets for property managers",
+"kind": "sentence",
+"max": 80,
+"mt": "Relevés des propriétaires, honoraires, paiements, réserves et budgets pour les gestionnaires immobiliers",
+"why": "too long: 104 characters, the limit is 80"
+},
+{
+"en": "Owner ledgers, statements, fees, payouts, reserves and budgets for every owner",
+"kind": "sentence",
+"max": 80,
+"mt": "Grands livres des propriétaires, relevés, frais, paiements, réserves et budgets pour chaque propriétaire",
+"why": "too long: 104 characters, the limit is 80"
+},
+{
+"en": "Owner Accounting Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord de comptabilité du propriétaire",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Owner statements that build themselves",
+"kind": "label",
+"max": 50,
+"mt": "Des déclarations de propriétaire qui se construisent elles-mêmes",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "opening balance, income, expenses, fees, reserve, payout and closing balance for every owner and month, with the ledger lines printed under it",
+"kind": "sentence",
+"max": 160,
+"mt": "solde d'ouverture, revenus, dépenses, frais, réserve, paiement et solde de clôture pour chaque propriétaire et mois, avec les lignes du grand livre imprimées en dessous",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Owner ledger with signed amounts",
+"kind": "label",
+"max": 50,
+"mt": "Grand livre du propriétaire avec les montants signés",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "every rent receipt, bill, fee, payout and reserve move for 14 months, tagged to the owner, property, unit and statement",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque quittance de loyer, facture, frais, paiement et déménagement de réserve pendant 14 mois, identifiés par le propriétaire, la propriété, l'unité et le relevé",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Approval limits on vendor bills",
+"kind": "label",
+"max": 50,
+"mt": "Limites d'approbation sur les factures des fournisseurs",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "each bill is checked against the owner's limit and waits for approval above it, with overdue and days-late status",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque facture est vérifiée par rapport à la limite du propriétaire et attend l'approbation au-dessus de celle-ci, avec un statut de retard et de jours de retard",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "every property and category tracked against its yearly budget, with a year-end estimate and a status when it nears or passes the limit",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque propriété et catégorie est suivie par rapport à son budget annuel, avec une estimation de fin d'année et un statut lorsqu'elle approche ou dépasse la limite",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Management and leasing fees",
+"kind": "list",
+"max": 30,
+"mt": "Frais de gestion et de location",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Payouts and reserve moves",
+"kind": "list",
+"max": 30,
+"mt": "Paiements et mouvements de réserve",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Internet",
+"kind": "list",
+"max": 30,
+"mt": "Internet",
+"why": "not translated"
+},
+{
+"en": "Tenants pay direct",
+"kind": "list",
+"max": 30,
+"mt": "Les locataires paient directement",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Owner pays, recovered from tenants",
+"kind": "list",
+"max": 30,
+"mt": "Le propriétaire paie, récupéré auprès des locataires",
+"why": "too long: 52 characters, the limit is 30"
+},
+{
+"en": "Waiting for owner approval",
+"kind": "list",
+"max": 30,
+"mt": "En attente de l'approbation du propriétaire",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Budgets",
+"kind": "sheet",
+"max": 31,
+"mt": "Budgets",
+"why": "not translated"
+},
+{
+"en": "Budget",
+"kind": "label",
+"max": null,
+"mt": "Budget",
+"why": "not translated"
+},
+{
+"en": "Net operating income, yields and cap rate",
+"kind": "title",
+"max": 60,
+"mt": "Résultat opérationnel net, rendements et taux de capitalisation",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cash Flow Forecast",
+"kind": "sheet",
+"max": 31,
+"mt": "Prévisions de flux de trésorerie",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Compare Fee Structures",
+"kind": "sheet",
+"max": 31,
+"mt": "Comparez les structures tarifaires",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "New Owner Onboarding",
+"kind": "sheet",
+"max": 31,
+"mt": "Intégration d'un nouveau propriétaire",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Owner Exit and Handover",
+"kind": "sheet",
+"max": 31,
+"mt": "Sortie du propriétaire et transfert",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "New Property Setup",
+"kind": "sheet",
+"max": 31,
+"mt": "Configuration d'une nouvelle propriété",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Rent or buy: which costs less over the years?",
+"kind": "title",
+"max": 60,
+"mt": "Louer ou acheter : qu'est-ce qui coûte le moins cher au fil des années ?",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Absorption",
+"kind": "sheet",
+"max": 31,
+"mt": "Absorption",
+"why": "not translated"
+},
+{
+"en": "Absorption: months to let the vacant and new units",
+"kind": "title",
+"max": 60,
+"mt": "Absorption : des mois pour louer les logements vacants et neufs",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Owner Market Update",
+"kind": "sheet",
+"max": 31,
+"mt": "Mise à jour du marché des propriétaires",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Broker Opinion of Value",
+"kind": "sheet",
+"max": 31,
+"mt": "Opinion du courtier sur la valeur",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Comparables",
+"kind": "label",
+"max": 30,
+"mt": "Comparables",
+"why": "not translated"
+},
+{
+"en": "Run holiday homes for many owners: bookings, channels, pricing, payouts",
+"kind": "sentence",
+"max": 80,
+"mt": "Gérez des maisons de vacances pour de nombreux propriétaires : réservations, chaînes, tarifs, paiements",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "Bookings, channels, pricing, cleaning and owner payouts for holiday homes",
+"kind": "sentence",
+"max": 80,
+"mt": "Réservations, canaux, tarifs, nettoyage et paiements des propriétaires pour les maisons de vacances",
+"why": "too long: 99 characters, the limit is 80"
+},
+{
+"en": "Holiday Rentals Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des locations de vacances",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Direct",
+"kind": "list",
+"max": 30,
+"mt": "Direct",
+"why": "not translated"
+},
+{
+"en": "Palm Jumeirah",
+"kind": "list",
+"max": 30,
+"mt": "Palm Jumeirah",
+"why": "not translated"
+},
+{
+"en": "Software and lock fees",
+"kind": "list",
+"max": 30,
+"mt": "Frais de logiciel et de verrouillage",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Fire safety certificate",
+"kind": "list",
+"max": 30,
+"mt": "Certificat de sécurité incendie",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Liability insurance",
+"kind": "list",
+"max": 30,
+"mt": "Assurance responsabilité civile",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Pool safety check",
+"kind": "list",
+"max": 30,
+"mt": "Contrôle de sécurité de la piscine",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Licences",
+"kind": "sheet",
+"max": 31,
+"mt": "Licences",
+"why": "not translated"
+},
+{
+"en": "Split one booking between owner and manager",
+"kind": "title",
+"max": 60,
+"mt": "Diviser une réservation entre le propriétaire et le gestionnaire",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Damage Claim Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Lettre de réclamation pour dommages",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Owner Report Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Lettre de rapport du propriétaire",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Licence Renewal Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Lettre de renouvellement de licence",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "New listing launch",
+"kind": "sheet",
+"max": 31,
+"mt": "Lancement d'une nouvelle annonce",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Score",
+"kind": "label",
+"max": 30,
+"mt": "Score",
+"why": "not translated"
+},
+{
+"en": "Conversations",
+"kind": "label",
+"max": 30,
+"mt": "Conversations",
+"why": "not translated"
+},
+{
+"en": "Win and keep owners, run your team and see company profit",
+"kind": "sentence",
+"max": 80,
+"mt": "Gagnez et gardez les propriétaires, dirigez votre équipe et voyez les bénéfices de l'entreprise",
+"why": "too long: 95 characters, the limit is 80"
+},
+{
+"en": "Win and keep owners, run your team and see the company profit",
+"kind": "sentence",
+"max": 80,
+"mt": "Gagnez et gardez les propriétaires, dirigez votre équipe et voyez les bénéfices de l'entreprise",
+"why": "too long: 95 characters, the limit is 80"
+},
+{
+"en": "Owner pipeline with yearly fee value",
+"kind": "label",
+"max": 50,
+"mt": "Pipeline de propriétaires avec valeur des frais annuels",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "fee proposal, capacity, client profit, break-even, commission split, fee benchmark, hire cost, referral fee, cash runway, price rise, staff benchmark, churn",
+"kind": "sentence",
+"max": 160,
+"mt": "proposition de frais, capacité, bénéfice client, seuil de rentabilité, partage des commissions, référence des frais, coût de location, commission de référence, piste de trésorerie, augmentation des prix, référence du personnel, taux de désabonnement",
+"why": "too long: 249 characters, the limit is 160"
+},
+{
+"en": "Owner satisfaction and promoter score",
+"kind": "label",
+"max": 50,
+"mt": "Satisfaction des propriétaires et score du promoteur",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "the fee owed to each partner agent as a share of the first-year fee, with paid, due and above-limit flags and a partner statement",
+"kind": "sentence",
+"max": 160,
+"mt": "les frais dus à chaque agent partenaire en tant que part des frais de la première année, avec les indicateurs payés, dus et au-dessus de la limite et une déclaration du partenaire",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "the fee planned at each renewal, the extra income it brings and a calculator that shows how many clients you can lose before it stops paying",
+"kind": "sentence",
+"max": 160,
+"mt": "les frais prévus à chaque renouvellement, les revenus supplémentaires qu'ils apportent et un calculateur qui montre combien de clients vous pouvez perdre avant de cesser de payer",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "Services did not fit",
+"kind": "list",
+"max": 30,
+"mt": "Les services ne convenaient pas",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Commissions",
+"kind": "list",
+"max": 30,
+"mt": "Commissions",
+"why": "not translated"
+},
+{
+"en": "Owner events",
+"kind": "list",
+"max": 30,
+"mt": "Événements pour les propriétaires",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Compliment",
+"kind": "list",
+"max": 30,
+"mt": "Compliment",
+"why": "not translated"
+},
+{
+"en": "Mortgage or legal adviser",
+"kind": "list",
+"max": 30,
+"mt": "Conseiller hypothécaire ou juridique",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Developer sales team",
+"kind": "list",
+"max": 30,
+"mt": "Équipe commerciale des développeurs",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Compliments",
+"kind": "label",
+"max": null,
+"mt": "Compliments",
+"why": "not translated"
+},
+{
+"en": "Owner Surveys",
+"kind": "sheet",
+"max": 31,
+"mt": "Enquêtes auprès des propriétaires",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Agent 40%",
+"kind": "label",
+"max": null,
+"mt": "Agent 40%",
+"why": "not translated"
+},
+{
+"en": "Agent 60%",
+"kind": "label",
+"max": null,
+"mt": "Agent 60%",
+"why": "not translated"
+},
+{
+"en": "Agent 70%",
+"kind": "label",
+"max": null,
+"mt": "Agent 70%",
+"why": "not translated"
+},
+{
+"en": "How safe is the company cash",
+"kind": "title",
+"max": 60,
+"mt": "Dans quelle mesure la trésorerie de l'entreprise est-elle en sécurité",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "New owner client onboarding",
+"kind": "sheet",
+"max": 31,
+"mt": "Intégration des nouveaux clients propriétaires",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "New staff onboarding",
+"kind": "sheet",
+"max": 31,
+"mt": "Intégration du nouveau personnel",
+"why": "too long: 32 characters, the limit is 31"
+}
+]

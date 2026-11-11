@@ -1,0 +1,170 @@
+[
+{
+"en": "Type the yearly rent and the allowance for repairs. The tax rate comes from Start. You get the tax, the half-year payment and what to set aside each month.",
+"kind": "sentence",
+"max": null,
+"mt": "输入年租金和维修津贴。税率来自Start。您会收到税款、半年付款以及每个月的预留款项。",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Type the amount you advanced and the months to repay. The interest rate comes from Start. You get the instalment, the interest and the last payment date.",
+"kind": "sentence",
+"max": null,
+"mt": "输入您预付的金额和还款月份。利率来自Start。您可以获得分期付款、利息和最后付款日期。",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Add every unit on Units with its monthly rent and whether it is let.",
+"kind": "sentence",
+"max": null,
+"mt": "在 Units 中添加每个单元的月租金以及是否出租。",
+"why": "English/Latin words left: Units"
+},
+{
+"en": "Post every money movement on Ledger: rent in, expenses, our fees, payouts and reserve moves. Choose the kind, category, property and owner; the signed amount and the statement fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "在 Ledger 上发布每笔资金变动：租金、费用、我们的费用、支出和储备金变动。选择种类、类别、属性和所有者；签署的金额和声明填写。",
+"why": "English/Latin words left: Ledger"
+},
+{
+"en": "30, 90 and 365-day occupancy, ADR and RevPAR with owner stays taken out of the nights you could sell",
+"kind": "sentence",
+"max": 160,
+"mt": "30、90 和 365 天的入住率、ADR 和 RevPAR（业主住宿从您可以出售的夜晚中扣除）",
+"why": "English/Latin words left: ADR RevPAR"
+},
+{
+"en": "One row per holiday home: rates, rules, owner, access details and live results such as occupancy, ADR, RevPAR, revenue and owner payout.",
+"kind": "sentence",
+"max": null,
+"mt": "每个度假屋一行：费率、规则、业主、访问详细信息和实时结果，例如入住率、ADR、RevPAR、收入和业主支出。",
+"why": "English/Latin words left: ADR RevPAR"
+},
+{
+"en": "Wi-Fi name and password",
+"kind": "label",
+"max": null,
+"mt": "Wi-Fi 名称和密码",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Your price calendar: each season has a price multiplier and a minimum stay. What it earned fills in from Bookings; the pricing tool reads it.",
+"kind": "sentence",
+"max": null,
+"mt": "您的价格日历：每个季节都有价格乘数和最短停留时间。其收入由 Bookings 填写；定价工具会读取它。",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Type your base rate, the arrival date, the length of stay and how full the next 30 days are. The season comes from Seasons; discounts and the weekend increase come from Start.",
+"kind": "sentence",
+"max": null,
+"mt": "输入您的基本房价、抵达日期、住宿时间以及接下来 30 天的入住情况。季节来自季节；折扣和周末加价都来自于Start。",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Type the booking figures and the owner's share. The result is the same split Bookings uses, plus what the owner receives after costs.",
+"kind": "sentence",
+"max": null,
+"mt": "输入预订数字和所有者的份额。结果是 Bookings 使用相同的分割，加上所有者在扣除成本后收到的金额。",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Hello {guest}, the Wi-Fi at {unit} is: {wifi}. Enjoy your stay!",
+"kind": "message",
+"max": null,
+"mt": "您好 {guest}，{unit} 的 Wi-Fi 是：{wifi}。祝您住宿愉快！",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
+"kind": "message",
+"max": null,
+"mt": "您好 {owner}，{name} 的更新：过去 90 天的入住率 {occ90}，过去 12 个月的客房收入 {rev12}。如果您想查看价格，请致电我们。",
+"why": "English/Latin words left: occ rev"
+},
+{
+"en": "5. Check that lights, air conditioning, TV and Wi-Fi work. Report any damage, missing items or low stock the same day with photos.",
+"kind": "document",
+"max": null,
+"mt": "5. 检查灯光、空调、电视和 Wi-Fi 是否正常。当天请附上照片报告任何损坏、物品缺失或库存不足的情况。",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Test lights, air conditioning, TV and Wi-Fi",
+"kind": "label",
+"max": null,
+"mt": "测试灯光、空调、电视和 Wi-Fi",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Send the check-in details and Wi-Fi",
+"kind": "label",
+"max": null,
+"mt": "发送入住详情和 Wi-Fi",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Fit the smart lock and test Wi-Fi",
+"kind": "label",
+"max": null,
+"mt": "安装智能锁并测试 Wi-Fi",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Add each holiday home on Listings: rate, cleaning fee, owner, owner share, minimum nights, Wi-Fi and check-in method.",
+"kind": "sentence",
+"max": null,
+"mt": "在列表中添加每个度假屋：房价、清洁费、业主、业主份额、最低入住天数、Wi-Fi 和入住方式。",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Type every reservation on Bookings: channel, guest, dates, nightly rate, cleaning fee, commission and tourism tax. Revenue, shares and clashes fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "在 Bookings 上输入每项预订：渠道、客人、日期、每晚价格、清洁费、佣金和旅游税。收入、股票和冲突充斥着。",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Every trip to a property, owner, vendor or authority: who went, in which vehicle, why and how far. The cost of the trip comes from your cost per kilometre in Start.",
+"kind": "sentence",
+"max": null,
+"mt": "每次前往财产、业主、供应商或当局的旅行：谁去了、乘坐哪辆车、为什么去以及走了多远。行程费用来自您在 Start 中每公里的费用。",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Follow up by message",
+"kind": "label",
+"max": null,
+"mt": "Follow up by message",
+"why": "English/Latin words left: Follow up by message"
+},
+{
+"en": "Pay the renewal fee",
+"kind": "label",
+"max": null,
+"mt": "Pay the renewal fee",
+"why": "English/Latin words left: Pay the renewal fee"
+},
+{
+"en": "Quarterly client review",
+"kind": "sheet",
+"max": 31,
+"mt": "Quarterly client review",
+"why": "English/Latin words left: Quarterly client review"
+},
+{
+"en": "Hold the review meeting",
+"kind": "label",
+"max": null,
+"mt": "Hold the review meeting",
+"why": "English/Latin words left: Hold the review meeting"
+},
+{
+"en": "Read the Office Dashboard and the Charts every week: income, profit, pipeline, workload and service quality at a glance.",
+"kind": "sentence",
+"max": null,
+"mt": "每周阅读 Office 仪表板和图表：收入、利润、渠道、工作量和服务质量一目了然。",
+"why": "English/Latin words left: Office"
+}
+]

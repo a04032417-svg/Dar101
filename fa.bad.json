@@ -1,0 +1,422 @@
+[
+{
+"en": "VAT on fees tied to the ledger",
+"kind": "label",
+"max": 50,
+"mt": "مالیات بر ارزش افزوده در هزینه های مرتبط با دفتر کل",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "VAT on management fees",
+"kind": "list",
+"max": 30,
+"mt": "مالیات بر ارزش افزوده هزینه های مدیریت",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Owner pays, recovered from tenants",
+"kind": "list",
+"max": 30,
+"mt": "مالک پرداخت می کند، از مستاجرین بازیابی می شود",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "VAT on Fees",
+"kind": "sheet",
+"max": 31,
+"mt": "مالیات بر ارزش افزوده در هزینه ها",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Hello {owner_name}, the next instalment of {instalment} on your advance {loan_id} is due on {next_due}. Still to repay: {left}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {owner_name}، قسط بعدی {instalment} پیش پرداخت شما در تاریخ {next_due} است. هنوز برای بازپرداخت: {left}.",
+"why": "placeholders must be exactly: {owner_name} {instalment} {loan_id} {next_due} {left}"
+},
+{
+"en": "Match each vendor bill to its receipt and approval",
+"kind": "label",
+"max": null,
+"mt": "هر صورتحساب فروشنده را با دریافت و تأیید آن مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match VAT returns to the ledger",
+"kind": "label",
+"max": null,
+"mt": "مالیات بر ارزش افزوده مطابقت به دفتر کل باز می گردد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Add each property on Properties with its owner, value, purchase price, date you started managing it and its reserve target.",
+"kind": "sentence",
+"max": null,
+"mt": "هر ملک را در Properties با مالک، ارزش، قیمت خرید، تاریخ شروع مدیریت آن و هدف ذخیره آن اضافه کنید.",
+"why": "English/Latin words left: Properties"
+},
+{
+"en": "Record payouts on Payouts, advances on Owner Advances, and use the Owner Payout tool to plan the reserve top-up first.",
+"kind": "sentence",
+"max": null,
+"mt": "پرداخت‌های مربوط به Payouts، پیش‌پرداخت‌های Owner Advances را ثبت کنید و از ابزار Owner Payout برای برنامه‌ریزی شارژ رزرو استفاده کنید.",
+"why": "English/Latin words left: Payouts Owner Advances Owner"
+},
+{
+"en": "Match for an enquirer",
+"kind": "label",
+"max": null,
+"mt": "مطابقت برای یک پرسشگر",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Record the final value and method on Valuations",
+"kind": "label",
+"max": null,
+"mt": "مقدار و روش نهایی را روی Valuations ثبت کنید",
+"why": "English/Latin words left: Valuations"
+},
+{
+"en": "Add the unit to My Units and start the lease",
+"kind": "label",
+"max": null,
+"mt": "واحد را به My Units اضافه کنید و اجاره نامه را شروع کنید",
+"why": "English/Latin words left: My Units"
+},
+{
+"en": "Open Start and set your company name, how many days of comparables to use, your rent cap, target yield and the heat score limits in the yellow cells.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت خود، تعداد روز استفاده از کالاهای قابل مقایسه، سقف اجاره، بازده هدف و محدودیت‌های امتیاز حرارتی را در سلول‌های زرد تنظیم کنید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "List the districts you work in on Districts. Everything else in the file refers to those names.",
+"kind": "sentence",
+"max": null,
+"mt": "مناطقی را که در آنها کار می کنید در Districts فهرست کنید. هر چیز دیگری در فایل به آن نام ها اشاره دارد.",
+"why": "English/Latin words left: Districts"
+},
+{
+"en": "Add every letting and listing you learn about on Rent Comps with its asking and achieved rent. Rent per m² and discounts work themselves out.",
+"kind": "sentence",
+"max": null,
+"mt": "هر امتیاز و لیستی را که در Rent Comps یاد می گیرید با اجاره درخواستی و به دست آمده آن اضافه کنید. اجاره به ازای هر متر مربع و تخفیف ها خود به خود جواب می دهند.",
+"why": "English/Latin words left: Rent Comps"
+},
+{
+"en": "Add sales you hear about on Sale Comps; each one shows its price per m² and the yield it implies.",
+"kind": "sentence",
+"max": null,
+"mt": "فروش هایی را که در مورد فروش Comps می شنوید اضافه کنید. هر یک قیمت خود را در هر متر مربع و بازدهی را نشان می دهد.",
+"why": "English/Latin words left: Comps"
+},
+{
+"en": "Enter the units you manage on My Units. Market rent, the gap to market, extra rent possible and a review suggestion appear by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "واحدهایی را که در My Units مدیریت می کنید وارد کنید. اجاره بازار، فاصله نسبت به بازار، اجاره اضافی ممکن و پیشنهاد بررسی به خودی خود ظاهر می شوند.",
+"why": "English/Latin words left: My Units"
+},
+{
+"en": "Watch rival listings on Competing Listings and new projects on Supply Pipeline; both feed each district's supply figures.",
+"kind": "sentence",
+"max": null,
+"mt": "لیست های رقیب را در لیست های رقابتی و پروژه های جدید در Supply Pipeline تماشا کنید. هر دو ارقام عرضه هر منطقه را تغذیه می کنند.",
+"why": "English/Latin words left: Supply Pipeline"
+},
+{
+"en": "Study a property to buy on Acquisitions, then test it with the loan, ten-year hold and break-even calculators.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ملک را برای خرید در Acquisitions مطالعه کنید، سپس آن را با وام، توقف ده ساله و ماشین حساب های سربه سر امتحان کنید.",
+"why": "English/Latin words left: Acquisitions"
+},
+{
+"en": "Record valuations on Valuations and market news on Market Notes; keep your contacts warm on Market Contacts.",
+"kind": "sentence",
+"max": null,
+"mt": "ثبت ارزش گذاری در ارزش گذاری ها و اخبار بازار در یادداشت های بازار. مخاطبین خود را در Market Contacts گرم نگه دارید.",
+"why": "English/Latin words left: Market Contacts"
+},
+{
+"en": "30, 90 and 365-day occupancy, ADR and RevPAR with owner stays taken out of the nights you could sell",
+"kind": "sentence",
+"max": 160,
+"mt": "اقامت 30، 90 و 365 روزه، ADR و RevPAR با اقامت‌های مالک از شب‌هایی که می‌توانید بفروشید خارج شده است.",
+"why": "English/Latin words left: ADR RevPAR"
+},
+{
+"en": "what each channel really pays after commission, and the price that matches a direct booking",
+"kind": "sentence",
+"max": 160,
+"mt": "آنچه که هر کانال واقعاً پس از کمیسیون پرداخت می کند و قیمتی که با رزرو مستقیم مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "JBR",
+"kind": "list",
+"max": 30,
+"mt": "JBR",
+"why": "English/Latin words left: JBR"
+},
+{
+"en": "One row per holiday home: rates, rules, owner, access details and live results such as occupancy, ADR, RevPAR, revenue and owner payout.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر خانه تعطیلات: نرخ ها، قوانین، مالک، جزئیات دسترسی و نتایج زنده مانند اشغال، ADR، RevPAR، درآمد و پرداخت مالک.",
+"why": "English/Latin words left: ADR RevPAR"
+},
+{
+"en": "Your price calendar: each season has a price multiplier and a minimum stay. What it earned fills in from Bookings; the pricing tool reads it.",
+"kind": "sentence",
+"max": null,
+"mt": "تقویم قیمت شما: هر فصل دارای یک ضریب قیمت و حداقل اقامت است. آنچه را که به دست آورده است از Bookings پر می کند. ابزار قیمت گذاری آن را می خواند.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Type the booking figures and the owner's share. The result is the same split Bookings uses, plus what the owner receives after costs.",
+"kind": "sentence",
+"max": null,
+"mt": "ارقام رزرو و سهم مالک را تایپ کنید. نتیجه همان تقسیم بندی Bookings است، به علاوه آنچه که مالک پس از هزینه دریافت می کند.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Largest discount that still matches the short stay",
+"kind": "label",
+"max": null,
+"mt": "بزرگترین تخفیفی که همچنان با اقامت کوتاه مدت مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello {guest}, the Wi-Fi at {unit} is: {wifi}. Enjoy your stay!",
+"kind": "message",
+"max": null,
+"mt": "سلام {guest}، Wi-Fi در {unit} این است: {wifi}. از اقامت خود لذت ببرید!",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
+"kind": "message",
+"max": null,
+"mt": "سلام {owner}، یک به‌روزرسانی در مورد {name}: اشغال در 90 روز گذشته {occ90}، درآمد اتاق در 12 ماه گذشته {rev12}. در صورت تمایل به بررسی قیمت ها با ما تماس بگیرید.",
+"why": "English/Latin words left: occ rev"
+},
+{
+"en": "5. Wi-Fi: {col:listings.wifi}. Access: {col:listings.access}. Please do not share access codes.",
+"kind": "document",
+"max": null,
+"mt": "5. Wi-Fi: {col:listings.wifi}. دسترسی: {col:listings.access}. لطفا کدهای دسترسی را به اشتراک نگذارید.",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Check-in is from {col:bookings.in_time}. Access: {col:bookings.access}. Wi-Fi: {col:bookings.wifi}. Checkout is by {col:bookings.out_time}.",
+"kind": "document",
+"max": null,
+"mt": "ورود از {col:bookings.in_time} است. دسترسی: {col:bookings.access}. Wi-Fi: {col:bookings.wifi}. پرداخت توسط {col:bookings.out_time} انجام می شود.",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Send the check-in details and Wi-Fi",
+"kind": "label",
+"max": null,
+"mt": "جزئیات ورود و Wi-Fi را ارسال کنید",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Fit the smart lock and test Wi-Fi",
+"kind": "label",
+"max": null,
+"mt": "قفل هوشمند را نصب کنید و Wi-Fi را تست کنید",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Open Start and type your company name, target occupancy, owner payment days, discounts and the weekend increase in the yellow cells.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت، اشغال هدف، روزهای پرداخت مالک، تخفیف‌ها و افزایش آخر هفته را در سلول‌های زرد تایپ کنید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Add each holiday home on Listings: rate, cleaning fee, owner, owner share, minimum nights, Wi-Fi and check-in method.",
+"kind": "sentence",
+"max": null,
+"mt": "هر خانه تعطیلات را به لیست اضافه کنید: نرخ، هزینه تمیز کردن، مالک، سهم مالک، حداقل شب، Wi-Fi و روش ورود.",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Record each clean on Cleaning Turns and your cleaners on Cleaners; inspection results give the pass rate and the margin.",
+"kind": "sentence",
+"max": null,
+"mt": "هر تمیز را در Cleaning Turns و پاک کننده های خود را در Cleaners ثبت کنید. نتایج بازرسی نرخ عبور و حاشیه را نشان می دهد.",
+"why": "English/Latin words left: Cleaning Turns Cleaners"
+},
+{
+"en": "Block owner stays and maintenance on Owner Blocks so occupancy stays fair.",
+"kind": "sentence",
+"max": null,
+"mt": "باقی ماندن و نگهداری مالک بلوک در Owner Blocks بنابراین اشغال منصفانه باقی می ماند.",
+"why": "English/Latin words left: Owner Blocks"
+},
+{
+"en": "Each month add one row per home on Owner Payouts, then print the Payout Statement or the Owner Report Letter.",
+"kind": "sentence",
+"max": null,
+"mt": "هر ماه یک ردیف به ازای هر خانه در Owner Payouts اضافه کنید، سپس بیانیه پرداخت یا Owner Report Letter را چاپ کنید.",
+"why": "English/Latin words left: Owner Payouts Owner Report"
+},
+{
+"en": "Owner manages it alone",
+"kind": "list",
+"max": 30,
+"mt": "مالک به تنهایی آن را مدیریت می کند",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Managers to plan for",
+"kind": "label",
+"max": null,
+"mt": "Managers to plan for",
+"why": "English/Latin words left: Managers to plan for"
+},
+{
+"en": "Hiring gap",
+"kind": "label",
+"max": null,
+"mt": "Hiring gap",
+"why": "English/Latin words left: Hiring gap"
+},
+{
+"en": "Units you can still take",
+"kind": "label",
+"max": null,
+"mt": "Units you can still take",
+"why": "English/Latin words left: Units you can still"
+},
+{
+"en": "Units per manager today",
+"kind": "label",
+"max": null,
+"mt": "Units per manager today",
+"why": "English/Latin words left: Units per manager today"
+},
+{
+"en": "100 more units",
+"kind": "label",
+"max": null,
+"mt": "100 more units",
+"why": "English/Latin words left: more units"
+},
+{
+"en": "Client Profitability",
+"kind": "sheet",
+"max": 31,
+"mt": "Client Profitability",
+"why": "English/Latin words left: Client Profitability"
+},
+{
+"en": "Cost of one staff hour",
+"kind": "label",
+"max": null,
+"mt": "Cost of one staff hour",
+"why": "English/Latin words left: Cost of one staff"
+},
+{
+"en": "Income per month",
+"kind": "label",
+"max": null,
+"mt": "Income per month",
+"why": "English/Latin words left: Income per month"
+},
+{
+"en": "Cost of staff time",
+"kind": "label",
+"max": null,
+"mt": "Cost of staff time",
+"why": "English/Latin words left: Cost of staff time"
+},
+{
+"en": "Profit per month",
+"kind": "label",
+"max": null,
+"mt": "Profit per month",
+"why": "English/Latin words left: Profit per month"
+},
+{
+"en": "Profit per staff hour",
+"kind": "label",
+"max": null,
+"mt": "Profit per staff hour",
+"why": "English/Latin words left: Profit per staff hour"
+},
+{
+"en": "Fee +5%",
+"kind": "label",
+"max": null,
+"mt": "Fee +5%",
+"why": "English/Latin words left: Fee"
+},
+{
+"en": "Fee +10%",
+"kind": "label",
+"max": null,
+"mt": "Fee +10%",
+"why": "English/Latin words left: Fee"
+},
+{
+"en": "20% fewer hours",
+"kind": "label",
+"max": null,
+"mt": "20% fewer hours",
+"why": "English/Latin words left: fewer hours"
+},
+{
+"en": "Office Break-even",
+"kind": "sheet",
+"max": 31,
+"mt": "Office Break-even",
+"why": "English/Latin words left: Office Break even"
+},
+{
+"en": "Type the owner's rent roll, your fee and the referral share; your highest allowed share comes from Start.",
+"kind": "sentence",
+"max": null,
+"mt": "رول اجاره مالک، هزینه خود و سهم ارجاع را تایپ کنید. بیشترین سهم مجاز شما از Start می آید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Add the actions to Tasks",
+"kind": "label",
+"max": null,
+"mt": "اقدامات را به Tasks اضافه کنید",
+"why": "English/Latin words left: Tasks"
+},
+{
+"en": "Open Start and type your company name, the renewal window, the workload limit, the statement due day and the profit margin you want.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت، پنجره تمدید، محدودیت حجم کار، سررسید بیانیه و حاشیه سود مورد نظر خود را تایپ کنید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Log every owner enquiry on Leads and move it through the stages. Use the next follow-up date so nothing is forgotten.",
+"kind": "sentence",
+"max": null,
+"mt": "هر درخواست مالک را در Leads ثبت کنید و آن را در مراحل حرکت دهید. از تاریخ بعدی بعدی استفاده کنید تا چیزی فراموش نشود.",
+"why": "English/Latin words left: Leads"
+},
+{
+"en": "Give work to the team on Tasks and record the date it is done; late tasks and days late are worked out for you.",
+"kind": "sentence",
+"max": null,
+"mt": "به تیم کار روی Tasks بدهید و تاریخ انجام آن را ثبت کنید. کارهای دیرهنگام و روزهای تأخیر برای شما انجام می شود.",
+"why": "English/Latin words left: Tasks"
+},
+{
+"en": "List partner agents and the owners they introduced on Partner Referrals to see the referral fee you owe and when.",
+"kind": "sentence",
+"max": null,
+"mt": "نمایندگان شریک و مالکانی را که در Partner Referrals معرفی کرده‌اند فهرست کنید تا هزینه ارجاعی را که مدیون هستید و چه زمانی ببینید.",
+"why": "English/Latin words left: Partner Referrals"
+}
+]

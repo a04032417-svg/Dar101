@@ -1,0 +1,527 @@
+[
+{
+"en": "Rent roll, tenants, leases, arrears, deposits and renewals for every owner",
+"kind": "sentence",
+"max": 80,
+"mt": "Арендная плата, арендаторы, аренда, задолженность, депозиты и продления для каждого владельца",
+"why": "too long: 93 characters, the limit is 80"
+},
+{
+"en": "From enquiry to signed lease",
+"kind": "sheet",
+"max": 31,
+"mt": "От запроса до подписания договора аренды",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Owner statements, fees, payouts, reserves and budgets for property managers",
+"kind": "sentence",
+"max": 80,
+"mt": "Заявления владельцев, сборы, выплаты, резервы и бюджеты для управляющих недвижимостью",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Owner ledgers, statements, fees, payouts, reserves and budgets for every owner",
+"kind": "sentence",
+"max": 80,
+"mt": "Регистры владельцев, отчеты, сборы, выплаты, резервы и бюджеты для каждого владельца",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "percent, flat per unit or tiered fees with the minimum and VAT, and a tool that shows which structure is cheapest for the owner",
+"kind": "sentence",
+"max": 160,
+"mt": "процентная, фиксированная за единицу или многоуровневая плата с минимальным значением и НДС, а также инструмент, показывающий, какая структура является самой дешевой для владельца.",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "quarters billed, paid and outstanding per unit, a rate-change notice, and a tool that splits the building budget by area and equally",
+"kind": "sentence",
+"max": 160,
+"mt": "выставленные, оплаченные и невыплаченные кварталы за единицу, уведомление об изменении тарифов и инструмент, который распределяет бюджет здания по площади и поровну.",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "net operating income, gross and net yield, expense ratio and value at your target cap rate, per property and in a calculator",
+"kind": "sentence",
+"max": 160,
+"mt": "чистый операционный доход, валовая и чистая доходность, коэффициент расходов и стоимость при целевой предельной ставке, по каждому объекту недвижимости и в калькуляторе.",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Utilities recovered",
+"kind": "list",
+"max": 30,
+"mt": "Коммунальные услуги восстановлены",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Service charges recovered",
+"kind": "list",
+"max": 30,
+"mt": "Плата за обслуживание возмещена",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Percent of rent collected",
+"kind": "list",
+"max": 30,
+"mt": "Процент собранной арендной платы",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Owner pays, recovered from tenants",
+"kind": "list",
+"max": 30,
+"mt": "Платит собственник, взыскивается с арендаторов",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Stationery and printing",
+"kind": "list",
+"max": 30,
+"mt": "Канцелярские товары и полиграфия",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Difference to explain",
+"kind": "list",
+"max": 30,
+"mt": "Разница, которую нужно объяснить",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Service Charge Split",
+"kind": "sheet",
+"max": 31,
+"mt": "Разделение платы за обслуживание",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Net operating income, yields and cap rate",
+"kind": "title",
+"max": 60,
+"mt": "Чистая операционная прибыль, доходность и ставка капитализации",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cash Flow Forecast",
+"kind": "sheet",
+"max": 31,
+"mt": "Прогноз движения денежных средств",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Type the yearly rent and the allowance for repairs. The tax rate comes from Start. You get the tax, the half-year payment and what to set aside each month.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите годовую арендную плату и пособие на ремонт. Налоговая ставка исходит от Start. Вы получаете налог, полугодовой платеж и сумму, которую нужно откладывать каждый месяц.",
+"why": "English/Latin words left: Start."
+},
+{
+"en": "Type the amount you advanced and the months to repay. The interest rate comes from Start. You get the instalment, the interest and the last payment date.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите сумму, которую вы авансировали, и месяцы для погашения. Процентная ставка берется из Start. Вы получаете рассрочку, проценты и дату последнего платежа.",
+"why": "English/Latin words left: Start."
+},
+{
+"en": "Fee Change Notice",
+"kind": "sheet",
+"max": 31,
+"mt": "Уведомление об изменении размера комиссии",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Service charge billed and paid by property",
+"kind": "title",
+"max": 60,
+"mt": "Плата за обслуживание выставляется и оплачивается объектом размещения",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Add every unit on Units with its monthly rent and whether it is let.",
+"kind": "sentence",
+"max": null,
+"mt": "Добавьте каждую единицу в Units с ее ежемесячной арендной платой и указанием того, сдается ли она.",
+"why": "English/Latin words left: Units"
+},
+{
+"en": "Post every money movement on Ledger: rent in, expenses, our fees, payouts and reserve moves. Choose the kind, category, property and owner; the signed amount and the statement fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Публикуйте в Ledger каждое движение денег: арендную плату, расходы, наши комиссии, выплаты и резервные движения. Выберите вид, категорию, недвижимость и владельца; подписанную сумму и заполнить выписку.",
+"why": "English/Latin words left: Ledger"
+},
+{
+"en": "Re: {col:acquisitions.address}, {col:acquisitions.district}, about {col:acquisitions.area} m².",
+"kind": "document",
+"max": null,
+"mt": "Re: {col:acquisitions.address}, {col:acquisitions.district}, около {col:acquisitions.area} м².",
+"why": "English/Latin words left: Re"
+},
+{
+"en": "Rent Benchmark Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Письмо об аренде контрольного показателя",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Write the visit note on Market Notes",
+"kind": "label",
+"max": null,
+"mt": "Напишите заметку о посещении в Market Notes.",
+"why": "English/Latin words left: Market Notes."
+},
+{
+"en": "Add every letting and listing you learn about on Rent Comps with its asking and achieved rent. Rent per m² and discounts work themselves out.",
+"kind": "sentence",
+"max": null,
+"mt": "Добавьте каждую аренду и объявление, о которых вы узнаете на Rent Comps, с запрашиваемой и полученной арендной платой. Арендная плата за м² и скидки действуют сами собой.",
+"why": "English/Latin words left: Rent Comps"
+},
+{
+"en": "Add sales you hear about on Sale Comps; each one shows its price per m² and the yield it implies.",
+"kind": "sentence",
+"max": null,
+"mt": "Добавьте продажи, о которых вы слышали, на Sale Comps; на каждом из них указана цена за м² и предполагаемая доходность.",
+"why": "English/Latin words left: Sale Comps"
+},
+{
+"en": "Prepare each rent change on Rent Reviews; the sheet checks it against your cap and the market. Print a letter to the tenant or the owner.",
+"kind": "sentence",
+"max": null,
+"mt": "Подготовьте каждое изменение арендной платы в Rent Reviews; лист сверяет его с вашей кепкой и рынком. Распечатайте письмо арендатору или владельцу.",
+"why": "English/Latin words left: Rent Reviews"
+},
+{
+"en": "Watch rival listings on Competing Listings and new projects on Supply Pipeline; both feed each district's supply figures.",
+"kind": "sentence",
+"max": null,
+"mt": "Следите за листингами конкурентов на сайте Competing Listings и новыми проектами на сайте Supply Pipeline; оба содержат данные о снабжении каждого района.",
+"why": "English/Latin words left: Competing Listings Supply Pipeline"
+},
+{
+"en": "Study a property to buy on Acquisitions, then test it with the loan, ten-year hold and break-even calculators.",
+"kind": "sentence",
+"max": null,
+"mt": "Изучите недвижимость, которую можно купить на сайте Acquisitions, а затем протестируйте ее с помощью калькуляторов кредита, десятилетнего удержания и безубыточности.",
+"why": "English/Latin words left: Acquisitions"
+},
+{
+"en": "Record valuations on Valuations and market news on Market Notes; keep your contacts warm on Market Contacts.",
+"kind": "sentence",
+"max": null,
+"mt": "Записывайте оценки в «Оценках» и рыночные новости в «Рыночных нотах»; держите свои контакты в тепле на Market Contacts.",
+"why": "English/Latin words left: Market Contacts."
+},
+{
+"en": "Each quarter follow the Quarterly Review checklist, send the owner market update letters and read the Market Radar dashboard and Charts.",
+"kind": "sentence",
+"max": null,
+"mt": "Каждый квартал следуйте контрольному списку ежеквартального обзора, отправляйте владельцам письма с обновлениями рынка и читайте панель мониторинга и графики Market Radar.",
+"why": "English/Latin words left: Market Radar."
+},
+{
+"en": "Record sales in buildings you follow on Price History, rival management companies on Rival Managers and forced sales on Distressed Sales.",
+"kind": "sentence",
+"max": null,
+"mt": "Записывайте продажи в зданиях, за которыми вы следите, в истории цен, конкурирующих управляющих компаниях в Rival Managers и принудительных продажах в проблемных продажах.",
+"why": "English/Latin words left: Rival Managers"
+},
+{
+"en": "Run holiday homes for many owners: bookings, channels, pricing, payouts",
+"kind": "sentence",
+"max": 80,
+"mt": "Управляйте домами отдыха для многих владельцев: бронирования, каналы, цены, выплаты.",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "Holiday Rentals Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Панель управления арендой на время отпуска",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "30, 90 and 365-day occupancy, ADR and RevPAR with owner stays taken out of the nights you could sell",
+"kind": "sentence",
+"max": 160,
+"mt": "Размещение на 30, 90 и 365 дней, ADR и RevPAR, при этом проживание владельца исключается из тех ночей, которые вы можете продать.",
+"why": "English/Latin words left: ADR RevPAR"
+},
+{
+"en": "Booking.com",
+"kind": "list",
+"max": 30,
+"mt": "Бронирование.com",
+"why": "English/Latin words left: com"
+},
+{
+"en": "Software and lock fees",
+"kind": "list",
+"max": 30,
+"mt": "Плата за программное обеспечение и блокировку",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Permit and tourism fees",
+"kind": "list",
+"max": 30,
+"mt": "Разрешение и туристические сборы",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Fire safety certificate",
+"kind": "list",
+"max": 30,
+"mt": "Сертификат пожарной безопасности",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "One row per holiday home: rates, rules, owner, access details and live results such as occupancy, ADR, RevPAR, revenue and owner payout.",
+"kind": "sentence",
+"max": null,
+"mt": "Одна строка для каждого дома для отпуска: тарифы, правила, владелец, сведения о доступе и текущие результаты, такие как заполняемость, ADR, RevPAR, доход и выплаты владельцу.",
+"why": "English/Latin words left: ADR RevPAR"
+},
+{
+"en": "Wi-Fi name and password",
+"kind": "label",
+"max": null,
+"mt": "Имя и пароль Wi-Fi",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Wi-Fi",
+"kind": "label",
+"max": null,
+"mt": "Wi-Fi",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Your price calendar: each season has a price multiplier and a minimum stay. What it earned fills in from Bookings; the pricing tool reads it.",
+"kind": "sentence",
+"max": null,
+"mt": "Ваш календарь цен: для каждого сезона предусмотрен множитель цен и минимальный срок проживания. То, что он заработал, заполняется из Bookings; инструмент ценообразования считывает его.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Type your base rate, the arrival date, the length of stay and how full the next 30 days are. The season comes from Seasons; discounts and the weekend increase come from Start.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите базовую ставку, дату прибытия, продолжительность пребывания и степень наполненности следующих 30 дней. Сезон взят из Seasons; скидки и повышение выходного дня идут от Старта.",
+"why": "English/Latin words left: Seasons"
+},
+{
+"en": "Type the booking figures and the owner's share. The result is the same split Bookings uses, plus what the owner receives after costs.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите цифры бронирования и долю владельца. Результатом является то же разделение, которое использует Bookings, плюс то, что получает владелец после затрат.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Wi-Fi details",
+"kind": "label",
+"max": null,
+"mt": "Подробности о Wi-Fi",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Hello {guest}, the Wi-Fi at {unit} is: {wifi}. Enjoy your stay!",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {guest}! Wi-Fi в {unit}: {wifi}. Приятного пребывания!",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {owner}, обновленная информация о {name}: заполняемость за последние 90 дней {occ90}, доход от номеров за последние 12 месяцев {rev12}. Позвоните нам, если хотите узнать цены.",
+"why": "English/Latin words left: occ rev"
+},
+{
+"en": "5. Wi-Fi: {col:listings.wifi}. Access: {col:listings.access}. Please do not share access codes.",
+"kind": "document",
+"max": null,
+"mt": "5. Wi-Fi: {col:listings.wifi}. Доступ: {col:listings.access}. Пожалуйста, не сообщайте коды доступа.",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Check-in is from {col:bookings.in_time}. Access: {col:bookings.access}. Wi-Fi: {col:bookings.wifi}. Checkout is by {col:bookings.out_time}.",
+"kind": "document",
+"max": null,
+"mt": "Регистрация заезда осуществляется с {col:bookings.in_time}. Доступ: {col:bookings.access}. Wi-Fi: {col:bookings.wifi}. Оформление заказа до {col:bookings.out_time}.",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "5. Check that lights, air conditioning, TV and Wi-Fi work. Report any damage, missing items or low stock the same day with photos.",
+"kind": "document",
+"max": null,
+"mt": "5. Проверьте работу освещения, кондиционера, телевизора и Wi-Fi. Сообщите о любых повреждениях, недостающих предметах или низком уровне запасов в тот же день с фотографиями.",
+"why": "English/Latin words left: Wi Fi."
+},
+{
+"en": "Test lights, air conditioning, TV and Wi-Fi",
+"kind": "label",
+"max": null,
+"mt": "Контрольные лампы, кондиционер, телевизор и Wi-Fi.",
+"why": "English/Latin words left: Wi Fi."
+},
+{
+"en": "Send the check-in details and Wi-Fi",
+"kind": "label",
+"max": null,
+"mt": "Отправьте данные о заселении и Wi-Fi.",
+"why": "English/Latin words left: Wi Fi."
+},
+{
+"en": "Fit the smart lock and test Wi-Fi",
+"kind": "label",
+"max": null,
+"mt": "Установите умный замок и проверьте Wi-Fi.",
+"why": "English/Latin words left: Wi Fi."
+},
+{
+"en": "Add each holiday home on Listings: rate, cleaning fee, owner, owner share, minimum nights, Wi-Fi and check-in method.",
+"kind": "sentence",
+"max": null,
+"mt": "Добавьте каждый дом для отпуска в списки: стоимость, плата за уборку, владелец, доля владельца, минимальное количество ночей, Wi-Fi и способ регистрации.",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Type every reservation on Bookings: channel, guest, dates, nightly rate, cleaning fee, commission and tourism tax. Revenue, shares and clashes fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите каждое бронирование в Bookings: канал, гость, даты, стоимость ночи, плата за уборку, комиссия и туристический налог. Доходы, акции и конфликты заполняются.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Win and keep owners, run your team and see company profit",
+"kind": "sentence",
+"max": 80,
+"mt": "Завоевывайте и сохраняйте владельцев, управляйте своей командой и получайте прибыль компании",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "Win and keep owners, run your team and see the company profit",
+"kind": "sentence",
+"max": 80,
+"mt": "Завоевывайте и сохраняйте владельцев, управляйте своей командой и наблюдайте за прибылью компании",
+"why": "too long: 97 characters, the limit is 80"
+},
+{
+"en": "fee proposal, capacity, client profit, break-even, commission split, fee benchmark, hire cost, referral fee, cash runway, price rise, staff benchmark, churn",
+"kind": "sentence",
+"max": 160,
+"mt": "предложение по вознаграждению, мощность, прибыль клиента, безубыточность, разделение комиссионных, ориентир комиссии, стоимость найма, реферальная плата, взлетно-посадочная полоса, рост цен, ориентир персонала, отток",
+"why": "too long: 216 characters, the limit is 160"
+},
+{
+"en": "the fee owed to each partner agent as a share of the first-year fee, with paid, due and above-limit flags and a partner statement",
+"kind": "sentence",
+"max": 160,
+"mt": "вознаграждение, причитающееся каждому агенту-партнеру, как часть вознаграждения за первый год, с пометками оплачено, срок оплаты и превышение лимита, а также заявлением партнера",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Office assets and subscriptions",
+"kind": "title",
+"max": 60,
+"mt": "Ресурсы Office и подписки",
+"why": "English/Latin words left: Office"
+},
+{
+"en": "the fee planned at each renewal, the extra income it brings and a calculator that shows how many clients you can lose before it stops paying",
+"kind": "sentence",
+"max": 160,
+"mt": "плата, запланированная при каждом продлении, дополнительный доход, который оно приносит, и калькулятор, который показывает, сколько клиентов вы можете потерять, прежде чем он перестанет платить.",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "Our fee was too high",
+"kind": "list",
+"max": 30,
+"mt": "Наша плата была слишком высокой",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Owner manages it alone",
+"kind": "list",
+"max": 30,
+"mt": "Владелец управляет этим самостоятельно",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Maintenance coordinator",
+"kind": "list",
+"max": 30,
+"mt": "Координатор технического обслуживания",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Maintenance coordination",
+"kind": "list",
+"max": 30,
+"mt": "Координация технического обслуживания",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Software subscription",
+"kind": "list",
+"max": 30,
+"mt": "Подписка на программное обеспечение",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Type the owner's units, rent and your fee; your profit goal comes from Start.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите квартиры владельца, арендную плату и ваш гонорар; ваша цель по прибыли исходит из Start.",
+"why": "English/Latin words left: Start."
+},
+{
+"en": "Type what the client pays, the hours you spend and your hourly cost; your profit goal comes from Start.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите сумму, которую платит клиент, часы, которые вы тратите, и почасовую стоимость; ваша цель по прибыли исходит из Start.",
+"why": "English/Latin words left: Start."
+},
+{
+"en": "Type the owner's rent roll, your fee and the referral share; your highest allowed share comes from Start.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите арендную плату владельца, ваш гонорар и реферальную долю; ваша максимально допустимая доля исходит от Start.",
+"why": "English/Latin words left: Start."
+},
+{
+"en": "New owner client onboarding",
+"kind": "sheet",
+"max": 31,
+"mt": "Регистрация клиента нового владельца",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "List your team on Team with role, salary, start date and how many units each manager can handle.",
+"kind": "sentence",
+"max": null,
+"mt": "Укажите свою команду в Team, указав роль, зарплату, дату начала и количество подразделений, с которыми может справиться каждый менеджер.",
+"why": "English/Latin words left: Team"
+},
+{
+"en": "Record your campaigns on Campaigns with their cost, enquiries and owners won to see which channel pays.",
+"kind": "sentence",
+"max": null,
+"mt": "Записывайте свои кампании в Campaigns с указанием их стоимости, запросов и выигранных владельцев, чтобы увидеть, какой канал платит.",
+"why": "English/Latin words left: Campaigns"
+},
+{
+"en": "Read the Office Dashboard and the Charts every week: income, profit, pipeline, workload and service quality at a glance.",
+"kind": "sentence",
+"max": null,
+"mt": "Каждую неделю читайте панель мониторинга Office и диаграммы: краткий обзор доходов, прибыли, конвейера, рабочей нагрузки и качества услуг.",
+"why": "English/Latin words left: Office"
+}
+]

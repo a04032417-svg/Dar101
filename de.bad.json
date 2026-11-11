@@ -1,0 +1,401 @@
+[
+{
+"en": "Rent roll, tenants, leases, arrears, deposits and renewals for every owner",
+"kind": "sentence",
+"max": 80,
+"mt": "Mietliste, Mieter, Mietverträge, Zahlungsrückstände, Anzahlungen und Verlängerungen für jeden Eigentümer",
+"why": "too long: 104 characters, the limit is 80"
+},
+{
+"en": "From enquiry to signed lease",
+"kind": "sheet",
+"max": 31,
+"mt": "Von der Anfrage bis zum unterschriebenen Mietvertrag",
+"why": "too long: 52 characters, the limit is 31"
+},
+{
+"en": "Owner statements, fees, payouts, reserves and budgets for property managers",
+"kind": "sentence",
+"max": 80,
+"mt": "Eigentümerabrechnungen, Gebühren, Auszahlungen, Rücklagen und Budgets für Immobilienverwalter",
+"why": "too long: 93 characters, the limit is 80"
+},
+{
+"en": "Owner ledgers, statements, fees, payouts, reserves and budgets for every owner",
+"kind": "sentence",
+"max": 80,
+"mt": "Eigentümerbücher, Kontoauszüge, Gebühren, Auszahlungen, Rücklagen und Budgets für jeden Eigentümer",
+"why": "too long: 98 characters, the limit is 80"
+},
+{
+"en": "Owner Accounting Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Eigentümerbuchhaltungs-Dashboard",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "every rent receipt, bill, fee, payout and reserve move for 14 months, tagged to the owner, property, unit and statement",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder Mietbeleg, jede Rechnung, jede Gebühr, jede Auszahlung und jeder Reserveumzug für 14 Monate, gekennzeichnet mit Eigentümer, Eigentum, Einheit und Abrechnung",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "percent, flat per unit or tiered fees with the minimum and VAT, and a tool that shows which structure is cheapest for the owner",
+"kind": "sentence",
+"max": 160,
+"mt": "Prozent, Pauschalgebühren pro Einheit oder gestaffelte Gebühren mit Mindest- und Mehrwertsteuer sowie ein Tool, das zeigt, welche Struktur für den Eigentümer am günstigsten ist",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "every property and category tracked against its yearly budget, with a year-end estimate and a status when it nears or passes the limit",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Immobilie und Kategorie wird anhand ihres Jahresbudgets verfolgt, mit einer Jahresendschätzung und einem Status, wenn sie sich dem Limit nähert oder dieses überschreitet",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "quarters billed, paid and outstanding per unit, a rate-change notice, and a tool that splits the building budget by area and equally",
+"kind": "sentence",
+"max": 160,
+"mt": "In Rechnung gestellte, bezahlte und ausstehende Quartale pro Einheit, eine Preisänderungsmitteilung und ein Tool, das das Gebäudebudget gleichmäßig nach Fläche aufteilt",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "VAT on fees tied to the ledger",
+"kind": "label",
+"max": 50,
+"mt": "Mehrwertsteuer auf Gebühren, die an das Hauptbuch gebunden sind",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "Utilities recovered",
+"kind": "list",
+"max": 30,
+"mt": "Versorgungsunternehmen wiederhergestellt",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Legal",
+"kind": "list",
+"max": 30,
+"mt": "Legal",
+"why": "not translated"
+},
+{
+"en": "Management and leasing fees",
+"kind": "list",
+"max": 30,
+"mt": "Verwaltungs- und Leasinggebühren",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Payouts and reserve moves",
+"kind": "list",
+"max": 30,
+"mt": "Auszahlungen und Reservebewegungen",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Percent of rent collected",
+"kind": "list",
+"max": 30,
+"mt": "Prozentsatz der eingenommenen Miete",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "VAT on management fees",
+"kind": "list",
+"max": 30,
+"mt": "Mehrwertsteuer auf Verwaltungsgebühren",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Registration and attestation",
+"kind": "list",
+"max": 30,
+"mt": "Registrierung und Bescheinigung",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Internet",
+"kind": "list",
+"max": 30,
+"mt": "Internet",
+"why": "not translated"
+},
+{
+"en": "Owner pays, recovered from tenants",
+"kind": "list",
+"max": 30,
+"mt": "Der Eigentümer zahlt, wird von den Mietern eingezogen",
+"why": "too long: 53 characters, the limit is 30"
+},
+{
+"en": "Owner (vacant unit)",
+"kind": "list",
+"max": 30,
+"mt": "Eigentümer (leerstehende Einheit)",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Waiting for owner approval",
+"kind": "list",
+"max": 30,
+"mt": "Warten auf die Genehmigung des Eigentümers",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Budgets",
+"kind": "sheet",
+"max": 31,
+"mt": "Budgets",
+"why": "not translated"
+},
+{
+"en": "Budget",
+"kind": "label",
+"max": null,
+"mt": "Budget",
+"why": "not translated"
+},
+{
+"en": "Compare Fee Structures",
+"kind": "sheet",
+"max": 31,
+"mt": "Vergleichen Sie die Gebührenstrukturen",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "New Owner Onboarding",
+"kind": "sheet",
+"max": 31,
+"mt": "Onboarding des neuen Eigentümers",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Service charge billed and paid by property",
+"kind": "title",
+"max": 60,
+"mt": "Die Servicegebühr wird von der Unterkunft in Rechnung gestellt und bezahlt",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Owner advances left to repay",
+"kind": "title",
+"max": 60,
+"mt": "Es verbleiben noch Vorschüsse des Eigentümers zur Rückzahlung",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Absorption",
+"kind": "sheet",
+"max": 31,
+"mt": "Absorption",
+"why": "not translated"
+},
+{
+"en": "Absorption: months to let the vacant and new units",
+"kind": "title",
+"max": 60,
+"mt": "Absorption: Monate, um die leerstehenden und neuen Einheiten zu vermieten",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Due Diligence",
+"kind": "sheet",
+"max": 31,
+"mt": "Due Diligence",
+"why": "not translated"
+},
+{
+"en": "Run holiday homes for many owners: bookings, channels, pricing, payouts",
+"kind": "sentence",
+"max": 80,
+"mt": "Betreiben Sie Ferienhäuser für viele Eigentümer: Buchungen, Kanäle, Preise, Auszahlungen",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "Occupancy that respects owner nights",
+"kind": "label",
+"max": 50,
+"mt": "Belegung, die die Nächte der Eigentümer respektiert",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Onboarding",
+"kind": "list",
+"max": 30,
+"mt": "Onboarding",
+"why": "not translated"
+},
+{
+"en": "Dubai Marina",
+"kind": "list",
+"max": 30,
+"mt": "Dubai Marina",
+"why": "not translated"
+},
+{
+"en": "Palm Jumeirah",
+"kind": "list",
+"max": 30,
+"mt": "Palm Jumeirah",
+"why": "not translated"
+},
+{
+"en": "Business Bay",
+"kind": "list",
+"max": 30,
+"mt": "Business Bay",
+"why": "not translated"
+},
+{
+"en": "Dubai Hills",
+"kind": "list",
+"max": 30,
+"mt": "Dubai Hills",
+"why": "not translated"
+},
+{
+"en": "Permit and tourism fees",
+"kind": "list",
+"max": 30,
+"mt": "Genehmigungs- und Tourismusgebühren",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Problem",
+"kind": "label",
+"max": null,
+"mt": "Problem",
+"why": "not translated"
+},
+{
+"en": "Partner",
+"kind": "label",
+"max": null,
+"mt": "Partner",
+"why": "not translated"
+},
+{
+"en": "Owner Report Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Berichtsschreiben des Eigentümers",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Win and keep owners, run your team and see company profit",
+"kind": "sentence",
+"max": 80,
+"mt": "Gewinnen und behalten Sie Eigentümer, leiten Sie Ihr Team und sehen Sie den Unternehmensgewinn",
+"why": "too long: 94 characters, the limit is 80"
+},
+{
+"en": "Win and keep owners, run your team and see the company profit",
+"kind": "sentence",
+"max": 80,
+"mt": "Gewinnen und behalten Sie Eigentümer, leiten Sie Ihr Team und sehen Sie, wie das Unternehmen profitiert",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "fee proposal, capacity, client profit, break-even, commission split, fee benchmark, hire cost, referral fee, cash runway, price rise, staff benchmark, churn",
+"kind": "sentence",
+"max": 160,
+"mt": "Gebührenvorschlag, Kapazität, Kundengewinn, Break-Even, Provisionsaufteilung, Gebührenbenchmark, Mietkosten, Empfehlungsgebühr, Cash Runway, Preiserhöhung, Personalbenchmark, Abwanderung",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "the fee owed to each partner agent as a share of the first-year fee, with paid, due and above-limit flags and a partner statement",
+"kind": "sentence",
+"max": 160,
+"mt": "die jedem Partneragenten geschuldete Gebühr als Anteil der Gebühr für das erste Jahr, mit den Markierungen „Bezahlt“, „Fällig“ und „Über dem Limit“ sowie einer Partnerabrechnung",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "the fee planned at each renewal, the extra income it brings and a calculator that shows how many clients you can lose before it stops paying",
+"kind": "sentence",
+"max": 160,
+"mt": "Die bei jeder Verlängerung geplante Gebühr, die damit verbundenen zusätzlichen Einnahmen und ein Rechner, der zeigt, wie viele Kunden Sie verlieren können, bevor die Zahlung eingestellt wird",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "Owner manages it alone",
+"kind": "list",
+"max": 30,
+"mt": "Der Besitzer verwaltet es alleine",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Administrator",
+"kind": "list",
+"max": 30,
+"mt": "Administrator",
+"why": "not translated"
+},
+{
+"en": "Software",
+"kind": "list",
+"max": 30,
+"mt": "Software",
+"why": "not translated"
+},
+{
+"en": "Marketing",
+"kind": "list",
+"max": 30,
+"mt": "Marketing",
+"why": "not translated"
+},
+{
+"en": "Team",
+"kind": "title",
+"max": 60,
+"mt": "Team",
+"why": "not translated"
+},
+{
+"en": "Portfolio",
+"kind": "sheet",
+"max": 31,
+"mt": "Portfolio",
+"why": "not translated"
+},
+{
+"en": "Deal",
+"kind": "label",
+"max": null,
+"mt": "Deal",
+"why": "not translated"
+},
+{
+"en": "Cash Runway",
+"kind": "sheet",
+"max": 31,
+"mt": "Cash Runway",
+"why": "not translated"
+},
+{
+"en": "Notice of non-renewal of a management contract",
+"kind": "title",
+"max": 60,
+"mt": "Mitteilung über die Nichtverlängerung eines Managementvertrags",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "New owner client onboarding",
+"kind": "sheet",
+"max": 31,
+"mt": "Onboarding neuer Eigentümerkunden",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Quarterly client review",
+"kind": "sheet",
+"max": 31,
+"mt": "Vierteljährliche Kundenbewertung",
+"why": "too long: 32 characters, the limit is 31"
+}
+]

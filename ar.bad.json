@@ -1,0 +1,121 @@
+[
+{
+"en": "VAT on fees tied to the ledger",
+"kind": "label",
+"max": 50,
+"mt": "ضريبة القيمة المضافة على الرسوم المرتبطة بدفتر الأستاذ",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "VAT on management fees",
+"kind": "list",
+"max": 30,
+"mt": "ضريبة القيمة المضافة على الرسوم الإدارية",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Owner pays, recovered from tenants",
+"kind": "list",
+"max": 30,
+"mt": "المالك يدفع، المسترد من المستأجرين",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Post every money movement on Ledger: rent in, expenses, our fees, payouts and reserve moves. Choose the kind, category, property and owner; the signed amount and the statement fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "انشر كل حركة مالية على Ledger: الإيجار، والنفقات، والرسوم، والمدفوعات، والتحركات الاحتياطية. اختر النوع والفئة والعقار والمالك؛ املأ المبلغ الموقع والبيان.",
+"why": "English/Latin words left: Ledger"
+},
+{
+"en": "Write the visit note on Market Notes",
+"kind": "label",
+"max": null,
+"mt": "اكتب مذكرة الزيارة في Market Notes",
+"why": "English/Latin words left: Market Notes"
+},
+{
+"en": "Add every letting and listing you learn about on Rent Comps with its asking and achieved rent. Rent per m² and discounts work themselves out.",
+"kind": "sentence",
+"max": null,
+"mt": "أضف كل إيجار وقائمة تعرفت عليها في Rent Comps مع الإيجار المطلوب والمحقق. الإيجار لكل متر مربع والخصومات تعمل بنفسها.",
+"why": "English/Latin words left: Rent Comps"
+},
+{
+"en": "Add sales you hear about on Sale Comps; each one shows its price per m² and the yield it implies.",
+"kind": "sentence",
+"max": null,
+"mt": "أضف المبيعات التي تسمع عنها على Sale Comps؛ يُظهر كل واحد سعره لكل متر مربع والعائد الذي يتضمنه.",
+"why": "English/Latin words left: Sale Comps"
+},
+{
+"en": "Each quarter follow the Quarterly Review checklist, send the owner market update letters and read the Market Radar dashboard and Charts.",
+"kind": "sentence",
+"max": null,
+"mt": "يتبع كل ربع سنة قائمة مراجعة المراجعة ربع السنوية، ويرسل رسائل تحديث السوق للمالك ويقرأ لوحة معلومات Market Radar والرسوم البيانية.",
+"why": "English/Latin words left: Market Radar"
+},
+{
+"en": "30, 90 and 365-day occupancy, ADR and RevPAR with owner stays taken out of the nights you could sell",
+"kind": "sentence",
+"max": 160,
+"mt": "إشغال لمدة 30 و90 و365 يومًا، وسعر الوصول اليومي (ADR) وإيرادات الغرفة المتوافرة (RevPAR) مع إقامات المالك مأخوذة من الليالي التي يمكنك بيعها",
+"why": "English/Latin words left: ADR RevPAR"
+},
+{
+"en": "One row per holiday home: rates, rules, owner, access details and live results such as occupancy, ADR, RevPAR, revenue and owner payout.",
+"kind": "sentence",
+"max": null,
+"mt": "صف واحد لكل بيت عطلات: الأسعار والقواعد والمالك وتفاصيل الوصول والنتائج المباشرة مثل الإشغال وADR وRevPAR والإيرادات ودفع تعويضات المالك.",
+"why": "English/Latin words left: ADR RevPAR"
+},
+{
+"en": "Type the booking figures and the owner's share. The result is the same split Bookings uses, plus what the owner receives after costs.",
+"kind": "sentence",
+"max": null,
+"mt": "قم بكتابة أرقام الحجز وحصة المالك. والنتيجة هي نفس التقسيم الذي تستخدمه Bookings، بالإضافة إلى ما يتلقاه المالك بعد التكاليف.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Hello {guest}, the Wi-Fi at {unit} is: {wifi}. Enjoy your stay!",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {guest}، شبكة Wi-Fi في {unit} هي: {wifi}. استمتع بإقامتك!",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {owner}، تحديث بشأن {name}: الإشغال خلال آخر 90 يومًا {occ90}، إيرادات الغرفة خلال آخر 12 شهرًا {rev12}. اتصل بنا إذا كنت ترغب في مراجعة الأسعار.",
+"why": "English/Latin words left: occ rev"
+},
+{
+"en": "Fit the smart lock and test Wi-Fi",
+"kind": "label",
+"max": null,
+"mt": "قم بتركيب القفل الذكي واختبر شبكة Wi-Fi",
+"why": "English/Latin words left: Wi Fi"
+},
+{
+"en": "Type every reservation on Bookings: channel, guest, dates, nightly rate, cleaning fee, commission and tourism tax. Revenue, shares and clashes fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "اكتب كل حجز على Bookings: القناة والضيف والتواريخ وسعر الليلة ورسوم التنظيف والعمولة وضريبة السياحة. الإيرادات والأسهم والاشتباكات تملأ.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Mortgage or legal adviser",
+"kind": "list",
+"max": 30,
+"mt": "الرهن العقاري أو المستشار القانوني",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Read the Office Dashboard and the Charts every week: income, profit, pipeline, workload and service quality at a glance.",
+"kind": "sentence",
+"max": null,
+"mt": "اقرأ لوحة معلومات Office والمخططات كل أسبوع: الدخل والأرباح وخط الأنابيب وعبء العمل وجودة الخدمة في لمحة سريعة.",
+"why": "English/Latin words left: Office"
+}
+]
