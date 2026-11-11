@@ -58,10 +58,15 @@ def call(model, items, notes=None):
                      {'role': 'user', 'content': f'Translate into {NAMES[LANG]}. Items with "fix" were rejected before for that reason: correct them.\n' + json.dumps(body, ensure_ascii=False)}]}).encode(),
         headers={'Authorization': 'Bearer ' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json'})
     with urllib.request.urlopen(req, timeout=180) as r:
-        d = json.load(r)
-    txt = d['choices'][0]['message']['content'].strip()
-    txt = re.sub(r'^```(?:json)?|```$', '', txt).strip()
-    return json.loads(txt)
+        raw = r.read().decode('utf8', 'replace')
+        hdr = {k: v for k, v in r.headers.items() if 'ratelimit' in k.lower()}
+    try:
+        d = json.loads(raw)
+        txt = d['choices'][0]['message']['content'].strip()
+        txt = re.sub(r'^```(?:json)?|```$', '', txt).strip()
+        return json.loads(txt)
+    except Exception:
+        print('  RAW', r.status, hdr, repr(raw[:400]), flush=True); raise
 
 
 miss = [x for x in todo if x['en'] not in done]
