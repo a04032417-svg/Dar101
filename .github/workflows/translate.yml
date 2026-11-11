@@ -16,6 +16,7 @@ jobs:
       suite: ${{ steps.p.outputs.suite }}
       langs: ${{ steps.p.outputs.langs }}
       engine: ${{ steps.p.outputs.engine }}
+      fresh: ${{ steps.p.outputs.fresh }}
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 2 }
@@ -25,6 +26,7 @@ jobs:
           echo "suite=$(basename $(dirname $f))" >> "$GITHUB_OUTPUT"
           echo "langs=$(python3 -c "import json;print(json.dumps(json.load(open('$f'))['langs']))")" >> "$GITHUB_OUTPUT"
           echo "engine=$(python3 -c "import json;print(json.load(open('$f')).get('engine','llm'))")" >> "$GITHUB_OUTPUT"
+          echo "fresh=$(python3 -c "import json;print('yes' if json.load(open('$f')).get('fresh') else 'no')")" >> "$GITHUB_OUTPUT"
   tr:
     needs: plan
     runs-on: ubuntu-24.04
@@ -39,6 +41,7 @@ jobs:
       - name: previous results
         run: |
           mkdir -p /tmp/res
+          [ "${{ needs.plan.outputs.fresh }}" = yes ] && exit 0
           git fetch -q origin "tr-out/${{ needs.plan.outputs.suite }}" 2>/dev/null && git show "FETCH_HEAD:${{ matrix.lang }}.json" > /tmp/res/${{ matrix.lang }}.json 2>/dev/null || rm -f /tmp/res/${{ matrix.lang }}.json
           ls -la /tmp/res
       - name: translate
