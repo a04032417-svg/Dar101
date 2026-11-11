@@ -54,8 +54,8 @@ def call(model, items, notes=None):
     body = [{'id': str(i), 'en': x['en'], 'kind': x['kind'], **({'max': x['max']} if x.get('max') else {}), **({'fix': notes[i]} if notes and i in notes else {})}
             for i, x in items]
     URL = os.environ.get('TR_URL') or 'https://models.github.ai/inference/chat/completions'
-    req = urllib.request.Request(URL, method='POST', data=json.dumps({
-        'model': model, 'temperature': 0.2, 'max_tokens': 4000, **({} if os.environ.get('TR_URL') else {'response_format': {'type': 'json_object'}}),
+    req = urllib.request.Request(URL, method='POST', data=json.dumps({**json.loads(os.environ.get('TR_EXTRA') or '{}'),
+        'model': model, 'temperature': 0.2, 'max_tokens': int(json.loads(os.environ.get('TR_EXTRA') or '{}').get('max_tokens', 4000)), **({} if os.environ.get('TR_URL') else {'response_format': {'type': 'json_object'}}),
         'messages': [{'role': 'system', 'content': SYSTEM},
                      {'role': 'user', 'content': f'Translate into {NAMES[LANG]}. Items with "fix" were rejected before for that reason: correct them.\n' + json.dumps(body, ensure_ascii=False)}]}).encode(),
         headers={**({} if os.environ.get('TR_URL') else {'Authorization': 'Bearer ' + TOKEN}), 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': 'Mozilla/5.0'})
