@@ -104,14 +104,54 @@ def google(items):
     return res
 
 
-if os.environ.get('TR_ENGINE') == 'google':
+EDGE_L = {'zh': 'zh-Hans', 'pt': 'pt'}
+_TOK = {}
+
+
+def edge(items):
+    """Microsoft Edge's free web translator (no account). Glossary terms go in as <mstrans:dictionary> so the engine keeps grammar and word order
+    around them (plain placeholders broke the order: «Client Carte»); {placeholders} are protected with a notranslate span."""
+    import html as _h
+    if 'jwt' not in _TOK:
+        _TOK['jwt'] = urllib.request.urlopen(urllib.request.Request('https://edge.microsoft.com/translate/auth', headers={'User-Agent': 'Mozilla/5.0'}), timeout=30).read().decode().strip()
+    texts = []
+    for x in items:
+        t = _h.escape(x.get('src') or x['en'], quote=False)
+        toks = []
+        def hold(m):
+            toks.append('<span class="notranslate">' + m.group(0) + '</span>'); return '\x01%d\x01' % (len(toks) - 1)
+        t = PH.sub(hold, t)
+        for en_t, tr_t in GTERMS:
+            def sub(m, tr_t=tr_t):
+                v = tr_t[0].upper() + tr_t[1:] if m.group(0)[0].isupper() and tr_t[:1].isalpha() and tr_t[:1].lower() != tr_t[:1].upper() else tr_t
+                toks.append('<mstrans:dictionary translation="' + _h.escape(v, quote=True) + '">' + m.group(0) + '</mstrans:dictionary>'); return '\x01%d\x01' % (len(toks) - 1)
+            t = re.sub(r'(?<![A-Za-z\x01])' + re.escape(_h.escape(en_t, quote=False)) + r'(?:e?s)?(?![A-Za-z\x01])', sub, t, flags=re.I)
+        t = re.sub('\x01(\\d+)\x01', lambda m: toks[int(m.group(1))], t)
+        texts.append({'Text': t})
+    url = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=' + EDGE_L.get(LANG, LANG) + '&textType=html'
+    req = urllib.request.Request(url, data=json.dumps(texts).encode(), headers={'Authorization': 'Bearer ' + _TOK['jwt'], 'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r: d = json.loads(r.read().decode('utf8'))
+    except urllib.error.HTTPError as e:
+        if e.code == 401: _TOK.clear()
+        raise
+    res = {}
+    for i, e in enumerate(d):
+        v = e['translations'][0]['text']
+        v = re.sub(r'</?(?:span|mstrans:dictionary|b|i)[^>]*>', '', v)
+        res[str(i)] = _h.unescape(v).replace('\u00a0', ' ').strip()
+    return res
+
+
+if os.environ.get('TR_ENGINE') in ('google', 'edge'):
+    ENG = edge if os.environ.get('TR_ENGINE') == 'edge' else google
     miss = [x for x in todo if x['en'] not in done]
     print(LANG, 'google: todo', len(todo), 'done', len(done), 'missing', len(miss), flush=True)
     bad, n = [], 0
-    for k in range(0, len(miss), 30):
-        part = miss[k:k + 30]
+    for k in range(0, len(miss), 30 if ENG is google else 20):
+        part = miss[k:k + (30 if ENG is google else 20)]
         for attempt in range(5):
-            try: res = google(part); break
+            try: res = ENG(part); break
             except urllib.error.HTTPError as e:
                 print('  HTTP', e.code, flush=True); time.sleep(60 if e.code == 429 else 10); res = None
             except Exception as e:
@@ -119,7 +159,7 @@ if os.environ.get('TR_ENGINE') == 'google':
                 if 'lines' in repr(e) and len(part) > 1:          # line split failed: go one by one
                     res = {}
                     for j, x in enumerate(part):
-                        try: res[str(j)] = google([x])['0']
+                        try: res[str(j)] = ENG([x])['0']
                         except Exception as e2: print('   single', repr(e2)[:100])
                         time.sleep(0.5)
                     break
