@@ -51,3 +51,47 @@ def gallery(lang, names):
         fid, _ = upload(to_jpeg(r.content), f'ac-{lang}-{i + 1}.jpg')
         ids.append(fid)
     return ids
+
+
+NAMES = ['00-cover.png', '01-inside-1.png', '11-part1-01-hero.png', '12-part2-01-hero.png', '13-part3-01-hero.png', '14-part4-01-hero.png', '15-part5-01-hero.png', '16-part6-01-hero.png']
+
+
+def up_images(ST, state_path, langs, budget=140, workers=12):
+    """uploads the 8 gallery pictures per language (JPEG); ST[l]['imgs'] = [file ids]; resumable"""
+    import time
+    t0 = time.time(); jobs = [(l, i, n) for l in langs for i, n in enumerate(NAMES) if not (ST[l].get('imgs') or [None] * 8)[i]]
+
+    def w(j):
+        l, i, n = j
+        if time.time() - t0 > budget: return None
+        r = requests.get(PACK + f'images/{l}/{n}', timeout=120); r.raise_for_status()
+        fid, _ = upload(to_jpeg(r.content), f'ac-{l}-{i + 1}.jpg')
+        return l, i, fid
+    with cf.ThreadPoolExecutor(workers) as ex:
+        futs = [ex.submit(w, j) for j in jobs]
+        done, _ = cf.wait(futs, timeout=budget + 20)
+    for f in done:
+        try:
+            r = f.result()
+            if r:
+                l, i, fid = r; ST[l].setdefault('imgs', [None] * 8)[i] = fid
+        except Exception as e:
+            print('ERR', str(e)[:200])
+    json.dump(ST, open(state_path, 'w'))
+    return {l: sum(1 for x in ST[l].get('imgs') or [] if x) for l in langs}
+
+
+def finish_products(ST, state_path, LST, langs, visibility='visible'):
+    out = {}
+    for l in langs:
+        L = LST[l]
+        desc = L['description'].split('\n\n')[0] + '\n\n' + '\n'.join('• ' + x for x in L['features'])
+        if len(desc) > 1500: desc = desc[:1497].rsplit('\n', 1)[0]
+        r = wt('WHOP_UPDATE_PRODUCT', {'id': ST[l]['pid'], 'gallery_images': [{'id': i} for i in ST[l]['imgs']], 'description': desc, 'visibility': visibility})
+        r = r.get('data', r)
+        gi = r.get('gallery_images') or []
+        ST[l]['img_urls'] = [g.get('url') or (g.get('file') or {}).get('url') for g in gi] if isinstance(gi, list) else gi
+        ST[l]['visible'] = visibility
+        out[l] = len(ST[l]['img_urls'] or [])
+    json.dump(ST, open(state_path, 'w'))
+    return out
