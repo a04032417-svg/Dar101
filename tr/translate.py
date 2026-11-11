@@ -53,11 +53,12 @@ def check(x, v):
 def call(model, items, notes=None):
     body = [{'id': str(i), 'en': x['en'], 'kind': x['kind'], **({'max': x['max']} if x.get('max') else {}), **({'fix': notes[i]} if notes and i in notes else {})}
             for i, x in items]
-    req = urllib.request.Request('https://models.github.ai/inference/chat/completions', method='POST', data=json.dumps({
-        'model': model, 'temperature': 0.2, 'max_tokens': 4000, 'response_format': {'type': 'json_object'},
+    URL = os.environ.get('TR_URL') or 'https://models.github.ai/inference/chat/completions'
+    req = urllib.request.Request(URL, method='POST', data=json.dumps({
+        'model': model, 'temperature': 0.2, 'max_tokens': 4000, **({} if os.environ.get('TR_URL') else {'response_format': {'type': 'json_object'}}),
         'messages': [{'role': 'system', 'content': SYSTEM},
                      {'role': 'user', 'content': f'Translate into {NAMES[LANG]}. Items with "fix" were rejected before for that reason: correct them.\n' + json.dumps(body, ensure_ascii=False)}]}).encode(),
-        headers={'Authorization': 'Bearer ' + TOKEN, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github+json'})
+        headers={**({} if os.environ.get('TR_URL') else {'Authorization': 'Bearer ' + TOKEN}), 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': 'Mozilla/5.0'})
     with urllib.request.urlopen(req, timeout=180) as r:
         raw = r.read().decode('utf8', 'replace')
         hdr = {k: v for k, v in r.headers.items() if 'ratelimit' in k.lower()}

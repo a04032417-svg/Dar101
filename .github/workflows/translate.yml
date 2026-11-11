@@ -17,6 +17,8 @@ jobs:
       langs: ${{ steps.p.outputs.langs }}
       engine: ${{ steps.p.outputs.engine }}
       fresh: ${{ steps.p.outputs.fresh }}
+      url: ${{ steps.p.outputs.url }}
+      models: ${{ steps.p.outputs.models }}
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 2 }
@@ -26,6 +28,8 @@ jobs:
           echo "suite=$(basename $(dirname $f))" >> "$GITHUB_OUTPUT"
           echo "langs=$(python3 -c "import json;print(json.dumps(json.load(open('$f'))['langs']))")" >> "$GITHUB_OUTPUT"
           echo "engine=$(python3 -c "import json;print(json.load(open('$f')).get('engine','llm'))")" >> "$GITHUB_OUTPUT"
+          echo "url=$(python3 -c "import json;print(json.load(open('$f')).get('url',''))")" >> "$GITHUB_OUTPUT"
+          echo "models=$(python3 -c "import json;print(json.load(open('$f')).get('models',''))")" >> "$GITHUB_OUTPUT"
           echo "fresh=$(python3 -c "import json;print('yes' if json.load(open('$f')).get('fresh') else 'no')")" >> "$GITHUB_OUTPUT"
   tr:
     needs: plan
@@ -48,6 +52,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TR_ENGINE: ${{ needs.plan.outputs.engine }}
+          TR_URL: ${{ needs.plan.outputs.url }}
+          TR_MODELS: ${{ needs.plan.outputs.models }}
         run: python3 tr/translate.py "${{ needs.plan.outputs.suite }}" "${{ matrix.lang }}" "/tmp/res/${{ matrix.lang }}.json" 2>&1 | tee "/tmp/res/${{ matrix.lang }}.log"
       - uses: actions/upload-artifact@v4
         if: always()
