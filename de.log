@@ -1,0 +1,15 @@
+de todo 8 done 0 missing 8
+  openai HTTP 400 retry-after 0: {"success":false,"error":{"message":"The model exhausted its output token limit before producing an answer. Increase the token limit or reduce reasoning effort.","code":"output_token_limit_exceeded","timestamp":"2026-11-11T07:31:38.109Z","details":{"name":"UpstreamError","upstreamHost":"portkey.myce
+  openai HTTP 400 retry-after 0: {"success":false,"error":{"message":"The model exhausted its output token limit before producing an answer. Increase the token limit or reduce reasoning effort.","code":"output_token_limit_exceeded","timestamp":"2026-11-11T07:31:38.109Z","details":{"name":"UpstreamError","upstreamHost":"portkey.myce
+  openai-fast HTTP 400 retry-after 0: {"success":false,"error":{"message":"The model exhausted its output token limit before producing an answer. Increase the token limit or reduce reasoning effort.","code":"output_token_limit_exceeded","timestamp":"2026-11-11T07:32:10.324Z","details":{"name":"UpstreamError","upstreamHost":"portkey.myce
+  openai-fast HTTP 400 retry-after 0: {"success":false,"error":{"message":"The model exhausted its output token limit before producing an answer. Increase the token limit or reduce reasoning effort.","code":"output_token_limit_exceeded","timestamp":"2026-11-11T07:32:10.324Z","details":{"name":"UpstreamError","upstreamHost":"portkey.myce
+  FAILED 'Rent roll, tenants, leases, arrears, deposits and renewals for every o' None
+  FAILED 'Owner Accounting Dashboard' None
+  FAILED 'Owner statements that build themselves' None
+  FAILED 'Client account reconciliation' None
+  FAILED 'VAT on our fees' None
+  FAILED 'Rent received' None
+  FAILED 'Hello {owner_name}, your owner statement for {month} is ready. Net inc' None
+  FAILED 'This agreement starts on {col:agreements.start} between {set:company} ' None
+batch 1/1 {'ok': 0, 'retry': 0, 'failed': 8}
+de FINAL missing 8 {'ok': 0, 'retry': 0, 'failed': 8}
