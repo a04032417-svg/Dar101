@@ -42,6 +42,7 @@ Translate from English into {lang}. Every line must read as if a native accounta
 Rules: 1) Placeholders such as {{name}}, {{amount}}, {{col:invoices.due}} stay exactly as written, in a natural position. 2) kind=sheet: a short sheet name, at most 31 characters, none of [ ] : * ? / \\ . 3) Respect max (characters). 4) People words are gender-neutral or the standard generic form (never a feminine job title unless the English says so). 5) Native script only (Arabic, Persian, Urdu, Hindi, Chinese, Russian); keep Latin only for WhatsApp, Excel, LibreOffice, IBAN, VAT, PDF, KPI, ID codes. 6) Labels and titles: concise, no full stop. Sentences, documents and WhatsApp messages: natural, polite, professional. List values are short drop-down choices. 7) Never write the word for 'compatible' and never an Excel version. 8) Numbers, %, dates and codes stay as they are. 9) Context: accounting and bookkeeping practice (clients, engagements, invoices, ledgers, tax returns, payroll, year-end), NOT other fields.
 Glossary to use consistently:
 {glossary}
+When an item lists [sheet names inside], the sentence refers to those sheets: write exactly the given translated sheet name. Do not copy the bracket note itself.
 Output exactly one line per item in the form: index|translation . No other text, no quotes, no explanations."""
 
 GLOSS_TERMS = ['client', 'engagement', 'invoice', 'credit note', 'receivable', 'payable', 'ledger', 'journal entry', 'trial balance', 'bank reconciliation', 'chart of accounts',
@@ -83,10 +84,20 @@ def parse(txt, n0, n):
     return out
 
 
+SHEETS = {}  # lang -> {english sheet name: translated sheet name}
+
+
+def sheet_refs(en, lang):
+    m = SHEETS.get(lang) or {}
+    return [(s, m[s]) for s in sorted(m, key=len, reverse=True) if len(s) > 3 and s != en and re.search(r'(?<![A-Za-z])' + re.escape(s) + r'(?![A-Za-z])', en)][:6]
+
+
 def do_batch(lang, batch, gl, extra=''):
     lines = []
     for i, x in enumerate(batch):
-        lines.append(f"{i}|kind={x['kind']}" + (f"|max={x['max']}" if x.get('max') else '') + '|' + x['en'])
+        refs = sheet_refs(x['en'], lang) if x['kind'] != 'sheet' else []
+        note = (' [sheet names inside: ' + '; '.join(f'"{a}" = "{b}"' for a, b in refs) + ' (use exactly these)]') if refs else ''
+        lines.append(f"{i}|kind={x['kind']}" + (f"|max={x['max']}" if x.get('max') else '') + '|' + x['en'] + note)
     q = RULES.format(lang=LANGS[lang], glossary='\n'.join(f'{k} = {v}' for k, v in gl.items())) + extra + '\nItems (index|kind|max|text):\n' + '\n'.join(lines)
     got = parse(llm(q), 0, len(batch))
     return {batch[i]['en']: got[i] for i in got if i < len(batch)}
@@ -146,3 +157,57 @@ def status(items, langs=None):
     for l in langs:
         st = load_state(l); out[l] = sum(1 for x in items if x['en'] in st)
     return {'total': len(items), 'done': out}
+
+
+def sheet_map(items, lang):
+    st = load_state(lang)
+    SHEETS[lang] = {x['en']: st[x['en']] for x in items if x['kind'] == 'sheet' and x['en'] in st}
+
+
+def dup_sheets(items, lang):
+    st = load_state(lang); bad = []
+    wbs = {}
+    for x in items:
+        if x['kind'] == 'sheet' and x['en'] in st:
+            for wb in x.get('wbs') or [x['where'].split(':')[0]]:
+                wbs.setdefault(wb, {}).setdefault(st[x['en']].casefold().strip(), []).append(x)
+    for wb, m in wbs.items():
+        for v, xs in m.items():
+            if len({y['en'] for y in xs}) > 1: bad.append((wb, v, [y['en'] for y in xs]))
+    return bad
+
+
+def fix_dups(items, lang, gl):
+    bad = dup_sheets(items, lang); st = load_state(lang); by = {x['en']: x for x in items}
+    for wb, v, ens in bad:
+        grp = [by[e] for e in ens[1:]]
+        note = '\nThese sheet names must be DIFFERENT from "' + v + '" (another sheet already uses it) and different from each other; keep the meaning, at most 31 characters.'
+        r = do_batch(lang, grp, gl, note)
+        for x in grp:
+            w = r.get(x['en'])
+            if w and check(x, w, lang) is None and w.casefold().strip() != v: st[x['en']] = w
+    save_state(lang, st)
+    return len(bad)
+
+
+def run_all(items, langs=None, budget=140, size=30, workers=48):
+    """phase 1 sheet names, phase 2 everything else (with the sheet map), then duplicate sheet names; call again until done"""
+    t0 = time.time(); langs = langs or list(LANGS)
+    sh = [x for x in items if x['kind'] == 'sheet']
+    s = run(sh, langs, budget=min(60, budget), size=size, workers=workers)
+    need = [l for l in langs if s['done'][l] < len(sh)]
+    for l in langs: sheet_map(items, l)
+    with cf.ThreadPoolExecutor(len(langs)) as gp: gls = dict(zip(langs, gp.map(make_gloss, langs)))
+    ndup = {l: fix_dups(items, l, gls[l]) for l in langs if l not in need}
+    for l in langs: sheet_map(items, l)
+    rest = [x for x in items if x['kind'] != 'sheet']
+    left = budget - (time.time() - t0)
+    if left > 20: run(rest, [l for l in langs if l not in need], budget=left, size=size, workers=workers)
+    out = status(items, langs); out['dup_sheets_fixed'] = ndup; out['dups_left'] = {l: len(dup_sheets(items, l)) for l in langs}
+    return out
+
+
+def bundle(items, name):
+    data = {l: {x['en']: load_state(l)[x['en']] for x in items if x['en'] in load_state(l)} for l in LANGS}
+    p = os.path.expanduser(f'~/{name}.json'); json.dump(data, open(p, 'w', encoding='utf8'), ensure_ascii=False)
+    return upload_local_file(p)
