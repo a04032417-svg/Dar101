@@ -17,15 +17,8 @@
 "en": "Owner pays, recovered from tenants",
 "kind": "list",
 "max": 30,
-"mt": "المالك يدفع، المسترد من المستأجرين",
-"why": "too long: 34 characters, the limit is 30"
-},
-{
-"en": "Post every money movement on Ledger: rent in, expenses, our fees, payouts and reserve moves. Choose the kind, category, property and owner; the signed amount and the statement fill in.",
-"kind": "sentence",
-"max": null,
-"mt": "انشر كل حركة مالية على Ledger: الإيجار، والنفقات، والرسوم، والمدفوعات، والتحركات الاحتياطية. اختر النوع والفئة والعقار والمالك؛ املأ المبلغ الموقع والبيان.",
-"why": "English/Latin words left: Ledger"
+"mt": "المالك يدفع، تم استرداده من المستأجر",
+"why": "too long: 36 characters, the limit is 30"
 },
 {
 "en": "Write the visit note on Market Notes",
@@ -59,14 +52,14 @@
 "en": "30, 90 and 365-day occupancy, ADR and RevPAR with owner stays taken out of the nights you could sell",
 "kind": "sentence",
 "max": 160,
-"mt": "إشغال لمدة 30 و90 و365 يومًا، وسعر الوصول اليومي (ADR) وإيرادات الغرفة المتوافرة (RevPAR) مع إقامات المالك مأخوذة من الليالي التي يمكنك بيعها",
+"mt": "30 و90 و365 يومًا نسبة الإشغال، وسعر الوصول اليومي (ADR) وإيرادات الغرفة المتوافرة (RevPAR) مع إقامات المالك مأخوذة من الليالي التي يمكنك بيعها",
 "why": "English/Latin words left: ADR RevPAR"
 },
 {
 "en": "One row per holiday home: rates, rules, owner, access details and live results such as occupancy, ADR, RevPAR, revenue and owner payout.",
 "kind": "sentence",
 "max": null,
-"mt": "صف واحد لكل بيت عطلات: الأسعار والقواعد والمالك وتفاصيل الوصول والنتائج المباشرة مثل الإشغال وADR وRevPAR والإيرادات ودفع تعويضات المالك.",
+"mt": "صف واحد لكل بيت عطلات: الأسعار والقواعد والمالك وتفاصيل الوصول والنتائج المباشرة مثل نسبة الإشغال وADR وRevPAR والإيرادات والمالك صرف المستحقات.",
 "why": "English/Latin words left: ADR RevPAR"
 },
 {
@@ -87,7 +80,7 @@
 "en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
 "kind": "message",
 "max": null,
-"mt": "مرحبًا {owner}، تحديث بشأن {name}: الإشغال خلال آخر 90 يومًا {occ90}، إيرادات الغرفة خلال آخر 12 شهرًا {rev12}. اتصل بنا إذا كنت ترغب في مراجعة الأسعار.",
+"mt": "مرحبًا {owner}، تحديث بشأن {name}: نسبة الإشغال خلال آخر 90 يومًا {occ90}، إيرادات الغرفة خلال آخر 12 شهرًا {rev12}. اتصل بنا إذا كنت ترغب في مراجعة الأسعار.",
 "why": "English/Latin words left: occ rev"
 },
 {

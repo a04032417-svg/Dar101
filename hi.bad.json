@@ -3,155 +3,8 @@
 "en": "Owner pays, recovered from tenants",
 "kind": "list",
 "max": 30,
-"mt": "मालिक भुगतान करता है, किरायेदारों से वसूला जाता है",
-"why": "too long: 50 characters, the limit is 30"
-},
-{
-"en": "VAT charged on fees",
-"kind": "label",
-"max": null,
-"mt": "VAT charged on fees",
-"why": "English/Latin words left: charged on fees"
-},
-{
-"en": "Total invoiced with VAT",
-"kind": "label",
-"max": null,
-"mt": "Total invoiced with VAT",
-"why": "English/Latin words left: Total invoiced with"
-},
-{
-"en": "VAT to pay",
-"kind": "label",
-"max": null,
-"mt": "VAT to pay",
-"why": "English/Latin words left: to pay"
-},
-{
-"en": "VAT to reclaim",
-"kind": "label",
-"max": null,
-"mt": "VAT to reclaim",
-"why": "English/Latin words left: to reclaim"
-},
-{
-"en": "VAT inside the total",
-"kind": "label",
-"max": null,
-"mt": "VAT inside the total",
-"why": "English/Latin words left: inside the total"
-},
-{
-"en": "Other quarters",
-"kind": "title",
-"max": 60,
-"mt": "Other quarters",
-"why": "English/Latin words left: Other quarters"
-},
-{
-"en": "Quiet quarter",
-"kind": "label",
-"max": null,
-"mt": "Quiet quarter",
-"why": "English/Latin words left: Quiet quarter"
-},
-{
-"en": "Normal quarter",
-"kind": "label",
-"max": null,
-"mt": "Normal quarter",
-"why": "English/Latin words left: Normal quarter"
-},
-{
-"en": "Busy quarter",
-"kind": "label",
-"max": null,
-"mt": "Busy quarter",
-"why": "English/Latin words left: Busy quarter"
-},
-{
-"en": "Very busy quarter",
-"kind": "label",
-"max": null,
-"mt": "Very busy quarter",
-"why": "English/Latin words left: Very busy quarter"
-},
-{
-"en": "Late Payment Interest",
-"kind": "sheet",
-"max": 31,
-"mt": "Late Payment Interest",
-"why": "English/Latin words left: Late Payment Interest"
-},
-{
-"en": "Amount paid late",
-"kind": "label",
-"max": null,
-"mt": "Amount paid late",
-"why": "English/Latin words left: Amount paid late"
-},
-{
-"en": "Day paid",
-"kind": "label",
-"max": null,
-"mt": "Day paid",
-"why": "English/Latin words left: Day paid"
-},
-{
-"en": "Grace days",
-"kind": "label",
-"max": null,
-"mt": "Grace days",
-"why": "English/Latin words left: Grace days"
-},
-{
-"en": "Days in a year",
-"kind": "label",
-"max": null,
-"mt": "Days in a year",
-"why": "English/Latin words left: Days in year"
-},
-{
-"en": "Interest per day",
-"kind": "label",
-"max": null,
-"mt": "Interest per day",
-"why": "English/Latin words left: Interest per day"
-},
-{
-"en": "Interest due",
-"kind": "label",
-"max": null,
-"mt": "Interest due",
-"why": "English/Latin words left: Interest due"
-},
-{
-"en": "If paid later",
-"kind": "title",
-"max": 60,
-"mt": "If paid later",
-"why": "English/Latin words left: If paid later"
-},
-{
-"en": "After 60 days",
-"kind": "label",
-"max": null,
-"mt": "After 60 days",
-"why": "English/Latin words left: After days"
-},
-{
-"en": "After 90 days",
-"kind": "label",
-"max": null,
-"mt": "After 90 days",
-"why": "English/Latin words left: After days"
-},
-{
-"en": "Hello {owner_name}, spending on {cat} at {prop_name} has used {used} of this year's budget ({spent} of {budget}). Do you approve a higher budget, or shall we pause new work?",
-"kind": "message",
-"max": null,
-"mt": "नमस्ते {owner_name}, {cat} पर {prop_name} खर्च करने से इस वर्ष के बजट का {used} (5 में से {4) उपयोग हो गया है। क्या आप अधिक बजट को मंजूरी देते हैं, या हमें नया काम रोक देना चाहिए?",
-"why": "placeholders must be exactly: {owner_name} {cat} {prop_name} {used} {spent} {budget}"
+"mt": "मालिक ने भुगतान किया, किरायेदार से वसूल किया गया",
+"why": "too long: 48 characters, the limit is 30"
 },
 {
 "en": "Rent or buy: which costs less over the years?",
@@ -159,20 +12,6 @@
 "max": 60,
 "mt": "किराए पर लें या खरीदें: पिछले कुछ वर्षों में किसकी लागत कम होगी?",
 "why": "too long: 64 characters, the limit is 60"
-},
-{
-"en": "Demand and supply: we received {col:districts.enq} enquiries in 90 days against {col:districts.listings} competing listings. New homes expected in the next 12 months: {col:districts.supply} units.",
-"kind": "document",
-"max": null,
-"mt": "मांग और आपूर्ति: हमें प्रतिस्पर्धी लिस्टिंग के मुकाबले 90 दिनों में {col:districts.enq} पूछताछ प्राप्त हुईं। अगले 12 महीनों में नए घरों की उम्मीद: {col:districts.supply} इकाइयाँ।",
-"why": "placeholders must be exactly: {col:districts.enq} {col:districts.listings} {col:districts.supply}"
-},
-{
-"en": "Months to let a vacant unit by type",
-"kind": "title",
-"max": 60,
-"mt": "किसी रिक्त इकाई को प्रकार के अनुसार किराए पर देने के लिए महीने",
-"why": "too long: 62 characters, the limit is 60"
 },
 {
 "en": "Add sales you hear about on Sale Comps; each one shows its price per m² and the yield it implies.",
@@ -185,7 +24,7 @@
 "en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
 "kind": "message",
 "max": null,
-"mt": "नमस्ते {owner}, {name} पर एक अपडेट: पिछले 90 दिनों में अधिभोग {occ90}, पिछले 12 महीनों में कमरे का राजस्व {rev12}। यदि आप कीमतों की समीक्षा करना चाहते हैं तो हमें कॉल करें।",
+"mt": "नमस्ते {owner}, {name} पर एक अपडेट: ऑक्यूपेंसी पिछले 90 दिनों में {occ90}, पिछले 12 महीनों में कमरे का राजस्व {rev12}। यदि आप कीमतों की समीक्षा करना चाहते हैं तो हमें कॉल करें।",
 "why": "English/Latin words left: occ rev"
 },
 {

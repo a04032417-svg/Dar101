@@ -3,43 +3,29 @@
 "en": "Rent roll, tenants, leases, arrears, deposits and renewals for every owner",
 "kind": "sentence",
 "max": 80,
-"mt": "Huurrol, huurders, huurcontracten, betalingsachterstanden, borgsommen en verlengingen voor elke eigenaar",
-"why": "too long: 104 characters, the limit is 80"
+"mt": "Huuroverzicht, Huurder, Huurcontract, Huurachterstand, Waarborgsom en Verlenging voor elke eigenaar",
+"why": "too long: 99 characters, the limit is 80"
 },
 {
 "en": "From enquiry to signed lease",
 "kind": "sheet",
 "max": 31,
-"mt": "Van aanvraag tot getekend huurcontract",
-"why": "too long: 38 characters, the limit is 31"
-},
-{
-"en": "Handling a tenant request",
-"kind": "sheet",
-"max": 31,
-"mt": "Het afhandelen van een huurdersaanvraag",
-"why": "too long: 39 characters, the limit is 31"
+"mt": "Van aanvraag tot ondertekende Huurcontract",
+"why": "too long: 42 characters, the limit is 31"
 },
 {
 "en": "Owner statements, fees, payouts, reserves and budgets for property managers",
 "kind": "sentence",
 "max": 80,
-"mt": "Eigenaarsverklaringen, honoraria, uitbetalingen, reserves en budgetten voor vastgoedbeheerders",
-"why": "too long: 94 characters, the limit is 80"
+"mt": "Eigenaarsoverzicht, kosten, Uitbetaling, reserves en Begroting voor Pand managers",
+"why": "too long: 81 characters, the limit is 80"
 },
 {
 "en": "Owner ledgers, statements, fees, payouts, reserves and budgets for every owner",
 "kind": "sentence",
 "max": 80,
-"mt": "Eigenaarsgrootboeken, afschriften, honoraria, uitbetalingen, reserves en budgetten voor elke eigenaar",
-"why": "too long: 101 characters, the limit is 80"
-},
-{
-"en": "percent, flat per unit or tiered fees with the minimum and VAT, and a tool that shows which structure is cheapest for the owner",
-"kind": "sentence",
-"max": 160,
-"mt": "procent, vaste vergoedingen per eenheid of gelaagde vergoedingen met het minimum en BTW, en een tool die laat zien welke structuur het goedkoopst is voor de eigenaar",
-"why": "too long: 165 characters, the limit is 160"
+"mt": "Eigenaarsgrootboeken, afschriften, kosten, Uitbetaling, reserves en Begroting voor elke eigenaar",
+"why": "too long: 96 characters, the limit is 80"
 },
 {
 "en": "Reserve targets that watch themselves",
@@ -52,22 +38,8 @@
 "en": "every property and category tracked against its yearly budget, with a year-end estimate and a status when it nears or passes the limit",
 "kind": "sentence",
 "max": 160,
-"mt": "elk vastgoed en elke categorie wordt bijgehouden ten opzichte van het jaarlijkse budget, met een schatting aan het einde van het jaar en een status wanneer de limiet wordt bereikt of overschreden",
-"why": "too long: 195 characters, the limit is 160"
-},
-{
-"en": "bank balance, deposits in transit and uncleared payments checked against the ledger cash, with every difference flagged",
-"kind": "sentence",
-"max": 160,
-"mt": "banksaldo, deposito's onderweg en niet-afgehandelde betalingen worden gecontroleerd aan de hand van het contante geld in het grootboek, waarbij elk verschil wordt gemarkeerd",
-"why": "too long: 173 characters, the limit is 160"
-},
-{
-"en": "quarters billed, paid and outstanding per unit, a rate-change notice, and a tool that splits the building budget by area and equally",
-"kind": "sentence",
-"max": 160,
-"mt": "gefactureerde, betaalde en openstaande kwartalen per eenheid, een kennisgeving van tariefwijziging en een tool die het bouwbudget opsplitst per oppervlakte en gelijkelijk",
-"why": "too long: 170 characters, the limit is 160"
+"mt": "elke Pand en categorie wordt bijgehouden ten opzichte van de jaarlijkse Begroting, met een schatting aan het einde van het jaar en een status wanneer deze de limiet nadert of overschrijdt",
+"why": "too long: 187 characters, the limit is 160"
 },
 {
 "en": "Internet",
@@ -80,8 +52,8 @@
 "en": "Owner pays, recovered from tenants",
 "kind": "list",
 "max": 30,
-"mt": "Eigenaar betaalt, verhaald op huurders",
-"why": "too long: 38 characters, the limit is 30"
+"mt": "Eigenaar betaalt, teruggevorderd van Huurder",
+"why": "too long: 44 characters, the limit is 30"
 },
 {
 "en": "Waiting for owner approval",
@@ -89,13 +61,6 @@
 "max": 30,
 "mt": "Wachten op goedkeuring van de eigenaar",
 "why": "too long: 38 characters, the limit is 30"
-},
-{
-"en": "Over budget",
-"kind": "list",
-"max": 30,
-"mt": "Over budget",
-"why": "not translated"
 },
 {
 "en": "Bill Approval",
@@ -112,20 +77,6 @@
 "why": "too long: 39 characters, the limit is 31"
 },
 {
-"en": "Property Tax Estimate",
-"kind": "sheet",
-"max": 31,
-"mt": "Schatting onroerendgoedbelasting",
-"why": "too long: 32 characters, the limit is 31"
-},
-{
-"en": "Fee Change Notice",
-"kind": "sheet",
-"max": 31,
-"mt": "Kennisgeving van tariefwijziging",
-"why": "too long: 32 characters, the limit is 31"
-},
-{
 "en": "Year-end Reporting",
 "kind": "sheet",
 "max": 31,
@@ -138,20 +89,6 @@
 "max": 60,
 "mt": "Voorschotten van de eigenaar die nog moeten worden terugbetaald",
 "why": "too long: 63 characters, the limit is 60"
-},
-{
-"en": "Run holiday homes for many owners: bookings, channels, pricing, payouts",
-"kind": "sentence",
-"max": 80,
-"mt": "Beheer vakantiehuizen voor veel eigenaren: boekingen, kanalen, prijzen, uitbetalingen",
-"why": "too long: 85 characters, the limit is 80"
-},
-{
-"en": "Bookings, channels, pricing, cleaning and owner payouts for holiday homes",
-"kind": "sentence",
-"max": 80,
-"mt": "Boekingen, kanalen, prijzen, schoonmaak en uitbetalingen aan eigenaren voor vakantiehuizen",
-"why": "too long: 90 characters, the limit is 80"
 },
 {
 "en": "Direct",
@@ -236,13 +173,6 @@
 "max": null,
 "mt": "Agent 70%",
 "why": "not translated"
-},
-{
-"en": "Non-renewal Notice",
-"kind": "sheet",
-"max": 31,
-"mt": "Kennisgeving van niet-verlenging",
-"why": "too long: 32 characters, the limit is 31"
 },
 {
 "en": "New owner client onboarding",

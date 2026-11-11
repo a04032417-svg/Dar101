@@ -3,22 +3,22 @@
 "en": "From enquiry to signed lease",
 "kind": "sheet",
 "max": 31,
-"mt": "انکوائری سے لے کر دستخط شدہ لیز تک",
-"why": "too long: 34 characters, the limit is 31"
+"mt": "انکوائری سے دستخط شدہ کرایہ نامہ تک",
+"why": "too long: 35 characters, the limit is 31"
 },
 {
 "en": "Tenants pay direct",
 "kind": "list",
 "max": 30,
-"mt": "کرایہ دار براہ راست ادائیگی کرتے ہیں۔",
-"why": "too long: 37 characters, the limit is 30"
+"mt": "کرایہ دار براہ راست ادائیگی کریں۔",
+"why": "too long: 33 characters, the limit is 30"
 },
 {
 "en": "Owner pays, recovered from tenants",
 "kind": "list",
 "max": 30,
-"mt": "مالک ادائیگی کرتا ہے، کرایہ داروں سے وصول کیا جاتا ہے۔",
-"why": "too long: 54 characters, the limit is 30"
+"mt": "مالک ادائیگی کرتا ہے، کرایہ دار سے بازیافت",
+"why": "too long: 42 characters, the limit is 30"
 },
 {
 "en": "Owner Exit and Handover",
@@ -31,8 +31,8 @@
 "en": "Record payouts on Payouts, advances on Owner Advances, and use the Owner Payout tool to plan the reserve top-up first.",
 "kind": "sentence",
 "max": null,
-"mt": "ادائیگیوں پر ادائیگیوں کو ریکارڈ کریں، مالک کی ایڈوانسز پر پیش قدمی کریں، اور پہلے ریزرو ٹاپ اپ کی منصوبہ بندی کرنے کے لیے Owner Payout ٹول کا استعمال کریں۔",
-"why": "English/Latin words left: Owner Payout"
+"mt": "مالک کو ادائیگی کو مالک کو ادائیگی کو ریکارڈ کریں، مالک کی ایڈوانسز پر پیش قدمی کریں، اور پہلے ریزرو ٹاپ اپ کی منصوبہ بندی کرنے کے لیے Owner مالک کو ادائیگی ٹول کا استعمال کریں۔",
+"why": "English/Latin words left: Owner"
 },
 {
 "en": "Re: {col:acquisitions.address}, {col:acquisitions.district}, about {col:acquisitions.area} m².",
@@ -52,21 +52,14 @@
 "en": "Enter the units you manage on My Units. Market rent, the gap to market, extra rent possible and a review suggestion appear by themselves.",
 "kind": "sentence",
 "max": null,
-"mt": "وہ یونٹ درج کریں جن کا آپ My Units پر انتظام کرتے ہیں۔ مارکیٹ کا کرایہ، مارکیٹ تک کا فرق، ممکنہ اضافی کرایہ اور جائزہ لینے کی تجویز بذات خود ظاہر ہوتی ہے۔",
-"why": "English/Latin words left: My Units"
-},
-{
-"en": "Run holiday homes for many owners: bookings, channels, pricing, payouts",
-"kind": "sentence",
-"max": 80,
-"mt": "بہت سے مالکان کے لیے چھٹی والے گھر چلائیں: بکنگ، چینلز، قیمتوں کا تعین، ادائیگیاں",
-"why": "too long: 81 characters, the limit is 80"
+"mt": "وہ یونٹ درج کریں جس کا انتظام آپ My یونٹ پر کرتے ہیں۔ مارکیٹ کرایہ، مارکیٹ کا فرق، اضافی کرایہ ممکن ہے اور ایک جائزہ تجویز خود ظاہر ہوتا ہے۔",
+"why": "English/Latin words left: My"
 },
 {
 "en": "30, 90 and 365-day occupancy, ADR and RevPAR with owner stays taken out of the nights you could sell",
 "kind": "sentence",
 "max": 160,
-"mt": "30، 90 اور 365 دن کا قبضہ، مالک کے ساتھ ADR اور RevPAR ان راتوں میں سے نکالے گئے جنہیں آپ بیچ سکتے ہیں۔",
+"mt": "30، 90 اور 365 دن آبادی کی شرح، ADR اور RevPAR مالک کے ساتھ ان راتوں میں سے نکالے گئے جن کو آپ بیچ سکتے ہیں",
 "why": "English/Latin words left: ADR RevPAR"
 },
 {
@@ -101,7 +94,7 @@
 "en": "One row per holiday home: rates, rules, owner, access details and live results such as occupancy, ADR, RevPAR, revenue and owner payout.",
 "kind": "sentence",
 "max": null,
-"mt": "ایک قطار فی چھٹی والے گھر: قیمتیں، قواعد، مالک، رسائی کی تفصیلات اور لائیو نتائج جیسے قبضے، ADR، RevPAR، محصول اور مالک کی ادائیگی۔",
+"mt": "ایک قطار فی چھٹی والے گھر: نرخ، قواعد، مالک، رسائی کی تفصیلات اور لائیو نتائج جیسے کہ آبادی کی شرح، ADR، RevPAR، محصول اور مالک مالک کو ادائیگی۔",
 "why": "English/Latin words left: ADR RevPAR"
 },
 {
@@ -119,13 +112,6 @@
 "why": "never use the word for \"compatible\""
 },
 {
-"en": "Occupancy a home needs to cover its costs",
-"kind": "title",
-"max": 60,
-"mt": "کسی گھر کو قبضے کے لیے اس کے اخراجات پورے کرنے کی ضرورت ہوتی ہے۔",
-"why": "too long: 64 characters, the limit is 60"
-},
-{
 "en": "Hello {guest}, the Wi-Fi at {unit} is: {wifi}. Enjoy your stay!",
 "kind": "message",
 "max": null,
@@ -136,7 +122,7 @@
 "en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
 "kind": "message",
 "max": null,
-"mt": "ہیلو {owner}، {name} پر ایک اپ ڈیٹ: پچھلے 90 دنوں میں قبضہ {occ90}، پچھلے 12 مہینوں میں کمرے کی آمدنی {rev12}۔ اگر آپ قیمتوں کا جائزہ لینا چاہتے ہیں تو ہمیں کال کریں۔",
+"mt": "ہیلو {owner}، {name} پر ایک اپ ڈیٹ: آبادی کی شرح پچھلے 90 دنوں میں {occ90}، پچھلے 12 مہینوں میں کمرے کی آمدنی {rev12}۔ اگر آپ قیمتوں کا جائزہ لینا چاہتے ہیں تو ہمیں کال کریں۔",
 "why": "English/Latin words left: occ rev"
 },
 {
