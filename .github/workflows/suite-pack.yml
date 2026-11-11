@@ -1,0 +1,36 @@
+# Packs a built suite (after every part passed suite-build): one ZIP with a folder per workbook, and the suite's pictures in every
+# language (cover, every page of every workbook, the parts' own pictures) → branch out/<suite>/pack. Trigger: push build/<suite>/suite.json.
+name: suite-pack
+on:
+  push:
+    branches: [suite]
+    paths: ['build/**/suite.json']
+permissions:
+  contents: write
+jobs:
+  pack:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - name: tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends fonts-noto-core fonts-noto-cjk fonts-noto-extra fonts-inter >/dev/null
+          if ! fc-list | grep -q "Inter Display"; then curl -fsSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip && mkdir -p ~/.fonts && unzip -qo /tmp/inter.zip 'extras/otf/*' -d /tmp/inter && cp /tmp/inter/extras/otf/*.otf ~/.fonts/ && fc-cache -f >/dev/null; fi
+          pip install -q openpyxl cryptography pillow playwright
+          python -m playwright install --with-deps chromium >/dev/null
+      - name: pack
+        run: |
+          f=$(git diff --name-only HEAD~1 HEAD -- 'build/**/suite.json' | head -1); suite=$(basename "$(dirname "$f")")
+          for p in $(python3 -c "import json;print(' '.join(json.load(open('$f'))['parts']))"); do
+            git clone -q --depth 1 -b "out/$suite/$p" "https://github.com/${{ github.repository }}" "/tmp/parts/$p"
+          done
+          python3 runtime/suite_pack.py "$f" /tmp/parts /tmp/pack
+          echo "SUITE=$suite" >> $GITHUB_ENV
+      - name: publish
+        run: |
+          cd /tmp/pack && rm -rf work && git init -q && git checkout -q -b r && git add -A
+          git -c user.name=suite-pack -c user.email=actions@github.com commit -q -m "pack $SUITE"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" r:refs/heads/out/$SUITE/pack

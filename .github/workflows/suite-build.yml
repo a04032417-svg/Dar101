@@ -19,7 +19,7 @@ jobs:
         with: { fetch-depth: 2 }
       - id: p
         run: |
-          files=$(git diff --name-only HEAD~1 HEAD -- 'build/**.json' | grep -v '/listing' || true)
+          files=$(git diff --name-only HEAD~1 HEAD -- 'build/**.json' | grep -v '/listing' | grep -v '/suite.json' || true)
           echo "specs=$(printf '%s\n' $files | python3 -c 'import sys,json; print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')" >> "$GITHUB_OUTPUT"
   build:
     needs: plan
