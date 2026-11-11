@@ -1,0 +1,488 @@
+[
+{
+"en": "Coach Pay Calculator",
+"where": "pt3:tools[coach_pay].sheet",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Coach phone",
+"where": "pt4:tables[classes].columns[phone].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Hiring what-if for a new coach",
+"where": "pt3:tools[hire].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Income 60 a session",
+"where": "pt3:tools[breakeven].grid.rows[1].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Remind the recipient to book a first session",
+"where": "pt3:checklists[voucher_flow].steps[3].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Coaches to add, below zero means spare",
+"where": "pt4:tools[staffing].outputs[6].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Clients at the end of the month",
+"where": "pt1:tools[retention].outputs[3].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Paid so far by clients from this source",
+"where": "pt1:tools[source_roi].outputs[6].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Coach pay and hours by month",
+"where": "pt3:insights.charts[6].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Your net income per session delivered, last 3 months",
+"where": "pt3:tools[rate_rise].outputs[8].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Choose the cover coach",
+"where": "pt4:checklists[cover_plan].steps[1].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Leave and cover handover",
+"where": "pt4:documents[cover_handover].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Packages ending soon and the revenue you may lose",
+"where": "pt1:tools[renew_fc].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Packages to renew soon",
+"where": "pt1:dashboard.kpis[4].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Break-even sessions a week",
+"where": "pt3:tools[breakeven].outputs[2].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Programmes running now",
+"where": "pt2:dashboard.kpis[0].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Fair refund when a client leaves mid-package",
+"where": "pt1:tools[refund].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Cost per new client",
+"where": "pt1:tables[spend].columns[cpc].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Clients at once",
+"where": "pt4:tables[rooms].columns[capacity].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Leave starts, check the timetable shows the cover",
+"where": "pt4:checklists[cover_plan].steps[6].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Package",
+"where": "pt1:tables[packages].columns[name].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Session starts",
+"where": "pt4:tools[reminder_time].outputs[0].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Margin per session",
+"where": "pt3:tables[packages].columns[m_s].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Check the floor for spills, loose plates and trip hazards",
+"where": "pt4:checklists[open_day].steps[1].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Client Value",
+"where": "pt1:tools[ltv].sheet",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Find the cause with the coach on duty",
+"where": "pt4:checklists[incident_follow].steps[3].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Trial",
+"where": "pt1:lists[kind].values[trial]",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Session Type",
+"where": "pt4:lists[btype].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Value of sessions that expired",
+"where": "pt1:tables[memberships].columns[unused_val].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Sessions in package",
+"where": "pt1:tables[memberships].columns[sessions].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Trials that joined",
+"where": "pt1:tables[coaches].columns[n_joined].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Entries a lift needs before it is judged",
+"where": "pt2:settings[min_logs].label",
+"kind": "setting",
+"max": null
+},
+{
+"en": "Clients who scored 7 or 8",
+"where": "pt4:tools[nps_calc].inputs[pas].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Coach ID",
+"where": "pt1:tables[coaches].columns[coach_id].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Other sessions",
+"where": "pt3:tools[profit_hour].grid.title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Plate Calculator",
+"where": "pt2:tools[plates].sheet",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "5 sessions",
+"where": "pt3:tools[pkg_design].grid.rows[0].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Lost session rate, last 90 days",
+"where": "pt4:tools[late_fee].outputs[9].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Package ending soon",
+"where": "pt1:messages[m_end].moment",
+"kind": "label",
+"max": null
+},
+{
+"en": "Closure and weather calendar with sessions moved",
+"where": "pt4:signature[10].name",
+"kind": "label",
+"max": 50
+},
+{
+"en": "Plateau and slipping-lift detector",
+"where": "pt2:signature[1].name",
+"kind": "label",
+"max": 50
+},
+{
+"en": "Review score by coach",
+"where": "pt4:insights.charts[12].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Lift or test",
+"where": "pt2:tables[goals].columns[item].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "New Coach Onboarding",
+"where": "pt3:checklists[coach_start].title",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Trial-to-package conversion by coach",
+"where": "pt1:signature[7].name",
+"kind": "label",
+"max": 50
+},
+{
+"en": "Client Notes",
+"where": "pt1:tables[notes].sheet",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Margin per package before",
+"where": "pt3:tools[discount].outputs[2].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Programme blocks given to clients",
+"where": "pt2:tables[assignments].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Cost per session",
+"where": "pt3:tables[pay].columns[cost_s].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Sessions moved or cancelled",
+"where": "pt4:tables[closures].columns[moved].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Wanted coach",
+"where": "pt1:tables[waitlist].columns[coach].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Plateaued lifts",
+"where": "pt2:tables[coaches].columns[n_plat].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Clients due for a deload",
+"where": "pt2:dashboard.kpis[25].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Clients by coach",
+"where": "pt1:insights.charts[7].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Utilisation by coach",
+"where": "pt3:insights.charts[7].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Records and plateaus by lift",
+"where": "pt2:tables[lifts].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Sessions kept",
+"where": "pt1:tables[freezes].columns[left].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Sessions booked, next 3 weeks",
+"where": "pt4:dashboard.kpis[5].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Package sales, cash and refunds by month",
+"where": "pt1:dashboard.monthly.title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Sessions bought",
+"where": "pt3:tables[balances].columns[sessions].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Lift status",
+"where": "pt2:tables[lifts].columns[flag].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Package cancelled",
+"where": "pt3:lists[rf_reason].values[cancel]",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Value of the session",
+"where": "pt1:tables[sessions].columns[value].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Friend of a client",
+"where": "pt1:lists[why].values[friend]",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Clients Dashboard",
+"where": "pt1:dashboard.title",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Thank-you message with the package offer",
+"where": "pt1:checklists[trial_flow].steps[2].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Review the first month: results and package fit",
+"where": "pt1:checklists[onboard].steps[6].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Sessions left",
+"where": "pt1:tables[clients].columns[left].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Sessions a month",
+"where": "pt3:tools[rate_rise].inputs[sessions].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Coach pay sheet with utilisation and margin",
+"where": "pt3:signature[3].name",
+"kind": "label",
+"max": 50
+},
+{
+"en": "Workout Log",
+"where": "pt2:tables[workouts].sheet",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Quads sets per week",
+"where": "pt2:tools[prog_builder].outputs[9].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Calves",
+"where": "pt2:lists[muscle].values[calves]",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Cover thank you",
+"where": "pt4:messages[m_lv_thanks].moment",
+"kind": "label",
+"max": null
+},
+{
+"en": "Heart rate reserve",
+"where": "pt2:tools[hr_zones].outputs[1].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Opening check",
+"where": "pt4:lists[ck_kind].values[open]",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Weekly check-in request",
+"where": "pt2:messages[m_checkin].moment",
+"kind": "label",
+"max": null
+},
+{
+"en": "Missing",
+"where": "pt1:lists[state].values[missing]",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Programme Split",
+"where": "pt2:lists[split].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Plates of 25 kg, each side",
+"where": "pt2:tools[plates].outputs[1].label",
+"kind": "label",
+"max": null
+},
+{
+"en": "Slipping lifts",
+"where": "pt2:tables[clients].columns[n_slip].label",
+"kind": "label",
+"max": null
+}
+]
