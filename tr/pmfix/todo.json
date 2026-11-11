@@ -1,0 +1,846 @@
+[
+{
+"en": "VAT on fees tied to the ledger",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "VAT on fees, ledger-linked"
+},
+{
+"en": "Payouts and reserve moves",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Payouts, reserves"
+},
+{
+"en": "VAT on management fees",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "VAT on fees"
+},
+{
+"en": "Owner pays, recovered from tenants",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Tenant-paid costs"
+},
+{
+"en": "Run holiday homes for many owners: bookings, channels, pricing, payouts",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Holiday homes: bookings, prices, payouts"
+},
+{
+"en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
+"where": "fix",
+"kind": "message",
+"max": null
+},
+{
+"en": "Mortgage or legal adviser",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Mortgage or legal"
+},
+{
+"en": "Read the Office Dashboard and the Charts every week: income, profit, pipeline, workload and service quality at a glance.",
+"where": "fix",
+"kind": "sentence",
+"max": null,
+"src": "Read the dashboard and the charts every week: income, profit, pipeline, workload and service quality at a glance."
+},
+{
+"en": "Rent roll, tenants, leases, arrears, deposits and renewals for every owner",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Rent roll, leases, arrears and renewals"
+},
+{
+"en": "From enquiry to signed lease",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Enquiry to lease"
+},
+{
+"en": "Handling a tenant request",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Tenant request"
+},
+{
+"en": "Owner statements, fees, payouts, reserves and budgets for property managers",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Owner statements, fees, payouts and reserves"
+},
+{
+"en": "Owner ledgers, statements, fees, payouts, reserves and budgets for every owner",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Owner ledgers, statements, fees and payouts"
+},
+{
+"en": "Owner Accounting Dashboard",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Accounting Dashboard"
+},
+{
+"en": "opening balance, income, expenses, fees, reserve, payout and closing balance for every owner and month, with the ledger lines printed under it",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "opening balance, income, expenses, fees, payout and closing balance for every owner and month, with the ledger lines under it"
+},
+{
+"en": "percent, flat per unit or tiered fees with the minimum and VAT, and a tool that shows which structure is cheapest for the owner",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "percent, flat or tiered fees with minimum and VAT, and a tool showing the cheapest structure for the owner"
+},
+{
+"en": "every property and category tracked against its yearly budget, with a year-end estimate and a status when it nears or passes the limit",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "every property and category against its yearly budget, with a year-end estimate and a limit warning"
+},
+{
+"en": "quarters billed, paid and outstanding per unit, a rate-change notice, and a tool that splits the building budget by area and equally",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "quarters billed, paid and unpaid per unit, a rate-change notice and a tool that splits the building budget"
+},
+{
+"en": "Utilities recovered",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Management and leasing fees",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Management and letting fees"
+},
+{
+"en": "Percent of rent collected",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Percent of rent"
+},
+{
+"en": "Registration and attestation",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Registration"
+},
+{
+"en": "Waiting for owner approval",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Awaiting owner approval"
+},
+{
+"en": "Compare Fee Structures",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Compare Fees"
+},
+{
+"en": "New Owner Onboarding",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "New Owner Setup"
+},
+{
+"en": "Owner advances left to repay",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Owner advances to repay"
+},
+{
+"en": "Absorption: months to let the vacant and new units",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Absorption: months to let vacant units"
+},
+{
+"en": "Permit and tourism fees",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Owner Report Letter",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Owner Report"
+},
+{
+"en": "Win and keep owners, run your team and see company profit",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Win owners, run your team, see profit"
+},
+{
+"en": "Win and keep owners, run your team and see the company profit",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Win owners, run your team, see profit"
+},
+{
+"en": "every lead shows the fee it would bring each month and year, its stage and an alert when a follow-up is overdue",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "every lead shows its monthly and yearly fee, its stage and an overdue follow-up alert"
+},
+{
+"en": "fee proposal, capacity, client profit, break-even, commission split, fee benchmark, hire cost, referral fee, cash runway, price rise, staff benchmark, churn",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "fee proposal, capacity, client profit, break-even, commission split, fee benchmark, hiring, referral fee, cash runway and churn"
+},
+{
+"en": "the fee owed to each partner agent as a share of the first-year fee, with paid, due and above-limit flags and a partner statement",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "the fee owed to each partner agent as a share of the first-year fee, with paid, due and over-limit flags"
+},
+{
+"en": "the fee planned at each renewal, the extra income it brings and a calculator that shows how many clients you can lose before it stops paying",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "the fee planned at each renewal, the extra income and how many clients you can lose before it stops paying"
+},
+{
+"en": "Owner manages it alone",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Owner self-manages"
+},
+{
+"en": "New owner client onboarding",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "New Owner Setup"
+},
+{
+"en": "Quarterly client review",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Quarterly review"
+},
+{
+"en": "Owner statements that build themselves",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Self-building owner statements"
+},
+{
+"en": "every rent receipt, bill, fee, payout and reserve move for 14 months, tagged to the owner, property, unit and statement",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "every rent receipt, bill, fee, payout and reserve move for 14 months, tagged to owner, property and unit"
+},
+{
+"en": "Payout planner with reserve top-up",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Payout and reserve planner"
+},
+{
+"en": "Payout to owner",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Owner payout"
+},
+{
+"en": "New lease",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Net operating income, yields and cap rate",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Net income, yields and cap rate"
+},
+{
+"en": "Property Tax Estimate",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Property Tax"
+},
+{
+"en": "New Property Setup",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "New Property"
+},
+{
+"en": "Rent or buy: which costs less over the years?",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Rent or buy: which costs less?"
+},
+{
+"en": "Owner Market Update",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Market Update"
+},
+{
+"en": "District Scouting Visit",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "District Visit"
+},
+{
+"en": "Bookings, channels, pricing, cleaning and owner payouts for holiday homes",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Bookings, channels, pricing, cleaning and payouts for holiday homes"
+},
+{
+"en": "Fire safety certificate",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Fire certificate"
+},
+{
+"en": "Pool safety check",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Pool check"
+},
+{
+"en": "Payout Statement",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Payout Note"
+},
+{
+"en": "Cleaning Fee Setter",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Cleaning Fee"
+},
+{
+"en": "Our fee was too high",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Fee too high"
+},
+{
+"en": "Developer sales team",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Developer team"
+},
+{
+"en": "Office Break-even",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Break-even"
+},
+{
+"en": "Staff Benchmark",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Staff Pay Check"
+},
+{
+"en": "Lead follow-up cadence",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Lead follow-up"
+},
+{
+"en": "VAT on Fees",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Fee VAT"
+},
+{
+"en": "Add sales you hear about on Sale Comps; each one shows its price per m² and the yield it implies.",
+"where": "fix",
+"kind": "sentence",
+"max": null,
+"src": "Add the sales you hear about; each one shows its price per m² and the yield it implies."
+},
+{
+"en": "Unit-by-unit inspection with photos",
+"where": "fix",
+"kind": "label",
+"max": null,
+"src": "Inspect every unit with photos"
+},
+{
+"en": "each bill is checked against the owner's limit and waits for approval above it, with overdue and days-late status",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "each bill is checked against the owner's limit and waits for approval above it, with overdue status"
+},
+{
+"en": "Trust Deposits",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Held Deposits"
+},
+{
+"en": "Payout Advice",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Payout Slip"
+},
+{
+"en": "Owner Payout",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Payout Tool"
+},
+{
+"en": "Cash Flow Forecast",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Cash Forecast"
+},
+{
+"en": "Fee Change Notice",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Fee Notice"
+},
+{
+"en": "Owner Exit and Handover",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Owner Exit"
+},
+{
+"en": "Broker Opinion of Value",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Value Opinion"
+},
+{
+"en": "Holiday Rentals Dashboard",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Holiday Dashboard"
+},
+{
+"en": "Software and lock fees",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Liability insurance",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Liability cover"
+},
+{
+"en": "Owner Payouts",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Payout Log"
+},
+{
+"en": "Deposit Sizing",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Deposit Size"
+},
+{
+"en": "Licence Renewal Letter",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Licence Renewal"
+},
+{
+"en": "New listing launch",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "New listing"
+},
+{
+"en": "Owner pipeline with yearly fee value",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Owner pipeline and yearly fees"
+},
+{
+"en": "Services did not fit",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Wrong services"
+},
+{
+"en": "Maintenance coordination",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Maintenance"
+},
+{
+"en": "How safe is the company cash",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "How safe is company cash"
+},
+{
+"en": "New staff onboarding",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "New staff setup"
+},
+{
+"en": "Asking and achieved rent per m² by month",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Asking and achieved rent per m²"
+},
+{
+"en": "Booking.com",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Occupancy a home needs to cover its costs",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Break-even occupancy"
+},
+{
+"en": "Net on Booking.com",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "A direct booking beats Booking.com by",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Nightly price on Booking.com that nets the same as direct",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Owner ledger with signed amounts",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Ledger with signed amounts"
+},
+{
+"en": "Payout due",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "How big the damage deposit should be",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Right damage deposit size"
+},
+{
+"en": "Service charges recovered",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Service charges back"
+},
+{
+"en": "Behind schedule",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Behind plan"
+},
+{
+"en": "Owner payout statements",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Payout statements"
+},
+{
+"en": "Insurance claim",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Owner monthly payout statement",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Monthly payout statement"
+},
+{
+"en": "Damage Claim Letter",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Damage Claim"
+},
+{
+"en": "Reserve targets that watch themselves",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Self-watching reserve targets"
+},
+{
+"en": "Bill Approval",
+"where": "fix",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Year-end Summary",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Year Summary"
+},
+{
+"en": "Year-end Reporting",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Year Report"
+},
+{
+"en": "Gas safety check",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Gas check"
+},
+{
+"en": "net operating income, gross and net yield, expense ratio and value at your target cap rate, per property and in a calculator",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "net income, gross and net yield, expense ratio and value at your cap rate, per property"
+},
+{
+"en": "Stationery and printing",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Stationery, printing"
+},
+{
+"en": "Difference to explain",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Unexplained gap"
+},
+{
+"en": "Service Charge Split",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Charge Split"
+},
+{
+"en": "Service charge billed and paid by property",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Service charge billed and paid"
+},
+{
+"en": "Rent Benchmark Letter",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Rent Review Letter"
+},
+{
+"en": "Office assets and subscriptions",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Company assets and subscriptions"
+},
+{
+"en": "Maintenance coordinator",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Maintenance lead"
+},
+{
+"en": "Compliment",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Contract Status",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Sent on time",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Sent late",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Trip Purpose",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Key handover",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Authority or bank",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Computer or phone",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Software subscription",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Vehicle lease",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Trusted vendor",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Claimed from guest",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Charged to guest"
+},
+{
+"en": "Tenants pay direct",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Enter the units you manage on My Units. Market rent, the gap to market, extra rent possible and a review suggestion appear by themselves.",
+"where": "fix",
+"kind": "sentence",
+"max": null,
+"src": "Enter the units you manage. Market rent, the gap to market, extra rent possible and a review suggestion appear by themselves."
+}
+]
