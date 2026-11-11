@@ -1,3 +1,10 @@
+PROBE https://models.github.ai/inference/chat/completions HTTP/2 200 
+content-type: text/plain
+
+OK
+
+PROBE https://models.inference.ai.azure.com/chat/completions curl: (6) Could not resolve host: models.inference.ai.azure.com
+
 ar todo 8 done 0 missing 8
   RAW 200 {} 'OK\r\n'
   openai/gpt-4.1-mini error JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
