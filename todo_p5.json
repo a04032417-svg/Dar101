@@ -1,0 +1,6533 @@
+[
+{
+"en": "Payroll, leave, depreciation, loans and insurance for every client in one file",
+"where": "ac5:tagline",
+"kind": "sentence",
+"max": 80,
+"wbs": []
+},
+{
+"en": "Payroll and Assets Dashboard",
+"where": "ac5:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Gross to net payslips from your own rules",
+"where": "ac5:signature[0].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "contributions, income tax by your bands, overtime from the Overtime sheet and allowances give the net pay and the employer cost for every employee",
+"where": "ac5:signature[0].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Monthly payroll runs for every client",
+"where": "ac5:signature[1].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "headcount, gross, net, tax and total cost for each client and month, with a pay date and a status that shows paid, late or overdue",
+"where": "ac5:signature[1].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Overtime priced by your factors",
+"where": "ac5:signature[2].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "hours, type and the hourly rate from basic salary give the pay, and it flows into the payslip of the month",
+"where": "ac5:signature[2].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Leave balances with a money value",
+"where": "ac5:signature[3].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "days earned, taken and carried over show who is over-taken or holding too many days, and what the unused leave is worth",
+"where": "ac5:signature[3].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Contributions and payroll tax with due dates",
+"where": "ac5:signature[4].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "employee and employer shares by scheme and quarter, and every amount owed to an authority with days late and the balance",
+"where": "ac5:signature[4].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "End-of-service and final pay",
+"where": "ac5:signature[5].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "years of service, end-of-service pay by your days a year, leave pay and notice pay add up to the final pay with a pay-by date",
+"where": "ac5:signature[5].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Hires and leavers registered on time",
+"where": "ac5:signature[6].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "every staff change has a deadline to register it with the authority and shows registered, late or overdue",
+"where": "ac5:signature[6].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Fixed asset register with book value",
+"where": "ac5:signature[7].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "cost, salvage, life and method give depreciation so far, net book value, this year's charge and whether the asset is fully depreciated",
+"where": "ac5:signature[7].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Depreciation schedule by year",
+"where": "ac5:signature[8].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "opening value, charge and closing value for every asset and year, straight line or declining balance, ready for the yearly journal",
+"where": "ac5:signature[8].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Disposals with gain or loss",
+"where": "ac5:signature[9].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "proceeds less selling costs and book value at disposal give the gain or loss for the books and the tax return",
+"where": "ac5:signature[9].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Loans and leases with schedules",
+"where": "ac5:signature[10].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "monthly payment, balance left, total interest and a yearly amortisation of principal and interest for every loan and lease",
+"where": "ac5:signature[10].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Insurance, warranty and asset counts",
+"where": "ac5:signature[11].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "cover gap against book value, days to expiry and count results show which assets are unprotected, missing or damaged",
+"where": "ac5:signature[11].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Payroll and Fixed Assets",
+"where": "ac5:name",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Your practice name",
+"where": "ac5:settings[firm].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee social contribution rate",
+"where": "ac5:settings[soc_emp].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer social contribution rate",
+"where": "ac5:settings[soc_er].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee pension rate",
+"where": "ac5:settings[pen_emp].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer pension rate",
+"where": "ac5:settings[pen_er].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly tax-free pay of an employee",
+"where": "ac5:settings[tax_free].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "First pay band upper limit, yearly",
+"where": "ac5:settings[b1_limit].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax rate in the first pay band",
+"where": "ac5:settings[b1_rate].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Second pay band upper limit, yearly",
+"where": "ac5:settings[b2_limit].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax rate in the second pay band",
+"where": "ac5:settings[b2_rate].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax rate above the second pay band",
+"where": "ac5:settings[b3_rate].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime factor on a normal working day",
+"where": "ac5:settings[ot_factor].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime factor on a rest day or holiday",
+"where": "ac5:settings[ot_rest].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid hours in a normal month",
+"where": "ac5:settings[month_hours].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Working days in a normal month",
+"where": "ac5:settings[work_days].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Minimum monthly wage for a full-time employee",
+"where": "ac5:settings[min_wage].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "End-of-service days of pay for each year worked",
+"where": "ac5:settings[eos_days].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days after the period end to pay payroll tax",
+"where": "ac5:settings[due_days].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days ahead to warn about a due date",
+"where": "ac5:settings[warn_days].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Most of an employee's salary that deductions may take",
+"where": "ac5:settings[garn_cap].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Staff",
+"where": "ac5:lists[staff].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Nadia Haddad",
+"where": "ac5:lists[staff].values[st1]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Daniel Okoye",
+"where": "ac5:lists[staff].values[st2]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Mariana Souza",
+"where": "ac5:lists[staff].values[st3]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Wei Zhang",
+"where": "ac5:lists[staff].values[st4]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Sofia Lindgren",
+"where": "ac5:lists[staff].values[st5]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Arjun Verma",
+"where": "ac5:lists[staff].values[st6]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Yes or No",
+"where": "ac5:lists[yn].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Job Type",
+"where": "ac5:lists[job].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Manager",
+"where": "ac5:lists[job].values[manager]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Supervisor",
+"where": "ac5:lists[job].values[supervisor]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Skilled worker",
+"where": "ac5:lists[job].values[skilled]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Assistant",
+"where": "ac5:lists[job].values[assistant]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Driver",
+"where": "ac5:lists[job].values[driver]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Technician",
+"where": "ac5:lists[job].values[technician]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Administrator",
+"where": "ac5:lists[job].values[admin]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Sales staff",
+"where": "ac5:lists[job].values[sales]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Trainer or teacher",
+"where": "ac5:lists[job].values[trainer]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Health worker",
+"where": "ac5:lists[job].values[health]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Contract Type",
+"where": "ac5:lists[contract].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Permanent",
+"where": "ac5:lists[contract].values[permanent]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Fixed term",
+"where": "ac5:lists[contract].values[fixed_term]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Part time",
+"where": "ac5:lists[contract].values[part_time]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Casual",
+"where": "ac5:lists[contract].values[casual]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Pay Component",
+"where": "ac5:lists[comp].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Housing allowance",
+"where": "ac5:lists[comp].values[housing]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Transport allowance",
+"where": "ac5:lists[comp].values[transport]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Meal allowance",
+"where": "ac5:lists[comp].values[meal]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Phone allowance",
+"where": "ac5:lists[comp].values[phone]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Shift allowance",
+"where": "ac5:lists[comp].values[shift]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Responsibility allowance",
+"where": "ac5:lists[comp].values[responsibility]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Staff Change",
+"where": "ac5:lists[mkind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New hire",
+"where": "ac5:lists[mkind].values[hire]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Leaver",
+"where": "ac5:lists[mkind].values[leaver]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Pay or contract change",
+"where": "ac5:lists[mkind].values[change]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Leaving Reason",
+"where": "ac5:lists[reason].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Resignation",
+"where": "ac5:lists[reason].values[resignation]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "End of contract",
+"where": "ac5:lists[reason].values[end_contract]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Redundancy",
+"where": "ac5:lists[reason].values[redundancy]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Dismissal",
+"where": "ac5:lists[reason].values[dismissal]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Retirement",
+"where": "ac5:lists[reason].values[retirement]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Overtime Type",
+"where": "ac5:lists[otk].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Normal working day",
+"where": "ac5:lists[otk].values[weekday]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Rest day",
+"where": "ac5:lists[otk].values[rest]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Public holiday",
+"where": "ac5:lists[otk].values[holiday]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Contribution Scheme",
+"where": "ac5:lists[scheme].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Social insurance",
+"where": "ac5:lists[scheme].values[social]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Pension fund",
+"where": "ac5:lists[scheme].values[pension]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Liability Kind",
+"where": "ac5:lists[liab].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Income tax withheld",
+"where": "ac5:lists[liab].values[income_tax]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Payroll levy",
+"where": "ac5:lists[liab].values[levy]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Interest and penalties",
+"where": "ac5:lists[liab].values[interest]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Asset Class",
+"where": "ac5:lists[aclass].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Computers",
+"where": "ac5:lists[aclass].values[computers]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Vehicles",
+"where": "ac5:lists[aclass].values[vehicles]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Furniture",
+"where": "ac5:lists[aclass].values[furniture]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Equipment",
+"where": "ac5:lists[aclass].values[equipment]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Buildings and fit-out",
+"where": "ac5:lists[aclass].values[buildings]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Software",
+"where": "ac5:lists[aclass].values[software]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Depreciation Method",
+"where": "ac5:lists[dmeth].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Straight line",
+"where": "ac5:lists[dmeth].values[sl]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Declining balance",
+"where": "ac5:lists[dmeth].values[db]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Disposal Reason",
+"where": "ac5:lists[dreas].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sold",
+"where": "ac5:lists[dreas].values[sold]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Scrapped",
+"where": "ac5:lists[dreas].values[scrapped]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Traded in",
+"where": "ac5:lists[dreas].values[traded]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Lost or stolen",
+"where": "ac5:lists[dreas].values[lost]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Loan Kind",
+"where": "ac5:lists[lkind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bank loan",
+"where": "ac5:lists[lkind].values[bank_loan]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Vehicle lease",
+"where": "ac5:lists[lkind].values[vehicle_lease]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Equipment lease",
+"where": "ac5:lists[lkind].values[equipment_lease]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Hire purchase",
+"where": "ac5:lists[lkind].values[hire_purchase]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Count Result",
+"where": "ac5:lists[found].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Found",
+"where": "ac5:lists[found].values[found]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Found in another place",
+"where": "ac5:lists[found].values[moved]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Damaged",
+"where": "ac5:lists[found].values[damaged]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Missing",
+"where": "ac5:lists[found].values[missing]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Deduction Kind",
+"where": "ac5:lists[gkind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Court order",
+"where": "ac5:lists[gkind].values[court]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Family support order",
+"where": "ac5:lists[gkind].values[family]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Staff loan",
+"where": "ac5:lists[gkind].values[staff_loan]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Salary advance",
+"where": "ac5:lists[gkind].values[advance]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Uniform or equipment",
+"where": "ac5:lists[gkind].values[uniform]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Bonus Scheme",
+"where": "ac5:lists[bsch].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Performance bonus",
+"where": "ac5:lists[bsch].values[performance]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Sales commission",
+"where": "ac5:lists[bsch].values[commission]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Year-end bonus",
+"where": "ac5:lists[bsch].values[year_end]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Referral bonus",
+"where": "ac5:lists[bsch].values[referral]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Retention bonus",
+"where": "ac5:lists[bsch].values[retention]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Status",
+"where": "ac5:lists[state].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid",
+"where": "ac5:lists[state].values[paid]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Paid late",
+"where": "ac5:lists[state].values[late_paid]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Registered",
+"where": "ac5:lists[state].values[registered]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Registered late",
+"where": "ac5:lists[state].values[reg_late]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Overdue",
+"where": "ac5:lists[state].values[overdue]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Due soon",
+"where": "ac5:lists[state].values[soon]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Upcoming",
+"where": "ac5:lists[state].values[upcoming]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Active",
+"where": "ac5:lists[state].values[active]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Left",
+"where": "ac5:lists[state].values[left]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Below minimum",
+"where": "ac5:lists[state].values[below]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "OK",
+"where": "ac5:lists[state].values[ok]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Cleared",
+"where": "ac5:lists[state].values[cleared]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Over limit",
+"where": "ac5:lists[state].values[over_cap]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Earned",
+"where": "ac5:lists[state].values[earned]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Not earned",
+"where": "ac5:lists[state].values[not_earned]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Over-taken",
+"where": "ac5:lists[state].values[over_taken]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "High balance",
+"where": "ac5:lists[state].values[high_bal]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "High payroll share",
+"where": "ac5:lists[state].values[heavy]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Expired",
+"where": "ac5:lists[state].values[expired]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Covered",
+"where": "ac5:lists[state].values[covered]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Under-insured",
+"where": "ac5:lists[state].values[gap]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Repaid",
+"where": "ac5:lists[state].values[repaid]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Ending soon",
+"where": "ac5:lists[state].values[ends_soon]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Asset Status",
+"where": "ac5:lists[astate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "In use",
+"where": "ac5:lists[astate].values[in_use]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Fully depreciated",
+"where": "ac5:lists[astate].values[fully]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Disposed",
+"where": "ac5:lists[astate].values[disposed]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Not yet bought",
+"where": "ac5:lists[astate].values[notyet]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Gain",
+"where": "ac5:lists[astate].values[gain]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Loss",
+"where": "ac5:lists[astate].values[loss]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Break-even",
+"where": "ac5:lists[astate].values[even]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Verified",
+"where": "ac5:lists[astate].values[verified]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Moved",
+"where": "ac5:lists[astate].values[moved]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Payroll Clients",
+"where": "ac5:tables[clients].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Payroll and asset profile of every client",
+"where": "ac5:tables[clients].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each client with turnover; staff on payroll, payroll cost over 12 months, its share of turnover, asset values and loan balance fill in from the other sheets.",
+"where": "ac5:tables[clients].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client ID",
+"where": "ac5:tables[clients].columns[client_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client",
+"where": "ac5:tables[clients].columns[name].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Phone",
+"where": "ac5:tables[clients].columns[phone].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll lead",
+"where": "ac5:tables[clients].columns[staff].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Country",
+"where": "ac5:tables[clients].columns[country].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly turnover",
+"where": "ac5:tables[clients].columns[turnover].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Staff on payroll",
+"where": "ac5:tables[clients].columns[heads].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gross pay, 12 months",
+"where": "ac5:tables[clients].columns[gross12].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll cost, 12 months",
+"where": "ac5:tables[clients].columns[cost12].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost per employee",
+"where": "ac5:tables[clients].columns[per_head].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll share of turnover",
+"where": "ac5:tables[clients].columns[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Assets at cost",
+"where": "ac5:tables[clients].columns[assets].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Assets, net book value",
+"where": "ac5:tables[clients].columns[nbv].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loan and lease balance",
+"where": "ac5:tables[clients].columns[debt].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late pay runs",
+"where": "ac5:tables[clients].columns[late].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll check",
+"where": "ac5:tables[clients].columns[state].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employees",
+"where": "ac5:tables[emps].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Employees of every client",
+"where": "ac5:tables[emps].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each employee of a client: job, contract, start and end date and monthly salary. The tenure, yearly pay and the status (active, left or below the minimum wage) fill in by themselves.",
+"where": "ac5:tables[emps].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee ID",
+"where": "ac5:tables[emps].columns[emp_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee",
+"where": "ac5:tables[emps].columns[name].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Job",
+"where": "ac5:tables[emps].columns[job].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Contract",
+"where": "ac5:tables[emps].columns[contract].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Start date",
+"where": "ac5:tables[emps].columns[start].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "End date",
+"where": "ac5:tables[emps].columns[end].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly salary",
+"where": "ac5:tables[emps].columns[salary].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly salary",
+"where": "ac5:tables[emps].columns[annual].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Years of service",
+"where": "ac5:tables[emps].columns[years].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Salary Components",
+"where": "ac5:tables[comps].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Allowances on top of basic salary",
+"where": "ac5:tables[comps].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Each fixed allowance an employee gets every month. The yearly amount and its share of basic salary fill in, and the total flows to the payslip.",
+"where": "ac5:tables[comps].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Component no",
+"where": "ac5:tables[comps].columns[cm_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Component",
+"where": "ac5:tables[comps].columns[comp].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly amount",
+"where": "ac5:tables[comps].columns[amount].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Taxable",
+"where": "ac5:tables[comps].columns[taxable].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Since",
+"where": "ac5:tables[comps].columns[since].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly amount",
+"where": "ac5:tables[comps].columns[yearly].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of basic salary",
+"where": "ac5:tables[comps].columns[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll Runs",
+"where": "ac5:tables[runs].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Monthly payroll runs by client",
+"where": "ac5:tables[runs].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each client and month: headcount, gross pay, overtime and tax withheld. The net pay, contributions, total cost, pay date and status (paid, paid late, overdue) come out.",
+"where": "ac5:tables[runs].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Run no",
+"where": "ac5:tables[runs].columns[run_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Staff paid",
+"where": "ac5:tables[runs].columns[headcount].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gross pay",
+"where": "ac5:tables[runs].columns[gross].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Of which overtime",
+"where": "ac5:tables[runs].columns[overtime].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax withheld",
+"where": "ac5:tables[runs].columns[tax].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid on",
+"where": "ac5:tables[runs].columns[paid_on].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee contributions",
+"where": "ac5:tables[runs].columns[emp_cont].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net pay",
+"where": "ac5:tables[runs].columns[net].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer contributions",
+"where": "ac5:tables[runs].columns[er].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total cost",
+"where": "ac5:tables[runs].columns[cost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gross per employee",
+"where": "ac5:tables[runs].columns[per_head].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay by",
+"where": "ac5:tables[runs].columns[due].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payslips",
+"where": "ac5:tables[slips].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Payslip lines: gross to net for each employee",
+"where": "ac5:tables[slips].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each employee and month: type any bonus and other deductions. Allowances, overtime from Overtime, contributions, tax by bands, net pay and employer cost come out.",
+"where": "ac5:tables[slips].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payslip no",
+"where": "ac5:tables[slips].columns[ps_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus",
+"where": "ac5:tables[slips].columns[bonus].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other deductions",
+"where": "ac5:tables[slips].columns[other_ded].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Basic salary",
+"where": "ac5:tables[slips].columns[salary].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Allowances",
+"where": "ac5:tables[slips].columns[allow].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime pay",
+"where": "ac5:tables[slips].columns[ot_pay].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Taxable pay",
+"where": "ac5:tables[slips].columns[taxable].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Income tax",
+"where": "ac5:tables[slips].columns[tax].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost to employer",
+"where": "ac5:tables[slips].columns[cost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Minimum wage check",
+"where": "ac5:tables[slips].columns[check].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime",
+"where": "ac5:tables[ot].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Overtime hours and pay",
+"where": "ac5:tables[ot].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Each overtime session of an employee: date, hours and type. The hourly rate from basic salary, the factor from your settings and the overtime pay come out and flow to the payslip.",
+"where": "ac5:tables[ot].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime no",
+"where": "ac5:tables[ot].columns[ot_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours",
+"where": "ac5:tables[ot].columns[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Type",
+"where": "ac5:tables[ot].columns[otk].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hourly rate",
+"where": "ac5:tables[ot].columns[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Factor",
+"where": "ac5:tables[ot].columns[factor].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave Balances",
+"where": "ac5:tables[leave].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Leave balances and the value of unused leave",
+"where": "ac5:tables[leave].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each employee and year: entitlement, days carried over and days taken. The days earned so far, the balance, the money value of unused days and a warning for over-taken leave fill in.",
+"where": "ac5:tables[leave].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave no",
+"where": "ac5:tables[leave].columns[lv_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days a year",
+"where": "ac5:tables[leave].columns[entitlement].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Carried over",
+"where": "ac5:tables[leave].columns[carried].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days taken",
+"where": "ac5:tables[leave].columns[taken].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Earned so far",
+"where": "ac5:tables[leave].columns[earned].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Available now",
+"where": "ac5:tables[leave].columns[available].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance for the year",
+"where": "ac5:tables[leave].columns[balance].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value of unused days",
+"where": "ac5:tables[leave].columns[value].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Contributions",
+"where": "ac5:tables[soc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Social contributions and pension by quarter",
+"where": "ac5:tables[soc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each client, scheme and quarter: type the pay base and the date paid. The employee share, the employer share, the total, the due date and the status come out.",
+"where": "ac5:tables[soc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Return no",
+"where": "ac5:tables[soc].columns[sc_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Quarter end",
+"where": "ac5:tables[soc].columns[period_end].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Scheme",
+"where": "ac5:tables[soc].columns[scheme].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay base",
+"where": "ac5:tables[soc].columns[base].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee share",
+"where": "ac5:tables[soc].columns[emp_sh].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer share",
+"where": "ac5:tables[soc].columns[er_sh].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total to pay",
+"where": "ac5:tables[soc].columns[total].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Due on",
+"where": "ac5:tables[soc].columns[due].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll Tax Due",
+"where": "ac5:tables[ptax].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Payroll tax liabilities and payments",
+"where": "ac5:tables[ptax].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Each amount owed to an authority for payroll: income tax withheld, levies, interest. Type the amount and what was paid; the due date, the balance, days late and the status come out.",
+"where": "ac5:tables[ptax].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Liability no",
+"where": "ac5:tables[ptax].columns[pt_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay month",
+"where": "ac5:tables[ptax].columns[month].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Liability",
+"where": "ac5:tables[ptax].columns[liab].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Amount",
+"where": "ac5:tables[ptax].columns[amount].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Still to pay",
+"where": "ac5:tables[ptax].columns[left].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days late",
+"where": "ac5:tables[ptax].columns[late].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "End of Service",
+"where": "ac5:tables[eos].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "End-of-service and final pay calculations",
+"where": "ac5:tables[eos].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each leaver: leave date, reason, unused leave and notice. Years of service, end-of-service pay, leave pay, notice pay, the total and the pay-by date come out.",
+"where": "ac5:tables[eos].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final pay no",
+"where": "ac5:tables[eos].columns[es_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Last day",
+"where": "ac5:tables[eos].columns[leave_on].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reason",
+"where": "ac5:tables[eos].columns[reason].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Eligible for end-of-service",
+"where": "ac5:tables[eos].columns[eligible].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Notice days",
+"where": "ac5:tables[eos].columns[notice_days].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Notice paid instead",
+"where": "ac5:tables[eos].columns[notice_paid].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Unused leave days",
+"where": "ac5:tables[eos].columns[unused_leave].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "End-of-service pay",
+"where": "ac5:tables[eos].columns[gratuity].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Unused leave pay",
+"where": "ac5:tables[eos].columns[leave_pay].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Notice pay",
+"where": "ac5:tables[eos].columns[notice_pay].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final pay",
+"where": "ac5:tables[eos].columns[total].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hires and Leavers",
+"where": "ac5:tables[moves].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "New hires, leavers and contract changes",
+"where": "ac5:tables[moves].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Each staff change a client tells you about. Type the date registered with the authority; the days since, the registration deadline and the status come out so none is missed.",
+"where": "ac5:tables[moves].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Change no",
+"where": "ac5:tables[moves].columns[mv_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Change",
+"where": "ac5:tables[moves].columns[kind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Note",
+"where": "ac5:tables[moves].columns[note].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Registered on",
+"where": "ac5:tables[moves].columns[registered_on].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days since",
+"where": "ac5:tables[moves].columns[days].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Register by",
+"where": "ac5:tables[moves].columns[due].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed Assets",
+"where": "ac5:tables[assets].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Fixed asset register",
+"where": "ac5:tables[assets].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each asset of a client: cost, salvage, life and method. Years used, depreciation so far, net book value, this year's charge and the status come out.",
+"where": "ac5:tables[assets].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Asset no",
+"where": "ac5:tables[assets].columns[fa_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Asset",
+"where": "ac5:tables[assets].columns[asset].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Class",
+"where": "ac5:tables[assets].columns[aclass].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bought on",
+"where": "ac5:tables[assets].columns[bought].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost",
+"where": "ac5:tables[assets].columns[cost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Salvage value",
+"where": "ac5:tables[assets].columns[salvage].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Life in years",
+"where": "ac5:tables[assets].columns[life].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Method",
+"where": "ac5:tables[assets].columns[method].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Declining rate",
+"where": "ac5:tables[assets].columns[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Disposed on",
+"where": "ac5:tables[assets].columns[disposed_on].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Years used",
+"where": "ac5:tables[assets].columns[years].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Depreciation so far",
+"where": "ac5:tables[assets].columns[accum].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net book value",
+"where": "ac5:tables[assets].columns[nbv].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Charge this year",
+"where": "ac5:tables[assets].columns[charge].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Depreciation Schedule",
+"where": "ac5:tables[deprec].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Depreciation schedule by asset and year",
+"where": "ac5:tables[deprec].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each asset and year: the opening value, the charge and the closing value come out from the cost, salvage, life and method. Use it for the yearly journal.",
+"where": "ac5:tables[deprec].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Line no",
+"where": "ac5:tables[deprec].columns[ds_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Years since purchase year",
+"where": "ac5:tables[deprec].columns[age].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Held in year",
+"where": "ac5:tables[deprec].columns[live].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Opening value",
+"where": "ac5:tables[deprec].columns[open].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Charge for the year",
+"where": "ac5:tables[deprec].columns[charge].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Closing value",
+"where": "ac5:tables[deprec].columns[close].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Disposals",
+"where": "ac5:tables[disp].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Asset disposals and gain or loss",
+"where": "ac5:tables[disp].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Each asset sold, scrapped, traded in or lost: type the date, proceeds and selling costs. The book value at disposal and the gain or loss come out for the journal and the tax return.",
+"where": "ac5:tables[disp].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Disposal no",
+"where": "ac5:tables[disp].columns[dsp_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Proceeds",
+"where": "ac5:tables[disp].columns[proceeds].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Selling costs",
+"where": "ac5:tables[disp].columns[costs_sale].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Depreciation to date",
+"where": "ac5:tables[disp].columns[accum].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Book value at disposal",
+"where": "ac5:tables[disp].columns[nbv].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gain or loss",
+"where": "ac5:tables[disp].columns[gain].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Result",
+"where": "ac5:tables[disp].columns[result].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loans and Leases",
+"where": "ac5:tables[loans].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Loans and leases of clients",
+"where": "ac5:tables[loans].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Each loan, lease or hire purchase: lender, start, amount, rate and term. The monthly payment, payments made, balance left, total interest, end date and status come out.",
+"where": "ac5:tables[loans].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loan no",
+"where": "ac5:tables[loans].columns[ln_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Kind",
+"where": "ac5:tables[loans].columns[lkind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lender",
+"where": "ac5:tables[loans].columns[lender].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly rate",
+"where": "ac5:tables[loans].columns[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Term in months",
+"where": "ac5:tables[loans].columns[term].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly payment",
+"where": "ac5:tables[loans].columns[pay].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payments made",
+"where": "ac5:tables[loans].columns[paid_n].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance left",
+"where": "ac5:tables[loans].columns[balance].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total interest",
+"where": "ac5:tables[loans].columns[interest].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final payment",
+"where": "ac5:tables[loans].columns[end_on].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Amortisation",
+"where": "ac5:tables[amort].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Amortisation schedule by loan and year",
+"where": "ac5:tables[amort].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each loan and year of its term: the opening balance, payments, interest, principal and closing balance come out from the loan details.",
+"where": "ac5:tables[amort].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Year of loan",
+"where": "ac5:tables[amort].columns[year_no].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Opening balance",
+"where": "ac5:tables[amort].columns[open].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Closing balance",
+"where": "ac5:tables[amort].columns[close].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid in the year",
+"where": "ac5:tables[amort].columns[paid_y].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Principal repaid",
+"where": "ac5:tables[amort].columns[principal].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Interest paid",
+"where": "ac5:tables[amort].columns[int_y].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Year ends",
+"where": "ac5:tables[amort].columns[ends].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Insurance and Warranty",
+"where": "ac5:tables[cover].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Insurance and warranty cover of assets",
+"where": "ac5:tables[cover].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Each asset's insurance policy and warranty. Days to expiry, the cover gap against book value and the status (covered, under-insured, due soon, expired) come out so no asset is left unprotected.",
+"where": "ac5:tables[cover].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Policy line",
+"where": "ac5:tables[cover].columns[cv_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Insurer",
+"where": "ac5:tables[cover].columns[insurer].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Policy number",
+"where": "ac5:tables[cover].columns[policy].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Insured value",
+"where": "ac5:tables[cover].columns[insured].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Premium",
+"where": "ac5:tables[cover].columns[premium].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cover ends",
+"where": "ac5:tables[cover].columns[expires].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Warranty ends",
+"where": "ac5:tables[cover].columns[warranty_end].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Book value",
+"where": "ac5:tables[cover].columns[nbv].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cover gap",
+"where": "ac5:tables[cover].columns[gap].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days of cover left",
+"where": "ac5:tables[cover].columns[days_ins].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days of warranty left",
+"where": "ac5:tables[cover].columns[days_war].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Asset Counts",
+"where": "ac5:tables[counts].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Physical asset counts",
+"where": "ac5:tables[counts].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Each asset checked at a count: result, place and who counted. The book value at risk and the status (verified, moved, damaged, missing) come out, and days since the count show which assets are due.",
+"where": "ac5:tables[counts].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Count no",
+"where": "ac5:tables[counts].columns[ct_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Count date",
+"where": "ac5:tables[counts].columns[date].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Place",
+"where": "ac5:tables[counts].columns[place].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Counted by",
+"where": "ac5:tables[counts].columns[staff].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days since the count",
+"where": "ac5:tables[counts].columns[since].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Book value at risk",
+"where": "ac5:tables[counts].columns[at_risk].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Deductions",
+"where": "ac5:tables[garn].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Garnishments and other deductions from pay",
+"where": "ac5:tables[garn].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Each court order, support order, staff loan or advance taken from pay: type the total, monthly amount and paid so far. Balance, months left, share of salary and status come out.",
+"where": "ac5:tables[garn].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Deduction no",
+"where": "ac5:tables[garn].columns[gd_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total owed",
+"where": "ac5:tables[garn].columns[total].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid so far",
+"where": "ac5:tables[garn].columns[paid].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months left",
+"where": "ac5:tables[garn].columns[months_left].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of salary",
+"where": "ac5:tables[garn].columns[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus Schemes",
+"where": "ac5:tables[bn].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Bonus and commission schemes",
+"where": "ac5:tables[bn].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Each bonus an employee can earn: target bonus, goal, result, the minimum to earn and the cap. The attainment, the payout, its share of yearly pay and the status (earned, paid, not earned) come out.",
+"where": "ac5:tables[bn].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus no",
+"where": "ac5:tables[bn].columns[bn_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Period end",
+"where": "ac5:tables[bn].columns[period_end].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Target bonus",
+"where": "ac5:tables[bn].columns[target_bonus].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Goal",
+"where": "ac5:tables[bn].columns[goal].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Result achieved",
+"where": "ac5:tables[bn].columns[result].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Minimum to earn",
+"where": "ac5:tables[bn].columns[min_pct].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cap",
+"where": "ac5:tables[bn].columns[cap_pct].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Goal reached",
+"where": "ac5:tables[bn].columns[attain].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus payout",
+"where": "ac5:tables[bn].columns[payout].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of yearly pay",
+"where": "ac5:tables[bn].columns[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employees on payroll",
+"where": "ac5:dashboard.kpis[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly salary bill",
+"where": "ac5:dashboard.kpis[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employees below the minimum wage",
+"where": "ac5:dashboard.kpis[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New hires, last 12 months",
+"where": "ac5:dashboard.kpis[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leavers, last 12 months",
+"where": "ac5:dashboard.kpis[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gross pay, last 12 months",
+"where": "ac5:dashboard.kpis[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total payroll cost, last 12 months",
+"where": "ac5:dashboard.kpis[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net pay, last 12 months",
+"where": "ac5:dashboard.kpis[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax withheld, last 12 months",
+"where": "ac5:dashboard.kpis[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay runs overdue",
+"where": "ac5:dashboard.kpis[9].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay runs paid late",
+"where": "ac5:dashboard.kpis[10].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime pay, last 12 months",
+"where": "ac5:dashboard.kpis[11].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value of unused leave this year",
+"where": "ac5:dashboard.kpis[12].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employees with over-taken leave",
+"where": "ac5:dashboard.kpis[13].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Contributions not yet paid",
+"where": "ac5:dashboard.kpis[14].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Contributions overdue",
+"where": "ac5:dashboard.kpis[15].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll tax still unpaid",
+"where": "ac5:dashboard.kpis[16].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final pay not yet paid",
+"where": "ac5:dashboard.kpis[17].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Staff changes not registered in time",
+"where": "ac5:dashboard.kpis[18].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed assets at cost",
+"where": "ac5:dashboard.kpis[19].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed assets, net book value",
+"where": "ac5:dashboard.kpis[20].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Depreciation charge this year",
+"where": "ac5:dashboard.kpis[21].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Disposal gain or loss, 12 months",
+"where": "ac5:dashboard.kpis[22].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loan and lease payments each month",
+"where": "ac5:dashboard.kpis[24].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Insurance policies expired",
+"where": "ac5:dashboard.kpis[25].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Book value not covered by insurance",
+"where": "ac5:dashboard.kpis[26].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Assets missing or damaged in the count",
+"where": "ac5:dashboard.kpis[27].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Deductions over the salary limit",
+"where": "ac5:dashboard.kpis[28].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonuses earned but not yet paid",
+"where": "ac5:dashboard.kpis[29].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll by month",
+"where": "ac5:dashboard.monthly.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Salary bill by job",
+"where": "ac5:dashboard.breakdowns[0].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Asset cost by class",
+"where": "ac5:dashboard.breakdowns[1].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Contributions by scheme",
+"where": "ac5:dashboard.breakdowns[2].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Loan and lease balance by kind",
+"where": "ac5:dashboard.breakdowns[3].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Client Payroll Card",
+"where": "ac5:forms[client_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Client payroll and asset card",
+"where": "ac5:forms[client_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Employee Card",
+"where": "ac5:forms[emp_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Employee card with recent payslips",
+"where": "ac5:forms[emp_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payslip Sheet",
+"where": "ac5:forms[payslip_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Payslip",
+"where": "ac5:forms[payslip_sheet].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payroll Run Sheet",
+"where": "ac5:forms[run_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Payroll run summary for a client",
+"where": "ac5:forms[run_sheet].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Leave Card",
+"where": "ac5:forms[leave_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Leave balance card",
+"where": "ac5:forms[leave_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Final Pay Sheet",
+"where": "ac5:forms[eos_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "End-of-service and final pay sheet",
+"where": "ac5:forms[eos_sheet].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Asset Card",
+"where": "ac5:forms[asset_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Fixed asset card with depreciation by year",
+"where": "ac5:forms[asset_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Loan Sheet",
+"where": "ac5:forms[loan_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Loan or lease sheet with yearly schedule",
+"where": "ac5:forms[loan_sheet].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Disposal Sheet",
+"where": "ac5:forms[disp_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Asset disposal approval sheet",
+"where": "ac5:forms[disp_sheet].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Count Sheet",
+"where": "ac5:forms[count_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Asset count sheet",
+"where": "ac5:forms[count_sheet].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Gross to Net Calculator",
+"where": "ac5:tools[gross_net].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Gross to net pay calculator",
+"where": "ac5:tools[gross_net].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the basic salary, allowances, overtime hours, bonus and other deductions; see the gross pay, contributions, income tax by your bands, the net pay and what the employee costs the employer.",
+"where": "ac5:tools[gross_net].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Basic monthly salary",
+"where": "ac5:tools[gross_net].inputs[basic].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed allowances",
+"where": "ac5:tools[gross_net].inputs[allow].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime hours at the normal factor",
+"where": "ac5:tools[gross_net].inputs[ot_h].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus this month",
+"where": "ac5:tools[gross_net].inputs[bonus].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Income tax by your bands",
+"where": "ac5:tools[gross_net].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net pay as a share of gross",
+"where": "ac5:tools[gross_net].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total cost to the employer",
+"where": "ac5:tools[gross_net].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other pay",
+"where": "ac5:tools[gross_net].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Higher salary",
+"where": "ac5:tools[gross_net].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "With a bonus",
+"where": "ac5:tools[gross_net].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "No overtime",
+"where": "ac5:tools[gross_net].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net to Gross Calculator",
+"where": "ac5:tools[net_gross].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Net to gross pay calculator",
+"where": "ac5:tools[net_gross].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the net pay an employee must take home; see the gross pay to agree in the contract, the contributions and tax on it and the full cost to the employer.",
+"where": "ac5:tools[net_gross].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net monthly pay wanted",
+"where": "ac5:tools[net_gross].inputs[net].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gross monthly pay needed",
+"where": "ac5:tools[net_gross].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Income tax at that gross",
+"where": "ac5:tools[net_gross].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check: net pay at that gross",
+"where": "ac5:tools[net_gross].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly gross pay",
+"where": "ac5:tools[net_gross].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total monthly cost to the employer",
+"where": "ac5:tools[net_gross].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost for each unit of net pay",
+"where": "ac5:tools[net_gross].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other offers",
+"where": "ac5:tools[net_gross].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Entry level",
+"where": "ac5:tools[net_gross].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Senior role",
+"where": "ac5:tools[net_gross].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Director",
+"where": "ac5:tools[net_gross].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime Calculator",
+"where": "ac5:tools[ot_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Overtime pay calculator",
+"where": "ac5:tools[ot_calc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the monthly salary and the hours on normal days and on rest days or holidays; see the hourly rate, the pay for each type and the total as a share of salary.",
+"where": "ac5:tools[ot_calc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime hours on normal days",
+"where": "ac5:tools[ot_calc].inputs[h1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime hours on rest days or holidays",
+"where": "ac5:tools[ot_calc].inputs[h2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay on normal days",
+"where": "ac5:tools[ot_calc].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay on rest days or holidays",
+"where": "ac5:tools[ot_calc].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total overtime pay",
+"where": "ac5:tools[ot_calc].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime as a share of salary",
+"where": "ac5:tools[ot_calc].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime pay on your Overtime sheet, 12 months",
+"where": "ac5:tools[ot_calc].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other months",
+"where": "ac5:tools[ot_calc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Busy month",
+"where": "ac5:tools[ot_calc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "High salary",
+"where": "ac5:tools[ot_calc].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave Accrual Calculator",
+"where": "ac5:tools[leave_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Leave accrual calculator",
+"where": "ac5:tools[leave_calc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the days a year, the months worked this year and the days taken; see the days earned, the balance, its money value and the days to take before year end.",
+"where": "ac5:tools[leave_calc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave days a year",
+"where": "ac5:tools[leave_calc].inputs[ent].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months worked this year",
+"where": "ac5:tools[leave_calc].inputs[months].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days taken so far",
+"where": "ac5:tools[leave_calc].inputs[taken].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days carried over",
+"where": "ac5:tools[leave_calc].inputs[carry].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days earned so far",
+"where": "ac5:tools[leave_calc].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days available now",
+"where": "ac5:tools[leave_calc].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance at year end if no more leave is taken",
+"where": "ac5:tools[leave_calc].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value of one day of leave",
+"where": "ac5:tools[leave_calc].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value of the balance at year end",
+"where": "ac5:tools[leave_calc].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days to take each remaining month",
+"where": "ac5:tools[leave_calc].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value of unused leave on your Leave Balances sheet",
+"where": "ac5:tools[leave_calc].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other cases",
+"where": "ac5:tools[leave_calc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Used little leave",
+"where": "ac5:tools[leave_calc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Half year",
+"where": "ac5:tools[leave_calc].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "End of Service Calculator",
+"where": "ac5:tools[eos_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "End-of-service pay calculator",
+"where": "ac5:tools[eos_calc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the dates, salary, unused leave and notice; see the years of service, end-of-service pay by your days a year, leave pay, notice pay and the final pay.",
+"where": "ac5:tools[eos_calc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Notice days paid instead",
+"where": "ac5:tools[eos_calc].inputs[notice].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final pay as months of salary",
+"where": "ac5:tools[eos_calc].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final pay due by",
+"where": "ac5:tools[eos_calc].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final pay still unpaid on your End of Service sheet",
+"where": "ac5:tools[eos_calc].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other leavers",
+"where": "ac5:tools[eos_calc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Short service",
+"where": "ac5:tools[eos_calc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Long service",
+"where": "ac5:tools[eos_calc].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "No notice paid",
+"where": "ac5:tools[eos_calc].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pension Split Calculator",
+"where": "ac5:tools[pension_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Pension contribution split and growth",
+"where": "ac5:tools[pension_calc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the salary, the employee and employer shares and a voluntary top-up; see the monthly amounts to the fund, the yearly total and what the pot could grow to.",
+"where": "ac5:tools[pension_calc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Voluntary top-up each month",
+"where": "ac5:tools[pension_calc].inputs[extra].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Years to retirement",
+"where": "ac5:tools[pension_calc].inputs[years].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly growth of the fund",
+"where": "ac5:tools[pension_calc].inputs[growth].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee contribution each month",
+"where": "ac5:tools[pension_calc].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer contribution each month",
+"where": "ac5:tools[pension_calc].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total to the fund each month",
+"where": "ac5:tools[pension_calc].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total to the fund each year",
+"where": "ac5:tools[pension_calc].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer share of the total",
+"where": "ac5:tools[pension_calc].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pot at retirement with growth",
+"where": "ac5:tools[pension_calc].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid in without growth",
+"where": "ac5:tools[pension_calc].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pension contributions due on your Contributions sheet",
+"where": "ac5:tools[pension_calc].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other plans",
+"where": "ac5:tools[pension_calc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Employer matches more",
+"where": "ac5:tools[pension_calc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "No top-up",
+"where": "ac5:tools[pension_calc].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Ten years only",
+"where": "ac5:tools[pension_calc].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Depreciation Calculator",
+"where": "ac5:tools[dep_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Depreciation: straight line and declining balance",
+"where": "ac5:tools[dep_calc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the cost, salvage, life, declining rate and the year of life; see the charge, the total so far and the book value by each method side by side.",
+"where": "ac5:tools[dep_calc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Declining balance rate",
+"where": "ac5:tools[dep_calc].inputs[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Year of life to show",
+"where": "ac5:tools[dep_calc].inputs[yr].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Straight line charge each year",
+"where": "ac5:tools[dep_calc].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Straight line total to the end of that year",
+"where": "ac5:tools[dep_calc].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Straight line book value at the end of that year",
+"where": "ac5:tools[dep_calc].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Declining balance charge in that year",
+"where": "ac5:tools[dep_calc].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Declining balance total to the end of that year",
+"where": "ac5:tools[dep_calc].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Declining balance book value at the end of that year",
+"where": "ac5:tools[dep_calc].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Difference in the charge between the methods",
+"where": "ac5:tools[dep_calc].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Charge this year on your Fixed Assets register",
+"where": "ac5:tools[dep_calc].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other assets",
+"where": "ac5:tools[dep_calc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Vehicle",
+"where": "ac5:tools[dep_calc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Computer",
+"where": "ac5:tools[dep_calc].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Last year of life",
+"where": "ac5:tools[dep_calc].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loan Payment Calculator",
+"where": "ac5:tools[loan_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Loan payment and extra payment calculator",
+"where": "ac5:tools[loan_calc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the amount, yearly rate, term and an extra monthly payment; see the monthly payment, total interest, and the months and interest saved by paying extra.",
+"where": "ac5:tools[loan_calc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loan amount",
+"where": "ac5:tools[loan_calc].inputs[amt].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly interest rate",
+"where": "ac5:tools[loan_calc].inputs[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra payment each month",
+"where": "ac5:tools[loan_calc].inputs[extra].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total repaid",
+"where": "ac5:tools[loan_calc].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Interest as a share of the loan",
+"where": "ac5:tools[loan_calc].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months to repay with the extra payment",
+"where": "ac5:tools[loan_calc].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months saved",
+"where": "ac5:tools[loan_calc].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Interest saved",
+"where": "ac5:tools[loan_calc].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loan and lease balance of all clients",
+"where": "ac5:tools[loan_calc].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other loans",
+"where": "ac5:tools[loan_calc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Short term",
+"where": "ac5:tools[loan_calc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "High rate",
+"where": "ac5:tools[loan_calc].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "No extra payment",
+"where": "ac5:tools[loan_calc].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lease or Buy",
+"where": "ac5:tools[lease_buy].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Lease or buy comparison",
+"where": "ac5:tools[lease_buy].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the price, a deposit, the loan terms, the lease terms, the resale value and the tax rate on cost; see the total cost of each route and which is cheaper.",
+"where": "ac5:tools[lease_buy].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Purchase price",
+"where": "ac5:tools[lease_buy].inputs[price].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Deposit when buying",
+"where": "ac5:tools[lease_buy].inputs[dep].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loan yearly rate",
+"where": "ac5:tools[lease_buy].inputs[lrate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months of use",
+"where": "ac5:tools[lease_buy].inputs[term].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Resale value at the end",
+"where": "ac5:tools[lease_buy].inputs[resale].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lease payment each month",
+"where": "ac5:tools[lease_buy].inputs[lease].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lease start fee",
+"where": "ac5:tools[lease_buy].inputs[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lease buy-out at the end",
+"where": "ac5:tools[lease_buy].inputs[buyout].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loan payment each month",
+"where": "ac5:tools[lease_buy].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total cost of buying",
+"where": "ac5:tools[lease_buy].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total cost of leasing",
+"where": "ac5:tools[lease_buy].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leasing costs more by, or less if negative",
+"where": "ac5:tools[lease_buy].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cheaper route: 1 buy, 2 lease",
+"where": "ac5:tools[lease_buy].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash needed on day one when buying",
+"where": "ac5:tools[lease_buy].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash needed on day one when leasing",
+"where": "ac5:tools[lease_buy].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly lease payments of all your clients",
+"where": "ac5:tools[lease_buy].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other deals",
+"where": "ac5:tools[lease_buy].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Cheaper lease",
+"where": "ac5:tools[lease_buy].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "High resale",
+"where": "ac5:tools[lease_buy].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bigger deposit",
+"where": "ac5:tools[lease_buy].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Disposal Gain Calculator",
+"where": "ac5:tools[disp_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Asset disposal gain or loss calculator",
+"where": "ac5:tools[disp_calc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the cost, the depreciation so far, the sale price, selling costs and the tax rate; see the book value, the gain or loss, the tax on it and the cash left.",
+"where": "ac5:tools[disp_calc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sale proceeds",
+"where": "ac5:tools[disp_calc].inputs[sale].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax rate on a gain",
+"where": "ac5:tools[disp_calc].inputs[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax on a gain",
+"where": "ac5:tools[disp_calc].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax saved on a loss",
+"where": "ac5:tools[disp_calc].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash left after selling costs and tax",
+"where": "ac5:tools[disp_calc].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sale price as a share of book value",
+"where": "ac5:tools[disp_calc].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gain or loss on disposals, last 12 months on your sheet",
+"where": "ac5:tools[disp_calc].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other sales",
+"where": "ac5:tools[disp_calc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Sold at a loss",
+"where": "ac5:tools[disp_calc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sold at a gain",
+"where": "ac5:tools[disp_calc].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus Allocation",
+"where": "ac5:tools[bonus_alloc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Bonus pool allocation",
+"where": "ac5:tools[bonus_alloc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the pool and the salary and score of three employees; see each share weighted by salary and score, the amount, and the share of salary it gives.",
+"where": "ac5:tools[bonus_alloc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus pool",
+"where": "ac5:tools[bonus_alloc].inputs[pool].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Salary of employee 1",
+"where": "ac5:tools[bonus_alloc].inputs[s1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Score of employee 1 (0 to 100)",
+"where": "ac5:tools[bonus_alloc].inputs[p1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Salary of employee 2",
+"where": "ac5:tools[bonus_alloc].inputs[s2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Score of employee 2 (0 to 100)",
+"where": "ac5:tools[bonus_alloc].inputs[p2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Salary of employee 3",
+"where": "ac5:tools[bonus_alloc].inputs[s3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Score of employee 3 (0 to 100)",
+"where": "ac5:tools[bonus_alloc].inputs[p3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus for employee 1",
+"where": "ac5:tools[bonus_alloc].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus for employee 2",
+"where": "ac5:tools[bonus_alloc].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus for employee 3",
+"where": "ac5:tools[bonus_alloc].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total paid out",
+"where": "ac5:tools[bonus_alloc].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus of employee 1 as months of salary",
+"where": "ac5:tools[bonus_alloc].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer contributions on the pool",
+"where": "ac5:tools[bonus_alloc].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total cost of the bonus",
+"where": "ac5:tools[bonus_alloc].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonuses earned but not yet paid on your sheet",
+"where": "ac5:tools[bonus_alloc].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other pools",
+"where": "ac5:tools[bonus_alloc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Small pool",
+"where": "ac5:tools[bonus_alloc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Equal scores",
+"where": "ac5:tools[bonus_alloc].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "One top score",
+"where": "ac5:tools[bonus_alloc].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Minimum Wage Check",
+"where": "ac5:tools[min_wage].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Type a monthly salary and the hours paid; see the hourly rate against the minimum, the shortfall, the yearly cost of raising it and how many employees on your sheet are below it.",
+"where": "ac5:tools[min_wage].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid hours in the month",
+"where": "ac5:tools[min_wage].inputs[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employees to raise",
+"where": "ac5:tools[min_wage].inputs[staff].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Minimum monthly wage in your settings",
+"where": "ac5:tools[min_wage].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hourly rate paid",
+"where": "ac5:tools[min_wage].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Minimum hourly rate",
+"where": "ac5:tools[min_wage].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Shortfall each month",
+"where": "ac5:tools[min_wage].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly cost of raising them with contributions",
+"where": "ac5:tools[min_wage].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay is below the minimum: 1 yes, 0 no",
+"where": "ac5:tools[min_wage].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employees below the minimum on your sheet",
+"where": "ac5:tools[min_wage].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly salary of those employees",
+"where": "ac5:tools[min_wage].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "At the minimum",
+"where": "ac5:tools[min_wage].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Large team",
+"where": "ac5:tools[min_wage].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost of a New Hire",
+"where": "ac5:tools[hire_cost].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Full cost of a new hire",
+"where": "ac5:tools[hire_cost].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the salary, allowances and the one-off costs; see the monthly and first-year cost with contributions, the cost per productive hour and the break-even revenue.",
+"where": "ac5:tools[hire_cost].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Allowances each month",
+"where": "ac5:tools[hire_cost].inputs[allow].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "One-off costs: equipment, training, recruitment",
+"where": "ac5:tools[hire_cost].inputs[once].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid leave days a year",
+"where": "ac5:tools[hire_cost].inputs[leave].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gross margin on the work they do",
+"where": "ac5:tools[hire_cost].inputs[margin].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly gross pay",
+"where": "ac5:tools[hire_cost].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly cost with employer contributions",
+"where": "ac5:tools[hire_cost].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "First-year cost with the one-off costs",
+"where": "ac5:tools[hire_cost].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Productive hours in a year",
+"where": "ac5:tools[hire_cost].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost for each productive hour",
+"where": "ac5:tools[hire_cost].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Revenue needed each month to break even",
+"where": "ac5:tools[hire_cost].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Current monthly salary bill of all clients",
+"where": "ac5:tools[hire_cost].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other hires",
+"where": "ac5:tools[hire_cost].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Senior hire",
+"where": "ac5:tools[hire_cost].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Part-time help",
+"where": "ac5:tools[hire_cost].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Low margin work",
+"where": "ac5:tools[hire_cost].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll Cash Planner",
+"where": "ac5:tools[cash_plan].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Payroll cash planner: what to fund and when",
+"where": "ac5:tools[cash_plan].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the gross payroll, overtime and bonus for a month; see the net pay to fund on pay day, the tax and contributions to pay later, and the total cash the client must have.",
+"where": "ac5:tools[cash_plan].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gross pay for the month",
+"where": "ac5:tools[cash_plan].inputs[gross].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus in the month",
+"where": "ac5:tools[cash_plan].inputs[bonus].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employees paid",
+"where": "ac5:tools[cash_plan].inputs[heads].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other deductions kept back",
+"where": "ac5:tools[cash_plan].inputs[ded].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total gross pay",
+"where": "ac5:tools[cash_plan].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Income tax withheld, by your average band",
+"where": "ac5:tools[cash_plan].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net pay to fund on pay day",
+"where": "ac5:tools[cash_plan].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer contributions to pay later",
+"where": "ac5:tools[cash_plan].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Contributions and tax to pay by the due date",
+"where": "ac5:tools[cash_plan].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total cost to the client",
+"where": "ac5:tools[cash_plan].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll tax still unpaid on your Payroll Tax Due sheet",
+"where": "ac5:tools[cash_plan].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Quiet month",
+"where": "ac5:tools[cash_plan].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus month",
+"where": "ac5:tools[cash_plan].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bigger team",
+"where": "ac5:tools[cash_plan].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payslip ready",
+"where": "ac5:messages[m_slip_ready].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your payslip for {month} is ready. Gross pay {gross}, net pay {net}. Reply here if anything looks wrong.",
+"where": "ac5:messages[m_slip_ready].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overtime on the payslip",
+"where": "ac5:messages[m_slip_ot].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your {month} payslip includes overtime pay of {ot_pay}. Thank you for the extra hours.",
+"where": "ac5:messages[m_slip_ot].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus on the payslip",
+"where": "ac5:messages[m_slip_bonus].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your {month} payslip includes a bonus of {bonus}. Your net pay is {net}.",
+"where": "ac5:messages[m_slip_bonus].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll ready to approve",
+"where": "ac5:messages[m_run_ready].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, the {month} payroll is ready: {headcount} staff, net pay {net}, total cost {cost}. Please approve it by {due}.",
+"where": "ac5:messages[m_run_ready].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fund the payroll",
+"where": "ac5:messages[m_run_fund].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, please put {net} in the pay account for the {month} payroll, and set aside {tax} for the tax. Pay day is {due}.",
+"where": "ac5:messages[m_run_fund].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll late or overdue",
+"where": "ac5:messages[m_run_late].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, the {month} payroll is {state}: it was due on {due}. Please fund it today so your staff are paid.",
+"where": "ac5:messages[m_run_late].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll paid",
+"where": "ac5:messages[m_run_paid].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, the {month} payroll was paid on {paid_on}: net pay {net} for {headcount} staff. Payslips are on their way.",
+"where": "ac5:messages[m_run_paid].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave approved",
+"where": "ac5:messages[m_lv_ok].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your leave is approved. You have {balance} days left for {year}.",
+"where": "ac5:messages[m_lv_ok].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave over-taken",
+"where": "ac5:messages[m_lv_over].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, you have taken more leave than you have earned in {year}: {available} days available. Please talk to your manager.",
+"where": "ac5:messages[m_lv_over].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final pay worked out",
+"where": "ac5:messages[m_eos_calc].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your final pay is {total}: end-of-service {gratuity}, leave {leave_pay}, notice {notice_pay}. It will be paid by {due}.",
+"where": "ac5:messages[m_eos_calc].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final pay due",
+"where": "ac5:messages[m_eos_due].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your final pay of {total} is due by {due} and its status is {state}.",
+"where": "ac5:messages[m_eos_due].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Welcome and documents",
+"where": "ac5:messages[m_mv_hire].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, welcome! Please send your ID, tax number and bank details before {due} so we can register you.",
+"where": "ac5:messages[m_mv_hire].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Registration reminder",
+"where": "ac5:messages[m_mv_reg].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your {kind} on {date} must be registered by {due}. Status: {state}.",
+"where": "ac5:messages[m_mv_reg].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Deduction starts",
+"where": "ac5:messages[m_gd_start].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, {monthly} a month will be taken from your pay for {gkind}. The balance is {left}, about {months_left} months.",
+"where": "ac5:messages[m_gd_start].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Deduction over the limit",
+"where": "ac5:messages[m_gd_cap].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, the monthly deduction of {monthly} is {share} of your salary and is over the limit. We will review it.",
+"where": "ac5:messages[m_gd_cap].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus earned",
+"where": "ac5:messages[m_bn_earned].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, you reached {attain} of your goal. Your {scheme} bonus is {payout}.",
+"where": "ac5:messages[m_bn_earned].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus paid",
+"where": "ac5:messages[m_bn_paid].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your bonus of {payout} was paid on {paid_on}. Thank you.",
+"where": "ac5:messages[m_bn_paid].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loan or lease summary",
+"where": "ac5:messages[m_ln_pay].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your {lkind} from {lender}: {pay} a month, balance {balance}, final payment on {end_on}.",
+"where": "ac5:messages[m_ln_pay].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Insurance ends soon",
+"where": "ac5:messages[m_cv_renew].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, the insurance on {aname} ends on {expires}, {days_ins} days from now. Shall we ask for a renewal quote?",
+"where": "ac5:messages[m_cv_renew].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Asset under-insured",
+"where": "ac5:messages[m_cv_gap].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, {aname} is insured for {insured} but its book value is {nbv}: a gap of {gap}. Do you want more cover?",
+"where": "ac5:messages[m_cv_gap].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Warranty ends soon",
+"where": "ac5:messages[m_cv_war].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, the warranty on {aname} ends on {warranty_end}. Check it now for any fault.",
+"where": "ac5:messages[m_cv_war].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Asset not found at the count",
+"where": "ac5:messages[m_ct_miss].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, at the count on {date} we could not verify {aname}: {found}. Can you tell us where it is?",
+"where": "ac5:messages[m_ct_miss].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Count finished",
+"where": "ac5:messages[m_ct_ok].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we counted {aname} on {date}: {found} at {place}. Thank you for the help.",
+"where": "ac5:messages[m_ct_ok].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Asset added to the register",
+"where": "ac5:messages[m_fa_new].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we added {asset} to your asset register at a cost of {cost}. It will be depreciated over {life} years.",
+"where": "ac5:messages[m_fa_new].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Disposal recorded",
+"where": "ac5:messages[m_dsp_done].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, the disposal of {aname} is recorded: {result} of {gain} against a book value of {nbv}.",
+"where": "ac5:messages[m_dsp_done].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll tax due",
+"where": "ac5:messages[m_pt_due].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, {liab} of {amount} is due on {due}. Please pay it to avoid interest.",
+"where": "ac5:messages[m_pt_due].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll tax late",
+"where": "ac5:messages[m_pt_late].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, {left} of {liab} for {month} is still unpaid, {late} days late. Please pay today.",
+"where": "ac5:messages[m_pt_late].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Contributions due",
+"where": "ac5:messages[m_sc_due].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, {scheme} contributions of {total} for the quarter ending {period_end} are due on {due}.",
+"where": "ac5:messages[m_sc_due].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll cost summary",
+"where": "ac5:messages[m_cl_cost].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your payroll cost over the last 12 months was {cost12} for {heads} staff: {share} of turnover, {per_head} for each employee.",
+"where": "ac5:messages[m_cl_cost].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payslip Letter",
+"where": "ac5:documents[payslip_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Payslip for an employee",
+"where": "ac5:documents[payslip_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Sample wording: adapt it to your country's law and your own practice.",
+"where": "ac5:documents[payslip_doc].note",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payslip issued by {set:firm} for {col:slips.cname}, dated {today}.",
+"where": "ac5:documents[payslip_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee: {col:slips.name}. Month: {col:slips.month}.",
+"where": "ac5:documents[payslip_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Basic salary {col:slips.salary}, allowances {col:slips.allow}, overtime {col:slips.ot_pay} and bonus {col:slips.bonus} give a gross pay of {col:slips.gross}.",
+"where": "ac5:documents[payslip_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee contributions of {col:slips.soc} and income tax of {col:slips.tax} are taken, with other deductions of {col:slips.other_ded}. Net pay: {col:slips.net}.",
+"where": "ac5:documents[payslip_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Keep this payslip. If any figure looks wrong, tell your employer within 14 days.",
+"where": "ac5:documents[payslip_doc].paragraphs[4]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll officer",
+"where": "ac5:documents[payslip_doc].sign[0]",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Contract Summary",
+"where": "ac5:documents[contract_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Employment contract summary",
+"where": "ac5:documents[contract_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Employment contract summary prepared by {set:firm}, dated {today}.",
+"where": "ac5:documents[contract_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "{col:emps.cname} employs {col:emps.name} as {col:emps.job} on a {col:emps.contract} contract, starting on {col:emps.start}.",
+"where": "ac5:documents[contract_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The monthly salary is {col:emps.salary}, which is {col:emps.annual} a year. Allowances are listed on the payslip.",
+"where": "ac5:documents[contract_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Contributions, tax and overtime follow the rules set by the employer for its country. This summary does not replace the signed contract.",
+"where": "ac5:documents[contract_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Both parties confirm the terms above by signing below.",
+"where": "ac5:documents[contract_doc].paragraphs[4]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer",
+"where": "ac5:documents[contract_doc].sign[0]",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Resignation Acceptance",
+"where": "ac5:documents[resign_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Resignation acceptance letter",
+"where": "ac5:documents[resign_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Letter from {set:firm} for {col:eos.cname}, dated {today}.",
+"where": "ac5:documents[resign_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We accept the end of the employment of {col:eos.name}. The reason is recorded as {col:eos.reason} and the last day is {col:eos.leave_on}.",
+"where": "ac5:documents[resign_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The notice period is {col:eos.notice_days} days. Please return all company property and hand over open work before the last day.",
+"where": "ac5:documents[resign_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The final pay will be worked out and paid by {col:eos.due}. We thank {col:eos.name} for the service of {col:eos.years} years.",
+"where": "ac5:documents[resign_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Salary Certificate",
+"where": "ac5:documents[salary_cert].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Salary certificate for an employee",
+"where": "ac5:documents[salary_cert].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Salary certificate issued by {set:firm} on behalf of {col:emps.cname}, dated {today}.",
+"where": "ac5:documents[salary_cert].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We confirm that {col:emps.name} works for {col:emps.cname} as {col:emps.job} on a {col:emps.contract} contract since {col:emps.start}.",
+"where": "ac5:documents[salary_cert].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The monthly salary is {col:emps.salary} and the yearly salary is {col:emps.annual}. The status today is {col:emps.state}.",
+"where": "ac5:documents[salary_cert].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "This certificate is given at the request of the employee and carries no other obligation.",
+"where": "ac5:documents[salary_cert].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final Pay Statement",
+"where": "ac5:documents[final_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Final pay statement for a leaver",
+"where": "ac5:documents[final_letter].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Final pay statement from {set:firm} for {col:eos.cname}, dated {today}.",
+"where": "ac5:documents[final_letter].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee {col:eos.name} leaves on {col:eos.leave_on} after {col:eos.years} years of service on a monthly salary of {col:eos.salary}.",
+"where": "ac5:documents[final_letter].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "End-of-service pay is {col:eos.gratuity}, unused leave pay is {col:eos.leave_pay} and notice pay is {col:eos.notice_pay}. The final pay is {col:eos.total}.",
+"where": "ac5:documents[final_letter].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "It is due by {col:eos.due}. Status: {col:eos.state}.",
+"where": "ac5:documents[final_letter].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Deduction Notice",
+"where": "ac5:documents[garn_notice].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Notice of a deduction from pay",
+"where": "ac5:documents[garn_notice].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Sample wording: check the limits and the rules for orders and advances where you work.",
+"where": "ac5:documents[garn_notice].note",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Notice from {set:firm} for {col:garn.cname}, dated {today}.",
+"where": "ac5:documents[garn_notice].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "A deduction of kind {col:garn.gkind} will be taken from the pay of {col:garn.name}. The total owed is {col:garn.total} and {col:garn.paid} is already paid, leaving {col:garn.left}.",
+"where": "ac5:documents[garn_notice].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The monthly amount is {col:garn.monthly}, which is {col:garn.share} of the monthly salary. About {col:garn.months_left} months remain.",
+"where": "ac5:documents[garn_notice].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The status is {col:garn.state}. A deduction must not take more of the salary than the limit in your settings.",
+"where": "ac5:documents[garn_notice].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus Letter",
+"where": "ac5:documents[bonus_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Bonus award letter",
+"where": "ac5:documents[bonus_letter].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Bonus letter from {set:firm} for {col:bn.cname}, dated {today}.",
+"where": "ac5:documents[bonus_letter].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employee {col:bn.name} took part in the scheme {col:bn.scheme} for the period ending {col:bn.period_end}. The goal was {col:bn.goal} and the result was {col:bn.result}, which is {col:bn.attain} of the goal.",
+"where": "ac5:documents[bonus_letter].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The bonus is {col:bn.payout}, which is {col:bn.share} of yearly pay. Status: {col:bn.state}.",
+"where": "ac5:documents[bonus_letter].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thank you for your work. The bonus is paid with the next payroll after approval.",
+"where": "ac5:documents[bonus_letter].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Disposal Approval",
+"where": "ac5:documents[disp_approval].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Asset disposal approval",
+"where": "ac5:documents[disp_approval].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Approval of disposal requested by {set:firm} for {col:disp.name}, dated {today}.",
+"where": "ac5:documents[disp_approval].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The asset {col:disp.aname} is disposed of on {col:disp.date}. Reason: {col:disp.reason}.",
+"where": "ac5:documents[disp_approval].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "It cost {col:disp.cost} and has {col:disp.accum} of depreciation, so its book value is {col:disp.nbv}. Proceeds are {col:disp.proceeds} and selling costs are {col:disp.costs_sale}.",
+"where": "ac5:documents[disp_approval].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The result is a {col:disp.result} of {col:disp.gain}. Please approve the disposal so the register and the books can be updated.",
+"where": "ac5:documents[disp_approval].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Practice",
+"where": "ac5:documents[disp_approval].sign[0]",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client owner",
+"where": "ac5:documents[disp_approval].sign[1]",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cover Renewal Letter",
+"where": "ac5:documents[cover_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Insurance renewal reminder",
+"where": "ac5:documents[cover_letter].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Insurance renewal reminder from {set:firm} to {col:cover.name}, dated {today}.",
+"where": "ac5:documents[cover_letter].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The cover for {col:cover.aname} with {col:cover.insurer} (policy {col:cover.policy}) ends on {col:cover.expires}. The insured value is {col:cover.insured} against a book value of {col:cover.nbv}.",
+"where": "ac5:documents[cover_letter].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The cover gap is {col:cover.gap} and the status is {col:cover.state}. The yearly premium is {col:cover.premium}.",
+"where": "ac5:documents[cover_letter].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Please confirm that we may ask the insurer for a renewal quote.",
+"where": "ac5:documents[cover_letter].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "New Employee Steps",
+"where": "ac5:checklists[new_hire].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Collect ID, tax number and bank details",
+"where": "ac5:checklists[new_hire].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sign the employment contract",
+"where": "ac5:checklists[new_hire].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Set up the employee on payroll",
+"where": "ac5:checklists[new_hire].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Register the employee with the authorities",
+"where": "ac5:checklists[new_hire].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Enrol in social insurance and pension",
+"where": "ac5:checklists[new_hire].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Give the leave entitlement and policy",
+"where": "ac5:checklists[new_hire].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check the first payslip with the employee",
+"where": "ac5:checklists[new_hire].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leaver Steps",
+"where": "ac5:checklists[leaver].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Accept the resignation or confirm the end of contract",
+"where": "ac5:checklists[leaver].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Agree the last day and handover",
+"where": "ac5:checklists[leaver].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Work out the unused leave",
+"where": "ac5:checklists[leaver].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Calculate end-of-service pay",
+"where": "ac5:checklists[leaver].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay the final pay",
+"where": "ac5:checklists[leaver].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Report the leaver to the authorities",
+"where": "ac5:checklists[leaver].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Give the leaver a certificate of service",
+"where": "ac5:checklists[leaver].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly Payroll Steps",
+"where": "ac5:checklists[pay_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Collect changes: hires, leavers, overtime, leave",
+"where": "ac5:checklists[pay_run].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Enter overtime and bonuses",
+"where": "ac5:checklists[pay_run].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check gross to net on every payslip",
+"where": "ac5:checklists[pay_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client approves the payroll",
+"where": "ac5:checklists[pay_run].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client funds the payroll",
+"where": "ac5:checklists[pay_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay the employees and send payslips",
+"where": "ac5:checklists[pay_run].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay contributions and tax by the due date",
+"where": "ac5:checklists[pay_run].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Post the payroll journal",
+"where": "ac5:checklists[pay_run].steps[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New Asset Steps",
+"where": "ac5:checklists[asset_buy].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Check the invoice and that the item is an asset",
+"where": "ac5:checklists[asset_buy].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Decide class, life, salvage value and method",
+"where": "ac5:checklists[asset_buy].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Enter the asset on the register",
+"where": "ac5:checklists[asset_buy].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Label the asset with its number",
+"where": "ac5:checklists[asset_buy].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Arrange insurance and note the warranty",
+"where": "ac5:checklists[asset_buy].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Start depreciation in the books",
+"where": "ac5:checklists[asset_buy].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Asset Count Steps",
+"where": "ac5:checklists[asset_count].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Print the register by place",
+"where": "ac5:checklists[asset_count].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Count every asset and note its condition",
+"where": "ac5:checklists[asset_count].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Mark missing and damaged assets",
+"where": "ac5:checklists[asset_count].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Find out what happened to each missing asset",
+"where": "ac5:checklists[asset_count].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Update places and the register",
+"where": "ac5:checklists[asset_count].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Write off or insure any loss",
+"where": "ac5:checklists[asset_count].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sign the count sheet",
+"where": "ac5:checklists[asset_count].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Disposal Steps",
+"where": "ac5:checklists[asset_disp].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Get the owner's approval to dispose",
+"where": "ac5:checklists[asset_disp].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Agree the price and the buyer",
+"where": "ac5:checklists[asset_disp].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hand over the asset and receive the money",
+"where": "ac5:checklists[asset_disp].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Record the gain or loss",
+"where": "ac5:checklists[asset_disp].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Stop depreciation and remove from the register",
+"where": "ac5:checklists[asset_disp].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cancel the insurance",
+"where": "ac5:checklists[asset_disp].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Loan or Lease Steps",
+"where": "ac5:checklists[loan_start].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Check the contract, rate and fees",
+"where": "ac5:checklists[loan_start].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Record the loan in the books",
+"where": "ac5:checklists[loan_start].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Set the monthly payment reminder",
+"where": "ac5:checklists[loan_start].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Split each payment into interest and principal",
+"where": "ac5:checklists[loan_start].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Review the balance with the lender statement",
+"where": "ac5:checklists[loan_start].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Plan for the final payment",
+"where": "ac5:checklists[loan_start].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus Steps",
+"where": "ac5:checklists[bonus_flow].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Check the result against the goal",
+"where": "ac5:checklists[bonus_flow].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Work out the payout with the minimum and the cap",
+"where": "ac5:checklists[bonus_flow].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer approves the bonus",
+"where": "ac5:checklists[bonus_flow].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Add the bonus to the payslip",
+"where": "ac5:checklists[bonus_flow].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay the tax and contributions on it",
+"where": "ac5:checklists[bonus_flow].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Deduction Steps",
+"where": "ac5:checklists[deduct_flow].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac5"
+]
+},
+{
+"en": "Get the order or the signed agreement",
+"where": "ac5:checklists[deduct_flow].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check the limit on deductions",
+"where": "ac5:checklists[deduct_flow].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Set up the monthly deduction",
+"where": "ac5:checklists[deduct_flow].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check the balance each month",
+"where": "ac5:checklists[deduct_flow].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Stop the deduction when cleared",
+"where": "ac5:checklists[deduct_flow].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay runs paid on time",
+"where": "ac5:insights.gauges[0].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Employees paid at or above the minimum",
+"where": "ac5:insights.gauges[1].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Contributions paid on time",
+"where": "ac5:insights.gauges[2].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Staff changes registered on time",
+"where": "ac5:insights.gauges[3].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Assets verified at the count",
+"where": "ac5:insights.gauges[4].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Assets with insurance in order",
+"where": "ac5:insights.gauges[5].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Gross pay and total cost by month",
+"where": "ac5:insights.charts[0].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Net pay and tax withheld by month",
+"where": "ac5:insights.charts[1].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Staff paid by month",
+"where": "ac5:insights.charts[2].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payroll cost by client",
+"where": "ac5:insights.charts[3].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Employees by job",
+"where": "ac5:insights.charts[4].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Employees by contract",
+"where": "ac5:insights.charts[5].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Overtime pay by month",
+"where": "ac5:insights.charts[7].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Overtime hours by type",
+"where": "ac5:insights.charts[8].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payroll tax owed and paid by kind",
+"where": "ac5:insights.charts[10].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Owed",
+"where": "ac5:insights.charts[10].series[0].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Hires and leavers by month",
+"where": "ac5:insights.charts[11].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "New hires",
+"where": "ac5:insights.charts[11].series[0].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Leavers",
+"where": "ac5:insights.charts[11].series[1].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Changes",
+"where": "ac5:insights.charts[11].series[2].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Leavers by reason",
+"where": "ac5:insights.charts[12].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Asset cost and net book value by class",
+"where": "ac5:insights.charts[13].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Assets bought by month",
+"where": "ac5:insights.charts[14].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Cost of assets bought",
+"where": "ac5:insights.charts[14].series[0].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Yearly depreciation charge by method",
+"where": "ac5:insights.charts[15].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Insurance cover ending by month",
+"where": "ac5:insights.charts[17].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Policies ending",
+"where": "ac5:insights.charts[17].series[0].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Asset count results",
+"where": "ac5:insights.charts[18].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Assets counted",
+"where": "ac5:insights.charts[18].series[0].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Gain or loss on disposals by reason",
+"where": "ac5:insights.charts[19].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Open Start and type your practice name and your payroll rules in the yellow cells: contribution and pension rates, the pay bands, overtime factors, month hours, minimum wage, end-of-service days and warning days.",
+"where": "ac5:guide[0]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payroll rules differ by country. Every rate in this workbook is your own setting, so check them against the rules where each client pays staff: the workbook tracks your work and is not legal or tax advice.",
+"where": "ac5:guide[1]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fill Payroll Clients with one row for each client. Staff on payroll, payroll cost over 12 months, asset values and loan balance fill in by themselves.",
+"where": "ac5:guide[2]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Enter each employee on Employees with job, contract, start date and monthly salary. Type an end date when someone leaves. Fixed allowances go on Salary Components.",
+"where": "ac5:guide[3]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Type overtime sessions on Overtime. The hourly rate comes from basic salary and the factor from your settings, and the pay flows to the payslip of the month.",
+"where": "ac5:guide[4]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Use Payslips for each employee and month: type any bonus and other deductions and read gross, contributions, tax, net pay and employer cost. Use Payroll Runs for the totals of each client and the pay date.",
+"where": "ac5:guide[5]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Track leave on Leave Balances, final pay on End of Service, and every hire and leaver on Hires and Leavers with the date registered.",
+"where": "ac5:guide[6]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Record contributions on Contributions and every amount owed to an authority on Payroll Tax Due. Late and overdue items show in red and on the dashboard.",
+"where": "ac5:guide[7]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Put each asset on Fixed Assets with cost, salvage value, life and method. Depreciation, book value and this year's charge come out, and Depreciation Schedule shows every year.",
+"where": "ac5:guide[8]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Log every sale, scrapping or loss on Disposals to get the gain or loss, and every loan or lease on Loans and Leases; Amortisation splits each year into principal and interest.",
+"where": "ac5:guide[9]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Keep policies and warranties on Insurance and Warranty and the results of each count on Asset Counts. Missing, damaged and under-insured assets are flagged.",
+"where": "ac5:guide[10]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Use Deductions for orders, loans and advances taken from pay, and Bonus Schemes for bonuses with a minimum and a cap.",
+"where": "ac5:guide[11]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Use the 14 calculators to check gross to net, net to gross, overtime, leave, end-of-service, pension, depreciation, loans, lease or buy, disposals, bonus pools, minimum wage, the cost of a hire and the cash for a payroll.",
+"where": "ac5:guide[12]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Print the cards, payslips and sheets, choose letters and checklists by the number in the yellow cell, and tap a message link to open WhatsApp with the text ready. Read the dashboard every week.",
+"where": "ac5:guide[13]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+}
+]
