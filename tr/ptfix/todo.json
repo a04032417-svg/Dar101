@@ -1,0 +1,1489 @@
+[
+{
+"en": "Coach or studio",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Health Declaration",
+"where": "fix",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Health declaration",
+"where": "fix",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Payment Reminder Letter",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Payment Reminder"
+},
+{
+"en": "Payment reminder letter",
+"where": "fix",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Cancellation Letter",
+"where": "fix",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "from the pace so far it gives the finish date, and the weekly change needed to hit the deadline; goals read reached, on track, behind or overdue",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "from the pace so far, the finish date and the weekly change needed; goals read reached, on track, behind or overdue"
+},
+{
+"en": "Not trained lately",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Idle lately"
+},
+{
+"en": "Fat mass, lean mass and the weight at a body fat goal",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Fat mass, lean mass and goal weight"
+},
+{
+"en": "Daily calories and protein from lean mass",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Calories and protein from lean mass"
+},
+{
+"en": "Type weight, body fat, activity and the change you want; the resting need uses lean mass (Katch-McArdle, same for everyone), then protein, fat and carbs are set. A starting guide only.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Sales tax or VAT return by month",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Sales tax or VAT by month"
+},
+{
+"en": "takings at the recent pace, overdue invoices you expect to collect, pay, rent, costs and tax returns give the cash at the end of each week against your minimum",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "recent takings, invoices to collect, pay, rent, costs and tax give each week's closing cash against your minimum"
+},
+{
+"en": "If paying in one go is hard, we can split the balance into monthly instalments of about {col:invoices.plan}. Just reply and we will agree it in writing.",
+"where": "fix",
+"kind": "document",
+"max": null
+},
+{
+"en": "Sales Tax or VAT Return",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "VAT Return"
+},
+{
+"en": "Fill heat map by start hour and weekday",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Fill heat map: hour and day"
+},
+{
+"en": "Late fees due, charged and waived by month",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Late fees by month"
+},
+{
+"en": "Clients, packages, payments, renewals and leads for personal training",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Clients, packages, payments, renewals and leads"
+},
+{
+"en": "Clients, packages, sessions left, payments, renewals and leads in one file",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Clients, packages, sessions, payments, renewals, leads"
+},
+{
+"en": "Ended with sessions left",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Ended unused"
+},
+{
+"en": "Price a new package that still leaves your profit",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Price a package that keeps your profit"
+},
+{
+"en": "What missed sessions cost and what a fee recovers",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Missed session cost vs fee recovered"
+},
+{
+"en": "What one client is worth and when you earn back the cost",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "What a client is worth and the payback time"
+},
+{
+"en": "How many leads you need for the clients you want",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Leads needed for your client goal"
+},
+{
+"en": "Packages ending soon and the revenue you may lose",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Packages ending soon and revenue at risk"
+},
+{
+"en": "Late Payment Steps",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Late Pay Steps"
+},
+{
+"en": "Programmes, workout log, records, plateaus and goals for personal training",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Programmes, workout log, records, plateaus and goals"
+},
+{
+"en": "Exercise library, programmes, workout log, records and goals in one file",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Exercises, programmes, workout log, records, goals"
+},
+{
+"en": "every logged set is compared with the client's best estimated max on that exercise before that day, so a new record flags itself",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "each logged set is compared with the client's best estimated max before that day, so a new record flags itself"
+},
+{
+"en": "each lift reads progressing, plateau, slipping, not trained lately or too early to judge, from your own weeks and percent rules",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "each lift reads progressing, plateau, slipping, idle or too early to judge, from your own weeks and rules"
+},
+{
+"en": "each injury restricts a movement pattern, counts the joint-friendly options left and flags any session that broke the rule",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "each injury restricts a movement pattern, counts the safe options left and flags any session that broke the rule"
+},
+{
+"en": "Plan a lighter week and see who needs one",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Lighter weeks: who needs one"
+},
+{
+"en": "Pick the next load from how hard a set felt",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Next load from set effort"
+},
+{
+"en": "Income, invoices, coach pay, margins and cash forecast for personal training",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Income, invoices, coach pay, margins and cash forecast"
+},
+{
+"en": "Income ledger with tax, net income and margin",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Income ledger, tax and margin"
+},
+{
+"en": "invoices read paid, part paid, open or overdue from the ledger and credit notes, fall into 30, 60 and 90 day buckets and show the instalment of a plan",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "invoice status from the ledger and credit notes, 30, 60 and 90 day buckets and the instalment of a plan"
+},
+{
+"en": "Deferred revenue for unused paid sessions",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Deferred revenue (unused)"
+},
+{
+"en": "hours against hours available, hourly pay, class fees and renewal bonus give total pay, cost per session and the margin each coach earns per hour",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "hours worked, hourly pay, class fees and renewal bonus give total pay, cost per session and margin per hour"
+},
+{
+"en": "what each client paid net of tax less the cost to serve them, profit a month, expected lifetime profit and a rank from top client to low value",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "net payments less cost to serve, monthly profit, lifetime profit and a rank from top client to low value"
+},
+{
+"en": "Monthly profit, owner pay and tax set-aside",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Profit, owner pay and tax"
+},
+{
+"en": "income less coach pay, running costs and depreciation, the income tax to set aside, what you took and what stays in the business",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "income less coach pay, costs and depreciation, tax to set aside, what you took and what stays"
+},
+{
+"en": "tax charged on sales less tax paid on costs gives the return amount, its due date and a status of paid, due or overdue",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "sales tax less tax on costs gives the return amount, due date and status paid, due or overdue"
+},
+{
+"en": "Credentials and insurance expiry per coach",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Coach credential expiry"
+},
+{
+"en": "Certifications and training",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Certificates, training"
+},
+{
+"en": "Refunds and Credits",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Refunds"
+},
+{
+"en": "Prepaid sessions owed to clients (deferred revenue)",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Prepaid sessions owed to clients"
+},
+{
+"en": "Monthly profit, owner pay, tax set-aside and tax return",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Profit, owner pay, tax return"
+},
+{
+"en": "Group Class Economics",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Class Economics"
+},
+{
+"en": "Overdue Invoice Follow-Up",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Invoice Chasing"
+},
+{
+"en": "Credential Renewal",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Credential Dates"
+},
+{
+"en": "Timetable, slot fill, rooms, equipment and safety log for personal training",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Timetable, slot fill, rooms, equipment and safety log"
+},
+{
+"en": "Timetable, slot fill, rooms, equipment and safety log in one file",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Timetable, slot fill, rooms, equipment, safety"
+},
+{
+"en": "slots offered against sessions held over the last weeks, for every hour and every weekday, so quiet and busy hours stand out at once",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "slots offered against sessions held, for every hour and weekday, so quiet and busy hours stand out"
+},
+{
+"en": "Coach load and free slots for the next 7 days",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Coach load, free slots, 7 days"
+},
+{
+"en": "timetable hours against hours delivered, sessions already booked and the free slots left, so you know who can take a new client",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "timetable hours against hours delivered, sessions booked and free slots left, so you know who can take a new client"
+},
+{
+"en": "Late cancel and no-show policy tracker",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Missed-session policy"
+},
+{
+"en": "every missed session picked from the bookings gets a fee under your settings, a decision of charged, waived or taken from the pack, and a running total",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "each missed session gets a fee, a decision (charged, waived, from the pack) and a running total"
+},
+{
+"en": "Leave and shift cover with slots to cover",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Leave cover, slots to fill"
+},
+{
+"en": "next service, days left, age, replacement date and repair spend against price give a replace-soon flag before kit fails",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "service date, age and repair spend give a replace-soon flag before kit fails"
+},
+{
+"en": "Stock reorder quantities with delivery lead time",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Reorder quantity, lead time"
+},
+{
+"en": "weeks left at the current use, a reorder-now flag and the order in whole packs that reaches your weeks of cover, with its cost",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "weeks left at current use, a reorder flag and the order in whole packs with its cost"
+},
+{
+"en": "Incident and near-miss log with open actions",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Incident and near-miss log"
+},
+{
+"en": "type, severity, first aid and action due date give days open and an Open, Overdue or Closed status so no action is forgotten",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "type, severity and due date give days open and an Open, Overdue or Closed status"
+},
+{
+"en": "First aid, emergency and facility check dates",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Safety check dates"
+},
+{
+"en": "Closure and weather calendar with sessions moved",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Closure and weather calendar"
+},
+{
+"en": "Team, weekly hours, load and free slots",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Team hours, load and free slots"
+},
+{
+"en": "Lead pipeline with cost per source",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Leads with cost per source"
+},
+{
+"en": "Trial-to-package conversion by coach",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Trial conversion by coach"
+},
+{
+"en": "Mobility and back care",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Back and mobility"
+},
+{
+"en": "Fair refund when a client leaves mid-package",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Fair refund for a leaving client"
+},
+{
+"en": "Lead Funnel Planner",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Lead Funnel"
+},
+{
+"en": "Free places with a coach against the people waiting",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Free places with a coach vs people waiting"
+},
+{
+"en": "Referral Reward Steps",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Referral Steps"
+},
+{
+"en": "Client progress board with attention score",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Client progress board and score"
+},
+{
+"en": "Heart rate zones from age and resting heart rate",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Heart rate zones from age"
+},
+{
+"en": "Effort Load Planner",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Effort Planner"
+},
+{
+"en": "Expected return to full training: {col:injuries.back_on}. {col:injuries.n_safe} joint-friendly exercises in the library remain available.",
+"where": "fix",
+"kind": "document",
+"max": null,
+"src": "Expected return to full training: {col:injuries.back_on}. {col:injuries.n_safe} exercises that are gentle on joints in the library remain available."
+},
+{
+"en": "Photo Day Steps",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Photo Steps"
+},
+{
+"en": "Build or edit your Exercise Library: muscle group, movement pattern, equipment and whether it is joint friendly. The pattern is what injury rules use.",
+"where": "fix",
+"kind": "sentence",
+"max": null,
+"src": "Build or edit your Exercise Library: muscle group, movement pattern, equipment and whether it is gentle on joints. The pattern is what injury rules use."
+},
+{
+"en": "Income, invoices, coach pay, margins and cash forecast in one file",
+"where": "fix",
+"kind": "sentence",
+"max": 80,
+"src": "Income, invoices, coach pay, margins, cash forecast"
+},
+{
+"en": "Receivables ageing with payment-plan instalments",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Receivables ageing and plans"
+},
+{
+"en": "Coach pay sheet with utilisation and margin",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Coach pay, utilisation, margin"
+},
+{
+"en": "Profit per client and lifetime value ranking",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Client profit and lifetime value"
+},
+{
+"en": "12-week cash forecast with low-cash flags",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "12-week cash forecast"
+},
+{
+"en": "Walk-in or drop-in",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Drop-in"
+},
+{
+"en": "Bank and card fees",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Bank fees"
+},
+{
+"en": "Coach Pay Calculator",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Coach Pay Tool"
+},
+{
+"en": "Owner Pay and Tax",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Pay and Tax"
+},
+{
+"en": "Hiring What-If",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Hiring Plan"
+},
+{
+"en": "Rate Rise What-If",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Rate Rise"
+},
+{
+"en": "New Coach Onboarding",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Coach Onboarding"
+},
+{
+"en": "kept sessions against late cancels and no-shows over 90 days, plus days since the last session, flag who is slipping away before they leave",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "kept sessions against late cancels and no-shows over 90 days, plus days since the last session, flag who is slipping away"
+},
+{
+"en": "Class fill, show-up rate and waiting list",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Class fill, show-up, waiting list"
+},
+{
+"en": "First aid supply",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "First aid"
+},
+{
+"en": "First aid, emergency equipment and facility checks",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "First aid and facility checks"
+},
+{
+"en": "Late cancellation and no-show policy tracker",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Missed-session policy tracker"
+},
+{
+"en": "Late Fee Calculator",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Late Fee Tool"
+},
+{
+"en": "Late cancel and no-show fee calculator",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Missed-session fee calculator"
+},
+{
+"en": "Off-Peak Planner",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Off-Peak Plan"
+},
+{
+"en": "Churn and Retention",
+"where": "fix",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Log every exercise of every session on Workout Log with sets, reps, load and effort. Estimated max and new records work themselves out.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Hiring what-if for a new coach",
+"where": "fix",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Add each pack or membership you sell to Prepaid Sessions with the sessions used. You see the sessions you still owe, what is about to expire and the value that expired unused.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Weather, moved indoors",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Moved indoors"
+},
+{
+"en": "The daily log of opening checks, closing checks, cleans and weekly deep cleans: who did it, items done of the list, and any issue; the share done and Complete or Gaps found fill in by themselves.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Client feedback with a score of 0 to 10 by coach and comment; Promoter, Passive or Detractor and the client phone fill in by themselves, and the score builds by month and by coach.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Build your template week on Weekly Timetable: one row for each slot with day, start time, coach, room, type and places. Fill rate and a Busy, OK or Quiet status appear by themselves.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Arrears ageing and promise tracker",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Arrears ageing and promises"
+},
+{
+"en": "health questionnaires, waivers and doctor notes flagged before they run out, with newer papers replacing older ones",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "health forms, waivers and doctor notes flagged before they expire; newer papers replace older"
+},
+{
+"en": "one row per client: programme and week now, records, plan completion, body changes and a score of what needs your call",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "one row per client: programme and week, records, plan completion, body changes and an attention score"
+},
+{
+"en": "counts hard weeks since the last deload for every client, flags who is due, and plans the lighter week's loads and sets",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "counts hard weeks since the last deload for every client, flags who is due and plans the lighter week"
+},
+{
+"en": "Weekly volume check per muscle group",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Weekly volume per muscle group"
+},
+{
+"en": "Habit score from weekly check-ins",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Habit score by check-in"
+},
+{
+"en": "Fitness Test Day",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Test Day"
+},
+{
+"en": "Goal Setting Steps",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Goal Steps"
+},
+{
+"en": "Partner contracts with margin and fees to come",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Partner contracts, margin and fees"
+},
+{
+"en": "Team, pay terms and credentials",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Team, pay and credentials"
+},
+{
+"en": "Equipment you bought, spread evenly over its useful life: depreciation a year and a month, the amount written off and the book value left. Monthly Profit uses it instead of the purchase price.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Coach terms and credentials card",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Coach credentials card"
+},
+{
+"en": "Partner Contract Renewal",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Partner Renewal"
+},
+{
+"en": "Cash forecast, money in and out by month",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Cash forecast: money in and out"
+},
+{
+"en": "Weekly timetable with a live slot status",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Weekly timetable with slot status"
+},
+{
+"en": "Equipment service and replacement planner",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Equipment service planner"
+},
+{
+"en": "Slot fill by hour of day and weekday",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Slot fill by hour and day"
+},
+{
+"en": "Holiday, closure and weather call calendar",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Holiday, closure and weather calendar"
+},
+{
+"en": "Equipment register with service and replacement dates",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Equipment register and service dates"
+},
+{
+"en": "Emergency, supplier, contractor and partner contacts",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Emergency, supplier and partner contacts"
+},
+{
+"en": "Late and no-shows",
+"where": "fix",
+"kind": "label",
+"max": 30,
+"src": "Missed"
+},
+{
+"en": "Free Slot Finder",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Free Slots"
+},
+{
+"en": "Best Time Finder",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Best Times"
+},
+{
+"en": "Fill Rate Calculator",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Fill Rate Tool"
+},
+{
+"en": "Reorder Calculator",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Reorder Tool"
+},
+{
+"en": "Weekly Deep Clean",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Deep Clean"
+},
+{
+"en": "Equipment Repair Round",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Repair Round"
+},
+{
+"en": "Event Run Sheet",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Event Plan"
+},
+{
+"en": "Goal: {col:clients.goal}. Coach: {col:clients.coach}. Level: {col:clients.level}. Joined on {col:clients.joined}.",
+"where": "fix",
+"kind": "document",
+"max": null
+},
+{
+"en": "Programme: {col:assignments.template}. Phase: {col:assignments.phase}. It starts on {col:assignments.start} and ends on {col:assignments.end} ({col:assignments.weeks} weeks).",
+"where": "fix",
+"kind": "document",
+"max": null
+},
+{
+"en": "margin won for every 1 given away in each offer, and the balance owed on every gift voucher until it is used or expires",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "margin won for every 1 given away in each offer, and the balance owed on every gift voucher"
+},
+{
+"en": "Renewal pipeline with revenue at risk",
+"where": "fix",
+"kind": "label",
+"max": 50,
+"src": "Renewals and revenue at risk"
+},
+{
+"en": "Waiver",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Waiver"
+},
+{
+"en": "Package sales, cash and refunds by month",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Package sales, cash, refunds"
+},
+{
+"en": "Leave Cover Plan",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Leave Cover"
+},
+{
+"en": "Replaced by newer",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Superseded"
+},
+{
+"en": "Source Scoreboard",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Source Score"
+},
+{
+"en": "Estimated one-rep max and working loads",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Estimated max and loads"
+},
+{
+"en": "Goal Date Predictor",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Goal Date"
+},
+{
+"en": "Progress Report",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Progress Note"
+},
+{
+"en": "Studio Dashboard",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Studio Board"
+},
+{
+"en": "Late cancel and no-show fee notice",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Missed-session fee notice"
+},
+{
+"en": "Front, side and back",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Front, side, back"
+},
+{
+"en": "Hamstrings sets per week",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Fitness test",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Fit test"
+},
+{
+"en": "Fitness Tests",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Fit Tests"
+},
+{
+"en": "Fitness tests",
+"where": "fix",
+"kind": "label",
+"max": 30,
+"src": "Fit tests"
+},
+{
+"en": "every package shows sessions used and left, days to expiry and a clear status such as Running low or Ending soon",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "each package shows sessions used and left, days to expiry and a status such as Running low"
+},
+{
+"en": "Renewal Offer Letter",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Renewal Offer"
+},
+{
+"en": "twelve tests with their own retest interval, first result, change and a retest alert for active clients only",
+"where": "fix",
+"kind": "sentence",
+"max": 160,
+"src": "twelve tests with their own retest interval, first result, change and a retest alert for active clients"
+},
+{
+"en": "Joint friendly",
+"where": "fix",
+"kind": "label",
+"max": null,
+"src": "Gentle on joints"
+},
+{
+"en": "Your ready programmes: goal, level, split, weeks and days a week. Exercise lines, sets per week, minutes, joint-friendly share and clients on it now fill in from Programme Lines.",
+"where": "fix",
+"kind": "sentence",
+"max": null,
+"src": "Your ready programmes: goal, level, split, weeks and days a week. Exercise lines, sets per week, minutes, gentle share and clients on it now fill in from Programme Lines."
+},
+{
+"en": "Joint-friendly options left",
+"where": "fix",
+"kind": "label",
+"max": null,
+"src": "Gentle options left"
+},
+{
+"en": "Joint-friendly share of the library",
+"where": "fix",
+"kind": "label",
+"max": null,
+"src": "Gentle share of the library"
+},
+{
+"en": "Body Fat Summary",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Body Fat"
+},
+{
+"en": "Watch list: {col:clients.n_plat} plateaued lift(s), {col:clients.n_slip} slipping lift(s), {col:clients.g_behind} goal(s) behind and {col:clients.n_inj} open injury record(s).",
+"where": "fix",
+"kind": "document",
+"max": null
+},
+{
+"en": "Gift Voucher Handling",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Gift Vouchers"
+},
+{
+"en": "Incident Follow-Up",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Incident Steps"
+},
+{
+"en": "Late fees collected of fees due",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Late fees collected vs due"
+},
+{
+"en": "Friend of a client",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Client's friend"
+},
+{
+"en": "All sessions used",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "All used"
+},
+{
+"en": "Supplies and laundry",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Supplies, laundry"
+},
+{
+"en": "Fully depreciated",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Written off"
+},
+{
+"en": "Weekly timetable of slots by coach and room",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Weekly slots by coach and room"
+},
+{
+"en": "Booked and offered slots by hour",
+"where": "fix",
+"kind": "title",
+"max": 60,
+"src": "Booked vs offered slots"
+},
+{
+"en": "Sessions in the package",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Cost of the whole package",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Other margins",
+"where": "fix",
+"kind": "title",
+"max": 60
+},
+{
+"en": "30% margin",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "50% margin",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Quads",
+"where": "fix",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Max Estimator",
+"where": "fix",
+"kind": "sheet",
+"max": 31,
+"src": "Max Check"
+},
+{
+"en": "Quads sets per week",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Glutes sets per week",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"where": "fix",
+"kind": "message",
+"max": null
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"where": "fix",
+"kind": "message",
+"max": null
+},
+{
+"en": "Fully used",
+"where": "fix",
+"kind": "list",
+"max": 30,
+"src": "Used up"
+},
+{
+"en": "Type weight, body fat, waist and hips plus a body fat goal; see lean and fat mass, the waist to hip ratio and the weight at the goal if lean mass stays the same.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Fat to lose to reach the goal, kg",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Activity factor (1.2 desk job to 1.9 very active)",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Smallest jump in load, kg",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Load after 4 weeks, kg",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Load for the next set, kg",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Other distances",
+"where": "fix",
+"kind": "title",
+"max": 60
+},
+{
+"en": "Half marathon",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Hi {name}, it has been {idle} days since your last workout. Your {prog} programme is ready. Shall we book a session this week? Even a short one keeps the momentum.",
+"where": "fix",
+"kind": "message",
+"max": null
+},
+{
+"en": "Deload week ahead",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Progress photos due",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Progress summary",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"where": "fix",
+"kind": "message",
+"max": null
+},
+{
+"en": "Weekly check-in request",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "New block starts",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Block ending soon",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Block review",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Plateau talk",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Lift going down",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Write programmes on Programmes and Programme Lines: days, exercises, sets, reps and rest. Programme Builder then shows the weekly sets per muscle group.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Net price per session",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Net price per coach hour",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Margin per session",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Margin check",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Usual package",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Cost to serve",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Profit so far",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Value band",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Discounts received",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Days since payment",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Income Ledger",
+"where": "fix",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Partner contract",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Tax rate",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Tax in amount",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Sessions paid for",
+"where": "fix",
+"kind": "label",
+"max": null
+},
+{
+"en": "Invoices you issued. Paid, credit notes, balance, days overdue and status come from the ledger and credit notes; late payers show their ageing bucket and the instalment of a payment plan.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Money you gave back or credited, with the reason, the invoice it relates to and the tax reversed. They are taken off income and tax in the monthly profit sheet.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+},
+{
+"en": "Each pack or membership sold, with sessions used so far. Sessions left, their value, the end date and the sessions you still owe come out by themselves; expired sessions show as unused value.",
+"where": "fix",
+"kind": "sentence",
+"max": null
+}
+]
