@@ -1,0 +1,6939 @@
+[
+{
+"en": "Timesheets, invoices, receivables and collections for your accounting practice",
+"where": "ac2:listing.headline",
+"kind": "sentence",
+"max": 80,
+"wbs": []
+},
+{
+"en": "Timesheets, invoices, receivables and collections for your practice in one file",
+"where": "ac2:tagline",
+"kind": "sentence",
+"max": 80,
+"wbs": []
+},
+{
+"en": "Billing Dashboard",
+"where": "ac2:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Timesheet that values every hour",
+"where": "ac2:signature[0].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "each line takes the staff rate for its service, so time shows its value at standard rates, its cost and whether it is billed, unbilled or covered by a fee",
+"where": "ac2:signature[0].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Work in progress with unbilled time ageing",
+"where": "ac2:signature[1].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "hourly work not yet invoiced is added up for each client with the age of the oldest line and a bill now, bill with next invoice or nothing to bill flag",
+"where": "ac2:signature[1].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Invoices with tax, ageing and late fees",
+"where": "ac2:signature[2].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "tax, total, payments, credit notes, write-offs and retainers give the balance, days overdue, status, ageing bucket and the late fee built up",
+"where": "ac2:signature[2].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Receivables ageing with collection priority",
+"where": "ac2:signature[3].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "what each client owes in each bucket, the oldest bucket, days since the last call and a priority from call today to no action",
+"where": "ac2:signature[3].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Realisation by client",
+"where": "ac2:signature[4].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "the value of the time at standard rates against the fees really kept after credits and write-offs, with fee per hour and margin for every client",
+"where": "ac2:signature[4].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Fixed-fee jobs against budget hours",
+"where": "ac2:signature[5].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "actual hours from the timesheet against the budget, fee per hour, margin and an over-budget warning show whether the fixed fee was priced right",
+"where": "ac2:signature[5].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Staff utilisation and margin by month",
+"where": "ac2:signature[6].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "hours worked and billable hours against hours available, time value, cost and average rate for each staff member and month",
+"where": "ac2:signature[6].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Promises to pay kept or missed",
+"where": "ac2:signature[7].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "every collection call logs the promise and the sheet checks the payments to say if it was kept, missed or is still waiting",
+"where": "ac2:signature[7].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Payment plans that track every instalment",
+"where": "ac2:signature[8].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "instalments paid and due, missed instalments, the next due date and a status of on plan, behind or completed from the matching payments",
+"where": "ac2:signature[8].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Bad debt reserve from your own rates",
+"where": "ac2:signature[9].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "each ageing bucket times its rate from your settings plus an extra reserve for disputes, with the cover and risk for every client",
+"where": "ac2:signature[9].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Retainer and deposit drawdown",
+"where": "ac2:signature[10].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "money held for clients, drawn down by the invoices that use it, with the balance, months of fees it covers and a running-low warning",
+"where": "ac2:signature[10].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Recurring invoice schedule",
+"where": "ac2:tables[recurring].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "monthly, quarterly and yearly fees with the value a year, the next invoice date and what is due now or this week",
+"where": "ac2:signature[11].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Time, Billing and Collections",
+"where": "ac2:name",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Your practice name",
+"where": "ac2:settings[firm].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sales tax or VAT rate on new invoices",
+"where": "ac2:settings[tax_rate].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment terms for a new client, days",
+"where": "ac2:settings[terms_days].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Grace days before an invoice is overdue",
+"where": "ac2:settings[grace].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late fee, yearly rate on the overdue balance",
+"where": "ac2:settings[late_rate].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Largest discount you give without the partner",
+"where": "ac2:settings[disc_limit].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Write-off that needs the partner, amount",
+"where": "ac2:settings[wo_limit].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Realisation you aim for",
+"where": "ac2:settings[real_target].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable utilisation you aim for",
+"where": "ac2:settings[util_target].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Instalments in a payment plan",
+"where": "ac2:settings[plan_months].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of overdue invoices you expect to collect",
+"where": "ac2:settings[collect_pct].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve on balances not yet due",
+"where": "ac2:settings[res_cur].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve on balances 1 to 30 days late",
+"where": "ac2:settings[res_30].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve on balances 31 to 60 days late",
+"where": "ac2:settings[res_60].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve on balances 61 to 90 days late",
+"where": "ac2:settings[res_90].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve on balances over 90 days late",
+"where": "ac2:settings[res_90p].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Practice overhead a month",
+"where": "ac2:settings[overhead].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days before unbilled time counts as old",
+"where": "ac2:settings[wip_days].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours a month one person has for client work",
+"where": "ac2:settings[avail_h].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days ahead to warn about due dates",
+"where": "ac2:settings[warn_days].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Staff",
+"where": "ac2:lists[staff].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Nadia Haddad",
+"where": "ac2:lists[staff].values[st1]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Daniel Okoye",
+"where": "ac2:lists[staff].values[st2]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Mariana Souza",
+"where": "ac2:lists[staff].values[st3]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Wei Zhang",
+"where": "ac2:lists[staff].values[st4]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Sofia Lindgren",
+"where": "ac2:lists[staff].values[st5]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Arjun Verma",
+"where": "ac2:lists[staff].values[st6]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Client Status",
+"where": "ac2:lists[cstatus].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Active",
+"where": "ac2:lists[cstatus].values[active]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Onboarding",
+"where": "ac2:lists[cstatus].values[onboarding]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Paused",
+"where": "ac2:lists[cstatus].values[paused]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Ended",
+"where": "ac2:lists[cstatus].values[ended]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Service Type",
+"where": "ac2:lists[kind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bookkeeping",
+"where": "ac2:lists[kind].values[bookkeeping]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Payroll",
+"where": "ac2:lists[kind].values[payroll]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Tax",
+"where": "ac2:lists[kind].values[tax]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Annual accounts",
+"where": "ac2:lists[kind].values[annual_accounts]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Advisory",
+"where": "ac2:lists[kind].values[advisory]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Project",
+"where": "ac2:lists[kind].values[project]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Billing Basis",
+"where": "ac2:lists[basis].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed fee",
+"where": "ac2:lists[basis].values[fixed]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Hourly",
+"where": "ac2:lists[basis].values[hourly]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Non-billable",
+"where": "ac2:lists[basis].values[nonbill]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Payment Method",
+"where": "ac2:lists[method].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bank transfer",
+"where": "ac2:lists[method].values[bank_transfer]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Card",
+"where": "ac2:lists[method].values[card]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Cash",
+"where": "ac2:lists[method].values[cash]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Online payment",
+"where": "ac2:lists[method].values[online_payment]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Standing order",
+"where": "ac2:lists[method].values[standing_order]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Billing Frequency",
+"where": "ac2:lists[freq].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly",
+"where": "ac2:lists[freq].values[monthly]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Quarterly",
+"where": "ac2:lists[freq].values[quarterly]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Yearly",
+"where": "ac2:lists[freq].values[yearly]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "One-off",
+"where": "ac2:lists[freq].values[one_off]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Credit Note Reason",
+"where": "ac2:lists[cr_reason].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billing error",
+"where": "ac2:lists[cr_reason].values[billing_error]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Scope reduced",
+"where": "ac2:lists[cr_reason].values[scope_reduced]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Duplicate invoice",
+"where": "ac2:lists[cr_reason].values[duplicate_invoice]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Service complaint",
+"where": "ac2:lists[cr_reason].values[service_complaint]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Goodwill",
+"where": "ac2:lists[cr_reason].values[goodwill]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Rate correction",
+"where": "ac2:lists[cr_reason].values[rate_correction]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Write-off Type",
+"where": "ac2:lists[wo_kind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Early payment discount",
+"where": "ac2:lists[wo_kind].values[early_discount]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Small balance",
+"where": "ac2:lists[wo_kind].values[small_balance]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Loyalty discount",
+"where": "ac2:lists[wo_kind].values[loyalty_discount]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Time written down",
+"where": "ac2:lists[wo_kind].values[time_written_down]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Bad debt write-off",
+"where": "ac2:lists[wo_kind].values[bad_debt]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Contact Channel",
+"where": "ac2:lists[channel].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Phone call",
+"where": "ac2:lists[channel].values[phone_call]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "WhatsApp",
+"where": "ac2:lists[channel].values[whatsapp]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "E-mail",
+"where": "ac2:lists[channel].values[email]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Visit",
+"where": "ac2:lists[channel].values[visit]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Letter",
+"where": "ac2:lists[channel].values[letter]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Call Outcome",
+"where": "ac2:lists[outcome].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Promised to pay",
+"where": "ac2:lists[outcome].values[promised_to_pay]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Said it was paid",
+"where": "ac2:lists[outcome].values[said_it_was_paid]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Disputed",
+"where": "ac2:lists[outcome].values[disputed]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "No answer",
+"where": "ac2:lists[outcome].values[no_answer]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Asked for a plan",
+"where": "ac2:lists[outcome].values[asked_for_a_plan]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Refused",
+"where": "ac2:lists[outcome].values[refused]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Reminder Level",
+"where": "ac2:lists[rem_level].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reminder 1",
+"where": "ac2:lists[rem_level].values[reminder_1]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Reminder 2",
+"where": "ac2:lists[rem_level].values[reminder_2]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Final notice",
+"where": "ac2:lists[rem_level].values[final_notice]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Re-charge Category",
+"where": "ac2:lists[rc_cat].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Filing and registry fee",
+"where": "ac2:lists[rc_cat].values[registry_fee]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Government or tax fee",
+"where": "ac2:lists[rc_cat].values[government_or_tax_fee]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Courier and postage",
+"where": "ac2:lists[rc_cat].values[courier_and_postage]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Travel",
+"where": "ac2:lists[rc_cat].values[travel]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Software licence",
+"where": "ac2:lists[rc_cat].values[software_licence]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Translation or notary",
+"where": "ac2:lists[rc_cat].values[translation_or_notary]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Other",
+"where": "ac2:lists[rc_cat].values[other]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Retainer Type",
+"where": "ac2:lists[ret_kind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer",
+"where": "ac2:lists[ret_kind].values[retainer]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Deposit",
+"where": "ac2:lists[ret_kind].values[deposit]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Prepayment",
+"where": "ac2:lists[ret_kind].values[prepaid]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Set-up deposit",
+"where": "ac2:lists[ret_kind].values[setup_deposit]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Ageing Bucket",
+"where": "ac2:lists[ageing].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Settled",
+"where": "ac2:lists[ageing].values[clear]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Not due yet",
+"where": "ac2:lists[ageing].values[current]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "1 to 30 days late",
+"where": "ac2:lists[ageing].values[d30]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "31 to 60 days late",
+"where": "ac2:lists[ageing].values[d60]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "61 to 90 days late",
+"where": "ac2:lists[ageing].values[d90]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Over 90 days late",
+"where": "ac2:lists[ageing].values[d90p]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Collection Priority",
+"where": "ac2:lists[prio].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Call today",
+"where": "ac2:lists[prio].values[p1]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Call this week",
+"where": "ac2:lists[prio].values[p2]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Watch",
+"where": "ac2:lists[prio].values[p3]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "No action",
+"where": "ac2:lists[prio].values[p4]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Reserve Risk",
+"where": "ac2:lists[risk].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Low",
+"where": "ac2:lists[risk].values[low]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Medium",
+"where": "ac2:lists[risk].values[medium]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "High",
+"where": "ac2:lists[risk].values[high]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Status",
+"where": "ac2:lists[state].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid",
+"where": "ac2:lists[state].values[paid]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Part paid",
+"where": "ac2:lists[state].values[part]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Open",
+"where": "ac2:lists[state].values[open]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Overdue",
+"where": "ac2:lists[state].values[overdue]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Credited or written off",
+"where": "ac2:lists[state].values[credited]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "On target",
+"where": "ac2:lists[state].values[ok]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Below target",
+"where": "ac2:lists[state].values[below]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Promise kept",
+"where": "ac2:lists[state].values[kept]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Promise missed",
+"where": "ac2:lists[state].values[missed]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Waiting",
+"where": "ac2:lists[state].values[waiting]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Needs partner approval",
+"where": "ac2:lists[state].values[approve]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Approved",
+"where": "ac2:lists[state].values[approved]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "On time",
+"where": "ac2:lists[state].values[ontime]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "On account",
+"where": "ac2:lists[state].values[acct]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Behind plan",
+"where": "ac2:lists[state].values[behind]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "On plan",
+"where": "ac2:lists[state].values[onplan]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Paid after it",
+"where": "ac2:lists[state].values[worked]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Still waiting",
+"where": "ac2:lists[state].values[stillw]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Work Status",
+"where": "ac2:lists[work].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billed",
+"where": "ac2:lists[work].values[billed]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Unbilled",
+"where": "ac2:lists[work].values[unbilled]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Covered by fee",
+"where": "ac2:lists[work].values[covered]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Internal time",
+"where": "ac2:lists[work].values[internal]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Over budget",
+"where": "ac2:lists[work].values[over]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Near budget",
+"where": "ac2:lists[work].values[near]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "On budget",
+"where": "ac2:lists[work].values[onbud]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Schedule Status",
+"where": "ac2:lists[rstate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fully used",
+"where": "ac2:lists[rstate].values[fulluse]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Running low",
+"where": "ac2:lists[rstate].values[low]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Available",
+"where": "ac2:lists[rstate].values[avail]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Due now",
+"where": "ac2:lists[rstate].values[due]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Due this week",
+"where": "ac2:lists[rstate].values[week]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Scheduled",
+"where": "ac2:lists[rstate].values[sched]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Billing Action",
+"where": "ac2:lists[wipact].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bill now",
+"where": "ac2:lists[wipact].values[now]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Bill with next invoice",
+"where": "ac2:lists[wipact].values[soon]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Nothing to bill",
+"where": "ac2:lists[wipact].values[none]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Client Accounts",
+"where": "ac2:tables[clients].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Client accounts and payment terms",
+"where": "ac2:tables[clients].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each client with payment terms and the money picture: billed, received, open and overdue balance, last payment and how many days late they usually pay; it fills in from the other sheets.",
+"where": "ac2:tables[clients].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client ID",
+"where": "ac2:tables[clients].columns[client_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client",
+"where": "ac2:tables[clients].columns[name].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Phone",
+"where": "ac2:tables[clients].columns[phone].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Handled by",
+"where": "ac2:tables[clients].columns[staff].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Terms, days",
+"where": "ac2:tables[clients].columns[terms].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client since",
+"where": "ac2:tables[clients].columns[joined].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly fee",
+"where": "ac2:tables[clients].columns[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billed net, 12 months",
+"where": "ac2:tables[clients].columns[billed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash received, 12 months",
+"where": "ac2:tables[clients].columns[cash].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Open balance",
+"where": "ac2:tables[clients].columns[balance].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overdue balance",
+"where": "ac2:tables[clients].columns[overdue].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Last payment",
+"where": "ac2:tables[clients].columns[last_pay].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days since payment",
+"where": "ac2:tables[clients].columns[gap].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Usual days late",
+"where": "ac2:tables[clients].columns[late].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Unbilled time",
+"where": "ac2:tables[clients].columns[wip].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate Card",
+"where": "ac2:tables[rates].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Charge-out rates and cost per hour by staff and service",
+"where": "ac2:tables[rates].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each staff member and type of service: the rate you charge and what an hour costs you. Hours, time value and margin earned over 12 months fill in from the Timesheet.",
+"where": "ac2:tables[rates].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate ID",
+"where": "ac2:tables[rates].columns[rate_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Service",
+"where": "ac2:tables[rates].columns[kind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate per hour",
+"where": "ac2:tables[rates].columns[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost per hour",
+"where": "ac2:tables[rates].columns[cost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Staff phone",
+"where": "ac2:tables[rates].columns[phone].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate against cost",
+"where": "ac2:tables[rates].columns[multiple].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin per hour",
+"where": "ac2:tables[rates].columns[margin_h].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable hours, 12 months",
+"where": "ac2:tables[rates].columns[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Time value, 12 months",
+"where": "ac2:tables[rates].columns[value].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin earned, 12 months",
+"where": "ac2:tables[rates].columns[earned].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Timesheet",
+"where": "ac2:tables[timesheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "One line for each stretch of work: who, which client and service, hours and how it is billed. Rate, value, cost and whether the time is billed, unbilled or covered by a fee come out by themselves.",
+"where": "ac2:tables[timesheet].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Line no",
+"where": "ac2:tables[timesheet].columns[ts_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billing basis",
+"where": "ac2:tables[timesheet].columns[basis].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed-fee job",
+"where": "ac2:tables[timesheet].columns[job].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billed on invoice",
+"where": "ac2:tables[timesheet].columns[inv].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours",
+"where": "ac2:tables[timesheet].columns[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Work done",
+"where": "ac2:tables[timesheet].columns[note].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client name",
+"where": "ac2:tables[timesheet].columns[name].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate",
+"where": "ac2:tables[timesheet].columns[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value at standard rate",
+"where": "ac2:tables[timesheet].columns[value].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost of the time",
+"where": "ac2:tables[timesheet].columns[cost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days unbilled",
+"where": "ac2:tables[timesheet].columns[days].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Work in Progress",
+"where": "ac2:tables[wip].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Work in progress: unbilled time by client",
+"where": "ac2:tables[wip].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each client with hourly work not yet on an invoice: hours, value, days since the oldest line and what to do. Time covered by a fixed or monthly fee is not counted here.",
+"where": "ac2:tables[wip].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billing note",
+"where": "ac2:tables[wip].columns[note].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Unbilled hours",
+"where": "ac2:tables[wip].columns[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Unbilled value",
+"where": "ac2:tables[wip].columns[value].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Oldest line, days",
+"where": "ac2:tables[wip].columns[oldest].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of all unbilled",
+"where": "ac2:tables[wip].columns[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "What to do",
+"where": "ac2:tables[wip].columns[act].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoices",
+"where": "ac2:tables[invoices].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Invoices with tax, payments and balance",
+"where": "ac2:tables[invoices].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Every invoice you issue. Tax, total, payments, credit notes, write-offs, balance, days overdue, status, ageing bucket and late fee come from the other sheets, so late payers show themselves.",
+"where": "ac2:tables[invoices].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice no",
+"where": "ac2:tables[invoices].columns[inv_no].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Issued on",
+"where": "ac2:tables[invoices].columns[issued].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "For",
+"where": "ac2:tables[invoices].columns[item].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees, tax excluded",
+"where": "ac2:tables[invoices].columns[net].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax rate",
+"where": "ac2:tables[invoices].columns[tax_rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer used",
+"where": "ac2:tables[invoices].columns[ret].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer applied",
+"where": "ac2:tables[invoices].columns[dep].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billed to",
+"where": "ac2:tables[invoices].columns[name].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Due on",
+"where": "ac2:tables[invoices].columns[due].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total, tax included",
+"where": "ac2:tables[invoices].columns[amount].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Credit notes",
+"where": "ac2:tables[invoices].columns[credited].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Written off",
+"where": "ac2:tables[invoices].columns[written].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance",
+"where": "ac2:tables[invoices].columns[balance].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days overdue",
+"where": "ac2:tables[invoices].columns[age].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Ageing",
+"where": "ac2:tables[invoices].columns[bucket].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late fee so far",
+"where": "ac2:tables[invoices].columns[late_fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Plan instalment",
+"where": "ac2:tables[invoices].columns[plan].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payments Received",
+"where": "ac2:tables[payments].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Payments received and matched to invoices",
+"where": "ac2:tables[payments].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each payment: who paid, which invoice, how and how much. Days after the due date, on time or late, and the share of the invoice paid are worked out for you.",
+"where": "ac2:tables[payments].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment no",
+"where": "ac2:tables[payments].columns[pay_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice",
+"where": "ac2:tables[payments].columns[inv].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Method",
+"where": "ac2:tables[payments].columns[method].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Amount received",
+"where": "ac2:tables[payments].columns[amount].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment plan",
+"where": "ac2:tables[payments].columns[plan].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bank reference",
+"where": "ac2:tables[payments].columns[bank].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid by",
+"where": "ac2:tables[payments].columns[name].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice due on",
+"where": "ac2:tables[payments].columns[due].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days after due date",
+"where": "ac2:tables[payments].columns[late].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Timing",
+"where": "ac2:tables[payments].columns[timing].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of invoice",
+"where": "ac2:tables[payments].columns[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Credit Notes",
+"where": "ac2:tables[credits].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Credit notes given against invoices, with the reason and who approved them. Tax reversed, net amount and what is still owed on the invoice come out by themselves.",
+"where": "ac2:tables[credits].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Credit note no",
+"where": "ac2:tables[credits].columns[cn_no].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reason",
+"where": "ac2:tables[credits].columns[reason].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Credit, tax included",
+"where": "ac2:tables[credits].columns[amount].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Approved by",
+"where": "ac2:tables[credits].columns[by].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Given to",
+"where": "ac2:tables[credits].columns[name].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax reversed",
+"where": "ac2:tables[credits].columns[tax].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net credit",
+"where": "ac2:tables[credits].columns[net].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice balance now",
+"where": "ac2:tables[credits].columns[inv_bal].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Receivables Ageing",
+"where": "ac2:tables[ageing].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Receivables ageing by client",
+"where": "ac2:tables[ageing].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each client with what they owe in each ageing bucket, the oldest bucket, days since your last call and a priority for collection; it reads the Invoices and Collection Calls sheets.",
+"where": "ac2:tables[ageing].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Collection note",
+"where": "ac2:tables[ageing].columns[note].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "1 to 30 days",
+"where": "ac2:tables[ageing].columns[d30].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "31 to 60 days",
+"where": "ac2:tables[ageing].columns[d60].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "61 to 90 days",
+"where": "ac2:tables[ageing].columns[d90].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Over 90 days",
+"where": "ac2:tables[ageing].columns[d90p].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total owed",
+"where": "ac2:tables[ageing].columns[total].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share overdue",
+"where": "ac2:tables[ageing].columns[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Oldest bucket",
+"where": "ac2:tables[ageing].columns[worst].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Last call",
+"where": "ac2:tables[ageing].columns[last_call].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days since call",
+"where": "ac2:tables[ageing].columns[days_call].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Priority",
+"where": "ac2:tables[ageing].columns[prio].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainers and Deposits",
+"where": "ac2:tables[retainers].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Retainers and deposits held for clients",
+"where": "ac2:tables[retainers].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Money received in advance, drawn down by invoices that use it. Applied, balance left, months of fees it still covers and a running-low warning come out by themselves.",
+"where": "ac2:tables[retainers].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer ID",
+"where": "ac2:tables[retainers].columns[ret_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Received on",
+"where": "ac2:tables[retainers].columns[date].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Type",
+"where": "ac2:tables[retainers].columns[kind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Received, tax included",
+"where": "ac2:tables[retainers].columns[amount].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Purpose",
+"where": "ac2:tables[retainers].columns[note].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Applied to invoices",
+"where": "ac2:tables[retainers].columns[applied].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance held",
+"where": "ac2:tables[retainers].columns[left].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share used",
+"where": "ac2:tables[retainers].columns[used].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months of fees it covers",
+"where": "ac2:tables[retainers].columns[cover].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Write-offs and Discounts",
+"where": "ac2:tables[writeoffs].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Write-offs and discounts",
+"where": "ac2:tables[writeoffs].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Every discount, small balance and bad debt you take off an invoice, with the reason and who approved it. Share of the invoice follows, and amounts over your limit are flagged.",
+"where": "ac2:tables[writeoffs].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Entry no",
+"where": "ac2:tables[writeoffs].columns[wo_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Amount, tax included",
+"where": "ac2:tables[writeoffs].columns[amount].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice total",
+"where": "ac2:tables[writeoffs].columns[inv_total].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net amount",
+"where": "ac2:tables[writeoffs].columns[net].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Approval check",
+"where": "ac2:tables[writeoffs].columns[check].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment Plans",
+"where": "ac2:tables[plans].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Payment plans",
+"where": "ac2:tables[plans].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Plans agreed with clients who cannot pay in one go: amount, deposit and instalments. Paid so far, missed instalments, next due date and status come from the Payments sheet.",
+"where": "ac2:tables[plans].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Plan ID",
+"where": "ac2:tables[plans].columns[plan_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "First payment due",
+"where": "ac2:tables[plans].columns[start].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Amount agreed",
+"where": "ac2:tables[plans].columns[amount].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Instalments",
+"where": "ac2:tables[plans].columns[insts].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days between",
+"where": "ac2:tables[plans].columns[gap].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Instalment",
+"where": "ac2:tables[plans].columns[inst].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid so far",
+"where": "ac2:tables[plans].columns[paid].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Still to pay",
+"where": "ac2:tables[plans].columns[left].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Instalments paid",
+"where": "ac2:tables[plans].columns[done].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Due by today",
+"where": "ac2:tables[plans].columns[due_now].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Missed",
+"where": "ac2:tables[plans].columns[missed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Next due",
+"where": "ac2:tables[plans].columns[next_due].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Collection Calls",
+"where": "ac2:tables[calls].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Collection calls and promises to pay",
+"where": "ac2:tables[calls].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "A log of every call, message or visit about money owed: who, how, what was said and any promise to pay. It checks the Payments sheet and tells you whether each promise was kept or missed.",
+"where": "ac2:tables[calls].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Call no",
+"where": "ac2:tables[calls].columns[call_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "By",
+"where": "ac2:tables[calls].columns[staff].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Channel",
+"where": "ac2:tables[calls].columns[channel].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Outcome",
+"where": "ac2:tables[calls].columns[outcome].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Promised for",
+"where": "ac2:tables[calls].columns[promised_on].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Amount promised",
+"where": "ac2:tables[calls].columns[promised].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Note",
+"where": "ac2:tables[calls].columns[note].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid by the promised date",
+"where": "ac2:tables[calls].columns[got].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Promise",
+"where": "ac2:tables[calls].columns[result].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed-Fee Jobs",
+"where": "ac2:tables[fixed].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Fixed-fee jobs: budget against actual hours",
+"where": "ac2:tables[fixed].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Annual accounts, tax returns and set-up projects sold for a fixed fee. Actual hours come from the Timesheet; fee per hour, margin and an over-budget warning show whether the price was right.",
+"where": "ac2:tables[fixed].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Job ID",
+"where": "ac2:tables[fixed].columns[job_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lead",
+"where": "ac2:tables[fixed].columns[staff].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Started on",
+"where": "ac2:tables[fixed].columns[start].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed fee, tax excluded",
+"where": "ac2:tables[fixed].columns[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Budget hours",
+"where": "ac2:tables[fixed].columns[budget].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Finished",
+"where": "ac2:tables[fixed].columns[done].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Actual hours",
+"where": "ac2:tables[fixed].columns[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours left",
+"where": "ac2:tables[fixed].columns[left].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Budget used",
+"where": "ac2:tables[fixed].columns[used].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Time at standard rates",
+"where": "ac2:tables[fixed].columns[value].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee per hour",
+"where": "ac2:tables[fixed].columns[rate_h].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin",
+"where": "ac2:tables[fixed].columns[margin].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin %",
+"where": "ac2:tables[fixed].columns[m_pct].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Budget check",
+"where": "ac2:tables[fixed].columns[state].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Realisation by Client",
+"where": "ac2:tables[real].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Realisation by client: time value against fees billed",
+"where": "ac2:tables[real].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "For each client, the value of the time at standard rates against the fees really billed after credits and write-offs. Realisation, fee per hour and margin show who is worth keeping at today's price.",
+"where": "ac2:tables[real].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Partner note",
+"where": "ac2:tables[real].columns[note].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours, 12 months",
+"where": "ac2:tables[real].columns[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees billed, 12 months",
+"where": "ac2:tables[real].columns[billed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Credits and write-offs",
+"where": "ac2:tables[real].columns[adj].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees kept",
+"where": "ac2:tables[real].columns[realised].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Realisation",
+"where": "ac2:tables[real].columns[real_pct].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Against target",
+"where": "ac2:tables[real].columns[flag].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Staff Utilisation",
+"where": "ac2:tables[util].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Staff utilisation by month",
+"where": "ac2:tables[util].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each staff member and month with the hours available. Hours worked, billable hours, utilisation, time value, cost and margin come from the Timesheet.",
+"where": "ac2:tables[util].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Row no",
+"where": "ac2:tables[util].columns[ut_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours available",
+"where": "ac2:tables[util].columns[avail].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours worked",
+"where": "ac2:tables[util].columns[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable hours",
+"where": "ac2:tables[util].columns[billable].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Utilisation",
+"where": "ac2:tables[util].columns[util].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable utilisation",
+"where": "ac2:tables[util].columns[bill_util].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Time value",
+"where": "ac2:tables[util].columns[value].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average rate",
+"where": "ac2:tables[util].columns[avg_rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Idle hours",
+"where": "ac2:tables[util].columns[idle].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Expenses Re-charged",
+"where": "ac2:tables[recharge].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Expenses paid for clients and re-charged",
+"where": "ac2:tables[recharge].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Fees and costs you paid on a client's behalf. The amount to re-charge with your mark-up, your profit and the days waiting show which ones still need to go on an invoice.",
+"where": "ac2:tables[recharge].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Expense no",
+"where": "ac2:tables[recharge].columns[rc_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Category",
+"where": "ac2:tables[recharge].columns[cat].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "What was paid",
+"where": "ac2:tables[recharge].columns[item].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid out",
+"where": "ac2:tables[recharge].columns[cost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Mark-up",
+"where": "ac2:tables[recharge].columns[markup].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "To re-charge",
+"where": "ac2:tables[recharge].columns[charge].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Mark-up earned",
+"where": "ac2:tables[recharge].columns[profit].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days waiting",
+"where": "ac2:tables[recharge].columns[days].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Recurring Invoices",
+"where": "ac2:tables[recurring].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "The fees you bill again and again: monthly bookkeeping and payroll, quarterly tax returns, yearly accounts. Value a year, the next invoice date and whether it is due now or this week are worked out.",
+"where": "ac2:tables[recurring].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Schedule ID",
+"where": "ac2:tables[recurring].columns[rs_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Service billed",
+"where": "ac2:tables[recurring].columns[item].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee each time, tax excluded",
+"where": "ac2:tables[recurring].columns[amount].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Last invoiced on",
+"where": "ac2:tables[recurring].columns[last].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value a year",
+"where": "ac2:tables[recurring].columns[yearly].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value a month",
+"where": "ac2:tables[recurring].columns[monthly].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Next invoice",
+"where": "ac2:tables[recurring].columns[next].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days to go",
+"where": "ac2:tables[recurring].columns[days_to].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Revenue by Service",
+"where": "ac2:tables[revenue].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Revenue by service and month",
+"where": "ac2:tables[revenue].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each service type and month. Fees billed, invoices, hours, time value, fee per hour and realisation come out of the Invoices and Timesheet sheets, so you see which services pay.",
+"where": "ac2:tables[revenue].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees billed",
+"where": "ac2:tables[revenue].columns[billed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average invoice",
+"where": "ac2:tables[revenue].columns[avg_inv].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bad Debt Reserve",
+"where": "ac2:tables[reserve].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Bad debt reserve by client",
+"where": "ac2:tables[reserve].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "The reserve you should hold against unpaid invoices: each ageing bucket times its rate from your settings, plus any extra amount you add for a dispute. Cover and risk show where the exposure is.",
+"where": "ac2:tables[reserve].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra reserve",
+"where": "ac2:tables[reserve].columns[specific].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reason for extra reserve",
+"where": "ac2:tables[reserve].columns[note].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve by ageing",
+"where": "ac2:tables[reserve].columns[general].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total reserve",
+"where": "ac2:tables[reserve].columns[total].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve of balance",
+"where": "ac2:tables[reserve].columns[cover].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Risk",
+"where": "ac2:tables[reserve].columns[risk].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reminder Log",
+"where": "ac2:tables[reminders].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Reminders sent for overdue invoices",
+"where": "ac2:tables[reminders].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each reminder or final notice you send. It shows the days overdue at the time, the late fee added and whether the invoice was paid after it, so you see which step really works.",
+"where": "ac2:tables[reminders].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reminder no",
+"where": "ac2:tables[reminders].columns[rm_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sent on",
+"where": "ac2:tables[reminders].columns[date].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sent by",
+"where": "ac2:tables[reminders].columns[staff].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late fee added",
+"where": "ac2:tables[reminders].columns[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance now",
+"where": "ac2:tables[reminders].columns[bal].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days overdue when sent",
+"where": "ac2:tables[reminders].columns[days].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid since",
+"where": "ac2:tables[reminders].columns[since].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Result",
+"where": "ac2:tables[reminders].columns[result].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees billed, last 30 days",
+"where": "ac2:dashboard.kpis[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees billed, last 12 months",
+"where": "ac2:dashboard.kpis[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash received, last 30 days",
+"where": "ac2:dashboard.kpis[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash received, last 12 months",
+"where": "ac2:dashboard.kpis[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Open receivables",
+"where": "ac2:dashboard.kpis[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overdue receivables",
+"where": "ac2:dashboard.kpis[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overdue more than 60 days",
+"where": "ac2:dashboard.kpis[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of receivables overdue",
+"where": "ac2:dashboard.kpis[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days sales outstanding",
+"where": "ac2:dashboard.kpis[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average days after the due date",
+"where": "ac2:dashboard.kpis[9].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payments received on time",
+"where": "ac2:dashboard.kpis[10].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Unbilled work in progress",
+"where": "ac2:dashboard.kpis[11].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Unbilled time older than your limit",
+"where": "ac2:dashboard.kpis[12].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours logged, last 30 days",
+"where": "ac2:dashboard.kpis[13].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable utilisation, last full month",
+"where": "ac2:dashboard.kpis[14].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Realisation, last 12 months",
+"where": "ac2:dashboard.kpis[15].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee per hour kept, last 12 months",
+"where": "ac2:dashboard.kpis[16].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed-fee jobs over budget",
+"where": "ac2:dashboard.kpis[17].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin on fixed-fee jobs",
+"where": "ac2:dashboard.kpis[18].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Credit notes, last 90 days",
+"where": "ac2:dashboard.kpis[19].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Write-offs and discounts, last 12 months",
+"where": "ac2:dashboard.kpis[20].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment plans behind",
+"where": "ac2:dashboard.kpis[21].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Still to collect on payment plans",
+"where": "ac2:dashboard.kpis[22].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainers and deposits held",
+"where": "ac2:dashboard.kpis[23].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Expenses waiting to be re-charged",
+"where": "ac2:dashboard.kpis[24].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Recurring invoices due now or this week",
+"where": "ac2:dashboard.kpis[25].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Recurring fees a year",
+"where": "ac2:dashboard.kpis[26].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bad debt reserve needed",
+"where": "ac2:dashboard.kpis[27].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Promises to pay kept",
+"where": "ac2:dashboard.kpis[28].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late fees built up",
+"where": "ac2:dashboard.kpis[29].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees billed, cash received and time value by month",
+"where": "ac2:dashboard.monthly.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Cash received",
+"where": "ac2:dashboard.monthly.series[1].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Write-offs",
+"where": "ac2:dashboard.monthly.series[3].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Fees billed by service type",
+"where": "ac2:dashboard.breakdowns[0].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Cash received by method",
+"where": "ac2:dashboard.breakdowns[1].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Hours by staff member",
+"where": "ac2:dashboard.breakdowns[2].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Write-offs by type",
+"where": "ac2:dashboard.breakdowns[3].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Invoice Print",
+"where": "ac2:forms[invoice_form].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Client Statement",
+"where": "ac2:forms[statement].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Client account statement",
+"where": "ac2:forms[statement].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payment terms, days",
+"where": "ac2:forms[statement].fields[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment Receipt",
+"where": "ac2:forms[receipt].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Payment receipt",
+"where": "ac2:forms[receipt].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Credit Note Print",
+"where": "ac2:forms[credit_form].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Credit note",
+"where": "ac2:forms[credit_form].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Fixed-Fee Job Card",
+"where": "ac2:forms[job_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Fixed-fee job card with time spent",
+"where": "ac2:forms[job_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payment Plan Card",
+"where": "ac2:forms[plan_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Payment plan card with payments",
+"where": "ac2:forms[plan_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Unbilled Time Sheet",
+"where": "ac2:forms[wip_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Time and billing for one client",
+"where": "ac2:forms[wip_sheet].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Retainer Statement",
+"where": "ac2:forms[retainer_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Retainer and deposit statement",
+"where": "ac2:forms[retainer_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Collection File",
+"where": "ac2:forms[call_file].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Collection file for one client",
+"where": "ac2:forms[call_file].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Not yet due",
+"where": "ac2:forms[call_file].fields[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice Builder",
+"where": "ac2:tools[invoice_builder].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Invoice builder with tax",
+"where": "ac2:tools[invoice_builder].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the hours, rate, fixed fee, expenses, discount and tax; see the net total, tax, invoice total, the amount to pay after a retainer and the due date.",
+"where": "ac2:tools[invoice_builder].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours billed at the hourly rate",
+"where": "ac2:tools[invoice_builder].inputs[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hourly rate",
+"where": "ac2:tools[invoice_builder].inputs[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed fee part",
+"where": "ac2:tools[invoice_builder].inputs[fixed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Expenses paid for the client",
+"where": "ac2:tools[invoice_builder].inputs[expenses].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Mark-up on expenses",
+"where": "ac2:tools[invoice_builder].inputs[markup].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Discount",
+"where": "ac2:tools[invoice_builder].inputs[disc].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sales tax or VAT rate",
+"where": "ac2:tools[invoice_builder].inputs[tax].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer or deposit applied",
+"where": "ac2:tools[invoice_builder].inputs[dep].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Time at the hourly rate",
+"where": "ac2:tools[invoice_builder].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees before the discount",
+"where": "ac2:tools[invoice_builder].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Expenses with mark-up",
+"where": "ac2:tools[invoice_builder].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net total, tax excluded",
+"where": "ac2:tools[invoice_builder].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice total, tax included",
+"where": "ac2:tools[invoice_builder].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Amount to pay after the retainer",
+"where": "ac2:tools[invoice_builder].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Due date with your standard terms",
+"where": "ac2:tools[invoice_builder].outputs[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Discount above your limit without the partner",
+"where": "ac2:tools[invoice_builder].outputs[9].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee per hour after the discount",
+"where": "ac2:tools[invoice_builder].outputs[10].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees billed in the last 30 days on your Invoices sheet",
+"where": "ac2:tools[invoice_builder].outputs[11].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other invoices",
+"where": "ac2:tools[invoice_builder].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "No discount",
+"where": "ac2:tools[invoice_builder].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "10 hours of advice",
+"where": "ac2:tools[invoice_builder].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate 130",
+"where": "ac2:tools[invoice_builder].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax 20%",
+"where": "ac2:tools[invoice_builder].grid.rows[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late Fee Calculator",
+"where": "ac2:tools[late_fee].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Late fee and interest calculator",
+"where": "ac2:tools[late_fee].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the balance, the due date, the yearly rate and any fixed fee; see the days overdue, the interest, the total late charge and what your overdue invoices have already earned.",
+"where": "ac2:tools[late_fee].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance overdue",
+"where": "ac2:tools[late_fee].inputs[balance].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly late fee rate",
+"where": "ac2:tools[late_fee].inputs[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed late fee",
+"where": "ac2:tools[late_fee].inputs[fixed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Grace days",
+"where": "ac2:tools[late_fee].inputs[grace].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days charged after the grace days",
+"where": "ac2:tools[late_fee].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Interest on the balance",
+"where": "ac2:tools[late_fee].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed fee that applies",
+"where": "ac2:tools[late_fee].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total late charge",
+"where": "ac2:tools[late_fee].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Amount due now with the charge",
+"where": "ac2:tools[late_fee].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Interest for each extra 30 days",
+"where": "ac2:tools[late_fee].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late fees built up on your Invoices sheet",
+"where": "ac2:tools[late_fee].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overdue balance on your Invoices sheet",
+"where": "ac2:tools[late_fee].outputs[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other balances",
+"where": "ac2:tools[late_fee].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Balance 600",
+"where": "ac2:tools[late_fee].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "90 days overdue",
+"where": "ac2:tools[late_fee].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate 18%",
+"where": "ac2:tools[late_fee].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Discount Check",
+"where": "ac2:tools[discount_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Discount check against realisation and margin",
+"where": "ac2:tools[discount_check].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the fees, the discount, the hours the work takes and your rate; see the realisation and margin before and after, and the extra hours you must bill to win the discount back.",
+"where": "ac2:tools[discount_check].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours the work takes",
+"where": "ac2:tools[discount_check].inputs[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Standard rate per hour",
+"where": "ac2:tools[discount_check].inputs[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees after the discount",
+"where": "ac2:tools[discount_check].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Realisation before",
+"where": "ac2:tools[discount_check].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Realisation after",
+"where": "ac2:tools[discount_check].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin before",
+"where": "ac2:tools[discount_check].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin after",
+"where": "ac2:tools[discount_check].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra hours to bill to win the discount back",
+"where": "ac2:tools[discount_check].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your realisation over the last 12 months",
+"where": "ac2:tools[discount_check].outputs[9].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other discounts",
+"where": "ac2:tools[discount_check].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "3% off",
+"where": "ac2:tools[discount_check].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "5% off",
+"where": "ac2:tools[discount_check].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "10% off",
+"where": "ac2:tools[discount_check].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "15% off",
+"where": "ac2:tools[discount_check].grid.rows[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed Fee Check",
+"where": "ac2:tools[fixed_fee].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Fixed-fee profitability",
+"where": "ac2:tools[fixed_fee].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the fixed fee, the budget and actual hours, your cost and standard rate; see the fee per hour, realisation, margin, the hours over budget and the fee that would have met your realisation target.",
+"where": "ac2:tools[fixed_fee].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee per hour worked",
+"where": "ac2:tools[fixed_fee].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours over budget",
+"where": "ac2:tools[fixed_fee].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee that meets your realisation target",
+"where": "ac2:tools[fixed_fee].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average margin of your finished jobs",
+"where": "ac2:tools[fixed_fee].outputs[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other jobs",
+"where": "ac2:tools[fixed_fee].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Finished on budget",
+"where": "ac2:tools[fixed_fee].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "25% over",
+"where": "ac2:tools[fixed_fee].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Big overrun",
+"where": "ac2:tools[fixed_fee].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee 1700",
+"where": "ac2:tools[fixed_fee].grid.rows[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "WIP Value",
+"where": "ac2:tools[wip_value].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Work in progress value and write-down",
+"where": "ac2:tools[wip_value].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the unbilled hours, your rate and the age of the oldest line; see the value, the write-down for old time, what you expect to bill and how many days of billing are tied up.",
+"where": "ac2:tools[wip_value].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days since the oldest line",
+"where": "ac2:tools[wip_value].inputs[age].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Write-down on old time",
+"where": "ac2:tools[wip_value].inputs[down].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value of the unbilled time",
+"where": "ac2:tools[wip_value].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Write-down for old time",
+"where": "ac2:tools[wip_value].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value you expect to bill",
+"where": "ac2:tools[wip_value].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average fees billed a day, last 90 days",
+"where": "ac2:tools[wip_value].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days of billing tied up in this time",
+"where": "ac2:tools[wip_value].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Unbilled value on your Timesheet",
+"where": "ac2:tools[wip_value].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Of which older than your limit",
+"where": "ac2:tools[wip_value].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients with unbilled time",
+"where": "ac2:tools[wip_value].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other cases",
+"where": "ac2:tools[wip_value].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Newer lines",
+"where": "ac2:tools[wip_value].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Very old lines",
+"where": "ac2:tools[wip_value].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "40 hours",
+"where": "ac2:tools[wip_value].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Collection priority score",
+"where": "ac2:tools[collect_priority].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the balance, the days overdue, how late the client usually pays and the promises missed; see a score out of 100 and how soon to call.",
+"where": "ac2:tools[collect_priority].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days late the client usually pays",
+"where": "ac2:tools[collect_priority].inputs[late].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Promises missed",
+"where": "ac2:tools[collect_priority].inputs[missed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees billed to the client, 12 months",
+"where": "ac2:tools[collect_priority].inputs[billed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Score for the days overdue, up to 45",
+"where": "ac2:tools[collect_priority].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Score for the amount, up to 30",
+"where": "ac2:tools[collect_priority].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Score for promises missed, up to 21",
+"where": "ac2:tools[collect_priority].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Score for a slow payer, up to 4",
+"where": "ac2:tools[collect_priority].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Priority score out of 100",
+"where": "ac2:tools[collect_priority].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Call within, days",
+"where": "ac2:tools[collect_priority].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance as a share of a year of fees",
+"where": "ac2:tools[collect_priority].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late fee so far at your rate",
+"where": "ac2:tools[collect_priority].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Largest overdue balance on your Client Accounts sheet",
+"where": "ac2:tools[collect_priority].outputs[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients with an overdue balance",
+"where": "ac2:tools[collect_priority].outputs[9].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Small and new",
+"where": "ac2:tools[collect_priority].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Large and old",
+"where": "ac2:tools[collect_priority].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Two promises missed",
+"where": "ac2:tools[collect_priority].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Plan Calculator",
+"where": "ac2:tools[plan_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Payment plan calculator",
+"where": "ac2:tools[plan_calc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the balance, the deposit, the number of instalments, the days between them and a yearly plan fee; see the deposit, each instalment, the total paid and the last payment date.",
+"where": "ac2:tools[plan_calc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance to spread, tax included",
+"where": "ac2:tools[plan_calc].inputs[balance].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Number of instalments",
+"where": "ac2:tools[plan_calc].inputs[inst].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days between instalments",
+"where": "ac2:tools[plan_calc].inputs[gap].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly plan fee",
+"where": "ac2:tools[plan_calc].inputs[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Deposit to pay now",
+"where": "ac2:tools[plan_calc].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Amount spread over the plan",
+"where": "ac2:tools[plan_calc].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Plan fee in total",
+"where": "ac2:tools[plan_calc].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total the client pays",
+"where": "ac2:tools[plan_calc].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Last payment date",
+"where": "ac2:tools[plan_calc].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Still to pay on your plans that are behind",
+"where": "ac2:tools[plan_calc].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Plans behind",
+"where": "ac2:tools[plan_calc].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other plans",
+"where": "ac2:tools[plan_calc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "6 instalments",
+"where": "ac2:tools[plan_calc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "No deposit",
+"where": "ac2:tools[plan_calc].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "No plan fee",
+"where": "ac2:tools[plan_calc].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance 1200",
+"where": "ac2:tools[plan_calc].grid.rows[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer Drawdown",
+"where": "ac2:tools[retainer_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Retainer drawdown and top-up",
+"where": "ac2:tools[retainer_calc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the retainer held, the monthly fee and the hourly work billed each month; see the monthly draw, how many months it lasts, the date it runs out and the top-up for six months.",
+"where": "ac2:tools[retainer_calc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer held, tax included",
+"where": "ac2:tools[retainer_calc].inputs[held].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly fee, tax excluded",
+"where": "ac2:tools[retainer_calc].inputs[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hourly work billed a month, tax excluded",
+"where": "ac2:tools[retainer_calc].inputs[extra].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Drawn each month, tax included",
+"where": "ac2:tools[retainer_calc].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months the retainer covers",
+"where": "ac2:tools[retainer_calc].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Date it runs out",
+"where": "ac2:tools[retainer_calc].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Top-up to cover six months",
+"where": "ac2:tools[retainer_calc].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainers and deposits held on your sheet",
+"where": "ac2:tools[retainer_calc].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainers running low",
+"where": "ac2:tools[retainer_calc].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average months of fees your retainers cover",
+"where": "ac2:tools[retainer_calc].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other retainers",
+"where": "ac2:tools[retainer_calc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "No extra work",
+"where": "ac2:tools[retainer_calc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Busy months",
+"where": "ac2:tools[retainer_calc].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer 4000",
+"where": "ac2:tools[retainer_calc].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate Review",
+"where": "ac2:tools[rate_review].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Rate review and price rise what-if",
+"where": "ac2:tools[rate_review].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type your rate, your cost, the rise, the hours and the share you might lose; see the new rate, the margin change a year and the loss at which the rise stops paying.",
+"where": "ac2:tools[rate_review].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate per hour now",
+"where": "ac2:tools[rate_review].inputs[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate rise",
+"where": "ac2:tools[rate_review].inputs[rise].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable hours a year",
+"where": "ac2:tools[rate_review].inputs[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours lost to clients who leave",
+"where": "ac2:tools[rate_review].inputs[lost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New rate per hour",
+"where": "ac2:tools[rate_review].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin per hour before",
+"where": "ac2:tools[rate_review].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin per hour after",
+"where": "ac2:tools[rate_review].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra income a year if nobody leaves",
+"where": "ac2:tools[rate_review].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Income lost from clients who leave",
+"where": "ac2:tools[rate_review].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Change in margin a year",
+"where": "ac2:tools[rate_review].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours you can lose before the rise stops paying",
+"where": "ac2:tools[rate_review].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee per hour you really kept, last 12 months",
+"where": "ac2:tools[rate_review].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average standard rate on your Rate Card",
+"where": "ac2:tools[rate_review].outputs[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other rises",
+"where": "ac2:tools[rate_review].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "3% rise",
+"where": "ac2:tools[rate_review].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "10% rise, 8% lost",
+"where": "ac2:tools[rate_review].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate 120",
+"where": "ac2:tools[rate_review].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Break-Even Hours",
+"where": "ac2:tools[breakeven].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Break-even billable hours",
+"where": "ac2:tools[breakeven].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the overhead, the fee per hour, the cost per hour and the people doing client work; see the billable hours you need each month and how that compares with the hours you really bill.",
+"where": "ac2:tools[breakeven].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overhead a month",
+"where": "ac2:tools[breakeven].inputs[overhead].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee per hour you keep",
+"where": "ac2:tools[breakeven].inputs[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "People doing client work",
+"where": "ac2:tools[breakeven].inputs[people].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin per billable hour",
+"where": "ac2:tools[breakeven].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Break-even billable hours a month",
+"where": "ac2:tools[breakeven].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Break-even hours for each person",
+"where": "ac2:tools[breakeven].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of available hours needed",
+"where": "ac2:tools[breakeven].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable hours in the last full month",
+"where": "ac2:tools[breakeven].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin in the last full month",
+"where": "ac2:tools[breakeven].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overhead covered by that margin",
+"where": "ac2:tools[breakeven].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours short of break-even in the last full month",
+"where": "ac2:tools[breakeven].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other practices",
+"where": "ac2:tools[breakeven].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Overhead 12000",
+"where": "ac2:tools[breakeven].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee 105 an hour",
+"where": "ac2:tools[breakeven].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Four people",
+"where": "ac2:tools[breakeven].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash Forecast 90 Days",
+"where": "ac2:tools[cash_forecast].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Cash-in forecast for 90 days",
+"where": "ac2:tools[cash_forecast].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the new billing you expect each month, the share of overdue invoices you will collect and how late clients usually pay; see the cash coming in over 30, 60 and 90 days.",
+"where": "ac2:tools[cash_forecast].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "New billing each month, tax included",
+"where": "ac2:tools[cash_forecast].inputs[new].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of overdue invoices you collect",
+"where": "ac2:tools[cash_forecast].inputs[collect].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days clients usually pay after the due date",
+"where": "ac2:tools[cash_forecast].inputs[late].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Due in the next 30 days",
+"where": "ac2:tools[cash_forecast].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Due in 31 to 60 days",
+"where": "ac2:tools[cash_forecast].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Due in 61 to 90 days",
+"where": "ac2:tools[cash_forecast].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overdue now that you expect to collect",
+"where": "ac2:tools[cash_forecast].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New billing collected within 90 days",
+"where": "ac2:tools[cash_forecast].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total cash in over 90 days",
+"where": "ac2:tools[cash_forecast].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash received in the last 90 days",
+"where": "ac2:tools[cash_forecast].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Recurring fees to invoice a month",
+"where": "ac2:tools[cash_forecast].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other forecasts",
+"where": "ac2:tools[cash_forecast].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Collect 60% of overdue",
+"where": "ac2:tools[cash_forecast].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients pay 20 days late",
+"where": "ac2:tools[cash_forecast].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New billing 30000",
+"where": "ac2:tools[cash_forecast].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hourly or Fixed Fee",
+"where": "ac2:tools[hourly_fixed].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Price by the hour or a fixed fee",
+"where": "ac2:tools[hourly_fixed].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the hours you expect, your rate, the overrun risk and the fixed fee you are considering; see which price is safer, the overrun the fixed fee absorbs and how your finished jobs really ran.",
+"where": "ac2:tools[hourly_fixed].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours you expect",
+"where": "ac2:tools[hourly_fixed].inputs[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overrun risk you allow",
+"where": "ac2:tools[hourly_fixed].inputs[risk].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed fee you are considering",
+"where": "ac2:tools[hourly_fixed].inputs[fixed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Price if billed by the hour",
+"where": "ac2:tools[hourly_fixed].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed fee that covers the risk",
+"where": "ac2:tools[hourly_fixed].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin if billed by the hour",
+"where": "ac2:tools[hourly_fixed].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin on your fixed fee if the work runs to plan",
+"where": "ac2:tools[hourly_fixed].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee per hour if the work overruns by your risk",
+"where": "ac2:tools[hourly_fixed].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overrun at which the fixed fee earns only your cost",
+"where": "ac2:tools[hourly_fixed].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overrun at which you earn only your standard rate",
+"where": "ac2:tools[hourly_fixed].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average overrun on your finished jobs",
+"where": "ac2:tools[hourly_fixed].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed fee 1800",
+"where": "ac2:tools[hourly_fixed].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "40% risk",
+"where": "ac2:tools[hourly_fixed].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve Calculator",
+"where": "ac2:tools[reserve_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Bad debt reserve calculator",
+"where": "ac2:tools[reserve_calc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type what clients owe in each ageing bucket; see the reserve for each bucket at the rates in your settings, the total and the receivable left after the reserve.",
+"where": "ac2:tools[reserve_calc].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve on 1 to 30 days late",
+"where": "ac2:tools[reserve_calc].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve on 31 to 60 days late",
+"where": "ac2:tools[reserve_calc].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve on 61 to 90 days late",
+"where": "ac2:tools[reserve_calc].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve on over 90 days late",
+"where": "ac2:tools[reserve_calc].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve as a share of the balance",
+"where": "ac2:tools[reserve_calc].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Receivable left after the reserve",
+"where": "ac2:tools[reserve_calc].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reserve on your Bad Debt Reserve sheet",
+"where": "ac2:tools[reserve_calc].outputs[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other ageing",
+"where": "ac2:tools[reserve_calc].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Nothing over 60 days",
+"where": "ac2:tools[reserve_calc].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Slow clients",
+"where": "ac2:tools[reserve_calc].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "All current",
+"where": "ac2:tools[reserve_calc].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Capacity Planner",
+"where": "ac2:tools[capacity].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Capacity planner for new clients",
+"where": "ac2:tools[capacity].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the new clients you want and the hours each needs; see the spare hours from last month, how many clients they can take and the extra people you would need.",
+"where": "ac2:tools[capacity].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "New clients you want",
+"where": "ac2:tools[capacity].inputs[newc].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours a month each new client needs",
+"where": "ac2:tools[capacity].inputs[hrs].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Utilisation you accept",
+"where": "ac2:tools[capacity].inputs[util].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly fee of each new client",
+"where": "ac2:tools[capacity].inputs[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours the new clients need a month",
+"where": "ac2:tools[capacity].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours available last month",
+"where": "ac2:tools[capacity].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours worked last month",
+"where": "ac2:tools[capacity].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Spare hours at the utilisation you accept",
+"where": "ac2:tools[capacity].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New clients the spare hours can take",
+"where": "ac2:tools[capacity].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra people you would need",
+"where": "ac2:tools[capacity].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees a month from the new clients",
+"where": "ac2:tools[capacity].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees a month per hour of their work",
+"where": "ac2:tools[capacity].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other growth",
+"where": "ac2:tools[capacity].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "10 new clients",
+"where": "ac2:tools[capacity].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bigger clients, 10 hours",
+"where": "ac2:tools[capacity].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Run at 90%",
+"where": "ac2:tools[capacity].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New invoice",
+"where": "ac2:messages[m_inv_new].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, invoice {inv_no} for {amount} is ready, due on {due}. Thank you for working with us.",
+"where": "ac2:messages[m_inv_new].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice due soon",
+"where": "ac2:messages[m_inv_soon].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, a reminder that invoice {inv_no} ({balance}) is due on {due}.",
+"where": "ac2:messages[m_inv_soon].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Friendly reminder",
+"where": "ac2:messages[m_inv_rem1].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, invoice {inv_no} ({balance}) was due on {due}. Could you please arrange payment? Thank you.",
+"where": "ac2:messages[m_inv_rem1].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Second reminder",
+"where": "ac2:messages[m_inv_rem2].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, invoice {inv_no} is {age} days overdue, balance {balance}. Please pay this week or tell us if there is a problem.",
+"where": "ac2:messages[m_inv_rem2].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, final notice: invoice {inv_no} is {age} days overdue ({balance}) and a late fee of {late_fee} applies. Please pay now or call us.",
+"where": "ac2:messages[m_inv_final].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment plan offer",
+"where": "ac2:messages[m_inv_plan].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we can split invoice {inv_no} ({balance}) into instalments of {plan}. Reply YES and we will confirm it in writing.",
+"where": "ac2:messages[m_inv_plan].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Part payment thanks",
+"where": "ac2:messages[m_inv_part].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, thank you for your payment on invoice {inv_no}. The balance left is {balance}, due on {due}.",
+"where": "ac2:messages[m_inv_part].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment received",
+"where": "ac2:messages[m_pay_thanks].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we received {amount} on {date} for invoice {inv}. Thank you!",
+"where": "ac2:messages[m_pay_thanks].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment without an invoice",
+"where": "ac2:messages[m_pay_acct].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we received {amount} on {date} but it has no invoice yet. Which invoice is it for?",
+"where": "ac2:messages[m_pay_acct].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Credit note issued",
+"where": "ac2:messages[m_cn].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, credit note {cn_no} for {amount} was issued against invoice {inv}. The balance left on it is {inv_bal}.",
+"where": "ac2:messages[m_cn].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Account statement",
+"where": "ac2:messages[m_cl_stmt].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your open balance with us is {balance}, of which {overdue} is overdue. Please check your statement.",
+"where": "ac2:messages[m_cl_stmt].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, you have {overdue} overdue and your last payment was {gap} days ago. Can we help you settle it?",
+"where": "ac2:messages[m_cl_over].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thanks for paying on time",
+"where": "ac2:messages[m_cl_thanks].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, thank you for paying on time. You paid {cash} in the last 12 months and we appreciate it.",
+"where": "ac2:messages[m_cl_thanks].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Plan confirmed",
+"where": "ac2:messages[m_pl_start].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your payment plan {plan_id} is confirmed: {insts} instalments of {inst}, the first due on {start}.",
+"where": "ac2:messages[m_pl_start].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Next instalment",
+"where": "ac2:messages[m_pl_next].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your next instalment of {inst} on plan {plan_id} is due on {next_due}. Thank you.",
+"where": "ac2:messages[m_pl_next].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Missed instalment",
+"where": "ac2:messages[m_pl_missed].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, {missed} instalment(s) on plan {plan_id} are late and {left} is still to pay. Please pay now or call us.",
+"where": "ac2:messages[m_pl_missed].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Call confirmation",
+"where": "ac2:messages[m_call_conf].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, thank you for your time. As agreed, you will pay {promised} on {promised_on}.",
+"where": "ac2:messages[m_call_conf].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Promise check",
+"where": "ac2:messages[m_call_check].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we have not yet seen the payment of {promised} promised for {promised_on}. Is it on its way?",
+"where": "ac2:messages[m_call_check].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer received",
+"where": "ac2:messages[m_ret_rec].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we received your {kind} of {amount} on {date}. We will draw on it as we invoice you.",
+"where": "ac2:messages[m_ret_rec].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer running low",
+"where": "ac2:messages[m_ret_low].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your retainer has {left} left, about {cover} months of fees. Shall we top it up?",
+"where": "ac2:messages[m_ret_low].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Upcoming invoice",
+"where": "ac2:messages[m_rec_up].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your next {item} invoice of {amount}, plus tax, will go out on {next}.",
+"where": "ac2:messages[m_rec_up].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly fee reminder",
+"where": "ac2:messages[m_rec_fee].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your yearly cost for {item} is {yearly}. We review fees once a year and will write before any change.",
+"where": "ac2:messages[m_rec_fee].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Expense re-charge",
+"where": "ac2:messages[m_rc].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we paid {item} for you ({charge} with our handling fee) and will add it to your next invoice.",
+"where": "ac2:messages[m_rc].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Job started",
+"where": "ac2:messages[m_fx_start].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we have started job {job_id} for a fixed fee of {fee}. We plan to finish by {due}.",
+"where": "ac2:messages[m_fx_start].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Job ready for review",
+"where": "ac2:messages[m_fx_done].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, job {job_id} is ready for your review. The fixed fee of {fee} will be invoiced when you approve.",
+"where": "ac2:messages[m_fx_done].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Time ready to bill",
+"where": "ac2:messages[m_wip].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we have {hours} hours of extra work to bill, worth {value}. May we send the invoice?",
+"where": "ac2:messages[m_wip].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Timesheet reminder",
+"where": "ac2:messages[m_ut_time].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {staff}, please complete your timesheet for {month}: {hours} of {avail} hours are logged so far.",
+"where": "ac2:messages[m_ut_time].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Low utilisation check-in",
+"where": "ac2:messages[m_ut_low].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {staff}, your billable utilisation for {month} was {bill_util}. Let us plan how to fill the open hours.",
+"where": "ac2:messages[m_ut_low].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reminder follow-up",
+"where": "ac2:messages[m_rm].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, we sent you {level} on {date} for invoice {inv}. The balance is now {bal}.",
+"where": "ac2:messages[m_rm].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reminder 1 Letter",
+"where": "ac2:documents[rem1].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Payment reminder, first step",
+"where": "ac2:documents[rem1].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Sample wording: adapt it to your country's law and your own practice.",
+"where": "ac2:documents[rem1].note",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment reminder from {set:firm} to {col:invoices.name}, sent on {today}.",
+"where": "ac2:documents[rem1].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice {col:invoices.inv_no} for {col:invoices.item} was issued on {col:invoices.issued} and was due on {col:invoices.due}. The invoice total is {col:invoices.amount}.",
+"where": "ac2:documents[rem1].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We have received {col:invoices.paid} so far. The balance still open is {col:invoices.balance}, which is {col:invoices.age} days past the due date.",
+"where": "ac2:documents[rem1].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "This may have crossed with your payment. If so, please ignore this letter. If not, please pay by bank transfer and quote the invoice number.",
+"where": "ac2:documents[rem1].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "If anything on the invoice looks wrong, tell us and we will correct it at once.",
+"where": "ac2:documents[rem1].paragraphs[4]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Practice",
+"where": "ac2:documents[rem1].sign[0]",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reminder 2 Letter",
+"where": "ac2:documents[rem2].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Payment reminder, second step",
+"where": "ac2:documents[rem2].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Second payment reminder from {set:firm} to {col:invoices.name}, sent on {today}.",
+"where": "ac2:documents[rem2].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We wrote to you about invoice {col:invoices.inv_no} for {col:invoices.item}. It was due on {col:invoices.due} and {col:invoices.balance} is still unpaid, {col:invoices.age} days late.",
+"where": "ac2:documents[rem2].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "A late fee of {col:invoices.late_fee} has built up at the yearly rate in our terms. We prefer not to charge it, so please pay the balance within seven days.",
+"where": "ac2:documents[rem2].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "If paying in one go is hard, we can split the balance into instalments of about {col:invoices.plan}. Reply and we will agree it in writing.",
+"where": "ac2:documents[rem2].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final Notice Letter",
+"where": "ac2:documents[rem_final].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Final notice before further action",
+"where": "ac2:documents[rem_final].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Sample wording: check the rules on late fees and on collecting debts where you work before you send it.",
+"where": "ac2:documents[rem_final].note",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Final notice from {set:firm} to {col:invoices.name}, sent on {today}.",
+"where": "ac2:documents[rem_final].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice {col:invoices.inv_no} for {col:invoices.item}, total {col:invoices.amount}, was due on {col:invoices.due}. The balance of {col:invoices.balance} is {col:invoices.age} days overdue and our earlier reminders went unanswered.",
+"where": "ac2:documents[rem_final].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "A late fee of {col:invoices.late_fee} now applies. If we do not receive payment or hear from you within seven days, we will pause our work for you and may pass the balance to a collection agent.",
+"where": "ac2:documents[rem_final].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Please contact us today if you wish to agree a payment plan or if you dispute any part of this invoice.",
+"where": "ac2:documents[rem_final].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Partner",
+"where": "ac2:documents[rem_final].sign[0]",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Plan Agreement",
+"where": "ac2:documents[plan_agr].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Payment plan agreement",
+"where": "ac2:documents[plan_agr].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payment plan agreement between {set:firm} and {col:plans.name}, plan {col:plans.plan_id}.",
+"where": "ac2:documents[plan_agr].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The plan covers invoice {col:plans.inv}. The amount agreed is {col:plans.amount}.",
+"where": "ac2:documents[plan_agr].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The client pays a deposit of {col:plans.deposit} and then {col:plans.insts} instalments of {col:plans.inst}, one every {col:plans.gap} days. The first payment is due on {col:plans.start}.",
+"where": "ac2:documents[plan_agr].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "If an instalment is more than seven days late, the full balance falls due again and we may pause our work until it is paid.",
+"where": "ac2:documents[plan_agr].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Signing this agreement means both sides accept the plan. Keep a copy for your records.",
+"where": "ac2:documents[plan_agr].paragraphs[4]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Credit Note Letter",
+"where": "ac2:documents[credit_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Credit note confirmation",
+"where": "ac2:documents[credit_letter].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Credit note {col:credits.cn_no} from {set:firm} to {col:credits.name}, dated {col:credits.date}.",
+"where": "ac2:documents[credit_letter].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "This credit relates to invoice {col:credits.inv} and is given for this reason: {col:credits.reason}.",
+"where": "ac2:documents[credit_letter].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The credit is {col:credits.amount}, of which {col:credits.tax} is sales tax or VAT. The net credit is {col:credits.net}.",
+"where": "ac2:documents[credit_letter].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The balance still open on the invoice after this credit is {col:credits.inv_bal}. It was approved by {col:credits.by}.",
+"where": "ac2:documents[credit_letter].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Receipt Letter",
+"where": "ac2:documents[receipt_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Receipt for a payment",
+"where": "ac2:documents[receipt_letter].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Receipt {col:payments.pay_id} from {set:firm}, dated {col:payments.date}.",
+"where": "ac2:documents[receipt_letter].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We received {col:payments.amount} from {col:payments.name} by {col:payments.method}, bank reference {col:payments.bank}.",
+"where": "ac2:documents[receipt_letter].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The payment was applied to invoice {col:payments.inv}, which was due on {col:payments.due}. It covers {col:payments.share} of that invoice.",
+"where": "ac2:documents[receipt_letter].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thank you for your payment.",
+"where": "ac2:documents[receipt_letter].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Statement Letter",
+"where": "ac2:documents[statement_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Statement cover letter",
+"where": "ac2:documents[statement_letter].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Statement of account from {set:firm} to {col:clients.name}, dated {today}.",
+"where": "ac2:documents[statement_letter].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Over the last 12 months we billed you {col:clients.billed} net of tax and received {col:clients.cash}. Your payment terms are {col:clients.terms} days.",
+"where": "ac2:documents[statement_letter].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your open balance is {col:clients.balance}, of which {col:clients.overdue} is overdue. Your last payment was on {col:clients.last_pay}.",
+"where": "ac2:documents[statement_letter].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Please check the invoices on the enclosed statement and tell us if anything is not right. If you would like to pay in instalments, just ask.",
+"where": "ac2:documents[statement_letter].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer Letter",
+"where": "ac2:documents[retainer_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Retainer or deposit receipt and terms",
+"where": "ac2:documents[retainer_letter].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Receipt for a {col:retainers.kind} from {set:firm} to {col:retainers.name}, dated {col:retainers.date}.",
+"where": "ac2:documents[retainer_letter].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We received {col:retainers.amount}, held for this purpose: {col:retainers.note}.",
+"where": "ac2:documents[retainer_letter].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We draw on this amount as we issue invoices and show each draw on the invoice. So far {col:retainers.applied} has been applied and {col:retainers.left} is held.",
+"where": "ac2:documents[retainer_letter].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We will tell you when the balance runs low. Money not used when our work for you ends is returned to you.",
+"where": "ac2:documents[retainer_letter].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Write-off Approval",
+"where": "ac2:documents[wo_approval].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Write-off and discount approval",
+"where": "ac2:documents[wo_approval].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Approval request {col:writeoffs.wo_id} dated {col:writeoffs.date}: {col:writeoffs.kind} for {col:writeoffs.name}.",
+"where": "ac2:documents[wo_approval].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The request is for {col:writeoffs.amount} on invoice {col:writeoffs.inv}, which was for {col:writeoffs.inv_total}. That is {col:writeoffs.share} of the invoice.",
+"where": "ac2:documents[wo_approval].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reason given: {col:writeoffs.note}. Approval check: {col:writeoffs.check}. Amounts above {set:wo_limit} need the partner.",
+"where": "ac2:documents[wo_approval].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The partner confirms the entry by signing below and the credit is posted to the invoice.",
+"where": "ac2:documents[wo_approval].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Requested by",
+"where": "ac2:documents[wo_approval].sign[0]",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Job Completion Letter",
+"where": "ac2:documents[job_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Fixed-fee job completion letter",
+"where": "ac2:documents[job_letter].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Sample wording: adapt it to your engagement letter and to the rules where you work.",
+"where": "ac2:documents[job_letter].note",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Completion of job {col:fixed.job_id} for {col:fixed.name}, service {col:fixed.kind}, led by {col:fixed.staff}.",
+"where": "ac2:documents[job_letter].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The work started on {col:fixed.start} and was due on {col:fixed.due}. The fixed fee agreed is {col:fixed.fee}, tax excluded.",
+"where": "ac2:documents[job_letter].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We planned {col:fixed.budget} hours and used {col:fixed.hours}. The fixed fee does not change with the hours we spend.",
+"where": "ac2:documents[job_letter].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Please review the work and confirm. We will send the invoice for the fixed fee once you approve.",
+"where": "ac2:documents[job_letter].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Month-End Billing Run",
+"where": "ac2:checklists[month_billing].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Ask every staff member to complete the timesheet",
+"where": "ac2:checklists[month_billing].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check that every hour has a client, a service and a billing basis",
+"where": "ac2:checklists[month_billing].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Raise the recurring invoices that are due",
+"where": "ac2:checklists[month_billing].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bill the hourly work and any extra work",
+"where": "ac2:checklists[month_billing].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Add re-charged expenses with the mark-up",
+"where": "ac2:checklists[month_billing].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check discounts and credit notes against your limit",
+"where": "ac2:checklists[month_billing].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the invoices to clients",
+"where": "ac2:checklists[month_billing].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Update the ageing and the collection priority",
+"where": "ac2:checklists[month_billing].steps[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Review work in progress older than your limit",
+"where": "ac2:checklists[month_billing].steps[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Update the bad debt reserve",
+"where": "ac2:checklists[month_billing].steps[9].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overdue Invoice Follow-Up",
+"where": "ac2:checklists[invoice_chase].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Send the invoice and confirm the client received it",
+"where": "ac2:checklists[invoice_chase].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send a friendly reminder message just after the due date",
+"where": "ac2:checklists[invoice_chase].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the second reminder letter",
+"where": "ac2:checklists[invoice_chase].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Phone the client and log the call",
+"where": "ac2:checklists[invoice_chase].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Offer a payment plan in writing",
+"where": "ac2:checklists[invoice_chase].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the final notice with the late fee",
+"where": "ac2:checklists[invoice_chase].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pause work for the client until the balance is paid",
+"where": "ac2:checklists[invoice_chase].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Decide to write off or hand over for collection",
+"where": "ac2:checklists[invoice_chase].steps[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed-Fee Job Delivery",
+"where": "ac2:checklists[job_delivery].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Confirm the fixed fee and scope in the engagement letter",
+"where": "ac2:checklists[job_delivery].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Ask the client for the documents you need",
+"where": "ac2:checklists[job_delivery].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Set the budget hours and book the staff",
+"where": "ac2:checklists[job_delivery].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Prepare the first draft",
+"where": "ac2:checklists[job_delivery].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check hours against the budget and tell the partner if over",
+"where": "ac2:checklists[job_delivery].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Partner review and sign-off",
+"where": "ac2:checklists[job_delivery].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the work to the client for approval",
+"where": "ac2:checklists[job_delivery].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Issue the invoice for the fixed fee",
+"where": "ac2:checklists[job_delivery].steps[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment Plan Setup",
+"where": "ac2:checklists[plan_setup].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Agree the amount, deposit and instalments with the client",
+"where": "ac2:checklists[plan_setup].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the plan agreement for signature",
+"where": "ac2:checklists[plan_setup].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Receive the deposit",
+"where": "ac2:checklists[plan_setup].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Link every payment to the plan on the Payments sheet",
+"where": "ac2:checklists[plan_setup].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the instalment reminders",
+"where": "ac2:checklists[plan_setup].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check the first instalment arrived",
+"where": "ac2:checklists[plan_setup].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Call the client if an instalment is missed",
+"where": "ac2:checklists[plan_setup].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Close the plan when the last instalment is paid",
+"where": "ac2:checklists[plan_setup].steps[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer Handling",
+"where": "ac2:checklists[retainer_flow].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Record the receipt and the purpose",
+"where": "ac2:checklists[retainer_flow].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the retainer letter",
+"where": "ac2:checklists[retainer_flow].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Apply the retainer on the next invoice",
+"where": "ac2:checklists[retainer_flow].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check the balance held every month",
+"where": "ac2:checklists[retainer_flow].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Warn the client when it runs low",
+"where": "ac2:checklists[retainer_flow].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Ask for a top-up or refund the balance",
+"where": "ac2:checklists[retainer_flow].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Recurring Invoice Run",
+"where": "ac2:checklists[recurring_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Check the scope and the fee for the next period",
+"where": "ac2:checklists[recurring_run].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check the hours logged against the fee",
+"where": "ac2:checklists[recurring_run].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Raise the invoice",
+"where": "ac2:checklists[recurring_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send it with a short message",
+"where": "ac2:checklists[recurring_run].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Update the last invoiced date",
+"where": "ac2:checklists[recurring_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Review the fee once a year",
+"where": "ac2:checklists[recurring_run].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Write-off Approval Steps",
+"where": "ac2:checklists[writeoff_flow].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Write the reason on the entry",
+"where": "ac2:checklists[writeoff_flow].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Ask the partner to approve anything over your limit",
+"where": "ac2:checklists[writeoff_flow].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Post the credit to the invoice",
+"where": "ac2:checklists[writeoff_flow].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tell the client when it is a discount",
+"where": "ac2:checklists[writeoff_flow].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Review every write-off at year end",
+"where": "ac2:checklists[writeoff_flow].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New Client Billing Setup",
+"where": "ac2:checklists[client_setup].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Agree the payment terms and the fee in the engagement letter",
+"where": "ac2:checklists[client_setup].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Add the client with terms to Client Accounts",
+"where": "ac2:checklists[client_setup].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Add the rates and the recurring invoices",
+"where": "ac2:checklists[client_setup].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Ask for a retainer or deposit if the client is new",
+"where": "ac2:checklists[client_setup].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Raise the first invoice",
+"where": "ac2:checklists[client_setup].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check the first payment arrived on time",
+"where": "ac2:checklists[client_setup].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Review realisation after three months",
+"where": "ac2:checklists[client_setup].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Credit Note Process",
+"where": "ac2:checklists[credit_flow].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Record the reason on the credit note",
+"where": "ac2:checklists[credit_flow].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Get approval from the partner for large credits",
+"where": "ac2:checklists[credit_flow].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Issue the credit note and apply it to the invoice",
+"where": "ac2:checklists[credit_flow].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send it to the client",
+"where": "ac2:checklists[credit_flow].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check the invoice balance and the payment",
+"where": "ac2:checklists[credit_flow].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Look for patterns in the reasons every quarter",
+"where": "ac2:checklists[credit_flow].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Collection Call Follow-Up",
+"where": "ac2:checklists[call_followup].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ac2"
+]
+},
+{
+"en": "Log the call, the outcome and any promise",
+"where": "ac2:checklists[call_followup].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send a short message to confirm what was agreed",
+"where": "ac2:checklists[call_followup].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check the payment on the promised date",
+"where": "ac2:checklists[call_followup].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Call again if the promise was missed",
+"where": "ac2:checklists[call_followup].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Offer a payment plan",
+"where": "ac2:checklists[call_followup].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the final notice",
+"where": "ac2:checklists[call_followup].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoices paid in full",
+"where": "ac2:insights.gauges[0].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Fixed-fee jobs within budget",
+"where": "ac2:insights.gauges[2].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Billable share of hours",
+"where": "ac2:insights.gauges[3].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Clients at target realisation",
+"where": "ac2:insights.gauges[4].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Fees billed, cash received and credits by month",
+"where": "ac2:insights.charts[0].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Time value and fees billed by month",
+"where": "ac2:insights.charts[1].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Hours by month and billing basis",
+"where": "ac2:insights.charts[2].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Open balance by service type",
+"where": "ac2:insights.charts[5].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Billable utilisation by staff member",
+"where": "ac2:insights.charts[7].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Billable utilisation by month",
+"where": "ac2:insights.charts[8].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Invoices by month and status",
+"where": "ac2:insights.charts[9].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Days after the due date by payment method",
+"where": "ac2:insights.charts[10].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Average days",
+"where": "ac2:insights.charts[10].series[0].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Write-offs and discounts by type",
+"where": "ac2:insights.charts[11].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Amount",
+"where": "ac2:insights.charts[11].series[0].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Credit notes by reason",
+"where": "ac2:insights.charts[12].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Fixed-fee margin by service",
+"where": "ac2:insights.charts[13].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Budget and actual hours by service",
+"where": "ac2:insights.charts[14].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Time value and cost by staff member",
+"where": "ac2:insights.charts[15].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Collection call outcomes",
+"where": "ac2:insights.charts[16].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Calls",
+"where": "ac2:insights.charts[16].series[0].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Reminders sent and paid after",
+"where": "ac2:insights.charts[17].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Reminders sent",
+"where": "ac2:insights.charts[17].series[0].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Fee per hour by service type",
+"where": "ac2:insights.charts[18].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Expenses re-charged by category",
+"where": "ac2:insights.charts[19].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Open Start and type your practice name and your rules in the yellow cells: payment terms, grace days, late fee rate, discount limit, write-off limit, realisation and utilisation targets and the reserve rates.",
+"where": "ac2:guide[0]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "The tax rates, late fee rates and reserve rates in this workbook are your own settings. Check them with the rules where you work: this workbook helps you track money and is not tax or legal advice.",
+"where": "ac2:guide[1]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fill Client Accounts: one row for each client with phone, who handles them and their payment terms. The money columns fill in by themselves from the other sheets.",
+"where": "ac2:guide[2]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fill Rate Card: one row for each staff member and type of service with the hourly rate you charge and what an hour costs you. The Timesheet reads these rates.",
+"where": "ac2:guide[3]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Log time on Timesheet: date, staff member, client, service, billing basis (fixed fee, hourly or non-billable) and hours. Value, cost and whether it is billed, unbilled or covered by a fee follow.",
+"where": "ac2:guide[4]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Read Work in Progress before you invoice: hourly time not yet on an invoice is added up for each client with the age of the oldest line. Put the invoice number on the Timesheet line once you bill it.",
+"where": "ac2:guide[5]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Issue invoices on Invoices: fees, tax rate and service. Total, payments, credit notes, write-offs, balance, days overdue, status, ageing bucket and late fee update by themselves.",
+"where": "ac2:guide[6]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Enter each payment on Payments Received with the invoice number. Credit notes, write-offs and discounts go on their own sheets and reduce the balance; retainers are drawn down by the invoices that use them.",
+"where": "ac2:guide[7]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Use Receivables Ageing each week: it ranks clients by what they owe and how old it is. Log every call on Collection Calls and every reminder on Reminder Log to see which promises were kept and which step works.",
+"where": "ac2:guide[8]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Agree a payment plan on Payment Plans when a client cannot pay in one go; tag each plan payment with the plan number and the sheet tracks instalments paid, missed and the next due date.",
+"where": "ac2:guide[9]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Track fixed-fee jobs on Fixed-Fee Jobs with the budget hours, and tag the timesheet lines with the job. Fee per hour, margin and the over-budget warning show if the fee was right.",
+"where": "ac2:guide[10]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check Realisation by Client and Staff Utilisation every month to see which clients and which people earn what your rates promise, and where hours are going unbilled.",
+"where": "ac2:guide[11]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "List expenses you pay for clients on Expenses Re-charged, your repeat fees on Recurring Invoices, and read Revenue by Service and Bad Debt Reserve for the totals and the reserve you should hold.",
+"where": "ac2:guide[12]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Use the 14 calculators to build an invoice, work out a late fee, check a discount, price a job by the hour or fixed fee, test a rate rise, plan a payment plan, forecast cash and plan capacity.",
+"where": "ac2:guide[13]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Print invoices, statements, receipts and job cards from the printable sheets and letters by choosing the number in the yellow cell, and tap a message link to open WhatsApp with the text already written.",
+"where": "ac2:guide[14]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Read Billing Dashboard and Charts each week: billed against cash, overdue money, unbilled work, utilisation, realisation and the reserve at a glance.",
+"where": "ac2:guide[15]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+}
+]
