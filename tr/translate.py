@@ -197,6 +197,66 @@ def nllb_call(lines):
     return res
 
 
+BING_L = {'zh': 'zh-Hans'}
+_BS = {}
+
+
+def bing_session():
+    """Bing's free web translator (the page's own endpoint; no account). The page gives a key/token pair that lasts about an hour."""
+    import http.cookiejar
+    cj = http.cookiejar.CookieJar()
+    op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+    UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
+    op.addheaders = [('User-Agent', UA), ('Accept-Language', 'en-US,en;q=0.9')]
+    html = op.open('https://www.bing.com/translator', timeout=40).read().decode('utf8', 'replace')
+    m = re.search(r'params_AbusePreventionHelper\s*=\s*\[(\d+),\s*"([^"]+)"', html)
+    ig = re.search(r'IG:"([A-F0-9]+)"', html); iid = re.search(r'data-iid="([^"]+)"', html)
+    if not (m and ig and iid): raise RuntimeError('bing page: tokens not found')
+    _BS.update(op=op, key=m.group(1), token=m.group(2), ig=ig.group(1), iid=iid.group(1), n=0, t0=time.time(), UA=UA)
+
+
+def bing_one(text):
+    import urllib.parse
+    if 'op' not in _BS or time.time() - _BS['t0'] > 2400: bing_session()
+    _BS['n'] += 1
+    url = f"https://www.bing.com/ttranslatev3?isVertical=1&IG={_BS['ig']}&IID={_BS['iid']}.{_BS['n']}"
+    data = urllib.parse.urlencode({'fromLang': 'en', 'text': text, 'to': BING_L.get(LANG, LANG), 'token': _BS['token'], 'key': _BS['key'],
+                                   'tryFetchingGenderDebiasedTranslations': 'true'}).encode()
+    req = urllib.request.Request(url, data=data, headers={'Content-Type': 'application/x-www-form-urlencoded', 'Referer': 'https://www.bing.com/translator',
+                                                          'Origin': 'https://www.bing.com', 'User-Agent': _BS['UA']})
+    raw = _BS['op'].open(req, timeout=60).read().decode('utf8', 'replace')
+    d = json.loads(raw)
+    if isinstance(d, dict) and d.get('statusCode'):
+        _BS.clear(); raise RuntimeError('bing status %s' % d.get('statusCode'))
+    return d[0]['translations'][0]['text']
+
+
+def bing_call(lines):
+    """Lines are packed into requests of at most ~850 characters (the page's own limit is 1000); a request whose line count comes back wrong goes line by line."""
+    out, i = [], 0
+    while i < len(lines):
+        chunk, size = [], 0
+        while i < len(lines) and len(chunk) < 25 and size + len(lines[i]) + 1 <= 850:
+            chunk.append(lines[i]); size += len(lines[i]) + 1; i += 1
+        if not chunk: chunk = [lines[i][:850]]; i += 1
+        for attempt in range(8):
+            w = _LASTREQ[0] + float(os.environ.get('TR_SPACING', '1.5')) - time.time()
+            if w > 0: time.sleep(w)
+            _LASTREQ[0] = time.time()
+            try:
+                t = bing_one('\n'.join(chunk)).split('\n')
+                if len(t) != len(chunk):
+                    t = []
+                    for c in chunk:
+                        time.sleep(1.0); t.append(bing_one(c).replace('\n', ' '))
+                out += t; break
+            except Exception as e:
+                print('  bing error', attempt, repr(e)[:160], flush=True); _BS.clear(); time.sleep(5 + attempt * 15)
+        else:
+            raise RuntimeError('bing: giving up on a chunk')
+    return out
+
+
 def google2(items, sheetT=None):
     import urllib.parse
     lines, maps = [], []
@@ -204,6 +264,8 @@ def google2(items, sheetT=None):
         t, ph = pre_build(x, sheetT); lines.append(t.replace('\n', ' ¶ ')); maps.append(ph)
     if os.environ.get('TR_ENGINE') == 'nllb':
         out = nllb_call(lines)
+    elif os.environ.get('TR_ENGINE') == 'bing':
+        out = bing_call(lines)
     else:
         w = _LASTREQ[0] + float(os.environ.get('TR_SPACING', '8')) - time.time()
         if w > 0: time.sleep(w)
@@ -223,7 +285,7 @@ def google2(items, sheetT=None):
     return res
 
 
-if os.environ.get('TR_ENGINE') in ('google2', 'nllb'):
+if os.environ.get('TR_ENGINE') in ('google2', 'nllb', 'bing'):
     miss = [x for x in todo if x['en'] not in done]
     print(LANG, 'google2: todo', len(todo), 'done', len(done), 'missing', len(miss), flush=True)
     if os.environ.get('TR_ENGINE') == 'google2': time.sleep(abs(hash(LANG)) % 60)
