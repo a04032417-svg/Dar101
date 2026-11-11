@@ -266,6 +266,34 @@ def bing_call(lines):
     return out
 
 
+def edge_call(lines):
+    """Microsoft Edge's free translator API for pre-built lines ({0} {1} placeholders kept in notranslate spans); 25 lines per request."""
+    import html as _h
+    out = []
+    for k in range(0, len(lines), 25):
+        part = lines[k:k + 25]
+        texts = [{'Text': re.sub(r'\{(\d+)\}', r'<span class="notranslate">{\1}</span>', _h.escape(t, quote=False))} for t in part]
+        for attempt in range(6):
+            try:
+                if 'jwt' not in _TOK or time.time() - _TOK.get('t', 0) > 480:
+                    _TOK['jwt'] = urllib.request.urlopen(urllib.request.Request('https://edge.microsoft.com/translate/auth', headers={'User-Agent': 'Mozilla/5.0'}), timeout=30).read().decode().strip(); _TOK['t'] = time.time()
+                url = 'https://api-edge.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=' + EDGE_L.get(LANG, LANG) + '&textType=html'
+                req = urllib.request.Request(url, data=json.dumps(texts).encode(), headers={'Authorization': 'Bearer ' + _TOK['jwt'], 'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0'})
+                with urllib.request.urlopen(req, timeout=60) as r: d = json.loads(r.read().decode('utf8'))
+                for e in d:
+                    t = e['translations'][0]['text']
+                    t = re.sub(r'<span class="notranslate">\s*(.*?)\s*</span>', r'\1', t)
+                    out.append(_h.unescape(re.sub(r'</?span[^>]*>', '', t)))
+                break
+            except urllib.error.HTTPError as e:
+                print('  edge HTTP', e.code, flush=True); _TOK.clear(); time.sleep(5 + attempt * 15)
+                if attempt == 5: raise RuntimeError('edge: giving up on a chunk')
+            except Exception as e:
+                print('  edge error', repr(e)[:160], flush=True); time.sleep(5 + attempt * 10)
+                if attempt == 5: raise RuntimeError('edge: giving up on a chunk')
+    return out
+
+
 def google2(items, sheetT=None):
     import urllib.parse
     lines, maps = [], []
@@ -275,6 +303,8 @@ def google2(items, sheetT=None):
         out = nllb_call(lines)
     elif os.environ.get('TR_ENGINE') == 'bing':
         out = bing_call(lines)
+    elif os.environ.get('TR_ENGINE') == 'edge2':
+        out = edge_call(lines)
     else:
         w = _LASTREQ[0] + float(os.environ.get('TR_SPACING', '8')) - time.time()
         if w > 0: time.sleep(w)
@@ -295,7 +325,7 @@ def google2(items, sheetT=None):
     return res
 
 
-if os.environ.get('TR_ENGINE') in ('google2', 'nllb', 'bing'):
+if os.environ.get('TR_ENGINE') in ('google2', 'nllb', 'bing', 'edge2'):
     miss = [x for x in todo if x['en'] not in done]
     print(LANG, 'google2: todo', len(todo), 'done', len(done), 'missing', len(miss), flush=True)
     if os.environ.get('TR_ENGINE') == 'google2': time.sleep(abs(hash(LANG)) % 60)
