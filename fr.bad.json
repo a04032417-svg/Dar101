@@ -35,11 +35,32 @@
 "why": "too long: 185 characters, the limit is 160"
 },
 {
+"en": "percent, flat per unit or tiered fees with the minimum and VAT, and a tool that shows which structure is cheapest for the owner",
+"kind": "sentence",
+"max": 160,
+"mt": "pour cent, des frais forfaitaires par lot ou échelonnés avec le minimum et la TVA, et un outil qui montre quelle structure est la moins chère pour le propriétaire",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Payout planner with reserve top-up",
+"kind": "label",
+"max": 50,
+"mt": "Versement au propriétaire planificateur avec recharge de réserve",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
 "en": "each bill is checked against the owner's limit and waits for approval above it, with overdue and days-late status",
 "kind": "sentence",
 "max": 160,
 "mt": "chaque facture est vérifiée par rapport à la limite de propriétaire et attend l'approbation au-dessus de cette limite, avec en retard et un statut de retard de jours",
 "why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Payout to owner",
+"kind": "list",
+"max": 30,
+"mt": "Versement au propriétaire à propriétaire",
+"why": "too long: 40 characters, the limit is 30"
 },
 {
 "en": "Management and leasing fees",
@@ -84,6 +105,27 @@
 "why": "not translated"
 },
 {
+"en": "Trust Deposits",
+"kind": "sheet",
+"max": 31,
+"mt": "Faites confiance à Dépôt de garantie",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Payout Advice",
+"kind": "sheet",
+"max": 31,
+"mt": "Versement au propriétaire Conseils",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Owner Payout",
+"kind": "sheet",
+"max": 31,
+"mt": "Propriétaire Versement au propriétaire",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
 "en": "Net operating income, yields and cap rate",
 "kind": "title",
 "max": 60,
@@ -103,6 +145,13 @@
 "max": 31,
 "mt": "Comparez les structures tarifaires",
 "why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Fee Change Notice",
+"kind": "sheet",
+"max": 31,
+"mt": "Modification des frais Notification",
+"why": "too long: 35 characters, the limit is 31"
 },
 {
 "en": "New Owner Onboarding",
@@ -189,6 +238,13 @@
 "why": "too long: 36 characters, the limit is 30"
 },
 {
+"en": "Maintenance",
+"kind": "list",
+"max": 30,
+"mt": "Maintenance",
+"why": "not translated"
+},
+{
 "en": "Liability insurance",
 "kind": "list",
 "max": 30,
@@ -203,11 +259,32 @@
 "why": "too long: 34 characters, the limit is 30"
 },
 {
+"en": "Owner Payouts",
+"kind": "sheet",
+"max": 31,
+"mt": "Propriétaire Versement au propriétaire",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
 "en": "Licences",
 "kind": "sheet",
 "max": 31,
 "mt": "Licences",
 "why": "not translated"
+},
+{
+"en": "Payout Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Versement au propriétaire Relevé",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Deposit Sizing",
+"kind": "sheet",
+"max": 31,
+"mt": "Dépôt de garantie Dimensionnement",
+"why": "too long: 33 characters, the limit is 31"
 },
 {
 "en": "Licence Renewal Letter",
@@ -285,6 +362,13 @@
 "max": 30,
 "mt": "Les services ne convenaient pas",
 "why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Maintenance coordination",
+"kind": "list",
+"max": 30,
+"mt": "Maintenance coordination",
+"why": "not translated"
 },
 {
 "en": "Commissions",

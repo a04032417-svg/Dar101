@@ -49,6 +49,13 @@
 "why": "too long: 164 characters, the limit is 160"
 },
 {
+"en": "Payout planner with reserve top-up",
+"kind": "label",
+"max": 50,
+"mt": "Pago al propietario planificador con recarga de reserva",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
 "en": "quarters billed, paid and outstanding per unit, a rate-change notice, and a tool that splits the building budget by area and equally",
 "kind": "sentence",
 "max": 160,
@@ -56,11 +63,25 @@
 "why": "too long: 164 characters, the limit is 160"
 },
 {
+"en": "Payout to owner",
+"kind": "list",
+"max": 30,
+"mt": "Pago al propietario a propietario",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
 "en": "Management and leasing fees",
 "kind": "list",
 "max": 30,
 "mt": "Gastos de gestión y arrendamiento",
 "why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Payouts and reserve moves",
+"kind": "list",
+"max": 30,
+"mt": "Pago al propietario y reservar movimientos",
+"why": "too long: 42 characters, the limit is 30"
 },
 {
 "en": "Percent of rent collected",
@@ -82,6 +103,13 @@
 "max": 30,
 "mt": "IVA en honorarios de administración",
 "why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Internet",
+"kind": "list",
+"max": 30,
+"mt": "Internet",
+"why": "not translated"
 },
 {
 "en": "Owner pays, recovered from tenants",
@@ -180,6 +208,13 @@
 "max": 30,
 "mt": "Control de seguridad de la piscina",
 "why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Payout Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Pago al propietario Estado de cuenta",
+"why": "too long: 36 characters, the limit is 31"
 },
 {
 "en": "Cleaning Fee Setter",

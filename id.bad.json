@@ -28,11 +28,39 @@
 "why": "too long: 115 characters, the limit is 80"
 },
 {
+"en": "opening balance, income, expenses, fees, reserve, payout and closing balance for every owner and month, with the ledger lines printed under it",
+"kind": "sentence",
+"max": 160,
+"mt": "pembukaan saldo, pendapatan, pengeluaran, biaya, cadangan, pembayaran kepada pemilik dan penutupan saldo untuk setiap pemilik dan bulan, dengan garis buku besar tercetak di bawahnya",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
 "en": "Owner ledger with signed amounts",
 "kind": "label",
 "max": 50,
 "mt": "Buku besar pemilik dengan jumlah yang ditandatangani",
 "why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "every rent receipt, bill, fee, payout and reserve move for 14 months, tagged to the owner, property, unit and statement",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap sewa kuitansi, tagihan, biaya, pembayaran kepada pemilik dan pemindahan cadangan selama 14 bulan, ditandai ke pemilik, properti, unit dan laporan rekening",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Payout planner with reserve top-up",
+"kind": "label",
+"max": 50,
+"mt": "Pembayaran kepada pemilik perencana dengan isi ulang cadangan",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "Payout to owner",
+"kind": "list",
+"max": 30,
+"mt": "Pembayaran kepada pemilik kepada pemilik",
+"why": "too long: 40 characters, the limit is 30"
 },
 {
 "en": "Payouts and reserve moves",
@@ -54,6 +82,13 @@
 "max": 30,
 "mt": "Pemilik membayar, diperoleh kembali dari penyewa",
 "why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Owner Payout",
+"kind": "sheet",
+"max": 31,
+"mt": "Pemilik Pembayaran kepada pemilik",
+"why": "too long: 33 characters, the limit is 31"
 },
 {
 "en": "Run holiday homes for many owners: bookings, channels, pricing, payouts",
@@ -96,6 +131,34 @@
 "max": 30,
 "mt": "Pemeriksaan keamanan kolam renang",
 "why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Payout due",
+"kind": "list",
+"max": 30,
+"mt": "Pembayaran kepada pemilik jatuh tempo",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Owner Payouts",
+"kind": "sheet",
+"max": 31,
+"mt": "Pemilik Pembayaran kepada pemilik",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Payout Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Pembayaran kepada pemilik Laporan rekening",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "How big the damage deposit should be",
+"kind": "title",
+"max": 60,
+"mt": "Seberapa besar kerusakan yang seharusnya terjadi pada uang jaminan",
+"why": "too long: 66 characters, the limit is 60"
 },
 {
 "en": "Margin",

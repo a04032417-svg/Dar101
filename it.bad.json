@@ -56,6 +56,34 @@
 "why": "too long: 161 characters, the limit is 160"
 },
 {
+"en": "percent, flat per unit or tiered fees with the minimum and VAT, and a tool that shows which structure is cheapest for the owner",
+"kind": "sentence",
+"max": 160,
+"mt": "per cento, tariffe forfettarie per unità o tariffe scaglionate con il minimo e l'IVA e uno strumento che mostra quale struttura è più economica per il proprietario",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Payout planner with reserve top-up",
+"kind": "label",
+"max": 50,
+"mt": "Agenda Pagamento al proprietario con ricarica di riserva",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Payout to owner",
+"kind": "list",
+"max": 30,
+"mt": "da Pagamento al proprietario a proprietario",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Service charges recovered",
+"kind": "list",
+"max": 30,
+"mt": "Spese condominiali si è ripreso",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
 "en": "Payouts and reserve moves",
 "kind": "list",
 "max": 30,
@@ -91,6 +119,34 @@
 "why": "too long: 32 characters, the limit is 30"
 },
 {
+"en": "Budget",
+"kind": "label",
+"max": null,
+"mt": "Budget",
+"why": "not translated"
+},
+{
+"en": "Payout Advice",
+"kind": "sheet",
+"max": 31,
+"mt": "Pagamento al proprietario Consiglio",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Owner Payout",
+"kind": "sheet",
+"max": 31,
+"mt": "Proprietario Pagamento al proprietario",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Net operating income, yields and cap rate",
+"kind": "title",
+"max": 60,
+"mt": "Reddito operativo netto, rendimento e tasso di capitalizzazione",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
 "en": "Compare Fee Structures",
 "kind": "sheet",
 "max": 31,
@@ -119,6 +175,13 @@
 "why": "too long: 95 characters, the limit is 80"
 },
 {
+"en": "Owner payout statements",
+"kind": "label",
+"max": 50,
+"mt": "Proprietario pagamento al proprietario estratto conto",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
 "en": "No-show",
 "kind": "list",
 "max": 30,
@@ -131,6 +194,13 @@
 "max": 30,
 "mt": "Onboarding",
 "why": "not translated"
+},
+{
+"en": "Software and lock fees",
+"kind": "list",
+"max": 30,
+"mt": "Commissioni per software e blocco",
+"why": "too long: 33 characters, the limit is 30"
 },
 {
 "en": "Insurance claim",
@@ -161,6 +231,13 @@
 "why": "too long: 36 characters, the limit is 30"
 },
 {
+"en": "Payout due",
+"kind": "list",
+"max": 30,
+"mt": "Pagamento al proprietario scaduto",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
 "en": "Check-in",
 "kind": "label",
 "max": null,
@@ -168,11 +245,39 @@
 "why": "not translated"
 },
 {
+"en": "Owner Payouts",
+"kind": "sheet",
+"max": 31,
+"mt": "Proprietario Pagamento al proprietario",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Payout Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Pagamento al proprietario Estratto conto",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Owner monthly payout statement",
+"kind": "title",
+"max": 60,
+"mt": "Proprietario mensile pagamento al proprietario estratto conto",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
 "en": "Cleaning Fee Setter",
 "kind": "sheet",
 "max": 31,
 "mt": "Pulizia Stabilitore delle commissioni",
 "why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Deposit Sizing",
+"kind": "sheet",
+"max": 31,
+"mt": "Deposito cauzionale Dimensionamento",
+"why": "too long: 35 characters, the limit is 31"
 },
 {
 "en": "Damage Claim Letter",

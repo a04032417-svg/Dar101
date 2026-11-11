@@ -45,8 +45,8 @@
 "en": "net operating income, gross and net yield, expense ratio and value at your target cap rate, per property and in a calculator",
 "kind": "sentence",
 "max": 160,
-"mt": "чистый операционный доход, валовая и чистая доходность, коэффициент расходов и стоимость при целевой предельной ставке, по каждому объекту недвижимости и в калькуляторе.",
-"why": "too long: 169 characters, the limit is 160"
+"mt": "чистый операционный доход, валовая и чистая доходность, коэффициент расходов и стоимость при целевой предельной ставке, на каждый объект недвижимости и в калькуляторе.",
+"why": "too long: 167 characters, the limit is 160"
 },
 {
 "en": "Utilities recovered",
@@ -178,7 +178,7 @@
 "en": "Add every letting and listing you learn about on Rent Comps with its asking and achieved rent. Rent per m² and discounts work themselves out.",
 "kind": "sentence",
 "max": null,
-"mt": "Добавьте каждую аренду и объявление, о которых вы узнаете на Rent Comps, с запрашиваемой и достигнутой арендной платой. Арендная плата за м² и скидки действуют сами собой.",
+"mt": "Добавьте каждую аренду и объявление, о которых вы узнаете на Rent Comps, с запрашиваемой и полученной арендной платой. Арендная плата за м² и скидки действуют сами собой.",
 "why": "English/Latin words left: Rent Comps"
 },
 {
@@ -227,15 +227,15 @@
 "en": "Record sales in buildings you follow on Price History, rival management companies on Rival Managers and forced sales on Distressed Sales.",
 "kind": "sentence",
 "max": null,
-"mt": "Рекордные продажи в зданиях, за которыми вы следите, в «Истории цен», в конкурирующих управляющих компаниях — в «Rival Managers», а принудительные продажи — в «Неудачных продажах».",
+"mt": "Записывайте продажи в зданиях, за которыми вы следите, в истории цен, конкурирующих управляющих компаниях в Rival Managers и принудительных продажах в проблемных продажах.",
 "why": "English/Latin words left: Rival Managers"
 },
 {
 "en": "Run holiday homes for many owners: bookings, channels, pricing, payouts",
 "kind": "sentence",
 "max": 80,
-"mt": "Управляйте домами отдыха для многих владельцев: бронирования, каналы, цены, выплаты.",
-"why": "too long: 84 characters, the limit is 80"
+"mt": "Управляйте домами отдыха для многих владельцев: бронирования, каналы, цены, выплаты",
+"why": "too long: 83 characters, the limit is 80"
 },
 {
 "en": "Holiday Rentals Dashboard",
@@ -469,11 +469,102 @@
 "why": "too long: 37 characters, the limit is 30"
 },
 {
+"en": "Feedback From",
+"kind": "label",
+"max": null,
+"mt": "Feedback From",
+"why": "English/Latin words left: Feedback From"
+},
+{
+"en": "Compliment",
+"kind": "list",
+"max": 30,
+"mt": "Compliment",
+"why": "English/Latin words left: Compliment"
+},
+{
+"en": "Contract Status",
+"kind": "label",
+"max": null,
+"mt": "Contract Status",
+"why": "English/Latin words left: Contract Status"
+},
+{
+"en": "Sent on time",
+"kind": "list",
+"max": 30,
+"mt": "Sent on time",
+"why": "English/Latin words left: Sent on time"
+},
+{
+"en": "Sent late",
+"kind": "list",
+"max": 30,
+"mt": "Sent late",
+"why": "English/Latin words left: Sent late"
+},
+{
+"en": "Trip Purpose",
+"kind": "label",
+"max": null,
+"mt": "Trip Purpose",
+"why": "English/Latin words left: Trip Purpose"
+},
+{
+"en": "Key handover",
+"kind": "list",
+"max": 30,
+"mt": "Key handover",
+"why": "English/Latin words left: Key handover"
+},
+{
+"en": "Authority or bank",
+"kind": "list",
+"max": 30,
+"mt": "Authority or bank",
+"why": "English/Latin words left: Authority or bank"
+},
+{
+"en": "Computer or phone",
+"kind": "list",
+"max": 30,
+"mt": "Computer or phone",
+"why": "English/Latin words left: Computer or phone"
+},
+{
 "en": "Software subscription",
 "kind": "list",
 "max": 30,
-"mt": "Подписка на программное обеспечение",
-"why": "too long: 35 characters, the limit is 30"
+"mt": "Software subscription",
+"why": "English/Latin words left: Software subscription"
+},
+{
+"en": "Vehicle lease",
+"kind": "list",
+"max": 30,
+"mt": "Vehicle lease",
+"why": "English/Latin words left: Vehicle lease"
+},
+{
+"en": "Partner Type",
+"kind": "label",
+"max": null,
+"mt": "Partner Type",
+"why": "English/Latin words left: Partner Type"
+},
+{
+"en": "Developer sales team",
+"kind": "list",
+"max": 30,
+"mt": "Developer sales team",
+"why": "English/Latin words left: Developer sales team"
+},
+{
+"en": "Trusted vendor",
+"kind": "list",
+"max": 30,
+"mt": "Trusted vendor",
+"why": "English/Latin words left: Trusted vendor"
 },
 {
 "en": "Type the owner's units, rent and your fee; your profit goal comes from Start.",

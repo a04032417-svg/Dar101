@@ -7,6 +7,13 @@
 "why": "too long: 51 characters, the limit is 50"
 },
 {
+"en": "Payouts and reserve moves",
+"kind": "list",
+"max": 30,
+"mt": "پرداخت به مالک و حرکات رزرو کنید",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
 "en": "VAT on management fees",
 "kind": "list",
 "max": 30,
@@ -42,11 +49,32 @@
 "why": "never use the word for \"compatible\""
 },
 {
+"en": "Match deposits held to the trust account balance",
+"kind": "label",
+"max": null,
+"mt": "مطابقت دادن ودیعه که در حساب اعتماد مانده نگهداری می شود",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name, VAT on fees, usual fee, reserve target, statement day and the first day of your accounting year in the yellow cells.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت، مالیات بر ارزش افزوده کارمزد، کارمزد معمول، هدف رزرو، صورت‌حساب روز و اولین روز سال حسابداری خود را در سلول‌های زرد تایپ کنید.",
+"why": "English/Latin words left: Start"
+},
+{
 "en": "Add each property on Properties with its owner, value, purchase price, date you started managing it and its reserve target.",
 "kind": "sentence",
 "max": null,
-"mt": "هر دارایی را در Properties با مالک، ارزش، قیمت خرید، تاریخ شروع مدیریت آن و هدف ذخیره آن اضافه کنید.",
+"mt": "هر ملک را در Properties با مالک، ارزش، قیمت خرید، تاریخ شروع مدیریت آن و هدف ذخیره آن اضافه کنید.",
 "why": "English/Latin words left: Properties"
+},
+{
+"en": "Post every money movement on Ledger: rent in, expenses, our fees, payouts and reserve moves. Choose the kind, category, property and owner; the signed amount and the statement fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "هر جابجایی پول را در Ledger پست کنید: اجاره، هزینه ها، هزینه های ما، پرداخت به مالک و نقل و انتقالات رزرو. نوع، دسته، دارایی و مالک را انتخاب کنید. مبلغ امضا شده و صورت‌حساب را پر کنید.",
+"why": "English/Latin words left: Ledger"
 },
 {
 "en": "Record payouts on Payouts, advances on Owner Advances, and use the Owner Payout tool to plan the reserve top-up first.",
@@ -94,8 +122,8 @@
 "en": "Add sales you hear about on Sale Comps; each one shows its price per m² and the yield it implies.",
 "kind": "sentence",
 "max": null,
-"mt": "فروش هایی را که در Sale Comps می شنوید اضافه کنید. هر یک قیمت خود را در هر متر مربع و بازدهی را نشان می دهد.",
-"why": "English/Latin words left: Sale Comps"
+"mt": "فروش هایی را که در مورد فروش Comps می شنوید اضافه کنید. هر یک قیمت خود را در هر متر مربع و بازدهی را نشان می دهد.",
+"why": "English/Latin words left: Comps"
 },
 {
 "en": "Watch rival listings on Competing Listings and new projects on Supply Pipeline; both feed each district's supply figures.",
@@ -213,7 +241,7 @@
 "en": "Open Start and type your company name, target occupancy, owner payment days, discounts and the weekend increase in the yellow cells.",
 "kind": "sentence",
 "max": null,
-"mt": "Start را باز کنید و نام شرکت، هدف نرخ اشغال، مالک پرداخت روز، تخفیف‌ها و افزایش آخر هفته را در سلول‌های زرد تایپ کنید.",
+"mt": "Start را باز کنید و نام شرکت، هدف نرخ اشغال، مالک پرداخت روز، تخفیف ها و افزایش آخر هفته را در سلول های زرد تایپ کنید.",
 "why": "English/Latin words left: Start"
 },
 {
@@ -250,6 +278,13 @@
 "max": null,
 "mt": "فهرست اجاره‌ها مالک، هزینه خود و سهم ارجاع را تایپ کنید. بیشترین سهم مجاز شما از Start می آید.",
 "why": "English/Latin words left: Start"
+},
+{
+"en": "Unit-by-unit inspection with photos",
+"kind": "label",
+"max": null,
+"mt": "واحد-by-واحد بازرسی با عکس",
+"why": "English/Latin words left: by"
 },
 {
 "en": "Add the actions to Tasks",

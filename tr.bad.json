@@ -21,11 +21,25 @@
 "why": "too long: 95 characters, the limit is 80"
 },
 {
+"en": "Payouts and reserve moves",
+"kind": "list",
+"max": 30,
+"mt": "Mülk sahibine ödeme ve hamleleri ayır",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
 "en": "Owner pays, recovered from tenants",
 "kind": "list",
 "max": 30,
 "mt": "Sahibi öder ve Kiracı hesabından tahsil edilir",
 "why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Hello {owner_name}, this year we collected rent of {income_ytd} for you and charged a management fee of {fee_ytd} before VAT, an effective rate of {eff}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {owner_name}, bu yıl sizin için {income_ytd} tutarında kira topladık ve geçerli oran olan {eff} tutarındaki KDV hariç Yönetim ücreti tutarında bir ücret tahsil ettik.",
+"why": "placeholders must be exactly: {owner_name} {income_ytd} {fee_ytd} {eff}"
 },
 {
 "en": "Owner Exit and Handover",
@@ -38,8 +52,8 @@
 "en": "Run holiday homes for many owners: bookings, channels, pricing, payouts",
 "kind": "sentence",
 "max": 80,
-"mt": "Birçok mülk sahibine tatil evi işletiyor: Rezervasyon, Kanal, fiyatlandırma, Mülk sahibine ödeme",
-"why": "too long: 96 characters, the limit is 80"
+"mt": "Birçok sahip için tatil evi işletiyor: Rezervasyon, Kanal, fiyatlandırma, Mülk sahibine ödeme",
+"why": "too long: 93 characters, the limit is 80"
 },
 {
 "en": "Bookings, channels, pricing, cleaning and owner payouts for holiday homes",
@@ -61,5 +75,19 @@
 "max": 30,
 "mt": "Misafirden hak talebinde bulunuldu",
 "why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Payout due",
+"kind": "list",
+"max": 30,
+"mt": "Mülk sahibine ödeme vadesi dolmuş",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Lead follow-up cadence",
+"kind": "sheet",
+"max": 31,
+"mt": "Potansiyel müşteri takip temposu",
+"why": "too long: 32 characters, the limit is 31"
 }
 ]

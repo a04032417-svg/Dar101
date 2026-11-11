@@ -42,6 +42,34 @@
 "why": "too long: 33 characters, the limit is 31"
 },
 {
+"en": "opening balance, income, expenses, fees, reserve, payout and closing balance for every owner and month, with the ledger lines printed under it",
+"kind": "sentence",
+"max": 160,
+"mt": "saldo inicial, receitas, despesas, taxas, reserva, repasse ao proprietário e saldo final para cada proprietário e mês, com as linhas contábeis impressas abaixo dele",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Payout planner with reserve top-up",
+"kind": "label",
+"max": 50,
+"mt": "Repasse ao proprietário planner com recarga de reserva",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Payout to owner",
+"kind": "list",
+"max": 30,
+"mt": "Repasse ao proprietário a proprietário",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Service charges recovered",
+"kind": "list",
+"max": 30,
+"mt": "Despesas de condomínio recuperado",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
 "en": "Management and leasing fees",
 "kind": "list",
 "max": 30,
@@ -82,6 +110,27 @@
 "max": 30,
 "mt": "Aguardando proprietário aprovação",
 "why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Payout Advice",
+"kind": "sheet",
+"max": 31,
+"mt": "Repasse ao proprietário Conselho",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Owner Payout",
+"kind": "sheet",
+"max": 31,
+"mt": "Proprietário Repasse ao proprietário",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Net operating income, yields and cap rate",
+"kind": "title",
+"max": 60,
+"mt": "Resultado operacional líquido, rentabilidade e taxa de capitalização",
+"why": "too long: 68 characters, the limit is 60"
 },
 {
 "en": "Owner Exit and Handover",
@@ -140,11 +189,25 @@
 "why": "not translated"
 },
 {
+"en": "Owner Payouts",
+"kind": "sheet",
+"max": 31,
+"mt": "Proprietário Repasse ao proprietário",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
 "en": "fee proposal, capacity, client profit, break-even, commission split, fee benchmark, hire cost, referral fee, cash runway, price rise, staff benchmark, churn",
 "kind": "sentence",
 "max": 160,
 "mt": "taxa proposta, capacidade, lucro do cliente, ponto de equilíbrio, divisão de comissão, referência de taxas, custo de contratação, taxa de referência, fluxo de caixa, aumento de preços, referência de pessoal, rotatividade",
 "why": "too long: 220 characters, the limit is 160"
+},
+{
+"en": "Owner manages it alone",
+"kind": "list",
+"max": 30,
+"mt": "Proprietário gerencia tudo sozinho",
+"why": "too long: 34 characters, the limit is 30"
 },
 {
 "en": "Developer sales team",

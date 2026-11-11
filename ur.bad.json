@@ -7,6 +7,13 @@
 "why": "too long: 35 characters, the limit is 31"
 },
 {
+"en": "Payouts and reserve moves",
+"kind": "list",
+"max": 30,
+"mt": "مالک کو ادائیگی اور ریزرو چالیں۔",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
 "en": "Tenants pay direct",
 "kind": "list",
 "max": 30,
@@ -21,11 +28,25 @@
 "why": "too long: 42 characters, the limit is 30"
 },
 {
+"en": "On the end date we will pay you the balance we hold for you, now {col:agreements.held}, after settling all bills received and our final fees. We will send a final statement, the tenant list, all lease copies, deposit records and keys to you or to your new manager.",
+"kind": "document",
+"max": null,
+"mt": "اختتامی تاریخ پر ہم آپ کو موصول ہونے والے تمام بلوں اور اپنی حتمی فیسوں کا تصفیہ کرنے کے بعد، اب بقیہ رقم جو آپ کے پاس رکھتے ہیں، ادا کریں گے۔ ہم ایک حتمی اسٹیٹمنٹ، کرایہ دار فہرست، تمام کرایہ نامہ کاپیاں، سیکیورٹی ڈپازٹ ریکارڈز اور کلیدیں آپ کو یا آپ کے نئے مینیجر کو بھیجیں گے۔",
+"why": "placeholders must be exactly: {col:agreements.held}"
+},
+{
 "en": "Owner Exit and Handover",
 "kind": "sheet",
 "max": 31,
 "mt": "مالک سے باہر نکلنا اور ہینڈ اوور",
 "why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Service charge billed and paid by property",
+"kind": "title",
+"max": 60,
+"mt": "سروس چارجز بل کی گئی رقم اور پراپرٹی کے ذریعہ ادائیگی کی گئی۔",
+"why": "too long: 61 characters, the limit is 60"
 },
 {
 "en": "Record payouts on Payouts, advances on Owner Advances, and use the Owner Payout tool to plan the reserve top-up first.",
@@ -45,7 +66,7 @@
 "en": "Add every letting and listing you learn about on Rent Comps with its asking and achieved rent. Rent per m² and discounts work themselves out.",
 "kind": "sentence",
 "max": null,
-"mt": "ہر لیٹنگ اور لسٹنگ جو آپ Rent Comps پر سیکھتے ہیں اس کے پوچھنے اور حاصل شدہ کرایہ کے ساتھ شامل کریں۔ کرایہ فی m² اور چھوٹ خود کام کرتی ہے۔",
+"mt": "ہر لیٹنگ اور فہرست جو آپ Rent Comps پر سیکھتے ہیں اس کے پوچھنے اور حاصل شدہ کرایہ کے ساتھ شامل کریں۔ کرایہ فی m² اور چھوٹ خود کام کرتی ہے۔",
 "why": "English/Latin words left: Rent Comps"
 },
 {
@@ -54,6 +75,13 @@
 "max": null,
 "mt": "وہ یونٹ درج کریں جس کا انتظام آپ My یونٹ پر کرتے ہیں۔ مارکیٹ کرایہ، مارکیٹ کا فرق، اضافی کرایہ ممکن ہے اور ایک جائزہ تجویز خود ظاہر ہوتا ہے۔",
 "why": "English/Latin words left: My"
+},
+{
+"en": "Bookings, channels, pricing, cleaning and owner payouts for holiday homes",
+"kind": "sentence",
+"max": 80,
+"mt": "چھٹی والے گھروں کے لیے بکنگ، چینلز، قیمتوں کا تعین، صفائی اور مالک مالک کو ادائیگی",
+"why": "too long: 82 characters, the limit is 80"
 },
 {
 "en": "30, 90 and 365-day occupancy, ADR and RevPAR with owner stays taken out of the nights you could sell",
@@ -94,7 +122,7 @@
 "en": "One row per holiday home: rates, rules, owner, access details and live results such as occupancy, ADR, RevPAR, revenue and owner payout.",
 "kind": "sentence",
 "max": null,
-"mt": "ایک قطار فی چھٹی والے گھر: نرخ، قواعد، مالک، رسائی کی تفصیلات اور لائیو نتائج جیسے کہ آبادی کی شرح، ADR، RevPAR، محصول اور مالک مالک کو ادائیگی۔",
+"mt": "ایک قطار فی چھٹی والے گھر: نرخ، قواعد، مالک، رسائی کی تفصیلات اور لائیو نتائج جیسے آبادی کی شرح، ADR، RevPAR، محصول اور مالک مالک کو ادائیگی۔",
 "why": "English/Latin words left: ADR RevPAR"
 },
 {
@@ -166,5 +194,12 @@
 "max": 30,
 "mt": "مالک تنہا اس کا انتظام کرتا ہے۔",
 "why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Unit-by-unit inspection with photos",
+"kind": "label",
+"max": null,
+"mt": "یونٹ-by-یونٹ معائنہ تصاویر کے ساتھ",
+"why": "English/Latin words left: by"
 }
 ]

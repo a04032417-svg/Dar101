@@ -1,5 +1,26 @@
 [
 {
+"en": "Owner statements, fees, payouts, reserves and budgets for property managers",
+"kind": "sentence",
+"max": 80,
+"mt": "मालिक स्टेटमेंट, शुल्क, मालिक को भुगतान, आरक्षण और बजट प्रॉपर्टी प्रबंधकों के लिए",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Owner ledgers, statements, fees, payouts, reserves and budgets for every owner",
+"kind": "sentence",
+"max": 80,
+"mt": "प्रत्येक मालिक के लिए स्वामी खाता बही, स्टेटमेंट, शुल्क, मालिक को भुगतान, आरक्षित निधि और बजट",
+"why": "too long: 93 characters, the limit is 80"
+},
+{
+"en": "Payouts and reserve moves",
+"kind": "list",
+"max": 30,
+"mt": "मालिक को भुगतान और आरक्षित चालें",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
 "en": "Owner pays, recovered from tenants",
 "kind": "list",
 "max": 30,
@@ -14,11 +35,53 @@
 "why": "too long: 64 characters, the limit is 60"
 },
 {
+"en": "Asking and achieved rent per m² by month",
+"kind": "title",
+"max": 60,
+"mt": "पूछ रहा है और महीने के हिसाब से मिला हुआ किराया प्रति वर्ग मीटर",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
 "en": "Add sales you hear about on Sale Comps; each one shows its price per m² and the yield it implies.",
 "kind": "sentence",
 "max": null,
 "mt": "Sale Comps पर आपने जो बिक्री सुनी है उसे जोड़ें; प्रत्येक प्रति वर्ग मीटर अपनी कीमत और उससे होने वाली उपज को दर्शाता है।",
 "why": "English/Latin words left: Sale Comps"
+},
+{
+"en": "Booking.com",
+"kind": "list",
+"max": 30,
+"mt": "बुकिंग.com",
+"why": "English/Latin words left: com"
+},
+{
+"en": "Occupancy a home needs to cover its costs",
+"kind": "title",
+"max": 60,
+"mt": "ऑक्यूपेंसी एक घर को अपनी लागतों को कवर करने की आवश्यकता होती है",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Net on Booking.com",
+"kind": "label",
+"max": null,
+"mt": "बुकिंग.com पर नेट",
+"why": "English/Latin words left: com"
+},
+{
+"en": "A direct booking beats Booking.com by",
+"kind": "label",
+"max": null,
+"mt": "एक सीधा बुकिंग, बुकिंग.com को हराता है",
+"why": "English/Latin words left: com"
+},
+{
+"en": "Nightly price on Booking.com that nets the same as direct",
+"kind": "label",
+"max": null,
+"mt": "बुकिंग.com पर रात्रिकालीन किराया प्रत्यक्ष मूल्य के समान ही है",
+"why": "English/Latin words left: com"
 },
 {
 "en": "Hello {owner}, an update on {name}: occupancy over the last 90 days {occ90}, room revenue over the last 12 months {rev12}. Call us if you want to review the prices.",
@@ -33,5 +96,12 @@
 "max": 30,
 "mt": "मालिक अकेले ही इसका प्रबंधन करता है",
 "why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "This commitment is part of management contract {col:contracts.contract_id} between the managing company and {col:contracts.owner} (the owner), for {col:contracts.units} units, from {col:contracts.start} to {col:contracts.end}.",
+"kind": "document",
+"max": null,
+"mt": "यह प्रतिबद्धता प्रबंधन कंपनी और {col:contracts.owner} (मालिक) के बीच, {col:contracts.start} से {col:contracts.end} तक, {col:contracts.units} यूनिट के बीच, प्रबंधन का हिस्सा है।",
+"why": "placeholders must be exactly: {col:contracts.contract_id} {col:contracts.owner} {col:contracts.units} {col:contracts.start} {col:contracts.end}"
 }
 ]

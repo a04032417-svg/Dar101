@@ -14,6 +14,13 @@
 "why": "English/Latin words left: Start"
 },
 {
+"en": "List your owners on Owners with their payout method, payout day and any balance brought forward.",
+"kind": "sentence",
+"max": null,
+"mt": "在 Owners 上列出您的所有者及其 向业主结算 方法、向业主结算 天以及任何结转的余额。",
+"why": "English/Latin words left: Owners"
+},
+{
 "en": "Post every money movement on Ledger: rent in, expenses, our fees, payouts and reserve moves. Choose the kind, category, property and owner; the signed amount and the statement fill in.",
 "kind": "sentence",
 "max": null,
@@ -26,6 +33,13 @@
 "max": 160,
 "mt": "30、90 和 365 天 出租率、ADR 和 RevPAR（业主住宿从您可以出售的房晚中扣除）",
 "why": "English/Latin words left: ADR RevPAR"
+},
+{
+"en": "Booking.com",
+"kind": "list",
+"max": 30,
+"mt": "预订.com",
+"why": "English/Latin words left: com"
 },
 {
 "en": "One row per holiday home: rates, rules, owner, access details and live results such as occupancy, ADR, RevPAR, revenue and owner payout.",
@@ -49,6 +63,27 @@
 "why": "English/Latin words left: Start"
 },
 {
+"en": "Net on Booking.com",
+"kind": "label",
+"max": null,
+"mt": "网络位于 预订.com",
+"why": "English/Latin words left: com"
+},
+{
+"en": "A direct booking beats Booking.com by",
+"kind": "label",
+"max": null,
+"mt": "直接的 预订 击败了 预订.com",
+"why": "English/Latin words left: com"
+},
+{
+"en": "Nightly price on Booking.com that nets the same as direct",
+"kind": "label",
+"max": null,
+"mt": "预订.com 上的每晚价格与直接价格相同",
+"why": "English/Latin words left: com"
+},
+{
 "en": "Hello {guest}, the Wi-Fi at {unit} is: {wifi}. Enjoy your stay!",
 "kind": "message",
 "max": null,
@@ -61,6 +96,13 @@
 "max": null,
 "mt": "您好，{owner}，{name} 的最新情况：过去 90 天的出租率{occ90}，过去 12 个月的客房收入{rev12}。如果您想查看价格，请致电我们。",
 "why": "English/Latin words left: occ rev"
+},
+{
+"en": "3. The price: room total {col:bookings.room}, cleaning fee {col:bookings.cleaning}, tourism tax {col:bookings.tax}. Total {col:bookings.gtotal}.",
+"kind": "document",
+"max": null,
+"mt": "3. 价格：房费{col:bookings.room}，费用保洁，旅游税{col:bookings.tax}。总计{col:bookings.gtotal}。",
+"why": "placeholders must be exactly: {col:bookings.room} {col:bookings.cleaning} {col:bookings.tax} {col:bookings.gtotal}"
 },
 {
 "en": "5. Check that lights, air conditioning, TV and Wi-Fi work. Report any damage, missing items or low stock the same day with photos.",
@@ -103,6 +145,13 @@
 "max": null,
 "mt": "每次前往 物业、车主、供应商 或当局的行程：谁去了、乘坐哪辆车、为什么去以及走了多远。行程费用来自您在 Start 中每公里的费用。",
 "why": "English/Latin words left: Start"
+},
+{
+"en": "Record your campaigns on Campaigns with their cost, enquiries and owners won to see which channel pays.",
+"kind": "sentence",
+"max": null,
+"mt": "在 Campaigns 上记录您的广告系列及其费用、查询和赢得的所有者，以查看哪个 渠道 付款。",
+"why": "English/Latin words left: Campaigns"
 },
 {
 "en": "Read the Office Dashboard and the Charts every week: income, profit, pipeline, workload and service quality at a glance.",

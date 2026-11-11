@@ -14,6 +14,13 @@
 "why": "too long: 51 characters, the limit is 31"
 },
 {
+"en": "Handling a tenant request",
+"kind": "sheet",
+"max": 31,
+"mt": "Bearbeitung einer Mieter-Anfrage",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
 "en": "Owner statements, fees, payouts, reserves and budgets for property managers",
 "kind": "sentence",
 "max": 80,
@@ -35,6 +42,13 @@
 "why": "too long: 32 characters, the limit is 31"
 },
 {
+"en": "opening balance, income, expenses, fees, reserve, payout and closing balance for every owner and month, with the ledger lines printed under it",
+"kind": "sentence",
+"max": 160,
+"mt": "Eröffnungssaldo, Einnahmen, Ausgaben, Gebühren, Rücklage, Auszahlung und Schlusssaldo für jeden Eigentümer und Monat, mit den darunter gedruckten Hauptbuchzeilen",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
 "en": "percent, flat per unit or tiered fees with the minimum and VAT, and a tool that shows which structure is cheapest for the owner",
 "kind": "sentence",
 "max": 160,
@@ -45,8 +59,8 @@
 "en": "every property and category tracked against its yearly budget, with a year-end estimate and a status when it nears or passes the limit",
 "kind": "sentence",
 "max": 160,
-"mt": "Jeder Objekt und jede Kategorie wird anhand seines jährlichen Budget verfolgt, mit einer Jahresendschätzung und einem Status, wenn er sich dem Grenzwert nähert oder diesen überschreitet",
-"why": "too long: 185 characters, the limit is 160"
+"mt": "Jeder Objekt und jede Kategorie wird anhand seines jährlichen Budget verfolgt, mit einer Jahresendschätzung und einem Status, wenn er sich dem Grenzwert nähert oder ihn überschreitet",
+"why": "too long: 182 characters, the limit is 160"
 },
 {
 "en": "quarters billed, paid and outstanding per unit, a rate-change notice, and a tool that splits the building budget by area and equally",
@@ -131,6 +145,13 @@
 "max": 30,
 "mt": "Warten auf Zustimmung des Eigentümers",
 "why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Budget ID",
+"kind": "label",
+"max": null,
+"mt": "Budget ID",
+"why": "not translated"
 },
 {
 "en": "Budget",
@@ -231,6 +252,13 @@
 "why": "too long: 35 characters, the limit is 30"
 },
 {
+"en": "Check-in",
+"kind": "label",
+"max": null,
+"mt": "Check-in",
+"why": "not translated"
+},
+{
 "en": "Problem",
 "kind": "label",
 "max": null,
@@ -264,6 +292,13 @@
 "max": 80,
 "mt": "Gewinnen und behalten Sie Eigentümer, leiten Sie Ihr Team und sehen Sie, wie das Unternehmen profitiert",
 "why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "every lead shows the fee it would bring each month and year, its stage and an alert when a follow-up is overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder Interessent zeigt die Gebühr an, die er jeden Monat und jedes Jahr bringen würde, sein Stadium und eine Benachrichtigung, wenn eine Nachverfolgung erfolgt überfällig",
+"why": "too long: 171 characters, the limit is 160"
 },
 {
 "en": "fee proposal, capacity, client profit, break-even, commission split, fee benchmark, hire cost, referral fee, cash runway, price rise, staff benchmark, churn",

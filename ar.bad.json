@@ -7,6 +7,13 @@
 "why": "too long: 54 characters, the limit is 50"
 },
 {
+"en": "Payouts and reserve moves",
+"kind": "list",
+"max": 30,
+"mt": "يتحرك صرف المستحقات والاحتياطي.",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
 "en": "VAT on management fees",
 "kind": "list",
 "max": 30,
@@ -49,6 +56,13 @@
 "why": "English/Latin words left: Market Radar"
 },
 {
+"en": "Run holiday homes for many owners: bookings, channels, pricing, payouts",
+"kind": "sentence",
+"max": 80,
+"mt": "تشغيل بيوت العطلات للعديد من المالكين: الحجوزات، والقنوات، والأسعار، صرف المستحقات",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
 "en": "30, 90 and 365-day occupancy, ADR and RevPAR with owner stays taken out of the nights you could sell",
 "kind": "sentence",
 "max": 160,
@@ -61,6 +75,13 @@
 "max": null,
 "mt": "صف واحد لكل بيت عطلات: الأسعار والقواعد والمالك وتفاصيل الوصول والنتائج المباشرة مثل نسبة الإشغال وADR وRevPAR والإيرادات والمالك صرف المستحقات.",
 "why": "English/Latin words left: ADR RevPAR"
+},
+{
+"en": "Nights a home is closed to guests: owner stays, friends and family, maintenance, renovation. Blocked nights are taken out of occupancy and checked against bookings.",
+"kind": "sentence",
+"max": null,
+"mt": "ليالي المنزل مغلق أمام الضيوف: إقامة المالك، الأصدقاء والعائلة، الصيانة، التجديد. يتم إخراج الليالي المحظورة من نسبة الإشغال ومطابقتها للحجوزات.",
+"why": "never use the word for \"compatible\""
 },
 {
 "en": "Type the booking figures and the owner's share. The result is the same split Bookings uses, plus what the owner receives after costs.",
