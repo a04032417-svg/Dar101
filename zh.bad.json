@@ -1,0 +1,345 @@
+[
+{
+"en": "Log every session on Sessions and every payment on Payments against the package ID. Used sessions, balances and late payers update at once.",
+"kind": "sentence",
+"max": null,
+"mt": "根据 套餐 ID 记录 课时 上的每笔 课时 以及 Payments 上的每笔付款。使用过的 课时、余额和逾期付款人会立即更新。",
+"why": "English/Latin words left: Payments"
+},
+{
+"en": "Type weight, body fat, waist and hips plus a body fat goal; see lean and fat mass, the waist to hip ratio and the weight at the goal if lean mass stays the same.",
+"kind": "sentence",
+"max": null,
+"mt": "Type weight, 体脂, waist and hips plus a 体脂 goal; see lean and fat mass, the waist to hip ratio and the weight at the goal if 瘦体重 stays the same.",
+"why": "English/Latin words left: Type weight waist and"
+},
+{
+"en": "Fat to lose to reach the goal, kg",
+"kind": "label",
+"max": null,
+"mt": "达到目标需要减掉的脂肪，kg",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Type weight, body fat, activity and the change you want; the resting need uses lean mass (Katch-McArdle, same for everyone), then protein, fat and carbs are set. A starting guide only.",
+"kind": "sentence",
+"max": null,
+"mt": "Type weight, 体脂, activity and the change you want; the resting need uses 瘦体重 (Katch-McArdle, same for everyone), then protein, fat and carbs are set.仅作为入门指南。",
+"why": "English/Latin words left: Type weight activity and"
+},
+{
+"en": "Activity factor (1.2 desk job to 1.9 very active)",
+"kind": "label",
+"max": null,
+"mt": "Activity factor (1.2 desk job to 1.9 very active)",
+"why": "English/Latin words left: Activity factor desk job"
+},
+{
+"en": "Smallest jump in load, kg",
+"kind": "label",
+"max": null,
+"mt": "最小负载跳跃，kg",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Load after 4 weeks, kg",
+"kind": "label",
+"max": null,
+"mt": "4周后负载，kg",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Load for the next set, kg",
+"kind": "label",
+"max": null,
+"mt": "下一组的负载，kg",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Other distances",
+"kind": "title",
+"max": 60,
+"mt": "Other distances",
+"why": "English/Latin words left: Other distances"
+},
+{
+"en": "Half marathon",
+"kind": "label",
+"max": null,
+"mt": "Half marathon",
+"why": "English/Latin words left: Half marathon"
+},
+{
+"en": "Hi {name}, it has been {idle} days since your last workout. Your {prog} programme is ready. Shall we book a session this week? Even a short one keeps the momentum.",
+"kind": "message",
+"max": null,
+"mt": "{name}，您好，距离您上次 训练 已经过去了 {idle} 天。 Your {prog} 训练计划 is ready.这周我们可以预订课时吗？即使很短也能保持动力。",
+"why": "English/Latin words left: Your is ready."
+},
+{
+"en": "Deload week ahead",
+"kind": "label",
+"max": null,
+"mt": "减载 week ahead",
+"why": "English/Latin words left: week ahead"
+},
+{
+"en": "Progress photos due",
+"kind": "label",
+"max": null,
+"mt": "Progress photos due",
+"why": "English/Latin words left: Progress photos due"
+},
+{
+"en": "Progress summary",
+"kind": "label",
+"max": null,
+"mt": "Progress summary",
+"why": "English/Latin words left: Progress summary"
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"kind": "message",
+"max": null,
+"mt": "{name}，您好，您在过去 90 天中：{sess_90} 课时 和 {prs_90} 条新记录。自开始以来体重变化：{w_chg} 公斤。 Great work, keep going!",
+"why": "English/Latin words left: sess prs Great work"
+},
+{
+"en": "Weekly check-in request",
+"kind": "label",
+"max": null,
+"mt": "Weekly check-in request",
+"why": "English/Latin words left: Weekly check in request"
+},
+{
+"en": "New block starts",
+"kind": "label",
+"max": null,
+"mt": "New block starts",
+"why": "English/Latin words left: New block starts"
+},
+{
+"en": "Block ending soon",
+"kind": "label",
+"max": null,
+"mt": "Block ending soon",
+"why": "English/Latin words left: Block ending soon"
+},
+{
+"en": "Block review",
+"kind": "label",
+"max": null,
+"mt": "Block review",
+"why": "English/Latin words left: Block review"
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"kind": "message",
+"max": null,
+"mt": "您好，{name}，{exercise} 上的新最佳成绩：估计最大 {best_e1} 公斤，比您开始时提高了 {gain}。 That is real progress!",
+"why": "English/Latin words left: best That is real"
+},
+{
+"en": "Plateau talk",
+"kind": "label",
+"max": null,
+"mt": "平台期 talk",
+"why": "English/Latin words left: talk"
+},
+{
+"en": "Lift going down",
+"kind": "label",
+"max": null,
+"mt": "Lift going down",
+"why": "English/Latin words left: Lift going down"
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"kind": "message",
+"max": null,
+"mt": "{name}，您好，您的 {exercise} 低于您的最佳成绩（现在 {last_e1} 公斤，最佳成绩 {best_e1} 公斤）。睡眠、压力或酸痛可能是原因。让我们在下一个课时之前谈谈。",
+"why": "English/Latin words left: last best"
+},
+{
+"en": "Hi {name}, your last 30 days: {sets_30} sets logged, {prs_30} records, {n_plat} plateaued lifts and {n_inj} open injuries. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "{name}，您好，您过去 30 天：记录了 {sets_30} 组 条，记录了 {prs_30} 条记录，{n_plat} 次稳定举重和 {n_inj} 条开放性损伤。让我们周一回顾一下。",
+"why": "English/Latin words left: sets prs"
+},
+{
+"en": "Write programmes on Programmes and Programme Lines: days, exercises, sets, reps and rest. Programme Builder then shows the weekly sets per muscle group.",
+"kind": "sentence",
+"max": null,
+"mt": "在 训练计划 和 训练计划 行写入 训练计划：天、动作、组、次数 和休息。 训练计划 Builder 然后显示每个肌肉群的每周 组。",
+"why": "English/Latin words left: Builder"
+},
+{
+"en": "Net price per session",
+"kind": "label",
+"max": null,
+"mt": "Net price per 课时",
+"why": "English/Latin words left: Net price per"
+},
+{
+"en": "Net price per coach hour",
+"kind": "label",
+"max": null,
+"mt": "Net price per 教练 hour",
+"why": "English/Latin words left: Net price per hour"
+},
+{
+"en": "Margin per session",
+"kind": "label",
+"max": null,
+"mt": "Margin per 课时",
+"why": "English/Latin words left: Margin per"
+},
+{
+"en": "Margin check",
+"kind": "label",
+"max": null,
+"mt": "Margin check",
+"why": "English/Latin words left: Margin check"
+},
+{
+"en": "Usual package",
+"kind": "label",
+"max": null,
+"mt": "Usual 套餐",
+"why": "English/Latin words left: Usual"
+},
+{
+"en": "Cost to serve",
+"kind": "label",
+"max": null,
+"mt": "Cost to serve",
+"why": "English/Latin words left: Cost to serve"
+},
+{
+"en": "Profit so far",
+"kind": "label",
+"max": null,
+"mt": "Profit so far",
+"why": "English/Latin words left: Profit so far"
+},
+{
+"en": "Value band",
+"kind": "label",
+"max": null,
+"mt": "Value band",
+"why": "English/Latin words left: Value band"
+},
+{
+"en": "Discounts received",
+"kind": "label",
+"max": null,
+"mt": "Discounts received",
+"why": "English/Latin words left: Discounts received"
+},
+{
+"en": "Days since payment",
+"kind": "label",
+"max": null,
+"mt": "Days since payment",
+"why": "English/Latin words left: Days since payment"
+},
+{
+"en": "Income Ledger",
+"kind": "sheet",
+"max": 31,
+"mt": "Income Ledger",
+"why": "English/Latin words left: Income Ledger"
+},
+{
+"en": "Partner contract",
+"kind": "label",
+"max": null,
+"mt": "Partner contract",
+"why": "English/Latin words left: Partner contract"
+},
+{
+"en": "Tax rate",
+"kind": "label",
+"max": null,
+"mt": "Tax rate",
+"why": "English/Latin words left: Tax rate"
+},
+{
+"en": "Tax in amount",
+"kind": "label",
+"max": null,
+"mt": "Tax in amount",
+"why": "English/Latin words left: Tax in amount"
+},
+{
+"en": "Sessions paid for",
+"kind": "label",
+"max": null,
+"mt": "课时 paid for",
+"why": "English/Latin words left: paid for"
+},
+{
+"en": "Invoices you issued. Paid, credit notes, balance, days overdue and status come from the ledger and credit notes; late payers show their ageing bucket and the instalment of a payment plan.",
+"kind": "sentence",
+"max": null,
+"mt": "您开具的发票。 Paid, 贷项凭单, balance, days overdue and status come from the ledger and 贷项凭单; late payers show their ageing bucket and the instalment of a payment plan.",
+"why": "English/Latin words left: Paid balance days overdue"
+},
+{
+"en": "Money you gave back or credited, with the reason, the invoice it relates to and the tax reversed. They are taken off income and tax in the monthly profit sheet.",
+"kind": "sentence",
+"max": null,
+"mt": "Money you gave back or credited, with the reason, the invoice it relates to and the tax reversed. They are taken off income and tax in the monthly profit sheet.",
+"why": "English/Latin words left: Money you gave back"
+},
+{
+"en": "Each pack or membership sold, with sessions used so far. Sessions left, their value, the end date and the sessions you still owe come out by themselves; expired sessions show as unused value.",
+"kind": "sentence",
+"max": null,
+"mt": "每包或 会籍 已售出，目前已使用 课时。 课时 left, their value, the end date and the 课时 you still owe come out by themselves;过期的 课时 显示为未使用的值。",
+"why": "English/Latin words left: left their value the"
+},
+{
+"en": "Hi {name}, your last 3 months: {hrs_3m} hours, utilisation {util} and {n_clients} active clients. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "{name}，您好，您最近 3 个月：{hrs_3m} 小时，利用率 {util}，{n_clients} 活跃客户。让我们周一回顾一下。",
+"why": "English/Latin words left: hrs"
+},
+{
+"en": "Hi {name}, you have {next7} sessions in the next 7 days and {free7} free slots. Please check the timetable and fill the gaps if you can.",
+"kind": "message",
+"max": null,
+"mt": "嗨，{name}，您在接下来的 7 天内有 {next7} 课时 和 {free7} 免费 时段。请检查时间表并尽可能填补空白。",
+"why": "English/Latin words left: next free"
+},
+{
+"en": "Hi {name}, in the last 4 weeks you delivered {hrs_28} of {cap_28} timetable hours, a use of {util}. Shall we talk about filling the gaps?",
+"kind": "message",
+"max": null,
+"mt": "{name}，您好，在过去 4 周内，您已交付 {hrs_28} 个时间表小时（共 {cap_28} 个小时），使用了 {util}。我们可以谈谈填补空白吗？",
+"why": "English/Latin words left: hrs cap"
+},
+{
+"en": "Hi {name}, we noticed {lost_90} late cancels or missed sessions in the last 90 days. Would a fixed weekly slot with {coach} work better for you?",
+"kind": "message",
+"max": null,
+"mt": "{name}，您好，我们在过去 90 天内发现了{lost_90} 迟取消 或错过了 课时。每周固定的 时段 与 {coach} 会更适合您吗？",
+"why": "English/Latin words left: lost"
+},
+{
+"en": "Record leave and cover on Leave and Cover, closures, holidays and weather calls on Closures and Weather, and tell your clients with the messages.",
+"kind": "sentence",
+"max": null,
+"mt": "在“Leave and Cover”中记录休假和涵盖情况，在“Closures and Weather”中记录停业、节假日和天气预报，并将消息告知您的 客户。",
+"why": "English/Latin words left: Leave and Cover Closures"
+},
+{
+"en": "Read the Studio Dashboard and Charts each week to see fill, no-shows, hours, classes, scores, safety, equipment and stock at a glance.",
+"kind": "sentence",
+"max": null,
+"mt": "每周阅读 Studio 仪表板和图表，一目了然地查看填充量、爽约、小时数、团课、分数、安全性、设备和库存。",
+"why": "English/Latin words left: Studio"
+}
+]

@@ -1,0 +1,506 @@
+[
+{
+"en": "every package shows sessions used and left, days to expiry and a clear status such as Running low or Ending soon",
+"kind": "sentence",
+"max": 160,
+"mt": "в каждом пакете показаны использованные и оставшиеся сеансы, дни до истечения срока действия и четкий статус, например «Заканчивается» или «Скоро заканчивается».",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Trial-to-package conversion by coach",
+"kind": "label",
+"max": 50,
+"mt": "Преобразование пробной версии в пакет под руководством тренера",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "Price a new package that still leaves your profit",
+"kind": "title",
+"max": 60,
+"mt": "Оцените новый пакет, который по-прежнему оставляет вам прибыль",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Fair refund when a client leaves mid-package",
+"kind": "title",
+"max": 60,
+"mt": "Справедливый возврат средств, когда клиент отказывается от середины пакета",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Renewal Offer Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Письмо с предложением о продлении",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Referral Reward Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы вознаграждения за рефералов",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Log every session on Sessions and every payment on Payments against the package ID. Used sessions, balances and late payers update at once.",
+"kind": "sentence",
+"max": null,
+"mt": "Регистрируйте каждый сеанс в Sessions и каждый платеж в Payments по идентификатору пакета. Использованные сеансы, балансы и просрочившие платежи обновляются одновременно.",
+"why": "English/Latin words left: Sessions Payments"
+},
+{
+"en": "Exercise library, programmes, workout log, records and goals in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Библиотека упражнений, программы, журнал тренировок, рекорды и цели в одном файле.",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "each lift reads progressing, plateau, slipping, not trained lately or too early to judge, from your own weeks and percent rules",
+"kind": "sentence",
+"max": 160,
+"mt": "каждое упражнение показывает прогресс, плато, скольжение, нетренированность в последнее время или слишком рано, чтобы судить, исходя из ваших собственных недель и правил процентов.",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Weekly volume check per muscle group",
+"kind": "label",
+"max": 50,
+"mt": "Еженедельная проверка объема для каждой группы мышц",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "from the pace so far it gives the finish date, and the weekly change needed to hit the deadline; goals read reached, on track, behind or overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "исходя из текущего темпа, он дает дату окончания и еженедельные изменения, необходимые для достижения крайнего срока; цели считаются достигнутыми, на ходу, отстающими или просроченными",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "twelve tests with their own retest interval, first result, change and a retest alert for active clients only",
+"kind": "sentence",
+"max": 160,
+"mt": "двенадцать тестов со своим интервалом повторного тестирования, первым результатом, изменением и оповещением о повторном тестировании только для активных клиентов",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Habit score from weekly check-ins",
+"kind": "label",
+"max": 50,
+"mt": "Оценка привычек по результатам еженедельных проверок",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Front, side and back",
+"kind": "list",
+"max": 30,
+"mt": "Передняя, боковая и задняя часть",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Not trained lately",
+"kind": "list",
+"max": 30,
+"mt": "Не тренировался в последнее время",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Joint friendly",
+"kind": "label",
+"max": null,
+"mt": "Совместная товарищеская встреча",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Your ready programmes: goal, level, split, weeks and days a week. Exercise lines, sets per week, minutes, joint-friendly share and clients on it now fill in from Programme Lines.",
+"kind": "sentence",
+"max": null,
+"mt": "Ваши готовые программы: цель, уровень, сплит, недели и дни в неделю. Строки упражнений, подходы в неделю, минуты, совместная доля и клиенты на ней теперь заполняются из строк программы.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Joint-friendly options left",
+"kind": "label",
+"max": null,
+"mt": "Остались совместные варианты",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Joint-friendly share of the library",
+"kind": "label",
+"max": null,
+"mt": "Совместная дружеская доля библиотеки",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Heart rate zones from age and resting heart rate",
+"kind": "title",
+"max": 60,
+"mt": "Зоны сердечного ритма в зависимости от возраста и частоты пульса в состоянии покоя",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Body Fat Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Обзор содержания жира в организме",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Fat mass, lean mass and the weight at a body fat goal",
+"kind": "title",
+"max": 60,
+"mt": "Жировая масса, сухая масса и вес при целевом показателе содержания жира в организме",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Plan a lighter week and see who needs one",
+"kind": "title",
+"max": 60,
+"mt": "Запланируйте более легкую неделю и посмотрите, кому она нужна",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Pick the next load from how hard a set felt",
+"kind": "title",
+"max": 60,
+"mt": "Выбирайте следующую нагрузку исходя из того, насколько тяжелым был набор.",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! За последние 90 дней: сеансов: {sess_90} и новых рекордов: {prs_90}. Изменение веса с момента начала: {w_chg} кг. Отличная работа, продолжайте!",
+"why": "English/Latin words left: sess prs"
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}, новый лучший результат в {exercise}: расчетный максимальный вес в {best_e1} кг, на {gain} больше, чем вы начали. Это настоящий прогресс!",
+"why": "English/Latin words left: best"
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! Ваш {exercise} ниже вашего лучшего результата (теперь {last_e1} кг, лучший – {best_e1} кг). Причиной могут быть сон, стресс или болезненность. Давайте поговорим перед следующим сеансом.",
+"why": "English/Latin words left: last best"
+},
+{
+"en": "Hi {name}, your last 30 days: {sets_30} sets logged, {prs_30} records, {n_plat} plateaued lifts and {n_inj} open injuries. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! За последние 30 дней у вас зарегистрировано {sets_30} подходов, {prs_30} рекордов, {n_plat} стабилизированных упражнений и {n_inj} открытых травм. Давайте посмотрим в понедельник.",
+"why": "English/Latin words left: sets prs"
+},
+{
+"en": "Watch list: {col:clients.n_plat} plateaued lift(s), {col:clients.n_slip} slipping lift(s), {col:clients.g_behind} goal(s) behind and {col:clients.n_inj} open injury record(s).",
+"kind": "document",
+"max": null,
+"mt": "Список наблюдения: {col:clients.n_plat} подъемов с плато, {col:clients.n_slip} подъемов со скольжением, гола (голов) позади и {col:clients.n_inj} открытых записей о травмах.",
+"why": "placeholders must be exactly: {col:clients.n_plat} {col:clients.n_slip} {col:clients.g_behind} {col:clients.n_inj}"
+},
+{
+"en": "Expected return to full training: {col:injuries.back_on}. {col:injuries.n_safe} joint-friendly exercises in the library remain available.",
+"kind": "document",
+"max": null,
+"mt": "Ожидаемый возврат к полному обучению: {col:injuries.back_on}. {col:injuries.n_safe} совместных упражнений в библиотеке остаются доступными.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Income, invoices, coach pay, margins and cash forecast for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "Доходы, счета, зарплата тренеров, маржа и прогноз денежных средств для персонального обучения",
+"why": "too long: 93 characters, the limit is 80"
+},
+{
+"en": "Income, invoices, coach pay, margins and cash forecast in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Доходы, счета-фактуры, оплата тренеров, маржа и прогноз денежных средств в одном файле.",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "Receivables ageing with payment-plan instalments",
+"kind": "label",
+"max": 50,
+"mt": "Срок погашения дебиторской задолженности с рассрочкой платежа",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "invoices read paid, part paid, open or overdue from the ledger and credit notes, fall into 30, 60 and 90 day buckets and show the instalment of a plan",
+"kind": "sentence",
+"max": 160,
+"mt": "счета-фактуры считаются оплаченными, частично оплаченными, открытыми или просроченными из бухгалтерской книги и кредит-нот, попадают в сегменты на 30, 60 и 90 дней и показывают рассрочку плана",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "Deferred revenue for unused paid sessions",
+"kind": "label",
+"max": 50,
+"mt": "Отложенный доход за неиспользованные платные сеансы",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Coach pay sheet with utilisation and margin",
+"kind": "label",
+"max": 50,
+"mt": "Таблица заработной платы тренера с указанием использования и маржи",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "hours against hours available, hourly pay, class fees and renewal bonus give total pay, cost per session and the margin each coach earns per hour",
+"kind": "sentence",
+"max": 160,
+"mt": "часы в сравнении с доступными часами, почасовая оплата, плата за занятия и бонус за продление дают общую заработную плату, стоимость сеанса и прибыль, которую каждый тренер зарабатывает за час.",
+"why": "too long: 193 characters, the limit is 160"
+},
+{
+"en": "what each client paid net of tax less the cost to serve them, profit a month, expected lifetime profit and a rank from top client to low value",
+"kind": "sentence",
+"max": 160,
+"mt": "сколько заплатил каждый клиент за вычетом налогов, за вычетом затрат на его обслуживание, прибыли в месяц, ожидаемой прибыли за весь срок и ранга от лучшего клиента до низкого значения",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "Monthly profit, owner pay and tax set-aside",
+"kind": "label",
+"max": 50,
+"mt": "Ежемесячная прибыль, зарплата владельца и отчисления налогов",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "tax charged on sales less tax paid on costs gives the return amount, its due date and a status of paid, due or overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "Налог, взимаемый с продаж, за вычетом налога, уплаченного на затраты, дает сумму возврата, дату его оплаты и статус оплаченного, подлежащего оплате или просроченного платежа.",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "12-week cash forecast with low-cash flags",
+"kind": "label",
+"max": 50,
+"mt": "12-недельный прогноз денежных средств с флагами низкого уровня денежных средств",
+"why": "too long: 79 characters, the limit is 50"
+},
+{
+"en": "takings at the recent pace, overdue invoices you expect to collect, pay, rent, costs and tax returns give the cash at the end of each week against your minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "поступления в недавних темпах, просроченные счета, которые вы ожидаете получить, оплатить, арендовать, расходы и налоговые декларации дают наличные в конце каждой недели против вашего минимума",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "Credentials and insurance expiry per coach",
+"kind": "label",
+"max": 50,
+"mt": "Полномочия и срок действия страховки для каждого тренера",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "margin won for every 1 given away in each offer, and the balance owed on every gift voucher until it is used or expires",
+"kind": "sentence",
+"max": 160,
+"mt": "маржа, выигранная за каждую 1 единицу, отданную в каждом предложении, а также остаток задолженности по каждому подарочному сертификату до его использования или истечения срока его действия.",
+"why": "too long: 189 characters, the limit is 160"
+},
+{
+"en": "Prepaid sessions owed to clients (deferred revenue)",
+"kind": "title",
+"max": 60,
+"mt": "Предоплаченные сеансы, причитающиеся клиентам (отложенный доход)",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Monthly profit, owner pay, tax set-aside and tax return",
+"kind": "title",
+"max": 60,
+"mt": "Ежемесячная прибыль, зарплата владельца, налоговый вычет и налоговая декларация.",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Hi {name}, your last 3 months: {hrs_3m} hours, utilisation {util} and {n_clients} active clients. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! За последние 3 месяца: {hrs_3m} часов, использование {util} и {n_clients} активных клиентов. Давайте посмотрим в понедельник.",
+"why": "English/Latin words left: hrs"
+},
+{
+"en": "Overdue Invoice Follow-Up",
+"kind": "sheet",
+"max": 31,
+"mt": "Отслеживание просроченного счета",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Partner Contract Renewal",
+"kind": "sheet",
+"max": 31,
+"mt": "Продление партнерского контракта",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Gift Voucher Handling",
+"kind": "sheet",
+"max": 31,
+"mt": "Обработка подарочных сертификатов",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Sales Tax or VAT Return",
+"kind": "sheet",
+"max": 31,
+"mt": "Налог с продаж или декларация по НДС",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Cash forecast, money in and out by month",
+"kind": "title",
+"max": 60,
+"mt": "Прогноз денежных средств, поступления и выплаты денег по месяцам",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Timetable, slot fill, rooms, equipment and safety log for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "Расписание, заполнение мест, помещения, оборудование и журнал безопасности для персональных тренировок.",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "Timetable, slot fill, rooms, equipment and safety log in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Расписание, заполнение слотов, помещения, оборудование и журнал безопасности в одном файле.",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "Fill heat map by start hour and weekday",
+"kind": "label",
+"max": 50,
+"mt": "Заполните тепловую карту по часу начала и дню недели",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Coach load and free slots for the next 7 days",
+"kind": "label",
+"max": 50,
+"mt": "Загрузка тренеров и бесплатные слоты на следующие 7 дней",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "timetable hours against hours delivered, sessions already booked and the free slots left, so you know who can take a new client",
+"kind": "sentence",
+"max": 160,
+"mt": "расписание часов в сравнении с отработанными часами, уже забронированными сеансами и оставшимися свободными местами, чтобы вы знали, кто может принять нового клиента",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "every missed session picked from the bookings gets a fee under your settings, a decision of charged, waived or taken from the pack, and a running total",
+"kind": "sentence",
+"max": 160,
+"mt": "за каждый пропущенный сеанс, выбранный из заказов, взимается плата в соответствии с вашими настройками, решение о взимании платы, отмене или исключении из пакета, а также промежуточная общая сумма.",
+"why": "too long: 197 characters, the limit is 160"
+},
+{
+"en": "next service, days left, age, replacement date and repair spend against price give a replace-soon flag before kit fails",
+"kind": "sentence",
+"max": 160,
+"mt": "следующее обслуживание, оставшиеся дни, возраст, дата замены и затраты на ремонт в зависимости от цены поставьте флажок «скоро замена», прежде чем комплект выйдет из строя",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Stock reorder quantities with delivery lead time",
+"kind": "label",
+"max": 50,
+"mt": "Количество повторного заказа на складе с учетом времени доставки",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "Incident and near-miss log with open actions",
+"kind": "label",
+"max": 50,
+"mt": "Журнал происшествий и аварийных ситуаций с открытыми действиями",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "type, severity, first aid and action due date give days open and an Open, Overdue or Closed status so no action is forgotten",
+"kind": "sentence",
+"max": 160,
+"mt": "тип, степень тяжести, первая помощь и срок действия указывают дни открытия и статус «Открыто», «Просрочено» или «Закрыто», чтобы ни одно действие не было забыто.",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "First aid, emergency and facility check dates",
+"kind": "label",
+"max": 50,
+"mt": "Даты оказания первой помощи, неотложной помощи и проверки объектов",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "Closure and weather calendar with sessions moved",
+"kind": "label",
+"max": 50,
+"mt": "Календарь закрытия и погода с перенесенными сеансами",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Emergency, supplier, contractor and partner contacts",
+"kind": "title",
+"max": 60,
+"mt": "Контакты для экстренных случаев, поставщиков, подрядчиков и партнеров",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Late Fee Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Калькулятор штрафа за просрочку платежа",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Hi {name}, you have {next7} sessions in the next 7 days and {free7} free slots. Please check the timetable and fill the gaps if you can.",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! В ближайшие 7 дней у вас есть {next7} сеансов и {free7} свободных мест. Пожалуйста, проверьте расписание и по возможности заполните пробелы.",
+"why": "English/Latin words left: next free"
+},
+{
+"en": "Hi {name}, in the last 4 weeks you delivered {hrs_28} of {cap_28} timetable hours, a use of {util}. Shall we talk about filling the gaps?",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! За последние 4 недели вы отработали {hrs_28} часов из {cap_28}, используя {util}. Поговорим о заполнении пробелов?",
+"why": "English/Latin words left: hrs cap"
+},
+{
+"en": "Hi {name}, we noticed {lost_90} late cancels or missed sessions in the last 90 days. Would a fixed weekly slot with {coach} work better for you?",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! Мы заметили {lost_90} поздних отмен или пропущенных сеансов за последние 90 дней. Подойдет ли вам фиксированный еженедельный интервал с {coach}?",
+"why": "English/Latin words left: lost"
+},
+{
+"en": "Incident Follow-Up",
+"kind": "sheet",
+"max": 31,
+"mt": "Последующие действия по инцидентам",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Late fees collected of fees due",
+"kind": "title",
+"max": 60,
+"mt": "Плата за просрочку платежа, взимаемая из причитающихся комиссий",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Enter every session on Bookings: date, start time, client, coach, place, type and status. Mark each one Done, Late cancel, No show, Moved or Weather cancel, and add the arrival time and any pain or injury to note.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите каждую сессию в Bookings: дату, время начала, клиента, тренера, место, тип и статус. Отметьте каждое из них «Выполнено», «Поздняя отмена», «Неявка», «Переехал» или «Отмена погоды», а также укажите время прибытия и любые боли или травмы, которые следует отметить.",
+"why": "English/Latin words left: Bookings"
+}
+]

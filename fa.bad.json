@@ -1,0 +1,359 @@
+[
+{
+"en": "Waiting list matched to coach places",
+"kind": "label",
+"max": 50,
+"mt": "فهرست انتظار با مربی مکان مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Ended with sessions left",
+"kind": "list",
+"max": 30,
+"mt": "با جلسه‌ها باقی مانده به پایان رسید",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "One row per package sold. Price after discount, sessions used and left, end date, balance, payment status and renewal risk all work themselves out from Sessions, Payments and Freezes.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف در هر بسته فروخته شده. قیمت پس از تخفیف، جلسه‌ها استفاده شده و باقیمانده، تاریخ پایان، موجودی، وضعیت پرداخت و ریسک تمدید همه خود به خود از جلسه‌ها، Payments و تعلیق‌ها جواب می دهند.",
+"why": "English/Latin words left: Payments"
+},
+{
+"en": "Match",
+"kind": "label",
+"max": null,
+"mt": "مطابقت دادن",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Type when the package ends and the freeze dates; see the days owed, the new end date and whether the freeze fits your rule.",
+"kind": "sentence",
+"max": null,
+"mt": "زمانی که بسته به پایان می رسد و تاریخ های تعلیق را تایپ کنید. روزهای بدهی، تاریخ پایان جدید و اینکه آیا تعلیق با قانون شما مطابقت دارد را ببینید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Freeze fits your rule",
+"kind": "label",
+"max": null,
+"mt": "تعلیق با قانون شما مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Lead Funnel Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "مشتری بالقوه Funnel Planner",
+"why": "English/Latin words left: Funnel Planner"
+},
+{
+"en": "Packages ending soon and the revenue you may lose",
+"kind": "title",
+"max": 60,
+"mt": "بسته‌ها به زودی به پایان می رسد و ممکن است درآمدی را از دست بدهید",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Churn and Retention",
+"kind": "sheet",
+"max": 31,
+"mt": "ریزش مشتری و Retain",
+"why": "English/Latin words left: Retain"
+},
+{
+"en": "Open Start and type your studio name and your rules in the yellow cells: renewal window, low sessions, grace days, largest discount, freeze limit and consent validity.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام استودیو و قوانین خود را در سلول‌های زرد تایپ کنید: تمدید پنجره، جلسه‌ها کم، روزهای مهلت، بزرگترین تخفیف، تعلیق محدودیت و رضایت اعتبار.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Log every session on Sessions and every payment on Payments against the package ID. Used sessions, balances and late payers update at once.",
+"kind": "sentence",
+"max": null,
+"mt": "هر جلسه در جلسه‌ها و هر پرداخت در Payments با شناسه بسته وارد سیستم شوید. استفاده از جلسه‌ها، موجودی‌ها و دیر پرداخت‌کنندگان یک‌باره به‌روزرسانی می‌شوند.",
+"why": "English/Latin words left: Payments"
+},
+{
+"en": "Type weight, body fat, activity and the change you want; the resting need uses lean mass (Katch-McArdle, same for everyone), then protein, fat and carbs are set. A starting guide only.",
+"kind": "sentence",
+"max": null,
+"mt": "وزن، چربی بدن، فعالیت و تغییر مورد نظر را تایپ کنید. نیاز به استراحت از توده بدون چربی استفاده می‌کند (Katch-McArdle، برای همه یکسان)، سپس پروتئین، چربی و کربوهیدرات تنظیم می‌شوند. فقط یک راهنمای شروع",
+"why": "English/Latin words left: Katch McArdle"
+},
+{
+"en": "Plan a lighter week and see who needs one",
+"kind": "title",
+"max": 60,
+"mt": "یک هفته سبک تر برنامه ریزی کنید و ببینید چه کسی به آن نیاز دارد",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"kind": "message",
+"max": null,
+"mt": "سلام {name}، 90 روز گذشته شما: رکوردهای جدید {sess_90} جلسه‌ها و {prs_90}. تغییر وزن از زمان شروع: {w_chg} کیلوگرم. کار عالی، ادامه بده",
+"why": "English/Latin words left: sess prs"
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"kind": "message",
+"max": null,
+"mt": "سلام {name}، بهترین های جدید در {exercise}: حداکثر تخمینی {best_e1} کیلوگرم، {gain} از زمان شروع شما. این پیشرفت واقعی است!",
+"why": "English/Latin words left: best"
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"kind": "message",
+"max": null,
+"mt": "سلام {name}، {exercise} شما کمتر از بهترین شماست ({last_e1} کیلوگرم اکنون، بهترین {best_e1} کیلوگرم). خواب، استرس یا درد ممکن است دلیل آن باشد. اجازه دهید قبل از جلسه بعدی صحبت کنیم.",
+"why": "English/Latin words left: last best"
+},
+{
+"en": "Hi {name}, your last 30 days: {sets_30} sets logged, {prs_30} records, {n_plat} plateaued lifts and {n_inj} open injuries. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "سلام {name}، 30 روز گذشته شما: {sets_30} ست ثبت شده، {prs_30} رکورد، {n_plat} بالابرهای پلاتو و {n_inj} مصدومیت باز. اجازه دهید دوشنبه بررسی کنیم.",
+"why": "English/Latin words left: sets prs"
+},
+{
+"en": "Enter the numbers on Measurements",
+"kind": "label",
+"max": null,
+"mt": "اعداد را در Measurements وارد کنید",
+"why": "English/Latin words left: Measurements"
+},
+{
+"en": "Open Start and type your studio name and your rules in the yellow cells: plateau weeks, slip percent, deload weeks, weekly set range, habit targets and the share of a plan that counts as done.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام استودیو و قوانین خود را در سلول‌های زرد تایپ کنید: رکود هفته، درصد لغزش، کاهش بار هفته، محدوده مجموعه هفتگی، اهداف عادت و سهم برنامه‌ای که انجام شده حساب می‌شود.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Check the Coaches and Progress Board sheets: one row per client with coach, goal, level and status. The yellow cells are yours; everything else fills in by itself.",
+"kind": "sentence",
+"max": null,
+"mt": "برگه‌های مربیان و Progress Board را بررسی کنید: یک ردیف در هر مشتری با مربی، هدف، سطح و وضعیت. سلول های زرد مال شماست. همه چیز خود به خود پر می شود",
+"why": "English/Latin words left: Progress Board"
+},
+{
+"en": "Log every exercise of every session on Workout Log with sets, reps, load and effort. Estimated max and new records work themselves out.",
+"kind": "sentence",
+"max": null,
+"mt": "هر حرکت ورزشی از هر جلسه را در تمرین Log با ست، تکرار، بار و تلاش وارد کنید. حداکثر تخمینی و رکوردهای جدید خود به خود کار می کنند.",
+"why": "English/Latin words left: Log"
+},
+{
+"en": "invoices read paid, part paid, open or overdue from the ledger and credit notes, fall into 30, 60 and 90 day buckets and show the instalment of a plan",
+"kind": "sentence",
+"max": 160,
+"mt": "فاکتورهای خوانده شده پرداخت شده، بخشی پرداخت شده، باز یا معوق از دفتر کل و یادداشت‌های اعتبار، در سطل های 30، 60 و 90 روزه قرار می گیرند و قسط یک طرح را نشان می دهند.",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "hours against hours available, hourly pay, class fees and renewal bonus give total pay, cost per session and the margin each coach earns per hour",
+"kind": "sentence",
+"max": 160,
+"mt": "ساعت در برابر ساعات در دسترس، پرداخت ساعتی، کلاس کارمزد و تمدید پاداش، کل دستمزد، هزینه به ازای هر جلسه و حاشیه ای را که هر مربی در هر ساعت به دست می آورد، می دهد.",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Sales tax or VAT return by month",
+"kind": "label",
+"max": 50,
+"mt": "مالیات بر فروش یا مالیات بر ارزش افزوده بر اساس ماه",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "takings at the recent pace, overdue invoices you expect to collect, pay, rent, costs and tax returns give the cash at the end of each week against your minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "دریافت‌ها با سرعت اخیر، صورت‌حساب‌های معوقی که انتظار دارید جمع‌آوری کنید، پرداخت کنید، اجاره دهید، هزینه‌ها و اظهارنامه‌های مالیاتی را در پایان هر هفته در مقابل حداقل شما وجه نقد می‌دهند.",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Monthly profit, owner pay, tax set-aside and tax return",
+"kind": "title",
+"max": 60,
+"mt": "سود ماهانه، پرداخت مالک، کنار گذاشتن مالیات و اظهارنامه مالیاتی",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Type the sessions, minutes, price and coach cost for a package idea; see the net price per session and hour, the cost, the margin and the price that meets your margin target.",
+"kind": "sentence",
+"max": null,
+"mt": "جلسه‌ها، دقیقه، قیمت و هزینه مربی را برای یک ایده بسته تایپ کنید. قیمت خالص به ازای هر جلسه و ساعت، هزینه، حاشیه و قیمتی که با هدف مارجین شما مطابقت دارد را ببینید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hiring what-if for a new coach",
+"kind": "title",
+"max": 60,
+"mt": "استخدام what-if برای یک مربی جدید",
+"why": "English/Latin words left: what if"
+},
+{
+"en": "Hi {name}, your last 3 months: {hrs_3m} hours, utilisation {util} and {n_clients} active clients. Let us review on Monday.",
+"kind": "message",
+"max": null,
+"mt": "سلام {name}، 3 ماه گذشته شما: {hrs_3m} ساعت، نرخ بهره‌برداری {util} و {n_clients} فعال مشتریان. اجازه دهید دوشنبه بررسی کنیم.",
+"why": "English/Latin words left: hrs"
+},
+{
+"en": "Match the bank statement with the ledger and the invoices",
+"kind": "label",
+"max": null,
+"mt": "صورت حساب بانکی را با دفتر کل و فاکتورها مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Pay the renewal fee and record it on Expenses",
+"kind": "label",
+"max": null,
+"mt": "هزینه تمدید را بپردازید و آن را در Expenses ثبت کنید",
+"why": "English/Latin words left: Expenses"
+},
+{
+"en": "Sales Tax or VAT Return",
+"kind": "sheet",
+"max": 31,
+"mt": "اظهارنامه مالیات بر فروش یا مالیات بر ارزش افزوده",
+"why": "too long: 49 characters, the limit is 31"
+},
+{
+"en": "Open Start and type your studio name and your rules in the yellow cells: sales tax or VAT rate, return days, renewal bonus, target margin, target utilisation and the share of profit you set aside.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام استودیو و قوانین خود را در سلول‌های زرد تایپ کنید: مالیات بر فروش یا نرخ VAT، روزهای بازگشت، پاداش تمدید، حاشیه هدف، هدف نرخ بهره‌برداری و سهم سودی که کنار گذاشته‌اید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Add each pack or membership you sell to Prepaid Sessions with the sessions used. You see the sessions you still owe, what is about to expire and the value that expired unused.",
+"kind": "sentence",
+"max": null,
+"mt": "هر بسته یا عضویت را که می‌فروشید به Prepaid جلسه‌ها با جلسه‌ها استفاده شده اضافه کنید. جلسه‌ها را می‌بینید که هنوز مدیون هستید، آنچه در شرف انقضا است و مقداری که منقضی شده است بدون استفاده.",
+"why": "English/Latin words left: Prepaid"
+},
+{
+"en": "Fill heat map by start hour and weekday",
+"kind": "label",
+"max": 50,
+"mt": "نقشه گرمایی را بر اساس ساعت شروع و روزهای هفته پر کنید",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Coach load and free slots for the next 7 days",
+"kind": "label",
+"max": 50,
+"mt": "مربی بارگیری و رایگان بازه‌های زمانی برای 7 روز آینده",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "timetable hours against hours delivered, sessions already booked and the free slots left, so you know who can take a new client",
+"kind": "sentence",
+"max": 160,
+"mt": "ساعت‌های جدول زمانی در مقابل ساعت‌های تحویل، جلسه‌ها قبلاً رزرو شده و بازه‌های زمانی رایگان باقی مانده است، بنابراین می‌دانید چه کسی می‌تواند یک مشتری جدید بگیرد.",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "every missed session picked from the bookings gets a fee under your settings, a decision of charged, waived or taken from the pack, and a running total",
+"kind": "sentence",
+"max": 160,
+"mt": "هر جلسه از دست رفته که از رزروها انتخاب شود، طبق تنظیمات شما، هزینه ای دریافت می کند، تصمیمی مبنی بر کسر هزینه، لغو یا برداشته شدن از بسته، و مجموع در حال اجرا دریافت می کند.",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Leave and shift cover with slots to cover",
+"kind": "label",
+"max": 50,
+"mt": "پوشش را با بازه‌های زمانی رها کرده و به پوشش منتقل کنید",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Stock reorder quantities with delivery lead time",
+"kind": "label",
+"max": 50,
+"mt": "مقادیر موجودی را دوباره سفارش دهید با زمان تحویل مشتری بالقوه",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "Weather, moved indoors",
+"kind": "list",
+"max": 30,
+"mt": "آب و هوا، به داخل خانه منتقل شد",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "The daily log of opening checks, closing checks, cleans and weekly deep cleans: who did it, items done of the list, and any issue; the share done and Complete or Gaps found fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "گزارش روزانه چک‌های باز، بسته شدن چک‌ها، پاک‌سازی‌ها و پاک‌سازی‌های عمیق هفتگی: چه کسی این کار را انجام داده است، موارد انجام‌شده از فهرست، و هر مشکلی. سهم انجام شده و Complete یا Gaps پیدا شده توسط خودشان پر می شوند.",
+"why": "English/Latin words left: Complete Gaps"
+},
+{
+"en": "Client feedback with a score of 0 to 10 by coach and comment; Promoter, Passive or Detractor and the client phone fill in by themselves, and the score builds by month and by coach.",
+"kind": "sentence",
+"max": null,
+"mt": "بازخورد مشتری با امتیاز 0 تا 10 توسط مربی و نظر. Promoter، Passive یا Detractor و تلفن مشتری خود به خود پر می شوند و امتیاز براساس ماه و مربی ایجاد می شود.",
+"why": "English/Latin words left: Promoter Passive Detractor"
+},
+{
+"en": "Hi {name}, you have {next7} sessions in the next 7 days and {free7} free slots. Please check the timetable and fill the gaps if you can.",
+"kind": "message",
+"max": null,
+"mt": "سلام {name}، شما در 7 روز آینده جلسه‌ها {next7} و بازه‌های زمانی رایگان بازه‌های زمانی دارید. لطفا جدول زمانی را بررسی کنید و در صورت امکان جاهای خالی را پر کنید.",
+"why": "English/Latin words left: next"
+},
+{
+"en": "Hi {name}, in the last 4 weeks you delivered {hrs_28} of {cap_28} timetable hours, a use of {util}. Shall we talk about filling the gaps?",
+"kind": "message",
+"max": null,
+"mt": "سلام {name}، در 4 هفته گذشته {hrs_28} از {cap_28} ساعت جدول زمانی، با استفاده از {util} تحویل داده‌اید. آیا در مورد پر کردن خلاءها صحبت کنیم؟",
+"why": "English/Latin words left: hrs cap"
+},
+{
+"en": "Hi {name}, we noticed {lost_90} late cancels or missed sessions in the last 90 days. Would a fixed weekly slot with {coach} work better for you?",
+"kind": "message",
+"max": null,
+"mt": "سلام {name}، ما در 90 روز گذشته متوجه لغو دیرهنگام {lost_90} شدیم یا جلسه‌ها را از دست دادیم. آیا یک بازه زمانی هفتگی ثابت با {coach} برای شما بهتر کار می کند؟",
+"why": "English/Latin words left: lost"
+},
+{
+"en": "Record the check on the Cleaning Log",
+"kind": "label",
+"max": null,
+"mt": "چک را در Cleaning Log ثبت کنید",
+"why": "English/Latin words left: Cleaning Log"
+},
+{
+"en": "Lock up and record the check on the Cleaning Log",
+"kind": "label",
+"max": null,
+"mt": "چک را قفل کرده و در Cleaning Log ثبت کنید",
+"why": "English/Latin words left: Cleaning Log"
+},
+{
+"en": "Open Start and type your studio name and your rules in the yellow cells: the weeks used to measure fill, your fill target, the notice for a late cancel, the fee shares and the weather limits.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام استودیو و قوانین خود را در سلول‌های زرد تایپ کنید: هفته‌های مورد استفاده برای اندازه‌گیری پر شدن، هدف پر شدن شما، اعلان یک لغو دیرهنگام، سهم هزینه و محدودیت‌های آب و هوا.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Build your template week on Weekly Timetable: one row for each slot with day, start time, coach, room, type and places. Fill rate and a Busy, OK or Quiet status appear by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "هفته الگوی خود را در جدول زمانی هفتگی بسازید: یک ردیف برای هر بازه زمانی با روز، زمان شروع، مربی، اتاق، نوع و مکان‌ها. نرخ پرشدن و وضعیت Busy، OK یا Quiet خود به خود ظاهر می شود.",
+"why": "English/Latin words left: Busy Quiet"
+},
+{
+"en": "Tick the day's opening and closing routines and the weekly deep clean on Cleaning Log, and write down any issue you find.",
+"kind": "sentence",
+"max": null,
+"mt": "روال های باز و بسته شدن روز و تمیز کردن عمیق هفتگی را در Cleaning Log علامت بزنید و هر مشکلی را که پیدا کردید یادداشت کنید.",
+"why": "English/Latin words left: Cleaning Log"
+}
+]

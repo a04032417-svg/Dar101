@@ -1,0 +1,366 @@
+[
+{
+"en": "Clients, packages, payments, renewals and leads for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "kişisel antrenörlük için Müşteriler, paketler, ödemeler, yenilemeler ve potansiyel müşteriler",
+"why": "too long: 93 characters, the limit is 80"
+},
+{
+"en": "Clients, packages, sessions left, payments, renewals and leads in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Müşteriler, paketler, seanslar kaldı, ödemeler, yenilemeler ve potansiyel müşteriler tek dosyada",
+"why": "too long: 96 characters, the limit is 80"
+},
+{
+"en": "Lead pipeline with cost per source",
+"kind": "label",
+"max": 50,
+"mt": "Kaynak başına maliyetle Potansiyel müşteri ardışık düzeni",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Trial-to-package conversion by coach",
+"kind": "label",
+"max": 50,
+"mt": "antrenör tarafından Deneme seansı-to-paket dönüşümü",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Walk-in",
+"kind": "list",
+"max": 30,
+"mt": "Walk-in",
+"why": "not translated"
+},
+{
+"en": "Friend of a client",
+"kind": "list",
+"max": 30,
+"mt": "müşteri kullanıcısının arkadaşı",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "All sessions used",
+"kind": "list",
+"max": 30,
+"mt": "seanslar tanesinin tümü kullanıldı",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Fair refund when a client leaves mid-package",
+"kind": "title",
+"max": 60,
+"mt": "Bir müşteri, paket ortasında ayrıldığında adil geri ödeme yapılır",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "What one client is worth and when you earn back the cost",
+"kind": "title",
+"max": 60,
+"mt": "Bir müşteri'ın değeri nedir ve maliyeti ne zaman geri kazanırsınız?",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Lead Funnel Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Potansiyel müşteri Huni Planlayıcı",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "How many leads you need for the clients you want",
+"kind": "title",
+"max": 60,
+"mt": "İstediğiniz müşteriler için kaç tane potansiyel müşteriler'e ihtiyacınız var?",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Programmes, workout log, records, plateaus and goals for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "kişisel antrenörlük için Programlar, antrenman günlüğü, kayıtları, plato ve hedefleri",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Exercise library, programmes, workout log, records and goals in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Egzersiz kitaplık, programlar, antrenman günlük, kayıtlar ve hedefler tek dosyada",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "every logged set is compared with the client's best estimated max on that exercise before that day, so a new record flags itself",
+"kind": "sentence",
+"max": 160,
+"mt": "günlüğe kaydedilen her küme, müşteri'in o günden önceki o egzersiz üzerindeki en iyi tahmini maksimum değeriyle karşılaştırılır, böylece yeni bir kayıt kendini işaretler",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "from the pace so far it gives the finish date, and the weekly change needed to hit the deadline; goals read reached, on track, behind or overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "şimdiye kadarki ilerleme hızına bakarak bitiş tarihini ve son teslim tarihine ulaşmak için gereken haftalık değişikliği verir; Ulaşılan, doğru yolda, geride veya gecikmiş olarak okunan hedefler",
+"why": "too long: 193 characters, the limit is 160"
+},
+{
+"en": "Habit score from weekly check-ins",
+"kind": "label",
+"max": 50,
+"mt": "Haftalık check-inlerden elde edilen alışkanlık puanı",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Kettlebell",
+"kind": "list",
+"max": 30,
+"mt": "Kettlebell",
+"why": "not translated"
+},
+{
+"en": "Heart rate zones from age and resting heart rate",
+"kind": "title",
+"max": 60,
+"mt": "Yaş ve dinlenmeden itibaren Kalp atış hızı bölge kalp atış hızı",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Plan a lighter week and see who needs one",
+"kind": "title",
+"max": 60,
+"mt": "Daha hafif bir hafta planlayın ve kimin buna ihtiyacı olduğunu görün",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Pick the next load from how hard a set felt",
+"kind": "title",
+"max": 60,
+"mt": "Bir setin ne kadar sert hissettirdiğine göre bir sonraki yükü seçin",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Income, invoices, coach pay, margins and cash forecast for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "kişisel antrenörlük için gelir, faturalar, antrenör ücreti, marjlar ve nakit tahmini",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "Receivables ageing with payment-plan instalments",
+"kind": "label",
+"max": 50,
+"mt": "Ödeme planı taksitleriyle alacakların yaşlandırılması",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "invoices read paid, part paid, open or overdue from the ledger and credit notes, fall into 30, 60 and 90 day buckets and show the instalment of a plan",
+"kind": "sentence",
+"max": 160,
+"mt": "defterden ödenmiş, kısmen ödenmiş, açık veya vadesi geçmiş faturalar ve alacak dekontları okunur, 30, 60 ve 90 günlük paketlere ayrılır ve bir planın taksitini gösterir",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Deferred revenue for unused paid sessions",
+"kind": "label",
+"max": 50,
+"mt": "Kullanılmayan ödenmiş seanslar için ertelenmiş gelir",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Coach pay sheet with utilisation and margin",
+"kind": "label",
+"max": 50,
+"mt": "kullanım oranı ve kenar boşluğu içeren Antrenör ücreti sayfa",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "hours against hours available, hourly pay, class fees and renewal bonus give total pay, cost per session and the margin each coach earns per hour",
+"kind": "sentence",
+"max": 160,
+"mt": "Mevcut saatlere karşı saat, saatlik ödeme, ders ücretler ve yenileme bonus, toplam ücreti, seans başına maliyeti ve her antrenör'nin saat başına kazandığı marjı verir",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "what each client paid net of tax less the cost to serve them, profit a month, expected lifetime profit and a rank from top client to low value",
+"kind": "sentence",
+"max": 160,
+"mt": "her bir müşteri'ın net olarak ödediği vergiden onlara hizmet etme maliyeti, aylık kâr, beklenen ömür boyu kâr ve en üstteki müşteri'den en düşük değere kadar olan sıralama düşüldükten sonra",
+"why": "too long: 189 characters, the limit is 160"
+},
+{
+"en": "tax charged on sales less tax paid on costs gives the return amount, its due date and a status of paid, due or overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "satışlardan alınan vergi, maliyetler üzerinden ödenen verginin düşülmesiyle elde edilen tutar, iade tutarını, vade tarihini ve ödenmiş, vadesi geçmiş veya vadesi geçmiş durumunu verir",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "12-week cash forecast with low-cash flags",
+"kind": "label",
+"max": 50,
+"mt": "Düşük nakit bayraklarıyla 12 haftalık nakit tahmini",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "takings at the recent pace, overdue invoices you expect to collect, pay, rent, costs and tax returns give the cash at the end of each week against your minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "son dönemdeki hızda alımlar, tahsil etmeyi beklediğiniz vadesi geçmiş faturalar, ödeme, kiralama, masraflar ve vergi beyannameleri, her hafta sonunda asgari tutarınız karşılığında nakit para verir",
+"why": "too long: 196 characters, the limit is 160"
+},
+{
+"en": "Credentials and insurance expiry per coach",
+"kind": "label",
+"max": 50,
+"mt": "antrenör başına kimlik bilgileri ve sigortanın sona ermesi",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Supplies and laundry",
+"kind": "list",
+"max": 30,
+"mt": "Sarf malzemeleri ve çamaşırhane",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fully depreciated",
+"kind": "list",
+"max": 30,
+"mt": "Tamamen amortismana tabi tutulmuş",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Prepaid sessions owed to clients (deferred revenue)",
+"kind": "title",
+"max": 60,
+"mt": "müşteriler'a borçlu olunan ön ödemeli seanslar (ertelenmiş gelir)",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Monthly profit, owner pay, tax set-aside and tax return",
+"kind": "title",
+"max": 60,
+"mt": "Aylık kar, mal sahibi ödemesi, vergi ayırma ve vergi beyannamesi",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Sales Tax or VAT Return",
+"kind": "sheet",
+"max": 31,
+"mt": "Satış Vergisi veya KDV Beyannamesi",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Timetable, slot fill, rooms, equipment and safety log for personal training",
+"kind": "sentence",
+"max": 80,
+"mt": "kişisel antrenörlük için zaman çizelgesi, zaman dilimi dolumu, odalar, ekipman ve güvenlik günlüğü",
+"why": "too long: 98 characters, the limit is 80"
+},
+{
+"en": "Fill heat map by start hour and weekday",
+"kind": "label",
+"max": 50,
+"mt": "Isı haritasını başlangıç saatine ve hafta içi güne göre doldurun",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "slots offered against sessions held over the last weeks, for every hour and every weekday, so quiet and busy hours stand out at once",
+"kind": "sentence",
+"max": 160,
+"mt": "Son haftalarda, hafta içi her saat ve her gün için düzenlenen seanslar karşılığında zaman dilimleri teklifi, böylece sessiz ve yoğun saatler bir anda öne çıkıyor",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Weekly timetable with a live slot status",
+"kind": "label",
+"max": 50,
+"mt": "Canlı zaman dilimi durumuyla haftalık zaman çizelgesi",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Coach load and free slots for the next 7 days",
+"kind": "label",
+"max": 50,
+"mt": "Sonraki 7 gün boyunca Antrenör yükleyin ve ücretsiz zaman dilimleri",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "timetable hours against hours delivered, sessions already booked and the free slots left, so you know who can take a new client",
+"kind": "sentence",
+"max": 160,
+"mt": "teslim edilen saatlere karşı tarife saatleri, seanslar zaten rezerve edildi ve ücretsiz zaman dilimleri kaldı, böylece kimin yeni bir müşteri alabileceğini bilirsiniz",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "every missed session picked from the bookings gets a fee under your settings, a decision of charged, waived or taken from the pack, and a running total",
+"kind": "sentence",
+"max": 160,
+"mt": "Rezervasyonlardan seçilen her kaçırılan seans, ayarlarınıza göre bir ücret alır; bu ücretin tahsil edilmesi, feragat edilmesi veya paketten çıkarılması kararı ve toplam tutar alınır",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "Leave and shift cover with slots to cover",
+"kind": "label",
+"max": 50,
+"mt": "Kapağı bırakın ve kapağı kapatmak için zaman dilimleri ile kaydırın",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "Stock reorder quantities with delivery lead time",
+"kind": "label",
+"max": 50,
+"mt": "Teslimat süresi potansiyel müşteri olan stok yeniden sipariş miktarları",
+"why": "too long: 71 characters, the limit is 50"
+},
+{
+"en": "weeks left at the current use, a reorder-now flag and the order in whole packs that reaches your weeks of cover, with its cost",
+"kind": "sentence",
+"max": 160,
+"mt": "Mevcut kullanımınızda kalan haftalar, şimdi yeniden sipariş ver bayrağı ve maliyetiyle birlikte haftalık kullanım kapsamınıza ulaşan tüm paketler halinde sipariş",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Closure and weather calendar with sessions moved",
+"kind": "label",
+"max": 50,
+"mt": "seanslar ile kapanış ve hava durumu takvimi taşındı",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Team, weekly hours, load and free slots",
+"kind": "title",
+"max": 60,
+"mt": "Ekip, haftalık çalışma saatleri, yükleme ve ücretsiz zaman dilimleri",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Weekly timetable of slots by coach and room",
+"kind": "title",
+"max": 60,
+"mt": "zaman dilimleri ile antrenör arasındaki haftalık tarife ve oda",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Emergency, supplier, contractor and partner contacts",
+"kind": "title",
+"max": 60,
+"mt": "Acil durum, tedarikçi, yüklenici ve iş ortağı iletişim bilgileri",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Booked and offered slots by hour",
+"kind": "title",
+"max": 60,
+"mt": "Rezervasyon yapıldı ve saate göre zaman dilimleri teklif edildi",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Late fees due, charged and waived by month",
+"kind": "title",
+"max": 60,
+"mt": "Ay bazında vadesi gelen, tahsil edilen ve feragat edilen gecikme ücretleri",
+"why": "too long: 74 characters, the limit is 60"
+}
+]
