@@ -1,0 +1,5532 @@
+[
+{
+"en": "Timesheet, invoices, profit and cash for your social media agency",
+"where": "sm8:listing.headline",
+"kind": "sentence",
+"max": 80,
+"wbs": []
+},
+{
+"en": "Timesheet, invoices, profit and cash for your agency",
+"where": "sm8:tagline",
+"kind": "sentence",
+"max": 80,
+"wbs": []
+},
+{
+"en": "Team And Finance Dashboard",
+"where": "sm8:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Timesheet that prices every hour",
+"where": "sm8:signature[0].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "each block of work gets a rate, a cost and a value if billed, so every brand shows what its hours really cost you",
+"where": "sm8:signature[0].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Utilisation by person and month",
+"where": "sm8:signature[1].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "billable hours against the hours each person has, with a result against the utilisation you aim for",
+"where": "sm8:signature[1].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Profit by client",
+"where": "sm8:signature[2].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "revenue, hours, cost of time and direct expenses give the profit, the margin and the revenue for each hour of every brand",
+"where": "sm8:signature[2].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Profit by package",
+"where": "sm8:tables[pk].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "see which of your packages earn their price and which lose money once the real hours are counted",
+"where": "sm8:signature[3].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Invoices with tax and late fees",
+"where": "sm8:signature[4].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "tax, total, payments, balance, days overdue and the late fee fill in for every invoice",
+"where": "sm8:signature[4].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Receivables ageing by client",
+"where": "sm8:tables[ar].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "open money split into not due, 1-30, 31-60 and over 60 days with a chase list",
+"where": "sm8:signature[5].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Recurring retainers",
+"where": "sm8:signature[6].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "monthly fee, next invoice date, months running and yearly value for each retainer",
+"where": "sm8:signature[6].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Out-of-scope work priced",
+"where": "sm8:signature[7].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "every extra request gets a price, a cost and the amount you still have to recover",
+"where": "sm8:signature[7].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Monthly profit and loss",
+"where": "sm8:signature[8].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "revenue, cost of time, expenses and overhead build the profit and margin of every month",
+"where": "sm8:signature[8].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Cash flow forecast",
+"where": "sm8:signature[9].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "twelve coming months of retainers, collections, costs and one-off spending with the lowest cash warning",
+"where": "sm8:signature[9].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Tax set-aside",
+"where": "sm8:signature[10].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "tax on invoices, tax on costs and income tax on profit give the amount to move each month and the gap",
+"where": "sm8:signature[10].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Rate review and hiring plan",
+"where": "sm8:signature[11].name",
+"kind": "label",
+"max": 50,
+"wbs": []
+},
+{
+"en": "your rates against the market with the extra a raise earns, and the break-even and payback of each possible hire",
+"where": "sm8:signature[11].why",
+"kind": "sentence",
+"max": 160,
+"wbs": []
+},
+{
+"en": "Team, Time and Finance",
+"where": "sm8:name",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Currency of all amounts",
+"where": "sm8:settings[currency].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax added to invoices",
+"where": "sm8:settings[tax].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment terms in days",
+"where": "sm8:settings[terms].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Grace days before a late fee",
+"where": "sm8:settings[grace].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late fee on the open balance",
+"where": "sm8:settings[late_pct].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable utilisation you aim for",
+"where": "sm8:settings[util_target].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Profit margin you aim for",
+"where": "sm8:settings[margin_target].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Working hours in a day",
+"where": "sm8:settings[hours_day].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of profit you set aside for income tax",
+"where": "sm8:settings[inc_tax].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of open invoices you expect to collect",
+"where": "sm8:settings[collect].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash in the bank today",
+"where": "sm8:settings[cash_now].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overhead every month",
+"where": "sm8:settings[overhead].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lowest cash you accept",
+"where": "sm8:settings[cash_floor].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Employer costs on top of pay",
+"where": "sm8:settings[oncost].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of profit for the bonus pool",
+"where": "sm8:settings[bonus_pct].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days overdue before you chase",
+"where": "sm8:settings[chase_days].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your standard rate per hour",
+"where": "sm8:settings[rate_hour].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your average cost per hour",
+"where": "sm8:settings[cost_hour].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly rate increase you plan",
+"where": "sm8:settings[uplift].label",
+"kind": "setting",
+"max": null,
+"wbs": []
+},
+{
+"en": "Nadia Rahman",
+"where": "sm8:lists[staff].values[nadia_rahman]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Pablo Herrera",
+"where": "sm8:lists[staff].values[pablo_herrera]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Yara Mansour",
+"where": "sm8:lists[staff].values[yara_mansour]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Ken Mutua",
+"where": "sm8:lists[staff].values[ken_mutua]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Ola Nowak",
+"where": "sm8:lists[staff].values[ola_nowak]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Starter 12 posts",
+"where": "sm8:lists[pack].values[starter_12_posts]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Growth 20 posts",
+"where": "sm8:lists[pack].values[growth_20_posts]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Pro 30 posts and video",
+"where": "sm8:lists[pack].values[pro_30_posts_and_vid]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Premium 45 posts and ads",
+"where": "sm8:lists[pack].values[premium_45_posts_and]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Ads management only",
+"where": "sm8:lists[pack].values[ads_management_only]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Community management",
+"where": "sm8:lists[pack].values[community_management]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Launch campaign",
+"where": "sm8:lists[pack].values[launch_campaign]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Profile audit and strategy",
+"where": "sm8:lists[pack].values[profile_audit_and_st]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Video shoot day",
+"where": "sm8:lists[pack].values[video_shoot_day]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Creator campaign",
+"where": "sm8:lists[pack].values[creator_campaign]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Custom bundle",
+"where": "sm8:lists[pack].values[custom_bundle]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Legacy plan",
+"where": "sm8:lists[pack].values[legacy_plan]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Kind of work",
+"where": "sm8:lists[tkind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Strategy",
+"where": "sm8:lists[tkind].values[strategy]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Content creation",
+"where": "sm8:lists[tkind].values[content_creation]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Design",
+"where": "sm8:lists[tkind].values[design]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Video editing",
+"where": "sm8:lists[tkind].values[video_editing]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Community replies",
+"where": "sm8:lists[tkind].values[community_replies]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Ads management",
+"where": "sm8:lists[tkind].values[ads_management]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Reporting",
+"where": "sm8:lists[tkind].values[reporting]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Client meeting",
+"where": "sm8:lists[tkind].values[client_meeting]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Creator outreach",
+"where": "sm8:lists[tkind].values[creator_outreach]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Photo and video shoot",
+"where": "sm8:lists[tkind].values[photo_and_video_shoo]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Training",
+"where": "sm8:lists[tkind].values[training]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Invoice kind",
+"where": "sm8:lists[ikind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer",
+"where": "sm8:lists[ikind].values[retainer]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Project",
+"where": "sm8:lists[ikind].values[project]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Out-of-scope work",
+"where": "sm8:lists[ikind].values[out_of_scope_work]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Ad spend pass-through",
+"where": "sm8:lists[ikind].values[ad_spend_pass_throug]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Card",
+"where": "sm8:lists[method].values[card]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Payment link",
+"where": "sm8:lists[method].values[payment_link]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Wallet",
+"where": "sm8:lists[method].values[wallet]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Leave kind",
+"where": "sm8:lists[lkind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Annual leave",
+"where": "sm8:lists[lkind].values[annual_leave]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Sick leave",
+"where": "sm8:lists[lkind].values[sick_leave]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Unpaid leave",
+"where": "sm8:lists[lkind].values[unpaid_leave]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Task status",
+"where": "sm8:lists[tstat].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Out-of-scope status",
+"where": "sm8:lists[ostat].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Quoted",
+"where": "sm8:lists[ostat].values[quoted]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Invoiced",
+"where": "sm8:lists[ostat].values[invoiced]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Absorbed",
+"where": "sm8:lists[ostat].values[absorbed]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Expense kind",
+"where": "sm8:lists[ekind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Ad spend for clients",
+"where": "sm8:lists[ekind].values[ad_spend_for_clients]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Office",
+"where": "sm8:lists[ekind].values[office]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Insurance and fees",
+"where": "sm8:lists[ekind].values[insurance_and_fees]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Billing cycle",
+"where": "sm8:lists[cyc].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly",
+"where": "sm8:lists[cyc].values[yearly]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Tool category",
+"where": "sm8:lists[scat].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Scheduling",
+"where": "sm8:lists[scat].values[scheduling]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Analytics",
+"where": "sm8:lists[scat].values[analytics]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Communication",
+"where": "sm8:lists[scat].values[communication]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Stock media",
+"where": "sm8:lists[scat].values[stock_media]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Accounting",
+"where": "sm8:lists[scat].values[accounting]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Writing",
+"where": "sm8:lists[scat].values[writing]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Retainer status",
+"where": "sm8:lists[rst].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Increase status",
+"where": "sm8:lists[pis].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Sent",
+"where": "sm8:lists[pis].values[sent]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Accepted",
+"where": "sm8:lists[pis].values[accepted]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Work type",
+"where": "sm8:lists[hkind].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Full-time",
+"where": "sm8:lists[hkind].values[full_time]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Part-time",
+"where": "sm8:lists[hkind].values[part_time]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Freelance",
+"where": "sm8:lists[hkind].values[freelance]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Hiring status",
+"where": "sm8:lists[hstat].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Interviewing",
+"where": "sm8:lists[hstat].values[interviewing]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Offer made",
+"where": "sm8:lists[hstat].values[offer_made]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Hired",
+"where": "sm8:lists[hstat].values[hired]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Part paid",
+"where": "sm8:lists[st].values[part_paid]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Written off",
+"where": "sm8:lists[st].values[written_off]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Recover",
+"where": "sm8:lists[st].values[recover]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "On leave",
+"where": "sm8:lists[st].values[on_leave]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Internal",
+"where": "sm8:lists[st].values[internal]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Overhead",
+"where": "sm8:lists[st].values[overhead]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Profitable",
+"where": "sm8:lists[res].values[profitable]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Thin",
+"where": "sm8:lists[res].values[thin]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Losing",
+"where": "sm8:lists[res].values[losing]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Over target",
+"where": "sm8:lists[res].values[over_target]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Under target",
+"where": "sm8:lists[res].values[under_target]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Low cash",
+"where": "sm8:lists[res].values[low_cash]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Cash ok",
+"where": "sm8:lists[res].values[cash_ok]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Advice",
+"where": "sm8:lists[adv].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Raise rate",
+"where": "sm8:lists[adv].values[raise_rate]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "At market",
+"where": "sm8:lists[adv].values[at_market]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Pays back",
+"where": "sm8:lists[adv].values[pays_back]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Marginal",
+"where": "sm8:lists[adv].values[marginal]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Loss making",
+"where": "sm8:lists[adv].values[loss_making]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Renews soon",
+"where": "sm8:lists[adv].values[renews_soon]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Low use",
+"where": "sm8:lists[adv].values[low_use]",
+"kind": "list",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Team Members",
+"where": "sm8:tables[team].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Team members, pay and billable time",
+"where": "sm8:tables[team].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each team member and helper with cost and charge-out rate per hour; hours, billable share, value of time and workload for the last 90 days come from the timesheet.",
+"where": "sm8:tables[team].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Member no",
+"where": "sm8:tables[team].columns[tm_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Charge-out rate",
+"where": "sm8:tables[team].columns[rate_hour].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client hours a week",
+"where": "sm8:tables[team].columns[hours_week].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours, 90 days",
+"where": "sm8:tables[team].columns[hours90].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable hours",
+"where": "sm8:tables[team].columns[bill90].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable utilisation",
+"where": "sm8:tables[team].columns[util].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value of billable time",
+"where": "sm8:tables[team].columns[value90].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost of time",
+"where": "sm8:tables[team].columns[cost90].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly cost at full hours",
+"where": "sm8:tables[team].columns[pay_month].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Timesheet",
+"where": "sm8:tables[ts].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Timesheet: every hour for every brand",
+"where": "sm8:tables[ts].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each block of work: who, which brand, what kind of work and how long; the rate, the cost of the time and the value if billable fill in by themselves.",
+"where": "sm8:tables[ts].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable",
+"where": "sm8:tables[ts].columns[billable].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value if billed",
+"where": "sm8:tables[ts].columns[value].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tasks And Workload",
+"where": "sm8:tables[tasks].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Billing and admin tasks with owner and hours",
+"where": "sm8:tables[tasks].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each task with owner, due date and hours; the hours left, days to go and a flag for late and due soon tasks fill in.",
+"where": "sm8:tables[tasks].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Task",
+"where": "sm8:tables[tasks].columns[title].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours done",
+"where": "sm8:tables[tasks].columns[hours_done].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Owner phone",
+"where": "sm8:tables[tasks].columns[phone].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave And Cover",
+"where": "sm8:tables[lv].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Leave, training and cover",
+"where": "sm8:tables[lv].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each absence with who covers; the days, working days, hours lost and whether the person is away now fill in.",
+"where": "sm8:tables[lv].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave no",
+"where": "sm8:tables[lv].columns[lv_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "First day",
+"where": "sm8:tables[lv].columns[start].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Last day",
+"where": "sm8:tables[lv].columns[end].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cover by",
+"where": "sm8:tables[lv].columns[cover].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cover phone",
+"where": "sm8:tables[lv].columns[cover_phone].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Calendar days",
+"where": "sm8:tables[lv].columns[days].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Working days",
+"where": "sm8:tables[lv].columns[wdays].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoices",
+"where": "sm8:tables[inv].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Invoices to clients with tax, balance and late fee",
+"where": "sm8:tables[inv].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each invoice with its net amount and due date; the tax, total, paid, balance, days overdue, late fee and status fill in from the payments.",
+"where": "sm8:tables[inv].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice no",
+"where": "sm8:tables[inv].columns[inv_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Issued",
+"where": "sm8:tables[inv].columns[issued].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net amount",
+"where": "sm8:tables[inv].columns[net].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax",
+"where": "sm8:tables[inv].columns[tax].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Balance",
+"where": "sm8:tables[inv].columns[balance].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days overdue",
+"where": "sm8:tables[inv].columns[days_over].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late fee",
+"where": "sm8:tables[inv].columns[late_fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payments Received",
+"where": "sm8:tables[pay].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Payments received and how late they were",
+"where": "sm8:tables[pay].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each payment against an invoice; the brand, the days from issue to payment and whether it came on time fill in.",
+"where": "sm8:tables[pay].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days to pay",
+"where": "sm8:tables[pay].columns[days_to_pay].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Timing",
+"where": "sm8:tables[pay].columns[timing].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Receivables Ageing",
+"where": "sm8:tables[ar].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "One row for each client with the agreed terms; billed, paid, open balance and the balance by age (not due, 1-30, 31-60 and over 60 days) come from the invoices.",
+"where": "sm8:tables[ar].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Terms, days",
+"where": "sm8:tables[ar].columns[terms].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Open balance",
+"where": "sm8:tables[ar].columns[open].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Not due",
+"where": "sm8:tables[ar].columns[b0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "1-30 days",
+"where": "sm8:tables[ar].columns[b1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "31-60 days",
+"where": "sm8:tables[ar].columns[b2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Over 60 days",
+"where": "sm8:tables[ar].columns[b3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Open share of billed",
+"where": "sm8:tables[ar].columns[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Recurring Retainers",
+"where": "sm8:tables[rt].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Recurring retainers and the next invoice",
+"where": "sm8:tables[rt].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each monthly retainer with fee, start and billing day; the months running, the amount billed so far, the next invoice date and the yearly value fill in.",
+"where": "sm8:tables[rt].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer no",
+"where": "sm8:tables[rt].columns[rt_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billing day",
+"where": "sm8:tables[rt].columns[bill_day].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainers billed",
+"where": "sm8:tables[rt].columns[billed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Next invoice",
+"where": "sm8:tables[rt].columns[next_inv].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly value",
+"where": "sm8:tables[rt].columns[annual].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of retainers",
+"where": "sm8:tables[rt].columns[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Out Of Scope Work",
+"where": "sm8:tables[oos].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Out-of-scope work and what it should earn",
+"where": "sm8:tables[oos].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each extra request outside the package; the price at your standard rate, your cost, the margin and the amount still to recover fill in.",
+"where": "sm8:tables[oos].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Request",
+"where": "sm8:tables[oos].columns[task].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Done by",
+"where": "sm8:tables[oos].columns[member].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your cost",
+"where": "sm8:tables[oos].columns[cost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Still to recover",
+"where": "sm8:tables[oos].columns[recover].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Expenses",
+"where": "sm8:tables[exp].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Expenses: tools, freelancers and costs for clients",
+"where": "sm8:tables[exp].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each expense with its kind and the brand it belongs to; mark whether you charge it on to the client. The month and the brand fill in.",
+"where": "sm8:tables[exp].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Expense no",
+"where": "sm8:tables[exp].columns[ex_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Paid to",
+"where": "sm8:tables[exp].columns[vendor].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Charged on",
+"where": "sm8:tables[exp].columns[rebill].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Charged to client",
+"where": "sm8:tables[exp].columns[charged].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tool Subscriptions",
+"where": "sm8:tables[sub].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Tool subscriptions and what they cost for each client",
+"where": "sm8:tables[sub].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each tool with price, cycle, seats and use; the cost a month and a year, the cost for each seat and each active client and the renewal warning fill in.",
+"where": "sm8:tables[sub].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tool no",
+"where": "sm8:tables[sub].columns[sb_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tool",
+"where": "sm8:tables[sub].columns[tool].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Category",
+"where": "sm8:tables[sub].columns[cat].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Seats",
+"where": "sm8:tables[sub].columns[seats].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Renews on",
+"where": "sm8:tables[sub].columns[renewal].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Seats used",
+"where": "sm8:tables[sub].columns[usage].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost a month",
+"where": "sm8:tables[sub].columns[per_month].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost per seat a month",
+"where": "sm8:tables[sub].columns[per_seat].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost per active client",
+"where": "sm8:tables[sub].columns[per_client].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Days to renewal",
+"where": "sm8:tables[sub].columns[days].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Profit By Client",
+"where": "sm8:tables[cl].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Profit by client over the last 12 months",
+"where": "sm8:tables[cl].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each brand; revenue, hours, cost of time, direct expenses, profit, margin and the real rate for each hour come from invoices, timesheet and expenses.",
+"where": "sm8:tables[cl].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Revenue, 12 months",
+"where": "sm8:tables[cl].columns[revenue].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours logged",
+"where": "sm8:tables[cl].columns[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Direct expenses",
+"where": "sm8:tables[cl].columns[direct].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Revenue per hour",
+"where": "sm8:tables[cl].columns[eff_rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Profit By Package",
+"where": "sm8:tables[pk].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "One row for each package with its list price and planned hours; the clients on it, revenue, hours, profit, margin and the real revenue for each hour fill in.",
+"where": "sm8:tables[pk].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Package no",
+"where": "sm8:tables[pk].columns[pk_id].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "List price",
+"where": "sm8:tables[pk].columns[price].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Planned hours",
+"where": "sm8:tables[pk].columns[hours].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "List price per hour",
+"where": "sm8:tables[pk].columns[plan_rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly Profit And Loss",
+"where": "sm8:tables[pl].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Profit and loss for every month",
+"where": "sm8:tables[pl].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each month with your other income and overhead; revenue, cost of time, expenses, profit and margin fill in from invoices, the timesheet and expenses.",
+"where": "sm8:tables[pl].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Other income",
+"where": "sm8:tables[pl].columns[other].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total costs",
+"where": "sm8:tables[pl].columns[total_cost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash Flow Forecast",
+"where": "sm8:tables[cf].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Cash flow forecast for the next 12 months",
+"where": "sm8:tables[cf].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each coming month with the new sales and one-off costs you expect; retainers, collections, team cost, tools, overhead and the cash balance fill in.",
+"where": "sm8:tables[cf].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "New client fees",
+"where": "sm8:tables[cf].columns[sales].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "One-off costs",
+"where": "sm8:tables[cf].columns[oneoff].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainers",
+"where": "sm8:tables[cf].columns[retainers].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Open invoices collected",
+"where": "sm8:tables[cf].columns[collect].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Team time cost",
+"where": "sm8:tables[cf].columns[out_team].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tools",
+"where": "sm8:tables[cf].columns[out_tools].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net cash",
+"where": "sm8:tables[cf].columns[net].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash balance",
+"where": "sm8:tables[cf].columns[balance].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax Set Aside",
+"where": "sm8:tables[tx].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Tax to set aside every month",
+"where": "sm8:tables[tx].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each month with the money you moved to your tax account; tax collected, tax paid on costs, income tax on profit, the amount to set aside and the gap fill in.",
+"where": "sm8:tables[tx].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Moved to tax account",
+"where": "sm8:tables[tx].columns[paid].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax on invoices",
+"where": "sm8:tables[tx].columns[tax_in].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax on costs",
+"where": "sm8:tables[tx].columns[tax_out].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax to pay over",
+"where": "sm8:tables[tx].columns[vat_due].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Income tax on profit",
+"where": "sm8:tables[tx].columns[income_set].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "To set aside",
+"where": "sm8:tables[tx].columns[set_aside].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate Review",
+"where": "sm8:tables[rr].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Rate review for every kind of work",
+"where": "sm8:tables[rr].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each kind of work with your rate, the market rate and your cost; hours worked, value, margin, the suggested new rate and what the raise would add fill in.",
+"where": "sm8:tables[rr].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Market rate",
+"where": "sm8:tables[rr].columns[market].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your cost per hour",
+"where": "sm8:tables[rr].columns[cost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Last review",
+"where": "sm8:tables[rr].columns[last_review].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours, 12 months",
+"where": "sm8:tables[rr].columns[hours12].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Margin on the rate",
+"where": "sm8:tables[rr].columns[margin].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gap to market",
+"where": "sm8:tables[rr].columns[gap].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Suggested rate",
+"where": "sm8:tables[rr].columns[suggested].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra a year",
+"where": "sm8:tables[rr].columns[extra].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months since review",
+"where": "sm8:tables[rr].columns[months].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hiring Plan",
+"where": "sm8:tables[hp].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Hiring plan and what each hire must earn",
+"where": "sm8:tables[hp].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each possible hire with hours, pay and set-up cost; the monthly cost with employer costs, the value of the hours, the monthly gain and the months to pay back fill in.",
+"where": "sm8:tables[hp].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Planned start",
+"where": "sm8:tables[hp].columns[start].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay a month",
+"where": "sm8:tables[hp].columns[pay_month].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Set-up cost",
+"where": "sm8:tables[hp].columns[setup].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable value a month",
+"where": "sm8:tables[hp].columns[value].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Gain a month",
+"where": "sm8:tables[hp].columns[net].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Break-even utilisation",
+"where": "sm8:tables[hp].columns[be_util].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months to pay back",
+"where": "sm8:tables[hp].columns[payback].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Utilisation By Month",
+"where": "sm8:tables[ut].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Utilisation by team member and month",
+"where": "sm8:tables[ut].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each team member and month with the client hours available; hours logged, billable hours, utilisation, value and the result against your target fill in.",
+"where": "sm8:tables[ut].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Utilisation",
+"where": "sm8:tables[ut].columns[util].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value of time",
+"where": "sm8:tables[ut].columns[value].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Price Increases",
+"where": "sm8:tables[pi].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Price increase plan for every client",
+"where": "sm8:tables[pi].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "One row for each client with the percentage you plan and the date; the new fee, the extra each month and each year and the brand fill in.",
+"where": "sm8:tables[pi].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee now",
+"where": "sm8:tables[pi].columns[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Increase",
+"where": "sm8:tables[pi].columns[pct].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "From",
+"where": "sm8:tables[pi].columns[effective].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra a month",
+"where": "sm8:tables[pi].columns[extra_month].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoiced this month, with tax",
+"where": "sm8:dashboard.kpis[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash collected, last 90 days",
+"where": "sm8:dashboard.kpis[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Open receivables",
+"where": "sm8:dashboard.kpis[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overdue receivables",
+"where": "sm8:dashboard.kpis[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overdue invoices",
+"where": "sm8:dashboard.kpis[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients to chase now",
+"where": "sm8:dashboard.kpis[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average days to pay",
+"where": "sm8:dashboard.kpis[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late fees your invoices could carry",
+"where": "sm8:dashboard.kpis[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer income a month",
+"where": "sm8:dashboard.kpis[9].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer income a year",
+"where": "sm8:dashboard.kpis[10].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable utilisation, last 90 days",
+"where": "sm8:dashboard.kpis[11].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours logged, last 90 days",
+"where": "sm8:dashboard.kpis[12].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Revenue for each hour logged",
+"where": "sm8:dashboard.kpis[13].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost of time, last 12 months",
+"where": "sm8:dashboard.kpis[14].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Profit, last 12 months",
+"where": "sm8:dashboard.kpis[15].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Profit margin, last 12 months",
+"where": "sm8:dashboard.kpis[16].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients losing money",
+"where": "sm8:dashboard.kpis[17].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Out-of-scope work still to recover",
+"where": "sm8:dashboard.kpis[18].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours absorbed for free",
+"where": "sm8:dashboard.kpis[19].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Expenses, last 90 days",
+"where": "sm8:dashboard.kpis[20].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tools cost a month",
+"where": "sm8:dashboard.kpis[21].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tools with low use",
+"where": "sm8:dashboard.kpis[22].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax set aside gap",
+"where": "sm8:dashboard.kpis[23].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lowest cash in the next 12 months",
+"where": "sm8:dashboard.kpis[24].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months of costs covered by cash",
+"where": "sm8:dashboard.kpis[25].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave days booked, next 90 days",
+"where": "sm8:dashboard.kpis[26].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tasks that are late",
+"where": "sm8:dashboard.kpis[27].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Task hours still open",
+"where": "sm8:dashboard.kpis[28].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Possible hires, monthly cost",
+"where": "sm8:dashboard.kpis[29].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Revenue, payments, expenses and hours by month",
+"where": "sm8:dashboard.monthly.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payments received",
+"where": "sm8:dashboard.monthly.series[1].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Revenue by invoice kind",
+"where": "sm8:dashboard.breakdowns[0].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payments by method",
+"where": "sm8:dashboard.breakdowns[1].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Expenses by kind",
+"where": "sm8:dashboard.breakdowns[2].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Hours by kind of work",
+"where": "sm8:dashboard.breakdowns[3].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Invoice Sheet",
+"where": "sm8:forms[invoice_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Invoice sheet with its payments",
+"where": "sm8:forms[invoice_sheet].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Late fee that applies",
+"where": "sm8:forms[invoice_sheet].fields[9].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client Money Sheet",
+"where": "sm8:forms[client_money].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Money sheet for one client",
+"where": "sm8:forms[client_money].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Team Member Card",
+"where": "sm8:forms[member_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Team member card",
+"where": "sm8:forms[member_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Leave Form",
+"where": "sm8:forms[leave_form].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Leave and cover form",
+"where": "sm8:forms[leave_form].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Expense Card",
+"where": "sm8:forms[expense_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Expense card",
+"where": "sm8:forms[expense_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Charged on to the client",
+"where": "sm8:forms[expense_card].fields[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Amount charged to the client",
+"where": "sm8:forms[expense_card].fields[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer Card",
+"where": "sm8:forms[retainer_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Retainer card",
+"where": "sm8:forms[retainer_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Tool Card",
+"where": "sm8:forms[tool_card].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Tool subscription card",
+"where": "sm8:forms[tool_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Cost per seat",
+"where": "sm8:forms[tool_card].fields[8].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra Work Sheet",
+"where": "sm8:forms[extra_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Out-of-scope work sheet",
+"where": "sm8:forms[extra_sheet].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Hire Case Sheet",
+"where": "sm8:forms[hire_case].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Business case for one hire",
+"where": "sm8:forms[hire_case].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Rate review card",
+"where": "sm8:forms[rate_card].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Utilisation Check",
+"where": "sm8:tools[utilisation].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Billable utilisation check",
+"where": "sm8:tools[utilisation].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the client hours a person has each week and how many are billable; see the utilisation against your target, the monthly value of the time and your real team figure.",
+"where": "sm8:tools[utilisation].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Client hours available a week",
+"where": "sm8:tools[utilisation].inputs[avail].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable hours a week",
+"where": "sm8:tools[utilisation].inputs[bill].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Charge-out rate per hour",
+"where": "sm8:tools[utilisation].inputs[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Working weeks a year",
+"where": "sm8:tools[utilisation].inputs[weeks].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your target",
+"where": "sm8:tools[utilisation].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable hours to reach the target, a week",
+"where": "sm8:tools[utilisation].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours short of the target, a week",
+"where": "sm8:tools[utilisation].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable value a year",
+"where": "sm8:tools[utilisation].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value of the missing hours a year",
+"where": "sm8:tools[utilisation].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Team utilisation, last 90 days",
+"where": "sm8:tools[utilisation].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "More billable work",
+"where": "sm8:tools[utilisation].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Higher rate",
+"where": "sm8:tools[utilisation].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Effective Hourly Rate",
+"where": "sm8:tools[eff_rate].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Effective hourly rate of a retainer",
+"where": "sm8:tools[eff_rate].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the monthly fee and the hours you really spend; see what each hour earns against your standard rate and your cost, and the hours at which the client stops paying.",
+"where": "sm8:tools[eff_rate].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours spent in the month",
+"where": "sm8:tools[eff_rate].inputs[hrs].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra hours on requests outside the package",
+"where": "sm8:tools[eff_rate].inputs[extra].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Revenue for each hour",
+"where": "sm8:tools[eff_rate].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your standard rate",
+"where": "sm8:tools[eff_rate].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Profit in the month",
+"where": "sm8:tools[eff_rate].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours at which the profit is zero",
+"where": "sm8:tools[eff_rate].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours the fee covers at your standard rate",
+"where": "sm8:tools[eff_rate].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your real revenue for each hour, last 12 months",
+"where": "sm8:tools[eff_rate].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Scope creep",
+"where": "sm8:tools[eff_rate].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Heavy month",
+"where": "sm8:tools[eff_rate].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Profit of one client",
+"where": "sm8:tools[client_profit].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type a client ID; see the revenue, hours, cost of time, expenses, profit, margin and the revenue for each hour over the last 12 months.",
+"where": "sm8:tools[client_profit].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Open balance owed",
+"where": "sm8:tools[client_profit].outputs[7].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Price Increase Planner",
+"where": "sm8:tools[price_up].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Price increase planner",
+"where": "sm8:tools[price_up].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the current fee, the increase and how many clients you tell; see the new fee, the extra income and how many clients you can lose before the increase stops paying.",
+"where": "sm8:tools[price_up].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average monthly fee now",
+"where": "sm8:tools[price_up].inputs[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients you tell",
+"where": "sm8:tools[price_up].inputs[clients].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients you expect to lose",
+"where": "sm8:tools[price_up].inputs[lost].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New average fee",
+"where": "sm8:tools[price_up].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra a month if nobody leaves",
+"where": "sm8:tools[price_up].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra a year if nobody leaves",
+"where": "sm8:tools[price_up].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Income lost with the clients who leave, a year",
+"where": "sm8:tools[price_up].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net gain a year",
+"where": "sm8:tools[price_up].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients you can lose before it stops paying",
+"where": "sm8:tools[price_up].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra a year in your accepted increases",
+"where": "sm8:tools[price_up].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Increases",
+"where": "sm8:tools[price_up].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Five percent",
+"where": "sm8:tools[price_up].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fifteen percent",
+"where": "sm8:tools[price_up].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lose three",
+"where": "sm8:tools[price_up].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hire Or Not",
+"where": "sm8:tools[hire].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Hire or not",
+"where": "sm8:tools[hire].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the pay, the hours and the set-up cost of a possible hire; see the monthly cost with employer costs, the billable value, the break-even utilisation and the months to pay back.",
+"where": "sm8:tools[hire].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours a month for clients",
+"where": "sm8:tools[hire].inputs[hrs].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of hours you can bill",
+"where": "sm8:tools[hire].inputs[util].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Set-up and hiring cost",
+"where": "sm8:tools[hire].inputs[setup].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate you charge for the hours",
+"where": "sm8:tools[hire].inputs[rate].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost a month with employer costs",
+"where": "sm8:tools[hire].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months to pay back the set-up cost",
+"where": "sm8:tools[hire].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainers of average fee needed to fill the hours",
+"where": "sm8:tools[hire].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Team utilisation now",
+"where": "sm8:tools[hire].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hires",
+"where": "sm8:tools[hire].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Low demand",
+"where": "sm8:tools[hire].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Senior hire",
+"where": "sm8:tools[hire].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash Runway",
+"where": "sm8:tools[runway].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Cash runway",
+"where": "sm8:tools[runway].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the cash you have, your monthly costs and your monthly income; see the net cash each month, the months of runway and the date the money would run out.",
+"where": "sm8:tools[runway].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash today",
+"where": "sm8:tools[runway].inputs[cash].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Costs each month",
+"where": "sm8:tools[runway].inputs[costs].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Income each month",
+"where": "sm8:tools[runway].inputs[income].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Income lost if your biggest client leaves",
+"where": "sm8:tools[runway].inputs[drop].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net cash each month",
+"where": "sm8:tools[runway].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net cash if the biggest client leaves",
+"where": "sm8:tools[runway].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months of costs the cash covers",
+"where": "sm8:tools[runway].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months of runway if the biggest client leaves",
+"where": "sm8:tools[runway].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Date the cash runs out if the biggest client leaves",
+"where": "sm8:tools[runway].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lowest cash in your 12-month forecast",
+"where": "sm8:tools[runway].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cash floor you set",
+"where": "sm8:tools[runway].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Slow month",
+"where": "sm8:tools[runway].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Big client leaves",
+"where": "sm8:tools[runway].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "More cash",
+"where": "sm8:tools[runway].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice Builder",
+"where": "sm8:tools[invoice].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Invoice builder with tax",
+"where": "sm8:tools[invoice].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the retainer, extra posts, extra hours, ad spend and any discount; see the net amount, the tax, the total and the due date.",
+"where": "sm8:tools[invoice].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer for the month",
+"where": "sm8:tools[invoice].inputs[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Ad spend paid for the client",
+"where": "sm8:tools[invoice].inputs[ads].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Discount on the fees",
+"where": "sm8:tools[invoice].inputs[disc].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fees before discount",
+"where": "sm8:tools[invoice].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Net amount with ad spend",
+"where": "sm8:tools[invoice].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total to pay",
+"where": "sm8:tools[invoice].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost of the extra hours to you",
+"where": "sm8:tools[invoice].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Big ad spend",
+"where": "sm8:tools[invoice].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Many extras",
+"where": "sm8:tools[invoice].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late Fee",
+"where": "sm8:tools[late_fee].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Late fee and what is owed",
+"where": "sm8:tools[late_fee].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the invoice total and the days overdue; see the late fee after the grace days, the total owed and what all your overdue invoices could carry.",
+"where": "sm8:tools[late_fee].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Open balance of the invoice",
+"where": "sm8:tools[late_fee].inputs[amt].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Most you will charge as a fee",
+"where": "sm8:tools[late_fee].inputs[cap].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Grace days",
+"where": "sm8:tools[late_fee].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Total owed",
+"where": "sm8:tools[late_fee].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overdue invoices now",
+"where": "sm8:tools[late_fee].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Overdue amount now",
+"where": "sm8:tools[late_fee].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average days your clients take to pay",
+"where": "sm8:tools[late_fee].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Within grace",
+"where": "sm8:tools[late_fee].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Very late",
+"where": "sm8:tools[late_fee].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Big invoice",
+"where": "sm8:tools[late_fee].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer Or Project",
+"where": "sm8:tools[retainer_project].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Retainer or project pricing",
+"where": "sm8:tools[retainer_project].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the retainer and the project fee with the hours each needs; see the income, profit and the revenue for each hour of both, and which one earns more over the same months.",
+"where": "sm8:tools[retainer_project].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer fee a month",
+"where": "sm8:tools[retainer_project].inputs[ret].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours a month on the retainer",
+"where": "sm8:tools[retainer_project].inputs[rhrs].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Project fee for the same work",
+"where": "sm8:tools[retainer_project].inputs[proj].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours the project needs",
+"where": "sm8:tools[retainer_project].inputs[phrs].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer income",
+"where": "sm8:tools[retainer_project].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer profit",
+"where": "sm8:tools[retainer_project].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer revenue for each hour",
+"where": "sm8:tools[retainer_project].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Project profit",
+"where": "sm8:tools[retainer_project].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Project revenue for each hour",
+"where": "sm8:tools[retainer_project].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Project fee that matches the retainer profit",
+"where": "sm8:tools[retainer_project].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer income a year in your files",
+"where": "sm8:tools[retainer_project].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Longer term",
+"where": "sm8:tools[retainer_project].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cheaper project",
+"where": "sm8:tools[retainer_project].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Heavy retainer",
+"where": "sm8:tools[retainer_project].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Break-Even Clients",
+"where": "sm8:tools[breakeven].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Break-even number of clients",
+"where": "sm8:tools[breakeven].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type your fixed costs, the average fee and the cost of serving a client; see how many clients cover your costs and how far you are from that.",
+"where": "sm8:tools[breakeven].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fixed costs each month",
+"where": "sm8:tools[breakeven].inputs[fixed].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average fee a month",
+"where": "sm8:tools[breakeven].inputs[fee].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost of serving one client, share of the fee",
+"where": "sm8:tools[breakeven].inputs[serve].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Left after serving one client",
+"where": "sm8:tools[breakeven].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients to break even",
+"where": "sm8:tools[breakeven].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients for your target margin",
+"where": "sm8:tools[breakeven].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Active retainers now",
+"where": "sm8:tools[breakeven].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Average active fee",
+"where": "sm8:tools[breakeven].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainers above break-even",
+"where": "sm8:tools[breakeven].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Lean",
+"where": "sm8:tools[breakeven].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Costly service",
+"where": "sm8:tools[breakeven].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tool Cost Per Client",
+"where": "sm8:tools[tool_cost].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Tool cost for each client",
+"where": "sm8:tools[tool_cost].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the cost of a new tool and the clients you serve; see the cost for each client and each seat, with the total tool cost you already carry.",
+"where": "sm8:tools[tool_cost].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "New tool cost a month",
+"where": "sm8:tools[tool_cost].inputs[new].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Seats you need",
+"where": "sm8:tools[tool_cost].inputs[seats].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Clients that use it",
+"where": "sm8:tools[tool_cost].inputs[clients].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tools you pay now, a month",
+"where": "sm8:tools[tool_cost].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Yearly cost of the low-use tools",
+"where": "sm8:tools[tool_cost].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tool cost for each active client now",
+"where": "sm8:tools[tool_cost].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New tool for each client a month",
+"where": "sm8:tools[tool_cost].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New tool for each seat a month",
+"where": "sm8:tools[tool_cost].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tool cost for each client with the new tool",
+"where": "sm8:tools[tool_cost].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cheap tool",
+"where": "sm8:tools[tool_cost].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Big tool",
+"where": "sm8:tools[tool_cost].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Few clients",
+"where": "sm8:tools[tool_cost].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Bonus Pool",
+"where": "sm8:tools[bonus].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Bonus pool",
+"where": "sm8:tools[bonus].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the profit to share and how many people share it; see the pool, an equal share and what a top performer gets with a higher weight.",
+"where": "sm8:tools[bonus].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Profit to share",
+"where": "sm8:tools[bonus].inputs[profit].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of profit for the pool",
+"where": "sm8:tools[bonus].inputs[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "People sharing the pool",
+"where": "sm8:tools[bonus].inputs[people].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Weight of a top performer",
+"where": "sm8:tools[bonus].inputs[weight].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Equal share for each person",
+"where": "sm8:tools[bonus].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of a top performer",
+"where": "sm8:tools[bonus].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of everyone else",
+"where": "sm8:tools[bonus].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pool at your standard share",
+"where": "sm8:tools[bonus].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Profit, last 12 months in your files",
+"where": "sm8:tools[bonus].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your own pool from that profit",
+"where": "sm8:tools[bonus].outputs[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pools",
+"where": "sm8:tools[bonus].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Big year",
+"where": "sm8:tools[bonus].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Smaller pool",
+"where": "sm8:tools[bonus].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Strong top performer",
+"where": "sm8:tools[bonus].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra Work Pricer",
+"where": "sm8:tools[oos_quote].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Quote for work outside the package",
+"where": "sm8:tools[oos_quote].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the hours, a rush surcharge and a goodwill discount; see the price, your cost, the margin and what you gave away in out-of-scope work last time.",
+"where": "sm8:tools[oos_quote].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours of extra work",
+"where": "sm8:tools[oos_quote].inputs[hrs].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rush surcharge",
+"where": "sm8:tools[oos_quote].inputs[rush].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Goodwill discount",
+"where": "sm8:tools[oos_quote].inputs[disc].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Price before changes",
+"where": "sm8:tools[oos_quote].outputs[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Price with surcharge and discount",
+"where": "sm8:tools[oos_quote].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours absorbed for free in your files",
+"where": "sm8:tools[oos_quote].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Value of that free work",
+"where": "sm8:tools[oos_quote].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Quotes",
+"where": "sm8:tools[oos_quote].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "No rush",
+"where": "sm8:tools[oos_quote].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Goodwill",
+"where": "sm8:tools[oos_quote].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Big job",
+"where": "sm8:tools[oos_quote].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave Cover Cost",
+"where": "sm8:tools[leave_cover].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Cost of covering leave",
+"where": "sm8:tools[leave_cover].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Type the days of leave and who covers them; see the hours to cover, the cost of cover and the billable time that would be lost, with the leave already booked.",
+"where": "sm8:tools[leave_cover].hint",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Working days of leave",
+"where": "sm8:tools[leave_cover].inputs[days].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cover rate per hour",
+"where": "sm8:tools[leave_cover].inputs[cover].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Share of the hours that need cover",
+"where": "sm8:tools[leave_cover].inputs[share].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours that need cover",
+"where": "sm8:tools[leave_cover].outputs[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cost of cover",
+"where": "sm8:tools[leave_cover].outputs[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billable value at risk without cover",
+"where": "sm8:tools[leave_cover].outputs[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave days booked in the next 90 days",
+"where": "sm8:tools[leave_cover].outputs[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hours lost to leave in the last 12 months",
+"where": "sm8:tools[leave_cover].outputs[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave",
+"where": "sm8:tools[leave_cover].grid.title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Short leave",
+"where": "sm8:tools[leave_cover].grid.rows[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Long leave",
+"where": "sm8:tools[leave_cover].grid.rows[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Full cover",
+"where": "sm8:tools[leave_cover].grid.rows[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice sent",
+"where": "sm8:messages[m_inv_new].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, invoice {inv_id} for {brand} is ready: {total} including tax, due on {due}. Thank you for working with us.",
+"where": "sm8:messages[m_inv_new].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice due soon",
+"where": "sm8:messages[m_inv_soon].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, a friendly reminder that invoice {inv_id} for {brand} ({balance}) is due on {due}.",
+"where": "sm8:messages[m_inv_soon].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment reminder",
+"where": "sm8:messages[m_inv_over].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, invoice {inv_id} for {brand} was due on {due} and {balance} is still open ({days_over} days). Could you pay it this week?",
+"where": "sm8:messages[m_inv_over].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late fee notice",
+"where": "sm8:messages[m_inv_fee].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, invoice {inv_id} is {days_over} days overdue. As agreed, a late fee of {late_fee} now applies to the balance of {balance}. Can we settle it today?",
+"where": "sm8:messages[m_inv_fee].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Part payment received",
+"where": "sm8:messages[m_inv_part].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thank you for your payment on invoice {inv_id}. We received {paid} and {balance} is still open. Please send the rest by {due}.",
+"where": "sm8:messages[m_inv_part].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice paid",
+"where": "sm8:messages[m_inv_paid].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thank you, invoice {inv_id} for {brand} is paid in full.",
+"where": "sm8:messages[m_inv_paid].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment received",
+"where": "sm8:messages[m_pay_thanks].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thank you, we received {amount} on {date} for invoice {invoice}.",
+"where": "sm8:messages[m_pay_thanks].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late payment noted",
+"where": "sm8:messages[m_pay_late].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thank you for the payment of {amount}. It came {days_to_pay} days after the invoice. Could we move your payment date earlier next time?",
+"where": "sm8:messages[m_pay_late].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Account statement",
+"where": "sm8:messages[m_ar_stmt].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, your account with us: billed {billed}, paid {paid}, open {open}. Please tell us if anything looks different from your records.",
+"where": "sm8:messages[m_ar_stmt].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, {b3} for {brand} is more than 60 days overdue. We need to agree a payment date today so that the work can continue.",
+"where": "sm8:messages[m_ar_chase].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment plan offer",
+"where": "sm8:messages[m_ar_plan].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, we understand cash can be tight. We can split the open {open} into two or three payments. Which dates suit you?",
+"where": "sm8:messages[m_ar_plan].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Next retainer invoice",
+"where": "sm8:messages[m_rt_next].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, your next retainer invoice of {fee} plus tax goes out on {next_inv}. Please tell us if the billing details changed.",
+"where": "sm8:messages[m_rt_next].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer paused",
+"where": "sm8:messages[m_rt_pause].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, we paused your retainer of {fee}. When you are ready to restart, tell us and we will plan the first posts within a week.",
+"where": "sm8:messages[m_rt_pause].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Months together",
+"where": "sm8:messages[m_rt_thanks].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, thank you: we have worked together for {months} months. We will send a short review of results and ideas for the next quarter.",
+"where": "sm8:messages[m_rt_thanks].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra work quote",
+"where": "sm8:messages[m_oos_quote].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, your request \"{task}\" is outside the package. It needs about {hours} hours and costs {charge}. Shall we go ahead?",
+"where": "sm8:messages[m_oos_quote].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra work invoiced",
+"where": "sm8:messages[m_oos_bill].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, we added \"{task}\" ({charge}) to your next invoice as agreed. Thank you.",
+"where": "sm8:messages[m_oos_bill].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra work goodwill",
+"where": "sm8:messages[m_oos_free].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, we did \"{task}\" this time without charge (worth {charge}). Please tell us before similar requests so we can plan them.",
+"where": "sm8:messages[m_oos_free].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee change notice",
+"where": "sm8:messages[m_pi_notice].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, from {effective} your monthly fee for {brand} changes from {fee} to {new_fee}. We are happy to talk it through.",
+"where": "sm8:messages[m_pi_notice].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee change reminder",
+"where": "sm8:messages[m_pi_remind].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, a reminder that the new fee of {new_fee} starts on {effective}. Do you have any questions?",
+"where": "sm8:messages[m_pi_remind].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fee change accepted",
+"where": "sm8:messages[m_pi_thanks].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thank you for accepting the new fee of {new_fee} from {effective}. We will keep delivering great results.",
+"where": "sm8:messages[m_pi_thanks].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Scope review",
+"where": "sm8:messages[m_cl_review].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, over the last 12 months we logged {hours} hours for {brand} on a fee of {fee} a month. Let us review the scope together so the plan stays fair for both of us.",
+"where": "sm8:messages[m_cl_review].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Utilisation check",
+"where": "sm8:messages[m_tm_util].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, your billable utilisation over the last 90 days is {util} ({bill90} of {avail90} hours). Can we talk about your workload this week?",
+"where": "sm8:messages[m_tm_util].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {name}, you logged {hours90} hours in the last 90 days, with room for more. Can you take on a few extra posts?",
+"where": "sm8:messages[m_tm_spare].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave approved",
+"where": "sm8:messages[m_lv_ok].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {member}, your {kind} from {start} to {end} ({wdays} working days) is approved. Please hand over open tasks before you go.",
+"where": "sm8:messages[m_lv_ok].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cover request",
+"where": "sm8:messages[m_lv_cover].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi {cover}, can you cover for {member} from {start} to {end} ({wdays} working days, {hours_lost} hours)?",
+"where": "sm8:messages[m_lv_cover].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Task due soon",
+"where": "sm8:messages[m_tk_due].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, the task \"{title}\" for {brand} is due on {due} with {left} hours left. Do you need help?",
+"where": "sm8:messages[m_tk_due].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Task is late",
+"where": "sm8:messages[m_tk_late].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hi, the task \"{title}\" for {brand} was due on {due} and is not done. Can you tell me the new date?",
+"where": "sm8:messages[m_tk_late].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Task finished",
+"where": "sm8:messages[m_tk_done].moment",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thank you, \"{title}\" for {brand} is done after {hours_done} hours.",
+"where": "sm8:messages[m_tk_done].text",
+"kind": "message",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice Letter",
+"where": "sm8:documents[invoice_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Invoice with tax",
+"where": "sm8:documents[invoice_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Invoice {col:inv.inv_id} from {set:firm}, issued on {col:inv.issued} to {col:inv.brand}.",
+"where": "sm8:documents[invoice_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Service: {col:inv.kind}. Net amount {col:inv.net}, tax {col:inv.tax}, total {col:inv.total}. All amounts are in {set:currency}.",
+"where": "sm8:documents[invoice_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Please pay by {col:inv.due} ({set:terms} days terms). A late fee of {set:late_pct} of the open balance applies after {set:grace} days.",
+"where": "sm8:documents[invoice_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thank you for your business.",
+"where": "sm8:documents[invoice_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment Reminder",
+"where": "sm8:documents[reminder_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Payment reminder letter",
+"where": "sm8:documents[reminder_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payment reminder from {set:firm}, dated {today}.",
+"where": "sm8:documents[reminder_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice {col:inv.inv_id} for {col:inv.brand} of {col:inv.total} was due on {col:inv.due}. {col:inv.paid} has been paid and {col:inv.balance} is still open. Status: {col:inv.state}.",
+"where": "sm8:documents[reminder_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Please pay the open balance this week or tell us the date we can expect it.",
+"where": "sm8:documents[reminder_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "If you already paid, please send us the transfer details so we can match it.",
+"where": "sm8:documents[reminder_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Late Fee Notice",
+"where": "sm8:documents[latefee_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Late fee notice from {set:firm}, dated {today}.",
+"where": "sm8:documents[latefee_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice {col:inv.inv_id} for {col:inv.brand} is {col:inv.days_over} days overdue with a balance of {col:inv.balance}.",
+"where": "sm8:documents[latefee_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "As agreed, a late fee of {col:inv.late_fee} is added after {set:grace} grace days.",
+"where": "sm8:documents[latefee_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Please pay the invoice and the fee together. We would rather agree a short plan with you than pause the work.",
+"where": "sm8:documents[latefee_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Payment Receipt",
+"where": "sm8:documents[receipt_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Payment receipt",
+"where": "sm8:documents[receipt_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Receipt {col:pay.pay_id} from {set:firm}, dated {col:pay.date}.",
+"where": "sm8:documents[receipt_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We received {col:pay.amount} from {col:pay.brand} for invoice {col:pay.invoice} by {col:pay.method}.",
+"where": "sm8:documents[receipt_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The payment came {col:pay.days_to_pay} days after the invoice was issued and was {col:pay.timing}.",
+"where": "sm8:documents[receipt_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Thank you for your payment.",
+"where": "sm8:documents[receipt_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Account Statement",
+"where": "sm8:documents[statement_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Statement of account",
+"where": "sm8:documents[statement_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Statement of account for {col:ar.brand}, prepared by {set:firm} on {today}.",
+"where": "sm8:documents[statement_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Billed to date {col:ar.billed}, paid {col:ar.paid}, open balance {col:ar.open}. Not yet due: {col:ar.b0}. Overdue 1-30 days: {col:ar.b1}. 31-60 days: {col:ar.b2}. Over 60 days: {col:ar.b3}.",
+"where": "sm8:documents[statement_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Your account status is {col:ar.state} and your agreed terms are {col:ar.terms} days.",
+"where": "sm8:documents[statement_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Please contact us if anything on this statement looks different from your records.",
+"where": "sm8:documents[statement_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Extra Work Quote",
+"where": "sm8:documents[extra_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Quote for extra work for {col:oos.brand}, issued by {set:firm} on {today}.",
+"where": "sm8:documents[extra_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Request: {col:oos.task}. Estimated time {col:oos.hours} hours at {set:rate_hour} an hour, a price of {col:oos.charge}.",
+"where": "sm8:documents[extra_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "This work is outside your package. We start when you approve this quote in writing.",
+"where": "sm8:documents[extra_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Please reply Approved to go ahead.",
+"where": "sm8:documents[extra_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Price Change Letter",
+"where": "sm8:documents[increase_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Notice of a fee change",
+"where": "sm8:documents[increase_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Notice of a fee change for {col:pi.brand}, from {set:firm}, dated {today}.",
+"where": "sm8:documents[increase_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "From {col:pi.effective} your monthly fee changes from {col:pi.fee} to {col:pi.new_fee}, an increase of {col:pi.pct}.",
+"where": "sm8:documents[increase_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "This keeps pace with our costs and the work we do for you. The extra is {col:pi.extra_month} a month.",
+"where": "sm8:documents[increase_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Please contact us if you would like to talk about it before the date.",
+"where": "sm8:documents[increase_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Retainer Summary",
+"where": "sm8:documents[retainer_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Retainer agreement summary",
+"where": "sm8:documents[retainer_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Retainer summary for {col:rt.brand}, prepared by {set:firm} on {today}.",
+"where": "sm8:documents[retainer_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Monthly fee {col:rt.fee} plus tax, invoiced on day {col:rt.bill_day} of each month. The retainer started on {col:rt.start} and its status is {col:rt.status}.",
+"where": "sm8:documents[retainer_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "We have invoiced {col:rt.billed} in retainers so far. The next invoice goes out on {col:rt.next_inv}.",
+"where": "sm8:documents[retainer_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Work outside the package is quoted before we start.",
+"where": "sm8:documents[retainer_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave And Cover Note",
+"where": "sm8:documents[leave_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Leave and cover note",
+"where": "sm8:documents[leave_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Leave and cover note from {set:firm}, dated {today}.",
+"where": "sm8:documents[leave_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "{col:lv.member} is away on {col:lv.kind} from {col:lv.start} to {col:lv.end}: {col:lv.wdays} working days and {col:lv.hours_lost} hours.",
+"where": "sm8:documents[leave_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cover is by {col:lv.cover}. Please hand over open tasks and client contacts before the first day.",
+"where": "sm8:documents[leave_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Status: {col:lv.state}.",
+"where": "sm8:documents[leave_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Agency lead",
+"where": "sm8:documents[leave_doc].sign[0]",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hiring Case",
+"where": "sm8:documents[hire_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Hiring case for approval",
+"where": "sm8:documents[hire_doc].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Hiring case from {set:firm}, dated {today}.",
+"where": "sm8:documents[hire_doc].paragraphs[0]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Role: {col:hp.role} ({col:hp.kind}), planned start {col:hp.start}, {col:hp.hours_month} hours a month. Cost a month with employer costs {col:hp.loaded}; set-up cost {col:hp.setup}.",
+"where": "sm8:documents[hire_doc].paragraphs[1]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "The billable value of those hours is {col:hp.value} a month, a gain of {col:hp.net}. Break-even utilisation is {col:hp.be_util} and the set-up cost is repaid in {col:hp.payback} months. Verdict: {col:hp.state}.",
+"where": "sm8:documents[hire_doc].paragraphs[2]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Approval is needed before we advertise the role.",
+"where": "sm8:documents[hire_doc].paragraphs[3]",
+"kind": "document",
+"max": null,
+"wbs": []
+},
+{
+"en": "Finance",
+"where": "sm8:documents[hire_doc].sign[1]",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Month-End Close",
+"where": "sm8:checklists[month_end].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Log all hours in the timesheet",
+"where": "sm8:checklists[month_end].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the monthly invoices",
+"where": "sm8:checklists[month_end].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Record payments received",
+"where": "sm8:checklists[month_end].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Enter the month expenses",
+"where": "sm8:checklists[month_end].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check the profit and loss row",
+"where": "sm8:checklists[month_end].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Move the tax set-aside",
+"where": "sm8:checklists[month_end].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Review clients that lose money",
+"where": "sm8:checklists[month_end].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoice Steps",
+"where": "sm8:checklists[invoice_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Check hours against the package",
+"where": "sm8:checklists[invoice_run].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Add extra work and ad spend",
+"where": "sm8:checklists[invoice_run].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the invoice",
+"where": "sm8:checklists[invoice_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Note the due date",
+"where": "sm8:checklists[invoice_run].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Reminder before the due date",
+"where": "sm8:checklists[invoice_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Collection Steps",
+"where": "sm8:checklists[collect_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Friendly message on the due date",
+"where": "sm8:checklists[collect_run].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Call the client",
+"where": "sm8:checklists[collect_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the late fee notice",
+"where": "sm8:checklists[collect_run].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Offer a payment plan",
+"where": "sm8:checklists[collect_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pause new work",
+"where": "sm8:checklists[collect_run].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tax Set-Aside Steps",
+"where": "sm8:checklists[tax_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Add up tax on invoices",
+"where": "sm8:checklists[tax_run].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Add up tax on costs",
+"where": "sm8:checklists[tax_run].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Calculate income tax on profit",
+"where": "sm8:checklists[tax_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Move the money to the tax account",
+"where": "sm8:checklists[tax_run].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Pay the tax authority",
+"where": "sm8:checklists[tax_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "New Retainer Steps",
+"where": "sm8:checklists[retainer_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Set the billing day",
+"where": "sm8:checklists[retainer_run].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the first invoice",
+"where": "sm8:checklists[retainer_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Add the client to the timesheet",
+"where": "sm8:checklists[retainer_run].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Review the hours after one month",
+"where": "sm8:checklists[retainer_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Review scope after three months",
+"where": "sm8:checklists[retainer_run].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Leave Cover Steps",
+"where": "sm8:checklists[leave_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Approve the leave",
+"where": "sm8:checklists[leave_run].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Agree the cover",
+"where": "sm8:checklists[leave_run].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hand over tasks and logins safely",
+"where": "sm8:checklists[leave_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tell the clients",
+"where": "sm8:checklists[leave_run].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "First day away",
+"where": "sm8:checklists[leave_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Welcome back and catch up",
+"where": "sm8:checklists[leave_run].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Hiring Steps",
+"where": "sm8:checklists[hire_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Approve the budget",
+"where": "sm8:checklists[hire_run].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Write and post the role",
+"where": "sm8:checklists[hire_run].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Interview shortlisted people",
+"where": "sm8:checklists[hire_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Make the offer",
+"where": "sm8:checklists[hire_run].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Prepare tools and access",
+"where": "sm8:checklists[hire_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "First day plan",
+"where": "sm8:checklists[hire_run].steps[5].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Review after three months",
+"where": "sm8:checklists[hire_run].steps[6].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Rate Review Steps",
+"where": "sm8:checklists[rate_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Check the market rates",
+"where": "sm8:checklists[rate_run].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Compare with your cost",
+"where": "sm8:checklists[rate_run].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Decide the new rate",
+"where": "sm8:checklists[rate_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Record the new review date",
+"where": "sm8:checklists[rate_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Tool Renewal Steps",
+"where": "sm8:checklists[tool_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Check seats used",
+"where": "sm8:checklists[tool_run].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Ask the team if they need it",
+"where": "sm8:checklists[tool_run].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Decide to renew or cancel",
+"where": "sm8:checklists[tool_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Cancel in time if not needed",
+"where": "sm8:checklists[tool_run].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Renew and save the invoice",
+"where": "sm8:checklists[tool_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Price Increase Steps",
+"where": "sm8:checklists[increase_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"sm8"
+]
+},
+{
+"en": "Choose the increase for the client",
+"where": "sm8:checklists[increase_run].steps[0].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Send the notice letter",
+"where": "sm8:checklists[increase_run].steps[1].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Follow up by message",
+"where": "sm8:checklists[increase_run].steps[2].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Record the answer",
+"where": "sm8:checklists[increase_run].steps[3].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Update the retainer and invoice",
+"where": "sm8:checklists[increase_run].steps[4].label",
+"kind": "label",
+"max": null,
+"wbs": []
+},
+{
+"en": "Invoices paid in full",
+"where": "sm8:insights.gauges[0].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Collected of billed",
+"where": "sm8:insights.gauges[1].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Billable share of hours",
+"where": "sm8:insights.gauges[2].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Clients that are profitable",
+"where": "sm8:insights.gauges[3].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Payments on time",
+"where": "sm8:insights.gauges[4].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Tasks done",
+"where": "sm8:insights.gauges[5].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Revenue by month",
+"where": "sm8:insights.charts[0].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Invoiced and collected by month",
+"where": "sm8:insights.charts[1].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Collected",
+"where": "sm8:insights.charts[1].series[1].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Revenue, costs and profit by month",
+"where": "sm8:insights.charts[2].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Expenses by month",
+"where": "sm8:insights.charts[3].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Hours logged by month",
+"where": "sm8:insights.charts[4].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Cash balance forecast by month",
+"where": "sm8:insights.charts[5].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Tax to set aside and moved, by month",
+"where": "sm8:insights.charts[6].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Moved",
+"where": "sm8:insights.charts[6].series[1].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Open balance by invoice kind",
+"where": "sm8:insights.charts[8].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Hours by team member",
+"where": "sm8:insights.charts[12].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Billable and available hours by member",
+"where": "sm8:insights.charts[13].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Available",
+"where": "sm8:insights.charts[13].series[1].label",
+"kind": "label",
+"max": 30,
+"wbs": []
+},
+{
+"en": "Profit by client status",
+"where": "sm8:insights.charts[14].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Hours by client status",
+"where": "sm8:insights.charts[16].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Tool cost by category",
+"where": "sm8:insights.charts[17].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Out-of-scope work by status",
+"where": "sm8:insights.charts[18].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Leave days by kind",
+"where": "sm8:insights.charts[19].title",
+"kind": "title",
+"max": 60,
+"wbs": []
+},
+{
+"en": "Open Start and type your agency name, your currency, the tax on invoices, your payment terms, your standard rate and cost per hour and your targets in the yellow cells.",
+"where": "sm8:guide[0]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Fill Team Members with each person, their cost per hour, charge-out rate and client hours a week. Hours, utilisation and workload fill in from the timesheet.",
+"where": "sm8:guide[1]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Log every block of work on Timesheet: date, person, brand, kind of work, hours and whether it is billable. The rate, cost of time and value fill in.",
+"where": "sm8:guide[2]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Raise each invoice on Invoices and each payment on Payments Received. Tax, balance, days overdue and the late fee fill in, and Receivables Ageing shows who to chase.",
+"where": "sm8:guide[3]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Keep Recurring Retainers and Price Increases up to date so you know the next invoice date, the income a year and the extra each increase brings.",
+"where": "sm8:guide[4]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Write every extra request on Out Of Scope Work so the price and the amount still to recover are never forgotten.",
+"where": "sm8:guide[5]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Enter expenses and tool subscriptions. Profit By Client and Profit By Package show where the money is made and lost, and Monthly Profit And Loss adds the overhead.",
+"where": "sm8:guide[6]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Check Cash Flow Forecast and Tax Set Aside every month, set the cash you have today in the settings and move the tax money on time.",
+"where": "sm8:guide[7]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Use Rate Review, Hiring Plan and Utilisation By Month before you raise prices, hire or promise more work.",
+"where": "sm8:guide[8]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Plan tasks and leave on Tasks And Workload and Leave And Cover so cover is agreed before people are away.",
+"where": "sm8:guide[9]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Use the 14 calculators for utilisation, hourly rate, client profit, price increases, hiring, cash runway, invoices, late fees, retainers, break-even, tool cost, bonus pool, extra work and leave cover.",
+"where": "sm8:guide[10]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+},
+{
+"en": "Read Team And Finance Dashboard and Charts every week: overdue money, utilisation, profit, cash, tax and clients that lose money.",
+"where": "sm8:guide[12]",
+"kind": "sentence",
+"max": null,
+"wbs": []
+}
+]
