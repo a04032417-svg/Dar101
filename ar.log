@@ -1,0 +1,15 @@
+ar todo 8 done 0 missing 8
+  openai/gpt-4.1-mini error JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  openai/gpt-4.1-mini error JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  openai/gpt-4o-mini error JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  openai/gpt-4o-mini error JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+  FAILED 'Rent roll, tenants, leases, arrears, deposits and renewals for every o' None
+  FAILED 'Owner Accounting Dashboard' None
+  FAILED 'Owner statements that build themselves' None
+  FAILED 'Client account reconciliation' None
+  FAILED 'VAT on our fees' None
+  FAILED 'Rent received' None
+  FAILED 'Hello {owner_name}, your owner statement for {month} is ready. Net inc' None
+  FAILED 'This agreement starts on {col:agreements.start} between {set:company} ' None
+batch 1/1 {'ok': 0, 'retry': 0, 'failed': 8}
+ar FINAL missing 8 {'ok': 0, 'retry': 0, 'failed': 8}
