@@ -12,7 +12,7 @@ same repair loop as any other build error — each message says exactly what to 
 """
 import re, datetime
 
-LANGS = ('ar', 'fr', 'es', 'de', 'it', 'pt', 'tr', 'nl', 'ru', 'fa', 'ur', 'hi', 'zh', 'id')
+from common import TR_LANGS as LANGS
 REL = re.compile(r'^today\s*([+-]\s*\d+)?$')
 ISO = re.compile(r'^(\d{4})-(\d{2})-(\d{2})$')
 

@@ -5,6 +5,8 @@ import os, re, json, datetime as dt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 LANGS = ['en', 'ar', 'fr', 'es', 'de', 'it', 'pt', 'tr', 'nl', 'ru', 'fa', 'ur', 'hi', 'zh', 'id']
+if os.environ.get('FX_LANGS'):  # test builds only (e.g. FX_LANGS=en,ar): a release build always has all 15
+    LANGS = ['en'] + [l for l in LANGS[1:] if l in os.environ['FX_LANGS'].split(',')]
 TR_LANGS = LANGS[1:]
 RTL = {'ar', 'fa', 'ur'}
 LANG_NAMES = {'en': 'English', 'ar': 'العربية', 'fr': 'Français', 'es': 'Español', 'de': 'Deutsch', 'it': 'Italiano', 'pt': 'Português',
@@ -16,7 +18,9 @@ FIXED = json.load(open(os.path.join(HERE, 'fixed_en.json'), encoding='utf8'))
 
 ALLOWED = set(('SUM SUMIFS COUNTIFS COUNTA COUNT AVERAGEIFS AVERAGE MIN MAX MAXIFS MINIFS IF IFERROR AND OR NOT INDEX MATCH ROUND ROUNDUP '
                'ROUNDDOWN ABS DATE YEAR MONTH DAY EDATE EOMONTH TODAY NETWORKDAYS DATEDIF TEXTJOIN LEFT RIGHT MID LEN TRIM UPPER LOWER '
-               'SUMPRODUCT ISNUMBER ISBLANK VALUE MOD INT HYPERLINK').split())
+               'SUMPRODUCT ISNUMBER ISBLANK VALUE MOD INT HYPERLINK '
+               # 2026-11-11: finance and statistics that every Excel and LibreOffice reads without a prefix (rents, mortgages, DCF, yields)
+               'PMT PV FV NPV IRR RATE NPER SUMIF COUNTIF AVERAGEIF MEDIAN LARGE SMALL WEEKDAY WORKDAY CHOOSE POWER SQRT ISERROR').split())
 XLFN = ('MAXIFS', 'MINIFS', 'TEXTJOIN')          # stored as _xlfn.NAME in the file (Excel 2019+, LibreOffice)
 COL_TYPES = ('text', 'int', 'num', 'money', 'pct', 'date', 'time', 'list', 'ref', 'bool', 'calc', 'link')
 FORMATS = ('int', 'num', 'money', 'pct', 'date', 'time', 'text', 'hours')
