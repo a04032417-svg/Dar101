@@ -1,0 +1,66 @@
+# Bulk translation on GitHub's free models (the owner, 2026-11-11: «قلل حد الاستخدام وارفع الانتاج»).
+# Push tr/<suite>/run.json = {"langs": ["ar", ...]} on branch `suite`; each language runs tr/translate.py, the results (approved + new)
+# land on branch tr-out/<suite> as <lang>.json, and a re-run continues from them.
+name: translate
+on:
+  push:
+    branches: [suite]
+    paths: ['tr/*/run.json']
+permissions:
+  contents: write
+  models: read
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      suite: ${{ steps.p.outputs.suite }}
+      langs: ${{ steps.p.outputs.langs }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: p
+        run: |
+          f=$(git diff --name-only HEAD~1 HEAD -- 'tr/*/run.json' | head -1)
+          echo "suite=$(basename $(dirname $f))" >> "$GITHUB_OUTPUT"
+          echo "langs=$(python3 -c "import json;print(json.dumps(json.load(open('$f'))['langs']))")" >> "$GITHUB_OUTPUT"
+  tr:
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        lang: ${{ fromJson(needs.plan.outputs.langs) }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: previous results
+        run: |
+          mkdir -p /tmp/res
+          git fetch -q origin "tr-out/${{ needs.plan.outputs.suite }}" 2>/dev/null && git show "FETCH_HEAD:${{ matrix.lang }}.json" > /tmp/res/${{ matrix.lang }}.json 2>/dev/null || rm -f /tmp/res/${{ matrix.lang }}.json
+          ls -la /tmp/res
+      - name: translate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tr/translate.py "${{ needs.plan.outputs.suite }}" "${{ matrix.lang }}" "/tmp/res/${{ matrix.lang }}.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: 'tr-${{ matrix.lang }}', path: '/tmp/res/${{ matrix.lang }}.json', if-no-files-found: ignore }
+  collect:
+    needs: [plan, tr]
+    if: always()
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { path: /tmp/a, pattern: 'tr-*', merge-multiple: true }
+      - name: push
+        run: |
+          set -e
+          b="tr-out/${{ needs.plan.outputs.suite }}"
+          git init -q /tmp/r && cd /tmp/r
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          if git fetch -q origin "$b" 2>/dev/null; then git checkout -q -b w FETCH_HEAD; else git checkout -q --orphan w; fi
+          cp /tmp/a/*.json . 2>/dev/null || true
+          git add -A && git -c user.name=translator -c user.email=translator@users.noreply.github.com commit -qm "translations $(date -u +%FT%TZ)" || true
+          git push -q origin "w:refs/heads/$b"
+          ls -la

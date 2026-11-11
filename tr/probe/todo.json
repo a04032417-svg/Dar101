@@ -1,0 +1,50 @@
+[
+{
+"en": "Rent roll, tenants, leases, arrears, deposits and renewals for every owner",
+"where": "pm1:tagline",
+"kind": "sentence",
+"max": 80
+},
+{
+"en": "Owner Accounting Dashboard",
+"where": "pm3:dashboard.title",
+"kind": "sheet",
+"max": 31
+},
+{
+"en": "Owner statements that build themselves",
+"where": "pm3:signature[0].name",
+"kind": "label",
+"max": 50
+},
+{
+"en": "Client account reconciliation",
+"where": "pm3:tables[bank].title",
+"kind": "title",
+"max": 60
+},
+{
+"en": "VAT on our fees",
+"where": "pm3:settings[vat].label",
+"kind": "setting",
+"max": null
+},
+{
+"en": "Rent received",
+"where": "pm3:lists[kind].values[rent]",
+"kind": "list",
+"max": 30
+},
+{
+"en": "Hello {owner_name}, your owner statement for {month} is ready. Net income {net}, paid out {payout}, balance we hold for you {closing}. Message us any time if you have a question.",
+"where": "pm3:messages[stmt_ready].text",
+"kind": "message",
+"max": null
+},
+{
+"en": "This agreement starts on {col:agreements.start} between {set:company} (the manager) and {col:agreements.owner_name} (the owner), and runs until {col:agreements.ends}. It renews on the same terms unless either side gives {col:agreements.notice} days' written notice.",
+"where": "pm3:documents[agreement].paragraphs[0]",
+"kind": "document",
+"max": null
+}
+]
