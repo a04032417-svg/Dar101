@@ -32,3 +32,22 @@ def make_product(lang, L, gallery_ids, route, extra_lines):
                                    'visibility': 'visible', 'unlimited_stock': True, 'idempotency_key': 'ac-var-' + lang + '-' + route})
     v = v.get('data', v)
     return p['id'], v['id'], desc
+
+
+PACK = GH + 'out/ac/pack/'
+
+
+def to_jpeg(png_bytes):
+    from PIL import Image
+    import io
+    im = Image.open(io.BytesIO(png_bytes)).convert('RGB').resize((1920, 1440), Image.LANCZOS)
+    b = io.BytesIO(); im.save(b, 'JPEG', quality=88, optimize=True); return b.getvalue()
+
+
+def gallery(lang, names):
+    ids = []
+    for i, n in enumerate(names):
+        r = requests.get(PACK + f'images/{lang}/{n}', timeout=120); r.raise_for_status()
+        fid, _ = upload(to_jpeg(r.content), f'ac-{lang}-{i + 1}.jpg')
+        ids.append(fid)
+    return ids
