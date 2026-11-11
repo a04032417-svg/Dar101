@@ -69,6 +69,13 @@ def call(model, items, notes=None):
         print('  RAW', r.status, hdr, repr(raw[:400]), flush=True); raise
 
 
+if SUITE == 'probe':
+    import subprocess
+    body = json.dumps({'model': 'openai/gpt-4.1-mini', 'messages': [{'role': 'user', 'content': 'Say hi in Arabic as JSON {"t": ...}'}]})
+    for url in ('https://models.github.ai/inference/chat/completions', 'https://models.inference.ai.azure.com/chat/completions'):
+        r = subprocess.run(['curl', '-sS', '-i', '-X', 'POST', url, '-H', 'Authorization: Bearer ' + TOKEN, '-H', 'Content-Type: application/json',
+                            '-H', 'Accept: application/vnd.github+json', '-H', 'X-GitHub-Api-Version: 2022-11-28', '-d', body], capture_output=True, text=True)
+        print('PROBE', url, (r.stdout + r.stderr)[:1200], flush=True)
 miss = [x for x in todo if x['en'] not in done]
 print(LANG, 'todo', len(todo), 'done', len(done), 'missing', len(miss), flush=True)
 batches, cur, size = [], [], 0
