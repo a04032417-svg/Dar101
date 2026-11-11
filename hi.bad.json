@@ -1,0 +1,37 @@
+[
+{
+"en": "Goal: {col:clients.goal}. Coach: {col:clients.coach}. Level: {col:clients.level}. Joined on {col:clients.joined}.",
+"kind": "document",
+"max": null,
+"mt": "लक्ष्य: {col:clients.goal}. कोच: {col:clients.coach}. लेवल 2}। {col:clients.joined} को शामिल हुए.",
+"why": "placeholders must be exactly: {col:clients.goal} {col:clients.coach} {col:clients.level} {col:clients.joined}"
+},
+{
+"en": "Programme: {col:assignments.template}. Phase: {col:assignments.phase}. It starts on {col:assignments.start} and ends on {col:assignments.end} ({col:assignments.weeks} weeks).",
+"kind": "document",
+"max": null,
+"mt": "कार्यक्रम: {col:assignments.template}. चरण एक}। यह {col:assignments.start} को शुरू होता है और {col:assignments.end} ({col:assignments.weeks} सप्ताह) पर समाप्त होता है।",
+"why": "placeholders must be exactly: {col:assignments.template} {col:assignments.phase} {col:assignments.start} {col:assignments.end} {col:assignments.weeks}"
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {name}, नया सर्वोत्तम {exercise}: अनुमानित अधिकतम {best_e1} किग्रा, आपके शुरू करने के बाद से {gain} अधिक। यही वास्तविक प्रगति है!",
+"why": "English/Latin words left: best"
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {name}, आपका {exercise} आपके सर्वोत्तम (अभी {last_e1} किग्रा, सर्वोत्तम {best_e1} किग्रा) से कम है। नींद, तनाव या दर्द इसका कारण हो सकता है। आइये अगले सेशन से पहले बात करते हैं.",
+"why": "English/Latin words left: last best"
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {name}, आपके पिछले 90 दिन: {sess_90} सेशन और {prs_90} नए रिकॉर्ड। आपके शुरू करने के बाद से वजन में बदलाव: {w_chg} किग्रा. बढ़िया काम, चलते रहो!",
+"why": "English/Latin words left: sess prs"
+}
+]

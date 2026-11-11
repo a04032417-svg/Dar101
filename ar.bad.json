@@ -1,0 +1,37 @@
+[
+{
+"en": "Type weight, body fat, activity and the change you want; the resting need uses lean mass (Katch-McArdle, same for everyone), then protein, fat and carbs are set. A starting guide only.",
+"kind": "sentence",
+"max": null,
+"mt": "اكتب الوزن دهون الجسم والنشاط والتغيير الذي تريده؛ تستخدم حاجة الراحة الكتلة الخالية من الدهون (Katch-McArdle، نفس الشيء بالنسبة للجميع)، ثم يتم ضبط البروتين والدهون والكربوهيدرات. دليل البداية فقط.",
+"why": "English/Latin words left: Katch McArdle"
+},
+{
+"en": "If paying in one go is hard, we can split the balance into monthly instalments of about {col:invoices.plan}. Just reply and we will agree it in writing.",
+"kind": "document",
+"max": null,
+"mt": "إذا كان الدفع دفعة واحدة أمرًا صعبًا، فيمكننا تقسيم الرصيد إلى أقساط شهرية بقيمة {0 تقريبًا}. ما عليك سوى الرد وسنوافق على ذلك كتابيًا.",
+"why": "placeholders must be exactly: {col:invoices.plan}"
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، الأفضل الجديد في {exercise}: الحد الأقصى المقدر بـ {best_e1} كجم، يزيد بمقدار {gain} منذ البداية. وهذا هو التقدم الحقيقي!",
+"why": "English/Latin words left: best"
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، {exercise} أقل من أفضل ما لديك ({last_e1} كجم الآن، أفضل {best_e1} كجم). قد يكون السبب هو النوم أو التوتر أو الألم. دعونا نتحدث قبل القادم الحصة.",
+"why": "English/Latin words left: last best"
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، آخر 90 يومًا: {sess_90} الحصص و{prs_90} سجلات جديدة. تغير الوزن منذ البداية: {w_chg} كجم. عمل عظيم، استمر!",
+"why": "English/Latin words left: sess prs"
+}
+]

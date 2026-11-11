@@ -1,0 +1,65 @@
+[
+{
+"en": "Type weight, body fat, activity and the change you want; the resting need uses lean mass (Katch-McArdle, same for everyone), then protein, fat and carbs are set. A starting guide only.",
+"kind": "sentence",
+"max": null,
+"mt": "输入体重、体脂、活动和您想要的更改；休息需要使用瘦体重（Katch-McArdle，每个人都一样），然后设置蛋白质、脂肪和碳水化合物。仅作为入门指南。",
+"why": "English/Latin words left: Katch McArdle"
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"kind": "message",
+"max": null,
+"mt": "您好，{name}，{exercise} 上的新最佳成绩：估计最大 {best_e1} 公斤，比您开始时提高了 {gain}。这才是真正的进步！",
+"why": "English/Latin words left: best"
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"kind": "message",
+"max": null,
+"mt": "{name}，您好，您的 {exercise} 低于您的最佳成绩（现在 {last_e1} 公斤，最佳成绩 {best_e1} 公斤）。睡眠、压力或酸痛可能是原因。让我们在下一个课时之前谈谈。",
+"why": "English/Latin words left: last best"
+},
+{
+"en": "Fat to lose to reach the goal, kg",
+"kind": "label",
+"max": null,
+"mt": "达到目标需要减掉的脂肪，kg",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Smallest jump in load, kg",
+"kind": "label",
+"max": null,
+"mt": "最小负载跳跃，kg",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Load after 4 weeks, kg",
+"kind": "label",
+"max": null,
+"mt": "4周后负载，kg",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Load for the next set, kg",
+"kind": "label",
+"max": null,
+"mt": "下一组的负载，kg",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"kind": "message",
+"max": null,
+"mt": "{name}，您好，您在过去 90 天中：{sess_90} 课时 和 {prs_90} 条新记录。自开始以来体重变化：{w_chg} 公斤。干得好，继续努力！",
+"why": "English/Latin words left: sess prs"
+},
+{
+"en": "Write programmes on Programmes and Programme Lines: days, exercises, sets, reps and rest. Programme Builder then shows the weekly sets per muscle group.",
+"kind": "sentence",
+"max": null,
+"mt": "在 训练计划 和 训练计划 行写入 训练计划：天、动作、组、次数 和休息。 训练计划 Builder 然后显示每个肌肉群的每周 组。",
+"why": "English/Latin words left: Builder"
+}
+]

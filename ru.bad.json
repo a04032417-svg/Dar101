@@ -1,0 +1,65 @@
+[
+{
+"en": "What missed sessions cost and what a fee recovers",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость пропущенного сеанса в сравнении с возмещенной комиссией",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Stock reorder quantities with delivery lead time",
+"kind": "label",
+"max": 50,
+"mt": "Количество повторного заказа, время выполнения заказа",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Walk-in or drop-in",
+"kind": "list",
+"max": 30,
+"mt": "Drop-in",
+"why": "English/Latin words left: Drop in"
+},
+{
+"en": "Late Fee Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Инструмент оплаты за просрочку платежа",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Watch list: {col:clients.n_plat} plateaued lift(s), {col:clients.n_slip} slipping lift(s), {col:clients.g_behind} goal(s) behind and {col:clients.n_inj} open injury record(s).",
+"kind": "document",
+"max": null,
+"mt": "Список наблюдения: {col:clients.n_plat} подъемов с плато, {col:clients.n_slip} подъемов со скольжением, гола (голов) позади и {col:clients.n_inj} открытых записей о травмах.",
+"why": "placeholders must be exactly: {col:clients.n_plat} {col:clients.n_slip} {col:clients.g_behind} {col:clients.n_inj}"
+},
+{
+"en": "Late fees collected of fees due",
+"kind": "title",
+"max": 60,
+"mt": "Просроченные платежи, собранные по сравнению с причитающимися",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hi {name}, new best on {exercise}: estimated max {best_e1} kg, {gain} up since you started. That is real progress!",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}, новый лучший результат на {exercise}: расчетный максимальный вес в {best_e1} кг, на {gain} больше, чем вы начали. Это настоящий прогресс!",
+"why": "English/Latin words left: best"
+},
+{
+"en": "Hi {name}, your {exercise} is below your best ({last_e1} kg now, best {best_e1} kg). Sleep, stress or soreness may be the cause. Let us talk before the next session.",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! Ваш {exercise} ниже вашего лучшего результата (теперь {last_e1} кг, лучший – {best_e1} кг). Причиной могут быть сон, стресс или болезненность. Давайте поговорим перед следующим сеансом.",
+"why": "English/Latin words left: last best"
+},
+{
+"en": "Hi {name}, your last 90 days: {sess_90} sessions and {prs_90} new records. Weight change since you started: {w_chg} kg. Great work, keep going!",
+"kind": "message",
+"max": null,
+"mt": "Привет, {name}! За последние 90 дней: сеансов: {sess_90} и новых рекордов: {prs_90}. Изменение веса с момента начала: {w_chg} кг. Отличная работа, продолжайте!",
+"why": "English/Latin words left: sess prs"
+}
+]
