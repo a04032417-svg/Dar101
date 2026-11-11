@@ -22,6 +22,9 @@ NONLATIN = LANG in ('ar', 'fa', 'ur', 'hi', 'zh', 'ru')
 BUDGET = 2000 if NONLATIN else 2800          # English characters per request (output stays under 4000 tokens)
 
 todo = json.load(open(f'tr/{SUITE}/todo.json', encoding='utf8'))
+if os.path.exists(f'tr/{SUITE}/only/{LANG}.json'):           # fix pass: only the strings that failed, each with its rejected draft and the reason
+    _only = json.load(open(f'tr/{SUITE}/only/{LANG}.json', encoding='utf8'))
+    todo = [dict(x, mt=_only[x['en']].get('mt'), why=_only[x['en']].get('why')) for x in todo if x['en'] in _only]
 done = json.load(open(f'tr/{SUITE}/done/{LANG}.json', encoding='utf8')) if os.path.exists(f'tr/{SUITE}/done/{LANG}.json') else {}
 if os.path.exists(OUT): done.update(json.load(open(OUT, encoding='utf8')))
 G = json.load(open(next(f for f in (f'tr/{SUITE}/glossary/{LANG}.json', f'tr/glossary/{LANG}.json') if os.path.exists(f)), encoding='utf8'))  # a suite may carry its own glossary
@@ -51,13 +54,13 @@ def check(x, v):
 
 
 def call(model, items, notes=None):
-    body = [{'id': str(i), 'en': x['en'], 'kind': x['kind'], **({'max': x['max']} if x.get('max') else {}), **({'fix': notes[i]} if notes and i in notes else {})}
+    body = [{'id': str(i), 'en': x['en'], 'kind': x['kind'], **({'max': x['max']} if x.get('max') else {}), **({'fix': notes[i]} if notes and i in notes else {}), **({'draft': x['mt'], 'problem': x['why']} if x.get('mt') else {})}
             for i, x in items]
     URL = os.environ.get('TR_URL') or 'https://models.github.ai/inference/chat/completions'
     req = urllib.request.Request(URL, method='POST', data=json.dumps({**json.loads(os.environ.get('TR_EXTRA') or '{}'),
         'model': model, 'temperature': 0.2, 'max_tokens': int(json.loads(os.environ.get('TR_EXTRA') or '{}').get('max_tokens', 4000)), **({} if os.environ.get('TR_URL') else {'response_format': {'type': 'json_object'}}),
         'messages': [{'role': 'system', 'content': SYSTEM},
-                     {'role': 'user', 'content': f'Translate into {NAMES[LANG]}. Items with "fix" were rejected before for that reason: correct them.\n' + json.dumps(body, ensure_ascii=False)}]}).encode(),
+                     {'role': 'user', 'content': f'Translate into {NAMES[LANG]}. Items with "fix" were rejected before for that reason: correct them. Items with "draft" carry a machine translation that was rejected for "problem": write a better one (shorter if too long, always within "max", same meaning, same {{placeholders}}).\n' + json.dumps(body, ensure_ascii=False)}]}).encode(),
         headers={**({} if os.environ.get('TR_URL') else {'Authorization': 'Bearer ' + TOKEN}), 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': 'Mozilla/5.0'})
     with urllib.request.urlopen(req, timeout=180) as r:
         raw = r.read().decode('utf8', 'replace')
@@ -239,7 +242,7 @@ def bing_call(lines):
         while i < len(lines) and len(chunk) < 25 and size + len(lines[i]) + 1 <= 850:
             chunk.append(lines[i]); size += len(lines[i]) + 1; i += 1
         if not chunk: chunk = [lines[i][:850]]; i += 1
-        for attempt in range(8):
+        for attempt in range(4):
             w = _LASTREQ[0] + float(os.environ.get('TR_SPACING', '1.5')) - time.time()
             if w > 0: time.sleep(w)
             _LASTREQ[0] = time.time()
@@ -251,7 +254,7 @@ def bing_call(lines):
                         time.sleep(1.0); t.append(bing_one(c).replace('\n', ' '))
                 out += t; break
             except Exception as e:
-                print('  bing error', attempt, repr(e)[:160], flush=True); _BS.clear(); time.sleep(5 + attempt * 15)
+                print('  bing error', attempt, repr(e)[:160], flush=True); _BS.clear(); time.sleep(5 + attempt * 10)
         else:
             raise RuntimeError('bing: giving up on a chunk')
     return out
@@ -294,6 +297,10 @@ if os.environ.get('TR_ENGINE') in ('google2', 'nllb', 'bing'):
         global n
         for attempt in range(400):
             try: res = google2(part, sheetT); break
+            except RuntimeError as e:
+                if 'giving up' in repr(e):          # bing refuses this runner: stop at once (the work so far is saved) so a re-run lands on another machine
+                    json.dump(done, open(OUT, 'w', encoding='utf8'), ensure_ascii=False, indent=0); print('  bing refuses this runner, stopping', flush=True); sys.exit(3)
+                print('  error', repr(e)[:200], flush=True); res = None; time.sleep(20)
             except urllib.error.HTTPError as e:
                 if e.code == 429:
                     if attempt % 10 == 0: print('  HTTP 429, waiting', attempt, flush=True)
