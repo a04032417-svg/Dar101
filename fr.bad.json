@@ -1,0 +1,338 @@
+[
+{
+"en": "{col:stakeholders.name}, {col:stakeholders.title}, {col:stakeholders.organisation}. Role on the project: {col:stakeholders.kind}. Project: {col:stakeholders.project}.",
+"kind": "document",
+"max": null,
+"mt": "{col:stakeholders.name}, {col:stakeholders.title}, {col:stakeholders.organisation}. Rôle sur le projet: {col:stakeholders.kind}.",
+"why": "placeholders must be exactly: {col:stakeholders.name} {col:stakeholders.title} {col:stakeholders.organisation} {col:stakeholders.kind} {col:stakeholders.project}"
+},
+{
+"en": "Project: {col:projects.name}. Project manager: {col:projects.manager}. Sponsor: {col:projects.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Le chef de projet, le commanditaire.",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.manager} {col:projects.sponsor}"
+},
+{
+"en": "We ask for {col:funding.requested} and ask you to approve it under the budget code {col:funding.budget_code}. The request was made on {col:funding.requested_on}.",
+"kind": "document",
+"max": null,
+"mt": "Nous demandons {col:funding.requested} et vous demandons de l'approuver sous le code budgétaire {col:funding.budget_code}.",
+"why": "placeholders must be exactly: {col:funding.requested} {col:funding.budget_code} {col:funding.requested_on}"
+},
+{
+"en": "Portfolio overview line for the leadership team",
+"kind": "title",
+"max": 60,
+"mt": "Ligne de vue d'ensemble du portefeuille pour l'équipe de direction",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Project: {col:projects.name} for {col:projects.client}. Type: {col:projects.type}. Method: {col:projects.method}. Priority: {col:projects.priority}. Stage: {col:projects.stage}.",
+"kind": "document",
+"max": null,
+"mt": "Projet: {col:projects.name} pour {col:projects.client}. Type: {col:projects.type}. Méthode: {col:projects.method}. Priorité: {col:projects.priority}.",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.client} {col:projects.type} {col:projects.method} {col:projects.priority} {col:projects.stage}"
+},
+{
+"en": "The baseline end is {col:projects.end} and the forecast end is {col:projects.forecast_end}. Days late: {col:projects.days_late}. Schedule: {col:projects.schedule}.",
+"kind": "document",
+"max": null,
+"mt": "La fin de base est {col:projects.end} et la fin prévue est {col:projects.forecast_end}.",
+"why": "placeholders must be exactly: {col:projects.end} {col:projects.forecast_end} {col:projects.days_late} {col:projects.schedule}"
+},
+{
+"en": "You are invited to the kick-off of the project, which starts on {col:projects.start}. The project runs until {col:projects.end}.",
+"kind": "document",
+"max": null,
+"mt": "Vous êtes invité au coup d'envoi du projet, qui commence le {col:projects.start}.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end}"
+},
+{
+"en": "The start date is {col:projects.start} and the planned end date is {col:projects.end}. The budget is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "La date de début est {col:projects.start} et la date de fin prévue est {col:projects.end}.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end} {col:projects.budget}"
+},
+{
+"en": "Go/no-go decisions per month",
+"kind": "title",
+"max": 60,
+"mt": "Décisions relatives à la mise en œuvre ou à la non-mise en œuvre par mois",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Plan tasks, dates, baselines and delays for every project",
+"kind": "sentence",
+"max": 80,
+"mt": "Planifier les tâches, les dates, les lignes de référence et les retards pour chaque projet",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "Task list with live state and days late",
+"kind": "label",
+"max": 50,
+"mt": "Liste des tâches avec l'état actif et les jours de retard",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "every task shows done, blocked, overdue, start late, slipping or due soon from your dates and percent done, with the owner and manager phones beside it",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque tâche montre terminé, bloqué, en retard, commencer tard, glisser ou due bientôt de vos dates et pourcentage terminé, avec le propriétaire et le téléphone du gestionnaire à côté de lui",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "Dependency check with link types and lags",
+"kind": "label",
+"max": 50,
+"mt": "Vérification de la dépendance avec les types de liens et les délais",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "finish to start, start to start and finish to finish links with a lag or a lead are checked against the dates, and missing or circular links are flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "terminer à commencer, commencer à commencer et terminer à terminer les liens avec un retard ou une avance sont vérifiés par rapport aux dates, et les liens manquants ou circulaires sont marqués",
+"why": "too long: 193 characters, the limit is 160"
+},
+{
+"en": "Milestones with baseline and forecast dates",
+"kind": "label",
+"max": 50,
+"mt": "Les étapes marquées par des dates de référence et de prévision",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "every version of a project baseline, who approved it, why it was reset and how far the end date moved from the version before",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque version d'une ligne de base de projet, qui l'a approuvée, pourquoi elle a été réinitialisée et dans quelle mesure la date de fin s'est déplacée de la version précédente",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Working-day calendar with holidays and leave",
+"kind": "label",
+"max": 50,
+"mt": "Calendrier des journées de travail avec jours fériés et congés",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "Three-point estimates with a width check",
+"kind": "label",
+"max": 50,
+"mt": "Estimations en trois points avec vérification de la largeur",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "best, likely and worst hours give expected hours, the range and a width warning; finished tasks show actual against estimated hours by phase",
+"kind": "sentence",
+"max": 160,
+"mt": "les heures optimales, les heures probables et les heures les plus mauvaises donnent les heures attendues, la plage et une alerte de largeur; les tâches terminées montrent les heures réelles par rapport aux heures estimées par phase",
+"why": "too long: 231 characters, the limit is 160"
+},
+{
+"en": "twelve weeks of tasks starting and due, hours at an even pace, people away and holidays against capacity, with heavy and light weeks marked",
+"kind": "sentence",
+"max": 160,
+"mt": "douze semaines de début et d'expiration des tâches, heures à un rythme régulier, absence de personnel et jours fériés en fonction de la capacité, avec des semaines lourdes et légères marquées",
+"why": "too long: 191 characters, the limit is 160"
+},
+{
+"en": "tasks with little float get a driver, a watch owner and an action with a date, marked critical, watch or under control from your float limit",
+"kind": "sentence",
+"max": 160,
+"mt": "Obtenez un conducteur, un propriétaire de montre et une action avec une date, marquée critique, surveillance ou sous contrôle à partir de votre limite de flotteur",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Delay register with cause and recovery action",
+"kind": "label",
+"max": 50,
+"mt": "Registre du retard avec cause et action de recouvrement",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "each late task has a cause, an owner and a recovery date, and the register shows which recoveries are overdue and what causes most delay",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque tâche retardée a une cause, un propriétaire et une date de récupération et le registre indique quels remboursements sont en retard et ce qui cause le plus de retards",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "Release dates with freeze and window checks",
+"kind": "label",
+"max": 50,
+"mt": "Date de sortie avec vérification du gel et de la fenêtre",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Fixed dates with spare days and penalty exposure",
+"kind": "label",
+"max": 50,
+"mt": "Dates fixes avec jours libres et exposition à pénalité",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Scope change",
+"kind": "list",
+"max": 30,
+"mt": "Modification du champ d'application",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Met on time",
+"kind": "list",
+"max": 30,
+"mt": "On s'est rencontrés à l'heure .",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Work breakdown: phases and work packages with hours",
+"kind": "title",
+"max": 60,
+"mt": "Répartition des tâches: phases et groupes de travail avec heures",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Task list: dates, owner, progress and what the schedule says",
+"kind": "title",
+"max": 60,
+"mt": "Liste des tâches: dates, propriétaire, progrès et ce que dit le calendrier",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Task dependencies: links, lags and a check for broken links",
+"kind": "title",
+"max": 60,
+"mt": "Les dépendances des tâches: liens, délais et vérification des liens brisés",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Schedule baselines: every approved plan and how it moved",
+"kind": "title",
+"max": 60,
+"mt": "Les lignes de base du calendrier: chaque plan approuvé et son déroulement",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Schedule changes: what moved, why and who approved it",
+"kind": "title",
+"max": 60,
+"mt": "Changements d'horaire: ce qui a été déplacé, pourquoi et qui l'a approuvé",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Direction",
+"kind": "label",
+"max": null,
+"mt": "Direction",
+"why": "not translated"
+},
+{
+"en": "Delay register: late tasks, cause and recovery action",
+"kind": "title",
+"max": 60,
+"mt": "Registre des retards: tâches en retard, cause et action de récupération",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Leave calendar: who is away and what it does to the plan",
+"kind": "title",
+"max": 60,
+"mt": "Calendrier de départ: qui est absent et ce que cela fait au plan",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Releases and go-live dates: freeze, window and contact",
+"kind": "title",
+"max": 60,
+"mt": "Date de sortie et date de mise en service: gel, fenêtre et contact",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Weekly look-ahead: twelve weeks of tasks and load",
+"kind": "title",
+"max": 60,
+"mt": "Perspective hebdomadaire: douze semaines de tâches et de charge",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Estimate accuracy: estimated against actual hours",
+"kind": "title",
+"max": 60,
+"mt": "Précision de l'estimation: estimée par rapport aux heures réelles",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "End date from a start date and working days",
+"kind": "title",
+"max": 60,
+"mt": "Date de fin à compter d'une date de début et des jours ouvrables",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Project buffer sized from task uncertainty",
+"kind": "title",
+"max": 60,
+"mt": "Taille du tampon de projet à partir de l'incertitude de la tâche",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Forecast end date from percent done and time used",
+"kind": "title",
+"max": 60,
+"mt": "Date de fin prévue à partir du pourcentage réalisé et du temps utilisé",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Catch-up plan: extra hours per week to recover",
+"kind": "title",
+"max": 60,
+"mt": "Plan de rattrapage: heures supplémentaires par semaine pour récupérer",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Release window finder after code freeze and holidays",
+"kind": "title",
+"max": 60,
+"mt": "Libérez le rechercheur de fenêtre après le gel du code et les vacances",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Team load for a week and room for extra work",
+"kind": "title",
+"max": 60,
+"mt": "La charge de l'équipe pour une semaine et la place pour le travail supplémentaire",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, {name} on {project} is due on {forecast}. Please tell me today if it will not be finished and what you need.",
+"kind": "message",
+"max": null,
+"mt": "S'il vous plaît dites-moi aujourd'hui si ce n'est pas fini et ce dont vous avez besoin.",
+"why": "placeholders must be exactly: {owner} {name} {project} {forecast}"
+},
+{
+"en": "Hello {owner}, the work before {name} on {project} is finished (status {pred_state}). You can start now. The baseline start was {start}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {owner}, le travail avant {name} sur {project} est terminé (état {pred_state}). Vous pouvez commencer maintenant.",
+"why": "placeholders must be exactly: {owner} {name} {project} {pred_state} {start}"
+},
+{
+"en": "Hello {staff}, your leave from {start} to {end} meets {rel_n} planned releases that you own. Please tell me who covers before you go.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, votre congé de 1 à 2 ans correspond à vos départs prévus.",
+"why": "placeholders must be exactly: {staff} {start} {end} {rel_n}"
+},
+{
+"en": "Hello {manager}, the critical task {name} on {project} has {float_days} days of float and is {days_late} days late. Driver: {driver}. Action: {action}, due {due}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {manager}, la tâche critique {name} sur {project} a {float_days} jours de flot et est {days_late} jours en retard.",
+"why": "placeholders must be exactly: {manager} {name} {project} {float_days} {days_late} {driver} {action} {due}"
+}
+]

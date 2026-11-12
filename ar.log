@@ -1,6 +1,6 @@
 ar google2: todo 1317 done 487 missing 830
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-Loading weights:   0%|          | 0/1016 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1016/1016 [00:00<00:00, 17495.50it/s]
+Loading weights:   0%|          | 0/1016 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1016/1016 [00:00<00:00, 20229.54it/s]
 /home/runner/work/Dar101/Dar101/tr/translate.py:200: DeprecationWarning: torch.ao.quantization is deprecated and will be removed in 2.10. 
 For migrations of users: 
 1. Eager mode quantization (torch.ao.quantization.quantize, torch.ao.quantization.quantize_dynamic), please migrate to use torchao eager mode quantize_ API instead 

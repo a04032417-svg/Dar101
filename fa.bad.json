@@ -1,0 +1,72 @@
+[
+{
+"en": "We ask for {col:funding.requested} and ask you to approve it under the budget code {col:funding.budget_code}. The request was made on {col:funding.requested_on}.",
+"kind": "document",
+"max": null,
+"mt": "ما از شما درخواست می کنیم و از شما می خواهیم که آن را تحت کد بودجه {col:funding.budget_code} تصویب کنید.",
+"why": "placeholders must be exactly: {col:funding.requested} {col:funding.budget_code} {col:funding.requested_on}"
+},
+{
+"en": "The start date is {col:projects.start} and the planned end date is {col:projects.end}. The budget is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "تاریخ شروع {col:projects.start} و تاریخ پایان برنامه ریزی شده {col:projects.end}.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end} {col:projects.budget}"
+},
+{
+"en": "best, likely and worst hours give expected hours, the range and a width warning; finished tasks show actual against estimated hours by phase",
+"kind": "sentence",
+"max": 160,
+"mt": "بهترین، احتمالاً و بدترین ساعت ها ساعت های انتظار شده، محدوده و عرض هشدار را نشان می دهند؛ وظایف تمام شده در مقایسه با ساعت های تخمین زده توسط مرحله نشان می دهند",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Fixed dates with spare days and penalty exposure",
+"kind": "label",
+"max": 50,
+"mt": "تاریخ های ثابت با روزهای خالی و قرار گرفتن در معرض جرمانه",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Matches the tasks",
+"kind": "list",
+"max": 30,
+"mt": "با وظایف مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Phone number of the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "شماره تلفن مدیر PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "WBS ID",
+"kind": "label",
+"max": null,
+"mt": "شناسه WBS",
+"why": "English/Latin words left: WBS"
+},
+{
+"en": "Forecast end date from percent done and time used",
+"kind": "title",
+"max": 60,
+"mt": "تاریخ پایان پیش بینی شده از درصد انجام شده و زمان استفاده شده",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello {staff}, your leave from {start} to {end} meets {rel_n} planned releases that you own. Please tell me who covers before you go.",
+"kind": "message",
+"max": null,
+"mt": "سلام، مرخصيت شما از 1 تا 2 با برنامه اي که داريد روبرو ميشه لطفاً قبل از رفتن به من بگيد که کي پوشش ميده",
+"why": "placeholders must be exactly: {staff} {start} {end} {rel_n}"
+},
+{
+"en": "Hello {manager}, the critical task {name} on {project} has {float_days} days of float and is {days_late} days late. Driver: {driver}. Action: {action}, due {due}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {manager}، کار مهم {name} در {project} دارای {float_days} روز شناور است و {days_late} روز دیر است. راننده: {driver}.",
+"why": "placeholders must be exactly: {manager} {name} {project} {float_days} {days_late} {driver} {action} {due}"
+}
+]

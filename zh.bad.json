@@ -1,0 +1,93 @@
+[
+{
+"en": "RACI summary of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "责任矩阵摘要,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Project: {col:projects.name}. Project manager: {col:projects.manager}. Sponsor: {col:projects.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "项目经理: 赞助人:",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.manager} {col:projects.sponsor}"
+},
+{
+"en": "Funding approval request of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "资金批准申请日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Project: {col:funding.project}. Purpose: {col:funding.purpose}. Approver: {col:funding.approver}.",
+"kind": "document",
+"max": null,
+"mt": "项目: 目的: 批准者:",
+"why": "placeholders must be exactly: {col:funding.project} {col:funding.purpose} {col:funding.approver}"
+},
+{
+"en": "We ask for {col:funding.requested} and ask you to approve it under the budget code {col:funding.budget_code}. The request was made on {col:funding.requested_on}.",
+"kind": "document",
+"max": null,
+"mt": "我们要求 {col:funding.requested} 并要求您在预算代码 {col:funding.budget_code} 下批准它.",
+"why": "placeholders must be exactly: {col:funding.requested} {col:funding.budget_code} {col:funding.requested_on}"
+},
+{
+"en": "Portfolio overview of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "总体情况,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "You are invited to the kick-off of the project, which starts on {col:projects.start}. The project runs until {col:projects.end}.",
+"kind": "document",
+"max": null,
+"mt": "我们邀请您参加项目启动,项目始于 {col:projects.start}.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end}"
+},
+{
+"en": "Project start-up confirmation from {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "项目启动确认日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Hello {owner}, your task {name} on {project} starts on {start}. Please confirm that you can begin and tell me about any blocker. Baseline end: {end}.",
+"kind": "message",
+"max": null,
+"mt": "您的任务 {name} 在 {project} 开始于 {start}. 请确认您可以开始并告诉我任何阻塞器. 基线结束: {end}.",
+"why": "placeholders must be exactly: {owner} {name} {project} {start} {end}"
+},
+{
+"en": "Hello {estimator}, please send your three-point estimate for {name} on {project}: best, likely and worst hours. The task estimate now is {task_hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "您好,请发送您在 {project} 上 {name} 的三点估计:最佳,可能和最糟糕的时间. 任务估计现在是 {task_hours} 小时.",
+"why": "placeholders must be exactly: {estimator} {name} {project} {task_hours}"
+},
+{
+"en": "Hello {staff}, your leave runs from {start} to {end} ({days} working days). You have {open_n} open tasks in that time. Please name your cover for each one before you go.",
+"kind": "message",
+"max": null,
+"mt": "你的假期从1到2工作日. 在此期间,你有4个工作.请在离开之前给出你的身份.",
+"why": "placeholders must be exactly: {staff} {start} {end} {days} {open_n}"
+},
+{
+"en": "Hello {staff}, your leave from {start} to {end} meets {rel_n} planned releases that you own. Please tell me who covers before you go.",
+"kind": "message",
+"max": null,
+"mt": "您的假期从1到2月份符合您的计划.请在您离开之前告诉我谁是您的保险人.",
+"why": "placeholders must be exactly: {staff} {start} {end} {rel_n}"
+},
+{
+"en": "Hello {manager}, the critical task {name} on {project} has {float_days} days of float and is {days_late} days late. Driver: {driver}. Action: {action}, due {due}.",
+"kind": "message",
+"max": null,
+"mt": "您好,关键任务 {name} 在 {project} 有 {float_days} 天的浮动时间,并且延迟了 {days_late} 天. 驾驶员: {driver}. 行动: {action},到期 {due}.",
+"why": "placeholders must be exactly: {manager} {name} {project} {float_days} {days_late} {driver} {action} {due}"
+}
+]

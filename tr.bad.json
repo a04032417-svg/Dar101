@@ -1,0 +1,177 @@
+[
+{
+"en": "Project: {col:projects.name}. Project manager: {col:projects.manager}. Sponsor: {col:projects.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Proje yöneticisi: Sponsor:",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.manager} {col:projects.sponsor}"
+},
+{
+"en": "We ask for {col:funding.requested} and ask you to approve it under the budget code {col:funding.budget_code}. The request was made on {col:funding.requested_on}.",
+"kind": "document",
+"max": null,
+"mt": "{col:funding.requested} talep ediyoruz ve sizden bütçe kodu {col:funding.budget_code} altında onaylamanızı istiyoruz.",
+"why": "placeholders must be exactly: {col:funding.requested} {col:funding.budget_code} {col:funding.requested_on}"
+},
+{
+"en": "Current state: {col:funding.state}. Amount approved so far: {col:funding.approved}. Amount not approved: {col:funding.short}.",
+"kind": "document",
+"max": null,
+"mt": "Mevcut durum: {col:funding.state}. Şimdiye kadar onaylanmış miktar: {col:funding.approved}.",
+"why": "placeholders must be exactly: {col:funding.state} {col:funding.approved} {col:funding.short}"
+},
+{
+"en": "You are invited to the kick-off of the project, which starts on {col:projects.start}. The project runs until {col:projects.end}.",
+"kind": "document",
+"max": null,
+"mt": "{col:projects.start}'da başlayan projenin başlangıç törenine davetlisiniz.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end}"
+},
+{
+"en": "We confirm that the project {col:projects.name} is approved. Your sponsor is {col:projects.sponsor} and our project manager is {col:projects.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Projenin onaylandığını onaylıyoruz. Sponsorunuz {col:projects.sponsor} ve proje yöneticimiz {col:projects.manager}.",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.sponsor} {col:projects.manager}"
+},
+{
+"en": "The start date is {col:projects.start} and the planned end date is {col:projects.end}. The budget is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "Başlangıç tarihi {col:projects.start} ve planlanan bitiş tarihi {col:projects.end}.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end} {col:projects.budget}"
+},
+{
+"en": "Rate each project against the six objectives on Strategy Alignment and write the monthly decision for each project on Portfolio Review Log.",
+"kind": "sentence",
+"max": null,
+"mt": "Her projeyi Strateji uyumluluğu'daki altı hedefe göre değerlendirin ve her proje için aylık kararı Portföy inceleme günlüğü'de yazın.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "every task shows done, blocked, overdue, start late, slipping or due soon from your dates and percent done, with the owner and manager phones beside it",
+"kind": "sentence",
+"max": 160,
+"mt": "Her görev yapılmış, engellenmiş, gecikmiş, geç başlayan, kaymış veya tarihleri ve yüzde tamamlanmış, yanında sahibi ve müdürün telefonları ile yakında bitmiş olduğunu gösterir",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Dependency check with link types and lags",
+"kind": "label",
+"max": 50,
+"mt": "Bağlantı türleri ve gecikmelerle bağımlılık kontrolü",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "finish to start, start to start and finish to finish links with a lag or a lead are checked against the dates, and missing or circular links are flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "başlamak için bitirin, başlamak için başlayın ve bitirmek için bitirin, bir gecikme veya bir liderliğe sahip bağlantılar tarihlere karşı kontrol edilir ve eksik veya dairesel bağlantılar işaretlenir.",
+"why": "too long: 199 characters, the limit is 160"
+},
+{
+"en": "best, likely and worst hours give expected hours, the range and a width warning; finished tasks show actual against estimated hours by phase",
+"kind": "sentence",
+"max": 160,
+"mt": "en iyi, en olası ve en kötü saatler beklenen saatleri, aralığı ve genişliği uyarıyor; bitmiş görevler, aşama başına tahmin edilen saatlere karşı gerçekleri gösteriyor",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "each late task has a cause, an owner and a recovery date, and the register shows which recoveries are overdue and what causes most delay",
+"kind": "sentence",
+"max": 160,
+"mt": "Her gecikmiş görevin bir nedeni, bir sahibi ve bir geri alma tarihi vardır ve kayıt hangi geri almaların gecikmiş olduğunu ve en fazla gecikmenin nedenini gösterir.",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Release dates with freeze and window checks",
+"kind": "label",
+"max": 50,
+"mt": "Dondurma ve pencere kontrolü ile serbest bırakma tarihleri",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Test",
+"kind": "list",
+"max": 30,
+"mt": "Test",
+"why": "not translated"
+},
+{
+"en": "Task list: dates, owner, progress and what the schedule says",
+"kind": "title",
+"max": 60,
+"mt": "Görev listesi: tarihler, sahibi, ilerleme ve programın ne dediği",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Task dependencies: links, lags and a check for broken links",
+"kind": "title",
+"max": 60,
+"mt": "Görev bağımlılıkları: bağlantılar, gecikmeler ve kırık bağlantıların kontrolü",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Schedule baselines: every approved plan and how it moved",
+"kind": "title",
+"max": 60,
+"mt": "Zamanlama temel hatları: her onaylanmış plan ve nasıl ilerledi",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Delay register: late tasks, cause and recovery action",
+"kind": "title",
+"max": 60,
+"mt": "Gecikme kaydı: gecikmiş görevler, nedenler ve geri alma eylemleri",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Releases and go-live dates: freeze, window and contact",
+"kind": "title",
+"max": 60,
+"mt": "Serbest bırakma ve etkinleştirme tarihleri: dondurma, pencere ve temas",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Days moved by changes",
+"kind": "label",
+"max": 30,
+"mt": "Değişikliklerle hareket eden günler",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "End date from a start date and working days",
+"kind": "title",
+"max": 60,
+"mt": "Başlangıç tarihinden ve çalışma günlerinden sonraki son tarih",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Release window finder after code freeze and holidays",
+"kind": "title",
+"max": 60,
+"mt": "Kod dondurma ve tatillerden sonra pencere bulucusu serbest bırak",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, {name} on {project} is due on {forecast}. Please tell me today if it will not be finished and what you need.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {owner}, {name} {project} {forecast} {forecast} {forecast} {name} {project} {forecast} {forecast} {forecast} {forecast} {forecast} {forecast} {forecast} {forecast} {forecast} {forecast} {forecast} {forecast} {4} {4} {4} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5}",
+"why": "placeholders must be exactly: {owner} {name} {project} {forecast}"
+},
+{
+"en": "Hello {estimator}, please send your three-point estimate for {name} on {project}: best, likely and worst hours. The task estimate now is {task_hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {estimator}, lütfen {project} için {name} için üç puanlık tahmininizi gönderin: en iyi, olası ve en kötü saatler.",
+"why": "placeholders must be exactly: {estimator} {name} {project} {task_hours}"
+},
+{
+"en": "Hello {manager}, the critical task {name} on {project} has {float_days} days of float and is {days_late} days late. Driver: {driver}. Action: {action}, due {due}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {manager}, kritik görev {name} {project} {float_days} gün yüzer ve {days_late} gün geciktir.",
+"why": "placeholders must be exactly: {manager} {name} {project} {float_days} {days_late} {driver} {action} {due}"
+}
+]

@@ -1,0 +1,261 @@
+[
+{
+"en": "Influence is {col:stakeholders.influence} and interest is {col:stakeholders.interest}, so the engagement is: {col:stakeholders.quadrant}. Their attitude is {col:stakeholders.attitude} and the action is: {col:stakeholders.action}.",
+"kind": "document",
+"max": null,
+"mt": "Invloed is {col:stakeholders.influence} en belangstelling is {col:stakeholders.interest}, dus de betrokkenheid is: {col:stakeholders.quadrant}.",
+"why": "placeholders must be exactly: {col:stakeholders.influence} {col:stakeholders.interest} {col:stakeholders.quadrant} {col:stakeholders.attitude} {col:stakeholders.action}"
+},
+{
+"en": "Project: {col:projects.name}. Project manager: {col:projects.manager}. Sponsor: {col:projects.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Projectmanager: Sponsor:",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.manager} {col:projects.sponsor}"
+},
+{
+"en": "We ask for {col:funding.requested} and ask you to approve it under the budget code {col:funding.budget_code}. The request was made on {col:funding.requested_on}.",
+"kind": "document",
+"max": null,
+"mt": "We vragen om {col:funding.requested} en vragen u om het te goedkeuren onder de begrotingscode {col:funding.budget_code}.",
+"why": "placeholders must be exactly: {col:funding.requested} {col:funding.budget_code} {col:funding.requested_on}"
+},
+{
+"en": "Current state: {col:funding.state}. Amount approved so far: {col:funding.approved}. Amount not approved: {col:funding.short}.",
+"kind": "document",
+"max": null,
+"mt": "Huidige toestand: {col:funding.state}. Tot nu toe goedgekeurd bedrag: {col:funding.approved}.",
+"why": "placeholders must be exactly: {col:funding.state} {col:funding.approved} {col:funding.short}"
+},
+{
+"en": "The baseline end is {col:projects.end} and the forecast end is {col:projects.forecast_end}. Days late: {col:projects.days_late}. Schedule: {col:projects.schedule}.",
+"kind": "document",
+"max": null,
+"mt": "De basislijn is {col:projects.end} en de prognose is {col:projects.forecast_end}.",
+"why": "placeholders must be exactly: {col:projects.end} {col:projects.forecast_end} {col:projects.days_late} {col:projects.schedule}"
+},
+{
+"en": "You are invited to the kick-off of the project, which starts on {col:projects.start}. The project runs until {col:projects.end}.",
+"kind": "document",
+"max": null,
+"mt": "U bent uitgenodigd voor de kick-off van het project, dat begint op {col:projects.start}.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end}"
+},
+{
+"en": "Project start-up confirmation to the client",
+"kind": "title",
+"max": 60,
+"mt": "Bevestiging van de start van het project aan de opdrachtgever",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "The start date is {col:projects.start} and the planned end date is {col:projects.end}. The budget is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "De startdatum is {col:projects.start} en de geplande einddatum is {col:projects.end}.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end} {col:projects.budget}"
+},
+{
+"en": "Funding requested and approved per project",
+"kind": "title",
+"max": 60,
+"mt": "Financiering die per project wordt aangevraagd en goedgekeurd",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "every task shows done, blocked, overdue, start late, slipping or due soon from your dates and percent done, with the owner and manager phones beside it",
+"kind": "sentence",
+"max": 160,
+"mt": "elke taak toont gedaan, geblokkeerd, achterstallig, laat beginnen, glijden of binnenkort van uw data en percentage gedaan, met de eigenaar en manager telefoons ernaast",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Dependency check with link types and lags",
+"kind": "label",
+"max": 50,
+"mt": "Afhankelijkheidscontrole met koppeltypen en vertraging",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "finish to start, start to start and finish to finish links with a lag or a lead are checked against the dates, and missing or circular links are flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "finish to start, start start en finish to finish links met een lag of een lead worden gecontroleerd tegen de data, en ontbrekende of cirkelvormige links worden gemarkeerd",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Three-point estimates with a width check",
+"kind": "label",
+"max": 50,
+"mt": "Schattingen van drie punten met een breedtecontrole",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "best, likely and worst hours give expected hours, the range and a width warning; finished tasks show actual against estimated hours by phase",
+"kind": "sentence",
+"max": 160,
+"mt": "beste, waarschijnlijke en slechtste uren geven verwachte uren, het bereik en een breedte waarschuwing; voltooide taken laten de werkelijke versus de geschatte uren per fase zien",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "twelve weeks of tasks starting and due, hours at an even pace, people away and holidays against capacity, with heavy and light weeks marked",
+"kind": "sentence",
+"max": 160,
+"mt": "twaalf weken van het opstarten en aflopen van taken, gelijkmatige uren, afwezigheid van mensen en vakanties tegenover de capaciteit, met gemarkeerde zware en lichte weken",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "tasks with little float get a driver, a watch owner and an action with a date, marked critical, watch or under control from your float limit",
+"kind": "sentence",
+"max": 160,
+"mt": "taken met weinig float krijgen een bestuurder, een horloge eigenaar en een actie met een datum, gemarkeerd als kritisch, kijken of onder controle van uw float limiet",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Delay register with cause and recovery action",
+"kind": "label",
+"max": 50,
+"mt": "Register van vertragingen met oorzaak en terugvorderingsmaatregelen",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "each late task has a cause, an owner and a recovery date, and the register shows which recoveries are overdue and what causes most delay",
+"kind": "sentence",
+"max": 160,
+"mt": "Elke vertraging heeft een oorzaak, een eigenaar en een terugvorderingstermijn en het register geeft aan welke terugvorderingen te laat zijn en wat de meeste vertraging veroorzaakt.",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Test",
+"kind": "list",
+"max": 30,
+"mt": "Test",
+"why": "not translated"
+},
+{
+"en": "Launch",
+"kind": "list",
+"max": 30,
+"mt": "Launch",
+"why": "not translated"
+},
+{
+"en": "Contract",
+"kind": "list",
+"max": 30,
+"mt": "Contract",
+"why": "not translated"
+},
+{
+"en": "Slip share",
+"kind": "label",
+"max": null,
+"mt": "Slip share",
+"why": "not translated"
+},
+{
+"en": "Task list: dates, owner, progress and what the schedule says",
+"kind": "title",
+"max": 60,
+"mt": "Taaklijst: data, eigenaar, voortgang en wat er in het schema staat",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Task dependencies: links, lags and a check for broken links",
+"kind": "title",
+"max": 60,
+"mt": "Afhankelijkheden van taken: verbindingen, vertraging en controle op kapotte verbindingen",
+"why": "too long: 88 characters, the limit is 60"
+},
+{
+"en": "Schedule baselines: every approved plan and how it moved",
+"kind": "title",
+"max": 60,
+"mt": "Schedule basislijnen: elk goedgekeurd plan en hoe het is verplaatst",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Schedule changes: what moved, why and who approved it",
+"kind": "title",
+"max": 60,
+"mt": "Schemawijzigingen: wat is verplaatst, waarom en wie heeft het goedgekeurd",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Delay register: late tasks, cause and recovery action",
+"kind": "title",
+"max": 60,
+"mt": "Register van vertragingen: vertragingen, oorzaken en herstelmaatregelen",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Company holidays: closure days that the plan must skip",
+"kind": "title",
+"max": 60,
+"mt": "Bedrijfsvakanties: sluitingsdagen die het plan moet overslaan",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Week",
+"kind": "label",
+"max": null,
+"mt": "Week",
+"why": "not translated"
+},
+{
+"en": "Estimate accuracy: estimated against actual hours",
+"kind": "title",
+"max": 60,
+"mt": "Schattingsnauwkeurigheid: geschat op basis van werkelijke uren",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Days moved by changes",
+"kind": "label",
+"max": 30,
+"mt": "Dagen verplaatst door veranderingen",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Project buffer sized from task uncertainty",
+"kind": "title",
+"max": 60,
+"mt": "De buffer van het project is afgestemd op de onzekerheid van de taak",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Forecast end date from percent done and time used",
+"kind": "title",
+"max": 60,
+"mt": "Voorspelbare einddatum uit percentage voltooid en gebruikte tijd",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, your task {name} on {project} starts on {start}. Please confirm that you can begin and tell me about any blocker. Baseline end: {end}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {owner}, uw taak {name} op {project} begint op {start}.",
+"why": "placeholders must be exactly: {owner} {name} {project} {start} {end}"
+},
+{
+"en": "Hello {owner}, the work before {name} on {project} is finished (status {pred_state}). You can start now. The baseline start was {start}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {owner}, het werk voor {name} op {project} is voltooid (status {pred_state}).",
+"why": "placeholders must be exactly: {owner} {name} {project} {pred_state} {start}"
+},
+{
+"en": "Hello {estimator}, please send your three-point estimate for {name} on {project}: best, likely and worst hours. The task estimate now is {task_hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {estimator}, stuur alsjeblieft uw driepuntsschatting voor {name} op {project}: beste, waarschijnlijke en slechtste uren.",
+"why": "placeholders must be exactly: {estimator} {name} {project} {task_hours}"
+},
+{
+"en": "Hello {manager}, the critical task {name} on {project} has {float_days} days of float and is {days_late} days late. Driver: {driver}. Action: {action}, due {due}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {manager}, de kritische taak {name} op {project} heeft {float_days} dagen van float en is {days_late} dagen te laat.",
+"why": "placeholders must be exactly: {manager} {name} {project} {float_days} {days_late} {driver} {action} {due}"
+}
+]

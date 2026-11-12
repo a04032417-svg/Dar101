@@ -1,0 +1,65 @@
+[
+{
+"en": "every task shows done, blocked, overdue, start late, slipping or due soon from your dates and percent done, with the owner and manager phones beside it",
+"kind": "sentence",
+"max": 160,
+"mt": "हर कार्य दिखाता है किया, अवरुद्ध, देरी, देर से शुरू, फिसलने या अपनी तारीखों और प्रतिशत से जल्द ही समाप्त होने के कारण, इसके बगल में मालिक और प्रबंधक के फोन के साथ",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "finish to start, start to start and finish to finish links with a lag or a lead are checked against the dates, and missing or circular links are flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "शुरू करने के लिए समाप्त करें, शुरू करने के लिए शुरू करें और समाप्त करने के लिए समाप्त करें एक देरी या लीड के साथ लिंक तिथियों के खिलाफ जाँच की जाती है, और लापता या परिपत्र लिंक चिह्नित होते हैं",
+"why": "too long: 193 characters, the limit is 160"
+},
+{
+"en": "each late task has a cause, an owner and a recovery date, and the register shows which recoveries are overdue and what causes most delay",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक विलंबित कार्य का एक कारण, एक मालिक और एक पुनर्प्राप्ति तिथि होती है और रजिस्टर में दिखाया जाता है कि कौन से पुनर्प्राप्ति विलंबित हैं और सबसे अधिक देरी का कारण क्या है",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Rework after review",
+"kind": "list",
+"max": 30,
+"mt": "पुनरीक्षण के बाद पुनः कार्य करना",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Finish to finish",
+"kind": "list",
+"max": 30,
+"mt": "समाप्त करने के लिए समाप्त करने के लिए",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Task list: dates, owner, progress and what the schedule says",
+"kind": "title",
+"max": 60,
+"mt": "कार्य सूचीः दिनांक, मालिक, प्रगति और कार्यक्रम में क्या कहा गया है",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Schedule baselines: every approved plan and how it moved",
+"kind": "title",
+"max": 60,
+"mt": "अनुसूची की आधारभूत रेखाएं: प्रत्येक स्वीकृत योजना और उसका विकास",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Schedule changes: what moved, why and who approved it",
+"kind": "title",
+"max": 60,
+"mt": "कार्यक्रम में परिवर्तनः क्या स्थानांतरित किया गया, क्यों और किसने इसे मंजूरी दी",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Company holidays: closure days that the plan must skip",
+"kind": "title",
+"max": 60,
+"mt": "कंपनी की छुट्टियांः बंद होने के दिन जिन्हें योजना में छोड़ना चाहिए",
+"why": "too long: 66 characters, the limit is 60"
+}
+]

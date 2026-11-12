@@ -1,0 +1,184 @@
+[
+{
+"en": "We ask for {col:funding.requested} and ask you to approve it under the budget code {col:funding.budget_code}. The request was made on {col:funding.requested_on}.",
+"kind": "document",
+"max": null,
+"mt": "Мы просим {col:funding.requested} и просим вас одобрить его в соответствии с бюджетом {col:funding.budget_code}.",
+"why": "placeholders must be exactly: {col:funding.requested} {col:funding.budget_code} {col:funding.requested_on}"
+},
+{
+"en": "You are invited to the kick-off of the project, which starts on {col:projects.start}. The project runs until {col:projects.end}.",
+"kind": "document",
+"max": null,
+"mt": "Вас приглашают на старт проекта, который начинается в {col:projects.start}.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end}"
+},
+{
+"en": "The start date is {col:projects.start} and the planned end date is {col:projects.end}. The budget is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "Дата начала {col:projects.start} и запланированная дата окончания {col:projects.end}.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end} {col:projects.budget}"
+},
+{
+"en": "Task list with live state and days late",
+"kind": "label",
+"max": 50,
+"mt": "Список задач с активным состоянием и днями задержки",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "every task shows done, blocked, overdue, start late, slipping or due soon from your dates and percent done, with the owner and manager phones beside it",
+"kind": "sentence",
+"max": 160,
+"mt": "Каждое задание показывает выполненное, заблокированное, просроченное, начало поздно, скольжение или скорое выполнение с даты и процент выполненного, с телефонами владельца и менеджера рядом с ним",
+"why": "too long: 195 characters, the limit is 160"
+},
+{
+"en": "best, likely and worst hours give expected hours, the range and a width warning; finished tasks show actual against estimated hours by phase",
+"kind": "sentence",
+"max": 160,
+"mt": "лучшие, вероятные и худшие часы дают ожидаемые часы, диапазон и ширину предупреждения; завершенные задачи показывают фактические против предполагаемых часов по фазе",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "twelve weeks of tasks starting and due, hours at an even pace, people away and holidays against capacity, with heavy and light weeks marked",
+"kind": "sentence",
+"max": 160,
+"mt": "двенадцать недель начинания и окончания заданий, часы в равномерном темпе, отсутствие людей и праздники в зависимости от возможностей, с отмеченными тяжелыми и легкими неделями",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "tasks with little float get a driver, a watch owner and an action with a date, marked critical, watch or under control from your float limit",
+"kind": "sentence",
+"max": 160,
+"mt": "задачи с небольшим плавающим получите водителя, владельца часов и действия с датой, отмеченные критическими, наблюдать или под контролем от вашего ограничения плавающего",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Delay register with cause and recovery action",
+"kind": "label",
+"max": 50,
+"mt": "Регистр задержек с причиной и действиями по восстановлению",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Fixed dates with spare days and penalty exposure",
+"kind": "label",
+"max": 50,
+"mt": "Фиксированные даты с свободными днями и штрафным риском",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Projects: baseline, forecast and schedule health",
+"kind": "title",
+"max": 60,
+"mt": "Проекты: исходное, прогнозное и графическое состояние здоровья",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Phone number of the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "Номер телефона ведущего PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "WBS ID",
+"kind": "label",
+"max": null,
+"mt": "Идентификатор WBS",
+"why": "English/Latin words left: WBS"
+},
+{
+"en": "Task list: dates, owner, progress and what the schedule says",
+"kind": "title",
+"max": 60,
+"mt": "Список задач: даты, владелец, прогресс и что говорится в графике",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Task dependencies: links, lags and a check for broken links",
+"kind": "title",
+"max": 60,
+"mt": "Зависимость задачи: ссылки, задержки и проверка на нарушенные ссылки",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Schedule baselines: every approved plan and how it moved",
+"kind": "title",
+"max": 60,
+"mt": "Расписание основных направлений: каждый утвержденный план и то, как он продвигается",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Schedule changes: what moved, why and who approved it",
+"kind": "title",
+"max": 60,
+"mt": "Изменения графика: что было перемещено, почему и кто это одобрил",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Delay register: late tasks, cause and recovery action",
+"kind": "title",
+"max": 60,
+"mt": "Регистр задержек: задержки выполнения задач, причины и действия по восстановлению",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Company holidays: closure days that the plan must skip",
+"kind": "title",
+"max": 60,
+"mt": "Праздники компании: дни закрытия, которые план должен пропустить",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Forecast end date from percent done and time used",
+"kind": "title",
+"max": 60,
+"mt": "Прогнозная конечная дата из процентов выполненных работ и времени, использованного",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Catch-up plan: extra hours per week to recover",
+"kind": "title",
+"max": 60,
+"mt": "План восстановления: дополнительные часы в неделю для восстановления",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, your task {name} on {project} starts on {start}. Please confirm that you can begin and tell me about any blocker. Baseline end: {end}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {owner}, ваша задача {name} на {project} начинается на {start}. Пожалуйста, подтвердите, что вы можете начать и расскажите мне о любом блокировщике.",
+"why": "placeholders must be exactly: {owner} {name} {project} {start} {end}"
+},
+{
+"en": "Hello {owner}, {name} on {project} is due on {forecast}. Please tell me today if it will not be finished and what you need.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, скажите мне сегодня, если это не будет закончено и что вам нужно.",
+"why": "placeholders must be exactly: {owner} {name} {project} {forecast}"
+},
+{
+"en": "Hello {estimator}, please send your three-point estimate for {name} on {project}: best, likely and worst hours. The task estimate now is {task_hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {estimator}, пожалуйста, присылайте свою трехточечную оценку {name} на {project}: лучшие, вероятные и худшие часы.",
+"why": "placeholders must be exactly: {estimator} {name} {project} {task_hours}"
+},
+{
+"en": "Hello {staff}, your leave from {start} to {end} meets {rel_n} planned releases that you own. Please tell me who covers before you go.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, ваш отпуск от 1 до 2 встречает запланированные выпуски, которые у вас есть.",
+"why": "placeholders must be exactly: {staff} {start} {end} {rel_n}"
+},
+{
+"en": "Hello {manager}, the critical task {name} on {project} has {float_days} days of float and is {days_late} days late. Driver: {driver}. Action: {action}, due {due}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {manager}, критическая задача {name} на {project} имеет {float_days} дней плавания и задерживается {days_late} дней.",
+"why": "placeholders must be exactly: {manager} {name} {project} {float_days} {days_late} {driver} {action} {due}"
+}
+]
