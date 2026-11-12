@@ -1,0 +1,51 @@
+[
+{
+"en": "The baseline end is {col:projects.end} and the forecast end is {col:projects.forecast_end}. Days late: {col:projects.days_late}. Schedule: {col:projects.schedule}.",
+"kind": "document",
+"max": null,
+"mt": "نهاية الخط الأساسي هي {col:projects.end} والنهاية المتوقعة هي {col:projects.forecast_end}.",
+"why": "placeholders must be exactly: {col:projects.end} {col:projects.forecast_end} {col:projects.days_late} {col:projects.schedule}"
+},
+{
+"en": "You are invited to the kick-off of the project, which starts on {col:projects.start}. The project runs until {col:projects.end}.",
+"kind": "document",
+"max": null,
+"mt": "نحن ندعوكم إلى إطلاق المشروع، والذي يبدأ في {col:projects.start}.",
+"why": "placeholders must be exactly: {col:projects.start} {col:projects.end}"
+},
+{
+"en": "Phone number of the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "رقم الهاتف للشخص المسؤول عن PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "WBS ID",
+"kind": "label",
+"max": null,
+"mt": "رقم تعريف WBS",
+"why": "English/Latin words left: WBS"
+},
+{
+"en": "Task list: dates, owner, progress and what the schedule says",
+"kind": "title",
+"max": 60,
+"mt": "قائمة المهام: التواريخ، المالك، التقدم وما يقوله الجدول الزمني",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Forecast end date from percent done and time used",
+"kind": "title",
+"max": 60,
+"mt": "التاريخ النهائي المتوقع من النسبة المئوية للقيام والوقت المستخدم",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello {staff}, your leave from {start} to {end} meets {rel_n} planned releases that you own. Please tell me who covers before you go.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، إجازتك من 1 إلى 2 تلبي المواعيد المقررة التي تملكها. من فضلك أخبرني من يغطي قبل أن تذهب.",
+"why": "placeholders must be exactly: {staff} {start} {end} {rel_n}"
+}
+]
