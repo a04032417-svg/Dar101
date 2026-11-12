@@ -1,0 +1,72 @@
+[
+{
+"en": "Run site safety, quality checks, snag lists and handover in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "निर्माण स्थल की सुरक्षा, गुणवत्ता जांच, ठीक करने के लिए दोषों की सूची और एक कार्यपुस्तिका में सौंपें",
+"why": "too long: 100 characters, the limit is 80"
+},
+{
+"en": "items checked and failed give a pass rate for each visit, a result against your own pass mark and a warning for any site that has not been inspected in time",
+"kind": "sentence",
+"max": 160,
+"mt": "जांचे गए और विफल आइटम प्रत्येक विज़िट के लिए एक पास दर देते हैं, आपके स्वयं के पास चिह्न के विरुद्ध एक परिणाम और किसी भी निर्माण स्थल के लिए चेतावनी जिसका समय पर निरीक्षण नहीं किया गया है",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "Corrective actions chased to closure",
+"kind": "label",
+"max": 50,
+"mt": "सुधारात्मक कार्रवाइयों को बंद करने के लिए पीछा किया गया",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Concrete cube results checked against the grade",
+"kind": "label",
+"max": 50,
+"mt": "ग्रेड के विरुद्ध कंक्रीट क्यूब के परिणामों की जाँच की गई",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Sites with their safety, quality and snag position",
+"kind": "title",
+"max": 60,
+"mt": "निर्माण स्थलों को उनकी सुरक्षा, गुणवत्ता और दोष के साथ स्थिति ठीक करने के लिए",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Emergency drills and how fast the site responded",
+"kind": "title",
+"max": 60,
+"mt": "आपातकालीन अभ्यास और निर्माण स्थल ने कितनी तेजी से प्रतिक्रिया दी",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Incidents, inspections, snags and defects by month",
+"kind": "title",
+"max": 60,
+"mt": "घटनाएँ, निरीक्षण, दोषों को ठीक करना और दोषों को महीने के अनुसार",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "PPE reorder point and quantity",
+"kind": "title",
+"max": 60,
+"mt": "व्यक्तिगत सुरक्षा उपकरण बिंदु और मात्रा को पुनः व्यवस्थित करें",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Project: {col:warr.site}. Item: {col:warr.item}. Supplier: {col:warr.supplier}.",
+"kind": "document",
+"max": null,
+"mt": "प्रोजेक्ट: {col:warr.site}. वस्तु 1}। आपूर्तिकर्ता: {col:warr.supplier}.",
+"why": "placeholders must be exactly: {col:warr.site} {col:warr.item} {col:warr.supplier}"
+},
+{
+"en": "Concrete cubes tested by month",
+"kind": "title",
+"max": 60,
+"mt": "कंक्रीट कंक्रीट परीक्षण के नमूनों का महीने के हिसाब से परीक्षण किया गया",
+"why": "too long: 71 characters, the limit is 60"
+}
+]

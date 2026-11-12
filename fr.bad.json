@@ -1,0 +1,247 @@
+[
+{
+"en": "Run site safety, quality checks, snag lists and handover in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Exécutez la sécurité du chantier de construction, les contrôles de qualité, la liste des défauts à corriger et la remise dans un seul classeur",
+"why": "too long: 142 characters, the limit is 80"
+},
+{
+"en": "Control site safety, quality, snags and handover",
+"kind": "sentence",
+"max": 80,
+"mt": "Contrôler la sécurité, la qualité, les défauts à réparer et la remise du chantier",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Weekly site inspections with a pass mark",
+"kind": "label",
+"max": 50,
+"mt": "Inspections hebdomadaires des chantiers de construction avec une note de passage",
+"why": "too long: 80 characters, the limit is 50"
+},
+{
+"en": "items checked and failed give a pass rate for each visit, a result against your own pass mark and a warning for any site that has not been inspected in time",
+"kind": "sentence",
+"max": 160,
+"mt": "les éléments vérifiés et échoués donnent un taux de réussite pour chaque visite, un résultat par rapport à votre propre note de passage et un avertissement pour tout chantier de construction qui n'a pas été inspecté à temps",
+"why": "too long: 223 characters, the limit is 160"
+},
+{
+"en": "every incident and near miss shows if it is recordable, how long it has been open and feeds the incident rate per 200,000 hours worked",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque incident et quasi-incident indique s'il est enregistrable, depuis combien de temps il est ouvert et alimente le taux d'incidents pour 200 000 heures travaillées",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "likelihood times severity gives a score and a level for each risk assessment and method statement, with the date the review is due",
+"kind": "sentence",
+"max": 160,
+"mt": "la probabilité multipliée par la gravité donne une note et un niveau pour chaque évaluation des risques et chaque énoncé de méthode, avec la date à laquelle l'examen doit être effectué",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "each worker's certificates show the expiry date and a warning before they end, so nobody works on a task without a valid course",
+"kind": "sentence",
+"max": 160,
+"mt": "les certificats de chaque travailleur indiquent la date d'expiration et un avertissement avant leur fin, afin que personne ne travaille sur une tâche sans un cours valide",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Corrective actions chased to closure",
+"kind": "label",
+"max": 50,
+"mt": "Actions correctives poursuivies jusqu’à leur clôture",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "actions from inspections, incidents and audits show due date, days late and owner, with a message ready to send",
+"kind": "sentence",
+"max": 160,
+"mt": "les actions issues des inspections, des incidents et des audits indiquent la date d'échéance, les jours de retard et le propriétaire, avec un message prêt à être envoyé",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Concrete cube results checked against the grade",
+"kind": "label",
+"max": 50,
+"mt": "Résultats des cubes de béton vérifiés par rapport à la qualité",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "Snag list for hundreds of items",
+"kind": "label",
+"max": 50,
+"mt": "Liste des défauts à corriger pour des centaines d'articles",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "every snag has a location, trade, subcontractor and due date, and the closure forecast shows the date the list will be empty",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque défaut à corriger a un lieu, un métier, un sous-traitant et une date d'échéance, et la prévision de fermeture indique la date à laquelle la liste sera vide",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "defects show days open and repair cost, and each warranty shows its expiry so a claim is made before the cover ends",
+"kind": "sentence",
+"max": 160,
+"mt": "les défauts indiquent les jours d'ouverture et le coût de réparation, et chaque garantie indique son expiration afin qu'une demande de paiement soit effectuée avant la fin de la couverture",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Machinery and plant",
+"kind": "list",
+"max": 30,
+"mt": "Machines et matériel de chantier",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Incident",
+"kind": "list",
+"max": 30,
+"mt": "Incident",
+"why": "not translated"
+},
+{
+"en": "First aid response",
+"kind": "list",
+"max": 30,
+"mt": "Intervention de premiers secours",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Spill response",
+"kind": "list",
+"max": 30,
+"mt": "Intervention en cas de déversement",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Operation and maintenance manuals",
+"kind": "list",
+"max": 30,
+"mt": "Manuels d'utilisation et d'entretien",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Test and commissioning certificates",
+"kind": "list",
+"max": 30,
+"mt": "Certificats de test et de mise en service",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Sites with their safety, quality and snag position",
+"kind": "title",
+"max": 60,
+"mt": "Chantiers de construction avec leur sécurité, leur qualité et leurs défauts pour fixer la position",
+"why": "too long: 98 characters, the limit is 60"
+},
+{
+"en": "Incidents",
+"kind": "label",
+"max": null,
+"mt": "Incidents",
+"why": "not translated"
+},
+{
+"en": "Toolbox talks held on site",
+"kind": "title",
+"max": 60,
+"mt": "Briefing de sécurité organisé sur le chantier de construction",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Permits to work: hot work, height, excavation and more",
+"kind": "title",
+"max": 60,
+"mt": "Permis de travaux : travaux à chaud, hauteur, excavation et plus",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Safety observations from walks around the site",
+"kind": "title",
+"max": 60,
+"mt": "Observations de sécurité lors des promenades autour du chantier",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Corrective actions from inspections, incidents and audits",
+"kind": "title",
+"max": 60,
+"mt": "Actions correctives suite aux inspections, incidents et audits",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Safety training matrix: who holds which certificate",
+"kind": "title",
+"max": 60,
+"mt": "Matrice de formation à la sécurité : qui détient quel certificat",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Emergency drills and how fast the site responded",
+"kind": "title",
+"max": 60,
+"mt": "Exercices d'urgence et rapidité de réponse du chantier de construction",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Incidents, inspections, snags and defects by month",
+"kind": "title",
+"max": 60,
+"mt": "Incidents, inspections, défauts à corriger et défauts par mois",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Failed inspection items",
+"kind": "label",
+"max": 30,
+"mt": "Éléments d'inspection ayant échoué",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Snag closure forecast for one site",
+"kind": "title",
+"max": 60,
+"mt": "Prévision de fermeture de défaut pour un chantier de construction",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Concrete strength check from cube results",
+"kind": "title",
+"max": 60,
+"mt": "Vérification de la résistance du béton à partir des résultats du cube",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Documents 80%",
+"kind": "label",
+"max": null,
+"mt": "Documents 80%",
+"why": "not translated"
+},
+{
+"en": "Near miss ratio: how many warnings for each injury",
+"kind": "title",
+"max": 60,
+"mt": "Taux d'incidents évités de justesse : combien d'avertissements pour chaque blessure",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Observations",
+"kind": "label",
+"max": 30,
+"mt": "Observations",
+"why": "not translated"
+},
+{
+"en": "Cubes",
+"kind": "label",
+"max": 30,
+"mt": "Cubes",
+"why": "not translated"
+}
+]

@@ -1,0 +1,331 @@
+[
+{
+"en": "Run site safety, quality checks, snag lists and handover in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Обеспечивайте безопасность на строительной площадке, проверки качества, список дефектов, которые необходимо исправить и передать в одной рабочей книге.",
+"why": "too long: 151 characters, the limit is 80"
+},
+{
+"en": "Control site safety, quality, snags and handover",
+"kind": "sentence",
+"max": 80,
+"mt": "Контролировать безопасность, качество строительной площадки, дефекты, подлежащие устранению и сдаче.",
+"why": "too long: 100 characters, the limit is 80"
+},
+{
+"en": "Weekly site inspections with a pass mark",
+"kind": "label",
+"max": 50,
+"mt": "Еженедельные проверки строительной площадки с проходной оценкой",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "items checked and failed give a pass rate for each visit, a result against your own pass mark and a warning for any site that has not been inspected in time",
+"kind": "sentence",
+"max": 160,
+"mt": "пункты, проверенные и не прошедшие проверку, дают оценку проходимости для каждого посещения, результат относительно вашей собственной проходной отметки и предупреждение для любой строительной площадки, которая не была проверена вовремя.",
+"why": "too long: 236 characters, the limit is 160"
+},
+{
+"en": "every incident and near miss shows if it is recordable, how long it has been open and feeds the incident rate per 200,000 hours worked",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый инцидент и инцидент, близкий к происшествию, показывает, можно ли его записать, как долго он был открыт, а также дает информацию о частоте инцидентов на 200 000 отработанных часов.",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "hot work, height, excavation and other permits show their expiry and flag any permit left open after it ended",
+"kind": "sentence",
+"max": 160,
+"mt": "разрешения на огневые работы, высотные работы, земляные работы и другие разрешения указывают на срок их действия и отмечают все разрешения, оставшиеся открытыми после их окончания.",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Training matrix with certificate expiry",
+"kind": "label",
+"max": 50,
+"mt": "Матрица обучения с истечением срока действия сертификата",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "each worker's certificates show the expiry date and a warning before they end, so nobody works on a task without a valid course",
+"kind": "sentence",
+"max": 160,
+"mt": "в сертификатах каждого работника указана дата истечения срока действия и предупреждение перед их окончанием, поэтому никто не будет работать над заданием без действующего курса.",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Snag list for hundreds of items",
+"kind": "label",
+"max": 50,
+"mt": "Список дефектов, которые нужно исправить для сотен предметов",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "every snag has a location, trade, subcontractor and due date, and the closure forecast shows the date the list will be empty",
+"kind": "sentence",
+"max": 160,
+"mt": "у каждого дефекта, который необходимо исправить, есть местоположение, компания, субподрядчик и срок выполнения, а прогноз закрытия показывает дату, когда список станет пустым.",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "defects show days open and repair cost, and each warranty shows its expiry so a claim is made before the cover ends",
+"kind": "sentence",
+"max": 160,
+"mt": "на дефектах указаны дни открытия и стоимость ремонта, а для каждой гарантии указано истечение срока ее действия, поэтому требование об оплате подается до истечения срока действия покрытия.",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Machinery and plant",
+"kind": "list",
+"max": 30,
+"mt": "Машины и строительное оборудование",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Site induction",
+"kind": "list",
+"max": 30,
+"mt": "Инструктаж на строительной площадке",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Operation and maintenance manuals",
+"kind": "list",
+"max": 30,
+"mt": "Руководства по эксплуатации и техническому обслуживанию",
+"why": "too long: 55 characters, the limit is 30"
+},
+{
+"en": "Test and commissioning certificates",
+"kind": "list",
+"max": 30,
+"mt": "Сертификаты испытаний и ввода в эксплуатацию",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Health and safety file",
+"kind": "list",
+"max": 30,
+"mt": "Файл по охране труда и технике безопасности",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Final clean certificate",
+"kind": "list",
+"max": 30,
+"mt": "Окончательный сертификат чистоты",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Sites with their safety, quality and snag position",
+"kind": "title",
+"max": 60,
+"mt": "Строительные площадки с их безопасностью, качеством и дефектами для фиксации положения",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Severity 1 to 5",
+"kind": "label",
+"max": null,
+"mt": "Severity 1 to 5",
+"why": "English/Latin words left: Severity to"
+},
+{
+"en": "Lost days",
+"kind": "label",
+"max": null,
+"mt": "Lost days",
+"why": "English/Latin words left: Lost days"
+},
+{
+"en": "Toolbox talks held on site",
+"kind": "title",
+"max": 60,
+"mt": "На строительной площадке прошел инструктаж по технике безопасности",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Talk no",
+"kind": "label",
+"max": null,
+"mt": "Talk no",
+"why": "English/Latin words left: Talk no"
+},
+{
+"en": "Attendees",
+"kind": "label",
+"max": null,
+"mt": "Attendees",
+"why": "English/Latin words left: Attendees"
+},
+{
+"en": "Person minutes",
+"kind": "label",
+"max": null,
+"mt": "Person minutes",
+"why": "English/Latin words left: Person minutes"
+},
+{
+"en": "Permits to work: hot work, height, excavation and more",
+"kind": "title",
+"max": 60,
+"mt": "Разрешения на работы: огневые работы, высотные работы, земляные работы и многое другое",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Days valid",
+"kind": "label",
+"max": null,
+"mt": "Days valid",
+"why": "English/Latin words left: Days valid"
+},
+{
+"en": "Likelihood 1 to 5",
+"kind": "label",
+"max": null,
+"mt": "Likelihood 1 to 5",
+"why": "English/Latin words left: Likelihood to"
+},
+{
+"en": "Review every, days",
+"kind": "label",
+"max": null,
+"mt": "Review every, days",
+"why": "English/Latin words left: Review every days"
+},
+{
+"en": "Risk score",
+"kind": "label",
+"max": null,
+"mt": "Risk score",
+"why": "English/Latin words left: Risk score"
+},
+{
+"en": "Next review",
+"kind": "label",
+"max": null,
+"mt": "Next review",
+"why": "English/Latin words left: Next review"
+},
+{
+"en": "Review status",
+"kind": "label",
+"max": null,
+"mt": "Review status",
+"why": "English/Latin words left: Review status"
+},
+{
+"en": "Life, days",
+"kind": "label",
+"max": null,
+"mt": "Life, days",
+"why": "English/Latin words left: Life days"
+},
+{
+"en": "Safety observations from walks around the site",
+"kind": "title",
+"max": 60,
+"mt": "Наблюдения за безопасностью во время прогулок по строительной площадке",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Corrective actions from inspections, incidents and audits",
+"kind": "title",
+"max": 60,
+"mt": "Корректирующие действия в результате проверок, инцидентов и аудитов",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Safety training matrix: who holds which certificate",
+"kind": "title",
+"max": 60,
+"mt": "Матрица обучения технике безопасности: у кого какой сертификат",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Emergency drills and how fast the site responded",
+"kind": "title",
+"max": 60,
+"mt": "Учения по чрезвычайным ситуациям и как быстро отреагировали на строительной площадке",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Handover documents checklist for each project",
+"kind": "title",
+"max": 60,
+"mt": "Контрольный список документов по передаче для каждого проекта",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Defects reported during the defects period",
+"kind": "title",
+"max": 60,
+"mt": "Дефекты, обнаруженные в течение периода ответственности за дефекты",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Incidents, inspections, snags and defects by month",
+"kind": "title",
+"max": 60,
+"mt": "Инциденты, проверки, дефекты, подлежащие устранению, и дефекты по месяцам",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Failed inspection items",
+"kind": "label",
+"max": 30,
+"mt": "Элементы, не прошедшие проверку",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Site safety sheet with the latest inspections",
+"kind": "title",
+"max": 60,
+"mt": "Паспорт безопасности строительной площадки с последними проверками",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Training certificates that end soon",
+"kind": "title",
+"max": 60,
+"mt": "Сертификаты обучения, срок действия которых скоро заканчивается",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Near miss ratio: how many warnings for each injury",
+"kind": "title",
+"max": 60,
+"mt": "Коэффициент аварийных происшествий: сколько предупреждений за каждую травму",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Snags",
+"kind": "label",
+"max": 30,
+"mt": "Дефекты, которые нужно исправить",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Record each weekly walk on Site Inspections with the items checked and failed. The pass rate and result fill in, and a site that is not inspected in time turns red.",
+"kind": "sentence",
+"max": null,
+"mt": "Записывайте каждую еженедельную прогулку по Construction site inspections с проверенными и неудавшимися элементами. Проходимость и результат заполняются, и не проверенная вовремя стройка окрашивается в красный цвет.",
+"why": "English/Latin words left: Construction site inspections"
+},
+{
+"en": "Keep Training Matrix, PPE Issued, Toolbox Talks, Safety Observations and Emergency Drills current. Certificates and PPE show their end date.",
+"kind": "sentence",
+"max": null,
+"mt": "Поддерживайте актуальность Матрица обучения, personal protective equipment issued, Переговоры с набором инструментов, Замечания по безопасности и Аварийные учения. В сертификатах и ​​средствах индивидуальной защиты указана дата окончания их действия.",
+"why": "English/Latin words left: personal protective equipment issued"
+},
+{
+"en": "Read Safety and Quality Dashboard and Charts every week: incidents, inspections, permits, actions, certificates, snags and handover.",
+"kind": "sentence",
+"max": null,
+"mt": "Каждую неделю читайте Safety and quality dashboard и графики: инциденты, проверки, разрешения, действия, сертификаты, дефекты, которые необходимо исправить и передать.",
+"why": "English/Latin words left: Safety and quality dashboard"
+}
+]

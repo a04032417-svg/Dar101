@@ -1,0 +1,128 @@
+[
+{
+"en": "Read Receivables Ageing every week, log calls on Overdue Follow-up and record disputes on Disputed Amounts.",
+"kind": "sentence",
+"max": null,
+"mt": "ہر ہفتے Receivables عمر بڑھنے پڑھیں، اوور ڈیو فالو اپ کو کال کریں اور متنازعہ رقم کو تنازعات ریکارڈ کریں۔",
+"why": "English/Latin words left: Receivables"
+},
+{
+"en": "Run site safety, quality checks, snag lists and handover in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "تعمیراتی سائٹ کی حفاظت، معیار کی جانچ، ٹھیک کرنے کے لیے نقائص کی فہرست اور ایک ورک بک میں حوالے کریں۔",
+"why": "too long: 101 characters, the limit is 80"
+},
+{
+"en": "Control site safety, quality, snags and handover",
+"kind": "sentence",
+"max": 80,
+"mt": "کنسٹرکشن سائٹ کی حفاظت، معیار، ٹھیک کرنے اور حوالے کرنے کے لیے نقائص کو کنٹرول کریں۔",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "items checked and failed give a pass rate for each visit, a result against your own pass mark and a warning for any site that has not been inspected in time",
+"kind": "sentence",
+"max": 160,
+"mt": "آئٹمز کی جانچ پڑتال اور ناکام ہونے پر ہر وزٹ کے لیے پاس ریٹ دیا جاتا ہے، جس کا نتیجہ آپ کے اپنے پاس مارک کے خلاف ہوتا ہے اور کسی بھی تعمیراتی سائٹ کے لیے وارننگ جس کا بروقت معائنہ نہیں کیا گیا ہو۔",
+"why": "too long: 196 characters, the limit is 160"
+},
+{
+"en": "every incident and near miss shows if it is recordable, how long it has been open and feeds the incident rate per 200,000 hours worked",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر واقعہ اور قریب سے مس ہونے والا واقعہ ظاہر کرتا ہے کہ آیا یہ قابل ریکارڈ ہے، یہ کتنے عرصے سے کھلا ہے اور فی 200,000 گھنٹے کام کرنے والے واقعے کی شرح کو فیڈ کرتا ہے۔",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Operation and maintenance manuals",
+"kind": "list",
+"max": 30,
+"mt": "آپریشن اور دیکھ بھال کے دستورالعمل",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Sites with their safety, quality and snag position",
+"kind": "title",
+"max": 60,
+"mt": "تعمیراتی سائٹس اپنی حفاظت، معیار اور خرابی کے ساتھ پوزیشن کو ٹھیک کرنے کے لیے",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "One row for each non-conformance with its trade, severity and cost; status, days open and month fill in, and old ones turn overdue.",
+"kind": "sentence",
+"max": null,
+"mt": "اس کی تجارت، شدت اور لاگت کے ساتھ ہر عدم مطابقت کے لیے ایک قطار؛ حیثیت، دن کھلتے ہیں اور مہینے بھر جاتے ہیں، اور پرانے وقت سے زائد ہو جاتے ہیں۔",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Incidents, inspections, snags and defects by month",
+"kind": "title",
+"max": 60,
+"mt": "واقعات، معائنے، ٹھیک کرنے کے لیے نقائص اور مہینے کے حساب سے نقائص",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Non-conformance report",
+"kind": "title",
+"max": 60,
+"mt": "غیر مطابقت کی رپورٹ",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Strength at 7 days, MPa",
+"kind": "label",
+"max": null,
+"mt": "7 دن میں طاقت، MPa",
+"why": "English/Latin words left: MPa"
+},
+{
+"en": "Near miss ratio: how many warnings for each injury",
+"kind": "title",
+"max": 60,
+"mt": "قریب سے مس ہونے والے واقعے کا تناسب: ہر چوٹ کے لیے کتنی وارننگز",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Rework cost of non-conformances in the register",
+"kind": "label",
+"max": null,
+"mt": "رجسٹر میں عدم مطابقت کی دوبارہ کام کی لاگت",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Send a non-conformance notice",
+"kind": "label",
+"max": null,
+"mt": "عدم مطابقت کا نوٹس بھیجیں۔",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Non-conformance notice to a subcontractor",
+"kind": "title",
+"max": 60,
+"mt": "ذیلی ٹھیکیدار کو عدم مطابقت کا نوٹس",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Non-conformance notice from {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "{set:firm} سے عدم مطابقت کا نوٹس، تاریخ {today}۔",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Snag items raised and closed by month",
+"kind": "title",
+"max": 60,
+"mt": "خرابی والی اشیاء کو مہینے کے حساب سے اٹھایا اور بند کر دیا گیا۔",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "For quality, use Quality Inspections, Concrete Tests and Non-conformance Reports. Cubes are compared with the strength required and old reports turn overdue.",
+"kind": "sentence",
+"max": null,
+"mt": "معیار کے لیے، معیار کے معائنہ، کنکریٹ ٹیسٹ اور غیر مطابقت کی رپورٹس استعمال کریں۔ کیوبز کا تقابل درکار طاقت سے کیا جاتا ہے اور پرانی رپورٹیں التوا میں پڑ جاتی ہیں۔",
+"why": "never use the word for \"compatible\""
+}
+]
