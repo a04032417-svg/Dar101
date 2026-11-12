@@ -1,0 +1,212 @@
+[
+{
+"en": "each field's planned crop is compared with the last five seasons and flagged for the same crop or family again and for too few rest years",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر کھیت کی منصوبہ بندی کی فصل کا پچھلے پانچ موسموں کے ساتھ موازنہ کیا جاتا ہے اور اسی فصل یا خاندان کے لئے ایک بار پھر اور بہت کم آرام کے سالوں کے لئے نشان لگا دیا جاتا ہے",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Soil tests with pH and organic matter checks",
+"kind": "label",
+"max": 50,
+"mt": "پی ایچ اور نامیاتی مادہ کی جانچ کے ساتھ مٹی کے ٹیسٹ",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Centre pivot",
+"kind": "list",
+"max": 30,
+"mt": "سینٹرل سینٹرل پوائنٹ آبپاشی مشین",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Crop target, t/ha",
+"kind": "label",
+"max": null,
+"mt": "فصل کا ہدف، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Rotation check: the planned crop against what grew before",
+"kind": "title",
+"max": 60,
+"mt": "روٹیشن چیک: منصوبہ بندی کی فصل اس سے پہلے بڑھنے کے مقابلے میں",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Yield targets against what each field has really produced",
+"kind": "title",
+"max": 60,
+"mt": "ہر فیلڈ نے اصل میں کیا پیدا کیا ہے اس کے مقابلے میں پیداوار کے اہداف",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Target, t/ha",
+"kind": "label",
+"max": null,
+"mt": "ہدف، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Crop standard, t/ha",
+"kind": "label",
+"max": null,
+"mt": "فصل کا معیار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Average of past, t/ha",
+"kind": "label",
+"max": null,
+"mt": "ماضی کا اوسط، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Best of past, t/ha",
+"kind": "label",
+"max": null,
+"mt": "ماضی کا بہترین، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Break-even yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "بریک اینڈ پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Nitrogen, mg/kg",
+"kind": "label",
+"max": null,
+"mt": "نائٹروجن، mg/kg",
+"why": "English/Latin words left: mg kg"
+},
+{
+"en": "Phosphorus, mg/kg",
+"kind": "label",
+"max": null,
+"mt": "فاسفورس، mg/kg",
+"why": "English/Latin words left: mg kg"
+},
+{
+"en": "Potassium, mg/kg",
+"kind": "label",
+"max": null,
+"mt": "پوٹاشیم، mg/kg",
+"why": "English/Latin words left: mg kg"
+},
+{
+"en": "Land tenure and rent: who owns each field and what it costs",
+"kind": "title",
+"max": 60,
+"mt": "زمین کا قبضہ اور کرایہ: ہر کھیت کا مالک کون ہے اور اس کی لاگت کتنی ہے",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Usual variety, t/ha",
+"kind": "label",
+"max": null,
+"mt": "عام قسم، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Crop calendar: sowing, care and harvest by month",
+"kind": "title",
+"max": 60,
+"mt": "فصلوں کا کیلنڈر: بیج لگانے، دیکھ بھال کرنے اور فصل کاٹنے کے مہینے",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Average planned yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "متوقع اوسط پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Yield you expect, t/ha",
+"kind": "label",
+"max": null,
+"mt": "آپ کی متوقع پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Average yield of the crop here, t/ha",
+"kind": "label",
+"max": null,
+"mt": "یہاں فصل کی اوسط پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Yield before harvest loss, t/ha",
+"kind": "label",
+"max": null,
+"mt": "فصل کے نقصان سے پہلے پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Yield after harvest loss, t/ha",
+"kind": "label",
+"max": null,
+"mt": "فصل کے نقصان کے بعد پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Standard yield of the crop, t/ha",
+"kind": "label",
+"max": null,
+"mt": "فصل کی معیاری پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello {supervisor}, the seedbed on {name} is not ready for {crop}. Please tell me what is missing, such as rain, levelling or weeds, and when you expect it to be fine.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {supervisor}، {name} پر seedbed {crop} کے لئے تیار نہیں ہے. براہ مہربانی مجھے بتائیں کہ کیا لاپتہ ہے، جیسے بارش، سطح یا گھاس، اور جب آپ کو یہ ٹھیک ہو جائے گا توقع ہے.",
+"why": "English/Latin words left: seedbed"
+},
+{
+"en": "Hello, the target of {target_t_ha} t/ha for {crop} on {field} is above the past average of {avg_hist} t/ha. Please review the target or the crop plan before we order inputs.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {field} پر {crop} کے لئے {target_t_ha} t / ha کا ہدف {avg_hist} t / ha کے ماضی کے اوسط سے اوپر ہے۔ براہ کرم ان پٹ کا آرڈر دینے سے پہلے ہدف یا فصل کے منصوبے کا جائزہ لیں۔",
+"why": "English/Latin words left: ha ha"
+},
+{
+"en": "Hello, trial {plot} on {field} compares {variety} of {crop} with our usual variety. Can we meet this week to choose the varieties for next season?",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، آزمائشی {plot} {field} پر {variety} {crop} ہمارے معمول کی قسم کے ساتھ {variety} موازنہ کرتا ہے. ہم اگلے موسم کے لئے مختلف قسم کے منتخب کرنے کے لئے اس ہفتے ملاقات کر سکتے ہیں؟",
+"why": "placeholders must be exactly: {plot} {field} {variety} {crop}"
+},
+{
+"en": "Hello, please deliver {qty} {unit} for {field} ({action}) around {planned}. Tell us the day and the size of the truck so that we can prepare the spreader.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، براہ مہربانی {qty} {unit} {field} {action} کے لئے {unit} {field} {action} کے ارد گرد {planned} ہمیں دن اور ٹرک کا سائز بتائیں تاکہ ہم پھیلاؤ تیار کر سکتے ہیں.",
+"why": "placeholders must be exactly: {qty} {unit} {field} {action} {planned}"
+},
+{
+"en": "Hello {owner}, {kind} on {field}: {ha_affected} ha are affected and the problem is marked {severity}. Please start the repair this week and report back.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {owner}، {kind} پر {field}: {ha_affected} ha متاثر ہیں اور مسئلہ {severity} نشان لگا دیا گیا ہے.",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "The land use check shows: {col:landuse.state}. A gap larger than {set:land_tol} of the target needs a reason in the season review.",
+"kind": "document",
+"max": null,
+"mt": "زمین کے استعمال کی جانچ پڑتال سے پتہ چلتا ہے کہ: {col:landuse.state}.",
+"why": "placeholders must be exactly: {col:landuse.state} {set:land_tol}"
+}
+]

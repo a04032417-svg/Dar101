@@ -1,0 +1,72 @@
+[
+{
+"en": "Soil tests with pH and organic matter checks",
+"kind": "label",
+"max": 50,
+"mt": "पीएच और कार्बनिक पदार्थों की जांच के साथ मिट्टी के परीक्षण",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "the water each crop needs in each month is set against usable rain to show the shortfall in mm and in cubic metres per hectare",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक फसल के लिए प्रत्येक महीने में पानी की आवश्यकता को उपयोग योग्य वर्षा के आधार पर निर्धारित किया जाता है ताकि घाटे को मिलीमीटर और घन मीटर प्रति हेक्टेयर में दिखाया जा सके।",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "each trial plot is compared with your usual variety and given a verdict to adopt, keep testing or drop, with the value gained per hectare",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक परीक्षण भूखंड की तुलना आपकी सामान्य किस्म से की जाती है और प्रति हेक्टेयर प्राप्त मूल्य के साथ इसे अपनाने, परीक्षण जारी रखने या छोड़ने का निर्णय दिया जाता है।",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Yield targets against what each field has really produced",
+"kind": "title",
+"max": 60,
+"mt": "प्रत्येक क्षेत्र ने वास्तव में क्या उत्पादित किया है, इसके खिलाफ उपज के लक्ष्य",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Nitrogen, mg/kg",
+"kind": "label",
+"max": null,
+"mt": "नाइट्रोजन, mg/kg",
+"why": "English/Latin words left: mg kg"
+},
+{
+"en": "Potassium, mg/kg",
+"kind": "label",
+"max": null,
+"mt": "पोटेशियम, mg/kg",
+"why": "English/Latin words left: mg kg"
+},
+{
+"en": "Land tenure and rent: who owns each field and what it costs",
+"kind": "title",
+"max": 60,
+"mt": "भूमि अधिग्रहण और किरायाः प्रत्येक भूमि का मालिक कौन है और इसकी लागत क्या है",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Hello, we hold the season review for {field} this week. We will look at {crop}, the sowing date of {sow_date} and the planned margin of {margin}. Please bring your notes.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, हम इस सप्ताह के लिए सीजन समीक्षा आयोजित करते हैं। हम {crop}, {sow_date} की बुवाई की तारीख और {margin} के योजनाबद्ध मार्जिन को देखेंगे। कृपया अपने नोट्स लाएं।",
+"why": "placeholders must be exactly: {field} {crop} {sow_date} {margin}"
+},
+{
+"en": "Hello, please deliver {qty} {unit} for {field} ({action}) around {planned}. Tell us the day and the size of the truck so that we can prepare the spreader.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, कृपया हमें दिन और ट्रक का आकार बताएं ताकि हम स्प्रेडर तैयार कर सकें।",
+"why": "placeholders must be exactly: {qty} {unit} {field} {action} {planned}"
+},
+{
+"en": "Hello {owner}, {kind} on {field}: {ha_affected} ha are affected and the problem is marked {severity}. Please start the repair this week and report back.",
+"kind": "message",
+"max": null,
+"mt": "हैलो {owner}, {kind} पर {field}: {ha_affected} ha प्रभावित हैं और समस्या {severity} चिह्नित है. कृपया इस सप्ताह मरम्मत शुरू करें और वापस रिपोर्ट.",
+"why": "English/Latin words left: ha"
+}
+]

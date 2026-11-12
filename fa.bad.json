@@ -1,0 +1,464 @@
+[
+{
+"en": "crop, sowing and harvest dates, tonnes, revenue and margin per field, with warnings for late sowing and for a harvest date that does not fit the crop cycle",
+"kind": "sentence",
+"max": 160,
+"mt": "تاریخ کشت، تخم ریزی و برداشت، تن، درآمد و حاشیه به ازای هر زمینه، با هشدارهایی در مورد دیر باریدن و تاریخ برداشت که با چرخه محصول مطابقت ندارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Soil tests with pH and organic matter checks",
+"kind": "label",
+"max": 50,
+"mt": "آزمایش خاک با بررسی pH و مواد آلی",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "every test is checked against your healthy pH range and organic matter target, and old tests are flagged for each field",
+"kind": "sentence",
+"max": 160,
+"mt": "هر آزمایش با محدوده pH سالم و هدف ماده آلی شما بررسی می شود و آزمایش های قدیمی برای هر زمینه علامت گذاری می شوند.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Lowest healthy soil pH",
+"kind": "setting",
+"max": null,
+"mt": "پایین ترین pH خاک سالم",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Highest healthy soil pH",
+"kind": "setting",
+"max": null,
+"mt": "بالاترین pH سالم خاک",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Rainfed",
+"kind": "list",
+"max": 30,
+"mt": "غذاهایی که با باران تغذیه می شوند",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "pH low",
+"kind": "list",
+"max": 30,
+"mt": "pH پایین",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "pH good",
+"kind": "list",
+"max": 30,
+"mt": "pH خوب",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "pH high",
+"kind": "list",
+"max": 30,
+"mt": "pH بالا",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "One row for each field with area, soil, irrigation and supervisor; tenure, crop, status, sowing date, latest soil test and the pH and organic matter checks fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر زمینه با مساحت، خاک، آبیاری و سرپرست؛ مالکیت، محصول، وضعیت، تاریخ بذر، آخرین آزمایش خاک و بررسی pH و ماده آلی به تنهایی تکمیل می شود.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Soil pH",
+"kind": "label",
+"max": null,
+"mt": "PH خاک",
+"why": "English/Latin words left: PH"
+},
+{
+"en": "pH check",
+"kind": "label",
+"max": null,
+"mt": "بررسی pH",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "بهره وری، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Water need, mm",
+"kind": "label",
+"max": null,
+"mt": "نیاز به آب، mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Crop target, t/ha",
+"kind": "label",
+"max": null,
+"mt": "هدف حاصلاتی، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Rotation check: the planned crop against what grew before",
+"kind": "title",
+"max": 60,
+"mt": "چک چرخش: محصول برنامه ریزی شده در مقایسه با آنچه که قبلا رشد کرده است",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Yield targets against what each field has really produced",
+"kind": "title",
+"max": 60,
+"mt": "اهداف حاصل در مقایسه با آنچه که هر زمینه واقعا تولید کرده است",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Target, t/ha",
+"kind": "label",
+"max": null,
+"mt": "هدف، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Crop standard, t/ha",
+"kind": "label",
+"max": null,
+"mt": "استاندارد محصول، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Average of past, t/ha",
+"kind": "label",
+"max": null,
+"mt": "متوسط گذشته، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Best of past, t/ha",
+"kind": "label",
+"max": null,
+"mt": "بهترین گذشته، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Break-even yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "میزان بازده در حد تعادل (break-even yield) ، t/ha",
+"why": "English/Latin words left: break even yield ha"
+},
+{
+"en": "Soil test results: pH, organic matter and nutrients",
+"kind": "title",
+"max": 60,
+"mt": "نتایج آزمایش خاک: pH، ماده آلی و مواد مغذی",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "One row for each soil test with pH, organic matter, nitrogen, phosphorus and potassium; the pH and organic matter checks and the age of the test fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر آزمایش خاک با pH، ماده آلی، نیتروژن، فسفر و پتاسیم؛ بررسی pH و ماده آلی و سن آزمایش را پر کنید.",
+"why": "English/Latin words left: pH pH"
+},
+{
+"en": "pH",
+"kind": "label",
+"max": null,
+"mt": "pH",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Nitrogen, mg/kg",
+"kind": "label",
+"max": null,
+"mt": "نیتروژن، mg/kg",
+"why": "English/Latin words left: mg kg"
+},
+{
+"en": "Phosphorus, mg/kg",
+"kind": "label",
+"max": null,
+"mt": "فسفر، mg/kg",
+"why": "English/Latin words left: mg kg"
+},
+{
+"en": "Potassium, mg/kg",
+"kind": "label",
+"max": null,
+"mt": "پتاسیم، mg/kg",
+"why": "English/Latin words left: mg kg"
+},
+{
+"en": "Usual variety, t/ha",
+"kind": "label",
+"max": null,
+"mt": "انواع معمول، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Expected rain, mm",
+"kind": "label",
+"max": null,
+"mt": "باران انتظار می رود، mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Fields with low soil pH",
+"kind": "label",
+"max": null,
+"mt": "زمینه هایی که pH خاک پایین است",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Average planned yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "میانگین محصول برنامه ریزی شده، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Lowest healthy pH",
+"kind": "label",
+"max": null,
+"mt": "پایین ترین pH سالم",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Highest healthy pH",
+"kind": "label",
+"max": null,
+"mt": "بالاترین pH سالم",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Yield you expect, t/ha",
+"kind": "label",
+"max": null,
+"mt": "بهره ای که انتظار دارید، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Average yield of the crop here, t/ha",
+"kind": "label",
+"max": null,
+"mt": "میانگین محصول محصول در اینجا، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Crop choice by margin per hectare and per mm of water",
+"kind": "title",
+"max": 60,
+"mt": "انتخاب محصولات با توجه به حاشیه در هر هکتار و در هر میلی متر آب",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Lime requirement from soil pH",
+"kind": "title",
+"max": 60,
+"mt": "نیاز به گچ از pH خاک",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Type the soil pH now, the pH you want, the soil type and the lime purity; see the tonnes of lime per hectare and for the field, the cost and how many of your fields are below the healthy pH.",
+"kind": "sentence",
+"max": null,
+"mt": "در حال حاضر pH خاک را وارد کنید، pH مورد نظر، نوع خاک و خاردار خالص؛ تُن خاردار در هر هکتار و برای زمینه را ببینید، هزینه و تعداد زمینه های شما زیر pH سالم است.",
+"why": "English/Latin words left: pH pH pH"
+},
+{
+"en": "Soil pH now",
+"kind": "label",
+"max": null,
+"mt": "pH خاک در حال حاضر",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "pH you want",
+"kind": "label",
+"max": null,
+"mt": "pH شما می خواهید",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Lowest healthy pH in your settings",
+"kind": "label",
+"max": null,
+"mt": "پایین ترین pH سالم در تنظیمات شما",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Fields below the healthy pH",
+"kind": "label",
+"max": null,
+"mt": "میدان های زیر pH سالم",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Area below the healthy pH, ha",
+"kind": "label",
+"max": null,
+"mt": "سطح زیر pH سالم، هکتار",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Soil pH 5.2",
+"kind": "label",
+"max": null,
+"mt": "pH خاک 5.2",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Target pH 7",
+"kind": "label",
+"max": null,
+"mt": "pH هدف 7",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Yield before harvest loss, t/ha",
+"kind": "label",
+"max": null,
+"mt": "محصول قبل از از دست دادن برداشت، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Yield after harvest loss, t/ha",
+"kind": "label",
+"max": null,
+"mt": "محصول پس از از دست دادن برداشت، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Standard yield of the crop, t/ha",
+"kind": "label",
+"max": null,
+"mt": "عملکرد استاندارد محصول، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello {supervisor}, we will walk {name} together tomorrow at 7:00 to check emergence, weeds and any wet or stony patches. Please bring the field notes.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما فردا ساعت 7 با هم ميريم و مي گرديم و هر گونه علف هاي کثيف و سنگين رو بررسي مي کنيم.",
+"why": "placeholders must be exactly: {supervisor} {name}"
+},
+{
+"en": "Hello, the target of {target_t_ha} t/ha for {crop} on {field} is above the past average of {avg_hist} t/ha. Please review the target or the crop plan before we order inputs.",
+"kind": "message",
+"max": null,
+"mt": "سلام، هدف از {target_t_ha} t/ha برای {crop} در {field} بالاتر از میانگین گذشته از {avg_hist} t/ha است. لطفا قبل از سفارش ورودی ها، هدف یا برنامه کشت را بررسی کنید.",
+"why": "English/Latin words left: ha ha"
+},
+{
+"en": "Hello, the invoice for {crop} seed for {field} does not match our order of {need_kg} kg at {price_kg} per kg. Please check it and send a corrected invoice or a credit note.",
+"kind": "message",
+"max": null,
+"mt": "سلام، فاکتور برای {crop} دانه برای {field} با سفارش ما برای {need_kg} کیلوگرم در {price_kg} در هر کیلوگرم مطابقت ندارد. لطفا آن را بررسی کنید و یک فاکتور اصلاح شده یا یک یادداشت اعتبار ارسال کنید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, we sent soil samples from {field} today. We need pH, organic matter, nitrogen, phosphorus and potassium. Please confirm that you received them.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما امروز نمونه خاک از {field} فرستادیم. ما به pH، ماده آلی، نیتروژن، فسفر و پتاسیم نیاز داریم. لطفا تایید کنید که آنها را دریافت کرده اید.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Hello {neighbour}, the {boundary} between our field {field} and your land needs repair. It is {length_m} m long. Can we agree who does the work and when?",
+"kind": "message",
+"max": null,
+"mt": "سلام، مرز بين مزرعه ما و زمين شما نياز به تعمير داره طولش 3 متره ميشه توافق کنيم که کي کار رو انجام بده و کي؟",
+"why": "placeholders must be exactly: {neighbour} {boundary} {field} {length_m}"
+},
+{
+"en": "Hello, please deliver {qty} {unit} for {field} ({action}) around {planned}. Tell us the day and the size of the truck so that we can prepare the spreader.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً روز و سايز کاميون رو به ما بگيد تا بتونيم پخش کننده رو آماده کنيم.",
+"why": "placeholders must be exactly: {qty} {unit} {field} {action} {planned}"
+},
+{
+"en": "Hello, we would like to book you for {action} on {field}, {area} ha, around {planned}. Please send your price and your first free date.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما دوست داريم شما رو براي يک روز در حدود سه ساعت رزرو کنيم لطفاً قيمت و اولين قرار آزادتون رو بفرستيد",
+"why": "placeholders must be exactly: {action} {field} {area} {planned}"
+},
+{
+"en": "Hello {owner}, {kind} on {field}: {ha_affected} ha are affected and the problem is marked {severity}. Please start the repair this week and report back.",
+"kind": "message",
+"max": null,
+"mt": "سلام {owner}، {kind} در {field}: {ha_affected} ha تحت تاثیر قرار گرفته و مشکل نشان داده شده است {severity}.",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Field: {col:plan.field}. Crop: {col:plan.crop}. Season: {col:plan.season}.",
+"kind": "document",
+"max": null,
+"mt": "فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل: فصل",
+"why": "placeholders must be exactly: {col:plan.field} {col:plan.crop} {col:plan.season}"
+},
+{
+"en": "Tenure: {col:fields.tenure}. Rent per year: {col:fields.rent_year}. Supervisor: {col:fields.supervisor}.",
+"kind": "document",
+"max": null,
+"mt": "مدت اجاره: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: ساليانه: سال",
+"why": "placeholders must be exactly: {col:fields.tenure} {col:fields.rent_year} {col:fields.supervisor}"
+},
+{
+"en": "The latest soil test was on {col:fields.last_test}: pH {col:fields.ph} and organic matter {col:fields.om}. The pH check shows {col:fields.ph_state} and the organic matter check shows {col:fields.om_state}.",
+"kind": "document",
+"max": null,
+"mt": "آخرین آزمایش خاک بر روی {col:fields.last_test}: pH {col:fields.ph} و ماده آلی {col:fields.om} انجام شد. بررسی pH نشان می دهد {col:fields.ph_state} و بررسی ماده آلی نشان می دهد {col:fields.om_state}.",
+"why": "English/Latin words left: pH pH"
+},
+{
+"en": "For one hectare the budget holds seed {col:budget.seed}, fertiliser {col:budget.fert}, crop protection {col:budget.protect}, water {col:budget.water}, labour {col:budget.labour}, machinery {col:budget.machinery} and other costs {col:budget.other}. The total is {col:budget.total_ha}.",
+"kind": "document",
+"max": null,
+"mt": "برای یک هکتار بودجه شامل هزینه های دانه {col:budget.seed}، کود {col:budget.fert}، حفاظت از گیاهان {col:budget.protect}، آب {col:budget.water}، نیروی کار {col:budget.labour}، ماشین آلات {col:budget.machinery} و هزینه های دیگر {col:budget.other} است.",
+"why": "placeholders must be exactly: {col:budget.seed} {col:budget.fert} {col:budget.protect} {col:budget.water} {col:budget.labour} {col:budget.machinery} {col:budget.other} {col:budget.total_ha}"
+},
+{
+"en": "The last crop on this field was {col:rotchk.last_crop} in {col:rotchk.last_year}. The planned crop was last grown {col:rotchk.since} years ago and needs {col:rotchk.rest} rest years.",
+"kind": "document",
+"max": null,
+"mt": "آخرین محصول در این زمینه در سال 1 بود. محصول برنامه ریزی شده برای آخرین بار 2 سال پیش رشد کرده و به سال های استراحت نیاز دارد.",
+"why": "placeholders must be exactly: {col:rotchk.last_crop} {col:rotchk.last_year} {col:rotchk.since} {col:rotchk.rest}"
+},
+{
+"en": "The soil pH is {col:soil.ph} ({col:soil.ph_state}). The organic matter is {col:soil.om} ({col:soil.om_state}). Nitrogen is {col:soil.n_ppm}, phosphorus is {col:soil.p_ppm} and potassium is {col:soil.k_ppm} milligrams per kilogram.",
+"kind": "document",
+"max": null,
+"mt": "pH خاک {col:soil.ph} ({col:soil.ph_state}) ، ماده آلی {col:soil.om} ({col:soil.om_state}) ، نیتروژن {col:soil.n_ppm}، فسفر {col:soil.p_ppm} و پتاسیم {col:soil.k_ppm} میلی گرم در هر کیلوگرم است.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "The test is {col:soil.age_days} days old and the age check shows: {col:soil.state}. The healthy pH range in our plan is {set:min_ph} to {set:max_ph}.",
+"kind": "document",
+"max": null,
+"mt": "آزمایش {col:soil.age_days} روز است و چک سن نشان می دهد: {col:soil.state}. محدوده pH سالم در برنامه ما از {set:min_ph} تا {set:max_ph}.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "The fertiliser and lime plan for this field must follow these results. A field with a low pH needs lime before the next sowing.",
+"kind": "document",
+"max": null,
+"mt": "برنامه کود و گرده برای این زمینه باید این نتایج را دنبال کند. یک زمینه با pH پایین نیاز به گرده قبل از بذر بعدی دارد.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "We sow on {col:seed.sow_date}. Please deliver before that date, with the lot number, the germination result and the purity of the seed on the delivery note.",
+"kind": "document",
+"max": null,
+"mt": "لطفا قبل از این تاریخ، شماره دسته، نتیجه جوانه زدن و خلوص دانه ها را در بلیط تحویل ارسال کنید.",
+"why": "placeholders must be exactly: {col:seed.sow_date}"
+}
+]

@@ -1,0 +1,506 @@
+[
+{
+"en": "Crop budget with break-even yield and price",
+"kind": "label",
+"max": 50,
+"mt": "Сельскохозяйственный бюджет с урожаем и ценой безубыточности",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "crop, sowing and harvest dates, tonnes, revenue and margin per field, with warnings for late sowing and for a harvest date that does not fit the crop cycle",
+"kind": "sentence",
+"max": 160,
+"mt": "даты сбора урожая, сева и сбора урожая, в тоннах, доход и маржа на поле с предупреждениями о позднем севании и о дате сбора урожая, которая не соответствует циклу сбора урожая",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Soil tests with pH and organic matter checks",
+"kind": "label",
+"max": 50,
+"mt": "Испытания почвы с проверкой рН и органического вещества",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Yield targets against field history",
+"kind": "label",
+"max": 50,
+"mt": "Цели производительности по сравнению с историей полевых работ",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "the water each crop needs in each month is set against usable rain to show the shortfall in mm and in cubic metres per hectare",
+"kind": "sentence",
+"max": 160,
+"mt": "количество воды, необходимое каждой культуре в течение каждого месяца, устанавливается в зависимости от возможности использования дождей, чтобы показать дефицит в мм и кубических метрах на гектар.",
+"why": "too long: 196 characters, the limit is 160"
+},
+{
+"en": "each trial plot is compared with your usual variety and given a verdict to adopt, keep testing or drop, with the value gained per hectare",
+"kind": "sentence",
+"max": 160,
+"mt": "Каждый испытательный участок сравнивается с вашим обычным сортом и выносится вердикт о принятии, продолжении испытаний или отказе, с учетом стоимости, полученной на гектар.",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "Land use balance against target",
+"kind": "label",
+"max": 50,
+"mt": "Баланс землепользования по отношению к целевому показателю",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Highest healthy soil pH",
+"kind": "setting",
+"max": null,
+"mt": "Наиболее высокое pH здоровой почвы",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Centre pivot",
+"kind": "list",
+"max": 30,
+"mt": "Ирригатор центрального поворота",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Shared costs",
+"kind": "list",
+"max": 30,
+"mt": "Совместные расходы",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Left fallow",
+"kind": "list",
+"max": 30,
+"mt": "Оставленные в нерабочем состоянии",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "pH good",
+"kind": "list",
+"max": 30,
+"mt": "pH хорошее",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Organic matter low",
+"kind": "list",
+"max": 30,
+"mt": "Низкий уровень органического вещества",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "One row for each field with area, soil, irrigation and supervisor; tenure, crop, status, sowing date, latest soil test and the pH and organic matter checks fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "Один ряд для каждого поля с площадью, почвой, орошением и руководителем; владение, урожай, состояние, дата посева, последнее испытание почвы и проверки pH и органического вещества заполняются самостоятельно.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Soil pH",
+"kind": "label",
+"max": null,
+"mt": "pH почвы",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "pH check",
+"kind": "label",
+"max": null,
+"mt": "Проверка pH",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Plan no",
+"kind": "label",
+"max": null,
+"mt": "План No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Entry no",
+"kind": "label",
+"max": null,
+"mt": "Запись No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Rotation check: the planned crop against what grew before",
+"kind": "title",
+"max": 60,
+"mt": "Проверка ротации: планируемый урожай по сравнению с ранее выращенным",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Check no",
+"kind": "label",
+"max": null,
+"mt": "Проверка No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Yield targets against what each field has really produced",
+"kind": "title",
+"max": 60,
+"mt": "Цели урожайности по сравнению с тем, что действительно произвело каждое поле",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Target no",
+"kind": "label",
+"max": null,
+"mt": "Цель No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Crop budget for one hectare, margin and break-even",
+"kind": "title",
+"max": 60,
+"mt": "Сельскохозяйственный бюджет на один гектар, маржа и безубыточность",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Budget no",
+"kind": "label",
+"max": null,
+"mt": "Бюджет No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Soil test results: pH, organic matter and nutrients",
+"kind": "title",
+"max": 60,
+"mt": "Результаты испытаний почвы: pH, органическое вещество и питательные вещества",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "One row for each soil test with pH, organic matter, nitrogen, phosphorus and potassium; the pH and organic matter checks and the age of the test fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Один ряд для каждого испытания почвы с использованием pH, органического вещества, азота, фосфора и калия; проверка pH и органического вещества и возраст испытания заполняются.",
+"why": "English/Latin words left: pH pH"
+},
+{
+"en": "Test no",
+"kind": "label",
+"max": null,
+"mt": "Испытание No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Soil improvement: lime, compost, cover crop, drainage",
+"kind": "title",
+"max": 60,
+"mt": "Улучшение почвы: известняк, компост, покрытие культур, дренаж",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Land tenure and rent: who owns each field and what it costs",
+"kind": "title",
+"max": 60,
+"mt": "Владение землей и арендная плата: кому принадлежит каждое поле и сколько это стоит",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Variety trials: plot, variety, yield and verdict",
+"kind": "title",
+"max": 60,
+"mt": "Испытания разнообразия: сюжет, разнообразие, урожайность и вердикт",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Trial no",
+"kind": "label",
+"max": null,
+"mt": "Судебное заседание No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Window no",
+"kind": "label",
+"max": null,
+"mt": "Окно No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Cover no",
+"kind": "label",
+"max": null,
+"mt": "Покрытие No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Land use balance: hectares per crop against target",
+"kind": "title",
+"max": 60,
+"mt": "Баланс землепользования: гектары на посев по целевому показателю",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Row no",
+"kind": "label",
+"max": null,
+"mt": "Ряд No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Crop budget and the fields that grow the crop",
+"kind": "title",
+"max": 60,
+"mt": "Бюджет сельскохозяйственных культур и поля, на которых выращивается сельскохозяйственная культура",
+"why": "too long: 97 characters, the limit is 60"
+},
+{
+"en": "Seed quantity: seed rate times hectares plus spare",
+"kind": "title",
+"max": 60,
+"mt": "Количество семян: количество семян умножено на гектары плюс запасы",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Type the soil pH now, the pH you want, the soil type and the lime purity; see the tonnes of lime per hectare and for the field, the cost and how many of your fields are below the healthy pH.",
+"kind": "sentence",
+"max": null,
+"mt": "Теперь введите pH почвы, pH, который вы хотите, тип почвы и чистоту известка; посмотрите тонны известка на гектар и для поля, стоимость и сколько ваших полей ниже здорового pH.",
+"why": "English/Latin words left: pH pH pH."
+},
+{
+"en": "pH you want",
+"kind": "label",
+"max": null,
+"mt": "pH, который вы хотите.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Soil pH 5.2",
+"kind": "label",
+"max": null,
+"mt": "pH почвы 5,2",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Target pH 7",
+"kind": "label",
+"max": null,
+"mt": "Целевое pH 7",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Hello {supervisor}, sowing starts on {name} on {sow_date}. The crop is {crop} on {area_ha} ha. Please confirm the seedbed, the seed and the machines the day before.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, сев начнётся 2 числа. Урожай на 4 гектарах. Пожалуйста, подтвердите посевную площадь, семена и машины за день до сева.",
+"why": "placeholders must be exactly: {supervisor} {name} {sow_date} {crop} {area_ha}"
+},
+{
+"en": "Hello {supervisor}, the seedbed on {name} is not ready for {crop}. Please tell me what is missing, such as rain, levelling or weeds, and when you expect it to be fine.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, скажите мне, что отсутствует, например, дождь, выравнивание или сорняки, и когда вы ожидаете, что это будет хорошо.",
+"why": "placeholders must be exactly: {supervisor} {name} {crop}"
+},
+{
+"en": "Hello {supervisor}, we will walk {name} together tomorrow at 7:00 to check emergence, weeds and any wet or stony patches. Please bring the field notes.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы пройдемся вместе завтра в 7:00 чтобы проверить появление, сорняки и любые мокрые или каменистые пятна.",
+"why": "placeholders must be exactly: {supervisor} {name}"
+},
+{
+"en": "Hello, we hold the season review for {field} this week. We will look at {crop}, the sowing date of {sow_date} and the planned margin of {margin}. Please bring your notes.",
+"kind": "message",
+"max": null,
+"mt": "Привет, мы проведем обзор сезона на этой неделе. Мы посмотрим на {crop}, дату сева {sow_date} и запланированную маржу {margin}. Пожалуйста, принесите свои заметки.",
+"why": "placeholders must be exactly: {field} {crop} {sow_date} {margin}"
+},
+{
+"en": "Hello, the target of {target_t_ha} t/ha for {crop} on {field} is above the past average of {avg_hist} t/ha. Please review the target or the crop plan before we order inputs.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, цель {target_t_ha} t / ha для {crop} на {field} выше прошлого среднего {avg_hist} t / ha. Пожалуйста, ознакомьтесь с целью или план урожая, прежде чем мы заказываем входы.",
+"why": "English/Latin words left: ha ha."
+},
+{
+"en": "Hello, the budget for {crop} costs {total_ha} per hectare and leaves a margin of {margin_ha} per hectare. The break-even price is {be_price} per tonne. Please review the inputs before we order.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, бюджет на {crop} стоит {total_ha} за гектар и оставляет маржу {margin_ha} за гектар.",
+"why": "placeholders must be exactly: {crop} {total_ha} {margin_ha} {be_price}"
+},
+{
+"en": "Hello, we need to move the delivery of {crop} seed for {field}. Sowing is on {sow_date}. Can you deliver at least five days before that date?",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, нам нужно перенести доставку семян для сеяния. Вы можете доставить по крайней мере за пять дней до этой даты?",
+"why": "placeholders must be exactly: {crop} {field} {sow_date}"
+},
+{
+"en": "Hello, please send your best price for {need_kg} kg of {crop} seed, with the delivery date and the payment terms. We pay about {price_kg} per kg now.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, присылайте свою лучшую цену за килограмм семян с датой доставки и условиями оплаты.",
+"why": "placeholders must be exactly: {need_kg} {crop} {price_kg}"
+},
+{
+"en": "Hello {landowner}, the lease of {field} ends on {lease_end}. We would like to renew it. Can we meet to talk about the rent and a longer term?",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, договор аренды {field} заканчивается на {lease_end}. мы хотели бы продлить его. мы можем встретиться, чтобы поговорить о арендной плате и более длительный срок?",
+"why": "placeholders must be exactly: {landowner} {field} {lease_end}"
+},
+{
+"en": "Hello {landowner}, we plan to drill {field} soon. Please confirm that the gate is open and that we may cross the neighbouring track with the machines.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, подтвердите, что ворота открыты и что мы можем пересечь соседнюю трассу с машинами.",
+"why": "placeholders must be exactly: {landowner} {field}"
+},
+{
+"en": "Hello {neighbour}, the {boundary} between our field {field} and your land needs repair. It is {length_m} m long. Can we agree who does the work and when?",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, линия между нашим полем и вашей землей нуждается в ремонте. Она длится 3 метра. Можем ли мы договориться, кто сделает работу и когда?",
+"why": "placeholders must be exactly: {neighbour} {boundary} {field} {length_m}"
+},
+{
+"en": "Hello, please deliver {qty} {unit} for {field} ({action}) around {planned}. Tell us the day and the size of the truck so that we can prepare the spreader.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, сообщите нам день и размер грузовика, чтобы мы могли подготовить распределитель.",
+"why": "placeholders must be exactly: {qty} {unit} {field} {action} {planned}"
+},
+{
+"en": "Hello, we would like to book you for {action} on {field}, {area} ha, around {planned}. Please send your price and your first free date.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы хотели бы забронировать вас на 1 га, около 3 часов, пожалуйста, присылайте свою цену и первую бесплатную дату.",
+"why": "placeholders must be exactly: {action} {field} {area} {planned}"
+},
+{
+"en": "Hello, we need ploughing on {field} ({area} ha) before sowing. Please tell me your first free date after {planned} and your price per hectare.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, нам нужно оробить 1 гектар перед посевом. Пожалуйста, скажите мне вашу первую свободную дату после посева и вашу цену за гектар.",
+"why": "placeholders must be exactly: {field} {area} {planned}"
+},
+{
+"en": "Hello {owner}, {kind} on {field}: {ha_affected} ha are affected and the problem is marked {severity}. Please start the repair this week and report back.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {owner}, {kind} на {field}: {ha_affected} ha затронуты и проблема отмечена как {severity}.",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello, we sow {species} as a cover crop on {field} ({area_ha} ha). Please prepare the drill and {seed_kg} kg of seed.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы сеем в качестве покрытия урожая на 1 гектаре.",
+"why": "placeholders must be exactly: {species} {field} {area_ha} {seed_kg}"
+},
+{
+"en": "The planned revenue is {col:plan.revenue} and the planned cost is {col:plan.cost}, so the planned margin is {col:plan.margin}. The sowing check shows: {col:plan.check}.",
+"kind": "document",
+"max": null,
+"mt": "Планируемый доход {col:plan.revenue} и планируемая стоимость {col:plan.cost}, так что планируемая маржа {col:plan.margin}.",
+"why": "placeholders must be exactly: {col:plan.revenue} {col:plan.cost} {col:plan.margin} {col:plan.check}"
+},
+{
+"en": "The latest soil test was on {col:fields.last_test}: pH {col:fields.ph} and organic matter {col:fields.om}. The pH check shows {col:fields.ph_state} and the organic matter check shows {col:fields.om_state}.",
+"kind": "document",
+"max": null,
+"mt": "Последнее испытание почвы было проведено на {col:fields.last_test}: pH {col:fields.ph} и органическое вещество {col:fields.om}.",
+"why": "placeholders must be exactly: {col:fields.last_test} {col:fields.ph} {col:fields.om} {col:fields.ph_state} {col:fields.om_state}"
+},
+{
+"en": "Crop: {col:budget.crop}. Planned area: {col:budget.ha} hectares.",
+"kind": "document",
+"max": null,
+"mt": "Планируемая площадь: 1 гектар.",
+"why": "placeholders must be exactly: {col:budget.crop} {col:budget.ha}"
+},
+{
+"en": "For one hectare the budget holds seed {col:budget.seed}, fertiliser {col:budget.fert}, crop protection {col:budget.protect}, water {col:budget.water}, labour {col:budget.labour}, machinery {col:budget.machinery} and other costs {col:budget.other}. The total is {col:budget.total_ha}.",
+"kind": "document",
+"max": null,
+"mt": "На один гектар бюджет включает семена {col:budget.seed}, удобрения {col:budget.fert}, защиту растений {col:budget.protect}, воду {col:budget.water}, рабочую силу {col:budget.labour}, машины {col:budget.machinery} и другие расходы {col:budget.other}.",
+"why": "placeholders must be exactly: {col:budget.seed} {col:budget.fert} {col:budget.protect} {col:budget.water} {col:budget.labour} {col:budget.machinery} {col:budget.other} {col:budget.total_ha}"
+},
+{
+"en": "The crop breaks even at {col:budget.be_yield} tonnes per hectare or at a price of {col:budget.be_price} per tonne. The budget for the whole area is {col:budget.budget}. The margin check shows: {col:budget.state}.",
+"kind": "document",
+"max": null,
+"mt": "Урожай вырывается даже при {col:budget.be_yield} тоннах на гектар или по цене {col:budget.be_price} тонны. Бюджет для всей площади {col:budget.budget}.",
+"why": "placeholders must be exactly: {col:budget.be_yield} {col:budget.be_price} {col:budget.budget} {col:budget.state}"
+},
+{
+"en": "The soil pH is {col:soil.ph} ({col:soil.ph_state}). The organic matter is {col:soil.om} ({col:soil.om_state}). Nitrogen is {col:soil.n_ppm}, phosphorus is {col:soil.p_ppm} and potassium is {col:soil.k_ppm} milligrams per kilogram.",
+"kind": "document",
+"max": null,
+"mt": "pH почвы {col:soil.ph} ({col:soil.ph_state}), органическое вещество {col:soil.om} ({col:soil.om_state}), азот {col:soil.n_ppm}, фосфор {col:soil.p_ppm} и калий {col:soil.k_ppm} миллиграмм на килограмм.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "The test is {col:soil.age_days} days old and the age check shows: {col:soil.state}. The healthy pH range in our plan is {set:min_ph} to {set:max_ph}.",
+"kind": "document",
+"max": null,
+"mt": "Тест старше {col:soil.age_days} дней, а проверка возраста показывает: {col:soil.state}.",
+"why": "placeholders must be exactly: {col:soil.age_days} {col:soil.state} {set:min_ph} {set:max_ph}"
+},
+{
+"en": "To {col:seed.supplier}. Crop: {col:seed.crop}. Field: {col:seed.field}, {col:seed.area} hectares.",
+"kind": "document",
+"max": null,
+"mt": "Урожай: 1 Поле: 2 гектара.",
+"why": "placeholders must be exactly: {col:seed.supplier} {col:seed.crop} {col:seed.field} {col:seed.area}"
+},
+{
+"en": "We order {col:seed.need_kg} kilograms of seed at {col:seed.price_kg} per kilogram. The order value is {col:seed.cost}. The seed rate is {col:seed.rate_kg_ha} kilograms per hectare with a spare share of {col:seed.spare}.",
+"kind": "document",
+"max": null,
+"mt": "Мы заказываем {col:seed.need_kg} килограмм семян по {col:seed.price_kg} за килограмм. Значение заказа {col:seed.cost}.",
+"why": "placeholders must be exactly: {col:seed.need_kg} {col:seed.price_kg} {col:seed.cost} {col:seed.rate_kg_ha} {col:seed.spare}"
+},
+{
+"en": "We sow on {col:seed.sow_date}. Please deliver before that date, with the lot number, the germination result and the purity of the seed on the delivery note.",
+"kind": "document",
+"max": null,
+"mt": "Пожалуйста, поставьте до этой даты, указав номер партии, результат прорастания и чистоту семян на коробке доставки.",
+"why": "placeholders must be exactly: {col:seed.sow_date}"
+},
+{
+"en": "To {col:lease.landowner}. Field: {col:lease.field}. Area: {col:lease.area} hectares.",
+"kind": "document",
+"max": null,
+"mt": "Поле: {col:lease.field}. Площадь: {col:lease.area} гектаров.",
+"why": "placeholders must be exactly: {col:lease.landowner} {col:lease.field} {col:lease.area}"
+},
+{
+"en": "The agreed rent is {col:lease.rent_ha} per hectare, which is {col:lease.rent_year} per year. The lease started on {col:lease.lease_start} and ends on {col:lease.lease_end}.",
+"kind": "document",
+"max": null,
+"mt": "Согласованная арендная плата {col:lease.rent_ha} за гектар, то есть {col:lease.rent_year} в год.",
+"why": "placeholders must be exactly: {col:lease.rent_ha} {col:lease.rent_year} {col:lease.lease_start} {col:lease.lease_end}"
+},
+{
+"en": "We plan to produce {col:lease.prod} tonnes on the field this season, so the rent is {col:lease.rent_t} for each tonne. The lease check shows: {col:lease.state}.",
+"kind": "document",
+"max": null,
+"mt": "Мы планируем произвести 0 тонн на поле в этом сезоне, поэтому арендная плата составляет 1 тонну.",
+"why": "placeholders must be exactly: {col:lease.prod} {col:lease.rent_t} {col:lease.state}"
+},
+{
+"en": "Crop: {col:landuse.crop} ({col:landuse.group}). Reviewed by {col:landuse.reviewed_by}.",
+"kind": "document",
+"max": null,
+"mt": "Crop: {col:landuse.crop} ({col:landuse.group}). Рецензировано {col:landuse.reviewed_by}.",
+"why": "English/Latin words left: Crop"
+},
+{
+"en": "The land use check shows: {col:landuse.state}. A gap larger than {set:land_tol} of the target needs a reason in the season review.",
+"kind": "document",
+"max": null,
+"mt": "Проверка землепользования показывает: {col:landuse.state}.",
+"why": "placeholders must be exactly: {col:landuse.state} {set:land_tol}"
+}
+]

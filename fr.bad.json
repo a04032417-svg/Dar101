@@ -1,0 +1,401 @@
+[
+{
+"en": "Plan fields, crops, rotation, seed and margin for the season",
+"kind": "sentence",
+"max": 80,
+"mt": "Planifier les champs, les cultures, la rotation, les semences et la marge pour la saison",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "each field's planned crop is compared with the last five seasons and flagged for the same crop or family again and for too few rest years",
+"kind": "sentence",
+"max": 160,
+"mt": "la récolte prévue de chaque champ est comparée aux cinq dernières saisons et marquée pour la même récolte ou famille à nouveau et pour trop peu d'années de repos;",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Crop budget with break-even yield and price",
+"kind": "label",
+"max": 50,
+"mt": "Budget des cultures avec rendement et prix d'équilibre",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "crop, sowing and harvest dates, tonnes, revenue and margin per field, with warnings for late sowing and for a harvest date that does not fit the crop cycle",
+"kind": "sentence",
+"max": 160,
+"mt": "dates de récolte, de semis et de récolte, tonnes, recettes et marge par champ, avec avertissement pour semis tardifs et pour une date de récolte qui ne correspond pas au cycle des cultures",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Seed plan with spare and order dates",
+"kind": "label",
+"max": 50,
+"mt": "Plan de semences avec dates de remplacement et de commande",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Soil tests with pH and organic matter checks",
+"kind": "label",
+"max": 50,
+"mt": "Épreuves du sol avec contrôle du pH et de la matière organique",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "Yield targets against field history",
+"kind": "label",
+"max": 50,
+"mt": "Objectifs de rendement par rapport à l'historique du terrain",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "the target of each field is compared with the average and best yield of the same crop there and marked realistic, stretch or above the best",
+"kind": "sentence",
+"max": 160,
+"mt": "l'objectif de chaque champ est comparé avec le rendement moyen et le meilleur rendement de la même culture et marqué comme réaliste, étiré ou supérieur au meilleur rendement",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "the water each crop needs in each month is set against usable rain to show the shortfall in mm and in cubic metres per hectare",
+"kind": "sentence",
+"max": 160,
+"mt": "la quantité d'eau dont chaque culture a besoin chaque mois est calculée par rapport aux précipitations utilisables pour montrer le déficit en mm et en mètres cubes par hectare",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "each trial plot is compared with your usual variety and given a verdict to adopt, keep testing or drop, with the value gained per hectare",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque parcelle expérimentale est comparée à votre variété habituelle et un verdict est rendu sur l'adoption, la poursuite des essais ou l'abandon, avec la valeur acquise par hectare",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "Land use balance against target",
+"kind": "label",
+"max": 50,
+"mt": "Solde de l'utilisation des terres par rapport à l'objectif",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Oilseed and pulse",
+"kind": "list",
+"max": 30,
+"mt": "Graines oléagineuses et légumineuses",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Centre pivot",
+"kind": "list",
+"max": 30,
+"mt": "Irrigateur à pivotement central",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Gypsum",
+"kind": "list",
+"max": 30,
+"mt": "d'une teneur en glucides inférieure ou égale à 50%",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Compaction",
+"kind": "list",
+"max": 30,
+"mt": "Compaction",
+"why": "not translated"
+},
+{
+"en": "Above best yield",
+"kind": "list",
+"max": 30,
+"mt": "Au-dessus du meilleur rendement",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Rain covers need",
+"kind": "list",
+"max": 30,
+"mt": "Les couvertures de pluie sont nécessaires",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Organic matter low",
+"kind": "list",
+"max": 30,
+"mt": "Faible teneur en matière organique",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Organic matter good",
+"kind": "list",
+"max": 30,
+"mt": "La matière organique est bonne.",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fields register: area, soil, water and what grows now",
+"kind": "title",
+"max": 60,
+"mt": "Registre des champs: surface, sol, eau et ce qui pousse aujourd'hui",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Rotation history: the last five seasons of every field",
+"kind": "title",
+"max": 60,
+"mt": "Historique de rotation: les cinq dernières saisons de chaque champ",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Rotation check: the planned crop against what grew before",
+"kind": "title",
+"max": 60,
+"mt": "Contrôle de rotation: la récolte prévue par rapport à ce qui a été cultivé auparavant",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Yield targets against what each field has really produced",
+"kind": "title",
+"max": 60,
+"mt": "Objectifs de rendement par rapport à ce que chaque champ a réellement produit",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Machinery",
+"kind": "label",
+"max": 30,
+"mt": "Machines et appareils électroménagers",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Soil test results: pH, organic matter and nutrients",
+"kind": "title",
+"max": 60,
+"mt": "Résultats des essais de sol: pH, matière organique et nutriments",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Soil improvement: lime, compost, cover crop, drainage",
+"kind": "title",
+"max": 60,
+"mt": "Amélioration des sols: chaux, compost, culture de couverture, drainage",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Land tenure and rent: who owns each field and what it costs",
+"kind": "title",
+"max": 60,
+"mt": "Propriété foncière et loyer: à qui appartient chaque terrain et combien cela coûte",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Field problems: waterlogging, erosion, stones and compaction",
+"kind": "title",
+"max": 60,
+"mt": "Problèmes de terrain: engorgement d'eau, érosion, pierres et compactage",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Planting windows: when each crop can be sown",
+"kind": "title",
+"max": 60,
+"mt": "Les fenêtres de plantation: quand chaque culture peut être semée",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Land use balance: hectares per crop against target",
+"kind": "title",
+"max": 60,
+"mt": "Bilan de l'utilisation des terres: hectares par culture par rapport à l'objectif",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Soil improvement cost",
+"kind": "label",
+"max": 30,
+"mt": "Coût de l'amélioration des sols",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Land use summary of a crop with its fields",
+"kind": "title",
+"max": 60,
+"mt": "Résumé de l'utilisation des terres d'une culture avec ses champs",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Seed quantity: seed rate times hectares plus spare",
+"kind": "title",
+"max": 60,
+"mt": "Quantité de semences: taux de semences multiplié par hectares plus réserve",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Germination 80%",
+"kind": "label",
+"max": null,
+"mt": "Germination 80%",
+"why": "not translated"
+},
+{
+"en": "Gross margin per hectare from yield, price and costs",
+"kind": "title",
+"max": 60,
+"mt": "Marge brute par hectare provenant du rendement, du prix et des coûts",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Rotation fit score for a crop in a field",
+"kind": "title",
+"max": 60,
+"mt": "Score d'adéquation de rotation pour une culture dans un champ",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hectares",
+"kind": "label",
+"max": 30,
+"mt": "Hectares",
+"why": "not translated"
+},
+{
+"en": "Yield estimate from a sample plot",
+"kind": "title",
+"max": 60,
+"mt": "Estimation du rendement à partir d'un graphique d'échantillonnage",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Planting window finder in working days",
+"kind": "title",
+"max": 60,
+"mt": "Installation d'un détecteur de fenêtres dans les jours ouvrables",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello {supervisor}, we will walk {name} together tomorrow at 7:00 to check emergence, weeds and any wet or stony patches. Please bring the field notes.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous allons marcher ensemble demain à 7h pour vérifier l'émergence, les mauvaises herbes et les endroits mouillés ou rocheux.",
+"why": "placeholders must be exactly: {supervisor} {name}"
+},
+{
+"en": "Hello, the budget for {crop} costs {total_ha} per hectare and leaves a margin of {margin_ha} per hectare. The break-even price is {be_price} per tonne. Please review the inputs before we order.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le budget pour {crop} coûte {total_ha} par hectare et laisse une marge de {margin_ha} par hectare.",
+"why": "placeholders must be exactly: {crop} {total_ha} {margin_ha} {be_price}"
+},
+{
+"en": "Hello, we need to move the delivery of {crop} seed for {field}. Sowing is on {sow_date}. Can you deliver at least five days before that date?",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons besoin de déplacer la livraison de graines pour {field}.",
+"why": "placeholders must be exactly: {crop} {field} {sow_date}"
+},
+{
+"en": "Hello {landowner}, we plan to drill {field} soon. Please confirm that the gate is open and that we may cross the neighbouring track with the machines.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous prévoyons de commencer le forage prochainement, veuillez confirmer que la porte est ouverte et que nous pouvons traverser la voie voisine avec les machines.",
+"why": "placeholders must be exactly: {landowner} {field}"
+},
+{
+"en": "Hello {neighbour}, the {boundary} between our field {field} and your land needs repair. It is {length_m} m long. Can we agree who does the work and when?",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, la ligne entre notre champ et votre terrain a besoin d'être réparée.",
+"why": "placeholders must be exactly: {neighbour} {boundary} {field} {length_m}"
+},
+{
+"en": "Hello, we would like to book you for {action} on {field}, {area} ha, around {planned}. Please send your price and your first free date.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous aimerions vous réserver pour 1h, 2h, autour de 3h. S'il vous plaît envoyez votre prix et votre premier rendez-vous gratuit.",
+"why": "placeholders must be exactly: {action} {field} {area} {planned}"
+},
+{
+"en": "Field: {col:plan.field}. Crop: {col:plan.crop}. Season: {col:plan.season}.",
+"kind": "document",
+"max": null,
+"mt": "Le champ, la récolte, la saison.",
+"why": "placeholders must be exactly: {col:plan.field} {col:plan.crop} {col:plan.season}"
+},
+{
+"en": "The planned revenue is {col:plan.revenue} and the planned cost is {col:plan.cost}, so the planned margin is {col:plan.margin}. The sowing check shows: {col:plan.check}.",
+"kind": "document",
+"max": null,
+"mt": "Le revenu prévu est {col:plan.revenue} et le coût prévu est {col:plan.cost}, donc la marge prévue est {col:plan.margin}.",
+"why": "placeholders must be exactly: {col:plan.revenue} {col:plan.cost} {col:plan.margin} {col:plan.check}"
+},
+{
+"en": "Tenure: {col:fields.tenure}. Rent per year: {col:fields.rent_year}. Supervisor: {col:fields.supervisor}.",
+"kind": "document",
+"max": null,
+"mt": "Rentage par an, superviseur.",
+"why": "placeholders must be exactly: {col:fields.tenure} {col:fields.rent_year} {col:fields.supervisor}"
+},
+{
+"en": "The latest soil test was on {col:fields.last_test}: pH {col:fields.ph} and organic matter {col:fields.om}. The pH check shows {col:fields.ph_state} and the organic matter check shows {col:fields.om_state}.",
+"kind": "document",
+"max": null,
+"mt": "Le dernier test de sol a été effectué sur {col:fields.last_test}: pH {col:fields.ph} et matière organique {col:fields.om}.",
+"why": "placeholders must be exactly: {col:fields.last_test} {col:fields.ph} {col:fields.om} {col:fields.ph_state} {col:fields.om_state}"
+},
+{
+"en": "For one hectare the budget holds seed {col:budget.seed}, fertiliser {col:budget.fert}, crop protection {col:budget.protect}, water {col:budget.water}, labour {col:budget.labour}, machinery {col:budget.machinery} and other costs {col:budget.other}. The total is {col:budget.total_ha}.",
+"kind": "document",
+"max": null,
+"mt": "Pour un hectare, le budget prévoit des frais de semences {col:budget.seed}, d'engrais {col:budget.fert}, de protection des cultures {col:budget.protect}, d'eau {col:budget.water}, de main-d'œuvre {col:budget.labour}, de machines {col:budget.machinery} et autres {col:budget.other}.",
+"why": "placeholders must be exactly: {col:budget.seed} {col:budget.fert} {col:budget.protect} {col:budget.water} {col:budget.labour} {col:budget.machinery} {col:budget.other} {col:budget.total_ha}"
+},
+{
+"en": "The crop breaks even at {col:budget.be_yield} tonnes per hectare or at a price of {col:budget.be_price} per tonne. The budget for the whole area is {col:budget.budget}. The margin check shows: {col:budget.state}.",
+"kind": "document",
+"max": null,
+"mt": "La récolte est même à {col:budget.be_yield} tonnes par hectare ou à un prix de {col:budget.be_price} tonne. Le budget pour l'ensemble de la superficie est {col:budget.budget}.",
+"why": "placeholders must be exactly: {col:budget.be_yield} {col:budget.be_price} {col:budget.budget} {col:budget.state}"
+},
+{
+"en": "The last crop on this field was {col:rotchk.last_crop} in {col:rotchk.last_year}. The planned crop was last grown {col:rotchk.since} years ago and needs {col:rotchk.rest} rest years.",
+"kind": "document",
+"max": null,
+"mt": "La dernière récolte sur ce champ a eu lieu en l'an 1. La dernière récolte prévue a été cultivée il y a 2 ans et a besoin de 3 ans de repos.",
+"why": "placeholders must be exactly: {col:rotchk.last_crop} {col:rotchk.last_year} {col:rotchk.since} {col:rotchk.rest}"
+},
+{
+"en": "The test is {col:soil.age_days} days old and the age check shows: {col:soil.state}. The healthy pH range in our plan is {set:min_ph} to {set:max_ph}.",
+"kind": "document",
+"max": null,
+"mt": "Le test est daté de {col:soil.age_days} jours et la vérification de l'âge montre: {col:soil.state}.",
+"why": "placeholders must be exactly: {col:soil.age_days} {col:soil.state} {set:min_ph} {set:max_ph}"
+},
+{
+"en": "To {col:seed.supplier}. Crop: {col:seed.crop}. Field: {col:seed.field}, {col:seed.area} hectares.",
+"kind": "document",
+"max": null,
+"mt": "Les récoltes, les champs, les hectares.",
+"why": "placeholders must be exactly: {col:seed.supplier} {col:seed.crop} {col:seed.field} {col:seed.area}"
+},
+{
+"en": "We order {col:seed.need_kg} kilograms of seed at {col:seed.price_kg} per kilogram. The order value is {col:seed.cost}. The seed rate is {col:seed.rate_kg_ha} kilograms per hectare with a spare share of {col:seed.spare}.",
+"kind": "document",
+"max": null,
+"mt": "Nous commandons {col:seed.need_kg} kilogrammes de graines à {col:seed.price_kg} par kilogramme. La valeur de l'ordre est {col:seed.cost}.",
+"why": "placeholders must be exactly: {col:seed.need_kg} {col:seed.price_kg} {col:seed.cost} {col:seed.rate_kg_ha} {col:seed.spare}"
+},
+{
+"en": "We sow on {col:seed.sow_date}. Please deliver before that date, with the lot number, the germination result and the purity of the seed on the delivery note.",
+"kind": "document",
+"max": null,
+"mt": "Veuillez livrer avant cette date, en indiquant le numéro du lot, le résultat de la germination et la pureté des graines sur le bon de livraison.",
+"why": "placeholders must be exactly: {col:seed.sow_date}"
+},
+{
+"en": "We plan to produce {col:lease.prod} tonnes on the field this season, so the rent is {col:lease.rent_t} for each tonne. The lease check shows: {col:lease.state}.",
+"kind": "document",
+"max": null,
+"mt": "Nous prévoyons de produire {col:lease.prod} tonnes sur le champ cette saison, donc le loyer est {col:lease.rent_t} pour chaque tonne.",
+"why": "placeholders must be exactly: {col:lease.prod} {col:lease.rent_t} {col:lease.state}"
+}
+]

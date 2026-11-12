@@ -1,0 +1,191 @@
+[
+{
+"en": "the target of each field is compared with the average and best yield of the same crop there and marked realistic, stretch or above the best",
+"kind": "sentence",
+"max": 160,
+"mt": "Her tarlamanın hedefi, oradaki aynı mahsulün ortalama ve en iyi hasadı ile karşılaştırılır ve gerçekçi, uzatma veya en iyi hasattan daha yüksek olarak işaretlenir.",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "each trial plot is compared with your usual variety and given a verdict to adopt, keep testing or drop, with the value gained per hectare",
+"kind": "sentence",
+"max": 160,
+"mt": "Her deneme bölgesi, alışılmış çeşitinizle karşılaştırılır ve her hektar başına elde edilen değer ile kabul edilmesi, denemeyi sürdürmesi veya düşürülmesi için bir karar verilir.",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Silt",
+"kind": "list",
+"max": 30,
+"mt": "Silt",
+"why": "not translated"
+},
+{
+"en": "Lucerne",
+"kind": "list",
+"max": 30,
+"mt": "Lucerne",
+"why": "not translated"
+},
+{
+"en": "Rotation check: the planned crop against what grew before",
+"kind": "title",
+"max": 60,
+"mt": "Dönüşüm kontrolü: önceden yetiştirilen ürünlerle karşılaştırıldığında planlanan ürün",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Yield targets against what each field has really produced",
+"kind": "title",
+"max": 60,
+"mt": "Her tarlamanın gerçekten ürettiğiyle karşılaştırıldığında verim hedefleri",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Land tenure and rent: who owns each field and what it costs",
+"kind": "title",
+"max": 60,
+"mt": "Toprak mülkiyeti ve kira: her arazinin sahibi kim ve maliyeti",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hectares to sow",
+"kind": "label",
+"max": 30,
+"mt": "Ekim yapılması gereken hektarlar",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cost of problems to fix",
+"kind": "label",
+"max": 30,
+"mt": "Çözülmesi gereken sorunların maliyeti",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Hello {supervisor}, we will walk {name} together tomorrow at 7:00 to check emergence, weeds and any wet or stony patches. Please bring the field notes.",
+"kind": "message",
+"max": null,
+"mt": "Merhabalar, yarın saat 7'de birlikte yürüyüşe çıkacağız, çıkışları, yabani otları ve ıslak veya taşlı lekeleri kontrol edeceğiz.",
+"why": "placeholders must be exactly: {supervisor} {name}"
+},
+{
+"en": "Hello, we need to move the delivery of {crop} seed for {field}. Sowing is on {sow_date}. Can you deliver at least five days before that date?",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {crop} tohumunun {field} için teslimatını ertelememiz gerekiyor. {sow_date} ekimi {sow_date}'de. Bu tarihten en az beş gün önce teslim edebilir misiniz?",
+"why": "placeholders must be exactly: {crop} {field} {sow_date}"
+},
+{
+"en": "Hello, please send your best price for {need_kg} kg of {crop} seed, with the delivery date and the payment terms. We pay about {price_kg} per kg now.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen teslimat tarihi ve ödeme şartları ile birlikte {need_kg} kg tohum için en iyi fiyatınızı gönderin.",
+"why": "placeholders must be exactly: {need_kg} {crop} {price_kg}"
+},
+{
+"en": "Hello, we need the soil results for {field} (sampled on {date}) by the end of next week, because the fertiliser plan and the lime order depend on them. Please send the report as soon as you can.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {field} için toprak sonuçlarına ihtiyacımız var, çünkü gübre planı ve kireç siparişi onlara bağlı.",
+"why": "placeholders must be exactly: {field} {date}"
+},
+{
+"en": "Hello, trial {plot} on {field} compares {variety} of {crop} with our usual variety. Can we meet this week to choose the varieties for next season?",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, deneme {plot} {field} {variety} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop} {crop}",
+"why": "placeholders must be exactly: {plot} {field} {variety} {crop}"
+},
+{
+"en": "Hello, please read trial {plot} on {field} ({variety}, {crop}) tomorrow: count plants, measure height and note disease. Send me the numbers by the evening.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen yarına denemeyi okuyun: bitkileri sayın, boyunuzu ölçün ve hastalığı not edin.",
+"why": "placeholders must be exactly: {plot} {field} {variety} {crop}"
+},
+{
+"en": "Hello {landowner}, we plan to drill {field} soon. Please confirm that the gate is open and that we may cross the neighbouring track with the machines.",
+"kind": "message",
+"max": null,
+"mt": "Lütfen kapının açık olduğunu ve makinelerle komşu rayı geçebileceğimizi onaylayın.",
+"why": "placeholders must be exactly: {landowner} {field}"
+},
+{
+"en": "Hello {neighbour}, the {boundary} between our field {field} and your land needs repair. It is {length_m} m long. Can we agree who does the work and when?",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, bizim tarla ile senin arazinin arasındaki arazinin onarılması gerekiyor. 3 metre uzunluğundadır.",
+"why": "placeholders must be exactly: {neighbour} {boundary} {field} {length_m}"
+},
+{
+"en": "Hello, please deliver {qty} {unit} for {field} ({action}) around {planned}. Tell us the day and the size of the truck so that we can prepare the spreader.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, bize kamyonun gününü ve boyutunu söyleyin, böylece yayıcıyı hazırlayabiliriz.",
+"why": "placeholders must be exactly: {qty} {unit} {field} {action} {planned}"
+},
+{
+"en": "Hello, we would like to book you for {action} on {field}, {area} ha, around {planned}. Please send your price and your first free date.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen fiyatınızı ve ilk ücretsiz randevunuzu gönderin.",
+"why": "placeholders must be exactly: {action} {field} {area} {planned}"
+},
+{
+"en": "Hello, we sow {species} as a cover crop on {field} ({area_ha} ha). Please prepare the drill and {seed_kg} kg of seed.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, kapak ekin olarak ektik. Lütfen tohum matkabını ve 3 kg tohum hazırlayın.",
+"why": "placeholders must be exactly: {species} {field} {area_ha} {seed_kg}"
+},
+{
+"en": "We plan to sow {col:plan.area_ha} hectares on {col:plan.sow_date} and to harvest on {col:plan.harvest_date}. The planned yield is {col:plan.yield_t} tonnes per hectare, which gives {col:plan.tonnes} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "{col:plan.area_ha} hektar ekmeyi ve {col:plan.harvest_date}'de hasat etmeyi planlıyoruz. Planlanan hasat hektar başına {col:plan.yield_t} ton, bu da {col:plan.tonnes} ton verir.",
+"why": "placeholders must be exactly: {col:plan.area_ha} {col:plan.sow_date} {col:plan.harvest_date} {col:plan.yield_t} {col:plan.tonnes}"
+},
+{
+"en": "The planned revenue is {col:plan.revenue} and the planned cost is {col:plan.cost}, so the planned margin is {col:plan.margin}. The sowing check shows: {col:plan.check}.",
+"kind": "document",
+"max": null,
+"mt": "Planlanan gelir {col:plan.revenue} ve planlanan maliyet {col:plan.cost} yani planlanan marj {col:plan.margin}.",
+"why": "placeholders must be exactly: {col:plan.revenue} {col:plan.cost} {col:plan.margin} {col:plan.check}"
+},
+{
+"en": "For one hectare the budget holds seed {col:budget.seed}, fertiliser {col:budget.fert}, crop protection {col:budget.protect}, water {col:budget.water}, labour {col:budget.labour}, machinery {col:budget.machinery} and other costs {col:budget.other}. The total is {col:budget.total_ha}.",
+"kind": "document",
+"max": null,
+"mt": "Bir hektar için bütçede tohum {col:budget.seed}, gübre {col:budget.fert}, bitki koruma {col:budget.protect}, su {col:budget.water}, işgücü {col:budget.labour}, makine {col:budget.machinery} ve diğer maliyetler {col:budget.other} bulunmaktadır.",
+"why": "placeholders must be exactly: {col:budget.seed} {col:budget.fert} {col:budget.protect} {col:budget.water} {col:budget.labour} {col:budget.machinery} {col:budget.other} {col:budget.total_ha}"
+},
+{
+"en": "To {col:seed.supplier}. Crop: {col:seed.crop}. Field: {col:seed.field}, {col:seed.area} hectares.",
+"kind": "document",
+"max": null,
+"mt": "Ürün: {col:seed.crop} Tarla: {col:seed.field}, {col:seed.area} hektar.",
+"why": "placeholders must be exactly: {col:seed.supplier} {col:seed.crop} {col:seed.field} {col:seed.area}"
+},
+{
+"en": "We order {col:seed.need_kg} kilograms of seed at {col:seed.price_kg} per kilogram. The order value is {col:seed.cost}. The seed rate is {col:seed.rate_kg_ha} kilograms per hectare with a spare share of {col:seed.spare}.",
+"kind": "document",
+"max": null,
+"mt": "Kilogram başına {col:seed.need_kg} kilogram tohum sipariş ediyoruz. Sipariş değeri {col:seed.cost}.",
+"why": "placeholders must be exactly: {col:seed.need_kg} {col:seed.price_kg} {col:seed.cost} {col:seed.rate_kg_ha} {col:seed.spare}"
+},
+{
+"en": "We sow on {col:seed.sow_date}. Please deliver before that date, with the lot number, the germination result and the purity of the seed on the delivery note.",
+"kind": "document",
+"max": null,
+"mt": "Lütfen bu tarihten önce teslimat notunda parti numarası, filizlenme sonucu ve tohumun saflığı ile teslim edin.",
+"why": "placeholders must be exactly: {col:seed.sow_date}"
+},
+{
+"en": "The crop gives {col:budget.revenue_ha} of revenue and {col:budget.total_ha} of cost for each hectare. The gross margin is {col:budget.margin_ha} per hectare, or {col:budget.margin_pct} of the revenue. Our target is {set:target_gm_ha} per hectare.",
+"kind": "document",
+"max": null,
+"mt": "Ürün her hektar için gelir ve maliyet verir. Brüt marj hektar başına {col:budget.margin_ha} veya gelirin {col:budget.margin_pct} dir. Hedefimiz hektar başına {set:target_gm_ha} dir.",
+"why": "placeholders must be exactly: {col:budget.revenue_ha} {col:budget.total_ha} {col:budget.margin_ha} {col:budget.margin_pct} {set:target_gm_ha}"
+}
+]
