@@ -1,0 +1,121 @@
+[
+{
+"en": "Add every order on Orders and its products on Order Lines. Totals, promised days, days to ship and late checks fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Добавьте каждый заказ в Orders и соответствующие продукты в Строки заказа. Заполните итоговые данные, обещанные дни, дни на отправку и просроченные чеки.",
+"why": "English/Latin words left: Orders"
+},
+{
+"en": "See what every return costs and keep customer service on target",
+"kind": "sentence",
+"max": 80,
+"mt": "Узнайте, сколько стоит каждый возврат, и держите обслуживание клиентов на должном уровне.",
+"why": "too long: 89 characters, the limit is 80"
+},
+{
+"en": "Returns, refunds, tickets and reviews: see what each return really costs",
+"kind": "sentence",
+"max": 80,
+"mt": "Возвраты, возвраты, билеты и отзывы: узнайте, сколько на самом деле стоит каждый возврат",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "Return rate by product with break-even",
+"kind": "label",
+"max": 50,
+"mt": "Коэффициент возврата по продуктам с безубыточностью",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "each product's return rate is checked against your limits and against the rate at which its margin is gone after label, handling and stock lost",
+"kind": "sentence",
+"max": 160,
+"mt": "Коэффициент возврата каждого продукта проверяется в соответствии с вашими лимитами и скоростью, с которой снижается его прибыль после потери этикетки, обработки и потери запасов.",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "Restock decisions with value recovered",
+"kind": "label",
+"max": 50,
+"mt": "Решения о пополнении запасов с возмещением стоимости",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Damaged in transit and carrier claims",
+"kind": "label",
+"max": 50,
+"mt": "Повреждения при транспортировке и претензии перевозчика",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Wrong size or fit",
+"kind": "list",
+"max": 30,
+"mt": "Неправильный размер или посадка",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Return rate by product, with the rate each product can bear",
+"kind": "title",
+"max": 60,
+"mt": "Коэффициент возврата по продуктам, включая ставку, которую может выдержать каждый продукт.",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Restock decisions: what happens to each returned unit",
+"kind": "title",
+"max": 60,
+"mt": "Решения о пополнении запасов: что происходит с каждой возвращенной единицей",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Parcels damaged in transit and the carrier claims",
+"kind": "title",
+"max": 60,
+"mt": "Посылки, поврежденные при транспортировке, и претензии перевозчика",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Supplier claim for faulty returned units",
+"kind": "title",
+"max": 60,
+"mt": "Претензия поставщика в отношении неисправных возвращенных устройств",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Cost of a return: margin, label, handling and stock lost",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость возврата: наценка, этикетка, обработка и потеря запасов.",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Return break-even: how many returns a product can bear",
+"kind": "title",
+"max": 60,
+"mt": "Безубыточность возврата: сколько возвратов может выдержать продукт.",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Restock value: resell as new, sell as second or write off",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость восстановления: перепродать как новый, продать как второй или списать",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Supplier claim value from faulty returned units",
+"kind": "title",
+"max": 60,
+"mt": "Сумма претензии поставщика в отношении неисправных возвращенных единиц",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Goodwill refund or return: when keeping the item costs less",
+"kind": "title",
+"max": 60,
+"mt": "Возврат или возврат гудвилла: при сохранении товара стоимость меньше",
+"why": "too long: 68 characters, the limit is 60"
+}
+]

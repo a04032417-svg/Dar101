@@ -1,0 +1,51 @@
+[
+{
+"en": "Open Start and type your shop name, the cut-off hour and your own limits in the yellow cells: late days, packing minutes, labour cost and claim days.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام مغازه، ساعت پایان کار و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: روزهای آخر، دقایق بسته‌بندی، هزینه نیروی کار و روزهای ادعا.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Log minutes on Pick and Pack Log and read the pace check. Record parcels on Shipments to see the shipping gap.",
+"kind": "sentence",
+"max": null,
+"mt": "دقیقه در فهرست را انتخاب و بسته بندی کنید وارد شوید و بررسی سرعت را بخوانید. بسته ها را در Shipments ثبت کنید تا شکاف حمل و نقل را ببینید.",
+"why": "English/Latin words left: Shipments"
+},
+{
+"en": "Refunds: what was paid back, how and who approved it",
+"kind": "title",
+"max": 60,
+"mt": "بازپرداخت: چه چیزی بازپرداخت شد، چگونه و چه کسی آن را تایید کرد",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Restock value: resell as new, sell as second or write off",
+"kind": "title",
+"max": 60,
+"mt": "ارزش ذخیره مجدد: فروش مجدد به عنوان جدید، فروش به عنوان دوم یا حذف",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Goodwill refund or return: when keeping the item costs less",
+"kind": "title",
+"max": 60,
+"mt": "بازپرداخت یا بازگرداندن سرقفلی: هنگام نگهداری کالا هزینه کمتری دارد",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Customer service answered {col:bymonth.tickets} tickets, {col:bymonth.tickets_100} for every 100 orders. The first answer took {col:bymonth.avg_first_hours} hours on average and {col:bymonth.over_target} tickets were over target.",
+"kind": "document",
+"max": null,
+"mt": "خدمات مشتری به ازای هر 100 سفارش، {col:bymonth.tickets} بلیط را پاسخ داد. پاسخ اول به طور متوسط ​​{col:bymonth.avg_first_hours} ساعت طول کشید و {col:bymonth.over_target} بلیط بیش از هدف بود.",
+"why": "placeholders must be exactly: {col:bymonth.tickets} {col:bymonth.tickets_100} {col:bymonth.avg_first_hours} {col:bymonth.over_target}"
+},
+{
+"en": "Week starting {col:roster.week}. Team member: {col:roster.person}. Shift: {col:roster.shift}.",
+"kind": "document",
+"max": null,
+"mt": "هفته از {col:roster.week} شروع می شود. عضو تیم: {col:roster.person}. Shift: {col:roster.shift}.",
+"why": "English/Latin words left: Shift"
+}
+]

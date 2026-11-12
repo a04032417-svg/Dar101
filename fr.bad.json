@@ -1,0 +1,212 @@
+[
+{
+"en": "Returns, refunds, tickets and reviews: see what each return really costs",
+"kind": "sentence",
+"max": 80,
+"mt": "Retours, remboursements, billets et avis : découvrez ce que coûte réellement chaque retour",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "Return reasons with causes and fixes",
+"kind": "label",
+"max": 50,
+"mt": "Renvoyer les raisons avec les causes et les correctifs",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "two typical causes for each of the eight return reasons, the fix, its owner and due date, and the returns each cause explains",
+"kind": "sentence",
+"max": 160,
+"mt": "deux causes typiques pour chacune des huit raisons de retour, le correctif, son propriétaire et sa date d'échéance, ainsi que les retours que chaque cause explique",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Return rate by product with break-even",
+"kind": "label",
+"max": 50,
+"mt": "Taux de retour par produit avec seuil de rentabilité",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "each product's return rate is checked against your limits and against the rate at which its margin is gone after label, handling and stock lost",
+"kind": "sentence",
+"max": 160,
+"mt": "le taux de retour de chaque produit est vérifié par rapport à vos limites et par rapport au taux auquel sa marge a disparu après étiquette, manutention et perte de stock",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "days from the request to the refund, a check against your quick refund limit and a flag for refunds that are due or overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "jours entre la demande et le remboursement, une vérification par rapport à votre limite de remboursement rapide et un indicateur pour les remboursements dus ou en retard",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Restock decisions with value recovered",
+"kind": "label",
+"max": 50,
+"mt": "Décisions de réapprovisionnement avec valeur récupérée",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Supplier claims for faulty returns",
+"kind": "label",
+"max": 50,
+"mt": "Réclamations du fournisseur pour retours défectueux",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "faulty units sent back are turned into claims with the goods value, the days open, the credit received and the amount not credited",
+"kind": "sentence",
+"max": 160,
+"mt": "les unités défectueuses renvoyées sont transformées en réclamations avec la valeur de la marchandise, les jours d'ouverture, le crédit reçu et le montant non crédité",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Damaged in transit and carrier claims",
+"kind": "label",
+"max": 50,
+"mt": "Endommagé pendant le transport et réclamations du transporteur",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "Ticket queue with response targets per topic",
+"kind": "label",
+"max": 50,
+"mt": "File d'attente de tickets avec cibles de réponse par sujet",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "products with a quality problem get an action, an owner, a due date and the return rate that shows whether the fix works",
+"kind": "sentence",
+"max": 160,
+"mt": "les produits présentant un problème de qualité bénéficient d'une action, d'un propriétaire, d'une date d'échéance et du taux de retour indiquant si le correctif fonctionne",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Returns: every return request from request to refund",
+"kind": "title",
+"max": 60,
+"mt": "Retours : toute demande de retour depuis la demande jusqu'au remboursement",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Return rate by product, with the rate each product can bear",
+"kind": "title",
+"max": 60,
+"mt": "Taux de retour par produit, avec le tarif que chaque produit peut supporter",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Service log by month: tickets, response times, reviews",
+"kind": "title",
+"max": 60,
+"mt": "Journal de service par mois : tickets, temps de réponse, avis",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Refunds: what was paid back, how and who approved it",
+"kind": "title",
+"max": 60,
+"mt": "Remboursements : qu'est-ce qui a été remboursé, comment et qui l'a approuvé",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Restock decisions: what happens to each returned unit",
+"kind": "title",
+"max": 60,
+"mt": "Décisions de réapprovisionnement : qu'arrive-t-il à chaque unité retournée",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Supplier claims for faulty returned units",
+"kind": "title",
+"max": 60,
+"mt": "Réclamations du fournisseur pour les unités retournées défectueuses",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Product quality issues and what is done about them",
+"kind": "title",
+"max": 60,
+"mt": "Problèmes de qualité des produits et mesures prises pour y remédier",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Parcels damaged in transit and the carrier claims",
+"kind": "title",
+"max": 60,
+"mt": "Colis endommagés pendant le transport et réclamations du transporteur",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Supplier claim for faulty returned units",
+"kind": "title",
+"max": 60,
+"mt": "Réclamation du fournisseur pour les unités retournées défectueuses",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Complaint about a parcel damaged in transit",
+"kind": "title",
+"max": 60,
+"mt": "Réclamation concernant un colis endommagé pendant le transport",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cost of a return: margin, label, handling and stock lost",
+"kind": "title",
+"max": 60,
+"mt": "Coût d'un retour : marge, étiquette, manutention et stock perdu",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Return break-even: how many returns a product can bear",
+"kind": "title",
+"max": 60,
+"mt": "Seuil de rentabilité : combien de retours un produit peut supporter",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Refund amount with sales tax and shipping",
+"kind": "title",
+"max": 60,
+"mt": "Montant du remboursement avec taxe de vente et frais d'expédition",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Restock value: resell as new, sell as second or write off",
+"kind": "title",
+"max": 60,
+"mt": "Valeur de réapprovisionnement : revendre comme neuf, vendre comme deuxième ou radier",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Supplier claim value from faulty returned units",
+"kind": "title",
+"max": 60,
+"mt": "Valeur réclamée par le fournisseur pour les unités retournées défectueuses",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "First response and resolution time against your targets",
+"kind": "title",
+"max": 60,
+"mt": "Première réponse et temps de résolution par rapport à vos cibles",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Goodwill refund or return: when keeping the item costs less",
+"kind": "title",
+"max": 60,
+"mt": "Remboursement ou retour de bonne volonté : lorsque la conservation de l'article coûte moins cher",
+"why": "too long: 96 characters, the limit is 60"
+},
+{
+"en": "Supplier claim letter for returned units",
+"kind": "title",
+"max": 60,
+"mt": "Lettre de réclamation du fournisseur pour les unités retournées",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

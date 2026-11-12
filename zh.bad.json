@@ -1,0 +1,16 @@
+[
+{
+"en": "Add every order on Orders and its products on Order Lines. Totals, promised days, days to ship and late checks fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "添加 Orders 中的每个订单及其在 订单行 上的产品。填写总计、承诺天数、发货天数和逾期检查。",
+"why": "English/Latin words left: Orders"
+},
+{
+"en": "Hello {customer}, your refund of {refund_amount} for return {return_id} was sent on {refund_date}. It can take a few days to show in your account.",
+"kind": "message",
+"max": null,
+"mt": "{customer} 您好，您的退货 {return_id} 退款已于 {refund_date} 寄出。可能需要几天时间才会显示在您的帐户中。",
+"why": "placeholders must be exactly: {customer} {refund_amount} {return_id} {refund_date}"
+}
+]
