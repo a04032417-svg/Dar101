@@ -1,0 +1,247 @@
+[
+{
+"en": "Farm Finance, Grants and Compliance",
+"kind": "title",
+"max": 60,
+"mt": "Tarım finansmanı, hibe ve uyumluluk",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Cost ledger: every cost by cost code, field and animal group",
+"kind": "title",
+"max": 60,
+"mt": "Maliyet defteri: maliyet kodu, saha ve hayvan grubu tarafından her maliyet",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Rate 180",
+"kind": "label",
+"max": null,
+"mt": "Rate 180",
+"why": "not translated"
+},
+{
+"en": "Hello, the profit and loss for the month starting {month} is ready. Revenue {revenue}, costs {costs}, profit {profit} and a margin of {margin}. Please read it before we meet.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, başlayan ay için kâr ve kayıp hazır. Gelir {revenue}, maliyet {costs}, kâr {profit} ve marj {margin}.",
+"why": "placeholders must be exactly: {month} {revenue} {costs} {profit} {margin}"
+},
+{
+"en": "Hello {manager}, the cost code {name} has used {used} of its budget: {actual} of {budget}. The forecast for the year is {forecast}. Check: {state}. Please tell me the reason and what we can change.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {manager}, maliyet kodu {name} bütçesinin {used} kullanmıştır: {actual} {budget}. Yıl için tahmin {forecast}.",
+"why": "placeholders must be exactly: {manager} {name} {used} {actual} {budget} {forecast} {state}"
+},
+{
+"en": "Hello, our cash forecast for the month starting {month} shows {closing}, which covers {cover_weeks} weeks of costs. Check: {state}. Please look at sales dates and large payments.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {month} başlayan ay için nakit tahminimiz {closing}'i gösteriyor, bu {cover_weeks} haftalık maliyetleri kapsar.",
+"why": "placeholders must be exactly: {month} {closing} {cover_weeks} {state}"
+},
+{
+"en": "Hello {owner}, {name} ({crop}, {area_ha} ha) shows a profit of {profit} this year, that is {per_ha} per hectare. Check: {state}. Please send me the reasons: yield, price or costs.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {owner}, {name} ({crop}, {area_ha} ha) bu yıl {profit} kârını gösteriyor, yani {per_ha} hektar başına.",
+"why": "placeholders must be exactly: {owner} {name} {crop} {area_ha} {profit} {per_ha} {state}"
+},
+{
+"en": "Hello, please enter all expenses up to {date} in the Cost Ledger by Friday, for example {description} from {vendor} for {amount}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen Maliyet defteri Maliyet defteri Maliyet defteri {date} kadar tüm masrafları Cuma'ya kadar gir, örneğin {description} {vendor} {amount} için {description}",
+"why": "placeholders must be exactly: {date} {description} {vendor} {amount}"
+},
+{
+"en": "Hello, we send our annual accounts for loan {loan_id} ({purpose}). The balance is {balance}. Please tell us if you need more papers for the review.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, kredi için yıllık hesaplarımızı gönderiyoruz.",
+"why": "placeholders must be exactly: {loan_id} {purpose} {balance}"
+},
+{
+"en": "Hello, we ask for a higher limit on our {type}, {purpose}, for the coming season. The balance now is {balance} on {principal} borrowed. Please send the conditions.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, önümüzdeki sezon için {type}, {purpose} üzerindeki daha yüksek bir limit talep ediyoruz.",
+"why": "placeholders must be exactly: {type} {purpose} {balance} {principal}"
+},
+{
+"en": "Hello, please send a statement for loan {loan_id}. Our records show a balance of {balance} and the next payment on {next_due}. Tell us if you see a difference.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen kredi için bir rapor gönderin. Kayıtlarımız {balance} ve bir sonraki ödemenin {next_due} üzerinde bir bakiye olduğunu gösteriyor. Bir fark görüyorsanız bize söyleyin.",
+"why": "placeholders must be exactly: {loan_id} {balance} {next_due}"
+},
+{
+"en": "Hello, we update the list of security for loan {loan_id}: {collateral}. Please confirm that it matches your file.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, kredi için güvenlik listesini güncelliyoruz.",
+"why": "placeholders must be exactly: {loan_id} {collateral}"
+},
+{
+"en": "Hello {officer}, please find our application documents for {scheme} attached. We apply for {applied}. Please confirm that you received everything.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {officer}, lütfen başvuru belgelerimizi bulunuz.",
+"why": "placeholders must be exactly: {officer} {scheme} {applied}"
+},
+{
+"en": "Hello {officer}, we send the evidence for the payment claim on {scheme}. The evidence date is {evidence_due} and the amount still to come is {outstanding}. Please confirm receipt.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {officer}, ödeme talebinin kanıtlarını {scheme}'de gönderiyoruz.",
+"why": "placeholders must be exactly: {officer} {scheme} {evidence_due} {outstanding}"
+},
+{
+"en": "Hello, we report a {event} on {field} on {event_date} under policy {policy}. We claim {claimed}. Please send the claim form and arrange an assessor.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, polis altında bir {event} {field} {event_date} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {policy} {claimed} {claimed} {claimed} {claimed} {claimed} {claimed} {5} {5} {5} {5} {5} {5} {5} {5}",
+"why": "placeholders must be exactly: {event} {field} {event_date} {policy} {claimed}"
+},
+{
+"en": "Hello, we send photos and evidence for claim {claim_id} ({event}, {field}). The status is {status} and it has been open for {days_open} days. Please tell us if you need more.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, reklam için fotoğraf ve kanıt gönderiyoruz. Durum şu anda 3 ve 4 gündür açık. Daha fazlasına ihtiyacınız varsa lütfen bize bildirin.",
+"why": "placeholders must be exactly: {claim_id} {event} {field} {status} {days_open}"
+},
+{
+"en": "Hello {inspector}, we confirm the {kind} on {date}. Scope: {scope}. Please tell us which records you need and we will have them ready.",
+"kind": "message",
+"max": null,
+"mt": "Lütfen hangi kayıtlara ihtiyacınız olduğunuzu söyleyin.",
+"why": "placeholders must be exactly: {inspector} {kind} {date} {scope}"
+},
+{
+"en": "Hello {inspector}, here is our reply on the {kind} of {date}: {actions_open} actions are open and due on {action_due}. Please confirm that the plan is accepted.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {inspector}, işte {kind} için yanıtımız: {actions_open} eylemler açık ve {action_due} için geçerlidir. Lütfen planın kabul edildiğini onaylayın.",
+"why": "placeholders must be exactly: {inspector} {kind} {date} {actions_open} {action_due}"
+},
+{
+"en": "Hello {owner}, the record {type} for {period} was due on {due}: {state}. Please complete it today, because inspectors and buyers ask for it.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {owner}, {period} için kayıt {type} {due}: {state} {due}: {state} Lütfen bugün tamamlayın, çünkü müfettişler ve alıcılar bunu istiyor.",
+"why": "placeholders must be exactly: {owner} {type} {period} {due} {state}"
+},
+{
+"en": "Cost code: {col:budget.code} {col:budget.name}. Group: {col:budget.group}. Budget holder: {col:budget.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Maliyet kodu: {col:budget.code} {col:budget.name}.",
+"why": "placeholders must be exactly: {col:budget.code} {col:budget.name} {col:budget.group} {col:budget.manager}"
+},
+{
+"en": "The budget for the year is {col:budget.budget}. So far this year {col:budget.actual} was spent, which is {col:budget.used} of the budget.",
+"kind": "document",
+"max": null,
+"mt": "Bu yılın bütçesi, bugüne kadar bütçenin %2'si olan 1'i harcadı.",
+"why": "placeholders must be exactly: {col:budget.budget} {col:budget.actual} {col:budget.used}"
+},
+{
+"en": "If costs continue at this pace the year will end at {col:budget.forecast}, which is {col:budget.gap} against the budget. The budget check shows: {col:budget.state}.",
+"kind": "document",
+"max": null,
+"mt": "Eğer masraflar bu hızda devam ederse, yıl bütçeye karşı {col:budget.forecast} olarak sona erecektir.",
+"why": "placeholders must be exactly: {col:budget.forecast} {col:budget.gap} {col:budget.state}"
+},
+{
+"en": "The budget holder explains any difference and proposes action before the next monthly close. The budget was last reviewed on {col:budget.reviewed}.",
+"kind": "document",
+"max": null,
+"mt": "Bütçe sahibi herhangi bir farkı açıklar ve bir sonraki aylık kapanıştan önce eylem önerir.",
+"why": "placeholders must be exactly: {col:budget.reviewed}"
+},
+{
+"en": "That is {col:fields.per_ha} per hectare and a margin of {col:fields.margin}. The result check shows: {col:fields.state}.",
+"kind": "document",
+"max": null,
+"mt": "Sonuç kontrolü gösterir: {col:fields.state}.",
+"why": "placeholders must be exactly: {col:fields.per_ha} {col:fields.margin} {col:fields.state}"
+},
+{
+"en": "The amount borrowed was {col:loans.principal} at {col:loans.rate} per year, starting on {col:loans.start} and ending on {col:loans.maturity}. The payment is {col:loans.payment} each month.",
+"kind": "document",
+"max": null,
+"mt": "Borç alınan miktar {col:loans.principal} {col:loans.rate} olarak {col:loans.start} gününden başlayıp {col:loans.maturity} gününe kadar sürdü.",
+"why": "placeholders must be exactly: {col:loans.principal} {col:loans.rate} {col:loans.start} {col:loans.maturity} {col:loans.payment}"
+},
+{
+"en": "So far {col:loans.paid} of the principal has been repaid and the balance is {col:loans.balance}. The next payment is due on {col:loans.next_due}. The loan check shows: {col:loans.state}.",
+"kind": "document",
+"max": null,
+"mt": "Şimdiye kadar {col:loans.paid} başlık ödendi ve bakiye {col:loans.balance}'dir. Bir sonraki ödeme {col:loans.next_due}'de ödenmelidir.",
+"why": "placeholders must be exactly: {col:loans.paid} {col:loans.balance} {col:loans.next_due} {col:loans.state}"
+},
+{
+"en": "We applied on {col:grants.applied_on} for {col:grants.applied}. The status is {col:grants.status}. The approved amount is {col:grants.approved} and we received {col:grants.received}.",
+"kind": "document",
+"max": null,
+"mt": "{col:grants.applied_on} için başvurduk. Durum {col:grants.status}. Onaylanan miktar {col:grants.approved} ve aldığımız {col:grants.received}.",
+"why": "placeholders must be exactly: {col:grants.applied_on} {col:grants.applied} {col:grants.status} {col:grants.approved} {col:grants.received}"
+},
+{
+"en": "The amount still to receive is {col:grants.outstanding}. The evidence for the payment claim is due on {col:grants.evidence_due}. The grant check shows: {col:grants.state}.",
+"kind": "document",
+"max": null,
+"mt": "Ödeme talebi için kanıt {col:grants.evidence_due}'de ödenir.",
+"why": "placeholders must be exactly: {col:grants.outstanding} {col:grants.evidence_due} {col:grants.state}"
+},
+{
+"en": "We claim {col:claims.claimed}. The insurer has settled {col:claims.settled}. The status is {col:claims.status} and the claim has been open for {col:claims.days_open} days.",
+"kind": "document",
+"max": null,
+"mt": "İddia ettiğimiz şey, sigortacı {col:claims.settled} durumunu belirledi ve talep {col:claims.days_open} gündür açık.",
+"why": "placeholders must be exactly: {col:claims.claimed} {col:claims.settled} {col:claims.status} {col:claims.days_open}"
+},
+{
+"en": "Certificate or permit: {col:certs.name}. Kind: {col:certs.kind}. Issued by: {col:certs.body}.",
+"kind": "document",
+"max": null,
+"mt": "Sertifika veya izin: {col:certs.name}. Tür: {col:certs.kind}.",
+"why": "placeholders must be exactly: {col:certs.name} {col:certs.kind} {col:certs.body}"
+},
+{
+"en": "It was issued on {col:certs.issued} and expires on {col:certs.expiry}, which is {col:certs.days_left} days from today. The expiry check shows: {col:certs.state}.",
+"kind": "document",
+"max": null,
+"mt": "{col:certs.issued}'da yayınlandı ve {col:certs.expiry}'de sona eriyor, yani bugünden sonra {col:certs.days_left} gün.",
+"why": "placeholders must be exactly: {col:certs.issued} {col:certs.expiry} {col:certs.days_left} {col:certs.state}"
+},
+{
+"en": "It covers: {col:certs.scope}. The yearly fee is {col:certs.fee}.",
+"kind": "document",
+"max": null,
+"mt": "Yıllık ücret {col:certs.fee}.",
+"why": "placeholders must be exactly: {col:certs.scope} {col:certs.fee}"
+},
+{
+"en": "Asset: {col:assets.asset_id} {col:assets.name}. Class: {col:assets.class}. Bought on {col:assets.bought} for {col:assets.cost}.",
+"kind": "document",
+"max": null,
+"mt": "Varlık: {col:assets.asset_id} {col:assets.name}. Sınıf: {col:assets.class}. {col:assets.bought} {col:assets.cost} {col:assets.bought} {col:assets.cost} {col:assets.cost} {col:assets.cost} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5}",
+"why": "placeholders must be exactly: {col:assets.asset_id} {col:assets.name} {col:assets.class} {col:assets.bought} {col:assets.cost}"
+},
+{
+"en": "The owner drew {col:ratios.drawings}, which is {col:ratios.drawings_share} of the profit. Loan payments were {col:ratios.debt_payments} and interest was {col:ratios.interest}, so the debt service cover is {col:ratios.cover}.",
+"kind": "document",
+"max": null,
+"mt": "Borç ödemeleri {col:ratios.debt_payments} ve faizler {col:ratios.interest} oldu, bu yüzden borç hizmet kapsamı {col:ratios.cover} oldu.",
+"why": "placeholders must be exactly: {col:ratios.drawings} {col:ratios.drawings_share} {col:ratios.debt_payments} {col:ratios.interest} {col:ratios.cover}"
+},
+{
+"en": "Current assets were {col:ratios.current_assets} against current liabilities of {col:ratios.current_liabilities}, a current ratio of {col:ratios.current_ratio}. The quarter check shows: {col:ratios.state}.",
+"kind": "document",
+"max": null,
+"mt": "Devam eden varlıklar {col:ratios.current_assets} karşıdaki geçerli yükümlülükler {col:ratios.current_liabilities} , bir geçerli oran {col:ratios.current_ratio}.",
+"why": "placeholders must be exactly: {col:ratios.current_assets} {col:ratios.current_liabilities} {col:ratios.current_ratio} {col:ratios.state}"
+}
+]

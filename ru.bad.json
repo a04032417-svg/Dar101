@@ -1,0 +1,317 @@
+[
+{
+"en": "Know what each field, crop and herd earns, and keep the paperwork in order",
+"kind": "sentence",
+"max": 80,
+"mt": "Узнайте, сколько зарабатывает каждое поле, урожай и стадо, и держите бумаги в порядке",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Profit per field, budget, cash, loans, grants, insurance and records",
+"kind": "sentence",
+"max": 80,
+"mt": "Прибыль на поле, бюджет, денежные средства, займы, гранты, страхование и отчетность",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "each bill has a cost code and the field, crop or herd it belongs to; the budget shows spend, the yearly forecast and a warning before a code goes over",
+"kind": "sentence",
+"max": 160,
+"mt": "Каждый вексель имеет код затрат и поле, урожай или стадо, к которому он принадлежит; бюджет показывает расходы, годовой прогноз и предупреждение перед кодом проходит",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Monthly profit and loss that builds itself",
+"kind": "label",
+"max": 50,
+"mt": "Ежемесячная прибыль и убытки, которые наращиваются сами по себе",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "Grant tracker with evidence deadlines",
+"kind": "label",
+"max": 50,
+"mt": "Отслеживатель грантов с сроками предоставления доказательств",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "every payment due to the tax office, the council or a licensing body with days left and the amount still open, feeding the cash forecast",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый платеж, который должен быть произведен в налоговое управление, совет или лицензирующий орган, с оставшимися днями и суммой, которая еще не была произведена, что обеспечивает прогноз наличности.",
+"why": "too long: 200 characters, the limit is 160"
+},
+{
+"en": "margin, owner drawings share, debt service cover and current ratio for each quarter, set against the targets you choose",
+"kind": "sentence",
+"max": 160,
+"mt": "маржа, доля собственников, покрытие обслуживания задолженности и текущий коэффициент за каждый квартал, установленные по отношению к выбранным вами целевым показателям",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Farm Finance, Grants and Compliance",
+"kind": "title",
+"max": 60,
+"mt": "Финансирование фермерских хозяйств, гранты и соблюдение требований",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Dairy and animal gear",
+"kind": "list",
+"max": 30,
+"mt": "Молочные и животные приспособления",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Organic certificate",
+"kind": "list",
+"max": 30,
+"mt": "Сертификат органического производства",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Good farming practice",
+"kind": "list",
+"max": 30,
+"mt": "Хорошая сельскохозяйственная практика",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "River water permit",
+"kind": "list",
+"max": 30,
+"mt": "Разрешение на использование речной воды",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Effluent permit",
+"kind": "list",
+"max": 30,
+"mt": "Разрешение на выбросы сточных вод",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Evidence due soon",
+"kind": "list",
+"max": 30,
+"mt": "Доказательства должны быть в ближайшее время",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Cost ledger: every cost by cost code, field and animal group",
+"kind": "title",
+"max": 60,
+"mt": "Книга расходов: каждая стоимость по коду расходов, полям и группам животных",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Compliance records for chemicals, sprays and animals",
+"kind": "title",
+"max": 60,
+"mt": "Записи соответствия для химических веществ, спреев и животных",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello, our cash forecast for the month starting {month} shows {closing}, which covers {cover_weeks} weeks of costs. Check: {state}. Please look at sales dates and large payments.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, наш прогноз наличности на месяц, начиная с {month} показывает {closing}, который охватывает {cover_weeks} недель расходов.",
+"why": "placeholders must be exactly: {month} {closing} {cover_weeks} {state}"
+},
+{
+"en": "Hello {owner}, {name} ({crop}, {area_ha} ha) shows a profit of {profit} this year, that is {per_ha} per hectare. Check: {state}. Please send me the reasons: yield, price or costs.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {owner}, {name} ({crop}, {area_ha} га) показывает прибыль {profit} в этом году, то есть {per_ha} на гектар.",
+"why": "placeholders must be exactly: {owner} {name} {crop} {area_ha} {profit} {per_ha} {state}"
+},
+{
+"en": "Hello, the payment {item} of {amount} is due on {due}. Status: {state}. Please prepare the payment and keep the receipt.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, оплата {item} {amount} должна быть произведена в {due}.",
+"why": "placeholders must be exactly: {item} {amount} {due} {state}"
+},
+{
+"en": "Hello, our repayment of {payment} on loan {loan} with {lender} is due on {due}. Please confirm the account details for the transfer.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы должны погасить долг по кредиту, который мы получили в связи с перечислением.",
+"why": "placeholders must be exactly: {payment} {loan} {lender} {due}"
+},
+{
+"en": "Hello, we send our annual accounts for loan {loan_id} ({purpose}). The balance is {balance}. Please tell us if you need more papers for the review.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы отправляем наши годовые счета по кредиту {loan_id} ({purpose}).",
+"why": "placeholders must be exactly: {loan_id} {purpose} {balance}"
+},
+{
+"en": "Hello, we ask for a higher limit on our {type}, {purpose}, for the coming season. The balance now is {balance} on {principal} borrowed. Please send the conditions.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы просим более высокий лимит на наш {type}, {purpose}, на следующий сезон.",
+"why": "placeholders must be exactly: {type} {purpose} {balance} {principal}"
+},
+{
+"en": "Hello {inspector}, we confirm your inspection on {date}: {scope}. Please tell us which maps, invoices and photos you want to see.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы подтверждаем ваш осмотр в {date}: {scope}. Пожалуйста, скажите нам, какие карты, счета и фотографии вы хотите увидеть.",
+"why": "placeholders must be exactly: {inspector} {date} {scope}"
+},
+{
+"en": "Hello, we report a {event} on {field} on {event_date} under policy {policy}. We claim {claimed}. Please send the claim form and arrange an assessor.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы сообщаем о происшествии в соответствии с политикой. Пожалуйста, отправьте форму заявки и назначьте оценщика.",
+"why": "placeholders must be exactly: {event} {field} {event_date} {policy} {claimed}"
+},
+{
+"en": "Hello {inspector}, we confirm the {kind} on {date}. Scope: {scope}. Please tell us which records you need and we will have them ready.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы подтверждаем, что вы получили сообщение. Пожалуйста, скажите нам, какие записи вам нужны, и мы их подготовим.",
+"why": "placeholders must be exactly: {inspector} {kind} {date} {scope}"
+},
+{
+"en": "Hello, we count the assets on {next_count}. Please check {name} ({class}), its condition and its place. The value after depreciation is {book}.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, проверьте {name} ({class}), его состояние и место.",
+"why": "placeholders must be exactly: {next_count} {name} {class} {book}"
+},
+{
+"en": "Hello {owner}, the record {type} for {period} was due on {due}: {state}. Please complete it today, because inspectors and buyers ask for it.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, запись {type} для {period} должна была быть в {due}: {state}. Пожалуйста, заполните ее сегодня, потому что инспектора и покупатели просят ее.",
+"why": "placeholders must be exactly: {owner} {type} {period} {due} {state}"
+},
+{
+"en": "Revenue from sales was {col:pnl.revenue} and grants received were {col:pnl.grants}. Costs were {col:pnl.costs} and depreciation was {col:pnl.depreciation}.",
+"kind": "document",
+"max": null,
+"mt": "Доход от продаж был {col:pnl.revenue} и полученные гранты были {col:pnl.grants}.",
+"why": "placeholders must be exactly: {col:pnl.revenue} {col:pnl.grants} {col:pnl.costs} {col:pnl.depreciation}"
+},
+{
+"en": "The profit for the month is {col:pnl.profit}, which is a margin of {col:pnl.margin}. The profit you want at your target margin is {col:pnl.target_profit}. The profit so far this financial year is {col:pnl.cum}.",
+"kind": "document",
+"max": null,
+"mt": "Прибыль за месяц равна {col:pnl.profit}, что является маржой {col:pnl.margin}. Прибыль, которую вы хотите получить при целевой марже, равна {col:pnl.target_profit}.",
+"why": "placeholders must be exactly: {col:pnl.profit} {col:pnl.margin} {col:pnl.target_profit} {col:pnl.cum}"
+},
+{
+"en": "Cost code: {col:budget.code} {col:budget.name}. Group: {col:budget.group}. Budget holder: {col:budget.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Код затрат: {col:budget.code} {col:budget.name}. Группа: {col:budget.group}.",
+"why": "placeholders must be exactly: {col:budget.code} {col:budget.name} {col:budget.group} {col:budget.manager}"
+},
+{
+"en": "The budget for the year is {col:budget.budget}. So far this year {col:budget.actual} was spent, which is {col:budget.used} of the budget.",
+"kind": "document",
+"max": null,
+"mt": "На данный момент в этом году было потрачено 2 процента бюджета.",
+"why": "placeholders must be exactly: {col:budget.budget} {col:budget.actual} {col:budget.used}"
+},
+{
+"en": "If costs continue at this pace the year will end at {col:budget.forecast}, which is {col:budget.gap} against the budget. The budget check shows: {col:budget.state}.",
+"kind": "document",
+"max": null,
+"mt": "Если расходы продолжатся в этом темпе, год закончится в {col:budget.forecast}, что является {col:budget.gap} против бюджета.",
+"why": "placeholders must be exactly: {col:budget.forecast} {col:budget.gap} {col:budget.state}"
+},
+{
+"en": "The budget holder explains any difference and proposes action before the next monthly close. The budget was last reviewed on {col:budget.reviewed}.",
+"kind": "document",
+"max": null,
+"mt": "Владелец бюджета объясняет любые различия и предлагает действия до следующего окончания месяца.",
+"why": "placeholders must be exactly: {col:budget.reviewed}"
+},
+{
+"en": "Field: {col:fields.name}. Crop: {col:fields.crop}. Area: {col:fields.area_ha} hectares. Field supervisor: {col:fields.owner}.",
+"kind": "document",
+"max": null,
+"mt": "Поле: {col:fields.name}. Посадка: {col:fields.crop}. Площадь: {col:fields.area_ha} гектаров.",
+"why": "placeholders must be exactly: {col:fields.name} {col:fields.crop} {col:fields.area_ha} {col:fields.owner}"
+},
+{
+"en": "That is {col:fields.per_ha} per hectare and a margin of {col:fields.margin}. The result check shows: {col:fields.state}.",
+"kind": "document",
+"max": null,
+"mt": "Это {col:fields.per_ha} на гектар и маржа {col:fields.margin}.",
+"why": "placeholders must be exactly: {col:fields.per_ha} {col:fields.margin} {col:fields.state}"
+},
+{
+"en": "The net result of the month is {col:cash.net} and the closing cash is {col:cash.closing}, which covers {col:cash.cover_weeks} weeks of costs. The cash check shows: {col:cash.state}.",
+"kind": "document",
+"max": null,
+"mt": "Чистый результат месяца {col:cash.net} и закрытие денежных средств {col:cash.closing}, которые покрывают {col:cash.cover_weeks} недель расходов.",
+"why": "placeholders must be exactly: {col:cash.net} {col:cash.closing} {col:cash.cover_weeks} {col:cash.state}"
+},
+{
+"en": "The amount borrowed was {col:loans.principal} at {col:loans.rate} per year, starting on {col:loans.start} and ending on {col:loans.maturity}. The payment is {col:loans.payment} each month.",
+"kind": "document",
+"max": null,
+"mt": "Сумма займа составляла {col:loans.principal} в {col:loans.rate} в год, начиная с {col:loans.start} и заканчивая на {col:loans.maturity}.",
+"why": "placeholders must be exactly: {col:loans.principal} {col:loans.rate} {col:loans.start} {col:loans.maturity} {col:loans.payment}"
+},
+{
+"en": "So far {col:loans.paid} of the principal has been repaid and the balance is {col:loans.balance}. The next payment is due on {col:loans.next_due}. The loan check shows: {col:loans.state}.",
+"kind": "document",
+"max": null,
+"mt": "На данный момент {col:loans.paid} основная сумма была погашена и остаток {col:loans.balance}. Следующий платеж должен быть произведен на {col:loans.next_due}.",
+"why": "placeholders must be exactly: {col:loans.paid} {col:loans.balance} {col:loans.next_due} {col:loans.state}"
+},
+{
+"en": "The amount still to receive is {col:grants.outstanding}. The evidence for the payment claim is due on {col:grants.evidence_due}. The grant check shows: {col:grants.state}.",
+"kind": "document",
+"max": null,
+"mt": "Сумма, которая должна быть получена, {col:grants.outstanding}. Доказательство заявки на выплату должно быть представлено в {col:grants.evidence_due}.",
+"why": "placeholders must be exactly: {col:grants.outstanding} {col:grants.evidence_due} {col:grants.state}"
+},
+{
+"en": "Event: {col:claims.event} on {col:claims.event_date}, field: {col:claims.field}. We reported it on {col:claims.reported}.",
+"kind": "document",
+"max": null,
+"mt": "Событие: {col:claims.event} на {col:claims.event_date}, поле: {col:claims.field}.",
+"why": "placeholders must be exactly: {col:claims.event} {col:claims.event_date} {col:claims.field} {col:claims.reported}"
+},
+{
+"en": "We claim {col:claims.claimed}. The insurer has settled {col:claims.settled}. The status is {col:claims.status} and the claim has been open for {col:claims.days_open} days.",
+"kind": "document",
+"max": null,
+"mt": "Мы заявляем, что страховщик расплатился, и претензия была открыта в течение трех дней.",
+"why": "placeholders must be exactly: {col:claims.claimed} {col:claims.settled} {col:claims.status} {col:claims.days_open}"
+},
+{
+"en": "Certificate or permit: {col:certs.name}. Kind: {col:certs.kind}. Issued by: {col:certs.body}.",
+"kind": "document",
+"max": null,
+"mt": "Сертификат или разрешение: {col:certs.name}.",
+"why": "placeholders must be exactly: {col:certs.name} {col:certs.kind} {col:certs.body}"
+},
+{
+"en": "It was issued on {col:certs.issued} and expires on {col:certs.expiry}, which is {col:certs.days_left} days from today. The expiry check shows: {col:certs.state}.",
+"kind": "document",
+"max": null,
+"mt": "Он был выпущен в {col:certs.issued} и истекает в {col:certs.expiry}, то есть {col:certs.days_left} дней с сегодняшнего дня.",
+"why": "placeholders must be exactly: {col:certs.issued} {col:certs.expiry} {col:certs.days_left} {col:certs.state}"
+},
+{
+"en": "It covers: {col:certs.scope}. The yearly fee is {col:certs.fee}.",
+"kind": "document",
+"max": null,
+"mt": "Он охватывает: {col:certs.scope}.",
+"why": "placeholders must be exactly: {col:certs.scope} {col:certs.fee}"
+},
+{
+"en": "Current assets were {col:ratios.current_assets} against current liabilities of {col:ratios.current_liabilities}, a current ratio of {col:ratios.current_ratio}. The quarter check shows: {col:ratios.state}.",
+"kind": "document",
+"max": null,
+"mt": "Текущие активы составили {col:ratios.current_assets} против текущих обязательств {col:ratios.current_liabilities}, текущее соотношение {col:ratios.current_ratio}.",
+"why": "placeholders must be exactly: {col:ratios.current_assets} {col:ratios.current_liabilities} {col:ratios.current_ratio} {col:ratios.state}"
+}
+]

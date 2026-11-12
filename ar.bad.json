@@ -1,0 +1,121 @@
+[
+{
+"en": "Seasonal and casual labour",
+"kind": "list",
+"max": 30,
+"mt": "العمل الموسمي والعمالة العشوائية",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Chemical store check",
+"kind": "list",
+"max": 30,
+"mt": "التحقق من مخزن المواد الكيميائية",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Passed with actions",
+"kind": "list",
+"max": 30,
+"mt": "تمت الموافقة عليها مع الإجراءات",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Waste and effluent",
+"kind": "list",
+"max": 30,
+"mt": "النفايات والمياه الصالحة للاستخدام",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cost ledger: every cost by cost code, field and animal group",
+"kind": "title",
+"max": 60,
+"mt": "سجل التكاليف: كل تكلفة حسب رمز التكلفة والحقل ومجموعة الحيوانات",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Hello {manager}, the cost code {name} has used {used} of its budget: {actual} of {budget}. The forecast for the year is {forecast}. Check: {state}. Please tell me the reason and what we can change.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {manager}، تم استخدام رمز التكلفة {name} {used} من ميزانيته: {actual} من {budget}. التوقعات لهذا العام هي {forecast}.",
+"why": "placeholders must be exactly: {manager} {name} {used} {actual} {budget} {forecast} {state}"
+},
+{
+"en": "Hello {owner}, {name} ({crop}, {area_ha} ha) shows a profit of {profit} this year, that is {per_ha} per hectare. Check: {state}. Please send me the reasons: yield, price or costs.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {owner}، {name} ({crop}، {area_ha} هكتار) يظهر ربح {profit} هذا العام، وهذا هو {per_ha} لكل هكتار.",
+"why": "placeholders must be exactly: {owner} {name} {crop} {area_ha} {profit} {per_ha} {state}"
+},
+{
+"en": "Hello, our repayment of {payment} on loan {loan} with {lender} is due on {due}. Please confirm the account details for the transfer.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، سدادنا للقرض مع رقم 2 هو في 3 من فضلكم تأكدوا من تفاصيل الحساب.",
+"why": "placeholders must be exactly: {payment} {loan} {lender} {due}"
+},
+{
+"en": "Hello {inspector}, we confirm the {kind} on {date}. Scope: {scope}. Please tell us which records you need and we will have them ready.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، لقد تأكدنا من وجودك في الموقع، من فضلك أخبرنا عن السجلات التي تحتاجها وسنكون مستعدين.",
+"why": "placeholders must be exactly: {inspector} {kind} {date} {scope}"
+},
+{
+"en": "Cost code: {col:budget.code} {col:budget.name}. Group: {col:budget.group}. Budget holder: {col:budget.manager}.",
+"kind": "document",
+"max": null,
+"mt": "رمز التكلفة: {col:budget.code} {col:budget.name}. المجموعة: {col:budget.group}.",
+"why": "placeholders must be exactly: {col:budget.code} {col:budget.name} {col:budget.group} {col:budget.manager}"
+},
+{
+"en": "If costs continue at this pace the year will end at {col:budget.forecast}, which is {col:budget.gap} against the budget. The budget check shows: {col:budget.state}.",
+"kind": "document",
+"max": null,
+"mt": "إذا استمرت التكاليف في هذا المعدل، فإن العام سينتهي عند {col:budget.forecast}، وهو {col:budget.gap} مقابل الميزانية.",
+"why": "placeholders must be exactly: {col:budget.forecast} {col:budget.gap} {col:budget.state}"
+},
+{
+"en": "The amount borrowed was {col:loans.principal} at {col:loans.rate} per year, starting on {col:loans.start} and ending on {col:loans.maturity}. The payment is {col:loans.payment} each month.",
+"kind": "document",
+"max": null,
+"mt": "المبلغ المقترض كان {col:loans.principal} في {col:loans.rate} في السنة، بدءا من {col:loans.start} وتنتهي في {col:loans.maturity}.",
+"why": "placeholders must be exactly: {col:loans.principal} {col:loans.rate} {col:loans.start} {col:loans.maturity} {col:loans.payment}"
+},
+{
+"en": "So far {col:loans.paid} of the principal has been repaid and the balance is {col:loans.balance}. The next payment is due on {col:loans.next_due}. The loan check shows: {col:loans.state}.",
+"kind": "document",
+"max": null,
+"mt": "حتى الآن {col:loans.paid} من الرأسمال تم سداده والرصيد هو {col:loans.balance}. الدفع التالي مستحق في {col:loans.next_due}.",
+"why": "placeholders must be exactly: {col:loans.paid} {col:loans.balance} {col:loans.next_due} {col:loans.state}"
+},
+{
+"en": "Scheme: {col:grants.scheme}. Paying body: {col:grants.body}. Type: {col:grants.type}. Officer: {col:grants.officer}.",
+"kind": "document",
+"max": null,
+"mt": "الهيئة المدفوعة: نوع: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط: ضابط:",
+"why": "placeholders must be exactly: {col:grants.scheme} {col:grants.body} {col:grants.type} {col:grants.officer}"
+},
+{
+"en": "Event: {col:claims.event} on {col:claims.event_date}, field: {col:claims.field}. We reported it on {col:claims.reported}.",
+"kind": "document",
+"max": null,
+"mt": "حدث: {col:claims.event} في {col:claims.event_date}، الحقل: {col:claims.field}.",
+"why": "placeholders must be exactly: {col:claims.event} {col:claims.event_date} {col:claims.field} {col:claims.reported}"
+},
+{
+"en": "Certificate or permit: {col:certs.name}. Kind: {col:certs.kind}. Issued by: {col:certs.body}.",
+"kind": "document",
+"max": null,
+"mt": "شهادة أو تصريح: {col:certs.name}. نوع: {col:certs.kind}.",
+"why": "placeholders must be exactly: {col:certs.name} {col:certs.kind} {col:certs.body}"
+},
+{
+"en": "Current assets were {col:ratios.current_assets} against current liabilities of {col:ratios.current_liabilities}, a current ratio of {col:ratios.current_ratio}. The quarter check shows: {col:ratios.state}.",
+"kind": "document",
+"max": null,
+"mt": "كانت الأصول الجارية {col:ratios.current_assets} مقابل الالتزامات الجارية {col:ratios.current_liabilities}، ونسبة الجارية {col:ratios.current_ratio}.",
+"why": "placeholders must be exactly: {col:ratios.current_assets} {col:ratios.current_liabilities} {col:ratios.current_ratio} {col:ratios.state}"
+}
+]

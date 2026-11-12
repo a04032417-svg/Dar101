@@ -1,0 +1,177 @@
+[
+{
+"en": "Profit per field, budget, cash, loans, grants, insurance and records",
+"kind": "sentence",
+"max": 80,
+"mt": "Keuntungan per bidang, anggaran, uang tunai, pinjaman, hibah, asuransi dan catatan",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "Cost ledger with budget by cost code",
+"kind": "label",
+"max": 50,
+"mt": "Buku besar biaya dengan anggaran berdasarkan kode biaya",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "each bill has a cost code and the field, crop or herd it belongs to; the budget shows spend, the yearly forecast and a warning before a code goes over",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap tagihan memiliki kode biaya dan ladang, tanaman atau kawanan yang dimiliki; anggaran menunjukkan pengeluaran, perkiraan tahunan dan peringatan sebelum kode melebihi",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Monthly profit and loss that builds itself",
+"kind": "label",
+"max": 50,
+"mt": "Keuntungan dan kerugian bulanan yang membangun dirinya sendiri",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "expected sales, grants and costs, plus loan repayments and tax taken from their pages, give the closing cash and the weeks of costs it covers",
+"kind": "sentence",
+"max": 160,
+"mt": "diharapkan penjualan, hibah dan biaya, ditambah pembayaran pinjaman dan pajak diambil dari halaman mereka, memberikan penutupan uang tunai dan minggu biaya yang ditanggung",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "every loan and credit line has its schedule, the principal repaid, the balance, the next payment date and a warning for a late repayment",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap pinjaman dan garis kredit memiliki jadwalnya, principal yang dibayarkan kembali, saldo, tanggal pembayaran berikutnya dan peringatan untuk pembayaran terlambat",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "every payment due to the tax office, the council or a licensing body with days left and the amount still open, feeding the cash forecast",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap pembayaran yang harus dibayarkan ke kantor pajak, dewan atau badan pemberi lisensi dengan hari yang tersisa dan jumlah yang masih belum selesai, memberi makan perkiraan kas",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Overdraft",
+"kind": "list",
+"max": 30,
+"mt": "Overdraft",
+"why": "not translated"
+},
+{
+"en": "On pace to exceed",
+"kind": "list",
+"max": 30,
+"mt": "Dalam kecepatan untuk melampaui",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cost ledger: every cost by cost code, field and animal group",
+"kind": "title",
+"max": 60,
+"mt": "Buku besar biaya: setiap biaya berdasarkan kode biaya, lapangan dan kelompok hewan",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Income ledger: every sale by source and buyer",
+"kind": "title",
+"max": 60,
+"mt": "Buku besar pendapatan: setiap penjualan oleh sumber dan pembeli",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Area hit, ha",
+"kind": "label",
+"max": null,
+"mt": "Area hit, ha",
+"why": "not translated"
+},
+{
+"en": "Hello {manager}, the cost code {name} has used {used} of its budget: {actual} of {budget}. The forecast for the year is {forecast}. Check: {state}. Please tell me the reason and what we can change.",
+"kind": "message",
+"max": null,
+"mt": "Halo {manager}, kode biaya {name} telah menggunakan {used} dari anggaran: {actual} dari {budget}.",
+"why": "placeholders must be exactly: {manager} {name} {used} {actual} {budget} {forecast} {state}"
+},
+{
+"en": "Hello, our cash forecast for the month starting {month} shows {closing}, which covers {cover_weeks} weeks of costs. Check: {state}. Please look at sales dates and large payments.",
+"kind": "message",
+"max": null,
+"mt": "Halo, perkiraan kas kami untuk bulan dimulai {month} menunjukkan {closing}, yang mencakup {cover_weeks} minggu biaya.",
+"why": "placeholders must be exactly: {month} {closing} {cover_weeks} {state}"
+},
+{
+"en": "Hello {owner}, {name} ({crop}, {area_ha} ha) shows a profit of {profit} this year, that is {per_ha} per hectare. Check: {state}. Please send me the reasons: yield, price or costs.",
+"kind": "message",
+"max": null,
+"mt": "Halo {owner}, {name} ({crop}, {area_ha} ha) menunjukkan keuntungan {profit} tahun ini, yaitu {per_ha} per hektar.",
+"why": "placeholders must be exactly: {owner} {name} {crop} {area_ha} {profit} {per_ha} {state}"
+},
+{
+"en": "Hello {inspector}, we confirm the {kind} on {date}. Scope: {scope}. Please tell us which records you need and we will have them ready.",
+"kind": "message",
+"max": null,
+"mt": "Halo {inspector}, kami mengkonfirmasi {kind} pada {date}.",
+"why": "placeholders must be exactly: {inspector} {kind} {date} {scope}"
+},
+{
+"en": "If costs continue at this pace the year will end at {col:budget.forecast}, which is {col:budget.gap} against the budget. The budget check shows: {col:budget.state}.",
+"kind": "document",
+"max": null,
+"mt": "Jika biaya terus dengan kecepatan ini tahun akan berakhir pada {col:budget.forecast}, yang {col:budget.gap} terhadap anggaran.",
+"why": "placeholders must be exactly: {col:budget.forecast} {col:budget.gap} {col:budget.state}"
+},
+{
+"en": "The budget holder explains any difference and proposes action before the next monthly close. The budget was last reviewed on {col:budget.reviewed}.",
+"kind": "document",
+"max": null,
+"mt": "Pemegang anggaran menjelaskan setiap perbedaan dan mengusulkan tindakan sebelum akhir bulanan berikutnya.",
+"why": "placeholders must be exactly: {col:budget.reviewed}"
+},
+{
+"en": "That is {col:fields.per_ha} per hectare and a margin of {col:fields.margin}. The result check shows: {col:fields.state}.",
+"kind": "document",
+"max": null,
+"mt": "Itu adalah {col:fields.per_ha} per hektar dan margin {col:fields.margin}.",
+"why": "placeholders must be exactly: {col:fields.per_ha} {col:fields.margin} {col:fields.state}"
+},
+{
+"en": "The amount borrowed was {col:loans.principal} at {col:loans.rate} per year, starting on {col:loans.start} and ending on {col:loans.maturity}. The payment is {col:loans.payment} each month.",
+"kind": "document",
+"max": null,
+"mt": "Jumlah pinjaman adalah {col:loans.principal} pada {col:loans.rate} per tahun, dimulai pada {col:loans.start} dan berakhir pada {col:loans.maturity}.",
+"why": "placeholders must be exactly: {col:loans.principal} {col:loans.rate} {col:loans.start} {col:loans.maturity} {col:loans.payment}"
+},
+{
+"en": "The amount still to receive is {col:grants.outstanding}. The evidence for the payment claim is due on {col:grants.evidence_due}. The grant check shows: {col:grants.state}.",
+"kind": "document",
+"max": null,
+"mt": "Jumlah yang masih harus diterima adalah {col:grants.outstanding}. Bukti untuk permintaan pembayaran jatuh pada {col:grants.evidence_due}.",
+"why": "placeholders must be exactly: {col:grants.outstanding} {col:grants.evidence_due} {col:grants.state}"
+},
+{
+"en": "Event: {col:claims.event} on {col:claims.event_date}, field: {col:claims.field}. We reported it on {col:claims.reported}.",
+"kind": "document",
+"max": null,
+"mt": "Acara: {col:claims.event} pada {col:claims.event_date}, bidang: {col:claims.field}.",
+"why": "placeholders must be exactly: {col:claims.event} {col:claims.event_date} {col:claims.field} {col:claims.reported}"
+},
+{
+"en": "Certificate or permit: {col:certs.name}. Kind: {col:certs.kind}. Issued by: {col:certs.body}.",
+"kind": "document",
+"max": null,
+"mt": "Sertifikat atau izin: {col:certs.name}.",
+"why": "placeholders must be exactly: {col:certs.name} {col:certs.kind} {col:certs.body}"
+},
+{
+"en": "It was issued on {col:certs.issued} and expires on {col:certs.expiry}, which is {col:certs.days_left} days from today. The expiry check shows: {col:certs.state}.",
+"kind": "document",
+"max": null,
+"mt": "Ini dikeluarkan pada {col:certs.issued} dan berakhir pada {col:certs.expiry}, yang merupakan {col:certs.days_left} hari dari hari ini.",
+"why": "placeholders must be exactly: {col:certs.issued} {col:certs.expiry} {col:certs.days_left} {col:certs.state}"
+},
+{
+"en": "Current assets were {col:ratios.current_assets} against current liabilities of {col:ratios.current_liabilities}, a current ratio of {col:ratios.current_ratio}. The quarter check shows: {col:ratios.state}.",
+"kind": "document",
+"max": null,
+"mt": "Aktif saat ini adalah {col:ratios.current_assets} terhadap kewajiban saat ini adalah {col:ratios.current_liabilities}, rasio saat ini adalah {col:ratios.current_ratio}.",
+"why": "placeholders must be exactly: {col:ratios.current_assets} {col:ratios.current_liabilities} {col:ratios.current_ratio} {col:ratios.state}"
+}
+]

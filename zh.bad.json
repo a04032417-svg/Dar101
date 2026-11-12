@@ -1,0 +1,170 @@
+[
+{
+"en": "Hello {manager}, the cost code {name} has used {used} of its budget: {actual} of {budget}. The forecast for the year is {forecast}. Check: {state}. Please tell me the reason and what we can change.",
+"kind": "message",
+"max": null,
+"mt": "您好,成本代码 {name} 使用了 {used} 的预算: {actual} 的 {budget}. 预测为今年是 {forecast}. 检查: {state}. 请告诉我原因和我们可以改变什么.",
+"why": "placeholders must be exactly: {manager} {name} {used} {actual} {budget} {forecast} {state}"
+},
+{
+"en": "Hello {owner}, {name} ({crop}, {area_ha} ha) shows a profit of {profit} this year, that is {per_ha} per hectare. Check: {state}. Please send me the reasons: yield, price or costs.",
+"kind": "message",
+"max": null,
+"mt": "您好, {owner}, {name} ({crop}, {area_ha} ha) 显示今年的利为 {profit},即每公的 {per_ha}. 检查: {state}. 请给我原因:收益率,价格或成本.",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello, the payment {item} of {amount} is due on {due}. Status: {state}. Please prepare the payment and keep the receipt.",
+"kind": "message",
+"max": null,
+"mt": "你好, {item} 的付款是 {due}. 状态: {state}. 请准备付款并保留收据.",
+"why": "placeholders must be exactly: {item} {amount} {due} {state}"
+},
+{
+"en": "Hello, the licence payment {item} for {authority} is due on {due}. Please renew it on time and send me the receipt.",
+"kind": "message",
+"max": null,
+"mt": "您好,请按时续约,并给我收据.",
+"why": "placeholders must be exactly: {item} {authority} {due}"
+},
+{
+"en": "Hello, please send a statement for loan {loan_id}. Our records show a balance of {balance} and the next payment on {next_due}. Tell us if you see a difference.",
+"kind": "message",
+"max": null,
+"mt": "您好,请发送贷款的声明. 我们的记录显示, {balance} 的余额和下一次付款在 {next_due}. 如果你看到差异,告诉我们.",
+"why": "placeholders must be exactly: {loan_id} {balance} {next_due}"
+},
+{
+"en": "Hello {officer}, please find our application documents for {scheme} attached. We apply for {applied}. Please confirm that you received everything.",
+"kind": "message",
+"max": null,
+"mt": "你好,请找到我们的申请文件. 我们申请了. 请确认您收到了一切.",
+"why": "placeholders must be exactly: {officer} {scheme} {applied}"
+},
+{
+"en": "Hello {officer}, we send the evidence for the payment claim on {scheme}. The evidence date is {evidence_due} and the amount still to come is {outstanding}. Please confirm receipt.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们在1日发送支付索赔的证据. 证明日期是2日,还有待支付的金额是3日. 请确认收据.",
+"why": "placeholders must be exactly: {officer} {scheme} {evidence_due} {outstanding}"
+},
+{
+"en": "Hello {inspector}, we confirm your inspection on {date}: {scope}. Please tell us which maps, invoices and photos you want to see.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们确认您的检查:请告诉我们您想要看到哪些地图,发票和照片.",
+"why": "placeholders must be exactly: {inspector} {date} {scope}"
+},
+{
+"en": "Hello, we report a {event} on {field} on {event_date} under policy {policy}. We claim {claimed}. Please send the claim form and arrange an assessor.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们在政策下报告了 {event} 在 {field} 在 {event_date} 我们声称 {claimed}. 请发送索赔表格并安排评估员.",
+"why": "placeholders must be exactly: {event} {field} {event_date} {policy} {claimed}"
+},
+{
+"en": "Hello, we send photos and evidence for claim {claim_id} ({event}, {field}). The status is {status} and it has been open for {days_open} days. Please tell us if you need more.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们发送照片和证据. 状态是 {status},它已经开放了 {days_open} 天. 请告诉我们如果你需要更多.",
+"why": "placeholders must be exactly: {claim_id} {event} {field} {status} {days_open}"
+},
+{
+"en": "Hello {inspector}, we confirm the {kind} on {date}. Scope: {scope}. Please tell us which records you need and we will have them ready.",
+"kind": "message",
+"max": null,
+"mt": "请告诉我们你需要哪些记录,我们会准备好.",
+"why": "placeholders must be exactly: {inspector} {kind} {date} {scope}"
+},
+{
+"en": "Hello {inspector}, here is our reply on the {kind} of {date}: {actions_open} actions are open and due on {action_due}. Please confirm that the plan is accepted.",
+"kind": "message",
+"max": null,
+"mt": "您好,这是我们在 {kind} 的 {date} 上的回答: {actions_open} 行动已开放,截止于 {action_due}. 请确认计划已被接受.",
+"why": "placeholders must be exactly: {inspector} {kind} {date} {actions_open} {action_due}"
+},
+{
+"en": "Budget against actual report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "预算与日期为 {set:firm} 的实际报告相比.",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Cost code: {col:budget.code} {col:budget.name}. Group: {col:budget.group}. Budget holder: {col:budget.manager}.",
+"kind": "document",
+"max": null,
+"mt": "费用代码: {col:budget.code} {col:budget.name}.",
+"why": "placeholders must be exactly: {col:budget.code} {col:budget.name} {col:budget.group} {col:budget.manager}"
+},
+{
+"en": "The budget holder explains any difference and proposes action before the next monthly close. The budget was last reviewed on {col:budget.reviewed}.",
+"kind": "document",
+"max": null,
+"mt": "预算持有者解释任何差异,并建议在下一个月结束前采取行动.",
+"why": "placeholders must be exactly: {col:budget.reviewed}"
+},
+{
+"en": "Profit per field report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "截至1日的 {set:firm} 的实地报告中,每场利",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Loan summary of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "贷款总结日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Lender: {col:loans.lender}. Loan: {col:loans.loan_id}, {col:loans.type}. Purpose: {col:loans.purpose}.",
+"kind": "document",
+"max": null,
+"mt": "贷款人: 贷款人: 贷款人:",
+"why": "placeholders must be exactly: {col:loans.lender} {col:loans.loan_id} {col:loans.type} {col:loans.purpose}"
+},
+{
+"en": "The loan is secured by: {col:loans.collateral}. The interest for the coming year on the balance is about {col:loans.interest_year}.",
+"kind": "document",
+"max": null,
+"mt": "这笔贷款的担保是: {col:loans.collateral}.",
+"why": "placeholders must be exactly: {col:loans.collateral} {col:loans.interest_year}"
+},
+{
+"en": "Grant application summary of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "补助申请摘要,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Certification and compliance register of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "认证和合规性登记簿,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Certificate or permit: {col:certs.name}. Kind: {col:certs.kind}. Issued by: {col:certs.body}.",
+"kind": "document",
+"max": null,
+"mt": "证书或许可证: {col:certs.name}. 类型: {col:certs.kind}.",
+"why": "placeholders must be exactly: {col:certs.name} {col:certs.kind} {col:certs.body}"
+},
+{
+"en": "Year-end farm report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "年终农场报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Current assets were {col:ratios.current_assets} against current liabilities of {col:ratios.current_liabilities}, a current ratio of {col:ratios.current_ratio}. The quarter check shows: {col:ratios.state}.",
+"kind": "document",
+"max": null,
+"mt": "流动资产为 {col:ratios.current_assets} 与流动负债为 {col:ratios.current_liabilities},流动比例为 {col:ratios.current_ratio}.",
+"why": "placeholders must be exactly: {col:ratios.current_assets} {col:ratios.current_liabilities} {col:ratios.current_ratio} {col:ratios.state}"
+}
+]

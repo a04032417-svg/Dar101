@@ -1,0 +1,282 @@
+[
+{
+"en": "each bill has a cost code and the field, crop or herd it belongs to; the budget shows spend, the yearly forecast and a warning before a code goes over",
+"kind": "sentence",
+"max": 160,
+"mt": "Elke rekening heeft een kostencode en het veld, de gewassen of de kudde waartoe het behoort; de begroting toont uitgaven, de jaarlijkse prognose en een waarschuwing voordat een code wordt overschreden",
+"why": "too long: 200 characters, the limit is 160"
+},
+{
+"en": "expected sales, grants and costs, plus loan repayments and tax taken from their pages, give the closing cash and the weeks of costs it covers",
+"kind": "sentence",
+"max": 160,
+"mt": "Verwachte omzet, subsidies en kosten, plus lening terugbetalingen en belasting genomen van hun pagina's, geven de sluiting cash en de weken van de kosten die het dekt",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "every loan and credit line has its schedule, the principal repaid, the balance, the next payment date and a warning for a late repayment",
+"kind": "sentence",
+"max": 160,
+"mt": "elke lening en kredietlijn heeft zijn schema, de terugbetaalde hoofdsom, het saldo, de volgende betalingstermijn en een waarschuwing voor een te late terugbetaling",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "every payment due to the tax office, the council or a licensing body with days left and the amount still open, feeding the cash forecast",
+"kind": "sentence",
+"max": 160,
+"mt": "elke betaling die verschuldigd is aan het belastingkantoor, de raad of een vergunninggevende instantie met nog dagen te betalen en het bedrag dat nog niet is betaald, die de kasprognose voedt",
+"why": "too long: 191 characters, the limit is 160"
+},
+{
+"en": "Key ratios against your targets",
+"kind": "label",
+"max": 50,
+"mt": "Belangrijke verhoudingen tegenover je doelstellingen",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Seasonal and casual labour",
+"kind": "list",
+"max": 30,
+"mt": "Seizoenarbeid en tijdelijke arbeid",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Employer liability",
+"kind": "list",
+"max": 30,
+"mt": "Verantwoordelijkheid van de werkgever",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Chemical store check",
+"kind": "list",
+"max": 30,
+"mt": "Controle van chemische opslagplaatsen",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Count due",
+"kind": "list",
+"max": 30,
+"mt": "Tegen het einde van de aftelling",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Code",
+"kind": "label",
+"max": null,
+"mt": "Code",
+"why": "not translated"
+},
+{
+"en": "Compliance records for chemicals, sprays and animals",
+"kind": "title",
+"max": 60,
+"mt": "Registratie van de naleving van chemische stoffen, sproeiers en dieren",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Insurance claim with the policy it falls under",
+"kind": "title",
+"max": 60,
+"mt": "Verzekeringsclaim met de verzekering waarop zij betrekking heeft",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Rate 180",
+"kind": "label",
+"max": null,
+"mt": "Rate 180",
+"why": "not translated"
+},
+{
+"en": "Hello, our cash forecast for the month starting {month} shows {closing}, which covers {cover_weeks} weeks of costs. Check: {state}. Please look at sales dates and large payments.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, onze kasprognose voor de maand vanaf {month} toont {closing}, die {cover_weeks} weken kosten dekt.",
+"why": "placeholders must be exactly: {month} {closing} {cover_weeks} {state}"
+},
+{
+"en": "Hello {owner}, {name} ({crop}, {area_ha} ha) shows a profit of {profit} this year, that is {per_ha} per hectare. Check: {state}. Please send me the reasons: yield, price or costs.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {owner}, {name} ({crop}, {area_ha} ha) toont een winst van {profit} dit jaar, dat is {per_ha} per hectare.",
+"why": "placeholders must be exactly: {owner} {name} {crop} {area_ha} {profit} {per_ha} {state}"
+},
+{
+"en": "Hello, the payment {item} of {amount} is due on {due}. Status: {state}. Please prepare the payment and keep the receipt.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, de betaling {item} van {amount} is verschuldigd op {due}.",
+"why": "placeholders must be exactly: {item} {amount} {due} {state}"
+},
+{
+"en": "Hello, the licence payment {item} for {authority} is due on {due}. Please renew it on time and send me the receipt.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, de vergoeding voor {authority} is op {due} te betalen.",
+"why": "placeholders must be exactly: {item} {authority} {due}"
+},
+{
+"en": "Hello {officer}, please find our application documents for {scheme} attached. We apply for {applied}. Please confirm that you received everything.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {officer}, vind alstublieft onze aanvraagdocumenten voor {scheme} bijgevoegd.",
+"why": "placeholders must be exactly: {officer} {scheme} {applied}"
+},
+{
+"en": "Hello, we report a {event} on {field} on {event_date} under policy {policy}. We claim {claimed}. Please send the claim form and arrange an assessor.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we melden een {event} op {field} op {event_date} onder beleid {policy}.",
+"why": "placeholders must be exactly: {event} {field} {event_date} {policy} {claimed}"
+},
+{
+"en": "Hello, our policy {pol_id}, {covers}, renews on {renewal}. Please send a renewal quote for a sum insured of {sum_insured} and tell us what changed.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, onze polis {pol_id}, {covers}, verlengt op {renewal}.",
+"why": "placeholders must be exactly: {pol_id} {covers} {renewal} {sum_insured}"
+},
+{
+"en": "Hello {inspector}, we confirm the {kind} on {date}. Scope: {scope}. Please tell us which records you need and we will have them ready.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we bevestigen dat er een melding is.",
+"why": "placeholders must be exactly: {inspector} {kind} {date} {scope}"
+},
+{
+"en": "Revenue from sales was {col:pnl.revenue} and grants received were {col:pnl.grants}. Costs were {col:pnl.costs} and depreciation was {col:pnl.depreciation}.",
+"kind": "document",
+"max": null,
+"mt": "De inkomsten uit verkoop waren {col:pnl.revenue} en de ontvangen subsidies waren {col:pnl.grants}.",
+"why": "placeholders must be exactly: {col:pnl.revenue} {col:pnl.grants} {col:pnl.costs} {col:pnl.depreciation}"
+},
+{
+"en": "The result check shows: {col:pnl.state}. The figures come from the Cost Ledger, the Income Ledger, the grants and the asset register and are not audited.",
+"kind": "document",
+"max": null,
+"mt": "De cijfers zijn afkomstig uit de Kostenboek, de Inkomstenboek, de subsidies en het vermogensregister en zijn niet gecontroleerd.",
+"why": "placeholders must be exactly: {col:pnl.state}"
+},
+{
+"en": "Budget against actual report for a cost code",
+"kind": "title",
+"max": 60,
+"mt": "Budget ten opzichte van feitelijk verslag voor een kostencode",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Cost code: {col:budget.code} {col:budget.name}. Group: {col:budget.group}. Budget holder: {col:budget.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Kostencode: {col:budget.code} {col:budget.name}. Groep: {col:budget.group}.",
+"why": "placeholders must be exactly: {col:budget.code} {col:budget.name} {col:budget.group} {col:budget.manager}"
+},
+{
+"en": "If costs continue at this pace the year will end at {col:budget.forecast}, which is {col:budget.gap} against the budget. The budget check shows: {col:budget.state}.",
+"kind": "document",
+"max": null,
+"mt": "Als de kosten in dit tempo doorgaan, zal het jaar eindigen op {col:budget.forecast}, wat {col:budget.gap} tegenover de begroting is.",
+"why": "placeholders must be exactly: {col:budget.forecast} {col:budget.gap} {col:budget.state}"
+},
+{
+"en": "The budget holder explains any difference and proposes action before the next monthly close. The budget was last reviewed on {col:budget.reviewed}.",
+"kind": "document",
+"max": null,
+"mt": "De begrotinghouder legt elk verschil uit en stelt maatregelen voor voor het einde van de volgende maand.",
+"why": "placeholders must be exactly: {col:budget.reviewed}"
+},
+{
+"en": "That is {col:fields.per_ha} per hectare and a margin of {col:fields.margin}. The result check shows: {col:fields.state}.",
+"kind": "document",
+"max": null,
+"mt": "Dat is {col:fields.per_ha} per hectare en een marge van {col:fields.margin}.",
+"why": "placeholders must be exactly: {col:fields.per_ha} {col:fields.margin} {col:fields.state}"
+},
+{
+"en": "We expect running costs of {col:cash.running_out}, machines and works of {col:cash.capex_out}, owner drawings of {col:cash.drawings_out}, loan repayments of {col:cash.loan_out} and tax and licences of {col:cash.tax_out}, in total {col:cash.outflow}.",
+"kind": "document",
+"max": null,
+"mt": "We verwachten in totaal lopende kosten van {col:cash.running_out}, machines en werken van {col:cash.capex_out}, tekeningen van de eigenaar van {col:cash.drawings_out}, lening aflossingen van {col:cash.loan_out} en belastingen en vergunningen van {col:cash.tax_out}.",
+"why": "placeholders must be exactly: {col:cash.running_out} {col:cash.capex_out} {col:cash.drawings_out} {col:cash.loan_out} {col:cash.tax_out} {col:cash.outflow}"
+},
+{
+"en": "The net result of the month is {col:cash.net} and the closing cash is {col:cash.closing}, which covers {col:cash.cover_weeks} weeks of costs. The cash check shows: {col:cash.state}.",
+"kind": "document",
+"max": null,
+"mt": "Het netto resultaat van de maand is {col:cash.net} en het sluitingsgeld is {col:cash.closing}, dat {col:cash.cover_weeks} weken kosten dekt.",
+"why": "placeholders must be exactly: {col:cash.net} {col:cash.closing} {col:cash.cover_weeks} {col:cash.state}"
+},
+{
+"en": "Lender: {col:loans.lender}. Loan: {col:loans.loan_id}, {col:loans.type}. Purpose: {col:loans.purpose}.",
+"kind": "document",
+"max": null,
+"mt": "Lening, doel, doel.",
+"why": "placeholders must be exactly: {col:loans.lender} {col:loans.loan_id} {col:loans.type} {col:loans.purpose}"
+},
+{
+"en": "The amount borrowed was {col:loans.principal} at {col:loans.rate} per year, starting on {col:loans.start} and ending on {col:loans.maturity}. The payment is {col:loans.payment} each month.",
+"kind": "document",
+"max": null,
+"mt": "Het geleende bedrag was {col:loans.principal} bij {col:loans.rate} per jaar, beginnend op {col:loans.start} en eindigend op {col:loans.maturity}.",
+"why": "placeholders must be exactly: {col:loans.principal} {col:loans.rate} {col:loans.start} {col:loans.maturity} {col:loans.payment}"
+},
+{
+"en": "So far {col:loans.paid} of the principal has been repaid and the balance is {col:loans.balance}. The next payment is due on {col:loans.next_due}. The loan check shows: {col:loans.state}.",
+"kind": "document",
+"max": null,
+"mt": "De volgende betaling is verschuldigd op {col:loans.next_due}. De lening check toont aan: {col:loans.state}.",
+"why": "placeholders must be exactly: {col:loans.paid} {col:loans.balance} {col:loans.next_due} {col:loans.state}"
+},
+{
+"en": "The loan is secured by: {col:loans.collateral}. The interest for the coming year on the balance is about {col:loans.interest_year}.",
+"kind": "document",
+"max": null,
+"mt": "De rente voor het komende jaar op het saldo is ongeveer {col:loans.interest_year}.",
+"why": "placeholders must be exactly: {col:loans.collateral} {col:loans.interest_year}"
+},
+{
+"en": "Event: {col:claims.event} on {col:claims.event_date}, field: {col:claims.field}. We reported it on {col:claims.reported}.",
+"kind": "document",
+"max": null,
+"mt": "Event: {col:claims.event} op {col:claims.event_date}, veld: {col:claims.field}.",
+"why": "placeholders must be exactly: {col:claims.event} {col:claims.event_date} {col:claims.field} {col:claims.reported}"
+},
+{
+"en": "Certificate or permit: {col:certs.name}. Kind: {col:certs.kind}. Issued by: {col:certs.body}.",
+"kind": "document",
+"max": null,
+"mt": "Certificaat of vergunning: {col:certs.name}.",
+"why": "placeholders must be exactly: {col:certs.name} {col:certs.kind} {col:certs.body}"
+},
+{
+"en": "It was issued on {col:certs.issued} and expires on {col:certs.expiry}, which is {col:certs.days_left} days from today. The expiry check shows: {col:certs.state}.",
+"kind": "document",
+"max": null,
+"mt": "Het is uitgegeven op {col:certs.issued} en verloopt op {col:certs.expiry}, dat is {col:certs.days_left} dagen vanaf vandaag.",
+"why": "placeholders must be exactly: {col:certs.issued} {col:certs.expiry} {col:certs.days_left} {col:certs.state}"
+},
+{
+"en": "It covers: {col:certs.scope}. The yearly fee is {col:certs.fee}.",
+"kind": "document",
+"max": null,
+"mt": "De jaarlijkse vergoeding bedraagt {col:certs.fee}.",
+"why": "placeholders must be exactly: {col:certs.scope} {col:certs.fee}"
+},
+{
+"en": "The value after depreciation is {col:assets.book}. It was counted on {col:assets.counted_on} and the next count is on {col:assets.next_count}. The asset check shows: {col:assets.state}.",
+"kind": "document",
+"max": null,
+"mt": "De waarde na afschrijving is {col:assets.book}. Het werd geteld op {col:assets.counted_on} en de volgende telling is op {col:assets.next_count}.",
+"why": "placeholders must be exactly: {col:assets.book} {col:assets.counted_on} {col:assets.next_count} {col:assets.state}"
+},
+{
+"en": "Current assets were {col:ratios.current_assets} against current liabilities of {col:ratios.current_liabilities}, a current ratio of {col:ratios.current_ratio}. The quarter check shows: {col:ratios.state}.",
+"kind": "document",
+"max": null,
+"mt": "De lopende activa waren {col:ratios.current_assets} tegen lopende passiva van {col:ratios.current_liabilities}, een lopende verhouding van {col:ratios.current_ratio}.",
+"why": "placeholders must be exactly: {col:ratios.current_assets} {col:ratios.current_liabilities} {col:ratios.current_ratio} {col:ratios.state}"
+}
+]

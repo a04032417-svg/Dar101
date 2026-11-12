@@ -1,0 +1,51 @@
+[
+{
+"en": "Order the fumigation if the buyer asks",
+"kind": "label",
+"max": null,
+"mt": "خریدار پوچھتا ہے تو fumigation کے حکم",
+"why": "English/Latin words left: fumigation"
+},
+{
+"en": "Know what each field, crop and herd earns, and keep the paperwork in order",
+"kind": "sentence",
+"max": 80,
+"mt": "ہر کھیت، فصل اور مویشیوں کی آمدنی کو جانیں، اور کاغذی کارروائی کو ترتیب میں رکھیں",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Sent to insurer",
+"kind": "list",
+"max": 30,
+"mt": "انشورنس فراہم کرنے والے کو بھیجا گیا",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Animal welfare visit",
+"kind": "list",
+"max": 30,
+"mt": "جانوروں کی فلاح و بہبود کا دورہ",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cost ledger: every cost by cost code, field and animal group",
+"kind": "title",
+"max": 60,
+"mt": "لاگت لیجر: ہر لاگت لاگت کوڈ، فیلڈ اور جانوروں کے گروپ کے مطابق",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Claim: {col:claims.claim_id} under policy {col:claims.policy} with {col:claims.insurer}.",
+"kind": "document",
+"max": null,
+"mt": "دعویٰ: {col:claims.claim_id} پالیسی {col:claims.policy} کے تحت {col:claims.insurer} کے ساتھ {col:claims.policy}",
+"why": "placeholders must be exactly: {col:claims.claim_id} {col:claims.policy} {col:claims.insurer}"
+},
+{
+"en": "Certificate or permit: {col:certs.name}. Kind: {col:certs.kind}. Issued by: {col:certs.body}.",
+"kind": "document",
+"max": null,
+"mt": "سرٹیفکیٹ یا اجازت نامہ: {col:certs.name}. قسم: {col:certs.kind}.",
+"why": "placeholders must be exactly: {col:certs.name} {col:certs.kind} {col:certs.body}"
+}
+]

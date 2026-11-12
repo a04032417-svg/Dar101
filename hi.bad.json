@@ -1,0 +1,51 @@
+[
+{
+"en": "Know what each field, crop and herd earns, and keep the paperwork in order",
+"kind": "sentence",
+"max": 80,
+"mt": "पता करें कि हर खेत, फसल और झुंड की कमाई कितनी है, और कागजी कार्रवाई को व्यवस्थित रखें",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Cost ledger: every cost by cost code, field and animal group",
+"kind": "title",
+"max": 60,
+"mt": "लागत खाता-पत्रः प्रत्येक लागत लागत कोड, क्षेत्र और पशु समूह के अनुसार",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Hello, our cash forecast for the month starting {month} shows {closing}, which covers {cover_weeks} weeks of costs. Check: {state}. Please look at sales dates and large payments.",
+"kind": "message",
+"max": null,
+"mt": "हैलो, {month} से शुरू होने वाले महीने के लिए हमारे नकदी पूर्वानुमान {closing} दिखाता है, जो {cover_weeks} सप्ताह की लागत को कवर करता है।",
+"why": "placeholders must be exactly: {month} {closing} {cover_weeks} {state}"
+},
+{
+"en": "Hello, the payment {item} of {amount} is due on {due}. Status: {state}. Please prepare the payment and keep the receipt.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {amount} का भुगतान {due} पर देय है। स्थितिः {state}. कृपया भुगतान तैयार करें और रसीद रखें।",
+"why": "placeholders must be exactly: {item} {amount} {due} {state}"
+},
+{
+"en": "The budget holder explains any difference and proposes action before the next monthly close. The budget was last reviewed on {col:budget.reviewed}.",
+"kind": "document",
+"max": null,
+"mt": "बजट धारक किसी भी अंतर की व्याख्या करता है और अगले मासिक समापन से पहले कार्रवाई का प्रस्ताव करता है।",
+"why": "placeholders must be exactly: {col:budget.reviewed}"
+},
+{
+"en": "Asset: {col:assets.asset_id} {col:assets.name}. Class: {col:assets.class}. Bought on {col:assets.bought} for {col:assets.cost}.",
+"kind": "document",
+"max": null,
+"mt": "संपत्तिः {col:assets.asset_id} {col:assets.name} वर्गः {col:assets.class} {col:assets.bought} पर {col:assets.cost} के लिए खरीदा {col:assets.bought}",
+"why": "placeholders must be exactly: {col:assets.asset_id} {col:assets.name} {col:assets.class} {col:assets.bought} {col:assets.cost}"
+},
+{
+"en": "Revenue was {col:ratios.revenue} and costs were {col:ratios.costs}, so the profit is {col:ratios.profit} and the margin is {col:ratios.margin} against a target of {col:ratios.target}.",
+"kind": "document",
+"max": null,
+"mt": "राजस्व {col:ratios.revenue} था और लागत {col:ratios.costs} थे, तो लाभ {col:ratios.profit} है और मार्जिन {col:ratios.margin} {col:ratios.target} के लक्ष्य के खिलाफ {col:ratios.margin} है।",
+"why": "placeholders must be exactly: {col:ratios.revenue} {col:ratios.costs} {col:ratios.profit} {col:ratios.margin} {col:ratios.target}"
+}
+]

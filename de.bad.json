@@ -1,0 +1,345 @@
+[
+{
+"en": "Know what each field, crop and herd earns, and keep the paperwork in order",
+"kind": "sentence",
+"max": 80,
+"mt": "Wissen Sie, wie viel jedes Feld, jede Ernte und jede Herde verdienen, und halten Sie die Papiere in Ordnung",
+"why": "too long: 107 characters, the limit is 80"
+},
+{
+"en": "Profit per field, budget, cash, loans, grants, insurance and records",
+"kind": "sentence",
+"max": 80,
+"mt": "Gewinn je Feld, Budget, Bargeld, Darlehen, Zuschüsse, Versicherungen und Aufzeichnungen",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "each bill has a cost code and the field, crop or herd it belongs to; the budget shows spend, the yearly forecast and a warning before a code goes over",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Rechnung hat einen Kostencode und das Feld, die Ernte oder die Herde, zu der sie gehört; der Haushalt zeigt Ausgaben, die jährliche Prognose und eine Warnung, bevor ein Code überschritten wird",
+"why": "too long: 197 characters, the limit is 160"
+},
+{
+"en": "Monthly profit and loss that builds itself",
+"kind": "label",
+"max": 50,
+"mt": "Monatlicher Gewinn und Verlust, der sich selbst aufbaut",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "revenue, grants, costs and depreciation of each month come from your ledgers and assets, with the margin and the profit so far this year",
+"kind": "sentence",
+"max": 160,
+"mt": "Einnahmen, Zuschüsse, Kosten und Abschreibungen jedes Monats stammen aus Ihren Büchern und Vermögenswerten, mit der Marge und dem Gewinn bis jetzt in diesem Jahr",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Cash flow forecast for 12 months",
+"kind": "label",
+"max": 50,
+"mt": "Prognose für den Cashflow für die nächsten zwölf Monate",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "expected sales, grants and costs, plus loan repayments and tax taken from their pages, give the closing cash and the weeks of costs it covers",
+"kind": "sentence",
+"max": 160,
+"mt": "erwartete Verkäufe, Zuschüsse und Kosten, zuzüglich Kreditrückzahlungen und Steuern, die von ihren Seiten entnommen wurden, geben das Schlusskasse und die Wochen der Kosten, die es abdeckt",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "every loan and credit line has its schedule, the principal repaid, the balance, the next payment date and a warning for a late repayment",
+"kind": "sentence",
+"max": 160,
+"mt": "Jedes Darlehen und jede Kreditlinie hat seinen Zeitplan, die Rückzahlung des Kapitals, den Restbetrag, das nächste Zahlungsdatum und eine Warnung bei verspäteter Rückzahlung.",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Insurance policies and claims",
+"kind": "label",
+"max": 50,
+"mt": "Versicherungspolicen und Schadenersatzversicherungen",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "sum insured, premium and renewal dates for each policy, and every claim with its days open and the amount still to receive",
+"kind": "sentence",
+"max": 160,
+"mt": "Versicherungsbetrag, Prämien und Verlängerungsdatum für jede Versicherungspolice sowie jede Schadensersatzforderung mit ihren offenen Tagen und dem noch zu erhaltende Betrag",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "every payment due to the tax office, the council or a licensing body with days left and the amount still open, feeding the cash forecast",
+"kind": "sentence",
+"max": 160,
+"mt": "jede an das Finanzamt, den Rat oder eine Genehmigungsstelle fällige Zahlung mit verbleibenden Tagen und dem noch ausstehenden Betrag, die die Kassenprognose füttert",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Farm Finance, Grants and Compliance",
+"kind": "title",
+"max": 60,
+"mt": "Landwirtschaftliche Finanzierung, Zuschüsse und Einhaltung der Vorschriften",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Seasonal and casual labour",
+"kind": "list",
+"max": 30,
+"mt": "Saisonarbeit und Gelegenheitsarbeit",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Insurance and certification",
+"kind": "list",
+"max": 30,
+"mt": "Versicherung und Zertifizierung",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Good farming practice",
+"kind": "list",
+"max": 30,
+"mt": "Gute landwirtschaftliche Praxis",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Burning permit",
+"kind": "list",
+"max": 30,
+"mt": "Genehmigung für die Verbrennung",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Chemical store check",
+"kind": "list",
+"max": 30,
+"mt": "Überprüfung der Chemikalienlager",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Evidence due soon",
+"kind": "list",
+"max": 30,
+"mt": "Die Beweise werden bald vorliegen .",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Code",
+"kind": "label",
+"max": null,
+"mt": "Code",
+"why": "not translated"
+},
+{
+"en": "Compliance records for chemicals, sprays and animals",
+"kind": "title",
+"max": 60,
+"mt": "Einhaltung der Vorschriften für Chemikalien, Sprays und Tiere",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Insurance claim with the policy it falls under",
+"kind": "title",
+"max": 60,
+"mt": "Versicherungsanspruch mit der Versicherung, unter die er fällt",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {manager}, the cost code {name} has used {used} of its budget: {actual} of {budget}. The forecast for the year is {forecast}. Check: {state}. Please tell me the reason and what we can change.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {manager}, der Kostencode {name} hat {used} seines Budgets: {actual} von {budget} verwendet. Die Prognose für das Jahr ist {forecast}.",
+"why": "placeholders must be exactly: {manager} {name} {used} {actual} {budget} {forecast} {state}"
+},
+{
+"en": "Hello, our cash forecast for the month starting {month} shows {closing}, which covers {cover_weeks} weeks of costs. Check: {state}. Please look at sales dates and large payments.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, unsere Kassenprognose für den Monat ab {month} zeigt {closing}, die {cover_weeks} Wochen Kosten abdeckt.",
+"why": "placeholders must be exactly: {month} {closing} {cover_weeks} {state}"
+},
+{
+"en": "Hello {owner}, {name} ({crop}, {area_ha} ha) shows a profit of {profit} this year, that is {per_ha} per hectare. Check: {state}. Please send me the reasons: yield, price or costs.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {owner}, {name} ({crop}, {area_ha} ha) zeigt einen Gewinn von {profit} in diesem Jahr, das ist {per_ha} pro Hektar.",
+"why": "placeholders must be exactly: {owner} {name} {crop} {area_ha} {profit} {per_ha} {state}"
+},
+{
+"en": "Hello, the payment {item} of {amount} is due on {due}. Status: {state}. Please prepare the payment and keep the receipt.",
+"kind": "message",
+"max": null,
+"mt": "Bitte bereiten Sie die Zahlung vor und behalten Sie die Quittung.",
+"why": "placeholders must be exactly: {item} {amount} {due} {state}"
+},
+{
+"en": "Hello, policy {pol_id} ({covers}) with {insurer} renews on {renewal}. The premium is {premium}. Please check the values and collect a second quote.",
+"kind": "message",
+"max": null,
+"mt": "Bitte überprüfen Sie die Werte und sammeln Sie ein zweites Angebot.",
+"why": "placeholders must be exactly: {pol_id} {covers} {insurer} {renewal} {premium}"
+},
+{
+"en": "Hello, we send our annual accounts for loan {loan_id} ({purpose}). The balance is {balance}. Please tell us if you need more papers for the review.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, wir schicken unsere Jahresabschlüsse für das Darlehen {loan_id} ({purpose}).",
+"why": "placeholders must be exactly: {loan_id} {purpose} {balance}"
+},
+{
+"en": "Hello, we ask for a higher limit on our {type}, {purpose}, for the coming season. The balance now is {balance} on {principal} borrowed. Please send the conditions.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, wir bitten um ein höheres Limit auf unsere {type}, {purpose}, für die nächste Saison.",
+"why": "placeholders must be exactly: {type} {purpose} {balance} {principal}"
+},
+{
+"en": "Hello, we report a {event} on {field} on {event_date} under policy {policy}. We claim {claimed}. Please send the claim form and arrange an assessor.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, wir melden einen Schaden bei einem Schaden bei einem Schaden bei einem Schaden unter der Richtlinie \"Wir behaupten einen Schaden\" bitte senden Sie das Anspruchsformular und arrangieren Sie einen Beurteilungsbeauftragten.",
+"why": "placeholders must be exactly: {event} {field} {event_date} {policy} {claimed}"
+},
+{
+"en": "Hello {inspector}, we confirm the {kind} on {date}. Scope: {scope}. Please tell us which records you need and we will have them ready.",
+"kind": "message",
+"max": null,
+"mt": "Bitte sagen Sie uns, welche Aufzeichnungen Sie benötigen, und wir werden sie bereit haben.",
+"why": "placeholders must be exactly: {inspector} {kind} {date} {scope}"
+},
+{
+"en": "Revenue from sales was {col:pnl.revenue} and grants received were {col:pnl.grants}. Costs were {col:pnl.costs} and depreciation was {col:pnl.depreciation}.",
+"kind": "document",
+"max": null,
+"mt": "Die Einnahmen aus dem Verkauf waren {col:pnl.revenue} und die erhaltenen Zuschüsse waren {col:pnl.grants}.",
+"why": "placeholders must be exactly: {col:pnl.revenue} {col:pnl.grants} {col:pnl.costs} {col:pnl.depreciation}"
+},
+{
+"en": "The profit for the month is {col:pnl.profit}, which is a margin of {col:pnl.margin}. The profit you want at your target margin is {col:pnl.target_profit}. The profit so far this financial year is {col:pnl.cum}.",
+"kind": "document",
+"max": null,
+"mt": "Der Gewinn für den Monat ist {col:pnl.profit}, was eine Marge von {col:pnl.margin} ist. Der Gewinn, den Sie bei Ihrer Zielmarge wollen, ist {col:pnl.target_profit}.",
+"why": "placeholders must be exactly: {col:pnl.profit} {col:pnl.margin} {col:pnl.target_profit} {col:pnl.cum}"
+},
+{
+"en": "The result check shows: {col:pnl.state}. The figures come from the Cost Ledger, the Income Ledger, the grants and the asset register and are not audited.",
+"kind": "document",
+"max": null,
+"mt": "Die Zahlen stammen aus dem Vermögensregister, den Zuschüssen und dem Vermögensregister und sind nicht geprüft.",
+"why": "placeholders must be exactly: {col:pnl.state}"
+},
+{
+"en": "Budget against actual report for a cost code",
+"kind": "title",
+"max": 60,
+"mt": "Budget gegenüber dem tatsächlichen Bericht für einen Kostencode",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cost code: {col:budget.code} {col:budget.name}. Group: {col:budget.group}. Budget holder: {col:budget.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Kostencode: {col:budget.code} {col:budget.name}. Gruppe: {col:budget.group}.",
+"why": "placeholders must be exactly: {col:budget.code} {col:budget.name} {col:budget.group} {col:budget.manager}"
+},
+{
+"en": "If costs continue at this pace the year will end at {col:budget.forecast}, which is {col:budget.gap} against the budget. The budget check shows: {col:budget.state}.",
+"kind": "document",
+"max": null,
+"mt": "Wenn sich die Kosten in diesem Tempo fortsetzen, wird das Jahr bei {col:budget.forecast} enden, was {col:budget.gap} gegenüber dem Haushalt ist.",
+"why": "placeholders must be exactly: {col:budget.forecast} {col:budget.gap} {col:budget.state}"
+},
+{
+"en": "The budget holder explains any difference and proposes action before the next monthly close. The budget was last reviewed on {col:budget.reviewed}.",
+"kind": "document",
+"max": null,
+"mt": "Der Haushaltsinhaber erläutert alle Unterschiede und schlägt Maßnahmen vor dem nächsten Monatsende vor.",
+"why": "placeholders must be exactly: {col:budget.reviewed}"
+},
+{
+"en": "That is {col:fields.per_ha} per hectare and a margin of {col:fields.margin}. The result check shows: {col:fields.state}.",
+"kind": "document",
+"max": null,
+"mt": "Das ist {col:fields.per_ha} pro Hektar und eine Marge von {col:fields.margin}.",
+"why": "placeholders must be exactly: {col:fields.per_ha} {col:fields.margin} {col:fields.state}"
+},
+{
+"en": "The net result of the month is {col:cash.net} and the closing cash is {col:cash.closing}, which covers {col:cash.cover_weeks} weeks of costs. The cash check shows: {col:cash.state}.",
+"kind": "document",
+"max": null,
+"mt": "Das Nettoergebnis des Monats beträgt {col:cash.net} und das Schlusskassevermögen {col:cash.closing}, das {col:cash.cover_weeks} Wochen Kosten abdeckt.",
+"why": "placeholders must be exactly: {col:cash.net} {col:cash.closing} {col:cash.cover_weeks} {col:cash.state}"
+},
+{
+"en": "The amount borrowed was {col:loans.principal} at {col:loans.rate} per year, starting on {col:loans.start} and ending on {col:loans.maturity}. The payment is {col:loans.payment} each month.",
+"kind": "document",
+"max": null,
+"mt": "Der geborgte Betrag betrug {col:loans.principal} bei {col:loans.rate} pro Jahr, beginnend am {col:loans.start} und endend am {col:loans.maturity}.",
+"why": "placeholders must be exactly: {col:loans.principal} {col:loans.rate} {col:loans.start} {col:loans.maturity} {col:loans.payment}"
+},
+{
+"en": "So far {col:loans.paid} of the principal has been repaid and the balance is {col:loans.balance}. The next payment is due on {col:loans.next_due}. The loan check shows: {col:loans.state}.",
+"kind": "document",
+"max": null,
+"mt": "Der Kredit wird nach der Zahlung des Kapitalbetrags zurückgezahlt und der Restbetrag beträgt 1. Die nächste Zahlung ist am 2. Der Kreditscheck zeigt: 3.",
+"why": "placeholders must be exactly: {col:loans.paid} {col:loans.balance} {col:loans.next_due} {col:loans.state}"
+},
+{
+"en": "The loan is secured by: {col:loans.collateral}. The interest for the coming year on the balance is about {col:loans.interest_year}.",
+"kind": "document",
+"max": null,
+"mt": "Das Darlehen ist durch: {col:loans.collateral} gesichert.",
+"why": "placeholders must be exactly: {col:loans.collateral} {col:loans.interest_year}"
+},
+{
+"en": "The amount still to receive is {col:grants.outstanding}. The evidence for the payment claim is due on {col:grants.evidence_due}. The grant check shows: {col:grants.state}.",
+"kind": "document",
+"max": null,
+"mt": "Der noch zu erhaltende Betrag beträgt {col:grants.outstanding}. Der Nachweis für den Zahlungsantrag ist fällig am {col:grants.evidence_due}.",
+"why": "placeholders must be exactly: {col:grants.outstanding} {col:grants.evidence_due} {col:grants.state}"
+},
+{
+"en": "The amount still to receive is {col:claims.outstanding}. The claim check shows: {col:claims.state}. Photos, invoices and the field records are attached to this file.",
+"kind": "document",
+"max": null,
+"mt": "Der noch zu empfangende Betrag beträgt {col:claims.outstanding}.",
+"why": "placeholders must be exactly: {col:claims.outstanding} {col:claims.state}"
+},
+{
+"en": "Certificate or permit: {col:certs.name}. Kind: {col:certs.kind}. Issued by: {col:certs.body}.",
+"kind": "document",
+"max": null,
+"mt": "Bescheinigung oder Genehmigung: {col:certs.name}.",
+"why": "placeholders must be exactly: {col:certs.name} {col:certs.kind} {col:certs.body}"
+},
+{
+"en": "It was issued on {col:certs.issued} and expires on {col:certs.expiry}, which is {col:certs.days_left} days from today. The expiry check shows: {col:certs.state}.",
+"kind": "document",
+"max": null,
+"mt": "Es wurde am {col:certs.issued} ausgestellt und verfällt am {col:certs.expiry}, was {col:certs.days_left} Tage ab heute ist.",
+"why": "placeholders must be exactly: {col:certs.issued} {col:certs.expiry} {col:certs.days_left} {col:certs.state}"
+},
+{
+"en": "It covers: {col:certs.scope}. The yearly fee is {col:certs.fee}.",
+"kind": "document",
+"max": null,
+"mt": "Die jährliche Gebühr beträgt:",
+"why": "placeholders must be exactly: {col:certs.scope} {col:certs.fee}"
+},
+{
+"en": "The life is {col:assets.life} years with a scrap value of {col:assets.salvage}. The depreciation is {col:assets.annual_dep} each year. The asset is {col:assets.age} years old and has lost {col:assets.accumulated} of its value.",
+"kind": "document",
+"max": null,
+"mt": "Die Abwertung ist {col:assets.annual_dep} jedes Jahr. Der Vermögenswert ist {col:assets.age} Jahre alt und hat {col:assets.accumulated} an Wert verloren.",
+"why": "placeholders must be exactly: {col:assets.life} {col:assets.salvage} {col:assets.annual_dep} {col:assets.age} {col:assets.accumulated}"
+},
+{
+"en": "Current assets were {col:ratios.current_assets} against current liabilities of {col:ratios.current_liabilities}, a current ratio of {col:ratios.current_ratio}. The quarter check shows: {col:ratios.state}.",
+"kind": "document",
+"max": null,
+"mt": "Die laufenden Vermögenswerte waren {col:ratios.current_assets} gegenüber laufenden Verbindlichkeiten von {col:ratios.current_liabilities}, ein laufender Verhältnis von {col:ratios.current_ratio}.",
+"why": "placeholders must be exactly: {col:ratios.current_assets} {col:ratios.current_liabilities} {col:ratios.current_ratio} {col:ratios.state}"
+}
+]

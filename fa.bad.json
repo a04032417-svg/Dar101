@@ -1,0 +1,93 @@
+[
+{
+"en": "Cost ledger: every cost by cost code, field and animal group",
+"kind": "title",
+"max": 60,
+"mt": "دفتر کل هزینه ها: هر هزینه بر اساس کد هزینه، زمینه و گروه حیوانات",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Hello, please match the {account} with the statement of {date}. We show money in of {money_in}, money out of {money_out} and a balance of {balance}. Tell me about any difference.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً {account} را با عبارت {date} مطابقت دهید. ما پول در {money_in}، پول در {money_out} و تعادل {balance} را نشان می دهیم. در مورد هرگونه تفاوت به من بگویید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, our repayment of {payment} on loan {loan} with {lender} is due on {due}. Please confirm the account details for the transfer.",
+"kind": "message",
+"max": null,
+"mt": "سلام، بازپرداخت ما از وام با 2 در 3 است لطفا جزئیات حساب را برای انتقال تایید کنید",
+"why": "placeholders must be exactly: {payment} {loan} {lender} {due}"
+},
+{
+"en": "Hello, we update the list of security for loan {loan_id}: {collateral}. Please confirm that it matches your file.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما لیست تضمین وام {loan_id}: {collateral} رو به روز میکنیم لطفا تایید کنید که با فایل شما مطابقت داره.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello {inspector}, we confirm the {kind} on {date}. Scope: {scope}. Please tell us which records you need and we will have them ready.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما تایید می کنیم که شما به چه سوابق نیاز دارید و ما آن ها را آماده می کنیم.",
+"why": "placeholders must be exactly: {inspector} {kind} {date} {scope}"
+},
+{
+"en": "Hello {owner}, the record {type} for {period} was due on {due}: {state}. Please complete it today, because inspectors and buyers ask for it.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ثبت {type} برای {period} در {due}: {state} قرار بود. لطفا امروز آن را تکمیل کنید، زیرا بازرسان و خریداران درخواست می کنند.",
+"why": "placeholders must be exactly: {owner} {type} {period} {due} {state}"
+},
+{
+"en": "The budget holder explains any difference and proposes action before the next monthly close. The budget was last reviewed on {col:budget.reviewed}.",
+"kind": "document",
+"max": null,
+"mt": "دارنده بودجه هر گونه تفاوت را توضیح می دهد و قبل از پایان ماه بعدی اقداماتی را پیشنهاد می کند.",
+"why": "placeholders must be exactly: {col:budget.reviewed}"
+},
+{
+"en": "That is {col:fields.per_ha} per hectare and a margin of {col:fields.margin}. The result check shows: {col:fields.state}.",
+"kind": "document",
+"max": null,
+"mt": "این {col:fields.per_ha} در هر هکتار و حاشیه ای از {col:fields.margin}.",
+"why": "placeholders must be exactly: {col:fields.per_ha} {col:fields.margin} {col:fields.state}"
+},
+{
+"en": "Lender: {col:loans.lender}. Loan: {col:loans.loan_id}, {col:loans.type}. Purpose: {col:loans.purpose}.",
+"kind": "document",
+"max": null,
+"mt": "وام دهنده: وام: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف: هدف",
+"why": "placeholders must be exactly: {col:loans.lender} {col:loans.loan_id} {col:loans.type} {col:loans.purpose}"
+},
+{
+"en": "The loan is secured by: {col:loans.collateral}. The interest for the coming year on the balance is about {col:loans.interest_year}.",
+"kind": "document",
+"max": null,
+"mt": "وام با: {col:loans.collateral} تضمین شده است.",
+"why": "placeholders must be exactly: {col:loans.collateral} {col:loans.interest_year}"
+},
+{
+"en": "Scheme: {col:grants.scheme}. Paying body: {col:grants.body}. Type: {col:grants.type}. Officer: {col:grants.officer}.",
+"kind": "document",
+"max": null,
+"mt": "طرح: سازمان پرداخت: نوع: افسر:",
+"why": "placeholders must be exactly: {col:grants.scheme} {col:grants.body} {col:grants.type} {col:grants.officer}"
+},
+{
+"en": "We claim {col:claims.claimed}. The insurer has settled {col:claims.settled}. The status is {col:claims.status} and the claim has been open for {col:claims.days_open} days.",
+"kind": "document",
+"max": null,
+"mt": "ما ادعا ميکنيم که بيمه دار تصميم گرفته است که وضعيتش 2 باشه و ادعا براي 3 روز باز بوده",
+"why": "placeholders must be exactly: {col:claims.claimed} {col:claims.settled} {col:claims.status} {col:claims.days_open}"
+},
+{
+"en": "Current assets were {col:ratios.current_assets} against current liabilities of {col:ratios.current_liabilities}, a current ratio of {col:ratios.current_ratio}. The quarter check shows: {col:ratios.state}.",
+"kind": "document",
+"max": null,
+"mt": "دارایی های جاری در برابر بدهی های جاری {col:ratios.current_liabilities}، نسبت فعلی {col:ratios.current_ratio} بود. چک سه ماهه نشان می دهد: {col:ratios.state}.",
+"why": "placeholders must be exactly: {col:ratios.current_assets} {col:ratios.current_liabilities} {col:ratios.current_ratio} {col:ratios.state}"
+}
+]
