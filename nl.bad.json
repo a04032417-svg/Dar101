@@ -1,0 +1,310 @@
+[
+{
+"en": "Hello, a birth is expected for {cow} in {herd} on {due}, in {days_to_due} days. Please move the animal to the maternity pen and check her often as the date comes near.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, een bevalling wordt verwacht in {cow} op {due}, in {days_to_due} dagen.",
+"why": "placeholders must be exactly: {cow} {herd} {due} {days_to_due}"
+},
+{
+"en": "Hello, {vaccine} for {herd} is planned for {planned}. Please prepare the handling area for {head} animals and write the batch number and the animals vaccinated.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, {vaccine} voor {herd} is gepland voor {planned}.",
+"why": "placeholders must be exactly: {vaccine} {herd} {planned} {head}"
+},
+{
+"en": "Hello, please weigh {subject} in {herd} today ({n_weighed} animals) and send me the average weight by the evening.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, weeg alstublieft de dieren van vandaag en stuur me het gemiddelde gewicht voor vanavond.",
+"why": "placeholders must be exactly: {subject} {herd} {n_weighed}"
+},
+{
+"en": "Hello, please order {name} for the next vaccination round. We have {stock} {unit} left and the expiry is {expiry}. Please send the price and the delivery day.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, kunt u {name} bestellen voor de volgende vaccinatie. {stock} {unit} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry} {expiry}",
+"why": "placeholders must be exactly: {name} {stock} {unit} {expiry}"
+},
+{
+"en": "Hello, we lost {count} animals in {house} on {date}. Please do a post-mortem and send the result so that we can protect the rest of the group.",
+"kind": "message",
+"max": null,
+"mt": "We zijn dieren kwijtgeraakt in de groep, doe een autopsie en stuur het resultaat.",
+"why": "placeholders must be exactly: {count} {house} {date}"
+},
+{
+"en": "Hello, we order {qty_kg} kg of {feed} for {herd}. Please deliver on {due} and send the weighbridge ticket with the delivery.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we bestellen {qty_kg} kg {feed} voor {herd}.",
+"why": "placeholders must be exactly: {qty_kg} {feed} {herd} {due}"
+},
+{
+"en": "Hello, order {fb_id} of {feed} is due on {due}. We may need it earlier. Can you deliver sooner or tell me the new day?",
+"kind": "message",
+"max": null,
+"mt": "Hallo, de bestelling van 1 is verlopen op 2. We hebben het misschien eerder nodig. Kun je eerder leveren of me de nieuwe dag vertellen?",
+"why": "placeholders must be exactly: {fb_id} {feed} {due}"
+},
+{
+"en": "Hello, please book shearing for {name}, about {head} animals, on {next_work}. Tell me the size of your team and your price per animal.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, kunt u een boekje boeken voor het scheren van dieren op 2?",
+"why": "placeholders must be exactly: {name} {head} {next_work}"
+},
+{
+"en": "Hello, please repair the fence in {paddock} ({area_ha} ha) before {in_date}, because {herd} moves in on that day. Tell me when you can come.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, repareren jullie het hek alstublieft voor de overstap, zeg me wanneer jullie kunnen komen.",
+"why": "placeholders must be exactly: {paddock} {area_ha} {in_date} {herd}"
+},
+{
+"en": "Hello, please watch {cow} in {herd} for signs of heat around {repeat_date}. If she is in heat, tell me at once so that we can serve her again.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, let op de tekenen van hitte in de buurt, als ze in hitte is, zeg het dan meteen zodat we haar weer kunnen bedienen.",
+"why": "placeholders must be exactly: {cow} {herd} {repeat_date}"
+},
+{
+"en": "Hello, please check the temperature, the air and the water in {house} now. There are {head} animals inside and the space check shows: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, controleer de temperatuur, de lucht en het water in {house} nu.",
+"why": "placeholders must be exactly: {house} {head} {state}"
+},
+{
+"en": "Hello {visitor}, you visit {herd} on {date}. Please disinfect your boots and your vehicle {vehicle} at the gate, wear the clean overalls we give you and sign the visitors log.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, u bezoekt {herd} op {date}. Desinfecteer uw laarzen en uw voertuig {vehicle} bij de gate, draag de schone overalls die we u geven en teken het bezoekerslogboek.",
+"why": "placeholders must be exactly: {visitor} {herd} {date} {vehicle}"
+},
+{
+"en": "Born on {col:animals.born}, which makes the animal {col:animals.age_m} months old. The dam is {col:animals.dam}. The status is {col:animals.status}.",
+"kind": "document",
+"max": null,
+"mt": "De moeder van het dier is de moeder van het dier, de moeder van het dier is de moeder van het dier, de moeder van het dier is de moeder van het dier, de moeder van het dier is de moeder van het dier, de moeder van het dier is de moeder van het dier, de moeder van het dier is de moeder van het dier, de moeder van het dier is de moeder van het dier, de moeder van het dier is de moeder van het dier, de moeder van het dier is de moeder van het dier, de moeder van het dier is de moeder van het dier, de moeder van het dier is de moeder van het dier, de moeder van het",
+"why": "placeholders must be exactly: {col:animals.born} {col:animals.age_m} {col:animals.dam} {col:animals.status}"
+},
+{
+"en": "The last weight was {col:animals.last_kg} kg on {col:animals.last_date}. The animal had {col:animals.treatments} treatments in the last 12 months. Withdrawal check: {col:animals.wh_state}.",
+"kind": "document",
+"max": null,
+"mt": "Het dier heeft in de afgelopen 12 maanden {col:animals.treatments} behandelingen ondergaan.",
+"why": "placeholders must be exactly: {col:animals.last_kg} {col:animals.last_date} {col:animals.treatments} {col:animals.wh_state}"
+},
+{
+"en": "Group: {col:herds.name} ({col:herds.species}). Kept in: {col:herds.house}. Keeper: {col:herds.keeper}.",
+"kind": "document",
+"max": null,
+"mt": "Groep: {col:herds.name} ({col:herds.species}).",
+"why": "placeholders must be exactly: {col:herds.name} {col:herds.species} {col:herds.house} {col:herds.keeper}"
+},
+{
+"en": "Animals in treatment now: {col:herds.sick}. Vaccinations overdue: {col:herds.vacc_late}. The next herd work is planned for {col:herds.next_work}.",
+"kind": "document",
+"max": null,
+"mt": "Dieren die nu behandeld worden: {col:herds.sick}. Vaccinaties achterstallig: {col:herds.vacc_late}.",
+"why": "placeholders must be exactly: {col:herds.sick} {col:herds.vacc_late} {col:herds.next_work}"
+},
+{
+"en": "The vaccination is repeated after {col:vacc.interval_days} days, so the next one is due on {col:vacc.next_plan}. The status shows: {col:vacc.state}.",
+"kind": "document",
+"max": null,
+"mt": "De vaccinatie wordt na {col:vacc.interval_days} dagen herhaald, dus de volgende is op {col:vacc.next_plan}.",
+"why": "placeholders must be exactly: {col:vacc.interval_days} {col:vacc.next_plan} {col:vacc.state}"
+},
+{
+"en": "Vaccinator",
+"kind": "label",
+"max": null,
+"mt": "Vaccinator",
+"why": "not translated"
+},
+{
+"en": "The treatment started on {col:withdraw.treat_date} and lasted {col:withdraw.days} days. The withholding period is {col:withdraw.milk_days} days for milk and {col:withdraw.meat_days} days for meat, plus {set:wh_extra} safety day.",
+"kind": "document",
+"max": null,
+"mt": "De behandeling begon op {col:withdraw.treat_date} en duurde {col:withdraw.days} dagen.",
+"why": "placeholders must be exactly: {col:withdraw.treat_date} {col:withdraw.days} {col:withdraw.milk_days} {col:withdraw.meat_days} {set:wh_extra}"
+},
+{
+"en": "Milk may be sold from {col:withdraw.milk_free} and meat from {col:withdraw.meat_free}. The animal is free from {col:withdraw.free_date}. Status: {col:withdraw.state}. Checked by {col:withdraw.checked_by}.",
+"kind": "document",
+"max": null,
+"mt": "Het dier is vrij van {col:withdraw.free_date}. Status: {col:withdraw.state}. Gecontroleerd door {col:withdraw.checked_by}.",
+"why": "placeholders must be exactly: {col:withdraw.milk_free} {col:withdraw.meat_free} {col:withdraw.free_date} {col:withdraw.state} {col:withdraw.checked_by}"
+},
+{
+"en": "With a gestation of {col:breeding.gest} days the birth is due on {col:breeding.due}. If the service failed, the animal returns to heat on {col:breeding.repeat_date}.",
+"kind": "document",
+"max": null,
+"mt": "Bij een zwangerschap van {col:breeding.gest} dagen is de geboorte op {col:breeding.due}.",
+"why": "placeholders must be exactly: {col:breeding.gest} {col:breeding.due} {col:breeding.repeat_date}"
+},
+{
+"en": "Track milk, eggs, harvest lots, stock and traceability in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Het bijhouden van melk, eieren, oogstpartijen, voorraden en traceerbaarheid in één bestand",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "Egg lay rate and cracked share",
+"kind": "label",
+"max": 50,
+"mt": "Het aantal eieren dat wordt gelegd en het aandeel gebroken eieren",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "Sunrise Poultry Feeds",
+"kind": "list",
+"max": 30,
+"mt": "Voeder voor pluimvee bij zonsopgang",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Mekong Market Traders",
+"kind": "list",
+"max": 30,
+"mt": "Handelsondernemers op de markt van de Mekong",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Pampa Meat Packers",
+"kind": "list",
+"max": 30,
+"mt": "Verpakkingsmachines voor Pampa-vlees",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Nile Delta Onion Packers",
+"kind": "list",
+"max": 30,
+"mt": "verpakkingsmachines voor uien in het Nildelta",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Pacific Egg Distributors",
+"kind": "list",
+"max": 30,
+"mt": "distributeurs van eieren in de Stille Oceaan",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Tote bin",
+"kind": "list",
+"max": 30,
+"mt": "Tote bin",
+"why": "not translated"
+},
+{
+"en": "Cows, late lactation",
+"kind": "list",
+"max": 30,
+"mt": "Koeien, laat borstvoeding geven",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Tank warm",
+"kind": "list",
+"max": 30,
+"mt": "Tank warm",
+"why": "not translated"
+},
+{
+"en": "Dressing check",
+"kind": "label",
+"max": null,
+"mt": "Dressing check",
+"why": "not translated"
+},
+{
+"en": "Harvest lots: one number for every load that goes into store",
+"kind": "title",
+"max": 60,
+"mt": "Vruchtpartijen: één nummer voor elke lading die in voorraad wordt gebracht",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Stock movements: every tonne in, out and corrected",
+"kind": "title",
+"max": 60,
+"mt": "Bewegingen van voorraden: per ton ingevoerd, uitgevoerd en gecorrigeerd",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Packing and grading of fresh produce by quality class",
+"kind": "title",
+"max": 60,
+"mt": "Verpakking en indeling van verse producten per kwaliteitsklasse",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Crate and pallet tracking: what went out and what came back",
+"kind": "title",
+"max": 60,
+"mt": "Tracking van kratten en palletten: wat er uit is gegaan en wat er terug is gekomen",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Lot to buyer traceability: from field to buyer",
+"kind": "title",
+"max": 60,
+"mt": "Traceerbaarheid van de partij tot de koper: van het veld tot de koper",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Truck",
+"kind": "label",
+"max": null,
+"mt": "Truck",
+"why": "not translated"
+},
+{
+"en": "Bin capacity from its dimensions, in tonnes",
+"kind": "title",
+"max": 60,
+"mt": "De capaciteit van de container uitgaande van de afmetingen ervan, in ton",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Diameter, m",
+"kind": "label",
+"max": null,
+"mt": "Diameter, m",
+"why": "not translated"
+},
+{
+"en": "Dressing percentage: carcass weight from live weight",
+"kind": "title",
+"max": 60,
+"mt": "Dressingpercentage: karkasgewicht ten opzichte van levend gewicht",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Hello {keeper}, the cell count for {grp} on {date} was {scc} thousand per ml. Please test the suspect cows, milk them last and keep their milk out of the tank until we know more.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, het aantal cellen voor {grp} op {date} was {scc} duizend per ml. Test de verdachte koeien, melk ze als laatste en houd hun melk uit de tank tot we meer weten.",
+"why": "placeholders must be exactly: {keeper} {grp} {date} {scc}"
+},
+{
+"en": "Hello {keeper}, {section} gave {eggs} eggs from {hens} hens on {date}, a lay rate of {lay_rate}. Please check feed, water, light and signs of stress or disease in the house and tell me today.",
+"kind": "message",
+"max": null,
+"mt": "Gelieve het voer, water, licht en tekenen van stress of ziekte in het huis te controleren en me vandaag te vertellen.",
+"why": "placeholders must be exactly: {keeper} {section} {eggs} {hens} {date} {lay_rate}"
+},
+{
+"en": "Hello {keeper}, {name} reads {temp_now} degrees C and must stay between {tmin} and {tmax}. The check shows: {state}. Please check the unit, the door seal and the stock and call me.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {keeper}, {name} geeft {temp_now} graden C en moet tussen {tmin} en {tmax} blijven.",
+"why": "placeholders must be exactly: {keeper} {name} {temp_now} {tmin} {tmax} {state}"
+}
+]

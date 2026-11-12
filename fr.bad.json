@@ -1,0 +1,373 @@
+[
+{
+"en": "Hello, a birth is expected for {cow} in {herd} on {due}, in {days_to_due} days. Please move the animal to the maternity pen and check her often as the date comes near.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, une naissance est attendue dans {cow} {herd} {due} {due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {days_to_due} {4} {4} {4} {5} {5} {5} {5} {5} {5} {6} {6} {6} {6} {7}",
+"why": "placeholders must be exactly: {cow} {herd} {due} {days_to_due}"
+},
+{
+"en": "Hello, please move {herd} to {paddock} on {in_date} for {days} days. Check the fence and the water before the move and count the animals after it.",
+"kind": "message",
+"max": null,
+"mt": "Veuillez vérifier la clôture et l'eau avant le déménagement et compter les animaux après.",
+"why": "placeholders must be exactly: {herd} {paddock} {in_date} {days}"
+},
+{
+"en": "Hello, {count} animals were lost in {house} on {date}, cause: {cause}. Please check the other animals, remove the dead ones and send me a short report.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, les animaux ont été perdus dans {house} sur {date}, cause: {cause} S'il vous plaît vérifier les autres animaux, enlever les morts et m'envoyer un bref rapport.",
+"why": "placeholders must be exactly: {count} {house} {date} {cause}"
+},
+{
+"en": "Hello, we lost {count} animals in {house} on {date}. Please do a post-mortem and send the result so that we can protect the rest of the group.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons perdu des animaux dans le troupeau, faites une autopsie et envoyez le résultat pour protéger le reste du groupe.",
+"why": "placeholders must be exactly: {count} {house} {date}"
+},
+{
+"en": "Hello, order {fb_id} of {feed} is due on {due}. We may need it earlier. Can you deliver sooner or tell me the new day?",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, la commande de 1 est due le 2 peut-être qu'on en aura besoin plus tôt.",
+"why": "placeholders must be exactly: {fb_id} {feed} {due}"
+},
+{
+"en": "Hello, we need bedding for {herd}: {qty_kg} kg of {feed} on {due}. Please tell me the truck size and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons besoin de linge de lit pour 1 kg de 2 sur 3 s'il vous plaît dites-moi la taille du camion et l'heure d'arrivée.",
+"why": "placeholders must be exactly: {herd} {qty_kg} {feed} {due}"
+},
+{
+"en": "Hello, please watch {cow} in {herd} for signs of heat around {repeat_date}. If she is in heat, tell me at once so that we can serve her again.",
+"kind": "message",
+"max": null,
+"mt": "S'il vous plaît, surveillez les signes de chaleur autour de vous.",
+"why": "placeholders must be exactly: {cow} {herd} {repeat_date}"
+},
+{
+"en": "Hello, {qty} animals ({subject}) from {herd} are ready for collection on {date}. Please confirm the truck and the time of arrival.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, les animaux sont prêts pour le ramassage le 3 s'il vous plaît confirmer le camion et l'heure d'arrivée.",
+"why": "placeholders must be exactly: {qty} {subject} {herd} {date}"
+},
+{
+"en": "Hello {visitor}, you visit {herd} on {date}. Please disinfect your boots and your vehicle {vehicle} at the gate, wear the clean overalls we give you and sign the visitors log.",
+"kind": "message",
+"max": null,
+"mt": "S'il vous plaît désinfecter vos bottes et votre véhicule à la porte, porter les combinaisons propres que nous vous donnons et signer le journal des visiteurs.",
+"why": "placeholders must be exactly: {visitor} {herd} {date} {vehicle}"
+},
+{
+"en": "Ear tag: {col:animals.tag}. Group: {col:animals.herd}. Species: {col:animals.species}. Breed: {col:animals.breed}. Sex: {col:animals.sex}.",
+"kind": "document",
+"max": null,
+"mt": "Groupe: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: espèce: esp",
+"why": "placeholders must be exactly: {col:animals.tag} {col:animals.herd} {col:animals.species} {col:animals.breed} {col:animals.sex}"
+},
+{
+"en": "Born on {col:animals.born}, which makes the animal {col:animals.age_m} months old. The dam is {col:animals.dam}. The status is {col:animals.status}.",
+"kind": "document",
+"max": null,
+"mt": "Il est né le {col:animals.born}, ce qui rend l'animal âgé de {col:animals.age_m} mois.",
+"why": "placeholders must be exactly: {col:animals.born} {col:animals.age_m} {col:animals.dam} {col:animals.status}"
+},
+{
+"en": "The last weight was {col:animals.last_kg} kg on {col:animals.last_date}. The animal had {col:animals.treatments} treatments in the last 12 months. Withdrawal check: {col:animals.wh_state}.",
+"kind": "document",
+"max": null,
+"mt": "Le dernier poids était de {col:animals.last_kg} kg sur {col:animals.last_date}. L'animal a subi {col:animals.treatments} des traitements au cours des 12 derniers mois.",
+"why": "placeholders must be exactly: {col:animals.last_kg} {col:animals.last_date} {col:animals.treatments} {col:animals.wh_state}"
+},
+{
+"en": "The vaccination is repeated after {col:vacc.interval_days} days, so the next one is due on {col:vacc.next_plan}. The status shows: {col:vacc.state}.",
+"kind": "document",
+"max": null,
+"mt": "La vaccination est répétée après {col:vacc.interval_days} jours, donc la prochaine vaccination est due le {col:vacc.next_plan}.",
+"why": "placeholders must be exactly: {col:vacc.interval_days} {col:vacc.next_plan} {col:vacc.state}"
+},
+{
+"en": "Milk may be sold from {col:withdraw.milk_free} and meat from {col:withdraw.meat_free}. The animal is free from {col:withdraw.free_date}. Status: {col:withdraw.state}. Checked by {col:withdraw.checked_by}.",
+"kind": "document",
+"max": null,
+"mt": "Le lait peut être vendu à partir de {col:withdraw.milk_free} et la viande à partir de {col:withdraw.meat_free}. L'animal est exempt de {col:withdraw.free_date}.",
+"why": "placeholders must be exactly: {col:withdraw.milk_free} {col:withdraw.meat_free} {col:withdraw.free_date} {col:withdraw.state} {col:withdraw.checked_by}"
+},
+{
+"en": "With a gestation of {col:breeding.gest} days the birth is due on {col:breeding.due}. If the service failed, the animal returns to heat on {col:breeding.repeat_date}.",
+"kind": "document",
+"max": null,
+"mt": "Si le service échoue, l'animal retourne à la chaleur le {col:breeding.repeat_date}.",
+"why": "placeholders must be exactly: {col:breeding.gest} {col:breeding.due} {col:breeding.repeat_date}"
+},
+{
+"en": "The result of the service shows: {col:breeding.state}. The pregnancy check is made {set:preg_check_days} days after the service.",
+"kind": "document",
+"max": null,
+"mt": "Le test de grossesse est effectué {set:preg_check_days} jours après le test.",
+"why": "placeholders must be exactly: {col:breeding.state} {set:preg_check_days}"
+},
+{
+"en": "Buyer, seller or source: {col:moves.party}, phone {col:moves.party_phone}. Total live weight {col:moves.weight_kg} kg, which is {col:moves.kg_head} kg per head. Value {col:moves.value}, {col:moves.price_head} per head.",
+"kind": "document",
+"max": null,
+"mt": "Acheteur, vendeur ou source: {col:moves.party}, téléphone {col:moves.party_phone} Poids vivant total {col:moves.weight_kg} kg, soit {col:moves.kg_head} kg par tête.",
+"why": "placeholders must be exactly: {col:moves.party} {col:moves.party_phone} {col:moves.weight_kg} {col:moves.kg_head} {col:moves.value} {col:moves.price_head}"
+},
+{
+"en": "Feed spend",
+"kind": "label",
+"max": 30,
+"mt": "Dépenses en aliments pour animaux",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Vaccinations",
+"kind": "label",
+"max": 30,
+"mt": "Vaccinations",
+"why": "not translated"
+},
+{
+"en": "Track milk, eggs, harvest lots, stock and traceability in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Suivre le lait, les œufs, les lots de récolte, les stocks et la traçabilité dans un seul fichier",
+"why": "too long: 96 characters, the limit is 80"
+},
+{
+"en": "every dispatch is matched to its harvest lot, field and date, and a check flags lots with no record and loads larger than the lot",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque expédition est associée à son lot de récolte, à son champ et à sa date, et un contrôle identifie les lots sans enregistrement et les charges supérieures au lot.",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "fat, protein, cell count and tank temperature of every milking are checked, and each pickup shows the buyer result and the paid litres",
+"kind": "sentence",
+"max": 160,
+"mt": "les graisses, les protéines, le nombre de cellules et la température du réservoir de chaque traite sont vérifiés et chaque prise montre le résultat de l'acheteur et les litres payés",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "every reading is compared with the range of its own cold room, store or milk tank and flagged too warm, too cold or too humid",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque indication est comparée à la plage de sa propre chambre froide, de son entrepôt ou de son réservoir de lait et est marquée comme trop chaude, trop froide ou trop humide",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "hen-day lay rate and cracked eggs per section and day are compared with your targets, and grading shows packed eggs, dozens and value",
+"kind": "sentence",
+"max": 160,
+"mt": "Le taux de couveuses et les œufs écrasés par section et par jour sont comparés à vos cibles et la classification montre les œufs emballés, des dizaines et la valeur",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "live and carcass weights give the dressing percentage of every batch against its target, with weights per animal and value",
+"kind": "sentence",
+"max": 160,
+"mt": "les poids vivants et les poids de la carcasse donnent le pourcentage de conditionnement de chaque lot par rapport à sa cible, avec les poids par animal et la valeur",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Nairobi Grain Cooperative",
+"kind": "list",
+"max": 30,
+"mt": "Coopérative des céréales de Nairobi",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Sumatra Rice Wholesale",
+"kind": "list",
+"max": 30,
+"mt": "Vente en gros de riz de Sumatra",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Heartland Grain Elevator",
+"kind": "list",
+"max": 30,
+"mt": "Ascenseur de grain de la région du cœur",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Valley Fresh Supermarkets",
+"kind": "list",
+"max": 30,
+"mt": "Les supermarchés frais de la vallée",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Sunrise Poultry Feeds",
+"kind": "list",
+"max": 30,
+"mt": "Nourriture pour volaille au lever du soleil",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Mekong Market Traders",
+"kind": "list",
+"max": 30,
+"mt": "Commerçants du marché du Mékong",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Pampa Meat Packers",
+"kind": "list",
+"max": 30,
+"mt": "Machines d'emballage de viande de type pampa",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Prairie Seed Company",
+"kind": "list",
+"max": 30,
+"mt": "Entreprise de semences de prairie",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Nile Delta Onion Packers",
+"kind": "list",
+"max": 30,
+"mt": "Les emballeurs à oignons du delta du Nil",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Highland Wool Traders",
+"kind": "list",
+"max": 30,
+"mt": "Commerçants de laine des hautes terres",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Danube Feed Mill",
+"kind": "list",
+"max": 30,
+"mt": "usine d'alimentation pour animaux du Danube",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Pacific Egg Distributors",
+"kind": "list",
+"max": 30,
+"mt": "Distributeurs d'œufs du Pacifique",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Polska Potato Processing",
+"kind": "list",
+"max": 30,
+"mt": "Traitement des pommes de terre polonaises",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Section A",
+"kind": "list",
+"max": 30,
+"mt": "Section A",
+"why": "not translated"
+},
+{
+"en": "Fat low",
+"kind": "list",
+"max": 30,
+"mt": "Faible teneur en matières grasses",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Meat records: live weight, carcass and dressing percentage",
+"kind": "title",
+"max": 60,
+"mt": "Enregistrement des viandes: pourcentage de poids vivant, de carcasse et de vinaigre",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Harvest lots: one number for every load that goes into store",
+"kind": "title",
+"max": 60,
+"mt": "Parties de récolte: un numéro pour chaque chargement mis en stock",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Cold rooms, stores and tanks with their temperature range",
+"kind": "title",
+"max": 60,
+"mt": "Chambres froides, entrepôts et réservoirs avec leur plage de température",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Stock movements: every tonne in, out and corrected",
+"kind": "title",
+"max": 60,
+"mt": "Mouvements des stocks: par tonne d'entrée, de sortie et corrigés",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Packing and grading of fresh produce by quality class",
+"kind": "title",
+"max": 60,
+"mt": "Emballage et classement des produits frais par classe de qualité",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Crate and pallet tracking: what went out and what came back",
+"kind": "title",
+"max": 60,
+"mt": "Suivi des caisses et des palettes: ce qui est sorti et ce qui est revenu",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Weight change from moisture: what drying takes away",
+"kind": "title",
+"max": 60,
+"mt": "Changement de poids dû à l'humidité: ce que le séchage supprime",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Dressing percentage: carcass weight from live weight",
+"kind": "title",
+"max": 60,
+"mt": "Pourcentage de dressage: poids de la carcasse par rapport au poids vivant",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Hello {keeper}, the cell count for {grp} on {date} was {scc} thousand per ml. Please test the suspect cows, milk them last and keep their milk out of the tank until we know more.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le nombre de cellules de {grp} sur {date} était de {scc} mille par ml. S'il vous plaît, testez les vaches suspectées, traitez-les en dernier et gardez leur lait hors du réservoir jusqu'à ce que nous en sachions plus.",
+"why": "placeholders must be exactly: {keeper} {grp} {date} {scc}"
+},
+{
+"en": "Hello {keeper}, {section} gave {eggs} eggs from {hens} hens on {date}, a lay rate of {lay_rate}. Please check feed, water, light and signs of stress or disease in the house and tell me today.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, j'ai donné des œufs de poules à un taux de pondus de 5, vérifiez l'alimentation, l'eau, la lumière et les signes de stress ou de maladie dans la maison et dites-moi aujourd'hui.",
+"why": "placeholders must be exactly: {keeper} {section} {eggs} {hens} {date} {lay_rate}"
+},
+{
+"en": "Hello {keeper}, the cracked share in {section} was {crack_pct} ({cracked} eggs) on {date}. Please check the belts, the nest pads and the handling and tell me what you change.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, la part fissurée dans {section} était {crack_pct} ({cracked} œufs) sur {date}. S'il vous plaît vérifier les ceintures, les tampons de nid et la manutention et dites-moi ce que vous changez.",
+"why": "placeholders must be exactly: {keeper} {section} {crack_pct} {cracked} {date}"
+},
+{
+"en": "Hello {keeper}, {name} reads {temp_now} degrees C and must stay between {tmin} and {tmax}. The check shows: {state}. Please check the unit, the door seal and the stock and call me.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {keeper}, {name} indique {temp_now} degrés C et doit rester entre {tmin} et {tmax}.",
+"why": "placeholders must be exactly: {keeper} {name} {temp_now} {tmin} {tmax} {state}"
+},
+{
+"en": "Hello {packed_by}, tomorrow we pack {product} for {buyer}, about {crates} crates of {crate_kg} kg. Please count the clean crates today and tell me if we are short.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, demain, nous emballons pour deux, environ trois caisses de quatre kilos. S'il vous plaît, comptez les caisses propres aujourd'hui et dites-moi si nous manquons.",
+"why": "placeholders must be exactly: {packed_by} {product} {buyer} {crates} {crate_kg}"
+}
+]

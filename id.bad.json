@@ -1,0 +1,170 @@
+[
+{
+"en": "Hello, please weigh {subject} in {herd} today ({n_weighed} animals) and send me the average weight by the evening.",
+"kind": "message",
+"max": null,
+"mt": "Halo, tolong timbang hewan hari ini dan kirimkan berat rata-rata pada malam hari.",
+"why": "placeholders must be exactly: {subject} {herd} {n_weighed}"
+},
+{
+"en": "Hello, we lost {count} animals in {house} on {date}. Please do a post-mortem and send the result so that we can protect the rest of the group.",
+"kind": "message",
+"max": null,
+"mt": "Halo, kami kehilangan hewan di {house} pada {date} tolong lakukan autopsi dan kirimkan hasilnya sehingga kita bisa melindungi sisa kelompok.",
+"why": "placeholders must be exactly: {count} {house} {date}"
+},
+{
+"en": "Hello, please book shearing for {name}, about {head} animals, on {next_work}. Tell me the size of your team and your price per animal.",
+"kind": "message",
+"max": null,
+"mt": "Halo, tolong pesan pemotongan untuk hewan, di nomor 2.",
+"why": "placeholders must be exactly: {name} {head} {next_work}"
+},
+{
+"en": "Hello, please watch {cow} in {herd} for signs of heat around {repeat_date}. If she is in heat, tell me at once so that we can serve her again.",
+"kind": "message",
+"max": null,
+"mt": "Halo, tolong perhatikan tanda-tanda panas di sekitar jika dia sedang panas, katakan padaku segera sehingga kita bisa melayani dia lagi.",
+"why": "placeholders must be exactly: {cow} {herd} {repeat_date}"
+},
+{
+"en": "The vaccination is repeated after {col:vacc.interval_days} days, so the next one is due on {col:vacc.next_plan}. The status shows: {col:vacc.state}.",
+"kind": "document",
+"max": null,
+"mt": "Vaksinasi diulang setelah {col:vacc.interval_days} hari, jadi yang berikutnya adalah pada {col:vacc.next_plan}.",
+"why": "placeholders must be exactly: {col:vacc.interval_days} {col:vacc.next_plan} {col:vacc.state}"
+},
+{
+"en": "Animal or house: {col:withdraw.subject}. Group: {col:withdraw.herd}. Medicine: {col:withdraw.medicine}.",
+"kind": "document",
+"max": null,
+"mt": "Hewan atau rumah: {col:withdraw.subject}.",
+"why": "placeholders must be exactly: {col:withdraw.subject} {col:withdraw.herd} {col:withdraw.medicine}"
+},
+{
+"en": "The treatment started on {col:withdraw.treat_date} and lasted {col:withdraw.days} days. The withholding period is {col:withdraw.milk_days} days for milk and {col:withdraw.meat_days} days for meat, plus {set:wh_extra} safety day.",
+"kind": "document",
+"max": null,
+"mt": "Perawatan dimulai pada {col:withdraw.treat_date} dan berlangsung selama {col:withdraw.days} hari.",
+"why": "placeholders must be exactly: {col:withdraw.treat_date} {col:withdraw.days} {col:withdraw.milk_days} {col:withdraw.meat_days} {set:wh_extra}"
+},
+{
+"en": "Milk may be sold from {col:withdraw.milk_free} and meat from {col:withdraw.meat_free}. The animal is free from {col:withdraw.free_date}. Status: {col:withdraw.state}. Checked by {col:withdraw.checked_by}.",
+"kind": "document",
+"max": null,
+"mt": "Susu dapat dijual dari {col:withdraw.milk_free} dan daging dari {col:withdraw.meat_free}.",
+"why": "placeholders must be exactly: {col:withdraw.milk_free} {col:withdraw.meat_free} {col:withdraw.free_date} {col:withdraw.state} {col:withdraw.checked_by}"
+},
+{
+"en": "Storage loss by cause and value",
+"kind": "label",
+"max": 50,
+"mt": "Kerugian penyimpanan berdasarkan penyebab dan nilai",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Nile Delta Onion Packers",
+"kind": "list",
+"max": 30,
+"mt": "Pemasok bawang delta Sungai Nil",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Green Basket Online Grocer",
+"kind": "list",
+"max": 30,
+"mt": "Green basket online toko kelontong",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Dressing low",
+"kind": "list",
+"max": 30,
+"mt": "Menggunakan pakaian yang rendah",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Returns due",
+"kind": "list",
+"max": 30,
+"mt": "Pengembalian yang harus dibayarkan",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Protein",
+"kind": "label",
+"max": null,
+"mt": "Protein",
+"why": "not translated"
+},
+{
+"en": "Meat records: live weight, carcass and dressing percentage",
+"kind": "title",
+"max": 60,
+"mt": "Catatan daging: persentase berat hidup, bangkai dan pengeringan",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Harvest lots: one number for every load that goes into store",
+"kind": "title",
+"max": 60,
+"mt": "Batch panen: satu nomor untuk setiap kargo yang masuk ke gudang",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Grain bins and silos: capacity, content and moisture",
+"kind": "title",
+"max": 60,
+"mt": "Kandang dan silo biji-bijian: kapasitas, kandungan dan kelembaban",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Packing and grading of fresh produce by quality class",
+"kind": "title",
+"max": 60,
+"mt": "Pengemasan dan klasifikasi produk segar menurut kelas kualitas",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Crate and pallet tracking: what went out and what came back",
+"kind": "title",
+"max": 60,
+"mt": "Pelacakan peti dan pallet: apa yang keluar dan apa yang kembali",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Margin per unit",
+"kind": "label",
+"max": null,
+"mt": "Margin per unit",
+"why": "not translated"
+},
+{
+"en": "Diameter, m",
+"kind": "label",
+"max": null,
+"mt": "Diameter, m",
+"why": "not translated"
+},
+{
+"en": "Weight change from moisture: what drying takes away",
+"kind": "title",
+"max": 60,
+"mt": "Perubahan berat dari kelembaban: apa yang hilang dengan pengeringan",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Target 26 l",
+"kind": "label",
+"max": null,
+"mt": "Target 26 l",
+"why": "not translated"
+},
+{
+"en": "Hello, lot {lot_id} of {crop} ({tonnes} tonnes) came in on {date} with moisture {moisture}. It goes to {store}. Please confirm the storage plan and the next sale.",
+"kind": "message",
+"max": null,
+"mt": "Halo, batch {lot_id} dari {crop} ({tonnes} ton) datang pada {date} dengan kelembaban {moisture}.",
+"why": "placeholders must be exactly: {lot_id} {crop} {tonnes} {date} {moisture} {store}"
+}
+]

@@ -1,0 +1,226 @@
+[
+{
+"en": "Hello, please weigh {subject} in {herd} today ({n_weighed} animals) and send me the average weight by the evening.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen bugünkü hayvanları tartın ve akşam bana ortalama ağırlığı gönderin.",
+"why": "placeholders must be exactly: {subject} {herd} {n_weighed}"
+},
+{
+"en": "Hello, {count} animals were lost in {house} on {date}, cause: {cause}. Please check the other animals, remove the dead ones and send me a short report.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {count} hayvanlar {house} {date} {cause} {cause} {house} {cause} {cause} {cause} {cause} {cause} {cause} {cause} {cause} {cause} {4} {4} {4} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5}",
+"why": "placeholders must be exactly: {count} {house} {date} {cause}"
+},
+{
+"en": "Hello, the withdrawal period of {subject} in {herd} ({medicine}) ends on {free_date}. Please do not sell milk or meat before that day.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {herd} ({medicine}) 'daki geri alma süresi {free_date}'de sona eriyor. Lütfen o güne kadar süt veya et satmayın.",
+"why": "placeholders must be exactly: {subject} {herd} {medicine} {free_date}"
+},
+{
+"en": "Hello, we booked your visit to {herd} on {date} for {purpose}. We will have the animals and the handling area ready. Please confirm the time.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, sizin ziyaretinizi 1'de 2'ye ayırttık.",
+"why": "placeholders must be exactly: {herd} {date} {purpose}"
+},
+{
+"en": "Hello, we would like a pregnancy scan for {cow} in {herd}. Please tell me your first free day this week and how many animals you can scan.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen bana bu haftaki ilk boş gününüzü ve kaç hayvanı tarayabileceğinizi söyleyin.",
+"why": "placeholders must be exactly: {cow} {herd}"
+},
+{
+"en": "Hello, we lost {count} animals in {house} on {date}. Please do a post-mortem and send the result so that we can protect the rest of the group.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, hayvanlarımızı 2'de kaybettik.",
+"why": "placeholders must be exactly: {count} {house} {date}"
+},
+{
+"en": "Hello, order {fb_id} of {feed} is due on {due}. We may need it earlier. Can you deliver sooner or tell me the new day?",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, 1 numaranın siparişi 2'ye var. Daha erken ihtiyacımız olabilir. Daha erken teslim edebilir misiniz?",
+"why": "placeholders must be exactly: {fb_id} {feed} {due}"
+},
+{
+"en": "Hello, we need bedding for {herd}: {qty_kg} kg of {feed} on {due}. Please tell me the truck size and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, 1 kg yatak çamaşırı için yatak çamaşırı lazım.",
+"why": "placeholders must be exactly: {herd} {qty_kg} {feed} {due}"
+},
+{
+"en": "Hello, please book shearing for {name}, about {head} animals, on {next_work}. Tell me the size of your team and your price per animal.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen hayvanların tıraş edilmesini 2 numarada yaptırın.",
+"why": "placeholders must be exactly: {name} {head} {next_work}"
+},
+{
+"en": "Hello, please repair the fence in {paddock} ({area_ha} ha) before {in_date}, because {herd} moves in on that day. Tell me when you can come.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen çitleri tamir edin, çünkü o gün taşınıyoruz.",
+"why": "placeholders must be exactly: {paddock} {area_ha} {in_date} {herd}"
+},
+{
+"en": "Hello, please watch {cow} in {herd} for signs of heat around {repeat_date}. If she is in heat, tell me at once so that we can serve her again.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen sıcaklık belirtilerini izleyin.",
+"why": "placeholders must be exactly: {cow} {herd} {repeat_date}"
+},
+{
+"en": "Hello, please check the temperature, the air and the water in {house} now. There are {head} animals inside and the space check shows: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen sıcaklığı, havayı ve suyu kontrol edin. İçeride hayvanlar var ve boşluk kontrolü gösteriyor: {state}.",
+"why": "placeholders must be exactly: {house} {head} {state}"
+},
+{
+"en": "Hello, transport is booked for {qty} animals ({subject}) of {herd} on {date}. Please give water, stop feeding in time, check the tags and prepare the movement papers.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {qty} hayvanlar için nakliye rezervasyonu yapıldı {subject} {herd} {date} {date} {date} {date} {date} {date} {date} {date} {date} {date} {date} {date} {date} {date} {4} {4} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5}",
+"why": "placeholders must be exactly: {qty} {subject} {herd} {date}"
+},
+{
+"en": "Born on {col:animals.born}, which makes the animal {col:animals.age_m} months old. The dam is {col:animals.dam}. The status is {col:animals.status}.",
+"kind": "document",
+"max": null,
+"mt": "{col:animals.born}'da doğdu, bu da hayvanı {col:animals.age_m} aylık yapar.",
+"why": "placeholders must be exactly: {col:animals.born} {col:animals.age_m} {col:animals.dam} {col:animals.status}"
+},
+{
+"en": "Group: {col:herds.name} ({col:herds.species}). Kept in: {col:herds.house}. Keeper: {col:herds.keeper}.",
+"kind": "document",
+"max": null,
+"mt": "Grup: {col:herds.name} ({col:herds.species}).",
+"why": "placeholders must be exactly: {col:herds.name} {col:herds.species} {col:herds.house} {col:herds.keeper}"
+},
+{
+"en": "The ration is {col:herds.ration_kg} kg as fed for each animal and costs {col:herds.feed_head} per head per day. The average daily gain is {col:herds.adg} kg. {col:herds.deaths} animals died in the last 12 months, a rate of {col:herds.mort_rate}. The check shows: {col:herds.mort_state}.",
+"kind": "document",
+"max": null,
+"mt": "Rasyon, her hayvan için beslendiği gibi {col:herds.ration_kg} kg'dır ve günde baş başına {col:herds.feed_head} maliyetlidir. Ortalama günlük kazanç {col:herds.adg} kg'dır. {col:herds.deaths} hayvanlar son 12 ayda öldü, bir oran {col:herds.mort_rate}.",
+"why": "placeholders must be exactly: {col:herds.ration_kg} {col:herds.feed_head} {col:herds.adg} {col:herds.deaths} {col:herds.mort_rate} {col:herds.mort_state}"
+},
+{
+"en": "The vaccination is repeated after {col:vacc.interval_days} days, so the next one is due on {col:vacc.next_plan}. The status shows: {col:vacc.state}.",
+"kind": "document",
+"max": null,
+"mt": "Aşılama {col:vacc.interval_days} gün sonra tekrarlanır, bu nedenle bir sonraki aşılama {col:vacc.next_plan}'de yapılmalıdır.",
+"why": "placeholders must be exactly: {col:vacc.interval_days} {col:vacc.next_plan} {col:vacc.state}"
+},
+{
+"en": "Animal or house: {col:withdraw.subject}. Group: {col:withdraw.herd}. Medicine: {col:withdraw.medicine}.",
+"kind": "document",
+"max": null,
+"mt": "Hayvan veya ev: {col:withdraw.subject}.",
+"why": "placeholders must be exactly: {col:withdraw.subject} {col:withdraw.herd} {col:withdraw.medicine}"
+},
+{
+"en": "The treatment started on {col:withdraw.treat_date} and lasted {col:withdraw.days} days. The withholding period is {col:withdraw.milk_days} days for milk and {col:withdraw.meat_days} days for meat, plus {set:wh_extra} safety day.",
+"kind": "document",
+"max": null,
+"mt": "Tedavi {col:withdraw.treat_date} günü başladı ve {col:withdraw.days} gün sürdü.",
+"why": "placeholders must be exactly: {col:withdraw.treat_date} {col:withdraw.days} {col:withdraw.milk_days} {col:withdraw.meat_days} {set:wh_extra}"
+},
+{
+"en": "For each kilogram of gain the group eats {col:herds.fcr} kg of feed at an average daily gain of {col:herds.adg} kg.",
+"kind": "document",
+"max": null,
+"mt": "Her bir kilo kazanım için grup, günlük ortalama bir kilo kazanımla {col:herds.fcr} kg yem yiyor.",
+"why": "placeholders must be exactly: {col:herds.fcr} {col:herds.adg}"
+},
+{
+"en": "Buyer, seller or source: {col:moves.party}, phone {col:moves.party_phone}. Total live weight {col:moves.weight_kg} kg, which is {col:moves.kg_head} kg per head. Value {col:moves.value}, {col:moves.price_head} per head.",
+"kind": "document",
+"max": null,
+"mt": "Alıcı, satıcı veya kaynak: {col:moves.party}, telefon {col:moves.party_phone} toplam canlı ağırlığı {col:moves.weight_kg} kg, ki bu baş başına {col:moves.kg_head} kg.",
+"why": "placeholders must be exactly: {col:moves.party} {col:moves.party_phone} {col:moves.weight_kg} {col:moves.kg_head} {col:moves.value} {col:moves.price_head}"
+},
+{
+"en": "There are {col:herds.head} animals with an average weight of {col:herds.avg_kg} kg, which is {col:herds.units} livestock units. The value per head is {col:herds.value_head} and the value of the group is {col:herds.stock_value}.",
+"kind": "document",
+"max": null,
+"mt": "{col:herds.head} hayvanların ortalama ağırlığı {col:herds.avg_kg} kg, bu da {col:herds.units} hayvan birimidir.",
+"why": "placeholders must be exactly: {col:herds.head} {col:herds.avg_kg} {col:herds.units} {col:herds.value_head} {col:herds.stock_value}"
+},
+{
+"en": "Track milk, eggs, harvest lots, stock and traceability in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Sütü, yumurtaları, hasat partilerini, stokları ve izlenebilirliği tek bir dosyada izleyin",
+"why": "too long: 89 characters, the limit is 80"
+},
+{
+"en": "hen-day lay rate and cracked eggs per section and day are compared with your targets, and grading shows packed eggs, dozens and value",
+"kind": "sentence",
+"max": 160,
+"mt": "Tavuk-gün yumurtlama oranı ve bölüm ve gün başına yumurta çatlakları hedeflerinizle karşılaştırılır ve sınıflandırma paketli yumurta, düzinelerce ve değerini gösterir",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Sumatra Rice Wholesale",
+"kind": "list",
+"max": 30,
+"mt": "Sumatra pirinci toptan satılıyor",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Sunrise Poultry Feeds",
+"kind": "list",
+"max": 30,
+"mt": "Güneş doğarken tavuk beslenmesi",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Tote bin",
+"kind": "list",
+"max": 30,
+"mt": "Tote bin",
+"why": "not translated"
+},
+{
+"en": "Protein",
+"kind": "label",
+"max": null,
+"mt": "Protein",
+"why": "not translated"
+},
+{
+"en": "Packing and grading of fresh produce by quality class",
+"kind": "title",
+"max": 60,
+"mt": "Taze ürünlerin kalite sınıflarına göre ambalajlanması ve sınıflandırılması",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Hello {keeper}, {section} gave {eggs} eggs from {hens} hens on {date}, a lay rate of {lay_rate}. Please check feed, water, light and signs of stress or disease in the house and tell me today.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, 4'te 2 tavuğun yumurtalarını verdim, 5 adet yumurtladı lütfen beslenme, su, ışık ve evde stres veya hastalık belirtileri kontrol edin ve bana bugün söyleyin.",
+"why": "placeholders must be exactly: {keeper} {section} {eggs} {hens} {date} {lay_rate}"
+},
+{
+"en": "Hello {packed_by}, tomorrow we pack {product} for {buyer}, about {crates} crates of {crate_kg} kg. Please count the clean crates today and tell me if we are short.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {packed_by}, yarın {buyer} için {product} paketleyeceğiz, yaklaşık {crates} kilo kutuları. Lütfen bugün temiz kutuları sayın ve eksik olup olmadığımızı söyleyin.",
+"why": "placeholders must be exactly: {packed_by} {product} {buyer} {crates} {crate_kg}"
+},
+{
+"en": "Hello, lot {lot_id} of {crop} ({tonnes} tonnes) came in on {date} with moisture {moisture}. It goes to {store}. Please confirm the storage plan and the next sale.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {crop} ({tonnes} ton) {date}'da {moisture}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}'de {date}",
+"why": "placeholders must be exactly: {lot_id} {crop} {tonnes} {date} {moisture} {store}"
+}
+]

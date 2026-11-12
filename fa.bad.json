@@ -1,0 +1,163 @@
+[
+{
+"en": "Hello, please weigh {subject} in {herd} today ({n_weighed} animals) and send me the average weight by the evening.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفا وزن حیوانات امروز رو بگيرين و وزن متوسط رو تا امشب برام بفرستيد",
+"why": "placeholders must be exactly: {subject} {herd} {n_weighed}"
+},
+{
+"en": "Hello, please order {name} for the next vaccination round. We have {stock} {unit} left and the expiry is {expiry}. Please send the price and the delivery day.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً برای دور واکسینهای بعدی سفارش دهید. {stock} {unit} زمان باقی مانده و زمان انقضا {expiry} است. لطفاً قیمت و روز تحویل را بفرستید.",
+"why": "placeholders must be exactly: {name} {stock} {unit} {expiry}"
+},
+{
+"en": "Hello, we lost {count} animals in {house} on {date}. Please do a post-mortem and send the result so that we can protect the rest of the group.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما حیواناتمان رو از دست دادیم لطفاً بعد از مرگش رو انجام بدید و نتیجه رو بفرستید تا بتونیم بقیه گروه رو محافظت کنیم",
+"why": "placeholders must be exactly: {count} {house} {date}"
+},
+{
+"en": "Hello, order {fb_id} of {feed} is due on {due}. We may need it earlier. Can you deliver sooner or tell me the new day?",
+"kind": "message",
+"max": null,
+"mt": "سلام، سفارش شماره 1 تا شماره 2 تمام شده ممکنه زودتر لازم داشته باشيم ميشه زودتر تحویل بدين يا به من بگين روز جديد چي ميشه؟",
+"why": "placeholders must be exactly: {fb_id} {feed} {due}"
+},
+{
+"en": "Hello, we need bedding for {herd}: {qty_kg} kg of {feed} on {due}. Please tell me the truck size and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما به لباس خواب براي يک کيلوگرم لباس براي سه نفر نياز داريم لطفاً سايز ماشين و زمان رسيدنش رو بهم بگيد",
+"why": "placeholders must be exactly: {herd} {qty_kg} {feed} {due}"
+},
+{
+"en": "Hello, please book shearing for {name}, about {head} animals, on {next_work}. Tell me the size of your team and your price per animal.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفا در مورد حیوانات، در مورد حیوانات، در شماره 2 رزرو کنید. اندازه تیم و قیمت هر حیوان را به من بگویید.",
+"why": "placeholders must be exactly: {name} {head} {next_work}"
+},
+{
+"en": "Hello, please repair the fence in {paddock} ({area_ha} ha) before {in_date}, because {herd} moves in on that day. Tell me when you can come.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً قبل از رفتن به اون روز، حصار رو درست کنيد.",
+"why": "placeholders must be exactly: {paddock} {area_ha} {in_date} {herd}"
+},
+{
+"en": "Hello, please watch {cow} in {herd} for signs of heat around {repeat_date}. If she is in heat, tell me at once so that we can serve her again.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً به دنبال نشانه های گرما در اطراف باشید. اگر گرما داشته باشد، بلافاصله به من بگویید تا بتوانیم دوباره به او خدمت کنیم.",
+"why": "placeholders must be exactly: {cow} {herd} {repeat_date}"
+},
+{
+"en": "Hello {keeper}, herd work for {name} is planned on {next_work} for {head} animals. Please prepare the handling area, the records and the helpers.",
+"kind": "message",
+"max": null,
+"mt": "سلام، کار گله برای {name} برای {next_work} برای {head} حیوانات برنامه ریزی شده است. لطفا منطقه دستکاری، سوابق و کمک کننده آماده کنید.",
+"why": "placeholders must be exactly: {keeper} {name} {next_work} {head}"
+},
+{
+"en": "The group started the records with {col:herds.opening} animals. {col:herds.came} came in and {col:herds.left} left, so there are {col:herds.head} animals now, which is {col:herds.units} livestock units.",
+"kind": "document",
+"max": null,
+"mt": "گروه با حیوانات شروع به ثبت کردند. {col:herds.came} آمدند و {col:herds.left} رفتند، بنابراین اکنون {col:herds.head} حیوانات وجود دارد، که {col:herds.units} واحد دام است.",
+"why": "placeholders must be exactly: {col:herds.opening} {col:herds.came} {col:herds.left} {col:herds.head} {col:herds.units}"
+},
+{
+"en": "Animal or house: {col:withdraw.subject}. Group: {col:withdraw.herd}. Medicine: {col:withdraw.medicine}.",
+"kind": "document",
+"max": null,
+"mt": "حیوان یا خانه: گروه: طب:",
+"why": "placeholders must be exactly: {col:withdraw.subject} {col:withdraw.herd} {col:withdraw.medicine}"
+},
+{
+"en": "Record cows with mastitis or treated cows",
+"kind": "label",
+"max": null,
+"mt": "گاوهای مبتلا به mastitis یا گاوهای درمان شده را ثبت کنید",
+"why": "English/Latin words left: mastitis"
+},
+{
+"en": "every dispatch is matched to its harvest lot, field and date, and a check flags lots with no record and loads larger than the lot",
+"kind": "sentence",
+"max": 160,
+"mt": "هر ارسال با دسته برداشت، میدان و تاریخ آن مطابقت دارد و یک چک دسته هایی را که هیچ سوابقی ندارند و محموله های بزرگتر از دسته را نشان می دهد.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Lakeview Dairy Plant",
+"kind": "list",
+"max": 30,
+"mt": "کارخانه لبنی Lakeview",
+"why": "English/Latin words left: Lakeview"
+},
+{
+"en": "Oasis Hotels Group",
+"kind": "list",
+"max": 30,
+"mt": "گروه هتل های Oasis",
+"why": "English/Latin words left: Oasis"
+},
+{
+"en": "Pacific Egg Distributors",
+"kind": "list",
+"max": 30,
+"mt": "توزیع کننده های تخم مرغ در اقیانوس آرام",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Cell count, 000/ml",
+"kind": "label",
+"max": null,
+"mt": "تعداد سلول ها، 000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Bacteria, 000/ml",
+"kind": "label",
+"max": null,
+"mt": "باکتری ها، 000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Cell count, average 000/ml",
+"kind": "label",
+"max": null,
+"mt": "تعداد سلول ها، میانگین 000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Hello {keeper}, the cell count for {grp} on {date} was {scc} thousand per ml. Please test the suspect cows, milk them last and keep their milk out of the tank until we know more.",
+"kind": "message",
+"max": null,
+"mt": "سلام، تعداد سلول هاي {grp} در {date} {scc} هزار در ميلي است. لطفاً گاوهاي مشکوک را آزمايش كنيد، آخرين آنها را شيرين كنيد و شيرشان را از مخزن خارج نگه داريد تا اطلاعات بيشتري بدست آوريم.",
+"why": "placeholders must be exactly: {keeper} {grp} {date} {scc}"
+},
+{
+"en": "Hello {keeper}, {section} gave {eggs} eggs from {hens} hens on {date}, a lay rate of {lay_rate}. Please check feed, water, light and signs of stress or disease in the house and tell me today.",
+"kind": "message",
+"max": null,
+"mt": "سلام، من تخم مرغ هاي مرغ هاي سه گانه رو به شما دادم، به اندازه 5 مرغ. لطفاً غذاها، آب، نور و نشانه هاي استرس يا بيماري در خونه رو چک کنيد و امروز به من بگيد.",
+"why": "placeholders must be exactly: {keeper} {section} {eggs} {hens} {date} {lay_rate}"
+},
+{
+"en": "Hello {keeper}, the cracked share in {section} was {crack_pct} ({cracked} eggs) on {date}. Please check the belts, the nest pads and the handling and tell me what you change.",
+"kind": "message",
+"max": null,
+"mt": "سلام، سهم شکسته در {section} {crack_pct} {cracked} تخم مرغ در {date} بود لطفا کمربند ها، پد های لانه و دستکاری را بررسی کنید و به من بگویید که چه چیزی را تغییر می دهید.",
+"why": "placeholders must be exactly: {keeper} {section} {crack_pct} {cracked} {date}"
+},
+{
+"en": "Hello {packed_by}, tomorrow we pack {product} for {buyer}, about {crates} crates of {crate_kg} kg. Please count the clean crates today and tell me if we are short.",
+"kind": "message",
+"max": null,
+"mt": "سلام، فردا ما برای دو جعبه با وزن ۴ کیلوگرم بسته بندی می کنیم لطفا جعبه های تمیز امروز را بشمارید و به من بگویید که آیا کمبود داریم.",
+"why": "placeholders must be exactly: {packed_by} {product} {buyer} {crates} {crate_kg}"
+}
+]

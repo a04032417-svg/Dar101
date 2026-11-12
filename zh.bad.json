@@ -1,0 +1,303 @@
+[
+{
+"en": "Hello, a birth is expected for {cow} in {herd} on {due}, in {days_to_due} days. Please move the animal to the maternity pen and check her often as the date comes near.",
+"kind": "message",
+"max": null,
+"mt": "您好,预计将在 {herd} 在 {due} 在 {days_to_due} 天内出生.请将动物转移到产区,并随着日期的临近,经常检查.",
+"why": "placeholders must be exactly: {cow} {herd} {due} {days_to_due}"
+},
+{
+"en": "Hello, {subject} in {herd} is being treated for {cause} with {medicine} for {days} days. Please keep it apart from the group, give it water and tell me if it gets worse.",
+"kind": "message",
+"max": null,
+"mt": "您好, {subject} 在 {herd} 接受了 {cause} 和 {medicine} 的治疗4天.请将它隔离群体,给它水,如果情况恶化,告诉我.",
+"why": "placeholders must be exactly: {subject} {herd} {cause} {medicine} {days}"
+},
+{
+"en": "Hello, {qty_kg} kg of {feed} for {herd} is due on {due}. Please clear space in the store and check the weight and the date on the delivery note.",
+"kind": "message",
+"max": null,
+"mt": "您好, {qty_kg} kg {feed} 的 {herd} 是 {due} 应付的. 请在商店里清除空间,并检查交付单上的重量和日期.",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Hello, please weigh {subject} in {herd} today ({n_weighed} animals) and send me the average weight by the evening.",
+"kind": "message",
+"max": null,
+"mt": "您好,请在今天的动物中进行权重,并在晚上给我发送平均体重.",
+"why": "placeholders must be exactly: {subject} {herd} {n_weighed}"
+},
+{
+"en": "Hello, please move {herd} to {paddock} on {in_date} for {days} days. Check the fence and the water before the move and count the animals after it.",
+"kind": "message",
+"max": null,
+"mt": "请在搬家前检查和水,然后数动物.",
+"why": "placeholders must be exactly: {herd} {paddock} {in_date} {days}"
+},
+{
+"en": "Hello, {count} animals were lost in {house} on {date}, cause: {cause}. Please check the other animals, remove the dead ones and send me a short report.",
+"kind": "message",
+"max": null,
+"mt": "请检查其他动物,移除死者,并给我短信.",
+"why": "placeholders must be exactly: {count} {house} {date} {cause}"
+},
+{
+"en": "Hello, the order of {qty_kg} kg of {feed} for {herd} covers about {cover_days} days. Please plan the next order so that the group never runs short.",
+"kind": "message",
+"max": null,
+"mt": "你好, {qty_kg}kg的 {feed}的订单为 {herd} 约为 {cover_days} 天. 请计划下一个订单,这样组永远不会短.",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Hello, please confirm the treatment plan for {subject} in {herd}: cause {cause}, medicine {medicine}, {days} days. Tell me if you want a recheck.",
+"kind": "message",
+"max": null,
+"mt": "您好,请确认治疗计划,如果您需要重新检查,请告诉我.",
+"why": "placeholders must be exactly: {subject} {herd} {cause} {medicine} {days}"
+},
+{
+"en": "Hello, please order {name} for the next vaccination round. We have {stock} {unit} left and the expiry is {expiry}. Please send the price and the delivery day.",
+"kind": "message",
+"max": null,
+"mt": "你好,请订购下一轮疫苗接种. 我们剩下1个时间,到期时间是3个. 请发送价格和交付日期.",
+"why": "placeholders must be exactly: {name} {stock} {unit} {expiry}"
+},
+{
+"en": "Hello, we lost {count} animals in {house} on {date}. Please do a post-mortem and send the result so that we can protect the rest of the group.",
+"kind": "message",
+"max": null,
+"mt": "我们在1月2日失去了动物,请进行尸检,",
+"why": "placeholders must be exactly: {count} {house} {date}"
+},
+{
+"en": "Hello, we order {qty_kg} kg of {feed} for {herd}. Please deliver on {due} and send the weighbridge ticket with the delivery.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们订购了 {qty_kg} kg {feed} 的 {herd}.请在 {due} 交付,并与交付一起发送权重桥票.",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Hello, order {fb_id} of {feed} is due on {due}. We may need it earlier. Can you deliver sooner or tell me the new day?",
+"kind": "message",
+"max": null,
+"mt": "您好,我们可能需要它更早.您可以更早交付或告诉我新的一天吗?",
+"why": "placeholders must be exactly: {fb_id} {feed} {due}"
+},
+{
+"en": "Hello, we need bedding for {herd}: {qty_kg} kg of {feed} on {due}. Please tell me the truck size and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们需要床上用品,请告诉我卡车的尺寸和到达时间.",
+"why": "placeholders must be exactly: {herd} {qty_kg} {feed} {due}"
+},
+{
+"en": "Hello, please book shearing for {name}, about {head} animals, on {next_work}. Tell me the size of your team and your price per animal.",
+"kind": "message",
+"max": null,
+"mt": "你好,请在2号预订动物剪毛,请告诉我你的团队规模和每只动物的价格.",
+"why": "placeholders must be exactly: {name} {head} {next_work}"
+},
+{
+"en": "Hello, please repair the fence in {paddock} ({area_ha} ha) before {in_date}, because {herd} moves in on that day. Tell me when you can come.",
+"kind": "message",
+"max": null,
+"mt": "您好,请在搬进那天之前修复1公的围.请告诉我您何时可以来.",
+"why": "placeholders must be exactly: {paddock} {area_ha} {in_date} {herd}"
+},
+{
+"en": "Hello, please watch {cow} in {herd} for signs of heat around {repeat_date}. If she is in heat, tell me at once so that we can serve her again.",
+"kind": "message",
+"max": null,
+"mt": "您好,请注意在附近是否有热的迹象. 如果她发热,请立即告诉我,以便我们再次为她服务.",
+"why": "placeholders must be exactly: {cow} {herd} {repeat_date}"
+},
+{
+"en": "Hello, {qty} animals ({subject}) from {herd} are ready for collection on {date}. Please confirm the truck and the time of arrival.",
+"kind": "message",
+"max": null,
+"mt": "您好,来自2的动物已经准备好在3日接收. 请确认卡车和到达时间.",
+"why": "placeholders must be exactly: {qty} {subject} {herd} {date}"
+},
+{
+"en": "Hello {visitor}, you visit {herd} on {date}. Please disinfect your boots and your vehicle {vehicle} at the gate, wear the clean overalls we give you and sign the visitors log.",
+"kind": "message",
+"max": null,
+"mt": "你在门口请消毒你的靴子和车辆,穿我们给你的干净服装,并签署游客日志.",
+"why": "placeholders must be exactly: {visitor} {herd} {date} {vehicle}"
+},
+{
+"en": "Hello {keeper}, herd work for {name} is planned on {next_work} for {head} animals. Please prepare the handling area, the records and the helpers.",
+"kind": "message",
+"max": null,
+"mt": "请准备处理区域,记录和助手.",
+"why": "placeholders must be exactly: {keeper} {name} {next_work} {head}"
+},
+{
+"en": "Animal passport of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "动物护照,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "The last weight was {col:animals.last_kg} kg on {col:animals.last_date}. The animal had {col:animals.treatments} treatments in the last 12 months. Withdrawal check: {col:animals.wh_state}.",
+"kind": "document",
+"max": null,
+"mt": "最后体重为 {col:animals.last_kg} kg 在 {col:animals.last_date} 上. 动物在过去12个月内接受过 {col:animals.treatments} 治疗. 戒断检查: {col:animals.wh_state}.",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "The group started the records with {col:herds.opening} animals. {col:herds.came} came in and {col:herds.left} left, so there are {col:herds.head} animals now, which is {col:herds.units} livestock units.",
+"kind": "document",
+"max": null,
+"mt": "开始记录动物. {col:herds.came} 进来, {col:herds.left} 离开,所以现在有 {col:herds.head} 动物,这是 {col:herds.units} 牲畜单位.",
+"why": "placeholders must be exactly: {col:herds.opening} {col:herds.came} {col:herds.left} {col:herds.head} {col:herds.units}"
+},
+{
+"en": "The ration is {col:herds.ration_kg} kg as fed for each animal and costs {col:herds.feed_head} per head per day. The average daily gain is {col:herds.adg} kg. {col:herds.deaths} animals died in the last 12 months, a rate of {col:herds.mort_rate}. The check shows: {col:herds.mort_state}.",
+"kind": "document",
+"max": null,
+"mt": "每只动物的食量为 {col:herds.ration_kg} kg,每人每天费用为 {col:herds.feed_head}.平均每日收益为 {col:herds.adg} kg. {col:herds.deaths} 动物在过去12个月中死亡,比例为 {col:herds.mort_rate}. 检查显示: {col:herds.mort_state}.",
+"why": "English/Latin words left: kg kg."
+},
+{
+"en": "Vaccination certificate of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "疫苗接种证书日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Group: {col:vacc.herd}. Vaccine: {col:vacc.vaccine}.",
+"kind": "document",
+"max": null,
+"mt": "接种剂:",
+"why": "placeholders must be exactly: {col:vacc.herd} {col:vacc.vaccine}"
+},
+{
+"en": "Breeding plan of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "繁殖计划日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Feed ration statement of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "料配量声明,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "The ration is {col:herds.ration_kg} kg as fed for each animal per day. It gives {col:herds.dm_pct} of the body weight as dry matter. The cost is {col:herds.feed_head} per head per day, or {col:herds.feed_day} for the whole group.",
+"kind": "document",
+"max": null,
+"mt": "食量为每只动物每天食的0公斤.它以干物质的体重为1公斤.成本为每头每天2公斤,或者是整个群体的3公斤.",
+"why": "placeholders must be exactly: {col:herds.ration_kg} {col:herds.dm_pct} {col:herds.feed_head} {col:herds.feed_day}"
+},
+{
+"en": "For each kilogram of gain the group eats {col:herds.fcr} kg of feed at an average daily gain of {col:herds.adg} kg.",
+"kind": "document",
+"max": null,
+"mt": "对于每公斤的增量,该群体平均每天食用1公斤的料.",
+"why": "placeholders must be exactly: {col:herds.fcr} {col:herds.adg}"
+},
+{
+"en": "Buyer, seller or source: {col:moves.party}, phone {col:moves.party_phone}. Total live weight {col:moves.weight_kg} kg, which is {col:moves.kg_head} kg per head. Value {col:moves.value}, {col:moves.price_head} per head.",
+"kind": "document",
+"max": null,
+"mt": "买家,卖家或来源: {col:moves.party},电话 {col:moves.party_phone} 总活重 {col:moves.weight_kg} 公斤,即每头的 {col:moves.kg_head} 公斤.",
+"why": "placeholders must be exactly: {col:moves.party} {col:moves.party_phone} {col:moves.weight_kg} {col:moves.kg_head} {col:moves.value} {col:moves.price_head}"
+},
+{
+"en": "Mortality report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "死亡率报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Livestock stock list of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "动物库存列表,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "There are {col:herds.head} animals with an average weight of {col:herds.avg_kg} kg, which is {col:herds.units} livestock units. The value per head is {col:herds.value_head} and the value of the group is {col:herds.stock_value}.",
+"kind": "document",
+"max": null,
+"mt": "有 {col:herds.head} 动物的平均重量为 {col:herds.avg_kg} kg,即 {col:herds.units} 牲畜单位.每头的值是 {col:herds.value_head},群体的值是 {col:herds.stock_value}.",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Cell count, 000/ml",
+"kind": "label",
+"max": null,
+"mt": "细胞数量,000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Bacteria, 000/ml",
+"kind": "label",
+"max": null,
+"mt": "细菌,000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Cell count, average 000/ml",
+"kind": "label",
+"max": null,
+"mt": "细胞数量,平均000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Hello {keeper}, the milk tank read {tank_temp} degrees C on {date} after the {grp} milking. Please check the cooling, the thermostat and the cover now and tell me what you find.",
+"kind": "message",
+"max": null,
+"mt": "您好,奶显示了1°C的温度.请检查冷却,恒温器和盖子,然后告诉我您发现了什么.",
+"why": "placeholders must be exactly: {keeper} {tank_temp} {date} {grp}"
+},
+{
+"en": "Hello {keeper}, the cell count for {grp} on {date} was {scc} thousand per ml. Please test the suspect cows, milk them last and keep their milk out of the tank until we know more.",
+"kind": "message",
+"max": null,
+"mt": "您好, {keeper} 在 {date} 的细胞数量是 {scc} 千分之一毫升. 请测试疑似的奶牛,最后奶他们,并保持他们的牛奶从水箱,直到我们知道更多.",
+"why": "placeholders must be exactly: {keeper} {grp} {date} {scc}"
+},
+{
+"en": "Hello {keeper}, {section} gave {eggs} eggs from {hens} hens on {date}, a lay rate of {lay_rate}. Please check feed, water, light and signs of stress or disease in the house and tell me today.",
+"kind": "message",
+"max": null,
+"mt": "请检查料,水,光线以及家中压力或疾病的迹象,并今天告诉我.",
+"why": "placeholders must be exactly: {keeper} {section} {eggs} {hens} {date} {lay_rate}"
+},
+{
+"en": "Hello {keeper}, the cracked share in {section} was {crack_pct} ({cracked} eggs) on {date}. Please check the belts, the nest pads and the handling and tell me what you change.",
+"kind": "message",
+"max": null,
+"mt": "请检查皮带,子和处理,告诉我你改变了什么.",
+"why": "placeholders must be exactly: {keeper} {section} {crack_pct} {cracked} {date}"
+},
+{
+"en": "Hello {keeper}, the moisture of {product} in {name} is {moisture}. The check shows: {moist_state}. Please run the fan, turn the grain and tell me whether it needs drying.",
+"kind": "message",
+"max": null,
+"mt": "您好, {keeper} 中 {product} 的湿度是 {moisture}. 检查显示: {moist_state}. 请运行风扇,转动谷物,告诉我是否需要干燥.",
+"why": "placeholders must be exactly: {keeper} {product} {name} {moisture} {moist_state}"
+},
+{
+"en": "Hello {found_by}, thank you for reporting spoilage in lot {lot}: {tonnes} tonnes of {product}, cause {cause}. Please separate the affected stock, clean the area and send photos.",
+"kind": "message",
+"max": null,
+"mt": "您好,谢谢您报告了分批的损坏 {lot}: {tonnes}  {product},原因 {cause}. 请分离受影响的库存,清理区域并发送照片.",
+"why": "placeholders must be exactly: {found_by} {lot} {tonnes} {product} {cause}"
+},
+{
+"en": "Hello {packed_by}, tomorrow we pack {product} for {buyer}, about {crates} crates of {crate_kg} kg. Please count the clean crates today and tell me if we are short.",
+"kind": "message",
+"max": null,
+"mt": "您好,明天我们将为2个箱包装,大约3个箱,大约4公斤.请计算今天的干净箱,告诉我我们是否缺货.",
+"why": "placeholders must be exactly: {packed_by} {product} {buyer} {crates} {crate_kg}"
+}
+]

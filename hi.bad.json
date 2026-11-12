@@ -1,0 +1,100 @@
+[
+{
+"en": "Hello {visitor}, you visit {herd} on {date}. Please disinfect your boots and your vehicle {vehicle} at the gate, wear the clean overalls we give you and sign the visitors log.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {visitor}, आप {herd} पर {date} का दौरा {herd} कृपया गेट पर अपने जूते और अपने वाहन {vehicle} कीटाणुरहित, हम आपको दे साफ ओवरल पहनने और आगंतुकों के लॉग पर हस्ताक्षर करें।",
+"why": "placeholders must be exactly: {visitor} {herd} {date} {vehicle}"
+},
+{
+"en": "The vaccine was planned for {col:vacc.planned} and given on {col:vacc.done_on} by {col:vacc.vaccinator}. {col:vacc.doses} doses were used for a group of {col:vacc.head} animals, a coverage of {col:vacc.coverage}.",
+"kind": "document",
+"max": null,
+"mt": "वैक्सीन {col:vacc.planned} के लिए योजना बनाई गई थी और {col:vacc.done_on} द्वारा {col:vacc.vaccinator} दी गई थी। {col:vacc.doses} खुराक {col:vacc.head} जानवरों के एक समूह के लिए {col:vacc.coverage} के कवरेज के लिए {col:vacc.doses} का उपयोग किया गया था।",
+"why": "placeholders must be exactly: {col:vacc.planned} {col:vacc.done_on} {col:vacc.vaccinator} {col:vacc.doses} {col:vacc.head} {col:vacc.coverage}"
+},
+{
+"en": "The ration is {col:herds.ration_kg} kg as fed for each animal per day. It gives {col:herds.dm_pct} of the body weight as dry matter. The cost is {col:herds.feed_head} per head per day, or {col:herds.feed_day} for the whole group.",
+"kind": "document",
+"max": null,
+"mt": "राशन {col:herds.ration_kg} किलोग्राम प्रति दिन प्रत्येक पशु के लिए खिलाया जाता है। यह सूखे पदार्थ के रूप में शरीर के वजन का {col:herds.dm_pct} देता है। लागत प्रति दिन प्रति व्यक्ति, या पूरे समूह के लिए {col:herds.feed_day} है।",
+"why": "placeholders must be exactly: {col:herds.ration_kg} {col:herds.dm_pct} {col:herds.feed_head} {col:herds.feed_day}"
+},
+{
+"en": "each loss is priced from your price list and ranked by cause, product and month against the loss you accept",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक हानि का मूल्य आपकी मूल्य सूची से निर्धारित किया जाता है और आपके द्वारा स्वीकार किए गए हानि के खिलाफ कारण, उत्पाद और महीने के आधार पर क्रमबद्ध किया जाता है",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Sunrise Poultry Feeds",
+"kind": "list",
+"max": 30,
+"mt": "सूर्योदय के समय पोल्ट्री के लिए भोजन",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Green Basket Online Grocer",
+"kind": "list",
+"max": 30,
+"mt": "ग्रीन बास्केट ऑनलाइन किराने का सामान",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Cell count, 000/ml",
+"kind": "label",
+"max": null,
+"mt": "कोशिकाओं की संख्या, 000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Bacteria, 000/ml",
+"kind": "label",
+"max": null,
+"mt": "बैक्टीरिया, 000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Harvest lots: one number for every load that goes into store",
+"kind": "title",
+"max": 60,
+"mt": "कटाई के बैचः भंडारण में जाने वाले प्रत्येक भार के लिए एक संख्या",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Packing and grading of fresh produce by quality class",
+"kind": "title",
+"max": 60,
+"mt": "ताजे उत्पादों का पैकेजिंग और गुणवत्ता वर्ग के अनुसार वर्गीकरण",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Cell count, average 000/ml",
+"kind": "label",
+"max": null,
+"mt": "कोशिकाओं की संख्या, औसत 000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Hello {keeper}, {section} gave {eggs} eggs from {hens} hens on {date}, a lay rate of {lay_rate}. Please check feed, water, light and signs of stress or disease in the house and tell me today.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {keeper}, {section} {date} पर {hens} मुर्गियों से {eggs} अंडे दिए {date}, {lay_rate} की एक लेग दर। कृपया फ़ीड, पानी, प्रकाश और घर में तनाव या बीमारी के लक्षण की जाँच करें और मुझे आज बताएं।",
+"why": "placeholders must be exactly: {keeper} {section} {eggs} {hens} {date} {lay_rate}"
+},
+{
+"en": "Hello {keeper}, {name} holds {content_t} tonnes of {product} and is {pct_full} full with {space_t} tonnes of space left. Please plan where the next lots go.",
+"kind": "message",
+"max": null,
+"mt": "हैलो {keeper}, {name} {content_t} टन {product} रखती है और {pct_full} {space_t} टन जगह छोड़ दिया के साथ {pct_full} भरा हुआ है. कृपया योजना जहां अगले बैच जाना है.",
+"why": "placeholders must be exactly: {keeper} {name} {content_t} {product} {pct_full} {space_t}"
+},
+{
+"en": "Hello, lot {lot_id} of {crop} ({tonnes} tonnes) came in on {date} with moisture {moisture}. It goes to {store}. Please confirm the storage plan and the next sale.",
+"kind": "message",
+"max": null,
+"mt": "हैलो, {crop} ({tonnes} टन) के बैच {lot_id} {date} पर आया {moisture} नमी {moisture} के साथ। यह {store} के लिए जाता है। कृपया भंडारण योजना और अगली बिक्री की पुष्टि करें।",
+"why": "placeholders must be exactly: {lot_id} {crop} {tonnes} {date} {moisture} {store}"
+}
+]

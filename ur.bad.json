@@ -1,0 +1,114 @@
+[
+{
+"en": "Hello, we lost {count} animals in {house} on {date}. Please do a post-mortem and send the result so that we can protect the rest of the group.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، ہم {count} {house} {date} میں جانوروں کو کھو دیا. {count} {house} {date} {house} {date} براہ مہربانی ایک پوسٹ مارٹم کریں اور نتیجہ بھیجیں تاکہ ہم گروپ کے باقی کی حفاظت کر سکتے ہیں.",
+"why": "placeholders must be exactly: {count} {house} {date}"
+},
+{
+"en": "Hello {visitor}, you visit {herd} on {date}. Please disinfect your boots and your vehicle {vehicle} at the gate, wear the clean overalls we give you and sign the visitors log.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {visitor}، آپ {herd} پر {date} کا دورہ {herd} براہ مہربانی گیٹ پر اپنے جوتے اور آپ کی گاڑی {vehicle} جراثیم کش، ہم آپ کو دے صاف overalls کے پہننے اور زائرین کے نوشتہ پر دستخط کریں.",
+"why": "placeholders must be exactly: {visitor} {herd} {date} {vehicle}"
+},
+{
+"en": "Hello {keeper}, herd work for {name} is planned on {next_work} for {head} animals. Please prepare the handling area, the records and the helpers.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {keeper}، {name} کے لئے herd کام {next_work} کے لئے {head} جانوروں پر منصوبہ بندی کی جاتی ہے. براہ مہربانی ہینڈلنگ کے علاقے، ریکارڈ اور مددگاروں کو تیار.",
+"why": "English/Latin words left: herd"
+},
+{
+"en": "Record cows with mastitis or treated cows",
+"kind": "label",
+"max": null,
+"mt": "ریکارڈ مویشیوں کے ساتھ mastitis یا علاج مویشیوں",
+"why": "English/Latin words left: mastitis"
+},
+{
+"en": "Check the udder and the soft area beside the tail",
+"kind": "label",
+"max": null,
+"mt": "دم کے ساتھ ساتھ uter اور نرم علاقے کی جانچ پڑتال کریں",
+"why": "English/Latin words left: uter"
+},
+{
+"en": "Check the next paddock: grass, water and fence",
+"kind": "label",
+"max": null,
+"mt": "اگلے paddock چیک کریں: گھاس، پانی اور باڑ",
+"why": "English/Latin words left: paddock"
+},
+{
+"en": "Feed cost per head per day per group",
+"kind": "title",
+"max": 60,
+"mt": "فی شخص فی دن فی گروپ فی فیکٹر فی فیکٹر فی فیکٹر فی فیکٹر فی فیکٹر فی فیکٹر فی فیکٹر فی فیکٹر فی فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فیکٹر فی",
+"why": "too long: 278 characters, the limit is 60"
+},
+{
+"en": "Sunrise Poultry Feeds",
+"kind": "list",
+"max": 30,
+"mt": "سورج نکلنے کے وقت پولٹری کو کھانا کھلانا",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "One row for each dispatch of crates, pallets or bins with the quantity out and back and the deposit; the missing quantity, its value, days out and a check fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "ہر خانوں، pallets یا ڈبے کے لئے ایک سطر کے ساتھ باہر اور واپس کی مقدار اور ڈپازٹ؛ لاپتہ مقدار، اس کی قیمت، دن باہر اور ایک چیک میں بھرنے.",
+"why": "English/Latin words left: pallets"
+},
+{
+"en": "Storage loss against the price you gain",
+"kind": "title",
+"max": 60,
+"mt": "ذخیرہ کرنے کا نقصان اس قیمت کے مقابلے میں جو آپ حاصل کرتے ہیں",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Type the tonnes you pick, the weight of a crate and a spare share; see the crates and pallets you need, what is already out with buyers and the cost of buying more.",
+"kind": "sentence",
+"max": null,
+"mt": "آپ جو ٹن چنتے ہیں، ایک باکس کا وزن اور ایک اضافی حصہ درج کریں؛ آپ کو ضرورت ہے کہ باکس اور pallets، خریداروں کے ساتھ پہلے سے ہی کیا ہے اور مزید خریدنے کی لاگت دیکھیں.",
+"why": "English/Latin words left: pallets"
+},
+{
+"en": "Crates and pallets still out with buyers",
+"kind": "label",
+"max": null,
+"mt": "خریداروں کے ساتھ ابھی بھی باکس اور pallets کے باہر",
+"why": "English/Latin words left: pallets"
+},
+{
+"en": "Hello {keeper}, {section} gave {eggs} eggs from {hens} hens on {date}, a lay rate of {lay_rate}. Please check feed, water, light and signs of stress or disease in the house and tell me today.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {keeper}، {section} {date} پر {hens} مرغیوں سے {eggs} انڈے دیئے {section}، {lay_rate} کی شرح لیتا ہے. براہ مہربانی فیڈ، پانی، روشنی اور گھر میں کشیدگی یا بیماری کی علامات کی جانچ پڑتال اور آج مجھے بتائیں.",
+"why": "placeholders must be exactly: {keeper} {section} {eggs} {hens} {date} {lay_rate}"
+},
+{
+"en": "Hello {keeper}, the cracked share in {section} was {crack_pct} ({cracked} eggs) on {date}. Please check the belts, the nest pads and the handling and tell me what you change.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {keeper}، {section} میں پھٹے حصہ {crack_pct} ({cracked} انڈے) {date} پر تھا. براہ مہربانی بیلٹ، nest pads اور ہینڈلنگ کی جانچ پڑتال کریں اور مجھے بتائیں کہ آپ کو تبدیل کیا.",
+"why": "English/Latin words left: nest pads"
+},
+{
+"en": "Hello {keeper}, {name} holds {content_t} tonnes of {product} and is {pct_full} full with {space_t} tonnes of space left. Please plan where the next lots go.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {keeper}، {name} {content_t} ٹن {product} رکھتا ہے اور {pct_full} {space_t} ٹن جگہ باقی کے ساتھ {pct_full} بھرا ہوا ہے. براہ مہربانی اگلے بیچوں کو کہاں جانا ہے کی منصوبہ بندی.",
+"why": "placeholders must be exactly: {keeper} {name} {content_t} {product} {pct_full} {space_t}"
+},
+{
+"en": "Hello, drying of lot {lot} ({crop}, {tonnes_in} tonnes) is booked on {date}, from {moist_in} down to {moist_out}. {operator} runs the dryer. Please confirm the storage space and the lot label.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، سیٹ {lot} ({crop}، {tonnes_in} ٹن) کی خشک کرنے والی {date} پر بک کیا جاتا ہے، {moist_in} سے {moist_out} تک {operator} چلتا ہے. {operator} خشک کرنے والی چلاتا ہے. ذخیرہ کرنے کی جگہ اور سیٹ لیبل کی تصدیق کریں.",
+"why": "placeholders must be exactly: {lot} {crop} {tonnes_in} {date} {moist_in} {moist_out} {operator}"
+}
+]

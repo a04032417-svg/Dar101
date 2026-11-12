@@ -1,0 +1,366 @@
+[
+{
+"en": "Hello, {vaccine} for {herd} is planned for {planned}. Please prepare the handling area for {head} animals and write the batch number and the animals vaccinated.",
+"kind": "message",
+"max": null,
+"mt": "Por favor, prepare a área de manipulação para os animais e escreva o número do lote e os animais vacinados.",
+"why": "placeholders must be exactly: {vaccine} {herd} {planned} {head}"
+},
+{
+"en": "Hello, please weigh {subject} in {herd} today ({n_weighed} animals) and send me the average weight by the evening.",
+"kind": "message",
+"max": null,
+"mt": "Olá, por favor, pesem os animais hoje e enviem-me o peso médio até à noite.",
+"why": "placeholders must be exactly: {subject} {herd} {n_weighed}"
+},
+{
+"en": "Hello, please move {herd} to {paddock} on {in_date} for {days} days. Check the fence and the water before the move and count the animals after it.",
+"kind": "message",
+"max": null,
+"mt": "Verifique a cerca e a água antes da mudança e conte os animais depois.",
+"why": "placeholders must be exactly: {herd} {paddock} {in_date} {days}"
+},
+{
+"en": "Hello, {count} animals were lost in {house} on {date}, cause: {cause}. Please check the other animals, remove the dead ones and send me a short report.",
+"kind": "message",
+"max": null,
+"mt": "Por favor, verifique os outros animais, remova os mortos e envie-me um breve relatório.",
+"why": "placeholders must be exactly: {count} {house} {date} {cause}"
+},
+{
+"en": "Hello, a water trough fault was reported in {house} for {herd}. Please repair it today so that the animals can drink, and tell me when it is done.",
+"kind": "message",
+"max": null,
+"mt": "Olá, foi relatada uma falha no reservatório de água para o local. Por favor, consertem-no hoje para que os animais possam beber, e digam-me quando estiverem prontos.",
+"why": "placeholders must be exactly: {house} {herd}"
+},
+{
+"en": "Hello, we lost {count} animals in {house} on {date}. Please do a post-mortem and send the result so that we can protect the rest of the group.",
+"kind": "message",
+"max": null,
+"mt": "Por favor, faça uma autópsia e envie o resultado para que possamos proteger o resto do grupo.",
+"why": "placeholders must be exactly: {count} {house} {date}"
+},
+{
+"en": "Hello, order {fb_id} of {feed} is due on {due}. We may need it earlier. Can you deliver sooner or tell me the new day?",
+"kind": "message",
+"max": null,
+"mt": "Olá, a encomenda de 1 deve ser feita no dia 2 pode ser mais cedo.",
+"why": "placeholders must be exactly: {fb_id} {feed} {due}"
+},
+{
+"en": "Hello, we need bedding for {herd}: {qty_kg} kg of {feed} on {due}. Please tell me the truck size and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Olá, precisamos de roupas de cama para 1 kg de 3 por favor, diga-me o tamanho do caminhão e a hora de chegada.",
+"why": "placeholders must be exactly: {herd} {qty_kg} {feed} {due}"
+},
+{
+"en": "Hello, please book shearing for {name}, about {head} animals, on {next_work}. Tell me the size of your team and your price per animal.",
+"kind": "message",
+"max": null,
+"mt": "Olá, por favor reservar a depilação para animais, sobre animais, em dois.",
+"why": "placeholders must be exactly: {name} {head} {next_work}"
+},
+{
+"en": "Hello, please repair the fence in {paddock} ({area_ha} ha) before {in_date}, because {herd} moves in on that day. Tell me when you can come.",
+"kind": "message",
+"max": null,
+"mt": "Olá, por favor, consertem a vedação antes do dia da mudança, digam-me quando podem vir.",
+"why": "placeholders must be exactly: {paddock} {area_ha} {in_date} {herd}"
+},
+{
+"en": "Hello, please watch {cow} in {herd} for signs of heat around {repeat_date}. If she is in heat, tell me at once so that we can serve her again.",
+"kind": "message",
+"max": null,
+"mt": "Olá, por favor, observe os sinais de calor ao redor se ela estiver com calor, diga-me imediatamente para que possamos servi-la novamente.",
+"why": "placeholders must be exactly: {cow} {herd} {repeat_date}"
+},
+{
+"en": "Hello, {qty} animals ({subject}) from {herd} are ready for collection on {date}. Please confirm the truck and the time of arrival.",
+"kind": "message",
+"max": null,
+"mt": "Olá, os animais de 2 estão prontos para a recolha em 3 por favor confirme o caminhão e a hora de chegada.",
+"why": "placeholders must be exactly: {qty} {subject} {herd} {date}"
+},
+{
+"en": "Hello, transport is booked for {qty} animals ({subject}) of {herd} on {date}. Please give water, stop feeding in time, check the tags and prepare the movement papers.",
+"kind": "message",
+"max": null,
+"mt": "Olá, o transporte está reservado para os animais ({subject}) de {herd} em {date}. Por favor, dê água, pare de alimentar a tempo, verifique as etiquetas e prepare os documentos de movimento.",
+"why": "placeholders must be exactly: {qty} {subject} {herd} {date}"
+},
+{
+"en": "Hello {visitor}, you visit {herd} on {date}. Please disinfect your boots and your vehicle {vehicle} at the gate, wear the clean overalls we give you and sign the visitors log.",
+"kind": "message",
+"max": null,
+"mt": "Por favor, desinfetem as suas botas e o seu veículo no portão, usem as roupas limpas que lhes damos e assinem o diário de visitas.",
+"why": "placeholders must be exactly: {visitor} {herd} {date} {vehicle}"
+},
+{
+"en": "Hello {keeper}, herd work for {name} is planned on {next_work} for {head} animals. Please prepare the handling area, the records and the helpers.",
+"kind": "message",
+"max": null,
+"mt": "Por favor, prepare a área de manuseio, os registos e os ajudantes.",
+"why": "placeholders must be exactly: {keeper} {name} {next_work} {head}"
+},
+{
+"en": "Ear tag: {col:animals.tag}. Group: {col:animals.herd}. Species: {col:animals.species}. Breed: {col:animals.breed}. Sex: {col:animals.sex}.",
+"kind": "document",
+"max": null,
+"mt": "Grupo: Espécie: Raça: Sexo:",
+"why": "placeholders must be exactly: {col:animals.tag} {col:animals.herd} {col:animals.species} {col:animals.breed} {col:animals.sex}"
+},
+{
+"en": "Born on {col:animals.born}, which makes the animal {col:animals.age_m} months old. The dam is {col:animals.dam}. The status is {col:animals.status}.",
+"kind": "document",
+"max": null,
+"mt": "Nascido em {col:animals.born}, o que faz o animal {col:animals.age_m} meses de idade.",
+"why": "placeholders must be exactly: {col:animals.born} {col:animals.age_m} {col:animals.dam} {col:animals.status}"
+},
+{
+"en": "The last weight was {col:animals.last_kg} kg on {col:animals.last_date}. The animal had {col:animals.treatments} treatments in the last 12 months. Withdrawal check: {col:animals.wh_state}.",
+"kind": "document",
+"max": null,
+"mt": "O último peso foi de {col:animals.last_kg} kg em {col:animals.last_date}. O animal teve {col:animals.treatments} tratamentos nos últimos 12 meses.",
+"why": "placeholders must be exactly: {col:animals.last_kg} {col:animals.last_date} {col:animals.treatments} {col:animals.wh_state}"
+},
+{
+"en": "The ration is {col:herds.ration_kg} kg as fed for each animal and costs {col:herds.feed_head} per head per day. The average daily gain is {col:herds.adg} kg. {col:herds.deaths} animals died in the last 12 months, a rate of {col:herds.mort_rate}. The check shows: {col:herds.mort_state}.",
+"kind": "document",
+"max": null,
+"mt": "A ração é {col:herds.ration_kg} kg conforme alimentado para cada animal e custa {col:herds.feed_head} por cabeça por dia. O ganho diário médio é {col:herds.adg} kg. {col:herds.deaths} animais morreram nos últimos 12 meses, uma taxa de {col:herds.mort_rate}.",
+"why": "placeholders must be exactly: {col:herds.ration_kg} {col:herds.feed_head} {col:herds.adg} {col:herds.deaths} {col:herds.mort_rate} {col:herds.mort_state}"
+},
+{
+"en": "The vaccine was planned for {col:vacc.planned} and given on {col:vacc.done_on} by {col:vacc.vaccinator}. {col:vacc.doses} doses were used for a group of {col:vacc.head} animals, a coverage of {col:vacc.coverage}.",
+"kind": "document",
+"max": null,
+"mt": "A vacina foi planeada para {col:vacc.planned} e administrada em {col:vacc.done_on} por {col:vacc.vaccinator}.",
+"why": "placeholders must be exactly: {col:vacc.planned} {col:vacc.done_on} {col:vacc.vaccinator} {col:vacc.doses} {col:vacc.head} {col:vacc.coverage}"
+},
+{
+"en": "The vaccination is repeated after {col:vacc.interval_days} days, so the next one is due on {col:vacc.next_plan}. The status shows: {col:vacc.state}.",
+"kind": "document",
+"max": null,
+"mt": "A vacinação é repetida após {col:vacc.interval_days} dias, portanto, a próxima vacinação deve ser feita em {col:vacc.next_plan}.",
+"why": "placeholders must be exactly: {col:vacc.interval_days} {col:vacc.next_plan} {col:vacc.state}"
+},
+{
+"en": "Milk may be sold from {col:withdraw.milk_free} and meat from {col:withdraw.meat_free}. The animal is free from {col:withdraw.free_date}. Status: {col:withdraw.state}. Checked by {col:withdraw.checked_by}.",
+"kind": "document",
+"max": null,
+"mt": "O leite pode ser vendido a partir de {col:withdraw.milk_free} e a carne a partir de {col:withdraw.meat_free}.",
+"why": "placeholders must be exactly: {col:withdraw.milk_free} {col:withdraw.meat_free} {col:withdraw.free_date} {col:withdraw.state} {col:withdraw.checked_by}"
+},
+{
+"en": "Buyer, seller or source: {col:moves.party}, phone {col:moves.party_phone}. Total live weight {col:moves.weight_kg} kg, which is {col:moves.kg_head} kg per head. Value {col:moves.value}, {col:moves.price_head} per head.",
+"kind": "document",
+"max": null,
+"mt": "Comprador, vendedor ou fonte: {col:moves.party}, telefone {col:moves.party_phone}.",
+"why": "placeholders must be exactly: {col:moves.party} {col:moves.party_phone} {col:moves.weight_kg} {col:moves.kg_head} {col:moves.value} {col:moves.price_head}"
+},
+{
+"en": "Track milk, eggs, harvest lots, stock and traceability in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Seguir o leite, os ovos, os lotes de colheita, os estoques e a rastreabilidade num único ficheiro",
+"why": "too long: 97 characters, the limit is 80"
+},
+{
+"en": "fat, protein, cell count and tank temperature of every milking are checked, and each pickup shows the buyer result and the paid litres",
+"kind": "sentence",
+"max": 160,
+"mt": "O número de gorduras, proteínas, células e temperatura do reservatório de cada ordenha são verificados e cada recolha mostra o resultado do comprador e os litros pagos.",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "capacity, fill, moisture and inspection dates show which bin is nearly full, too wet or due for a check",
+"kind": "sentence",
+"max": 160,
+"mt": "A capacidade, o preenchimento, a humidade e as datas de inspecção mostram quais as caixas que estão quase cheias, demasiado molhadas ou que devem ser verificadas",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "every reading is compared with the range of its own cold room, store or milk tank and flagged too warm, too cold or too humid",
+"kind": "sentence",
+"max": 160,
+"mt": "Todas as leituras são comparadas com o intervalo da sua própria câmara frigorífica, loja ou tanque de leite e sinalizadas como demasiado quente, demasiado frio ou demasiado úmido.",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Nairobi Grain Cooperative",
+"kind": "list",
+"max": 30,
+"mt": "Cooperativa de cereais de Nairobi",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Cerrado Soy Traders",
+"kind": "list",
+"max": 30,
+"mt": "Comerciantes de soja do Cerrado",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Lakeview Dairy Plant",
+"kind": "list",
+"max": 30,
+"mt": "Fábrica de laticínios de Lakeview",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Sunrise Poultry Feeds",
+"kind": "list",
+"max": 30,
+"mt": "Alimentos para aves de capoeira ao nascer do sol",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Mekong Market Traders",
+"kind": "list",
+"max": 30,
+"mt": "Comerciantes do mercado do Mekong",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Prairie Seed Company",
+"kind": "list",
+"max": 30,
+"mt": "Empresa de sementes de pradaria",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Nile Delta Onion Packers",
+"kind": "list",
+"max": 30,
+"mt": "Embalagens de cebolas do delta do Nilo",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Highland Wool Traders",
+"kind": "list",
+"max": 30,
+"mt": "Comerciantes de lã das terras altas",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Green Basket Online Grocer",
+"kind": "list",
+"max": 30,
+"mt": "Cesto verde de mercearia online",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Danube Feed Mill",
+"kind": "list",
+"max": 30,
+"mt": "Fábrica de alimentação dos animais do Danúbio",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Pacific Egg Distributors",
+"kind": "list",
+"max": 30,
+"mt": "Distribuidores de ovos do Pacífico",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Polska Potato Processing",
+"kind": "list",
+"max": 30,
+"mt": "Polska transformação de batatas",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Meat records: live weight, carcass and dressing percentage",
+"kind": "title",
+"max": 60,
+"mt": "Registo das carnes: peso vivo, percentagem de carcaça e de dressing",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Harvest lots: one number for every load that goes into store",
+"kind": "title",
+"max": 60,
+"mt": "Lotes de colheita: um número para cada carga que for entregue ao armazém",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Cold rooms, stores and tanks with their temperature range",
+"kind": "title",
+"max": 60,
+"mt": "Salas frigoríficas, armazéns e reservatórios com os seus intervalos de temperatura",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Stock movements: every tonne in, out and corrected",
+"kind": "title",
+"max": 60,
+"mt": "Movimentos de existências: por tonelada de entrada, saída e correcção",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Packing and grading of fresh produce by quality class",
+"kind": "title",
+"max": 60,
+"mt": "Embalagem e classificação dos produtos frescos por classe de qualidade",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Bin capacity from its dimensions, in tonnes",
+"kind": "title",
+"max": 60,
+"mt": "Capacidade dos contentores, em toneladas, em função das suas dimensões",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Dressing percentage: carcass weight from live weight",
+"kind": "title",
+"max": 60,
+"mt": "Percentagem de revestimento: peso da carcaça em relação ao peso vivo",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Hello {keeper}, the milk tank read {tank_temp} degrees C on {date} after the {grp} milking. Please check the cooling, the thermostat and the cover now and tell me what you find.",
+"kind": "message",
+"max": null,
+"mt": "Por favor, verifique o arrefecimento, o termostato e a tampa agora e diga-me o que encontra.",
+"why": "placeholders must be exactly: {keeper} {tank_temp} {date} {grp}"
+},
+{
+"en": "Hello {keeper}, the cell count for {grp} on {date} was {scc} thousand per ml. Please test the suspect cows, milk them last and keep their milk out of the tank until we know more.",
+"kind": "message",
+"max": null,
+"mt": "Por favor, teste as vacas suspeitas, leite-as por último e mantenha o leite fora do tanque até sabermos mais.",
+"why": "placeholders must be exactly: {keeper} {grp} {date} {scc}"
+},
+{
+"en": "Hello {keeper}, {section} gave {eggs} eggs from {hens} hens on {date}, a lay rate of {lay_rate}. Please check feed, water, light and signs of stress or disease in the house and tell me today.",
+"kind": "message",
+"max": null,
+"mt": "Por favor, verifique alimentação, água, luz e sinais de estresse ou doença na casa e diga-me hoje.",
+"why": "placeholders must be exactly: {keeper} {section} {eggs} {hens} {date} {lay_rate}"
+},
+{
+"en": "Hello {keeper}, the cracked share in {section} was {crack_pct} ({cracked} eggs) on {date}. Please check the belts, the nest pads and the handling and tell me what you change.",
+"kind": "message",
+"max": null,
+"mt": "Por favor, verifique os cintos, as almofadas do ninho e o manuseio e diga-me o que muda.",
+"why": "placeholders must be exactly: {keeper} {section} {crack_pct} {cracked} {date}"
+},
+{
+"en": "Hello {packed_by}, tomorrow we pack {product} for {buyer}, about {crates} crates of {crate_kg} kg. Please count the clean crates today and tell me if we are short.",
+"kind": "message",
+"max": null,
+"mt": "Olá, amanhã vamos embalar para dois, cerca de três caixas de quatro quilos, por favor conte as caixas limpas de hoje e diga-me se estamos com falta.",
+"why": "placeholders must be exactly: {packed_by} {product} {buyer} {crates} {crate_kg}"
+},
+{
+"en": "Hello, lot {lot_id} of {crop} ({tonnes} tonnes) came in on {date} with moisture {moisture}. It goes to {store}. Please confirm the storage plan and the next sale.",
+"kind": "message",
+"max": null,
+"mt": "Olá, o lote {lot_id} de {crop} ({tonnes} toneladas) chegou em {date} com umidade {moisture}.",
+"why": "placeholders must be exactly: {lot_id} {crop} {tonnes} {date} {moisture} {store}"
+}
+]

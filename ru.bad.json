@@ -1,0 +1,352 @@
+[
+{
+"en": "Hello, a birth is expected for {cow} in {herd} on {due}, in {days_to_due} days. Please move the animal to the maternity pen and check her often as the date comes near.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, ожидается роды через 1 день, через 3 дня.",
+"why": "placeholders must be exactly: {cow} {herd} {due} {days_to_due}"
+},
+{
+"en": "Hello, please weigh {subject} in {herd} today ({n_weighed} animals) and send me the average weight by the evening.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, взвесьте сегодня животных и присылайте мне средний вес к вечеру.",
+"why": "placeholders must be exactly: {subject} {herd} {n_weighed}"
+},
+{
+"en": "Hello, please move {herd} to {paddock} on {in_date} for {days} days. Check the fence and the water before the move and count the animals after it.",
+"kind": "message",
+"max": null,
+"mt": "Проверьте забор и воду перед переездом и подсчитайте животных после этого.",
+"why": "placeholders must be exactly: {herd} {paddock} {in_date} {days}"
+},
+{
+"en": "Hello, we lost {count} animals in {house} on {date}. Please do a post-mortem and send the result so that we can protect the rest of the group.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, сделайте вскрытие и присылайте результаты, чтобы мы могли защитить остальную группу.",
+"why": "placeholders must be exactly: {count} {house} {date}"
+},
+{
+"en": "Hello, we need bedding for {herd}: {qty_kg} kg of {feed} on {due}. Please tell me the truck size and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, нам нужна постельная одежда на 1 кг. Пожалуйста, скажите размер грузовика и время прибытия.",
+"why": "placeholders must be exactly: {herd} {qty_kg} {feed} {due}"
+},
+{
+"en": "Hello, please book shearing for {name}, about {head} animals, on {next_work}. Tell me the size of your team and your price per animal.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, запишите стрижку для животных на номер 2.",
+"why": "placeholders must be exactly: {name} {head} {next_work}"
+},
+{
+"en": "Hello, please repair the fence in {paddock} ({area_ha} ha) before {in_date}, because {herd} moves in on that day. Tell me when you can come.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, починьте забор в 1 га до того, как в 2 га, потому что в этот день переезжает. Скажите мне, когда вы можете прийти.",
+"why": "placeholders must be exactly: {paddock} {area_ha} {in_date} {herd}"
+},
+{
+"en": "Hello, please watch {cow} in {herd} for signs of heat around {repeat_date}. If she is in heat, tell me at once so that we can serve her again.",
+"kind": "message",
+"max": null,
+"mt": "Привет, пожалуйста, следите за признаками жары вокруг, если она в жаре, скажите мне сразу, чтобы мы могли снова служить ей.",
+"why": "placeholders must be exactly: {cow} {herd} {repeat_date}"
+},
+{
+"en": "Hello, {qty} animals ({subject}) from {herd} are ready for collection on {date}. Please confirm the truck and the time of arrival.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, животные ({qty}) из {herd} готовы к сбору на {date}. Пожалуйста, подтвердите грузовик и время прибытия.",
+"why": "placeholders must be exactly: {qty} {subject} {herd} {date}"
+},
+{
+"en": "Hello {visitor}, you visit {herd} on {date}. Please disinfect your boots and your vehicle {vehicle} at the gate, wear the clean overalls we give you and sign the visitors log.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, дезинфицируйте ботинки и автомобиль у ворот, надевайте чистые комбинезоны, которые мы вам дадим, и подпишите журнал посетителей.",
+"why": "placeholders must be exactly: {visitor} {herd} {date} {vehicle}"
+},
+{
+"en": "Born on {col:animals.born}, which makes the animal {col:animals.age_m} months old. The dam is {col:animals.dam}. The status is {col:animals.status}.",
+"kind": "document",
+"max": null,
+"mt": "Родился в {col:animals.born}, что делает животное {col:animals.age_m} месяцев.",
+"why": "placeholders must be exactly: {col:animals.born} {col:animals.age_m} {col:animals.dam} {col:animals.status}"
+},
+{
+"en": "The last weight was {col:animals.last_kg} kg on {col:animals.last_date}. The animal had {col:animals.treatments} treatments in the last 12 months. Withdrawal check: {col:animals.wh_state}.",
+"kind": "document",
+"max": null,
+"mt": "Последний вес был {col:animals.last_kg} кг на {col:animals.last_date}. Животное проходило {col:animals.treatments} лечение в течение последних 12 месяцев.",
+"why": "placeholders must be exactly: {col:animals.last_kg} {col:animals.last_date} {col:animals.treatments} {col:animals.wh_state}"
+},
+{
+"en": "Group: {col:herds.name} ({col:herds.species}). Kept in: {col:herds.house}. Keeper: {col:herds.keeper}.",
+"kind": "document",
+"max": null,
+"mt": "Группа: {col:herds.name} ({col:herds.species}).",
+"why": "placeholders must be exactly: {col:herds.name} {col:herds.species} {col:herds.house} {col:herds.keeper}"
+},
+{
+"en": "The ration is {col:herds.ration_kg} kg as fed for each animal and costs {col:herds.feed_head} per head per day. The average daily gain is {col:herds.adg} kg. {col:herds.deaths} animals died in the last 12 months, a rate of {col:herds.mort_rate}. The check shows: {col:herds.mort_state}.",
+"kind": "document",
+"max": null,
+"mt": "Рацион составляет {col:herds.ration_kg} кг по кормлению для каждого животного и стоит {col:herds.feed_head} на голову в день. Средняя суточная прибыль составляет {col:herds.adg} кг. {col:herds.deaths} животные умерли в течение последних 12 месяцев, темп {col:herds.mort_rate}.",
+"why": "placeholders must be exactly: {col:herds.ration_kg} {col:herds.feed_head} {col:herds.adg} {col:herds.deaths} {col:herds.mort_rate} {col:herds.mort_state}"
+},
+{
+"en": "Animals in treatment now: {col:herds.sick}. Vaccinations overdue: {col:herds.vacc_late}. The next herd work is planned for {col:herds.next_work}.",
+"kind": "document",
+"max": null,
+"mt": "Животные, находящиеся на лечении: {col:herds.sick}.",
+"why": "placeholders must be exactly: {col:herds.sick} {col:herds.vacc_late} {col:herds.next_work}"
+},
+{
+"en": "The vaccination is repeated after {col:vacc.interval_days} days, so the next one is due on {col:vacc.next_plan}. The status shows: {col:vacc.state}.",
+"kind": "document",
+"max": null,
+"mt": "Вакцинация повторяется через {col:vacc.interval_days} дней, поэтому следующая должна быть сделана в {col:vacc.next_plan}.",
+"why": "placeholders must be exactly: {col:vacc.interval_days} {col:vacc.next_plan} {col:vacc.state}"
+},
+{
+"en": "Animal or house: {col:withdraw.subject}. Group: {col:withdraw.herd}. Medicine: {col:withdraw.medicine}.",
+"kind": "document",
+"max": null,
+"mt": "Животное или домашнее: {col:withdraw.subject}. Группа: {col:withdraw.herd}.",
+"why": "placeholders must be exactly: {col:withdraw.subject} {col:withdraw.herd} {col:withdraw.medicine}"
+},
+{
+"en": "The treatment started on {col:withdraw.treat_date} and lasted {col:withdraw.days} days. The withholding period is {col:withdraw.milk_days} days for milk and {col:withdraw.meat_days} days for meat, plus {set:wh_extra} safety day.",
+"kind": "document",
+"max": null,
+"mt": "Лечение начиналось в {col:withdraw.treat_date} и длилось {col:withdraw.days} дней.",
+"why": "placeholders must be exactly: {col:withdraw.treat_date} {col:withdraw.days} {col:withdraw.milk_days} {col:withdraw.meat_days} {set:wh_extra}"
+},
+{
+"en": "Milk may be sold from {col:withdraw.milk_free} and meat from {col:withdraw.meat_free}. The animal is free from {col:withdraw.free_date}. Status: {col:withdraw.state}. Checked by {col:withdraw.checked_by}.",
+"kind": "document",
+"max": null,
+"mt": "Молоко может быть продано от {col:withdraw.milk_free} и мясо от {col:withdraw.meat_free}. Животное свободно от {col:withdraw.free_date}.",
+"why": "placeholders must be exactly: {col:withdraw.milk_free} {col:withdraw.meat_free} {col:withdraw.free_date} {col:withdraw.state} {col:withdraw.checked_by}"
+},
+{
+"en": "With a gestation of {col:breeding.gest} days the birth is due on {col:breeding.due}. If the service failed, the animal returns to heat on {col:breeding.repeat_date}.",
+"kind": "document",
+"max": null,
+"mt": "При беременности {col:breeding.gest} дней роды наступают в {col:breeding.due}.",
+"why": "placeholders must be exactly: {col:breeding.gest} {col:breeding.due} {col:breeding.repeat_date}"
+},
+{
+"en": "The result of the service shows: {col:breeding.state}. The pregnancy check is made {set:preg_check_days} days after the service.",
+"kind": "document",
+"max": null,
+"mt": "Результат обследования показывает: {col:breeding.state}.",
+"why": "placeholders must be exactly: {col:breeding.state} {set:preg_check_days}"
+},
+{
+"en": "Buyer, seller or source: {col:moves.party}, phone {col:moves.party_phone}. Total live weight {col:moves.weight_kg} kg, which is {col:moves.kg_head} kg per head. Value {col:moves.value}, {col:moves.price_head} per head.",
+"kind": "document",
+"max": null,
+"mt": "Покупатель, продавец или источник: {col:moves.party}, телефон {col:moves.party_phone}.",
+"why": "placeholders must be exactly: {col:moves.party} {col:moves.party_phone} {col:moves.weight_kg} {col:moves.kg_head} {col:moves.value} {col:moves.price_head}"
+},
+{
+"en": "There are {col:herds.head} animals with an average weight of {col:herds.avg_kg} kg, which is {col:herds.units} livestock units. The value per head is {col:herds.value_head} and the value of the group is {col:herds.stock_value}.",
+"kind": "document",
+"max": null,
+"mt": "Существует {col:herds.head} животных со средним весом {col:herds.avg_kg} кг, что составляет {col:herds.units} животноводческих единиц.",
+"why": "placeholders must be exactly: {col:herds.head} {col:herds.avg_kg} {col:herds.units} {col:herds.value_head} {col:herds.stock_value}"
+},
+{
+"en": "Track milk, eggs, harvest lots, stock and traceability in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Отслеживание молока, яиц, партий урожая, запасов и прослеживаемости в одном файле",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "every reading is compared with the range of its own cold room, store or milk tank and flagged too warm, too cold or too humid",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый показатель сравнивается с диапазоном его собственной холодильной комнаты, магазина или бака для молока и обозначается как слишком теплый, слишком холодный или слишком влажный",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "Nairobi Grain Cooperative",
+"kind": "list",
+"max": 30,
+"mt": "Найробийское зерновое кооперативное предприятие",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Cerrado Soy Traders",
+"kind": "list",
+"max": 30,
+"mt": "Торговцы соей Cerrado",
+"why": "English/Latin words left: Cerrado"
+},
+{
+"en": "Sumatra Rice Wholesale",
+"kind": "list",
+"max": 30,
+"mt": "Розничная торговля суматрским рисом",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Sunrise Poultry Feeds",
+"kind": "list",
+"max": 30,
+"mt": "Корм для птицы на восходе солнца",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pampa Meat Packers",
+"kind": "list",
+"max": 30,
+"mt": "Паковые машины для переработки мяса",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Casa Verde Restaurants",
+"kind": "list",
+"max": 30,
+"mt": "Рестораны Casa Verde",
+"why": "English/Latin words left: Casa Verde"
+},
+{
+"en": "Prairie Seed Company",
+"kind": "list",
+"max": 30,
+"mt": "Предприятие по производству семян из прерий",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Cows, late lactation",
+"kind": "list",
+"max": 30,
+"mt": "Коровьи коровьи коровьи коровьи коровьи коровьи коров",
+"why": "too long: 53 characters, the limit is 30"
+},
+{
+"en": "Pack no",
+"kind": "label",
+"max": null,
+"mt": "Упаковка No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Harvest lots: one number for every load that goes into store",
+"kind": "title",
+"max": 60,
+"mt": "Сборные партии: один номер для каждой партии, поступающей на склад",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Grain bins and silos: capacity, content and moisture",
+"kind": "title",
+"max": 60,
+"mt": "Зерновые контейнеры и силосы: вместимость, содержание и влажность",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Cold rooms, stores and tanks with their temperature range",
+"kind": "title",
+"max": 60,
+"mt": "Холодные помещения, хранилища и резервуары с их температурным диапазоном",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Room no",
+"kind": "label",
+"max": null,
+"mt": "Номер No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Movement no",
+"kind": "label",
+"max": null,
+"mt": "Движение No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Packing and grading of fresh produce by quality class",
+"kind": "title",
+"max": 60,
+"mt": "Упаковка и классификация свежих продуктов по классам качества",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Price no",
+"kind": "label",
+"max": null,
+"mt": "Цена No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Complaint no",
+"kind": "label",
+"max": null,
+"mt": "Жалоба No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Cell count, average 000/ml",
+"kind": "label",
+"max": null,
+"mt": "Количество клеток, среднее 000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Hello {keeper}, the milk tank read {tank_temp} degrees C on {date} after the {grp} milking. Please check the cooling, the thermostat and the cover now and tell me what you find.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, проверьте охлаждение, термостат и крышку сейчас и скажите мне, что вы найдете.",
+"why": "placeholders must be exactly: {keeper} {tank_temp} {date} {grp}"
+},
+{
+"en": "Hello {keeper}, the cell count for {grp} on {date} was {scc} thousand per ml. Please test the suspect cows, milk them last and keep their milk out of the tank until we know more.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, количество клеток для {grp} на {date} было {scc} тысяч на мл. Пожалуйста, проверьте подозреваемых коров, дойте их последним и держите их молоко из резервуара, пока мы не узнаем больше.",
+"why": "placeholders must be exactly: {keeper} {grp} {date} {scc}"
+},
+{
+"en": "Hello {keeper}, {section} gave {eggs} eggs from {hens} hens on {date}, a lay rate of {lay_rate}. Please check feed, water, light and signs of stress or disease in the house and tell me today.",
+"kind": "message",
+"max": null,
+"mt": "Проверьте корм, воду, свет и признаки стресса или болезни в доме и скажите мне сегодня.",
+"why": "placeholders must be exactly: {keeper} {section} {eggs} {hens} {date} {lay_rate}"
+},
+{
+"en": "Hello {keeper}, the cracked share in {section} was {crack_pct} ({cracked} eggs) on {date}. Please check the belts, the nest pads and the handling and tell me what you change.",
+"kind": "message",
+"max": null,
+"mt": "Проверьте ремни, подушки для гнездов и рукоятки и скажите, что вы изменили.",
+"why": "placeholders must be exactly: {keeper} {section} {crack_pct} {cracked} {date}"
+},
+{
+"en": "Hello {keeper}, the moisture of {product} in {name} is {moisture}. The check shows: {moist_state}. Please run the fan, turn the grain and tell me whether it needs drying.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, влажность {product} в {name} равна {moisture}. Проверка показывает: {moist_state}. Пожалуйста, запустите вентилятор, поверните зерно и скажите мне, нужно ли его сушить.",
+"why": "placeholders must be exactly: {keeper} {product} {name} {moisture} {moist_state}"
+},
+{
+"en": "Hello {keeper}, {name} reads {temp_now} degrees C and must stay between {tmin} and {tmax}. The check shows: {state}. Please check the unit, the door seal and the stock and call me.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {keeper}, {name} показывает {temp_now} градусов по Цельсию и должен находиться между {tmin} и {tmax}.",
+"why": "placeholders must be exactly: {keeper} {name} {temp_now} {tmin} {tmax} {state}"
+},
+{
+"en": "Hello {packed_by}, tomorrow we pack {product} for {buyer}, about {crates} crates of {crate_kg} kg. Please count the clean crates today and tell me if we are short.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, завтра мы упакуем 1 коробку на 2 коробки весом около 4 кг. Пожалуйста, подсчитайте чистые коробки сегодня и скажите мне, не хватает ли.",
+"why": "placeholders must be exactly: {packed_by} {product} {buyer} {crates} {crate_kg}"
+}
+]

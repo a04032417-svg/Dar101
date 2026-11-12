@@ -1,0 +1,177 @@
+[
+{
+"en": "Hello, please weigh {subject} in {herd} today ({n_weighed} animals) and send me the average weight by the evening.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، من فضلكم ضعوا وزن الحيوانات اليوم وأرسلوا لي متوسط الوزن بحلول المساء.",
+"why": "placeholders must be exactly: {subject} {herd} {n_weighed}"
+},
+{
+"en": "Hello, {count} animals were lost in {house} on {date}, cause: {cause}. Please check the other animals, remove the dead ones and send me a short report.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، فقدت الحيوانات في {house} في {date}، سبب: {cause} الرجاء التحقق من الحيوانات الأخرى، إزالة الموتى وإرسال تقرير قصير لي.",
+"why": "placeholders must be exactly: {count} {house} {date} {cause}"
+},
+{
+"en": "Hello, we lost {count} animals in {house} on {date}. Please do a post-mortem and send the result so that we can protect the rest of the group.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، لقد فقدنا حيواناتنا في الحلبة في الثانية من فضلكم قموا بتشريح الجثة وأرسلوا النتائج حتى نتمكن من حماية بقية المجموعة",
+"why": "placeholders must be exactly: {count} {house} {date}"
+},
+{
+"en": "Hello, we need bedding for {herd}: {qty_kg} kg of {feed} on {due}. Please tell me the truck size and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، نحتاج ملابس سرير لـ 1 كيلوغرام من الشاحنة، من فضلك أخبرني بحجم الشاحنة ووقت وصولها.",
+"why": "placeholders must be exactly: {herd} {qty_kg} {feed} {due}"
+},
+{
+"en": "Hello, please book shearing for {name}, about {head} animals, on {next_work}. Tell me the size of your team and your price per animal.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، من فضلكم احجزوا قشرة الحيوانات، عن الحيوانات، على الحيوانات، أخبروني حجم فريقكم و سعر الحيوان الواحد.",
+"why": "placeholders must be exactly: {name} {head} {next_work}"
+},
+{
+"en": "Hello, please repair the fence in {paddock} ({area_ha} ha) before {in_date}, because {herd} moves in on that day. Tell me when you can come.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، من فضلكم أصلحوا السياج قبل أن تنتقلوا في ذلك اليوم أخبروني متى يمكنكم القدوم",
+"why": "placeholders must be exactly: {paddock} {area_ha} {in_date} {herd}"
+},
+{
+"en": "Hello, please watch {cow} in {herd} for signs of heat around {repeat_date}. If she is in heat, tell me at once so that we can serve her again.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، من فضلكم راقبوا إشارات الحرارة حولها، إذا كانت في الحرارة، أخبروني فوراً حتى نتمكن من خدمتها مرة أخرى.",
+"why": "placeholders must be exactly: {cow} {herd} {repeat_date}"
+},
+{
+"en": "Hello, {qty} animals ({subject}) from {herd} are ready for collection on {date}. Please confirm the truck and the time of arrival.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، الحيوانات ({qty}) من {herd} جاهزة للاستلام في {date}.",
+"why": "placeholders must be exactly: {qty} {subject} {herd} {date}"
+},
+{
+"en": "Hello, transport is booked for {qty} animals ({subject}) of {herd} on {date}. Please give water, stop feeding in time, check the tags and prepare the movement papers.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، تم حجز النقل للحيوانات {qty} {subject} {herd} {date} {date} {date} {date} {date} {date} {date} {date} {date} {date} {4} {4} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5}",
+"why": "placeholders must be exactly: {qty} {subject} {herd} {date}"
+},
+{
+"en": "Hello {keeper}, herd work for {name} is planned on {next_work} for {head} animals. Please prepare the handling area, the records and the helpers.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، عمل القطيع من أجل الحيوانات المخطط له من فضلكم جهزوا منطقة التعامل والسجلات والمساعدين",
+"why": "placeholders must be exactly: {keeper} {name} {next_work} {head}"
+},
+{
+"en": "Animals in treatment now: {col:herds.sick}. Vaccinations overdue: {col:herds.vacc_late}. The next herd work is planned for {col:herds.next_work}.",
+"kind": "document",
+"max": null,
+"mt": "الحيوانات في العلاج الآن: {col:herds.sick}. التطعيمات المتأخرة: {col:herds.vacc_late}.",
+"why": "placeholders must be exactly: {col:herds.sick} {col:herds.vacc_late} {col:herds.next_work}"
+},
+{
+"en": "The vaccine was planned for {col:vacc.planned} and given on {col:vacc.done_on} by {col:vacc.vaccinator}. {col:vacc.doses} doses were used for a group of {col:vacc.head} animals, a coverage of {col:vacc.coverage}.",
+"kind": "document",
+"max": null,
+"mt": "تم تخطيط اللقاح لـ {col:vacc.planned} و تم إعطائه في {col:vacc.done_on} بواسطة {col:vacc.vaccinator}.",
+"why": "placeholders must be exactly: {col:vacc.planned} {col:vacc.done_on} {col:vacc.vaccinator} {col:vacc.doses} {col:vacc.head} {col:vacc.coverage}"
+},
+{
+"en": "Milk may be sold from {col:withdraw.milk_free} and meat from {col:withdraw.meat_free}. The animal is free from {col:withdraw.free_date}. Status: {col:withdraw.state}. Checked by {col:withdraw.checked_by}.",
+"kind": "document",
+"max": null,
+"mt": "يمكن بيع الحليب من {col:withdraw.milk_free} واللحم من {col:withdraw.meat_free}. الحيوان خال من {col:withdraw.free_date}. الحالة: {col:withdraw.state}.",
+"why": "placeholders must be exactly: {col:withdraw.milk_free} {col:withdraw.meat_free} {col:withdraw.free_date} {col:withdraw.state} {col:withdraw.checked_by}"
+},
+{
+"en": "Sumatra Rice Wholesale",
+"kind": "list",
+"max": 30,
+"mt": "البضائع بالجملة من الأرز السومطري",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Valley Fresh Supermarkets",
+"kind": "list",
+"max": 30,
+"mt": "محلات السوبر ماركت طازجة في الوادي",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Green Basket Online Grocer",
+"kind": "list",
+"max": 30,
+"mt": "سلة خضراء متجر البقالة عبر الإنترنت",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Cows, late lactation",
+"kind": "list",
+"max": 30,
+"mt": "الأبقار في مرحلة الترضيع المتأخرة",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Cell count, 000/ml",
+"kind": "label",
+"max": null,
+"mt": "عدد الخلايا، 000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Bacteria, 000/ml",
+"kind": "label",
+"max": null,
+"mt": "البكتيريا، 000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Cell count, average 000/ml",
+"kind": "label",
+"max": null,
+"mt": "عدد الخلايا، متوسط 000/ml",
+"why": "English/Latin words left: ml"
+},
+{
+"en": "Hello {keeper}, the cell count for {grp} on {date} was {scc} thousand per ml. Please test the suspect cows, milk them last and keep their milk out of the tank until we know more.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، عدد الخلايا لـ {grp} في {date} كان {scc} ألفاً لكل مل من فضلكم اختبروا الأبقار المشتبه بها",
+"why": "placeholders must be exactly: {keeper} {grp} {date} {scc}"
+},
+{
+"en": "Hello {keeper}, {section} gave {eggs} eggs from {hens} hens on {date}, a lay rate of {lay_rate}. Please check feed, water, light and signs of stress or disease in the house and tell me today.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، أعطيت بيض من دجاجة في يوم 4، معدل وضعها 5، من فضلك تحقق من الغذاء والماء والضوء وعلامات الإجهاد أو المرض في المنزل وأخبرني اليوم",
+"why": "placeholders must be exactly: {keeper} {section} {eggs} {hens} {date} {lay_rate}"
+},
+{
+"en": "Hello {keeper}, the cracked share in {section} was {crack_pct} ({cracked} eggs) on {date}. Please check the belts, the nest pads and the handling and tell me what you change.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، الحصة المكسورة في {section} كانت {crack_pct} ({cracked} البيض) في {date}.",
+"why": "placeholders must be exactly: {keeper} {section} {crack_pct} {cracked} {date}"
+},
+{
+"en": "Hello {packed_by}, tomorrow we pack {product} for {buyer}, about {crates} crates of {crate_kg} kg. Please count the clean crates today and tell me if we are short.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، غداً سنحزم لأغراضنا، حوالي 3 صناديق بـ 4 كيلوغرام، من فضلكم عدوا الصناديق النظيفة اليوم وأخبروني إن كنا نقصر.",
+"why": "placeholders must be exactly: {packed_by} {product} {buyer} {crates} {crate_kg}"
+},
+{
+"en": "Hello, lot {lot_id} of {crop} ({tonnes} tonnes) came in on {date} with moisture {moisture}. It goes to {store}. Please confirm the storage plan and the next sale.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، وصلت دفعة {lot_id} من {crop} ({tonnes} طن) في {date} مع الرطوبة {moisture}.",
+"why": "placeholders must be exactly: {lot_id} {crop} {tonnes} {date} {moisture} {store}"
+}
+]
