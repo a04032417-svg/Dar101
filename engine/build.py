@@ -160,7 +160,17 @@ class Builder:
             _, rc = find_col(self.s, c['ref'])
             if rc is not None and rc['type'] == 'list': return self.label_of(rc['list'], v)
             if rc is not None and rc['type'] == 'bool': return self.T(FIXED['yes'] if v in (True, 'yes') else FIXED['no'])
+        # 2026-11-12 (farm build: tools matched a translated drop-down value against English demo text and found nothing in 14 languages):
+        # a text demo value that is also the label of a drop-down value is printed in the drop-down's translation, so lookups between
+        # the two keep matching in every language (names kept as written translate to themselves).
+        if t in ('text', 'ref') and isinstance(v, str) and v in self.list_labels():
+            try: return self.T(v)
+            except KeyError: pass
         return v
+
+    def list_labels(self):
+        if not hasattr(self, '_list_labels'): self._list_labels = {x['label'] for l in self.s.get('lists', []) for x in l['values']}
+        return self._list_labels
 
     # ---------- sheets
     def build(self, out):
@@ -217,6 +227,9 @@ class Builder:
             v = x['default']; fmt = {'pct': '0.0%', 'money': '#,##0.00', 'int': '0', 'num': '#,##0.00', 'date': 'yyyy-mm-dd', 'text': '@'}.get(t)
             if t == 'list': v = self.label_of(x['list'], v)
             if t == 'date': v = parse_date(v, self.today)
+            if t == 'text' and isinstance(v, str) and v in self.list_labels():   # 2026-11-12: a text setting compared with drop-down values (e.g. home country) follows their translation
+                try: v = T(v)
+                except KeyError: pass
             self.put(ws, f'C{r}', v, self.F(size=11, bold=True, color=BLUE), CREAM, self.ALN() if t not in ('text', 'list') else self.AL(), fmt, BOX)
             if t == 'list': self.dv(ws, f'C{r}', self.LR(x['list']))
             ws.row_dimensions[r].height = max(20, 16 * lines(T(x['label']), 46) + 4)
