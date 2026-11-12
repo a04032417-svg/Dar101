@@ -1,0 +1,86 @@
+[
+{
+"en": "Workers planned and on site by trade",
+"kind": "title",
+"max": 60,
+"mt": "श्रमिकों ने व्यापार द्वारा योजनाबद्ध और निर्माण स्थल पर काम किया",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Daywork, provisional sums and backcharges",
+"kind": "label",
+"max": 50,
+"mt": "दिन का कार्य, अनंतिम राशियाँ और शुल्क उपठेकेदारों को वापस",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "daywork valued with markups, allowances watched against spending and backcharges with fee and chase until recovered",
+"kind": "sentence",
+"max": 160,
+"mt": "दिन के काम को मार्कअप के साथ महत्व दिया जाता है, खर्च के विरुद्ध भत्ते देखे जाते हैं और वसूली होने तक शुल्क और पीछा के साथ उपठेकेदारों को वापस शुल्क दिया जाता है",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Materials supplied by us",
+"kind": "list",
+"max": 30,
+"mt": "हमारे द्वारा आपूर्ति की गई सामग्री",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Variation not claimed",
+"kind": "list",
+"max": 30,
+"mt": "अनुबंध भिन्नता का दावा नहीं किया गया",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Project budgets by cost code against cost and commitments",
+"kind": "title",
+"max": 60,
+"mt": "लागत और प्रतिबद्धताओं के विरुद्ध लागत कोड द्वारा परियोजना बजट",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Daywork sheets: extra work paid by time and materials",
+"kind": "title",
+"max": 60,
+"mt": "दिन के कार्य पत्रक: समय और सामग्री द्वारा भुगतान किया गया अतिरिक्त कार्य",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Backcharges to subcontractors for defects, damage and delay",
+"kind": "title",
+"max": 60,
+"mt": "दोषों, क्षति और देरी के लिए उपठेकेदारों से उपठेकेदारों को शुल्क वापस करना",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Rework and waste log: what redoing work costs",
+"kind": "title",
+"max": 60,
+"mt": "पुनः कार्य और अपशिष्ट लॉग: कार्य को पुनः करने में कितनी लागत आती है",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Overheads allocated to site cost by month",
+"kind": "title",
+"max": 60,
+"mt": "निर्माण स्थल की लागत के लिए महीने के हिसाब से ओवरहेड आवंटित किया गया",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Daywork valuation: hours, materials and plant with markup",
+"kind": "title",
+"max": 60,
+"mt": "दिन के कार्य का मूल्यांकन: मार्कअप के साथ घंटे, सामग्री और निर्माण उपकरण",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Hello, the daywork sheet {dw_id} for \"{desc}\" on \"{proj}\" is {value}. Please sign it so that we can invoice it.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, \"{proj}\" पर \"{desc}\" के लिए दिन का कार्य रिकॉर्ड {dw_id} है। कृपया इस पर हस्ताक्षर करें ताकि हम इसका चालान कर सकें।",
+"why": "placeholders must be exactly: {dw_id} {desc} {proj} {value}"
+}
+]

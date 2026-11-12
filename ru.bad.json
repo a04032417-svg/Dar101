@@ -1,0 +1,254 @@
+[
+{
+"en": "Claims",
+"kind": "label",
+"max": 30,
+"mt": "Претензии по промежуточным платежам",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Workers planned and on site by trade",
+"kind": "title",
+"max": 60,
+"mt": "Рабочие запланированы и на строительной площадке по профессии",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Build the schedule on Schedule: one row for each task with a start, working days and percent done. The finish, planned progress, days late and status fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Постройте график на Schedule: по одной строке для каждой задачи со стартом, рабочими днями и процентом выполнения. Финиш, запланированный прогресс, опоздание на несколько дней и заполнение статуса.",
+"why": "English/Latin words left: Schedule"
+},
+{
+"en": "Add the payment milestones on Milestones. Each one shows its payment value and the date the money should arrive.",
+"kind": "sentence",
+"max": null,
+"mt": "Добавьте этапы оплаты в Milestones. На каждом из них указана сумма платежа и дата, когда деньги должны поступить.",
+"why": "English/Latin words left: Milestones."
+},
+{
+"en": "each budget line shows transfers, revised budget, cost to date, commitments, what is left and a warning before the money is gone",
+"kind": "sentence",
+"max": 160,
+"mt": "каждая строка бюджета показывает трансферты, пересмотренный бюджет, текущие затраты, обязательства, то, что осталось, и предупреждение, прежде чем деньги закончатся.",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Cost to complete and forecast final cost",
+"kind": "label",
+"max": 50,
+"mt": "Стоимость завершения и прогноз окончательной стоимости",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "your cost with markup, days added and days waiting, with a warning to chase the client, and approved changes raise the contract value",
+"kind": "sentence",
+"max": 160,
+"mt": "ваша стоимость с наценкой, добавленными днями и днями ожидания, с предупреждением о преследовании клиента и одобренными изменениями увеличивает стоимость контракта",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Daywork, provisional sums and backcharges",
+"kind": "label",
+"max": 50,
+"mt": "Поденная работа, предварительные суммы и возврат средств субподрядчикам",
+"why": "too long: 71 characters, the limit is 50"
+},
+{
+"en": "daywork valued with markups, allowances watched against spending and backcharges with fee and chase until recovered",
+"kind": "sentence",
+"max": 160,
+"mt": "подневная работа оценивается с надбавками, надбавки учитываются в счет расходов и возвращаются субподрядчикам с гонораром и гонораром до тех пор, пока они не будут возмещены",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Rework, overruns and contingency",
+"kind": "label",
+"max": 50,
+"mt": "Доработка, перерасход и непредвиденные обстоятельства",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Earned value and early warning calculators",
+"kind": "label",
+"max": 50,
+"mt": "Калькуляторы освоенного объема и раннего предупреждения",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Site condition",
+"kind": "list",
+"max": 30,
+"mt": "Состояние строительной площадки",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "ProCrete Structures",
+"kind": "list",
+"max": 30,
+"mt": "Структуры ProCrete",
+"why": "English/Latin words left: ProCrete"
+},
+{
+"en": "Oak and Pine Carpentry",
+"kind": "list",
+"max": 30,
+"mt": "Столярные изделия из дуба и сосны",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "TopCover Roofing",
+"kind": "list",
+"max": 30,
+"mt": "Кровля TopCover",
+"why": "English/Latin words left: TopCover"
+},
+{
+"en": "FlowRight Plumbing",
+"kind": "list",
+"max": 30,
+"mt": "Сантехника FlowRight",
+"why": "English/Latin words left: FlowRight"
+},
+{
+"en": "CoolAir Systems",
+"kind": "list",
+"max": 30,
+"mt": "Системы CoolAir",
+"why": "English/Latin words left: CoolAir"
+},
+{
+"en": "Clearview Glazing",
+"kind": "list",
+"max": 30,
+"mt": "Остекление Clearview",
+"why": "English/Latin words left: Clearview"
+},
+{
+"en": "Damage on site",
+"kind": "list",
+"max": 30,
+"mt": "Повреждения на строительной площадке",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Variation not claimed",
+"kind": "list",
+"max": 30,
+"mt": "Изменение контракта не заявлено",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Over contingency",
+"kind": "list",
+"max": 30,
+"mt": "Из-за непредвиденных обстоятельств",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Contingency low",
+"kind": "list",
+"max": 30,
+"mt": "Низкая вероятность непредвиденных обстоятельств",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Projects: contract value, budget, cost, forecast and margin",
+"kind": "title",
+"max": 60,
+"mt": "Проекты: стоимость контракта, бюджет, стоимость, прогноз и маржа",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Project budgets by cost code against cost and commitments",
+"kind": "title",
+"max": 60,
+"mt": "Бюджеты проектов по кодам затрат относительно затрат и обязательств",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Actual cost lines booked to project and cost code",
+"kind": "title",
+"max": 60,
+"mt": "Строки фактических затрат, зарезервированные для проекта и кода затрат",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Committed costs: orders not yet invoiced",
+"kind": "title",
+"max": 60,
+"mt": "Подтвержденные затраты: заказы, счета по которым еще не выставлены.",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Daywork sheets: extra work paid by time and materials",
+"kind": "title",
+"max": 60,
+"mt": "Табель поддневной работы: дополнительная работа оплачивается по времени и материалам",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Backcharges to subcontractors for defects, damage and delay",
+"kind": "title",
+"max": 60,
+"mt": "Возврат субподрядчикам субподрядчикам счетов за дефекты, повреждения и задержки",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Contingency drawdown and why it was used",
+"kind": "title",
+"max": 60,
+"mt": "Просадка на случай непредвиденных обстоятельств и для чего она использовалась",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Overheads allocated to site cost by month",
+"kind": "title",
+"max": 60,
+"mt": "Накладные расходы, отнесенные на стоимость строительной площадки, по месяцам",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Profit fade: forecast margin against the bid",
+"kind": "title",
+"max": 60,
+"mt": "Падение прибыли: прогноз маржи относительно тендерного предложения",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Cost, changes, daywork and rework by month",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость, изменения, ежедневная работа и доработка по месяцам",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Budget against actual variance for one cost code",
+"kind": "title",
+"max": 60,
+"mt": "Бюджет относительно фактического отклонения для одного кода затрат",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Daywork valuation: hours, materials and plant with markup",
+"kind": "title",
+"max": 60,
+"mt": "Оценка поденных работ: часы, материалы и строительное оборудование с наценкой",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Contingency left against the work still to do",
+"kind": "title",
+"max": 60,
+"mt": "На случай непредвиденных обстоятельств осталась работа, которую еще предстоит сделать",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Unit cost tracker: cost for each unit of work done",
+"kind": "title",
+"max": 60,
+"mt": "Трекер удельной стоимости: стоимость каждой выполненной единицы работы",
+"why": "too long: 70 characters, the limit is 60"
+}
+]

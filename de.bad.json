@@ -1,0 +1,205 @@
+[
+{
+"en": "Designer",
+"kind": "label",
+"max": null,
+"mt": "Designer",
+"why": "not translated"
+},
+{
+"en": "Claims",
+"kind": "label",
+"max": 30,
+"mt": "Ansprüche auf Abschlagszahlungen",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "each budget line shows transfers, revised budget, cost to date, commitments, what is left and a warning before the money is gone",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Budgetzeile zeigt Überweisungen, überarbeitetes Budget, bisherige Kosten, Verpflichtungen, verbleibende Beträge und eine Warnung, bevor das Geld aufgebraucht ist",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Cost to complete and forecast final cost",
+"kind": "label",
+"max": 50,
+"mt": "Kosten bis zur Fertigstellung und prognostizierte Endkosten",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "share of work done and cost still to come give the forecast final cost, variance and cost performance for every cost code",
+"kind": "sentence",
+"max": 160,
+"mt": "Der Anteil der geleisteten Arbeit und die noch anstehenden Kosten geben die prognostizierten Endkosten, die Abweichung und die Kostenleistung für jeden Kostencode an",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "forecast profit and margin for each project against the bid margin, month by month, so a fading margin is seen early",
+"kind": "sentence",
+"max": 160,
+"mt": "Prognostizieren Sie den Gewinn und die Marge für jedes Projekt im Vergleich zur Angebotsmarge Monat für Monat, sodass eine schwindende Marge frühzeitig erkennbar ist",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Daywork, provisional sums and backcharges",
+"kind": "label",
+"max": 50,
+"mt": "Tagesarbeit, vorläufige Beträge und Rückvergütungen an Subunternehmer",
+"why": "too long: 69 characters, the limit is 50"
+},
+{
+"en": "daywork valued with markups, allowances watched against spending and backcharges with fee and chase until recovered",
+"kind": "sentence",
+"max": 160,
+"mt": "Tagesarbeit wird mit Aufschlägen bewertet, Zulagen werden gegen Ausgaben verrechnet und die Kosten werden gegen Gebühr an Subunternehmer zurückgebucht, bis sie wieder eingezogen werden",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "Rework, overruns and contingency",
+"kind": "label",
+"max": 50,
+"mt": "Nacharbeit, Überschreitungen und Eventualverbindlichkeiten",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Brick and Block Co",
+"kind": "list",
+"max": 30,
+"mt": "Brick and Block Co",
+"why": "not translated"
+},
+{
+"en": "Oak and Pine Carpentry",
+"kind": "list",
+"max": 30,
+"mt": "Schreinerei aus Eiche und Kiefer",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Variation not claimed",
+"kind": "list",
+"max": 30,
+"mt": "Vertragsänderung nicht geltend gemacht",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Fully invoiced",
+"kind": "list",
+"max": 30,
+"mt": "Vollständig in Rechnung gestellt",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Budget",
+"kind": "label",
+"max": 30,
+"mt": "Budget",
+"why": "not translated"
+},
+{
+"en": "Project budgets by cost code against cost and commitments",
+"kind": "title",
+"max": 60,
+"mt": "Projektbudgets nach Kostencode im Vergleich zu Kosten und Verpflichtungen",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Actual cost lines booked to project and cost code",
+"kind": "title",
+"max": 60,
+"mt": "Tatsächliche Kostenpositionen, die auf Projekt und Kostencode gebucht wurden",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Committed costs: orders not yet invoiced",
+"kind": "title",
+"max": 60,
+"mt": "Zugesagte Kosten: Bestellungen, die noch nicht in Rechnung gestellt wurden",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Daywork sheets: extra work paid by time and materials",
+"kind": "title",
+"max": 60,
+"mt": "Tagesarbeitsblätter: Mehrarbeit, die nach Zeit und Material bezahlt wird",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Backcharges to subcontractors for defects, damage and delay",
+"kind": "title",
+"max": 60,
+"mt": "Rechnet den Subunternehmern Mängel, Schäden und Verspätungen in Rechnung",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Rework and waste log: what redoing work costs",
+"kind": "title",
+"max": 60,
+"mt": "Nacharbeits- und Ausschussprotokoll: Was eine Nacharbeit kostet",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Overheads allocated to site cost by month",
+"kind": "title",
+"max": 60,
+"mt": "Gemeinkosten, die den Baustellenkosten pro Monat zugeordnet werden",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Value engineering ideas and the saving they bring",
+"kind": "title",
+"max": 60,
+"mt": "Wertvolle technische Ideen und die damit verbundenen Einsparungen",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Profit fade: forecast margin against the bid",
+"kind": "title",
+"max": 60,
+"mt": "Gewinnschwund: prognostizierte Marge gegenüber dem Übernahmeangebot",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Budget against actual variance for one cost code",
+"kind": "title",
+"max": 60,
+"mt": "Budget gegenüber tatsächlicher Abweichung für einen Kostencode",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Markup",
+"kind": "label",
+"max": null,
+"mt": "Markup",
+"why": "not translated"
+},
+{
+"en": "Daywork valuation: hours, materials and plant with markup",
+"kind": "title",
+"max": 60,
+"mt": "Tagesarbeitsbewertung: Stunden, Materialien und Baumaschinen mit Aufschlag",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Contingency left against the work still to do",
+"kind": "title",
+"max": 60,
+"mt": "Eventuell verbleibende Rückstände wegen der noch zu erledigenden Arbeit",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Rework cost: the true price of doing it twice",
+"kind": "title",
+"max": 60,
+"mt": "Nacharbeitskosten: der wahre Preis, wenn man es zweimal macht",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Unit cost tracker: cost for each unit of work done",
+"kind": "title",
+"max": 60,
+"mt": "Stückkosten-Tracker: Kosten für jede geleistete Arbeitseinheit",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

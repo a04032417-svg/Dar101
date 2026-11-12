@@ -1,0 +1,191 @@
+[
+{
+"en": "Claims",
+"kind": "label",
+"max": 30,
+"mt": "Demandes de paiement progressif",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Control budgets, change orders and margin on every project",
+"kind": "sentence",
+"max": 80,
+"mt": "Contrôler les budgets, les commandes de modifications et la marge sur chaque projet",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "each budget line shows transfers, revised budget, cost to date, commitments, what is left and a warning before the money is gone",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque ligne budgétaire affiche les transferts, le budget révisé, le coût à ce jour, les engagements, ce qui reste et un avertissement avant que l'argent ne soit dépensé",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "your cost with markup, days added and days waiting, with a warning to chase the client, and approved changes raise the contract value",
+"kind": "sentence",
+"max": 160,
+"mt": "votre coût avec majoration, jours ajoutés et jours d'attente, avec un avertissement pour chasser le client et les modifications approuvées augmentent la valeur du contrat",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Margin forecast and profit fade",
+"kind": "label",
+"max": 50,
+"mt": "Les prévisions de marge et les bénéfices s'estompent",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Daywork, provisional sums and backcharges",
+"kind": "label",
+"max": 50,
+"mt": "Travail journalier, montants prévisionnels et refacturations aux sous-traitants",
+"why": "too long: 79 characters, the limit is 50"
+},
+{
+"en": "daywork valued with markups, allowances watched against spending and backcharges with fee and chase until recovered",
+"kind": "sentence",
+"max": 160,
+"mt": "travail journalier valorisé avec des majorations, des indemnités surveillées par rapport aux dépenses et des factures aux sous-traitants avec des frais et des poursuites jusqu'à ce qu'elles soient récupérées",
+"why": "too long: 207 characters, the limit is 160"
+},
+{
+"en": "Direct",
+"kind": "list",
+"max": 30,
+"mt": "Direct",
+"why": "not translated"
+},
+{
+"en": "Indirect",
+"kind": "list",
+"max": 30,
+"mt": "Indirect",
+"why": "not translated"
+},
+{
+"en": "Variation not claimed",
+"kind": "list",
+"max": 30,
+"mt": "Modification de contrat non réclamée",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Projects: contract value, budget, cost, forecast and margin",
+"kind": "title",
+"max": 60,
+"mt": "Projets : valeur du contrat, budget, coût, prévisions et marge",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Budget",
+"kind": "label",
+"max": 30,
+"mt": "Budget",
+"why": "not translated"
+},
+{
+"en": "Cost codes: budget, cost and forecast, all projects",
+"kind": "title",
+"max": 60,
+"mt": "Codes de coûts : budget, coût et prévisions, tous les projets",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Project budgets by cost code against cost and commitments",
+"kind": "title",
+"max": 60,
+"mt": "Budgets de projet par code de coût par rapport aux coûts et aux engagements",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Daywork sheets: extra work paid by time and materials",
+"kind": "title",
+"max": 60,
+"mt": "Feuilles de travail journalier : travail supplémentaire rémunéré en temps et en matériel",
+"why": "too long: 88 characters, the limit is 60"
+},
+{
+"en": "Backcharges to subcontractors for defects, damage and delay",
+"kind": "title",
+"max": 60,
+"mt": "Facturation aux sous-traitants pour les défauts, dommages et retards",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Rework and waste log: what redoing work costs",
+"kind": "title",
+"max": 60,
+"mt": "Journal des reprises et des déchets : combien coûte une reprise des travaux",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Value engineering ideas and the saving they bring",
+"kind": "title",
+"max": 60,
+"mt": "Valoriser les idées d’ingénierie et les économies qu’elles génèrent",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Profit fade: forecast margin against the bid",
+"kind": "title",
+"max": 60,
+"mt": "Baisse du bénéfice : marge prévisionnelle par rapport à l'offre publique d'achat",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Change order price",
+"kind": "label",
+"max": 30,
+"mt": "Modifier le prix de la commande",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Change order pricing: cost plus markup and delay",
+"kind": "title",
+"max": 60,
+"mt": "Modifier le prix de la commande : coût plus majoration et délai",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Daywork valuation: hours, materials and plant with markup",
+"kind": "title",
+"max": 60,
+"mt": "Valorisation du travail journalier : heures, matériaux et matériel de construction avec majoration",
+"why": "too long: 98 characters, the limit is 60"
+},
+{
+"en": "Earned value: cost and schedule performance",
+"kind": "title",
+"max": 60,
+"mt": "Valeur acquise : performances en matière de coûts et de calendrier",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Backcharge calculator for defects and delay",
+"kind": "title",
+"max": 60,
+"mt": "Calculateur de rétrofacturation pour les défauts et les retards",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Break-even on a project: how much can go wrong",
+"kind": "title",
+"max": 60,
+"mt": "Seuil de rentabilité d'un projet : combien de problèmes peuvent survenir",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Unit cost tracker: cost for each unit of work done",
+"kind": "title",
+"max": 60,
+"mt": "Suivi des coûts unitaires : coût pour chaque unité de travail effectuée",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Profit fade forecast: where the margin ends up",
+"kind": "title",
+"max": 60,
+"mt": "Prévisions d’évanouissement des bénéfices : où finit la marge",
+"why": "too long: 61 characters, the limit is 60"
+}
+]
