@@ -1,0 +1,198 @@
+[
+{
+"en": "Control purchase orders, suppliers, landed cost and payments",
+"kind": "sentence",
+"max": 80,
+"mt": "Satın alma siparişlerini, tedarikçileri, ithalat maliyetlerini ve ödemeleri kontrol edin",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "Control purchase orders, landed cost, suppliers and payments",
+"kind": "sentence",
+"max": 80,
+"mt": "Satın alma siparişlerini, giriş maliyetlerini, tedarikçileri ve ödemeleri kontrol edin",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "Purchase orders with landed total and timing",
+"kind": "label",
+"max": 50,
+"mt": "Toplam ve zamanlamayı içeren satın alma siparişleri",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "every order shows goods, freight, duty, deposit, balance, days late, an on-time flag and a warning when it is under the supplier minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "Her siparişte mal, navlun, gümrük vergisi, depozito, bakiye, gecikme günleri, bir zamanında uyarı işareti ve tedarikçinin minimum sınırının altında olduğunda bir uyarı gösterilir",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "on-time rate, days late, defect rate, price changes and rating become one score, a verdict and a rank that use your own weights",
+"kind": "sentence",
+"max": 160,
+"mt": "Zamanında kalma oranı, gün gecikmesi, kusur oranı, fiyat değişiklikleri ve derecelendirme, kendi ağırlıklarınızı kullanan tek bir puan, bir karar ve bir sıralama haline gelir",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Reorder proposals against supplier minimums",
+"kind": "label",
+"max": 50,
+"mt": "Teklifleri tedarikçinin minimum değerlerine göre yeniden sıralayın",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "deposits, balances and freight and duty for every order with due dates, overdue and due soon warnings and cash needed for the next 90 days",
+"kind": "sentence",
+"max": 160,
+"mt": "Vade tarihleri, vadesi geçmiş ve yakında vadesi gelecek uyarıları ve önümüzdeki 90 gün için ihtiyaç duyulan nakit ile her sipariş için depozitolar, bakiyeler ve navlun ve gümrük vergileri",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "Claim over 30 days",
+"kind": "list",
+"max": 30,
+"mt": "30 günden fazla hak talebinde bulunun",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Docs not due yet",
+"kind": "list",
+"max": 30,
+"mt": "Henüz teslim edilmeyen dokümanlar",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Quote expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Teklifin süresi yakında doluyor",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Suppliers: terms, lead times, minimums and rating",
+"kind": "title",
+"max": 60,
+"mt": "Tedarikçiler: şartlar, teslim süreleri, minimumlar ve derecelendirme",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Product costs by supplier: ex-works and landed cost",
+"kind": "title",
+"max": 60,
+"mt": "Tedarikçiye göre ürün maliyetleri: fabrika çıkışı ve ithalat maliyeti",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Purchase orders: goods, freight, duty and delivery",
+"kind": "title",
+"max": 60,
+"mt": "Satınalma siparişleri: mallar, navlun, gümrük vergileri ve teslimat",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Purchase order lines: quantity, cost and landed unit cost",
+"kind": "title",
+"max": 60,
+"mt": "Satınalma siparişi satırları: miktar, maliyet ve iniş birim maliyeti",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Lead time log: promised against actual days",
+"kind": "title",
+"max": 60,
+"mt": "Teslimat süresi günlüğü: Gerçek günlere karşılık vaat edilen süre",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Supplier payments: deposit, balance and freight and duty",
+"kind": "title",
+"max": 60,
+"mt": "Tedarikçi ödemeleri: depozito, bakiye, navlun ve gümrük vergisi",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Quality checks at receiving: defects, rejects and credit",
+"kind": "title",
+"max": 60,
+"mt": "Teslim alma sırasındaki kalite kontrolleri: kusurlar, retler ve kredi",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Supplier price quotes: price, validity and answer time",
+"kind": "title",
+"max": 60,
+"mt": "Tedarikçi fiyat teklifleri: fiyat, geçerlilik ve cevap süresi",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Quote comparison: two or three suppliers for each need",
+"kind": "title",
+"max": 60,
+"mt": "Teklif karşılaştırması: her ihtiyaç için iki veya üç tedarikçi",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Supplier contacts and visits: last call and next review",
+"kind": "title",
+"max": 60,
+"mt": "Tedarikçi iletişimleri ve ziyaretleri: son çağrı ve sonraki inceleme",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Import documents checklist log by purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Satın alma siparişine göre belge kontrol listesi günlüğünü içe aktarın",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Purchase order total with deposit and balance dates",
+"kind": "title",
+"max": 60,
+"mt": "Depozito ve bakiye tarihleriyle birlikte satın alma siparişi toplamı",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Order quantity to cover a lead time plus a period",
+"kind": "title",
+"max": 60,
+"mt": "Bir teslim süresi artı bir dönemi kapsayacak şekilde sipariş miktarı",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Supplier on-time rate and average days late",
+"kind": "title",
+"max": 60,
+"mt": "Tedarikçinin zamanında gelme oranı ve ortalama geç kalan gün sayısı",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Supplier score weighted: price, lateness, defects, rating",
+"kind": "title",
+"max": 60,
+"mt": "Tedarikçi puanı ağırlıklı: fiyat, gecikme, kusurlar, derecelendirme",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Cash needed for purchases over the next 90 days",
+"kind": "title",
+"max": 60,
+"mt": "Önümüzdeki 90 gün içindeki satın alma işlemleri için nakit gerekli",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Air against sea freight: extra cost against weeks saved",
+"kind": "title",
+"max": 60,
+"mt": "Deniz taşımacılığına karşı hava: tasarruf edilen haftalara karşılık ekstra maliyet",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Lead time buffer: extra days for the reorder point",
+"kind": "title",
+"max": 60,
+"mt": "Teslimat süresi tamponu: yeniden sipariş noktası için ekstra günler",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

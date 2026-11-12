@@ -1,0 +1,233 @@
+[
+{
+"en": "every order shows goods, freight, duty, deposit, balance, days late, an on-time flag and a warning when it is under the supplier minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "cada pedido mostra mercadorias, frete, taxas, depósito, saldo, dias de atraso, uma bandeira dentro do prazo e um aviso quando estiver abaixo do mínimo do fornecedor",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "on-time rate, days late, defect rate, price changes and rating become one score, a verdict and a rank that use your own weights",
+"kind": "sentence",
+"max": 160,
+"mt": "taxa de pontualidade, dias de atraso, taxa de defeito, alterações de preço e classificação tornam-se uma pontuação, um veredicto e uma classificação que usa seus próprios pesos",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Reorder proposals against supplier minimums",
+"kind": "label",
+"max": 50,
+"mt": "Reordenar propostas de acordo com os mínimos do fornecedor",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "deposits, balances and freight and duty for every order with due dates, overdue and due soon warnings and cash needed for the next 90 days",
+"kind": "sentence",
+"max": 160,
+"mt": "depósitos, saldos e frete e impostos para cada pedido com datas de vencimento, avisos vencidos e com vencimento em breve e dinheiro necessário para os próximos 90 dias",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "invoice, packing list, transport and origin papers are counted for each order, and missing papers show before the goods arrive",
+"kind": "sentence",
+"max": 160,
+"mt": "fatura, lista de embalagem, documentos de transporte e origem são contados para cada pedido, e os documentos faltantes são exibidos antes da chegada da mercadoria",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Customer service lead",
+"kind": "list",
+"max": 30,
+"mt": "Líder de atendimento ao cliente",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Customer service agent",
+"kind": "list",
+"max": 30,
+"mt": "Agente de atendimento ao cliente",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Portugal",
+"kind": "list",
+"max": 30,
+"mt": "Portugal",
+"why": "not translated"
+},
+{
+"en": "China",
+"kind": "list",
+"max": 30,
+"mt": "China",
+"why": "not translated"
+},
+{
+"en": "Shenzhen Pet Supply",
+"kind": "list",
+"max": 30,
+"mt": "Fornecimento para animais de estimação em Shenzhen",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "After a quality problem",
+"kind": "list",
+"max": 30,
+"mt": "Depois de um problema de qualidade",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Round up to full pack",
+"kind": "list",
+"max": 30,
+"mt": "Arredondar para o pacote completo",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Round to nearest pack",
+"kind": "list",
+"max": 30,
+"mt": "Arredondar para o pacote mais próximo",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Suppliers: terms, lead times, minimums and rating",
+"kind": "title",
+"max": 60,
+"mt": "Fornecedores: termos, prazos de entrega, mínimos e classificação",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Product costs by supplier: ex-works and landed cost",
+"kind": "title",
+"max": 60,
+"mt": "Custos do produto por fornecedor: ex-works e custo no destino",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Purchase order lines: quantity, cost and landed unit cost",
+"kind": "title",
+"max": 60,
+"mt": "Linhas de ordem de compra: quantidade, custo e custo unitário no destino",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Lead time log: promised against actual days",
+"kind": "title",
+"max": 60,
+"mt": "Registro de prazo de entrega: prometido em relação aos dias reais",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Quality checks at receiving: defects, rejects and credit",
+"kind": "title",
+"max": 60,
+"mt": "Verificações de qualidade no recebimento: defeitos, rejeições e crédito",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Supplier scorecard: lateness, defects, price and score",
+"kind": "title",
+"max": 60,
+"mt": "Scorecard do fornecedor: atrasos, defeitos, preço e pontuação",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier price quotes: price, validity and answer time",
+"kind": "title",
+"max": 60,
+"mt": "Cotações de preços de fornecedores: preço, validade e tempo de resposta",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Quote comparison: two or three suppliers for each need",
+"kind": "title",
+"max": 60,
+"mt": "Comparação de cotações: dois ou três fornecedores para cada necessidade",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Supplier contacts and visits: last call and next review",
+"kind": "title",
+"max": 60,
+"mt": "Contatos e visitas a fornecedores: última ligação e próxima revisão",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Sample requests: new product samples and verdicts",
+"kind": "title",
+"max": 60,
+"mt": "Solicitações de amostras: amostras e veredictos de novos produtos",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Import documents checklist log by purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Registro de lista de verificação de documentos de importação por ordem de compra",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Supplier payments paid",
+"kind": "label",
+"max": 30,
+"mt": "Pagamentos de fornecedores pagos",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Order quantity to cover a lead time plus a period",
+"kind": "title",
+"max": 60,
+"mt": "Quantidade do pedido para cobrir um lead time mais um período",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Minimum order check against the supplier minimum",
+"kind": "title",
+"max": 60,
+"mt": "Verificação do pedido mínimo em relação ao mínimo do fornecedor",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Supplier score weighted: price, lateness, defects, rating",
+"kind": "title",
+"max": 60,
+"mt": "Pontuação do fornecedor ponderada: preço, atraso, defeitos, classificação",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Defect rate and credit due from a quality check",
+"kind": "title",
+"max": 60,
+"mt": "Taxa de defeito e crédito devido a uma verificação de qualidade",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Early payment saving: discount for paying the balance sooner",
+"kind": "title",
+"max": 60,
+"mt": "Economia no pagamento antecipado: desconto para pagamento antecipado do saldo",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Air against sea freight: extra cost against weeks saved",
+"kind": "title",
+"max": 60,
+"mt": "Frete aéreo versus frete marítimo: custo extra em relação às semanas economizadas",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Lead time buffer: extra days for the reorder point",
+"kind": "title",
+"max": 60,
+"mt": "Buffer de lead time: dias extras para o ponto de reabastecimento",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "What-if grid: order size and unit price break",
+"kind": "title",
+"max": 60,
+"mt": "Grade hipotética: tamanho do pedido e redução do preço unitário",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

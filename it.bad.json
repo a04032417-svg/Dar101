@@ -1,0 +1,184 @@
+[
+{
+"en": "Control purchase orders, suppliers, landed cost and payments",
+"kind": "sentence",
+"max": 80,
+"mt": "Controlla gli ordini di acquisto, i fornitori, i costi d'importazione e i pagamenti",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "Purchase orders with landed total and timing",
+"kind": "label",
+"max": 50,
+"mt": "Ordini di acquisto con totale sbarcato e tempistiche",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "on-time rate, days late, defect rate, price changes and rating become one score, a verdict and a rank that use your own weights",
+"kind": "sentence",
+"max": 160,
+"mt": "tasso di puntualità, giorni di ritardo, tasso di difetti, variazioni di prezzo e valutazione diventano un punteggio, un verdetto e una classifica che utilizza i tuoi pesi",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Reorder proposals against supplier minimums",
+"kind": "label",
+"max": 50,
+"mt": "Riordinare le proposte rispetto ai minimi dei fornitori",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Lead time log with a safety buffer",
+"kind": "label",
+"max": 50,
+"mt": "Registro dei tempi di consegna con buffer di sicurezza",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "invoice, packing list, transport and origin papers are counted for each order, and missing papers show before the goods arrive",
+"kind": "sentence",
+"max": 160,
+"mt": "per ogni ordine vengono conteggiati la fattura, la bolla di accompagnamento, i documenti di trasporto e di origine e i documenti mancanti vengono visualizzati prima dell'arrivo della merce",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Customer service lead",
+"kind": "list",
+"max": 30,
+"mt": "Responsabile del servizio clienti",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Shenzhen Pet Supply",
+"kind": "list",
+"max": 30,
+"mt": "Fornitura di animali domestici a Shenzhen",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Marrakesh Leather Atelier",
+"kind": "list",
+"max": 30,
+"mt": "Atelier di pelletteria di Marrakech",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Round up to full pack",
+"kind": "list",
+"max": 30,
+"mt": "Arrotondare per eccesso al pacchetto completo",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Round to nearest pack",
+"kind": "list",
+"max": 30,
+"mt": "Arrotonda al pacchetto più vicino",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Round up to full carton",
+"kind": "list",
+"max": 30,
+"mt": "Arrotondare per eccesso al cartone intero",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Product costs by supplier: ex-works and landed cost",
+"kind": "title",
+"max": 60,
+"mt": "Costi del prodotto per fornitore: costo franco fabbrica e allo sbarco",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Purchase order lines: quantity, cost and landed unit cost",
+"kind": "title",
+"max": 60,
+"mt": "Righe dell'ordine di acquisto: quantità, costo e costo unitario logistico",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Lead time log: promised against actual days",
+"kind": "title",
+"max": 60,
+"mt": "Registro dei tempi di consegna: promesso rispetto ai giorni effettivi",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Quality checks at receiving: defects, rejects and credit",
+"kind": "title",
+"max": 60,
+"mt": "Controlli qualità al ricevimento: difetti, scarti e accredito",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier price quotes: price, validity and answer time",
+"kind": "title",
+"max": 60,
+"mt": "Preventivi dei fornitori: prezzo, validità e tempi di risposta",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Minimum order and pack size rules by product",
+"kind": "title",
+"max": 60,
+"mt": "Ordine minimo e regole sulle dimensioni della confezione per prodotto",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Supplier contacts and visits: last call and next review",
+"kind": "title",
+"max": 60,
+"mt": "Contatti e visite fornitori: ultima chiamata e prossima revisione",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Import documents checklist log by purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Importa il registro dell'elenco di controllo dei documenti per ordine di acquisto",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Shipping mode and transit plan by purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Modalità di spedizione e piano di transito per ordine di acquisto",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Minimum order check against the supplier minimum",
+"kind": "title",
+"max": 60,
+"mt": "Controllo dell'ordine minimo rispetto al minimo del fornitore",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier score weighted: price, lateness, defects, rating",
+"kind": "title",
+"max": 60,
+"mt": "Punteggio fornitore ponderato: prezzo, ritardi, difetti, rating",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Early payment saving: discount for paying the balance sooner",
+"kind": "title",
+"max": 60,
+"mt": "Risparmio pagamento anticipato: sconto per pagare il saldo prima",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Air against sea freight: extra cost against weeks saved",
+"kind": "title",
+"max": 60,
+"mt": "Trasporto aereo contro trasporto marittimo: costo aggiuntivo contro settimane risparmiate",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "What-if grid: order size and unit price break",
+"kind": "title",
+"max": 60,
+"mt": "Griglia \"what-if\": dimensione dell'ordine e variazione del prezzo unitario",
+"why": "too long: 74 characters, the limit is 60"
+}
+]

@@ -1,0 +1,184 @@
+[
+{
+"en": "Purchase orders with landed total and timing",
+"kind": "label",
+"max": 50,
+"mt": "Pesanan pembelian dengan total dan waktu yang mendarat",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "every order shows goods, freight, duty, deposit, balance, days late, an on-time flag and a warning when it is under the supplier minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap pesanan menunjukkan barang, pengangkutan, bea, setoran, saldo, keterlambatan hari, bendera tepat waktu, dan peringatan ketika berada di bawah minimum pemasok",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "on-time rate, days late, defect rate, price changes and rating become one score, a verdict and a rank that use your own weights",
+"kind": "sentence",
+"max": 160,
+"mt": "tingkat tepat waktu, hari terlambat, tingkat cacat, perubahan harga dan penilaian menjadi satu skor, sebuah keputusan dan peringkat yang menggunakan bobot Anda sendiri",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Reorder proposals against supplier minimums",
+"kind": "label",
+"max": 50,
+"mt": "Susun ulang proposal berdasarkan jumlah minimum pemasok",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "deposits, balances and freight and duty for every order with due dates, overdue and due soon warnings and cash needed for the next 90 days",
+"kind": "sentence",
+"max": 160,
+"mt": "setoran, saldo dan pengangkutan serta bea untuk setiap pesanan dengan tanggal jatuh tempo, peringatan terlambat dan jatuh tempo, serta uang tunai yang dibutuhkan untuk 90 hari ke depan",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "Portugal",
+"kind": "list",
+"max": 30,
+"mt": "Portugal",
+"why": "not translated"
+},
+{
+"en": "Shenzhen Pet Supply",
+"kind": "list",
+"max": 30,
+"mt": "Pasokan hewan peliharaan Shenzhen",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Product costs by supplier: ex-works and landed cost",
+"kind": "title",
+"max": 60,
+"mt": "Biaya produk menurut pemasok: biaya bekas pekerjaan dan biaya mendarat",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Label",
+"kind": "label",
+"max": null,
+"mt": "Label",
+"why": "not translated"
+},
+{
+"en": "Purchase orders: goods, freight, duty and delivery",
+"kind": "title",
+"max": 60,
+"mt": "Pesanan pembelian: barang, pengangkutan, tugas dan pengiriman",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Purchase order lines: quantity, cost and landed unit cost",
+"kind": "title",
+"max": 60,
+"mt": "Jalur pesanan pembelian: kuantitas, biaya, dan biaya unit yang diterima",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Lead time log: promised against actual days",
+"kind": "title",
+"max": 60,
+"mt": "Log waktu tunggu: dijanjikan dibandingkan dengan hari sebenarnya",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Quality checks at receiving: defects, rejects and credit",
+"kind": "title",
+"max": 60,
+"mt": "Pemeriksaan kualitas pada saat penerimaan: cacat, penolakan dan kredit",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Quote comparison: two or three suppliers for each need",
+"kind": "title",
+"max": 60,
+"mt": "Perbandingan penawaran: dua atau tiga pemasok untuk setiap kebutuhan",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Freight and duty by shipment: amount and rate on goods",
+"kind": "title",
+"max": 60,
+"mt": "Pengangkutan dan bea melalui pengiriman: jumlah dan tarif barang",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Supplier contacts and visits: last call and next review",
+"kind": "title",
+"max": 60,
+"mt": "Kontak dan kunjungan pemasok: panggilan terakhir dan tinjauan berikutnya",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Import documents checklist log by purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Impor log daftar periksa dokumen berdasarkan pesanan pembelian",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Shipping mode and transit plan by purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Mode pengiriman dan rencana transit berdasarkan pesanan pembelian",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Transit",
+"kind": "label",
+"max": null,
+"mt": "Transit",
+"why": "not translated"
+},
+{
+"en": "Order quantity to cover a lead time plus a period",
+"kind": "title",
+"max": 60,
+"mt": "Kuantitas pesanan untuk mencakup waktu tunggu ditambah periode",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Supplier score weighted: price, lateness, defects, rating",
+"kind": "title",
+"max": 60,
+"mt": "Skor pemasok tertimbang: harga, keterlambatan, cacat, peringkat",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cash needed for purchases over the next 90 days",
+"kind": "title",
+"max": 60,
+"mt": "Uang tunai diperlukan untuk pembelian selama 90 hari ke depan",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Early payment saving: discount for paying the balance sooner",
+"kind": "title",
+"max": 60,
+"mt": "Penghematan pembayaran awal: diskon untuk membayar saldo lebih cepat",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Air against sea freight: extra cost against weeks saved",
+"kind": "title",
+"max": 60,
+"mt": "Udara dibandingkan angkutan laut: biaya tambahan dibandingkan penghematan berminggu-minggu",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Lead time buffer: extra days for the reorder point",
+"kind": "title",
+"max": 60,
+"mt": "Buffer waktu tunggu: hari tambahan untuk titik pemesanan ulang",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: order size and unit price break",
+"kind": "title",
+"max": 60,
+"mt": "Kisi bagaimana-jika: ukuran pesanan dan potongan harga satuan",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

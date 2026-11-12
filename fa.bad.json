@@ -1,0 +1,65 @@
+[
+{
+"en": "Hello {keeper}, please move {product} to the pick zone, bin {pick_bin}. It has {pick_units} units there now.",
+"kind": "message",
+"max": null,
+"mt": "سلام {keeper}، لطفاً {product} را به منطقه انتخاب، bin {pick_bin} منتقل کنید. اکنون {pick_units} واحد در آنجا دارد.",
+"why": "English/Latin words left: bin"
+},
+{
+"en": "{col:schedule.lines} lines were counted and {col:schedule.exact} matched the system. The accuracy is {col:schedule.accuracy}.",
+"kind": "document",
+"max": null,
+"mt": "{col:schedule.lines} خط شمارش شد و {col:schedule.exact} با سیستم مطابقت داشت. دقت {col:schedule.accuracy} است.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Print the bins that show Top up",
+"kind": "label",
+"max": null,
+"mt": "بن هایی را که Top up را نشان می دهد چاپ کنید",
+"why": "English/Latin words left: Top up"
+},
+{
+"en": "Open Start and type your shop name and your own limits in the yellow cells: cover target, dead stock days, count difference limit, holding cost and the first day of the next peak.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام فروشگاه و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: هدف پوشش، روزهای موجودی مرده، محدودیت تعداد تفاوت، هزینه نگهداری و روز اول اوج بعدی.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Fill Products with your SKUs, cost, weight, reorder point and pack size, and Suppliers with lead times and minimum orders.",
+"kind": "sentence",
+"max": null,
+"mt": "محصولات را با SKU، هزینه، وزن، نقطه سفارش مجدد و اندازه بسته، و تامین‌کنندگان با زمان‌های تحویل و حداقل سفارش‌ها پر کنید.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Supplier payments paid",
+"kind": "label",
+"max": 30,
+"mt": "پرداخت های تامین کننده پرداخت شده است",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Type the on-time rate, defect rate, price changes and rating of a supplier; your weights come from Start, then see the score and the verdict.",
+"kind": "sentence",
+"max": null,
+"mt": "نرخ به موقع، نرخ نقص، تغییرات قیمت و رتبه بندی تامین کننده را تایپ کنید. وزن های شما از Start می آید، سپس امتیاز و حکم را ببینید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Air against sea freight: extra cost against weeks saved",
+"kind": "title",
+"max": 60,
+"mt": "حمل و نقل هوایی در برابر دریا: هزینه اضافی در مقابل هفته ها صرفه جویی شده است",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "What-if grid: order size and unit price break",
+"kind": "title",
+"max": 60,
+"mt": "شبکه What-if: اندازه سفارش و شکست قیمت واحد",
+"why": "English/Latin words left: What if"
+}
+]

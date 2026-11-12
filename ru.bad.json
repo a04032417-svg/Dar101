@@ -1,0 +1,184 @@
+[
+{
+"en": "Reorder suggestions value per supplier",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость предложений по повторному заказу для каждого поставщика",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Fill Products with your SKUs, cost, weight, reorder point and pack size, and Suppliers with lead times and minimum orders.",
+"kind": "sentence",
+"max": null,
+"mt": "Укажите в продуктах свои SKU, стоимость, вес, точку повторного заказа и размер упаковки, а также поставщиков, указав сроки выполнения и минимальные заказы.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Purchase orders with landed total and timing",
+"kind": "label",
+"max": 50,
+"mt": "Заказы на поставку с указанием итоговой суммы и сроков",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "every order shows goods, freight, duty, deposit, balance, days late, an on-time flag and a warning when it is under the supplier minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "В каждом заказе указаны товары, фрахт, пошлина, депозит, остаток, количество дней задержки, флажок своевременности и предупреждение, когда он ниже минимального поставщика.",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "on-time rate, days late, defect rate, price changes and rating become one score, a verdict and a rank that use your own weights",
+"kind": "sentence",
+"max": 160,
+"mt": "показатель своевременности, задержки в днях, процент дефектов, изменения цен и рейтинг становятся одной оценкой, вердиктом и рангом, которые используют ваши собственные веса",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Reorder proposals against supplier minimums",
+"kind": "label",
+"max": 50,
+"mt": "Предложения по повторному заказу в соответствии с минимальными требованиями поставщика",
+"why": "too long: 86 characters, the limit is 50"
+},
+{
+"en": "deposits, balances and freight and duty for every order with due dates, overdue and due soon warnings and cash needed for the next 90 days",
+"kind": "sentence",
+"max": 160,
+"mt": "депозиты, остатки, фрахт и пошлины для каждого заказа со сроками оплаты, предупреждениями о просрочке и скором сроке платежа, а также наличные, необходимые на следующие 90 дней",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Customer service lead",
+"kind": "list",
+"max": 30,
+"mt": "Руководитель службы поддержки клиентов",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Shenzhen Pet Supply",
+"kind": "list",
+"max": 30,
+"mt": "Шэньчжэнь поставки домашних животных",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Round to nearest pack",
+"kind": "list",
+"max": 30,
+"mt": "Округлить до ближайшей упаковки",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Quote expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия предложения скоро истечет",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Product costs by supplier: ex-works and landed cost",
+"kind": "title",
+"max": 60,
+"mt": "Себестоимость продукции по поставщикам: отпускная стоимость и стоимость доставки.",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Purchase order lines: quantity, cost and landed unit cost",
+"kind": "title",
+"max": 60,
+"mt": "Строки заказа на покупку: количество, стоимость и стоимость единицы товара.",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Lead time log: promised against actual days",
+"kind": "title",
+"max": 60,
+"mt": "Журнал времени выполнения: обещанное по сравнению с фактическими днями",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Supplier price quotes: price, validity and answer time",
+"kind": "title",
+"max": 60,
+"mt": "Ценовые предложения поставщиков: цена, срок действия и время ответа",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Supplier contacts and visits: last call and next review",
+"kind": "title",
+"max": 60,
+"mt": "Контакты и посещения поставщиков: последний звонок и следующий отзыв",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Import documents checklist log by purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Журнал контрольного списка импорта документов по заказу на поставку",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Order quantity to cover a lead time plus a period",
+"kind": "title",
+"max": 60,
+"mt": "Количество заказа, необходимое для покрытия времени выполнения плюс период",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Minimum order check against the supplier minimum",
+"kind": "title",
+"max": 60,
+"mt": "Проверка минимального заказа на соответствие минимуму поставщика",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Supplier on-time rate and average days late",
+"kind": "title",
+"max": 60,
+"mt": "Уровень своевременности поставщика и среднее количество дней опозданий",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Supplier score weighted: price, lateness, defects, rating",
+"kind": "title",
+"max": 60,
+"mt": "Взвешенная оценка поставщика: цена, задержка, дефекты, рейтинг",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Defect rate and credit due from a quality check",
+"kind": "title",
+"max": 60,
+"mt": "Уровень дефектов и кредит, причитающийся по результатам проверки качества",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Cash needed for purchases over the next 90 days",
+"kind": "title",
+"max": 60,
+"mt": "Денежные средства, необходимые для покупок в течение следующих 90 дней.",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Early payment saving: discount for paying the balance sooner",
+"kind": "title",
+"max": 60,
+"mt": "Экономия при досрочном платеже: скидка при досрочном погашении остатка",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Air against sea freight: extra cost against weeks saved",
+"kind": "title",
+"max": 60,
+"mt": "Воздушный транспорт вместо морского: дополнительные расходы за счет экономии недель",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Lead time buffer: extra days for the reorder point",
+"kind": "title",
+"max": 60,
+"mt": "Буфер времени выполнения: дополнительные дни для точки повторного заказа.",
+"why": "too long: 73 characters, the limit is 60"
+}
+]

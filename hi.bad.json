@@ -1,0 +1,58 @@
+[
+{
+"en": "Fill Products with your SKUs, cost, weight, reorder point and pack size, and Suppliers with lead times and minimum orders.",
+"kind": "sentence",
+"max": null,
+"mt": "उत्पादों को अपने SKU, लागत, वजन, पुन: ऑर्डर बिंदु और पैक आकार और आपूर्तिकर्ताओं को लीड समय और न्यूनतम ऑर्डर के साथ भरें।",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "every order shows goods, freight, duty, deposit, balance, days late, an on-time flag and a warning when it is under the supplier minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक ऑर्डर पर माल, माल ढुलाई, शुल्क, जमा राशि, शेष राशि, विलंबित दिन, एक समय पर ध्वज और एक चेतावनी दिखाई देती है जब यह आपूर्तिकर्ता न्यूनतम के अंतर्गत होता है",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Reorder proposals against supplier minimums",
+"kind": "label",
+"max": 50,
+"mt": "आपूर्तिकर्ता न्यूनतम के विरुद्ध प्रस्तावों को पुनः व्यवस्थित करें",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "Quote expires soon",
+"kind": "list",
+"max": 30,
+"mt": "कोटेशन जल्द ही समाप्त हो रहा है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Reorder proposals: what to order this week",
+"kind": "title",
+"max": 60,
+"mt": "प्रस्तावों को पुनः व्यवस्थित करें: इस सप्ताह क्या ऑर्डर करना है",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Quote comparison: two or three suppliers for each need",
+"kind": "title",
+"max": 60,
+"mt": "उद्धरण तुलना: प्रत्येक आवश्यकता के लिए दो या तीन आपूर्तिकर्ता",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier payments paid",
+"kind": "label",
+"max": 30,
+"mt": "आपूर्तिकर्ता भुगतान का भुगतान किया गया",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Air against sea freight: extra cost against weeks saved",
+"kind": "title",
+"max": 60,
+"mt": "समुद्री माल ढुलाई के मुकाबले हवाई माल ढुलाई: सप्ताहों की बचत के मुकाबले अतिरिक्त लागत",
+"why": "too long: 85 characters, the limit is 60"
+}
+]

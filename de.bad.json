@@ -1,0 +1,247 @@
+[
+{
+"en": "Control purchase orders, suppliers, landed cost and payments",
+"kind": "sentence",
+"max": 80,
+"mt": "Kontrollieren Sie Bestellungen, Lieferanten, Anschaffungsnebenkosten und Zahlungen",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "every order shows goods, freight, duty, deposit, balance, days late, an on-time flag and a warning when it is under the supplier minimum",
+"kind": "sentence",
+"max": 160,
+"mt": "Bei jeder Bestellung werden Waren, Fracht, Zoll, Anzahlung, Restbetrag, Verspätungstage, eine Pünktlichkeitsmarkierung und eine Warnung angezeigt, wenn die Mindestmenge des Lieferanten unterschritten wird",
+"why": "too long: 204 characters, the limit is 160"
+},
+{
+"en": "on-time rate, days late, defect rate, price changes and rating become one score, a verdict and a rank that use your own weights",
+"kind": "sentence",
+"max": 160,
+"mt": "Pünktlichkeitsrate, Verspätungstage, Fehlerrate, Preisänderungen und Bewertung werden zu einer Bewertung, einem Urteil und einer Rangfolge, die Ihre eigenen Gewichtungen verwenden",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Reorder proposals against supplier minimums",
+"kind": "label",
+"max": 50,
+"mt": "Nachbestellungsvorschläge anhand der Mindestbestellmenge des Lieferanten",
+"why": "too long: 72 characters, the limit is 50"
+},
+{
+"en": "deposits, balances and freight and duty for every order with due dates, overdue and due soon warnings and cash needed for the next 90 days",
+"kind": "sentence",
+"max": 160,
+"mt": "Anzahlungen, Restbeträge sowie Fracht- und Zollgebühren für jede Bestellung mit Fälligkeitsdaten, Überfälligkeits- und bald fälligen Warnungen und Bargeldbedarf für die nächsten 90 Tage",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "every claim is followed from open to credit received, with days open and a warning when a supplier is slow to credit",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Reklamation wird von der Offenheit bis zum Eingang der Gutschrift verfolgt, mit offenen Tagen und einer Warnung, wenn ein Lieferant mit der Gutschrift zu spät kommt",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "promised against actual days per order show which supplier is late and how many safety days to add to the reorder point",
+"kind": "sentence",
+"max": 160,
+"mt": "Zugesagte Vergleiche zu tatsächlichen Tagen pro Bestellung zeigen, welcher Lieferant in Verzug ist und wie viele Sicherheitstage zum Nachbestellpunkt hinzugefügt werden müssen",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Portugal",
+"kind": "list",
+"max": 30,
+"mt": "Portugal",
+"why": "not translated"
+},
+{
+"en": "China",
+"kind": "list",
+"max": 30,
+"mt": "China",
+"why": "not translated"
+},
+{
+"en": "Surabaya Rattan Co",
+"kind": "list",
+"max": 30,
+"mt": "Surabaya Rattan Co",
+"why": "not translated"
+},
+{
+"en": "Round up to full carton",
+"kind": "list",
+"max": 30,
+"mt": "Auf einen vollen Karton aufrunden",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Claim over 30 days",
+"kind": "list",
+"max": 30,
+"mt": "Reklamation innerhalb von 30 Tagen",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Suppliers: terms, lead times, minimums and rating",
+"kind": "title",
+"max": 60,
+"mt": "Lieferanten: Konditionen, Lieferzeiten, Mindestbestellmenge und Bewertung",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Product costs by supplier: ex-works and landed cost",
+"kind": "title",
+"max": 60,
+"mt": "Produktkosten nach Lieferanten: ab Werk und Anschaffungspreis",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Purchase order lines: quantity, cost and landed unit cost",
+"kind": "title",
+"max": 60,
+"mt": "Bestellpositionen: Menge, Kosten und Anschaffungsnebenkosten pro Einheit",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Reorder proposals: what to order this week",
+"kind": "title",
+"max": 60,
+"mt": "Nachbestellungsvorschläge: Was Sie diese Woche bestellen sollten",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Open orders and arrivals: lines still on the way",
+"kind": "title",
+"max": 60,
+"mt": "Offene Bestellungen und Ankünfte: Warteschlangen sind noch unterwegs",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Lead time log: promised against actual days",
+"kind": "title",
+"max": 60,
+"mt": "Durchlaufzeitprotokoll: versprochen im Vergleich zu tatsächlichen Tagen",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Supplier payments: deposit, balance and freight and duty",
+"kind": "title",
+"max": 60,
+"mt": "Zahlungen des Lieferanten: Anzahlung, Restbetrag sowie Fracht und Zoll",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Quality checks at receiving: defects, rejects and credit",
+"kind": "title",
+"max": 60,
+"mt": "Qualitätskontrollen beim Wareneingang: Mängel, Ausschuss und Gutschrift",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Supplier price quotes: price, validity and answer time",
+"kind": "title",
+"max": 60,
+"mt": "Preisangebote von Lieferanten: Preis, Gültigkeit und Antwortzeit",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Quote comparison: two or three suppliers for each need",
+"kind": "title",
+"max": 60,
+"mt": "Angebotsvergleich: zwei bis drei Lieferanten für jeden Bedarf",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier contacts and visits: last call and next review",
+"kind": "title",
+"max": 60,
+"mt": "Lieferantenkontakte und -besuche: letzter Anruf und nächste Bewertung",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Import documents checklist log by purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Importieren Sie das Checklistenprotokoll für Dokumente nach Bestellung",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Transit",
+"kind": "label",
+"max": null,
+"mt": "Transit",
+"why": "not translated"
+},
+{
+"en": "Landed cost received",
+"kind": "label",
+"max": 30,
+"mt": "Erhaltene Gesamteinstandskosten",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Order quantity to cover a lead time plus a period",
+"kind": "title",
+"max": 60,
+"mt": "Bestellmenge zur Abdeckung einer Durchlaufzeit plus einer Periode",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Minimum order check against the supplier minimum",
+"kind": "title",
+"max": 60,
+"mt": "Prüfung der Mindestbestellmenge anhand der Mindestbestellmenge des Lieferanten",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Supplier on-time rate and average days late",
+"kind": "title",
+"max": 60,
+"mt": "Pünktlichkeitsquote der Lieferanten und durchschnittliche Verspätungstage",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Supplier score weighted: price, lateness, defects, rating",
+"kind": "title",
+"max": 60,
+"mt": "Lieferantenbewertung gewichtet: Preis, Verspätung, Mängel, Bewertung",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Cash needed for purchases over the next 90 days",
+"kind": "title",
+"max": 60,
+"mt": "Bargeld, das für Einkäufe in den nächsten 90 Tagen benötigt wird",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Early payment saving: discount for paying the balance sooner",
+"kind": "title",
+"max": 60,
+"mt": "Sparen bei vorzeitiger Zahlung: Rabatt für die frühere Zahlung des Restbetrags",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Air against sea freight: extra cost against weeks saved",
+"kind": "title",
+"max": 60,
+"mt": "Luft- statt Seefracht: Mehrkosten gegenüber eingesparten Wochen",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Lead time buffer: extra days for the reorder point",
+"kind": "title",
+"max": 60,
+"mt": "Durchlaufzeitpuffer: zusätzliche Tage für den Nachbestellpunkt",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: order size and unit price break",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Auftragsgröße und Stückpreisunterbrechung",
+"why": "too long: 63 characters, the limit is 60"
+}
+]
