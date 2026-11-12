@@ -1,0 +1,58 @@
+[
+{
+"en": "Record each return on Returns: date, order, customer, SKU, reason, status, refund and restock decision. The refund check and the net cost fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "रिटर्न पर प्रत्येक रिटर्न को रिकॉर्ड करें: तिथि, आदेश, ग्राहक, SKU, कारण, स्थिति, धनवापसी और पुनः स्टॉक निर्णय। रिफंड चेक और शुद्ध लागत अपने आप भर जाती है।",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "every campaign shows spend, revenue, return and cost per order against the break-even return your margin gives, with a verdict to scale, fix or pause",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक अभियान आपके मार्जिन द्वारा दिए गए ब्रेक-ईवन रिटर्न के मुकाबले प्रति ऑर्डर खर्च, राजस्व, रिटर्न और लागत दिखाता है, स्केल करने, ठीक करने या रोकने के फैसले के साथ",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Still advertised, no stock",
+"kind": "list",
+"max": 30,
+"mt": "अभी भी विज्ञापित, कोई स्टॉक नहीं",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "NEWS5",
+"kind": "list",
+"max": 30,
+"mt": "NEWS5",
+"why": "English/Latin words left: NEWS"
+},
+{
+"en": "GIFT20",
+"kind": "list",
+"max": 30,
+"mt": "GIFT20",
+"why": "English/Latin words left: GIFT"
+},
+{
+"en": "Maximum cost per order: what one order may cost to win",
+"kind": "title",
+"max": 60,
+"mt": "प्रति ऑर्डर अधिकतम लागत: एक ऑर्डर जीतने के लिए कितनी लागत आ सकती है",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Hello, {name} spent {spend_4w} in four weeks against a budget of {budget_4w}. Please check the bids and tell me what you change today.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, {name} ने चार सप्ताह में {बजट_4w} के बजट के मुकाबले {spend_4w} खर्च किया। कृपया बोलियां जांचें और मुझे बताएं कि आप आज क्या बदलते हैं।",
+"why": "English/Latin words left: spend"
+},
+{
+"en": "Hello, {theme} runs from {start} to {end}. We plan {stock_units} units, about {units_day} a day. Please plan extra packers and packaging.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, {theme} {start} से {end} तक चलता है। हम प्रतिदिन लगभग {stock_units} इकाइयों की योजना बनाते हैं। कृपया अतिरिक्त पैकर्स और पैकेजिंग की योजना बनाएं।",
+"why": "placeholders must be exactly: {theme} {start} {end} {stock_units} {units_day}"
+}
+]

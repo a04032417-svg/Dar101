@@ -1,0 +1,93 @@
+[
+{
+"en": "Fill Products with your catalogue (SKU, cost, web price, supplier) and Suppliers and Team with the people your messages go to.",
+"kind": "sentence",
+"max": null,
+"mt": "املأ المنتجات بالكتالوج الخاص بك (SKU، التكلفة، سعر الويب، المورد) والموردين والفريق مع الأشخاص الذين تذهب إليهم رسائلك.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Record each return on Returns: date, order, customer, SKU, reason, status, refund and restock decision. The refund check and the net cost fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "قم بتسجيل كل عملية إرجاع على المرتجعات: التاريخ، الطلب، العميل، SKU، السبب، الحالة، قرار الاسترداد وإعادة التخزين. يتم ملء شيك استرداد الأموال وصافي التكلفة بأنفسهم.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Ad return, promotions, discount codes, e-mail and creators in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "عودة الإعلانات والعروض الترويجية وأكواد الخصم والبريد الإلكتروني والمبدعين في مصنف واحد",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "E-mail results by send and segment",
+"kind": "label",
+"max": 50,
+"mt": "إرسال النتائج بالبريد الإلكتروني عن طريق الإرسال والتقسيم",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "VIP customers",
+"kind": "list",
+"max": 30,
+"mt": "عملاء VIP",
+"why": "English/Latin words left: VIP"
+},
+{
+"en": "Still advertised, no stock",
+"kind": "list",
+"max": 30,
+"mt": "لا يزال الإعلان عنها، لا يوجد مخزون",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "MKTA-DEAL",
+"kind": "list",
+"max": 30,
+"mt": "MKTA-صفقة",
+"why": "English/Latin words left: MKTA"
+},
+{
+"en": "MKTB-VIP",
+"kind": "list",
+"max": 30,
+"mt": "MKTB-VIP",
+"why": "English/Latin words left: MKTB VIP"
+},
+{
+"en": "VIP15",
+"kind": "list",
+"max": 30,
+"mt": "VIP15",
+"why": "English/Latin words left: VIP"
+},
+{
+"en": "Spend to give Marketplace A",
+"kind": "label",
+"max": null,
+"mt": "أنفق لإعطاء Marketplace A",
+"why": "English/Latin words left: Marketplace"
+},
+{
+"en": "Spend to give Marketplace B",
+"kind": "label",
+"max": null,
+"mt": "أنفق لإعطاء Marketplace B",
+"why": "English/Latin words left: Marketplace"
+},
+{
+"en": "Hello, {name} spent {spend_4w} in four weeks against a budget of {budget_4w}. Please check the bids and tell me what you change today.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، أنفق {name} {spend_4w} في أربعة أسابيع مقابل ميزانية قدرها {budget_4w}. يرجى التحقق من العطاءات وأخبرني ما الذي قمت بتغييره اليوم.",
+"why": "English/Latin words left: spend budget"
+},
+{
+"en": "Creator: code for your followers",
+"kind": "label",
+"max": null,
+"mt": "Creator: رمز لمتابعيك",
+"why": "English/Latin words left: Creator"
+}
+]

@@ -1,0 +1,51 @@
+[
+{
+"en": "Fill Products with your catalogue (SKU, cost, web price, supplier) and Suppliers and Team with the people your messages go to.",
+"kind": "sentence",
+"max": null,
+"mt": "在“产品”中填写您的目录（SKU、成本、网络价格、供应商），在“供应商”和“团队”中填写您的消息的接收者。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Record each return on Returns: date, order, customer, SKU, reason, status, refund and restock decision. The refund check and the net cost fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "在退货中记录每次退货：日期、订单、客户、SKU、原因、状态、退款和补货决定。退款支票和净费用自行填写。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Record reviews on Reviews and reply to low-star ones; see disputes on Disputes and win-back vouchers on Win-back Vouchers.",
+"kind": "sentence",
+"max": null,
+"mt": "在Reviews上记录评论并回复低星级的；请参阅 赢回优惠券 上的争议和赢回凭证。",
+"why": "English/Latin words left: Reviews"
+},
+{
+"en": "MKTA-DEAL",
+"kind": "list",
+"max": 30,
+"mt": "MKTA-交易",
+"why": "English/Latin words left: MKTA"
+},
+{
+"en": "MKTB-VIP",
+"kind": "list",
+"max": 30,
+"mt": "MKTB-VIP",
+"why": "English/Latin words left: MKTB VIP"
+},
+{
+"en": "Uses left, 0 when there is no limit",
+"kind": "label",
+"max": null,
+"mt": "没有限制时使用 left,0",
+"why": "English/Latin words left: left"
+},
+{
+"en": "Hello, {name} spent {spend_4w} in four weeks against a budget of {budget_4w}. Please check the bids and tell me what you change today.",
+"kind": "message",
+"max": null,
+"mt": "您好，{name} 在四个星期内花费了 {spend_4w}，预算为 {budget_4w}。请检查出价并告诉我您今天更改了什么。",
+"why": "English/Latin words left: spend budget"
+}
+]
