@@ -1,0 +1,114 @@
+[
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}. Category: {col:products.category}. Status: {col:products.status}. Supplier: {col:products.supplier}.",
+"kind": "document",
+"max": null,
+"mt": "پروڈکٹ: {col:products.name} ({col:products.variant})، SKU {col:products.sku}۔ زمرہ: {col:products.category}۔ حیثیت: {col:products.status}۔ فراہم کنندہ: {col:products.supplier}۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}.",
+"kind": "document",
+"max": null,
+"mt": "پروڈکٹ: {col:products.name} ({col:products.variant})، SKU {col:products.sku}۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Dear customer, from {col:pricehist.date} the price of {col:pricehist.product} (SKU {col:pricehist.sku}) changes from {col:pricehist.old_price} to {col:pricehist.new_price}, a change of {col:pricehist.change_pct}.",
+"kind": "document",
+"max": null,
+"mt": "پیارے کسٹمر، {col:pricehist.date} سے {col:pricehist.product} (SKU {col:pricehist.sku}) کی قیمت {col:pricehist.old_price} سے {col:pricehist.new_price} میں بدل جاتی ہے، {col:pricehist.change_pct} کی تبدیلی۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Read Margin by Channel. Each SKU and channel shows the margin, a verdict and the price needed for the target and the floor.",
+"kind": "sentence",
+"max": null,
+"mt": "پڑھیں چینل کے لحاظ سے مارجن۔ ہر SKU اور چینل مارجن، ایک فیصلہ اور ہدف اور منزل کے لیے درکار قیمت دکھاتا ہے۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Know what is on hand, what to reorder and what has stopped selling",
+"kind": "sentence",
+"max": 80,
+"mt": "جانیں کہ ہاتھ میں کیا ہے، کیا دوبارہ ترتیب دینا ہے اور کس چیز کی فروخت بند ہو گئی ہے۔",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Sample used for photos",
+"kind": "list",
+"max": 30,
+"mt": "نمونہ تصاویر کے لیے استعمال کیا جاتا ہے۔",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Damaged and not booked",
+"kind": "list",
+"max": 30,
+"mt": "نقصان پہنچا اور بک نہیں کیا گیا۔",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Returned to supplier",
+"kind": "list",
+"max": 30,
+"mt": "فراہم کنندہ کو واپس کر دیا گیا۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Overstocked",
+"kind": "list",
+"max": 30,
+"mt": "overstocked",
+"why": "English/Latin words left: overstocked"
+},
+{
+"en": "Reorder rules and suggestions: what to order this week",
+"kind": "title",
+"max": 60,
+"mt": "قوانین اور تجاویز کو دوبارہ ترتیب دیں: اس ہفتے کیا آرڈر کرنا ہے۔",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Supplier returns: units sent back with the credit expected",
+"kind": "title",
+"max": 60,
+"mt": "سپلائر کی واپسی: اکائیاں متوقع کریڈٹ کے ساتھ واپس بھیجی گئیں۔",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Sell-through: units sold against units available",
+"kind": "title",
+"max": 60,
+"mt": "فروخت کے ذریعے: دستیاب یونٹوں کے مقابلے میں فروخت ہونے والی یونٹس",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Reorder sheet for one supplier with its lines",
+"kind": "title",
+"max": 60,
+"mt": "ایک سپلائر کے لیے اس کی لائنوں کے ساتھ شیٹ کو دوبارہ ترتیب دیں۔",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Reorder point from daily sales, lead time and safety days",
+"kind": "title",
+"max": 60,
+"mt": "روزانہ کی فروخت، لیڈ ٹائم اور حفاظتی دنوں سے پوائنٹ کو دوبارہ ترتیب دیں۔",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Type the SKU, the sales per day, the supplier lead time and your safety days; see the reorder point, the point set now and how many days are left before you must order.",
+"kind": "sentence",
+"max": null,
+"mt": "SKU ٹائپ کریں، سیلز فی دن، سپلائر کا لیڈ ٹائم اور آپ کے حفاظتی دن؛ دوبارہ ترتیب دینے کا پوائنٹ دیکھیں، اب سیٹ کیا گیا پوائنٹ اور آپ کو آرڈر کرنے سے پہلے کتنے دن باقی ہیں۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Pallets needed for the units",
+"kind": "label",
+"max": null,
+"mt": "یونٹس کے لیے درکار Pallets",
+"why": "English/Latin words left: Pallets"
+}
+]

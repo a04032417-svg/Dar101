@@ -1,0 +1,240 @@
+[
+{
+"en": "Stock levels, reorder points, counts and dead stock for an online shop",
+"kind": "sentence",
+"max": 80,
+"mt": "Niveaux de stock, points de réapprovisionnement, décomptes et stocks morts pour une boutique en ligne",
+"why": "too long: 101 characters, the limit is 80"
+},
+{
+"en": "the reorder point comes from sales, lead time and safety days, with a suggested order in whole packs, its cost and the date each product runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "le point de commande provient des soldes, des délais et des jours de sécurité, avec une suggestion de commande en packs entiers, son coût et la date d'épuisement de chaque produit",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Days of cover against a seasonal target",
+"kind": "label",
+"max": 50,
+"mt": "Jours de couverture par rapport à un objectif saisonnier",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "every product shows days of cover against the target of its category for this month, and the units above target become overstock value",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque produit affiche des jours de couverture par rapport à l'objectif de sa catégorie pour ce mois, et les unités au-dessus de l'objectif deviennent une valeur de surstock",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "receipts, sales, return restocks, transfers, write-offs and count corrections with value, and the days a receipt waited before booking",
+"kind": "sentence",
+"max": 160,
+"mt": "les reçus, les ventes, les réapprovisionnements de retour, les transferts, les radiations et les corrections de comptage avec valeur, ainsi que les jours d'attente d'un reçu avant la réservation",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "planned counts by category and counter show days to go and, once done, the accuracy and variance from the count lines",
+"kind": "sentence",
+"max": 160,
+"mt": "les décomptes planifiés par catégorie et par compteur montrent les jours restants et, une fois terminés, l'exactitude et l'écart par rapport aux lignes de décompte",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "each stockout shows days out, its cause and the sales lost, so late suppliers and late orders can be told apart",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque rupture de stock indique les jours écoulés, sa cause et les ventes perdues, afin que les fournisseurs en retard et les commandes en retard puissent être distingués",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Return restock",
+"kind": "list",
+"max": 30,
+"mt": "Retourner le réapprovisionnement",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pick and pack zone",
+"kind": "list",
+"max": 30,
+"mt": "Zone de prélèvement et d'emballage",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Returns and seconds shelf",
+"kind": "list",
+"max": 30,
+"mt": "Tablette des retours et des secondes",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Sample used for photos",
+"kind": "list",
+"max": 30,
+"mt": "Échantillon utilisé pour les photos",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Miscount at picking",
+"kind": "list",
+"max": 30,
+"mt": "Erreur de comptage à la cueillette",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Scent or finish fault",
+"kind": "list",
+"max": 30,
+"mt": "Défaut de parfum ou de finition",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Exact",
+"kind": "list",
+"max": 30,
+"mt": "Exact",
+"why": "not translated"
+},
+{
+"en": "Stock by product: on hand, on order and days of cover",
+"kind": "title",
+"max": 60,
+"mt": "Stock par produit : en stock, sur commande et jours de couverture",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Stock by location: each product in each location",
+"kind": "title",
+"max": 60,
+"mt": "Stock par emplacement : chaque produit dans chaque emplacement",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Stock ledger: every movement of units in and out",
+"kind": "title",
+"max": 60,
+"mt": "Registre des stocks : chaque mouvement d'entrée et de sortie d'unités",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Reorder rules and suggestions: what to order this week",
+"kind": "title",
+"max": 60,
+"mt": "Règles de réorganisation et suggestions : quoi commander cette semaine",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Count schedule: cycle counts by category and date",
+"kind": "title",
+"max": 60,
+"mt": "Calendrier d'inventaire : inventaires tournants par catégorie et par date",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Dead and slow stock: days since the last sale and what to do",
+"kind": "title",
+"max": 60,
+"mt": "Stock mort et lent : jours depuis la dernière vente et que faire",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Stock value by month: month-end value per category",
+"kind": "title",
+"max": 60,
+"mt": "Valeur du stock par mois : valeur de fin de mois par catégorie",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Stockout log: days a product could not be sold",
+"kind": "title",
+"max": 60,
+"mt": "Journal de rupture de stock : jours pendant lesquels un produit n'a pas pu être vendu",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Pick zone top-ups: transfers from the main warehouse",
+"kind": "title",
+"max": 60,
+"mt": "Recharges de zones de prélèvement : transferts depuis l'entrepôt principal",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Cartons",
+"kind": "label",
+"max": null,
+"mt": "Cartons",
+"why": "not translated"
+},
+{
+"en": "Bin map: where each product lives in the racks",
+"kind": "title",
+"max": 60,
+"mt": "Plan des bacs : où se trouve chaque produit dans les rayonnages",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Seasonal cover plan: wanted cover by category and month",
+"kind": "title",
+"max": 60,
+"mt": "Plan de couverture saisonnier : couvertures souhaitées par catégorie et par mois",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Seconds stock: graded units on the seconds shelf",
+"kind": "title",
+"max": 60,
+"mt": "Stock de secondes : unités graduées sur l'étagère des secondes",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Supplier returns: units sent back with the credit expected",
+"kind": "title",
+"max": 60,
+"mt": "Retours fournisseurs : unités renvoyées avec le crédit attendu",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Suppliers: contact, lead time and what to order from each",
+"kind": "title",
+"max": 60,
+"mt": "Fournisseurs : contact, délai de livraison et quoi commander chez chacun",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Reorder point from daily sales, lead time and safety days",
+"kind": "title",
+"max": 60,
+"mt": "Point de commande à partir des ventes quotidiennes, des délais de livraison et des jours de sécurité",
+"why": "too long: 100 characters, the limit is 60"
+},
+{
+"en": "Order quantity: balance ordering and holding cost",
+"kind": "title",
+"max": 60,
+"mt": "Quantité commandée : solde de la commande et des coûts de détention",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Safety stock from sales variation and supplier lateness",
+"kind": "title",
+"max": 60,
+"mt": "Stock de sécurité contre les variations des ventes et les retards des fournisseurs",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Seasonal build-up: extra units needed before the peak",
+"kind": "title",
+"max": 60,
+"mt": "Accumulation saisonnière : unités supplémentaires nécessaires avant le pic",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "What-if grid: order size and holding cost",
+"kind": "title",
+"max": 60,
+"mt": "Grille de simulation : taille de la commande et coût de détention",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

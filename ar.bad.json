@@ -1,0 +1,58 @@
+[
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}. Category: {col:products.category}. Status: {col:products.status}. Supplier: {col:products.supplier}.",
+"kind": "document",
+"max": null,
+"mt": "المنتج: {col:products.name} ({col:products.variant})، SKU {col:products.sku}. الفئة: {col:products.category}. الحالة: {col:products.status}. المورد: {col:products.supplier}.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}.",
+"kind": "document",
+"max": null,
+"mt": "المنتج: {col:products.name} ({col:products.variant})، SKU {col:products.sku}.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Dear customer, from {col:pricehist.date} the price of {col:pricehist.product} (SKU {col:pricehist.sku}) changes from {col:pricehist.old_price} to {col:pricehist.new_price}, a change of {col:pricehist.change_pct}.",
+"kind": "document",
+"max": null,
+"mt": "عزيزي العميل، من {col:pricehist.date} يتغير سعر {col:pricehist.product} (SKU {col:pricehist.sku}) من {col:pricehist.old_price} إلى {col:pricehist.new_price}، تغيير بقيمة {col:pricehist.change_pct}.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Margin on Marketplace A per product",
+"kind": "title",
+"max": 60,
+"mt": "الهامش على Marketplace A لكل منتج",
+"why": "English/Latin words left: Marketplace"
+},
+{
+"en": "Read Margin by Channel. Each SKU and channel shows the margin, a verdict and the price needed for the target and the floor.",
+"kind": "sentence",
+"max": null,
+"mt": "اقرأ الهامش حسب القناة. يعرض كل SKU وقناة الهامش والحكم والسعر المطلوب للهدف والحد الأدنى.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Reorder rules and suggestions: what to order this week",
+"kind": "title",
+"max": 60,
+"mt": "إعادة ترتيب القواعد والاقتراحات: ما الذي يجب طلبه هذا الأسبوع",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Reorder point from daily sales, lead time and safety days",
+"kind": "title",
+"max": 60,
+"mt": "نقطة إعادة الطلب من المبيعات اليومية والمهلة الزمنية وأيام السلامة",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Type the SKU, the sales per day, the supplier lead time and your safety days; see the reorder point, the point set now and how many days are left before you must order.",
+"kind": "sentence",
+"max": null,
+"mt": "اكتب SKU، والمبيعات في اليوم، والمهلة الزمنية للمورد وأيام السلامة الخاصة بك؛ راجع نقطة إعادة الطلب والنقطة المحددة الآن وعدد الأيام المتبقية قبل أن تقوم بالطلب.",
+"why": "English/Latin words left: SKU"
+}
+]

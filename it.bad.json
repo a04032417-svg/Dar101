@@ -1,0 +1,191 @@
+[
+{
+"en": "Stock levels, reorder points, counts and dead stock for an online shop",
+"kind": "sentence",
+"max": 80,
+"mt": "Livelli delle scorte, punti di riordino, conteggi e scorte esaurite per un negozio online",
+"why": "too long: 89 characters, the limit is 80"
+},
+{
+"en": "the reorder point comes from sales, lead time and safety days, with a suggested order in whole packs, its cost and the date each product runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "il punto di riordino deriva dalle vendite, dai tempi di consegna e dai giorni di sicurezza, con un ordine suggerito in confezioni intere, il suo costo e la data di esaurimento di ciascun prodotto",
+"why": "too long: 195 characters, the limit is 160"
+},
+{
+"en": "Days of cover against a seasonal target",
+"kind": "label",
+"max": 50,
+"mt": "Giorni di copertura rispetto ad un target stagionale",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Dead and slow stock with a clearance plan",
+"kind": "label",
+"max": 50,
+"mt": "Stock esaurito e lento con un piano di liquidazione",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "units in each pick bin against the bin size show which bins to fill before the next picking run",
+"kind": "sentence",
+"max": 160,
+"mt": "le unità in ciascun contenitore di prelievo rispetto alla dimensione del contenitore mostrano quali contenitori riempire prima dell'esecuzione del prelievo successivo",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Pick and pack zone",
+"kind": "list",
+"max": 30,
+"mt": "Zona prelievo e confezionamento",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Sample used for photos",
+"kind": "list",
+"max": 30,
+"mt": "Campione utilizzato per le foto",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Colour mismatch",
+"kind": "list",
+"max": 30,
+"mt": "Mancata corrispondenza del colore",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Stock by product: on hand, on order and days of cover",
+"kind": "title",
+"max": 60,
+"mt": "Stock per prodotto: disponibilità, su ordinazione e giorni di copertura",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Stock ledger: every movement of units in and out",
+"kind": "title",
+"max": 60,
+"mt": "Registro delle scorte: ogni movimento di unità in entrata e in uscita",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Reorder rules and suggestions: what to order this week",
+"kind": "title",
+"max": 60,
+"mt": "Regole e suggerimenti per il riordino: cosa ordinare questa settimana",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Count schedule: cycle counts by category and date",
+"kind": "title",
+"max": 60,
+"mt": "Pianificazione dei conteggi: conteggi dei cicli per categoria e data",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Dead and slow stock: days since the last sale and what to do",
+"kind": "title",
+"max": 60,
+"mt": "Stock esaurito e lento: giorni dall'ultima vendita e cosa fare",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Stock value by month: month-end value per category",
+"kind": "title",
+"max": 60,
+"mt": "Valore delle azioni per mese: valore di fine mese per categoria",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Stockout log: days a product could not be sold",
+"kind": "title",
+"max": 60,
+"mt": "Registro stockout: giorni in cui non è stato possibile vendere un prodotto",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Pick zone top-ups: transfers from the main warehouse",
+"kind": "title",
+"max": 60,
+"mt": "Ricariche zona prelievo: trasferimenti dal magazzino principale",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Bin map: where each product lives in the racks",
+"kind": "title",
+"max": 60,
+"mt": "Mappa dei contenitori: dove risiede ogni prodotto negli scaffali",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Seasonal cover plan: wanted cover by category and month",
+"kind": "title",
+"max": 60,
+"mt": "Piano di copertura stagionale: copertura ricercata per categoria e mese",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Seconds stock: graded units on the seconds shelf",
+"kind": "title",
+"max": 60,
+"mt": "Stock dei secondi: unità classificate sullo scaffale dei secondi",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Suppliers: contact, lead time and what to order from each",
+"kind": "title",
+"max": 60,
+"mt": "Fornitori: contatti, tempi di consegna e cosa ordinare da ciascuno",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Closing stock value",
+"kind": "label",
+"max": 30,
+"mt": "Valore delle azioni di chiusura",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Reorder point from daily sales, lead time and safety days",
+"kind": "title",
+"max": 60,
+"mt": "Punto di riordino in base alle vendite giornaliere, ai tempi di consegna e ai giorni di sicurezza",
+"why": "too long: 97 characters, the limit is 60"
+},
+{
+"en": "Order quantity: balance ordering and holding cost",
+"kind": "title",
+"max": 60,
+"mt": "Quantità dell'ordine: bilancia l'ordine e il costo di mantenimento",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Days of stock cover and the stockout date",
+"kind": "title",
+"max": 60,
+"mt": "Giorni di copertura delle scorte e data di esaurimento scorte",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Safety stock from sales variation and supplier lateness",
+"kind": "title",
+"max": 60,
+"mt": "Scorte di sicurezza derivanti da variazioni delle vendite e ritardi dei fornitori",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Dead stock clearance: the discount that sells it in N days",
+"kind": "title",
+"max": 60,
+"mt": "Liquidazione delle scorte esaurite: lo sconto che lo vende in N giorni",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "What-if grid: order size and holding cost",
+"kind": "title",
+"max": 60,
+"mt": "Griglia \"what-if\": dimensioni dell'ordine e costi di mantenimento",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

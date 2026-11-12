@@ -1,0 +1,163 @@
+[
+{
+"en": "Know what is on hand, what to reorder and what has stopped selling",
+"kind": "sentence",
+"max": 80,
+"mt": "Wissen Sie, was vorrätig ist, was Sie nachbestellen müssen und was nicht mehr verkauft wird",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "Stock levels, reorder points, counts and dead stock for an online shop",
+"kind": "sentence",
+"max": 80,
+"mt": "Lagerbestände, Nachbestellpunkte, Stückzahlen und Restbestände für einen Online-Shop",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "the reorder point comes from sales, lead time and safety days, with a suggested order in whole packs, its cost and the date each product runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "Der Nachbestellpunkt ergibt sich aus Verkäufen, Lieferzeit und Sicherheitstagen, mit einer empfohlenen Bestellung in ganzen Packungen, den Kosten und dem Datum, an dem jedes Produkt ausläuft",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "every product shows days of cover against the target of its category for this month, and the units above target become overstock value",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jedes Produkt werden Tage der Deckung gegenüber dem Zielwert seiner Kategorie für diesen Monat angezeigt, und die über dem Zielwert liegenden Einheiten werden zu Überbeständen",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "planned counts by category and counter show days to go and, once done, the accuracy and variance from the count lines",
+"kind": "sentence",
+"max": 160,
+"mt": "geplante Zählungen nach Kategorie und Zähler zeigen die verbleibenden Tage an und, sobald sie durchgeführt sind, die Genauigkeit und Abweichung von den Zähllinien",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "each stockout shows days out, its cause and the sales lost, so late suppliers and late orders can be told apart",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jeden Fehlbestand werden Tage, die Ursache und die entgangenen Verkäufe angezeigt, sodass verspätete Lieferanten und verspätete Bestellungen unterschieden werden können",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "Damaged return written off",
+"kind": "list",
+"max": 30,
+"mt": "Beschädigte Rücksendung abgeschrieben",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Returned to supplier",
+"kind": "list",
+"max": 30,
+"mt": "An den Lieferanten zurückgegeben",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Seconds cleared or donated",
+"kind": "list",
+"max": 30,
+"mt": "Sekunden gelöscht oder gespendet",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Stock by product: on hand, on order and days of cover",
+"kind": "title",
+"max": 60,
+"mt": "Lagerbestand nach Produkt: verfügbar, auf Bestellung und Deckungstage",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Reorder rules and suggestions: what to order this week",
+"kind": "title",
+"max": 60,
+"mt": "Regeln und Vorschläge für die Neuordnung: Was Sie diese Woche bestellen sollten",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Open purchase orders: lines still to arrive",
+"kind": "title",
+"max": 60,
+"mt": "Offene Bestellungen: Es müssen noch Warteschlangen eintreffen",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Adjustments and write-offs: units taken out or corrected",
+"kind": "title",
+"max": 60,
+"mt": "Anpassungen und Abschreibungen: herausgenommene oder korrigierte Einheiten",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Dead and slow stock: days since the last sale and what to do",
+"kind": "title",
+"max": 60,
+"mt": "Ausverkaufter und langsamer Lagerbestand: Tage seit dem letzten Verkauf und was zu tun ist",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Stockout log: days a product could not be sold",
+"kind": "title",
+"max": 60,
+"mt": "Lagerbestandsprotokoll: Tage, an denen ein Produkt nicht verkauft werden konnte",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Pick zone top-ups: transfers from the main warehouse",
+"kind": "title",
+"max": 60,
+"mt": "Aufladung der Kommissionierzone: Umlagerungen aus dem Hauptlager",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Seasonal cover plan: wanted cover by category and month",
+"kind": "title",
+"max": 60,
+"mt": "Saisonaler Versicherungsplan: gesuchter Versicherungsschutz nach Kategorie und Monat",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Supplier returns: units sent back with the credit expected",
+"kind": "title",
+"max": 60,
+"mt": "Lieferantenretouren: Einheiten, die mit der erwarteten Gutschrift zurückgesendet werden",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Suppliers: contact, lead time and what to order from each",
+"kind": "title",
+"max": 60,
+"mt": "Lieferanten: Kontakt, Lieferzeit und was man bei jedem bestellen kann",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Reorder point from daily sales, lead time and safety days",
+"kind": "title",
+"max": 60,
+"mt": "Nachbestellpunkt aus täglichen Verkäufen, Vorlaufzeit und Sicherheitstagen",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Safety stock from sales variation and supplier lateness",
+"kind": "title",
+"max": 60,
+"mt": "Sicherheitsbestand aufgrund von Verkaufsschwankungen und Lieferantenverspätungen",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Seasonal build-up: extra units needed before the peak",
+"kind": "title",
+"max": 60,
+"mt": "Saisonaler Aufbau: Vor dem Höhepunkt sind zusätzliche Einheiten erforderlich",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Dead stock clearance: the discount that sells it in N days",
+"kind": "title",
+"max": 60,
+"mt": "Lagerräumung: Der Rabatt, der den Artikel in N Tagen verkauft",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

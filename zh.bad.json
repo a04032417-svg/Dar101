@@ -1,0 +1,44 @@
+[
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}. Category: {col:products.category}. Status: {col:products.status}. Supplier: {col:products.supplier}.",
+"kind": "document",
+"max": null,
+"mt": "产品：{col:products.name} ({col:products.variant})，SKU {col:products.sku}。类别：{col:products.category}。状态：{col:products.status}。供应商：{col:products.supplier}。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}.",
+"kind": "document",
+"max": null,
+"mt": "产品：{col:products.name} ({col:products.variant})，SKU {col:products.sku}。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Dear customer, from {col:pricehist.date} the price of {col:pricehist.product} (SKU {col:pricehist.sku}) changes from {col:pricehist.old_price} to {col:pricehist.new_price}, a change of {col:pricehist.change_pct}.",
+"kind": "document",
+"max": null,
+"mt": "尊敬的客户，从 {col:pricehist.date}起，{col:pricehist.product}（SKU {col:pricehist.sku}）的价格从 {col:pricehist.old_price} 更改为 {col:pricehist.new_price}，变化为 {col:pricehist.change_pct}。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Read Margin by Channel. Each SKU and channel shows the margin, a verdict and the price needed for the target and the floor.",
+"kind": "sentence",
+"max": null,
+"mt": "阅读按渠道划分的保证金。每个 SKU 和渠道都会显示保证金、结论以及目标和底价所需的价格。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Bin size, units",
+"kind": "label",
+"max": null,
+"mt": "Bin 大小、单位",
+"why": "English/Latin words left: Bin"
+},
+{
+"en": "Type the SKU, the sales per day, the supplier lead time and your safety days; see the reorder point, the point set now and how many days are left before you must order.",
+"kind": "sentence",
+"max": null,
+"mt": "输入 SKU、每日销售额、供应商交货时间和您的安全天数；查看再订购点、现在设置的点以及距离必须订购还剩多少天。",
+"why": "English/Latin words left: SKU"
+}
+]

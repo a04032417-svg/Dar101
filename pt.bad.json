@@ -1,0 +1,135 @@
+[
+{
+"en": "Stock levels, reorder points, counts and dead stock for an online shop",
+"kind": "sentence",
+"max": 80,
+"mt": "Níveis de estoque, pontos de reabastecimento, contagens e estoque morto para uma loja online",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "the reorder point comes from sales, lead time and safety days, with a suggested order in whole packs, its cost and the date each product runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "o ponto de reabastecimento vem das vendas, prazo de entrega e dias de segurança, com sugestão de pedido em embalagens inteiras, seu custo e a data de término de cada produto",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Returns and seconds shelf",
+"kind": "list",
+"max": 30,
+"mt": "Prateleira de devoluções e segundos",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Colour mismatch",
+"kind": "list",
+"max": 30,
+"mt": "Incompatibilidade de cores",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Stock by product: on hand, on order and days of cover",
+"kind": "title",
+"max": 60,
+"mt": "Estoque por produto: disponível, sob encomenda e dias de cobertura",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Stock ledger: every movement of units in and out",
+"kind": "title",
+"max": 60,
+"mt": "Livro razão de estoque: cada movimento de entrada e saída de unidades",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Count schedule: cycle counts by category and date",
+"kind": "title",
+"max": 60,
+"mt": "Cronograma de contagem: contagens de ciclo por categoria e data",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Dead and slow stock: days since the last sale and what to do",
+"kind": "title",
+"max": 60,
+"mt": "Estoque morto e lento: dias desde a última venda e o que fazer",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Stock value by month: month-end value per category",
+"kind": "title",
+"max": 60,
+"mt": "Valor do estoque por mês: valor de final de mês por categoria",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Stockout log: days a product could not be sold",
+"kind": "title",
+"max": 60,
+"mt": "Registro de ruptura de estoque: dias em que um produto não pôde ser vendido",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Pick zone top-ups: transfers from the main warehouse",
+"kind": "title",
+"max": 60,
+"mt": "Recargas de zona de picking: transferências do armazém principal",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Seasonal cover plan: wanted cover by category and month",
+"kind": "title",
+"max": 60,
+"mt": "Plano de cobertura sazonal: cobertura desejada por categoria e mês",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Seconds stock: graded units on the seconds shelf",
+"kind": "title",
+"max": 60,
+"mt": "Estoque de segundos: unidades classificadas na prateleira de segundos",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Supplier returns: units sent back with the credit expected",
+"kind": "title",
+"max": 60,
+"mt": "Devoluções de fornecedores: unidades devolvidas com o crédito esperado",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Sell-through: units sold against units available",
+"kind": "title",
+"max": 60,
+"mt": "Venda por distribuidores: unidades vendidas em relação às unidades disponíveis",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Suppliers: contact, lead time and what to order from each",
+"kind": "title",
+"max": 60,
+"mt": "Fornecedores: contato, prazo de entrega e o que pedir de cada um",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Reorder point from daily sales, lead time and safety days",
+"kind": "title",
+"max": 60,
+"mt": "Ponto de reabastecimento de vendas diárias, prazo de entrega e dias de segurança",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Safety stock from sales variation and supplier lateness",
+"kind": "title",
+"max": 60,
+"mt": "Estoque de segurança devido à variação de vendas e atrasos de fornecedores",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Overstock cost: cash tied up and storage",
+"kind": "title",
+"max": 60,
+"mt": "Custo de excesso de estoque: dinheiro amarrado e armazenamento",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

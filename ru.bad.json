@@ -1,0 +1,156 @@
+[
+{
+"en": "Read Margin by Channel. Each SKU and channel shows the margin, a verdict and the price needed for the target and the floor.",
+"kind": "sentence",
+"max": null,
+"mt": "Прочтите Маржа по каналам. Для каждого SKU и канала отображается маржа, вердикт и цена, необходимая для целевого и минимального уровня.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Know what is on hand, what to reorder and what has stopped selling",
+"kind": "sentence",
+"max": 80,
+"mt": "Знайте, что есть в наличии, что нужно заказать повторно, а что больше не продается.",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "Stock levels, reorder points, counts and dead stock for an online shop",
+"kind": "sentence",
+"max": 80,
+"mt": "Уровни запасов, точки повторного заказа, количество и свободные запасы для интернет-магазина",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "the reorder point comes from sales, lead time and safety days, with a suggested order in whole packs, its cost and the date each product runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "точка повторного заказа зависит от продаж, времени выполнения заказа и дней безопасности, с предлагаемым заказом целыми упаковками, его стоимостью и датой окончания каждого продукта.",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "every product shows days of cover against the target of its category for this month, and the units above target become overstock value",
+"kind": "sentence",
+"max": 160,
+"mt": "Для каждого продукта указаны дни покрытия по сравнению с целевым показателем для его категории на этот месяц, а единицы, превышающие целевое значение, становятся стоимостью избыточных запасов.",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "Sample used for photos",
+"kind": "list",
+"max": 30,
+"mt": "Образец, использованный для фотографий",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Miscount at picking",
+"kind": "list",
+"max": 30,
+"mt": "Неправильный подсчет при подборе",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Seconds cleared or donated",
+"kind": "list",
+"max": 30,
+"mt": "Секунды очищены или пожертвованы",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Stock ledger: every movement of units in and out",
+"kind": "title",
+"max": 60,
+"mt": "Журнал запасов: каждое перемещение единиц товара внутрь и наружу.",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Reorder rules and suggestions: what to order this week",
+"kind": "title",
+"max": 60,
+"mt": "Правила и рекомендации по перезаказу: что заказать на этой неделе",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Dead and slow stock: days since the last sale and what to do",
+"kind": "title",
+"max": 60,
+"mt": "Мертвые и медленные акции: дни с момента последней продажи и что делать",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Stock value by month: month-end value per category",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость акций по месяцам: стоимость на конец месяца по категориям",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Stockout log: days a product could not be sold",
+"kind": "title",
+"max": 60,
+"mt": "Журнал дефицита: количество дней, когда товар не удалось продать",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Pick zone top-ups: transfers from the main warehouse",
+"kind": "title",
+"max": 60,
+"mt": "Пополнения зоны Pick: переводы с основного склада",
+"why": "English/Latin words left: Pick"
+},
+{
+"en": "Seasonal cover plan: wanted cover by category and month",
+"kind": "title",
+"max": 60,
+"mt": "Сезонный план покрытия: желаемое покрытие по категориям и месяцам.",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Supplier returns: units sent back with the credit expected",
+"kind": "title",
+"max": 60,
+"mt": "Возврат поставщику: единицы отправлены обратно с ожидаемым кредитом",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Suppliers: contact, lead time and what to order from each",
+"kind": "title",
+"max": 60,
+"mt": "Поставщики: контакты, сроки выполнения и что заказать у каждого",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Reorder point from daily sales, lead time and safety days",
+"kind": "title",
+"max": 60,
+"mt": "Точка повторного заказа с учетом ежедневных продаж, времени выполнения заказа и дней безопасности.",
+"why": "too long: 98 characters, the limit is 60"
+},
+{
+"en": "Safety stock from sales variation and supplier lateness",
+"kind": "title",
+"max": 60,
+"mt": "Страховой запас из-за изменений продаж и опозданий поставщиков",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Seasonal build-up: extra units needed before the peak",
+"kind": "title",
+"max": 60,
+"mt": "Сезонное накопление: перед пиком необходимы дополнительные единицы",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Dead stock clearance: the discount that sells it in N days",
+"kind": "title",
+"max": 60,
+"mt": "Расчистка запасов: скидка, при которой товар будет продан за N дней.",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Overstock cost: cash tied up and storage",
+"kind": "title",
+"max": 60,
+"mt": "Затраты на товарные запасы: денежные средства, связанные и хранящиеся",
+"why": "too long: 69 characters, the limit is 60"
+}
+]

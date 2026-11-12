@@ -1,0 +1,177 @@
+[
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}.",
+"kind": "document",
+"max": null,
+"mt": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}.",
+"why": "not translated"
+},
+{
+"en": "Know what is on hand, what to reorder and what has stopped selling",
+"kind": "sentence",
+"max": 80,
+"mt": "Weet wat er op voorraad is, wat u opnieuw moet bestellen en wat niet meer wordt verkocht",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "the reorder point comes from sales, lead time and safety days, with a suggested order in whole packs, its cost and the date each product runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "het bestelpunt is afkomstig van verkoop-, doorlooptijd- en veiligheidsdagen, met een voorgestelde bestelling in hele verpakkingen, de kosten ervan en de datum waarop elk product opraakt",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "receipts, sales, return restocks, transfers, write-offs and count corrections with value, and the days a receipt waited before booking",
+"kind": "sentence",
+"max": 160,
+"mt": "ontvangsten, verkopen, aanvullingen van retourzendingen, overdrachten, afschrijvingen en telcorrecties met waarde, en de dagen waarop een ontvangstbewijs wachtte voordat er werd geboekt",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "each stockout shows days out, its cause and the sales lost, so late suppliers and late orders can be told apart",
+"kind": "sentence",
+"max": 160,
+"mt": "Bij elke stockout worden de dagen-out, de oorzaak ervan en de verloren verkopen weergegeven, zodat late leveranciers en late bestellingen van elkaar kunnen worden onderscheiden",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Open orders with arrival warnings",
+"kind": "label",
+"max": 50,
+"mt": "Openstaande bestellingen met aankomstwaarschuwingen",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Month-end stock value by category",
+"kind": "label",
+"max": 50,
+"mt": "Aandelenwaarde aan het einde van de maand per categorie",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Stock take correction",
+"kind": "list",
+"max": 30,
+"mt": "Correctie van de voorraadopname",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Miscount at picking",
+"kind": "list",
+"max": 30,
+"mt": "Verkeerde telling bij het plukken",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Damaged return written off",
+"kind": "list",
+"max": 30,
+"mt": "Beschadigde retour afgeschreven",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Exact",
+"kind": "list",
+"max": 30,
+"mt": "Exact",
+"why": "not translated"
+},
+{
+"en": "Stock by product: on hand, on order and days of cover",
+"kind": "title",
+"max": 60,
+"mt": "Voorraad per product: op voorraad, op bestelling en dekkingsdagen",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Reorder rules and suggestions: what to order this week",
+"kind": "title",
+"max": 60,
+"mt": "Regels en suggesties voor opnieuw bestellen: wat moet je deze week bestellen",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Stock takes: counted against the system, line by line",
+"kind": "title",
+"max": 60,
+"mt": "Voorraadopname: regel voor regel afgerekend tegen het systeem",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Adjustments and write-offs: units taken out or corrected",
+"kind": "title",
+"max": 60,
+"mt": "Aanpassingen en afschrijvingen: eenheden verwijderd of gecorrigeerd",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Dead and slow stock: days since the last sale and what to do",
+"kind": "title",
+"max": 60,
+"mt": "Dode en langzame voorraad: dagen sinds de laatste verkoop en wat te doen",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Stockout log: days a product could not be sold",
+"kind": "title",
+"max": 60,
+"mt": "Stockoutlogboek: dagen waarop een product niet verkocht kon worden",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Pick zone top-ups: transfers from the main warehouse",
+"kind": "title",
+"max": 60,
+"mt": "Pickzone-opwaarderingen: overdrachten vanuit het hoofdmagazijn",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Seasonal cover plan: wanted cover by category and month",
+"kind": "title",
+"max": 60,
+"mt": "Seizoensdekkingsplan: gewenste dekking per categorie en maand",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier returns: units sent back with the credit expected",
+"kind": "title",
+"max": 60,
+"mt": "Leveranciersretouren: eenheden die worden teruggestuurd met het verwachte krediet",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Suppliers: contact, lead time and what to order from each",
+"kind": "title",
+"max": 60,
+"mt": "Leveranciers: contact, doorlooptijd en wat te bestellen bij elke leverancier",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Reorder point from daily sales, lead time and safety days",
+"kind": "title",
+"max": 60,
+"mt": "Bestelpunt vanaf dagelijkse verkoop, doorlooptijd en veiligheidsdagen",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Order quantity: balance ordering and holding cost",
+"kind": "title",
+"max": 60,
+"mt": "Bestelhoeveelheid: breng de bestel- en bewaarkosten in evenwicht",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Safety stock from sales variation and supplier lateness",
+"kind": "title",
+"max": 60,
+"mt": "Veiligheidsvoorraad vanwege verkoopvariatie en laattijdigheid van leveranciers",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Dead stock clearance: the discount that sells it in N days",
+"kind": "title",
+"max": 60,
+"mt": "Opruiming van dode voorraad: de korting waarmee het binnen N dagen wordt verkocht",
+"why": "too long: 81 characters, the limit is 60"
+}
+]

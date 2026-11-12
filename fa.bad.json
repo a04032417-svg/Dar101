@@ -1,0 +1,128 @@
+[
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}. Category: {col:products.category}. Status: {col:products.status}. Supplier: {col:products.supplier}.",
+"kind": "document",
+"max": null,
+"mt": "محصول: {col:products.name} ({col:products.variant})، SKU {col:products.sku}. دسته: {col:products.category}. وضعیت: {col:products.status}. تامین کننده: {col:products.supplier}.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}.",
+"kind": "document",
+"max": null,
+"mt": "محصول: {col:products.name} ({col:products.variant})، SKU {col:products.sku}.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Dear customer, from {col:pricehist.date} the price of {col:pricehist.product} (SKU {col:pricehist.sku}) changes from {col:pricehist.old_price} to {col:pricehist.new_price}, a change of {col:pricehist.change_pct}.",
+"kind": "document",
+"max": null,
+"mt": "مشتری گرامی، از {col:pricehist.date} قیمت {col:pricehist.product} (SKU {col:pricehist.sku}) از {col:pricehist.old_price} به {col:pricehist.new_price} تغییر می کند، با تغییر {col:pricehist.change_pct}.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Open Start and type your shop name and your own limits in the yellow cells: target margin, floor margin, packaging and picking cost, items in an order and the days that count as recent.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام مغازه و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: حاشیه هدف، حاشیه کف، هزینه بسته‌بندی و انتخاب، اقلام در یک سفارش و روزهایی که به‌عنوان اخیر به حساب می‌آیند.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Read Margin by Channel. Each SKU and channel shows the margin, a verdict and the price needed for the target and the floor.",
+"kind": "sentence",
+"max": null,
+"mt": "حاشیه بر اساس کانال را بخوانید. هر SKU و کانال حاشیه، حکم و قیمت مورد نیاز برای هدف و کف را نشان می دهد.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Use Price Requests, Price Tests, Competitor Prices, Bundles, Promo Price Plan, Wholesale Tiers, Customers and Launch Plan for the pricing decisions of the year.",
+"kind": "sentence",
+"max": null,
+"mt": "از درخواست قیمت، تست های قیمت، قیمت های رقیب، Bundles، طرح قیمت تبلیغاتی، طبقات عمده فروشی، Customers و طرح راه اندازی برای تصمیم گیری قیمت سال استفاده کنید.",
+"why": "English/Latin words left: Bundles Customers"
+},
+{
+"en": "Know what is on hand, what to reorder and what has stopped selling",
+"kind": "sentence",
+"max": 80,
+"mt": "بدانید چه چیزی در دسترس است، چه چیزی را دوباره سفارش دهید و چه چیزی فروشش متوقف شده است",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "Pick and pack zone",
+"kind": "list",
+"max": 30,
+"mt": "منطقه را انتخاب و بسته بندی کنید",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Reorder rules and suggestions: what to order this week",
+"kind": "title",
+"max": 60,
+"mt": "قوانین و پیشنهادات را دوباره سفارش دهید: این هفته چه چیزی را سفارش دهید",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Dead and slow stock: days since the last sale and what to do",
+"kind": "title",
+"max": 60,
+"mt": "موجودی مرده و کند: روزهای پس از آخرین فروش و کارهایی که باید انجام شود",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Bin map: where each product lives in the racks",
+"kind": "title",
+"max": 60,
+"mt": "Bin map: جایی که هر محصول در قفسه ها زندگی می کند",
+"why": "English/Latin words left: Bin map"
+},
+{
+"en": "Supplier returns: units sent back with the credit expected",
+"kind": "title",
+"max": 60,
+"mt": "بازگشت تامین کننده: واحدهایی با اعتبار مورد انتظار بازگردانده می شوند",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Suppliers: contact, lead time and what to order from each",
+"kind": "title",
+"max": 60,
+"mt": "تامین کنندگان: تماس، زمان تحویل و آنچه از هر کدام باید سفارش داد",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Stock take line with its result",
+"kind": "title",
+"max": 60,
+"mt": "سهام با نتیجه خود مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Type the SKU, the sales per day, the supplier lead time and your safety days; see the reorder point, the point set now and how many days are left before you must order.",
+"kind": "sentence",
+"max": null,
+"mt": "SKU، فروش در روز، زمان عرضه کننده و روزهای ایمنی خود را تایپ کنید. نقطه سفارش مجدد، نقطه تنظیم شده در حال حاضر و چند روز باقی مانده تا شما باید سفارش دهید را ببینید.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Type the lines counted, the lines that matched, the units short and over and the average cost; see the accuracy, the net and gross variance and what the count differences cost.",
+"kind": "sentence",
+"max": null,
+"mt": "خطوط شمارش شده، خطوطی که مطابقت دارند، واحدهای کوتاه و بیشتر و میانگین هزینه را تایپ کنید. دقت، واریانس خالص و ناخالص و هزینه تفاوت های تعداد را ببینید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Lines that matched the system",
+"kind": "label",
+"max": null,
+"mt": "خطوطی که با سیستم مطابقت داشتند",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "What-if grid: order size and holding cost",
+"kind": "title",
+"max": 60,
+"mt": "شبکه What-if: اندازه سفارش و هزینه نگهداری",
+"why": "English/Latin words left: What if"
+}
+]

@@ -1,0 +1,121 @@
+[
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}. Category: {col:products.category}. Status: {col:products.status}. Supplier: {col:products.supplier}.",
+"kind": "document",
+"max": null,
+"mt": "उत्पाद: {col:products.name} ({col:products.variant}), SKU {col:products.sku}. श्रेणी: {col:products.category}. स्थिति: {col:products.status}. आपूर्तिकर्ता: {col:products.supplier}.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Product: {col:products.name} ({col:products.variant}), SKU {col:products.sku}.",
+"kind": "document",
+"max": null,
+"mt": "उत्पाद: {col:products.name} ({col:products.variant}), SKU {col:products.sku}.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Read Margin by Channel. Each SKU and channel shows the margin, a verdict and the price needed for the target and the floor.",
+"kind": "sentence",
+"max": null,
+"mt": "चैनल द्वारा मार्जिन पढ़ें. प्रत्येक SKU और चैनल लक्ष्य और फ़्लोर के लिए आवश्यक मार्जिन, निर्णय और कीमत दिखाता है।",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Reorder rules with run-out dates",
+"kind": "label",
+"max": 50,
+"mt": "रन-आउट तिथियों के साथ नियमों को पुनः व्यवस्थित करें",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "the reorder point comes from sales, lead time and safety days, with a suggested order in whole packs, its cost and the date each product runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "पुन: ऑर्डर बिंदु बिक्री, लीड समय और सुरक्षा दिनों से आता है, जिसमें पूरे पैक में सुझाए गए ऑर्डर, उसकी लागत और प्रत्येक उत्पाद के समाप्त होने की तारीख शामिल होती है।",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Sample used for photos",
+"kind": "list",
+"max": 30,
+"mt": "फ़ोटो के लिए उपयोग किया गया नमूना",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Damaged and not booked",
+"kind": "list",
+"max": 30,
+"mt": "क्षतिग्रस्त और बुक नहीं किया गया",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Damaged return written off",
+"kind": "list",
+"max": 30,
+"mt": "क्षतिग्रस्त वापसी बट्टे खाते में डाल दी गई",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Seconds cleared or donated",
+"kind": "list",
+"max": 30,
+"mt": "सेकंड साफ़ किए गए या दान किए गए",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Stock ledger: every movement of units in and out",
+"kind": "title",
+"max": 60,
+"mt": "स्टॉक बहीखाता: इकाइयों के अंदर और बाहर होने वाली प्रत्येक गतिविधि",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Adjustments and write-offs: units taken out or corrected",
+"kind": "title",
+"max": 60,
+"mt": "समायोजन और बट्टे खाते में डालना: इकाइयों को हटा दिया गया या ठीक किया गया",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Dead and slow stock: days since the last sale and what to do",
+"kind": "title",
+"max": 60,
+"mt": "ख़त्म और धीमा स्टॉक: आखिरी बिक्री के बाद से कई दिन और क्या करें",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Stock value by month: month-end value per category",
+"kind": "title",
+"max": 60,
+"mt": "महीने के हिसाब से स्टॉक का मूल्य: प्रति श्रेणी महीने के अंत का मूल्य",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Supplier returns: units sent back with the credit expected",
+"kind": "title",
+"max": 60,
+"mt": "आपूर्तिकर्ता रिटर्न: इकाइयाँ अपेक्षित क्रेडिट के साथ वापस भेज दी गईं",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Suppliers: contact, lead time and what to order from each",
+"kind": "title",
+"max": 60,
+"mt": "आपूर्तिकर्ता: संपर्क, लीड समय और प्रत्येक से क्या ऑर्डर करना है",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Reorder sheet for one supplier with its lines",
+"kind": "title",
+"max": 60,
+"mt": "एक आपूर्तिकर्ता के लिए उसकी पंक्तियों के साथ शीट को पुन: व्यवस्थित करें",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Type the SKU, the sales per day, the supplier lead time and your safety days; see the reorder point, the point set now and how many days are left before you must order.",
+"kind": "sentence",
+"max": null,
+"mt": "SKU, प्रति दिन बिक्री, आपूर्तिकर्ता का नेतृत्व समय और आपके सुरक्षा दिन टाइप करें; पुन: ऑर्डर बिंदु देखें, अभी निर्धारित बिंदु देखें और आपको ऑर्डर करने से पहले कितने दिन बचे हैं।",
+"why": "English/Latin words left: SKU"
+}
+]

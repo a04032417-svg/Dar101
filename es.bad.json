@@ -1,0 +1,156 @@
+[
+{
+"en": "Stock levels, reorder points, counts and dead stock for an online shop",
+"kind": "sentence",
+"max": 80,
+"mt": "Niveles de stock, puntos de reorden, recuentos y stock muerto para una tienda online",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "the reorder point comes from sales, lead time and safety days, with a suggested order in whole packs, its cost and the date each product runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "el punto de reorden proviene de los días de venta, tiempo de entrega y seguridad, con una sugerencia de pedido en paquetes completos, su costo y la fecha de caducidad de cada producto.",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "every product shows days of cover against the target of its category for this month, and the units above target become overstock value",
+"kind": "sentence",
+"max": 160,
+"mt": "Cada producto muestra días de cobertura contra el objetivo de su categoría para este mes, y las unidades por encima del objetivo se convierten en valor de exceso de existencias.",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "each stockout shows days out, its cause and the sales lost, so late suppliers and late orders can be told apart",
+"kind": "sentence",
+"max": 160,
+"mt": "Cada desabastecimiento muestra los días agotados, su causa y las ventas perdidas, de modo que se pueden diferenciar los proveedores retrasados y los pedidos retrasados.",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "units in each pick bin against the bin size show which bins to fill before the next picking run",
+"kind": "sentence",
+"max": 160,
+"mt": "Las unidades en cada contenedor de recolección en comparación con el tamaño del contenedor muestran qué contenedores llenar antes de la siguiente ejecución de recolección.",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Returns and seconds shelf",
+"kind": "list",
+"max": 30,
+"mt": "Estante de devoluciones y segundos.",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Stock by product: on hand, on order and days of cover",
+"kind": "title",
+"max": 60,
+"mt": "Stock por producto: disponible, bajo pedido y días de cobertura",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Stock ledger: every movement of units in and out",
+"kind": "title",
+"max": 60,
+"mt": "Libro mayor de existencias: cada movimiento de entrada y salida de unidades.",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Stockout log: days a product could not be sold",
+"kind": "title",
+"max": 60,
+"mt": "Registro de desabastecimiento: días que no se pudo vender un producto",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Pick zone top-ups: transfers from the main warehouse",
+"kind": "title",
+"max": 60,
+"mt": "Recargas de zona de pick: transferencias desde el almacén principal",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Bin map: where each product lives in the racks",
+"kind": "title",
+"max": 60,
+"mt": "Mapa de contenedores: dónde se encuentra cada producto en los racks",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Seasonal cover plan: wanted cover by category and month",
+"kind": "title",
+"max": 60,
+"mt": "Plan de cobertura estacional: cobertura deseada por categoría y mes",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Seconds stock: graded units on the seconds shelf",
+"kind": "title",
+"max": 60,
+"mt": "Stock de segundos: unidades graduadas en el estante de segundos",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Supplier returns: units sent back with the credit expected",
+"kind": "title",
+"max": 60,
+"mt": "Devoluciones de proveedores: unidades devueltas con el crédito esperado",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Suppliers: contact, lead time and what to order from each",
+"kind": "title",
+"max": 60,
+"mt": "Proveedores: contacto, plazo de entrega y qué pedir a cada uno",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Closing stock value",
+"kind": "label",
+"max": 30,
+"mt": "Valor de cierre de las acciones",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Reorder point from daily sales, lead time and safety days",
+"kind": "title",
+"max": 60,
+"mt": "Punto de reorden de ventas diarias, plazo de entrega y días de seguridad",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Safety stock from sales variation and supplier lateness",
+"kind": "title",
+"max": 60,
+"mt": "Stock de seguridad ante variación de ventas y retrasos de proveedores.",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Seasonal build-up: extra units needed before the peak",
+"kind": "title",
+"max": 60,
+"mt": "Acumulación estacional: se necesitan unidades adicionales antes del pico",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Dead stock clearance: the discount that sells it in N days",
+"kind": "title",
+"max": 60,
+"mt": "Liquidación de stock muerto: el descuento que lo vende en N días",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Overstock cost: cash tied up and storage",
+"kind": "title",
+"max": 60,
+"mt": "Costo de exceso de existencias: efectivo inmovilizado y almacenamiento",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "What-if grid: order size and holding cost",
+"kind": "title",
+"max": 60,
+"mt": "Cuadrícula hipotética: tamaño del pedido y costo de mantenimiento",
+"why": "too long: 65 characters, the limit is 60"
+}
+]
