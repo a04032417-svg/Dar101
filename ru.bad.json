@@ -1,0 +1,142 @@
+[
+{
+"en": "Labour, material and plant by cost code",
+"kind": "title",
+"max": 60,
+"mt": "Рабочая сила, материалы и строительное оборудование по кодам затрат",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Enter each tender on Tender Register with its deadline and price. Direct cost comes from Estimate Lines, then margin, days to the deadline and the status fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите каждый тендер на Тендерный реестр, указав его срок и цену. Прямая стоимость рассчитывается из Estimate lines, затем маржи, дней до крайнего срока и заполнения статуса.",
+"why": "English/Latin words left: Estimate lines"
+},
+{
+"en": "Price a tender on Estimate Lines: choose the tender and cost code, then type the quantity and the rates for each unit. Keep standard rates on Unit Rate Library, Labour Rates, Material Prices and Plant Hire Rates.",
+"kind": "sentence",
+"max": null,
+"mt": "Оцените тендер на Estimate lines: выберите тендер и код стоимости, затем введите количество и расценки для каждой единицы. Сохраните стандартные тарифы на Библиотека расценок за единицу, Ставки труда, Цены на материалы и Цены на аренду строительной техники.",
+"why": "English/Latin words left: Estimate lines"
+},
+{
+"en": "Log every subcontractor quote on Subcontractor Quotes. Each quote is ranked inside its package and compared with the average.",
+"kind": "sentence",
+"max": null,
+"mt": "Записывайте каждое предложение субподрядчика на Subcontractor quotes. Каждая цитата ранжируется внутри своего пакета и сравнивается со средним значением.",
+"why": "English/Latin words left: Subcontractor quotes."
+},
+{
+"en": "Write what you found on Site Visits, price the dangers on Risks and Allowances, and state what the price leaves out on Exclusions.",
+"kind": "sentence",
+"max": null,
+"mt": "Напишите, что вы нашли в Construction site visits, оцените опасности в Риски и допуски и укажите, что не учитывается в цене в Исключениях.",
+"why": "English/Latin words left: Construction site visits"
+},
+{
+"en": "When a tender is won, add it to Contract Register with value, retention, payment days, defects months and damages for each day late, then list its Contract Milestones and its Insurance and Bonds.",
+"kind": "sentence",
+"max": null,
+"mt": "Когда тендер выигран, добавьте его в Contract register с указанием стоимости, суммы удержания, дней оплаты, месяцев дефектов и ущерба за каждый день просрочки, затем перечислите его Contract milestones и Страхование и банковские гарантии.",
+"why": "English/Latin words left: Contract register Contract milestones"
+},
+{
+"en": "Record each lost tender on Lost Tenders with the reason and the winning price, and read Win Rate by Kind and Tender Months to see where you win.",
+"kind": "sentence",
+"max": null,
+"mt": "Запишите каждое проигранное тендерное предложение на Lost tenders с указанием причины и выигрышной цены и прочтите Win rate by kind и Тендерные месяцы, чтобы узнать, в каком случае вы выиграли.",
+"why": "English/Latin words left: Lost tenders Win rate"
+},
+{
+"en": "Project schedule, site diary and delay claims for every job you build",
+"kind": "sentence",
+"max": 80,
+"mt": "График проекта, дневник строительной площадки и требования о задержке оплаты для каждого строящегося вами проекта.",
+"why": "too long: 114 characters, the limit is 80"
+},
+{
+"en": "Schedule with finish dates that calculate",
+"kind": "label",
+"max": 50,
+"mt": "Расписание с датами окончания, которые рассчитываются",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Planned against actual progress for each project",
+"kind": "label",
+"max": 50,
+"mt": "Планируется с учетом фактического прогресса по каждому проекту",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "Daily site diary with labour cost",
+"kind": "label",
+"max": 50,
+"mt": "Ежедневный дневник строительной площадки со стоимостью рабочей силы",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "Delay log with cost and claim position",
+"kind": "label",
+"max": 50,
+"mt": "Журнал задержек с указанием стоимости и позиции требования об оплате",
+"why": "too long: 68 characters, the limit is 50"
+},
+{
+"en": "RFI tracker with working-day due dates",
+"kind": "label",
+"max": 50,
+"mt": "запрос на отслеживание информации со сроками выполнения в рабочие дни",
+"why": "too long: 69 characters, the limit is 50"
+},
+{
+"en": "each job shows the crew and whether materials and plant are ready, so blocked jobs are known early",
+"kind": "sentence",
+"max": 160,
+"mt": "на каждом задании указывается рабочая бригада, а также готовность материалов и строительного оборудования, поэтому заблокированные задания становятся известны заранее.",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Site setup",
+"kind": "list",
+"max": 30,
+"mt": "Устройство строительной площадки",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Site diary: one entry for each project and day",
+"kind": "title",
+"max": 60,
+"mt": "Дневник строительной площадки: одна запись для каждого проекта и дня.",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Site setup checklist items",
+"kind": "title",
+"max": 60,
+"mt": "Пункты контрольного списка по настройке строительной площадки",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Forecast of days late from progress so far",
+"kind": "title",
+"max": 60,
+"mt": "Прогноз дней опоздания относительно прогресса на данный момент",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Crew size needed to finish on time",
+"kind": "title",
+"max": 60,
+"mt": "Размер рабочей бригады, необходимый для завершения работ в срок",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cost of catching up with extra workers or overtime",
+"kind": "title",
+"max": 60,
+"mt": "Затраты на найм дополнительных работников или сверхурочную работу",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

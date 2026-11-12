@@ -1,0 +1,86 @@
+[
+{
+"en": "To {col:tenders.client_name}. Project: {col:tenders.project}.",
+"kind": "document",
+"max": null,
+"mt": "{col:tenders.client_name} को. प्रोजेक्ट 1}।",
+"why": "placeholders must be exactly: {col:tenders.client_name} {col:tenders.project}"
+},
+{
+"en": "To {col:tenders.client_name}. Project: {col:tenders.project}. The tender deadline is {col:tenders.deadline}.",
+"kind": "document",
+"max": null,
+"mt": "{col:tenders.client_name} को. प्रोजेक्ट 1}। निविदा की समय सीमा {col:tenders.deadline} है।",
+"why": "placeholders must be exactly: {col:tenders.client_name} {col:tenders.project} {col:tenders.deadline}"
+},
+{
+"en": "Letter asking a client for feedback after a lost tender",
+"kind": "title",
+"max": 60,
+"mt": "एक निविदा खो जाने के बाद एक ग्राहक से प्रतिक्रिया माँगता हुआ पत्र",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "To {col:lost.client_name}. Project: {col:lost.proj}.",
+"kind": "document",
+"max": null,
+"mt": "{col:lost.client_name} को. प्रोजेक्ट 1}।",
+"why": "placeholders must be exactly: {col:lost.client_name} {col:lost.proj}"
+},
+{
+"en": "To {col:leads.client_name}. Project: {col:leads.project}.",
+"kind": "document",
+"max": null,
+"mt": "{col:leads.client_name} को. प्रोजेक्ट 1}।",
+"why": "placeholders must be exactly: {col:leads.client_name} {col:leads.project}"
+},
+{
+"en": "To {col:contracts.client_name}. Project: {col:contracts.name}. Contract type: {col:contracts.ctype}.",
+"kind": "document",
+"max": null,
+"mt": "{col:contracts.client_name} को. प्रोजेक्ट 1}। अनुबंध प्रकार: {col:contracts.ctype}.",
+"why": "placeholders must be exactly: {col:contracts.client_name} {col:contracts.name} {col:contracts.ctype}"
+},
+{
+"en": "To {col:bonds.provider}. Project: {col:bonds.proj}. Cover: {col:bonds.type}.",
+"kind": "document",
+"max": null,
+"mt": "{col:bonds.provider} को. प्रोजेक्ट 1}। कवर: {col:bonds.type}.",
+"why": "placeholders must be exactly: {col:bonds.provider} {col:bonds.proj} {col:bonds.type}"
+},
+{
+"en": "Project schedule, site diary and delay claims for every job you build",
+"kind": "sentence",
+"max": 80,
+"mt": "आपके द्वारा बनाए गए प्रत्येक कार्य के लिए प्रोजेक्ट शेड्यूल, निर्माण स्थल डायरी और विलंब भुगतान दावे",
+"why": "too long: 100 characters, the limit is 80"
+},
+{
+"en": "Schedule with finish dates that calculate",
+"kind": "label",
+"max": 50,
+"mt": "समाप्ति तिथियों के साथ शेड्यूल करें जो गणना करता है",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Planned against actual progress for each project",
+"kind": "label",
+"max": 50,
+"mt": "प्रत्येक परियोजना के लिए वास्तविक प्रगति के विरुद्ध योजना बनाई गई",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "RFI tracker with working-day due dates",
+"kind": "label",
+"max": 50,
+"mt": "कार्य दिवस की नियत तिथियों के साथ सूचना ट्रैकर के लिए अनुरोध",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "Site diary: one entry for each project and day",
+"kind": "title",
+"max": 60,
+"mt": "निर्माण स्थल डायरी: प्रत्येक परियोजना और दिन के लिए एक प्रविष्टि",
+"why": "too long: 64 characters, the limit is 60"
+}
+]
