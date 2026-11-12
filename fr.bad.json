@@ -1,0 +1,282 @@
+[
+{
+"en": "Control subcontractors, payments, crews and labour cost in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Contrôlez les sous-traitants, les paiements, les équipes de travail et le coût de la main-d'œuvre dans un seul classeur",
+"why": "too long: 119 characters, the limit is 80"
+},
+{
+"en": "Control subcontractors, payments, crews and labour cost",
+"kind": "sentence",
+"max": 80,
+"mt": "Contrôler les sous-traitants, les paiements, les équipes de travail et le coût de la main d'œuvre",
+"why": "too long: 97 characters, the limit is 80"
+},
+{
+"en": "work done to date less retention less earlier payments gives the payment due, the days open, late interest and a status that shows what is overdue or disputed",
+"kind": "sentence",
+"max": 160,
+"mt": "le travail effectué à ce jour moins la retenue de garantie moins les paiements antérieurs donne le paiement dû, les jours ouverts, les intérêts de retard et un statut indiquant ce qui est en retard ou contesté",
+"why": "too long: 209 characters, the limit is 160"
+},
+{
+"en": "Retention held for every subcontractor",
+"kind": "label",
+"max": 50,
+"mt": "Argent de rétention retenu pour chaque sous-traitant",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "each package shows work certified, its retention rate and the retention held, and the subcontractor sheet adds it up across packages",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque package indique le travail certifié, son taux de retenue de garantie et la retenue de garantie retenue, et la fiche du sous-traitant les additionne à travers les packages",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "insurance, licence, safety plan and tax certificates show days left and warn before they end, with the subcontractors that must stop work",
+"kind": "sentence",
+"max": 160,
+"mt": "l'assurance, le permis, le plan de sécurité et les attestations fiscales indiquent les jours restants et préviennent avant leur fin, les sous-traitants qui doivent arrêter le travail",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "Subcontract variations with waiting time",
+"kind": "label",
+"max": 50,
+"mt": "Variations de contrat de sous-traitance avec délai d'attente",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "each variation shows its reason, amount, days waiting and whether it needs a decision, and approved ones change the package value",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque variation de contrat indique sa raison, son montant, les jours d'attente et si elle nécessite une décision, et celles approuvées modifient la valeur du forfait",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Weekly timesheets costed at loaded rates",
+"kind": "label",
+"max": 50,
+"mt": "Feuilles de temps hebdomadaires chiffrées aux tarifs chargés",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "normal and overtime hours for every worker and week are costed with wage, on-costs and overtime factor, and checked against the weekly overtime limit",
+"kind": "sentence",
+"max": 160,
+"mt": "les heures normales et supplémentaires pour chaque travailleur et chaque semaine sont chiffrées avec le salaire, les coûts et le facteur heures supplémentaires, et vérifiées par rapport à la limite hebdomadaire des heures supplémentaires",
+"why": "too long: 237 characters, the limit is 160"
+},
+{
+"en": "Crews with own and agency workers",
+"kind": "label",
+"max": 50,
+"mt": "Équipes de travail composées de travailleurs indépendants et intérimaires",
+"why": "too long: 73 characters, the limit is 50"
+},
+{
+"en": "each gang shows its target size, own workers, agency workers, the gap and the hours worked over the last four weeks",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque équipe de travail affiche sa taille cible, ses propres travailleurs, les travailleurs intérimaires, l'écart et les heures travaillées au cours des quatre dernières semaines",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "every course shows its end date, days left and a status, and a worker with an ended certificate is shown as not cleared for site",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque cours affiche sa date de fin, les jours restants et un statut, et un travailleur avec un certificat terminé est affiché comme non autorisé pour le chantier de construction",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "Labour cost against budget by project",
+"kind": "label",
+"max": 50,
+"mt": "Coût de la main d'œuvre par rapport au budget par projet",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "hours, overtime share, cost, absence cost and subcontract payments for each month show the amount accrued but not yet paid",
+"kind": "sentence",
+"max": 160,
+"mt": "les heures, la part des heures supplémentaires, le coût, le coût d'absence et les paiements de sous-traitance pour chaque mois indiquent le montant accumulé mais non encore payé",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Omission",
+"kind": "list",
+"max": 30,
+"mt": "Omission",
+"why": "not translated"
+},
+{
+"en": "Permanent",
+"kind": "list",
+"max": 30,
+"mt": "Permanent",
+"why": "not translated"
+},
+{
+"en": "Acceptable",
+"kind": "list",
+"max": 30,
+"mt": "Acceptable",
+"why": "not translated"
+},
+{
+"en": "Projects with their subcontract and own labour share",
+"kind": "title",
+"max": 60,
+"mt": "Projets avec leur sous-traitance et leur propre part de travail",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Subcontractors: value, retention, rating and documents",
+"kind": "title",
+"max": 60,
+"mt": "Sous-traitants : valeur, retenue de garantie, notation et documents",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Subcontract packages: value, retention, progress and dates",
+"kind": "title",
+"max": 60,
+"mt": "Forfaits de sous-traitance : valeur, retenue de garantie, avancement et dates",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Payment applications: work done less retention",
+"kind": "title",
+"max": 60,
+"mt": "Demandes de paiement : travail effectué moins argent de rétention",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Subcontractor variations: extra work, changes and omissions",
+"kind": "title",
+"max": 60,
+"mt": "Variations du contrat de sous-traitance : travail supplémentaire, modifications et omissions",
+"why": "too long: 92 characters, the limit is 60"
+},
+{
+"en": "Subcontractor performance ratings after each review",
+"kind": "title",
+"max": 60,
+"mt": "Évaluations des performances des sous-traitants après chaque examen",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Crews and gangs with own workers and agency labour",
+"kind": "title",
+"max": 60,
+"mt": "Équipes de travail et équipes de travail avec leurs propres travailleurs et travailleurs intérimaires",
+"why": "too long: 101 characters, the limit is 60"
+},
+{
+"en": "Own workers: crew, wage, loaded cost, use and certificates",
+"kind": "title",
+"max": 60,
+"mt": "Propres travailleurs : équipe de travail, salaire, coût chargé, utilisation et certificats",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Weekly timesheets: hours, overtime and cost for every worker",
+"kind": "title",
+"max": 60,
+"mt": "Feuilles de temps hebdomadaires : heures, heures supplémentaires et coût pour chaque travailleur",
+"why": "too long: 96 characters, the limit is 60"
+},
+{
+"en": "Approved overtime with reason and premium cost",
+"kind": "title",
+"max": 60,
+"mt": "Heures supplémentaires approuvées avec motif et coût de la prime",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Labour productivity: output for each worker-day against plan",
+"kind": "title",
+"max": 60,
+"mt": "Productivité du travail : production pour chaque jour-travailleur par rapport au plan",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Training and safety certificates with expiry dates",
+"kind": "title",
+"max": 60,
+"mt": "Certificats de formation et de sécurité avec dates d'expiration",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Site induction records with score and card issued",
+"kind": "title",
+"max": 60,
+"mt": "Dossiers d'initiation au chantier de construction avec score et carte délivrés",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Trade rates: wage, on-costs, overtime and agency day rate",
+"kind": "title",
+"max": 60,
+"mt": "Tarifs commerciaux : salaires, frais généraux, heures supplémentaires et taux journalier d'agence",
+"why": "too long: 97 characters, the limit is 60"
+},
+{
+"en": "Payments, labour cost, overtime and absence by month",
+"kind": "title",
+"max": 60,
+"mt": "Paiements, coût de la main d'œuvre, heures supplémentaires et absences par mois",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Subcontract payment due: work done less retention less paid",
+"kind": "title",
+"max": 60,
+"mt": "Paiement de sous-traitance dû : travail effectué moins la retenue de garantie moins payé",
+"why": "too long: 88 characters, the limit is 60"
+},
+{
+"en": "Compliance expiry alarm for subcontractors and workers",
+"kind": "title",
+"max": 60,
+"mt": "Alarme d’expiration de conformité pour les sous-traitants et les travailleurs",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Labour cost per hour: wage plus all on-costs",
+"kind": "title",
+"max": 60,
+"mt": "Coût horaire de la main-d'œuvre : salaire plus tous les frais généraux",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Crew size needed to finish by a target date",
+"kind": "title",
+"max": 60,
+"mt": "Taille de l'équipe de travail nécessaire pour terminer avant une date cible",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Productivity rate against plan and the days it costs you",
+"kind": "title",
+"max": 60,
+"mt": "Taux de productivité par rapport au plan et jours que cela vous coûte",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Overtime cost and when extra workers are cheaper",
+"kind": "title",
+"max": 60,
+"mt": "Coût des heures supplémentaires et quand les travailleurs supplémentaires sont moins chers",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Request to complete and release retention",
+"kind": "title",
+"max": 60,
+"mt": "Demande de finalisation et de déblocage de la retenue de garantie",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

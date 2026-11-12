@@ -1,0 +1,198 @@
+[
+{
+"en": "Control subcontractors, payments, crews and labour cost in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Контролируйте субподрядчиков, платежи, рабочие бригады и стоимость рабочей силы в одной книге",
+"why": "too long: 93 characters, the limit is 80"
+},
+{
+"en": "work done to date less retention less earlier payments gives the payment due, the days open, late interest and a status that shows what is overdue or disputed",
+"kind": "sentence",
+"max": 160,
+"mt": "выполненная на сегодняшний день работа за вычетом удержанных денег за вычетом более ранних платежей дает срок платежа, открытые дни, проценты за просрочку и статус, показывающий, что просрочено или оспаривается",
+"why": "too long: 210 characters, the limit is 160"
+},
+{
+"en": "Retention held for every subcontractor",
+"kind": "label",
+"max": 50,
+"mt": "Удержанные деньги удерживаются для каждого субподрядчика",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "insurance, licence, safety plan and tax certificates show days left and warn before they end, with the subcontractors that must stop work",
+"kind": "sentence",
+"max": 160,
+"mt": "страховка, лицензия, план обеспечения безопасности и налоговые сертификаты показывают оставшиеся дни и предупреждают перед их окончанием, а также субподрядчиков, которые должны прекратить работу",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "Weekly timesheets costed at loaded rates",
+"kind": "label",
+"max": 50,
+"mt": "Еженедельные табели учета рабочего времени оплачиваются по загруженным ставкам",
+"why": "too long: 78 characters, the limit is 50"
+},
+{
+"en": "normal and overtime hours for every worker and week are costed with wage, on-costs and overtime factor, and checked against the weekly overtime limit",
+"kind": "sentence",
+"max": 160,
+"mt": "Нормальные и сверхурочные часы для каждого работника и недели рассчитываются с учетом заработной платы, дополнительных затрат и коэффициента сверхурочной работы и сверяются с недельным лимитом сверхурочной работы.",
+"why": "too long: 213 characters, the limit is 160"
+},
+{
+"en": "every course shows its end date, days left and a status, and a worker with an ended certificate is shown as not cleared for site",
+"kind": "sentence",
+"max": 160,
+"mt": "на каждом курсе отображается дата окончания, оставшиеся дни и статус, а рабочий с истекшим сертификатом отображается как не допущенный к работе на строительной площадке.",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Labour cost against budget by project",
+"kind": "label",
+"max": 50,
+"mt": "Затраты на рабочую силу в зависимости от бюджета по проектам",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "Scaffold use",
+"kind": "list",
+"max": 30,
+"mt": "Использование строительных лесов",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Certificate expired",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия сертификата истек",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Subcontractors: value, retention, rating and documents",
+"kind": "title",
+"max": 60,
+"mt": "Субподрядчики: стоимость, удержанные деньги, рейтинг и документы",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Subcontract packages: value, retention, progress and dates",
+"kind": "title",
+"max": 60,
+"mt": "Пакеты субподрядов: стоимость, удержанные деньги, ход выполнения и даты",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Payment applications: work done less retention",
+"kind": "title",
+"max": 60,
+"mt": "Платежные приложения: выполненная работа меньше денег за удержание",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Subcontractor variations: extra work, changes and omissions",
+"kind": "title",
+"max": 60,
+"mt": "Варианты договора субподрядчика: дополнительные работы, изменения и упущения",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Crews and gangs with own workers and agency labour",
+"kind": "title",
+"max": 60,
+"mt": "Рабочие бригады и рабочие бригады с собственными работниками и заемным трудом",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Own workers: crew, wage, loaded cost, use and certificates",
+"kind": "title",
+"max": 60,
+"mt": "Собственные работники: рабочая бригада, заработная плата, стоимость загрузки, использование и сертификаты",
+"why": "too long: 105 characters, the limit is 60"
+},
+{
+"en": "Weekly timesheets: hours, overtime and cost for every worker",
+"kind": "title",
+"max": 60,
+"mt": "Еженедельные табели учета рабочего времени: часы, сверхурочная работа и стоимость для каждого работника",
+"why": "too long: 103 characters, the limit is 60"
+},
+{
+"en": "Approved overtime with reason and premium cost",
+"kind": "title",
+"max": 60,
+"mt": "Утверждена сверхурочная работа с указанием причины и стоимости премии.",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Labour productivity: output for each worker-day against plan",
+"kind": "title",
+"max": 60,
+"mt": "Производительность труда: выработка за каждый рабочий день по плану",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Trade rates: wage, on-costs, overtime and agency day rate",
+"kind": "title",
+"max": 60,
+"mt": "Торговые ставки: заработная плата, накладные расходы, сверхурочные и агентская дневная ставка.",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Payments, labour cost, overtime and absence by month",
+"kind": "title",
+"max": 60,
+"mt": "Выплаты, стоимость рабочей силы, сверхурочные и отсутствия по месяцам",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Subcontract payment due",
+"kind": "label",
+"max": 30,
+"mt": "Причитающийся платеж по субподряду",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Subcontract payment due: work done less retention less paid",
+"kind": "title",
+"max": 60,
+"mt": "Причитающийся платеж по субподряду: выполненная работа за вычетом удержанных денег за вычетом выплаченных средств",
+"why": "too long: 113 characters, the limit is 60"
+},
+{
+"en": "Compliance expiry alarm for subcontractors and workers",
+"kind": "title",
+"max": 60,
+"mt": "Сигнализация об истечении срока действия для субподрядчиков и рабочих",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Labour cost per hour: wage plus all on-costs",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость труда в час: заработная плата плюс все накладные расходы.",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Crew size needed to finish by a target date",
+"kind": "title",
+"max": 60,
+"mt": "Размер рабочей бригады, необходимый для завершения к установленному сроку",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Productivity rate against plan and the days it costs you",
+"kind": "title",
+"max": 60,
+"mt": "Уровень производительности по сравнению с планом и количество дней, в которые это обходится вам",
+"why": "too long: 95 characters, the limit is 60"
+},
+{
+"en": "Overtime cost and when extra workers are cheaper",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость сверхурочной работы и когда дополнительные работники обходятся дешевле",
+"why": "too long: 80 characters, the limit is 60"
+}
+]

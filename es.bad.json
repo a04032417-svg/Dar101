@@ -1,0 +1,233 @@
+[
+{
+"en": "Control subcontractors, payments, crews and labour cost in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Controle los subcontratistas, los pagos, los equipos de trabajo y los costos laborales en un solo libro de trabajo.",
+"why": "too long: 115 characters, the limit is 80"
+},
+{
+"en": "work done to date less retention less earlier payments gives the payment due, the days open, late interest and a status that shows what is overdue or disputed",
+"kind": "sentence",
+"max": 160,
+"mt": "trabajo realizado hasta la fecha menos dinero retenido menos pagos anteriores proporciona el pago vencido, los días abiertos, los intereses atrasados y un estado que muestra lo que está vencido o en disputa",
+"why": "too long: 206 characters, the limit is 160"
+},
+{
+"en": "Retention held for every subcontractor",
+"kind": "label",
+"max": 50,
+"mt": "Dinero de retención retenido para cada subcontratista",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "each package shows work certified, its retention rate and the retention held, and the subcontractor sheet adds it up across packages",
+"kind": "sentence",
+"max": 160,
+"mt": "Cada paquete muestra el trabajo certificado, su tasa de retención de dinero y el dinero de retención retenido, y la hoja de subcontratista lo suma en todos los paquetes.",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "insurance, licence, safety plan and tax certificates show days left and warn before they end, with the subcontractors that must stop work",
+"kind": "sentence",
+"max": 160,
+"mt": "Seguros, licencia, plan de seguridad y certificados fiscales muestran los días que faltan y avisan antes de que finalicen, con los subcontratistas que deben parar el trabajo.",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Subcontract variations with waiting time",
+"kind": "label",
+"max": 50,
+"mt": "Variaciones de contrato de subcontratación con tiempo de espera",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "Weekly timesheets costed at loaded rates",
+"kind": "label",
+"max": 50,
+"mt": "Hojas de horas semanales calculadas a tarifas cargadas",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "normal and overtime hours for every worker and week are costed with wage, on-costs and overtime factor, and checked against the weekly overtime limit",
+"kind": "sentence",
+"max": 160,
+"mt": "Las horas normales y extras para cada trabajador y semana se calculan con salario, costos adicionales y factor de horas extras, y se comparan con el límite de horas extras semanales.",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "Crews with own and agency workers",
+"kind": "label",
+"max": 50,
+"mt": "Equipos de trabajo con trabajadores propios y de agencia",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "each gang shows its target size, own workers, agency workers, the gap and the hours worked over the last four weeks",
+"kind": "sentence",
+"max": 160,
+"mt": "Cada equipo de trabajo muestra su tamaño objetivo, trabajadores propios, trabajadores de agencia, la brecha y las horas trabajadas durante las últimas cuatro semanas.",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "every course shows its end date, days left and a status, and a worker with an ended certificate is shown as not cleared for site",
+"kind": "sentence",
+"max": 160,
+"mt": "cada curso muestra su fecha de finalización, los días que quedan y un estado, y un trabajador con un certificado finalizado se muestra como no autorizado para el sitio de construcción",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "Cleared for site",
+"kind": "list",
+"max": 30,
+"mt": "Autorizado para el sitio de construcción",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Projects with their subcontract and own labour share",
+"kind": "title",
+"max": 60,
+"mt": "Proyectos con su subcontratación y participación en mano de obra propia.",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Subcontractors: value, retention, rating and documents",
+"kind": "title",
+"max": 60,
+"mt": "Subcontratistas: valor, retención de dinero, calificación y documentos",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Subcontract packages: value, retention, progress and dates",
+"kind": "title",
+"max": 60,
+"mt": "Paquetes de subcontratación: valor, dinero retenido, progreso y fechas",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Payment applications: work done less retention",
+"kind": "title",
+"max": 60,
+"mt": "Aplicaciones de pago: trabajo realizado menos retención de dinero",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Subcontractor variations: extra work, changes and omissions",
+"kind": "title",
+"max": 60,
+"mt": "Variaciones del contrato de subcontratación: trabajos extras, cambios y omisiones",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Subcontractor performance ratings after each review",
+"kind": "title",
+"max": 60,
+"mt": "Calificaciones de desempeño de los subcontratistas después de cada revisión",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Crews and gangs with own workers and agency labour",
+"kind": "title",
+"max": 60,
+"mt": "Equipos de trabajo y equipos de trabajo con trabajadores propios y mano de obra agenciada",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Own workers: crew, wage, loaded cost, use and certificates",
+"kind": "title",
+"max": 60,
+"mt": "Trabajadores propios: plantilla de trabajo, salario, coste cargado, utilización y certificados",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Weekly timesheets: hours, overtime and cost for every worker",
+"kind": "title",
+"max": 60,
+"mt": "Hojas de horas semanales: horas, horas extras y coste de cada trabajador",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Labour productivity: output for each worker-day against plan",
+"kind": "title",
+"max": 60,
+"mt": "Productividad laboral: producción por cada día de trabajo frente al plan",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Training and safety certificates with expiry dates",
+"kind": "title",
+"max": 60,
+"mt": "Certificados de formación y seguridad con fecha de caducidad.",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Site induction records with score and card issued",
+"kind": "title",
+"max": 60,
+"mt": "Registros de inducción al sitio de construcción con puntaje y tarjeta emitida.",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Protective equipment and tools issued to workers",
+"kind": "title",
+"max": 60,
+"mt": "Equipos y herramientas de protección entregados a los trabajadores.",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Trade rates: wage, on-costs, overtime and agency day rate",
+"kind": "title",
+"max": 60,
+"mt": "Tarifas comerciales: salario, costos adicionales, horas extras y tarifa diaria de agencia",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Subcontract payment due: work done less retention less paid",
+"kind": "title",
+"max": 60,
+"mt": "Pago del subcontrato vencido: trabajo realizado menos dinero retenido menos pagado",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Compliance expiry alarm for subcontractors and workers",
+"kind": "title",
+"max": 60,
+"mt": "Alarma de caducidad de cumplimiento para subcontratas y trabajadores",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Labour cost per hour: wage plus all on-costs",
+"kind": "title",
+"max": 60,
+"mt": "Costo laboral por hora: salario más todos los costos adicionales",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Crew size needed to finish by a target date",
+"kind": "title",
+"max": 60,
+"mt": "Tamaño del equipo de trabajo necesario para terminar en una fecha prevista",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Productivity rate against plan and the days it costs you",
+"kind": "title",
+"max": 60,
+"mt": "Tasa de productividad frente al plan y los días que te cuesta",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Overtime cost and when extra workers are cheaper",
+"kind": "title",
+"max": 60,
+"mt": "Costo de las horas extras y cuándo los trabajadores adicionales son más baratos",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Worker utilisation and the cost of idle hours",
+"kind": "title",
+"max": 60,
+"mt": "Utilización de los trabajadores y coste de las horas de inactividad",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

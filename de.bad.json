@@ -1,0 +1,240 @@
+[
+{
+"en": "Orders placed and deliveries received by month",
+"kind": "title",
+"max": 60,
+"mt": "Aufgegebene Bestellungen und eingegangene Lieferungen pro Monat",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Billed above order by supplier",
+"kind": "title",
+"max": 60,
+"mt": "Die oben genannte Bestellung wird vom Lieferanten in Rechnung gestellt",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Control subcontractors, payments, crews and labour cost in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Kontrollieren Sie Subunternehmer, Zahlungen, Arbeitsteams und Arbeitskosten in einer Arbeitsmappe",
+"why": "too long: 97 characters, the limit is 80"
+},
+{
+"en": "work done to date less retention less earlier payments gives the payment due, the days open, late interest and a status that shows what is overdue or disputed",
+"kind": "sentence",
+"max": 160,
+"mt": "Die bisher geleistete Arbeit abzüglich des Einbehalts abzüglich früherer Zahlungen gibt die fällige Zahlung, die offenen Tage, Verzugszinsen und einen Status an, der anzeigt, was überfällig oder umstritten ist",
+"why": "too long: 209 characters, the limit is 160"
+},
+{
+"en": "Retention held for every subcontractor",
+"kind": "label",
+"max": 50,
+"mt": "Für jeden Subunternehmer wird einbehaltenes Geld einbehalten",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "each package shows work certified, its retention rate and the retention held, and the subcontractor sheet adds it up across packages",
+"kind": "sentence",
+"max": 160,
+"mt": "In jedem Paket werden die zertifizierten Arbeiten, die Höhe des Einbehalts und die einbehaltenen Einbehalte aufgeführt, und im Subunternehmerblatt werden diese über die Pakete hinweg addiert",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "insurance, licence, safety plan and tax certificates show days left and warn before they end, with the subcontractors that must stop work",
+"kind": "sentence",
+"max": 160,
+"mt": "Versicherungen, Lizenzen, Sicherheitspläne und Steuerbescheinigungen zeigen die verbleibenden Tage an und warnen die Subunternehmer, die ihre Arbeit einstellen müssen, bevor sie enden",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "Weekly timesheets costed at loaded rates",
+"kind": "label",
+"max": 50,
+"mt": "Wöchentliche Stundenzettel werden zu Tarifen berechnet",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "normal and overtime hours for every worker and week are costed with wage, on-costs and overtime factor, and checked against the weekly overtime limit",
+"kind": "sentence",
+"max": 160,
+"mt": "Normal- und Überstunden für jeden Arbeiter und jede Woche werden mit Lohn, Nebenkosten und Überstundenfaktor berechnet und mit der wöchentlichen Überstundengrenze abgeglichen",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "every course shows its end date, days left and a status, and a worker with an ended certificate is shown as not cleared for site",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder Kurs zeigt sein Enddatum, die verbleibenden Tage und einen Status an, und ein Arbeiter mit einem beendeten Zertifikat wird als nicht für die Baustelle freigegeben angezeigt",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "the workers needed and booked for each trade and date give the gap, the days to start and the weekly agency cost of covering it",
+"kind": "sentence",
+"max": 160,
+"mt": "Die für jeden Beruf und jedes Datum benötigten und gebuchten Arbeitskräfte geben die Lücke, die Tage bis zum Beginn und die wöchentlichen Agenturkosten für die Deckung an",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Payroll summary with accrual",
+"kind": "label",
+"max": 50,
+"mt": "Zusammenfassung der Gehaltsabrechnung mit Rückstellung",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Normal",
+"kind": "list",
+"max": 30,
+"mt": "Normal",
+"why": "not translated"
+},
+{
+"en": "Subcontract packages: value, retention, progress and dates",
+"kind": "title",
+"max": 60,
+"mt": "Untervertragspakete: Wert, Einbehalt, Fortschritt und Termine",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Payment applications: work done less retention",
+"kind": "title",
+"max": 60,
+"mt": "Zahlungsanträge: geleistete Arbeit abzüglich Einbehaltungsgeld",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Subcontractor variations: extra work, changes and omissions",
+"kind": "title",
+"max": 60,
+"mt": "Vertragsvarianten mit Subunternehmern: Mehrarbeit, Änderungen und Auslassungen",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Band",
+"kind": "label",
+"max": null,
+"mt": "Band",
+"why": "not translated"
+},
+{
+"en": "Crews and gangs with own workers and agency labour",
+"kind": "title",
+"max": 60,
+"mt": "Arbeitstrupps und Arbeitstrupps mit eigenen Arbeitskräften und Leiharbeitskräften",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Own workers: crew, wage, loaded cost, use and certificates",
+"kind": "title",
+"max": 60,
+"mt": "Eigene Arbeitskräfte: Arbeitsteam, Lohn, geladene Kosten, Verwendung und Zertifikate",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Weekly timesheets: hours, overtime and cost for every worker",
+"kind": "title",
+"max": 60,
+"mt": "Wöchentliche Arbeitszeittabellen: Stunden, Überstunden und Kosten für jeden Arbeiter",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Labour productivity: output for each worker-day against plan",
+"kind": "title",
+"max": 60,
+"mt": "Arbeitsproduktivität: Leistung für jeden Arbeitstag im Vergleich zum Plan",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Site induction records with score and card issued",
+"kind": "title",
+"max": 60,
+"mt": "Aufzeichnungen über die Einweisung auf die Baustelle mit Punktestand und ausgestellter Karte",
+"why": "too long: 92 characters, the limit is 60"
+},
+{
+"en": "Person",
+"kind": "label",
+"max": null,
+"mt": "Person",
+"why": "not translated"
+},
+{
+"en": "Protective equipment and tools issued to workers",
+"kind": "title",
+"max": 60,
+"mt": "Den Arbeitnehmern werden Schutzausrüstung und Werkzeuge ausgehändigt",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Trade rates: wage, on-costs, overtime and agency day rate",
+"kind": "title",
+"max": 60,
+"mt": "Handelssätze: Lohn, Nebenkosten, Überstunden und Agenturtagesatz",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Payments, labour cost, overtime and absence by month",
+"kind": "title",
+"max": 60,
+"mt": "Zahlungen, Arbeitskosten, Überstunden und Abwesenheit pro Monat",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Subcontract payment due",
+"kind": "label",
+"max": 30,
+"mt": "Zahlung für Unterauftrag fällig",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Subcontract payment due: work done less retention less paid",
+"kind": "title",
+"max": 60,
+"mt": "Fällige Zahlung für Unteraufträge: geleistete Arbeit abzüglich Einbehaltungsgeld abzüglich gezahlter Zahlungen",
+"why": "too long: 110 characters, the limit is 60"
+},
+{
+"en": "Retention held for one subcontractor",
+"kind": "title",
+"max": 60,
+"mt": "Für einen Subunternehmer wird einbehaltener Betrag einbehalten",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Crew size needed to finish by a target date",
+"kind": "title",
+"max": 60,
+"mt": "Die Größe des Arbeitsteams ist erforderlich, um bis zu einem Zieldatum fertig zu sein",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Productivity rate against plan and the days it costs you",
+"kind": "title",
+"max": 60,
+"mt": "Produktivitätsrate im Vergleich zum Plan und die Tage, die es Sie kostet",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Overtime cost and when extra workers are cheaper",
+"kind": "title",
+"max": 60,
+"mt": "Überstundenkosten und wann zusätzliche Arbeitskräfte günstiger sind",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Absence cost: paid days lost and cover",
+"kind": "title",
+"max": 60,
+"mt": "Abwesenheitskosten: bezahlte Ausfalltage und Versicherungsschutz",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Agency labour or hire your own worker",
+"kind": "title",
+"max": 60,
+"mt": "Leiharbeitskräfte oder stellen Sie Ihre eigene Arbeitskraft ein",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

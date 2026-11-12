@@ -1,0 +1,107 @@
+[
+{
+"en": "Control subcontractors, payments, crews and labour cost in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "एक कार्यपुस्तिका में उपठेकेदारों, भुगतान, कार्य दल और श्रम लागत को नियंत्रित करें",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "normal and overtime hours for every worker and week are costed with wage, on-costs and overtime factor, and checked against the weekly overtime limit",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक कर्मचारी और सप्ताह के लिए सामान्य और ओवरटाइम घंटों की लागत वेतन, ऑन-लागत और ओवरटाइम कारक के साथ तय की जाती है, और साप्ताहिक ओवरटाइम सीमा के विरुद्ध जांच की जाती है।",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "every course shows its end date, days left and a status, and a worker with an ended certificate is shown as not cleared for site",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक पाठ्यक्रम अपनी समाप्ति तिथि, शेष दिन और एक स्थिति दिखाता है, और समाप्ति प्रमाण पत्र वाले एक कार्यकर्ता को निर्माण स्थल के लिए मंजूरी नहीं दी गई के रूप में दिखाया गया है",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Cleared for site",
+"kind": "list",
+"max": 30,
+"mt": "निर्माण स्थल के लिए मंजूरी दे दी गई है",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Crews and gangs with own workers and agency labour",
+"kind": "title",
+"max": 60,
+"mt": "स्वयं के श्रमिकों और एजेंसी के श्रम के साथ कार्य दल और कार्य दल",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Own workers: crew, wage, loaded cost, use and certificates",
+"kind": "title",
+"max": 60,
+"mt": "स्वयं के कर्मचारी: कार्य दल, वेतन, भारित लागत, उपयोग और प्रमाण पत्र",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Weekly timesheets: hours, overtime and cost for every worker",
+"kind": "title",
+"max": 60,
+"mt": "साप्ताहिक टाइमशीट: प्रत्येक कर्मचारी के लिए घंटे, ओवरटाइम और लागत",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Labour productivity: output for each worker-day against plan",
+"kind": "title",
+"max": 60,
+"mt": "श्रम उत्पादकता: योजना के विरुद्ध प्रत्येक श्रमिक-दिवस के लिए आउटपुट",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Site induction records with score and card issued",
+"kind": "title",
+"max": 60,
+"mt": "स्कोर और कार्ड के साथ निर्माण स्थल प्रेरण रिकॉर्ड जारी किए गए",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Productivity rate against plan and the days it costs you",
+"kind": "title",
+"max": 60,
+"mt": "योजना के विरुद्ध उत्पादकता दर और वे दिन जिनकी कीमत आपको चुकानी पड़ती है",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "To {col:pkgs.sub_name}. Project: {col:pkgs.proj}. Package: {col:pkgs.scope}.",
+"kind": "document",
+"max": null,
+"mt": "{col:pkgs.sub_name} को. प्रोजेक्ट 1}। पैकेज: {col:pkgs.scope}.",
+"why": "placeholders must be exactly: {col:pkgs.sub_name} {col:pkgs.proj} {col:pkgs.scope}"
+},
+{
+"en": "To {col:apps.sub_name}. Project: {col:apps.proj}. Application of {col:apps.date}.",
+"kind": "document",
+"max": null,
+"mt": "{col:apps.sub_name} को. प्रोजेक्ट 1}। {col:apps.date} का अनुप्रयोग.",
+"why": "placeholders must be exactly: {col:apps.sub_name} {col:apps.proj} {col:apps.date}"
+},
+{
+"en": "To {col:vars.sub_name}. Project: {col:vars.proj}. Package no: {col:vars.pkg}.",
+"kind": "document",
+"max": null,
+"mt": "{col:vars.sub_name} को. प्रोजेक्ट 1}। पैकेज संख्या: {col:vars.pkg}.",
+"why": "placeholders must be exactly: {col:vars.sub_name} {col:vars.proj} {col:vars.pkg}"
+},
+{
+"en": "To {col:ratings.sub_name}. Project: {col:ratings.proj}. Review of {col:ratings.date}.",
+"kind": "document",
+"max": null,
+"mt": "{col:ratings.sub_name} को. प्रोजेक्ट 1}। {col:ratings.date} की समीक्षा.",
+"why": "placeholders must be exactly: {col:ratings.sub_name} {col:ratings.proj} {col:ratings.date}"
+},
+{
+"en": "Worker: {col:ot.name}. Project: {col:ot.proj}. Date: {col:ot.date}.",
+"kind": "document",
+"max": null,
+"mt": "कार्यकर्ता: {col:ot.name}. प्रोजेक्ट 1}। दिनांक: {col:ot.date}.",
+"why": "placeholders must be exactly: {col:ot.name} {col:ot.proj} {col:ot.date}"
+}
+]

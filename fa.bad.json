@@ -1,0 +1,93 @@
+[
+{
+"en": "Match the invoice to the note",
+"kind": "label",
+"max": null,
+"mt": "فاکتور را با یادداشت مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match the credit to the next invoice",
+"kind": "label",
+"max": null,
+"mt": "اعتبار را با فاکتور بعدی مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name and your own rules in the yellow cells: price and stock tolerances, service warning days, hire limit, truck size, standard waste and the score you expect from a supplier.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و قوانین خود را در سلول های زرد تایپ کنید: قیمت و موجودی تحمل مواد، روزهای هشدار خدمات، محدودیت اجاره، اندازه کامیون، ضایعات استاندارد و امتیازی که از یک تامین کننده انتظار دارید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Log every request from site on Requisitions. It turns to Ordered when an order for that project and material exists, and warns when the needed date passes.",
+"kind": "sentence",
+"max": null,
+"mt": "هر درخواست از سایت ساخت و ساز را در Requisitions ثبت کنید. هنگامی که سفارشی برای آن پروژه و مواد وجود دارد، به Ordered تبدیل می‌شود و زمانی که تاریخ مورد نیاز بگذرد هشدار می‌دهد.",
+"why": "English/Latin words left: Requisitions Ordered"
+},
+{
+"en": "Control subcontractors, payments, crews and labour cost in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "پیمانکاران فرعی، پرداخت ها، خدمه کاری و هزینه نیروی کار را در یک کتاب کار کنترل کنید",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "work done to date less retention less earlier payments gives the payment due, the days open, late interest and a status that shows what is overdue or disputed",
+"kind": "sentence",
+"max": 160,
+"mt": "کار انجام شده تا به امروز کمتر پول حفظ می شود کمتر پرداخت های زودتر به پرداخت سررسید، روزهای باز، بهره دیرکرد و وضعیتی که نشان می دهد چه چیزی معوق یا مورد اختلاف است می دهد.",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Compliance document watch",
+"kind": "label",
+"max": 50,
+"mt": "نظارت بر سند مطابقت",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Weekly timesheets costed at loaded rates",
+"kind": "label",
+"max": 50,
+"mt": "جدول زمانی هفتگی با نرخ های بارگذاری شده هزینه می شود",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Cleared for site",
+"kind": "list",
+"max": 30,
+"mt": "برای محل ساخت و ساز پاک شده است",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Own workers: crew, wage, loaded cost, use and certificates",
+"kind": "title",
+"max": 60,
+"mt": "کارگران خود: خدمه کار، دستمزد، هزینه بارگیری شده، استفاده و گواهینامه ها",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Trade rates: wage, on-costs, overtime and agency day rate",
+"kind": "title",
+"max": 60,
+"mt": "نرخ های تجارت: دستمزد، هزینه ها، اضافه کاری و نرخ روز نمایندگی",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Subcontract payment due: work done less retention less paid",
+"kind": "title",
+"max": 60,
+"mt": "سررسید پرداخت قرارداد فرعی: کار انجام شده کمتر پول حفظ شده کمتر پرداخت می شود",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Productivity rate against plan and the days it costs you",
+"kind": "title",
+"max": 60,
+"mt": "نرخ بهره وری در برابر برنامه و روزهایی که برای شما هزینه دارد",
+"why": "too long: 61 characters, the limit is 60"
+}
+]
