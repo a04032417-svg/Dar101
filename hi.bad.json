@@ -1,0 +1,23 @@
+[
+{
+"en": "Staff costs: salary, on-costs and what projects recover",
+"kind": "title",
+"max": 60,
+"mt": "कर्मचारियों की लागत: वेतन, ऑन-लागत और कौन सी परियोजनाएं पुनर्प्राप्त करती हैं",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "To {col:tax.adviser}. Item: {col:tax.item}. Country: {col:tax.country}.",
+"kind": "document",
+"max": null,
+"mt": "{col:tax.adviser} को. वस्तु 1}। देश: {col:tax.country}.",
+"why": "placeholders must be exactly: {col:tax.adviser} {col:tax.item} {col:tax.country}"
+},
+{
+"en": "Asset: {col:assets.asset}. Class: {col:assets.cls}. Purchased on {col:assets.purchase} for {col:assets.cost}.",
+"kind": "document",
+"max": null,
+"mt": "संपत्ति: {col:assets.asset}. वर्ग 1}। {col:assets.purchase} को {col:assets.cost} में खरीदा गया।",
+"why": "placeholders must be exactly: {col:assets.asset} {col:assets.cls} {col:assets.purchase} {col:assets.cost}"
+}
+]
