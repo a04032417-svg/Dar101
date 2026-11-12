@@ -1,0 +1,436 @@
+[
+{
+"en": "Average points committed",
+"kind": "label",
+"max": 30,
+"mt": "Среднее количество заложенных баллов",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: weeks in a sprint, points a person finishes in a focused day, days after which a card or blocker is too old, healthy bug share, capacity limits.",
+"kind": "sentence",
+"max": null,
+"mt": "Откройте Start и введите название компании и свои лимиты в желтые ячейки: недели в спринте, точки, которые человек заканчивает в определенный день, дни, после которых карта или блокировщик слишком старый, здоровый поток ошибок, лимиты емкости.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Stakeholder map with quadrant and strategy",
+"kind": "label",
+"max": 50,
+"mt": "Карта заинтересованных сторон с квадрантом и стратегией",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "influence, interest and attitude place every stakeholder in a quadrant, give the strategy to follow and the days between contacts, and flag who is overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "Влияние, интерес и отношение поместить каждую заинтересованную сторону в квадранте, дать стратегию, чтобы следовать и дни между контактами и флаг, который опоздал",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Weekly status report with a weighted score",
+"kind": "label",
+"max": 50,
+"mt": "Еженедельный отчет о состоянии с взвешенной оценкой",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "open, overdue and done actions, closure rate, average days to close, the next action due and the attendance rate for each person",
+"kind": "sentence",
+"max": 160,
+"mt": "Открытые, просроченные и выполненные действия, уровень закрытия, средние дни закрытия, следующее предстоящее действие и уровень посещаемости для каждого человека",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Follow-up needed",
+"kind": "list",
+"max": 30,
+"mt": "Необходимое последующее наблюдение",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Involve in every key decision",
+"kind": "list",
+"max": 30,
+"mt": "Участвовать в каждом ключевом решении",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Keep satisfied with short briefings",
+"kind": "list",
+"max": 30,
+"mt": "Довольствуйтесь краткими брифингами",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Use as an advocate",
+"kind": "list",
+"max": 30,
+"mt": "Использование в качестве защитника",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Keep informed with regular updates",
+"kind": "list",
+"max": 30,
+"mt": "Сохраняйте информацию с регулярными обновлениями",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Monitor and report monthly",
+"kind": "list",
+"max": 30,
+"mt": "Ежемесячный мониторинг и отчетность",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Overall greener than ratings",
+"kind": "list",
+"max": 30,
+"mt": "В целом более зеленые, чем рейтинги",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "No follow-up needed",
+"kind": "list",
+"max": 30,
+"mt": "Не требуется дальнейшее наблюдение",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "No stakeholders",
+"kind": "list",
+"max": 30,
+"mt": "Никаких заинтересованных сторон",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Projects: sponsor, health, reports, actions and decisions",
+"kind": "title",
+"max": 60,
+"mt": "Проекты: спонсор, здравоохранение, доклады, действия и решения",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Team: who chairs meetings, owes reports and sends minutes",
+"kind": "title",
+"max": 60,
+"mt": "Команда: председательствует на заседаниях, составляет отчеты и отправляет протоколы",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Stakeholder map: quadrant by attitude and contact rhythm",
+"kind": "title",
+"max": 60,
+"mt": "Карта заинтересованных сторон: квадрант по отношениям и ритму контактов",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Engagement plan: level now, level wanted and the action",
+"kind": "title",
+"max": 60,
+"mt": "План взаимодействия: уровень сейчас, требуемый уровень и действие",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Report calendar: each report, audience and next due date",
+"kind": "title",
+"max": 60,
+"mt": "Календарь выступлений: каждый выступление, аудитория и следующая дата выступления",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Meetings: length, attendees, cost and minutes check",
+"kind": "title",
+"max": 60,
+"mt": "Продолжительность заседаний, количество присутствующих, проверка стоимости и протоколов",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Meeting minutes: key points, decisions and when sent",
+"kind": "title",
+"max": 60,
+"mt": "Протоколы заседаний: ключевые моменты, решения и дата их направления",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Attendance: who was invited, who came and who sent apologies",
+"kind": "title",
+"max": 60,
+"mt": "Присутствие: кто был приглашен, кто пришел и кто прислал извинения",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "One row per person and meeting (a meeting ID from Meetings or Upcoming Meetings) with present, apologies or absent; the title, date, project, phone and the apology deadline fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "Один ряд на человека и встречу (ID встречи из Meetings или Предстоящие встречи) с присутствием, извинениями или отсутствием; название, дата, проект, телефон и срок извинения заполняются сами по себе.",
+"why": "English/Latin words left: Meetings"
+},
+{
+"en": "Weekly status reports: ratings, score and red run",
+"kind": "title",
+"max": 60,
+"mt": "Еженедельные отчеты о состоянии: рейтинги, баллы и красный запуск",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Steering pack items: headline, decision and outcome",
+"kind": "title",
+"max": 60,
+"mt": "Положения о рулевой установке: заголовок, решение и результат",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Client feedback: score from 0 to 10, comment and follow-up",
+"kind": "title",
+"max": 60,
+"mt": "Отзывы клиентов: оценка от 0 до 10, комментарии и последующие действия",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Stakeholder contacts: every talk, outcome and next step",
+"kind": "title",
+"max": 60,
+"mt": "Контакты с заинтересованными сторонами: каждый разговор, результат и следующий шаг",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Upcoming meetings: next four weeks and agenda check",
+"kind": "title",
+"max": 60,
+"mt": "Предстоящие заседания: следующие четыре недели и проверка повестки дня",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Action owners: open, overdue and done per person",
+"kind": "title",
+"max": 60,
+"mt": "Владельцы акций: открытые, просроченные и завершенные на человека",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Meeting hours, actions closed and decisions taken by month",
+"kind": "title",
+"max": 60,
+"mt": "Часы заседаний, закрытые заседания и принятые решения по месяцам",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Status health from schedule, budget and scope variance",
+"kind": "title",
+"max": 60,
+"mt": "Состояние здоровья от расписания, бюджета и отклонения сферы применения",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Stakeholder strategy from influence, interest and attitude",
+"kind": "title",
+"max": 60,
+"mt": "Стратегия заинтересованных сторон на основе влияния, интересов и отношения",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Report due date from the period end and the working-day rule",
+"kind": "title",
+"max": 60,
+"mt": "Дата погашения отчета от окончания периода и правило рабочего дня",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Action closure rate, on-time rate and overdue share",
+"kind": "title",
+"max": 60,
+"mt": "Уровень закрытия акции, процент своевременности и доля просроченных операций",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Pick the ratings of schedule, budget, scope and risk and your overall rating; see the weighted score with the weights from Start, the rating it supports and whether your overall rating agrees.",
+"kind": "sentence",
+"max": null,
+"mt": "Выберите рейтинги графика, бюджета, объема и риска и ваш общий рейтинг; посмотрите взвешенный балл с весами от Start, рейтинг, который он поддерживает, и согласуется ли ваш общий рейтинг.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Hello {person}, you are invited to {title} on {date} for {project}. The chair is {chair}. Please tell us if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, вы приглашены на заседание на заседании на заседании на заседании на заседании.",
+"why": "placeholders must be exactly: {person} {title} {date} {project} {chair}"
+},
+{
+"en": "Hello {manager}, {project} has been red for {run} weeks in a row up to the week starting {week}. Please prepare the escalation to {sponsor}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {manager}, {project} был красным в течение {run} недель подряд до недели, начинающейся {week}.",
+"why": "placeholders must be exactly: {manager} {project} {run} {week} {sponsor}"
+},
+{
+"en": "Hello {chair}, the minutes of {title} of {date} for {project} are not sent yet. Please send them today. The check shows: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, протоколы заседаний {title} {date} для {project} еще не отправлены. Пожалуйста, отправьте их сегодня.",
+"why": "placeholders must be exactly: {chair} {title} {date} {project} {state}"
+},
+{
+"en": "PMO lead: weekly portfolio status",
+"kind": "label",
+"max": null,
+"mt": "Ведущий PMO: еженедельное состояние портфеля",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "PMO lead: steering pack due",
+"kind": "label",
+"max": null,
+"mt": "PMO lead: рулевой комплект до истечения срока",
+"why": "English/Latin words left: PMO lead"
+},
+{
+"en": "Hello, the steering pack for {project} is due for the meeting on {date}. Headline: {headline}. Decision needed: {decision}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, рулевой пакет для {project} должен быть на встрече на {date}. Заголовок: {headline}.",
+"why": "placeholders must be exactly: {project} {date} {headline} {decision}"
+},
+{
+"en": "Hello {sponsor}, the steering meeting for {project} is on {date}. Headline: {headline}. We ask you to decide: {decision}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, совещание руководства {project} на {date}. Заголовок: {headline}. Мы просим вас решить: {decision}.",
+"why": "placeholders must be exactly: {sponsor} {project} {date} {headline} {decision}"
+},
+{
+"en": "Hello {sponsor}, we need your decision on \"{decision}\" for {project} by {needed_by}. It has waited {days_waiting} days.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, нам нужно ваше решение по \"{decision}\" к {project} к {needed_by}.",
+"why": "placeholders must be exactly: {sponsor} {decision} {project} {needed_by} {days_waiting}"
+},
+{
+"en": "Hello {contact}, we invite you to {title} for {project} on {date}, {length} minutes. The agenda follows. Please confirm that you can join.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы приглашаем вас на заседание в течение 3 минут.",
+"why": "placeholders must be exactly: {contact} {title} {project} {date} {length}"
+},
+{
+"en": "Hello {contact}, the minutes of {title} of {date} are ready. Decisions: {decisions}. Please check them and tell us what is wrong.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, протоколы собрания {title} {date} готовы. Решения: {decisions}. Пожалуйста, проверьте их и скажите нам, что не так.",
+"why": "placeholders must be exactly: {contact} {title} {date} {decisions}"
+},
+{
+"en": "Hello {name}, you are invited to the demo of {project}. Your view as {title} matters to us. We will send the date and the link.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, вы приглашены на демонстрацию {project}. Ваше мнение как {title} важно для нас. Мы отправим дату и ссылку.",
+"why": "placeholders must be exactly: {name} {project} {title}"
+},
+{
+"en": "Hello {name}, for {project} we plan to {strategy}. We would like to meet you every {cadence} days. Does that work for you?",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы планируем встречаться с вами каждые три дня.",
+"why": "placeholders must be exactly: {name} {project} {strategy} {cadence}"
+},
+{
+"en": "Overall status: {col:reports.overall}. Schedule: {col:reports.schedule}. Budget: {col:reports.budget}. Scope: {col:reports.scope}. Risk: {col:reports.risk}. The project is {col:reports.pct} complete. The weighted score is {col:reports.score} out of 100.",
+"kind": "document",
+"max": null,
+"mt": "Общее состояние: {col:reports.overall}. График: {col:reports.schedule}. Бюджет: {col:reports.budget}. Объем: {col:reports.scope}. Риск: {col:reports.risk}. Проект завершен.",
+"why": "placeholders must be exactly: {col:reports.overall} {col:reports.schedule} {col:reports.budget} {col:reports.scope} {col:reports.risk} {col:reports.pct} {col:reports.score}"
+},
+{
+"en": "Minutes of the meeting {col:minutes.title}, held on {col:minutes.date}. Project: {col:minutes.project}. Chair: {col:minutes.chair}.",
+"kind": "document",
+"max": null,
+"mt": "Протокол заседания заседания, состоявшегося 1 декабря.",
+"why": "placeholders must be exactly: {col:minutes.title} {col:minutes.date} {col:minutes.project} {col:minutes.chair}"
+},
+{
+"en": "These minutes were sent on {col:minutes.sent_on}; days after the meeting: {col:minutes.days_to_send}. The check shows: {col:minutes.state}. Please tell the chair within two working days if anything is wrong.",
+"kind": "document",
+"max": null,
+"mt": "Эти протоколы были отправлены на {col:minutes.sent_on}; дни после заседания: {col:minutes.days_to_send}.",
+"why": "placeholders must be exactly: {col:minutes.sent_on} {col:minutes.days_to_send} {col:minutes.state}"
+},
+{
+"en": "Health this week: {col:projects.health}. The project is {col:projects.pct_done} complete. Weeks in red in a row: {col:projects.weeks_red}. The report of this week shows: {col:projects.report_state}.",
+"kind": "document",
+"max": null,
+"mt": "Проекты завершены. Неделя в красном цвете: {col:projects.weeks_red}.",
+"why": "placeholders must be exactly: {col:projects.health} {col:projects.pct_done} {col:projects.weeks_red} {col:projects.report_state}"
+},
+{
+"en": "Open actions: {col:projects.open_actions}, of which overdue: {col:projects.overdue_actions}. Decisions waiting from the sponsor: {col:projects.waiting_decisions}. The next project meeting is on {col:projects.next_meeting}.",
+"kind": "document",
+"max": null,
+"mt": "Открытые акции: {col:projects.open_actions}, из которых просроченные: {col:projects.overdue_actions}.",
+"why": "placeholders must be exactly: {col:projects.open_actions} {col:projects.overdue_actions} {col:projects.waiting_decisions} {col:projects.next_meeting}"
+},
+{
+"en": "To: {col:updates.contact}, {col:updates.client}, telephone {col:updates.client_phone}. Project: {col:updates.project}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:updates.project}.",
+"why": "placeholders must be exactly: {col:updates.contact} {col:updates.client} {col:updates.client_phone} {col:updates.project}"
+},
+{
+"en": "Topic: {col:updates.topic}. The project is {col:updates.pct_done} complete and its health is {col:updates.health}.",
+"kind": "document",
+"max": null,
+"mt": "Тема: {col:updates.topic}. Проект завершен и в хорошем состоянии {col:updates.health}.",
+"why": "placeholders must be exactly: {col:updates.topic} {col:updates.pct_done} {col:updates.health}"
+},
+{
+"en": "The check shows: {col:owners.state}. Please update the status of each action before the next meeting, or tell the chair why a date cannot hold.",
+"kind": "document",
+"max": null,
+"mt": "Пожалуйста, обновляйте статус каждого действия до следующего заседания или сообщите председателю, почему дата не может быть проведена.",
+"why": "placeholders must be exactly: {col:owners.state}"
+},
+{
+"en": "Audience: {col:comms.audience}. Project: {col:comms.project}. Message: {col:comms.message}.",
+"kind": "document",
+"max": null,
+"mt": "Зрители: {col:comms.audience}. Проект: {col:comms.project}.",
+"why": "placeholders must be exactly: {col:comms.audience} {col:comms.project} {col:comms.message}"
+},
+{
+"en": "It was last sent on {col:comms.last_sent}. The next one is due on {col:comms.next} (days to go: {col:comms.days_to}). The check shows: {col:comms.state}.",
+"kind": "document",
+"max": null,
+"mt": "Последнее отправление было сделано в {col:comms.last_sent}. следующее должно быть сделано в {col:comms.next} (через несколько дней: {col:comms.days_to}).",
+"why": "placeholders must be exactly: {col:comms.last_sent} {col:comms.next} {col:comms.days_to} {col:comms.state}"
+},
+{
+"en": "Agenda of {set:firm} for the meeting {col:upcoming.title} on {col:upcoming.date}. Project: {col:upcoming.project}. Chair: {col:upcoming.chair}.",
+"kind": "document",
+"max": null,
+"mt": "Повестка дня заседания на заседание на заседание.",
+"why": "placeholders must be exactly: {set:firm} {col:upcoming.title} {col:upcoming.date} {col:upcoming.project} {col:upcoming.chair}"
+},
+{
+"en": "Length: {col:upcoming.length} minutes. People invited: {col:upcoming.attendees}. The expected cost of the meeting is {col:upcoming.cost}. The agenda check shows: {col:upcoming.state}.",
+"kind": "document",
+"max": null,
+"mt": "Продолжительность: {col:upcoming.length} минут. Приглашенные: {col:upcoming.attendees}. Ожидаемая стоимость встречи {col:upcoming.cost}.",
+"why": "placeholders must be exactly: {col:upcoming.length} {col:upcoming.attendees} {col:upcoming.cost} {col:upcoming.state}"
+},
+{
+"en": "The PMO lead is available on {col:portfolio.pmo_phone} to explain any project. Red projects have a recovery plan that the sponsor has seen.",
+"kind": "document",
+"max": null,
+"mt": "Руководство PMO доступно на {col:portfolio.pmo_phone}, чтобы объяснить любой проект.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Project: {col:projects.name}. Client: {col:projects.client}. Client contact: {col:projects.contact}, telephone {col:projects.client_phone}. Project manager: {col:projects.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Контактного клиента: {col:projects.contact}, телефон {col:projects.client_phone}. Менеджер проекта: {col:projects.manager}.",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.client} {col:projects.contact} {col:projects.client_phone} {col:projects.manager}"
+}
+]

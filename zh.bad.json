@@ -1,0 +1,282 @@
+[
+{
+"en": "Fill Team with each person and Epics with the big pieces of work of each project. Then add every item to Product Backlog with its epic, type, priority, story points and status.",
+"kind": "sentence",
+"max": null,
+"mt": "填写每个人的团队,并以每个项目的大作品填写Epic. 然后将每个项目添加到产品积累,以其史诗,类型,优先级,故事点和状态.",
+"why": "English/Latin words left: Epic."
+},
+{
+"en": "Hello {person}, you are invited to {title} on {date} for {project}. The chair is {chair}. Please tell us if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "您请请问我们,如果您不能来,请告诉我们.",
+"why": "placeholders must be exactly: {person} {title} {date} {project} {chair}"
+},
+{
+"en": "Hello {person}, the agenda for {title} on {date} is ready. Please read it before the meeting and add your points.",
+"kind": "message",
+"max": null,
+"mt": "您好, {person}, {title} 的议程已经准备好了. 请在会议之前阅读并添加您的意见.",
+"why": "placeholders must be exactly: {person} {title} {date}"
+},
+{
+"en": "Hello {person}, the minutes of {title} of {date} are ready, with the actions and their owners. Please check them and tell {chair} what is wrong.",
+"kind": "message",
+"max": null,
+"mt": "您好, {person}, {title} 的会议纪要已经准备好了,有行动和它们的主人. 请检查它们并告诉 {chair} 什么是错误的.",
+"why": "placeholders must be exactly: {person} {title} {date} {chair}"
+},
+{
+"en": "Hello {person}, if you cannot come to {title} on {date}, please send your apologies by {reply_by}.",
+"kind": "message",
+"max": null,
+"mt": "你好,如果您不能在 {date} 上来 {title},请在 {reply_by} 之前发送您的道歉.",
+"why": "placeholders must be exactly: {person} {title} {date} {reply_by}"
+},
+{
+"en": "Hello {owner}, your action \"{text}\" for {project} is due on {due}. Please update its status.",
+"kind": "message",
+"max": null,
+"mt": "你好,您的{owner}行动为{project}是由于{due}. 请更新其状态.",
+"why": "placeholders must be exactly: {owner} {text} {project} {due}"
+},
+{
+"en": "Hello {owner}, your action \"{text}\" for {project} was due on {due} and is {days_over} days overdue. Please close it or give me a new date.",
+"kind": "message",
+"max": null,
+"mt": "你的行动\"{text}\"为 {project} 应于 {due} 并且已过期 {days_over} 天. 请关闭它或给我一个新的日期.",
+"why": "placeholders must be exactly: {owner} {text} {project} {due} {days_over}"
+},
+{
+"en": "Hello {owner}, thank you: your action \"{text}\" for {project} is closed. It was done on {done_on}.",
+"kind": "message",
+"max": null,
+"mt": "你好,谢谢你:你的操作\"{text}\"为 {project} 已关闭.它是在 {done_on} 完成的.",
+"why": "placeholders must be exactly: {owner} {text} {project} {done_on}"
+},
+{
+"en": "Hello {manager}, {name} has {overdue_actions} overdue actions and {open_actions} open ones. Please chase the owners before the next meeting.",
+"kind": "message",
+"max": null,
+"mt": "请在下一次会议之前追赶所有者.",
+"why": "placeholders must be exactly: {manager} {name} {overdue_actions} {open_actions}"
+},
+{
+"en": "PMO lead: steering pack due",
+"kind": "label",
+"max": null,
+"mt": "PMO 领先:方向盘到期",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {sponsor}, the steering meeting for {project} is on {date}. Headline: {headline}. We ask you to decide: {decision}.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们在2月1日召开了公司董事会会议.",
+"why": "placeholders must be exactly: {sponsor} {project} {date} {headline} {decision}"
+},
+{
+"en": "Hello {sponsor}, we need your decision on \"{decision}\" for {project} by {needed_by}. It has waited {days_waiting} days.",
+"kind": "message",
+"max": null,
+"mt": "我们需要您的决定. 已经等了4天.",
+"why": "placeholders must be exactly: {sponsor} {decision} {project} {needed_by} {days_waiting}"
+},
+{
+"en": "Hello {sponsor}, the status of {project} is {overall} for the week starting {week}. Can we speak today? I will bring the recovery options.",
+"kind": "message",
+"max": null,
+"mt": "你好, {sponsor} 的状态是 {overall} 开始 {week} 的一周. 我们今天可以谈吗? 我会带来恢复选项.",
+"why": "placeholders must be exactly: {sponsor} {project} {overall} {week}"
+},
+{
+"en": "Hello {sponsor}, here is the report of {project} for the week starting {week}. What would you like to see more or less of next week?",
+"kind": "message",
+"max": null,
+"mt": "你好,这里是 {project} 开始 {week} 周的报告.你想看下周的更多或更少吗?",
+"why": "placeholders must be exactly: {sponsor} {project} {week}"
+},
+{
+"en": "Hello {contact}, update on {project}: {topic}. The project is {pct_done} complete and the next meeting is on {next_meeting}. Please reply with any question.",
+"kind": "message",
+"max": null,
+"mt": "你好,在 {project} 上更新: {topic}. 项目 {pct_done} 完成,下一次会议是在 {next_meeting}. 请回答任何问题.",
+"why": "placeholders must be exactly: {contact} {project} {topic} {pct_done} {next_meeting}"
+},
+{
+"en": "Hello {contact}, we invite you to {title} for {project} on {date}, {length} minutes. The agenda follows. Please confirm that you can join.",
+"kind": "message",
+"max": null,
+"mt": "我们邀请您参加 {title} 在 {date}, {length} 分钟. 议程如下. 请确认您可以加入.",
+"why": "placeholders must be exactly: {contact} {title} {project} {date} {length}"
+},
+{
+"en": "Hello {contact}, the minutes of {title} of {date} are ready. Decisions: {decisions}. Please check them and tell us what is wrong.",
+"kind": "message",
+"max": null,
+"mt": "您好, {contact}, {title} 的会议纪要已经准备好了. 决定: {decisions}. 请检查它们,告诉我们是什么问题.",
+"why": "placeholders must be exactly: {contact} {title} {date} {decisions}"
+},
+{
+"en": "Hello {contact}, how are we doing on {name}? Please reply with a score from 0 to 10 and one line on why. It takes two minutes.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们如何处理{name}?请给出0到10的分数和一个理由.需要两分钟.",
+"why": "placeholders must be exactly: {contact} {name}"
+},
+{
+"en": "Hello {contact}, thank you for your feedback on {project}: {score} out of 10. We read every answer and we will come back to you if we can improve something.",
+"kind": "message",
+"max": null,
+"mt": "你好,谢谢你的反:我们阅读了每一个答案,我们会回复你,如果我们可以改进一些.",
+"why": "placeholders must be exactly: {contact} {project} {score}"
+},
+{
+"en": "Hello {name}, I would like 30 minutes to hear your view on {project}: your needs, worries and ideas. When can we speak this week?",
+"kind": "message",
+"max": null,
+"mt": "你好,我希望在30分钟内听到你的观点:你的需要,担忧和想法.",
+"why": "placeholders must be exactly: {name} {project}"
+},
+{
+"en": "Hello {name}, you are invited to the demo of {project}. Your view as {title} matters to us. We will send the date and the link.",
+"kind": "message",
+"max": null,
+"mt": "你的观点对我们很重要. 我们会发送日期和链接.",
+"why": "placeholders must be exactly: {name} {project} {title}"
+},
+{
+"en": "Hello {name}, for {project} we plan to {strategy}. We would like to meet you every {cadence} days. Does that work for you?",
+"kind": "message",
+"max": null,
+"mt": "您好,我们计划每3天见面.",
+"why": "placeholders must be exactly: {name} {project} {strategy} {cadence}"
+},
+{
+"en": "Hello, portfolio health for the week starting {start}: {green} green, {amber} amber, {red} red, average progress {avg_done}. The PMO lead has the details.",
+"kind": "message",
+"max": null,
+"mt": "您好,本周的投资组合健康情况:绿色,,红色,平均进展.",
+"why": "placeholders must be exactly: {start} {green} {amber} {red} {avg_done}"
+},
+{
+"en": "Project: {col:reports.project}. Project manager: {col:reports.manager}. Sponsor: {col:reports.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "项目经理: 赞助人:",
+"why": "placeholders must be exactly: {col:reports.project} {col:reports.manager} {col:reports.sponsor}"
+},
+{
+"en": "Overall status: {col:reports.overall}. Schedule: {col:reports.schedule}. Budget: {col:reports.budget}. Scope: {col:reports.scope}. Risk: {col:reports.risk}. The project is {col:reports.pct} complete. The weighted score is {col:reports.score} out of 100.",
+"kind": "document",
+"max": null,
+"mt": "总体状态: {col:reports.overall}. 时间表: {col:reports.schedule}. 预算: {col:reports.budget}. 范围: {col:reports.scope}. 风险: {col:reports.risk}. 项目完成了. 重点分数是 {col:reports.score} 在100中.",
+"why": "placeholders must be exactly: {col:reports.overall} {col:reports.schedule} {col:reports.budget} {col:reports.scope} {col:reports.risk} {col:reports.pct} {col:reports.score}"
+},
+{
+"en": "Achievements this week: {col:reports.achievements}.",
+"kind": "document",
+"max": null,
+"mt": "这周的成就:",
+"why": "placeholders must be exactly: {col:reports.achievements}"
+},
+{
+"en": "Minutes of the meeting {col:minutes.title}, held on {col:minutes.date}. Project: {col:minutes.project}. Chair: {col:minutes.chair}.",
+"kind": "document",
+"max": null,
+"mt": "会议会议纪要,举行于1日. 项目:",
+"why": "placeholders must be exactly: {col:minutes.title} {col:minutes.date} {col:minutes.project} {col:minutes.chair}"
+},
+{
+"en": "Key points: {col:minutes.key_points}.",
+"kind": "document",
+"max": null,
+"mt": "关键点:",
+"why": "placeholders must be exactly: {col:minutes.key_points}"
+},
+{
+"en": "Decisions: {col:minutes.decisions}.",
+"kind": "document",
+"max": null,
+"mt": "决策:",
+"why": "placeholders must be exactly: {col:minutes.decisions}"
+},
+{
+"en": "These minutes were sent on {col:minutes.sent_on}; days after the meeting: {col:minutes.days_to_send}. The check shows: {col:minutes.state}. Please tell the chair within two working days if anything is wrong.",
+"kind": "document",
+"max": null,
+"mt": "这份会议纪要是在会议结束后的几天发送的: {col:minutes.sent_on}. 检查显示: {col:minutes.state}. 请在两个工作日内通知主席,如果有任何问题.",
+"why": "placeholders must be exactly: {col:minutes.sent_on} {col:minutes.days_to_send} {col:minutes.state}"
+},
+{
+"en": "Topic: {col:updates.topic}. The project is {col:updates.pct_done} complete and its health is {col:updates.health}.",
+"kind": "document",
+"max": null,
+"mt": "主题: {col:updates.topic}. 这个项目已经完成了,并且它的健康状况是 {col:updates.health}.",
+"why": "placeholders must be exactly: {col:updates.topic} {col:updates.pct_done} {col:updates.health}"
+},
+{
+"en": "Action list of {set:firm} for {col:owners.person}, {col:owners.role}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "行动列表为 {col:owners.person}, {col:owners.role},日期为 {today}.",
+"why": "placeholders must be exactly: {set:firm} {col:owners.person} {col:owners.role} {today}"
+},
+{
+"en": "Audience: {col:comms.audience}. Project: {col:comms.project}. Message: {col:comms.message}.",
+"kind": "document",
+"max": null,
+"mt": "观众: 项目: 信息:",
+"why": "placeholders must be exactly: {col:comms.audience} {col:comms.project} {col:comms.message}"
+},
+{
+"en": "Channel: {col:comms.channel}. Frequency: {col:comms.freq}, that is every {col:comms.every} days. Owner: {col:comms.owner}, telephone {col:comms.owner_phone}.",
+"kind": "document",
+"max": null,
+"mt": "频率是每2天一次,所有者:",
+"why": "placeholders must be exactly: {col:comms.channel} {col:comms.freq} {col:comms.every} {col:comms.owner} {col:comms.owner_phone}"
+},
+{
+"en": "Stakeholder engagement plan of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "相关方参与计划日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Agenda of {set:firm} for the meeting {col:upcoming.title} on {col:upcoming.date}. Project: {col:upcoming.project}. Chair: {col:upcoming.chair}.",
+"kind": "document",
+"max": null,
+"mt": "会议日程安排: 项目: 主席:",
+"why": "placeholders must be exactly: {set:firm} {col:upcoming.title} {col:upcoming.date} {col:upcoming.project} {col:upcoming.chair}"
+},
+{
+"en": "Please read the papers before the meeting and send your apologies to {col:upcoming.chair} on {col:upcoming.chair_phone} if you cannot come.",
+"kind": "document",
+"max": null,
+"mt": "请在会议之前阅读文件,如果您不能来,请向1号电话发送您的道歉.",
+"why": "placeholders must be exactly: {col:upcoming.chair} {col:upcoming.chair_phone}"
+},
+{
+"en": "Status reports received: {col:portfolio.reports}. Green: {col:portfolio.green}. Amber: {col:portfolio.amber}. Red: {col:portfolio.red}, which is {col:portfolio.red_share} of the reports.",
+"kind": "document",
+"max": null,
+"mt": "收到的状态报告: 绿色: 1 色: 2 红色: 3",
+"why": "placeholders must be exactly: {col:portfolio.reports} {col:portfolio.green} {col:portfolio.amber} {col:portfolio.red} {col:portfolio.red_share}"
+},
+{
+"en": "Client satisfaction summary of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "客户满意度总结,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Draft the pack and send it to the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "编制包装,并将其发送给PMO领导",
+"why": "English/Latin words left: PMO"
+}
+]

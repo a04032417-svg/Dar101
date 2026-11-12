@@ -1,0 +1,303 @@
+[
+{
+"en": "Action items with owner, due date and days overdue",
+"kind": "label",
+"max": 50,
+"mt": "Sahibi, son tarihi ve gecikme günleri olan eylem maddeleri",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "four ratings give a weighted score, an honesty check against the overall rating, the weeks in red in a row and an escalation flag",
+"kind": "sentence",
+"max": 160,
+"mt": "Dört derecelendirme ağırlıklı bir puan verir, genel derecelendirmeyle karşılaştırıldığında dürüstlük kontrolü, sırayla kırmızıda haftalar ve bir tırmanma bayrağı",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Steering pack items with a project snapshot",
+"kind": "label",
+"max": 50,
+"mt": "Proje anlık görüntüsü ile direksiyon desteği öğeleri",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Client updates, replies and feedback",
+"kind": "label",
+"max": 50,
+"mt": "Müşteri güncellemeleri, yanıtları ve geri bildirimleri",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "each update shows days to a reply and a reply check, and each client answer from 0 to 10 shows its band and whether a low score was followed up",
+"kind": "sentence",
+"max": 160,
+"mt": "Her güncelleme bir yanıt ve bir yanıt kontrol günlerini gösterir ve 0'dan 10'a kadar her müşteri yanıtının bandını ve düşük bir puanın takip edildiğini gösterir.",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Win over before the next decision",
+"kind": "list",
+"max": 30,
+"mt": "Bir sonraki karardan önce kazanın.",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Keep informed with regular updates",
+"kind": "list",
+"max": 30,
+"mt": "Düzenli güncellemelerle haberdar olun",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Overall greener than ratings",
+"kind": "list",
+"max": 30,
+"mt": "Genel olarak derecelendirilmekten daha yeşil",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Team: who chairs meetings, owes reports and sends minutes",
+"kind": "title",
+"max": 60,
+"mt": "Takım: toplantılara başkanlık eden, raporlar borçlu ve protokol gönderen",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Report calendar: each report, audience and next due date",
+"kind": "title",
+"max": 60,
+"mt": "Rapor takvimi: her rapor, dinleyici ve bir sonraki teslim tarihi",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Meetings: length, attendees, cost and minutes check",
+"kind": "title",
+"max": 60,
+"mt": "Toplantılar: süresi, katılımcıları, maliyet ve dakika kontrolü",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Meeting minutes: key points, decisions and when sent",
+"kind": "title",
+"max": 60,
+"mt": "Toplantı protokolü: ana noktalar, kararlar ve ne zaman gönderilir",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Weekly status reports: ratings, score and red run",
+"kind": "title",
+"max": 60,
+"mt": "Haftalık durum raporları: derecelendirme, puan ve kırmızı çalışma",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Client updates: what was sent and when they replied",
+"kind": "title",
+"max": 60,
+"mt": "Müşteri güncellemeleri: ne gönderildi ve ne zaman cevap verdiler",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Client feedback: score from 0 to 10, comment and follow-up",
+"kind": "title",
+"max": 60,
+"mt": "Müşteri geri bildirimi: 0'dan 10'a kadar puan, yorum ve takip",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Stakeholder contacts: every talk, outcome and next step",
+"kind": "title",
+"max": 60,
+"mt": "İlgili kişilerle bağlantılar: her konuşma, sonuç ve sonraki adım",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Upcoming meetings: next four weeks and agenda check",
+"kind": "title",
+"max": 60,
+"mt": "Önümüzdeki toplantılar: önümüzdeki dört hafta ve gündem kontrolü",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Sponsor decisions: what you need and how long it waits",
+"kind": "title",
+"max": 60,
+"mt": "Sponsor kararları: neye ihtiyacınız var ve ne kadar bekleyeceksiniz",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Meeting cost: attendees, minutes and cost per hour",
+"kind": "title",
+"max": 60,
+"mt": "Toplantı maliyeti: katılımcılar, dakikalar ve saatlik maliyet",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Report due date from the period end and the working-day rule",
+"kind": "title",
+"max": 60,
+"mt": "Sürenin sonundan itibaren raporlanma tarihi ve çalışma günü kuralı",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Pick the ratings of schedule, budget, scope and risk and your overall rating; see the weighted score with the weights from Start, the rating it supports and whether your overall rating agrees.",
+"kind": "sentence",
+"max": null,
+"mt": "Zamanlama, bütçe, kapsam ve risk derecelerini ve genel derecenizi seçin; Start'ten ağırlıklarla ağırlıklandırılmış puanı, desteklediği derecelendirmeyi ve genel derecelendirmenizin uyumlu olup olmadığını görün.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Escalation timing: days in red before escalating",
+"kind": "title",
+"max": 60,
+"mt": "Aşama zamanlaması: Aşamaya başlamadan önceki günler kırmızıda",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello {person}, you are invited to {title} on {date} for {project}. The chair is {chair}. Please tell us if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen bize gelemezseniz söyleyin.",
+"why": "placeholders must be exactly: {person} {title} {date} {project} {chair}"
+},
+{
+"en": "Hello {manager}, {project} has been red for {run} weeks in a row up to the week starting {week}. Please prepare the escalation to {sponsor}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {manager}, {project} {run} hafta boyunca kırmızıydı. {week} başlayan haftaya kadar.",
+"why": "placeholders must be exactly: {manager} {project} {run} {week} {sponsor}"
+},
+{
+"en": "Hello {manager}, {name} has {overdue_actions} overdue actions and {open_actions} open ones. Please chase the owners before the next meeting.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {manager}, {name} gecikmiş eylemleri ve {open_actions} açık olanları var. Lütfen bir sonraki toplantıdan önce sahipleri kovalayın.",
+"why": "placeholders must be exactly: {manager} {name} {overdue_actions} {open_actions}"
+},
+{
+"en": "Hello, the portfolio status for the week starting {start}: {green} green, {amber} amber, {red} red. {late} reports were late.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, haftanın portföy durumu: yeşil, kehribar, kırmızı.",
+"why": "placeholders must be exactly: {start} {green} {amber} {red} {late}"
+},
+{
+"en": "Hello, portfolio health for the week starting {start}: {green} green, {amber} amber, {red} red, average progress {avg_done}. The PMO lead has the details.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, haftanın portföy sağlığı: yeşil, kehribar, kırmızı, ortalama ilerleme.",
+"why": "placeholders must be exactly: {start} {green} {amber} {red} {avg_done}"
+},
+{
+"en": "Project: {col:reports.project}. Project manager: {col:reports.manager}. Sponsor: {col:reports.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Proje yöneticisi: Sponsor:",
+"why": "placeholders must be exactly: {col:reports.project} {col:reports.manager} {col:reports.sponsor}"
+},
+{
+"en": "Overall status: {col:reports.overall}. Schedule: {col:reports.schedule}. Budget: {col:reports.budget}. Scope: {col:reports.scope}. Risk: {col:reports.risk}. The project is {col:reports.pct} complete. The weighted score is {col:reports.score} out of 100.",
+"kind": "document",
+"max": null,
+"mt": "Genel durum: {col:reports.overall}. Program: {col:reports.schedule}. Bütçe: {col:reports.budget}. Kapsam: {col:reports.scope}. Risk: {col:reports.risk}. Proje tamamlandı. Vekil puan 100'den {col:reports.score}",
+"why": "placeholders must be exactly: {col:reports.overall} {col:reports.schedule} {col:reports.budget} {col:reports.scope} {col:reports.risk} {col:reports.pct} {col:reports.score}"
+},
+{
+"en": "The report was due on {col:reports.due} and sent on {col:reports.submitted}. The report check shows: {col:reports.state}. The rating check shows: {col:reports.check}. Weeks in red in a row: {col:reports.run}. Escalation: {col:reports.escalate}.",
+"kind": "document",
+"max": null,
+"mt": "Rapor {col:reports.due} tarihinde verildi ve {col:reports.submitted} tarihinde gönderildi. Rapor kontrolü gösteriyor: {col:reports.state}. Rating kontrolü gösteriyor: {col:reports.check}.",
+"why": "placeholders must be exactly: {col:reports.due} {col:reports.submitted} {col:reports.state} {col:reports.check} {col:reports.run} {col:reports.escalate}"
+},
+{
+"en": "Minutes of the meeting {col:minutes.title}, held on {col:minutes.date}. Project: {col:minutes.project}. Chair: {col:minutes.chair}.",
+"kind": "document",
+"max": null,
+"mt": "Toplantı protokolü, 1'de yapıldı.",
+"why": "placeholders must be exactly: {col:minutes.title} {col:minutes.date} {col:minutes.project} {col:minutes.chair}"
+},
+{
+"en": "These minutes were sent on {col:minutes.sent_on}; days after the meeting: {col:minutes.days_to_send}. The check shows: {col:minutes.state}. Please tell the chair within two working days if anything is wrong.",
+"kind": "document",
+"max": null,
+"mt": "Bu kayıtlar toplantıdan birkaç gün sonra gönderilmiştir: {col:minutes.days_to_send}.",
+"why": "placeholders must be exactly: {col:minutes.sent_on} {col:minutes.days_to_send} {col:minutes.state}"
+},
+{
+"en": "Health this week: {col:projects.health}. The project is {col:projects.pct_done} complete. Weeks in red in a row: {col:projects.weeks_red}. The report of this week shows: {col:projects.report_state}.",
+"kind": "document",
+"max": null,
+"mt": "Bu haftaki sağlık: {col:projects.health}. Proje tamamlandı.",
+"why": "placeholders must be exactly: {col:projects.health} {col:projects.pct_done} {col:projects.weeks_red} {col:projects.report_state}"
+},
+{
+"en": "Open actions: {col:projects.open_actions}, of which overdue: {col:projects.overdue_actions}. Decisions waiting from the sponsor: {col:projects.waiting_decisions}. The next project meeting is on {col:projects.next_meeting}.",
+"kind": "document",
+"max": null,
+"mt": "Açık eylemler: {col:projects.open_actions} , bunlardan gecikmiş: {col:projects.overdue_actions}. Sponsörden beklenen kararlar: {col:projects.waiting_decisions}.",
+"why": "placeholders must be exactly: {col:projects.open_actions} {col:projects.overdue_actions} {col:projects.waiting_decisions} {col:projects.next_meeting}"
+},
+{
+"en": "To: {col:updates.contact}, {col:updates.client}, telephone {col:updates.client_phone}. Project: {col:updates.project}.",
+"kind": "document",
+"max": null,
+"mt": "Proje: {col:updates.project}.",
+"why": "placeholders must be exactly: {col:updates.contact} {col:updates.client} {col:updates.client_phone} {col:updates.project}"
+},
+{
+"en": "Topic: {col:updates.topic}. The project is {col:updates.pct_done} complete and its health is {col:updates.health}.",
+"kind": "document",
+"max": null,
+"mt": "Konu: {col:updates.topic}. Proje tamamlandı ve sağlığı {col:updates.health}.",
+"why": "placeholders must be exactly: {col:updates.topic} {col:updates.pct_done} {col:updates.health}"
+},
+{
+"en": "The check shows: {col:owners.state}. Please update the status of each action before the next meeting, or tell the chair why a date cannot hold.",
+"kind": "document",
+"max": null,
+"mt": "Lütfen bir sonraki toplantıdan önce her eylemin durumunu güncelleyin veya bir tarihin neden tutulmadığını başkanlığa söyleyin.",
+"why": "placeholders must be exactly: {col:owners.state}"
+},
+{
+"en": "It was last sent on {col:comms.last_sent}. The next one is due on {col:comms.next} (days to go: {col:comms.days_to}). The check shows: {col:comms.state}.",
+"kind": "document",
+"max": null,
+"mt": "Son gönderildiği gün {col:comms.last_sent}. Sonraki gönderim günü {col:comms.next} (gündüzler: {col:comms.days_to}).",
+"why": "placeholders must be exactly: {col:comms.last_sent} {col:comms.next} {col:comms.days_to} {col:comms.state}"
+},
+{
+"en": "We make contact every {col:stakeholders.cadence} days. The last contact was on {col:stakeholders.last_contact} (days since: {col:stakeholders.days_since}) and the next is due by {col:stakeholders.due_by}. The contact check shows: {col:stakeholders.contact_state}.",
+"kind": "document",
+"max": null,
+"mt": "Her {col:stakeholders.cadence} günde temas kurarız. Son temas {col:stakeholders.last_contact}'deydi (günlerden bu yana: {col:stakeholders.days_since}) ve bir sonraki görüşme {col:stakeholders.due_by}'de gerçekleşecek.",
+"why": "placeholders must be exactly: {col:stakeholders.cadence} {col:stakeholders.last_contact} {col:stakeholders.days_since} {col:stakeholders.due_by} {col:stakeholders.contact_state}"
+},
+{
+"en": "Agenda of {set:firm} for the meeting {col:upcoming.title} on {col:upcoming.date}. Project: {col:upcoming.project}. Chair: {col:upcoming.chair}.",
+"kind": "document",
+"max": null,
+"mt": "Toplantının gündemi: Proje: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Başkan: Baş",
+"why": "placeholders must be exactly: {set:firm} {col:upcoming.title} {col:upcoming.date} {col:upcoming.project} {col:upcoming.chair}"
+},
+{
+"en": "Please read the papers before the meeting and send your apologies to {col:upcoming.chair} on {col:upcoming.chair_phone} if you cannot come.",
+"kind": "document",
+"max": null,
+"mt": "Lütfen toplantıdan önce belgeleri okuyun ve gelemezseniz özürlerinizi 1 numaralı e-posta adresine gönderin.",
+"why": "placeholders must be exactly: {col:upcoming.chair} {col:upcoming.chair_phone}"
+},
+{
+"en": "Status reports received: {col:portfolio.reports}. Green: {col:portfolio.green}. Amber: {col:portfolio.amber}. Red: {col:portfolio.red}, which is {col:portfolio.red_share} of the reports.",
+"kind": "document",
+"max": null,
+"mt": "Durum raporları alındı: {col:portfolio.reports}. Yeşil: {col:portfolio.green}. Kırmızı: {col:portfolio.red}, bu raporların {col:portfolio.red_share}",
+"why": "placeholders must be exactly: {col:portfolio.reports} {col:portfolio.green} {col:portfolio.amber} {col:portfolio.red} {col:portfolio.red_share}"
+},
+{
+"en": "The PMO lead is available on {col:portfolio.pmo_phone} to explain any project. Red projects have a recovery plan that the sponsor has seen.",
+"kind": "document",
+"max": null,
+"mt": "Kırmızı projelerin sponsorun gördüğü bir kurtarma planı vardır.",
+"why": "placeholders must be exactly: {col:portfolio.pmo_phone}"
+}
+]

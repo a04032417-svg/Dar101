@@ -1,0 +1,149 @@
+[
+{
+"en": "Burndown of the sprint set on Start",
+"kind": "title",
+"max": 60,
+"mt": "نمودار سوزاندن مجموعه اسپرینت در Start",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Keep informed with regular updates",
+"kind": "list",
+"max": 30,
+"mt": "با به روز رسانی های منظم اطلاع داشته باشید",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Team: who chairs meetings, owes reports and sends minutes",
+"kind": "title",
+"max": 60,
+"mt": "تیم: که در جلسات ریاست می کند، گزارش ها را بدهکار می کند و مناقصه را ارسال می کند",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Attendance: who was invited, who came and who sent apologies",
+"kind": "title",
+"max": 60,
+"mt": "حضور: چه کسانی دعوت شده اند، چه کسانی آمده اند و چه کسانی عذرخواهی کرده اند",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Sponsor decisions: what you need and how long it waits",
+"kind": "title",
+"max": 60,
+"mt": "تصمیم گیری از سوی حامیان مالی: شما به چه چیزی نیاز دارید و چه مدت باید صبر کنید",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Hello {person}, you are invited to {title} on {date} for {project}. The chair is {chair}. Please tell us if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "سلام، شما دعوت شده اید تا برای 3 صندلی بگذارید. لطفا به ما بگویید اگر نمی توانید بیایید.",
+"why": "placeholders must be exactly: {person} {title} {date} {project} {chair}"
+},
+{
+"en": "Hello {owner}, thank you: your action \"{text}\" for {project} is closed. It was done on {done_on}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {owner}، متشکرم: اقدام شما \"{text}\" برای {project} بسته شده است.",
+"why": "placeholders must be exactly: {owner} {text} {project} {done_on}"
+},
+{
+"en": "PMO lead: weekly portfolio status",
+"kind": "label",
+"max": null,
+"mt": "PMO lead: وضعیت هفتگی کیف پول",
+"why": "English/Latin words left: PMO lead"
+},
+{
+"en": "Hello, the portfolio status for the week starting {start}: {green} green, {amber} amber, {red} red. {late} reports were late.",
+"kind": "message",
+"max": null,
+"mt": "سلام، وضعیت نمونه کارها برای هفته شروع شده: سبز، زرد، قرمز. گزارش ها دیر شده بودند.",
+"why": "placeholders must be exactly: {start} {green} {amber} {red} {late}"
+},
+{
+"en": "PMO lead: steering pack due",
+"kind": "label",
+"max": null,
+"mt": "PMO lead: دستکش فرمان به موقع",
+"why": "English/Latin words left: PMO lead"
+},
+{
+"en": "Hello {sponsor}, the steering meeting for {project} is on {date}. Headline: {headline}. We ask you to decide: {decision}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، جلسه ي هيئت مديره ي {project} در {date} هست. عنوان: {headline}. از شما مي خوايم که تصميم بگيريد: {decision}.",
+"why": "placeholders must be exactly: {sponsor} {project} {date} {headline} {decision}"
+},
+{
+"en": "Hello {sponsor}, we need your decision on \"{decision}\" for {project} by {needed_by}. It has waited {days_waiting} days.",
+"kind": "message",
+"max": null,
+"mt": "سلام {sponsor}، ما نیاز به تصمیم شما در مورد {decision} برای {project} تا {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by} {needed_by}",
+"why": "placeholders must be exactly: {sponsor} {decision} {project} {needed_by} {days_waiting}"
+},
+{
+"en": "Hello {name}, for {project} we plan to {strategy}. We would like to meet you every {cadence} days. Does that work for you?",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما قصد داریم هر روز با شما ملاقات کنیم، برای شما مناسب است؟",
+"why": "placeholders must be exactly: {name} {project} {strategy} {cadence}"
+},
+{
+"en": "Hello {name}, it has been {days_since} days since we spoke about {project}. Can we find 20 minutes in the next days to share where we are?",
+"kind": "message",
+"max": null,
+"mt": "سلام {name}، از زمان صحبت کردن در مورد {project} روزها می گذرد. آیا می توانیم 20 دقیقه در روز های آینده برای به اشتراک گذاشتن جایی که ما هستیم، پیدا کنیم؟",
+"why": "placeholders must be exactly: {name} {days_since} {project}"
+},
+{
+"en": "Achievements this week: {col:reports.achievements}.",
+"kind": "document",
+"max": null,
+"mt": "دستاوردهاي اين هفته:",
+"why": "placeholders must be exactly: {col:reports.achievements}"
+},
+{
+"en": "Minutes of the meeting {col:minutes.title}, held on {col:minutes.date}. Project: {col:minutes.project}. Chair: {col:minutes.chair}.",
+"kind": "document",
+"max": null,
+"mt": "مناقصه جلسه جلسه، برگزار شده در پروژه.",
+"why": "placeholders must be exactly: {col:minutes.title} {col:minutes.date} {col:minutes.project} {col:minutes.chair}"
+},
+{
+"en": "Audience: {col:comms.audience}. Project: {col:comms.project}. Message: {col:comms.message}.",
+"kind": "document",
+"max": null,
+"mt": "مخاطب: پروژه: پیام:",
+"why": "placeholders must be exactly: {col:comms.audience} {col:comms.project} {col:comms.message}"
+},
+{
+"en": "Agenda of {set:firm} for the meeting {col:upcoming.title} on {col:upcoming.date}. Project: {col:upcoming.project}. Chair: {col:upcoming.chair}.",
+"kind": "document",
+"max": null,
+"mt": "دستور کار جلسه در روز 2 پروژه رئیس جمهور",
+"why": "placeholders must be exactly: {set:firm} {col:upcoming.title} {col:upcoming.date} {col:upcoming.project} {col:upcoming.chair}"
+},
+{
+"en": "Please read the papers before the meeting and send your apologies to {col:upcoming.chair} on {col:upcoming.chair_phone} if you cannot come.",
+"kind": "document",
+"max": null,
+"mt": "لطفاً قبل از جلسه اسناد رو بخون و اگه نتونستي بياي ازت عذرخواهي کن",
+"why": "placeholders must be exactly: {col:upcoming.chair} {col:upcoming.chair_phone}"
+},
+{
+"en": "The PMO lead is available on {col:portfolio.pmo_phone} to explain any project. Red projects have a recovery plan that the sponsor has seen.",
+"kind": "document",
+"max": null,
+"mt": "مدیر PMO در {col:portfolio.pmo_phone} برای توضیح هر پروژه در دسترس است. پروژه های قرمز یک برنامه بازیابی دارند که حامیان آن دیده اند.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Draft the pack and send it to the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "بسته را تهیه کنید و آن را به رهبر PMO بفرستید",
+"why": "English/Latin words left: PMO"
+}
+]

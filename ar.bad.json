@@ -1,0 +1,121 @@
+[
+{
+"en": "Action items with owner, due date and days overdue",
+"kind": "label",
+"max": 50,
+"mt": "البنود الإجرائية مع المالك، تاريخ الاستحقاق والأيام المتأخرة",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "Keep satisfied with short briefings",
+"kind": "list",
+"max": 30,
+"mt": "ابقوا راضين عن المعلومات القصيرة",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Keep informed with regular updates",
+"kind": "list",
+"max": 30,
+"mt": "ابق على اطلاع مع التحديثات المنتظمة",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Overall greener than ratings",
+"kind": "list",
+"max": 30,
+"mt": "بشكل عام أكثر خضراء من التصنيفات",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Upcoming meetings: next four weeks and agenda check",
+"kind": "title",
+"max": 60,
+"mt": "الاجتماعات القادمة: الأسابيع الأربعة القادمة والتحقق من جدول الأعمال",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Action closure rate, on-time rate and overdue share",
+"kind": "title",
+"max": 60,
+"mt": "معدل إغلاق الإجراءات ومعدل الوصول في الوقت المحدد والحصة المتأخرة",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Hello {manager}, {project} has been red for {run} weeks in a row up to the week starting {week}. Please prepare the escalation to {sponsor}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {manager}، {project} كان أحمر ل {run} أسابيع متتالية حتى الأسبوع الذي يبدأ {week}.",
+"why": "placeholders must be exactly: {manager} {project} {run} {week} {sponsor}"
+},
+{
+"en": "PMO lead: weekly portfolio status",
+"kind": "label",
+"max": null,
+"mt": "قيادة مؤسسة PMO: حالة المحفظة الأسبوعية",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "PMO lead: steering pack due",
+"kind": "label",
+"max": null,
+"mt": "مقدمة PMO: علبة التوجيه",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello, the steering pack for {project} is due for the meeting on {date}. Headline: {headline}. Decision needed: {decision}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا ، يجب أن يتم إصدار حزمة القيادة لـ {project} في الاجتماع في {date}.",
+"why": "placeholders must be exactly: {project} {date} {headline} {decision}"
+},
+{
+"en": "Hello {name}, for {project} we plan to {strategy}. We would like to meet you every {cadence} days. Does that work for you?",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، نحن نخطط للقاءك كل يوم هل هذا يناسبك؟",
+"why": "placeholders must be exactly: {name} {project} {strategy} {cadence}"
+},
+{
+"en": "Overall status: {col:reports.overall}. Schedule: {col:reports.schedule}. Budget: {col:reports.budget}. Scope: {col:reports.scope}. Risk: {col:reports.risk}. The project is {col:reports.pct} complete. The weighted score is {col:reports.score} out of 100.",
+"kind": "document",
+"max": null,
+"mt": "الوضع العام: {col:reports.overall}. الجدول الزمني: {col:reports.schedule}. الميزانية: {col:reports.budget}. النطاق: {col:reports.scope}. المخاطر: {col:reports.risk}. تم الانتهاء من المشروع. النتيجة المزنة هي {col:reports.score} من 100.",
+"why": "placeholders must be exactly: {col:reports.overall} {col:reports.schedule} {col:reports.budget} {col:reports.scope} {col:reports.risk} {col:reports.pct} {col:reports.score}"
+},
+{
+"en": "Minutes of the meeting {col:minutes.title}, held on {col:minutes.date}. Project: {col:minutes.project}. Chair: {col:minutes.chair}.",
+"kind": "document",
+"max": null,
+"mt": "محضر الاجتماع الذي عُقد في 1 مايو مشروع رئيس مجلس الإدارة",
+"why": "placeholders must be exactly: {col:minutes.title} {col:minutes.date} {col:minutes.project} {col:minutes.chair}"
+},
+{
+"en": "Agenda of {set:firm} for the meeting {col:upcoming.title} on {col:upcoming.date}. Project: {col:upcoming.project}. Chair: {col:upcoming.chair}.",
+"kind": "document",
+"max": null,
+"mt": "جدول أعمال الاجتماع في 2 مشروع رئيس مجلس الإدارة",
+"why": "placeholders must be exactly: {set:firm} {col:upcoming.title} {col:upcoming.date} {col:upcoming.project} {col:upcoming.chair}"
+},
+{
+"en": "Length: {col:upcoming.length} minutes. People invited: {col:upcoming.attendees}. The expected cost of the meeting is {col:upcoming.cost}. The agenda check shows: {col:upcoming.state}.",
+"kind": "document",
+"max": null,
+"mt": "المدة: {col:upcoming.length} دقائق. الأشخاص المدعوين: {col:upcoming.attendees}. التكلفة المتوقعة للجمعية هي {col:upcoming.cost}.",
+"why": "placeholders must be exactly: {col:upcoming.length} {col:upcoming.attendees} {col:upcoming.cost} {col:upcoming.state}"
+},
+{
+"en": "The PMO lead is available on {col:portfolio.pmo_phone} to explain any project. Red projects have a recovery plan that the sponsor has seen.",
+"kind": "document",
+"max": null,
+"mt": "يتوفر دليل PMO على {col:portfolio.pmo_phone} لشرح أي مشروع. المشاريع الحمراء لديها خطة استعادة قد رأى الراعي.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Draft the pack and send it to the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "صُمم الحزمة وأرسلها إلى قائد الـ PMO",
+"why": "English/Latin words left: PMO"
+}
+]

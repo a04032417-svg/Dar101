@@ -1,0 +1,121 @@
+[
+{
+"en": "Keep sponsors informed, meetings short and every project report on time",
+"kind": "sentence",
+"max": 80,
+"mt": "प्रायोजकों को सूचित रखें, बैठकें संक्षिप्त रखें और हर परियोजना की समय पर रिपोर्ट करें",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "attendees, length and the average cost per hour give the cost of every meeting, and each set of minutes is checked against your days allowed to send them",
+"kind": "sentence",
+"max": 160,
+"mt": "उपस्थित लोगों, लंबाई और प्रति घंटे औसत लागत प्रत्येक बैठक की लागत देते हैं, और मिनट के प्रत्येक सेट के खिलाफ जाँच की जाती है अपने दिनों उन्हें भेजने के लिए अनुमति दी",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Action items with owner, due date and days overdue",
+"kind": "label",
+"max": 50,
+"mt": "मालिक के साथ कार्रवाई के आइटम, देयता की तारीख और देरी के दिन",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "each item shows the headline, the decision needed and the outcome next to the health, weeks in red, open actions and decisions waiting of its project",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक आइटम में शीर्षक, आवश्यक निर्णय और परिणाम दिखाया गया है स्वास्थ्य के बगल में, लाल रंग में सप्ताह, खुले कार्यों और निर्णयों को अपने परियोजना की प्रतीक्षा में",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "each update shows days to a reply and a reply check, and each client answer from 0 to 10 shows its band and whether a low score was followed up",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक अद्यतन एक उत्तर और एक उत्तर की जांच करने के लिए दिनों को दर्शाता है और 0 से 10 तक प्रत्येक ग्राहक का उत्तर अपने बैंड को दर्शाता है और क्या एक कम स्कोर का पालन किया गया था",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Follow-up needed",
+"kind": "list",
+"max": 30,
+"mt": "अनुवर्ती कार्रवाई की आवश्यकता है",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Involve in every key decision",
+"kind": "list",
+"max": 30,
+"mt": "हर महत्वपूर्ण निर्णय में शामिल होना",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Keep satisfied with short briefings",
+"kind": "list",
+"max": 30,
+"mt": "संक्षिप्त जानकारी से संतुष्ट रहें",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Keep informed with regular updates",
+"kind": "list",
+"max": 30,
+"mt": "नियमित अद्यतनों के साथ सूचित रहें",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "No follow-up needed",
+"kind": "list",
+"max": 30,
+"mt": "कोई अनुवर्ती कार्रवाई आवश्यक नहीं",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Team: who chairs meetings, owes reports and sends minutes",
+"kind": "title",
+"max": 60,
+"mt": "टीम: जो बैठकों की अध्यक्षता करती है, रिपोर्ट देती है और मिनट भेजती है",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Stakeholder map: quadrant by attitude and contact rhythm",
+"kind": "title",
+"max": 60,
+"mt": "हितधारकों का नक्शा: दृष्टिकोण और संपर्क की गति के आधार पर चतुर्भुज",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Attendance: who was invited, who came and who sent apologies",
+"kind": "title",
+"max": 60,
+"mt": "उपस्थिति: किसको आमंत्रित किया गया, कौन आया और किसने माफी मांगी",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Client feedback: score from 0 to 10, comment and follow-up",
+"kind": "title",
+"max": 60,
+"mt": "ग्राहक प्रतिक्रियाः 0 से 10 तक स्कोर, टिप्पणी और अनुवर्ती कार्रवाई",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Minutes of the meeting {col:minutes.title}, held on {col:minutes.date}. Project: {col:minutes.project}. Chair: {col:minutes.chair}.",
+"kind": "document",
+"max": null,
+"mt": "बैठक का कार्यपत्र, आयोजित किया गया था।",
+"why": "placeholders must be exactly: {col:minutes.title} {col:minutes.date} {col:minutes.project} {col:minutes.chair}"
+},
+{
+"en": "Agenda of {set:firm} for the meeting {col:upcoming.title} on {col:upcoming.date}. Project: {col:upcoming.project}. Chair: {col:upcoming.chair}.",
+"kind": "document",
+"max": null,
+"mt": "बैठक का कार्यसूची दिनांक 2 परियोजना अध्यक्ष",
+"why": "placeholders must be exactly: {set:firm} {col:upcoming.title} {col:upcoming.date} {col:upcoming.project} {col:upcoming.chair}"
+},
+{
+"en": "The PMO lead is available on {col:portfolio.pmo_phone} to explain any project. Red projects have a recovery plan that the sponsor has seen.",
+"kind": "document",
+"max": null,
+"mt": "किसी भी परियोजना की व्याख्या करने के लिए PMO लीड {col:portfolio.pmo_phone} पर उपलब्ध है। लाल परियोजनाओं में एक वसूली योजना है जिसे प्रायोजक ने देखा है।",
+"why": "English/Latin words left: PMO"
+}
+]

@@ -1,0 +1,86 @@
+[
+{
+"en": "After each sprint fill Sprint Reviews with the points accepted, Velocity by Sprint with a note, Retrospectives with the mood and Retrospective Actions with an owner and a due date for each action.",
+"kind": "sentence",
+"max": null,
+"mt": "ہر سپرنٹ کے بعد قبول شدہ پوائنٹس کے ساتھ اسپرٹ جائزے ، اسپرٹ کی رفتار کے ساتھ ایک نوٹ ، موڈ کے ساتھ Retrospectives اور پچھلی مدت کے لیے درخواستیں کے ساتھ ایک مالک اور ہر کارروائی کے لئے ایک مقررہ تاریخ کے ساتھ.",
+"why": "English/Latin words left: Retrospectives"
+},
+{
+"en": "Read Sprints and Boards Dashboard and Charts every week: velocity, completion, blocked cards, cycle time, bug share, open retrospective actions and the sprints left.",
+"kind": "sentence",
+"max": null,
+"mt": "اسپرٹ اور بورڈز ڈیش بورڈ اور چارٹ ہر ہفتے پڑھیں: رفتار، تکمیل، بلاک کارڈ، سائیکل وقت، بگ شیئر، کھلی retrospective اقدامات اور باقی سپرنٹس.",
+"why": "English/Latin words left: retrospective"
+},
+{
+"en": "Stakeholder map with quadrant and strategy",
+"kind": "label",
+"max": 50,
+"mt": "اسٹیک ہولڈرز کا نقشہ جس میں کواڈرنٹ اور حکمت عملی ہے",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Action items with owner, due date and days overdue",
+"kind": "label",
+"max": 50,
+"mt": "مالک کے ساتھ کارروائی کے اشارے، مقررہ تاریخ اور تاخیر کے دن",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "Use as an advocate",
+"kind": "list",
+"max": 30,
+"mt": "ایک وکیل کے طور پر استعمال کریں",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Keep informed with regular updates",
+"kind": "list",
+"max": 30,
+"mt": "باقاعدہ اپ ڈیٹس کے ساتھ مطلع رہیں",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Overall greener than ratings",
+"kind": "list",
+"max": 30,
+"mt": "مجموعی طور پر درجہ بندی سے زیادہ سبز",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Team: who chairs meetings, owes reports and sends minutes",
+"kind": "title",
+"max": 60,
+"mt": "ٹیم: جو اجلاسوں کی صدارت کرتی ہے، رپورٹیں کرتی ہے اور منٹ بھیجتی ہے",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Stakeholder map: quadrant by attitude and contact rhythm",
+"kind": "title",
+"max": 60,
+"mt": "اسٹیک ہولڈرز کا نقشہ: رویہ اور رابطے کی رفتار کے لحاظ سے کوارڈنٹ",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello {manager}, {project} has been red for {run} weeks in a row up to the week starting {week}. Please prepare the escalation to {sponsor}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {manager}، {project} {run} ہفتوں کے لئے سرخ رہا ہے {week} شروع ہونے والے ہفتے تک.",
+"why": "placeholders must be exactly: {manager} {project} {run} {week} {sponsor}"
+},
+{
+"en": "Overall status: {col:reports.overall}. Schedule: {col:reports.schedule}. Budget: {col:reports.budget}. Scope: {col:reports.scope}. Risk: {col:reports.risk}. The project is {col:reports.pct} complete. The weighted score is {col:reports.score} out of 100.",
+"kind": "document",
+"max": null,
+"mt": "مجموعی حالت: {col:reports.overall}. شیڈول: {col:reports.schedule}. بجٹ: {col:reports.budget}. دائرہ کار: {col:reports.scope}. خطرہ: {col:reports.risk}. منصوبہ مکمل ہے۔ وزن شدہ اسکور 100 میں سے {col:reports.score} ہے۔",
+"why": "placeholders must be exactly: {col:reports.overall} {col:reports.schedule} {col:reports.budget} {col:reports.scope} {col:reports.risk} {col:reports.pct} {col:reports.score}"
+},
+{
+"en": "Agenda of {set:firm} for the meeting {col:upcoming.title} on {col:upcoming.date}. Project: {col:upcoming.project}. Chair: {col:upcoming.chair}.",
+"kind": "document",
+"max": null,
+"mt": "اجلاس کے لئے ایجنڈا {set:firm} {col:upcoming.title} {col:upcoming.date} پر {col:upcoming.date} پروجیکٹ: {col:upcoming.project} چیئرمین: {col:upcoming.chair}",
+"why": "placeholders must be exactly: {set:firm} {col:upcoming.title} {col:upcoming.date} {col:upcoming.project} {col:upcoming.chair}"
+}
+]

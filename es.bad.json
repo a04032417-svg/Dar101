@@ -1,0 +1,520 @@
+[
+{
+"en": "Keep sponsors informed, meetings short and every project report on time",
+"kind": "sentence",
+"max": 80,
+"mt": "Mantenga informados a los patrocinadores, las reuniones sean breves y cada proyecto informe a tiempo",
+"why": "too long: 100 characters, the limit is 80"
+},
+{
+"en": "Keep sponsors informed, meetings short and every report on time",
+"kind": "sentence",
+"max": 80,
+"mt": "Mantenga informados a los patrocinadores, las reuniones sean breves y todos los informes a tiempo",
+"why": "too long: 97 characters, the limit is 80"
+},
+{
+"en": "Stakeholder map with quadrant and strategy",
+"kind": "label",
+"max": 50,
+"mt": "Mapa de las partes interesadas con cuadrante y estrategia",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "influence, interest and attitude place every stakeholder in a quadrant, give the strategy to follow and the days between contacts, and flag who is overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "Influencia, interés y actitud coloque a cada parte interesada en un cuadrante, indique la estrategia a seguir y los días entre los contactos y señale quién está atrasado",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Meeting cost and minutes check",
+"kind": "label",
+"max": 50,
+"mt": "Verificación de los costos de las reuniones y de las actas",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "attendees, length and the average cost per hour give the cost of every meeting, and each set of minutes is checked against your days allowed to send them",
+"kind": "sentence",
+"max": 160,
+"mt": "los asistentes, la duración y el costo promedio por hora dan el costo de cada reunión, y cada conjunto de minutos se comparan con sus días permitidos para enviarlos",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Action items with owner, due date and days overdue",
+"kind": "label",
+"max": 50,
+"mt": "Artículos de acción con propietario, fecha de vencimiento y días de demora",
+"why": "too long: 74 characters, the limit is 50"
+},
+{
+"en": "Weekly status report with a weighted score",
+"kind": "label",
+"max": 50,
+"mt": "Informe semanal de situación con puntuación ponderada",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "four ratings give a weighted score, an honesty check against the overall rating, the weeks in red in a row and an escalation flag",
+"kind": "sentence",
+"max": 160,
+"mt": "Cuatro calificaciones dan una puntuación ponderada, una comprobación de honestidad contra la calificación general, las semanas en rojo en una fila y una bandera de escalada",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "Steering pack items with a project snapshot",
+"kind": "label",
+"max": 50,
+"mt": "Elementos del equipo de dirección con una instantánea del proyecto",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "each item shows the headline, the decision needed and the outcome next to the health, weeks in red, open actions and decisions waiting of its project",
+"kind": "sentence",
+"max": 160,
+"mt": "Cada punto muestra el título, la decisión necesaria y el resultado junto a la salud, las semanas en rojo, las acciones abiertas y las decisiones que esperan su proyecto",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Client updates, replies and feedback",
+"kind": "label",
+"max": 50,
+"mt": "Actualizaciones, respuestas y comentarios de los clientes",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "each update shows days to a reply and a reply check, and each client answer from 0 to 10 shows its band and whether a low score was followed up",
+"kind": "sentence",
+"max": 160,
+"mt": "cada actualización muestra días hasta una respuesta y una verificación de respuesta y cada respuesta del cliente de 0 a 10 muestra su banda y si se siguió una puntuación baja",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "the next four weeks of meetings show days to go, whether the agenda is ready or overdue, the expected cost and the project health behind them",
+"kind": "sentence",
+"max": 160,
+"mt": "las próximas cuatro semanas de reuniones muestran los días que quedan, si el orden del día está listo o atrasado, el costo esperado y la salud del proyecto detrás de ellos",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Stakeholders, Meetings and Reporting",
+"kind": "title",
+"max": 60,
+"mt": "Las partes interesadas, las reuniones y la presentación de informes",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "On request",
+"kind": "list",
+"max": 30,
+"mt": "A petición de la autoridad competente",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Involve in every key decision",
+"kind": "list",
+"max": 30,
+"mt": "Involucrar en todas las decisiones clave",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Win over before the next decision",
+"kind": "list",
+"max": 30,
+"mt": "Ganar antes de la siguiente decisión",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Keep satisfied with short briefings",
+"kind": "list",
+"max": 30,
+"mt": "Mantenga satisfecho con breves instrucciones",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Keep informed with regular updates",
+"kind": "list",
+"max": 30,
+"mt": "Manténgase informado con actualizaciones regulares",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Monitor and report monthly",
+"kind": "list",
+"max": 30,
+"mt": "Seguimiento e informes mensuales",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Overall greener than ratings",
+"kind": "list",
+"max": 30,
+"mt": "En general más ecológico que las calificaciones",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Agenda overdue",
+"kind": "list",
+"max": 30,
+"mt": "El orden del día se ha retrasado",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Agenda not yet due",
+"kind": "list",
+"max": 30,
+"mt": "El orden del día aún no se ha cumplido",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Projects: sponsor, health, reports, actions and decisions",
+"kind": "title",
+"max": 60,
+"mt": "Proyectos: patrocinador, salud, informes, acciones y decisiones",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Team: who chairs meetings, owes reports and sends minutes",
+"kind": "title",
+"max": 60,
+"mt": "Equipo: quien preside las reuniones, debe informes y envía actas",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Stakeholder register with quadrant and strategy",
+"kind": "title",
+"max": 60,
+"mt": "Registro de las partes interesadas con cuadrante y estrategia",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Stakeholder map: quadrant by attitude and contact rhythm",
+"kind": "title",
+"max": 60,
+"mt": "Mapa de las partes interesadas: cuadrante por actitud y ritmo de contacto",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Communication plan: who hears what, how often, from whom",
+"kind": "title",
+"max": 60,
+"mt": "Plan de comunicación: quién escucha qué, con qué frecuencia, de quién",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Report calendar: each report, audience and next due date",
+"kind": "title",
+"max": 60,
+"mt": "Calendario de informes: cada informe, audiencia y fecha de vencimiento siguiente",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Meetings: length, attendees, cost and minutes check",
+"kind": "title",
+"max": 60,
+"mt": "Las reuniones: duración, asistentes, coste y control de las actas",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Meeting minutes: key points, decisions and when sent",
+"kind": "title",
+"max": 60,
+"mt": "Acta de las reuniones: puntos clave, decisiones y fecha de envío",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Attendance: who was invited, who came and who sent apologies",
+"kind": "title",
+"max": 60,
+"mt": "Asistencia: quién fue invitado, quién vino y quién envió disculpas",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Action items: owner, due date and days overdue",
+"kind": "title",
+"max": 60,
+"mt": "Artículos de acción: propietario, fecha de vencimiento y días de vencimiento",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Weekly status reports: ratings, score and red run",
+"kind": "title",
+"max": 60,
+"mt": "Informes semanales sobre el estado: calificaciones, puntuación y circulación en red",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Client feedback: score from 0 to 10, comment and follow-up",
+"kind": "title",
+"max": 60,
+"mt": "Comentarios de los clientes: puntuación de 0 a 10, comentarios y seguimiento",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Stakeholder contacts: every talk, outcome and next step",
+"kind": "title",
+"max": 60,
+"mt": "Contactos con las partes interesadas: cada charla, resultados y paso siguiente",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Upcoming meetings: next four weeks and agenda check",
+"kind": "title",
+"max": 60,
+"mt": "Próximas reuniones: las próximas cuatro semanas y verificación del orden del día",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Sponsor decisions: what you need and how long it waits",
+"kind": "title",
+"max": 60,
+"mt": "Decisiones del patrocinador: lo que necesita y cuánto tiempo espera",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Action owners: open, overdue and done per person",
+"kind": "title",
+"max": 60,
+"mt": "Propietarios de acciones: abiertas, vencidas y terminadas por persona",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Meeting hours, actions closed and decisions taken by month",
+"kind": "title",
+"max": 60,
+"mt": "Horario de las reuniones, acciones cerradas y decisiones tomadas por mes",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Stakeholder engagement sheet with its actions",
+"kind": "title",
+"max": 60,
+"mt": "Hoja de compromiso de las partes interesadas con sus acciones",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Meeting agenda sheet with the invited people",
+"kind": "title",
+"max": 60,
+"mt": "Hoja del orden del día de la reunión con las personas invitadas",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Status health from schedule, budget and scope variance",
+"kind": "title",
+"max": 60,
+"mt": "Estado de salud de la variación de horario, presupuesto y alcance",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Stakeholder strategy from influence, interest and attitude",
+"kind": "title",
+"max": 60,
+"mt": "Estrategia de las partes interesadas a partir de la influencia, el interés y la actitud",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Report due date from the period end and the working-day rule",
+"kind": "title",
+"max": 60,
+"mt": "Fecha de vencimiento del informe a partir del final del período y regla de los días laborables",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Action closure rate, on-time rate and overdue share",
+"kind": "title",
+"max": 60,
+"mt": "Tasa de cierre de la acción, tasa de puntualidad y cuota de vencimiento",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Hello {person}, you are invited to {title} on {date} for {project}. The chair is {chair}. Please tell us if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "Hola, están invitados a la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la sala de reuniones de la",
+"why": "placeholders must be exactly: {person} {title} {date} {project} {chair}"
+},
+{
+"en": "Hello {person}, the minutes of {title} of {date} are ready, with the actions and their owners. Please check them and tell {chair} what is wrong.",
+"kind": "message",
+"max": null,
+"mt": "Hola {person}, las actas de la reunión de {title} de {date} están listas, con las acciones y sus dueños.",
+"why": "placeholders must be exactly: {person} {title} {date} {chair}"
+},
+{
+"en": "Hello {owner}, thank you: your action \"{text}\" for {project} is closed. It was done on {done_on}.",
+"kind": "message",
+"max": null,
+"mt": "Hola {owner}, gracias: su acción \"{text}\" para {project} está cerrada.",
+"why": "placeholders must be exactly: {owner} {text} {project} {done_on}"
+},
+{
+"en": "Hello {manager}, {project} has been red for {run} weeks in a row up to the week starting {week}. Please prepare the escalation to {sponsor}.",
+"kind": "message",
+"max": null,
+"mt": "Hola {manager}, {project} ha estado en rojo durante {run} semanas seguidas hasta la semana que comienza {week}.",
+"why": "placeholders must be exactly: {manager} {project} {run} {week} {sponsor}"
+},
+{
+"en": "Hello {chair}, the minutes of {title} of {date} for {project} are not sent yet. Please send them today. The check shows: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Hola {chair}, las actas de las reuniones de {title} de {date} para {project} aún no se han enviado. Por favor, envíalos hoy.",
+"why": "placeholders must be exactly: {chair} {title} {date} {project} {state}"
+},
+{
+"en": "Hello, the steering pack for {project} is due for the meeting on {date}. Headline: {headline}. Decision needed: {decision}.",
+"kind": "message",
+"max": null,
+"mt": "Hola, el paquete de dirección para {project} es debido para la reunión en {date}.",
+"why": "placeholders must be exactly: {project} {date} {headline} {decision}"
+},
+{
+"en": "Hello {sponsor}, the steering meeting for {project} is on {date}. Headline: {headline}. We ask you to decide: {decision}.",
+"kind": "message",
+"max": null,
+"mt": "Hola {sponsor}, la reunión de dirección de {project} es en {date}.",
+"why": "placeholders must be exactly: {sponsor} {project} {date} {headline} {decision}"
+},
+{
+"en": "Hello {sponsor}, we need your decision on \"{decision}\" for {project} by {needed_by}. It has waited {days_waiting} days.",
+"kind": "message",
+"max": null,
+"mt": "Hola {sponsor}, necesitamos su decisión sobre {decision} para {project} para {needed_by}.",
+"why": "placeholders must be exactly: {sponsor} {decision} {project} {needed_by} {days_waiting}"
+},
+{
+"en": "Hello {contact}, the minutes of {title} of {date} are ready. Decisions: {decisions}. Please check them and tell us what is wrong.",
+"kind": "message",
+"max": null,
+"mt": "Hola {contact}, las actas de la reunión de {title} de {date} están listas.",
+"why": "placeholders must be exactly: {contact} {title} {date} {decisions}"
+},
+{
+"en": "Project: {col:reports.project}. Project manager: {col:reports.manager}. Sponsor: {col:reports.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Proyecto: gerente del proyecto: patrocinador:",
+"why": "placeholders must be exactly: {col:reports.project} {col:reports.manager} {col:reports.sponsor}"
+},
+{
+"en": "Minutes of the meeting {col:minutes.title}, held on {col:minutes.date}. Project: {col:minutes.project}. Chair: {col:minutes.chair}.",
+"kind": "document",
+"max": null,
+"mt": "Proyecto: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente: El Presidente:",
+"why": "placeholders must be exactly: {col:minutes.title} {col:minutes.date} {col:minutes.project} {col:minutes.chair}"
+},
+{
+"en": "Key points: {col:minutes.key_points}.",
+"kind": "document",
+"max": null,
+"mt": "Puntos clave:",
+"why": "placeholders must be exactly: {col:minutes.key_points}"
+},
+{
+"en": "These minutes were sent on {col:minutes.sent_on}; days after the meeting: {col:minutes.days_to_send}. The check shows: {col:minutes.state}. Please tell the chair within two working days if anything is wrong.",
+"kind": "document",
+"max": null,
+"mt": "El informe se remite a la Comisión, a la Comisión y a los Estados miembros, y se remite a la Comisión y a los Estados miembros.",
+"why": "placeholders must be exactly: {col:minutes.sent_on} {col:minutes.days_to_send} {col:minutes.state}"
+},
+{
+"en": "Open actions: {col:projects.open_actions}, of which overdue: {col:projects.overdue_actions}. Decisions waiting from the sponsor: {col:projects.waiting_decisions}. The next project meeting is on {col:projects.next_meeting}.",
+"kind": "document",
+"max": null,
+"mt": "Acciones abiertas: {col:projects.open_actions}, de las cuales atrasadas: {col:projects.overdue_actions}.",
+"why": "placeholders must be exactly: {col:projects.open_actions} {col:projects.overdue_actions} {col:projects.waiting_decisions} {col:projects.next_meeting}"
+},
+{
+"en": "To: {col:updates.contact}, {col:updates.client}, telephone {col:updates.client_phone}. Project: {col:updates.project}.",
+"kind": "document",
+"max": null,
+"mt": "Para: {col:updates.contact}, {col:updates.client}, teléfono {col:updates.client_phone}.",
+"why": "placeholders must be exactly: {col:updates.contact} {col:updates.client} {col:updates.client_phone} {col:updates.project}"
+},
+{
+"en": "You have {col:owners.open} open actions, of which {col:owners.overdue} are overdue. You have done {col:owners.done} actions, {col:owners.on_time} of them on time, and your closure rate is {col:owners.closure}.",
+"kind": "document",
+"max": null,
+"mt": "Tiene {col:owners.open} acciones abiertas, de las cuales {col:owners.overdue} están atrasadas.",
+"why": "placeholders must be exactly: {col:owners.open} {col:owners.overdue} {col:owners.done} {col:owners.on_time} {col:owners.closure}"
+},
+{
+"en": "Audience: {col:comms.audience}. Project: {col:comms.project}. Message: {col:comms.message}.",
+"kind": "document",
+"max": null,
+"mt": "Audiencia: Proyecto: Mensaje:",
+"why": "placeholders must be exactly: {col:comms.audience} {col:comms.project} {col:comms.message}"
+},
+{
+"en": "Channel: {col:comms.channel}. Frequency: {col:comms.freq}, that is every {col:comms.every} days. Owner: {col:comms.owner}, telephone {col:comms.owner_phone}.",
+"kind": "document",
+"max": null,
+"mt": "Canal: {col:comms.channel} Frecuencia: {col:comms.freq}, es decir cada {col:comms.every} días.",
+"why": "placeholders must be exactly: {col:comms.channel} {col:comms.freq} {col:comms.every} {col:comms.owner} {col:comms.owner_phone}"
+},
+{
+"en": "It was last sent on {col:comms.last_sent}. The next one is due on {col:comms.next} (days to go: {col:comms.days_to}). The check shows: {col:comms.state}.",
+"kind": "document",
+"max": null,
+"mt": "La última vez que se envió fue en {col:comms.last_sent}. La siguiente fecha de vencimiento es en {col:comms.next} (días para ir: {col:comms.days_to}).",
+"why": "placeholders must be exactly: {col:comms.last_sent} {col:comms.next} {col:comms.days_to} {col:comms.state}"
+},
+{
+"en": "Engagement now: {col:stakeholders.current}. Engagement wanted: {col:stakeholders.desired}. Gap in levels: {col:stakeholders.gap}.",
+"kind": "document",
+"max": null,
+"mt": "Engaño ahora: {col:stakeholders.current}. Engaño deseado: {col:stakeholders.desired}.",
+"why": "placeholders must be exactly: {col:stakeholders.current} {col:stakeholders.desired} {col:stakeholders.gap}"
+},
+{
+"en": "We make contact every {col:stakeholders.cadence} days. The last contact was on {col:stakeholders.last_contact} (days since: {col:stakeholders.days_since}) and the next is due by {col:stakeholders.due_by}. The contact check shows: {col:stakeholders.contact_state}.",
+"kind": "document",
+"max": null,
+"mt": "El último contacto fue en {col:stakeholders.last_contact} (días desde: {col:stakeholders.days_since}) y el siguiente es debido por {col:stakeholders.due_by}.",
+"why": "placeholders must be exactly: {col:stakeholders.cadence} {col:stakeholders.last_contact} {col:stakeholders.days_since} {col:stakeholders.due_by} {col:stakeholders.contact_state}"
+},
+{
+"en": "Project manager: {col:stakeholders.manager}, telephone {col:stakeholders.manager_phone}. The plan is reviewed every month.",
+"kind": "document",
+"max": null,
+"mt": "El plan se revisa todos los meses.",
+"why": "placeholders must be exactly: {col:stakeholders.manager} {col:stakeholders.manager_phone}"
+},
+{
+"en": "Agenda of {set:firm} for the meeting {col:upcoming.title} on {col:upcoming.date}. Project: {col:upcoming.project}. Chair: {col:upcoming.chair}.",
+"kind": "document",
+"max": null,
+"mt": "El orden del día de la reunión del 2 de diciembre.",
+"why": "placeholders must be exactly: {set:firm} {col:upcoming.title} {col:upcoming.date} {col:upcoming.project} {col:upcoming.chair}"
+},
+{
+"en": "Length: {col:upcoming.length} minutes. People invited: {col:upcoming.attendees}. The expected cost of the meeting is {col:upcoming.cost}. The agenda check shows: {col:upcoming.state}.",
+"kind": "document",
+"max": null,
+"mt": "Duración: {col:upcoming.length} minutos. Personas invitadas: {col:upcoming.attendees}. El costo esperado de la reunión es {col:upcoming.cost}.",
+"why": "placeholders must be exactly: {col:upcoming.length} {col:upcoming.attendees} {col:upcoming.cost} {col:upcoming.state}"
+},
+{
+"en": "Status reports received: {col:portfolio.reports}. Green: {col:portfolio.green}. Amber: {col:portfolio.amber}. Red: {col:portfolio.red}, which is {col:portfolio.red_share} of the reports.",
+"kind": "document",
+"max": null,
+"mt": "Los informes de estado recibidos: Verde: Ambar: Rojo:",
+"why": "placeholders must be exactly: {col:portfolio.reports} {col:portfolio.green} {col:portfolio.amber} {col:portfolio.red} {col:portfolio.red_share}"
+},
+{
+"en": "The PMO lead is available on {col:portfolio.pmo_phone} to explain any project. Red projects have a recovery plan that the sponsor has seen.",
+"kind": "document",
+"max": null,
+"mt": "Los proyectos rojos tienen un plan de recuperación que el patrocinador ha visto.",
+"why": "placeholders must be exactly: {col:portfolio.pmo_phone}"
+},
+{
+"en": "Client answers: {col:projects.fb_n}, the last on {col:projects.fb_last}. The average score is {col:projects.fb_avg} out of 10. Answers below the score that counts as satisfied: {col:projects.fb_low}.",
+"kind": "document",
+"max": null,
+"mt": "Las respuestas del cliente: {col:projects.fb_n}, el último en {col:projects.fb_last}.",
+"why": "placeholders must be exactly: {col:projects.fb_n} {col:projects.fb_last} {col:projects.fb_avg} {col:projects.fb_low}"
+}
+]
