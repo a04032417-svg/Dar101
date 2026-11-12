@@ -1,0 +1,107 @@
+[
+{
+"en": "cases planned, run, passed and failed give the pass rate and a check against the exit level you set, with a flag for cycles not complete",
+"kind": "sentence",
+"max": 160,
+"mt": "منصوبے، چلانے، منظور اور ناکام ہونے والے مقدمات آپ کی مقرر کردہ باہر نکلنے کی سطح کے مقابلے میں پاس کی شرح اور ایک چیک دے، مکمل نہیں سائیکلوں کے لئے ایک پرچم کے ساتھ",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Defect log with fix targets by severity",
+"kind": "label",
+"max": 50,
+"mt": "شدت کے مطابق اصلاح کے اہداف کے ساتھ خرابی کا ریکارڈ",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "each defect shows its age, days to close, the fix target for its severity, reopen count and root cause, with a warning for late fixes",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر نقص میں اس کی عمر، بند ہونے کے دن، اس کی شدت کے لئے اصلاح کا ہدف، دوبارہ کھولنے کی تعداد اور بنیادی وجہ، دیر سے اصلاحات کے لئے ایک انتباہ کے ساتھ دکھایا گیا ہے",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Root causes with prevention and rework cost",
+"kind": "label",
+"max": 50,
+"mt": "روک تھام اور دوبارہ کام کرنے کی لاگت کے ساتھ بنیادی وجوہات",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Quality by month: rework and cost of quality",
+"kind": "label",
+"max": 50,
+"mt": "مہینے کے لحاظ سے معیار: دوبارہ کام اور معیار کی لاگت",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "effort, rework, review and prevention hours per project and month give the rework share, defects found and closed, and a check against limits",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر منصوبے اور مہینے کے لئے کوشش، دوبارہ کام، جائزہ لینے اور روک تھام کے گھنٹے دوبارہ کام کا حصہ، خرابیوں کو پایا اور بند کر دیا اور حدود کے خلاف ایک چیک فراہم کرتے ہیں",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Benefits tracking against the planned level",
+"kind": "label",
+"max": 50,
+"mt": "منصوبہ بندی کی سطح کے مقابلے میں فوائد کا سراغ لگانا",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Integration mismatch",
+"kind": "list",
+"max": 30,
+"mt": "انٹیگریشن کی عدم مطابقت",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Failed, no defect logged",
+"kind": "list",
+"max": 30,
+"mt": "ناکام، کوئی نقص ریکارڈ نہیں کیا گیا",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Exit level met",
+"kind": "list",
+"max": 30,
+"mt": "باہر نکلنے کی سطح پر پورا اترتا ہے",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Closure tasks: what must be done to close a project",
+"kind": "title",
+"max": 60,
+"mt": "اختتامی کام: کسی پروجیکٹ کو بند کرنے کے لئے کیا کرنا ضروری ہے",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello {tester}, test cycle {cycle_id} ({cycle}, round {round}) on {project} starts on {date}. Please prepare {planned} cases and the test data.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {tester}، ٹیسٹ سائیکل {cycle_id} ({cycle}، راؤنڈ {round}) {project} پر {date} پر شروع ہوتا ہے.",
+"why": "placeholders must be exactly: {tester} {cycle_id} {cycle} {round} {project} {date} {planned}"
+},
+{
+"en": "Project: {col:deliverables.project}. Deliverable {col:deliverables.deliverable_id}: {col:deliverables.name}, a {col:deliverables.kind} of the {col:deliverables.phase} phase.",
+"kind": "document",
+"max": null,
+"mt": "پروجیکٹ: {col:deliverables.project} ڈیلیوریبل {col:deliverables.deliverable_id}: {col:deliverables.name}، {col:deliverables.kind} {col:deliverables.phase} مرحلے کے ایک {col:deliverables.kind}.",
+"why": "placeholders must be exactly: {col:deliverables.project} {col:deliverables.deliverable_id} {col:deliverables.name} {col:deliverables.kind} {col:deliverables.phase}"
+},
+{
+"en": "To: Finance partner, telephone {col:payments.fin_phone}. Project: {col:payments.project}. Milestone {col:payments.pay_id}: {col:payments.milestone}.",
+"kind": "document",
+"max": null,
+"mt": "فنانس پارٹنر کو، ٹیلی فون۔ پروجیکٹ:",
+"why": "placeholders must be exactly: {col:payments.fin_phone} {col:payments.project} {col:payments.pay_id} {col:payments.milestone}"
+},
+{
+"en": "The check shows: {col:ppr.state}. The PMO lead, telephone {col:ppr.pmo_phone}, adds the lesson to the library so that the next project can use it.",
+"kind": "document",
+"max": null,
+"mt": "چیک دکھاتا ہے: {col:ppr.state}. PMO لیڈ، ٹیلی فون {col:ppr.pmo_phone}، لائبریری میں سبق شامل کرتا ہے تاکہ اگلے منصوبے کو اس کا استعمال کر سکے.",
+"why": "English/Latin words left: PMO"
+}
+]

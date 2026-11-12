@@ -1,0 +1,93 @@
+[
+{
+"en": "Failed, no defect logged",
+"kind": "list",
+"max": 30,
+"mt": "شکست خورده، هیچ نقصی ثبت نشده است",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Closure tasks: what must be done to close a project",
+"kind": "title",
+"max": 60,
+"mt": "وظایف بسته شدن: چه کاری باید برای بسته شدن یک پروژه انجام شود",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "One row per respondent of a post-project review with ratings from 1 to 5 for schedule, cost, scope and client, and the main lesson; the overall rating, the PMO phone and a check fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر پاسخ دهنده از بررسی پس از پروژه با رتبه بندی از 1 تا 5 برای برنامه ریزی، هزینه، دامنه و مشتری، و درس اصلی؛ رتبه بندی کلی، تلفن PMO و چک خود را پر می کنند.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "PMO phone",
+"kind": "label",
+"max": null,
+"mt": "تلفن PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Pick a project; the five scores come from your Projects sheet and are combined with the weights you set on Start into one score out of 100, a colour and the figures behind each score.",
+"kind": "sentence",
+"max": null,
+"mt": "یک پروژه را انتخاب کنید؛ پنج امتیاز از برگه پروژه های شما آمده و با وزنه هایی که در Start تنظیم کرده اید به یک امتیاز از 100، یک رنگ و اعداد پشت هر امتیاز ترکیب می شوند.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Hello {contact}, thank you for accepting deliverable {name} on {decided_on}. We will invoice the milestone linked to it.",
+"kind": "message",
+"max": null,
+"mt": "سلام {contact}، از شما تشکر می کنم که در {decided_on} تحویل داده شده را قبول کردید.",
+"why": "placeholders must be exactly: {contact} {name} {decided_on}"
+},
+{
+"en": "Hello {support_owner}, I am sending the access and contacts list for {service} on {project}. Please check your accounts before {start}. Handover items done: {handover_done}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {support_owner}، من در حال ارسال دسترسی و لیست مخاطبین برای {service} در {project}. لطفا حساب های خود را قبل از {start} بررسی کنید.",
+"why": "placeholders must be exactly: {support_owner} {service} {project} {start} {handover_done}"
+},
+{
+"en": "PMO lead: lessons and review ready",
+"kind": "label",
+"max": null,
+"mt": "رهبری PMO: درس ها و بررسی آماده است",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Project: {col:cycles.project}. Project manager: {col:cycles.manager}. Cycle {col:cycles.cycle_id}: {col:cycles.cycle}, round {col:cycles.round}, on {col:cycles.date}. Tester: {col:cycles.tester}.",
+"kind": "document",
+"max": null,
+"mt": "پروژه: {col:cycles.project}. مدیر پروژه: {col:cycles.manager}. چرخه {col:cycles.cycle_id}: {col:cycles.cycle}، دور {col:cycles.round}، در {col:cycles.date}.",
+"why": "placeholders must be exactly: {col:cycles.project} {col:cycles.manager} {col:cycles.cycle_id} {col:cycles.cycle} {col:cycles.round} {col:cycles.date} {col:cycles.tester}"
+},
+{
+"en": "To: Finance partner, telephone {col:payments.fin_phone}. Project: {col:payments.project}. Milestone {col:payments.pay_id}: {col:payments.milestone}.",
+"kind": "document",
+"max": null,
+"mt": "به: شريک مالي، تلفن پروژه نقطه عطف",
+"why": "placeholders must be exactly: {col:payments.fin_phone} {col:payments.project} {col:payments.pay_id} {col:payments.milestone}"
+},
+{
+"en": "Main lesson: {col:ppr.lesson}.",
+"kind": "document",
+"max": null,
+"mt": "درس اصلي:",
+"why": "placeholders must be exactly: {col:ppr.lesson}"
+},
+{
+"en": "The check shows: {col:ppr.state}. The PMO lead, telephone {col:ppr.pmo_phone}, adds the lesson to the library so that the next project can use it.",
+"kind": "document",
+"max": null,
+"mt": "چک نشان می دهد: {col:ppr.state}. رهبر PMO، تلفن {col:ppr.pmo_phone}، درس را به کتابخانه اضافه می کند تا پروژه بعدی بتواند از آن استفاده کند.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Check that the pass rate meets the exit level",
+"kind": "label",
+"max": null,
+"mt": "چک کنید که نرخ عبور با سطح خروج مطابقت دارد",
+"why": "never use the word for \"compatible\""
+}
+]

@@ -1,0 +1,100 @@
+[
+{
+"en": "every analysed defect has a cause, the hours to fix, the rework cost from the fixer's rate and a prevention action you can tick off",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक विश्लेषण दोष एक कारण है, घंटे की मरम्मत करने के लिए, मरम्मत की दर से rework की लागत और एक रोकथाम कार्रवाई आप चिह्नित कर सकते हैं",
+"why": "English/Latin words left: rework"
+},
+{
+"en": "Quality by month: rework and cost of quality",
+"kind": "label",
+"max": 50,
+"mt": "माह के अनुसार गुणवत्ताः पुनः कार्य और गुणवत्ता की लागत",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Days the client has to accept a deliverable",
+"kind": "setting",
+"max": null,
+"mt": "दिन ग्राहक एक deliverable स्वीकार करने के लिए है",
+"why": "English/Latin words left: deliverable"
+},
+{
+"en": "Integration mismatch",
+"kind": "list",
+"max": 30,
+"mt": "एकीकरण असंगतता",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Failed, no defect logged",
+"kind": "list",
+"max": 30,
+"mt": "विफल, कोई दोष नहीं दर्ज किया गया",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Test cycles: cases run, passed, failed and the exit level",
+"kind": "title",
+"max": 60,
+"mt": "परीक्षण चक्रः मामले चलाने, पारित, असफल और बाहर निकलने का स्तर",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Quality reviews: documents, code, process and release checks",
+"kind": "title",
+"max": 60,
+"mt": "गुणवत्ता की समीक्षाः दस्तावेजों, कोड, प्रक्रिया और रिलीज की जांच",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Quality by month: effort, rework and review hours",
+"kind": "title",
+"max": 60,
+"mt": "माह के अनुसार गुणवत्ताः प्रयास, पुनः कार्य और समीक्षा के घंटे",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, the final acceptance letter for {name} is ready: {accepted} of {deliverables} deliverables are accepted. Please sign and return it.",
+"kind": "message",
+"max": null,
+"mt": "हैलो {contact}, {name} के लिए अंतिम स्वीकृति पत्र तैयार हैः {accepted} के {deliverables} deliverables स्वीकार किए जाते हैं. कृपया हस्ताक्षर और इसे वापस.",
+"why": "English/Latin words left: deliverables"
+},
+{
+"en": "Hello {sponsor}, benefit \"{benefit}\" of {project} is at {achieved} of the planned level. The next review is on {review}. Please look at the actions needed.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {sponsor}, {project} का लाभ {achieved} पर है। अगली समीक्षा {review} पर है। कृपया आवश्यक कार्यों को देखें।",
+"why": "placeholders must be exactly: {sponsor} {benefit} {project} {achieved} {review}"
+},
+{
+"en": "The deliverable was planned for {col:deliverables.planned}. It was submitted on {col:deliverables.submitted_on} after {col:deliverables.attempts} submission(s) and accepted on {col:deliverables.accepted_on}, which took {col:deliverables.acc_days} days.",
+"kind": "document",
+"max": null,
+"mt": "यह {col:deliverables.planned} के लिए निर्धारित किया गया था। इसे {col:deliverables.submitted_on} पर प्रस्तुत किया गया था और {col:deliverables.accepted_on} को स्वीकार किया गया था, जिसमें {col:deliverables.acc_days} दिन लगे।",
+"why": "placeholders must be exactly: {col:deliverables.planned} {col:deliverables.submitted_on} {col:deliverables.attempts} {col:deliverables.accepted_on} {col:deliverables.acc_days}"
+},
+{
+"en": "{col:projects.accepted} of {col:projects.deliverables} deliverables are accepted. The test pass rate is {col:projects.pass_rate}. There are {col:projects.defects_open} open defects, of which {col:projects.crit_open} are critical.",
+"kind": "document",
+"max": null,
+"mt": "{col:projects.accepted} के {col:projects.deliverables} deliverables स्वीकार किए जाते हैं. परीक्षण पास दर {col:projects.pass_rate} है. {col:projects.defects_open} खुले दोष हैं, जिनमें से {col:projects.crit_open} महत्वपूर्ण हैं.",
+"why": "English/Latin words left: deliverables"
+},
+{
+"en": "We confirm that {col:projects.accepted} of {col:projects.deliverables} deliverables of the project are accepted. The project ended on {col:projects.actual_end}.",
+"kind": "document",
+"max": null,
+"mt": "हम पुष्टि करते हैं कि {col:projects.accepted} के {col:projects.deliverables} परियोजना के deliverables स्वीकार कर रहे हैं. परियोजना {col:projects.actual_end} पर समाप्त हो गया.",
+"why": "English/Latin words left: deliverables"
+},
+{
+"en": "List every deliverable and milestone on Deliverables and the criteria the client checks on Acceptance Criteria. Log each submission and decision on Acceptance Log; days to decide and late checks fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Deliverables पर प्रत्येक deliverable और मील का पत्थर की सूची और मानदंड ग्राहक स्वीकृति मानदंड पर जाँच करता है। स्वीकृति लॉग पर प्रत्येक सबमिशन और निर्णय लॉग करें; निर्णय लेने के लिए दिन और देर से जांच में भरें।",
+"why": "English/Latin words left: Deliverables deliverable"
+}
+]

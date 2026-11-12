@@ -1,0 +1,240 @@
+[
+{
+"en": "cases planned, run, passed and failed give the pass rate and a check against the exit level you set, with a flag for cycles not complete",
+"kind": "sentence",
+"max": 160,
+"mt": "planlanan, çalıştırılan, geçilen ve başarısız olan vakalar geçiş oranını ve belirlediğiniz çıkış seviyesine karşı bir kontrolü verir, tamamlanmamış döngüler için bir bayrakla",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "each defect shows its age, days to close, the fix target for its severity, reopen count and root cause, with a warning for late fixes",
+"kind": "sentence",
+"max": 160,
+"mt": "Her bir kusurun yaşı, kapanması gereken günler, ciddiyet için düzeltme hedefi, yeniden açma sayısı ve kök nedeni, geç düzeltmeler için bir uyarı ile gösterilmektedir.",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "effort, rework, review and prevention hours per project and month give the rework share, defects found and closed, and a check against limits",
+"kind": "sentence",
+"max": 160,
+"mt": "projeler ve aylar için çalışma, yeniden işleme, inceleme ve önleme saatleri, yeniden işleme payını, tespit edilen ve kapatılan kusurları ve sınırlara karşı bir kontrolü verir.",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Client feedback review",
+"kind": "list",
+"max": 30,
+"mt": "Müşteri geri bildirimi incelemesi",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Runbook",
+"kind": "list",
+"max": 30,
+"mt": "Runbook",
+"why": "not translated"
+},
+{
+"en": "Failed, no defect logged",
+"kind": "list",
+"max": 30,
+"mt": "Başarısız, hiçbir kusur kaydedilmedi.",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Exit level met",
+"kind": "list",
+"max": 30,
+"mt": "Çıkış seviyesi yerine getirilmiş",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Reopened, fix again",
+"kind": "list",
+"max": 30,
+"mt": "Tekrar açıldı, tekrar tamir edildi.",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Deliverables and milestones: dates, acceptance, days late",
+"kind": "title",
+"max": 60,
+"mt": "Teslimatlar ve kilometre çizgileri: tarihler, kabul, günler geç",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Test cycles: cases run, passed, failed and the exit level",
+"kind": "title",
+"max": 60,
+"mt": "Test döngüleri: çalıştırılan, geçilen, başarısız olan ve çıkış seviyesi",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Quality reviews: documents, code, process and release checks",
+"kind": "title",
+"max": 60,
+"mt": "Kalite incelemeleri: belgeler, kod, süreç ve serbest bırakma kontrolleri",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Handover items: runbook, access, training, contacts",
+"kind": "title",
+"max": 60,
+"mt": "Gönderme öğeleri: çalışma kitabı, erişim, eğitim, bağlantılar",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Benefits tracking: actual against plan by month",
+"kind": "title",
+"max": 60,
+"mt": "Verilerin takip edilmesi: aylık olarak planla karşılaştırıldığında gerçek",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Rework cost from rework hours",
+"kind": "title",
+"max": 60,
+"mt": "Yeniden işleme saatlerinden kaynaklanan yeniden işleme maliyeti",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Client satisfaction index from survey ratings",
+"kind": "title",
+"max": 60,
+"mt": "Anket derecelendirmelerinden gelen müşteri memnuniyeti indeksi",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {tester}, test cycle {cycle_id} ({cycle}, round {round}) on {project} starts on {date}. Please prepare {planned} cases and the test data.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {tester}, test döngüsü {cycle_id} ({cycle}, yuvarlak {round}) {project} {date} başlıyor.",
+"why": "placeholders must be exactly: {tester} {cycle_id} {cycle} {round} {project} {date} {planned}"
+},
+{
+"en": "Hello, deliverable {name} on {project} has waited {waiting} days for the client. The decision was due by {decide_by}. Please call {contact}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, teslimat {name} {project} {waiting} gün bekledi.",
+"why": "placeholders must be exactly: {name} {project} {waiting} {decide_by} {contact}"
+},
+{
+"en": "Hello {support_owner}, I am sending the access and contacts list for {service} on {project}. Please check your accounts before {start}. Handover items done: {handover_done}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {support_owner}, {service} için erişim ve iletişim listesini gönderiyorum {project}. Lütfen hesaplarınızı {start}'dan önce kontrol edin.",
+"why": "placeholders must be exactly: {support_owner} {service} {project} {start} {handover_done}"
+},
+{
+"en": "The acceptor, {col:deliverables.acceptor}, confirms that the deliverable meets the agreed acceptance criteria. Any open comments are listed on the acceptance sheet and are planned for a later release.",
+"kind": "document",
+"max": null,
+"mt": "Kabul eden, teslimatın kabul kriterlerini karşıladığını onaylar.",
+"why": "placeholders must be exactly: {col:deliverables.acceptor}"
+},
+{
+"en": "The payment tied to this acceptance is {col:deliverables.payment_due}. The acceptance check shows: {col:deliverables.state}.",
+"kind": "document",
+"max": null,
+"mt": "Bu kabulle bağlı ödeme {col:deliverables.payment_due}.",
+"why": "placeholders must be exactly: {col:deliverables.payment_due} {col:deliverables.state}"
+},
+{
+"en": "Project: {col:defects.project}. Project manager: {col:defects.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Proje yöneticisi:",
+"why": "placeholders must be exactly: {col:defects.project} {col:defects.manager}"
+},
+{
+"en": "The defect is assigned to {col:defects.assignee}. The fix target for this severity is {col:defects.target} days. The defect is {col:defects.age} days old if it is still open, and it took {col:defects.days_to_close} days to close if it is closed.",
+"kind": "document",
+"max": null,
+"mt": "Bu ciddiyet için düzeltme hedefi {col:defects.target} gündür. Eğer hâlâ açıksa, {col:defects.age} gündür ve kapalı ise kapatması {col:defects.days_to_close} gün sürmüştür.",
+"why": "placeholders must be exactly: {col:defects.assignee} {col:defects.target} {col:defects.age} {col:defects.days_to_close}"
+},
+{
+"en": "Project: {col:cycles.project}. Project manager: {col:cycles.manager}. Cycle {col:cycles.cycle_id}: {col:cycles.cycle}, round {col:cycles.round}, on {col:cycles.date}. Tester: {col:cycles.tester}.",
+"kind": "document",
+"max": null,
+"mt": "Proje: {col:cycles.project}. Proje yöneticisi: {col:cycles.manager}. Döngü {col:cycles.cycle_id}: {col:cycles.cycle}, yuvarlak {col:cycles.round}, {col:cycles.date}.",
+"why": "placeholders must be exactly: {col:cycles.project} {col:cycles.manager} {col:cycles.cycle_id} {col:cycles.cycle} {col:cycles.round} {col:cycles.date} {col:cycles.tester}"
+},
+{
+"en": "The pass rate needed to leave the cycle is {set:pass_exit}. The check shows: {col:cycles.state}.",
+"kind": "document",
+"max": null,
+"mt": "Döngüden çıkmak için gereken geçiş oranı {set:pass_exit}.",
+"why": "placeholders must be exactly: {set:pass_exit} {col:cycles.state}"
+},
+{
+"en": "To: Finance partner, telephone {col:payments.fin_phone}. Project: {col:payments.project}. Milestone {col:payments.pay_id}: {col:payments.milestone}.",
+"kind": "document",
+"max": null,
+"mt": "Finans ortağı için, telefon.",
+"why": "placeholders must be exactly: {col:payments.fin_phone} {col:payments.project} {col:payments.pay_id} {col:payments.milestone}"
+},
+{
+"en": "The milestone was accepted on {col:payments.accepted_on}. Please invoice {col:payments.amount}, which is {col:payments.share} of the contract price, to {col:payments.contact}, telephone {col:payments.phone}.",
+"kind": "document",
+"max": null,
+"mt": "Lütfen sözleşme fiyatının {col:payments.share} olan faturayı {col:payments.contact}, telefon {col:payments.phone} adresine gönderin.",
+"why": "placeholders must be exactly: {col:payments.accepted_on} {col:payments.amount} {col:payments.share} {col:payments.contact} {col:payments.phone}"
+},
+{
+"en": "Support is taken over by {col:transition.support_owner}, telephone {col:transition.support_phone}, from {col:transition.start}. The handover status is {col:transition.status}.",
+"kind": "document",
+"max": null,
+"mt": "Destek {col:transition.support_owner}, telefon {col:transition.support_phone}, {col:transition.start} tarafından devralınır.",
+"why": "placeholders must be exactly: {col:transition.support_owner} {col:transition.support_phone} {col:transition.start} {col:transition.status}"
+},
+{
+"en": "The measure is: {col:benefits.measure}. The baseline is {col:benefits.baseline} and the final target is {col:benefits.target}. The benefit is live from {col:benefits.since}.",
+"kind": "document",
+"max": null,
+"mt": "Ölçüm şudur: {col:benefits.measure}. Baza çizgisi {col:benefits.baseline} ve nihai hedef {col:benefits.target}.",
+"why": "placeholders must be exactly: {col:benefits.measure} {col:benefits.baseline} {col:benefits.target} {col:benefits.since}"
+},
+{
+"en": "The benefit check shows: {col:benefits.state}. The next review is on {col:benefits.review}. The review check shows: {col:benefits.review_state}.",
+"kind": "document",
+"max": null,
+"mt": "Fayda kontrolü gösterir: {col:benefits.state}.",
+"why": "placeholders must be exactly: {col:benefits.state} {col:benefits.review} {col:benefits.review_state}"
+},
+{
+"en": "{col:projects.accepted} of {col:projects.deliverables} deliverables are accepted. The test pass rate is {col:projects.pass_rate}. There are {col:projects.defects_open} open defects, of which {col:projects.crit_open} are critical.",
+"kind": "document",
+"max": null,
+"mt": "{col:projects.accepted} teslimatların kabul edilir. Test geçiş oranı {col:projects.pass_rate}. {col:projects.defects_open} açık kusurlar vardır, bunlardan {col:projects.crit_open} kritiktir.",
+"why": "placeholders must be exactly: {col:projects.accepted} {col:projects.deliverables} {col:projects.pass_rate} {col:projects.defects_open} {col:projects.crit_open}"
+},
+{
+"en": "The budget now is {col:projects.budget_now} and {col:projects.spent} was spent. The rework share of effort is {col:projects.rework_share}.",
+"kind": "document",
+"max": null,
+"mt": "Bütçe şimdi {col:projects.budget_now} ve {col:projects.spent} harcanmıştır.",
+"why": "placeholders must be exactly: {col:projects.budget_now} {col:projects.spent} {col:projects.rework_share}"
+},
+{
+"en": "Ratings from 1 to 5: schedule {col:ppr.schedule}, cost {col:ppr.cost}, scope {col:ppr.scope} and client {col:ppr.client}. The overall rating is {col:ppr.overall}.",
+"kind": "document",
+"max": null,
+"mt": "1 ile 5 arasındaki derecelendirmeler: zamanlama {col:ppr.schedule}, maliyet {col:ppr.cost}, kapsam {col:ppr.scope} ve müşteri {col:ppr.client}.",
+"why": "placeholders must be exactly: {col:ppr.schedule} {col:ppr.cost} {col:ppr.scope} {col:ppr.client} {col:ppr.overall}"
+},
+{
+"en": "{col:warranty.claims} claim(s) were made so far. The warranty check shows: {col:warranty.state}.",
+"kind": "document",
+"max": null,
+"mt": "{col:warranty.claims} iddialar şimdiye kadar yapıldı.",
+"why": "placeholders must be exactly: {col:warranty.claims} {col:warranty.state}"
+},
+{
+"en": "We confirm that {col:projects.accepted} of {col:projects.deliverables} deliverables of the project are accepted. The project ended on {col:projects.actual_end}.",
+"kind": "document",
+"max": null,
+"mt": "Projenin teslimatlarının kabul edildiğini onaylıyoruz. Projenin sonu {col:projects.actual_end} oldu.",
+"why": "placeholders must be exactly: {col:projects.accepted} {col:projects.deliverables} {col:projects.actual_end}"
+}
+]

@@ -1,0 +1,450 @@
+[
+{
+"en": "Run acceptance, testing, payments, handover and closure in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Eseguire accettazione, test, pagamenti, consegna e chiusura in una sola cartella di lavoro",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "Acceptance log with days to decide",
+"kind": "label",
+"max": 50,
+"mt": "Registro delle accettazioni con i giorni per decidere",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "cases planned, run, passed and failed give the pass rate and a check against the exit level you set, with a flag for cycles not complete",
+"kind": "sentence",
+"max": 160,
+"mt": "i casi pianificati, eseguiti, superati e falliti forniscono il tasso di superamento e un controllo rispetto al livello di uscita impostato, con un segnale per i cicli non completati",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "Defect log with fix targets by severity",
+"kind": "label",
+"max": 50,
+"mt": "Registro dei difetti con obiettivi di correzione per gravità",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "each defect shows its age, days to close, the fix target for its severity, reopen count and root cause, with a warning for late fixes",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni difetto mostra la sua età, i giorni per chiudere, il bersaglio di correzione per la sua gravità, il numero di riaperture e la causa principale, con un avvertimento per le correzioni tardive",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "Root causes with prevention and rework cost",
+"kind": "label",
+"max": 50,
+"mt": "Cause profonde con costi di prevenzione e di rielaborazione",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "Quality by month: rework and cost of quality",
+"kind": "label",
+"max": 50,
+"mt": "Qualità per mese: rielaborazione e costo della qualità",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "effort, rework, review and prevention hours per project and month give the rework share, defects found and closed, and a check against limits",
+"kind": "sentence",
+"max": 160,
+"mt": "L'impegno, la riforma, la revisione e la prevenzione delle ore per progetto e mese forniscono la quota di riforma, i difetti individuati e chiusi e un controllo contro i limiti",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "each milestone is linked to a deliverable and shows the due date from the client terms, days late, amount outstanding and an invoice-to-send flag",
+"kind": "sentence",
+"max": 160,
+"mt": "ciascuna pietra miliare è collegata a un prodotto da consegnare e mostra la data di scadenza delle condizioni del cliente, i giorni di ritardo, l'importo in sospeso e una bandiera di fattura da inviare",
+"why": "too long: 201 characters, the limit is 160"
+},
+{
+"en": "Benefits tracking against the planned level",
+"kind": "label",
+"max": 50,
+"mt": "Tracciamento delle prestazioni rispetto al livello previsto",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "actual against planned value month by month gives the achieved share of each benefit, a check against your limits and the next review date",
+"kind": "sentence",
+"max": 160,
+"mt": "Il valore effettivo contro il valore previsto mese per mese fornisce la quota raggiunta di ciascun beneficio, un controllo contro i vostri limiti e la data di revisione successiva",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "schedule, cost, quality, risk and client scores are weighted with the limits you set into one score and a green, amber or red colour per project",
+"kind": "sentence",
+"max": 160,
+"mt": "il programma, i costi, la qualità, il rischio e i punteggi dei clienti sono ponderati con i limiti che si impostano in un punteggio e un colore verde, ambra o rosso per progetto",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Software",
+"kind": "list",
+"max": 30,
+"mt": "Software",
+"why": "not translated"
+},
+{
+"en": "Design gap",
+"kind": "list",
+"max": 30,
+"mt": "L'interruzione di progettazione",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Integration mismatch",
+"kind": "list",
+"max": 30,
+"mt": "Non corrispondenza di integrazione",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Client feedback review",
+"kind": "list",
+"max": 30,
+"mt": "Recensione dei feedback dei clienti",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Failed, no defect logged",
+"kind": "list",
+"max": 30,
+"mt": "Fallito, nessun difetto registrato",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Below exit level",
+"kind": "list",
+"max": 30,
+"mt": "Al di sotto del livello di uscita",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Projects: delivery, quality and health figures",
+"kind": "title",
+"max": 60,
+"mt": "Progetti: dati relativi alla fornitura, alla qualità e alla salute",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Acceptance log: every submission and the client decision",
+"kind": "title",
+"max": 60,
+"mt": "Registro di accettazione: ogni presentazione e decisione del cliente",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Test cycles: cases run, passed, failed and the exit level",
+"kind": "title",
+"max": 60,
+"mt": "Cicli di prova: casi in esecuzione, superati, falliti e livello di uscita",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Defect log: severity, status, age and fix target",
+"kind": "title",
+"max": 60,
+"mt": "Registro dei difetti: gravità, stato, età e obiettivo di fissazione",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Root causes: why a defect happened and how to prevent it",
+"kind": "title",
+"max": 60,
+"mt": "Cause profonde: perché si è verificato un difetto e come prevenirlo",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Quality reviews: documents, code, process and release checks",
+"kind": "title",
+"max": 60,
+"mt": "Controlli di qualità: controllo dei documenti, del codice, dei processi e del rilascio",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Quality by month: effort, rework and review hours",
+"kind": "title",
+"max": 60,
+"mt": "Qualità per mese: orari di sforzo, rielaborazione e revisione",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Payment milestones: the money released by each acceptance",
+"kind": "title",
+"max": 60,
+"mt": "Piemonte di pagamento: il denaro rilasciato da ogni accettazione",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Handover items: runbook, access, training, contacts",
+"kind": "title",
+"max": 60,
+"mt": "Articoli di cessione: programma, accesso, formazione, contatti",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Benefits tracking: actual against plan by month",
+"kind": "title",
+"max": 60,
+"mt": "Tracciamento delle prestazioni: effettivo rispetto al piano per mese",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Closure tasks: what must be done to close a project",
+"kind": "title",
+"max": 60,
+"mt": "Compiti di chiusura: cosa deve essere fatto per chiudere un progetto",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Post-project reviews: ratings and main lessons",
+"kind": "title",
+"max": 60,
+"mt": "Revisioni post-progetto: valutazioni e principali insegnamenti",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Warranty periods: scope, end date and claims",
+"kind": "title",
+"max": 60,
+"mt": "Periodi di garanzia: campo d'applicazione, data di fine e reclami",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Defect report sheet with its root cause",
+"kind": "title",
+"max": 60,
+"mt": "Scheda di segnalazione del difetto con la sua causa principale",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Test pass rate and exit criteria check",
+"kind": "title",
+"max": 60,
+"mt": "Controllo del tasso di superamento del test e dei criteri di uscita",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Benefit realisation percent against the planned level",
+"kind": "title",
+"max": 60,
+"mt": "Percentuale di realizzazione degli utili rispetto al livello previsto",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Project health score from five weighted scores",
+"kind": "title",
+"max": 60,
+"mt": "Punteggio di salute del progetto da cinque punteggi ponderati",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Client satisfaction index from survey ratings",
+"kind": "title",
+"max": 60,
+"mt": "Indice di soddisfazione dei clienti basato su valutazioni degli sondaggi",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, thank you for the review of {name}. Your comments: {comments}. We will send a fix plan with dates within two working days.",
+"kind": "message",
+"max": null,
+"mt": "Ciao {contact}, grazie per la recensione di {name}.",
+"why": "placeholders must be exactly: {contact} {name} {comments}"
+},
+{
+"en": "Hello {contact}, we hold {name} for {project} on {planned}. Please confirm who will attend and tell us about any open concern before then.",
+"kind": "message",
+"max": null,
+"mt": "Si prega di confermare chi parteciperà e di dirci di qualsiasi preoccupazione aperta prima di allora.",
+"why": "placeholders must be exactly: {contact} {name} {project} {planned}"
+},
+{
+"en": "Hello {contact}, the handover session on {item} for {project} is planned for {due}. Please confirm who attends from {to_whom}.",
+"kind": "message",
+"max": null,
+"mt": "Salve {contact}, la sessione di consegna di {item} per {project} è prevista per {due}.",
+"why": "placeholders must be exactly: {contact} {item} {project} {due} {to_whom}"
+},
+{
+"en": "Hello {contact}, the benefits review for {project} is on {review}, in about {months_left} months. Please keep the latest figures for {benefit} ready.",
+"kind": "message",
+"max": null,
+"mt": "Salve {contact}, la revisione dei benefici per {project} è in {review}, in circa {months_left} mesi.",
+"why": "placeholders must be exactly: {contact} {project} {review} {months_left} {benefit}"
+},
+{
+"en": "Hello {tester}, test cycle {cycle_id} ({cycle}, round {round}) on {project} starts on {date}. Please prepare {planned} cases and the test data.",
+"kind": "message",
+"max": null,
+"mt": "Ciao {tester}, il ciclo di prova {cycle_id} ({cycle}, round {round}) di {project} inizia a {date}.",
+"why": "placeholders must be exactly: {tester} {cycle_id} {cycle} {round} {project} {date} {planned}"
+},
+{
+"en": "Hello, deliverable {name} on {project} has waited {waiting} days for the client. The decision was due by {decide_by}. Please call {contact}.",
+"kind": "message",
+"max": null,
+"mt": "Salve, la consegna {name} su {project} ha aspettato {waiting} giorni per il cliente.",
+"why": "placeholders must be exactly: {name} {project} {waiting} {decide_by} {contact}"
+},
+{
+"en": "Hello, closure task \"{task}\" on {project} is owned by {owner} and is due on {due}. It is {days_late} days late if it shows a number. Please check it.",
+"kind": "message",
+"max": null,
+"mt": "Salve, l'attività di chiusura \"{task}\" su {project} è di proprietà di {owner} e è prevista per {due}.",
+"why": "placeholders must be exactly: {task} {project} {owner} {due} {days_late}"
+},
+{
+"en": "Hello {sponsor}, benefit \"{benefit}\" of {project} is at {achieved} of the planned level. The next review is on {review}. Please look at the actions needed.",
+"kind": "message",
+"max": null,
+"mt": "Ciao {sponsor}, il beneficio \"{benefit}\" di {project} è al {achieved} del livello previsto.",
+"why": "placeholders must be exactly: {sponsor} {benefit} {project} {achieved} {review}"
+},
+{
+"en": "Hello {support_owner}, I am sending the access and contacts list for {service} on {project}. Please check your accounts before {start}. Handover items done: {handover_done}.",
+"kind": "message",
+"max": null,
+"mt": "Salve {support_owner}, sto inviando l'accesso e la lista dei contatti per {service} su {project}.",
+"why": "placeholders must be exactly: {support_owner} {service} {project} {start} {handover_done}"
+},
+{
+"en": "Hello, milestone {milestone} on {project} was accepted on {accepted_on}. Please invoice {amount} to {contact}. The client terms are {terms} days.",
+"kind": "message",
+"max": null,
+"mt": "Ciao, milestone {milestone} su {project} è stato accettato su {accepted_on}. Si prega di fatturare {amount} a {contact}.",
+"why": "placeholders must be exactly: {milestone} {project} {accepted_on} {amount} {contact} {terms}"
+},
+{
+"en": "Hello, the post-project review response {pr_id} for {project} from {respondent} is ready. Main lesson: {lesson}. Please add it to the library.",
+"kind": "message",
+"max": null,
+"mt": "Salve, la risposta di revisione post-progetto {pr_id} per {project} da {respondent} è pronta.",
+"why": "placeholders must be exactly: {pr_id} {project} {respondent} {lesson}"
+},
+{
+"en": "The payment tied to this acceptance is {col:deliverables.payment_due}. The acceptance check shows: {col:deliverables.state}.",
+"kind": "document",
+"max": null,
+"mt": "Il pagamento legato a questa accettazione è {col:deliverables.payment_due}.",
+"why": "placeholders must be exactly: {col:deliverables.payment_due} {col:deliverables.state}"
+},
+{
+"en": "Project: {col:defects.project}. Project manager: {col:defects.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Direttore del progetto:",
+"why": "placeholders must be exactly: {col:defects.project} {col:defects.manager}"
+},
+{
+"en": "Fixed on {col:defects.fixed_on} and retested on {col:defects.retested_on}. The defect was reopened {col:defects.reopens} time(s). The root cause is: {col:defects.cause}, with {col:defects.fix_hours} hours of fix effort.",
+"kind": "document",
+"max": null,
+"mt": "La causa principale è: {col:defects.cause}, con {col:defects.fix_hours} ore di sforzo di correzione.",
+"why": "placeholders must be exactly: {col:defects.fixed_on} {col:defects.retested_on} {col:defects.reopens} {col:defects.cause} {col:defects.fix_hours}"
+},
+{
+"en": "Project: {col:cycles.project}. Project manager: {col:cycles.manager}. Cycle {col:cycles.cycle_id}: {col:cycles.cycle}, round {col:cycles.round}, on {col:cycles.date}. Tester: {col:cycles.tester}.",
+"kind": "document",
+"max": null,
+"mt": "Progetto: {col:cycles.project}. Direttore del progetto: {col:cycles.manager}. Ciclo {col:cycles.cycle_id}: {col:cycles.cycle}, round {col:cycles.round}, su {col:cycles.date}.",
+"why": "placeholders must be exactly: {col:cycles.project} {col:cycles.manager} {col:cycles.cycle_id} {col:cycles.cycle} {col:cycles.round} {col:cycles.date} {col:cycles.tester}"
+},
+{
+"en": "The pass rate needed to leave the cycle is {set:pass_exit}. The check shows: {col:cycles.state}.",
+"kind": "document",
+"max": null,
+"mt": "Il tasso di passaggio necessario per uscire dal ciclo è {set:pass_exit}.",
+"why": "placeholders must be exactly: {set:pass_exit} {col:cycles.state}"
+},
+{
+"en": "To: Finance partner, telephone {col:payments.fin_phone}. Project: {col:payments.project}. Milestone {col:payments.pay_id}: {col:payments.milestone}.",
+"kind": "document",
+"max": null,
+"mt": "A: socio finanziario, telefono.",
+"why": "placeholders must be exactly: {col:payments.fin_phone} {col:payments.project} {col:payments.pay_id} {col:payments.milestone}"
+},
+{
+"en": "The client terms are {col:payments.terms} days. The invoice number is {col:payments.invoice_no}, sent on {col:payments.invoice_date}, due on {col:payments.due}. The payment check shows: {col:payments.check}.",
+"kind": "document",
+"max": null,
+"mt": "I termini del cliente sono {col:payments.terms} giorni. Il numero di fattura è {col:payments.invoice_no}, inviato il {col:payments.invoice_date}, scaduto il {col:payments.due}.",
+"why": "placeholders must be exactly: {col:payments.terms} {col:payments.invoice_no} {col:payments.invoice_date} {col:payments.due} {col:payments.check}"
+},
+{
+"en": "Support is taken over by {col:transition.support_owner}, telephone {col:transition.support_phone}, from {col:transition.start}. The handover status is {col:transition.status}.",
+"kind": "document",
+"max": null,
+"mt": "Il supporto viene ripreso da {col:transition.support_owner}, telefono {col:transition.support_phone}, da {col:transition.start}.",
+"why": "placeholders must be exactly: {col:transition.support_owner} {col:transition.support_phone} {col:transition.start} {col:transition.status}"
+},
+{
+"en": "Of the handover items for this project, {col:transition.handover_done} are done. The readiness check shows: {col:transition.state}.",
+"kind": "document",
+"max": null,
+"mt": "Il controllo di prontezza mostra: {col:transition.state}.",
+"why": "placeholders must be exactly: {col:transition.handover_done} {col:transition.state}"
+},
+{
+"en": "The measure is: {col:benefits.measure}. The baseline is {col:benefits.baseline} and the final target is {col:benefits.target}. The benefit is live from {col:benefits.since}.",
+"kind": "document",
+"max": null,
+"mt": "La misura è: {col:benefits.measure}. La linea di base è {col:benefits.baseline} e l'obiettivo finale è {col:benefits.target}.",
+"why": "placeholders must be exactly: {col:benefits.measure} {col:benefits.baseline} {col:benefits.target} {col:benefits.since}"
+},
+{
+"en": "The benefit check shows: {col:benefits.state}. The next review is on {col:benefits.review}. The review check shows: {col:benefits.review_state}.",
+"kind": "document",
+"max": null,
+"mt": "Il controllo dei benefici mostra: {col:benefits.state}. La revisione successiva è su {col:benefits.review}.",
+"why": "placeholders must be exactly: {col:benefits.state} {col:benefits.review} {col:benefits.review_state}"
+},
+{
+"en": "The budget now is {col:projects.budget_now} and {col:projects.spent} was spent. The rework share of effort is {col:projects.rework_share}.",
+"kind": "document",
+"max": null,
+"mt": "Il budget ora è {col:projects.budget_now} e {col:projects.spent} è stato speso.",
+"why": "placeholders must be exactly: {col:projects.budget_now} {col:projects.spent} {col:projects.rework_share}"
+},
+{
+"en": "Ratings from 1 to 5: schedule {col:ppr.schedule}, cost {col:ppr.cost}, scope {col:ppr.scope} and client {col:ppr.client}. The overall rating is {col:ppr.overall}.",
+"kind": "document",
+"max": null,
+"mt": "Valutazioni da 1 a 5: programma {col:ppr.schedule}, costo {col:ppr.cost}, ambito {col:ppr.scope} e cliente {col:ppr.client}.",
+"why": "placeholders must be exactly: {col:ppr.schedule} {col:ppr.cost} {col:ppr.scope} {col:ppr.client} {col:ppr.overall}"
+},
+{
+"en": "Main lesson: {col:ppr.lesson}.",
+"kind": "document",
+"max": null,
+"mt": "Lezione principale:",
+"why": "placeholders must be exactly: {col:ppr.lesson}"
+},
+{
+"en": "Project: {col:warranty.project}. Client contact: {col:warranty.contact}, telephone {col:warranty.client_phone}.",
+"kind": "document",
+"max": null,
+"mt": "Progetto: contatto del cliente: telefono:",
+"why": "placeholders must be exactly: {col:warranty.project} {col:warranty.contact} {col:warranty.client_phone}"
+},
+{
+"en": "Scope covered: {col:warranty.scope}. The warranty runs from {col:warranty.start} to {col:warranty.end}. {col:warranty.days_left} days are left and {col:warranty.used} of the period is used.",
+"kind": "document",
+"max": null,
+"mt": "La garanzia dura da {col:warranty.start} a {col:warranty.end}. {col:warranty.days_left} giorni sono rimasti e {col:warranty.used} del periodo è utilizzato.",
+"why": "placeholders must be exactly: {col:warranty.scope} {col:warranty.start} {col:warranty.end} {col:warranty.days_left} {col:warranty.used}"
+},
+{
+"en": "{col:warranty.claims} claim(s) were made so far. The warranty check shows: {col:warranty.state}.",
+"kind": "document",
+"max": null,
+"mt": "Il controllo della garanzia mostra:",
+"why": "placeholders must be exactly: {col:warranty.claims} {col:warranty.state}"
+}
+]

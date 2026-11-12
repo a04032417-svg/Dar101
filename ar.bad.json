@@ -1,0 +1,114 @@
+[
+{
+"en": "Deliverables with late and waiting checks",
+"kind": "label",
+"max": 50,
+"mt": "البيانات التي يتم تسليمها مع تأخير والتحققات في انتظار",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "One row per criterion of a deliverable with who checked it and when; the deliverable name, the project and a met, not met or not checked state fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "سطر واحد لكل معيار من المنتج مع من تحقق فيه ومتى ؛ اسم المنتج والمشروع وحالة متوافقة أو غير متوافقة أو غير معتمدة تم تعبئها من تلقاء نفسها.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Test cycles: cases run, passed, failed and the exit level",
+"kind": "title",
+"max": 60,
+"mt": "دورات الاختبار: الحالات التي يتم تشغيلها ، والموافقة عليها ، والفشل ومستوى الخروج",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Quality reviews: documents, code, process and release checks",
+"kind": "title",
+"max": 60,
+"mt": "مراجعة الجودة: المستندات والرموز والعمليات والتحقق من الإفراج",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "One row per respondent of a post-project review with ratings from 1 to 5 for schedule, cost, scope and client, and the main lesson; the overall rating, the PMO phone and a check fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "صف واحد لكل مستجيب من مراجعة ما بعد المشروع مع تصنيفات من 1 إلى 5 لجدول الزمني والتكلفة والنطاق والعميل ، والدرس الرئيسي ؛ التصنيف العام ، هاتف PMO وشيك ملء من تلقاء نفسها.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "PMO phone",
+"kind": "label",
+"max": null,
+"mt": "هاتف PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {tester}, test cycle {cycle_id} ({cycle}, round {round}) on {project} starts on {date}. Please prepare {planned} cases and the test data.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {tester}، دورة الاختبار {cycle_id} ({cycle}، جولة {round}) في {project} تبدأ في {date}.",
+"why": "placeholders must be exactly: {tester} {cycle_id} {cycle} {round} {project} {date} {planned}"
+},
+{
+"en": "Hello, deliverable {name} on {project} has waited {waiting} days for the client. The decision was due by {decide_by}. Please call {contact}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، لقد انتظرت {name} في {project} {waiting} أيام للعميل. كان قرارها متوقعًا بحلول {decide_by}.",
+"why": "placeholders must be exactly: {name} {project} {waiting} {decide_by} {contact}"
+},
+{
+"en": "Hello {support_owner}, I am sending the access and contacts list for {service} on {project}. Please check your accounts before {start}. Handover items done: {handover_done}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {support_owner}، أنا أرسل قائمة الوصول والاتصالات ل {service} على {project}. يرجى التحقق من حساباتك قبل {start}.",
+"why": "placeholders must be exactly: {support_owner} {service} {project} {start} {handover_done}"
+},
+{
+"en": "PMO lead: lessons and review ready",
+"kind": "label",
+"max": null,
+"mt": "قيادة PMO: الدروس والمراجعة جاهزة",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Fixed on {col:defects.fixed_on} and retested on {col:defects.retested_on}. The defect was reopened {col:defects.reopens} time(s). The root cause is: {col:defects.cause}, with {col:defects.fix_hours} hours of fix effort.",
+"kind": "document",
+"max": null,
+"mt": "تم إصلاح {col:defects.fixed_on} وإعادة اختباره في {col:defects.retested_on}. تم إعادة فتح العيب {col:defects.reopens} time(s). السبب الجذري هو: {col:defects.cause} ، مع {col:defects.fix_hours} ساعات من جهد إصلاح.",
+"why": "English/Latin words left: time"
+},
+{
+"en": "To: Finance partner, telephone {col:payments.fin_phone}. Project: {col:payments.project}. Milestone {col:payments.pay_id}: {col:payments.milestone}.",
+"kind": "document",
+"max": null,
+"mt": "إلى: الشريك المالي، هاتف مشروع:",
+"why": "placeholders must be exactly: {col:payments.fin_phone} {col:payments.project} {col:payments.pay_id} {col:payments.milestone}"
+},
+{
+"en": "The client terms are {col:payments.terms} days. The invoice number is {col:payments.invoice_no}, sent on {col:payments.invoice_date}, due on {col:payments.due}. The payment check shows: {col:payments.check}.",
+"kind": "document",
+"max": null,
+"mt": "شروط العميل هي {col:payments.terms} أيام. رقم الفاتورة هو {col:payments.invoice_no}، أرسلت في {col:payments.invoice_date}، مستحقة في {col:payments.due}.",
+"why": "placeholders must be exactly: {col:payments.terms} {col:payments.invoice_no} {col:payments.invoice_date} {col:payments.due} {col:payments.check}"
+},
+{
+"en": "The measure is: {col:benefits.measure}. The baseline is {col:benefits.baseline} and the final target is {col:benefits.target}. The benefit is live from {col:benefits.since}.",
+"kind": "document",
+"max": null,
+"mt": "القياس هو: {col:benefits.measure}. الخط الأساسي هو {col:benefits.baseline} والهدف النهائي هو {col:benefits.target}.",
+"why": "placeholders must be exactly: {col:benefits.measure} {col:benefits.baseline} {col:benefits.target} {col:benefits.since}"
+},
+{
+"en": "The check shows: {col:ppr.state}. The PMO lead, telephone {col:ppr.pmo_phone}, adds the lesson to the library so that the next project can use it.",
+"kind": "document",
+"max": null,
+"mt": "يظهر التحقق: {col:ppr.state}. رئيس PMO، الهاتف {col:ppr.pmo_phone}، يضيف الدرس إلى المكتبة بحيث يمكن للمشروع التالي استخدامها.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "{col:warranty.claims} claim(s) were made so far. The warranty check shows: {col:warranty.state}.",
+"kind": "document",
+"max": null,
+"mt": "{col:warranty.claims} تم تقديم مطالبات حتى الآن.",
+"why": "placeholders must be exactly: {col:warranty.claims} {col:warranty.state}"
+}
+]

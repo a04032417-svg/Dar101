@@ -1,0 +1,191 @@
+[
+{
+"en": "One row per respondent of a post-project review with ratings from 1 to 5 for schedule, cost, scope and client, and the main lesson; the overall rating, the PMO phone and a check fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "每个受访者每行进行项目后审查,对时间表,成本,范围和客户进行1到5的评级,并提供主要教训;整体评级,PMO电话和支票自行填写.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {contact}, deliverable {name} of {project} is submitted for acceptance. Please check it against the agreed criteria and tell us your decision.",
+"kind": "message",
+"max": null,
+"mt": "您好, {contact} 的交付 {name} 已提交接受.请与已同意的标准进行检查,并告诉我们您的决定.",
+"why": "placeholders must be exactly: {contact} {name} {project}"
+},
+{
+"en": "Hello {contact}, please accept deliverable {name} or send your comments by {decide_by}. If something is unclear, call me and we will go through it together.",
+"kind": "message",
+"max": null,
+"mt": "你好,请接受交付,或者在2之前发送你的评论. 如果有些东西不清楚,请打电话给我,我们一起来看看.",
+"why": "placeholders must be exactly: {contact} {name} {decide_by}"
+},
+{
+"en": "Hello {contact}, deliverable {name} has been waiting {waiting} days for your decision. Please accept it or send your comments this week.",
+"kind": "message",
+"max": null,
+"mt": "您的决定已经等了几天. 请接受或在本周发送您的评论.",
+"why": "placeholders must be exactly: {contact} {name} {waiting}"
+},
+{
+"en": "Hello {contact}, thank you for accepting deliverable {name} on {decided_on}. We will invoice the milestone linked to it.",
+"kind": "message",
+"max": null,
+"mt": "谢谢您在 {decided_on} 上接受交付 {name}. 我们将会发票与之相关的里程碑.",
+"why": "placeholders must be exactly: {contact} {name} {decided_on}"
+},
+{
+"en": "Hello {contact}, thank you for the review of {name}. Your comments: {comments}. We will send a fix plan with dates within two working days.",
+"kind": "message",
+"max": null,
+"mt": "您的评论:我们将在两天内发送一个修复计划.",
+"why": "placeholders must be exactly: {contact} {name} {comments}"
+},
+{
+"en": "Hello {contact}, we hold {name} for {project} on {planned}. Please confirm who will attend and tell us about any open concern before then.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们在 {planned} 待 {project} 请确认谁会参加,然后告诉我们任何未解决的问题.",
+"why": "placeholders must be exactly: {contact} {name} {project} {planned}"
+},
+{
+"en": "Hello {contact}, the handover session on {item} for {project} is planned for {due}. Please confirm who attends from {to_whom}.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {item} 的 {project} 上的交换会议计划在 {due}. 请确认谁从 {to_whom} 来参加.",
+"why": "placeholders must be exactly: {contact} {item} {project} {due} {to_whom}"
+},
+{
+"en": "Hello {contact}, the warranty of {project} ends on {end}. Please send any claim before then so that we can solve it in time.",
+"kind": "message",
+"max": null,
+"mt": "您的保修期限在2日结束.请在此之前发送任何索赔,以便我们及时解决.",
+"why": "placeholders must be exactly: {contact} {project} {end}"
+},
+{
+"en": "Hello {tester}, test cycle {cycle_id} ({cycle}, round {round}) on {project} starts on {date}. Please prepare {planned} cases and the test data.",
+"kind": "message",
+"max": null,
+"mt": "您好,测试周期 {cycle_id} ({cycle},圆 {round}) 在 {project} 开始于 {date}. 请准备 {planned} 案例和测试数据.",
+"why": "placeholders must be exactly: {tester} {cycle_id} {cycle} {round} {project} {date} {planned}"
+},
+{
+"en": "Hello {owner}, closure task \"{task}\" on {project} is due on {due}. Please finish it and tell me when it is done.",
+"kind": "message",
+"max": null,
+"mt": "你好,关闭任务\"{task}\"在{project}是由于在{due}. 请完成它,告诉我什么时候完成.",
+"why": "placeholders must be exactly: {owner} {task} {project} {due}"
+},
+{
+"en": "Hello {manager}, test cycle {cycle_id} on {project} has a pass rate of {pass_rate}, below the exit level. {failed} cases failed. Please agree the fix plan with the team.",
+"kind": "message",
+"max": null,
+"mt": "您好,测试周期 {cycle_id} 在 {project} 有 {pass_rate} 的通过率,低于出口水平. {failed} 案例失败. 请与团队商定修复计划.",
+"why": "placeholders must be exactly: {manager} {cycle_id} {project} {pass_rate} {failed}"
+},
+{
+"en": "Hello {support_owner}, the handover pack for {service} on {project} is ready. Support starts on {start}. Please confirm that you received it.",
+"kind": "message",
+"max": null,
+"mt": "您好, {support_owner} 已准备好 {service} 的交换包. 支持开始于 {start}. 请确认您收到了.",
+"why": "placeholders must be exactly: {support_owner} {service} {project} {start}"
+},
+{
+"en": "Hello {support_owner}, I am sending the access and contacts list for {service} on {project}. Please check your accounts before {start}. Handover items done: {handover_done}.",
+"kind": "message",
+"max": null,
+"mt": "您好,我在 {project} 上发送 {service} 的访问和联系人列表. 请在 {start} 之前检查您的帐户. 交付项目完成: {handover_done}.",
+"why": "placeholders must be exactly: {support_owner} {service} {project} {start} {handover_done}"
+},
+{
+"en": "Project: {col:defects.project}. Project manager: {col:defects.manager}.",
+"kind": "document",
+"max": null,
+"mt": "项目负责人:",
+"why": "placeholders must be exactly: {col:defects.project} {col:defects.manager}"
+},
+{
+"en": "Defect: {col:defects.title}. Severity: {col:defects.severity}. Status: {col:defects.status}. Found by {col:defects.found_by} on {col:defects.found_on}. Test case: {col:defects.test}.",
+"kind": "document",
+"max": null,
+"mt": "缺陷: {col:defects.title}. 严重性: {col:defects.severity}. 状态: {col:defects.status}. 在 {col:defects.found_on} 发现. 测试案例: {col:defects.test}.",
+"why": "placeholders must be exactly: {col:defects.title} {col:defects.severity} {col:defects.status} {col:defects.found_by} {col:defects.found_on} {col:defects.test}"
+},
+{
+"en": "Test summary report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "测试总结报告,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "To: Finance partner, telephone {col:payments.fin_phone}. Project: {col:payments.project}. Milestone {col:payments.pay_id}: {col:payments.milestone}.",
+"kind": "document",
+"max": null,
+"mt": "致:财务合作伙伴,电话.",
+"why": "placeholders must be exactly: {col:payments.fin_phone} {col:payments.project} {col:payments.pay_id} {col:payments.milestone}"
+},
+{
+"en": "Benefits realisation report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "收益实现报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Project closure report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "项目结束报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "{col:projects.accepted} of {col:projects.deliverables} deliverables are accepted. The test pass rate is {col:projects.pass_rate}. There are {col:projects.defects_open} open defects, of which {col:projects.crit_open} are critical.",
+"kind": "document",
+"max": null,
+"mt": "{col:projects.accepted} 的产品被接受. 测试通过率是 {col:projects.pass_rate}. 有 {col:projects.defects_open} 的公开缺陷,其中 {col:projects.crit_open} 是关键的.",
+"why": "placeholders must be exactly: {col:projects.accepted} {col:projects.deliverables} {col:projects.pass_rate} {col:projects.defects_open} {col:projects.crit_open}"
+},
+{
+"en": "Post-project review report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "项目后审查报告,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Main lesson: {col:ppr.lesson}.",
+"kind": "document",
+"max": null,
+"mt": "主要的教训:",
+"why": "placeholders must be exactly: {col:ppr.lesson}"
+},
+{
+"en": "The check shows: {col:ppr.state}. The PMO lead, telephone {col:ppr.pmo_phone}, adds the lesson to the library so that the next project can use it.",
+"kind": "document",
+"max": null,
+"mt": "检查显示: {col:ppr.state}.PMO领导,电话 {col:ppr.pmo_phone},将课程添加到库中,以便下一个项目可以使用它.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Project: {col:warranty.project}. Client contact: {col:warranty.contact}, telephone {col:warranty.client_phone}.",
+"kind": "document",
+"max": null,
+"mt": "项目:客户联系人:电话:",
+"why": "placeholders must be exactly: {col:warranty.project} {col:warranty.contact} {col:warranty.client_phone}"
+},
+{
+"en": "Scope covered: {col:warranty.scope}. The warranty runs from {col:warranty.start} to {col:warranty.end}. {col:warranty.days_left} days are left and {col:warranty.used} of the period is used.",
+"kind": "document",
+"max": null,
+"mt": "覆盖范围: {col:warranty.scope}.保证期限为 {col:warranty.start} 至 {col:warranty.end}.",
+"why": "placeholders must be exactly: {col:warranty.scope} {col:warranty.start} {col:warranty.end} {col:warranty.days_left} {col:warranty.used}"
+},
+{
+"en": "{col:warranty.claims} claim(s) were made so far. The warranty check shows: {col:warranty.state}.",
+"kind": "document",
+"max": null,
+"mt": "报道称,目前已有1起索赔,保修检查显示:",
+"why": "placeholders must be exactly: {col:warranty.claims} {col:warranty.state}"
+}
+]

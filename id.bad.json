@@ -1,0 +1,282 @@
+[
+{
+"en": "Run acceptance, testing, payments, handover and closure in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Jalankan penerimaan, pengujian, pembayaran, penyerahan dan penutupan dalam satu buku kerja",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "cases planned, run, passed and failed give the pass rate and a check against the exit level you set, with a flag for cycles not complete",
+"kind": "sentence",
+"max": 160,
+"mt": "kasus direncanakan, berjalan, lulus dan gagal memberikan tingkat lulus dan pemeriksaan terhadap tingkat keluar yang Anda atur, dengan bendera untuk siklus tidak lengkap",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Defect log with fix targets by severity",
+"kind": "label",
+"max": 50,
+"mt": "Log cacat dengan target perbaikan berdasarkan tingkat keparahan",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "each defect shows its age, days to close, the fix target for its severity, reopen count and root cause, with a warning for late fixes",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap cacat menunjukkan usianya, hari untuk menutup, target perbaikan untuk tingkat keparahannya, membuka kembali jumlah dan akar penyebab, dengan peringatan untuk perbaikan terlambat",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "Root causes with prevention and rework cost",
+"kind": "label",
+"max": 50,
+"mt": "Penyebab akar dengan biaya pencegahan dan pengolahan kembali",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "Quality by month: rework and cost of quality",
+"kind": "label",
+"max": 50,
+"mt": "Kualitas per bulan: pengolahan ulang dan biaya kualitas",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "each milestone is linked to a deliverable and shows the due date from the client terms, days late, amount outstanding and an invoice-to-send flag",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap tonggak terkait dengan hasil pengiriman dan menunjukkan tanggal jatuh tempo dari persyaratan klien, hari keterlambatan, jumlah yang belum terbayar dan tanda faktur untuk dikirim",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "Benefits tracking against the planned level",
+"kind": "label",
+"max": 50,
+"mt": "Pelacakan manfaat terhadap tingkat yang direncanakan",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Change not communicated",
+"kind": "list",
+"max": 30,
+"mt": "Perubahan tidak dikomunikasikan",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Runbook",
+"kind": "list",
+"max": 30,
+"mt": "Runbook",
+"why": "not translated"
+},
+{
+"en": "Failed, no defect logged",
+"kind": "list",
+"max": 30,
+"mt": "Gagal, tidak ada cacat yang tercatat",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Reopened, fix again",
+"kind": "list",
+"max": 30,
+"mt": "Dibuka kembali, memperbaiki lagi",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Signed copy on file",
+"kind": "list",
+"max": 30,
+"mt": "Salinan yang ditandatangani di berkas",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Signed copy missing",
+"kind": "list",
+"max": 30,
+"mt": "Tidak ada salinan yang ditandatangani",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Test cycles: cases run, passed, failed and the exit level",
+"kind": "title",
+"max": 60,
+"mt": "Siklus pengujian: kasus berjalan, lulus, gagal dan tingkat keluar",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Share run",
+"kind": "label",
+"max": null,
+"mt": "Share run",
+"why": "not translated"
+},
+{
+"en": "Defect log: severity, status, age and fix target",
+"kind": "title",
+"max": 60,
+"mt": "Log cacat: tingkat keparahan, status, usia dan target perbaikan",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Root causes: why a defect happened and how to prevent it",
+"kind": "title",
+"max": 60,
+"mt": "Penyebab akar: mengapa cacat terjadi dan bagaimana mencegahnya",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Quality reviews: documents, code, process and release checks",
+"kind": "title",
+"max": 60,
+"mt": "Tinjauan kualitas: dokumen, kode, proses dan pemeriksaan rilis",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Quality by month: effort, rework and review hours",
+"kind": "title",
+"max": 60,
+"mt": "Kualitas menurut bulan: waktu kerja, pengolahan ulang dan peninjauan",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Payment milestones: the money released by each acceptance",
+"kind": "title",
+"max": 60,
+"mt": "Titik-titik pembayaran: uang yang dilepaskan oleh setiap penerimaan",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Closure tasks: what must be done to close a project",
+"kind": "title",
+"max": 60,
+"mt": "Tugas penutupan: apa yang harus dilakukan untuk menutup proyek",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Defect removal efficiency before and after go-live",
+"kind": "title",
+"max": 60,
+"mt": "Efisiensi penghapusan cacat sebelum dan setelah mulai beroperasi",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Benefit realisation percent against the planned level",
+"kind": "title",
+"max": 60,
+"mt": "Persentase realisasi keuntungan terhadap tingkat yang direncanakan",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, the handover session on {item} for {project} is planned for {due}. Please confirm who attends from {to_whom}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {contact}, sesi penyerahan pada {item} untuk {project} direncanakan untuk {due}.",
+"why": "placeholders must be exactly: {contact} {item} {project} {due} {to_whom}"
+},
+{
+"en": "Hello {contact}, the benefits review for {project} is on {review}, in about {months_left} months. Please keep the latest figures for {benefit} ready.",
+"kind": "message",
+"max": null,
+"mt": "Halo {contact}, ulasan manfaat untuk {project} adalah pada {review}, sekitar {months_left} bulan.",
+"why": "placeholders must be exactly: {contact} {project} {review} {months_left} {benefit}"
+},
+{
+"en": "Hello {tester}, test cycle {cycle_id} ({cycle}, round {round}) on {project} starts on {date}. Please prepare {planned} cases and the test data.",
+"kind": "message",
+"max": null,
+"mt": "Halo {tester}, siklus uji {cycle_id} ({cycle}, putaran {round}) pada {project} dimulai pada {date}.",
+"why": "placeholders must be exactly: {tester} {cycle_id} {cycle} {round} {project} {date} {planned}"
+},
+{
+"en": "Hello, deliverable {name} on {project} has waited {waiting} days for the client. The decision was due by {decide_by}. Please call {contact}.",
+"kind": "message",
+"max": null,
+"mt": "Halo, deliverable {name} pada {project} telah menunggu {waiting} hari untuk klien.",
+"why": "placeholders must be exactly: {name} {project} {waiting} {decide_by} {contact}"
+},
+{
+"en": "Hello, closure task \"{task}\" on {project} is owned by {owner} and is due on {due}. It is {days_late} days late if it shows a number. Please check it.",
+"kind": "message",
+"max": null,
+"mt": "Halo, tugas penutupan \"{task}\" pada {project} dimiliki oleh {owner} dan jatuh tempo pada {due}.",
+"why": "placeholders must be exactly: {task} {project} {owner} {due} {days_late}"
+},
+{
+"en": "Hello {sponsor}, benefit \"{benefit}\" of {project} is at {achieved} of the planned level. The next review is on {review}. Please look at the actions needed.",
+"kind": "message",
+"max": null,
+"mt": "Halo {sponsor}, manfaat \"{benefit}\" dari {project} adalah pada {achieved} dari tingkat yang direncanakan.",
+"why": "placeholders must be exactly: {sponsor} {benefit} {project} {achieved} {review}"
+},
+{
+"en": "Hello {support_owner}, I am sending the access and contacts list for {service} on {project}. Please check your accounts before {start}. Handover items done: {handover_done}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {support_owner}, saya mengirim akses dan daftar kontak untuk {service} pada {project}.",
+"why": "placeholders must be exactly: {support_owner} {service} {project} {start} {handover_done}"
+},
+{
+"en": "Hello, milestone {milestone} on {project} was accepted on {accepted_on}. Please invoice {amount} to {contact}. The client terms are {terms} days.",
+"kind": "message",
+"max": null,
+"mt": "Halo, milestone {milestone} pada {project} diterima pada {accepted_on}.",
+"why": "placeholders must be exactly: {milestone} {project} {accepted_on} {amount} {contact} {terms}"
+},
+{
+"en": "Hello, the post-project review response {pr_id} for {project} from {respondent} is ready. Main lesson: {lesson}. Please add it to the library.",
+"kind": "message",
+"max": null,
+"mt": "Halo, jawaban review pasca proyek {pr_id} untuk {project} dari {respondent} sudah siap.",
+"why": "placeholders must be exactly: {pr_id} {project} {respondent} {lesson}"
+},
+{
+"en": "The payment tied to this acceptance is {col:deliverables.payment_due}. The acceptance check shows: {col:deliverables.state}.",
+"kind": "document",
+"max": null,
+"mt": "Pembayaran yang terkait dengan penerimaan ini adalah {col:deliverables.payment_due}.",
+"why": "placeholders must be exactly: {col:deliverables.payment_due} {col:deliverables.state}"
+},
+{
+"en": "The pass rate needed to leave the cycle is {set:pass_exit}. The check shows: {col:cycles.state}.",
+"kind": "document",
+"max": null,
+"mt": "Tingkat lulus yang diperlukan untuk meninggalkan siklus adalah {set:pass_exit}.",
+"why": "placeholders must be exactly: {set:pass_exit} {col:cycles.state}"
+},
+{
+"en": "The client terms are {col:payments.terms} days. The invoice number is {col:payments.invoice_no}, sent on {col:payments.invoice_date}, due on {col:payments.due}. The payment check shows: {col:payments.check}.",
+"kind": "document",
+"max": null,
+"mt": "Istilah klien adalah {col:payments.terms} hari. Nomor faktur adalah {col:payments.invoice_no}, dikirim pada {col:payments.invoice_date}, jatuh tempo pada {col:payments.due}.",
+"why": "placeholders must be exactly: {col:payments.terms} {col:payments.invoice_no} {col:payments.invoice_date} {col:payments.due} {col:payments.check}"
+},
+{
+"en": "Support is taken over by {col:transition.support_owner}, telephone {col:transition.support_phone}, from {col:transition.start}. The handover status is {col:transition.status}.",
+"kind": "document",
+"max": null,
+"mt": "Dukungan diambil alih oleh {col:transition.support_owner}, telepon {col:transition.support_phone}, dari {col:transition.start}.",
+"why": "placeholders must be exactly: {col:transition.support_owner} {col:transition.support_phone} {col:transition.start} {col:transition.status}"
+},
+{
+"en": "The benefit check shows: {col:benefits.state}. The next review is on {col:benefits.review}. The review check shows: {col:benefits.review_state}.",
+"kind": "document",
+"max": null,
+"mt": "Periksa manfaat menunjukkan: {col:benefits.state}.",
+"why": "placeholders must be exactly: {col:benefits.state} {col:benefits.review} {col:benefits.review_state}"
+},
+{
+"en": "The budget now is {col:projects.budget_now} and {col:projects.spent} was spent. The rework share of effort is {col:projects.rework_share}.",
+"kind": "document",
+"max": null,
+"mt": "Anggaran sekarang adalah {col:projects.budget_now} dan {col:projects.spent} telah dibelanjakan.",
+"why": "placeholders must be exactly: {col:projects.budget_now} {col:projects.spent} {col:projects.rework_share}"
+},
+{
+"en": "Ratings from 1 to 5: schedule {col:ppr.schedule}, cost {col:ppr.cost}, scope {col:ppr.scope} and client {col:ppr.client}. The overall rating is {col:ppr.overall}.",
+"kind": "document",
+"max": null,
+"mt": "Peringkat dari 1 sampai 5: jadwal {col:ppr.schedule}, biaya {col:ppr.cost}, ruang lingkup {col:ppr.scope} dan klien {col:ppr.client}.",
+"why": "placeholders must be exactly: {col:ppr.schedule} {col:ppr.cost} {col:ppr.scope} {col:ppr.client} {col:ppr.overall}"
+}
+]

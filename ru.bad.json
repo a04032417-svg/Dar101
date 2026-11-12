@@ -1,0 +1,380 @@
+[
+{
+"en": "Run acceptance, testing, payments, handover and closure in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Запустить прием, тестирование, платежи, передачу и закрытие в одной рабочей книге",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Acceptance criteria per deliverable",
+"kind": "label",
+"max": 50,
+"mt": "Критерии принятия по каждому полученному результату",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Defect log with fix targets by severity",
+"kind": "label",
+"max": 50,
+"mt": "Журнал дефектов с целями исправления по степени тяжести",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Root causes with prevention and rework cost",
+"kind": "label",
+"max": 50,
+"mt": "Коренные причины с профилактикой и затратами на переработку",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "every analysed defect has a cause, the hours to fix, the rework cost from the fixer's rate and a prevention action you can tick off",
+"kind": "sentence",
+"max": 160,
+"mt": "Каждый анализируемый дефект имеет причину, часы на исправление, стоимость переработки от ставки фиксировщика и профилактические действия, которые вы можете отметки",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Quality by month: rework and cost of quality",
+"kind": "label",
+"max": 50,
+"mt": "Качество по месяцам: переработка и стоимость качества",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Benefits tracking against the planned level",
+"kind": "label",
+"max": 50,
+"mt": "Отслеживание выгод по сравнению с планируемым уровнем",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Warranty periods with days left and claims",
+"kind": "label",
+"max": 50,
+"mt": "Гарантийные периоды с оставшимися днями и претензии",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "schedule, cost, quality, risk and client scores are weighted with the limits you set into one score and a green, amber or red colour per project",
+"kind": "sentence",
+"max": 160,
+"mt": "график, стоимость, качество, риск и оценки клиентов взвешены с ограничениями, которые вы устанавливаете в один балл и зеленый, янтарный или красный цвет на проект",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Ready to retest",
+"kind": "list",
+"max": 30,
+"mt": "Готовы к повторному тестированию .",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Failed, defect logged",
+"kind": "list",
+"max": 30,
+"mt": "Неудача, дефект зарегистрирован",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Failed, no defect logged",
+"kind": "list",
+"max": 30,
+"mt": "Неудача, не зарегистрировано дефекта",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Retest waiting",
+"kind": "list",
+"max": 30,
+"mt": "Повторное тестирование ожидания",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Test cases: area, expected result and result",
+"kind": "title",
+"max": 60,
+"mt": "Испытательные случаи: площадь, ожидаемый результат и результат",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Test cycles: cases run, passed, failed and the exit level",
+"kind": "title",
+"max": 60,
+"mt": "Циклы испытаний: случаи запуска, прохождения, провала и уровень выхода",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Defect log: severity, status, age and fix target",
+"kind": "title",
+"max": 60,
+"mt": "Журнал дефектов: степень тяжести, статус, возраст и цель установки",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Root causes: why a defect happened and how to prevent it",
+"kind": "title",
+"max": 60,
+"mt": "Основные причины: почему произошел дефект и как его предотвратить",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Quality reviews: documents, code, process and release checks",
+"kind": "title",
+"max": 60,
+"mt": "Обзор качества: проверка документов, кодов, процессов и выпуска",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Payment milestones: the money released by each acceptance",
+"kind": "title",
+"max": 60,
+"mt": "Мероприятия по оплате: сумма, освобождаемая при каждом приеме",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Handover items: runbook, access, training, contacts",
+"kind": "title",
+"max": 60,
+"mt": "Передача документов: учетная запись, доступ, обучение, контакты",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Benefits tracking: actual against plan by month",
+"kind": "title",
+"max": 60,
+"mt": "Отслеживание выплат: фактическое по сравнению с планом по месяцам",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Closure tasks: what must be done to close a project",
+"kind": "title",
+"max": 60,
+"mt": "Задачи закрытия: что необходимо сделать, чтобы закрыть проект",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "One row per respondent of a post-project review with ratings from 1 to 5 for schedule, cost, scope and client, and the main lesson; the overall rating, the PMO phone and a check fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "Одна строка на каждого респондента послепроектного обзора с оценками от 1 до 5 по графику, стоимости, охвату и клиенту, а также основной урок; общий рейтинг, телефон PMO и чек заполняются сами по себе.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "PMO phone",
+"kind": "label",
+"max": null,
+"mt": "Телефон PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Defect removal efficiency before and after go-live",
+"kind": "title",
+"max": 60,
+"mt": "Эффективность удаления дефектов до и после начала эксплуатации",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Benefit realisation percent against the planned level",
+"kind": "title",
+"max": 60,
+"mt": "Процент реализации прибыли по отношению к планируемому уровню",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Pick a project; the five scores come from your Projects sheet and are combined with the weights you set on Start into one score out of 100, a colour and the figures behind each score.",
+"kind": "sentence",
+"max": null,
+"mt": "Выберите проект; пять баллов приходят из вашего листа \"Проекты\" и объединяются с весами, установленными на Start, в один балл из 100, цвет и цифры за каждым баллом.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Hello {contact}, please accept deliverable {name} or send your comments by {decide_by}. If something is unclear, call me and we will go through it together.",
+"kind": "message",
+"max": null,
+"mt": "Если что-то не ясно, позвоните, и мы обсудим это вместе.",
+"why": "placeholders must be exactly: {contact} {name} {decide_by}"
+},
+{
+"en": "Hello {contact}, thank you for accepting deliverable {name} on {decided_on}. We will invoice the milestone linked to it.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, спасибо, что приняли поставку.",
+"why": "placeholders must be exactly: {contact} {name} {decided_on}"
+},
+{
+"en": "Hello {contact}, we hold {name} for {project} on {planned}. Please confirm who will attend and tell us about any open concern before then.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, подтвердите, кто примет участие, и сообщите нам о любых открытых проблемах до этого.",
+"why": "placeholders must be exactly: {contact} {name} {project} {planned}"
+},
+{
+"en": "Hello {contact}, the handover session on {item} for {project} is planned for {due}. Please confirm who attends from {to_whom}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {contact}, сеанс передачи {item} для {project} запланирован на {due}.",
+"why": "placeholders must be exactly: {contact} {item} {project} {due} {to_whom}"
+},
+{
+"en": "Hello {contact}, the warranty of {project} ends on {end}. Please send any claim before then so that we can solve it in time.",
+"kind": "message",
+"max": null,
+"mt": "Привет, гарантия {project} истекает на {end}. Пожалуйста, отправьте любую претензию до этого, чтобы мы могли решить ее вовремя.",
+"why": "placeholders must be exactly: {contact} {project} {end}"
+},
+{
+"en": "Hello {tester}, test cycle {cycle_id} ({cycle}, round {round}) on {project} starts on {date}. Please prepare {planned} cases and the test data.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {tester}, испытательный цикл {cycle_id} ({cycle}, круг {round}) на {project} начинается на {date}.",
+"why": "placeholders must be exactly: {tester} {cycle_id} {cycle} {round} {project} {date} {planned}"
+},
+{
+"en": "Hello {manager}, defect {defect_id} \"{title}\" on {project} is {age} days old and the target is {target} days. Please decide who helps to close it.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, дефект {defect_id} \"{title}\" на {project} составляет {age} дней, а цель - {target} дней.",
+"why": "placeholders must be exactly: {manager} {defect_id} {title} {project} {age} {target}"
+},
+{
+"en": "Hello, closure task \"{task}\" on {project} is owned by {owner} and is due on {due}. It is {days_late} days late if it shows a number. Please check it.",
+"kind": "message",
+"max": null,
+"mt": "Привет, задача закрытия \"{task}\" на {project} принадлежит {owner} и должна быть выполнена на {due}.",
+"why": "placeholders must be exactly: {task} {project} {owner} {due} {days_late}"
+},
+{
+"en": "Hello {sponsor}, health of {name}: score {health} ({health_state}), {delay} days behind plan, test pass rate {pass_rate}, {crit_open} critical defects open. Please review it before sign-off.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, состояние здоровья {name}: результат {health} ({health_state}), {delay} дней отстает от плана, процент прохождения теста {pass_rate}, {crit_open} критические дефекты открыты.",
+"why": "placeholders must be exactly: {sponsor} {name} {health} {health_state} {delay} {pass_rate} {crit_open}"
+},
+{
+"en": "Hello {support_owner}, I am sending the access and contacts list for {service} on {project}. Please check your accounts before {start}. Handover items done: {handover_done}.",
+"kind": "message",
+"max": null,
+"mt": "Привет, я отправляю список контактов и доступа для {service} на {project}. Пожалуйста, проверьте свои счета перед {start}.",
+"why": "placeholders must be exactly: {support_owner} {service} {project} {start} {handover_done}"
+},
+{
+"en": "Hello, milestone {milestone} on {project} was accepted on {accepted_on}. Please invoice {amount} to {contact}. The client terms are {terms} days.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, эталон {milestone} на {project} был принят на {accepted_on}. Пожалуйста, выставьте счет {amount} на {contact}.",
+"why": "placeholders must be exactly: {milestone} {project} {accepted_on} {amount} {contact} {terms}"
+},
+{
+"en": "PMO lead: lessons and review ready",
+"kind": "label",
+"max": null,
+"mt": "Ведущий PMO: уроки и обзор готовы",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "The payment tied to this acceptance is {col:deliverables.payment_due}. The acceptance check shows: {col:deliverables.state}.",
+"kind": "document",
+"max": null,
+"mt": "Оплата, привязанная к этому принятию, {col:deliverables.payment_due}.",
+"why": "placeholders must be exactly: {col:deliverables.payment_due} {col:deliverables.state}"
+},
+{
+"en": "Project: {col:defects.project}. Project manager: {col:defects.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Руководитель проекта:",
+"why": "placeholders must be exactly: {col:defects.project} {col:defects.manager}"
+},
+{
+"en": "The pass rate needed to leave the cycle is {set:pass_exit}. The check shows: {col:cycles.state}.",
+"kind": "document",
+"max": null,
+"mt": "Уровень прохождения, необходимый для выхода из цикла, {set:pass_exit}.",
+"why": "placeholders must be exactly: {set:pass_exit} {col:cycles.state}"
+},
+{
+"en": "To: Finance partner, telephone {col:payments.fin_phone}. Project: {col:payments.project}. Milestone {col:payments.pay_id}: {col:payments.milestone}.",
+"kind": "document",
+"max": null,
+"mt": "Финансовый партнер, телефон.",
+"why": "placeholders must be exactly: {col:payments.fin_phone} {col:payments.project} {col:payments.pay_id} {col:payments.milestone}"
+},
+{
+"en": "The client terms are {col:payments.terms} days. The invoice number is {col:payments.invoice_no}, sent on {col:payments.invoice_date}, due on {col:payments.due}. The payment check shows: {col:payments.check}.",
+"kind": "document",
+"max": null,
+"mt": "Условия клиента {col:payments.terms} дней. Номер счета-фактуры {col:payments.invoice_no}, отправленный на {col:payments.invoice_date}, должен быть в {col:payments.due}.",
+"why": "placeholders must be exactly: {col:payments.terms} {col:payments.invoice_no} {col:payments.invoice_date} {col:payments.due} {col:payments.check}"
+},
+{
+"en": "Support is taken over by {col:transition.support_owner}, telephone {col:transition.support_phone}, from {col:transition.start}. The handover status is {col:transition.status}.",
+"kind": "document",
+"max": null,
+"mt": "Поддержка принимается на себя {col:transition.support_owner}, телефон {col:transition.support_phone}, из {col:transition.start}.",
+"why": "placeholders must be exactly: {col:transition.support_owner} {col:transition.support_phone} {col:transition.start} {col:transition.status}"
+},
+{
+"en": "Project: {col:benefits.project}. Benefit {col:benefits.benefit_id}: {col:benefits.benefit}. Owner: {col:benefits.owner}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:benefits.project}.",
+"why": "placeholders must be exactly: {col:benefits.project} {col:benefits.benefit_id} {col:benefits.benefit} {col:benefits.owner}"
+},
+{
+"en": "The measure is: {col:benefits.measure}. The baseline is {col:benefits.baseline} and the final target is {col:benefits.target}. The benefit is live from {col:benefits.since}.",
+"kind": "document",
+"max": null,
+"mt": "Мера: {col:benefits.measure}. Базовая линия {col:benefits.baseline} и конечная цель {col:benefits.target}.",
+"why": "placeholders must be exactly: {col:benefits.measure} {col:benefits.baseline} {col:benefits.target} {col:benefits.since}"
+},
+{
+"en": "The benefit check shows: {col:benefits.state}. The next review is on {col:benefits.review}. The review check shows: {col:benefits.review_state}.",
+"kind": "document",
+"max": null,
+"mt": "Проверка преимуществ показывает: {col:benefits.state}.",
+"why": "placeholders must be exactly: {col:benefits.state} {col:benefits.review} {col:benefits.review_state}"
+},
+{
+"en": "The budget now is {col:projects.budget_now} and {col:projects.spent} was spent. The rework share of effort is {col:projects.rework_share}.",
+"kind": "document",
+"max": null,
+"mt": "Бюджет теперь {col:projects.budget_now} и {col:projects.spent} был потрачен.",
+"why": "placeholders must be exactly: {col:projects.budget_now} {col:projects.spent} {col:projects.rework_share}"
+},
+{
+"en": "Ratings from 1 to 5: schedule {col:ppr.schedule}, cost {col:ppr.cost}, scope {col:ppr.scope} and client {col:ppr.client}. The overall rating is {col:ppr.overall}.",
+"kind": "document",
+"max": null,
+"mt": "Рейтинги от 1 до 5: график {col:ppr.schedule}, стоимость {col:ppr.cost}, область {col:ppr.scope} и клиент {col:ppr.client}.",
+"why": "placeholders must be exactly: {col:ppr.schedule} {col:ppr.cost} {col:ppr.scope} {col:ppr.client} {col:ppr.overall}"
+},
+{
+"en": "Main lesson: {col:ppr.lesson}.",
+"kind": "document",
+"max": null,
+"mt": "Главный урок:",
+"why": "placeholders must be exactly: {col:ppr.lesson}"
+},
+{
+"en": "The check shows: {col:ppr.state}. The PMO lead, telephone {col:ppr.pmo_phone}, adds the lesson to the library so that the next project can use it.",
+"kind": "document",
+"max": null,
+"mt": "Проверка показывает: {col:ppr.state}. Ведущий PMO, телефон {col:ppr.pmo_phone}, добавляет урок в библиотеку, чтобы следующий проект мог использовать его.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Project: {col:warranty.project}. Client contact: {col:warranty.contact}, telephone {col:warranty.client_phone}.",
+"kind": "document",
+"max": null,
+"mt": "Контакт с клиентом, телефон.",
+"why": "placeholders must be exactly: {col:warranty.project} {col:warranty.contact} {col:warranty.client_phone}"
+},
+{
+"en": "{col:warranty.claims} claim(s) were made so far. The warranty check shows: {col:warranty.state}.",
+"kind": "document",
+"max": null,
+"mt": "{col:warranty.claims} претензии были сделаны до сих пор.",
+"why": "placeholders must be exactly: {col:warranty.claims} {col:warranty.state}"
+}
+]
