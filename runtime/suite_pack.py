@@ -60,12 +60,11 @@ def main(suite_json, parts_dir, out):
         title, head = S['name'].get(lang, S['name']['en']), S['headline'].get(lang, S['headline']['en'])
         note = S['stats_note'].get(lang, S['stats_note']['en']).format(files=len(parts), pages=pages_total)
         rtl = lang in RTL
-        cards = ''
-        for i, (nm, tg, shs, has) in enumerate(names):
-            x, y = 880 + (i % 2) * 720, 110 + (i // 2) * 560
-            im = f'<img src="{B.img(f"p{i + 1}")}">' if has else ''
-            cards += (f'<div class="win" style="left:{x}px;top:{y}px;width:690px;height:530px"><div class="bar"><s></s><s></s><s></s><em>{i + 1:02d} · {E(nm)}</em></div>'
-                      f'<div class="sheet" style="padding:10px">{im}</div><div class="tabs" style="flex-basis:64px;font-size:21px;white-space:normal"><span class="on" style="white-space:normal;line-height:1.2">{E(tg)}</span></div></div>')
+        # 2026-11-13 (the owner): ONE big picture, like the single-workbook covers — a grid of six small windows is unreadable in store thumbnails
+        nm, tg, shs, has = names[0]
+        im = f'<img src="{B.img("p1")}">' if has else ''
+        cards = (f'<div class="win" style="left:880px;top:150px;width:1420px;height:1440px"><div class="bar"><s></s><s></s><s></s><em>01 · {E(nm)}</em></div>'
+                 f'<div class="sheet" style="padding:12px">{im}</div><div class="tabs" style="flex-basis:70px;font-size:26px;white-space:normal"><span class="on" style="white-space:normal;line-height:1.2">{E(tg)}</span></div></div>')
         pts = [f'<b>{E(nm)}</b> — {len(shs)}' for nm, tg, shs, h in names]
         cover = B.page(E(note), E(title), E(head), pts, cards)
         pages = [('00-cover', cover)]
