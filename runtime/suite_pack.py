@@ -53,7 +53,8 @@ def main(suite_json, parts_dir, out):
         names, pages_total = [], 0
         for i, (p, spec, z, res) in enumerate(parts, 1):
             src = os.path.join(parts_dir, p, 'images', '' if lang == 'en' else lang)
-            pic = next((os.path.join(src, f) for f in sorted(os.listdir(src)) if re.match(r'0[23]-', f)), None) if os.path.isdir(src) else None
+            fs = sorted(os.listdir(src)) if os.path.isdir(src) else []  # the dashboard picture first (02-charts can be nearly empty)
+            pic = next((os.path.join(src, f) for pre in ('03-', '02-') for f in fs if f.startswith(pre)), None)
             if pic: shutil.copy(pic, os.path.join(work, f'p{i}.png'))
             T = T_of(spec, lang); sh = sheet_names(spec, T); pages_total += len(sh)
             names.append((T(spec['name']), T(spec['tagline']), [n for _, n in sh], bool(pic)))
