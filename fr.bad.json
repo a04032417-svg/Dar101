@@ -1,0 +1,856 @@
+[
+{
+"en": "Crop Planning Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord de planification des cultures",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Land Use Balance",
+"kind": "sheet",
+"max": 31,
+"mt": "Bilan de l'utilisation des terres",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Land Use Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Résumé de l'utilisation des terres",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Land Use Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur l'utilisation des terres",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Seedbed Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de vérification des semis",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Seed Delivery Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de livraison des semences",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Lease Renewal Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de renouvellement du bail",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Crop Plan Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes d'examen du plan de culture",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Cover Crop Ending Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Couvrir les étapes de fin de récolte",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Field Operations Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des opérations sur le terrain",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Field Operations Log",
+"kind": "sheet",
+"max": 31,
+"mt": "Journaux des opérations sur le terrain",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Weed Control Log",
+"kind": "sheet",
+"max": 31,
+"mt": "Journaux de lutte contre les mauvaises herbes",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Rain Gauge per Field",
+"kind": "sheet",
+"max": 31,
+"mt": "Indicateur de pluviométrie par champ",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Weekly Work Orders",
+"kind": "sheet",
+"max": 31,
+"mt": "Ordonnances de travail hebdomadaires",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Crop Growth Stages",
+"kind": "sheet",
+"max": 31,
+"mt": "Phases de croissance des cultures",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Crop Loss and Replanting",
+"kind": "sheet",
+"max": 31,
+"mt": "Perte de récolte et replantation",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Spray Record Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche d'enregistrement des pulvérisations",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Sowing Record Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fichier d'enregistrement du semis",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Seed Rate Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification du taux de semences",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Spray Inspection Record",
+"kind": "sheet",
+"max": 31,
+"mt": "Fichier d'inspection par pulvérisation",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Season Yield Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur les rendements saisonniers",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Crop Loss Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur les pertes de récolte",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Contractor Record",
+"kind": "sheet",
+"max": 31,
+"mt": "Enregistrement de l'entrepreneur",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Sprayer Set-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de mise en place du pulvérisateur",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Spray Day Safety Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Mesures de sécurité au jour de la pulvérisation",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Harvest Start Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de démarrage de la récolte",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Harvester Pre-start Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de pré-démarrage de la moissonneuse",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Contractor Acceptance Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes d'acceptation par l'entrepreneur",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Inputs and Water Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Les entrées et le tableau de bord de l'eau",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Input Use per Field",
+"kind": "sheet",
+"max": 31,
+"mt": "Utilisation des entrées par champ",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Fertiliser Applications",
+"kind": "sheet",
+"max": 31,
+"mt": "Applications en matière d'engrais",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Crop Protection Programme",
+"kind": "sheet",
+"max": 31,
+"mt": "Programme de protection des végétaux",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Input Price History",
+"kind": "sheet",
+"max": 31,
+"mt": "Historique des prix des intrants",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Chemical Store Register",
+"kind": "sheet",
+"max": 31,
+"mt": "Registre des magasins de produits chimiques",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Pump Runs and Energy",
+"kind": "sheet",
+"max": 31,
+"mt": "Le fonctionnement des pompes et l'énergie",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Irrigation Schedule Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de calendrier d'irrigation",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Chemical Store Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de stockage des produits chimiques",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Irrigation Run Time",
+"kind": "sheet",
+"max": 31,
+"mt": "Temps de fonctionnement de l'irrigation",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Drip Flow Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification du débit par goutte à goutte",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Price Rise What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Une hausse des prix, et si ?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Fertiliser Plan Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Lettre concernant le plan d'engrais",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Input Cost Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Déclaration des coûts des intrants",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Irrigation Week Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendrier hebdomadaire de l'irrigation",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Water Use Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur l'utilisation de l'eau",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Chemical Store Inventory",
+"kind": "sheet",
+"max": 31,
+"mt": "Inventaire des magasins de produits chimiques",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Application Record Inspection",
+"kind": "sheet",
+"max": 31,
+"mt": "Inspection des dossiers de demande",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Withholding Period Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Déclaration relative à la période de retenue",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Input Delivery Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de vérification de la livraison des entrées",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Spreader Set-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de configuration du diffuseur",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Chemical Store Safety Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Mesures de sécurité des magasins de produits chimiques",
+"why": "too long: 54 characters, the limit is 31"
+},
+{
+"en": "Chemical Stock Count Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de comptage des stocks chimiques",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Irrigation Start-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de démarrage de l'irrigation",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Drip Line Flushing Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de rinçage par goutte à goutte",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Pump Service Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de fonctionnement de la pompe",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Water Permit Renewal Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de renouvellement du permis d'approvisionnement en eau",
+"why": "too long: 61 characters, the limit is 31"
+},
+{
+"en": "Input Budget Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de révision du budget des intrants",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Feed Use",
+"kind": "sheet",
+"max": 31,
+"mt": "Utilisation des aliments pour animaux",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Breeding Record",
+"kind": "sheet",
+"max": 31,
+"mt": "Enregistrement de la reproduction",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Feed Conversion",
+"kind": "sheet",
+"max": 31,
+"mt": "Conversion des aliments pour animaux",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Treatment and Withdrawal",
+"kind": "sheet",
+"max": 31,
+"mt": "Traitement et arrêt du traitement",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Feed Ration Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Déclaration de ration alimentaire",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Birth Watch Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de la montre de naissance",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Vaccination Day Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes du jour de la vaccination",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Treatment Day Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de la journée de traitement",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Gate Biosecurity Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de biosécurité de la porte",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Poultry House Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Escaliers de la maison de volaille",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Pasture Move Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de déplacement des pâturages",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Egg Production Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur la production d'œufs",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Storage Loss Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur les pertes de stockage",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Stock Count Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur le décompte des stocks",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Milking Start Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de démarrage de la traite",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Milk Tank Cleaning Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de nettoyage du réservoir de lait",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Grain Bin Filling Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de remplissage du bac à céréales",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Grain Bin Inspection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes d'inspection des bacs à céréales",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Cold Room Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de vérification des chambres froides",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Pre-dispatch Quality Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Contrôle de qualité avant expédition",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Machinery and Labour Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des machines et de la main-d'œuvre",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Machine Hours Log",
+"kind": "sheet",
+"max": 31,
+"mt": "Journaux des heures de travail de la machine",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Fuel Use per Task",
+"kind": "sheet",
+"max": 31,
+"mt": "Consommation de carburant par tâche",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Fuel Tank Stock",
+"kind": "sheet",
+"max": 31,
+"mt": "Stock de réservoirs de carburant",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Overtime and Rest Days",
+"kind": "sheet",
+"max": 31,
+"mt": "Heures supplémentaires et jours de repos",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Labour Need by Month",
+"kind": "sheet",
+"max": 31,
+"mt": "Nécessité de main-d'œuvre par mois",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Fuel Log Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de journaux du carburant",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Safety Incident Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur les incidents de sécurité",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Labour Cost per Hour",
+"kind": "sheet",
+"max": 31,
+"mt": "Coût de la main-d'œuvre par heure",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Seasonal Labour Budget",
+"kind": "sheet",
+"max": 31,
+"mt": "Budget saisonnier de la main-d'œuvre",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Machine Service History",
+"kind": "sheet",
+"max": 31,
+"mt": "Historique d'entretien de la machine",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Repair Cost Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Déclaration des coûts de réparation",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Fuel Use Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur la consommation de carburant",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Piece-rate Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Déclaration sur les frais de pièce",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Tractor Daily Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification quotidienne du tracteur",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Machine Service Day",
+"kind": "sheet",
+"max": 31,
+"mt": "Journée d'entretien de la machine",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Fuel Tank and Storage Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification du réservoir de carburant et du stockage",
+"why": "too long: 53 characters, the limit is 31"
+},
+{
+"en": "Seasonal Worker Arrival",
+"kind": "sheet",
+"max": 31,
+"mt": "Arrivée de travailleurs saisonniers",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Protective Equipment Issue",
+"kind": "sheet",
+"max": 31,
+"mt": "Problème d'équipement de protection",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Machine Winter Storage",
+"kind": "sheet",
+"max": 31,
+"mt": "Entreposage hivernal des machines",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Pre-harvest Machine Readiness",
+"kind": "sheet",
+"max": 31,
+"mt": "Préparation de la machine avant la récolte",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Sales and Buyers Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des ventes et des acheteurs",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Quote Comparison Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de comparaison des cotations",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Export Packing Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'emballage à l'exportation",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Export Packing List",
+"kind": "sheet",
+"max": 31,
+"mt": "Liste des emballages à l'exportation",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Price Quote Round Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes rondes de cotation de prix",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Pre-delivery Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de contrôle avant livraison",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Loading and Weighbridge Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de chargement et de passerelle de pesage",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Delivery Paperwork Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de la paperasse de livraison",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Export Shipment Papers Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes des documents d'expédition à l'exportation",
+"why": "too long: 49 characters, the limit is 31"
+},
+{
+"en": "Market Day Set-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de mise en place de la journée de marché",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Buyer Visit Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de la visite de l'acheteur",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Year-end Buyer Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes d'examen par l'acheteur à la fin de l'exercice",
+"why": "too long: 53 characters, the limit is 31"
+},
+{
+"en": "Farm Finance Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des finances agricoles",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Tax and Licence Deadlines",
+"kind": "sheet",
+"max": 31,
+"mt": "Délais d'imposition et de délivrance des licences",
+"why": "too long: 49 characters, the limit is 31"
+},
+{
+"en": "Insurance Claim Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de réclamation d'assurance",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Cash Flow Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Déclaration des flux de trésorerie",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Grant Application Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Résumé de la demande de subvention",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Insurance Claim File",
+"kind": "sheet",
+"max": 31,
+"mt": "Fichier de réclamation d'assurance",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Asset and Depreciation Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendrier des actifs et des amortissements",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Year-end Farm Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport de fin d'année de l'exploitation",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Month-end Close Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de clôture de fin de mois",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Loan Renewal Pack Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes du paquet de renouvellement de prêt",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Insurance Renewal Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de renouvellement de l'assurance",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Tax Return Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de préparation de la déclaration de revenus",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Year-end Count Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Nombre d'étapes à la fin de l'année",
+"why": "too long: 35 characters, the limit is 31"
+}
+]
