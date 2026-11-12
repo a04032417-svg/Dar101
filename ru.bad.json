@@ -1,0 +1,142 @@
+[
+{
+"en": "Hi, good news: {brand} gained {gain3} followers in three months and stands at {followers}. Thank you for the great content.",
+"kind": "message",
+"max": null,
+"mt": "Привет, хорошие новости: {brand} набрал {gain3} подписчиков за три месяца и сейчас составляет {followers}. Спасибо за отличный контент.",
+"why": "English/Latin words left: gain"
+},
+{
+"en": "Ad spend, budgets and results for every client you run ads for",
+"kind": "sentence",
+"max": 80,
+"mt": "Расходы на рекламу, бюджеты и результаты для каждого клиента, для которого вы запускаете рекламу.",
+"why": "too long: 97 characters, the limit is 80"
+},
+{
+"en": "Client balance and days of money left",
+"kind": "label",
+"max": 50,
+"mt": "Баланс клиента и количество дней, в которых осталось денег",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "a fee by percent, with a minimum or flat, worked out from the real spend each month with the effective rate and what is not yet billed",
+"kind": "sentence",
+"max": 160,
+"mt": "процентная плата, минимальная или фиксированная, рассчитанная на основе реальных расходов каждый месяц с учетом эффективной ставки и того, что еще не выставлено в счете",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "each tracking item has a result and a recheck date, so wrong tracking is found before it wastes budget",
+"kind": "sentence",
+"max": 160,
+"mt": "у каждого элемента отслеживания есть результат и дата повторной проверки, поэтому неправильное отслеживание обнаруживается до того, как оно приведет к потере бюджета.",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Target ROAS",
+"kind": "list",
+"max": 30,
+"mt": "Целевая рентабельность расходов на рекламу",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Cart abandoners",
+"kind": "list",
+"max": 30,
+"mt": "Пользователи, бросившие корзину",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Conversion API",
+"kind": "list",
+"max": 30,
+"mt": "Программный интерфейс преобразования",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Misleading claim",
+"kind": "list",
+"max": 30,
+"mt": "Вводящее в заблуждение утверждение",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Wrong age targeting",
+"kind": "list",
+"max": 30,
+"mt": "Неправильный возрастной таргетинг",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Share for Instagram",
+"kind": "label",
+"max": null,
+"mt": "Поделиться для Instagram",
+"why": "English/Latin words left: Instagram"
+},
+{
+"en": "Share for Facebook",
+"kind": "label",
+"max": null,
+"mt": "Поделиться для Facebook",
+"why": "English/Latin words left: Facebook"
+},
+{
+"en": "Share for TikTok",
+"kind": "label",
+"max": null,
+"mt": "Поделиться для TikTok",
+"why": "English/Latin words left: TikTok"
+},
+{
+"en": "Share for LinkedIn",
+"kind": "label",
+"max": null,
+"mt": "Поделиться для LinkedIn",
+"why": "English/Latin words left: LinkedIn"
+},
+{
+"en": "Share for YouTube",
+"kind": "label",
+"max": null,
+"mt": "Поделиться для YouTube",
+"why": "English/Latin words left: YouTube"
+},
+{
+"en": "Money for LinkedIn",
+"kind": "label",
+"max": null,
+"mt": "Деньги для LinkedIn",
+"why": "English/Latin words left: LinkedIn"
+},
+{
+"en": "Your real cost per 1,000 on Instagram",
+"kind": "label",
+"max": null,
+"mt": "Ваша реальная стоимость за 1000 в Instagram",
+"why": "English/Latin words left: Instagram"
+},
+{
+"en": "Your real cost per 1,000 on LinkedIn",
+"kind": "label",
+"max": null,
+"mt": "Ваша реальная цена за 1000 в LinkedIn",
+"why": "English/Latin words left: LinkedIn"
+},
+{
+"en": "Hi, for {brand}: {spend_m} spent this month ({used} of the budget), {leads90} leads in 90 days at {cpl90} each. Do you want the full report?",
+"kind": "message",
+"max": null,
+"mt": "Привет, для {brand}: {spend_m} потрачено в этом месяце ({used} бюджета), {leads90} потенциальных клиентов за 90 дней по {cpl90} каждый. Хотите полный отчет?",
+"why": "English/Latin words left: leads cpl"
+},
+{
+"en": "Hi, your ads for {brand} returned {roas} for every unit spent in the last 90 days, with {revenue90} in revenue. Shall we raise the budget?",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Ваши объявления для {brand} принесли {roas} за каждую единицу, потраченную за последние 90 дней, с доходом {revenue90}. Поднимем бюджет?",
+"why": "English/Latin words left: revenue"
+}
+]

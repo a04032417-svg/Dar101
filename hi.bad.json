@@ -1,0 +1,16 @@
+[
+{
+"en": "Hi, may we run a test for {brand} on {platform}: {test}? It runs for {days} days and costs you nothing extra.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, क्या हम {platform}: {test} पर {brand} के लिए एक परीक्षण चला सकते हैं? यह 3 दिन तक चलता है और इसके लिए आपको कुछ भी अतिरिक्त खर्च नहीं करना पड़ता।",
+"why": "placeholders must be exactly: {brand} {platform} {test} {days}"
+},
+{
+"en": "Ad spend, budgets and results for every client you run ads for",
+"kind": "sentence",
+"max": 80,
+"mt": "आपके द्वारा विज्ञापन चलाने वाले प्रत्येक ग्राहक के लिए विज्ञापन व्यय, बजट और परिणाम",
+"why": "too long: 83 characters, the limit is 80"
+}
+]
