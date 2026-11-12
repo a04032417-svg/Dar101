@@ -1,0 +1,478 @@
+[
+{
+"en": "Hello, we need a repair visit on the {system} system on {field}. Please tell us your first free day and a price. The lines must be flushed by {flush_date}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons besoin d'une visite de réparation sur le système {system} sur {field}. S'il vous plaît dites-nous votre premier jour libre et un prix.",
+"why": "placeholders must be exactly: {system} {field} {flush_date}"
+},
+{
+"en": "Hello, the pump at {name} ({pump_kw} kW) is due for service on {pump_service}. Please book a visit and send a price for oil, seals and a motor check.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, la pompe de 1 kW doit être mise en service le 2 et vous pouvez réserver une visite et nous envoyer un prix pour l'huile, les joints et une vérification du moteur.",
+"why": "placeholders must be exactly: {name} {pump_kw} {pump_service}"
+},
+{
+"en": "Hello, we need the soil test results for {field} before we finish the fertiliser plan. The last test was on {soil_test_on}. Please send them as soon as you can.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons besoin des résultats des tests de sol pour {field} avant de terminer le plan d'engrais.",
+"why": "placeholders must be exactly: {field} {soil_test_on}"
+},
+{
+"en": "Hello, we plan {n_ha} kg of nitrogen per hectare for {field} ({crop}). Do you advise two or three doses? We have applied {n_done} kg per ha so far.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous prévoyons {n_ha} kg d'azote par hectare pour {field} ({crop}). Vous conseillez deux ou trois doses ?",
+"why": "placeholders must be exactly: {n_ha} {field} {crop} {n_done}"
+},
+{
+"en": "Hello {operator}, we spread {kind} on {field} on {date}: {tonnes} tonnes, {n_ha} kg of nitrogen per hectare. Please keep clear of streams, wells and the boundary strip.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons distribué 1 tonne, 5 kg d'azote par hectare, veuillez éviter les ruisseaux, les puits et la bande de délimitation.",
+"why": "placeholders must be exactly: {operator} {kind} {field} {date} {tonnes} {n_ha}"
+},
+{
+"en": "Hello {neighbour}, we plan to take our turn from {name} this week. Please tell us when you take yours so that we do not both open the gate.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous prévoyons de prendre notre tour à partir de cette semaine. S'il vous plaît dites-nous quand vous prenez le vôtre de sorte que nous n'ouvrons pas tous les deux la porte.",
+"why": "placeholders must be exactly: {neighbour} {name}"
+},
+{
+"en": "So far fertiliser and manure have put on {col:fertplan.n_done} kg of nitrogen per hectare, which is {col:fertplan.n_share} of the plan. The plan check shows: {col:fertplan.state}. The nitrogen balance against what the crop removes is {col:fertplan.n_bal} kg per hectare.",
+"kind": "document",
+"max": null,
+"mt": "Jusqu'à présent, l'engrais et le fumier ont ajouté {col:fertplan.n_done} kg d'azote par hectare, ce qui est {col:fertplan.n_share} du plan.",
+"why": "placeholders must be exactly: {col:fertplan.n_done} {col:fertplan.n_share} {col:fertplan.state} {col:fertplan.n_bal}"
+},
+{
+"en": "To {col:orders.supplier}. Order number: {col:orders.ord_id}, placed on {col:orders.order_date}.",
+"kind": "document",
+"max": null,
+"mt": "Numéro de commande: {col:orders.ord_id}, placé sur {col:orders.order_date}.",
+"why": "placeholders must be exactly: {col:orders.supplier} {col:orders.ord_id} {col:orders.order_date}"
+},
+{
+"en": "We order {col:orders.qty_ordered} {col:orders.unit} of {col:orders.item} at {col:orders.price} per {col:orders.unit}. The order value is {col:orders.value}.",
+"kind": "document",
+"max": null,
+"mt": "Nous commandons {col:orders.qty_ordered} {col:orders.unit} de {col:orders.item} à {col:orders.price} par {col:orders.unit}.",
+"why": "placeholders must be exactly: {col:orders.qty_ordered} {col:orders.unit} {col:orders.item} {col:orders.price} {col:orders.unit} {col:orders.value}"
+},
+{
+"en": "Please deliver on {col:orders.promised}. Send the delivery note with the batch or lot number and the weight, and tell us before the delivery if you cannot keep the date. The status of the order is {col:orders.status}.",
+"kind": "document",
+"max": null,
+"mt": "Veuillez nous envoyer le bon de livraison avec le numéro du lot ou du lot et le poids, et dites-nous avant la livraison si vous ne pouvez pas respecter la date.",
+"why": "placeholders must be exactly: {col:orders.promised} {col:orders.status}"
+},
+{
+"en": "The field is watered from {col:irrsched.source}, which delivers {col:irrsched.flow} cubic metres per hour. Each turn applies {col:irrsched.depth_mm} mm, which is {col:irrsched.m3_turn} cubic metres and {col:irrsched.hours_turn} hours of pumping, every {col:irrsched.interval} days.",
+"kind": "document",
+"max": null,
+"mt": "Le champ est arrosé à partir de {col:irrsched.source}, ce qui fournit {col:irrsched.flow} mètres cubes par heure.",
+"why": "placeholders must be exactly: {col:irrsched.source} {col:irrsched.flow} {col:irrsched.depth_mm} {col:irrsched.m3_turn} {col:irrsched.hours_turn} {col:irrsched.interval}"
+},
+{
+"en": "The last run was on {col:irrsched.last_run}. The next turn is on {col:irrsched.next_due}, in {col:irrsched.days_to} days. The turn check shows: {col:irrsched.state}. Water due this week: {col:irrsched.m3_week} cubic metres.",
+"kind": "document",
+"max": null,
+"mt": "La dernière course a eu lieu le {col:irrsched.last_run}. Le prochain tour aura lieu le {col:irrsched.next_due}, dans {col:irrsched.days_to} jours. La vérification du tour montre: {col:irrsched.state}.",
+"why": "placeholders must be exactly: {col:irrsched.last_run} {col:irrsched.next_due} {col:irrsched.days_to} {col:irrsched.state} {col:irrsched.m3_week}"
+},
+{
+"en": "The supervisor writes the hours run and any fault in the irrigation log the same day. The lines are flushed on {col:irrsched.flush_date}.",
+"kind": "document",
+"max": null,
+"mt": "Le superviseur enregistre les heures écoulées et toute défaillance dans le journal d'irrigation le même jour.",
+"why": "placeholders must be exactly: {col:irrsched.flush_date}"
+},
+{
+"en": "The source delivers {col:water.flow_m3h} cubic metres per hour and serves {col:water.served_ha} hectares. The yearly quota is {col:water.quota_m3} cubic metres. This season we have used {col:water.used_m3} cubic metres, which is {col:water.share} of the quota. The quota check shows: {col:water.quota_state}.",
+"kind": "document",
+"max": null,
+"mt": "La source fournit {col:water.flow_m3h} mètres cubes par heure et dessert {col:water.served_ha} hectares. Le quota annuel est {col:water.quota_m3} mètres cubes. Cette saison, nous avons utilisé {col:water.used_m3} mètres cubes, ce qui est {col:water.share} du quota.",
+"why": "placeholders must be exactly: {col:water.flow_m3h} {col:water.served_ha} {col:water.quota_m3} {col:water.used_m3} {col:water.share} {col:water.quota_state}"
+},
+{
+"en": "Input: {col:quotes.item}. Quantity asked: {col:quotes.qty}. List price: {col:quotes.list_price}.",
+"kind": "document",
+"max": null,
+"mt": "Les données sont fournies à l'aide d'un formulaire.",
+"why": "placeholders must be exactly: {col:quotes.item} {col:quotes.qty} {col:quotes.list_price}"
+},
+{
+"en": "{col:quotes.vendor} quoted {col:quotes.price} per unit with {col:quotes.transport} for transport, a landed price of {col:quotes.landed} and a total of {col:quotes.total}. The lead time is {col:quotes.lead_days} days and the quote is valid until {col:quotes.valid_until}.",
+"kind": "document",
+"max": null,
+"mt": "{col:quotes.vendor} est coté {col:quotes.price} par unité avec {col:quotes.transport} pour le transport, un prix débarqué de {col:quotes.landed} et un total de {col:quotes.total}.",
+"why": "placeholders must be exactly: {col:quotes.vendor} {col:quotes.price} {col:quotes.transport} {col:quotes.landed} {col:quotes.total} {col:quotes.lead_days} {col:quotes.valid_until}"
+},
+{
+"en": "The quote ranks number {col:quotes.rank}. The best landed price for this input is {col:quotes.best}. Choosing this quote instead of the best one costs {col:quotes.extra} more. The quote check shows: {col:quotes.state}.",
+"kind": "document",
+"max": null,
+"mt": "Le meilleur prix pour cette entrée est {col:quotes.best}. Choisir ce devis au lieu du meilleur coûte {col:quotes.extra} plus cher. Le contrôle de devis montre: {col:quotes.state}.",
+"why": "placeholders must be exactly: {col:quotes.rank} {col:quotes.best} {col:quotes.extra} {col:quotes.state}"
+},
+{
+"en": "The batch was received on {col:chem.received} and expires on {col:chem.expiry}, which is in {col:chem.days_to_expiry} days. The quantity in the store is {col:chem.qty} {col:chem.unit}, worth {col:chem.value}. The expiry check shows: {col:chem.state}.",
+"kind": "document",
+"max": null,
+"mt": "Le lot a été reçu le {col:chem.received} et expire le {col:chem.expiry}, ce qui est en {col:chem.days_to_expiry} jours. La quantité dans le magasin est {col:chem.qty} {col:chem.unit}, la valeur {col:chem.value}.",
+"why": "placeholders must be exactly: {col:chem.received} {col:chem.expiry} {col:chem.days_to_expiry} {col:chem.qty} {col:chem.unit} {col:chem.value} {col:chem.state}"
+},
+{
+"en": "The storekeeper is {col:chem.keeper}. Expired products are kept apart and labelled, and are returned to the supplier or handed to an approved collector. They are never used and never poured away.",
+"kind": "document",
+"max": null,
+"mt": "Les produits expirés sont conservés séparément et étiquetés, et retournés au fournisseur ou remis à un collecteur agréé.",
+"why": "placeholders must be exactly: {col:chem.keeper}"
+},
+{
+"en": "Input: {col:items.name} ({col:items.cat}). Supplier: {col:items.supplier}.",
+"kind": "document",
+"max": null,
+"mt": "Le fournisseur: {col:items.supplier}.",
+"why": "placeholders must be exactly: {col:items.name} {col:items.cat} {col:items.supplier}"
+},
+{
+"en": "The price now is {col:items.price} per {col:items.unit}, against {col:items.prev_price} last season, a change of {col:items.change}. The price check shows: {col:items.state}.",
+"kind": "document",
+"max": null,
+"mt": "Le prix est maintenant de {col:items.price} par {col:items.unit}, contre {col:items.prev_price} la saison dernière, une variation de {col:items.change}.",
+"why": "placeholders must be exactly: {col:items.price} {col:items.unit} {col:items.prev_price} {col:items.change} {col:items.state}"
+},
+{
+"en": "The label requires {col:limits.withhold} days between the last spray and the harvest, at most {col:limits.max_sprays} sprays and a dose of no more than {col:limits.max_dose} per hectare. People may re-enter after {col:limits.reentry} hours.",
+"kind": "document",
+"max": null,
+"mt": "L'étiquette exige {col:limits.withhold} jours entre la dernière pulvérisation et la récolte, au maximum {col:limits.max_sprays} pulvérisations et une dose ne dépassant pas {col:limits.max_dose} par hectare.",
+"why": "placeholders must be exactly: {col:limits.withhold} {col:limits.max_sprays} {col:limits.max_dose} {col:limits.reentry}"
+},
+{
+"en": "We have recorded {col:limits.sprays_used} sprays this season. The last spray was on {col:limits.last_use}, so the crop is safe to harvest from {col:limits.safe_from}. The harvest check shows: {col:limits.state}.",
+"kind": "document",
+"max": null,
+"mt": "Nous avons enregistré {col:limits.sprays_used} pulvérisations cette saison. la dernière pulvérisation a été sur {col:limits.last_use}, donc la récolte est sûre pour la récolte de {col:limits.safe_from}.",
+"why": "placeholders must be exactly: {col:limits.sprays_used} {col:limits.last_use} {col:limits.safe_from} {col:limits.state}"
+},
+{
+"en": "Applications",
+"kind": "label",
+"max": 30,
+"mt": "Applications",
+"why": "not translated"
+},
+{
+"en": "Run herds, health, breeding and feed from one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Gérer les troupeaux, la santé, l'élevage et l'alimentation à partir d'un livre de travail",
+"why": "too long: 89 characters, the limit is 80"
+},
+{
+"en": "Run herds, health, breeding, feed and grazing from one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Gérer les troupeaux, la santé, l'élevage, l'alimentation et le pâturage à partir d'un seul fichier",
+"why": "too long: 98 characters, the limit is 80"
+},
+{
+"en": "every treatment with a withholding period gets a release date for milk and for meat, the days left and a warning so nothing is sold too early",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque traitement avec une période de rétention obtient une date de sortie pour le lait et pour la viande, les jours restants et un avertissement afin que rien ne soit vendu trop tôt",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "each scan result and the due date from the vet show births due in 30 days, overdue births and animals that need a recheck",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque résultat de l'analyse et la date d'échéance du vétérinaire montrent les naissances prévues dans 30 jours, les naissances tardives et les animaux qui ont besoin d'une nouvelle vérification",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "Breeding records with return to heat",
+"kind": "label",
+"max": 50,
+"mt": "Enregistrements de reproduction avec retour à la chaleur",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "the due date and the expected return to heat come from the gestation days of the group, and every service is marked confirmed, returned to heat or calved",
+"kind": "sentence",
+"max": 160,
+"mt": "la date d'échéance et le retour prévu à la chaleur proviennent des jours de gestation du groupe et chaque service est marqué confirmé, retour à la chaleur ou veau",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Growth and daily gain against target",
+"kind": "label",
+"max": 50,
+"mt": "Croissance et gain quotidien par rapport à l'objectif",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Vaccination schedule with overdue warnings",
+"kind": "label",
+"max": 50,
+"mt": "Calendrier de vaccination avec avertissements en retard",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "the feeds of each ration are priced from your purchases, giving cost per head per day, dry matter as a share of body weight and feed per kilogram of gain",
+"kind": "sentence",
+"max": 160,
+"mt": "les aliments pour animaux de chaque ration sont évalués à partir de vos achats, en donnant le coût par tête par jour, la matière sèche en pourcentage du poids corporel et l'alimentation par kilogramme de gain",
+"why": "too long: 208 characters, the limit is 160"
+},
+{
+"en": "Feed orders with days of feed covered",
+"kind": "label",
+"max": 50,
+"mt": "Commandes d'aliments pour animaux avec les jours d'alimentation couverts",
+"why": "too long: 72 characters, the limit is 50"
+},
+{
+"en": "floor area against the space each animal needs gives the capacity of every house and pen and warns before a house is overfull",
+"kind": "sentence",
+"max": 160,
+"mt": "La surface du sol par rapport à l'espace dont chaque animal a besoin donne la capacité de chaque maison et enclos et prévient avant qu'une maison ne soit surchargée",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Medicine stock with expiry warnings",
+"kind": "label",
+"max": 50,
+"mt": "Stocks de médicaments avec avertissement de péremption",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "stock, reorder level, expiry date and withholding days of every medicine and vaccine with warnings for expired, expiring and low stock",
+"kind": "sentence",
+"max": 160,
+"mt": "stock, niveau de ré-commande, date d'expiration et jour de rétention de chaque médicament et vaccin avec avertissement pour les stocks expirés, expirants et faibles",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Biosecurity gate log with waiting rule",
+"kind": "label",
+"max": 50,
+"mt": "Journal de la porte de biosécurité avec règle d'attente",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "each visitor is checked against the days since other livestock contact and disinfection, and is allowed, told to wait or flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque visiteur est vérifié par rapport aux jours écoulés depuis le contact avec d'autres animaux et désinfecté, et il est autorisé, invité à attendre ou signalé",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Crushed or smothered",
+"kind": "list",
+"max": 30,
+"mt": "D'une teneur en matières premières inférieure ou égale à 30% en poids",
+"why": "too long: 69 characters, the limit is 30"
+},
+{
+"en": "Vaccination",
+"kind": "list",
+"max": 30,
+"mt": "Vaccination",
+"why": "not translated"
+},
+{
+"en": "Feed delivery",
+"kind": "list",
+"max": 30,
+"mt": "Livraison des aliments pour animaux",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Sheep Hill West",
+"kind": "list",
+"max": 30,
+"mt": "La colline des moutons à l'ouest",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Due within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "Expiration dans un délai de 30 jours",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Recheck needed",
+"kind": "list",
+"max": 30,
+"mt": "Une nouvelle vérification est nécessaire.",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Long-acting antibiotic",
+"kind": "list",
+"max": 30,
+"mt": "Antibiotique à action prolongée",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Pain relief injection",
+"kind": "list",
+"max": 30,
+"mt": "Injection pour soulager la douleur",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Calcium and magnesium drip",
+"kind": "list",
+"max": 30,
+"mt": "Goutte à goutte de calcium et de magnésium",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Foot and mouth vaccine",
+"kind": "list",
+"max": 30,
+"mt": "Vaccin contre la fièvre aphteuse",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Newcastle disease vaccine",
+"kind": "list",
+"max": 30,
+"mt": "Vaccin contre la maladie de Newcastle",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Water-soluble poultry antibiotic",
+"kind": "list",
+"max": 30,
+"mt": "Antibiotique hydrosoluble pour volaille",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Herds and flocks: head, feed cost, gain and health",
+"kind": "title",
+"max": 60,
+"mt": "Troupeaux et troupeaux: tête, coût des aliments pour animaux, gain et santé",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Breeding records with due date and return to heat",
+"kind": "title",
+"max": 60,
+"mt": "Enregistrements de reproduction avec date d'échéance et retour à la chaleur",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Weights and growth with daily gain against target",
+"kind": "title",
+"max": 60,
+"mt": "Poids et croissance avec gain quotidien par rapport à l'objectif",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Vaccination schedule per group with overdue warnings",
+"kind": "title",
+"max": 60,
+"mt": "Calendrier de vaccination par groupe avec avertissements en retard",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Withdrawal tracker: milk and meat that may not be sold",
+"kind": "title",
+"max": 60,
+"mt": "Traceur de retrait: lait et viande qui ne peuvent pas être vendus",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Disease and mortality log with the cause of every loss",
+"kind": "title",
+"max": 60,
+"mt": "Registre des maladies et des décès avec la cause de chaque perte",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Feed purchases and deliveries with days of feed covered",
+"kind": "title",
+"max": 60,
+"mt": "Achats et livraisons d'aliments pour animaux avec des jours d'alimentation couverts",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Feed use per group: weekly totals of bought feed",
+"kind": "title",
+"max": 60,
+"mt": "Utilisation des aliments pour animaux par groupe: totaux hebdomadaires des aliments pour animaux achetés",
+"why": "too long: 104 characters, the limit is 60"
+},
+{
+"en": "Animal movements: born, bought, sold, died and moved",
+"kind": "title",
+"max": 60,
+"mt": "Mouvements d'animaux: nés, achetés, vendus, morts et déplacés",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Biosecurity visitors log with the waiting rule",
+"kind": "title",
+"max": 60,
+"mt": "Les visiteurs de la biosécurité se connectent avec la règle d'attente",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Medicine stock with expiry dates and withholding periods",
+"kind": "title",
+"max": 60,
+"mt": "Stock de médicaments avec dates d'expiration et périodes de retenue",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Feed, treatment, vet and breeding cost by month",
+"kind": "title",
+"max": 60,
+"mt": "Coût mensuel de l'alimentation, du traitement, du vétérinaire et de l'élevage",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Ration sheet of one group with its feeds",
+"kind": "title",
+"max": 60,
+"mt": "Feuille de rationnement d'un groupe avec ses aliments pour animaux",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Feed conversion ratio and feed cost of gain",
+"kind": "title",
+"max": 60,
+"mt": "Coefficient de conversion des aliments pour animaux et coût du gain",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Average daily gain and days to market weight",
+"kind": "title",
+"max": 60,
+"mt": "Gain quotidien moyen et jours par rapport à la pondération de marché",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Withdrawal period end date for milk and meat",
+"kind": "title",
+"max": 60,
+"mt": "Date de fin de la période d'attente pour le lait et la viande",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Dry matter intake and ration balance",
+"kind": "title",
+"max": 60,
+"mt": "Consommation de matières sèches et équilibre des rationnements",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

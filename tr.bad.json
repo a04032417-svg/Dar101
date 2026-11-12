@@ -1,0 +1,226 @@
+[
+{
+"en": "Hello, we need a repair visit on the {system} system on {field}. Please tell us your first free day and a price. The lines must be flushed by {flush_date}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {system} sisteminde {field}'de bir onarım ziyaretine ihtiyacımız var. Lütfen bize ilk boş gününüzü ve fiyatınızı söyleyin.",
+"why": "placeholders must be exactly: {system} {field} {flush_date}"
+},
+{
+"en": "Hello, the pump at {name} ({pump_kw} kW) is due for service on {pump_service}. Please book a visit and send a price for oil, seals and a motor check.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, 1 kW'lık pompa 2'de servis için hazır. Lütfen bir ziyaret rezervasyonu yapın ve yağ, mühürler ve motor kontrolü için bir fiyat gönderin.",
+"why": "placeholders must be exactly: {name} {pump_kw} {pump_service}"
+},
+{
+"en": "Hello, we plan {n_ha} kg of nitrogen per hectare for {field} ({crop}). Do you advise two or three doses? We have applied {n_done} kg per ha so far.",
+"kind": "message",
+"max": null,
+"mt": "Merhabalar, ek olarak ek olarak ek olarak ek olarak ek olarak ek olarak ek olarak ek olarak ek olarak ek olarak ek olarak ek olarak ek olarak ekliyoruz.",
+"why": "placeholders must be exactly: {n_ha} {field} {crop} {n_done}"
+},
+{
+"en": "Hello {operator}, we spread {kind} on {field} on {date}: {tonnes} tonnes, {n_ha} kg of nitrogen per hectare. Please keep clear of streams, wells and the boundary strip.",
+"kind": "message",
+"max": null,
+"mt": "Merhabalar, hektar başına 5 ton azot dağıttık. lütfen ırmaklardan, kuyulardan ve sınır şeridinden uzak durun.",
+"why": "placeholders must be exactly: {operator} {kind} {field} {date} {tonnes} {n_ha}"
+},
+{
+"en": "So far fertiliser and manure have put on {col:fertplan.n_done} kg of nitrogen per hectare, which is {col:fertplan.n_share} of the plan. The plan check shows: {col:fertplan.state}. The nitrogen balance against what the crop removes is {col:fertplan.n_bal} kg per hectare.",
+"kind": "document",
+"max": null,
+"mt": "Şimdiye kadar gübre ve gübre, planın {col:fertplan.n_share} olan hektar başına {col:fertplan.n_done} kg azot eklemiştir. Plan kontrolü gösterir: {col:fertplan.state}.",
+"why": "placeholders must be exactly: {col:fertplan.n_done} {col:fertplan.n_share} {col:fertplan.state} {col:fertplan.n_bal}"
+},
+{
+"en": "We order {col:orders.qty_ordered} {col:orders.unit} of {col:orders.item} at {col:orders.price} per {col:orders.unit}. The order value is {col:orders.value}.",
+"kind": "document",
+"max": null,
+"mt": "{col:orders.qty_ordered} {col:orders.unit} {col:orders.item} {col:orders.price} {col:orders.unit} için {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {col:orders.price} {",
+"why": "placeholders must be exactly: {col:orders.qty_ordered} {col:orders.unit} {col:orders.item} {col:orders.price} {col:orders.unit} {col:orders.value}"
+},
+{
+"en": "Please deliver on {col:orders.promised}. Send the delivery note with the batch or lot number and the weight, and tell us before the delivery if you cannot keep the date. The status of the order is {col:orders.status}.",
+"kind": "document",
+"max": null,
+"mt": "Lütfen teslimat notunu parti veya parti numarası ve ağırlığı ile birlikte gönderin ve teslimat öncesi tarihini tutamazsanız bize söyleyin. Siparişin durumu {col:orders.status}.",
+"why": "placeholders must be exactly: {col:orders.promised} {col:orders.status}"
+},
+{
+"en": "This season the field has used seed worth {col:costha.seed_cost}, fertiliser worth {col:costha.fert_cost}, crop protection worth {col:costha.prot_cost} and other inputs worth {col:costha.other_cost}. The total is {col:costha.total_cost}, or {col:costha.cost_ha} per hectare.",
+"kind": "document",
+"max": null,
+"mt": "Bu mevsimde tarla tohum değeri {col:costha.seed_cost}, gübre değeri {col:costha.fert_cost}, ekin koruma değeri {col:costha.prot_cost} ve diğer giriş değeri {col:costha.other_cost} kullanmıştır.",
+"why": "placeholders must be exactly: {col:costha.seed_cost} {col:costha.fert_cost} {col:costha.prot_cost} {col:costha.other_cost} {col:costha.total_cost} {col:costha.cost_ha}"
+},
+{
+"en": "The budget set on {col:costha.budget_set} is {col:costha.budget_ha} per hectare, {col:costha.budget_total} for the field. The cost is {col:costha.vs_budget} against the budget and the budget check shows: {col:costha.state}.",
+"kind": "document",
+"max": null,
+"mt": "{col:costha.budget_set} üzerinde belirlenen bütçe, tarla için hektar başına {col:costha.budget_ha} dir. maliyet bütçeye karşı {col:costha.vs_budget} ve bütçe kontrolü gösterir: {col:costha.state}.",
+"why": "placeholders must be exactly: {col:costha.budget_set} {col:costha.budget_ha} {col:costha.budget_total} {col:costha.vs_budget} {col:costha.state}"
+},
+{
+"en": "The supervisor writes the hours run and any fault in the irrigation log the same day. The lines are flushed on {col:irrsched.flush_date}.",
+"kind": "document",
+"max": null,
+"mt": "Süpervizör aynı gün sulama günlüğündeki saatleri ve herhangi bir hatayı yazar.",
+"why": "placeholders must be exactly: {col:irrsched.flush_date}"
+},
+{
+"en": "The licence check shows: {col:water.licence_state}, with {col:water.licence_days} days to go. The pump service is due on {col:water.pump_service} and the service check shows: {col:water.service_state}. Pump energy cost this season: {col:water.energy_cost}.",
+"kind": "document",
+"max": null,
+"mt": "Lisans kontrolü gösterir: {col:water.licence_state}, gitmeye {col:water.licence_days} gün kaldı. Pompa servisi {col:water.pump_service} tarihinde olması gerekir ve servis kontrolü gösterir: {col:water.service_state}.",
+"why": "placeholders must be exactly: {col:water.licence_state} {col:water.licence_days} {col:water.pump_service} {col:water.service_state} {col:water.energy_cost}"
+},
+{
+"en": "The quote ranks number {col:quotes.rank}. The best landed price for this input is {col:quotes.best}. Choosing this quote instead of the best one costs {col:quotes.extra} more. The quote check shows: {col:quotes.state}.",
+"kind": "document",
+"max": null,
+"mt": "Bu giriş için en iyi iniş fiyatı {col:quotes.best}. En iyi yerine bu fiyatı seçmek daha fazla maliyetle {col:quotes.extra}.",
+"why": "placeholders must be exactly: {col:quotes.rank} {col:quotes.best} {col:quotes.extra} {col:quotes.state}"
+},
+{
+"en": "The batch was received on {col:chem.received} and expires on {col:chem.expiry}, which is in {col:chem.days_to_expiry} days. The quantity in the store is {col:chem.qty} {col:chem.unit}, worth {col:chem.value}. The expiry check shows: {col:chem.state}.",
+"kind": "document",
+"max": null,
+"mt": "Toplu {col:chem.received}'da alınmış ve {col:chem.expiry}'da sona eriyor, yani {col:chem.days_to_expiry} gün içinde. Mağazadaki miktar {col:chem.qty} {col:chem.unit}, değeri {col:chem.value}.",
+"why": "placeholders must be exactly: {col:chem.received} {col:chem.expiry} {col:chem.days_to_expiry} {col:chem.qty} {col:chem.unit} {col:chem.value} {col:chem.state}"
+},
+{
+"en": "The storekeeper is {col:chem.keeper}. Expired products are kept apart and labelled, and are returned to the supplier or handed to an approved collector. They are never used and never poured away.",
+"kind": "document",
+"max": null,
+"mt": "Geçerli ürünler ayrı tutulur ve etiketlenir ve tedarikçiye geri gönderilir veya onaylı bir koleksiyoncuya teslim edilir.",
+"why": "placeholders must be exactly: {col:chem.keeper}"
+},
+{
+"en": "Input: {col:items.name} ({col:items.cat}). Supplier: {col:items.supplier}.",
+"kind": "document",
+"max": null,
+"mt": "Giriş: {col:items.name} ({col:items.cat}).",
+"why": "placeholders must be exactly: {col:items.name} {col:items.cat} {col:items.supplier}"
+},
+{
+"en": "The price now is {col:items.price} per {col:items.unit}, against {col:items.prev_price} last season, a change of {col:items.change}. The price check shows: {col:items.state}.",
+"kind": "document",
+"max": null,
+"mt": "Fiyat kontrolü gösterir: {col:items.state}.",
+"why": "placeholders must be exactly: {col:items.price} {col:items.unit} {col:items.prev_price} {col:items.change} {col:items.state}"
+},
+{
+"en": "Product: {col:limits.product}. Crop: {col:limits.crop}.",
+"kind": "document",
+"max": null,
+"mt": "Ürün: {col:limits.product}.",
+"why": "placeholders must be exactly: {col:limits.product} {col:limits.crop}"
+},
+{
+"en": "The label requires {col:limits.withhold} days between the last spray and the harvest, at most {col:limits.max_sprays} sprays and a dose of no more than {col:limits.max_dose} per hectare. People may re-enter after {col:limits.reentry} hours.",
+"kind": "document",
+"max": null,
+"mt": "Etiket, son püskürtme ve hasat arasında {col:limits.withhold} gün, en fazla {col:limits.max_sprays} püskürtme ve hektar başına {col:limits.max_dose} dozdan fazla bir doz gerektirir.",
+"why": "placeholders must be exactly: {col:limits.withhold} {col:limits.max_sprays} {col:limits.max_dose} {col:limits.reentry}"
+},
+{
+"en": "We have recorded {col:limits.sprays_used} sprays this season. The last spray was on {col:limits.last_use}, so the crop is safe to harvest from {col:limits.safe_from}. The harvest check shows: {col:limits.state}.",
+"kind": "document",
+"max": null,
+"mt": "Bu mevsimde sıçratmalar kaydedildi. Son sıçratma {col:limits.last_use}'deydi, bu yüzden hasat {col:limits.safe_from}'dan hasat etmek için güvenli. Hasat kontrolü gösteriyor: {col:limits.state}.",
+"why": "placeholders must be exactly: {col:limits.sprays_used} {col:limits.last_use} {col:limits.safe_from} {col:limits.state}"
+},
+{
+"en": "Potash",
+"kind": "label",
+"max": 30,
+"mt": "Potash",
+"why": "not translated"
+},
+{
+"en": "Landed quote against list price per input",
+"kind": "title",
+"max": 60,
+"mt": "Giriş başına listede belirtilen fiyat karşısında indirilmiş fiyat",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "the feeds of each ration are priced from your purchases, giving cost per head per day, dry matter as a share of body weight and feed per kilogram of gain",
+"kind": "sentence",
+"max": 160,
+"mt": "Her rasyonun yemlerinin fiyatı satın aldığınızdan belirlenir, günde bir başlık başına maliyet, vücut ağırlığından kuru madde oranı ve kilo kazancı başına yem verilir.",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "stock, reorder level, expiry date and withholding days of every medicine and vaccine with warnings for expired, expiring and low stock",
+"kind": "sentence",
+"max": 160,
+"mt": "Her bir ilacın ve aşının stokları, yeniden sipariş seviyesi, son kullanma tarihi ve saklanma günleri, son kullanma süresi, son kullanma süresi ve az stok için uyarılar",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Biosecurity gate log with waiting rule",
+"kind": "label",
+"max": 50,
+"mt": "Bekleme kuralıyla biyolojik güvenlik geçidi günlüğü",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "each visitor is checked against the days since other livestock contact and disinfection, and is allowed, told to wait or flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "Her ziyaretçi, diğer hayvanlarla temasa geçtikten sonraki günlere karşı kontrol edilir ve dezenfekte edilir ve beklemeye izin verilir, beklemeye söylenir veya işaretlenir.",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Paddock",
+"kind": "label",
+"max": null,
+"mt": "Paddock",
+"why": "not translated"
+},
+{
+"en": "Sows and finishers",
+"kind": "list",
+"max": 30,
+"mt": "Süzgeçler ve bitirme makineleri",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Prostaglandin",
+"kind": "list",
+"max": 30,
+"mt": "Prostaglandin",
+"why": "not translated"
+},
+{
+"en": "Water-soluble poultry antibiotic",
+"kind": "list",
+"max": 30,
+"mt": "Suda çözünür kümes hayvanı antibiyotiği",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Feed rations per group with cost and dry matter",
+"kind": "title",
+"max": 60,
+"mt": "Maliyet ve kuru madde dahil olmak üzere grup başına yem rasyonları",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Feed use per group: weekly totals of bought feed",
+"kind": "title",
+"max": 60,
+"mt": "Grup başına yem kullanımı: satın alınan yemin haftalık toplamı",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Animal movements: born, bought, sold, died and moved",
+"kind": "title",
+"max": 60,
+"mt": "Hayvan hareketleri: doğdu, satın aldı, sattı, öldü ve taşındı",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

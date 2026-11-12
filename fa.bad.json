@@ -1,0 +1,58 @@
+[
+{
+"en": "Hello {operator}, we spread {kind} on {field} on {date}: {tonnes} tonnes, {n_ha} kg of nitrogen per hectare. Please keep clear of streams, wells and the boundary strip.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما در هر هکتار ۴ تا ۵ کیلوگرم نیتروژن پخش می کنیم لطفا از رودخانه ها، چاه ها و نوار مرزی دور باشید",
+"why": "placeholders must be exactly: {operator} {kind} {field} {date} {tonnes} {n_ha}"
+},
+{
+"en": "Hello, the pump at {source} used {kwh} kWh in the week of {week} and cost {cost}, which is {cost_m3} per m3 and above our limit. Please check the pump, the pressure and the start time.",
+"kind": "message",
+"max": null,
+"mt": "سلام، پمپ در {source} {kwh} kWh در هفته {week} استفاده شده و هزینه {cost}، که {cost_m3} در هر متر 3 و بالاتر از حد ما است. لطفا پمپ، فشار و زمان شروع را بررسی کنید.",
+"why": "English/Latin words left: kWh cost"
+},
+{
+"en": "{col:quotes.vendor} quoted {col:quotes.price} per unit with {col:quotes.transport} for transport, a landed price of {col:quotes.landed} and a total of {col:quotes.total}. The lead time is {col:quotes.lead_days} days and the quote is valid until {col:quotes.valid_until}.",
+"kind": "document",
+"max": null,
+"mt": "{col:quotes.vendor} {col:quotes.price} برای هر واحد با {col:quotes.transport} برای حمل و نقل، قیمت فرود {col:quotes.landed} و مجموع {col:quotes.total}.",
+"why": "placeholders must be exactly: {col:quotes.vendor} {col:quotes.price} {col:quotes.transport} {col:quotes.landed} {col:quotes.total} {col:quotes.lead_days} {col:quotes.valid_until}"
+},
+{
+"en": "The storekeeper is {col:chem.keeper}. Expired products are kept apart and labelled, and are returned to the supplier or handed to an approved collector. They are never used and never poured away.",
+"kind": "document",
+"max": null,
+"mt": "محصولات منقضی شده جدا نگه داشته می شوند و برچسب گذاری می شوند و به تامین کننده بازگردانده می شوند و یا به یک جمع آوری کننده تأیید شده تحویل داده می شوند. آنها هرگز استفاده نمی شوند و هرگز دور ریخته نمی شوند.",
+"why": "placeholders must be exactly: {col:chem.keeper}"
+},
+{
+"en": "We bought {col:items.spend} of this input this season. We hold {col:items.stock_bal} {col:items.unit} in stock, worth {col:items.stock_value}. Each kilogram of nutrient costs {col:items.cost_nutrient}.",
+"kind": "document",
+"max": null,
+"mt": "ما این محصول را در این فصل خریداری کردیم. ما {col:items.stock_bal} {col:items.unit} را در انبار داریم، ارزش {col:items.stock_value} را دارد. هر کیلوگرم مواد مغذی {col:items.cost_nutrient} را هزینه می کند.",
+"why": "placeholders must be exactly: {col:items.spend} {col:items.stock_bal} {col:items.unit} {col:items.stock_value} {col:items.cost_nutrient}"
+},
+{
+"en": "Nitrogen planned and applied per field, kg per ha",
+"kind": "title",
+"max": 60,
+"mt": "نیتروژن برنامه ریزی شده و استفاده شده در هر زمینه، در کیلوگرم در هر هکتار",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Sows and finishers",
+"kind": "list",
+"max": 30,
+"mt": "ماده های فرآوری شده و فرآوری شده",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Biosecurity visitors log with the waiting rule",
+"kind": "title",
+"max": 60,
+"mt": "بازدید کنندگان بایوسیکیوری با قانون انتظار وارد سیستم می شوند.",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

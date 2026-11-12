@@ -1,0 +1,282 @@
+[
+{
+"en": "Hello, we need a repair visit on the {system} system on {field}. Please tell us your first free day and a price. The lines must be flushed by {flush_date}.",
+"kind": "message",
+"max": null,
+"mt": "Halo, kami membutuhkan kunjungan perbaikan pada sistem {system} pada {field}. tolong beritahu kami hari pertama Anda dan harga.",
+"why": "placeholders must be exactly: {system} {field} {flush_date}"
+},
+{
+"en": "Hello, we need the soil test results for {field} before we finish the fertiliser plan. The last test was on {soil_test_on}. Please send them as soon as you can.",
+"kind": "message",
+"max": null,
+"mt": "Halo, kami membutuhkan hasil tes tanah untuk {field} sebelum kita menyelesaikan rencana pupuk.",
+"why": "placeholders must be exactly: {field} {soil_test_on}"
+},
+{
+"en": "Hello {operator}, we spread {kind} on {field} on {date}: {tonnes} tonnes, {n_ha} kg of nitrogen per hectare. Please keep clear of streams, wells and the boundary strip.",
+"kind": "message",
+"max": null,
+"mt": "Halo, kami menyebarkan 1 ton, 5 kg nitrogen per hektar.",
+"why": "placeholders must be exactly: {operator} {kind} {field} {date} {tonnes} {n_ha}"
+},
+{
+"en": "So far fertiliser and manure have put on {col:fertplan.n_done} kg of nitrogen per hectare, which is {col:fertplan.n_share} of the plan. The plan check shows: {col:fertplan.state}. The nitrogen balance against what the crop removes is {col:fertplan.n_bal} kg per hectare.",
+"kind": "document",
+"max": null,
+"mt": "Hingga saat ini pupuk dan pupuk telah menambahkan {col:fertplan.n_done} kg nitrogen per hektar, yang merupakan {col:fertplan.n_share} dari rencana.",
+"why": "placeholders must be exactly: {col:fertplan.n_done} {col:fertplan.n_share} {col:fertplan.state} {col:fertplan.n_bal}"
+},
+{
+"en": "We order {col:orders.qty_ordered} {col:orders.unit} of {col:orders.item} at {col:orders.price} per {col:orders.unit}. The order value is {col:orders.value}.",
+"kind": "document",
+"max": null,
+"mt": "Kita mengatur {col:orders.qty_ordered} {col:orders.unit} dari {col:orders.item} pada {col:orders.price} per {col:orders.unit}.",
+"why": "placeholders must be exactly: {col:orders.qty_ordered} {col:orders.unit} {col:orders.item} {col:orders.price} {col:orders.unit} {col:orders.value}"
+},
+{
+"en": "Please deliver on {col:orders.promised}. Send the delivery note with the batch or lot number and the weight, and tell us before the delivery if you cannot keep the date. The status of the order is {col:orders.status}.",
+"kind": "document",
+"max": null,
+"mt": "Silakan kirimkan catatan pengiriman dengan nomor batch atau batch dan berat, dan beri tahu kami sebelum pengiriman jika Anda tidak dapat menjaga tanggal. Status pesanan adalah {col:orders.status}.",
+"why": "placeholders must be exactly: {col:orders.promised} {col:orders.status}"
+},
+{
+"en": "This season the field has used seed worth {col:costha.seed_cost}, fertiliser worth {col:costha.fert_cost}, crop protection worth {col:costha.prot_cost} and other inputs worth {col:costha.other_cost}. The total is {col:costha.total_cost}, or {col:costha.cost_ha} per hectare.",
+"kind": "document",
+"max": null,
+"mt": "Pada musim ini, ladang telah menggunakan nilai benih {col:costha.seed_cost}, pupuk nilai {col:costha.fert_cost}, perlindungan tanaman nilai {col:costha.prot_cost} dan input lainnya nilai {col:costha.other_cost}.",
+"why": "placeholders must be exactly: {col:costha.seed_cost} {col:costha.fert_cost} {col:costha.prot_cost} {col:costha.other_cost} {col:costha.total_cost} {col:costha.cost_ha}"
+},
+{
+"en": "The budget set on {col:costha.budget_set} is {col:costha.budget_ha} per hectare, {col:costha.budget_total} for the field. The cost is {col:costha.vs_budget} against the budget and the budget check shows: {col:costha.state}.",
+"kind": "document",
+"max": null,
+"mt": "Anggaran yang ditetapkan pada {col:costha.budget_set} adalah {col:costha.budget_ha} per hektar, {col:costha.budget_total} untuk ladang.",
+"why": "placeholders must be exactly: {col:costha.budget_set} {col:costha.budget_ha} {col:costha.budget_total} {col:costha.vs_budget} {col:costha.state}"
+},
+{
+"en": "The supervisor writes the hours run and any fault in the irrigation log the same day. The lines are flushed on {col:irrsched.flush_date}.",
+"kind": "document",
+"max": null,
+"mt": "Pengawas mencatat jam berjalan dan setiap kesalahan dalam log irigasi pada hari yang sama.",
+"why": "placeholders must be exactly: {col:irrsched.flush_date}"
+},
+{
+"en": "Source: {col:water.name} ({col:water.kind}). Licence {col:water.licence_no}, valid until {col:water.licence_ends}. Responsible: {col:water.keeper}.",
+"kind": "document",
+"max": null,
+"mt": "Sumber: {col:water.name} ({col:water.kind}). Lisensi {col:water.licence_no}, berlaku sampai {col:water.licence_ends}.",
+"why": "placeholders must be exactly: {col:water.name} {col:water.kind} {col:water.licence_no} {col:water.licence_ends} {col:water.keeper}"
+},
+{
+"en": "The source delivers {col:water.flow_m3h} cubic metres per hour and serves {col:water.served_ha} hectares. The yearly quota is {col:water.quota_m3} cubic metres. This season we have used {col:water.used_m3} cubic metres, which is {col:water.share} of the quota. The quota check shows: {col:water.quota_state}.",
+"kind": "document",
+"max": null,
+"mt": "Sumber memberikan {col:water.flow_m3h} meter kubik per jam dan melayani {col:water.served_ha} hektar. Kuota tahunan adalah {col:water.quota_m3} meter kubik. Musim ini kami telah menggunakan {col:water.used_m3} meter kubik, yang adalah {col:water.share} kuota.",
+"why": "placeholders must be exactly: {col:water.flow_m3h} {col:water.served_ha} {col:water.quota_m3} {col:water.used_m3} {col:water.share} {col:water.quota_state}"
+},
+{
+"en": "{col:quotes.vendor} quoted {col:quotes.price} per unit with {col:quotes.transport} for transport, a landed price of {col:quotes.landed} and a total of {col:quotes.total}. The lead time is {col:quotes.lead_days} days and the quote is valid until {col:quotes.valid_until}.",
+"kind": "document",
+"max": null,
+"mt": "{col:quotes.vendor} dikutip {col:quotes.price} per unit dengan {col:quotes.transport} untuk transportasi, harga yang diturunkan {col:quotes.landed} dan total {col:quotes.total}.",
+"why": "placeholders must be exactly: {col:quotes.vendor} {col:quotes.price} {col:quotes.transport} {col:quotes.landed} {col:quotes.total} {col:quotes.lead_days} {col:quotes.valid_until}"
+},
+{
+"en": "The quote ranks number {col:quotes.rank}. The best landed price for this input is {col:quotes.best}. Choosing this quote instead of the best one costs {col:quotes.extra} more. The quote check shows: {col:quotes.state}.",
+"kind": "document",
+"max": null,
+"mt": "Harga terbaik untuk input ini adalah {col:quotes.best}. Memilih penawaran ini daripada yang terbaik biaya {col:quotes.extra} lebih. Pemeriksaan penawaran menunjukkan: {col:quotes.state}.",
+"why": "placeholders must be exactly: {col:quotes.rank} {col:quotes.best} {col:quotes.extra} {col:quotes.state}"
+},
+{
+"en": "The storekeeper is {col:chem.keeper}. Expired products are kept apart and labelled, and are returned to the supplier or handed to an approved collector. They are never used and never poured away.",
+"kind": "document",
+"max": null,
+"mt": "Produk kadaluarsa disimpan terpisah dan diberi label, dan dikembalikan ke pemasok atau diserahkan ke kolektor yang disetujui.",
+"why": "placeholders must be exactly: {col:chem.keeper}"
+},
+{
+"en": "The operator was {col:apps.operator}. The plan check shows: {col:apps.state}.",
+"kind": "document",
+"max": null,
+"mt": "Operator adalah {col:apps.operator}.",
+"why": "placeholders must be exactly: {col:apps.operator} {col:apps.state}"
+},
+{
+"en": "The price now is {col:items.price} per {col:items.unit}, against {col:items.prev_price} last season, a change of {col:items.change}. The price check shows: {col:items.state}.",
+"kind": "document",
+"max": null,
+"mt": "Harga sekarang adalah {col:items.price} per {col:items.unit}, terhadap {col:items.prev_price} musim lalu, perubahan {col:items.change}.",
+"why": "placeholders must be exactly: {col:items.price} {col:items.unit} {col:items.prev_price} {col:items.change} {col:items.state}"
+},
+{
+"en": "Product: {col:limits.product}. Crop: {col:limits.crop}.",
+"kind": "document",
+"max": null,
+"mt": "Produk: {col:limits.product}.",
+"why": "placeholders must be exactly: {col:limits.product} {col:limits.crop}"
+},
+{
+"en": "The label requires {col:limits.withhold} days between the last spray and the harvest, at most {col:limits.max_sprays} sprays and a dose of no more than {col:limits.max_dose} per hectare. People may re-enter after {col:limits.reentry} hours.",
+"kind": "document",
+"max": null,
+"mt": "Label membutuhkan {col:limits.withhold} hari antara penyemprotan terakhir dan panen, paling {col:limits.max_sprays} penyemprotan dan dosis tidak lebih dari {col:limits.max_dose} per hektar.",
+"why": "placeholders must be exactly: {col:limits.withhold} {col:limits.max_sprays} {col:limits.max_dose} {col:limits.reentry}"
+},
+{
+"en": "We have recorded {col:limits.sprays_used} sprays this season. The last spray was on {col:limits.last_use}, so the crop is safe to harvest from {col:limits.safe_from}. The harvest check shows: {col:limits.state}.",
+"kind": "document",
+"max": null,
+"mt": "Kami telah mencatat penyemprotan {col:limits.sprays_used} musim ini. penyemprotan terakhir adalah pada {col:limits.last_use}, jadi panen aman untuk dipanen dari {col:limits.safe_from}.",
+"why": "placeholders must be exactly: {col:limits.sprays_used} {col:limits.last_use} {col:limits.safe_from} {col:limits.state}"
+},
+{
+"en": "Seed, protection and fuel issued per field",
+"kind": "title",
+"max": 60,
+"mt": "Benih, perlindungan dan bahan bakar yang dikeluarkan per ladang",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Nitrogen planned and applied per field, kg per ha",
+"kind": "title",
+"max": 60,
+"mt": "Nitrogen yang direncanakan dan diterapkan per ladang, kg per ha",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Urea",
+"kind": "label",
+"max": 30,
+"mt": "Urea",
+"why": "not translated"
+},
+{
+"en": "every treatment with a withholding period gets a release date for milk and for meat, the days left and a warning so nothing is sold too early",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap perawatan dengan masa penahanan mendapatkan tanggal rilis untuk susu dan untuk daging, hari-hari yang tersisa dan peringatan sehingga tidak ada yang dijual terlalu awal",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "each scan result and the due date from the vet show births due in 30 days, overdue births and animals that need a recheck",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap hasil scan dan tanggal jatuh tempo dari dokter hewan menunjukkan kelahiran yang jatuh tempo dalam 30 hari, kelahiran terlambat dan hewan yang membutuhkan pemeriksaan ulang",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "the feeds of each ration are priced from your purchases, giving cost per head per day, dry matter as a share of body weight and feed per kilogram of gain",
+"kind": "sentence",
+"max": 160,
+"mt": "pakan dari setiap jatah harga dari pembelian Anda, memberikan biaya per kepala per hari, bahan kering sebagai bagian dari berat badan dan pakan per kilogram keuntungan",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "stock, reorder level, expiry date and withholding days of every medicine and vaccine with warnings for expired, expiring and low stock",
+"kind": "sentence",
+"max": 160,
+"mt": "persediaan, tingkat pemesanan ulang, tanggal kedaluwarsa dan hari penahanan setiap obat dan vaksin dengan peringatan untuk stok kadaluarsa, kedaluwarsa dan rendah",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Mastitis",
+"kind": "list",
+"max": 30,
+"mt": "Mastitis",
+"why": "not translated"
+},
+{
+"en": "Predator",
+"kind": "list",
+"max": 30,
+"mt": "Predator",
+"why": "not translated"
+},
+{
+"en": "Broiler starter",
+"kind": "list",
+"max": 30,
+"mt": "Broiler starter",
+"why": "not translated"
+},
+{
+"en": "Mineral lick",
+"kind": "list",
+"max": 30,
+"mt": "Mineral lick",
+"why": "not translated"
+},
+{
+"en": "Straw bedding",
+"kind": "list",
+"max": 30,
+"mt": "Pakaian tempat tidur dari jerami",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Paddock",
+"kind": "label",
+"max": null,
+"mt": "Paddock",
+"why": "not translated"
+},
+{
+"en": "Fattening lambs",
+"kind": "list",
+"max": 30,
+"mt": "Anak domba yang sedang dikonsumsi",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Prostaglandin",
+"kind": "list",
+"max": 30,
+"mt": "Prostaglandin",
+"why": "not translated"
+},
+{
+"en": "Water-soluble poultry antibiotic",
+"kind": "list",
+"max": 30,
+"mt": "Antibiotik unggas larut dalam air",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Herds and flocks: head, feed cost, gain and health",
+"kind": "title",
+"max": 60,
+"mt": "Ternak dan kawanan: kepala, biaya pakan, keuntungan dan kesehatan",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Breeding records with due date and return to heat",
+"kind": "title",
+"max": 60,
+"mt": "Catatan pembiakan dengan tanggal jatuh tempo dan kembali ke panas",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Feed purchases and deliveries with days of feed covered",
+"kind": "title",
+"max": 60,
+"mt": "Pembelian dan pengiriman pakan dengan hari pakan yang tercakup",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Feed use per group: weekly totals of bought feed",
+"kind": "title",
+"max": 60,
+"mt": "Penggunaan pakan per kelompok: total pakan mingguan yang dibeli",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Feed, treatment, vet and breeding cost by month",
+"kind": "title",
+"max": 60,
+"mt": "Biaya pakan, perawatan, hewan peliharaan dan pembiakan per bulan",
+"why": "too long: 64 characters, the limit is 60"
+}
+]

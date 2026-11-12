@@ -1,0 +1,135 @@
+[
+{
+"en": "Hello, we need a repair visit on the {system} system on {field}. Please tell us your first free day and a price. The lines must be flushed by {flush_date}.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们需要在 {system} 系统上进行维修访问. 请告诉我们你的第一天和价格. 线路必须由 {flush_date} 冲洗.",
+"why": "placeholders must be exactly: {system} {field} {flush_date}"
+},
+{
+"en": "Hello, the pump at {name} ({pump_kw} kW) is due for service on {pump_service}. Please book a visit and send a price for oil, seals and a motor check.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {name} ({pump_kw} kW) 的应在 {pump_service} 上进行服务. 请预订访问并发送油价,密封和车辆检查.",
+"why": "English/Latin words left: kW"
+},
+{
+"en": "Hello, the leaves on {field} ({crop}) look pale and may show a nutrient deficiency. The plan is {n_ha} kg of nitrogen per ha and we have applied {n_done} so far. Can you visit this week?",
+"kind": "message",
+"max": null,
+"mt": "你好, {field} ({crop}) 上的叶子看起来很白,可能会显示营养缺乏.计划是每公2公斤,我们迄今为止已经应用了3个.你能在本周访问吗?",
+"why": "placeholders must be exactly: {field} {crop} {n_ha} {n_done}"
+},
+{
+"en": "Hello, we plan {n_ha} kg of nitrogen per hectare for {field} ({crop}). Do you advise two or three doses? We have applied {n_done} kg per ha so far.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们计划每公1公斤.您建议两剂或三剂吗?我们迄今为止每公使用了3公斤.",
+"why": "placeholders must be exactly: {n_ha} {field} {crop} {n_done}"
+},
+{
+"en": "Hello {operator}, we spread {kind} on {field} on {date}: {tonnes} tonnes, {n_ha} kg of nitrogen per hectare. Please keep clear of streams, wells and the boundary strip.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们在每公上散布了4,5公斤.请远离溪流,井和边界条.",
+"why": "placeholders must be exactly: {operator} {kind} {field} {date} {tonnes} {n_ha}"
+},
+{
+"en": "Hello {neighbour}, we plan to take our turn from {name} this week. Please tell us when you take yours so that we do not both open the gate.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们计划从本周开始.请告诉我们您的时间,这样我们就不会打开门了.",
+"why": "placeholders must be exactly: {neighbour} {name}"
+},
+{
+"en": "Hello, the pump at {source} used {kwh} kWh in the week of {week} and cost {cost}, which is {cost_m3} per m3 and above our limit. Please check the pump, the pressure and the start time.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {source} 的在 {week} 的一周内使用了 {kwh} kWh 和成本 {cost},这是{cost_m3} 每m3和超过我们的限制. 请检查,压力和启动时间.",
+"why": "English/Latin words left: kWh cost"
+},
+{
+"en": "Hello {keeper}, please bring the delivery notes and the receipts for {item} to the office today so that the invoice can be checked and paid.",
+"kind": "message",
+"max": null,
+"mt": "您好,请今天将送货票和收据带到办公室,以便查询和支付发票.",
+"why": "placeholders must be exactly: {keeper} {item}"
+},
+{
+"en": "Fertiliser plan of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "肥料计划日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "We plan {col:fertplan.n_ha} kg of nitrogen, {col:fertplan.p_ha} kg of P2O5 and {col:fertplan.k_ha} kg of K2O for each hectare. For the whole field this is {col:fertplan.n_total} kg of nitrogen, {col:fertplan.p_total} kg of P2O5 and {col:fertplan.k_total} kg of K2O. The plan follows the soil test of {col:fertplan.soil_test_on}.",
+"kind": "document",
+"max": null,
+"mt": "我们计划每公 {col:fertplan.n_ha} 公斤, {col:fertplan.p_ha} 公斤P2O5和 {col:fertplan.k_ha} 公斤K2O.对于整个田野,这是 {col:fertplan.n_total} 公斤, {col:fertplan.p_total} 公斤P2O5和 {col:fertplan.k_total} 公斤K2O.计划遵循 {col:fertplan.soil_test_on} 的土壤测试.",
+"why": "English/Latin words left: O. O."
+},
+{
+"en": "So far fertiliser and manure have put on {col:fertplan.n_done} kg of nitrogen per hectare, which is {col:fertplan.n_share} of the plan. The plan check shows: {col:fertplan.state}. The nitrogen balance against what the crop removes is {col:fertplan.n_bal} kg per hectare.",
+"kind": "document",
+"max": null,
+"mt": "目前,肥料和肥料每公增加了 {col:fertplan.n_done} 公斤,这是计划的 {col:fertplan.n_share} 计划检查显示: {col:fertplan.state}.",
+"why": "placeholders must be exactly: {col:fertplan.n_done} {col:fertplan.n_share} {col:fertplan.state} {col:fertplan.n_bal}"
+},
+{
+"en": "The supervisor writes the hours run and any fault in the irrigation log the same day. The lines are flushed on {col:irrsched.flush_date}.",
+"kind": "document",
+"max": null,
+"mt": "监督员在同一天记录了灌日记的运行时间和任何故障.",
+"why": "placeholders must be exactly: {col:irrsched.flush_date}"
+},
+{
+"en": "The licence check shows: {col:water.licence_state}, with {col:water.licence_days} days to go. The pump service is due on {col:water.pump_service} and the service check shows: {col:water.service_state}. Pump energy cost this season: {col:water.energy_cost}.",
+"kind": "document",
+"max": null,
+"mt": "许可证检查显示: {col:water.licence_state},剩下 {col:water.licence_days} 天. 服务应于 {col:water.pump_service},服务检查显示: {col:water.service_state}.",
+"why": "placeholders must be exactly: {col:water.licence_state} {col:water.licence_days} {col:water.pump_service} {col:water.service_state} {col:water.energy_cost}"
+},
+{
+"en": "Chemical store inventory of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "化学品库存库存,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "The storekeeper is {col:chem.keeper}. Expired products are kept apart and labelled, and are returned to the supplier or handed to an approved collector. They are never used and never poured away.",
+"kind": "document",
+"max": null,
+"mt": "过期的产品被分开并标记,并返回供应商或交给经批准的收藏人.它们从未被使用,也从未被丢弃.",
+"why": "placeholders must be exactly: {col:chem.keeper}"
+},
+{
+"en": "The price now is {col:items.price} per {col:items.unit}, against {col:items.prev_price} last season, a change of {col:items.change}. The price check shows: {col:items.state}.",
+"kind": "document",
+"max": null,
+"mt": "现在的价格为每1美元,与上赛季的2美元相比,变化为3美元. 价格检查显示:",
+"why": "placeholders must be exactly: {col:items.price} {col:items.unit} {col:items.prev_price} {col:items.change} {col:items.state}"
+},
+{
+"en": "We bought {col:items.spend} of this input this season. We hold {col:items.stock_bal} {col:items.unit} in stock, worth {col:items.stock_value}. Each kilogram of nutrient costs {col:items.cost_nutrient}.",
+"kind": "document",
+"max": null,
+"mt": "我们买了这个季节的投入. 我们持有 {col:items.stock_bal} {col:items.unit} 在库存中,价值 {col:items.stock_value}. 每公斤的营养成本 {col:items.cost_nutrient}.",
+"why": "placeholders must be exactly: {col:items.spend} {col:items.stock_bal} {col:items.unit} {col:items.stock_value} {col:items.cost_nutrient}"
+},
+{
+"en": "We have recorded {col:limits.sprays_used} sprays this season. The last spray was on {col:limits.last_use}, so the crop is safe to harvest from {col:limits.safe_from}. The harvest check shows: {col:limits.state}.",
+"kind": "document",
+"max": null,
+"mt": "我们已经记录了这个季节的喷雾.最后一次喷雾是在1日,所以作物可以安全地从2中收获. 收获检查显示:",
+"why": "placeholders must be exactly: {col:limits.sprays_used} {col:limits.last_use} {col:limits.safe_from} {col:limits.state}"
+},
+{
+"en": "Potash",
+"kind": "label",
+"max": 30,
+"mt": "",
+"why": "empty"
+}
+]

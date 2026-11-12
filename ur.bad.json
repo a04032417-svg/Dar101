@@ -1,0 +1,128 @@
+[
+{
+"en": "Hello, the pump at {name} ({pump_kw} kW) is due for service on {pump_service}. Please book a visit and send a price for oil, seals and a motor check.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {name} ({pump_kw} kW) پر پمپ {pump_service} پر سروس کے لئے مقرر کیا جاتا ہے. براہ مہربانی ایک دورے کی بکنگ اور تیل، سگ ماہی اور ایک موٹر چیک کے لئے ایک قیمت بھیجیں.",
+"why": "English/Latin words left: kW"
+},
+{
+"en": "Hello {operator}, we spread {kind} on {field} on {date}: {tonnes} tonnes, {n_ha} kg of nitrogen per hectare. Please keep clear of streams, wells and the boundary strip.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {operator}، ہم {field} پر {date} پر {kind} پھیلاؤ {tonnes}: {tonnes} ٹن، {n_ha} ہکٹر فی کلو نائٹروجن. براہ مہربانی نہروں، کنویں اور سرحد کی پٹی سے دور رکھیں.",
+"why": "placeholders must be exactly: {operator} {kind} {field} {date} {tonnes} {n_ha}"
+},
+{
+"en": "Hello, the pump at {source} used {kwh} kWh in the week of {week} and cost {cost}, which is {cost_m3} per m3 and above our limit. Please check the pump, the pressure and the start time.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {source} میں پمپ {kwh} kWh {week} کے ہفتے میں استعمال کیا اور قیمت {cost}، جو {cost_m3} فی m3 اور ہماری حد سے زیادہ ہے. پمپ، دباؤ اور آغاز کے وقت کی جانچ پڑتال کریں.",
+"why": "English/Latin words left: kWh cost"
+},
+{
+"en": "Calibrate with a known weight on a test strip",
+"kind": "label",
+"max": null,
+"mt": "ایک ٹیسٹ پٹی پر ایک معلوم وزن کے ساتھ calibrate",
+"why": "English/Latin words left: calibrate"
+},
+{
+"en": "Check the spill kit and the eye wash",
+"kind": "label",
+"max": null,
+"mt": "spillkit اور آنکھ دھونے کی جانچ پڑتال کریں",
+"why": "English/Latin words left: spillkit"
+},
+{
+"en": "Flush the mains and the laterals",
+"kind": "label",
+"max": null,
+"mt": "مین اور laterals کے flush",
+"why": "English/Latin words left: laterals flush"
+},
+{
+"en": "Check the emitters, nozzles and sprinklers",
+"kind": "label",
+"max": null,
+"mt": "ایمیٹر، نوزلز اور sprinklers چیک کریں",
+"why": "English/Latin words left: sprinklers"
+},
+{
+"en": "Nitrogen planned and applied per field, kg per ha",
+"kind": "title",
+"max": 60,
+"mt": "نائٹروجن کی منصوبہ بندی اور استعمال فی فیلڈ، کلو گرام فی ہیکٹر",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "the feeds of each ration are priced from your purchases, giving cost per head per day, dry matter as a share of body weight and feed per kilogram of gain",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر راشن کے فیڈ کی قیمت آپ کی خریداریوں سے ہے، جس میں فی سر فی دن لاگت، جسمانی وزن کے تناسب کے طور پر خشک مادہ اور فی کلوگرام فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیکٹری فیک",
+"why": "too long: 240 characters, the limit is 160"
+},
+{
+"en": "Feed orders with days of feed covered",
+"kind": "label",
+"max": 50,
+"mt": "خوراک کے احکامات جن میں خوراک کے دن کا احاطہ کیا گیا ہے",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "the day a paddock is free, the rest it needs and the stocking rate per hectare show whether it is grazed, resting or ready",
+"kind": "sentence",
+"max": 160,
+"mt": "دن ایک paddock مفت ہے، اس کی ضرورت ہے کہ آرام اور فی ہیکٹر سٹاک کی شرح ظاہر کرتا ہے کہ آیا یہ چرایا، آرام یا تیار ہے",
+"why": "English/Latin words left: paddock"
+},
+{
+"en": "each visitor is checked against the days since other livestock contact and disinfection, and is allowed, told to wait or flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر زائرین کو دوسرے مویشیوں کے ساتھ رابطے اور جراثیم کشی کے دنوں کے مقابلے میں چیک کیا جاتا ہے اور انہیں اجازت دی جاتی ہے، انتظار کرنے کے لئے کہا جاتا ہے یا نشان لگا دیا جاتا ہے",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Long-acting antibiotic",
+"kind": "list",
+"max": 30,
+"mt": "طویل اثر رکھنے والا اینٹی بائیوٹک",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Ivermectin injection",
+"kind": "list",
+"max": 30,
+"mt": "Ivermectin انجیکشن",
+"why": "English/Latin words left: Ivermectin"
+},
+{
+"en": "Water-soluble poultry antibiotic",
+"kind": "list",
+"max": 30,
+"mt": "پانی میں گھلنشیل پرندوں کے لیے اینٹی بائیوٹک",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Births: calving, lambing, kidding and farrowing",
+"kind": "title",
+"max": 60,
+"mt": "پیدائش: بچھڑنا، گائے کا بچہ پیدا کرنا، کھیلا کرنا اور بچہ جنم دینا",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Withdrawal tracker: milk and meat that may not be sold",
+"kind": "title",
+"max": 60,
+"mt": "واپسی کا پتہ لگانے والا: دودھ اور گوشت جو فروخت نہیں کیا جاسکتا ہے",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Feed purchases and deliveries with days of feed covered",
+"kind": "title",
+"max": 60,
+"mt": "خوراک کی خریداری اور فراہمی جس میں خوراک کے دن کا احاطہ کیا گیا ہے",
+"why": "too long: 66 characters, the limit is 60"
+}
+]

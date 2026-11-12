@@ -1,0 +1,86 @@
+[
+{
+"en": "Hello, the pump at {name} ({pump_kw} kW) is due for service on {pump_service}. Please book a visit and send a price for oil, seals and a motor check.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، المضخة بقدرة 1 كيلوواط يجب أن تصل إلى الخدمة في الثاني من فضلك احجز زيارة وأرسل سعر الزيت والختم والتحقق من السيارات",
+"why": "placeholders must be exactly: {name} {pump_kw} {pump_service}"
+},
+{
+"en": "Hello {operator}, we spread {kind} on {field} on {date}: {tonnes} tonnes, {n_ha} kg of nitrogen per hectare. Please keep clear of streams, wells and the boundary strip.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، نحن ننشر طن، كيلوغرام من النيتروجين لكل هكتار، الرجاء الابتعاد عن الجداول والآبار والشريط الحدودي.",
+"why": "placeholders must be exactly: {operator} {kind} {field} {date} {tonnes} {n_ha}"
+},
+{
+"en": "Hello {neighbour}, we plan to take our turn from {name} this week. Please tell us when you take yours so that we do not both open the gate.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، نحن نخطط للانتقال من هنا هذا الأسبوع. من فضلك أخبرنا متى ستأخذين دورك حتى لا نفتح البوابة.",
+"why": "placeholders must be exactly: {neighbour} {name}"
+},
+{
+"en": "We plan {col:fertplan.n_ha} kg of nitrogen, {col:fertplan.p_ha} kg of P2O5 and {col:fertplan.k_ha} kg of K2O for each hectare. For the whole field this is {col:fertplan.n_total} kg of nitrogen, {col:fertplan.p_total} kg of P2O5 and {col:fertplan.k_total} kg of K2O. The plan follows the soil test of {col:fertplan.soil_test_on}.",
+"kind": "document",
+"max": null,
+"mt": "نحن نخطط ل {col:fertplan.n_ha} كيلوغرام من النيتروجين {col:fertplan.p_ha} كيلوغرام من P2O5 و {col:fertplan.k_ha} كيلوغرام من K2O لكل هكتار. للحقول بأكملها هذا هو {col:fertplan.n_total} كيلوغرام من النيتروجين {col:fertplan.p_total} كيلوغرام من P2O5 و {col:fertplan.k_total} كيلوغرام من K2O. الخطة تتبع اختبار التربة من {col:fertplan.soil_test_on}.",
+"why": "English/Latin words left: O."
+},
+{
+"en": "We order {col:orders.qty_ordered} {col:orders.unit} of {col:orders.item} at {col:orders.price} per {col:orders.unit}. The order value is {col:orders.value}.",
+"kind": "document",
+"max": null,
+"mt": "نضع {col:orders.qty_ordered} {col:orders.unit} من {col:orders.item} في {col:orders.price} لكل {col:orders.unit}.",
+"why": "placeholders must be exactly: {col:orders.qty_ordered} {col:orders.unit} {col:orders.item} {col:orders.price} {col:orders.unit} {col:orders.value}"
+},
+{
+"en": "This season the field has used seed worth {col:costha.seed_cost}, fertiliser worth {col:costha.fert_cost}, crop protection worth {col:costha.prot_cost} and other inputs worth {col:costha.other_cost}. The total is {col:costha.total_cost}, or {col:costha.cost_ha} per hectare.",
+"kind": "document",
+"max": null,
+"mt": "في هذا الموسم استخدم الحقل بذور بقيمة {col:costha.seed_cost}، وأسمدة بقيمة {col:costha.fert_cost}، وحماية المحاصيل بقيمة {col:costha.prot_cost} وغيرها من المدخلات بقيمة {col:costha.other_cost}.",
+"why": "placeholders must be exactly: {col:costha.seed_cost} {col:costha.fert_cost} {col:costha.prot_cost} {col:costha.other_cost} {col:costha.total_cost} {col:costha.cost_ha}"
+},
+{
+"en": "The last run was on {col:irrsched.last_run}. The next turn is on {col:irrsched.next_due}, in {col:irrsched.days_to} days. The turn check shows: {col:irrsched.state}. Water due this week: {col:irrsched.m3_week} cubic metres.",
+"kind": "document",
+"max": null,
+"mt": "آخر جولة كانت في {col:irrsched.last_run}. الجولة التالية هي في {col:irrsched.next_due}، في {col:irrsched.days_to} أيام. يظهر فحص الجولة: {col:irrsched.state}.",
+"why": "placeholders must be exactly: {col:irrsched.last_run} {col:irrsched.next_due} {col:irrsched.days_to} {col:irrsched.state} {col:irrsched.m3_week}"
+},
+{
+"en": "{col:quotes.vendor} quoted {col:quotes.price} per unit with {col:quotes.transport} for transport, a landed price of {col:quotes.landed} and a total of {col:quotes.total}. The lead time is {col:quotes.lead_days} days and the quote is valid until {col:quotes.valid_until}.",
+"kind": "document",
+"max": null,
+"mt": "{col:quotes.vendor} {col:quotes.price} لكل وحدة مع {col:quotes.transport} للنقل، سعر إنزال {col:quotes.landed} وبلغ إجمالي {col:quotes.total}.",
+"why": "placeholders must be exactly: {col:quotes.vendor} {col:quotes.price} {col:quotes.transport} {col:quotes.landed} {col:quotes.total} {col:quotes.lead_days} {col:quotes.valid_until}"
+},
+{
+"en": "The storekeeper is {col:chem.keeper}. Expired products are kept apart and labelled, and are returned to the supplier or handed to an approved collector. They are never used and never poured away.",
+"kind": "document",
+"max": null,
+"mt": "المنتجات المنتهية الصلاحية يتم الاحتفاظ بها بشكل منفصل وتسميتها، وتعود إلى المورد أو يتم تسليمها إلى جامع معتمد.",
+"why": "placeholders must be exactly: {col:chem.keeper}"
+},
+{
+"en": "The price now is {col:items.price} per {col:items.unit}, against {col:items.prev_price} last season, a change of {col:items.change}. The price check shows: {col:items.state}.",
+"kind": "document",
+"max": null,
+"mt": "السعر الآن هو {col:items.price} لكل {col:items.unit}، مقابل {col:items.prev_price} الموسم الماضي، تغيير {col:items.change}.",
+"why": "placeholders must be exactly: {col:items.price} {col:items.unit} {col:items.prev_price} {col:items.change} {col:items.state}"
+},
+{
+"en": "We have recorded {col:limits.sprays_used} sprays this season. The last spray was on {col:limits.last_use}, so the crop is safe to harvest from {col:limits.safe_from}. The harvest check shows: {col:limits.state}.",
+"kind": "document",
+"max": null,
+"mt": "لقد سجلنا {col:limits.sprays_used} الرذاذ هذا الموسم. آخر رذاذ كان في {col:limits.last_use}، لذلك المحصول آمن للاستحصال من {col:limits.safe_from}.",
+"why": "placeholders must be exactly: {col:limits.sprays_used} {col:limits.last_use} {col:limits.safe_from} {col:limits.state}"
+},
+{
+"en": "Water-soluble poultry antibiotic",
+"kind": "list",
+"max": 30,
+"mt": "المضاد الحيوي للدواجن القابل للذوبان في الماء",
+"why": "too long: 45 characters, the limit is 30"
+}
+]

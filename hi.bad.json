@@ -1,0 +1,86 @@
+[
+{
+"en": "Hello, the pump at {name} ({pump_kw} kW) is due for service on {pump_service}. Please book a visit and send a price for oil, seals and a motor check.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {name} ({pump_kw} kW) पर पंप {pump_service} पर सेवा के लिए अपेक्षित है। कृपया एक यात्रा बुक करें और तेल, सील और एक मोटर चेक के लिए एक कीमत भेजें।",
+"why": "English/Latin words left: kW"
+},
+{
+"en": "Hello, the pump at {source} used {kwh} kWh in the week of {week} and cost {cost}, which is {cost_m3} per m3 and above our limit. Please check the pump, the pressure and the start time.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {source} पर पंप {week} के सप्ताह में {kwh} kWh इस्तेमाल किया और लागत {cost} है, जो {cost_m3} प्रति m3 और हमारी सीमा से ऊपर है. कृपया पंप, दबाव और प्रारंभ समय की जाँच करें.",
+"why": "English/Latin words left: kWh cost"
+},
+{
+"en": "Source: {col:water.name} ({col:water.kind}). Licence {col:water.licence_no}, valid until {col:water.licence_ends}. Responsible: {col:water.keeper}.",
+"kind": "document",
+"max": null,
+"mt": "स्रोत: {col:water.name} ({col:water.kind}). लाइसेंस {col:water.licence_no}, {col:water.licence_ends} तक वैध.",
+"why": "placeholders must be exactly: {col:water.name} {col:water.kind} {col:water.licence_no} {col:water.licence_ends} {col:water.keeper}"
+},
+{
+"en": "The storekeeper is {col:chem.keeper}. Expired products are kept apart and labelled, and are returned to the supplier or handed to an approved collector. They are never used and never poured away.",
+"kind": "document",
+"max": null,
+"mt": "समाप्त हो चुके उत्पादों को अलग रखा जाता है और उन्हें लेबल किया जाता है, और उन्हें आपूर्तिकर्ता को वापस कर दिया जाता है या एक अनुमोदित कलेक्टर को सौंपा जाता है। वे कभी भी उपयोग नहीं किए जाते हैं और कभी भी फेंक नहीं दिए जाते हैं।",
+"why": "placeholders must be exactly: {col:chem.keeper}"
+},
+{
+"en": "We bought {col:items.spend} of this input this season. We hold {col:items.stock_bal} {col:items.unit} in stock, worth {col:items.stock_value}. Each kilogram of nutrient costs {col:items.cost_nutrient}.",
+"kind": "document",
+"max": null,
+"mt": "हम इस मौसम में इनपुट के {col:items.spend} खरीदा है. हम स्टॉक में {col:items.stock_bal} {col:items.unit} रख, मूल्य {col:items.stock_value} {col:items.cost_nutrient} {col:items.cost_nutrient} {col:items.cost_nutrient} {col:items.cost_nutrient} {col:items.cost_nutrient} {col:items.cost_nutrient} {col:items.cost_nutrient} {col:items.cost_nutrient} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5}",
+"why": "placeholders must be exactly: {col:items.spend} {col:items.stock_bal} {col:items.unit} {col:items.stock_value} {col:items.cost_nutrient}"
+},
+{
+"en": "Nitrogen planned and applied per field, kg per ha",
+"kind": "title",
+"max": 60,
+"mt": "योजनाबद्ध और लागू नाइट्रोजन प्रति क्षेत्र, किलो प्रति हेक्टेयर",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "the feeds of each ration are priced from your purchases, giving cost per head per day, dry matter as a share of body weight and feed per kilogram of gain",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक राशन के लिए फ़ीड की कीमत आपके द्वारा खरीदी गई कीमतों से निर्धारित की जाती है, जिसमें प्रति व्यक्ति प्रति दिन लागत, शरीर के वजन के हिस्से के रूप में सूखी सामग्री और फ़ीड प्रति किलोग्राम लाभ दिया जाता है।",
+"why": "too long: 211 characters, the limit is 160"
+},
+{
+"en": "every loss is recorded with its cause and value, and each group's yearly mortality rate is checked against the limit you accept",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक हानि को इसके कारण और मूल्य के साथ दर्ज किया जाता है और प्रत्येक समूह की वार्षिक मृत्यु दर को आपके द्वारा स्वीकार की जाने वाली सीमा के खिलाफ जाँच की जाती है",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "each visitor is checked against the days since other livestock contact and disinfection, and is allowed, told to wait or flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक आगंतुक को अन्य पशुओं के संपर्क और कीटाणुशोधन के बाद के दिनों की तुलना में जाँच की जाती है और उसे प्रतीक्षा करने की अनुमति दी जाती है या चिह्नित किया जाता है",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Wait before entry",
+"kind": "list",
+"max": 30,
+"mt": "प्रवेश करने से पहले प्रतीक्षा करें",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Long-acting antibiotic",
+"kind": "list",
+"max": 30,
+"mt": "लंबे समय तक कार्य करने वाला एंटीबायोटिक",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Water-soluble poultry antibiotic",
+"kind": "list",
+"max": 30,
+"mt": "पानी में घुलनशील पोल्ट्री एंटीबायोटिक",
+"why": "too long: 37 characters, the limit is 30"
+}
+]
