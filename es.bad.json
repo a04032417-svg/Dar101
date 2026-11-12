@@ -1,0 +1,772 @@
+[
+{
+"en": "Price Units What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Unidades de precio ¿Y si?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Landed Cost Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Declaración de costos logísticos",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Channel Fee Comparison",
+"kind": "sheet",
+"max": 31,
+"mt": "Comparación de tarifas de canales",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "New Product Setup Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de configuración del nuevo producto",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Supplier Cost Update Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de actualización de costos de proveedores",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Channel Listing Setup Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de configuración del listado de canales",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Monthly Margin Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión de margen mensual",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Price Rise Rollout Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para implementar el aumento de precios",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Bundle Creation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para la creación del paquete",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Launch Week Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de la semana de lanzamiento",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Competitor Price Sweep Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para barrer los precios de la competencia",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Quarterly Price Audit Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de la auditoría de precios trimestral",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Stockout Report Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de informe de desabastecimiento",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Bin Label Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de etiquetas del contenedor",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Order Size What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Tamaño del pedido ¿Y si?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Overstock Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe de exceso de existencias",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Pick Zone Top-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para recargar zona de selección",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Goods Receiving Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de recepción de mercancías.",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Dead Stock Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión de stock muerto",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Returns Restock Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Devoluciones pasos de reabastecimiento",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Month-end Valuation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de valoración de fin de mes",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Freight Rate Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificación de tarifas de flete",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Price Break What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "¿Y si el precio se rompiera?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Quote Compare Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe de comparación de cotizaciones",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Supplier Scorecard Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe de cuadro de mando de proveedores",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Supplier Review Notes",
+"kind": "sheet",
+"max": 31,
+"mt": "Notas de revisión de proveedores",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "New Supplier Onboarding",
+"kind": "sheet",
+"max": 31,
+"mt": "Incorporación de nuevos proveedores",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Quote Comparison Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de comparación de cotizaciones",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Goods Receiving Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Cheque de recepción de mercancías",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Quarterly Supplier Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisión trimestral de proveedores",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Carrier Rate Table",
+"kind": "sheet",
+"max": 31,
+"mt": "Tabla de tarifas del transportista",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Carrier Claim Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de reclamación del transportista",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Order Value to Cover Shipping",
+"kind": "sheet",
+"max": 31,
+"mt": "Valor del pedido para cubrir el envío.",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Orders and Staff What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Pedidos y personal ¿Y si?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Carrier Handover Manifest",
+"kind": "sheet",
+"max": 31,
+"mt": "Manifiesto de entrega de transportista",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Carrier Claim Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Carta de reclamación del transportista",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Peak Staffing Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Plan de dotación de personal pico",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Morning Order Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisión del pedido de la mañana",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Wholesale Order Processing",
+"kind": "sheet",
+"max": 31,
+"mt": "Procesamiento de pedidos al por mayor",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Returns and Service Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Panel de devoluciones y servicios",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Restock Decision Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de decisión de reabastecimiento",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Supplier Claim Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de reclamaciones de proveedores",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Supplier Claim Value",
+"kind": "sheet",
+"max": 31,
+"mt": "Valor de reclamación del proveedor",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Response Time Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificación del tiempo de respuesta",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Star Rating Effect",
+"kind": "sheet",
+"max": 31,
+"mt": "Efecto de calificación de estrellas",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Return Rate What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Tasa de retorno ¿Y si?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Supplier Claim Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Carta de reclamación de proveedor",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Product Quality Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe de calidad del producto.",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Return Policy Text",
+"kind": "sheet",
+"max": 31,
+"mt": "Texto de la política de devolución",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Return Received and Inspected",
+"kind": "sheet",
+"max": 31,
+"mt": "Devolución recibida e inspeccionada",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Damaged Goods Claim",
+"kind": "sheet",
+"max": 31,
+"mt": "Reclamación de mercancías dañadas",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Daily Ticket Queue Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisión diaria de la cola de entradas",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Quality Issue Follow-up",
+"kind": "sheet",
+"max": 31,
+"mt": "Seguimiento de problemas de calidad.",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Monthly Returns Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisión de devoluciones mensuales",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Ad Budget Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Plan de presupuesto publicitario",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Product Feed Quality",
+"kind": "sheet",
+"max": 31,
+"mt": "Calidad de alimentación del producto",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Ad Budget Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de presupuesto publicitario",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "E-mail Campaign Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de campaña de correo electrónico",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Creator Post Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de publicaciones del creador",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Promotion Result Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de resultados de la promoción",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Product Feed Fix Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de corrección del feed de productos",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Ad Budget Split",
+"kind": "sheet",
+"max": 31,
+"mt": "División del presupuesto publicitario",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Discount Code Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificación de código de descuento",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "E-mail Revenue per Send",
+"kind": "sheet",
+"max": 31,
+"mt": "Ingresos por correo electrónico por envío",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "E-mail List Growth",
+"kind": "sheet",
+"max": 31,
+"mt": "Crecimiento de la lista de correo electrónico",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Creator Post Value",
+"kind": "sheet",
+"max": 31,
+"mt": "Valor de la publicación del creador",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Free Shipping or Percent Off",
+"kind": "sheet",
+"max": 31,
+"mt": "Envío gratis o porcentaje de descuento",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Peak Season Ad Budget",
+"kind": "sheet",
+"max": 31,
+"mt": "Presupuesto publicitario de temporada alta",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Ad Spend What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "¿Qué pasaría con la inversión publicitaria?",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Discount Code Terms",
+"kind": "sheet",
+"max": 31,
+"mt": "Términos del código de descuento",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "E-mail Campaign Brief",
+"kind": "sheet",
+"max": 31,
+"mt": "Resumen de la campaña por correo electrónico",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Ad Budget Request",
+"kind": "sheet",
+"max": 31,
+"mt": "Solicitud de presupuesto publicitario",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Peak Season Marketing Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Plan de marketing de temporada alta",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Promotion Result Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisión de resultados de promoción",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Content Calendar for the Month",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendario de contenidos del mes.",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Weekly Ad Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión de anuncios semanales",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Discount Code Setup Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para configurar el código de descuento",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Promotion End and Result Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de finalización y resultado de la promoción.",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "E-mail Campaign Send Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para enviar una campaña de correo electrónico",
+"why": "too long: 51 characters, the limit is 31"
+},
+{
+"en": "Creator Post Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de la publicación del creador",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Product Feed Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para verificar el feed de productos",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Black Week Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de preparación de la semana negra",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Monthly Marketing Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión de marketing mensual",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Win-back Campaign Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de la campaña de recuperación",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Fee Rule Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificación de reglas de tarifas",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Stall Day Result",
+"kind": "sheet",
+"max": 31,
+"mt": "Resultado del día de estancamiento",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Commission What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Comisión ¿Y si?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Best and Worst Products Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisión de los mejores y peores productos.",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "New Wholesale Account Setup",
+"kind": "sheet",
+"max": 31,
+"mt": "Nueva configuración de cuenta mayorista",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Market Stall Day Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos del día del puesto de mercado",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Year-end Sales Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisión de ventas de fin de año",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Cash Forecast 13 Weeks",
+"kind": "sheet",
+"max": 31,
+"mt": "Previsión de efectivo a 13 semanas",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Sales Tax by Region",
+"kind": "sheet",
+"max": 31,
+"mt": "Impuesto sobre las ventas por región",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Sales Tax Filings",
+"kind": "sheet",
+"max": 31,
+"mt": "Declaraciones de impuestos sobre las ventas",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Sales Tax Filing Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de presentación de impuestos sobre las ventas",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Supplier Payment Approval Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de aprobación de pago a proveedores",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Profit and Loss Tool",
+"kind": "sheet",
+"max": 31,
+"mt": "Herramienta de pérdidas y ganancias",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Cash Runway Tool",
+"kind": "sheet",
+"max": 31,
+"mt": "Herramienta de pista de efectivo",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Sales Tax Tool",
+"kind": "sheet",
+"max": 31,
+"mt": "herramienta de impuestos sobre las ventas",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Price and Tax Tool",
+"kind": "sheet",
+"max": 31,
+"mt": "Herramienta de precios e impuestos",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Owner Pay Tool",
+"kind": "sheet",
+"max": 31,
+"mt": "Herramienta de pago al propietario",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Stock Purchase Tool",
+"kind": "sheet",
+"max": 31,
+"mt": "Herramienta de compra de acciones",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Working Capital Tool",
+"kind": "sheet",
+"max": 31,
+"mt": "herramienta de capital de trabajo",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Budget Check Tool",
+"kind": "sheet",
+"max": 31,
+"mt": "herramienta de control de presupuesto",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "What-if Net Profit",
+"kind": "sheet",
+"max": 31,
+"mt": "¿Y si el beneficio neto?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Sales Tax Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Resumen de impuestos sobre las ventas",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Owner Pay Record",
+"kind": "sheet",
+"max": 31,
+"mt": "Registro de pago del propietario",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Sales Tax Filing",
+"kind": "sheet",
+"max": 31,
+"mt": "presentación de impuestos sobre las ventas",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Quarterly Budget Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisión trimestral del presupuesto",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Owner Pay Decision",
+"kind": "sheet",
+"max": 31,
+"mt": "Decisión de pago del propietario",
+"why": "too long: 32 characters, the limit is 31"
+}
+]
