@@ -1,0 +1,317 @@
+[
+{
+"en": "Hello, we received your complaint {cq_id} about lot {lot} ({product}, {cause}). We will check our records and the kept sample and answer you soon. Thank you for telling us.",
+"kind": "message",
+"max": null,
+"mt": "我们将检查我们的记录和保存的样本,并很快回复您. 感谢您告诉我们.",
+"why": "placeholders must be exactly: {cq_id} {lot} {product} {cause}"
+},
+{
+"en": "Hello, we sent a sample of lot {lot} ({crop}) for testing. Please send your own result for the delivery of {date} so that we can compare the two and keep our records complete.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们已发送一批 {lot} ({crop}) 的样本进行测试.请发送您自己的结果,以便我们可以比较两者,并保持完整的记录.",
+"why": "placeholders must be exactly: {lot} {crop} {date}"
+},
+{
+"en": "Hello, please service our grain dryer before the harvest. The last job was on {date} for lot {lot}, {hours} hours of work. Tell us your first free day and your price.",
+"kind": "message",
+"max": null,
+"mt": "您好,请在收获前服务我们的干燥机. 上次工作是在1个批次,2个小时的工作. 请告诉我们您的第一天和价格.",
+"why": "placeholders must be exactly: {date} {lot} {hours}"
+},
+{
+"en": "Hello, please visit the farm to treat {name} ({kind}) for pests before we fill it again. The last clean-down was on {last_clean}. Tell us your first free day.",
+"kind": "message",
+"max": null,
+"mt": "请参观农场,在我们重新填充之前,去处理害虫.最后一次清理是在2日.告诉我们你的第一天.",
+"why": "placeholders must be exactly: {name} {kind} {last_clean}"
+},
+{
+"en": "Hello, we need {missing} more {kind}. Buyers still hold crates from our dispatch {cr_id}. Please send your price and the first delivery date.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们需要更多的买家. 请寄价格和首次交货日期.",
+"why": "placeholders must be exactly: {missing} {kind} {cr_id}"
+},
+{
+"en": "Hello, the fan of {name} needs repair before the next filling. The bin holds {content_t} tonnes of {product}. Please send a technician and a price.",
+"kind": "message",
+"max": null,
+"mt": "你好,在下一次填充之前需要修理. 垃圾箱容纳了1. 请派一个技术人员和价格.",
+"why": "placeholders must be exactly: {name} {content_t} {product}"
+},
+{
+"en": "Hello {packer}, tomorrow the team packs {eggs_in} {grade} eggs for {buyer}. Please prepare the trays, the date stamps and the cartons.",
+"kind": "message",
+"max": null,
+"mt": "明天,团队将为三人包装蛋.请准备托盘,日期和盒子.",
+"why": "placeholders must be exactly: {packer} {eggs_in} {grade} {buyer}"
+},
+{
+"en": "Hello, batch {batch} of {animals} animals ({herd}) goes on {date}. Please record the live weights before loading and the carcass weights at the abattoir and send them to me.",
+"kind": "message",
+"max": null,
+"mt": "请在装载前记录活体重量和屠宰场的肉体重量,然后寄给我.",
+"why": "placeholders must be exactly: {batch} {animals} {herd} {date}"
+},
+{
+"en": "Hello {counter}, the store count of {product} is planned for {date}. Please prepare the sheet, close the movements the evening before and bring the stock card.",
+"kind": "message",
+"max": null,
+"mt": "请准备表格,在前一天晚上关闭活动,并带来股票卡.",
+"why": "placeholders must be exactly: {counter} {product} {date}"
+},
+{
+"en": "Lot traceability certificate of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "批次可追溯证书,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Dispatch {col:trace.tr_id} to {col:trace.buyer} on {col:trace.date}. Delivery note {col:trace.note_no}, truck {col:trace.truck}.",
+"kind": "document",
+"max": null,
+"mt": "发送到 {col:trace.tr_id} 在 {col:trace.date} 交付说明 {col:trace.note_no},卡车 {col:trace.truck}.",
+"why": "placeholders must be exactly: {col:trace.tr_id} {col:trace.buyer} {col:trace.date} {col:trace.note_no} {col:trace.truck}"
+},
+{
+"en": "Milk quality statement of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "牛奶质量声明,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "The load was {col:mdeliv.litres} litres with fat {col:mdeliv.fat}, protein {col:mdeliv.protein}, a cell count of {col:mdeliv.scc} thousand per ml and a bacteria count of {col:mdeliv.bact} thousand per ml.",
+"kind": "document",
+"max": null,
+"mt": "脂肪 {col:mdeliv.fat},蛋白 {col:mdeliv.protein},细胞数为 {col:mdeliv.scc} 千分之一毫升,细菌数为 {col:mdeliv.bact} 千分之一毫升.",
+"why": "placeholders must be exactly: {col:mdeliv.litres} {col:mdeliv.fat} {col:mdeliv.protein} {col:mdeliv.scc} {col:mdeliv.bact}"
+},
+{
+"en": "Egg production report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "卵子产量报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "There were {col:eggs.hens} hens in lay and we collected {col:eggs.eggs} eggs, which is a hen-day lay rate of {col:eggs.lay_rate}. {col:eggs.cracked} eggs were cracked ({col:eggs.crack_pct}), so {col:eggs.good} eggs were good.",
+"kind": "document",
+"max": null,
+"mt": "我们收集了1个蛋,这是2个蛋的蛋.",
+"why": "placeholders must be exactly: {col:eggs.hens} {col:eggs.eggs} {col:eggs.lay_rate} {col:eggs.cracked} {col:eggs.crack_pct} {col:eggs.good}"
+},
+{
+"en": "Our targets are a lay rate of {set:lay_target} and cracked eggs below {set:crack_limit}. The check shows: {col:eggs.state}.",
+"kind": "document",
+"max": null,
+"mt": "我们的目标是0的产卵率和1以下的蛋.",
+"why": "placeholders must be exactly: {set:lay_target} {set:crack_limit} {col:eggs.state}"
+},
+{
+"en": "Stock list of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "库存列表,日期为 {today}.",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Packing list of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "包装名单,日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "To {col:complaint.buyer}. Lot {col:complaint.lot}, {col:complaint.product}. Complaint date: {col:complaint.date}.",
+"kind": "document",
+"max": null,
+"mt": "批量 {col:complaint.lot}, {col:complaint.product} 投诉日期: {col:complaint.date}.",
+"why": "placeholders must be exactly: {col:complaint.buyer} {col:complaint.lot} {col:complaint.product} {col:complaint.date}"
+},
+{
+"en": "Stock count report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "库存计数报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Hello {mechanic}, the pre-harvest checks start soon. Please check {machine} on {planned_on} ({svc}) and tell me what must be repaired before the harvest.",
+"kind": "message",
+"max": null,
+"mt": "您好,收获前检查将很快开始.请检查在 {planned_on} ({svc}) 上的 {machine},告诉我收获前必须修复什么.",
+"why": "placeholders must be exactly: {mechanic} {machine} {planned_on} {svc}"
+},
+{
+"en": "Hello {mechanic}, {machine} broke down on {date} in {field}: {note}. It has been down for {days_down} days. Please come today and tell me what it needs.",
+"kind": "message",
+"max": null,
+"mt": "您好, {mechanic} 在 {field}: {note} 上的 {date} 上出现了故障. 它已经停机了 {days_down} 天. 请今天来告诉我它需要什么.",
+"why": "placeholders must be exactly: {mechanic} {machine} {date} {field} {note} {days_down}"
+},
+{
+"en": "Hello {repairer}, we need {machine} back by {est_ready}. It has been open for {days_open} days. Please tell me what is still missing.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们需要 {machine} 到 {est_ready}. 它已经开了 {days_open} 天了. 请告诉我还有什么缺失.",
+"why": "placeholders must be exactly: {repairer} {machine} {est_ready} {days_open}"
+},
+{
+"en": "Hello {repairer}, please send the cost estimate for {repair} on {machine} before you start. The parts so far are {parts_cost} and the workshop time is {labour_h} hours.",
+"kind": "message",
+"max": null,
+"mt": "你好,请在开始之前发送 {repair} 的成本估计. 到目前为止的零件是 {parts_cost},工作坊时间是 {labour_h} 小时.",
+"why": "placeholders must be exactly: {repairer} {repair} {machine} {parts_cost} {labour_h}"
+},
+{
+"en": "Hello {repairer}, we need a visit to repair {machine} ({part}). Please tell me your first free day and the price per hour for the repair on the farm.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们需要一个维修人员. 请告诉我你的第一天和每小时的价格.",
+"why": "placeholders must be exactly: {repairer} {machine} {part}"
+},
+{
+"en": "Hello {repairer}, your invoice for {repair} on {machine} must match the repair order of {cost}. Parts {parts_cost} and {labour_h} hours. Please send a corrected invoice if it differs.",
+"kind": "message",
+"max": null,
+"mt": "你好 {repairer},您的 {repair} 的发票必须与 {cost} 的维修订单相匹配. 零件 {parts_cost} 和 {labour_h} 小时. 请发送一个纠正的发票,如果它不同.",
+"why": "placeholders must be exactly: {repairer} {repair} {machine} {cost} {parts_cost} {labour_h}"
+},
+{
+"en": "Hello {operator}, please confirm the hours of {machine} for {date}: {hours} hours. If the number is not right, send me the correct hours and the field today.",
+"kind": "message",
+"max": null,
+"mt": "您好,请确认 {machine} 的时间为 {date}: {hours} 小时.如果数字不对,请今天给我发出正确的时间和字段.",
+"why": "placeholders must be exactly: {operator} {machine} {date} {hours}"
+},
+{
+"en": "Hello {dip_by}, the diesel tank held {measured} litres on {date}, which is {days_cover} days of cover. Please dip the tank again tomorrow and tell me the litres.",
+"kind": "message",
+"max": null,
+"mt": "您好,柴油容量为1升,这意味着3天的覆盖时间. 请明天再次浸泡,并告诉我升.",
+"why": "placeholders must be exactly: {dip_by} {measured} {date} {days_cover}"
+},
+{
+"en": "Hello {keeper}, please look at {name} behind {pulled_by}. Its condition is marked {cond} and the last check was on {last_check}. Tell me what is damaged and take a photo.",
+"kind": "message",
+"max": null,
+"mt": "你好,请看看 {name} 的后面 {pulled_by}. 它的状态标记 {cond} 最后检查是 {last_check}. 告诉我是什么损坏并拍照.",
+"why": "placeholders must be exactly: {keeper} {name} {pulled_by} {cond} {last_check}"
+},
+{
+"en": "Hello, we confirm the order of {part} for {machine}. Please deliver within {lead_days} days with the delivery note and the price of {unit_cost} each.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们确认了 {part} 的订单. 请在 {lead_days} 天内交付送货单和 {unit_cost} 的价格.",
+"why": "placeholders must be exactly: {part} {machine} {lead_days} {unit_cost}"
+},
+{
+"en": "Hello {contractor}, we book {machine} from {start_date} to {end_date} for {field}, about {hours} hours at {rate_h} per hour. Please confirm the crew and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们预订从2到3小时,约5小时,每小时6小时. 请确认船员和到达时间.",
+"why": "placeholders must be exactly: {contractor} {machine} {start_date} {end_date} {field} {hours} {rate_h}"
+},
+{
+"en": "Hello {contractor}, the harvest on {field} starts on {start_date}. Please send {machine} with the crew and tell me the time of arrival, the width and the fuel you need on the farm.",
+"kind": "message",
+"max": null,
+"mt": "您的收获开始于1月2日. 请与船员一起发送3月2日的收获,",
+"why": "placeholders must be exactly: {contractor} {field} {start_date} {machine}"
+},
+{
+"en": "Hello {contractor}, please send the work record for {machine} on {field}: hours, hectares and any waiting time. We compare it with our log of about {hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "您好,请发送 {machine} 上 {field} 的工作记录:小时,公和任何等待时间. 我们将其与我们的约 {hours} 小时的日志进行比较.",
+"why": "placeholders must be exactly: {contractor} {machine} {field} {hours}"
+},
+{
+"en": "Hello {name}, the shift starts at 6:00 tomorrow. Please come in your protective clothing and check the work list with your supervisor first.",
+"kind": "message",
+"max": null,
+"mt": "您的班次明天6点开始. 请穿上防护服,",
+"why": "placeholders must be exactly: {name}"
+},
+{
+"en": "Hello {name}, please hand in your timesheet for this week by Friday. This month you have {hours_month} hours on record. Please tell me about any overtime or day off.",
+"kind": "message",
+"max": null,
+"mt": "你好,请在周五之前递交本周的时间表. 本月你有1个小时记录. 请告诉我任何加班或假日.",
+"why": "placeholders must be exactly: {name} {hours_month}"
+},
+{
+"en": "Hello {staff}, your overtime for {month} is approved: {ot_hours} hours. Please also take your rest days, you have taken {rest_days} so far.",
+"kind": "message",
+"max": null,
+"mt": "您的加班时间已批准: {ot_hours} 小时.请您休息几天,到目前为止您已经休息了 {rest_days} 小时.",
+"why": "placeholders must be exactly: {staff} {month} {ot_hours} {rest_days}"
+},
+{
+"en": "Hello {staff}, your pay slip for {month} is ready. You worked {hours} hours and the pay is {pay}. Please tell the office if anything looks wrong.",
+"kind": "message",
+"max": null,
+"mt": "你工作了2个小时,工资是3个小时. 请告诉办公室如果有什么问题.",
+"why": "placeholders must be exactly: {staff} {month} {hours} {pay}"
+},
+{
+"en": "Hello {staff}, your next course for {cert} is on {course_on} with {provider}. Please keep the day free and tell me if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "您的下一个课程是2号和3号. 请留下一天的时间,如果你不能来,请告诉我.",
+"why": "placeholders must be exactly: {staff} {cert} {course_on} {provider}"
+},
+{
+"en": "Hello {staff}, your {cert} certificate ends on {expires}, in {days_left} days. Please book the renewal course now, because you cannot do this work without it.",
+"kind": "message",
+"max": null,
+"mt": "您的证书到期在 {expires},在 {days_left} 天内. 请现在预订续签课程,因为您不能在没有它的情况下完成这项工作.",
+"why": "placeholders must be exactly: {staff} {cert} {expires} {days_left}"
+},
+{
+"en": "Hello {name}, welcome to the farm. Your work starts on {start_date}. Please come to the main gate at 6:00 and ask for {leader}. Bring your identity document and work boots.",
+"kind": "message",
+"max": null,
+"mt": "您欢迎来到农场.您的工作将于1开始.请在6点来到主门,请带上身份证和工作靴.",
+"why": "placeholders must be exactly: {name} {start_date} {leader}"
+},
+{
+"en": "Hello {name}, the farm bus leaves the housing at 6:30 tomorrow for the field. Your task is {main_task} and your team leader is {leader}. Please be ready 10 minutes early.",
+"kind": "message",
+"max": null,
+"mt": "你的任务是1和你的团队领导人是2. 请提前10分钟准备好.",
+"why": "placeholders must be exactly: {name} {main_task} {leader}"
+},
+{
+"en": "Hello {name}, your pay is {rate_h} per hour. Piece work is paid by the kilogram and never below {rate_h} per hour for the hours worked. Pay day is every second Friday. Your total so far is {total_pay}.",
+"kind": "message",
+"max": null,
+"mt": "你的工资是每小时1个. 零件工作按公斤支付,每小时每小时从未低于2个. 工资日是每周五. 迄今为止的总数是3个.",
+"why": "placeholders must be exactly: {name} {rate_h} {rate_h} {total_pay}"
+},
+{
+"en": "Hello {name}, thank you for your work from {start_date} to {end_date}. We would like you back next season at the same rate or better. Please tell me if you are free.",
+"kind": "message",
+"max": null,
+"mt": "你好,谢谢你从1到2的工作.我们希望你下个赛季以同样的速度或更好地回来.请告诉我你是否空.",
+"why": "placeholders must be exactly: {name} {start_date} {end_date}"
+},
+{
+"en": "Hello {manager}, in {month} we need {seasonal_needed} seasonal workers and have {seasonal_hired} on contract, so {gap} workers are short. Please start hiring now.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们需要季节工人,并且有合同,所以工人短缺. 请立即开始招聘.",
+"why": "placeholders must be exactly: {manager} {month} {seasonal_needed} {seasonal_hired} {gap}"
+},
+{
+"en": "Hello {manager}, the labour cost for {month} is {labour_cost} against a budget of {budget}. Budget left: {variance}. Please check the overtime and the piece-rate pay.",
+"kind": "message",
+"max": null,
+"mt": "您好, {manager} 的劳动力成本是 {labour_cost} 与 {budget} 的预算相比. 预算左: {variance}. 请查看加班时间和零工费.",
+"why": "placeholders must be exactly: {manager} {month} {labour_cost} {budget} {variance}"
+}
+]

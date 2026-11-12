@@ -1,0 +1,338 @@
+[
+{
+"en": "Hello, dispatch {tr_id} of {tonnes} tonnes on {date} names lot {lot}, but the trace check shows: {state}. Please find the lot record or the harvest sheet today, because the buyer asks for it.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {tonnes} ton {date} parti adı {lot} üzerinde gönderildi, ancak izleme kontrolü gösterir: {state}.",
+"why": "placeholders must be exactly: {tr_id} {tonnes} {date} {lot} {state}"
+},
+{
+"en": "Hello, we send {tonnes} tonnes of {crop} from lot {lot} on {date}. It was harvested on {harvest_date} on {field}. Delivery note {note_no}, truck {truck}. We can send the analysis on request.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {tonnes} ton {crop} {lot} partiden {date} {date} toplandı {harvest_date} {field} teslimat notu {note_no}, kamyon {truck} istek üzerine analiz gönderebiliriz.",
+"why": "placeholders must be exactly: {tonnes} {crop} {lot} {date} {harvest_date} {field} {note_no} {truck}"
+},
+{
+"en": "Hello, we received your complaint {cq_id} about lot {lot} ({product}, {cause}). We will check our records and the kept sample and answer you soon. Thank you for telling us.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, parti ile ilgili şikayetinizi aldık. Kayıtlarımızı ve tutulan örneği kontrol edeceğiz ve kısa sürede yanıt vereceğiz.",
+"why": "placeholders must be exactly: {cq_id} {lot} {product} {cause}"
+},
+{
+"en": "Hello, we sent a sample of lot {lot} ({crop}) for testing. Please send your own result for the delivery of {date} so that we can compare the two and keep our records complete.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, test için parti {lot} ({crop}) örneği gönderdik. Lütfen ikiyi karşılaştırabilmemiz ve kayıtlarımızı tamamlayabilmemiz için kendi sonuçlarınızı gönderin.",
+"why": "placeholders must be exactly: {lot} {crop} {date}"
+},
+{
+"en": "Hello, pickup {del_id} on {date}: {litres} litres, fat {fat}, protein {protein}, cell count {scc}. The result is: {result}. Please confirm that this matches your test.",
+"kind": "message",
+"max": null,
+"mt": "{date}: {litres} litre, yağ {fat}, protein {protein}, hücre sayısı {scc}.",
+"why": "placeholders must be exactly: {del_id} {date} {litres} {fat} {protein} {scc} {result}"
+},
+{
+"en": "Hello, please service our grain dryer before the harvest. The last job was on {date} for lot {lot}, {hours} hours of work. Tell us your first free day and your price.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, hasattan önce tahıl kurutma makinemize servis yapın. Son iş 1 seri, 2 saatlik bir işti. Bize ilk boş gününüzü ve fiyatınızı söyleyin.",
+"why": "placeholders must be exactly: {date} {lot} {hours}"
+},
+{
+"en": "Hello, please visit the farm to treat {name} ({kind}) for pests before we fill it again. The last clean-down was on {last_clean}. Tell us your first free day.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen çiftliği tekrar doldurmadan önce zararlıları temizlemek için ziyaret edin.",
+"why": "placeholders must be exactly: {name} {kind} {last_clean}"
+},
+{
+"en": "Hello, we need {missing} more {kind}. Buyers still hold crates from our dispatch {cr_id}. Please send your price and the first delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Lütfen fiyatınızı ve teslimat tarihinizi gönderin.",
+"why": "placeholders must be exactly: {missing} {kind} {cr_id}"
+},
+{
+"en": "Hello {packer}, tomorrow the team packs {eggs_in} {grade} eggs for {buyer}. Please prepare the trays, the date stamps and the cartons.",
+"kind": "message",
+"max": null,
+"mt": "Merhabalar, yarın takım üç kişilik yumurta paketi hazırlıyor.",
+"why": "placeholders must be exactly: {packer} {eggs_in} {grade} {buyer}"
+},
+{
+"en": "Hello, batch {batch} of {animals} animals ({herd}) goes on {date}. Please record the live weights before loading and the carcass weights at the abattoir and send them to me.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, hayvan partisi devam ediyor. Lütfen yüklemeden önce canlı ağırlıkları ve mezbahadaki et ağırlıklarını kaydedin ve bana gönderin.",
+"why": "placeholders must be exactly: {batch} {animals} {herd} {date}"
+},
+{
+"en": "We produced {col:unitcost.produced} {col:unitcost.unit} this year. The total cost was {col:unitcost.total}, of which direct costs were {col:unitcost.direct}, labour {col:unitcost.labour}, storage and drying {col:unitcost.storage}, packaging {col:unitcost.packaging} and other costs {col:unitcost.other}.",
+"kind": "document",
+"max": null,
+"mt": "Bu yıl toplam maliyet, doğrudan maliyetler, işgücü, depolama ve kurutma, ambalajlama ve diğer maliyetler.",
+"why": "placeholders must be exactly: {col:unitcost.produced} {col:unitcost.unit} {col:unitcost.total} {col:unitcost.direct} {col:unitcost.labour} {col:unitcost.storage} {col:unitcost.packaging} {col:unitcost.other}"
+},
+{
+"en": "The cost of one unit is {col:unitcost.cost_unit} and the price is {col:unitcost.price_unit}, so the margin is {col:unitcost.margin_unit} for each unit ({col:unitcost.margin_pct} of the price). The margin check shows: {col:unitcost.state}.",
+"kind": "document",
+"max": null,
+"mt": "Bir ünitenin maliyeti {col:unitcost.cost_unit} ve fiyat {col:unitcost.price_unit}, bu yüzden marj fiyatın her birimi için {col:unitcost.margin_unit}'dir. Marj kontrolü gösterir: {col:unitcost.state}.",
+"why": "placeholders must be exactly: {col:unitcost.cost_unit} {col:unitcost.price_unit} {col:unitcost.margin_unit} {col:unitcost.margin_pct} {col:unitcost.state}"
+},
+{
+"en": "Dispatch {col:trace.tr_id} to {col:trace.buyer} on {col:trace.date}. Delivery note {col:trace.note_no}, truck {col:trace.truck}.",
+"kind": "document",
+"max": null,
+"mt": "Teslimat notu, kamyon.",
+"why": "placeholders must be exactly: {col:trace.tr_id} {col:trace.buyer} {col:trace.date} {col:trace.note_no} {col:trace.truck}"
+},
+{
+"en": "Our trace check shows: {col:trace.state}. The harvest sheet, the moisture result and the store records for this lot are kept on the farm and can be shown on request.",
+"kind": "document",
+"max": null,
+"mt": "Bu parti için hasat sayfası, nem sonucu ve depo kayıtları çiftlikte tutulur ve talep üzerine gösterilir.",
+"why": "placeholders must be exactly: {col:trace.state}"
+},
+{
+"en": "Pickup {col:mdeliv.del_id} by {col:mdeliv.buyer} on {col:mdeliv.date}.",
+"kind": "document",
+"max": null,
+"mt": "{col:mdeliv.del_id} {col:mdeliv.buyer} {col:mdeliv.date} üzerinde {col:mdeliv.buyer} tarafından alınıyor.",
+"why": "placeholders must be exactly: {col:mdeliv.del_id} {col:mdeliv.buyer} {col:mdeliv.date}"
+},
+{
+"en": "The test result is: {col:mdeliv.result}. We are paid for {col:mdeliv.pay_l} litres at {col:mdeliv.price_l} per litre, which is {col:mdeliv.value}. Our own limits are a cell count of {set:scc_limit} and bacteria of {set:bact_limit}.",
+"kind": "document",
+"max": null,
+"mt": "Testin sonucu: {col:mdeliv.result}. {col:mdeliv.pay_l} litre için litre başına {col:mdeliv.price_l} ile ödeme yapıyoruz, bu da {col:mdeliv.value}.",
+"why": "placeholders must be exactly: {col:mdeliv.result} {col:mdeliv.pay_l} {col:mdeliv.price_l} {col:mdeliv.value} {set:scc_limit} {set:bact_limit}"
+},
+{
+"en": "Our targets are a lay rate of {set:lay_target} and cracked eggs below {set:crack_limit}. The check shows: {col:eggs.state}.",
+"kind": "document",
+"max": null,
+"mt": "Hedeflerimiz 0 yumurtlama hızı ve 1'in altında yumurta çatlakları.",
+"why": "placeholders must be exactly: {set:lay_target} {set:crack_limit} {col:eggs.state}"
+},
+{
+"en": "It holds {col:bins.content_t} tonnes of {col:bins.product} out of {col:bins.capacity_t} tonnes of capacity. The fill is {col:bins.pct_full} and the space left is {col:bins.space_t} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "{col:bins.content_t} ton {col:bins.product} {col:bins.capacity_t} ton kapasitesinden {col:bins.content_t} ton tutar. Doldurma {col:bins.pct_full} ve kalan boşluk {col:bins.space_t} ton.",
+"why": "placeholders must be exactly: {col:bins.content_t} {col:bins.product} {col:bins.capacity_t} {col:bins.pct_full} {col:bins.space_t}"
+},
+{
+"en": "Loss {col:loss.ls_id} found on {col:loss.date} in {col:loss.store} by {col:loss.found_by}.",
+"kind": "document",
+"max": null,
+"mt": "{col:loss.ls_id} {col:loss.date} {col:loss.store} {col:loss.found_by} {col:loss.store} {col:loss.found_by} {col:loss.date} {col:loss.store} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {col:loss.found_by} {",
+"why": "placeholders must be exactly: {col:loss.ls_id} {col:loss.date} {col:loss.store} {col:loss.found_by}"
+},
+{
+"en": "The affected stock was separated, the area was cleaned and the cause was written in the store record. Our accepted storage loss is {set:loss_limit} of the stock.",
+"kind": "document",
+"max": null,
+"mt": "Etkilenen stok ayrıldı, bölge temizlendi ve neden depo kayıtlarına yazıldı.",
+"why": "placeholders must be exactly: {set:loss_limit}"
+},
+{
+"en": "Packing run {col:pack.pk_id} on {col:pack.date} for {col:pack.buyer}.",
+"kind": "document",
+"max": null,
+"mt": "{col:pack.pk_id} {col:pack.date} {col:pack.buyer} için {col:pack.date} üzerinde çalıştırılıyor.",
+"why": "placeholders must be exactly: {col:pack.pk_id} {col:pack.date} {col:pack.buyer}"
+},
+{
+"en": "Reply to complaint {col:complaint.cq_id} from {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "{set:firm}'den şikayete yanıt, tarih {today}.",
+"why": "placeholders must be exactly: {col:complaint.cq_id} {set:firm} {today}"
+},
+{
+"en": "To {col:complaint.buyer}. Lot {col:complaint.lot}, {col:complaint.product}. Complaint date: {col:complaint.date}.",
+"kind": "document",
+"max": null,
+"mt": "Şikayet tarihi: {col:complaint.date}.",
+"why": "placeholders must be exactly: {col:complaint.buyer} {col:complaint.lot} {col:complaint.product} {col:complaint.date}"
+},
+{
+"en": "Thank you for telling us about the problem: {col:complaint.cause}, {col:complaint.qty_t} tonnes affected. Your claim is {col:complaint.claim}, which is {col:complaint.claim_pct} of the value of those goods.",
+"kind": "document",
+"max": null,
+"mt": "Sorunu bize bildirdiğiniz için teşekkür ederiz: {col:complaint.cause}, {col:complaint.qty_t} ton etkilenmiştir.",
+"why": "placeholders must be exactly: {col:complaint.cause} {col:complaint.qty_t} {col:complaint.claim} {col:complaint.claim_pct}"
+},
+{
+"en": "We counted {col:count.counted_t} tonnes. The book stock from the movements is {col:count.book_t} tonnes, so the difference is {col:count.diff_t} tonnes ({col:count.diff_pct}).",
+"kind": "document",
+"max": null,
+"mt": "Hareketlerden kaynaklanan kitap stokları 1 ton, bu yüzden fark 2 ton.",
+"why": "placeholders must be exactly: {col:count.counted_t} {col:count.book_t} {col:count.diff_t} {col:count.diff_pct}"
+},
+{
+"en": "Labour need against seasonal workers",
+"kind": "label",
+"max": 50,
+"mt": "Mevsim işçileri ile karşılaştırıldığında işgücü ihtiyacı",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Forklift",
+"kind": "list",
+"max": 30,
+"mt": "Forklift",
+"why": "not translated"
+},
+{
+"en": "Harrow",
+"kind": "list",
+"max": 30,
+"mt": "Harrow",
+"why": "not translated"
+},
+{
+"en": "Service schedule: hours since each service and hours left",
+"kind": "title",
+"max": 60,
+"mt": "Hizmet programı: her hizmetten sonraki saatler ve kalan saatler",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Workshop spare parts stock and what to reorder",
+"kind": "title",
+"max": 60,
+"mt": "Atölyenin yedek parça stokları ve neyi yeniden sipariş edeceğiniz",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Contract machinery hire: what it costs against owning",
+"kind": "title",
+"max": 60,
+"mt": "Makine kiralama sözleşmesi: sahip olmanın karşılığında maliyeti",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Seasonal and casual workers: contracts, hours and pay",
+"kind": "title",
+"max": 60,
+"mt": "Mevsimlik ve rastgele çalışanlar: sözleşmeler, saatler ve ücretler",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Training and certificates: who holds what and when it ends",
+"kind": "title",
+"max": 60,
+"mt": "Eğitim ve sertifikalar: neyi kim elinde tutuyor ve ne zaman sona eriyor",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Machine hours, repairs, fuel and seasonal pay by month",
+"kind": "title",
+"max": 60,
+"mt": "Makine saatleri, onarımlar, yakıt ve mevsimlik ücretler aylık olarak",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Hello {mechanic}, {machine} broke down on {date} in {field}: {note}. It has been down for {days_down} days. Please come today and tell me what it needs.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {mechanic}, {machine} {date} {field}: {note} {date}'de arızalı. {days_down} gün boyunca arızalı. Lütfen bugün gelin ve bana neye ihtiyacı olduğunu söyleyin.",
+"why": "placeholders must be exactly: {mechanic} {machine} {date} {field} {note} {days_down}"
+},
+{
+"en": "Hello {repairer}, please send the cost estimate for {repair} on {machine} before you start. The parts so far are {parts_cost} and the workshop time is {labour_h} hours.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {repairer}, başlamadan önce {repair} için maliyet tahminini gönderin.",
+"why": "placeholders must be exactly: {repairer} {repair} {machine} {parts_cost} {labour_h}"
+},
+{
+"en": "Hello {repairer}, we need a visit to repair {machine} ({part}). Please tell me your first free day and the price per hour for the repair on the farm.",
+"kind": "message",
+"max": null,
+"mt": "Merhabalar, lütfen bana ilk boş gününüzü ve çiftlikte tamir için saatlik fiyatı söyleyin.",
+"why": "placeholders must be exactly: {repairer} {machine} {part}"
+},
+{
+"en": "Hello {dip_by}, the diesel tank held {measured} litres on {date}, which is {days_cover} days of cover. Please dip the tank again tomorrow and tell me the litres.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, dizel deposu 1 litrelik, yani 3 günlük bir tank.",
+"why": "placeholders must be exactly: {dip_by} {measured} {date} {days_cover}"
+},
+{
+"en": "Hello, we confirm the order of {part} for {machine}. Please deliver within {lead_days} days with the delivery note and the price of {unit_cost} each.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {part} için {machine} siparişini onaylıyoruz. Lütfen teslimat notu ve her birinin fiyatı ile {lead_days} gün içinde teslim edin.",
+"why": "placeholders must be exactly: {part} {machine} {lead_days} {unit_cost}"
+},
+{
+"en": "Hello {contractor}, we book {machine} from {start_date} to {end_date} for {field}, about {hours} hours at {rate_h} per hour. Please confirm the crew and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, saatte 6 saatlik 5 saatlik bir saatlik rezervasyon yapıyoruz.",
+"why": "placeholders must be exactly: {contractor} {machine} {start_date} {end_date} {field} {hours} {rate_h}"
+},
+{
+"en": "Hello {contractor}, the harvest on {field} starts on {start_date}. Please send {machine} with the crew and tell me the time of arrival, the width and the fuel you need on the farm.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, hasat 2'de başlıyor. Lütfen ekiple birlikte 3'ü gönderin ve bana varış saatini, genişliğini ve çiftlikte ihtiyacınız olan yakıtı söyleyin.",
+"why": "placeholders must be exactly: {contractor} {field} {start_date} {machine}"
+},
+{
+"en": "Hello {contractor}, please send the work record for {machine} on {field}: hours, hectares and any waiting time. We compare it with our log of about {hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {contractor}, lütfen {machine} için çalışma kaydını gönderin: saatler, hektarlar ve bekleme süreleri.",
+"why": "placeholders must be exactly: {contractor} {machine} {field} {hours}"
+},
+{
+"en": "Hello {name}, the shift starts at 6:00 tomorrow. Please come in your protective clothing and check the work list with your supervisor first.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, vardiya yarın saat 6'da başlıyor. Lütfen koruyucu kıyafetlerinizi giyin ve önce iş listesini amirinizle kontrol edin.",
+"why": "placeholders must be exactly: {name}"
+},
+{
+"en": "Hello {staff}, your next course for {cert} is on {course_on} with {provider}. Please keep the day free and tell me if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, bir sonraki kursunuz 2 ile 3'te. Lütfen gününüzü boş tutun ve gelemezseniz bana söyleyin.",
+"why": "placeholders must be exactly: {staff} {cert} {course_on} {provider}"
+},
+{
+"en": "Hello {name}, welcome to the farm. Your work starts on {start_date}. Please come to the main gate at 6:00 and ask for {leader}. Bring your identity document and work boots.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, çiftliğe hoş geldiniz. İşiniz 1'de başlıyor. Lütfen saat 6'da ana kapıya gelin ve 2'yi isteyin. Kimlik belgenizi ve çalışma botlarınızı getirin.",
+"why": "placeholders must be exactly: {name} {start_date} {leader}"
+},
+{
+"en": "Hello {name}, the farm bus leaves the housing at 6:30 tomorrow for the field. Your task is {main_task} and your team leader is {leader}. Please be ready 10 minutes early.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, çiftlik otobüsü yarın saat 6:30'da tarlaya gidiyor.",
+"why": "placeholders must be exactly: {name} {main_task} {leader}"
+},
+{
+"en": "Hello {manager}, in {month} we need {seasonal_needed} seasonal workers and have {seasonal_hired} on contract, so {gap} workers are short. Please start hiring now.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, mevsimlik işçilere ihtiyacımız var ve sözleşme var, bu yüzden işçiler eksik.",
+"why": "placeholders must be exactly: {manager} {month} {seasonal_needed} {seasonal_hired} {gap}"
+},
+{
+"en": "Hello {manager}, the labour cost for {month} is {labour_cost} against a budget of {budget}. Budget left: {variance}. Please check the overtime and the piece-rate pay.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {manager}, {month} için işgücü maliyeti {labour_cost} bir bütçe karşısında {budget}.",
+"why": "placeholders must be exactly: {manager} {month} {labour_cost} {budget} {variance}"
+}
+]

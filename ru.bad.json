@@ -1,0 +1,387 @@
+[
+{
+"en": "Hello, we send {tonnes} tonnes of {crop} from lot {lot} on {date}. It was harvested on {harvest_date} on {field}. Delivery note {note_no}, truck {truck}. We can send the analysis on request.",
+"kind": "message",
+"max": null,
+"mt": "Привет, мы отправляем {tonnes} тонн {crop} из партии {lot} на {date}. Он был собран на {harvest_date} на {field}.",
+"why": "placeholders must be exactly: {tonnes} {crop} {lot} {date} {harvest_date} {field} {note_no} {truck}"
+},
+{
+"en": "Hello, we received your complaint {cq_id} about lot {lot} ({product}, {cause}). We will check our records and the kept sample and answer you soon. Thank you for telling us.",
+"kind": "message",
+"max": null,
+"mt": "Привет, мы получили вашу жалобу о партии {lot} ({product}, {cause}). Мы проверим наши записи и сохраненный образец и ответим вам в ближайшее время.",
+"why": "placeholders must be exactly: {cq_id} {lot} {product} {cause}"
+},
+{
+"en": "Hello, pickup {del_id} on {date}: {litres} litres, fat {fat}, protein {protein}, cell count {scc}. The result is: {result}. Please confirm that this matches your test.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, загрузка {del_id} на {date}: {litres} литров, жира {fat}, белка {protein}, количество клеток {scc}.",
+"why": "placeholders must be exactly: {del_id} {date} {litres} {fat} {protein} {scc} {result}"
+},
+{
+"en": "Hello, please visit the farm to treat {name} ({kind}) for pests before we fill it again. The last clean-down was on {last_clean}. Tell us your first free day.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, посетите ферму, чтобы обработать {name} ({kind}) для вредителей, прежде чем мы заполним его снова.",
+"why": "placeholders must be exactly: {name} {kind} {last_clean}"
+},
+{
+"en": "Hello, we need {missing} more {kind}. Buyers still hold crates from our dispatch {cr_id}. Please send your price and the first delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, нам нужно больше покупателей, у которых еще есть ящики от нашей диспетчерской службы, пожалуйста, присылайте свою цену и дату первой доставки.",
+"why": "placeholders must be exactly: {missing} {kind} {cr_id}"
+},
+{
+"en": "Hello, the fan of {name} needs repair before the next filling. The bin holds {content_t} tonnes of {product}. Please send a technician and a price.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, вентилятор {name} нуждается в ремонте перед следующим заполнением.",
+"why": "placeholders must be exactly: {name} {content_t} {product}"
+},
+{
+"en": "Hello {packer}, tomorrow the team packs {eggs_in} {grade} eggs for {buyer}. Please prepare the trays, the date stamps and the cartons.",
+"kind": "message",
+"max": null,
+"mt": "Привет, завтра команда собирает яйца для трех.",
+"why": "placeholders must be exactly: {packer} {eggs_in} {grade} {buyer}"
+},
+{
+"en": "Hello, batch {batch} of {animals} animals ({herd}) goes on {date}. Please record the live weights before loading and the carcass weights at the abattoir and send them to me.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, запишите вес живых животных перед погрузкой и вес туши в бойнице и присылайте мне.",
+"why": "placeholders must be exactly: {batch} {animals} {herd} {date}"
+},
+{
+"en": "Hello, the {grade} wool from {herd} ({fleece_kg} kg, clip of {date}) must be bagged and labelled. {shearer} will help. Please keep the bags dry in the flat store.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, шерсть из {herd} ({fleece_kg} кг, клип из {date}) должна быть упакована и маркирована. {shearer} поможет. Пожалуйста, держите мешки сухими в плоском магазине.",
+"why": "placeholders must be exactly: {grade} {herd} {fleece_kg} {date} {shearer}"
+},
+{
+"en": "Hello {counter}, the store count of {product} is planned for {date}. Please prepare the sheet, close the movements the evening before and bring the stock card.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, подготовьте лист, закройте движения накануне вечером и принесите карточку запасов.",
+"why": "placeholders must be exactly: {counter} {product} {date}"
+},
+{
+"en": "Product: {col:unitcost.product}. Unit: {col:unitcost.unit}.",
+"kind": "document",
+"max": null,
+"mt": "Продукт: {col:unitcost.product}.",
+"why": "placeholders must be exactly: {col:unitcost.product} {col:unitcost.unit}"
+},
+{
+"en": "The cost of one unit is {col:unitcost.cost_unit} and the price is {col:unitcost.price_unit}, so the margin is {col:unitcost.margin_unit} for each unit ({col:unitcost.margin_pct} of the price). The margin check shows: {col:unitcost.state}.",
+"kind": "document",
+"max": null,
+"mt": "Стоимость одной единицы {col:unitcost.cost_unit} и цена {col:unitcost.price_unit}, так что маржа {col:unitcost.margin_unit} для каждой единицы ({col:unitcost.margin_pct} цены).",
+"why": "placeholders must be exactly: {col:unitcost.cost_unit} {col:unitcost.price_unit} {col:unitcost.margin_unit} {col:unitcost.margin_pct} {col:unitcost.state}"
+},
+{
+"en": "Dispatch {col:trace.tr_id} to {col:trace.buyer} on {col:trace.date}. Delivery note {col:trace.note_no}, truck {col:trace.truck}.",
+"kind": "document",
+"max": null,
+"mt": "Отправка {col:trace.tr_id} в {col:trace.buyer} на {col:trace.date}.",
+"why": "placeholders must be exactly: {col:trace.tr_id} {col:trace.buyer} {col:trace.date} {col:trace.note_no} {col:trace.truck}"
+},
+{
+"en": "The test result is: {col:mdeliv.result}. We are paid for {col:mdeliv.pay_l} litres at {col:mdeliv.price_l} per litre, which is {col:mdeliv.value}. Our own limits are a cell count of {set:scc_limit} and bacteria of {set:bact_limit}.",
+"kind": "document",
+"max": null,
+"mt": "Результат теста: {col:mdeliv.result}. Мы получаем за {col:mdeliv.pay_l} литров по {col:mdeliv.price_l} за литр, что является {col:mdeliv.value}.",
+"why": "placeholders must be exactly: {col:mdeliv.result} {col:mdeliv.pay_l} {col:mdeliv.price_l} {col:mdeliv.value} {set:scc_limit} {set:bact_limit}"
+},
+{
+"en": "There were {col:eggs.hens} hens in lay and we collected {col:eggs.eggs} eggs, which is a hen-day lay rate of {col:eggs.lay_rate}. {col:eggs.cracked} eggs were cracked ({col:eggs.crack_pct}), so {col:eggs.good} eggs were good.",
+"kind": "document",
+"max": null,
+"mt": "Были цыплята, которые откладывали яйца, и мы собрали цыплята, которые откладывали яйца.",
+"why": "placeholders must be exactly: {col:eggs.hens} {col:eggs.eggs} {col:eggs.lay_rate} {col:eggs.cracked} {col:eggs.crack_pct} {col:eggs.good}"
+},
+{
+"en": "Our targets are a lay rate of {set:lay_target} and cracked eggs below {set:crack_limit}. The check shows: {col:eggs.state}.",
+"kind": "document",
+"max": null,
+"mt": "Наши цели - скорость отложения 0 и разбитые яйца ниже 1.",
+"why": "placeholders must be exactly: {set:lay_target} {set:crack_limit} {col:eggs.state}"
+},
+{
+"en": "Store: {col:bins.name} ({col:bins.kind}). Keeper: {col:bins.keeper}.",
+"kind": "document",
+"max": null,
+"mt": "Хранить. Хранитель.",
+"why": "placeholders must be exactly: {col:bins.name} {col:bins.kind} {col:bins.keeper}"
+},
+{
+"en": "It holds {col:bins.content_t} tonnes of {col:bins.product} out of {col:bins.capacity_t} tonnes of capacity. The fill is {col:bins.pct_full} and the space left is {col:bins.space_t} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "Он вмещает {col:bins.content_t} тонн {col:bins.product} из {col:bins.capacity_t} тонн вместимости.",
+"why": "placeholders must be exactly: {col:bins.content_t} {col:bins.product} {col:bins.capacity_t} {col:bins.pct_full} {col:bins.space_t}"
+},
+{
+"en": "We lost {col:loss.tonnes} tonnes of {col:loss.product} from lot {col:loss.lot}. The cause is {col:loss.cause}. The value lost is {col:loss.value} and the size of the loss is {col:loss.size}.",
+"kind": "document",
+"max": null,
+"mt": "Мы потеряли {col:loss.tonnes} тонн {col:loss.product} из партии {col:loss.lot}. Причина {col:loss.cause}.",
+"why": "placeholders must be exactly: {col:loss.tonnes} {col:loss.product} {col:loss.lot} {col:loss.cause} {col:loss.value} {col:loss.size}"
+},
+{
+"en": "The affected stock was separated, the area was cleaned and the cause was written in the store record. Our accepted storage loss is {set:loss_limit} of the stock.",
+"kind": "document",
+"max": null,
+"mt": "Затронутый запас был отделен, территория была очищена и причина была записана в журнале хранения.",
+"why": "placeholders must be exactly: {set:loss_limit}"
+},
+{
+"en": "We took out {col:pack.rejected_kg} kilograms as rejects ({col:pack.reject_pct}). The value of the load is {col:pack.value}. The packing check shows: {col:pack.state}.",
+"kind": "document",
+"max": null,
+"mt": "Мы взяли {col:pack.rejected_kg} килограмм в качестве отбросов ({col:pack.reject_pct}). Значение груза {col:pack.value}.",
+"why": "placeholders must be exactly: {col:pack.rejected_kg} {col:pack.reject_pct} {col:pack.value} {col:pack.state}"
+},
+{
+"en": "To {col:complaint.buyer}. Lot {col:complaint.lot}, {col:complaint.product}. Complaint date: {col:complaint.date}.",
+"kind": "document",
+"max": null,
+"mt": "Дата подачи жалобы: {col:complaint.date}.",
+"why": "placeholders must be exactly: {col:complaint.buyer} {col:complaint.lot} {col:complaint.product} {col:complaint.date}"
+},
+{
+"en": "Thank you for telling us about the problem: {col:complaint.cause}, {col:complaint.qty_t} tonnes affected. Your claim is {col:complaint.claim}, which is {col:complaint.claim_pct} of the value of those goods.",
+"kind": "document",
+"max": null,
+"mt": "Спасибо, что сообщили нам о проблеме: {col:complaint.cause}, {col:complaint.qty_t} тонны, затронутые.",
+"why": "placeholders must be exactly: {col:complaint.cause} {col:complaint.qty_t} {col:complaint.claim} {col:complaint.claim_pct}"
+},
+{
+"en": "Machines, fuel, seasonal workers, pay and safety in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Машины, топливо, сезонные работники, заработная плата и безопасность в одном файле",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "Piece-rate pay with minimum pay top-up",
+"kind": "label",
+"max": 50,
+"mt": "Оплата по ставке с дополнительным минимальным окладом",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "hours against the contract show overtime and its pay, and months with too few rest days or too much overtime are flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "часы по контракту показывают сверхурочные работы и их оплату, а месяцы с слишком малым количеством дней отдыха или слишком большим количеством сверхурочных работ отмечаются",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "Certificate expiry warnings",
+"kind": "label",
+"max": 50,
+"mt": "Предупреждения о истечении срока действия сертификата",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Labour need against seasonal workers",
+"kind": "label",
+"max": 50,
+"mt": "Потребность в рабочей силе в сравнении с сезонными работниками",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "permanent, seasonal and piece-rate pay with employer costs are added up every month and compared with your labour budget and cost per hectare",
+"kind": "sentence",
+"max": 160,
+"mt": "постоянная, сезонная и единовременная заработная плата с затратами работодателя суммируются каждый месяц и сравниваются с вашим бюджетом на рабочую силу и стоимостью на гектар",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Overtime high",
+"kind": "list",
+"max": 30,
+"mt": "Высокий показатель за сверхурочные",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Repair log: what broke, who repaired it and what it cost",
+"kind": "title",
+"max": 60,
+"mt": "Журнал по ремонту: что сломалось, кто его починил и сколько это стоило",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Repair no",
+"kind": "label",
+"max": null,
+"mt": "Ремонт No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Breakdown no",
+"kind": "label",
+"max": null,
+"mt": "Раздел No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Attachment no",
+"kind": "label",
+"max": null,
+"mt": "Приложение No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Part no",
+"kind": "label",
+"max": null,
+"mt": "Часть No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Permanent staff: roles, cost per hour and certificate check",
+"kind": "title",
+"max": 60,
+"mt": "Постоянный персонал: роли, почасовые расходы и проверка удостоверений",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Seasonal and casual workers: contracts, hours and pay",
+"kind": "title",
+"max": 60,
+"mt": "Сезонные и случайные работники: контракты, рабочее время и заработная плата",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Training and certificates: who holds what and when it ends",
+"kind": "title",
+"max": 60,
+"mt": "Обучение и сертификаты: кто владеет чем и когда он заканчивается",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Safety log: incidents, near misses and equipment",
+"kind": "title",
+"max": 60,
+"mt": "Журнал безопасности: инциденты, почти несчастные случаи и оборудование",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Payroll summary by month: pay, employer costs and budget",
+"kind": "title",
+"max": 60,
+"mt": "Резюме заработной платы по месяцам: заработная плата, расходы работодателя и бюджет",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Labour need by month against workers available",
+"kind": "title",
+"max": 60,
+"mt": "Потребность в рабочей силе по месяцам по отношению к имеющимся рабочим",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Machine hours, repairs, fuel and seasonal pay by month",
+"kind": "title",
+"max": 60,
+"mt": "Часы работы машины, ремонт, топливо и сезонная оплата по месяцам",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Output per worker per day and labour cost per kilogram",
+"kind": "title",
+"max": 60,
+"mt": "Производство на одного рабочего в день и стоимость труда на килограмм",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Hello {mechanic}, the pre-harvest checks start soon. Please check {machine} on {planned_on} ({svc}) and tell me what must be repaired before the harvest.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, скоро начнутся предварительные проверки. Пожалуйста, проверьте {machine} на {planned_on} ({svc}) и скажите мне, что нужно исправить до урожая.",
+"why": "placeholders must be exactly: {mechanic} {machine} {planned_on} {svc}"
+},
+{
+"en": "Hello {repairer}, we need a visit to repair {machine} ({part}). Please tell me your first free day and the price per hour for the repair on the farm.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, нам нужен ремонтник. пожалуйста, скажите мне ваш первый свободный день и цену в час за ремонт на ферме.",
+"why": "placeholders must be exactly: {repairer} {machine} {part}"
+},
+{
+"en": "Hello {dip_by}, the diesel tank held {measured} litres on {date}, which is {days_cover} days of cover. Please dip the tank again tomorrow and tell me the litres.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, в дизельном баке было 1 литр, что составляет 3 дня.",
+"why": "placeholders must be exactly: {dip_by} {measured} {date} {days_cover}"
+},
+{
+"en": "Hello {contractor}, we book {machine} from {start_date} to {end_date} for {field}, about {hours} hours at {rate_h} per hour. Please confirm the crew and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы бронируем от 2 до 3 часов, около 5 часов по 6 часов.",
+"why": "placeholders must be exactly: {contractor} {machine} {start_date} {end_date} {field} {hours} {rate_h}"
+},
+{
+"en": "Hello {contractor}, the harvest on {field} starts on {start_date}. Please send {machine} with the crew and tell me the time of arrival, the width and the fuel you need on the farm.",
+"kind": "message",
+"max": null,
+"mt": "Привет, урожай на ферме начинается 2 числа, пожалуйста, присылайте 3 дня с экипажем и скажите мне время прибытия, ширину и топливо, которое вам нужно на ферме.",
+"why": "placeholders must be exactly: {contractor} {field} {start_date} {machine}"
+},
+{
+"en": "Hello {name}, the shift starts at 6:00 tomorrow. Please come in your protective clothing and check the work list with your supervisor first.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, ваша смена начинается завтра в 6:00.",
+"why": "placeholders must be exactly: {name}"
+},
+{
+"en": "Hello {staff}, your next course for {cert} is on {course_on} with {provider}. Please keep the day free and tell me if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, ваш следующий курс на 1 занятие на 2 занятия на 3. Пожалуйста, оставьте день свободным и скажите мне, если вы не сможете прийти.",
+"why": "placeholders must be exactly: {staff} {cert} {course_on} {provider}"
+},
+{
+"en": "Hello {name}, welcome to the farm. Your work starts on {start_date}. Please come to the main gate at 6:00 and ask for {leader}. Bring your identity document and work boots.",
+"kind": "message",
+"max": null,
+"mt": "Привет, добро пожаловать на ферму. Ваша работа начнется в 1. Пожалуйста, приходите к главным воротам в 6:00 и спросите о 2. Принесите документы и рабочие ботинки.",
+"why": "placeholders must be exactly: {name} {start_date} {leader}"
+},
+{
+"en": "Hello {name}, the farm bus leaves the housing at 6:30 tomorrow for the field. Your task is {main_task} and your team leader is {leader}. Please be ready 10 minutes early.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, завтра в 6:30 автобус отправляется на поле. Ваша задача - 1 и лидер вашей команды - 2. Пожалуйста, будьте готовы на 10 минут раньше.",
+"why": "placeholders must be exactly: {name} {main_task} {leader}"
+},
+{
+"en": "Hello {name}, thank you for your work from {start_date} to {end_date}. We would like you back next season at the same rate or better. Please tell me if you are free.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, спасибо за работу с 1 по 2 мы хотели бы, чтобы вы вернулись в следующем сезоне в том же темпе или лучше. пожалуйста, скажите мне, если вы свободны.",
+"why": "placeholders must be exactly: {name} {start_date} {end_date}"
+},
+{
+"en": "Hello {manager}, in {month} we need {seasonal_needed} seasonal workers and have {seasonal_hired} on contract, so {gap} workers are short. Please start hiring now.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, нам нужны сезонные работники и у нас есть контракт, поэтому у нас не хватает рабочих.",
+"why": "placeholders must be exactly: {manager} {month} {seasonal_needed} {seasonal_hired} {gap}"
+},
+{
+"en": "Hello {manager}, the labour cost for {month} is {labour_cost} against a budget of {budget}. Budget left: {variance}. Please check the overtime and the piece-rate pay.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {manager}, стоимость труда для {month} составляет {labour_cost} против бюджета {budget}.",
+"why": "placeholders must be exactly: {manager} {month} {labour_cost} {budget} {variance}"
+}
+]

@@ -1,0 +1,177 @@
+[
+{
+"en": "Hello, please visit the farm to treat {name} ({kind}) for pests before we fill it again. The last clean-down was on {last_clean}. Tell us your first free day.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، من فضلكم زيارة المزرعة لمعالجة الآفات قبل أن نملأها مرة أخرى. آخر تنظيف كان في 2. أخبرنا عن أول يوم حر لك.",
+"why": "placeholders must be exactly: {name} {kind} {last_clean}"
+},
+{
+"en": "Hello, we need {missing} more {kind}. Buyers still hold crates from our dispatch {cr_id}. Please send your price and the first delivery date.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، نحن بحاجة إلى المزيد من المشتريات لا تزال تحتفظ بالصناديق من مركز إرسالنا الرجاء إرسال سعرك وتاريخ التسليم الأول",
+"why": "placeholders must be exactly: {missing} {kind} {cr_id}"
+},
+{
+"en": "Hello, the fan of {name} needs repair before the next filling. The bin holds {content_t} tonnes of {product}. Please send a technician and a price.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، مروحة {name} تحتاج إلى إصلاح قبل التعبئة التالية.",
+"why": "placeholders must be exactly: {name} {content_t} {product}"
+},
+{
+"en": "Hello {packer}, tomorrow the team packs {eggs_in} {grade} eggs for {buyer}. Please prepare the trays, the date stamps and the cartons.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، غداً الفريق يحزم بيض الثلاثة من فضلكم جهّزوا الصناديق والطوابع والصناديق",
+"why": "placeholders must be exactly: {packer} {eggs_in} {grade} {buyer}"
+},
+{
+"en": "Hello, the {grade} wool from {herd} ({fleece_kg} kg, clip of {date}) must be bagged and labelled. {shearer} will help. Please keep the bags dry in the flat store.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، يجب أن تكون الصوف من {herd} ({fleece_kg} كيلوغرام، مقطوعة من {date}) في حقيبة و ملصق. {shearer} سوف تساعد. يرجى الحفاظ على الحقائب جافة في المتجر المسطح.",
+"why": "placeholders must be exactly: {grade} {herd} {fleece_kg} {date} {shearer}"
+},
+{
+"en": "Hello, the labels for lot {lot_id} ({crop}, {field}, {tonnes} tonnes, harvested {date}) are printed. Please fix a label on every bag or crate and one on the store card.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، تم طباعة ملصقات الدفعات {lot_id} {crop} {field} {tonnes} {date} {date} {date} {date} {date} {5} {5} {5} {5} {6} {6} {7} {7} {7} {8} {8} {8} {8} {8} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9}",
+"why": "placeholders must be exactly: {lot_id} {crop} {field} {tonnes} {date}"
+},
+{
+"en": "Our targets are a lay rate of {set:lay_target} and cracked eggs below {set:crack_limit}. The check shows: {col:eggs.state}.",
+"kind": "document",
+"max": null,
+"mt": "أهدافنا هي معدل وضع {set:lay_target} والبيض المكسور أسفل {set:crack_limit}.",
+"why": "placeholders must be exactly: {set:lay_target} {set:crack_limit} {col:eggs.state}"
+},
+{
+"en": "The affected stock was separated, the area was cleaned and the cause was written in the store record. Our accepted storage loss is {set:loss_limit} of the stock.",
+"kind": "document",
+"max": null,
+"mt": "تم فصل المخزون المتضرر تم تنظيف المنطقة و تم كتابة السبب في سجل المخزن.",
+"why": "placeholders must be exactly: {set:loss_limit}"
+},
+{
+"en": "Repair log: what broke, who repaired it and what it cost",
+"kind": "title",
+"max": 60,
+"mt": "سجل الإصلاحات: ما الذي تحطم، ومن قام بإصلاحه، وكم تكلفة الإصلاح",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Permanent staff: roles, cost per hour and certificate check",
+"kind": "title",
+"max": 60,
+"mt": "الموظفين الدائمين: الأدوار، التكلفة الساعية والتحقق من الشهادات",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Seasonal and casual workers: contracts, hours and pay",
+"kind": "title",
+"max": 60,
+"mt": "العمال الموسميين والعمال غير الموظفين: العقود والساعات والأجور",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Overtime and rest days of the permanent staff by month",
+"kind": "title",
+"max": 60,
+"mt": "ساعات العمل الإضافية وأيام الراحة للموظفين الدائمين حسب الشهر",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Safety log: incidents, near misses and equipment",
+"kind": "title",
+"max": 60,
+"mt": "سجل السلامة: الحوادث والحوادث التي كانت على وشك الحدوث والمعدات",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Machine hours, repairs, fuel and seasonal pay by month",
+"kind": "title",
+"max": 60,
+"mt": "ساعات الماكينة، الإصلاحات، الوقود والرواتب الموسمية حسب الشهر",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello {repairer}, we need a visit to repair {machine} ({part}). Please tell me your first free day and the price per hour for the repair on the farm.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، نحن بحاجة إلى زيارة لإصلاحه. من فضلك أخبرني عن أول يوم حر لك والسعر بالساعة للإصلاح في المزرعة.",
+"why": "placeholders must be exactly: {repairer} {machine} {part}"
+},
+{
+"en": "Hello {dip_by}, the diesel tank held {measured} litres on {date}, which is {days_cover} days of cover. Please dip the tank again tomorrow and tell me the litres.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، خزان الديزل كان يحتوي على 1 لتر، أي 3 أيام من الغطاء، من فضلك قم بإغراق الخزان مجدداً غداً وأخبرني بالليترات.",
+"why": "placeholders must be exactly: {dip_by} {measured} {date} {days_cover}"
+},
+{
+"en": "Hello {contractor}, we book {machine} from {start_date} to {end_date} for {field}, about {hours} hours at {rate_h} per hour. Please confirm the crew and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، نحن نحجز من 2 إلى 3 ساعات، حوالي 5 ساعات بسعر 6 ساعات، من فضلكم أكدوا الطاقم ووقت الوصول.",
+"why": "placeholders must be exactly: {contractor} {machine} {start_date} {end_date} {field} {hours} {rate_h}"
+},
+{
+"en": "Hello {contractor}, the harvest on {field} starts on {start_date}. Please send {machine} with the crew and tell me the time of arrival, the width and the fuel you need on the farm.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، الحصاد يبدأ في الثاني من فضلك أرسل ثلاثة مع الطاقم وأخبرني بوقت الوصول والعرض والوقود الذي تحتاجه في المزرعة",
+"why": "placeholders must be exactly: {contractor} {field} {start_date} {machine}"
+},
+{
+"en": "Hello {name}, the shift starts at 6:00 tomorrow. Please come in your protective clothing and check the work list with your supervisor first.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، بدء المناوبة غداً في الساعة السادسة، رجاءً تعال في ملابسك الواقية",
+"why": "placeholders must be exactly: {name}"
+},
+{
+"en": "Hello {staff}, your next course for {cert} is on {course_on} with {provider}. Please keep the day free and tell me if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، دورتك القادمة لـ1 هي في 2 مع 3، من فضلك احتفظ باليوم مجاناً وأخبرني إذا لم تستطع القدوم.",
+"why": "placeholders must be exactly: {staff} {cert} {course_on} {provider}"
+},
+{
+"en": "Hello {name}, welcome to the farm. Your work starts on {start_date}. Please come to the main gate at 6:00 and ask for {leader}. Bring your identity document and work boots.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، مرحباً بكم في المزرعة، ستبدأون العمل في الساعة السادسة، رجاءً تعالوا إلى البوابة الرئيسية في الساعة السادسة، واطلبوا البوابة الثانية، أحضروا وثائق الهوية وحذاء العمل.",
+"why": "placeholders must be exactly: {name} {start_date} {leader}"
+},
+{
+"en": "Hello {name}, the farm bus leaves the housing at 6:30 tomorrow for the field. Your task is {main_task} and your team leader is {leader}. Please be ready 10 minutes early.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، حافلة المزرعة ستغادر المنزل غداً في تمام الساعة السادسة والنصف لتذهب إلى الميدان. مهمتك هي 1 و قائد فريقك هو 2.",
+"why": "placeholders must be exactly: {name} {main_task} {leader}"
+},
+{
+"en": "Hello {name}, thank you for your work from {start_date} to {end_date}. We would like you back next season at the same rate or better. Please tell me if you are free.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، شكراً على عملك من 1 إلى 2 نود أن تعود الموسم المقبل بنفس المعدل أو أفضل من ذلك",
+"why": "placeholders must be exactly: {name} {start_date} {end_date}"
+},
+{
+"en": "Hello {manager}, in {month} we need {seasonal_needed} seasonal workers and have {seasonal_hired} on contract, so {gap} workers are short. Please start hiring now.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، نحن بحاجة إلى عمال موسميين ولدينا عمال على عقد، لذا لدينا نقص في العمال. من فضلكم ابدأوا في التوظيف الآن.",
+"why": "placeholders must be exactly: {manager} {month} {seasonal_needed} {seasonal_hired} {gap}"
+},
+{
+"en": "Hello {manager}, the labour cost for {month} is {labour_cost} against a budget of {budget}. Budget left: {variance}. Please check the overtime and the piece-rate pay.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً {manager}، تكلفة العمالة لـ {month} هي {labour_cost} مقابل ميزانية {budget}.",
+"why": "placeholders must be exactly: {manager} {month} {labour_cost} {budget} {variance}"
+}
+]

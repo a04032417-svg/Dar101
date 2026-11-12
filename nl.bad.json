@@ -1,0 +1,352 @@
+[
+{
+"en": "Hello, we send {tonnes} tonnes of {crop} from lot {lot} on {date}. It was harvested on {harvest_date} on {field}. Delivery note {note_no}, truck {truck}. We can send the analysis on request.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we sturen {tonnes} ton {crop} van de partij {lot} op {date}. Het werd geoogst op {harvest_date} op {field}.",
+"why": "placeholders must be exactly: {tonnes} {crop} {lot} {date} {harvest_date} {field} {note_no} {truck}"
+},
+{
+"en": "Hello, please service our grain dryer before the harvest. The last job was on {date} for lot {lot}, {hours} hours of work. Tell us your first free day and your price.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, kunt u voor de oogst onze graantroogmachine onderhouden.",
+"why": "placeholders must be exactly: {date} {lot} {hours}"
+},
+{
+"en": "Hello, please visit the farm to treat {name} ({kind}) for pests before we fill it again. The last clean-down was on {last_clean}. Tell us your first free day.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, ga naar de boerderij voor de ongediertebehandeling voordat we het opnieuw vullen.",
+"why": "placeholders must be exactly: {name} {kind} {last_clean}"
+},
+{
+"en": "Hello, we need {missing} more {kind}. Buyers still hold crates from our dispatch {cr_id}. Please send your price and the first delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we hebben nog meer kopers nodig. Stuur uw prijs en de eerste leveringsdatum.",
+"why": "placeholders must be exactly: {missing} {kind} {cr_id}"
+},
+{
+"en": "Hello {packer}, tomorrow the team packs {eggs_in} {grade} eggs for {buyer}. Please prepare the trays, the date stamps and the cartons.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, morgen pakken we eieren voor drie.",
+"why": "placeholders must be exactly: {packer} {eggs_in} {grade} {buyer}"
+},
+{
+"en": "The cost of one unit is {col:unitcost.cost_unit} and the price is {col:unitcost.price_unit}, so the margin is {col:unitcost.margin_unit} for each unit ({col:unitcost.margin_pct} of the price). The margin check shows: {col:unitcost.state}.",
+"kind": "document",
+"max": null,
+"mt": "De kosten van één eenheid zijn {col:unitcost.cost_unit} en de prijs is {col:unitcost.price_unit}, dus de marge is {col:unitcost.margin_unit} voor elke eenheid ({col:unitcost.margin_pct} van de prijs).",
+"why": "placeholders must be exactly: {col:unitcost.cost_unit} {col:unitcost.price_unit} {col:unitcost.margin_unit} {col:unitcost.margin_pct} {col:unitcost.state}"
+},
+{
+"en": "Dispatch {col:trace.tr_id} to {col:trace.buyer} on {col:trace.date}. Delivery note {col:trace.note_no}, truck {col:trace.truck}.",
+"kind": "document",
+"max": null,
+"mt": "Verzendbrief {col:trace.tr_id} naar {col:trace.buyer} op {col:trace.date}.",
+"why": "placeholders must be exactly: {col:trace.tr_id} {col:trace.buyer} {col:trace.date} {col:trace.note_no} {col:trace.truck}"
+},
+{
+"en": "Our trace check shows: {col:trace.state}. The harvest sheet, the moisture result and the store records for this lot are kept on the farm and can be shown on request.",
+"kind": "document",
+"max": null,
+"mt": "De oogstplaat, het vochtresultaat en de opslaggegevens van deze partij worden op de boerderij bewaard en kunnen op verzoek worden getoond.",
+"why": "placeholders must be exactly: {col:trace.state}"
+},
+{
+"en": "The test result is: {col:mdeliv.result}. We are paid for {col:mdeliv.pay_l} litres at {col:mdeliv.price_l} per litre, which is {col:mdeliv.value}. Our own limits are a cell count of {set:scc_limit} and bacteria of {set:bact_limit}.",
+"kind": "document",
+"max": null,
+"mt": "Het resultaat is: {col:mdeliv.result}. We worden betaald voor {col:mdeliv.pay_l} liter met {col:mdeliv.price_l} per liter, wat {col:mdeliv.value} is.",
+"why": "placeholders must be exactly: {col:mdeliv.result} {col:mdeliv.pay_l} {col:mdeliv.price_l} {col:mdeliv.value} {set:scc_limit} {set:bact_limit}"
+},
+{
+"en": "Our targets are a lay rate of {set:lay_target} and cracked eggs below {set:crack_limit}. The check shows: {col:eggs.state}.",
+"kind": "document",
+"max": null,
+"mt": "Onze doelen zijn een laage van {set:lay_target} en gebroken eieren onder {set:crack_limit}.",
+"why": "placeholders must be exactly: {set:lay_target} {set:crack_limit} {col:eggs.state}"
+},
+{
+"en": "The affected stock was separated, the area was cleaned and the cause was written in the store record. Our accepted storage loss is {set:loss_limit} of the stock.",
+"kind": "document",
+"max": null,
+"mt": "De betrokken voorraden zijn gescheiden, het gebied is schoongemaakt en de oorzaak is in het magazijnregister opgenomen.",
+"why": "placeholders must be exactly: {set:loss_limit}"
+},
+{
+"en": "We took out {col:pack.rejected_kg} kilograms as rejects ({col:pack.reject_pct}). The value of the load is {col:pack.value}. The packing check shows: {col:pack.state}.",
+"kind": "document",
+"max": null,
+"mt": "We hebben {col:pack.rejected_kg} kilograms als afwijzingen ({col:pack.reject_pct}) genomen. De waarde van de lading is {col:pack.value}.",
+"why": "placeholders must be exactly: {col:pack.rejected_kg} {col:pack.reject_pct} {col:pack.value} {col:pack.state}"
+},
+{
+"en": "We checked the lot records, the moisture result and the store notes for this lot. The complaint has been open for {col:complaint.days_open} days and is handled by {col:complaint.handled_by}.",
+"kind": "document",
+"max": null,
+"mt": "We hebben de partijregisters, het vochtresultaat en de winkelnota's voor deze partij gecontroleerd.",
+"why": "placeholders must be exactly: {col:complaint.days_open} {col:complaint.handled_by}"
+},
+{
+"en": "The book value is {col:count.book_value} and the value of the difference is {col:count.diff_value}. The count check shows: {col:count.state}. We accept a difference of {set:count_tol}.",
+"kind": "document",
+"max": null,
+"mt": "De boekwaarde is {col:count.book_value} en de waarde van het verschil is {col:count.diff_value}.",
+"why": "placeholders must be exactly: {col:count.book_value} {col:count.diff_value} {col:count.state} {set:count_tol}"
+},
+{
+"en": "Bin content against capacity per product",
+"kind": "title",
+"max": 60,
+"mt": "Inhoud van de container in verhouding tot de capaciteit per product",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "litres per hour and per hectare for every job, with a warning when a job burns more than the usual use of the machine",
+"kind": "sentence",
+"max": 160,
+"mt": "liter per uur en per hectare voor elke werkzaamheden, met een waarschuwing wanneer een werkzaamheden verbranden meer dan het gebruikelijke gebruik van de machine",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "kilograms, rejects and rate give the pay, the kilograms per hour and any top-up needed to reach the lowest hourly pay",
+"kind": "sentence",
+"max": 160,
+"mt": "De vergoeding voor het aantal kilo's, afwijzingen en tarieven geeft het salaris, de kilo's per uur en eventuele aanvullingen die nodig zijn om het laagste uurloon te bereiken.",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Certificate expiry warnings",
+"kind": "label",
+"max": 50,
+"mt": "Waarschuwingen voor het verstrijken van het certificaat",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "pesticide, tractor, first aid and other certificates show days left and who must renew before they can work",
+"kind": "sentence",
+"max": 160,
+"mt": "In het certificaat van de werknemer van de werkgever van de werkgever van de werknemer van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van de werkgever van",
+"why": "too long: 481 characters, the limit is 160"
+},
+{
+"en": "labour hours needed each month are turned into workers and compared with the contracts you have, so the shortage is known weeks early",
+"kind": "sentence",
+"max": 160,
+"mt": "De arbeidstijden die elke maand nodig zijn, worden omgezet in werknemers en vergeleken met de contracten die u hebt, zodat het tekort weken van tevoren bekend is.",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Pesticide handling",
+"kind": "list",
+"max": 30,
+"mt": "Bestuur van bestrijdingsmiddelen",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Overalls",
+"kind": "list",
+"max": 30,
+"mt": "Overalls",
+"why": "not translated"
+},
+{
+"en": "Filters",
+"kind": "list",
+"max": 30,
+"mt": "Filters",
+"why": "not translated"
+},
+{
+"en": "Blades and tines",
+"kind": "list",
+"max": 30,
+"mt": "met een gewicht van niet meer dan 50 kg",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Baler",
+"kind": "list",
+"max": 30,
+"mt": "Baler",
+"why": "not translated"
+},
+{
+"en": "Harrow",
+"kind": "list",
+"max": 30,
+"mt": "Harrow",
+"why": "not translated"
+},
+{
+"en": "Machines register: the fleet, its cost and age",
+"kind": "title",
+"max": 60,
+"mt": "Register van machines: de wagenpark, de kosten en de leeftijd",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Machine hours log: machine, task, field and hours",
+"kind": "title",
+"max": 60,
+"mt": "Log van de werktijden van de machine: machine, taak, vakgebied en uren",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Repair log: what broke, who repaired it and what it cost",
+"kind": "title",
+"max": 60,
+"mt": "Reparatie-logboek: wat is kapot, wie heeft het gerepareerd en wat het heeft gekost",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Fuel tank dips: measured stock against the books",
+"kind": "title",
+"max": 60,
+"mt": "Verlies van de brandstoftank: gemeten voorraad ten opzichte van de boeken",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Permanent staff: roles, cost per hour and certificate check",
+"kind": "title",
+"max": 60,
+"mt": "Permanent personeel: functies, uurkosten en certificatencontrole",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "E-mail",
+"kind": "label",
+"max": null,
+"mt": "E-mail",
+"why": "not translated"
+},
+{
+"en": "Training and certificates: who holds what and when it ends",
+"kind": "title",
+"max": 60,
+"mt": "Opleiding en certificaten: wie heeft wat en wanneer eindigt het",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Safety log: incidents, near misses and equipment",
+"kind": "title",
+"max": 60,
+"mt": "Veiligheidsdagboek: incidenten, bijna-ongelukken en uitrusting",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Payroll summary by month: pay, employer costs and budget",
+"kind": "title",
+"max": 60,
+"mt": "Samenvatting van de loonlijst per maand: salaris, werkgeverskosten en begroting",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Labour need by month against workers available",
+"kind": "title",
+"max": 60,
+"mt": "Arbeidsbehoefte per maand ten opzichte van beschikbare werknemers",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Machine hours, repairs, fuel and seasonal pay by month",
+"kind": "title",
+"max": 60,
+"mt": "Machinetijden, reparaties, brandstof en seizoenloon per maand",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Overtime cost against hiring a casual worker",
+"kind": "title",
+"max": 60,
+"mt": "Kosten voor overuren ten opzichte van het inhuren van een tijdelijke werknemer",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Output per worker per day and labour cost per kilogram",
+"kind": "title",
+"max": 60,
+"mt": "Productie per werknemer per dag en arbeidskosten per kilogram",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello {mechanic}, the pre-harvest checks start soon. Please check {machine} on {planned_on} ({svc}) and tell me what must be repaired before the harvest.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {mechanic}, de pre-oogstcontroles beginnen binnenkort.",
+"why": "placeholders must be exactly: {mechanic} {machine} {planned_on} {svc}"
+},
+{
+"en": "Hello {repairer}, your invoice for {repair} on {machine} must match the repair order of {cost}. Parts {parts_cost} and {labour_h} hours. Please send a corrected invoice if it differs.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {repairer}, uw factuur voor {repair} op {machine} moet overeenkomen met de reparatie van {cost}.",
+"why": "placeholders must be exactly: {repairer} {repair} {machine} {cost} {parts_cost} {labour_h}"
+},
+{
+"en": "Hello, we confirm the order of {part} for {machine}. Please deliver within {lead_days} days with the delivery note and the price of {unit_cost} each.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we bevestigen de bestelling van {part} voor {machine}.",
+"why": "placeholders must be exactly: {part} {machine} {lead_days} {unit_cost}"
+},
+{
+"en": "Hello {contractor}, we book {machine} from {start_date} to {end_date} for {field}, about {hours} hours at {rate_h} per hour. Please confirm the crew and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we boeken van 2 tot 3 uur, ongeveer 5 uur per uur, bevestig de bemanning en de aankomsttijd.",
+"why": "placeholders must be exactly: {contractor} {machine} {start_date} {end_date} {field} {hours} {rate_h}"
+},
+{
+"en": "Hello {contractor}, the harvest on {field} starts on {start_date}. Please send {machine} with the crew and tell me the time of arrival, the width and the fuel you need on the farm.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, de oogst op {field} begint op {start_date} Stuur {machine} met de bemanning en vertel me het tijdstip van aankomst, de breedte en de brandstof die je nodig hebt op de boerderij.",
+"why": "placeholders must be exactly: {contractor} {field} {start_date} {machine}"
+},
+{
+"en": "Hello {contractor}, please send the work record for {machine} on {field}: hours, hectares and any waiting time. We compare it with our log of about {hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {contractor}, stuur het werkregister voor {machine} op {field}: uren, hectare en eventuele wachttijden.",
+"why": "placeholders must be exactly: {contractor} {machine} {field} {hours}"
+},
+{
+"en": "Hello {name}, the shift starts at 6:00 tomorrow. Please come in your protective clothing and check the work list with your supervisor first.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, de dienst begint morgen om zes uur.",
+"why": "placeholders must be exactly: {name}"
+},
+{
+"en": "Hello {staff}, your overtime for {month} is approved: {ot_hours} hours. Please also take your rest days, you have taken {rest_days} so far.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {staff}, uw overuren voor {month} zijn goedgekeurd: {ot_hours} uur.",
+"why": "placeholders must be exactly: {staff} {month} {ot_hours} {rest_days}"
+},
+{
+"en": "Hello {name}, the farm bus leaves the housing at 6:30 tomorrow for the field. Your task is {main_task} and your team leader is {leader}. Please be ready 10 minutes early.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, de boerderijbus vertrekt morgen om half zes voor het veld.",
+"why": "placeholders must be exactly: {name} {main_task} {leader}"
+},
+{
+"en": "Hello {manager}, in {month} we need {seasonal_needed} seasonal workers and have {seasonal_hired} on contract, so {gap} workers are short. Please start hiring now.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we hebben seizoenarbeiders nodig en hebben contracten, dus we hebben een tekort.",
+"why": "placeholders must be exactly: {manager} {month} {seasonal_needed} {seasonal_hired} {gap}"
+},
+{
+"en": "Hello {manager}, the labour cost for {month} is {labour_cost} against a budget of {budget}. Budget left: {variance}. Please check the overtime and the piece-rate pay.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {manager}, de arbeidskosten voor {month} zijn {labour_cost} tegenover een budget van {budget}.",
+"why": "placeholders must be exactly: {manager} {month} {labour_cost} {budget} {variance}"
+}
+]

@@ -1,0 +1,100 @@
+[
+{
+"en": "Hello, pickup {del_id} on {date}: {litres} litres, fat {fat}, protein {protein}, cell count {scc}. The result is: {result}. Please confirm that this matches your test.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {del_id} پر {date}: {litres} لیٹر، چربی {fat}، پروٹین {protein}، خلیات کی تعداد {scc}.",
+"why": "placeholders must be exactly: {del_id} {date} {litres} {fat} {protein} {scc} {result}"
+},
+{
+"en": "Hello, please service our grain dryer before the harvest. The last job was on {date} for lot {lot}, {hours} hours of work. Tell us your first free day and your price.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، براہ کرم فصل کی کٹائی سے پہلے ہمارے اناج کی خشک کرنے والی مشین کی خدمت کریں۔ آخری کام کام کے 1، 2 گھنٹے کے لئے {date} پر تھا. ہمیں اپنا پہلا مفت دن اور آپ کی قیمت بتائیں.",
+"why": "placeholders must be exactly: {date} {lot} {hours}"
+},
+{
+"en": "Hello, batch {batch} of {animals} animals ({herd}) goes on {date}. Please record the live weights before loading and the carcass weights at the abattoir and send them to me.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {batch} {animals} جانوروں {herd} کی سیریز {date} جاری ہے. براہ مہربانی لوڈنگ سے پہلے زندہ وزن اور ذبح گاہ میں carcass وزن ریکارڈ اور مجھے ان کو بھیجیں.",
+"why": "English/Latin words left: carcass"
+},
+{
+"en": "Dispatch {col:trace.tr_id} to {col:trace.buyer} on {col:trace.date}. Delivery note {col:trace.note_no}, truck {col:trace.truck}.",
+"kind": "document",
+"max": null,
+"mt": "{col:trace.tr_id} {col:trace.buyer} {col:trace.date} پر {col:trace.tr_id} بھیجیں. ترسیل نوٹ {col:trace.note_no}، ٹرک {col:trace.truck}.",
+"why": "placeholders must be exactly: {col:trace.tr_id} {col:trace.buyer} {col:trace.date} {col:trace.note_no} {col:trace.truck}"
+},
+{
+"en": "Pickup {col:mdeliv.del_id} by {col:mdeliv.buyer} on {col:mdeliv.date}.",
+"kind": "document",
+"max": null,
+"mt": "{col:mdeliv.del_id} {col:mdeliv.buyer} پر {col:mdeliv.date} کی طرف سے پک اپ {col:mdeliv.del_id}.",
+"why": "placeholders must be exactly: {col:mdeliv.del_id} {col:mdeliv.buyer} {col:mdeliv.date}"
+},
+{
+"en": "It holds {col:bins.content_t} tonnes of {col:bins.product} out of {col:bins.capacity_t} tonnes of capacity. The fill is {col:bins.pct_full} and the space left is {col:bins.space_t} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "یہ {col:bins.content_t} ٹن {col:bins.product} {col:bins.capacity_t} ٹن صلاحیت میں سے {col:bins.content_t} ٹن رکھتی ہے۔ بھرنے {col:bins.pct_full} ہے اور خالی جگہ {col:bins.space_t} ٹن ہے.",
+"why": "placeholders must be exactly: {col:bins.content_t} {col:bins.product} {col:bins.capacity_t} {col:bins.pct_full} {col:bins.space_t}"
+},
+{
+"en": "The moisture is {col:bins.moisture} and the moisture check shows: {col:bins.moist_state}. The last inspection was on {col:bins.last_inspect} and the check shows: {col:bins.insp_state}. The value of the content is {col:bins.value}.",
+"kind": "document",
+"max": null,
+"mt": "نمی {col:bins.moisture} ہے اور نمی چیک ظاہر کرتا ہے: {col:bins.moist_state}. آخری معائنہ {col:bins.last_inspect} پر تھا اور چیک ظاہر کرتا ہے: {col:bins.insp_state}.",
+"why": "placeholders must be exactly: {col:bins.moisture} {col:bins.moist_state} {col:bins.last_inspect} {col:bins.insp_state} {col:bins.value}"
+},
+{
+"en": "Loss {col:loss.ls_id} found on {col:loss.date} in {col:loss.store} by {col:loss.found_by}.",
+"kind": "document",
+"max": null,
+"mt": "{col:loss.ls_id} {col:loss.found_by} کی طرف {col:loss.store} میں {col:loss.date} پر پایا نقصان {col:loss.found_by}.",
+"why": "placeholders must be exactly: {col:loss.ls_id} {col:loss.date} {col:loss.store} {col:loss.found_by}"
+},
+{
+"en": "Packing run {col:pack.pk_id} on {col:pack.date} for {col:pack.buyer}.",
+"kind": "document",
+"max": null,
+"mt": "{col:pack.buyer} کے لئے {col:pack.date} پر {col:pack.pk_id} پیکنگ چلانے {col:pack.buyer}.",
+"why": "placeholders must be exactly: {col:pack.pk_id} {col:pack.date} {col:pack.buyer}"
+},
+{
+"en": "Count every bin, room and pallet",
+"kind": "label",
+"max": null,
+"mt": "ہر ڈبے، کمرے اور pallet گنتی",
+"why": "English/Latin words left: pallet"
+},
+{
+"en": "Enter every milking on Milk Records and every pickup on Milk Deliveries. The quality check and the paid litres fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "دودھ کے ریکارڈ پر ہر دودھ پلانے اور دودھ کی ترسیل پر ہر pickup درج کریں.",
+"why": "English/Latin words left: pickup"
+},
+{
+"en": "Repair log: what broke, who repaired it and what it cost",
+"kind": "title",
+"max": 60,
+"mt": "مرمت کا نوشتہ: کیا خراب ہوا، کس نے اسے مرمت کیا اور اس کی قیمت کتنی تھی؟",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Hello {contractor}, we book {machine} from {start_date} to {end_date} for {field}, about {hours} hours at {rate_h} per hour. Please confirm the crew and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {contractor}، ہم {machine} {start_date} سے {end_date} تک {field} کے لئے {machine} بکنگ کرتے ہیں، فی گھنٹہ {rate_h} پر {hours} گھنٹے کے بارے میں. عملے اور آمد کے وقت کی تصدیق کریں.",
+"why": "placeholders must be exactly: {contractor} {machine} {start_date} {end_date} {field} {hours} {rate_h}"
+},
+{
+"en": "Hello {manager}, in {month} we need {seasonal_needed} seasonal workers and have {seasonal_hired} on contract, so {gap} workers are short. Please start hiring now.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {manager}، {month} میں ہمیں {seasonal_needed} موسم کاروں کی ضرورت ہے اور {seasonal_hired} معاہدے پر {seasonal_hired} ہے، لہذا {gap} کارکنوں کی کمی ہے. براہ مہربانی اب بھرتی شروع کریں.",
+"why": "placeholders must be exactly: {manager} {month} {seasonal_needed} {seasonal_hired} {gap}"
+}
+]

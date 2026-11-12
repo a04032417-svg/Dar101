@@ -1,0 +1,506 @@
+[
+{
+"en": "Hello, we send {tonnes} tonnes of {crop} from lot {lot} on {date}. It was harvested on {harvest_date} on {field}. Delivery note {note_no}, truck {truck}. We can send the analysis on request.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous envoyons {tonnes} tonnes de {crop} du lot {lot} le {date}. Il a été récolté le {harvest_date} le {field}.",
+"why": "placeholders must be exactly: {tonnes} {crop} {lot} {date} {harvest_date} {field} {note_no} {truck}"
+},
+{
+"en": "Hello, please service our grain dryer before the harvest. The last job was on {date} for lot {lot}, {hours} hours of work. Tell us your first free day and your price.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, s'il vous plaît, faites le service de notre séchoir avant la récolte.",
+"why": "placeholders must be exactly: {date} {lot} {hours}"
+},
+{
+"en": "Hello, please visit the farm to treat {name} ({kind}) for pests before we fill it again. The last clean-down was on {last_clean}. Tell us your first free day.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, s'il vous plaît visitez la ferme pour traiter les parasites avant de le remplir à nouveau.",
+"why": "placeholders must be exactly: {name} {kind} {last_clean}"
+},
+{
+"en": "Hello, we need {missing} more {kind}. Buyers still hold crates from our dispatch {cr_id}. Please send your price and the first delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons besoin de plus d'acheteurs. S'il vous plaît envoyez votre prix et la première date de livraison.",
+"why": "placeholders must be exactly: {missing} {kind} {cr_id}"
+},
+{
+"en": "Hello, the fan of {name} needs repair before the next filling. The bin holds {content_t} tonnes of {product}. Please send a technician and a price.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le ventilateur de {name} a besoin d'être réparé avant le prochain remplissage.",
+"why": "placeholders must be exactly: {name} {content_t} {product}"
+},
+{
+"en": "Hello {packer}, tomorrow the team packs {eggs_in} {grade} eggs for {buyer}. Please prepare the trays, the date stamps and the cartons.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, demain, l'équipe prépare les œufs pour les trois.",
+"why": "placeholders must be exactly: {packer} {eggs_in} {grade} {buyer}"
+},
+{
+"en": "Hello, batch {batch} of {animals} animals ({herd}) goes on {date}. Please record the live weights before loading and the carcass weights at the abattoir and send them to me.",
+"kind": "message",
+"max": null,
+"mt": "Veuillez noter les poids vivants avant le chargement et les poids de la carcasse à l'abattoir et m'envoyer.",
+"why": "placeholders must be exactly: {batch} {animals} {herd} {date}"
+},
+{
+"en": "The cost of one unit is {col:unitcost.cost_unit} and the price is {col:unitcost.price_unit}, so the margin is {col:unitcost.margin_unit} for each unit ({col:unitcost.margin_pct} of the price). The margin check shows: {col:unitcost.state}.",
+"kind": "document",
+"max": null,
+"mt": "Le coût d'une unité est {col:unitcost.cost_unit} et le prix est {col:unitcost.price_unit}, donc la marge est {col:unitcost.margin_unit} pour chaque unité ({col:unitcost.margin_pct} du prix).",
+"why": "placeholders must be exactly: {col:unitcost.cost_unit} {col:unitcost.price_unit} {col:unitcost.margin_unit} {col:unitcost.margin_pct} {col:unitcost.state}"
+},
+{
+"en": "Dispatch {col:trace.tr_id} to {col:trace.buyer} on {col:trace.date}. Delivery note {col:trace.note_no}, truck {col:trace.truck}.",
+"kind": "document",
+"max": null,
+"mt": "Envoyez {col:trace.tr_id} à {col:trace.buyer} le {col:trace.date}.",
+"why": "placeholders must be exactly: {col:trace.tr_id} {col:trace.buyer} {col:trace.date} {col:trace.note_no} {col:trace.truck}"
+},
+{
+"en": "Our trace check shows: {col:trace.state}. The harvest sheet, the moisture result and the store records for this lot are kept on the farm and can be shown on request.",
+"kind": "document",
+"max": null,
+"mt": "La feuille de récolte, le résultat de l'humidité et les registres de stockage de ce lot sont conservés dans l'exploitation et peuvent être présentés sur demande.",
+"why": "placeholders must be exactly: {col:trace.state}"
+},
+{
+"en": "Our targets are a lay rate of {set:lay_target} and cracked eggs below {set:crack_limit}. The check shows: {col:eggs.state}.",
+"kind": "document",
+"max": null,
+"mt": "Nos cibles sont une vitesse de mise de {set:lay_target} et des œufs cassés en dessous {set:crack_limit}.",
+"why": "placeholders must be exactly: {set:lay_target} {set:crack_limit} {col:eggs.state}"
+},
+{
+"en": "The moisture is {col:bins.moisture} and the moisture check shows: {col:bins.moist_state}. The last inspection was on {col:bins.last_inspect} and the check shows: {col:bins.insp_state}. The value of the content is {col:bins.value}.",
+"kind": "document",
+"max": null,
+"mt": "L'humidité est de {col:bins.moisture} et la vérification de l'humidité montre: {col:bins.moist_state}.",
+"why": "placeholders must be exactly: {col:bins.moisture} {col:bins.moist_state} {col:bins.last_inspect} {col:bins.insp_state} {col:bins.value}"
+},
+{
+"en": "The affected stock was separated, the area was cleaned and the cause was written in the store record. Our accepted storage loss is {set:loss_limit} of the stock.",
+"kind": "document",
+"max": null,
+"mt": "Le stock affecté a été séparé, la zone a été nettoyée et la cause a été écrite dans le registre du magasin.",
+"why": "placeholders must be exactly: {set:loss_limit}"
+},
+{
+"en": "Product: {col:pack.product}, quality {col:pack.pclass}. We packed {col:pack.crates} crates of {col:pack.crate_kg} kilograms, which is {col:pack.net_kg} kilograms net or {col:pack.tonnes} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "Nous avons emballé deux caisses de trois kilogrammes, soit quatre kilogrammes nets ou cinq tonnes.",
+"why": "placeholders must be exactly: {col:pack.product} {col:pack.pclass} {col:pack.crates} {col:pack.crate_kg} {col:pack.net_kg} {col:pack.tonnes}"
+},
+{
+"en": "We took out {col:pack.rejected_kg} kilograms as rejects ({col:pack.reject_pct}). The value of the load is {col:pack.value}. The packing check shows: {col:pack.state}.",
+"kind": "document",
+"max": null,
+"mt": "Nous avons retiré {col:pack.rejected_kg} kilogrammes en tant que rejets ({col:pack.reject_pct}). La valeur de la charge est {col:pack.value}.",
+"why": "placeholders must be exactly: {col:pack.rejected_kg} {col:pack.reject_pct} {col:pack.value} {col:pack.state}"
+},
+{
+"en": "Thank you for telling us about the problem: {col:complaint.cause}, {col:complaint.qty_t} tonnes affected. Your claim is {col:complaint.claim}, which is {col:complaint.claim_pct} of the value of those goods.",
+"kind": "document",
+"max": null,
+"mt": "Merci de nous avoir fait part du problème: {col:complaint.cause}, {col:complaint.qty_t} tonnes affectées.",
+"why": "placeholders must be exactly: {col:complaint.cause} {col:complaint.qty_t} {col:complaint.claim} {col:complaint.claim_pct}"
+},
+{
+"en": "The book value is {col:count.book_value} and the value of the difference is {col:count.diff_value}. The count check shows: {col:count.state}. We accept a difference of {set:count_tol}.",
+"kind": "document",
+"max": null,
+"mt": "La valeur comptable est {col:count.book_value} et la valeur de la différence est {col:count.diff_value}.",
+"why": "placeholders must be exactly: {col:count.book_value} {col:count.diff_value} {col:count.state} {set:count_tol}"
+},
+{
+"en": "Tonnes in cold rooms and stores per product",
+"kind": "title",
+"max": 60,
+"mt": "Tonnes dans les chambres froides et les entrepôts par produit",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Run machines, fuel and seasonal labour with costs and warnings",
+"kind": "sentence",
+"max": 80,
+"mt": "Fonctionnement des machines, carburant et main-d'œuvre saisonnière avec coûts et avertissements",
+"why": "too long: 95 characters, the limit is 80"
+},
+{
+"en": "Machines, fuel, seasonal workers, pay and safety in one file",
+"kind": "sentence",
+"max": 80,
+"mt": "Machines, carburant, travailleurs saisonniers, rémunération et sécurité dans un seul dossier",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "hours since the last service come straight from the hours log, with hours left, the expected date and a warning before and after the limit",
+"kind": "sentence",
+"max": 160,
+"mt": "Les heures depuis le dernier service proviennent directement du journal des heures, avec les heures restantes, la date prévue et un avertissement avant et après la limite",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Diesel tank book check",
+"kind": "label",
+"max": 50,
+"mt": "Vérifiez le compte des réservoirs de carburant diesel",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Piece-rate pay with minimum pay top-up",
+"kind": "label",
+"max": 50,
+"mt": "Salaire à la pièce avec supplément de salaire minimum",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Overtime and rest day watch",
+"kind": "label",
+"max": 50,
+"mt": "Veille des heures supplémentaires et des jours de repos",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Certificate expiry warnings",
+"kind": "label",
+"max": 50,
+"mt": "Avertissements concernant l'expiration du certificat",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Labour need against seasonal workers",
+"kind": "label",
+"max": 50,
+"mt": "Nécessité de main-d'œuvre par rapport aux travailleurs saisonniers",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "labour hours needed each month are turned into workers and compared with the contracts you have, so the shortage is known weeks early",
+"kind": "sentence",
+"max": 160,
+"mt": "Les heures de travail nécessaires chaque mois sont converties en travailleurs et comparées aux contrats que vous avez, de sorte que la pénurie est connue des semaines à l'avance.",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "permanent, seasonal and piece-rate pay with employer costs are added up every month and compared with your labour budget and cost per hectare",
+"kind": "sentence",
+"max": 160,
+"mt": "les salaires permanents, saisonniers et à la pièce, ainsi que les coûts de l'employeur, sont additionnés chaque mois et comparés à votre budget de main-d'œuvre et au coût par hectare.",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "incidents, near misses and protective equipment issued are kept together, with open actions and the days since the last incident",
+"kind": "sentence",
+"max": 160,
+"mt": "les incidents, les accidents de près et les équipements de protection délivrés sont conservés ensemble, avec les actions ouvertes et les jours depuis le dernier incident.",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Greasing and checks",
+"kind": "list",
+"max": 30,
+"mt": "Utilisation de l'huile et vérifications",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Transmission",
+"kind": "list",
+"max": 30,
+"mt": "Transmission",
+"why": "not translated"
+},
+{
+"en": "Operator damage",
+"kind": "list",
+"max": 30,
+"mt": "Dommages causés par l'opérateur",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Food safety",
+"kind": "list",
+"max": 30,
+"mt": "Sécurité des denrées alimentaires",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Chemical spill",
+"kind": "list",
+"max": 30,
+"mt": "Déversement de produits chimiques",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Baler",
+"kind": "list",
+"max": 30,
+"mt": "Pour les produits de l'industrie",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Condition",
+"kind": "label",
+"max": null,
+"mt": "Condition",
+"why": "not translated"
+},
+{
+"en": "Fuel low",
+"kind": "list",
+"max": 30,
+"mt": "Faible consommation de carburant",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "High fuel use",
+"kind": "list",
+"max": 30,
+"mt": "Consommation élevée de carburant",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Normal fuel use",
+"kind": "list",
+"max": 30,
+"mt": "Consommation normale de carburant",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Overtime high",
+"kind": "list",
+"max": 30,
+"mt": "Plus que les heures supplémentaires",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Machine hours log: machine, task, field and hours",
+"kind": "title",
+"max": 60,
+"mt": "Journaux des heures de travail de la machine: machine, tâche, champ et heures",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Service schedule: hours since each service and hours left",
+"kind": "title",
+"max": 60,
+"mt": "Calendrier des services: heures depuis chaque service et heures restantes",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Repair log: what broke, who repaired it and what it cost",
+"kind": "title",
+"max": 60,
+"mt": "Journal des réparations: ce qui est cassé, qui l'a réparé et combien cela a coûté",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Fuel tank dips: measured stock against the books",
+"kind": "title",
+"max": 60,
+"mt": "Les réservoirs de carburant sont plongés: stock mesuré par rapport aux livres",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Implements and attachments: work rate, hours and condition",
+"kind": "title",
+"max": 60,
+"mt": "Appareils et accessoires: taux de travail, heures et conditions",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Workshop spare parts stock and what to reorder",
+"kind": "title",
+"max": 60,
+"mt": "Stock de pièces de rechange d'atelier et quoi commander à nouveau",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Contract machinery hire: what it costs against owning",
+"kind": "title",
+"max": 60,
+"mt": "Location sous contrat de machines: le coût par rapport à la propriété",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Permanent staff: roles, cost per hour and certificate check",
+"kind": "title",
+"max": 60,
+"mt": "Personnel permanent: rôles, coût horaire et vérification des certificats",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Seasonal and casual workers: contracts, hours and pay",
+"kind": "title",
+"max": 60,
+"mt": "Travailleurs saisonniers et occasionnels: contrats, heures et rémunération",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Overtime and rest days of the permanent staff by month",
+"kind": "title",
+"max": 60,
+"mt": "Heures supplémentaires et jours de repos de l'agent permanent par mois",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Training and certificates: who holds what and when it ends",
+"kind": "title",
+"max": 60,
+"mt": "Formation et certificats: qui détient quoi et quand cela se termine",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Safety log: incidents, near misses and equipment",
+"kind": "title",
+"max": 60,
+"mt": "Journaux de sécurité: incidents, événements à peine survenus et équipements",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Incident",
+"kind": "label",
+"max": null,
+"mt": "Incident",
+"why": "not translated"
+},
+{
+"en": "Payroll summary by month: pay, employer costs and budget",
+"kind": "title",
+"max": 60,
+"mt": "Résumé des salaires par mois: salaire, coûts pour l'employeur et budget",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Labour need by month against workers available",
+"kind": "title",
+"max": 60,
+"mt": "Nécessité de main-d'œuvre par mois par rapport aux travailleurs disponibles",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Machine hours, repairs, fuel and seasonal pay by month",
+"kind": "title",
+"max": 60,
+"mt": "Heures de travail, réparations, carburant et rémunération saisonnière par mois",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Labour cost per hour with employer costs",
+"kind": "title",
+"max": 60,
+"mt": "Coût de la main-d'œuvre par heure avec les coûts de l'employeur",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Overtime cost against hiring a casual worker",
+"kind": "title",
+"max": 60,
+"mt": "Coût des heures supplémentaires pour l'embauche d'un travailleur occasionnel",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Machine replacement: keep it or buy a new one",
+"kind": "title",
+"max": 60,
+"mt": "Remplacement de la machine: la garder ou en acheter une nouvelle",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Output per worker per day and labour cost per kilogram",
+"kind": "title",
+"max": 60,
+"mt": "Production par travailleur et par jour et coût de la main-d'œuvre par kilogramme",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Hello {repairer}, we need a visit to repair {machine} ({part}). Please tell me your first free day and the price per hour for the repair on the farm.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons besoin d'une visite pour réparer la ferme.",
+"why": "placeholders must be exactly: {repairer} {machine} {part}"
+},
+{
+"en": "Hello {repairer}, your invoice for {repair} on {machine} must match the repair order of {cost}. Parts {parts_cost} and {labour_h} hours. Please send a corrected invoice if it differs.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {repairer}, votre facture pour {repair} le {machine} doit correspondre à l'ordre de réparation de {cost}.",
+"why": "placeholders must be exactly: {repairer} {repair} {machine} {cost} {parts_cost} {labour_h}"
+},
+{
+"en": "Hello {dip_by}, the diesel tank held {measured} litres on {date}, which is {days_cover} days of cover. Please dip the tank again tomorrow and tell me the litres.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le réservoir de carburant a contenu 1 litre de carburant, ce qui représente 3 jours de couverture.",
+"why": "placeholders must be exactly: {dip_by} {measured} {date} {days_cover}"
+},
+{
+"en": "Hello {contractor}, we book {machine} from {start_date} to {end_date} for {field}, about {hours} hours at {rate_h} per hour. Please confirm the crew and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous réservons de 2 à 3 heures, environ 5 heures à 6 heures.",
+"why": "placeholders must be exactly: {contractor} {machine} {start_date} {end_date} {field} {hours} {rate_h}"
+},
+{
+"en": "Hello {contractor}, the harvest on {field} starts on {start_date}. Please send {machine} with the crew and tell me the time of arrival, the width and the fuel you need on the farm.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, la récolte commence le 2 s'il vous plaît envoyez le 3 avec l'équipage et dites-moi l'heure d'arrivée, la largeur et le carburant dont vous avez besoin à la ferme.",
+"why": "placeholders must be exactly: {contractor} {field} {start_date} {machine}"
+},
+{
+"en": "Hello {contractor}, please send the work record for {machine} on {field}: hours, hectares and any waiting time. We compare it with our log of about {hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {contractor}, s'il vous plaît envoyer le record de travail pour {machine} sur {field}: heures, hectares et tout temps d'attente.",
+"why": "placeholders must be exactly: {contractor} {machine} {field} {hours}"
+},
+{
+"en": "Hello {name}, the shift starts at 6:00 tomorrow. Please come in your protective clothing and check the work list with your supervisor first.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le quart commence demain à 6 h. S'il vous plaît venez dans vos vêtements de protection et vérifiez la liste de travail avec votre superviseur d'abord.",
+"why": "placeholders must be exactly: {name}"
+},
+{
+"en": "Hello {staff}, your next course for {cert} is on {course_on} with {provider}. Please keep the day free and tell me if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, votre prochain cours pour le 1 est le 2 avec le 3. S'il vous plaît, gardez la journée libre et dites-moi si vous ne pouvez pas venir.",
+"why": "placeholders must be exactly: {staff} {cert} {course_on} {provider}"
+},
+{
+"en": "Hello {name}, welcome to the farm. Your work starts on {start_date}. Please come to the main gate at 6:00 and ask for {leader}. Bring your identity document and work boots.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, bienvenue à la ferme, votre travail commence le 1er, veuillez venir à la porte principale à 6h et demander le 2 avec vos papiers d'identité et vos bottes de travail.",
+"why": "placeholders must be exactly: {name} {start_date} {leader}"
+},
+{
+"en": "Hello {name}, the farm bus leaves the housing at 6:30 tomorrow for the field. Your task is {main_task} and your team leader is {leader}. Please be ready 10 minutes early.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le bus de la ferme part demain à 6h30 pour le terrain.",
+"why": "placeholders must be exactly: {name} {main_task} {leader}"
+},
+{
+"en": "Hello {manager}, in {month} we need {seasonal_needed} seasonal workers and have {seasonal_hired} on contract, so {gap} workers are short. Please start hiring now.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons besoin d'ouvriers saisonniers et nous avons un contrat, donc nous manquons d'ouvriers.",
+"why": "placeholders must be exactly: {manager} {month} {seasonal_needed} {seasonal_hired} {gap}"
+},
+{
+"en": "Hello {manager}, the labour cost for {month} is {labour_cost} against a budget of {budget}. Budget left: {variance}. Please check the overtime and the piece-rate pay.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {manager}, le coût du travail pour {month} est {labour_cost} par rapport à un budget de {budget}.",
+"why": "placeholders must be exactly: {manager} {month} {labour_cost} {budget} {variance}"
+}
+]

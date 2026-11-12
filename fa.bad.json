@@ -1,0 +1,191 @@
+[
+{
+"en": "Hello, we received your complaint {cq_id} about lot {lot} ({product}, {cause}). We will check our records and the kept sample and answer you soon. Thank you for telling us.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما شکايت شما در مورد دسته 1 ({product}، {cause}) را دریافت کردیم. ما سوابق و نمونه نگهداشته را بررسی خواهیم کرد و به زودی به شما پاسخ خواهیم داد. ممنون که به ما اطلاع دادید.",
+"why": "placeholders must be exactly: {cq_id} {lot} {product} {cause}"
+},
+{
+"en": "Hello, pickup {del_id} on {date}: {litres} litres, fat {fat}, protein {protein}, cell count {scc}. The result is: {result}. Please confirm that this matches your test.",
+"kind": "message",
+"max": null,
+"mt": "سلام، جمع آوری {del_id} در {date}: {litres} لیتر، چربی {fat}، پروتئین {protein}، تعداد سلول {scc}.",
+"why": "placeholders must be exactly: {del_id} {date} {litres} {fat} {protein} {scc} {result}"
+},
+{
+"en": "Hello, please service our grain dryer before the harvest. The last job was on {date} for lot {lot}, {hours} hours of work. Tell us your first free day and your price.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً قبل از برداشت غله خشک کن ما را سرویس دهید. آخرین کار برای دسته 1 بود، 2 ساعت کار. اولین روز آزاد خود را و قیمت خود را به ما بگویید.",
+"why": "placeholders must be exactly: {date} {lot} {hours}"
+},
+{
+"en": "Hello, please visit the farm to treat {name} ({kind}) for pests before we fill it again. The last clean-down was on {last_clean}. Tell us your first free day.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً از مزرعه برای درمان آفات قبل از اینکه دوباره پرش کنیم دیدن کنید. آخرین پاکسازی در ۲ بود. اولین روز آزاد خود را به ما بگویید.",
+"why": "placeholders must be exactly: {name} {kind} {last_clean}"
+},
+{
+"en": "Hello {packer}, tomorrow the team packs {eggs_in} {grade} eggs for {buyer}. Please prepare the trays, the date stamps and the cartons.",
+"kind": "message",
+"max": null,
+"mt": "سلام، فردا تيم تخم مرغ براي 3 نفر بسته بندي ميکنه لطفاً سيني ها، مهر تاريخ و کارتون ها رو آماده کنيد",
+"why": "placeholders must be exactly: {packer} {eggs_in} {grade} {buyer}"
+},
+{
+"en": "Hello, batch {batch} of {animals} animals ({herd}) goes on {date}. Please record the live weights before loading and the carcass weights at the abattoir and send them to me.",
+"kind": "message",
+"max": null,
+"mt": "سلام، دسته از حیوانات در حال حرکت هستند لطفا وزن زنده ها را قبل از بارگیری و وزن جنازه ها را در ذبحگاه ثبت کنید و به من بفرستید.",
+"why": "placeholders must be exactly: {batch} {animals} {herd} {date}"
+},
+{
+"en": "Dispatch {col:trace.tr_id} to {col:trace.buyer} on {col:trace.date}. Delivery note {col:trace.note_no}, truck {col:trace.truck}.",
+"kind": "document",
+"max": null,
+"mt": "پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به پيام ارسال به",
+"why": "placeholders must be exactly: {col:trace.tr_id} {col:trace.buyer} {col:trace.date} {col:trace.note_no} {col:trace.truck}"
+},
+{
+"en": "The load was {col:mdeliv.litres} litres with fat {col:mdeliv.fat}, protein {col:mdeliv.protein}, a cell count of {col:mdeliv.scc} thousand per ml and a bacteria count of {col:mdeliv.bact} thousand per ml.",
+"kind": "document",
+"max": null,
+"mt": "بار {col:mdeliv.litres} لیتر با چربی {col:mdeliv.fat}، پروتئین {col:mdeliv.protein}، تعداد سلول ها {col:mdeliv.scc} هزار در ml و تعداد باکتری ها {col:mdeliv.bact} هزار در ml بود.",
+"why": "English/Latin words left: ml ml"
+},
+{
+"en": "Our targets are a lay rate of {set:lay_target} and cracked eggs below {set:crack_limit}. The check shows: {col:eggs.state}.",
+"kind": "document",
+"max": null,
+"mt": "هدف ما سرعت تخم گذاری صفر و تخم مرغ شکسته زیر یک است. چک نشان می دهد:",
+"why": "placeholders must be exactly: {set:lay_target} {set:crack_limit} {col:eggs.state}"
+},
+{
+"en": "Store: {col:bins.name} ({col:bins.kind}). Keeper: {col:bins.keeper}.",
+"kind": "document",
+"max": null,
+"mt": "نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده: نگهدارنده:",
+"why": "placeholders must be exactly: {col:bins.name} {col:bins.kind} {col:bins.keeper}"
+},
+{
+"en": "The moisture is {col:bins.moisture} and the moisture check shows: {col:bins.moist_state}. The last inspection was on {col:bins.last_inspect} and the check shows: {col:bins.insp_state}. The value of the content is {col:bins.value}.",
+"kind": "document",
+"max": null,
+"mt": "رطوبت {col:bins.moisture} است و بررسی رطوبت نشان می دهد: {col:bins.moist_state}. آخرین بازرسی در {col:bins.last_inspect} بود و بررسی نشان می دهد: {col:bins.insp_state}.",
+"why": "placeholders must be exactly: {col:bins.moisture} {col:bins.moist_state} {col:bins.last_inspect} {col:bins.insp_state} {col:bins.value}"
+},
+{
+"en": "Thank you for telling us about the problem: {col:complaint.cause}, {col:complaint.qty_t} tonnes affected. Your claim is {col:complaint.claim}, which is {col:complaint.claim_pct} of the value of those goods.",
+"kind": "document",
+"max": null,
+"mt": "از شما تشکر می کنم که به ما در مورد مشکل اطلاع دادید: {col:complaint.cause}، {col:complaint.qty_t} تن تحت تاثیر قرار گرفته است.",
+"why": "placeholders must be exactly: {col:complaint.cause} {col:complaint.qty_t} {col:complaint.claim} {col:complaint.claim_pct}"
+},
+{
+"en": "pesticide, tractor, first aid and other certificates show days left and who must renew before they can work",
+"kind": "sentence",
+"max": 160,
+"mt": "گواهینامه های آفت کش، تراکتور، کمک های اولیه و سایر گواهینامه ها نشان می دهد که چه تعداد روز باقی مانده است و چه کسانی باید قبل از اینکه بتوانند کار کنند، تمدید شوند.",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Repair log: what broke, who repaired it and what it cost",
+"kind": "title",
+"max": 60,
+"mt": "دفترچه ی تعمیرات: چه چیزی خراب شده، چه کسی آن را تعمیر کرده و هزینه اش چقدر بوده است",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Training and certificates: who holds what and when it ends",
+"kind": "title",
+"max": 60,
+"mt": "آموزش و گواهینامه: چه کسی چه چیزی را دارد و چه زمانی پایان می یابد",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Payroll summary by month: pay, employer costs and budget",
+"kind": "title",
+"max": 60,
+"mt": "خلاصه حقوق و دستمزد بر اساس ماه: حقوق و دستمزد، هزینه های کارفرما و بودجه",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Labour need by month against workers available",
+"kind": "title",
+"max": 60,
+"mt": "نیاز به نیروی کار به صورت ماهانه در مقایسه با کارگران در دسترس",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {repairer}, your invoice for {repair} on {machine} must match the repair order of {cost}. Parts {parts_cost} and {labour_h} hours. Please send a corrected invoice if it differs.",
+"kind": "message",
+"max": null,
+"mt": "سلام {repairer}، فاکتور شما برای {repair} در {machine} باید با سفارش تعمیر {cost} مطابقت داشته باشد. بخش {parts_cost} و {labour_h} ساعت. لطفا یک فاکتور اصلاح شده ارسال کنید اگر متفاوت است.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello {dip_by}, the diesel tank held {measured} litres on {date}, which is {days_cover} days of cover. Please dip the tank again tomorrow and tell me the litres.",
+"kind": "message",
+"max": null,
+"mt": "سلام، مخزن دیزل 1 لیتر را در 2 نگه داشته است، که 3 روز پوشش دارد. لطفاً فردا مخزن را دوباره غرق کنید و لیترها را به من بگویید.",
+"why": "placeholders must be exactly: {dip_by} {measured} {date} {days_cover}"
+},
+{
+"en": "Hello {contractor}, we book {machine} from {start_date} to {end_date} for {field}, about {hours} hours at {rate_h} per hour. Please confirm the crew and the arrival time.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما از ساعت 2 تا 3 برای حدود 5 ساعت در هر ساعت رزرو می کنیم لطفا خدمه و زمان ورود را تایید کنید.",
+"why": "placeholders must be exactly: {contractor} {machine} {start_date} {end_date} {field} {hours} {rate_h}"
+},
+{
+"en": "Hello {contractor}, the harvest on {field} starts on {start_date}. Please send {machine} with the crew and tell me the time of arrival, the width and the fuel you need on the farm.",
+"kind": "message",
+"max": null,
+"mt": "سلام، فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل فصل",
+"why": "placeholders must be exactly: {contractor} {field} {start_date} {machine}"
+},
+{
+"en": "Hello {name}, the shift starts at 6:00 tomorrow. Please come in your protective clothing and check the work list with your supervisor first.",
+"kind": "message",
+"max": null,
+"mt": "سلام، نوبت فردا ساعت 6 شروع ميشه لطفا لباس محافظتون رو بپوشيد و اول با سرپرستتون ليست کارتون رو چک کنيد",
+"why": "placeholders must be exactly: {name}"
+},
+{
+"en": "Hello {staff}, your next course for {cert} is on {course_on} with {provider}. Please keep the day free and tell me if you cannot come.",
+"kind": "message",
+"max": null,
+"mt": "سلام، دوره ي بعدي شما براي 1 در 2 با 3 هست لطفا روز آزاد رو نگه داريد و اگر نتونيد بياييد به من بگيد",
+"why": "placeholders must be exactly: {staff} {cert} {course_on} {provider}"
+},
+{
+"en": "Hello {name}, welcome to the farm. Your work starts on {start_date}. Please come to the main gate at 6:00 and ask for {leader}. Bring your identity document and work boots.",
+"kind": "message",
+"max": null,
+"mt": "سلام، به مزرعه خوش اومديد. کارتون از ساعت 1 شروع ميشه. لطفاً ساعت 6 به دروازه ي اصلي بياييد و از شماره 2 بپرسيد. کارت شناسايي و چکمه هاي کارتون رو بياريد.",
+"why": "placeholders must be exactly: {name} {start_date} {leader}"
+},
+{
+"en": "Hello {name}, the farm bus leaves the housing at 6:30 tomorrow for the field. Your task is {main_task} and your team leader is {leader}. Please be ready 10 minutes early.",
+"kind": "message",
+"max": null,
+"mt": "سلام، اتوبوس مزرعه فردا ساعت 6:30 از ساختمان به سمت زمین حرکت می کند. وظیفه شما 1 و رهبر تیم شما 2 است. لطفاً 10 دقیقه زودتر آماده باشید.",
+"why": "placeholders must be exactly: {name} {main_task} {leader}"
+},
+{
+"en": "Hello {manager}, in {month} we need {seasonal_needed} seasonal workers and have {seasonal_hired} on contract, so {gap} workers are short. Please start hiring now.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما به کارگران فصلي نياز داريم و قرارداد داريم، پس کارگران كم هستند. لطفا الان استخدام رو شروع كنيد.",
+"why": "placeholders must be exactly: {manager} {month} {seasonal_needed} {seasonal_hired} {gap}"
+},
+{
+"en": "Hello {manager}, the labour cost for {month} is {labour_cost} against a budget of {budget}. Budget left: {variance}. Please check the overtime and the piece-rate pay.",
+"kind": "message",
+"max": null,
+"mt": "سلام {manager}، هزینه نیروی کار برای {month} {labour_cost} در برابر بودجه {budget}.",
+"why": "placeholders must be exactly: {manager} {month} {labour_cost} {budget} {variance}"
+}
+]

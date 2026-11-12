@@ -1,0 +1,72 @@
+[
+{
+"en": "Hello, lot {lot} ({crop}, {tonnes} tonnes) is ready for pickup around {date}. Please tell us your truck and the day you plan to collect.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, बैच {lot} {crop} ({crop}, {tonnes} टन) {date} के आसपास पिकअप के लिए तैयार है। कृपया हमें अपने ट्रक और दिन आप लेने के लिए योजना बना रहे हैं बताओ।",
+"why": "placeholders must be exactly: {lot} {crop} {tonnes} {date}"
+},
+{
+"en": "Hello {packer}, tomorrow the team packs {eggs_in} {grade} eggs for {buyer}. Please prepare the trays, the date stamps and the cartons.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {packer}, कल टीम {eggs_in} {grade} {buyer} के लिए {eggs_in} {grade} अंडे पैक कर रही है। कृपया ट्रे, दिनांक टिकट और कार्टन तैयार करें.",
+"why": "placeholders must be exactly: {packer} {eggs_in} {grade} {buyer}"
+},
+{
+"en": "Dispatch {col:trace.tr_id} to {col:trace.buyer} on {col:trace.date}. Delivery note {col:trace.note_no}, truck {col:trace.truck}.",
+"kind": "document",
+"max": null,
+"mt": "{col:trace.tr_id} {col:trace.buyer} {col:trace.date} पर {col:trace.tr_id} भेजें। वितरण नोट {col:trace.note_no}, ट्रक {col:trace.truck}।",
+"why": "placeholders must be exactly: {col:trace.tr_id} {col:trace.buyer} {col:trace.date} {col:trace.note_no} {col:trace.truck}"
+},
+{
+"en": "Pickup {col:mdeliv.del_id} by {col:mdeliv.buyer} on {col:mdeliv.date}.",
+"kind": "document",
+"max": null,
+"mt": "{col:mdeliv.del_id} {col:mdeliv.buyer} पर {col:mdeliv.date} द्वारा पिकअप {col:mdeliv.del_id}.",
+"why": "placeholders must be exactly: {col:mdeliv.del_id} {col:mdeliv.buyer} {col:mdeliv.date}"
+},
+{
+"en": "It holds {col:bins.content_t} tonnes of {col:bins.product} out of {col:bins.capacity_t} tonnes of capacity. The fill is {col:bins.pct_full} and the space left is {col:bins.space_t} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "यह {col:bins.content_t} टन {col:bins.product} {col:bins.capacity_t} टन क्षमता से {col:bins.content_t} टन रखती है। भरने {col:bins.pct_full} है और जगह बाएं {col:bins.space_t} टन है।",
+"why": "placeholders must be exactly: {col:bins.content_t} {col:bins.product} {col:bins.capacity_t} {col:bins.pct_full} {col:bins.space_t}"
+},
+{
+"en": "Loss {col:loss.ls_id} found on {col:loss.date} in {col:loss.store} by {col:loss.found_by}.",
+"kind": "document",
+"max": null,
+"mt": "{col:loss.ls_id} {col:loss.found_by} द्वारा {col:loss.store} में {col:loss.date} पर खो {col:loss.ls_id} पाया।",
+"why": "placeholders must be exactly: {col:loss.ls_id} {col:loss.date} {col:loss.store} {col:loss.found_by}"
+},
+{
+"en": "Workshop spare parts stock and what to reorder",
+"kind": "title",
+"max": 60,
+"mt": "कार्यशाला के स्पेयर पार्ट्स स्टॉक और क्या पुनः आदेश करने के लिए",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Permanent staff: roles, cost per hour and certificate check",
+"kind": "title",
+"max": 60,
+"mt": "स्थायी कर्मचारी: भूमिकाएं, प्रति घंटे की लागत और प्रमाण पत्र की जाँच",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Overtime and rest days of the permanent staff by month",
+"kind": "title",
+"max": 60,
+"mt": "मासिक आधार पर स्थायी कर्मचारी के अतिरिक्त समय और विश्राम के दिन",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Training and certificates: who holds what and when it ends",
+"kind": "title",
+"max": 60,
+"mt": "प्रशिक्षण और प्रमाणपत्रः किसके पास क्या है और कब समाप्त होता है",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

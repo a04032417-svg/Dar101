@@ -1,0 +1,212 @@
+[
+{
+"en": "Hello, pickup {del_id} on {date}: {litres} litres, fat {fat}, protein {protein}, cell count {scc}. The result is: {result}. Please confirm that this matches your test.",
+"kind": "message",
+"max": null,
+"mt": "Halo, pickup {del_id} pada {date}: {litres} liter, lemak {fat}, protein {protein}, jumlah sel {scc}.",
+"why": "placeholders must be exactly: {del_id} {date} {litres} {fat} {protein} {scc} {result}"
+},
+{
+"en": "Hello, please visit the farm to treat {name} ({kind}) for pests before we fill it again. The last clean-down was on {last_clean}. Tell us your first free day.",
+"kind": "message",
+"max": null,
+"mt": "Halo, silakan kunjungi peternakan untuk mengobati hama sebelum kami mengisi lagi.",
+"why": "placeholders must be exactly: {name} {kind} {last_clean}"
+},
+{
+"en": "The cost of one unit is {col:unitcost.cost_unit} and the price is {col:unitcost.price_unit}, so the margin is {col:unitcost.margin_unit} for each unit ({col:unitcost.margin_pct} of the price). The margin check shows: {col:unitcost.state}.",
+"kind": "document",
+"max": null,
+"mt": "Biaya satu unit adalah {col:unitcost.cost_unit} dan harga adalah {col:unitcost.price_unit}, jadi margin adalah {col:unitcost.margin_unit} untuk setiap unit ({col:unitcost.margin_pct} dari harga).",
+"why": "placeholders must be exactly: {col:unitcost.cost_unit} {col:unitcost.price_unit} {col:unitcost.margin_unit} {col:unitcost.margin_pct} {col:unitcost.state}"
+},
+{
+"en": "Our targets are a lay rate of {set:lay_target} and cracked eggs below {set:crack_limit}. The check shows: {col:eggs.state}.",
+"kind": "document",
+"max": null,
+"mt": "Target kita adalah tingkat bertelur {set:lay_target} dan telur retak di bawah {set:crack_limit}.",
+"why": "placeholders must be exactly: {set:lay_target} {set:crack_limit} {col:eggs.state}"
+},
+{
+"en": "The moisture is {col:bins.moisture} and the moisture check shows: {col:bins.moist_state}. The last inspection was on {col:bins.last_inspect} and the check shows: {col:bins.insp_state}. The value of the content is {col:bins.value}.",
+"kind": "document",
+"max": null,
+"mt": "Kelembaban adalah {col:bins.moisture} dan pemeriksaan kelembaban menunjukkan: {col:bins.moist_state}. Pemeriksaan terakhir adalah pada {col:bins.last_inspect} dan pemeriksaan menunjukkan: {col:bins.insp_state}.",
+"why": "placeholders must be exactly: {col:bins.moisture} {col:bins.moist_state} {col:bins.last_inspect} {col:bins.insp_state} {col:bins.value}"
+},
+{
+"en": "The affected stock was separated, the area was cleaned and the cause was written in the store record. Our accepted storage loss is {set:loss_limit} of the stock.",
+"kind": "document",
+"max": null,
+"mt": "Stok yang terkena dipisahkan, daerah itu dibersihkan dan penyebabnya ditulis dalam catatan toko.",
+"why": "placeholders must be exactly: {set:loss_limit}"
+},
+{
+"en": "Product: {col:pack.product}, quality {col:pack.pclass}. We packed {col:pack.crates} crates of {col:pack.crate_kg} kilograms, which is {col:pack.net_kg} kilograms net or {col:pack.tonnes} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "Kami mengemas kotak-kotak {col:pack.crates} dengan {col:pack.crate_kg} kilogram, yang merupakan {col:pack.net_kg} kilogram bersih atau {col:pack.tonnes} ton.",
+"why": "placeholders must be exactly: {col:pack.product} {col:pack.pclass} {col:pack.crates} {col:pack.crate_kg} {col:pack.net_kg} {col:pack.tonnes}"
+},
+{
+"en": "We took out {col:pack.rejected_kg} kilograms as rejects ({col:pack.reject_pct}). The value of the load is {col:pack.value}. The packing check shows: {col:pack.state}.",
+"kind": "document",
+"max": null,
+"mt": "Kami mengambil {col:pack.rejected_kg} kilogram sebagai penolakan ({col:pack.reject_pct}). Nilai muatan adalah {col:pack.value}.",
+"why": "placeholders must be exactly: {col:pack.rejected_kg} {col:pack.reject_pct} {col:pack.value} {col:pack.state}"
+},
+{
+"en": "Run machines, fuel and seasonal labour with costs and warnings",
+"kind": "sentence",
+"max": 80,
+"mt": "Mengoperasikan mesin, bahan bakar dan tenaga kerja musiman dengan biaya dan peringatan",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "Greasing and checks",
+"kind": "list",
+"max": 30,
+"mt": "Pengolahan minyak dan pemeriksaan",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Forklift",
+"kind": "list",
+"max": 30,
+"mt": "Forklift",
+"why": "not translated"
+},
+{
+"en": "Gloves",
+"kind": "list",
+"max": 30,
+"mt": "Gloves",
+"why": "not translated"
+},
+{
+"en": "Trailer",
+"kind": "list",
+"max": 30,
+"mt": "Trailer",
+"why": "not translated"
+},
+{
+"en": "Harrow",
+"kind": "list",
+"max": 30,
+"mt": "Harrow",
+"why": "not translated"
+},
+{
+"en": "High fuel use",
+"kind": "list",
+"max": 30,
+"mt": "Penggunaan bahan bakar yang tinggi",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Service schedule: hours since each service and hours left",
+"kind": "title",
+"max": 60,
+"mt": "Jadwal layanan: jam sejak setiap layanan dan jam yang tersisa",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Repair log: what broke, who repaired it and what it cost",
+"kind": "title",
+"max": 60,
+"mt": "Buku catatan perbaikan: apa yang rusak, siapa yang memperbaikinya, dan berapa biayanya",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Implements and attachments: work rate, hours and condition",
+"kind": "title",
+"max": 60,
+"mt": "Perlengkapan dan perlengkapan: tingkat kerja, jam kerja dan kondisi",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "E-mail",
+"kind": "label",
+"max": null,
+"mt": "E-mail",
+"why": "not translated"
+},
+{
+"en": "Training and certificates: who holds what and when it ends",
+"kind": "title",
+"max": 60,
+"mt": "Pelatihan dan sertifikat: siapa yang memegang apa dan kapan berakhir",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Labour need by month against workers available",
+"kind": "title",
+"max": 60,
+"mt": "Kebutuhan tenaga kerja per bulan terhadap tenaga kerja yang tersedia",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Machine hours, repairs, fuel and seasonal pay by month",
+"kind": "title",
+"max": 60,
+"mt": "Jam kerja mesin, perbaikan, bahan bakar dan upah musiman per bulan",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Service due in hours: the date you reach it",
+"kind": "title",
+"max": 60,
+"mt": "Pelayanan yang harus dilakukan dalam jam: tanggal Anda sampai di sana",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Output per worker per day and labour cost per kilogram",
+"kind": "title",
+"max": 60,
+"mt": "Output per pekerja per hari dan biaya tenaga kerja per kilogram",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Total output, kg",
+"kind": "label",
+"max": null,
+"mt": "Total output, kg",
+"why": "not translated"
+},
+{
+"en": "Hello {contractor}, please send the work record for {machine} on {field}: hours, hectares and any waiting time. We compare it with our log of about {hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "Halo {contractor}, silakan kirim catatan kerja untuk {machine} pada {field}: jam, hektar dan waktu tunggu.",
+"why": "placeholders must be exactly: {contractor} {machine} {field} {hours}"
+},
+{
+"en": "Hello {name}, the shift starts at 6:00 tomorrow. Please come in your protective clothing and check the work list with your supervisor first.",
+"kind": "message",
+"max": null,
+"mt": "Halo, giliranmu dimulai pukul 6:00 besok. silakan datang dengan pakaian pelindungmu dan periksa daftar pekerjaan dengan supervisormu dulu.",
+"why": "placeholders must be exactly: {name}"
+},
+{
+"en": "Hello {name}, welcome to the farm. Your work starts on {start_date}. Please come to the main gate at 6:00 and ask for {leader}. Bring your identity document and work boots.",
+"kind": "message",
+"max": null,
+"mt": "Halo, selamat datang di peternakan. pekerjaan Anda dimulai pada pukul 01:00. silakan datang ke gerbang utama pada pukul 06:00 dan meminta untuk 02:00. membawa dokumen identitas Anda dan sepatu bot kerja.",
+"why": "placeholders must be exactly: {name} {start_date} {leader}"
+},
+{
+"en": "Hello {manager}, in {month} we need {seasonal_needed} seasonal workers and have {seasonal_hired} on contract, so {gap} workers are short. Please start hiring now.",
+"kind": "message",
+"max": null,
+"mt": "Halo, kami membutuhkan pekerja musiman dan memiliki kontrak, jadi kami kekurangan pekerja.",
+"why": "placeholders must be exactly: {manager} {month} {seasonal_needed} {seasonal_hired} {gap}"
+},
+{
+"en": "Hello {manager}, the labour cost for {month} is {labour_cost} against a budget of {budget}. Budget left: {variance}. Please check the overtime and the piece-rate pay.",
+"kind": "message",
+"max": null,
+"mt": "Halo {manager}, biaya tenaga kerja untuk {month} adalah {labour_cost} terhadap anggaran {budget}.",
+"why": "placeholders must be exactly: {manager} {month} {labour_cost} {budget} {variance}"
+}
+]
