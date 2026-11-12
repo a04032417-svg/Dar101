@@ -1,0 +1,289 @@
+[
+{
+"en": "Field: {col:loss.field}. Crop: {col:loss.crop}. Cause: {col:loss.cause}. Date of the loss: {col:loss.date}.",
+"kind": "document",
+"max": null,
+"mt": "Feld: {col:loss.field}. Ernte: {col:loss.crop}. Ursache: {col:loss.cause}.",
+"why": "placeholders must be exactly: {col:loss.field} {col:loss.crop} {col:loss.cause} {col:loss.date}"
+},
+{
+"en": "The area lost is {col:loss.area_ha} hectares and the yield lost there is {col:loss.loss_pct}. At the target of {col:loss.target} tonnes per hectare this is {col:loss.loss_t} tonnes, worth {col:loss.loss_value}.",
+"kind": "document",
+"max": null,
+"mt": "Die verlustene Fläche beträgt {col:loss.area_ha} Hektar und der verlustene Ertrag ist {col:loss.loss_pct}.",
+"why": "placeholders must be exactly: {col:loss.area_ha} {col:loss.loss_pct} {col:loss.target} {col:loss.loss_t} {col:loss.loss_value}"
+},
+{
+"en": "Decision: {col:loss.state}. Area to replant: {col:loss.replant_ha} hectares at a cost or estimate of {col:loss.replant_cost}. The report is {col:loss.age} days old.",
+"kind": "document",
+"max": null,
+"mt": "Entscheidung: {col:loss.state} Fläche zur Neubepflanzung: {col:loss.replant_ha} Hektar zu einem Kosten- oder Schätzungspreis von {col:loss.replant_cost}.",
+"why": "placeholders must be exactly: {col:loss.state} {col:loss.replant_ha} {col:loss.replant_cost} {col:loss.age}"
+},
+{
+"en": "Job {col:contract.ct_id} on {col:contract.date}. Contractor: {col:contract.contractor}, phone {col:contract.phone}. Service: {col:contract.service}.",
+"kind": "document",
+"max": null,
+"mt": "Der Auftragnehmer, Telefon, Service.",
+"why": "placeholders must be exactly: {col:contract.ct_id} {col:contract.date} {col:contract.contractor} {col:contract.phone} {col:contract.service}"
+},
+{
+"en": "Work record: {col:contract.state}. Signed on {col:contract.signed_on}.",
+"kind": "document",
+"max": null,
+"mt": "Unterzeichnet am 1.",
+"why": "placeholders must be exactly: {col:contract.state} {col:contract.signed_on}"
+},
+{
+"en": "Track inputs, fertiliser, chemicals, water and pumps in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Spuren von Inputs, Düngemitteln, Chemikalien, Wasser und Pumpen in einem Arbeitsbuch",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "Stock reorder point with days of cover",
+"kind": "label",
+"max": 50,
+"mt": "Standort für die Umreihenfolge der Bestände mit Tag der Abdeckung",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "opening stock, purchases, applications and issues give each input's balance, days of cover and an order quantity once it falls below your reorder point",
+"kind": "sentence",
+"max": 160,
+"mt": "Eröffnung von Vorräten, Einkäufen, Anträgen und Ausgaben geben den Saldo jedes Inputs, Tage der Abdeckung und eine Bestellmenge, sobald es unter Ihren Reorder Punkt fällt",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "kilograms of N, P2O5 and K2O planned for each field are set against what fertiliser and manure have put on, with a warning when a field goes over",
+"kind": "sentence",
+"max": 160,
+"mt": "die für jedes Feld geplanten Kilogramm N, P2O5 und K2O werden auf das von Düngemitteln und Düngemitteln aufgetragene Maß verglichen, wobei bei Überschwemmungen der Felder eine Warnung vorzulegen ist;",
+"why": "too long: 199 characters, the limit is 160"
+},
+{
+"en": "each fertiliser price is divided by its nitrogen, phosphate and potash share so you can compare urea, compound and potash on what the nutrient really costs",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder Düngemittelpreis wird durch seinen Anteil an Stickstoff, Phosphat und Kali geteilt, so dass Sie Urea, Verbindung und Kali vergleichen können, was Nährstoffe wirklich kosten",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "the last recorded spray of each product on each crop gives the first safe harvest day and flags crops you must not harvest yet",
+"kind": "sentence",
+"max": 160,
+"mt": "Die letzte registrierte Spritzung jedes Erzeugnisses auf jeder Pflanze gibt den ersten sicheren Erntetag an und kennzeichnet Pflanzen, die Sie noch nicht ernten dürfen.",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "water pumped from every borehole, intake and canal turn is added up against its yearly quota, with licence end and pump service warnings",
+"kind": "sentence",
+"max": 160,
+"mt": "das aus jedem Bohrloch, jeder Einlassstelle und jeder Kanalrunde gepumpte Wasser wird auf seine jährliche Quote addiert, wobei die Warnungen zum Ende der Lizenz und zum Pumpendienst aufgeführt sind.",
+"why": "too long: 198 characters, the limit is 160"
+},
+{
+"en": "on-time and in-full deliveries, price against your list and days to pay are worked out for every supplier and rated reliable, watch or poor",
+"kind": "sentence",
+"max": 160,
+"mt": "Pünktliche und vollständige Lieferungen, Preis nach Ihrer Liste und Zahlungstage werden für jeden Lieferanten ausgearbeitet und als zuverlässig, wachsen oder schlecht eingestuft",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "every batch has its hazard class and expiry date, and expired or soon-to-expire products are flagged for return or safe disposal",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Charge hat ihre Gefahrenklasse und ihr Verfallsdatum, und verfallene oder bald verfallende Produkte sind zur Rückgabe oder sicheren Beseitigung gekennzeichnet.",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Compound fertiliser 15-15-15",
+"kind": "list",
+"max": 30,
+"mt": "Zusammengesetzte Düngemittel 15-15-15",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Diesel",
+"kind": "list",
+"max": 30,
+"mt": "Diesel",
+"why": "not translated"
+},
+{
+"en": "Fertigation",
+"kind": "list",
+"max": 30,
+"mt": "Fertigation",
+"why": "not translated"
+},
+{
+"en": "Over budget",
+"kind": "list",
+"max": 30,
+"mt": "Überschreitung des Haushaltsplans",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Over label limit",
+"kind": "list",
+"max": 30,
+"mt": "Überschreitung der Kennzeichnungsgrenze",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Borehole 4 Dairy",
+"kind": "list",
+"max": 30,
+"mt": "Milchprodukte aus der Region Borehole 4",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Supplier performance: on time, in full, price",
+"kind": "title",
+"max": 60,
+"mt": "Leistungsfähigkeit des Lieferanten: Pünktlichkeit, vollständige Leistung, Preis",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Input stock by store: opening, in, used and balance",
+"kind": "title",
+"max": 60,
+"mt": "Vorräte nach Lagerhallen: Eröffnung, Einlagerung, Verbrauch und Bilanz",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Input cost per hectare for every field against its budget",
+"kind": "title",
+"max": 60,
+"mt": "Inputkosten pro Hektar für jedes Feld im Verhältnis zu seinem Budget",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Sprays",
+"kind": "label",
+"max": null,
+"mt": "Sprays",
+"why": "not translated"
+},
+{
+"en": "Input orders and deliveries: promised, received and late",
+"kind": "title",
+"max": 60,
+"mt": "Input-Bestellungen und Lieferungen: versprochen, erhalten und verspätet",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Chemical store register: batches, hazard and expiry",
+"kind": "title",
+"max": 60,
+"mt": "Chemikalienlagerregister: Chargen, Gefahren und Verfallszeiten",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Water sources: flow, quota, licence and pump service",
+"kind": "title",
+"max": 60,
+"mt": "Wasserquellen: Durchfluss, Quoten, Genehmigung und Pumpendienst",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Irrigation schedule per field: depth, interval and next turn",
+"kind": "title",
+"max": 60,
+"mt": "Bewässerungsplan pro Feld: Tiefe, Intervall und nächste Runde",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "System",
+"kind": "label",
+"max": null,
+"mt": "System",
+"why": "not translated"
+},
+{
+"en": "Irrigation log: hours run and water applied",
+"kind": "title",
+"max": 60,
+"mt": "Bewässerungsprotokoll: laufende Stunden und angewandtes Wasser",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Inputs issued to fields",
+"kind": "label",
+"max": 30,
+"mt": "An die Felder ausgegebene Eingaben",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Fertiliser needed for a field from the nutrient you want",
+"kind": "title",
+"max": 60,
+"mt": "Dünger für ein Feld benötigt aus dem Nährstoff, den Sie wollen",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Pump energy cost per cubic metre, per mm and per hectare",
+"kind": "title",
+"max": 60,
+"mt": "Kosten für die Pumpenenergie pro Kubikmeter, pro mm und pro Hektar",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Crop water need from evapotranspiration and the crop factor",
+"kind": "title",
+"max": 60,
+"mt": "Wasserbedarf der Pflanzen durch Verdunstung und Pflanzenfaktor",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello, we order {qty_ordered} {unit} of {item} at {price} per {unit}, a value of {value}. Order number {ord_id}. Please confirm the order and the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, wir bestellen {qty_ordered} {unit} von {item} bei {price} pro {unit}, ein Wert von {value}.",
+"why": "placeholders must be exactly: {qty_ordered} {unit} {item} {price} {unit} {value} {ord_id}"
+},
+{
+"en": "Hello, we expect {item} ({qty_ordered} {unit}) on {promised}. Please tell us the time of day. Our store takes deliveries between 7:00 and 16:00.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, wir erwarten eine Lieferung am 3. Bitte sagen Sie uns die Tageszeit. Unser Laden nimmt Lieferungen zwischen 7:00 und 16:00 Uhr an.",
+"why": "placeholders must be exactly: {item} {qty_ordered} {unit} {promised}"
+},
+{
+"en": "Hello {vendor}, please send your best price for {qty} of {item}, delivered to our farm, with the lead time and how long the quote is valid. Your last quote was {price} per unit.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {vendor}, bitte senden Sie Ihren besten Preis für {qty} von {item}, an unsere Farm geliefert, mit der Vorlaufzeit und wie lange das Angebot gültig ist.",
+"why": "placeholders must be exactly: {vendor} {qty} {item} {price}"
+},
+{
+"en": "Hello, batch {batch} of {item} expired on {expiry}. We hold {qty} {unit}. Can you take it back or tell us how to dispose of it safely?",
+"kind": "message",
+"max": null,
+"mt": "Kannst du es zurücknehmen oder uns sagen, wie wir es sicher entsorgen?",
+"why": "placeholders must be exactly: {batch} {item} {expiry} {qty} {unit}"
+},
+{
+"en": "Hello, the fertiliser plan for {field} ({crop}, {area} ha) is ready: N {n_ha}, P2O5 {p_ha} and K2O {k_ha} kg per ha. Please check it before we order the fertiliser.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, der Düngemittelplan für {field} ({crop}, {area} ha) ist fertig: N {n_ha}, P {area}O5 {p_ha} und K {area}O} {k_ha} kg pro ha. Bitte überprüfen Sie ihn, bevor wir den Dünger bestellen.",
+"why": "placeholders must be exactly: {field} {crop} {area} {n_ha} {p_ha} {k_ha}"
+},
+{
+"en": "Hello {keeper}, {item} is down to {balance} {unit}, below the reorder point of {reorder_pt}. Please tell the crop manager and prepare an order of {to_order} {unit}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {keeper}, {item} ist auf {balance} {unit}, unter dem Reorder-Punkt von {reorder_pt}.",
+"why": "placeholders must be exactly: {keeper} {item} {balance} {unit} {reorder_pt} {to_order} {unit}"
+},
+{
+"en": "Hello {keeper}, we count {item} today. The sheet says {balance} {unit}. Please count what is on the shelves and write the number on the stock card.",
+"kind": "message",
+"max": null,
+"mt": "Bitte zählen Sie, was auf den Regalen ist und schreiben Sie die Nummer auf die Aktienkarte.",
+"why": "placeholders must be exactly: {keeper} {item} {balance} {unit}"
+}
+]

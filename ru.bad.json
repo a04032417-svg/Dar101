@@ -1,0 +1,324 @@
+[
+{
+"en": "The area lost is {col:loss.area_ha} hectares and the yield lost there is {col:loss.loss_pct}. At the target of {col:loss.target} tonnes per hectare this is {col:loss.loss_t} tonnes, worth {col:loss.loss_value}.",
+"kind": "document",
+"max": null,
+"mt": "Площадь, потерянная, {col:loss.area_ha} га, и потерянная урожайность {col:loss.loss_pct}.",
+"why": "placeholders must be exactly: {col:loss.area_ha} {col:loss.loss_pct} {col:loss.target} {col:loss.loss_t} {col:loss.loss_value}"
+},
+{
+"en": "Decision: {col:loss.state}. Area to replant: {col:loss.replant_ha} hectares at a cost or estimate of {col:loss.replant_cost}. The report is {col:loss.age} days old.",
+"kind": "document",
+"max": null,
+"mt": "Решение: {col:loss.state} Площадь для пересадки: {col:loss.replant_ha} гектар по стоимости или оценке {col:loss.replant_cost}.",
+"why": "placeholders must be exactly: {col:loss.state} {col:loss.replant_ha} {col:loss.replant_cost} {col:loss.age}"
+},
+{
+"en": "Job {col:contract.ct_id} on {col:contract.date}. Contractor: {col:contract.contractor}, phone {col:contract.phone}. Service: {col:contract.service}.",
+"kind": "document",
+"max": null,
+"mt": "Работа на месте, подрядчик, телефон, обслуживание.",
+"why": "placeholders must be exactly: {col:contract.ct_id} {col:contract.date} {col:contract.contractor} {col:contract.phone} {col:contract.service}"
+},
+{
+"en": "kilograms of N, P2O5 and K2O planned for each field are set against what fertiliser and manure have put on, with a warning when a field goes over",
+"kind": "sentence",
+"max": 160,
+"mt": "килограммы N, P2O5 и K2O, запланированные для каждого поля, устанавливаются по сравнению с тем, что было добавлено удобрениями и навозом, с предупреждением, когда поле переходит",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "each fertiliser price is divided by its nitrogen, phosphate and potash share so you can compare urea, compound and potash on what the nutrient really costs",
+"kind": "sentence",
+"max": 160,
+"mt": "цена каждого удобрения делится на долю азота, фосфата и калия, так что вы можете сравнить мочевину, соединение и калий на то, что питательные вещества на самом деле стоит",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "the last recorded spray of each product on each crop gives the first safe harvest day and flags crops you must not harvest yet",
+"kind": "sentence",
+"max": 160,
+"mt": "Последнее зарегистрированное распыление каждого продукта на каждом урожае дает первый безопасный день сбора урожая и отмечает урожаи, которые вы еще не должны собирать",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Chemical store expiry register",
+"kind": "label",
+"max": 50,
+"mt": "Регистр истечения срока действия химического склада",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "every batch has its hazard class and expiry date, and expired or soon-to-expire products are flagged for return or safe disposal",
+"kind": "sentence",
+"max": 160,
+"mt": "Каждая партия имеет свой класс опасности и дату истечения срока годности, а продукты, срок действия которых истек или скоро истечет, помечены для возврата или безопасной утилизации.",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "Electricity price per kWh",
+"kind": "setting",
+"max": null,
+"mt": "Цена на электроэнергию в kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Wheat seed, certified",
+"kind": "list",
+"max": 30,
+"mt": "Семена пшеницы, сертифицированные",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Seed potato, certified",
+"kind": "list",
+"max": 30,
+"mt": "Семена картофеля, сертифицированные",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Dairy concentrate feed",
+"kind": "list",
+"max": 30,
+"mt": "Концентраты для кормов для молочных продуктов",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Over label limit",
+"kind": "list",
+"max": 30,
+"mt": "Превышение ограничения на этикетке",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Borehole 4 Dairy",
+"kind": "list",
+"max": 30,
+"mt": "Молочная ферма \"Borehole 4\"",
+"why": "English/Latin words left: Borehole"
+},
+{
+"en": "River intake Creek",
+"kind": "list",
+"max": 30,
+"mt": "Речной водозабор Creek",
+"why": "English/Latin words left: Creek"
+},
+{
+"en": "Rain tank glasshouse",
+"kind": "list",
+"max": 30,
+"mt": "Теплица для дождевых резервуаров",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Input price list with price change and nutrient cost",
+"kind": "title",
+"max": 60,
+"mt": "Список цен на входные ресурсы с изменением цен и стоимостью питательных веществ",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Supplier performance: on time, in full, price",
+"kind": "title",
+"max": 60,
+"mt": "Производительность поставщика: своевременность, полнота, цена",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Line no",
+"kind": "label",
+"max": null,
+"mt": "Линия No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Input stock by store: opening, in, used and balance",
+"kind": "title",
+"max": 60,
+"mt": "Входящие запасы по магазинам: открытие, ввоз, использование и остаток",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Issue no",
+"kind": "label",
+"max": null,
+"mt": "Выпуск No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Input cost per hectare for every field against its budget",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость ввода на гектар для каждого поля в соответствии с его бюджетом",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Limit no",
+"kind": "label",
+"max": null,
+"mt": "Предел No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Input orders and deliveries: promised, received and late",
+"kind": "title",
+"max": 60,
+"mt": "Входящие заказы и поставки: обещанные, полученные и опоздавшие",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Chemical store register: batches, hazard and expiry",
+"kind": "title",
+"max": 60,
+"mt": "Регистр хранения химических веществ: партии, опасность и срок годности",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Batch no",
+"kind": "label",
+"max": null,
+"mt": "Серия No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Irrigation schedule per field: depth, interval and next turn",
+"kind": "title",
+"max": 60,
+"mt": "График орошения по полям: глубина, интервал и следующая очередь",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "kWh per m3",
+"kind": "label",
+"max": null,
+"mt": "kWh на м3",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Water meter readings and the water budget per field",
+"kind": "title",
+"max": 60,
+"mt": "Числительные показатели водомера и бюджет на воду на каждое поле",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Fertiliser plan sheet with the applications so far",
+"kind": "title",
+"max": 60,
+"mt": "Лист плана использования удобрений с заявками на сегодняшний день",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Fertiliser needed for a field from the nutrient you want",
+"kind": "title",
+"max": 60,
+"mt": "Удобрение необходимо для поля из нужного питательного вещества",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Pump energy cost per cubic metre, per mm and per hectare",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость энергии насоса на кубический метр, на мм и на гектар",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Type the daily evapotranspiration, the crop factor Kc, the days and the rain; see the water the crop needs, the usable rain, the water to irrigate in mm and in cubic metres for the area.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите суточную выпаротранспирацию, фактор Kc урожая, дни и дождь; см. воду, необходимую для выращивания урожая, полезный дождь, воду для орошения в мм и в кубических метрах по площади.",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Crop factor Kc",
+"kind": "label",
+"max": null,
+"mt": "Фактор Kc",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Hot spell ET 7",
+"kind": "label",
+"max": null,
+"mt": "Горячее время ET 7",
+"why": "English/Latin words left: ET"
+},
+{
+"en": "Mature crop Kc 1.25",
+"kind": "label",
+"max": null,
+"mt": "Зрелая культура Kc 1,25",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Supplier quote comparison per kg of nutrient",
+"kind": "title",
+"max": 60,
+"mt": "Сравнение котировок поставщиков на килограмм питательного вещества",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Manure nutrient credit against the fertiliser plan",
+"kind": "title",
+"max": 60,
+"mt": "Кредит на содержание питательных веществ из навоза в планах на удобрения",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Hello, we expect {item} ({qty_ordered} {unit}) on {promised}. Please tell us the time of day. Our store takes deliveries between 7:00 and 16:00.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы ожидаем доставку в 3 часа.",
+"why": "placeholders must be exactly: {item} {qty_ordered} {unit} {promised}"
+},
+{
+"en": "Hello, batch {batch} of {item} expired on {expiry}. We hold {qty} {unit}. Can you take it back or tell us how to dispose of it safely?",
+"kind": "message",
+"max": null,
+"mt": "Привет, партия {batch} {item} истекла на {expiry} {qty} {unit} {qty} {unit} {qty} {unit} {unit} {unit} {unit} {unit} {unit} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5}",
+"why": "placeholders must be exactly: {batch} {item} {expiry} {qty} {unit}"
+},
+{
+"en": "Hello, the fertiliser plan for {field} ({crop}, {area} ha) is ready: N {n_ha}, P2O5 {p_ha} and K2O {k_ha} kg per ha. Please check it before we order the fertiliser.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, план удобрений для {field} ({crop}, {area} га) готов: N {n_ha}, P {area}O5 {p_ha} и K {area}O} {k_ha} кг на гектар. Пожалуйста, проверьте его, прежде чем мы закажем удобрения.",
+"why": "placeholders must be exactly: {field} {crop} {area} {n_ha} {p_ha} {k_ha}"
+},
+{
+"en": "Hello {keeper}, {item} is down to {balance} {unit}, below the reorder point of {reorder_pt}. Please tell the crop manager and prepare an order of {to_order} {unit}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {keeper}, {item} снизился до {balance} {unit}, ниже точки переустройства {reorder_pt}.",
+"why": "placeholders must be exactly: {keeper} {item} {balance} {unit} {reorder_pt} {to_order} {unit}"
+},
+{
+"en": "Hello {keeper}, a delivery of {item} is coming. Please clear space, check the quantity and the lot numbers against the delivery note and tell me about any damage.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, освободите пространство, проверите количество и номера партий по доставке и сообщите мне о любых повреждениях.",
+"why": "placeholders must be exactly: {keeper} {item}"
+},
+{
+"en": "Hello {keeper}, we count {item} today. The sheet says {balance} {unit}. Please count what is on the shelves and write the number on the stock card.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, сегодня мы подсчитываем. На листе написано {balance} {unit}. Пожалуйста, подсчитайте, что на полках, и напишите номер на карточке.",
+"why": "placeholders must be exactly: {keeper} {item} {balance} {unit}"
+},
+{
+"en": "Hello {supervisor}, please switch off irrigation on {field} when {hours_turn} hours are done. Write the hours in the log and close the valves.",
+"kind": "message",
+"max": null,
+"mt": "Привет, пожалуйста, отключите орошение на {field}, когда {hours_turn} часа закончились. Напишите часы в журнале и закрыть клапаны.",
+"why": "placeholders must be exactly: {supervisor} {field} {hours_turn}"
+},
+{
+"en": "Hello {keeper}, please check the water level in {name}. The pump may run dry. We have used {used_m3} m3 this season, which is {share} of the quota.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {keeper}, пожалуйста, проверьте уровень воды в {name}. Насос может иссякнуть. Мы использовали {used_m3} м3 в этом сезоне, что {share} квоты.",
+"why": "English/Latin words left: used"
+}
+]

@@ -1,0 +1,170 @@
+[
+{
+"en": "Crop loss report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "农作物损失报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Decision: {col:loss.state}. Area to replant: {col:loss.replant_ha} hectares at a cost or estimate of {col:loss.replant_cost}. The report is {col:loss.age} days old.",
+"kind": "document",
+"max": null,
+"mt": "决定: {col:loss.state} 再种植面积: {col:loss.replant_ha} 公,成本或估计为 {col:loss.replant_cost}.",
+"why": "placeholders must be exactly: {col:loss.state} {col:loss.replant_ha} {col:loss.replant_cost} {col:loss.age}"
+},
+{
+"en": "Job {col:contract.ct_id} on {col:contract.date}. Contractor: {col:contract.contractor}, phone {col:contract.phone}. Service: {col:contract.service}.",
+"kind": "document",
+"max": null,
+"mt": "工作人员: 电话: 服务:",
+"why": "placeholders must be exactly: {col:contract.ct_id} {col:contract.date} {col:contract.contractor} {col:contract.phone} {col:contract.service}"
+},
+{
+"en": "Field: {col:contract.field}. Area: {col:contract.area_ha} hectares at {col:contract.rate_ha} per hectare. The cost is {col:contract.cost}.",
+"kind": "document",
+"max": null,
+"mt": "面积:每公的1公,成本为3公.",
+"why": "placeholders must be exactly: {col:contract.field} {col:contract.area_ha} {col:contract.rate_ha} {col:contract.cost}"
+},
+{
+"en": "kWh per m3",
+"kind": "label",
+"max": null,
+"mt": "每平方米的kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Energy used, kWh",
+"kind": "label",
+"max": null,
+"mt": "使用的能量,kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Area of the field, ha",
+"kind": "label",
+"max": null,
+"mt": "场面的面积,ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Energy per m3, kWh",
+"kind": "label",
+"max": null,
+"mt": "每m3的能源,kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Type the daily evapotranspiration, the crop factor Kc, the days and the rain; see the water the crop needs, the usable rain, the water to irrigate in mm and in cubic metres for the area.",
+"kind": "sentence",
+"max": null,
+"mt": "输入每日蒸发转气量,作物因子Kc,天数和降雨量;查看作物需要的水量,可用的雨量,用于灌的水量,以毫米和立方米为单位.",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Crop factor Kc",
+"kind": "label",
+"max": null,
+"mt": "种植因子Kc",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Need per day, mm",
+"kind": "label",
+"max": null,
+"mt": "每天需要的,mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Mature crop Kc 1.25",
+"kind": "label",
+"max": null,
+"mt": "成熟作物 Kc 1.25",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Area on this system, ha",
+"kind": "label",
+"max": null,
+"mt": "这个系统的区域,ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello, we expect {item} ({qty_ordered} {unit}) on {promised}. Please tell us the time of day. Our store takes deliveries between 7:00 and 16:00.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们预计将在3日开始.请告诉我们一天的时间.我们的商店在7点到16点之间接受交货.",
+"why": "placeholders must be exactly: {item} {qty_ordered} {unit} {promised}"
+},
+{
+"en": "Hello {vendor}, please send your best price for {qty} of {item}, delivered to our farm, with the lead time and how long the quote is valid. Your last quote was {price} per unit.",
+"kind": "message",
+"max": null,
+"mt": "你好,请发送您最好的价格,送到我们的农场,带领时间和报价有效的时间.您的最后报价是 {price} 每个单位.",
+"why": "placeholders must be exactly: {vendor} {qty} {item} {price}"
+},
+{
+"en": "Hello, invoice {invoice} for {item} charges {price} per unit but our list price is {list_price}. Please check it and send a corrected invoice.",
+"kind": "message",
+"max": null,
+"mt": "你好,发票 {invoice} 每单位收费 {price} 但我们的列表价格是 {list_price}. 请检查并发送一个纠正的发票.",
+"why": "placeholders must be exactly: {invoice} {item} {price} {list_price}"
+},
+{
+"en": "Hello, batch {batch} of {item} expired on {expiry}. We hold {qty} {unit}. Can you take it back or tell us how to dispose of it safely?",
+"kind": "message",
+"max": null,
+"mt": "您可以把它带回来,或者告诉我们如何安全地处置它吗?",
+"why": "placeholders must be exactly: {batch} {item} {expiry} {qty} {unit}"
+},
+{
+"en": "Hello, please send a credit note for order {ord_id}. We received {qty_received} of {qty_ordered} {unit} of {item}, and the delivery was {days_late} days after the promised {promised}.",
+"kind": "message",
+"max": null,
+"mt": "您好,请发送一个信用单. 我们收到 {qty_received} 的 {qty_ordered} {unit} 的 {item},和交付是 {days_late} 天后的 {promised} 承诺.",
+"why": "placeholders must be exactly: {ord_id} {qty_received} {qty_ordered} {unit} {item} {days_late} {promised}"
+},
+{
+"en": "Hello, the fertiliser plan for {field} ({crop}, {area} ha) is ready: N {n_ha}, P2O5 {p_ha} and K2O {k_ha} kg per ha. Please check it before we order the fertiliser.",
+"kind": "message",
+"max": null,
+"mt": "您好, {field} ({crop}, {area}公) 的肥料计划已经准备好了:每公 N {n_ha},P {area}O5}和K {area}O5}公斤.请在订购肥料之前检查.",
+"why": "placeholders must be exactly: {field} {crop} {area} {n_ha} {p_ha} {k_ha}"
+},
+{
+"en": "Hello {operator}, spread {item} on {field} on {date}: {rate} kg per ha, {qty} kg in all. Please check the spreader setting and keep clear of water and boundaries.",
+"kind": "message",
+"max": null,
+"mt": "请检查散布器设置,保持远离水和边界.",
+"why": "placeholders must be exactly: {operator} {item} {field} {date} {rate} {qty}"
+},
+{
+"en": "Hello {keeper}, we count {item} today. The sheet says {balance} {unit}. Please count what is on the shelves and write the number on the stock card.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们今天计算了1号.纸上写着2号.请计算货架上的东西,并在股票卡上写出号码.",
+"why": "placeholders must be exactly: {keeper} {item} {balance} {unit}"
+},
+{
+"en": "Hello {supervisor}, please switch off irrigation on {field} when {hours_turn} hours are done. Write the hours in the log and close the valves.",
+"kind": "message",
+"max": null,
+"mt": "您好,请在 {field} 结束 {hours_turn} 小时后关闭灌. 在日志中写出时间,并关闭门.",
+"why": "placeholders must be exactly: {supervisor} {field} {hours_turn}"
+},
+{
+"en": "Hello, a fault was logged on {field} on {date}, and the run lasted {hours} hours. Please walk the line, repair the leak today and tell me when it is fixed.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {date} 上出现了一个故障,运行持续了 {hours} 小时. 请走在线,今天修复泄漏并告诉我何时修复.",
+"why": "placeholders must be exactly: {field} {date} {hours}"
+},
+{
+"en": "Hello {keeper}, please check the water level in {name}. The pump may run dry. We have used {used_m3} m3 this season, which is {share} of the quota.",
+"kind": "message",
+"max": null,
+"mt": "您好,请检查水位. 可能会干燥. 我们本赛季使用了 {used_m3} m3,这是 {share} 的配额.",
+"why": "placeholders must be exactly: {keeper} {name} {share}"
+}
+]

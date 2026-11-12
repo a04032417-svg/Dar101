@@ -1,0 +1,212 @@
+[
+{
+"en": "The area lost is {col:loss.area_ha} hectares and the yield lost there is {col:loss.loss_pct}. At the target of {col:loss.target} tonnes per hectare this is {col:loss.loss_t} tonnes, worth {col:loss.loss_value}.",
+"kind": "document",
+"max": null,
+"mt": "Area yang hilang adalah {col:loss.area_ha} hektar dan hasil yang hilang adalah {col:loss.loss_pct}.",
+"why": "placeholders must be exactly: {col:loss.area_ha} {col:loss.loss_pct} {col:loss.target} {col:loss.loss_t} {col:loss.loss_value}"
+},
+{
+"en": "Decision: {col:loss.state}. Area to replant: {col:loss.replant_ha} hectares at a cost or estimate of {col:loss.replant_cost}. The report is {col:loss.age} days old.",
+"kind": "document",
+"max": null,
+"mt": "Keputusan: {col:loss.state} Luas yang akan ditanam kembali: {col:loss.replant_ha} hektar dengan biaya atau perkiraan {col:loss.replant_cost}.",
+"why": "placeholders must be exactly: {col:loss.state} {col:loss.replant_ha} {col:loss.replant_cost} {col:loss.age}"
+},
+{
+"en": "Stock reorder point with days of cover",
+"kind": "label",
+"max": 50,
+"mt": "Titik penataan ulang persediaan dengan hari-hari yang mencakup",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "opening stock, purchases, applications and issues give each input's balance, days of cover and an order quantity once it falls below your reorder point",
+"kind": "sentence",
+"max": 160,
+"mt": "pembukaan persediaan, pembelian, aplikasi dan masalah memberikan setiap saldo masukan, hari perlindungan dan jumlah pesanan setelah jatuh di bawah titik reorder Anda",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "kilograms of N, P2O5 and K2O planned for each field are set against what fertiliser and manure have put on, with a warning when a field goes over",
+"kind": "sentence",
+"max": 160,
+"mt": "kilogram N, P2O5 dan K2O yang direncanakan untuk masing-masing ladang ditetapkan terhadap apa yang telah ditaruh pupuk dan pupuk, dengan peringatan ketika ladang melintasi",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "each fertiliser price is divided by its nitrogen, phosphate and potash share so you can compare urea, compound and potash on what the nutrient really costs",
+"kind": "sentence",
+"max": 160,
+"mt": "harga setiap pupuk dibagi dengan nitrogen, fosfat dan potash bagiannya sehingga Anda dapat membandingkan urea, senyawa dan potash pada apa nutrisi benar-benar biaya",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Supplier quotes ranked on landed price",
+"kind": "label",
+"max": 50,
+"mt": "Kuotasi pemasok yang diberi peringkat berdasarkan harga pendaratan",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "on-time and in-full deliveries, price against your list and days to pay are worked out for every supplier and rated reliable, watch or poor",
+"kind": "sentence",
+"max": 160,
+"mt": "pengiriman tepat waktu dan penuh, harga terhadap daftar Anda dan hari untuk membayar yang digarap untuk setiap pemasok dan dinilai dapat diandalkan, menonton atau buruk",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "every batch has its hazard class and expiry date, and expired or soon-to-expire products are flagged for return or safe disposal",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap batch memiliki kelas bahaya dan tanggal kedaluwarsa, dan produk yang telah kadaluarsa atau akan kedaluwarsa ditandai untuk dikembalikan atau dibuang dengan aman",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Input",
+"kind": "label",
+"max": null,
+"mt": "Input",
+"why": "not translated"
+},
+{
+"en": "Urea 46% nitrogen",
+"kind": "list",
+"max": 30,
+"mt": "Urea 46% nitrogen",
+"why": "not translated"
+},
+{
+"en": "Broiler starter feed",
+"kind": "list",
+"max": 30,
+"mt": "Pakan starter untuk ayam broiler",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Dewormer",
+"kind": "list",
+"max": 30,
+"mt": "Dewormer",
+"why": "not translated"
+},
+{
+"en": "Diesel",
+"kind": "list",
+"max": 30,
+"mt": "Diesel",
+"why": "not translated"
+},
+{
+"en": "Item ID",
+"kind": "label",
+"max": null,
+"mt": "Item ID",
+"why": "not translated"
+},
+{
+"en": "Email",
+"kind": "label",
+"max": null,
+"mt": "Email",
+"why": "not translated"
+},
+{
+"en": "Payment due",
+"kind": "label",
+"max": 30,
+"mt": "Pembayaran yang harus dilakukan",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Input stock by store: opening, in, used and balance",
+"kind": "title",
+"max": 60,
+"mt": "Stok input menurut toko: pembukaan, masuk, digunakan dan saldo",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Input use per field: what was issued to which field",
+"kind": "title",
+"max": 60,
+"mt": "Penggunaan input per bidang: apa yang dikeluarkan untuk bidang mana",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Input cost per hectare for every field against its budget",
+"kind": "title",
+"max": 60,
+"mt": "Biaya input per hektar untuk setiap ladang terhadap anggarannya",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Input orders and deliveries: promised, received and late",
+"kind": "title",
+"max": 60,
+"mt": "Input order dan pengiriman: dijanjikan, diterima dan terlambat",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Irrigation schedule per field: depth, interval and next turn",
+"kind": "title",
+"max": 60,
+"mt": "Jadwal irigasi per ladang: kedalaman, interval dan giliran berikutnya",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Inputs issued to fields",
+"kind": "label",
+"max": 30,
+"mt": "Input yang dikeluarkan ke bidang",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Fertiliser needed for a field from the nutrient you want",
+"kind": "title",
+"max": 60,
+"mt": "Pupuk yang dibutuhkan untuk ladang dari nutrisi yang Anda inginkan",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Urea, kg per ha",
+"kind": "label",
+"max": null,
+"mt": "Urea, kg per ha",
+"why": "not translated"
+},
+{
+"en": "Crop water need from evapotranspiration and the crop factor",
+"kind": "title",
+"max": 60,
+"mt": "Kebutuhan air tanaman dari evapotranspirasi dan faktor tanaman",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello, we order {qty_ordered} {unit} of {item} at {price} per {unit}, a value of {value}. Order number {ord_id}. Please confirm the order and the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Halo, kami memesan {qty_ordered} {unit} {item} pada {price} per {unit}, nilai {value}.",
+"why": "placeholders must be exactly: {qty_ordered} {unit} {item} {price} {unit} {value} {ord_id}"
+},
+{
+"en": "Hello, the fertiliser plan for {field} ({crop}, {area} ha) is ready: N {n_ha}, P2O5 {p_ha} and K2O {k_ha} kg per ha. Please check it before we order the fertiliser.",
+"kind": "message",
+"max": null,
+"mt": "Halo, rencana pupuk untuk {field} ({crop}, {area} ha) sudah siap: N {n_ha}, P {area}O5 {p_ha} dan K {area}O5} kg per ha. Silakan periksa sebelum kami memesan pupuk.",
+"why": "placeholders must be exactly: {field} {crop} {area} {n_ha} {p_ha} {k_ha}"
+},
+{
+"en": "Hello {keeper}, {item} is down to {balance} {unit}, below the reorder point of {reorder_pt}. Please tell the crop manager and prepare an order of {to_order} {unit}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {keeper}, {item} turun ke {balance} {unit}, di bawah titik reorder dari {reorder_pt}.",
+"why": "placeholders must be exactly: {keeper} {item} {balance} {unit} {reorder_pt} {to_order} {unit}"
+},
+{
+"en": "Hello, please read the water meter on {field} today and send me the number. The last reading was {now_read} m3 on {now_date}.",
+"kind": "message",
+"max": null,
+"mt": "Halo, tolong baca meter air di {field} hari ini dan kirimkan nomornya.",
+"why": "placeholders must be exactly: {field} {now_read} {now_date}"
+}
+]

@@ -1,0 +1,121 @@
+[
+{
+"en": "Write the calibration record",
+"kind": "label",
+"max": null,
+"mt": "calibration ریکارڈ لکھیں",
+"why": "English/Latin words left: calibration"
+},
+{
+"en": "Open Start and type your farm name and your own limits in the yellow cells: rain that stops work, wind limits, frost, safe grain moisture, rate error, days between calibrations and tank size.",
+"kind": "sentence",
+"max": null,
+"mt": "کھولیں شروع کریں اور اپنے فارم کا نام اور اپنی حدود کو پیلے رنگ کے خلیات میں ٹائپ کریں: بارش جو کام روکتی ہے، ہوا کی حدود، ٹھنڈ، محفوظ اناج کی نمی، شرح غلطی، calibrations اور ٹینک کے سائز کے درمیان دن.",
+"why": "English/Latin words left: calibrations"
+},
+{
+"en": "kilograms of N, P2O5 and K2O planned for each field are set against what fertiliser and manure have put on, with a warning when a field goes over",
+"kind": "sentence",
+"max": 160,
+"mt": "N، P2O5 اور K2O کے کلو گرام ہر کھیت کے لئے منصوبہ بندی کر رہے ہیں کھاد اور کھاد پر ڈال دیا ہے جس کے مقابلے میں مقرر کیا جاتا ہے، ایک کھیت سے زیادہ ہے جب ایک انتباہ کے ساتھ",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "each fertiliser price is divided by its nitrogen, phosphate and potash share so you can compare urea, compound and potash on what the nutrient really costs",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر کھاد کی قیمت اس کے نائٹروجن، فاسفیٹ اور پوٹاش حصہ کی طرف سے تقسیم کیا جاتا ہے تاکہ آپ پیویسی، کمپاؤنڈ اور پوٹاش کا موازنہ کر سکتے ہیں کہ غذائی اجزاء کی اصل قیمت کیا ہے",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Input price list with price change and nutrient cost",
+"kind": "title",
+"max": 60,
+"mt": "ان پٹ قیمتوں کی فہرست جس میں قیمتوں میں تبدیلی اور غذائی اجزاء کی لاگت شامل ہے",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Input stock by store: opening, in, used and balance",
+"kind": "title",
+"max": 60,
+"mt": "اسٹورز کے لحاظ سے ان پٹ اسٹاک: کھلنا، داخل کرنا، استعمال کرنا اور بیلنس",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Crop water need from evapotranspiration and the crop factor",
+"kind": "title",
+"max": 60,
+"mt": "فصلوں کی ضرورت پانی سے evapotranspiration اور فصل کے عنصر",
+"why": "English/Latin words left: evapotranspiration"
+},
+{
+"en": "Type the daily evapotranspiration, the crop factor Kc, the days and the rain; see the water the crop needs, the usable rain, the water to irrigate in mm and in cubic metres for the area.",
+"kind": "sentence",
+"max": null,
+"mt": "روزانہ بخارات ٹرانسپیرشن، فصل فیکٹر Kc، دن اور بارش درج کریں؛ فصل کو پانی کی ضرورت، قابل استعمال بارش، پانی میں ملی میٹر اور علاقے کے لئے مکعب میٹر میں دیکھیں.",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Crop factor Kc",
+"kind": "label",
+"max": null,
+"mt": "فصل کا عنصر Kc",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Hot spell ET 7",
+"kind": "label",
+"max": null,
+"mt": "گرمی کا دورانیہ ET 7",
+"why": "English/Latin words left: ET"
+},
+{
+"en": "Mature crop Kc 1.25",
+"kind": "label",
+"max": null,
+"mt": "پختہ فصل Kc 1.25",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Type the emitter flow and spacing, the row spacing, the area and the flow you measure at the pump; see the emitters, the flow the system should draw and the gap that shows a leak or blocked emitters.",
+"kind": "sentence",
+"max": null,
+"mt": "emitter کے بہاؤ اور فاصلے، صف کے فاصلے، علاقے اور بہاؤ آپ پمپ پر ماپنے؛ emitters، بہاؤ کے نظام اور خلا ہے کہ ایک لیک یا بلاک emitters دکھاتا ہے کہ کھینچنا چاہئے ملاحظہ کریں.",
+"why": "English/Latin words left: emitter emitters emitters"
+},
+{
+"en": "Hello, we order {qty_ordered} {unit} of {item} at {price} per {unit}, a value of {value}. Order number {ord_id}. Please confirm the order and the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، ہم {qty_ordered} {unit} {item} {price} فی {unit}، {value} کی قیمت پر {unit} {unit} {item} {price} {unit} {value} {value} {value} {value} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {ord_id} {7} {8} {8} {8} {8} {9} {9} {9} {9} {9} {9} {9} {9}",
+"why": "placeholders must be exactly: {qty_ordered} {unit} {item} {price} {unit} {value} {ord_id}"
+},
+{
+"en": "Hello, batch {batch} of {item} expired on {expiry}. We hold {qty} {unit}. Can you take it back or tell us how to dispose of it safely?",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {batch} {item} {expiry} {qty} {unit} {unit} {unit} {unit} {unit} {unit} {unit} {unit} {unit} {unit} {unit} {unit} {unit} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5} {5}",
+"why": "placeholders must be exactly: {batch} {item} {expiry} {qty} {unit}"
+},
+{
+"en": "Hello, please send a credit note for order {ord_id}. We received {qty_received} of {qty_ordered} {unit} of {item}, and the delivery was {days_late} days after the promised {promised}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، براہ مہربانی آرڈر {ord_id} کے لئے ایک کریڈٹ نوٹ بھیجیں. ہم {qty_received} {qty_ordered} {unit} {item} کی {qty_received} موصول ہوئی ہے، اور ترسیل وعدہ {promised} کے بعد {days_late} دن تھا.",
+"why": "placeholders must be exactly: {ord_id} {qty_received} {qty_ordered} {unit} {item} {days_late} {promised}"
+},
+{
+"en": "Hello, the fertiliser plan for {field} ({crop}, {area} ha) is ready: N {n_ha}, P2O5 {p_ha} and K2O {k_ha} kg per ha. Please check it before we order the fertiliser.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {field} ({crop}، {area} ہیکٹر) کے لئے کھاد کا منصوبہ تیار ہے: N {n_ha}، P {area}O5} اور K {area}O} {k_ha} کلوگرام فی ہیکٹر۔ براہ کرم کھاد کا آرڈر دینے سے پہلے اس کی جانچ کریں۔",
+"why": "placeholders must be exactly: {field} {crop} {area} {n_ha} {p_ha} {k_ha}"
+},
+{
+"en": "Hello {keeper}, please check the water level in {name}. The pump may run dry. We have used {used_m3} m3 this season, which is {share} of the quota.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {keeper}، براہ مہربانی {name} میں پانی کی سطح کی جانچ پڑتال کریں. پمپ خشک ہو سکتا ہے. ہم {used_m3} m3 اس موسم استعمال کیا ہے، جو کوٹہ کے {share} ہے.",
+"why": "English/Latin words left: used"
+}
+]

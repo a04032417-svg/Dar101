@@ -1,0 +1,156 @@
+[
+{
+"en": "each fertiliser price is divided by its nitrogen, phosphate and potash share so you can compare urea, compound and potash on what the nutrient really costs",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक उर्वरक की कीमत को नाइट्रोजन, फॉस्फेट और पोटेश के हिस्से से विभाजित किया जाता है ताकि आप यूरिया, यौगिक और पोटेश की तुलना कर सकें कि पोषक तत्व की वास्तविक लागत क्या है",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Pump energy cost per m3 and per mm",
+"kind": "label",
+"max": 50,
+"mt": "पंप ऊर्जा लागत प्रति m3 और प्रति mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "on-time and in-full deliveries, price against your list and days to pay are worked out for every supplier and rated reliable, watch or poor",
+"kind": "sentence",
+"max": 160,
+"mt": "समय पर और पूर्ण डिलीवरी, अपनी सूची के खिलाफ कीमत और भुगतान करने के लिए दिनों के लिए प्रत्येक आपूर्तिकर्ता के लिए काम किया जाता है और विश्वसनीय, घड़ी या खराब रेट किया",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Electricity price per kWh",
+"kind": "setting",
+"max": null,
+"mt": "बिजली की कीमत प्रति kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Licence ends soon",
+"kind": "list",
+"max": 30,
+"mt": "लाइसेंस जल्द ही समाप्त हो जाएगा",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Input stock by store: opening, in, used and balance",
+"kind": "title",
+"max": 60,
+"mt": "स्टोर के अनुसार इनपुट स्टॉकः खोलना, भरना, उपयोग करना और शेष राशि",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Input use per field: what was issued to which field",
+"kind": "title",
+"max": 60,
+"mt": "इनपुट उपयोग प्रति क्षेत्रः किस क्षेत्र में क्या जारी किया गया था",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Input cost per hectare for every field against its budget",
+"kind": "title",
+"max": 60,
+"mt": "अपने बजट के अनुसार प्रत्येक खेत के लिए प्रति हेक्टेयर इनपुट लागत",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Irrigation schedule per field: depth, interval and next turn",
+"kind": "title",
+"max": 60,
+"mt": "प्रत्येक क्षेत्र के अनुसार सिंचाई कार्यक्रमः गहराई, अंतराल और अगली बारी",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Energy, kWh",
+"kind": "label",
+"max": null,
+"mt": "ऊर्जा, kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "kWh per m3",
+"kind": "label",
+"max": null,
+"mt": "kWh प्रति m3",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Energy used, kWh",
+"kind": "label",
+"max": null,
+"mt": "ऊर्जा की खपत, kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Energy per m3, kWh",
+"kind": "label",
+"max": null,
+"mt": "ऊर्जा प्रति m3, kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Type the daily evapotranspiration, the crop factor Kc, the days and the rain; see the water the crop needs, the usable rain, the water to irrigate in mm and in cubic metres for the area.",
+"kind": "sentence",
+"max": null,
+"mt": "दैनिक वाष्पीकरण, फसल कारक Kc, दिन और वर्षा दर्ज करें; फसल को पानी की आवश्यकता, उपयोगी वर्षा, मिमी और क्षेत्र के लिए घन मीटर में सिंचाई के लिए पानी देखें।",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Crop factor Kc",
+"kind": "label",
+"max": null,
+"mt": "फसल कारक Kc",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Hot spell ET 7",
+"kind": "label",
+"max": null,
+"mt": "गर्मी का दौर ET 7",
+"why": "English/Latin words left: ET"
+},
+{
+"en": "Mature crop Kc 1.25",
+"kind": "label",
+"max": null,
+"mt": "परिपक्व फसल Kc 1.25",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Hello, we order {qty_ordered} {unit} of {item} at {price} per {unit}, a value of {value}. Order number {ord_id}. Please confirm the order and the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, हम {qty_ordered} {unit} {item} {price} प्रति {unit} पर {price} का आदेश देते हैं, {value} का मूल्य। आदेश संख्या {ord_id}. कृपया आदेश और वितरण की तारीख की पुष्टि करें।",
+"why": "placeholders must be exactly: {qty_ordered} {unit} {item} {price} {unit} {value} {ord_id}"
+},
+{
+"en": "Hello {vendor}, please send your best price for {qty} of {item}, delivered to our farm, with the lead time and how long the quote is valid. Your last quote was {price} per unit.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {vendor}, कृपया हमारे खेत में पहुंचाए गए {qty} के लिए अपनी सबसे अच्छी कीमत भेजें, लीड समय और उद्धरण कब तक वैध है। आपका अंतिम उद्धरण {price} प्रति इकाई था।",
+"why": "placeholders must be exactly: {vendor} {qty} {item} {price}"
+},
+{
+"en": "Hello, the fertiliser plan for {field} ({crop}, {area} ha) is ready: N {n_ha}, P2O5 {p_ha} and K2O {k_ha} kg per ha. Please check it before we order the fertiliser.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {field} ({crop}, {area} हेक्टेयर) के लिए उर्वरक योजना तैयार हैः N {n_ha}, P {area}O5 {p_ha} और K {area}O5} किलो प्रति हेक्टेयर. कृपया इसे जांचें इससे पहले कि हम उर्वरक का आदेश दें।",
+"why": "placeholders must be exactly: {field} {crop} {area} {n_ha} {p_ha} {k_ha}"
+},
+{
+"en": "Hello {manager}, {field} has cost {cost_ha} per ha against a budget of {budget_ha}. Please check the use of inputs before more is issued to the field.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {manager}, {field} ने {cost_ha} प्रति हेक्टेयर {budget_ha} के बजट के खिलाफ {cost_ha} की लागत है। कृपया क्षेत्र में अधिक जारी करने से पहले इनपुट के उपयोग की जांच करें।",
+"why": "placeholders must be exactly: {manager} {field} {cost_ha} {budget_ha}"
+},
+{
+"en": "Hello {keeper}, please check the water level in {name}. The pump may run dry. We have used {used_m3} m3 this season, which is {share} of the quota.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {keeper}, कृपया {name} में पानी का स्तर जांचें। पंप सूखा हो सकता है। हमने इस सीज़न में {used_m3} m3 का उपयोग किया है, जो कि कोटा का {share} है।",
+"why": "English/Latin words left: used"
+}
+]

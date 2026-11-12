@@ -1,0 +1,233 @@
+[
+{
+"en": "Field: {col:loss.field}. Crop: {col:loss.crop}. Cause: {col:loss.cause}. Date of the loss: {col:loss.date}.",
+"kind": "document",
+"max": null,
+"mt": "Gewas: {col:loss.field}. Oorzaak: {col:loss.cause}. Datum verlies: {col:loss.date}.",
+"why": "placeholders must be exactly: {col:loss.field} {col:loss.crop} {col:loss.cause} {col:loss.date}"
+},
+{
+"en": "Job {col:contract.ct_id} on {col:contract.date}. Contractor: {col:contract.contractor}, phone {col:contract.phone}. Service: {col:contract.service}.",
+"kind": "document",
+"max": null,
+"mt": "Werkgever, telefoon, dienstverlening.",
+"why": "placeholders must be exactly: {col:contract.ct_id} {col:contract.date} {col:contract.contractor} {col:contract.phone} {col:contract.service}"
+},
+{
+"en": "Work record: {col:contract.state}. Signed on {col:contract.signed_on}.",
+"kind": "document",
+"max": null,
+"mt": "Ondertekend op 1 .",
+"why": "placeholders must be exactly: {col:contract.state} {col:contract.signed_on}"
+},
+{
+"en": "each fertiliser price is divided by its nitrogen, phosphate and potash share so you can compare urea, compound and potash on what the nutrient really costs",
+"kind": "sentence",
+"max": 160,
+"mt": "De prijs van elke meststof wordt gedeeld door de hoeveelheid stikstof, fosfaat en kalium, zodat u ureum, verbinding en kalium kunt vergelijken op wat de kostprijs van de voedingsstof is.",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "Supplier quotes ranked on landed price",
+"kind": "label",
+"max": 50,
+"mt": "Aanbiedingen van leveranciers op basis van de aanlandingsprijs",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "water pumped from every borehole, intake and canal turn is added up against its yearly quota, with licence end and pump service warnings",
+"kind": "sentence",
+"max": 160,
+"mt": "het water dat uit elke boring, inlaat en kanaalbeurt wordt gepompt, wordt op zijn jaarlijkse quota opgeteld, met waarschuwingen voor het einde van de vergunning en voor de pompdienst",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "seed, fertiliser, protection and fuel issued to each field are added up and set against the budget per hectare you set",
+"kind": "sentence",
+"max": 160,
+"mt": "Zaden, meststoffen, beschermingsmiddelen en brandstof die aan elk veld worden afgegeven, worden opgeteld en berekend tegen het door u vastgestelde budget per hectare.",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "on-time and in-full deliveries, price against your list and days to pay are worked out for every supplier and rated reliable, watch or poor",
+"kind": "sentence",
+"max": 160,
+"mt": "op tijd en in volledige leveringen, prijs in vergelijking met uw lijst en dagen om te betalen worden uitgewerkt voor elke leverancier en beoordeeld betrouwbaar, horloge of slecht",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "Broiler starter feed",
+"kind": "list",
+"max": 30,
+"mt": "Voeder voor de aanvang van broilers",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Dewormer",
+"kind": "list",
+"max": 30,
+"mt": "Dewormer",
+"why": "not translated"
+},
+{
+"en": "Diesel",
+"kind": "list",
+"max": 30,
+"mt": "Diesel",
+"why": "not translated"
+},
+{
+"en": "Drip tape",
+"kind": "list",
+"max": 30,
+"mt": "Drip tape",
+"why": "not translated"
+},
+{
+"en": "Licence ends soon",
+"kind": "list",
+"max": 30,
+"mt": "De vergunning loopt binnenkort af .",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Over label limit",
+"kind": "list",
+"max": 30,
+"mt": "Overschrijding van de limiet op het etiket",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "River intake East",
+"kind": "list",
+"max": 30,
+"mt": "Invoer van de rivier ten oosten",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Input price list with price change and nutrient cost",
+"kind": "title",
+"max": 60,
+"mt": "Inputprijslijst met prijswijziging en kostprijs van voedingsstoffen",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Contact",
+"kind": "label",
+"max": null,
+"mt": "Contact",
+"why": "not translated"
+},
+{
+"en": "Rating",
+"kind": "label",
+"max": null,
+"mt": "Rating",
+"why": "not translated"
+},
+{
+"en": "Input stock by store: opening, in, used and balance",
+"kind": "title",
+"max": 60,
+"mt": "Invoervoorraden per magazijn: opening, inlevering, gebruik en saldo",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Input cost per hectare for every field against its budget",
+"kind": "title",
+"max": 60,
+"mt": "Inputkosten per hectare voor elk veld ten opzichte van zijn begroting",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Chemical store register: batches, hazard and expiry",
+"kind": "title",
+"max": 60,
+"mt": "Register van chemische opslag: partijen, gevaar en vervaldatum",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Open orders",
+"kind": "label",
+"max": null,
+"mt": "Open orders",
+"why": "not translated"
+},
+{
+"en": "Fertiliser plan sheet with the applications so far",
+"kind": "title",
+"max": 60,
+"mt": "Planblad voor meststoffen met de tot dusver ingediende aanvragen",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Fertiliser needed for a field from the nutrient you want",
+"kind": "title",
+"max": 60,
+"mt": "De meststof die nodig is voor een veld van de voedingsstof die u wilt",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Urea, kg per ha",
+"kind": "label",
+"max": null,
+"mt": "Urea, kg per ha",
+"why": "not translated"
+},
+{
+"en": "Crop water need from evapotranspiration and the crop factor",
+"kind": "title",
+"max": 60,
+"mt": "De waterbehoefte van gewassen door verdamping en de gewasfactor",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Supplier quote comparison per kg of nutrient",
+"kind": "title",
+"max": 60,
+"mt": "Vergelijking van de offerte van de leverancier per kg voedingsstof",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Cost per hectare against budget for a field",
+"kind": "title",
+"max": 60,
+"mt": "Kosten per hectare ten opzichte van de begroting voor een veld",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello, we order {qty_ordered} {unit} of {item} at {price} per {unit}, a value of {value}. Order number {ord_id}. Please confirm the order and the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we bestellen {qty_ordered} {unit} van {item} bij {price} per {unit}, een waarde van {value}.",
+"why": "placeholders must be exactly: {qty_ordered} {unit} {item} {price} {unit} {value} {ord_id}"
+},
+{
+"en": "Hello {vendor}, please send your best price for {qty} of {item}, delivered to our farm, with the lead time and how long the quote is valid. Your last quote was {price} per unit.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {vendor}, stuur alsjeblieft uw beste prijs voor {qty} van {item}, geleverd aan onze boerderij, met de doorlooptijd en hoe lang de offerte geldig is.",
+"why": "placeholders must be exactly: {vendor} {qty} {item} {price}"
+},
+{
+"en": "Hello, please send a credit note for order {ord_id}. We received {qty_received} of {qty_ordered} {unit} of {item}, and the delivery was {days_late} days after the promised {promised}.",
+"kind": "message",
+"max": null,
+"mt": "We hebben {qty_received} van {qty_ordered} {unit} van {item} ontvangen, en de levering was {days_late} dagen na de beloofde {promised}.",
+"why": "placeholders must be exactly: {ord_id} {qty_received} {qty_ordered} {unit} {item} {days_late} {promised}"
+},
+{
+"en": "Hello, the fertiliser plan for {field} ({crop}, {area} ha) is ready: N {n_ha}, P2O5 {p_ha} and K2O {k_ha} kg per ha. Please check it before we order the fertiliser.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, het meststofplan voor {field} ({crop}, {area} ha) is klaar: N {n_ha}, P {area}O5 {p_ha} en K {area}O5} kg per ha. Controleer het alstublieft voordat we de meststof bestellen.",
+"why": "placeholders must be exactly: {field} {crop} {area} {n_ha} {p_ha} {k_ha}"
+},
+{
+"en": "Hello {keeper}, {item} is down to {balance} {unit}, below the reorder point of {reorder_pt}. Please tell the crop manager and prepare an order of {to_order} {unit}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {keeper}, {item} is naar {balance} {unit}, onder het reorder punt van {reorder_pt}.",
+"why": "placeholders must be exactly: {keeper} {item} {balance} {unit} {reorder_pt} {to_order} {unit}"
+}
+]

@@ -1,0 +1,156 @@
+[
+{
+"en": "The area lost is {col:loss.area_ha} hectares and the yield lost there is {col:loss.loss_pct}. At the target of {col:loss.target} tonnes per hectare this is {col:loss.loss_t} tonnes, worth {col:loss.loss_value}.",
+"kind": "document",
+"max": null,
+"mt": "Kaybedilen alan {col:loss.area_ha} hektardır ve orada kaybedilen verim {col:loss.loss_pct}.",
+"why": "placeholders must be exactly: {col:loss.area_ha} {col:loss.loss_pct} {col:loss.target} {col:loss.loss_t} {col:loss.loss_value}"
+},
+{
+"en": "Decision: {col:loss.state}. Area to replant: {col:loss.replant_ha} hectares at a cost or estimate of {col:loss.replant_cost}. The report is {col:loss.age} days old.",
+"kind": "document",
+"max": null,
+"mt": "Karar: {col:loss.state} Yeniden dikilecek alan: {col:loss.replant_ha} hektar.",
+"why": "placeholders must be exactly: {col:loss.state} {col:loss.replant_ha} {col:loss.replant_cost} {col:loss.age}"
+},
+{
+"en": "Job {col:contract.ct_id} on {col:contract.date}. Contractor: {col:contract.contractor}, phone {col:contract.phone}. Service: {col:contract.service}.",
+"kind": "document",
+"max": null,
+"mt": "İşe başlayın. Müteahhit, telefon, servis.",
+"why": "placeholders must be exactly: {col:contract.ct_id} {col:contract.date} {col:contract.contractor} {col:contract.phone} {col:contract.service}"
+},
+{
+"en": "Track inputs, fertiliser, chemicals, water and pumps in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Bir çalışma defterinde girişleri, gübreyi, kimyasalları, suyu ve pompaları takip edin",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Stock reorder point with days of cover",
+"kind": "label",
+"max": 50,
+"mt": "Değerlendirme günleri ile stok yeniden düzenleme noktası",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "opening stock, purchases, applications and issues give each input's balance, days of cover and an order quantity once it falls below your reorder point",
+"kind": "sentence",
+"max": 160,
+"mt": "Açılış stokları, satın almalar, başvurular ve sorunlar, her girişin bakiyesini, kapsam günlerini ve sipariş miktarını yeniden sipariş noktanın altına düştüğünde verir.",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "each fertiliser price is divided by its nitrogen, phosphate and potash share so you can compare urea, compound and potash on what the nutrient really costs",
+"kind": "sentence",
+"max": 160,
+"mt": "Her gübre fiyatı, nitrojen, fosfat ve potasyum payına bölünmüştür. Böylece idrar, bileşik ve potasyumuzu besinlerin gerçek maliyetleri ile karşılaştırabilirsiniz.",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Supplier quotes ranked on landed price",
+"kind": "label",
+"max": 50,
+"mt": "Teslimatçıların indirim fiyatlarına göre sıralamaları",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "every batch has its hazard class and expiry date, and expired or soon-to-expire products are flagged for return or safe disposal",
+"kind": "sentence",
+"max": 160,
+"mt": "Her partiye kendi tehlike sınıfı ve son kullanma tarihi vardır ve son kullanma süresi dolmuş veya son kullanma süresi yaklaşan ürünler geri gönderilmek veya güvenli bir şekilde atılmak için işaretlenir.",
+"why": "too long: 202 characters, the limit is 160"
+},
+{
+"en": "Licence ends soon",
+"kind": "list",
+"max": 30,
+"mt": "İzin süresi yakında sona erecek .",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Input orders and deliveries: promised, received and late",
+"kind": "title",
+"max": 60,
+"mt": "Giriş siparişleri ve teslimatları: söz verilmiş, alınmış ve gecikmiş",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Chemical store register: batches, hazard and expiry",
+"kind": "title",
+"max": 60,
+"mt": "Kimyasal depo kayıtları: partiler, tehlike ve son kullanma süresi",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Irrigation schedule per field: depth, interval and next turn",
+"kind": "title",
+"max": 60,
+"mt": "Tarla başına sulama programı: derinlik, aralık ve bir sonraki dönüş",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Pump energy cost per cubic metre, per mm and per hectare",
+"kind": "title",
+"max": 60,
+"mt": "Sütun enerjisi maliyeti, m3 başına, mm başına ve hektar başına",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Crop water need from evapotranspiration and the crop factor",
+"kind": "title",
+"max": 60,
+"mt": "Evapotranspirasyondan ve ürün faktöründen bitki suyu ihtiyacı",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Drip system flow check against the pump",
+"kind": "title",
+"max": 60,
+"mt": "Damlalama sistemi pompa ile karşılaştırıldığında akış kontrolü",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Supplier quote comparison per kg of nutrient",
+"kind": "title",
+"max": 60,
+"mt": "Besin kilosu başına tedarikçi fiyatlandırması karşılaştırması",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello, we order {qty_ordered} {unit} of {item} at {price} per {unit}, a value of {value}. Order number {ord_id}. Please confirm the order and the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {qty_ordered} {unit} {item} {price} {unit} için, {value} değerinde sipariş veriyoruz.",
+"why": "placeholders must be exactly: {qty_ordered} {unit} {item} {price} {unit} {value} {ord_id}"
+},
+{
+"en": "Hello, we expect {item} ({qty_ordered} {unit}) on {promised}. Please tell us the time of day. Our store takes deliveries between 7:00 and 16:00.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, 3'te teslimat bekliyoruz. Lütfen günün saatini söyleyin. Mağazamız teslimatları saat 7:00 ile 16:00 arasında alıyor.",
+"why": "placeholders must be exactly: {item} {qty_ordered} {unit} {promised}"
+},
+{
+"en": "Hello, batch {batch} of {item} expired on {expiry}. We hold {qty} {unit}. Can you take it back or tell us how to dispose of it safely?",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, 1'in süresi 2'de sona erdi. Onu geri alabilir misiniz?",
+"why": "placeholders must be exactly: {batch} {item} {expiry} {qty} {unit}"
+},
+{
+"en": "Hello, please send a credit note for order {ord_id}. We received {qty_received} of {qty_ordered} {unit} of {item}, and the delivery was {days_late} days after the promised {promised}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen sipariş için kredi notu gönderin.",
+"why": "placeholders must be exactly: {ord_id} {qty_received} {qty_ordered} {unit} {item} {days_late} {promised}"
+},
+{
+"en": "Hello {supervisor}, please switch off irrigation on {field} when {hours_turn} hours are done. Write the hours in the log and close the valves.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {supervisor}, {field} saatleri bitince lütfen sulama sistemini kapatın.",
+"why": "placeholders must be exactly: {supervisor} {field} {hours_turn}"
+}
+]

@@ -1,0 +1,226 @@
+[
+{
+"en": "Job {col:contract.ct_id} on {col:contract.date}. Contractor: {col:contract.contractor}, phone {col:contract.phone}. Service: {col:contract.service}.",
+"kind": "document",
+"max": null,
+"mt": "کار در حال انجام است پیمانکار، تلفن، خدمات",
+"why": "placeholders must be exactly: {col:contract.ct_id} {col:contract.date} {col:contract.contractor} {col:contract.phone} {col:contract.service}"
+},
+{
+"en": "Work record: {col:contract.state}. Signed on {col:contract.signed_on}.",
+"kind": "document",
+"max": null,
+"mt": "سوابق کار:",
+"why": "placeholders must be exactly: {col:contract.state} {col:contract.signed_on}"
+},
+{
+"en": "Pump energy cost per m3 and per mm",
+"kind": "label",
+"max": 50,
+"mt": "هزینه انرژی پمپ در هر m3 و در هر mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Input use per field: what was issued to which field",
+"kind": "title",
+"max": 60,
+"mt": "استفاده از ورودی در هر رشته: چه چیزی برای کدام رشته صادر شده است",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "N, kg/ha",
+"kind": "label",
+"max": null,
+"mt": "N، kg/ha",
+"why": "English/Latin words left: kg ha"
+},
+{
+"en": "N for the field, kg",
+"kind": "label",
+"max": null,
+"mt": "N برای میدان، kg",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "N applied, kg/ha",
+"kind": "label",
+"max": null,
+"mt": "N استفاده شده، kg/ha",
+"why": "English/Latin words left: kg ha"
+},
+{
+"en": "N removed by crop, kg/ha",
+"kind": "label",
+"max": null,
+"mt": "N حذف شده توسط محصول، kg/ha",
+"why": "English/Latin words left: kg ha"
+},
+{
+"en": "N, kg/t",
+"kind": "label",
+"max": null,
+"mt": "N، kg/t",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "K2O, kg/t",
+"kind": "label",
+"max": null,
+"mt": "K2O، kg/t",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "N per ha, kg",
+"kind": "label",
+"max": null,
+"mt": "N در هر هکتار، kg",
+"why": "English/Latin words left: kg"
+},
+{
+"en": "Pump, kW",
+"kind": "label",
+"max": null,
+"mt": "پمپ، kW",
+"why": "English/Latin words left: kW"
+},
+{
+"en": "Energy, kWh",
+"kind": "label",
+"max": null,
+"mt": "انرژی، kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Metered, mm",
+"kind": "label",
+"max": null,
+"mt": "اندازه گیری شده، mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Meter against log",
+"kind": "label",
+"max": null,
+"mt": "متر در برابر log",
+"why": "English/Latin words left: log"
+},
+{
+"en": "P2O5 planned, kg/ha",
+"kind": "label",
+"max": null,
+"mt": "P2O5 برنامه ریزی شده، kg/ha",
+"why": "English/Latin words left: kg ha"
+},
+{
+"en": "Energy used, kWh",
+"kind": "label",
+"max": null,
+"mt": "مصرف انرژی، kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Area of the field, ha",
+"kind": "label",
+"max": null,
+"mt": "مساحت میدان، ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Pump power, kW",
+"kind": "label",
+"max": null,
+"mt": "قدرت پمپ، kW",
+"why": "English/Latin words left: kW"
+},
+{
+"en": "Energy per m3, kWh",
+"kind": "label",
+"max": null,
+"mt": "انرژی در هر m3، kWh",
+"why": "English/Latin words left: kWh"
+},
+{
+"en": "Pump 45 kW",
+"kind": "label",
+"max": null,
+"mt": "پمپ 45 kW",
+"why": "English/Latin words left: kW"
+},
+{
+"en": "Type the daily evapotranspiration, the crop factor Kc, the days and the rain; see the water the crop needs, the usable rain, the water to irrigate in mm and in cubic metres for the area.",
+"kind": "sentence",
+"max": null,
+"mt": "میزان تبخیر روزانه، فاکتور محصول Kc، روزها و بارندگی را وارد کنید؛ آب مورد نیاز محصول، بارندگی قابل استفاده، آب آبیاری را در میلی متر و در متر مکعب برای منطقه ببینید.",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Crop factor Kc",
+"kind": "label",
+"max": null,
+"mt": "فاکتور کشت Kc",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Rain in the period, mm",
+"kind": "label",
+"max": null,
+"mt": "بارندگی در این دوره، mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Hot spell ET 7",
+"kind": "label",
+"max": null,
+"mt": "طلسم گرما ET 7",
+"why": "English/Latin words left: ET"
+},
+{
+"en": "Mature crop Kc 1.25",
+"kind": "label",
+"max": null,
+"mt": "محصول بالغ Kc 1.25",
+"why": "English/Latin words left: Kc"
+},
+{
+"en": "Irrigation still needed, mm",
+"kind": "label",
+"max": null,
+"mt": "آب پاشی هنوز لازم است، mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Hello, we expect {item} ({qty_ordered} {unit}) on {promised}. Please tell us the time of day. Our store takes deliveries between 7:00 and 16:00.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما انتظار داريم تا ساعت 3 بريم لطفاً زمان روز رو به ما بگيد فروشگاه ما بين ساعت 7 تا 16 تحویل ميده",
+"why": "placeholders must be exactly: {item} {qty_ordered} {unit} {promised}"
+},
+{
+"en": "Supplier: invoice does not match",
+"kind": "label",
+"max": null,
+"mt": "عرضه کننده: فاکتور با هم مطابقت ندارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, batch {batch} of {item} expired on {expiry}. We hold {qty} {unit}. Can you take it back or tell us how to dispose of it safely?",
+"kind": "message",
+"max": null,
+"mt": "سلام، دسته ي 1 از {item} در {expiry} منقضی شده. ما {qty} {unit} نگه داريم. آيا مي تونيد آن را برگردانيد يا به ما بگيد که چگونه آن را به طور امن از بين ببريم؟",
+"why": "placeholders must be exactly: {batch} {item} {expiry} {qty} {unit}"
+},
+{
+"en": "Hello, the fertiliser plan for {field} ({crop}, {area} ha) is ready: N {n_ha}, P2O5 {p_ha} and K2O {k_ha} kg per ha. Please check it before we order the fertiliser.",
+"kind": "message",
+"max": null,
+"mt": "سلام، نقشه کود برای {field} ({crop}، {area} هکتار) آماده است: N {n_ha}، P {area}O5} و K {area}O5} kg در هر هکتار. لطفا قبل از سفارش کود آن را بررسی کنید.",
+"why": "placeholders must be exactly: {field} {crop} {area} {n_ha} {p_ha} {k_ha}"
+},
+{
+"en": "Hello {keeper}, please check the water level in {name}. The pump may run dry. We have used {used_m3} m3 this season, which is {share} of the quota.",
+"kind": "message",
+"max": null,
+"mt": "سلام {keeper}، لطفا سطح آب را در {name} بررسی کنید. پمپ ممکن است خشک شود. ما در این فصل از {used_m3} m3 استفاده کرده ایم، که {share} از سهمیه است.",
+"why": "English/Latin words left: used"
+}
+]

@@ -1,0 +1,352 @@
+[
+{
+"en": "Field: {col:loss.field}. Crop: {col:loss.crop}. Cause: {col:loss.cause}. Date of the loss: {col:loss.date}.",
+"kind": "document",
+"max": null,
+"mt": "La cause de la perte est la date de la perte.",
+"why": "placeholders must be exactly: {col:loss.field} {col:loss.crop} {col:loss.cause} {col:loss.date}"
+},
+{
+"en": "The area lost is {col:loss.area_ha} hectares and the yield lost there is {col:loss.loss_pct}. At the target of {col:loss.target} tonnes per hectare this is {col:loss.loss_t} tonnes, worth {col:loss.loss_value}.",
+"kind": "document",
+"max": null,
+"mt": "La superficie perdue est de {col:loss.area_ha} hectares et le rendement perdu est de {col:loss.loss_pct}.",
+"why": "placeholders must be exactly: {col:loss.area_ha} {col:loss.loss_pct} {col:loss.target} {col:loss.loss_t} {col:loss.loss_value}"
+},
+{
+"en": "Decision: {col:loss.state}. Area to replant: {col:loss.replant_ha} hectares at a cost or estimate of {col:loss.replant_cost}. The report is {col:loss.age} days old.",
+"kind": "document",
+"max": null,
+"mt": "Résolution: {col:loss.state} Surface à replanter: {col:loss.replant_ha} hectares à un coût ou une estimation de {col:loss.replant_cost}.",
+"why": "placeholders must be exactly: {col:loss.state} {col:loss.replant_ha} {col:loss.replant_cost} {col:loss.age}"
+},
+{
+"en": "Job {col:contract.ct_id} on {col:contract.date}. Contractor: {col:contract.contractor}, phone {col:contract.phone}. Service: {col:contract.service}.",
+"kind": "document",
+"max": null,
+"mt": "Le contrat est en cours.",
+"why": "placeholders must be exactly: {col:contract.ct_id} {col:contract.date} {col:contract.contractor} {col:contract.phone} {col:contract.service}"
+},
+{
+"en": "Work record: {col:contract.state}. Signed on {col:contract.signed_on}.",
+"kind": "document",
+"max": null,
+"mt": "Le dossier de travail: signé le 1er.",
+"why": "placeholders must be exactly: {col:contract.state} {col:contract.signed_on}"
+},
+{
+"en": "Track inputs, fertiliser, chemicals, water and pumps in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Suivre les entrées, les engrais, les produits chimiques, l'eau et les pompes dans un livre de travail",
+"why": "too long: 101 characters, the limit is 80"
+},
+{
+"en": "Control inputs, fertiliser, chemicals, water and pump cost",
+"kind": "sentence",
+"max": 80,
+"mt": "Coût des intrants de contrôle, des engrais, des produits chimiques, de l'eau et de la pompe",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "Stock reorder point with days of cover",
+"kind": "label",
+"max": 50,
+"mt": "Point de réorganisation des stocks avec jours de couverture",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "opening stock, purchases, applications and issues give each input's balance, days of cover and an order quantity once it falls below your reorder point",
+"kind": "sentence",
+"max": 160,
+"mt": "ouverture des stocks, des achats, des demandes et des émissions donnent le solde de chaque entrée, les jours de couverture et une quantité de commande une fois qu'il tombe en dessous de votre point de récommande",
+"why": "too long: 211 characters, the limit is 160"
+},
+{
+"en": "each fertiliser price is divided by its nitrogen, phosphate and potash share so you can compare urea, compound and potash on what the nutrient really costs",
+"kind": "sentence",
+"max": 160,
+"mt": "Le prix de chaque engrais est divisé par sa part d'azote, de phosphate et de potasse afin que vous puissiez comparer l'urée, le composé et la potasse sur le coût réel des nutriments.",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "Supplier quotes ranked on landed price",
+"kind": "label",
+"max": 50,
+"mt": "Les cotations des fournisseurs classées selon le prix au débarquement",
+"why": "too long: 69 characters, the limit is 50"
+},
+{
+"en": "the last recorded spray of each product on each crop gives the first safe harvest day and flags crops you must not harvest yet",
+"kind": "sentence",
+"max": 160,
+"mt": "la dernière pulvérisation enregistrée de chaque produit sur chaque culture indique le premier jour de récolte sûre et indique les cultures que vous ne devez pas encore récolter",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Irrigation schedule with next turn and hours",
+"kind": "label",
+"max": 50,
+"mt": "Calendrier de l'irrigation avec le prochain tour et les heures",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "water pumped from every borehole, intake and canal turn is added up against its yearly quota, with licence end and pump service warnings",
+"kind": "sentence",
+"max": 160,
+"mt": "L'eau pompée à partir de chaque forage, de chaque entrée et de chaque tour de canal est additionnée à son quota annuel, avec les avertissements de fin de licence et de service de pompage.",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "Water meter against irrigation log",
+"kind": "label",
+"max": 50,
+"mt": "Le compteur d'eau par rapport au journal d'irrigation",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "meter readings are compared with the hours you logged, and the water applied is compared with the crop need after usable rain",
+"kind": "sentence",
+"max": 160,
+"mt": "Les lectures du compteur sont comparées aux heures que vous avez enregistrées, et l'eau appliquée est comparée aux besoins de la culture après la pluie utilisable",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Input cost per hectare against budget",
+"kind": "label",
+"max": 50,
+"mt": "Coût des intrants par hectare par rapport au budget",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "on-time and in-full deliveries, price against your list and days to pay are worked out for every supplier and rated reliable, watch or poor",
+"kind": "sentence",
+"max": 160,
+"mt": "les livraisons ponctuelles et intégrales, le prix par rapport à votre liste et les jours à payer sont calculés pour chaque fournisseur et classés fiables, de surveillance ou de mauvaise qualité",
+"why": "too long: 193 characters, the limit is 160"
+},
+{
+"en": "Chemical store expiry register",
+"kind": "label",
+"max": 50,
+"mt": "Registre de l'expiration des stocks de produits chimiques",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "every batch has its hazard class and expiry date, and expired or soon-to-expire products are flagged for return or safe disposal",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque lot a sa classe de danger et sa date de péremption, et les produits expirés ou sur le point de péremption sont marqués pour être retournés ou éliminés en toute sécurité",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Seed and planting material",
+"kind": "list",
+"max": 30,
+"mt": "Semences et matériel de plantation",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Seed potato, certified",
+"kind": "list",
+"max": 30,
+"mt": "Pommes de terre de semence, certifiées",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Dairy concentrate feed",
+"kind": "list",
+"max": 30,
+"mt": "Alimentation pour animaux à base de concentrés laitiers",
+"why": "too long: 55 characters, the limit is 30"
+},
+{
+"en": "Broiler starter feed",
+"kind": "list",
+"max": 30,
+"mt": "Aliments de départ pour poulets de chair",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Drip tape",
+"kind": "list",
+"max": 30,
+"mt": "Ruban adhésif à goutte à goutte",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "River intake",
+"kind": "list",
+"max": 30,
+"mt": "Réservoir d'approvisionnement en eau",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Over label limit",
+"kind": "list",
+"max": 30,
+"mt": "Dépassement de la limite de l'étiquette",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Borehole 2 Orchard",
+"kind": "list",
+"max": 30,
+"mt": "Jardin de fruits de trou de forage 2",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Borehole 4 Dairy",
+"kind": "list",
+"max": 30,
+"mt": "Produits laitiers de type \"Borehole 4\"",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Input price list with price change and nutrient cost",
+"kind": "title",
+"max": 60,
+"mt": "Liste des prix des intrants avec variation des prix et coût des nutriments",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Rating",
+"kind": "label",
+"max": null,
+"mt": "Rating",
+"why": "not translated"
+},
+{
+"en": "Input stock by store: opening, in, used and balance",
+"kind": "title",
+"max": 60,
+"mt": "Stocks d'approvisionnement par entrepôt: ouverture, entrée, utilisation et solde",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Input use per field: what was issued to which field",
+"kind": "title",
+"max": 60,
+"mt": "Utilisation des entrées par champ: ce qui a été émis pour quel champ",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Input cost per hectare for every field against its budget",
+"kind": "title",
+"max": 60,
+"mt": "Coût des intrants par hectare pour chaque champ par rapport à son budget",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Chemical store register: batches, hazard and expiry",
+"kind": "title",
+"max": 60,
+"mt": "Registre des entrepôts de produits chimiques: lots, danger et date de péremption",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Licence",
+"kind": "label",
+"max": null,
+"mt": "Licence",
+"why": "not translated"
+},
+{
+"en": "Irrigation schedule per field: depth, interval and next turn",
+"kind": "title",
+"max": 60,
+"mt": "Calendrier d'irrigation par champ: profondeur, intervalle et tour suivant",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Irrigation log: hours run and water applied",
+"kind": "title",
+"max": 60,
+"mt": "Journaux d'irrigation: heures de fonctionnement et utilisation de l'eau",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Water meter readings and the water budget per field",
+"kind": "title",
+"max": 60,
+"mt": "Les relevés du compteur d'eau et le budget de l'eau par champ",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Chemical store sheet with the batches of a product",
+"kind": "title",
+"max": 60,
+"mt": "Fiche de stockage des produits chimiques avec les lots d'un produit",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Fertiliser needed for a field from the nutrient you want",
+"kind": "title",
+"max": 60,
+"mt": "L'engrais nécessaire pour un champ à partir du nutriment que vous voulez",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Irrigation depth and run time for a field",
+"kind": "title",
+"max": 60,
+"mt": "Profondeur d'irrigation et temps de mise en œuvre pour un champ",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Pump energy cost per cubic metre, per mm and per hectare",
+"kind": "title",
+"max": 60,
+"mt": "Coût de l'énergie de la pompe par mètre cube, par mm et par hectare",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Crop water need from evapotranspiration and the crop factor",
+"kind": "title",
+"max": 60,
+"mt": "Besoin d'eau des cultures par évapotranspiration et facteur des cultures",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Drip system flow check against the pump",
+"kind": "title",
+"max": 60,
+"mt": "Vérification du débit du système de goutte à goutte par rapport à la pompe",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Hello, we order {qty_ordered} {unit} of {item} at {price} per {unit}, a value of {value}. Order number {ord_id}. Please confirm the order and the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous commandons {qty_ordered} {unit} de {item} à {price} par {unit}, une valeur de {value}.",
+"why": "placeholders must be exactly: {qty_ordered} {unit} {item} {price} {unit} {value} {ord_id}"
+},
+{
+"en": "Hello, we expect {item} ({qty_ordered} {unit}) on {promised}. Please tell us the time of day. Our store takes deliveries between 7:00 and 16:00.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous attendons une livraison le 3 s'il vous plaît dites-nous l'heure de la journée notre magasin accepte les livraisons entre 7h et 16h",
+"why": "placeholders must be exactly: {item} {qty_ordered} {unit} {promised}"
+},
+{
+"en": "Hello {vendor}, please send your best price for {qty} of {item}, delivered to our farm, with the lead time and how long the quote is valid. Your last quote was {price} per unit.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {vendor}, s'il vous plaît envoyez votre meilleur prix pour {qty} de {item}, livré à notre ferme, avec le délai et combien de temps le devis est valable.",
+"why": "placeholders must be exactly: {vendor} {qty} {item} {price}"
+},
+{
+"en": "Hello, the fertiliser plan for {field} ({crop}, {area} ha) is ready: N {n_ha}, P2O5 {p_ha} and K2O {k_ha} kg per ha. Please check it before we order the fertiliser.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le plan d'engrais pour {field} ({crop}, {area} ha) est prêt: N {n_ha}, P {area}O5 {p_ha} et K {area}O5} kg par hectare. Veuillez le vérifier avant de commander l'engrais.",
+"why": "placeholders must be exactly: {field} {crop} {area} {n_ha} {p_ha} {k_ha}"
+},
+{
+"en": "Hello {keeper}, {item} is down to {balance} {unit}, below the reorder point of {reorder_pt}. Please tell the crop manager and prepare an order of {to_order} {unit}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {keeper}, {item} est en dessous de {balance} {unit}, sous le point de ré-ordre de {reorder_pt}.",
+"why": "placeholders must be exactly: {keeper} {item} {balance} {unit} {reorder_pt} {to_order} {unit}"
+}
+]
