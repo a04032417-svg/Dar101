@@ -724,6 +724,10 @@ class Builder:
             ty = i_['type']; v = i_['default']; fmt = {'pct': '0.0%', 'money': '#,##0.00', 'int': '#,##0', 'num': '#,##0.00', 'date': 'yyyy-mm-dd', 'text': '@'}.get(ty)
             if ty == 'list': v = self.label_of(i_['list'], v)
             if ty == 'date': v = self.date_default(v)
+            if ty == 'text' and isinstance(v, str) and v.strip():
+                # 2026-11-12: a text default (e.g. a person's name) is matched against the demo rows, which are translated -> translate it too when a translation exists
+                try: v = T(v)
+                except KeyError: pass
             self.put(ws, f'B{r}', T(i_['label']), self.F(size=11), align=self.AL(wrap=True))
             self.put(ws, f'C{r}', v, self.F(size=11, bold=True, color=BLUE), CREAM, self.ALN() if ty not in ('text', 'list') else self.AL(), fmt, BOX)
             if ty == 'list': self.dv(ws, f'C{r}', self.LR(i_['list']))
