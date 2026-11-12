@@ -1,0 +1,128 @@
+[
+{
+"en": "price, landed cost, fees, packaging, picking, shipping and return allowance give the margin of every SKU on all five channels with a verdict",
+"kind": "sentence",
+"max": 160,
+"mt": "цена, стоимость доставки, сборы, упаковка, комплектация, доставка и возврат дают маржу каждого SKU по всем пяти каналам с вердиктом.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "each price change with its date, reason and size, kept for every SKU and channel",
+"kind": "sentence",
+"max": 160,
+"mt": "каждое изменение цены с указанием даты, причины и размера сохраняется для каждого SKU и канала",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Payment fee on order total",
+"kind": "list",
+"max": 30,
+"mt": "Комиссия за оплату от общей суммы заказа",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Fixed fee per order",
+"kind": "list",
+"max": 30,
+"mt": "Фиксированная комиссия за заказ",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Align with web shop",
+"kind": "list",
+"max": 30,
+"mt": "Согласовать с интернет-магазином",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Too close to call",
+"kind": "list",
+"max": 30,
+"mt": "Слишком близко, чтобы позвонить",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Candle lover gift box",
+"kind": "list",
+"max": 30,
+"mt": "Подарочная коробка для любителей свечей",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Pet comfort set",
+"kind": "list",
+"max": 30,
+"mt": "Набор для комфорта домашних животных",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Fresh table linen set",
+"kind": "list",
+"max": 30,
+"mt": "Свежий комплект столового белья",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "One row per SKU with cost, weight, the five channel prices and status; landed cost, markup and the margin on each channel fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "Одна строка для каждого SKU со стоимостью, весом, ценами пяти каналов и статусом; Стоимость доставки, наценка и маржа по каждому каналу заполняются сами по себе.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Suppliers with lead time and freight and duty rates",
+"kind": "title",
+"max": 60,
+"mt": "Поставщики со сроками выполнения заказа, ставками фрахта и пошлины",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "One row per SKU and channel; price, landed cost, fees, packaging, picking, shipping and return allowance are taken from the other pages and give the margin, a verdict and the target and floor price.",
+"kind": "sentence",
+"max": null,
+"mt": "Одна строка на SKU и канал; Цена, стоимость доставки, сборы, упаковка, комплектация, доставка и возврат берутся с других страниц и содержат маржу, вердикт, а также целевую и минимальную цену.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Target and floor margins by category and channel group",
+"kind": "title",
+"max": 60,
+"mt": "Целевая и минимальная прибыль по категориям и группам каналов",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Price history of every SKU and channel",
+"kind": "title",
+"max": 60,
+"mt": "История цен каждого SKU и канала",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per price check of a similar seller; our web price, the gap, how old the check is and whether it is the latest check of the SKU fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Одна строка на проверку цены аналогичного продавца; наша веб-цена, разрыв, сколько лет чеку и является ли это последней проверкой заполнения SKU.",
+"why": "English/Latin words left: SKU."
+},
+{
+"en": "One row per SKU and channel planned for a promotion with the promo price and expected units; the discount, the margin at the promo price and the margin given away fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Одна строка для каждого SKU и канала, запланированного для рекламной акции, с акционной ценой и ожидаемыми количествами; Заполните скидку, наценку по промо-цене и отданную наценку.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Launch tracker with first order cost and the 90-day review",
+"kind": "title",
+"max": 60,
+"mt": "Запуск трекера со стоимостью первого заказа и 90-дневным обзором",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "What if the price or the units sold change",
+"kind": "title",
+"max": 60,
+"mt": "Что делать, если цена или количество проданных единиц изменится?",
+"why": "too long: 64 characters, the limit is 60"
+}
+]

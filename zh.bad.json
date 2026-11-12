@@ -1,0 +1,58 @@
+[
+{
+"en": "price, landed cost, fees, packaging, picking, shipping and return allowance give the margin of every SKU on all five channels with a verdict",
+"kind": "sentence",
+"max": 160,
+"mt": "价格、到岸成本、费用、包装、拣货、运输和退货津贴给出了所有五个渠道上每个 SKU 的利润率",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "each price change with its date, reason and size, kept for every SKU and channel",
+"kind": "sentence",
+"max": 160,
+"mt": "为每个 SKU 和渠道保留每次价格变动及其日期、原因和金额",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per SKU with cost, weight, the five channel prices and status; landed cost, markup and the margin on each channel fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "每个 SKU 一行，包含成本、重量、五个渠道的价格和状态；每个渠道的到岸成本、加成和利润自行填写。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per SKU and channel; price, landed cost, fees, packaging, picking, shipping and return allowance are taken from the other pages and give the margin, a verdict and the target and floor price.",
+"kind": "sentence",
+"max": null,
+"mt": "每个 SKU 和渠道一行；价格、到岸成本、费用、包装、提货、运输和退货津贴取自其他页面，并给出保证金、判决以及目标价格和底价。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Price history of every SKU and channel",
+"kind": "title",
+"max": 60,
+"mt": "每个 SKU 和渠道的价格历史记录",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per price check of a similar seller; our web price, the gap, how old the check is and whether it is the latest check of the SKU fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "类似卖家的每张价格检查一行；我们的网络价格、差距、支票多久以及是否是该SKU填写的最新支票。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per bundle with up to three SKUs and the bundle price; component cost, the saving for the customer, the margin after fees and a verdict fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "每捆绑一排，最多包含三个 SKU 和捆绑价格；组件成本、为客户节省的费用、扣除费用后的利润以及填写的判决。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per SKU and channel planned for a promotion with the promo price and expected units; the discount, the margin at the promo price and the margin given away fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "计划进行促销的每个 SKU 和渠道一行，包含促销价格和预期单位；填写折扣、促销价格的利润和赠送的利润。",
+"why": "English/Latin words left: SKU"
+}
+]

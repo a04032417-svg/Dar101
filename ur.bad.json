@@ -1,0 +1,114 @@
+[
+{
+"en": "price, landed cost, fees, packaging, picking, shipping and return allowance give the margin of every SKU on all five channels with a verdict",
+"kind": "sentence",
+"max": 160,
+"mt": "قیمت، زمین کی قیمت، فیس، پیکیجنگ، پکنگ، شپنگ اور واپسی الاؤنس فیصلے کے ساتھ پانچوں چینلز پر ہر SKU کا مارجن دیتے ہیں۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "each price change with its date, reason and size, kept for every SKU and channel",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر قیمت کی تبدیلی اس کی تاریخ، وجہ اور سائز کے ساتھ، ہر SKU اور چینل کے لیے رکھی جاتی ہے۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per SKU with cost, weight, the five channel prices and status; landed cost, markup and the margin on each channel fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "قیمت، وزن، پانچ چینل کی قیمتوں اور حیثیت کے ساتھ فی SKU ایک قطار؛ لینڈڈ لاگت، مارک اپ اور ہر چینل پر مارجن خود سے بھرتے ہیں۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "SKU",
+"kind": "label",
+"max": null,
+"mt": "SKU",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per SKU and channel; price, landed cost, fees, packaging, picking, shipping and return allowance are taken from the other pages and give the margin, a verdict and the target and floor price.",
+"kind": "sentence",
+"max": null,
+"mt": "ایک قطار فی SKU اور چینل؛ قیمت، زمین کی قیمت، فیس، پیکیجنگ، پکنگ، شپنگ اور ریٹرن الاؤنس دوسرے صفحات سے لیے جاتے ہیں اور مارجن، ایک فیصلہ اور ہدف اور منزل کی قیمت دیتے ہیں۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Supplier cost changes and whether prices followed",
+"kind": "title",
+"max": 60,
+"mt": "سپلائر کی لاگت میں تبدیلی اور کیا قیمتیں اس کی پیروی کرتی ہیں۔",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Price history of every SKU and channel",
+"kind": "title",
+"max": 60,
+"mt": "ہر SKU اور چینل کی قیمت کی تاریخ",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Price change requests and how fast they are decided",
+"kind": "title",
+"max": 60,
+"mt": "قیمت میں تبدیلی کی درخواستیں اور ان کا فیصلہ کتنی تیزی سے کیا جاتا ہے۔",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "One row per price check of a similar seller; our web price, the gap, how old the check is and whether it is the latest check of the SKU fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "اسی طرح کے بیچنے والے کی ایک قطار فی قیمت چیک؛ ہماری ویب کی قیمت، فرق، چیک کتنی پرانی ہے اور آیا یہ SKU بھرنے کا تازہ ترین چیک ہے۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per bundle with up to three SKUs and the bundle price; component cost, the saving for the customer, the margin after fees and a verdict fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "ایک قطار فی بنڈل تین SKUs اور بنڈل کی قیمت کے ساتھ؛ اجزاء کی لاگت، گاہک کے لیے بچت، فیس کے بعد مارجن اور ایک فیصلہ بھرنا۔",
+"why": "English/Latin words left: SKUs"
+},
+{
+"en": "SKU 2",
+"kind": "label",
+"max": null,
+"mt": "SKU 2",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "SKU 3",
+"kind": "label",
+"max": null,
+"mt": "SKU 3",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per SKU and channel planned for a promotion with the promo price and expected units; the discount, the margin at the promo price and the margin given away fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "ایک قطار فی SKU اور چینل پرومو قیمت اور متوقع یونٹس کے ساتھ پروموشن کے لیے منصوبہ بنایا گیا ہے۔ رعایت، پرومو قیمت پر مارجن اور دیا گیا مارجن بھریں۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Launch tracker with first order cost and the 90-day review",
+"kind": "title",
+"max": 60,
+"mt": "پہلے آرڈر کی لاگت اور 90 دن کے جائزے کے ساتھ ٹریکر لانچ کریں۔",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "SKU 1",
+"kind": "label",
+"max": null,
+"mt": "SKU 1",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Supplier cost rise and the price rise to restore margin",
+"kind": "title",
+"max": 60,
+"mt": "مارجن کو بحال کرنے کے لیے سپلائر کی لاگت میں اضافہ اور قیمت میں اضافہ",
+"why": "too long: 69 characters, the limit is 60"
+}
+]

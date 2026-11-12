@@ -1,0 +1,100 @@
+[
+{
+"en": "price, landed cost, fees, packaging, picking, shipping and return allowance give the margin of every SKU on all five channels with a verdict",
+"kind": "sentence",
+"max": 160,
+"mt": "السعر وتكلفة الأرض والرسوم والتعبئة والانتقاء والشحن وبدل الإرجاع يعطي هامش كل SKU على جميع القنوات الخمس مع حكم",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "each price change with its date, reason and size, kept for every SKU and channel",
+"kind": "sentence",
+"max": 160,
+"mt": "كل تغيير في السعر مع تاريخه وسببه وحجمه، يتم الاحتفاظ به لكل SKU وقناة",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Align with web shop",
+"kind": "list",
+"max": 30,
+"mt": "محاذاة مع متجر على شبكة الإنترنت",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "One row per SKU with cost, weight, the five channel prices and status; landed cost, markup and the margin on each channel fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "صف واحد لكل SKU مع التكلفة والوزن وأسعار القنوات الخمس وحالتها؛ التكلفة الهبوطية والعلامات والهامش على كل قناة تملأ نفسها.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per SKU and channel; price, landed cost, fees, packaging, picking, shipping and return allowance are taken from the other pages and give the margin, a verdict and the target and floor price.",
+"kind": "sentence",
+"max": null,
+"mt": "صف واحد لكل SKU وقناة؛ يتم أخذ السعر وتكلفة الأرض والرسوم والتعبئة والانتقاء والشحن وبدل الإرجاع من الصفحات الأخرى وإعطاء الهامش والحكم والسعر المستهدف والحد الأدنى.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Price history of every SKU and channel",
+"kind": "title",
+"max": 60,
+"mt": "سجل الأسعار لكل SKU وقناة",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per price check of a similar seller; our web price, the gap, how old the check is and whether it is the latest check of the SKU fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "صف واحد لكل فحص سعر لبائع مماثل؛ سعر الويب الخاص بنا، والفجوة، وعمر الشيك، وما إذا كان هو أحدث شيك لملء SKU.",
+"why": "English/Latin words left: SKU."
+},
+{
+"en": "One row per bundle with up to three SKUs and the bundle price; component cost, the saving for the customer, the margin after fees and a verdict fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "صف واحد لكل حزمة مع ما يصل إلى ثلاثة وحدات SKU وسعر الحزمة؛ تكلفة المكون، والتوفير للعميل، والهامش بعد الرسوم وملء الحكم.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per SKU and channel planned for a promotion with the promo price and expected units; the discount, the margin at the promo price and the margin given away fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "صف واحد لكل SKU وقناة مخططة للترويج بالسعر الترويجي والوحدات المتوقعة؛ الخصم والهامش بالسعر الترويجي والهامش المعطى.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Average margin on Marketplace A",
+"kind": "label",
+"max": null,
+"mt": "متوسط الهامش في Marketplace A",
+"why": "English/Latin words left: Marketplace"
+},
+{
+"en": "Average margin on Marketplace B",
+"kind": "label",
+"max": null,
+"mt": "متوسط الهامش في Marketplace B",
+"why": "English/Latin words left: Marketplace"
+},
+{
+"en": "Zero margin price on Marketplace A",
+"kind": "label",
+"max": null,
+"mt": "سعر الهامش الصفري في Marketplace A",
+"why": "English/Latin words left: Marketplace"
+},
+{
+"en": "Zero margin price on Marketplace B",
+"kind": "label",
+"max": null,
+"mt": "سعر الهامش الصفري في Marketplace B",
+"why": "English/Latin words left: Marketplace"
+},
+{
+"en": "Floor margin price on Marketplace A",
+"kind": "label",
+"max": null,
+"mt": "سعر هامش الحد الأدنى في Marketplace A",
+"why": "English/Latin words left: Marketplace"
+}
+]

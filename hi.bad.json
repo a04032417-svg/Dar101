@@ -1,0 +1,93 @@
+[
+{
+"en": "price, landed cost, fees, packaging, picking, shipping and return allowance give the margin of every SKU on all five channels with a verdict",
+"kind": "sentence",
+"max": 160,
+"mt": "मूल्य, पहुंच लागत, शुल्क, पैकेजिंग, पिकिंग, शिपिंग और वापसी भत्ता सभी पांच चैनलों पर प्रत्येक SKU का मार्जिन एक फैसले के साथ देते हैं",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "each price change with its date, reason and size, kept for every SKU and channel",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक SKU और चैनल के लिए प्रत्येक मूल्य परिवर्तन उसकी तिथि, कारण और आकार के साथ रखा जाता है",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Payout wait in days",
+"kind": "list",
+"max": 30,
+"mt": "भुगतान दिनों में प्रतीक्षा करें",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "One row per SKU with cost, weight, the five channel prices and status; landed cost, markup and the margin on each channel fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "लागत, वजन, पांच चैनल की कीमतें और स्थिति के साथ प्रति SKU एक पंक्ति; प्रत्येक चैनल पर उतरने की लागत, मार्कअप और मार्जिन अपने आप भर जाते हैं।",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per SKU and channel; price, landed cost, fees, packaging, picking, shipping and return allowance are taken from the other pages and give the margin, a verdict and the target and floor price.",
+"kind": "sentence",
+"max": null,
+"mt": "प्रति SKU और चैनल एक पंक्ति; मूल्य, पहुंच लागत, शुल्क, पैकेजिंग, चयन, शिपिंग और वापसी भत्ता अन्य पृष्ठों से लिया जाता है और मार्जिन, निर्णय और लक्ष्य और न्यूनतम मूल्य देता है।",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Supplier cost changes and whether prices followed",
+"kind": "title",
+"max": 60,
+"mt": "आपूर्तिकर्ता लागत में परिवर्तन होता है और क्या कीमतों का पालन किया जाता है",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Price history of every SKU and channel",
+"kind": "title",
+"max": 60,
+"mt": "प्रत्येक SKU और चैनल का मूल्य इतिहास",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Price change requests and how fast they are decided",
+"kind": "title",
+"max": 60,
+"mt": "मूल्य परिवर्तन के अनुरोध और उन पर कितनी तेजी से निर्णय लिया जाता है",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "One row per price check of a similar seller; our web price, the gap, how old the check is and whether it is the latest check of the SKU fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "समान विक्रेता की कीमत जांच के लिए एक पंक्ति; हमारी वेब कीमत, अंतर, चेक कितना पुराना है और क्या यह SKU भरने का नवीनतम चेक है।",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "One row per bundle with up to three SKUs and the bundle price; component cost, the saving for the customer, the margin after fees and a verdict fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "अधिकतम तीन SKU और बंडल कीमत के साथ प्रति बंडल एक पंक्ति; घटक लागत, ग्राहक के लिए बचत, फीस के बाद मार्जिन और निर्णय भरें।",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Launch tracker with first order cost and the 90-day review",
+"kind": "title",
+"max": 60,
+"mt": "पहले ऑर्डर की लागत और 90 दिन की समीक्षा के साथ ट्रैकर लॉन्च करें",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Supplier cost change and whether prices followed",
+"kind": "title",
+"max": 60,
+"mt": "आपूर्तिकर्ता लागत में परिवर्तन और क्या कीमतों का पालन किया गया",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Supplier cost rise and the price rise to restore margin",
+"kind": "title",
+"max": 60,
+"mt": "आपूर्तिकर्ता लागत में वृद्धि और मार्जिन को बहाल करने के लिए कीमत में वृद्धि",
+"why": "too long: 75 characters, the limit is 60"
+}
+]
