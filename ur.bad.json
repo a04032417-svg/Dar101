@@ -1,0 +1,114 @@
+[
+{
+"en": "every proposal is scored 1 to 5 on six weighted criteria, ranked and checked against your cut-off, so the monthly portfolio meeting starts from a ranked list",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر تجویز کو چھ وزن والے معیار پر 1 سے 5 تک اسکور کیا جاتا ہے، درجہ بندی کی جاتی ہے اور آپ کے کٹ آف کے خلاف چیک کیا جاتا ہے لہذا ماہانہ پورٹ فولیو میٹنگ درجہ بندی کی فہرست سے شروع ہوتی ہے",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "every project has a charter with purpose, objective and success measure, and a charter that waits too long for its sponsor shows as overdue to sign",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر پروجیکٹ کا ایک چارٹر ہوتا ہے جس میں مقصد، مقصد اور کامیابی کی پیمائش ہوتی ہے اور اس چارٹر پر دستخط کرنے میں تاخیر ہوتی ہے جو اس کے اسپانسر کے لئے بہت زیادہ انتظار کرتا ہے",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "charter, scope, budget, team, risks and plan are six gates per project, each with a reviewer, evidence and a due date that warns before it is missed",
+"kind": "sentence",
+"max": 160,
+"mt": "چارٹر، دائرہ کار، بجٹ، ٹیم، خطرات اور منصوبہ ہر منصوبے کے لئے چھ دروازے ہیں، ہر ایک کے ساتھ ایک جائزہ لینے والا، ثبوت اور ایک مقررہ تاریخ ہے جو اس سے پہلے کہ یہ یاد کیا جائے اس سے پہلے انتباہ کرتا ہے",
+"why": "too long: 199 characters, the limit is 160"
+},
+{
+"en": "Go and no-go decision log with review dates",
+"kind": "label",
+"max": 50,
+"mt": "جائزہ کی تاریخوں کے ساتھ جانے اور جانے کے فیصلے کا نوٹ",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Quarterly budget with planned against actual",
+"kind": "label",
+"max": 50,
+"mt": "تیسری سہ ماہی کے بجٹ کے ساتھ منصوبہ بندی کے مقابلے میں اصل",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Grow recurring client revenue",
+"kind": "list",
+"max": 30,
+"mt": "بار بار آنے والے کلائنٹ کی آمدنی میں اضافہ",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Build a stronger delivery method",
+"kind": "list",
+"max": 30,
+"mt": "ایک مضبوط ترسیل کا طریقہ تیار کریں",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Investment in business cases",
+"kind": "label",
+"max": 30,
+"mt": "کاروباری معاملات میں سرمایہ کاری",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Business case: net present value, payback months and return",
+"kind": "title",
+"max": 60,
+"mt": "کاروباری صورت حال: خالص موجودہ قیمت، واپسی کے مہینے اور واپسی",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Project price from effort, vendors, contingency and margin",
+"kind": "title",
+"max": 60,
+"mt": "منصوبے کی لاگت کوشش سے، فراہم کنندگان، غیر متوقع اور مارجن سے",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Portfolio capacity check: demand days against available days",
+"kind": "title",
+"max": 60,
+"mt": "پورٹ فولیو کی گنجائش کی جانچ پڑتال: طلب کے دن دستیاب دنوں کے مقابلے میں",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Hello {manager}, the charter draft of {name} is due two weeks before the start on {start}. Please send it to the sponsor {sponsor} and to the PMO lead for review.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {manager}، {name} کے چارٹر ڈرافٹ {start} پر شروع ہونے سے دو ہفتے پہلے کی وجہ سے ہے. برائے مہربانی اسے سپانسر {sponsor} اور جائزہ کے لئے PMO لیڈ کو بھیجیں.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {filled_by}, you are staffed on {project} from {from_date} as {role} for {days_needed} days. {requested_by} will brief you. Please tell us about any clash with your other work.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {filled_by}، آپ {project} {from_date} {role} {role} {days_needed} دنوں کے لئے {project} پر عملہ ہیں. {requested_by} آپ کو آگاہ کرے گا. آپ کے دوسرے کام کے ساتھ کسی بھی تصادم کے بارے میں ہمیں بتائیں.",
+"why": "placeholders must be exactly: {filled_by} {project} {from_date} {role} {days_needed} {requested_by}"
+},
+{
+"en": "Hello, portfolio summary for {project}: decision {decision}, health {health}, progress {pct_done}, now {now}. Reason: {reason}. Decisions needed from you are marked in the review log.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {project} کے لئے پورٹ فولیو خلاصہ: فیصلہ {decision}، صحت {health}، پیش رفت {pct_done}، اب {now}.",
+"why": "placeholders must be exactly: {project} {decision} {health} {pct_done} {now} {reason}"
+},
+{
+"en": "Hello, we need a {role} for {days_needed} days from {from_date} on {project}. Do you have someone free, and at what daily rate? Please answer within two working days.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، ہمیں {from_date} سے {project} دن کے لئے {role} کی ضرورت ہے۔ کیا آپ کے پاس کوئی مفت ہے، اور کس روزانہ کی شرح پر؟ براہ کرم دو کاروباری دنوں کے اندر جواب دیں.",
+"why": "placeholders must be exactly: {role} {days_needed} {from_date} {project}"
+},
+{
+"en": "The investment is {col:cases.investment}. The expected benefit is {col:cases.benefit_year} each year for {col:cases.years} years, discounted at {col:cases.rate}.",
+"kind": "document",
+"max": null,
+"mt": "سرمایہ کاری {col:cases.investment} ہے۔ متوقع فائدہ {col:cases.benefit_year} {col:cases.years} سال کے لئے ہر سال {col:cases.benefit_year} ہے، {col:cases.rate} پر ڈسکاؤنٹ.",
+"why": "placeholders must be exactly: {col:cases.investment} {col:cases.benefit_year} {col:cases.years} {col:cases.rate}"
+}
+]

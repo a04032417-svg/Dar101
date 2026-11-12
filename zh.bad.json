@@ -1,0 +1,114 @@
+[
+{
+"en": "Hello, the funding request for {project} ({purpose}) of {requested} has waited for your approval since {requested_on}. Please approve it or tell us what you need to change.",
+"kind": "message",
+"max": null,
+"mt": "你好, {project} ({purpose}) 的资金申请已经等待您的批准. 请批准它或告诉我们您需要改变什么.",
+"why": "placeholders must be exactly: {project} {purpose} {requested} {requested_on}"
+},
+{
+"en": "Hello {requested_by}, we received your proposal {name} on {received} and scored it at {score} out of 5. We will send you our decision soon.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们收到了你的提案,并评分为5分之一.我们将很快向您发送我们的决定.",
+"why": "placeholders must be exactly: {requested_by} {name} {received} {score}"
+},
+{
+"en": "Hello {requested_by}, thank you for the proposal {name}. We cannot start it this quarter, so we move it to next quarter. We will come back to you with a date. Please tell us if your wished start of {wished_start} changes.",
+"kind": "message",
+"max": null,
+"mt": "您好,谢谢您的建议.我们不能在本季度开始,所以我们将其转移到下一个季度.我们会给您回复一个日期.请告诉我们如果您希望开始的 {wished_start} 变化.",
+"why": "placeholders must be exactly: {requested_by} {name} {wished_start}"
+},
+{
+"en": "Hello {requested_by}, thank you for the proposal {name}. After scoring it, we cannot take it on now. We would like to keep in touch and look at it again when our team has more room.",
+"kind": "message",
+"max": null,
+"mt": "你好,谢谢你的提议. 我们现在不能接受. 我们希望在团队有更多的空间时保持联系并再次查看.",
+"why": "placeholders must be exactly: {requested_by} {name}"
+},
+{
+"en": "Hello {requested_by}, good news: {name} is approved. Your wished start was {wished_start}. We will send the charter and invite you to a scope workshop. Please name your sponsor.",
+"kind": "message",
+"max": null,
+"mt": "您希望的开始是2号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号号",
+"why": "placeholders must be exactly: {requested_by} {name} {wished_start}"
+},
+{
+"en": "Hello {manager}, you are named project manager of {name} for {client}. The budget is {budget} and the start is {start}. Please prepare the charter draft and the first stakeholder list.",
+"kind": "message",
+"max": null,
+"mt": "你好,你被任命为 {name} 的项目经理.预算是 {budget},开始是 {start}.请准备章程草案和第一个利益相关者名单.",
+"why": "placeholders must be exactly: {manager} {name} {client} {budget} {start}"
+},
+{
+"en": "Hello {manager}, the charter draft of {name} is due two weeks before the start on {start}. Please send it to the sponsor {sponsor} and to the PMO lead for review.",
+"kind": "message",
+"max": null,
+"mt": "您好, {manager}, {name} 的宪章草案应在 {start} 开始前两周发出. 请将其发送给赞助商 {sponsor} 和 PMO 负责人进行审查.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {prepared_by}, the business case for {proposal} has missing figures: benefit per year {benefit_year} and years {years}. Please complete it before the scoring session.",
+"kind": "message",
+"max": null,
+"mt": "您好, {prepared_by} 的业务案例缺少数字:每年 {benefit_year} 和每年 {years}. 请在评分会议之前填写.",
+"why": "placeholders must be exactly: {prepared_by} {proposal} {benefit_year} {years}"
+},
+{
+"en": "Hello {manager}, the charter of {project} is still unsigned after {days_open} days. Please call {sponsor} and agree a date. We do not start work without a signature.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {days_open} 天后, {project} 的章程仍然未签署.请打电话给 {sponsor} 约定日期.我们不会在没有签名的情况下开始工作.",
+"why": "placeholders must be exactly: {manager} {project} {days_open} {sponsor}"
+},
+{
+"en": "Hello {filled_by}, you are staffed on {project} from {from_date} as {role} for {days_needed} days. {requested_by} will brief you. Please tell us about any clash with your other work.",
+"kind": "message",
+"max": null,
+"mt": "您的工作时间为4天. 请告诉我们与您其他工作的任何冲突.",
+"why": "placeholders must be exactly: {filled_by} {project} {from_date} {role} {days_needed} {requested_by}"
+},
+{
+"en": "Hello {name}, I would like a 30-minute talk about the project {project}. I want to hear your expectations, your worries and how you prefer to be kept informed. Which day this week suits you?",
+"kind": "message",
+"max": null,
+"mt": "你好,我想听听你的期望,你的担忧,以及你如何更愿意保持信息.",
+"why": "placeholders must be exactly: {name} {project}"
+},
+{
+"en": "Project charter of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "项目章程,日期:",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Project: {col:charters.project}. Version {col:charters.version}. Sponsor: {col:charters.sponsor}. Project manager: {col:charters.manager}.",
+"kind": "document",
+"max": null,
+"mt": "项目: 版本: 赞助商: 项目经理:",
+"why": "placeholders must be exactly: {col:charters.project} {col:charters.version} {col:charters.sponsor} {col:charters.manager}"
+},
+{
+"en": "The charter was drafted on {col:charters.drafted_on}. Its state is: {col:charters.state}. Signing it gives the project manager the authority to use the budget and to ask the team and the client for time and decisions.",
+"kind": "document",
+"max": null,
+"mt": "该章程于0日起草,其内容是: 签署它使项目经理有权使用预算,并要求团队和客户提供时间和决策.",
+"why": "placeholders must be exactly: {col:charters.drafted_on} {col:charters.state}"
+},
+{
+"en": "Business case summary of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "商业案例总结,日期:",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Subject: {col:golog.subject}. Decision: {col:golog.decision}, taken on {col:golog.decided_on} by {col:golog.decided_by}.",
+"kind": "document",
+"max": null,
+"mt": "主题: 决定:",
+"why": "placeholders must be exactly: {col:golog.subject} {col:golog.decision} {col:golog.decided_on} {col:golog.decided_by}"
+}
+]

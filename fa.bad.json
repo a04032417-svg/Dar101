@@ -1,0 +1,107 @@
+[
+{
+"en": "Score proposals, sign charters and pass the gates before every start",
+"kind": "sentence",
+"max": 80,
+"mt": "پيشنهاد ها را به دست بياريد، منشورها را امضا كنيد و قبل از هر شروع از دروازه ها عبور كنيد",
+"why": "too long: 89 characters, the limit is 80"
+},
+{
+"en": "every proposal is scored 1 to 5 on six weighted criteria, ranked and checked against your cut-off, so the monthly portfolio meeting starts from a ranked list",
+"kind": "sentence",
+"max": 160,
+"mt": "هر پیشنهاد از 1 تا 5 امتیاز در 6 معیار وزن شده، رتبه بندی شده و در مقایسه با حد بندی شما بررسی می شود، بنابراین جلسه ماهانه نمونه کارها از یک لیست رتبه بندی شده شروع می شود.",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "PMO lead",
+"kind": "list",
+"max": 30,
+"mt": "سرب PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "PMO lead phone",
+"kind": "label",
+"max": null,
+"mt": "تلفن اصلی PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Scope register: what is in and what is out",
+"kind": "title",
+"max": 60,
+"mt": "ثبت دامنه: چه چیزی در آن وجود دارد و چه چیزی در آن وجود ندارد",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello, before you sign the scope of {project} we need your answer on one item: {item}. Reason given: {reason}. Please tell us by {agree_by} whether it is in or out of scope.",
+"kind": "message",
+"max": null,
+"mt": "سلام، قبل از اینکه دامنه {project} را امضا کنید، ما به پاسخ شما در مورد یک مورد نیاز داریم: {item}. دلیل ارائه شده: {reason}. لطفا به ما بگویید که آیا در محدوده یا خارج از محدوده است.",
+"why": "placeholders must be exactly: {project} {item} {reason} {agree_by}"
+},
+{
+"en": "Hello {sponsor}, the kick-off of {name} is planned for {start}. {manager} will send the agenda. Please keep two hours free and tell us who else from your side should join.",
+"kind": "message",
+"max": null,
+"mt": "سلام، شروع {name} برای {start} برنامه ریزی شده است. {manager} دستور کار را ارسال خواهد کرد. لطفا دو ساعت آزاد نگه دارید و به ما بگویید که چه کسی از طرف شما باید به ما ملحق شود.",
+"why": "placeholders must be exactly: {sponsor} {name} {start} {manager}"
+},
+{
+"en": "Hello {manager}, the charter draft of {name} is due two weeks before the start on {start}. Please send it to the sponsor {sponsor} and to the PMO lead for review.",
+"kind": "message",
+"max": null,
+"mt": "سلام {manager}، پیش نویس منشور {name} دو هفته قبل از شروع در {start} است. لطفا آن را به اسپانسر {sponsor} و به PMO منجر به بررسی ارسال کنید.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "PMO lead: portfolio review agenda",
+"kind": "label",
+"max": null,
+"mt": "رهبری PMO: دستور کار بازنگری نمونه کارها",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "PMO lead: proposals waiting too long",
+"kind": "label",
+"max": null,
+"mt": "رهبری PMO: پیشنهادات در انتظار بیش از حد طولانی",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {filled_by}, you are staffed on {project} from {from_date} as {role} for {days_needed} days. {requested_by} will brief you. Please tell us about any clash with your other work.",
+"kind": "message",
+"max": null,
+"mt": "سلام، شما در {project} از {from_date} به عنوان {role} برای {days_needed} روز. {requested_by} به شما خبر خواهد داد. لطفا به ما در مورد هر درگیری با کار دیگر خود را بگویید.",
+"why": "placeholders must be exactly: {filled_by} {project} {from_date} {role} {days_needed} {requested_by}"
+},
+{
+"en": "Hello, portfolio summary for {project}: decision {decision}, health {health}, progress {pct_done}, now {now}. Reason: {reason}. Decisions needed from you are marked in the review log.",
+"kind": "message",
+"max": null,
+"mt": "سلام، خلاصه نمونه کارها برای {project}: تصمیم {decision}، سلامت {health}، پیشرفت {pct_done}، در حال حاضر {now}.",
+"why": "placeholders must be exactly: {project} {decision} {health} {pct_done} {now} {reason}"
+},
+{
+"en": "Hello, the proposal {name} from {client} is ranked {rank} with a score of {score} and an estimated budget of {est_budget}. The net present value is {npv}. We ask for your decision at the next portfolio review.",
+"kind": "message",
+"max": null,
+"mt": "سلام، پیشنهاد {name} از {client} با نمره {score} و بودجه تخمین زده {est_budget} رتبه بندی شده است. ارزش فعلی خالص {npv} است. ما از شما برای تصمیم گیری در بررسی نمونه کارها بعدی می خواهیم.",
+"why": "placeholders must be exactly: {name} {client} {rank} {score} {est_budget} {npv}"
+},
+{
+"en": "Subject: {col:golog.subject}. Decision: {col:golog.decision}, taken on {col:golog.decided_on} by {col:golog.decided_by}.",
+"kind": "document",
+"max": null,
+"mt": "موضوع: تصميم: تصويب شده توسط:",
+"why": "placeholders must be exactly: {col:golog.subject} {col:golog.decision} {col:golog.decided_on} {col:golog.decided_by}"
+},
+{
+"en": "Stakeholder register entry of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "ورودی در ثبت ذینفعان در تاریخ {today}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+}
+]

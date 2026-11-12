@@ -1,0 +1,261 @@
+[
+{
+"en": "Score proposals, sign charters and pass the gates before every start",
+"kind": "sentence",
+"max": 80,
+"mt": "Запишите предложения, подпишите грамоты и пройдите через ворота перед каждым началом.",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "every proposal is scored 1 to 5 on six weighted criteria, ranked and checked against your cut-off, so the monthly portfolio meeting starts from a ranked list",
+"kind": "sentence",
+"max": 160,
+"mt": "каждое предложение оценивается от 1 до 5 по шести взвешенным критериям, ранжируется и проверяется по вашим критериям, поэтому ежемесячное собрание портфеля начинается с ранжированного списка",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "charter, scope, budget, team, risks and plan are six gates per project, each with a reviewer, evidence and a due date that warns before it is missed",
+"kind": "sentence",
+"max": 160,
+"mt": "Устав, объем, бюджет, команда, риски и план - это шесть пунктов на проект, каждый с рецензентом, доказательствами и датой, которая предупреждает, прежде чем он будет пропущен",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "RACI check for exactly one accountable",
+"kind": "label",
+"max": 50,
+"mt": "Ответственность матрица проверка точно один подотчетный",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "every decision for a proposal or project keeps its readiness, conditions and review date, and a conditional go that is not reviewed on time turns overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "каждое решение о предложении или проекте сохраняет свою готовность, условия и дату рассмотрения, а условный отзыв, который не рассматривается вовремя, становится просроченным",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "amounts requested and approved, partly approved and declined requests and missing budget codes are separated so the finance partner knows what to open",
+"kind": "sentence",
+"max": 160,
+"mt": "суммы, запрошенные и утвержденные, частично утвержденные и отклоненные запросы и отсутствующие коды бюджета разделены, чтобы финансовый партнер знал, что открыть",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Quarterly budget with planned against actual",
+"kind": "label",
+"max": 50,
+"mt": "Квартальный бюджет с планируемым по сравнению с фактическим",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "PMO lead",
+"kind": "list",
+"max": 30,
+"mt": "Свинцовый PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "QA engineer",
+"kind": "list",
+"max": 30,
+"mt": "Инженер по обеспечению качества",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Existing client expansion",
+"kind": "list",
+"max": 30,
+"mt": "Расширение существующих клиентов",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Grow recurring client revenue",
+"kind": "list",
+"max": 30,
+"mt": "Увеличение доходов от постоянных клиентов",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Improve project margin",
+"kind": "list",
+"max": 30,
+"mt": "Улучшение рентабельности проекта",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Build a stronger delivery method",
+"kind": "list",
+"max": 30,
+"mt": "Построить более надежный метод доставки",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "PMO lead phone",
+"kind": "label",
+"max": null,
+"mt": "Телефон PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Quarterly portfolio budget: planned and actual spend",
+"kind": "title",
+"max": 60,
+"mt": "Бюджет квартального портфеля: запланированные и фактические расходы",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Proposal value received",
+"kind": "label",
+"max": 30,
+"mt": "Полученная стоимость предложения",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Business case: net present value, payback months and return",
+"kind": "title",
+"max": 60,
+"mt": "Бизнес-вариант: чистая текущая стоимость, месяцы окупаемости и доходность",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Project price from effort, vendors, contingency and margin",
+"kind": "title",
+"max": 60,
+"mt": "Цена проекта от затрат, поставщиков, непредвиденных обстоятельств и маржи",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Team size and duration: the cost of adding people",
+"kind": "title",
+"max": 60,
+"mt": "Размер и продолжительность работы команды: стоимость привлечения персонала",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Go/no-go readiness score from the gate answers",
+"kind": "title",
+"max": 60,
+"mt": "Оценка готовности к запуску/отказанию от ответов на вопросы в воротах",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Portfolio capacity check: demand days against available days",
+"kind": "title",
+"max": 60,
+"mt": "Проверка пропускной способности портфеля: дни спроса по сравнению с доступными днями",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Hello {sponsor}, the kick-off of {name} is planned for {start}. {manager} will send the agenda. Please keep two hours free and tell us who else from your side should join.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, оставьте два часа свободными и скажите нам, кто еще из вашей стороны должен присоединиться.",
+"why": "placeholders must be exactly: {sponsor} {name} {start} {manager}"
+},
+{
+"en": "Hello {requested_by}, we received your proposal {name} on {received} and scored it at {score} out of 5. We will send you our decision soon.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы получили ваше предложение {name} на {received} и отметили его на {score} из 5.",
+"why": "placeholders must be exactly: {requested_by} {name} {received} {score}"
+},
+{
+"en": "Hello {requested_by}, thank you for the proposal {name}. After scoring it, we cannot take it on now. We would like to keep in touch and look at it again when our team has more room.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, спасибо за предложение. мы не можем принять это сейчас. мы хотели бы поддерживать связь и посмотреть на это снова, когда у нашей команды будет больше места.",
+"why": "placeholders must be exactly: {requested_by} {name}"
+},
+{
+"en": "Hello {requested_by}, good news: {name} is approved. Your wished start was {wished_start}. We will send the charter and invite you to a scope workshop. Please name your sponsor.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, хорошие новости: {name} одобрено. Ваш желаемый старт был {wished_start}. Мы отправим грамоту и пригласим вас на мастер-класс. Пожалуйста, назовите своего спонсора.",
+"why": "placeholders must be exactly: {requested_by} {name} {wished_start}"
+},
+{
+"en": "Hello {contact}, the contract for {name} is ready to sign. The start date is {start} and the planned end is {end}. Please tell us who signs for {client}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {contact}, контракт на {name} готов к подписанию. Дата начала {start} и запланированный конец {end}.",
+"why": "placeholders must be exactly: {contact} {name} {start} {end} {client}"
+},
+{
+"en": "Hello {manager}, the charter draft of {name} is due two weeks before the start on {start}. Please send it to the sponsor {sponsor} and to the PMO lead for review.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {manager}, проект устава {name} должен быть подготовлен за две недели до начала {start}. Пожалуйста, отправьте его спонсору {sponsor} и руководителю PMO для рассмотрения.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {filled_by}, you are staffed on {project} from {from_date} as {role} for {days_needed} days. {requested_by} will brief you. Please tell us about any clash with your other work.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, вы работаете с 2 по 3 дня. пожалуйста, сообщите нам о любых конфликтах с вашей другой работой.",
+"why": "placeholders must be exactly: {filled_by} {project} {from_date} {role} {days_needed} {requested_by}"
+},
+{
+"en": "Hello, portfolio summary for {project}: decision {decision}, health {health}, progress {pct_done}, now {now}. Reason: {reason}. Decisions needed from you are marked in the review log.",
+"kind": "message",
+"max": null,
+"mt": "Привет, резюме портфеля для {project}: решение {decision}, здоровье {health}, прогресс {pct_done}, сейчас {now}.",
+"why": "placeholders must be exactly: {project} {decision} {health} {pct_done} {now} {reason}"
+},
+{
+"en": "Hello, the proposal {name} from {client} is ranked {rank} with a score of {score} and an estimated budget of {est_budget}. The net present value is {npv}. We ask for your decision at the next portfolio review.",
+"kind": "message",
+"max": null,
+"mt": "Привет, предложение {name} от {client} оценивается {rank} с баллом {score} и расчетным бюджетом {est_budget}.",
+"why": "placeholders must be exactly: {name} {client} {rank} {score} {est_budget} {npv}"
+},
+{
+"en": "The approved budget is {col:charters.budget}. The project starts on {col:charters.start} and its baseline end is {col:charters.end}.",
+"kind": "document",
+"max": null,
+"mt": "Проект начинается в {col:charters.start} и его исходный конец {col:charters.end}.",
+"why": "placeholders must be exactly: {col:charters.budget} {col:charters.start} {col:charters.end}"
+},
+{
+"en": "The charter was drafted on {col:charters.drafted_on}. Its state is: {col:charters.state}. Signing it gives the project manager the authority to use the budget and to ask the team and the client for time and decisions.",
+"kind": "document",
+"max": null,
+"mt": "Подписание статута дает руководителю проекта полномочия использовать бюджет и просить команду и клиента о времени и решениях.",
+"why": "placeholders must be exactly: {col:charters.drafted_on} {col:charters.state}"
+},
+{
+"en": "The investment is {col:cases.investment}. The expected benefit is {col:cases.benefit_year} each year for {col:cases.years} years, discounted at {col:cases.rate}.",
+"kind": "document",
+"max": null,
+"mt": "Ожидаемая выгода составляет {col:cases.benefit_year} каждый год в течение {col:cases.years} лет, дисконтированная на {col:cases.rate}.",
+"why": "placeholders must be exactly: {col:cases.investment} {col:cases.benefit_year} {col:cases.years} {col:cases.rate}"
+},
+{
+"en": "The net present value is {col:cases.npv}. The investment is paid back in {col:cases.payback_m} months and the return over the period is {col:cases.roi}. The verdict is: {col:cases.state}.",
+"kind": "document",
+"max": null,
+"mt": "Чистая текущая стоимость {col:cases.npv}. Инвестиция погашается в {col:cases.payback_m} месяцев, а доходность за период {col:cases.roi}.",
+"why": "placeholders must be exactly: {col:cases.npv} {col:cases.payback_m} {col:cases.roi} {col:cases.state}"
+},
+{
+"en": "We accept a payback of up to {set:payback_max} months. A proposal with a negative net present value or a slow payback needs a strategic reason before it is approved.",
+"kind": "document",
+"max": null,
+"mt": "Предложение с отрицательной чистой текущей стоимостью или медленной окупаемостью требует стратегической причины, прежде чем оно будет одобрено.",
+"why": "placeholders must be exactly: {set:payback_max}"
+},
+{
+"en": "Subject: {col:golog.subject}. Decision: {col:golog.decision}, taken on {col:golog.decided_on} by {col:golog.decided_by}.",
+"kind": "document",
+"max": null,
+"mt": "Предмет: Решение: принятое.",
+"why": "placeholders must be exactly: {col:golog.subject} {col:golog.decision} {col:golog.decided_on} {col:golog.decided_by}"
+},
+{
+"en": "The decision is reviewed on {col:golog.review_on}. The review state is: {col:golog.state}.",
+"kind": "document",
+"max": null,
+"mt": "Решение пересматривается в {col:golog.review_on}.",
+"why": "placeholders must be exactly: {col:golog.review_on} {col:golog.state}"
+}
+]
