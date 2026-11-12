@@ -1,0 +1,597 @@
+[
+{
+"en": "Team",
+"kind": "sheet",
+"max": 31,
+"mt": "Team",
+"why": "not translated"
+},
+{
+"en": "Scope Statement Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Toelichtingsblad van het toepassingsgebied",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Team Size Trade-off",
+"kind": "sheet",
+"max": 31,
+"mt": "Een afweging van de grootte van het team",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Scope Change Impact",
+"kind": "sheet",
+"max": 31,
+"mt": "Gevolgen van de wijziging van het toepassingsgebied",
+"why": "too long: 51 characters, the limit is 31"
+},
+{
+"en": "Business Case Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Samenvatting van de business case",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Scope Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Verklaring van het toepassingsgebied",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Entry",
+"kind": "sheet",
+"max": 31,
+"mt": "Inschrijving van belanghebbenden",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Proposal Intake Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het opnemen van voorstellen",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Business Case Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor beoordeling van zaken",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Charter Approval Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de goedkeuring van het charter",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Analysis Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de analyse van de belanghebbenden",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Project Kick-off Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Steun voor de uitvoering van projecten",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Quarterly Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Vierjaarlijkse beoordelingsstappen",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "External Dependency Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Externe afhankelijkheidsformulier",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Critical Items Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Verslag over kritieke onderdelen",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Resource Levelling",
+"kind": "sheet",
+"max": 31,
+"mt": "Het gelijkstellen van de middelen",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Monthly Utilisation Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Maandelijkse evaluatie van de benutting",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Contractor Offboarding Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "De opdrachtgever moet de stappen van het schip verlaten.",
+"why": "too long: 56 characters, the limit is 31"
+},
+{
+"en": "Resource Planning Meeting",
+"kind": "sheet",
+"max": 31,
+"mt": "Vergadering voor de planning van de middelen",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Year-end Training Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Opleidingsplan voor het einde van het jaar",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Project Financial Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Financiële samenvatting van het project",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Project Variance in Money",
+"kind": "sheet",
+"max": 31,
+"mt": "Variantie van het project in geld",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Payment Due and Discount",
+"kind": "sheet",
+"max": 31,
+"mt": "Betaling verschuldigd en korting",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Change Request Price",
+"kind": "sheet",
+"max": 31,
+"mt": "Prijs van het verzoek tot wijziging",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Overrun and Rate Rise",
+"kind": "sheet",
+"max": 31,
+"mt": "Overschrijding en renteverhoging",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Budget Against Actual",
+"kind": "sheet",
+"max": 31,
+"mt": "Begroting ten opzichte van feitelijke",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Earned Value Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport over de verdiende waarde",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Contingency Use Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Verklaring over het gebruik voor onvoorziene omstandigheden",
+"why": "too long: 59 characters, the limit is 31"
+},
+{
+"en": "Budget Approval Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de goedkeuring van de begroting",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Purchase Request to Order Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Aankoopverzoek om stappen te bestellen",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Vendor Selection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de keuze van de leverancier",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Invoice Approval Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de goedkeuring van de factuur",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Change Cost Approval Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de goedkeuring van kostenwijzigingen",
+"why": "too long: 49 characters, the limit is 31"
+},
+{
+"en": "Forecast Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Steppen voor de herziening van de prognose",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Contingency Release Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het vrijgeven van noodoplossingen",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Project Cost Close Out Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Projectkosten afsluitingsstappen",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Client Milestone Billing Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "De afrekeningsstappen van de mijlpaal van de klant",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Risk and Change Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Risico- en veranderingsdashboard",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Change Board Decisions",
+"kind": "sheet",
+"max": 31,
+"mt": "Veranderingsbesluiten van de raad",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Contingency Drawdowns",
+"kind": "sheet",
+"max": 31,
+"mt": "Uittreksels voor onvoorziene omstandigheden",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Change Board Decision Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Verandering van het besluitblad van de raad",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Issue Escalation Level",
+"kind": "sheet",
+"max": 31,
+"mt": "Niveau van escalering van de kwestie",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Assumption Validation Date",
+"kind": "sheet",
+"max": 31,
+"mt": "Datum van validatie van de veronderstelling",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Change Approval Notice",
+"kind": "sheet",
+"max": 31,
+"mt": "Kennisgeving van wijzigingsgoedkeuring",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Change Rejection Notice",
+"kind": "sheet",
+"max": 31,
+"mt": "Kennisgeving van afwijzing van wijziging",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Weekly Risk Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "wekelijkse risicobeoordelingsstappen",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Change Impact Assessment Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor effectbeoordeling van wijzigingen",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Change Board Meeting Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Verandering van de bestuursvergadering stappen",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Decision Recording Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "De stappen voor de registratie van de beslissing",
+"why": "too long: 48 characters, the limit is 31"
+},
+{
+"en": "Assumption Validation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de validatie van veronderstellingen",
+"why": "too long: 48 characters, the limit is 31"
+},
+{
+"en": "Lessons Learned Workshop Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Lessen die zijn getrokken workshop stappen",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Sprints",
+"kind": "sheet",
+"max": 31,
+"mt": "Sprints",
+"why": "not translated"
+},
+{
+"en": "Burndown Data",
+"kind": "sheet",
+"max": 31,
+"mt": "Gegevens van het verbrandingsgrafiek",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Work in Progress Limits",
+"kind": "sheet",
+"max": 31,
+"mt": "Beperkingen voor werkzaamheden in gang",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Daily Stand-ups",
+"kind": "sheet",
+"max": 31,
+"mt": "Dagelijkse stand-up-bijeenkomsten",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Backlog Item Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Inhoud van de achterstallige posten",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Release Notes",
+"kind": "sheet",
+"max": 31,
+"mt": "Release Notes",
+"why": "not translated"
+},
+{
+"en": "Backlog Refinement Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het verfijnen van de achterstand",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Meetings and Reports Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Meeting- en rapportagepaneelbord",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Engagement Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Betrokkenheid van belanghebbenden",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Sponsor Decision Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Verzoek om beslissing van de opdrachtgever",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Strategy",
+"kind": "sheet",
+"max": 31,
+"mt": "Strategie van de belanghebbenden",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Report Due Date",
+"kind": "sheet",
+"max": 31,
+"mt": "Verloopdatum van de verslaglegging",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Action Closure Rate",
+"kind": "sheet",
+"max": 31,
+"mt": "Het percentage dat de actie wordt afgesloten",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Sponsor Decision Clock",
+"kind": "sheet",
+"max": 31,
+"mt": "Tijd voor de beslissing van de sponsor",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Engagement Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Plan voor betrokkenheid van belanghebbenden",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Client Satisfaction Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Samenvatting van de klanttevredenheid",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Weekly Status Report Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor wekelijkse statusrapporten",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Steering Pack Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Voorbereidingsstappen voor het stuur",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Meeting Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de voorbereiding van de vergadering",
+"why": "too long: 48 characters, the limit is 31"
+},
+{
+"en": "Engagement Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de herziening van de betrokkenheid",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Monthly Client Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Maandelijkse beoordelingsstappen van de cliënt",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Project Close Message Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Sluitingsstappen van het project",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Quality and Delivery Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Dashboard voor kwaliteit en levering",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Defect Removal Efficiency",
+"kind": "sheet",
+"max": 31,
+"mt": "Efficiëntie van het verwijderen van gebreken",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Test Exit Criteria",
+"kind": "sheet",
+"max": 31,
+"mt": "Criteria voor het uitsluiten van de test",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Acceptance Days and Payment",
+"kind": "sheet",
+"max": 31,
+"mt": "Dagen van aanvaarding en betaling",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Warranty End Date",
+"kind": "sheet",
+"max": 31,
+"mt": "Datum van beëindiging van de garantie",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Project Closure Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Verslag over de afsluiting van het project",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Post-Project Review Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Verslag over de evaluatie na het project",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Defect Triage Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het sorteren van defecten",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "User Acceptance Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de aanvaarding door de gebruiker",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Go-Live Readiness Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de gereedheid voor live-opstart",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Handover to Support Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Overdracht aan ondersteunende stappen",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Benefits Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de beoordeling van de voordelen",
+"why": "too long: 44 characters, the limit is 31"
+}
+]

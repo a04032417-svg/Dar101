@@ -1,0 +1,576 @@
+[
+{
+"en": "Portfolio Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Painel de instrumentos de carteira",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Funding Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de pedido de financiamento",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Team Size Trade-off",
+"kind": "sheet",
+"max": 31,
+"mt": "Compensação do tamanho da equipa",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Scope Change Impact",
+"kind": "sheet",
+"max": 31,
+"mt": "Impacto da alteração do âmbito de aplicação",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Entry",
+"kind": "sheet",
+"max": 31,
+"mt": "Introdução das partes interessadas",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Business Case Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão dos casos de negócios",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Scope Baseline Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Escala de referência do âmbito de aplicação",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Analysis Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de análise das partes interessadas",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Stage Gate Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão da porta de estágio",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Critical Items Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório sobre elementos críticos",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Timesheet Approvals",
+"kind": "sheet",
+"max": 31,
+"mt": "Autorizações de folha de horários",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Overtime Log",
+"kind": "sheet",
+"max": 31,
+"mt": "Registo de horas extraordinárias",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Overtime Approval Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de aprovação de horas extraordinárias",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Contractor Booking Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de contabilidade do empreiteiro",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Project Team Plan Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Ficha de plano da equipa do projecto",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Timesheet Completion",
+"kind": "sheet",
+"max": 31,
+"mt": "Completamento da folha de horários",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Weekly Timesheet Close",
+"kind": "sheet",
+"max": 31,
+"mt": "Fechamento da folha de horários semanal",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Contractor Onboarding Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de incorporação do contratado",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Contractor Offboarding Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de desembarque do contratante",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Resource Planning Meeting",
+"kind": "sheet",
+"max": 31,
+"mt": "Reunião de planeamento de recursos",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Budget Transfer Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de transferência orçamental",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Project Variance in Money",
+"kind": "sheet",
+"max": 31,
+"mt": "Variança do projecto em dinheiro",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Budget End Date",
+"kind": "sheet",
+"max": 31,
+"mt": "Data de encerramento do orçamento",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Three Way Match",
+"kind": "sheet",
+"max": 31,
+"mt": "Compatibilidade em três direcções .",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Change Request Price",
+"kind": "sheet",
+"max": 31,
+"mt": "Preço da solicitação de alteração",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Contingency Draw Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificação do sorteio de contingência",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Budget Against Actual",
+"kind": "sheet",
+"max": 31,
+"mt": "Orçamento em relação ao orçamento real",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Vendor Payment Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendário de pagamentos do fornecedor",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Contingency Use Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Declaração de utilização de contingência",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Budget Approval Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de aprovação do orçamento",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Vendor Selection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de selecção do fornecedor",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Change Cost Approval Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de aprovação de custos de alteração",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Contingency Release Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de libertação de contingência",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Project Cost Close Out Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de encerramento do custo do projecto",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Client Milestone Billing Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de faturamento de marcos do cliente",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Risk and Change Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Painel de controlo de riscos e alterações",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Change Board Decisions",
+"kind": "sheet",
+"max": 31,
+"mt": "Alteração das decisões do conselho",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Change Board Decision Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Alteração da folha de decisão do conselho",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Risk Score Tool",
+"kind": "sheet",
+"max": 31,
+"mt": "Instrumento de avaliação do risco",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Change Approval Notice",
+"kind": "sheet",
+"max": 31,
+"mt": "Anúncio de alteração da homologação",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Weekly Risk Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas semanais de avaliação dos riscos",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Change Request Intake Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de admissão da solicitação de alteração",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Change Impact Assessment Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de avaliação do impacto da alteração",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Change Board Meeting Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Alterar as etapas da reunião do conselho",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Assumption Validation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de validação da suposição",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Lessons Learned Workshop Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Lições aprendidas etapas do workshop",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Sprints",
+"kind": "sheet",
+"max": 31,
+"mt": "Sprints",
+"why": "not translated"
+},
+{
+"en": "Burndown Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificação do gráfico de queima",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "WIP Limit Advice",
+"kind": "sheet",
+"max": 31,
+"mt": "Aconselhamento sobre o limite de WIP",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Backlog Refinement Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de aperfeiçoamento do backlog",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Steering Pack Items",
+"kind": "sheet",
+"max": 31,
+"mt": "Elementos do equipamento de direção",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Contacts",
+"kind": "sheet",
+"max": 31,
+"mt": "Contactos com as partes interessadas",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Weekly Status Report Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de relatório semanal do estado",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Engagement Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de compromisso das partes interessadas",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Meeting Agenda Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Ficha de ordem do dia da reunião",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Client Feedback Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de comentários dos clientes",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Sponsor Decision Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de pedido de decisão do promotor",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Status Health from Variance",
+"kind": "sheet",
+"max": 31,
+"mt": "Saúde do estado a partir da variância",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Strategy",
+"kind": "sheet",
+"max": 31,
+"mt": "Estratégia das partes interessadas",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Client Satisfaction Score",
+"kind": "sheet",
+"max": 31,
+"mt": "Pontuação de satisfação do cliente",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Steering Pack Counters",
+"kind": "sheet",
+"max": 31,
+"mt": "Contadores do equipamento do volante",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Sponsor Decision Clock",
+"kind": "sheet",
+"max": 31,
+"mt": "Relógio de decisão do patrocinador",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Action List by Owner",
+"kind": "sheet",
+"max": 31,
+"mt": "Lista de acções por proprietário",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Engagement Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Plano de participação das partes interessadas",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Weekly Status Report Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas do relatório semanal de estado",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Steering Pack Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de preparação do equipamento de direção",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Client Update Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de atualização do cliente",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Stakeholder Interview Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas da entrevista com as partes interessadas",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Engagement Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão do compromisso",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Escalation to Steering Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Escalada para os degraus do volante",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Monthly Client Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão mensal do cliente",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Project Close Message Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de mensagem de encerramento do projeto",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Defect Removal Efficiency",
+"kind": "sheet",
+"max": 31,
+"mt": "Eficiência de eliminação de defeitos",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Test Summary Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de síntese dos ensaios",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Project Closure Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de encerramento do projecto",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Post-Project Review Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de revisão pós-projeto",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Deliverable Submission Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de apresentação de resultados",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "User Acceptance Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de aceitação do utilizador",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Go-Live Readiness Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de preparação para o lançamento",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Handover to Support Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Transferência para etapas de apoio",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Project Closure Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de encerramento do projecto",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Benefits Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão dos benefícios",
+"why": "too long: 32 characters, the limit is 31"
+}
+]
