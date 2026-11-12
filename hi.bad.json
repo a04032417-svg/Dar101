@@ -1,0 +1,149 @@
+[
+{
+"en": "hours by kind of work, hours per week over the last four weeks and the labour cost are totalled for each person and compared with the contract",
+"kind": "sentence",
+"max": 160,
+"mt": "काम के प्रकार के अनुसार घंटे, पिछले चार सप्ताह के दौरान प्रति सप्ताह घंटे और श्रम लागत प्रत्येक व्यक्ति के लिए एकत्रित की जाती है और अनुबंध के साथ तुलना की जाती है",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "area, share of yield lost and the field target give tonnes and money lost, and each loss shows replanted, replant needed or accept loss",
+"kind": "sentence",
+"max": 160,
+"mt": "क्षेत्रफल, उपज का हिस्सा खो दिया और क्षेत्र लक्ष्य टन और पैसे खो देते हैं और प्रत्येक हानि दिखाता है पुनः रोपण, पुनः रोपण की आवश्यकता है या नुकसान स्वीकार करते हैं",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Tractor 110 hp",
+"kind": "list",
+"max": 30,
+"mt": "ट्रैक्टर 110 hp",
+"why": "English/Latin words left: hp"
+},
+{
+"en": "Pre-harvest interval and re-entry tracker for every field",
+"kind": "title",
+"max": 60,
+"mt": "प्रत्येक खेत के लिए फसल के पूर्व अंतराल और पुनः प्रवेश ट्रैकर",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Weed control log: passes, labour and how well they worked",
+"kind": "title",
+"max": 60,
+"mt": "खरपतवार नियंत्रण लॉगः पास, श्रम और वे कितनी अच्छी तरह से काम करते हैं",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Area covered per hour and days to finish a field",
+"kind": "title",
+"max": 60,
+"mt": "एक क्षेत्र को पूरा करने के लिए प्रति घंटे और दिनों में कवर किया गया क्षेत्र",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Hello, today's work order for {field}: {task} with {machine}, {planned_ha} ha in {hours_plan} hours. Operator: {operator}. Please confirm before 7:00.",
+"kind": "message",
+"max": null,
+"mt": "हैलो, आज के कार्य आदेश के लिए {field}: {task} {machine}, {planned_ha} {planned_ha} {hours_plan} घंटे में है। ऑपरेटरः {operator} कृपया 7:00 बजे से पहले पुष्टि करें।",
+"why": "placeholders must be exactly: {field} {task} {machine} {planned_ha} {hours_plan} {operator}"
+},
+{
+"en": "Hello {supervisor}, we may have a spray window tomorrow on {field} ({crop}, {area_ha} ha). Check the wind at 6:00 and tell me if the team can start.",
+"kind": "message",
+"max": null,
+"mt": "हैलो {supervisor}, हम {field} {crop} {area_ha} है पर एक छिड़काव खिड़की कल हो सकता है {crop} {crop} {area_ha} है। 6:00 पर हवा की जाँच करें और मुझे बताएं कि क्या टीम शुरू कर सकते हैं।",
+"why": "placeholders must be exactly: {supervisor} {field} {crop} {area_ha}"
+},
+{
+"en": "Hello {operator}, take {machine} to {field} for {task} (week of {week_start}, {planned_ha} ha). Please check fuel and grease first.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {operator}, {machine} को {field} के लिए {task} ले लो {week_start} (सप्ताह के {week_start}, {planned_ha} हेक्टेयर) कृपया पहले ईंधन और तेल की जाँच करें।",
+"why": "placeholders must be exactly: {operator} {machine} {field} {task} {week_start} {planned_ha}"
+},
+{
+"en": "Hello {contractor}, we book {service} on {field} for {date}: {area_ha} ha at {rate_ha} per ha. Please confirm your crew and arrival time.",
+"kind": "message",
+"max": null,
+"mt": "हैलो {contractor}, हम {service} पर {field} बुक {date}: {area_ha} हेक्टेयर प्रति {rate_ha} पर {area_ha} हेक्टेयर. कृपया अपने चालक दल और आगमन के समय की पुष्टि करें.",
+"why": "placeholders must be exactly: {contractor} {service} {field} {date} {area_ha} {rate_ha}"
+},
+{
+"en": "Hello, the interval on {field} ends on {earliest} after {product}. Planned harvest {plan}. Date check: {clash}. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "हैलो, {field} पर अंतराल {earliest} {product} के बाद {earliest} समाप्त होता है। योजनाबद्ध फसल {plan} दिनांक जाँचः {clash} कृपया पुष्टि करें।",
+"why": "placeholders must be exactly: {field} {earliest} {product} {plan} {clash}"
+},
+{
+"en": "Hello, {field} ({crop}, {season}) gave {yield_ha} t/ha against a target of {target_t_ha}, {gap_t} t short. Please send the reasons before Friday.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {field} ({crop}, {season}) {yield_ha} t/ha {target_t_ha} के लक्ष्य के खिलाफ {gap_t} t कम दिया. कृपया शुक्रवार से पहले कारण भेजें.",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello, rain stops work. {task} on {field} ({planned_ha} ha, week of {week_start}) moves. Please send me a new plan by noon.",
+"kind": "message",
+"max": null,
+"mt": "हैलो, बारिश काम बंद कर देता है. {task} {planned_ha} है, सप्ताह के {week_start} पर चलता है. कृपया मुझे दोपहर तक एक नई योजना भेजें.",
+"why": "placeholders must be exactly: {task} {field} {planned_ha} {week_start}"
+},
+{
+"en": "Hello, we need {litres} litres of {product} for {field} ({crop}). Batch {batch} was used on {date}. Please confirm the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, हमें {litres} लीटर {product} {field} ({crop}) के लिए {litres} लीटर {product} की आवश्यकता है. {batch} बैच {date} पर इस्तेमाल किया गया था. कृपया वितरण की तारीख की पुष्टि करें.",
+"why": "placeholders must be exactly: {litres} {product} {field} {crop} {batch} {date}"
+},
+{
+"en": "Hello, {kind} hit your field {field} on {date}. About {area_ha} ha are damaged ({damage_pct}), an estimated {loss_t} t. We will send the inspection report.",
+"kind": "message",
+"max": null,
+"mt": "हैलो, {kind} {field} {date} {kind} {field} {date} {date} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {damage_pct} {loss_t}",
+"why": "placeholders must be exactly: {kind} {field} {date} {area_ha} {damage_pct} {loss_t}"
+},
+{
+"en": "Hello {operator}, please send your timesheet for {date} on {field}: {hours} hours with {machine}, crew of {crew}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {operator}, कृपया {date} के लिए {date} भेजें {field}: {hours} {machine} के साथ {hours} घंटे, {crew} के चालक दल. धन्यवाद.",
+"why": "placeholders must be exactly: {operator} {date} {field} {hours} {machine} {crew}"
+},
+{
+"en": "Hello, please check spray {sp_id}: {product} at {dose_l_ha} l/ha on {area_ha} ha of {field}, wind {wind_kmh} km/h. Wind check: {wind_state}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, कृपया स्प्रे {sp_id} की जाँच करें: {product} {dose_l_ha} l/ha पर {area_ha} ha पर {field}, हवा {wind_kmh} किमी/घंटा. हवा की जाँचः {wind_state}.",
+"why": "English/Latin words left: ha ha"
+},
+{
+"en": "Weather: {col:diary.cond}, with {col:diary.rain} mm of rain recorded. People on site: {col:diary.people}.",
+"kind": "document",
+"max": null,
+"mt": "मौसमः {col:diary.cond}, वर्षा के साथ {col:diary.rain} मिमी दर्ज किया गया।",
+"why": "placeholders must be exactly: {col:diary.cond} {col:diary.rain} {col:diary.people}"
+},
+{
+"en": "Conditions: wind {col:sprays.wind_kmh} km/h, temperature {col:sprays.temp_c} C. Wind check: {col:sprays.wind_state}. Operator: {col:sprays.operator}.",
+"kind": "document",
+"max": null,
+"mt": "परिस्थितियाँः हवा {col:sprays.wind_kmh} किमी/घंटा, तापमान {col:sprays.temp_c} C. हवा की जांचः {col:sprays.wind_state}. ऑपरेटरः {col:sprays.operator}.",
+"why": "English/Latin words left: C."
+},
+{
+"en": "The yield is {col:yield.yield_ha} tonnes per hectare, which is {col:yield.vs_target} against the target. Verdict: {col:yield.state}. Tonnes below target: {col:yield.gap_t}.",
+"kind": "document",
+"max": null,
+"mt": "उपज {col:yield.yield_ha} टन प्रति हेक्टेयर है, जो कि लक्ष्य के विरुद्ध {col:yield.vs_target} है।",
+"why": "placeholders must be exactly: {col:yield.yield_ha} {col:yield.vs_target} {col:yield.state} {col:yield.gap_t}"
+},
+{
+"en": "Recorded by {col:weather.recorded_by}. The field limits are in the settings: rain that stops work {set:rain_stop} mm and storm wind {set:storm_wind} km/h.",
+"kind": "document",
+"max": null,
+"mt": "क्षेत्र की सीमाएं सेटिंग्स में हैंः बारिश जो काम को रोकती है {set:rain_stop} मिमी और तूफान हवा {set:storm_wind} किमी / घंटा।",
+"why": "placeholders must be exactly: {col:weather.recorded_by} {set:rain_stop} {set:storm_wind}"
+}
+]

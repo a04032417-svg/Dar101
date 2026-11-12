@@ -1,0 +1,345 @@
+[
+{
+"en": "Run daily field work, spraying and harvest records with built-in checks",
+"kind": "sentence",
+"max": 80,
+"mt": "Menjalankan pekerjaan lapangan harian, penyemprotan dan panen catatan dengan built-in pemeriksaan",
+"why": "too long: 97 characters, the limit is 80"
+},
+{
+"en": "Daily field work, spray records, intervals, loads and yield per field",
+"kind": "sentence",
+"max": 80,
+"mt": "Pekerjaan lapangan harian, catatan penyemprotan, interval, beban dan hasil per ladang",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "the latest spray, every label interval and the re-entry time give the earliest harvest date and a warning when the planned harvest clashes with it",
+"kind": "sentence",
+"max": 160,
+"mt": "penyemprotan terakhir, setiap interval label dan waktu masuk kembali memberikan tanggal panen paling awal dan peringatan ketika panen yang direncanakan bertentangan dengannya",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Spray records with record and wind checks",
+"kind": "label",
+"max": 50,
+"mt": "Catatan penyemprotan dengan pemeriksaan catatan dan angin",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "every scouting report is compared with the threshold of that pest on that crop and shows how many times over it is and the product to use",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap laporan pengintaian dibandingkan dengan ambang batas hama tersebut pada tanaman tersebut dan menunjukkan berapa kali melebihi dan produk yang akan digunakan",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Weather log with workable day check",
+"kind": "label",
+"max": 50,
+"mt": "Log cuaca dengan pemeriksaan hari yang dapat dilakukan",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "each weighed load shows tonnes, the weight lost when drying to safe moisture and a check of too wet, needs drying or dry enough",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap beban ditimbang menunjukkan ton, berat yang hilang saat pengeringan ke kelembaban yang aman dan pemeriksaan terlalu basah, membutuhkan pengeringan atau cukup kering",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Crop loss with replanting decision",
+"kind": "label",
+"max": 50,
+"mt": "Kehilangan tanaman dengan keputusan penanaman kembali",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "area, share of yield lost and the field target give tonnes and money lost, and each loss shows replanted, replant needed or accept loss",
+"kind": "sentence",
+"max": 160,
+"mt": "area, pangsa hasil yang hilang dan target lapangan memberikan ton dan uang hilang dan setiap kerugian menunjukkan ditanam kembali, ditanam kembali diperlukan atau menerima kerugian",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Baling",
+"kind": "list",
+"max": 30,
+"mt": "Baling",
+"why": "not translated"
+},
+{
+"en": "Aphids",
+"kind": "list",
+"max": 30,
+"mt": "Aphids",
+"why": "not translated"
+},
+{
+"en": "Blight",
+"kind": "list",
+"max": 30,
+"mt": "Blight",
+"why": "not translated"
+},
+{
+"en": "Mulching",
+"kind": "list",
+"max": 30,
+"mt": "Mulching",
+"why": "not translated"
+},
+{
+"en": "Operator",
+"kind": "label",
+"max": null,
+"mt": "Operator",
+"why": "not translated"
+},
+{
+"en": "Spray records: product, dose, area, wind and operator",
+"kind": "title",
+"max": 60,
+"mt": "Catatan penyemprotan: produk, dosis, area, angin dan operator",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Batch",
+"kind": "label",
+"max": null,
+"mt": "Batch",
+"why": "not translated"
+},
+{
+"en": "Pre-harvest interval and re-entry tracker for every field",
+"kind": "title",
+"max": 60,
+"mt": "Interval pra panen dan pelacak masuk kembali untuk setiap ladang",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Pest and disease action thresholds for every crop",
+"kind": "title",
+"max": 60,
+"mt": "Batas tindakan terhadap hama dan penyakit untuk setiap tanaman",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Weed control log: passes, labour and how well they worked",
+"kind": "title",
+"max": 60,
+"mt": "Log kontrol gulma: izin, tenaga kerja dan seberapa baik mereka bekerja",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Gauge, mm",
+"kind": "label",
+"max": null,
+"mt": "Gauge, mm",
+"why": "not translated"
+},
+{
+"en": "Weekly work orders: what is planned and what was done",
+"kind": "title",
+"max": 60,
+"mt": "Perintah kerja mingguan: apa yang direncanakan dan apa yang dilakukan",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Crop growth stage of every field with a harvest forecast",
+"kind": "title",
+"max": 60,
+"mt": "Tahap pertumbuhan tanaman dari setiap ladang dengan perkiraan panen",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Contractor work records: spraying, harvesting and other jobs",
+"kind": "title",
+"max": 60,
+"mt": "Catatan kerja kontraktor: penyemprotan, panen dan pekerjaan lainnya",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Area covered per hour and days to finish a field",
+"kind": "title",
+"max": 60,
+"mt": "Area yang ditutupi per jam dan hari untuk menyelesaikan lapangan",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Pre-harvest interval check: earliest harvest date",
+"kind": "title",
+"max": 60,
+"mt": "Pemeriksaan interval sebelum panen: tanggal panen paling awal",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Weeding labour need for hand weeding",
+"kind": "title",
+"max": 60,
+"mt": "Kebutuhan tenaga kerja untuk menggerogoti rumput liar dengan tangan",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Hello {contractor}, we book {service} on {field} for {date}: {area_ha} ha at {rate_ha} per ha. Please confirm your crew and arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Halo, kami memesan 1 untuk 3 ha dengan harga 5 ha. mohon konfirmasi awak dan waktu kedatangan.",
+"why": "placeholders must be exactly: {contractor} {service} {field} {date} {area_ha} {rate_ha}"
+},
+{
+"en": "Hello {contractor}, your crew is expected on {field} ({area_ha} ha) on {date}. Please bring your weigh record and call the gate on arrival.",
+"kind": "message",
+"max": null,
+"mt": "Halo, awakmu diharapkan di Ha 3 tolong bawa catatan beratmu dan hubungi gerbang saat tiba.",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date}"
+},
+{
+"en": "Hello {contractor}, please sign the work record for {field} ({area_ha} ha), done on {date}. Cost {cost}. Status: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {contractor}, silahkan tanda tangani catatan kerja untuk {field} ({area_ha} ha), dilakukan pada {date}.",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date} {cost} {state}"
+},
+{
+"en": "Hello, {pest} on {field} is {times} times the threshold ({level} against {threshold}). Product on the plan: {product}. Please confirm the spray.",
+"kind": "message",
+"max": null,
+"mt": "Halo, {pest} pada {field} adalah {times} kali ambang ({level} terhadap {threshold}).",
+"why": "placeholders must be exactly: {pest} {field} {times} {level} {threshold} {product}"
+},
+{
+"en": "Hello, the interval on {field} ends on {earliest} after {product}. Planned harvest {plan}. Date check: {clash}. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Halo, interval pada {field} berakhir pada {earliest} setelah {product}.",
+"why": "placeholders must be exactly: {field} {earliest} {product} {plan} {clash}"
+},
+{
+"en": "Hello, spray record {sp_id} on {field} of {date} shows: {state}. Please ask {operator} to complete it today.",
+"kind": "message",
+"max": null,
+"mt": "Halo, catatan semprot {sp_id} pada {field} dari {date} menunjukkan: {state}.",
+"why": "placeholders must be exactly: {sp_id} {field} {date} {state} {operator}"
+},
+{
+"en": "Hello, {kind} hit {field} on {date}: {area_ha} ha, damage {damage_pct}. Please inspect the {crop} today and send photos.",
+"kind": "message",
+"max": null,
+"mt": "Halo, {kind} memukul {field} pada {date}: {area_ha} ha, kerusakan {damage_pct}.",
+"why": "placeholders must be exactly: {kind} {field} {date} {area_ha} {damage_pct} {crop}"
+},
+{
+"en": "Hello, rain stops work. {task} on {field} ({planned_ha} ha, week of {week_start}) moves. Please send me a new plan by noon.",
+"kind": "message",
+"max": null,
+"mt": "Halo, hujan berhenti bekerja. tolong kirimkan rencana baru pada siang hari.",
+"why": "placeholders must be exactly: {task} {field} {planned_ha} {week_start}"
+},
+{
+"en": "Hello {operator}, the weeding team goes to {field} ({area_ha} ha) using {method}: {workers} people, {hours} hours. Meet at the shed at 6:30.",
+"kind": "message",
+"max": null,
+"mt": "Halo, tim pemotong rumput akan pergi ke lahan dengan menggunakan orang, bertemu di gudang pukul 6:30.",
+"why": "placeholders must be exactly: {operator} {field} {area_ha} {method} {workers} {hours}"
+},
+{
+"en": "Hello, {field} needs replanting: {replant_ha} ha of {crop} after {cause}. Decision: {state}. Please prepare seed and the drill.",
+"kind": "message",
+"max": null,
+"mt": "Halo, {field} membutuhkan penanaman ulang: {replant_ha} hektar {crop} setelah {cause}.",
+"why": "placeholders must be exactly: {field} {replant_ha} {crop} {cause} {state}"
+},
+{
+"en": "Hello {name}, you worked {week_avg} hours a week over the last four weeks against {hours_week} in your contract. Please talk to me about time off.",
+"kind": "message",
+"max": null,
+"mt": "Halo, Anda bekerja 1 jam per minggu selama 4 minggu terakhir.",
+"why": "placeholders must be exactly: {name} {week_avg} {hours_week}"
+},
+{
+"en": "Entry {col:diary.dy_id} for {col:diary.date}. Written by {col:diary.author} on {col:diary.entered_on}. Entry check: {col:diary.state}.",
+"kind": "document",
+"max": null,
+"mt": "entri {col:diary.dy_id} untuk {col:diary.date}. Ditulis oleh {col:diary.author} pada {col:diary.entered_on}.",
+"why": "placeholders must be exactly: {col:diary.dy_id} {col:diary.date} {col:diary.author} {col:diary.entered_on} {col:diary.state}"
+},
+{
+"en": "Weather: {col:diary.cond}, with {col:diary.rain} mm of rain recorded. People on site: {col:diary.people}.",
+"kind": "document",
+"max": null,
+"mt": "Cuaca: {col:diary.cond}, dengan {col:diary.rain} mm hujan tercatat.",
+"why": "placeholders must be exactly: {col:diary.cond} {col:diary.rain} {col:diary.people}"
+},
+{
+"en": "Record {col:sprays.sp_id}: {col:sprays.date} at {col:sprays.time}. Field: {col:sprays.field}. Crop: {col:sprays.crop}. Target: {col:sprays.target}.",
+"kind": "document",
+"max": null,
+"mt": "Catatan {col:sprays.sp_id}: {col:sprays.date} pada {col:sprays.time}.",
+"why": "placeholders must be exactly: {col:sprays.sp_id} {col:sprays.date} {col:sprays.time} {col:sprays.field} {col:sprays.crop} {col:sprays.target}"
+},
+{
+"en": "Conditions: wind {col:sprays.wind_kmh} km/h, temperature {col:sprays.temp_c} C. Wind check: {col:sprays.wind_state}. Operator: {col:sprays.operator}.",
+"kind": "document",
+"max": null,
+"mt": "Kondisi: angin {col:sprays.wind_kmh} km/jam, suhu {col:sprays.temp_c} C. Pemeriksaan angin: {col:sprays.wind_state}.",
+"why": "placeholders must be exactly: {col:sprays.wind_kmh} {col:sprays.temp_c} {col:sprays.wind_state} {col:sprays.operator}"
+},
+{
+"en": "Pre-harvest interval: {col:sprays.phi_days} days, so the earliest harvest is {col:sprays.harvest_ok}. Re-entry: {col:sprays.rei_h} hours, so people may enter again from {col:sprays.reentry}. Record check: {col:sprays.state}.",
+"kind": "document",
+"max": null,
+"mt": "Interval pra-panen: {col:sprays.phi_days} hari, jadi panen paling awal adalah {col:sprays.harvest_ok}. Re-entry: {col:sprays.rei_h} jam, sehingga orang dapat masuk lagi dari {col:sprays.reentry}.",
+"why": "placeholders must be exactly: {col:sprays.phi_days} {col:sprays.harvest_ok} {col:sprays.rei_h} {col:sprays.reentry} {col:sprays.state}"
+},
+{
+"en": "People may enter the field again from {col:phi.entry_from} ({col:phi.rei} hours). Re-entry check: {col:phi.entry}.",
+"kind": "document",
+"max": null,
+"mt": "Orang-orang dapat memasuki lapangan lagi dari {col:phi.entry_from} ({col:phi.rei} jam).",
+"why": "placeholders must be exactly: {col:phi.entry_from} {col:phi.rei} {col:phi.entry}"
+},
+{
+"en": "The planned harvest date is {col:phi.plan}. Harvest date check: {col:phi.clash}.",
+"kind": "document",
+"max": null,
+"mt": "Tanggal panen yang direncanakan adalah {col:phi.plan}.",
+"why": "placeholders must be exactly: {col:phi.plan} {col:phi.clash}"
+},
+{
+"en": "Threshold check: {col:scout.state}. Product to use if action is needed: {col:scout.product}.",
+"kind": "document",
+"max": null,
+"mt": "Pemeriksaan ambang: {col:scout.state}.",
+"why": "placeholders must be exactly: {col:scout.state} {col:scout.product}"
+},
+{
+"en": "The field had {col:stages.ops_n} jobs and {col:stages.sprays_n} sprays this season, and {col:stages.rain_since} mm of rain since the start.",
+"kind": "document",
+"max": null,
+"mt": "Bidang ini memiliki pekerjaan dan semprotan musim ini, dan 2 mm hujan sejak awal.",
+"why": "placeholders must be exactly: {col:stages.ops_n} {col:stages.sprays_n} {col:stages.rain_since}"
+},
+{
+"en": "The yield is {col:yield.yield_ha} tonnes per hectare, which is {col:yield.vs_target} against the target. Verdict: {col:yield.state}. Tonnes below target: {col:yield.gap_t}.",
+"kind": "document",
+"max": null,
+"mt": "Hasil adalah {col:yield.yield_ha} ton per hektar, yang {col:yield.vs_target} melawan target.",
+"why": "placeholders must be exactly: {col:yield.yield_ha} {col:yield.vs_target} {col:yield.state} {col:yield.gap_t}"
+},
+{
+"en": "The harvest is worth {col:yield.value} at {col:yield.price_t} per tonne. The average moisture was {col:yield.moist}.",
+"kind": "document",
+"max": null,
+"mt": "Panen bernilai 1 per ton. rata-rata kelembaban adalah 2",
+"why": "placeholders must be exactly: {col:yield.value} {col:yield.price_t} {col:yield.moist}"
+},
+{
+"en": "The average of the last four weeks is {col:crew.week_avg} hours a week against {col:crew.hours_week} contract hours. Overtime check: {col:crew.state}.",
+"kind": "document",
+"max": null,
+"mt": "Rata-rata empat minggu terakhir adalah {col:crew.week_avg} jam seminggu terhadap {col:crew.hours_week} jam kontrak.",
+"why": "placeholders must be exactly: {col:crew.week_avg} {col:crew.hours_week} {col:crew.state}"
+}
+]

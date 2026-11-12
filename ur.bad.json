@@ -1,0 +1,226 @@
+[
+{
+"en": "Price each crop for one hectare on Crop Budget. The margin, break-even yield and break-even price fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "فصلوں کا بجٹ پر ایک ہیکٹر کے لئے ہر فصل کی قیمت. مارجن، break-even پیداوار اور break-even قیمت میں بھرنے.",
+"why": "English/Latin words left: break even break even"
+},
+{
+"en": "every scouting report is compared with the threshold of that pest on that crop and shows how many times over it is and the product to use",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر اسکاؤٹنگ رپورٹ کا موازنہ اس فصل پر موجود اس کیڑے کی حد سے کیا جاتا ہے اور اس میں یہ ظاہر ہوتا ہے کہ اس کی حد سے کتنے گنا زیادہ ہے اور کون سا پروڈکٹ استعمال کرنا ہے",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Tractor 110 hp",
+"kind": "list",
+"max": 30,
+"mt": "ٹریکٹر 110 hp",
+"why": "English/Latin words left: hp"
+},
+{
+"en": "Tractor 75 hp",
+"kind": "list",
+"max": 30,
+"mt": "ٹریکٹر 75 HP",
+"why": "English/Latin words left: HP"
+},
+{
+"en": "Forage harvester",
+"kind": "list",
+"max": 30,
+"mt": "مویشیوں کے لئے مویشیوں کی کٹائی کرنے والا",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Broad-spectrum herbicide",
+"kind": "list",
+"max": 30,
+"mt": "وسیع اسپیکٹرم جڑی بوٹیاں مارنے والا",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Pre-emergence herbicide",
+"kind": "list",
+"max": 30,
+"mt": "پہلے سے موجود جڑی بوٹیوں کا جراثیم کش",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Post-emergence herbicide",
+"kind": "list",
+"max": 30,
+"mt": "پیدائش کے بعد استعمال ہونے والا جڑی بوٹیاں مارنے والا ادویات",
+"why": "too long: 60 characters, the limit is 30"
+},
+{
+"en": "Knapsack sprayer A",
+"kind": "list",
+"max": 30,
+"mt": "Knapsack sprayer A",
+"why": "English/Latin words left: Knapsack sprayer"
+},
+{
+"en": "Pre-harvest interval and re-entry tracker for every field",
+"kind": "title",
+"max": 60,
+"mt": "ہر کھیت کے لئے فصل سے پہلے کا وقفہ اور دوبارہ داخل ہونے کا ٹریکر",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Weed control log: passes, labour and how well they worked",
+"kind": "title",
+"max": 60,
+"mt": "جڑی بوٹیوں کے کنٹرول کا نوشتہ: پاس، مزدوری اور وہ کس حد تک کام کرتے ہیں",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Weekly work orders: what is planned and what was done",
+"kind": "title",
+"max": 60,
+"mt": "ہفتہ وار کام کے احکامات: کیا منصوبہ بندی کی گئی ہے اور کیا کیا گیا ہے",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Target yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "ہدف پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Average yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "اوسط پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Area covered per hour and days to finish a field",
+"kind": "title",
+"max": 60,
+"mt": "فی گھنٹہ اور ایک فیلڈ کو ختم کرنے کے دن کا احاطہ کیا گیا علاقہ",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Yield on the field area, t/ha",
+"kind": "label",
+"max": null,
+"mt": "کھیت کے رقبے پر پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello, today's work order for {field}: {task} with {machine}, {planned_ha} ha in {hours_plan} hours. Operator: {operator}. Please confirm before 7:00.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، آج کے کام کے حکم کے لئے {field}: {task} {machine}، {planned_ha} {planned_ha} {hours_plan} گھنٹے میں. آپریٹر: {operator} 7:00 سے پہلے کی تصدیق کریں.",
+"why": "placeholders must be exactly: {field} {task} {machine} {planned_ha} {hours_plan} {operator}"
+},
+{
+"en": "Hello {supervisor}, harvest of {crop} on {field} is planned for {harvest_plan} ({area_ha} ha). Please check the machines and the trailers the day before.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {supervisor}، {crop} {field} پر {harvest_plan} ({area_ha} ہیکٹر کے لئے {crop} کی کٹائی کی منصوبہ بندی کی جاتی ہے. براہ مہربانی مشینوں اور ٹریلرز سے پہلے دن کی جانچ پڑتال کریں.",
+"why": "placeholders must be exactly: {supervisor} {crop} {field} {harvest_plan} {area_ha}"
+},
+{
+"en": "Hello {operator}, take {machine} to {field} for {task} (week of {week_start}, {planned_ha} ha). Please check fuel and grease first.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {operator}، {machine} {field} {task} کے لئے {machine} لے لو {week_start} {planned_ha} ہیکٹر. براہ مہربانی پہلے ایندھن اور چکنائی چیک کریں.",
+"why": "placeholders must be exactly: {operator} {machine} {field} {task} {week_start} {planned_ha}"
+},
+{
+"en": "Hello {operator}, after spraying {field} on {date} please rinse the tank and the nozzles with clean water and drain the rinse away from ditches.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {operator}، {date} پر {field} چھڑکنے کے بعد ٹینک اور nozzles صاف پانی کے ساتھ کللا اور کھائیوں سے دور کللا ڈرین کریں.",
+"why": "English/Latin words left: nozzles"
+},
+{
+"en": "Hello {contractor}, we book {service} on {field} for {date}: {area_ha} ha at {rate_ha} per ha. Please confirm your crew and arrival time.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {contractor}، ہم {service} {field} پر {date}: {area_ha} فی ہیکٹر {rate_ha} فی ہیکٹر پر {service} بک کراتے ہیں۔ براہ کرم اپنے عملے اور آمد کے وقت کی تصدیق کریں۔",
+"why": "placeholders must be exactly: {contractor} {service} {field} {date} {area_ha} {rate_ha}"
+},
+{
+"en": "Hello, the interval on {field} ends on {earliest} after {product}. Planned harvest {plan}. Date check: {clash}. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {field} پر وقفہ {earliest} {product} کے بعد {earliest} ختم ہوتا ہے. منصوبہ بندی کی فصل {plan}. تاریخ کی جانچ پڑتال: {clash}. براہ مہربانی تصدیق کریں.",
+"why": "placeholders must be exactly: {field} {earliest} {product} {plan} {clash}"
+},
+{
+"en": "Hello, spray record {sp_id} on {field} of {date} shows: {state}. Please ask {operator} to complete it today.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {field} پر {date} دکھاتا ہے {state} سپرے ریکارڈ {sp_id}: {state} براہ مہربانی {operator} آج مکمل کرنے کے لئے پوچھیں.",
+"why": "placeholders must be exactly: {sp_id} {field} {date} {state} {operator}"
+},
+{
+"en": "Hello, {field} ({crop}, {season}) gave {yield_ha} t/ha against a target of {target_t_ha}, {gap_t} t short. Please send the reasons before Friday.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {field} ({crop}، {season}) {yield_ha} t/ha {target_t_ha} کے ہدف کے خلاف {gap_t} t کم دیا.",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello, {kind} hit {field} on {date}: {area_ha} ha, damage {damage_pct}. Please inspect the {crop} today and send photos.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {kind} {date} پر {field} مارا: {area_ha} ha، نقصان {damage_pct}. براہ مہربانی {crop} آج معائنہ اور تصاویر بھیجیں.",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello, rain stops work. {task} on {field} ({planned_ha} ha, week of {week_start}) moves. Please send me a new plan by noon.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، بارش کام روکتا ہے. {task} {planned_ha} {planned_ha} ہا، ہفتہ کے {week_start} منتقل. براہ مہربانی مجھے دوپہر تک ایک نیا منصوبہ بھیجیں.",
+"why": "placeholders must be exactly: {task} {field} {planned_ha} {week_start}"
+},
+{
+"en": "Hello, {kind} hit your field {field} on {date}. About {area_ha} ha are damaged ({damage_pct}), an estimated {loss_t} t. We will send the inspection report.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {kind} {field} {date} پر آپ کے میدان {kind} مارا. تقریبا {area_ha} ہیکٹر نقصان پہنچا ہے {damage_pct}، ایک اندازے کے مطابق {loss_t} t. ہم معائنہ کی رپورٹ بھیجیں گے.",
+"why": "placeholders must be exactly: {kind} {field} {date} {area_ha} {damage_pct} {loss_t}"
+},
+{
+"en": "Hello {operator}, please send your timesheet for {date} on {field}: {hours} hours with {machine}, crew of {crew}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {operator}، {field} پر {date} کے لئے آپ کے اوقات شیٹ بھیجیں {field}: {hours} گھنٹے {machine}، {crew} کے عملے کے ساتھ. شکریہ.",
+"why": "placeholders must be exactly: {operator} {date} {field} {hours} {machine} {crew}"
+},
+{
+"en": "Hello, please check spray {sp_id}: {product} at {dose_l_ha} l/ha on {area_ha} ha of {field}, wind {wind_kmh} km/h. Wind check: {wind_state}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، براہ مہربانی سپرے {sp_id} چیک کریں: {product} {dose_l_ha} {area_ha} {field} {field} {area_ha} {field} {area_ha} {area_ha} {area_ha} {field} {field} {field} {field} {field} {field} {field} {field} {field} {field} {field} {field} {wind_kmh} {wind_kmh} {wind_kmh} {wind_kmh} {wind_kmh} {wind_kmh} {wind_kmh} {wind_state} {wind_state} {wind_state} {",
+"why": "placeholders must be exactly: {sp_id} {product} {dose_l_ha} {area_ha} {field} {wind_kmh} {wind_state}"
+},
+{
+"en": "Conditions: wind {col:sprays.wind_kmh} km/h, temperature {col:sprays.temp_c} C. Wind check: {col:sprays.wind_state}. Operator: {col:sprays.operator}.",
+"kind": "document",
+"max": null,
+"mt": "حالات: ہوا {col:sprays.wind_kmh} کلومیٹر فی گھنٹہ، درجہ حرارت {col:sprays.temp_c} C. ہوا کی جانچ پڑتال: {col:sprays.wind_state}. آپریٹر: {col:sprays.operator}.",
+"why": "English/Latin words left: C."
+},
+{
+"en": "People may enter the field again from {col:phi.entry_from} ({col:phi.rei} hours). Re-entry check: {col:phi.entry}.",
+"kind": "document",
+"max": null,
+"mt": "لوگ {col:phi.entry_from} ({col:phi.rei} گھنٹے) سے میدان میں دوبارہ داخل ہو سکتے ہیں۔",
+"why": "placeholders must be exactly: {col:phi.entry_from} {col:phi.rei} {col:phi.entry}"
+},
+{
+"en": "Report {col:scout.sc_id} of {col:scout.date}. Field: {col:scout.field}. Crop: {col:scout.crop}. Scout: {col:scout.scout}.",
+"kind": "document",
+"max": null,
+"mt": "{col:scout.sc_id} {col:scout.date} کی رپورٹ {col:scout.field} فیلڈ: {col:scout.field} فصل: {col:scout.crop} سکاؤٹ: {col:scout.scout}",
+"why": "placeholders must be exactly: {col:scout.sc_id} {col:scout.date} {col:scout.field} {col:scout.crop} {col:scout.scout}"
+}
+]

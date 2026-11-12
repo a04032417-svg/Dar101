@@ -1,0 +1,506 @@
+[
+{
+"en": "Daily field work, spray records, intervals, loads and yield per field",
+"kind": "sentence",
+"max": 80,
+"mt": "Dagelijkse veldwerkzaamheden, bespuitingsgegevens, intervallen, belastingen en opbrengst per veld",
+"why": "too long: 97 characters, the limit is 80"
+},
+{
+"en": "Pre-harvest interval tracker for every field",
+"kind": "label",
+"max": 50,
+"mt": "Voor elk veld een tracker voor de intervallen vóór de oogst",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "the latest spray, every label interval and the re-entry time give the earliest harvest date and a warning when the planned harvest clashes with it",
+"kind": "sentence",
+"max": 160,
+"mt": "de laatste bespuiting, elk etiketinterval en de tijd van de herintroductie geven de vroegste oogstdatum en een waarschuwing wanneer de geplande oogst met die datum botst",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Spray records with record and wind checks",
+"kind": "label",
+"max": 50,
+"mt": "Bespuitingsgegevens met registratie- en windcontroles",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "product, dose, area, water and wind are checked, and a missing product or dose or a spray in too much wind is flagged at once",
+"kind": "sentence",
+"max": 160,
+"mt": "het product, de dosis, het gebied, het water en de wind worden gecontroleerd en een ontbrekend product of dosis of een spray in te veel wind wordt onmiddellijk gemarkeerd",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "every scouting report is compared with the threshold of that pest on that crop and shows how many times over it is and the product to use",
+"kind": "sentence",
+"max": 160,
+"mt": "elk onderzoeksverslag wordt vergeleken met de drempel van dat plaagmiddel op dat gewas en geeft aan hoeveel keer deze drempel is overschreden en welk product moet worden gebruikt;",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Yield per field against the target",
+"kind": "label",
+"max": 50,
+"mt": "Opbrengst per veld ten opzichte van het streefcijfer",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "tonnes from the load log divided by the area give yield per hectare, the gap to target, the value and a verdict once the harvest is done",
+"kind": "sentence",
+"max": 160,
+"mt": "ton van het ladinglogboek gedeeld door het gebied geeft opbrengst per hectare, het verschil met het streefcijfer, de waarde en een uitspraak zodra de oogst is voltooid",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "hectares and hours logged in the week are set against the plan and each order is marked not started, behind, on schedule or ahead",
+"kind": "sentence",
+"max": 160,
+"mt": "de in de week geregistreerde hectaren en uren worden in verhouding gesteld tot het plan en elke volgorde wordt aangeduid als niet gestart, achter, op schema of vooruit",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "hours by kind of work, hours per week over the last four weeks and the labour cost are totalled for each person and compared with the contract",
+"kind": "sentence",
+"max": 160,
+"mt": "de aantal uren per soort werk, de aantal uren per week gedurende de laatste vier weken en de arbeidskosten voor elke persoon worden samengevat en vergeleken met het contract",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Baling",
+"kind": "list",
+"max": 30,
+"mt": "Baling",
+"why": "not translated"
+},
+{
+"en": "Tipper trailer 10 tonne",
+"kind": "list",
+"max": 30,
+"mt": "Aanhanger met kantelkraan 10 ton",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Grain or fruit filling",
+"kind": "list",
+"max": 30,
+"mt": "Vulling van granen of van vruchten",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Aphids",
+"kind": "list",
+"max": 30,
+"mt": "Aphids",
+"why": "not translated"
+},
+{
+"en": "Root rot",
+"kind": "list",
+"max": 30,
+"mt": "Root rot",
+"why": "not translated"
+},
+{
+"en": "Mulching",
+"kind": "list",
+"max": 30,
+"mt": "Mulching",
+"why": "not translated"
+},
+{
+"en": "Storm",
+"kind": "list",
+"max": 30,
+"mt": "Storm",
+"why": "not translated"
+},
+{
+"en": "Irrigation repair",
+"kind": "list",
+"max": 30,
+"mt": "Reparatie van irrigatiesystemen",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Wind",
+"kind": "list",
+"max": 30,
+"mt": "Wind",
+"why": "not translated"
+},
+{
+"en": "Wetter than station",
+"kind": "list",
+"max": 30,
+"mt": "Het is natter dan op het station .",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Operator",
+"kind": "label",
+"max": null,
+"mt": "Operator",
+"why": "not translated"
+},
+{
+"en": "Sowing records: seed lot, rate, depth and area",
+"kind": "title",
+"max": 60,
+"mt": "Inschrijvingen van het zaaien: zaadpartij, hoeveelheid, diepte en oppervlakte",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Spray records: product, dose, area, wind and operator",
+"kind": "title",
+"max": 60,
+"mt": "Bespuitingsgegevens: product, dosis, oppervlakte, wind en gebruiker",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Wind, km/h",
+"kind": "label",
+"max": null,
+"mt": "Wind, km/h",
+"why": "not translated"
+},
+{
+"en": "Pre-harvest interval and re-entry tracker for every field",
+"kind": "title",
+"max": 60,
+"mt": "Interval voor de oogst en herintroductie-tracker voor elk veld",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Scout",
+"kind": "label",
+"max": null,
+"mt": "Scout",
+"why": "not translated"
+},
+{
+"en": "Pest and disease action thresholds for every crop",
+"kind": "title",
+"max": 60,
+"mt": "drempelwaarden voor bestrijding van plagen en ziekten voor elk gewas",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Weed control log: passes, labour and how well they worked",
+"kind": "title",
+"max": 60,
+"mt": "Weedbestrijdingslog: paspoorten, arbeid en hoe goed ze werkten",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Ticket",
+"kind": "label",
+"max": null,
+"mt": "Ticket",
+"why": "not translated"
+},
+{
+"en": "Yield per field and season against the target",
+"kind": "title",
+"max": 60,
+"mt": "Opbrengst per veld en seizoen ten opzichte van de doelstelling",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Field rain gauge readings against the weather station",
+"kind": "title",
+"max": 60,
+"mt": "Regenmetermetingen op het veld ten opzichte van het weerstation",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Planned hours",
+"kind": "label",
+"max": null,
+"mt": "Planned hours",
+"why": "not translated"
+},
+{
+"en": "Sprayer and seed drill calibration records",
+"kind": "title",
+"max": 60,
+"mt": "Registratie van de kalibratie van de spuitmachine en de zaadborrel",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Contractor work records: spraying, harvesting and other jobs",
+"kind": "title",
+"max": 60,
+"mt": "Werkregister van de aannemer: bespuiting, oogst en andere werkzaamheden",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Sprayer calibration: litres per hectare from the nozzles",
+"kind": "title",
+"max": 60,
+"mt": "Kalibratie van de sproeiers: liter per hectare van de sproeiers",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Seed rate check from the seed drill output",
+"kind": "title",
+"max": 60,
+"mt": "Controle van het zaadpercentage op basis van de zaadbooropbrengst",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Grain moisture shrink and drying cost",
+"kind": "title",
+"max": 60,
+"mt": "Kosten voor de terugdringing en het drogen van het vocht van het graan",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Weeding labour need for hand weeding",
+"kind": "title",
+"max": 60,
+"mt": "Onkruidplukken arbeidskrachten nodig voor handmatig onkruidplukken",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Hello, today's work order for {field}: {task} with {machine}, {planned_ha} ha in {hours_plan} hours. Operator: {operator}. Please confirm before 7:00.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, de werkbestelling van vandaag voor {field}: {task} met {machine}, {planned_ha} ha in {hours_plan} uur.",
+"why": "placeholders must be exactly: {field} {task} {machine} {planned_ha} {hours_plan} {operator}"
+},
+{
+"en": "Hello {supervisor}, we may have a spray window tomorrow on {field} ({crop}, {area_ha} ha). Check the wind at 6:00 and tell me if the team can start.",
+"kind": "message",
+"max": null,
+"mt": "We kunnen morgen een spray-venster hebben, check de wind om zes uur en zeg of het team kan beginnen.",
+"why": "placeholders must be exactly: {supervisor} {field} {crop} {area_ha}"
+},
+{
+"en": "Hello {contractor}, we book {service} on {field} for {date}: {area_ha} ha at {rate_ha} per ha. Please confirm your crew and arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we boeken op 2 voor 4 ha per hectare.",
+"why": "placeholders must be exactly: {contractor} {service} {field} {date} {area_ha} {rate_ha}"
+},
+{
+"en": "Hello {contractor}, your crew is expected on {field} ({area_ha} ha) on {date}. Please bring your weigh record and call the gate on arrival.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, uw bemanning wordt verwacht op de 3de.",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date}"
+},
+{
+"en": "Hello {contractor}, please sign the work record for {field} ({area_ha} ha), done on {date}. Cost {cost}. Status: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {contractor}, onderteken het werkdocument voor {field} ({area_ha} ha), gedaan op {date}.",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date} {cost} {state}"
+},
+{
+"en": "Hello, {pest} on {field} is {times} times the threshold ({level} against {threshold}). Product on the plan: {product}. Please confirm the spray.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, {pest} op {field} is {times} maal de drempel ({level} tegen {threshold}).",
+"why": "placeholders must be exactly: {pest} {field} {times} {level} {threshold} {product}"
+},
+{
+"en": "Hello, the interval on {field} ends on {earliest} after {product}. Planned harvest {plan}. Date check: {clash}. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, het interval op {field} eindigt op {earliest} na {product}.",
+"why": "placeholders must be exactly: {field} {earliest} {product} {plan} {clash}"
+},
+{
+"en": "Hello, spray record {sp_id} on {field} of {date} shows: {state}. Please ask {operator} to complete it today.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, spray record {sp_id} op {field} van {date} toont: {state}.",
+"why": "placeholders must be exactly: {sp_id} {field} {date} {state} {operator}"
+},
+{
+"en": "Hello {recorded_by}, frost is possible tonight, with lows near {tmin} C. Cover tender crops before dark and record the lowest temperature at first light.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, het is mogelijk dat het vanavond ijst, met een dieptepunt van 1°C. Bedek de zachte gewassen voor het donker en registreer de laagste temperatuur bij het eerste licht.",
+"why": "placeholders must be exactly: {recorded_by} {tmin}"
+},
+{
+"en": "Hello, {kind} hit {field} on {date}: {area_ha} ha, damage {damage_pct}. Please inspect the {crop} today and send photos.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, {kind} hit {field} op {date}: {area_ha} ha, schade {damage_pct}.",
+"why": "placeholders must be exactly: {kind} {field} {date} {area_ha} {damage_pct} {crop}"
+},
+{
+"en": "Hello, rain stops work. {task} on {field} ({planned_ha} ha, week of {week_start}) moves. Please send me a new plan by noon.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, de regen stopt met werken. stuur me een nieuw plan voor de middag.",
+"why": "placeholders must be exactly: {task} {field} {planned_ha} {week_start}"
+},
+{
+"en": "Hello {operator}, the weeding team goes to {field} ({area_ha} ha) using {method}: {workers} people, {hours} hours. Meet at the shed at 6:30.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, het onkruidteam gaat naar de stal om half zes.",
+"why": "placeholders must be exactly: {operator} {field} {area_ha} {method} {workers} {hours}"
+},
+{
+"en": "Hello, we need {litres} litres of {product} for {field} ({crop}). Batch {batch} was used on {date}. Please confirm the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we hebben {litres} liter {product} nodig voor {field} ({crop}).",
+"why": "placeholders must be exactly: {litres} {product} {field} {crop} {batch} {date}"
+},
+{
+"en": "Hello, we return unopened {product}, batch {batch}, bought for {field}. Please collect it this week and send a credit note.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we retourneren ongeopend, partij, gekocht voor twee.",
+"why": "placeholders must be exactly: {product} {batch} {field}"
+},
+{
+"en": "Hello {operator}, please send your timesheet for {date} on {field}: {hours} hours with {machine}, crew of {crew}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, stuur me uw tijdschema op 2 uur met 5 bemanningsleden.",
+"why": "placeholders must be exactly: {operator} {date} {field} {hours} {machine} {crew}"
+},
+{
+"en": "Hello, please check spray {sp_id}: {product} at {dose_l_ha} l/ha on {area_ha} ha of {field}, wind {wind_kmh} km/h. Wind check: {wind_state}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, controleer de spuit {sp_id}: {product} op {dose_l_ha} l/ha op {area_ha} ha van {field}, wind {wind_kmh} km/h.",
+"why": "placeholders must be exactly: {sp_id} {product} {dose_l_ha} {area_ha} {field} {wind_kmh} {wind_state}"
+},
+{
+"en": "Entry {col:diary.dy_id} for {col:diary.date}. Written by {col:diary.author} on {col:diary.entered_on}. Entry check: {col:diary.state}.",
+"kind": "document",
+"max": null,
+"mt": "Ingang van {col:diary.dy_id} voor {col:diary.date}. Geschreven door {col:diary.author} op {col:diary.entered_on}.",
+"why": "placeholders must be exactly: {col:diary.dy_id} {col:diary.date} {col:diary.author} {col:diary.entered_on} {col:diary.state}"
+},
+{
+"en": "Weather: {col:diary.cond}, with {col:diary.rain} mm of rain recorded. People on site: {col:diary.people}.",
+"kind": "document",
+"max": null,
+"mt": "Weer: {col:diary.cond}, met {col:diary.rain} mm regen geregistreerd.",
+"why": "placeholders must be exactly: {col:diary.cond} {col:diary.rain} {col:diary.people}"
+},
+{
+"en": "Record {col:sprays.sp_id}: {col:sprays.date} at {col:sprays.time}. Field: {col:sprays.field}. Crop: {col:sprays.crop}. Target: {col:sprays.target}.",
+"kind": "document",
+"max": null,
+"mt": "Het veld: {col:sprays.field}. het oogst: {col:sprays.crop}. het doel: {col:sprays.target}.",
+"why": "placeholders must be exactly: {col:sprays.sp_id} {col:sprays.date} {col:sprays.time} {col:sprays.field} {col:sprays.crop} {col:sprays.target}"
+},
+{
+"en": "Product: {col:sprays.product}, batch {col:sprays.batch}. Dose: {col:sprays.dose_l_ha} litres per hectare on {col:sprays.area_ha} hectares, so {col:sprays.litres} litres of product in {col:sprays.water_l_ha} litres of water per hectare.",
+"kind": "document",
+"max": null,
+"mt": "Dosering: {col:sprays.dose_l_ha} liter per hectare op {col:sprays.area_ha} hectare, dus {col:sprays.litres} liter product in {col:sprays.water_l_ha} liter water per hectare.",
+"why": "placeholders must be exactly: {col:sprays.product} {col:sprays.batch} {col:sprays.dose_l_ha} {col:sprays.area_ha} {col:sprays.litres} {col:sprays.water_l_ha}"
+},
+{
+"en": "Conditions: wind {col:sprays.wind_kmh} km/h, temperature {col:sprays.temp_c} C. Wind check: {col:sprays.wind_state}. Operator: {col:sprays.operator}.",
+"kind": "document",
+"max": null,
+"mt": "Voorwaarden: wind {col:sprays.wind_kmh} km/h, temperatuur {col:sprays.temp_c} C. Windcontrole: {col:sprays.wind_state}.",
+"why": "placeholders must be exactly: {col:sprays.wind_kmh} {col:sprays.temp_c} {col:sprays.wind_state} {col:sprays.operator}"
+},
+{
+"en": "Pre-harvest interval: {col:sprays.phi_days} days, so the earliest harvest is {col:sprays.harvest_ok}. Re-entry: {col:sprays.rei_h} hours, so people may enter again from {col:sprays.reentry}. Record check: {col:sprays.state}.",
+"kind": "document",
+"max": null,
+"mt": "Voor de oogst: {col:sprays.phi_days} dagen, dus de vroegste oogst is {col:sprays.harvest_ok}.",
+"why": "placeholders must be exactly: {col:sprays.phi_days} {col:sprays.harvest_ok} {col:sprays.rei_h} {col:sprays.reentry} {col:sprays.state}"
+},
+{
+"en": "Field: {col:phi.field}. Crop: {col:phi.crop}. Checked by {col:phi.checked_by} on {col:phi.checked_on}.",
+"kind": "document",
+"max": null,
+"mt": "Gecontroleerd door {col:phi.checked_by} op {col:phi.checked_on}.",
+"why": "placeholders must be exactly: {col:phi.field} {col:phi.crop} {col:phi.checked_by} {col:phi.checked_on}"
+},
+{
+"en": "People may enter the field again from {col:phi.entry_from} ({col:phi.rei} hours). Re-entry check: {col:phi.entry}.",
+"kind": "document",
+"max": null,
+"mt": "Mensen mogen vanaf {col:phi.entry_from} ({col:phi.rei} uur) weer het veld in.",
+"why": "placeholders must be exactly: {col:phi.entry_from} {col:phi.rei} {col:phi.entry}"
+},
+{
+"en": "The planned harvest date is {col:phi.plan}. Harvest date check: {col:phi.clash}.",
+"kind": "document",
+"max": null,
+"mt": "De geplande oogstdatum is {col:phi.plan}.",
+"why": "placeholders must be exactly: {col:phi.plan} {col:phi.clash}"
+},
+{
+"en": "Report {col:scout.sc_id} of {col:scout.date}. Field: {col:scout.field}. Crop: {col:scout.crop}. Scout: {col:scout.scout}.",
+"kind": "document",
+"max": null,
+"mt": "Verslag van 1 veld 2 gewas 3 verkenner 4",
+"why": "placeholders must be exactly: {col:scout.sc_id} {col:scout.date} {col:scout.field} {col:scout.crop} {col:scout.scout}"
+},
+{
+"en": "Threshold check: {col:scout.state}. Product to use if action is needed: {col:scout.product}.",
+"kind": "document",
+"max": null,
+"mt": "Toegang tot het product: {col:scout.state}.",
+"why": "placeholders must be exactly: {col:scout.state} {col:scout.product}"
+},
+{
+"en": "The crop is at the stage {col:stages.stage}. The harvest was planned for {col:stages.harvest_plan}. Schedule check: {col:stages.state}.",
+"kind": "document",
+"max": null,
+"mt": "De oogst was gepland voor 1 uur.",
+"why": "placeholders must be exactly: {col:stages.stage} {col:stages.harvest_plan} {col:stages.state}"
+},
+{
+"en": "This season {col:stages.loads_n} loads were weighed, {col:stages.loads_t} tonnes in total, at an average moisture of {col:stages.moist}. That is {col:stages.yield_now} tonnes per hectare on the whole field.",
+"kind": "document",
+"max": null,
+"mt": "In dit seizoen werden de ladingen gewogen, in totaal {col:stages.loads_t} ton, bij een gemiddelde vochtigheid van {col:stages.moist}, dat wil zeggen {col:stages.yield_now} ton per hectare op het gehele veld.",
+"why": "placeholders must be exactly: {col:stages.loads_n} {col:stages.loads_t} {col:stages.moist} {col:stages.yield_now}"
+},
+{
+"en": "The yield is {col:yield.yield_ha} tonnes per hectare, which is {col:yield.vs_target} against the target. Verdict: {col:yield.state}. Tonnes below target: {col:yield.gap_t}.",
+"kind": "document",
+"max": null,
+"mt": "De opbrengst is {col:yield.yield_ha} ton per hectare, dat is {col:yield.vs_target} tegen het doel.",
+"why": "placeholders must be exactly: {col:yield.yield_ha} {col:yield.vs_target} {col:yield.state} {col:yield.gap_t}"
+},
+{
+"en": "The harvest is worth {col:yield.value} at {col:yield.price_t} per tonne. The average moisture was {col:yield.moist}.",
+"kind": "document",
+"max": null,
+"mt": "De oogst is 1 ton waard.",
+"why": "placeholders must be exactly: {col:yield.value} {col:yield.price_t} {col:yield.moist}"
+},
+{
+"en": "Month starting {col:weather.month}. Day {col:weather.date} is used as the example below.",
+"kind": "document",
+"max": null,
+"mt": "Dag {col:weather.date} wordt als voorbeeld hieronder gebruikt.",
+"why": "placeholders must be exactly: {col:weather.month} {col:weather.date}"
+},
+{
+"en": "Recorded by {col:weather.recorded_by}. The field limits are in the settings: rain that stops work {set:rain_stop} mm and storm wind {set:storm_wind} km/h.",
+"kind": "document",
+"max": null,
+"mt": "De grenzen van het veld zijn in de instellingen: regen die het werk stopt {set:rain_stop} mm en stormwind {set:storm_wind} km/h.",
+"why": "placeholders must be exactly: {col:weather.recorded_by} {set:rain_stop} {set:storm_wind}"
+},
+{
+"en": "The average of the last four weeks is {col:crew.week_avg} hours a week against {col:crew.hours_week} contract hours. Overtime check: {col:crew.state}.",
+"kind": "document",
+"max": null,
+"mt": "Het gemiddelde van de laatste vier weken is {col:crew.week_avg} uur per week tegen {col:crew.hours_week} contractuele uren.",
+"why": "placeholders must be exactly: {col:crew.week_avg} {col:crew.hours_week} {col:crew.state}"
+}
+]

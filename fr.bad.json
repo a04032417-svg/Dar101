@@ -1,0 +1,625 @@
+[
+{
+"en": "Run daily field work, spraying and harvest records with built-in checks",
+"kind": "sentence",
+"max": 80,
+"mt": "Exécuter des enregistrements quotidiens des travaux sur le terrain, de la pulvérisation et de la récolte avec des contrôles intégrés",
+"why": "too long: 132 characters, the limit is 80"
+},
+{
+"en": "Daily field work, spray records, intervals, loads and yield per field",
+"kind": "sentence",
+"max": 80,
+"mt": "Travaux quotidiens sur le terrain, enregistrements des pulvérisations, intervalles, charges et rendement par champ",
+"why": "too long: 114 characters, the limit is 80"
+},
+{
+"en": "Pre-harvest interval tracker for every field",
+"kind": "label",
+"max": 50,
+"mt": "Traqueur d'intervalle avant récolte pour chaque champ",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "the latest spray, every label interval and the re-entry time give the earliest harvest date and a warning when the planned harvest clashes with it",
+"kind": "sentence",
+"max": 160,
+"mt": "la dernière pulvérisation, chaque intervalle d'étiquette et l'heure de réintroduction indiquent la date de récolte la plus précoce et un avertissement lorsque la récolte prévue est en conflit avec celle-ci;",
+"why": "too long: 206 characters, the limit is 160"
+},
+{
+"en": "Spray records with record and wind checks",
+"kind": "label",
+"max": 50,
+"mt": "Enregistrements de pulvérisation avec vérification des enregistrements et des vents",
+"why": "too long: 83 characters, the limit is 50"
+},
+{
+"en": "product, dose, area, water and wind are checked, and a missing product or dose or a spray in too much wind is flagged at once",
+"kind": "sentence",
+"max": 160,
+"mt": "le produit, la dose, la surface, l'eau et le vent sont vérifiés et un produit ou une dose manquant ou une pulvérisation dans un vent trop fort est immédiatement signalé",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Weather log with workable day check",
+"kind": "label",
+"max": 50,
+"mt": "Journaux météorologiques avec vérification des jours",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "each day is marked workable, wet, storm or frost from your own limits, with rain, rain days and days lost totalled for the month",
+"kind": "sentence",
+"max": 160,
+"mt": "Chaque jour est marqué comme fonctionnel, humide, tempête ou gel de vos propres limites, avec la pluie, les jours de pluie et les jours perdus totalisés pour le mois",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "tonnes from the load log divided by the area give yield per hectare, the gap to target, the value and a verdict once the harvest is done",
+"kind": "sentence",
+"max": 160,
+"mt": "les tonnes du journal de charge divisées par la superficie donnent le rendement par hectare, l'écart par rapport à l'objectif, la valeur et un verdict une fois la récolte terminée",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Work orders against the operations log",
+"kind": "label",
+"max": 50,
+"mt": "Commande de travail par rapport au journal des opérations",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "hectares and hours logged in the week are set against the plan and each order is marked not started, behind, on schedule or ahead",
+"kind": "sentence",
+"max": 160,
+"mt": "les hectares et les heures enregistrés dans la semaine sont établis par rapport au plan et chaque ordre est marqué non commencé, en retard, à l'heure ou en avance",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "hours, people, machine rate and fuel give labour, machine and fuel cost, the cost per hectare and the rain on the day of every job",
+"kind": "sentence",
+"max": 160,
+"mt": "heures, les personnes, le taux de la machine et le carburant donnent la main-d'œuvre, le coût de la machine et du carburant, le coût par hectare et la pluie le jour de chaque travail",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "the rate error of each sprayer and drill is checked against your tolerance, and the next date is worked out from the latest record only",
+"kind": "sentence",
+"max": 160,
+"mt": "l'erreur de vitesse de chaque pulvérisateur et perceuse est vérifiée par rapport à votre tolérance, et la prochaine date est calculée à partir du dernier enregistrement seulement",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "Operator hours and overtime check",
+"kind": "label",
+"max": 50,
+"mt": "Heures d'opération et contrôle des heures supplémentaires",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "hours by kind of work, hours per week over the last four weeks and the labour cost are totalled for each person and compared with the contract",
+"kind": "sentence",
+"max": 160,
+"mt": "heures par type de travail, heures par semaine au cours des quatre dernières semaines et le coût de la main-d'œuvre sont totalisés pour chaque personne et comparés au contrat",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "area, share of yield lost and the field target give tonnes and money lost, and each loss shows replanted, replant needed or accept loss",
+"kind": "sentence",
+"max": 160,
+"mt": "la superficie, la part du rendement perdu et l'objectif du champ donnent des tonnes et de l'argent perdu et chaque perte montre replanté, replanté nécessaire ou accepter la perte",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "Baling",
+"kind": "list",
+"max": 30,
+"mt": "Baling",
+"why": "not translated"
+},
+{
+"en": "Boom sprayer 2000 litre",
+"kind": "list",
+"max": 30,
+"mt": "Pulvérisateur à flèche 2000 litres",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Round baler",
+"kind": "list",
+"max": 30,
+"mt": "Pour les machines de traitement des matières premières",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Hired haulage truck",
+"kind": "list",
+"max": 30,
+"mt": "Voiture de transport de marchandises louée",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Fungicide",
+"kind": "list",
+"max": 30,
+"mt": "Fungicide",
+"why": "not translated"
+},
+{
+"en": "Insecticide",
+"kind": "list",
+"max": 30,
+"mt": "Insecticide",
+"why": "not translated"
+},
+{
+"en": "Grain or fruit filling",
+"kind": "list",
+"max": 30,
+"mt": "Remplissage à base de céréales ou de fruits",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Irrigation repair",
+"kind": "list",
+"max": 30,
+"mt": "Réparation des systèmes d'irrigation",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Destination",
+"kind": "label",
+"max": null,
+"mt": "Destination",
+"why": "not translated"
+},
+{
+"en": "Newer check done",
+"kind": "list",
+"max": 30,
+"mt": "Vérification plus récente effectuée",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Field operations log: every job in every field",
+"kind": "title",
+"max": 60,
+"mt": "Journaux des opérations sur le terrain: tous les travaux dans tous les domaines",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Sowing records: seed lot, rate, depth and area",
+"kind": "title",
+"max": 60,
+"mt": "Dossiers de semis: lot de semences, taux, profondeur et superficie",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Spray records: product, dose, area, wind and operator",
+"kind": "title",
+"max": 60,
+"mt": "Enregistrement des pulvérisations: produit, dose, surface, vent et opérateur",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Pre-harvest interval and re-entry tracker for every field",
+"kind": "title",
+"max": 60,
+"mt": "Traceur d'intervalle avant récolte et de réentrée pour chaque champ",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Scouting reports: pests, diseases and weeds in each field",
+"kind": "title",
+"max": 60,
+"mt": "Rapports d'observation: ravageurs, maladies et mauvaises herbes dans chaque champ",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Pest and disease action thresholds for every crop",
+"kind": "title",
+"max": 60,
+"mt": "seuils d'action contre les ravageurs et les maladies pour chaque culture",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Weed control log: passes, labour and how well they worked",
+"kind": "title",
+"max": 60,
+"mt": "Journaux de lutte contre les mauvaises herbes: passe, travail et leur efficacité",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Harvest crew and machine hours for every harvest day",
+"kind": "title",
+"max": 60,
+"mt": "Équipement de récolte et heures de la machine pour chaque jour de récolte",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Daily farm diary: weather, work, people and issues",
+"kind": "title",
+"max": 60,
+"mt": "Journal agricole quotidien: météo, travail, personnes et enjeux",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Machine hours",
+"kind": "label",
+"max": 30,
+"mt": "Heures de travail de la machine",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Weather log: rain, temperature and wind every day",
+"kind": "title",
+"max": 60,
+"mt": "Journaux météorologiques: pluie, température et vent tous les jours",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Field rain gauge readings against the weather station",
+"kind": "title",
+"max": 60,
+"mt": "Les relevés du pluviomètre sur le terrain par rapport à la station météorologique",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Frost, hail and storm events and the damage they did",
+"kind": "title",
+"max": 60,
+"mt": "Les événements de gel, de grêle et de tempête et les dommages qu'ils ont causés",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Inspection",
+"kind": "label",
+"max": null,
+"mt": "Inspection",
+"why": "not translated"
+},
+{
+"en": "Weekly work orders: what is planned and what was done",
+"kind": "title",
+"max": 60,
+"mt": "Les ordres de travail hebdomadaires: ce qui est prévu et ce qui a été fait",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Operator hours per task, overtime and labour cost",
+"kind": "title",
+"max": 60,
+"mt": "Heures d'opérateur par tâche, heures supplémentaires et coût de la main-d'œuvre",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Crop growth stage of every field with a harvest forecast",
+"kind": "title",
+"max": 60,
+"mt": "Étape de croissance des cultures de chaque champ avec prévision de la récolte",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Sprayer and seed drill calibration records",
+"kind": "title",
+"max": 60,
+"mt": "Enregistrements d'étalonnage des pulvérisateurs et des perceuses",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Contractor work records: spraying, harvesting and other jobs",
+"kind": "title",
+"max": 60,
+"mt": "Les dossiers de travail des entrepreneurs: pulvérisation, récolte et autres travaux",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Field operations card with the jobs of a field",
+"kind": "title",
+"max": 60,
+"mt": "Carte d'opérations sur le terrain avec les tâches d'un terrain",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Weather report for a day with the field gauges",
+"kind": "title",
+"max": 60,
+"mt": "Rapport météorologique pour une journée avec les gauges de terrain",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Sprayer and seed drill calibration sheet",
+"kind": "title",
+"max": 60,
+"mt": "Fiche d'étalonnage du pulvérisateur et de la perceuse à semences",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Sprayer calibration: litres per hectare from the nozzles",
+"kind": "title",
+"max": 60,
+"mt": "Étalonnage du pulvérisateur: litres par hectare à partir des buses",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Area covered per hour and days to finish a field",
+"kind": "title",
+"max": 60,
+"mt": "Surface couverte par heure et par jour pour terminer un champ",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Harvest date forecast from growing degree days",
+"kind": "title",
+"max": 60,
+"mt": "Prévisions de date de récolte à partir des jours de croissance",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Pre-harvest interval check: earliest harvest date",
+"kind": "title",
+"max": 60,
+"mt": "Vérification à intervalles préalables à la récolte: date de récolte la plus ancienne",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Seed rate check from the seed drill output",
+"kind": "title",
+"max": 60,
+"mt": "Vérification du taux de semence à partir de la production de la perceuse",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Grain moisture shrink and drying cost",
+"kind": "title",
+"max": 60,
+"mt": "Coût du rétrécissement de l'humidité des céréales et de leur séchage",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Daily work plan and machine hours for a job",
+"kind": "title",
+"max": 60,
+"mt": "Plan de travail quotidien et heures de travail de la machine pour un emploi",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Tank refills and water to haul for a field",
+"kind": "title",
+"max": 60,
+"mt": "Remplissage des réservoirs et eau à transporter pour un champ",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello, today's work order for {field}: {task} with {machine}, {planned_ha} ha in {hours_plan} hours. Operator: {operator}. Please confirm before 7:00.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, l'ordre de travail d'aujourd'hui est de 2 heures et 3 heures.",
+"why": "placeholders must be exactly: {field} {task} {machine} {planned_ha} {hours_plan} {operator}"
+},
+{
+"en": "Hello {supervisor}, we may have a spray window tomorrow on {field} ({crop}, {area_ha} ha). Check the wind at 6:00 and tell me if the team can start.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons peut-être une fenêtre de pulvérisation demain à 6 h. Vérifiez le vent à 6 h et dites-moi si l'équipe peut commencer.",
+"why": "placeholders must be exactly: {supervisor} {field} {crop} {area_ha}"
+},
+{
+"en": "Hello {supervisor}, {field} shows {loads_n} loads and {loads_t} t this season, moisture {moist}. Please send the missing weigh tickets today.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, les charges et l'humidité de cette saison sont affichées.",
+"why": "placeholders must be exactly: {supervisor} {field} {loads_n} {loads_t} {moist}"
+},
+{
+"en": "Hello {contractor}, we book {service} on {field} for {date}: {area_ha} ha at {rate_ha} per ha. Please confirm your crew and arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous réservons pour 3 hectares à 5 par hectare.",
+"why": "placeholders must be exactly: {contractor} {service} {field} {date} {area_ha} {rate_ha}"
+},
+{
+"en": "Hello {contractor}, your crew is expected on {field} ({area_ha} ha) on {date}. Please bring your weigh record and call the gate on arrival.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, votre équipage est attendu sur le quai 3, veuillez apporter votre bilan et appeler la porte à l'arrivée.",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date}"
+},
+{
+"en": "Hello {contractor}, please sign the work record for {field} ({area_ha} ha), done on {date}. Cost {cost}. Status: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {contractor}, veuillez signer le dossier de travail pour {field} ({area_ha} ha), effectué le {date}.",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date} {cost} {state}"
+},
+{
+"en": "Hello, {pest} on {field} is {times} times the threshold ({level} against {threshold}). Product on the plan: {product}. Please confirm the spray.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, {pest} sur {field} est {times} fois le seuil ({level} contre {threshold}).",
+"why": "placeholders must be exactly: {pest} {field} {times} {level} {threshold} {product}"
+},
+{
+"en": "Hello, the interval on {field} ends on {earliest} after {product}. Planned harvest {plan}. Date check: {clash}. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, l'intervalle de {field} se termine à {earliest} après {product}.",
+"why": "placeholders must be exactly: {field} {earliest} {product} {plan} {clash}"
+},
+{
+"en": "Hello {recorded_by}, frost is possible tonight, with lows near {tmin} C. Cover tender crops before dark and record the lowest temperature at first light.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le gel est possible ce soir, avec des bas près de 1 ° C. Couvrez les cultures tendres avant la tombée de la nuit et enregistrez la température la plus basse au premier jour.",
+"why": "placeholders must be exactly: {recorded_by} {tmin}"
+},
+{
+"en": "Hello, rain stops work. {task} on {field} ({planned_ha} ha, week of {week_start}) moves. Please send me a new plan by noon.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, la pluie s'arrête de fonctionner. S'il vous plaît envoyez-moi un nouveau plan d'ici midi.",
+"why": "placeholders must be exactly: {task} {field} {planned_ha} {week_start}"
+},
+{
+"en": "Hello {operator}, the weeding team goes to {field} ({area_ha} ha) using {method}: {workers} people, {hours} hours. Meet at the shed at 6:30.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, l'équipe de désherbage va à 2 hectares en utilisant des personnes, 5 heures.",
+"why": "placeholders must be exactly: {operator} {field} {area_ha} {method} {workers} {hours}"
+},
+{
+"en": "Hello, we return unopened {product}, batch {batch}, bought for {field}. Please collect it this week and send a credit note.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous retournons le lot {product}, acheté pour {field} s'il vous plaît le récupérer cette semaine et envoyer une note de crédit.",
+"why": "placeholders must be exactly: {product} {batch} {field}"
+},
+{
+"en": "Hello, {kind} hit your field {field} on {date}. About {area_ha} ha are damaged ({damage_pct}), an estimated {loss_t} t. We will send the inspection report.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons atteint votre champ le 2 septembre, environ 3 hectares sont endommagés, environ 5 t. Nous vous enverrons le rapport d'inspection.",
+"why": "placeholders must be exactly: {kind} {field} {date} {area_ha} {damage_pct} {loss_t}"
+},
+{
+"en": "Hello {operator}, please send your timesheet for {date} on {field}: {hours} hours with {machine}, crew of {crew}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, merci d'envoyer votre feuille de temps pour les heures de 3 heures avec un équipage de 5.",
+"why": "placeholders must be exactly: {operator} {date} {field} {hours} {machine} {crew}"
+},
+{
+"en": "Hello {name}, you worked {week_avg} hours a week over the last four weeks against {hours_week} in your contract. Please talk to me about time off.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, vous avez travaillé 1 heure par semaine au cours des 4 dernières semaines contre votre contrat.",
+"why": "placeholders must be exactly: {name} {week_avg} {hours_week}"
+},
+{
+"en": "Hello {name}, your hours this month are {h_month} and this season {h_season}. Please check them and tell me about any mistake.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, vos heures de travail ce mois-ci sont 1 et cette saison 2 s'il vous plaît vérifiez-les et dites-moi si vous avez des erreurs.",
+"why": "placeholders must be exactly: {name} {h_month} {h_season}"
+},
+{
+"en": "Entry {col:diary.dy_id} for {col:diary.date}. Written by {col:diary.author} on {col:diary.entered_on}. Entry check: {col:diary.state}.",
+"kind": "document",
+"max": null,
+"mt": "Entrée {col:diary.dy_id} pour {col:diary.date}. écrite par {col:diary.author} le {col:diary.entered_on}.",
+"why": "placeholders must be exactly: {col:diary.dy_id} {col:diary.date} {col:diary.author} {col:diary.entered_on} {col:diary.state}"
+},
+{
+"en": "Weather: {col:diary.cond}, with {col:diary.rain} mm of rain recorded. People on site: {col:diary.people}.",
+"kind": "document",
+"max": null,
+"mt": "Météo: {col:diary.cond}, avec {col:diary.rain} mm de pluie enregistrée.",
+"why": "placeholders must be exactly: {col:diary.cond} {col:diary.rain} {col:diary.people}"
+},
+{
+"en": "Main work: {col:diary.tasks}. The operations log shows {col:diary.ops_n} jobs and {col:diary.ops_h} machine hours for the day.",
+"kind": "document",
+"max": null,
+"mt": "Le journal des opérations montre les emplois et les heures de travail des machines pour la journée.",
+"why": "placeholders must be exactly: {col:diary.tasks} {col:diary.ops_n} {col:diary.ops_h}"
+},
+{
+"en": "Issues: {col:diary.issues}.",
+"kind": "document",
+"max": null,
+"mt": "Les problèmes:",
+"why": "placeholders must be exactly: {col:diary.issues}"
+},
+{
+"en": "Record {col:sprays.sp_id}: {col:sprays.date} at {col:sprays.time}. Field: {col:sprays.field}. Crop: {col:sprays.crop}. Target: {col:sprays.target}.",
+"kind": "document",
+"max": null,
+"mt": "Enregistrer {col:sprays.sp_id}: {col:sprays.date} à {col:sprays.time}.",
+"why": "placeholders must be exactly: {col:sprays.sp_id} {col:sprays.date} {col:sprays.time} {col:sprays.field} {col:sprays.crop} {col:sprays.target}"
+},
+{
+"en": "Conditions: wind {col:sprays.wind_kmh} km/h, temperature {col:sprays.temp_c} C. Wind check: {col:sprays.wind_state}. Operator: {col:sprays.operator}.",
+"kind": "document",
+"max": null,
+"mt": "Conditions: vent {col:sprays.wind_kmh} km/h, température {col:sprays.temp_c} C. Vérification du vent: {col:sprays.wind_state}.",
+"why": "placeholders must be exactly: {col:sprays.wind_kmh} {col:sprays.temp_c} {col:sprays.wind_state} {col:sprays.operator}"
+},
+{
+"en": "Pre-harvest interval: {col:sprays.phi_days} days, so the earliest harvest is {col:sprays.harvest_ok}. Re-entry: {col:sprays.rei_h} hours, so people may enter again from {col:sprays.reentry}. Record check: {col:sprays.state}.",
+"kind": "document",
+"max": null,
+"mt": "L'intervalle de pré-récolte: {col:sprays.phi_days} jours, donc la récolte la plus précoce est {col:sprays.harvest_ok}.",
+"why": "placeholders must be exactly: {col:sprays.phi_days} {col:sprays.harvest_ok} {col:sprays.rei_h} {col:sprays.reentry} {col:sprays.state}"
+},
+{
+"en": "The last spray was on {col:phi.last_spray} with {col:phi.product}. The earliest harvest date over all label intervals is {col:phi.earliest}, which leaves {col:phi.days_left} days to wait. Interval check: {col:phi.state}.",
+"kind": "document",
+"max": null,
+"mt": "La date de récolte la plus précoce sur tous les intervalles d'étiquette est {col:phi.earliest}, ce qui laisse {col:phi.days_left} jours d'attente.",
+"why": "placeholders must be exactly: {col:phi.last_spray} {col:phi.product} {col:phi.earliest} {col:phi.days_left} {col:phi.state}"
+},
+{
+"en": "People may enter the field again from {col:phi.entry_from} ({col:phi.rei} hours). Re-entry check: {col:phi.entry}.",
+"kind": "document",
+"max": null,
+"mt": "Les gens peuvent revenir sur le terrain à partir de {col:phi.entry_from} ({col:phi.rei} heures).",
+"why": "placeholders must be exactly: {col:phi.entry_from} {col:phi.rei} {col:phi.entry}"
+},
+{
+"en": "The planned harvest date is {col:phi.plan}. Harvest date check: {col:phi.clash}.",
+"kind": "document",
+"max": null,
+"mt": "La date de récolte prévue est {col:phi.plan}.",
+"why": "placeholders must be exactly: {col:phi.plan} {col:phi.clash}"
+},
+{
+"en": "Report {col:scout.sc_id} of {col:scout.date}. Field: {col:scout.field}. Crop: {col:scout.crop}. Scout: {col:scout.scout}.",
+"kind": "document",
+"max": null,
+"mt": "Rapporté par l'équipage de l'équipage.",
+"why": "placeholders must be exactly: {col:scout.sc_id} {col:scout.date} {col:scout.field} {col:scout.crop} {col:scout.scout}"
+},
+{
+"en": "The report is {col:scout.age} days old. The crop adviser reads it at {col:scout.adv_phone} before any spray is ordered.",
+"kind": "document",
+"max": null,
+"mt": "Le rapport est daté de 0 jours. Le conseiller des cultures le lit à 1 avant de commander un spray.",
+"why": "placeholders must be exactly: {col:scout.age} {col:scout.adv_phone}"
+},
+{
+"en": "The crop is at the stage {col:stages.stage}. The harvest was planned for {col:stages.harvest_plan}. Schedule check: {col:stages.state}.",
+"kind": "document",
+"max": null,
+"mt": "La récolte est au stade de la récolte a été planifiée pour la récolte a été planifiée pour la récolte a été planifiée pour la récolte a été planifiée pour la récolte a été planifiée pour la récolte a été planifiée pour la récolte a été planifiée pour la récolte a été planifiée pour la récolte a été planifiée pour la récolte a été planifiée pour la récolte a été planifiée pour la récol",
+"why": "placeholders must be exactly: {col:stages.stage} {col:stages.harvest_plan} {col:stages.state}"
+},
+{
+"en": "The yield is {col:yield.yield_ha} tonnes per hectare, which is {col:yield.vs_target} against the target. Verdict: {col:yield.state}. Tonnes below target: {col:yield.gap_t}.",
+"kind": "document",
+"max": null,
+"mt": "Le rendement est de {col:yield.yield_ha} tonnes par hectare, ce qui est {col:yield.vs_target} contre l'objectif.",
+"why": "placeholders must be exactly: {col:yield.yield_ha} {col:yield.vs_target} {col:yield.state} {col:yield.gap_t}"
+},
+{
+"en": "The harvest is worth {col:yield.value} at {col:yield.price_t} per tonne. The average moisture was {col:yield.moist}.",
+"kind": "document",
+"max": null,
+"mt": "La récolte est de 1 tonne, l'humidité moyenne est de 2 tonnes.",
+"why": "placeholders must be exactly: {col:yield.value} {col:yield.price_t} {col:yield.moist}"
+},
+{
+"en": "Recorded by {col:weather.recorded_by}. The field limits are in the settings: rain that stops work {set:rain_stop} mm and storm wind {set:storm_wind} km/h.",
+"kind": "document",
+"max": null,
+"mt": "Les limites du champ sont dans les paramètres: pluie qui arrête le travail {set:rain_stop} mm et vent de tempête {set:storm_wind} km / h.",
+"why": "placeholders must be exactly: {col:weather.recorded_by} {set:rain_stop} {set:storm_wind}"
+},
+{
+"en": "The average of the last four weeks is {col:crew.week_avg} hours a week against {col:crew.hours_week} contract hours. Overtime check: {col:crew.state}.",
+"kind": "document",
+"max": null,
+"mt": "La moyenne des quatre dernières semaines est de {col:crew.week_avg} heures par semaine contre {col:crew.hours_week} heures contractuelles.",
+"why": "placeholders must be exactly: {col:crew.week_avg} {col:crew.hours_week} {col:crew.state}"
+}
+]

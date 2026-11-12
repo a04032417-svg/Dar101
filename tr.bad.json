@@ -1,0 +1,317 @@
+[
+{
+"en": "Rotation compliance",
+"kind": "title",
+"max": 60,
+"mt": "Dönüşüm uyumluluğu",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Run daily field work, spraying and harvest records with built-in checks",
+"kind": "sentence",
+"max": 80,
+"mt": "Dahili kontrollerle günlük saha çalışmaları, püskürtme ve hasat kayıtlarını yürütün",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "Daily field work, spray records, intervals, loads and yield per field",
+"kind": "sentence",
+"max": 80,
+"mt": "Günlük saha çalışması, püskürtme kayıtları, aralıklar, yükler ve saha başına verim",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "Spray records with record and wind checks",
+"kind": "label",
+"max": 50,
+"mt": "Kayıt ve rüzgar denetimleri ile püskürtme kayıtları",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Baling",
+"kind": "list",
+"max": 30,
+"mt": "Baling",
+"why": "not translated"
+},
+{
+"en": "Pre-emergence herbicide",
+"kind": "list",
+"max": 30,
+"mt": "Çürümeden önce kullanılan herbisit",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Pre-harvest interval and re-entry tracker for every field",
+"kind": "title",
+"max": 60,
+"mt": "Her tarla için hasat öncesi aralık ve yeniden giriş izleyicisi",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Scouting reports: pests, diseases and weeds in each field",
+"kind": "title",
+"max": 60,
+"mt": "İzleme raporları: her tarlada zararlılar, hastalıklar ve yabani otlar",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Weed control log: passes, labour and how well they worked",
+"kind": "title",
+"max": 60,
+"mt": "Delicelerle mücadele günlüğü: geçişler, emek ve ne kadar iyi çalıştılar",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Contractor work records: spraying, harvesting and other jobs",
+"kind": "title",
+"max": 60,
+"mt": "Müteahhitin çalışma kayıtları: püskürtme, hasat ve diğer işler",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello, today's work order for {field}: {task} with {machine}, {planned_ha} ha in {hours_plan} hours. Operator: {operator}. Please confirm before 7:00.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, bugünün çalışma siparişi saat 7'den önce onaylanmalı.",
+"why": "placeholders must be exactly: {field} {task} {machine} {planned_ha} {hours_plan} {operator}"
+},
+{
+"en": "Hello {supervisor}, we may have a spray window tomorrow on {field} ({crop}, {area_ha} ha). Check the wind at 6:00 and tell me if the team can start.",
+"kind": "message",
+"max": null,
+"mt": "Merhabalar, yarın ha'da bir sprey penceremiz olabilir.",
+"why": "placeholders must be exactly: {supervisor} {field} {crop} {area_ha}"
+},
+{
+"en": "Hello {supervisor}, {field} shows {loads_n} loads and {loads_t} t this season, moisture {moist}. Please send the missing weigh tickets today.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {supervisor}, {field} bu sezon yük ve {loads_t} t, nem {moist} gösterir.",
+"why": "placeholders must be exactly: {supervisor} {field} {loads_n} {loads_t} {moist}"
+},
+{
+"en": "Hello {operator}, take {machine} to {field} for {task} (week of {week_start}, {planned_ha} ha). Please check fuel and grease first.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {operator}, lütfen önce yakıt ve yağ kontrol edin.",
+"why": "placeholders must be exactly: {operator} {machine} {field} {task} {week_start} {planned_ha}"
+},
+{
+"en": "Hello {operator}, the {device} calibration status is: {state}. The next check is due on {next_due}. Please book the test with the manager.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {operator}, {device} kalibrasyon durumu: {state}.",
+"why": "placeholders must be exactly: {operator} {device} {state} {next_due}"
+},
+{
+"en": "Hello {contractor}, we book {service} on {field} for {date}: {area_ha} ha at {rate_ha} per ha. Please confirm your crew and arrival time.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, 1'i 1'e ayırıyoruz. Lütfen ekibinizi ve varış saatinizi onaylayın.",
+"why": "placeholders must be exactly: {contractor} {service} {field} {date} {area_ha} {rate_ha}"
+},
+{
+"en": "Hello {contractor}, your crew is expected on {field} ({area_ha} ha) on {date}. Please bring your weigh record and call the gate on arrival.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, mürettebatınız 3'te bekleniyor lütfen ağırlık kayıtlarınızı getirin ve varışınızda geçidi arayın.",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date}"
+},
+{
+"en": "Hello {contractor}, please sign the work record for {field} ({area_ha} ha), done on {date}. Cost {cost}. Status: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {contractor}, lütfen {field} ({area_ha} ha) için iş kaydını imzalayın.",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date} {cost} {state}"
+},
+{
+"en": "Hello, {pest} on {field} is {times} times the threshold ({level} against {threshold}). Product on the plan: {product}. Please confirm the spray.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {pest} {field} {times} çarpı eşiği {level} {threshold} karşı.",
+"why": "placeholders must be exactly: {pest} {field} {times} {level} {threshold} {product}"
+},
+{
+"en": "Hello, the interval on {field} ends on {earliest} after {product}. Planned harvest {plan}. Date check: {clash}. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {field}'daki aralık {earliest}'ın ardından sona eriyor.",
+"why": "placeholders must be exactly: {field} {earliest} {product} {plan} {clash}"
+},
+{
+"en": "Hello, spray record {sp_id} on {field} of {date} shows: {state}. Please ask {operator} to complete it today.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, yayım kayıtları {sp_id} {field} {date} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state} {state}",
+"why": "placeholders must be exactly: {sp_id} {field} {date} {state} {operator}"
+},
+{
+"en": "Hello {recorded_by}, frost is possible tonight, with lows near {tmin} C. Cover tender crops before dark and record the lowest temperature at first light.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, bu gece donma ihtimali var. Düşük sıcaklıklar 1 C civarında. Karanlıktan önce hasatları örtün ve ilk ışıkta en düşük sıcaklığı kaydedin.",
+"why": "placeholders must be exactly: {recorded_by} {tmin}"
+},
+{
+"en": "Hello, rain stops work. {task} on {field} ({planned_ha} ha, week of {week_start}) moves. Please send me a new plan by noon.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, yağmur çalışmayı durdurdu. Lütfen bana öğleye kadar yeni bir plan gönderin.",
+"why": "placeholders must be exactly: {task} {field} {planned_ha} {week_start}"
+},
+{
+"en": "Hello {operator}, the weeding team goes to {field} ({area_ha} ha) using {method}: {workers} people, {hours} hours. Meet at the shed at 6:30.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, ot temizleme ekibi 5 saat boyunca çöpçatanlık ekibine gidiyor. 6:30'da kulübeye buluşalım.",
+"why": "placeholders must be exactly: {operator} {field} {area_ha} {method} {workers} {hours}"
+},
+{
+"en": "Hello, {field} needs replanting: {replant_ha} ha of {crop} after {cause}. Decision: {state}. Please prepare seed and the drill.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {field} yeniden ekilme ihtiyacı var: {replant_ha} {crop} {cause} {cause} Karar: {state} Lütfen tohum ve tohum matkabını hazırlayın.",
+"why": "placeholders must be exactly: {field} {replant_ha} {crop} {cause} {state}"
+},
+{
+"en": "Hello, we need {litres} litres of {product} for {field} ({crop}). Batch {batch} was used on {date}. Please confirm the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {litres} litre {product} {field} ({crop}) için {litres} litre {product} lazım. {batch} parti {date} kullanıldı. Lütfen teslimat tarihini onaylayın.",
+"why": "placeholders must be exactly: {litres} {product} {field} {crop} {batch} {date}"
+},
+{
+"en": "Hello, {kind} hit your field {field} on {date}. About {area_ha} ha are damaged ({damage_pct}), an estimated {loss_t} t. We will send the inspection report.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {kind} {field} {date} {field} {date} {date} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha} {area_ha}",
+"why": "placeholders must be exactly: {kind} {field} {date} {area_ha} {damage_pct} {loss_t}"
+},
+{
+"en": "Hello {operator}, please send your timesheet for {date} on {field}: {hours} hours with {machine}, crew of {crew}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen saatin saatlerini gönderin.",
+"why": "placeholders must be exactly: {operator} {date} {field} {hours} {machine} {crew}"
+},
+{
+"en": "Hello {name}, you worked {week_avg} hours a week over the last four weeks against {hours_week} in your contract. Please talk to me about time off.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, son 4 haftada haftada 2 saat çalışmışsın.",
+"why": "placeholders must be exactly: {name} {week_avg} {hours_week}"
+},
+{
+"en": "Hello {name}, your hours this month are {h_month} and this season {h_season}. Please check them and tell me about any mistake.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, bu ayki saatleriniz 1 ve bu sezon 2 lütfen kontrol edin ve herhangi bir hata varsa bana söyleyin.",
+"why": "placeholders must be exactly: {name} {h_month} {h_season}"
+},
+{
+"en": "Entry {col:diary.dy_id} for {col:diary.date}. Written by {col:diary.author} on {col:diary.entered_on}. Entry check: {col:diary.state}.",
+"kind": "document",
+"max": null,
+"mt": "{col:diary.dy_id} için giriş {col:diary.date}. {col:diary.author} tarafından {col:diary.entered_on} yazıldı.",
+"why": "placeholders must be exactly: {col:diary.dy_id} {col:diary.date} {col:diary.author} {col:diary.entered_on} {col:diary.state}"
+},
+{
+"en": "Weather: {col:diary.cond}, with {col:diary.rain} mm of rain recorded. People on site: {col:diary.people}.",
+"kind": "document",
+"max": null,
+"mt": "Hava durumu: {col:diary.cond}, 1 mm yağmur kaydedildi.",
+"why": "placeholders must be exactly: {col:diary.cond} {col:diary.rain} {col:diary.people}"
+},
+{
+"en": "Product: {col:sprays.product}, batch {col:sprays.batch}. Dose: {col:sprays.dose_l_ha} litres per hectare on {col:sprays.area_ha} hectares, so {col:sprays.litres} litres of product in {col:sprays.water_l_ha} litres of water per hectare.",
+"kind": "document",
+"max": null,
+"mt": "Ürün: {col:sprays.product}, parti {col:sprays.batch}.",
+"why": "placeholders must be exactly: {col:sprays.product} {col:sprays.batch} {col:sprays.dose_l_ha} {col:sprays.area_ha} {col:sprays.litres} {col:sprays.water_l_ha}"
+},
+{
+"en": "Pre-harvest interval: {col:sprays.phi_days} days, so the earliest harvest is {col:sprays.harvest_ok}. Re-entry: {col:sprays.rei_h} hours, so people may enter again from {col:sprays.reentry}. Record check: {col:sprays.state}.",
+"kind": "document",
+"max": null,
+"mt": "Hasat öncesi aralık: {col:sprays.phi_days} gün, bu yüzden en erken hasat {col:sprays.harvest_ok}.",
+"why": "placeholders must be exactly: {col:sprays.phi_days} {col:sprays.harvest_ok} {col:sprays.rei_h} {col:sprays.reentry} {col:sprays.state}"
+},
+{
+"en": "People may enter the field again from {col:phi.entry_from} ({col:phi.rei} hours). Re-entry check: {col:phi.entry}.",
+"kind": "document",
+"max": null,
+"mt": "İnsanlar tekrar sahaya girebilmektedir.",
+"why": "placeholders must be exactly: {col:phi.entry_from} {col:phi.rei} {col:phi.entry}"
+},
+{
+"en": "The planned harvest date is {col:phi.plan}. Harvest date check: {col:phi.clash}.",
+"kind": "document",
+"max": null,
+"mt": "Tahmin edilen hasat tarihi {col:phi.plan}.",
+"why": "placeholders must be exactly: {col:phi.plan} {col:phi.clash}"
+},
+{
+"en": "Finding: {col:scout.pest} on {col:scout.level} of {col:scout.checked} plants checked, with {col:scout.photos} photos taken. The action threshold is {col:scout.threshold}, so the finding is {col:scout.times} times the threshold.",
+"kind": "document",
+"max": null,
+"mt": "Bulgu: {col:scout.pest} {col:scout.level} üzerinde {col:scout.checked} bitkiler kontrol edildi, {col:scout.photos} fotoğraflar çekildi.",
+"why": "placeholders must be exactly: {col:scout.pest} {col:scout.level} {col:scout.checked} {col:scout.photos} {col:scout.threshold} {col:scout.times}"
+},
+{
+"en": "Threshold check: {col:scout.state}. Product to use if action is needed: {col:scout.product}.",
+"kind": "document",
+"max": null,
+"mt": "İşlem gerekirse kullanılacak ürün: {col:scout.state}.",
+"why": "placeholders must be exactly: {col:scout.state} {col:scout.product}"
+},
+{
+"en": "The crop is at the stage {col:stages.stage}. The harvest was planned for {col:stages.harvest_plan}. Schedule check: {col:stages.state}.",
+"kind": "document",
+"max": null,
+"mt": "Ürünler 0. aşamada, hasat 1. için planlanmıştı.",
+"why": "placeholders must be exactly: {col:stages.stage} {col:stages.harvest_plan} {col:stages.state}"
+},
+{
+"en": "This season {col:stages.loads_n} loads were weighed, {col:stages.loads_t} tonnes in total, at an average moisture of {col:stages.moist}. That is {col:stages.yield_now} tonnes per hectare on the whole field.",
+"kind": "document",
+"max": null,
+"mt": "Bu mevsimde yükler ağırlaştırıldı, toplamda 1 ton, ortalama nem 2 yani tüm tarlada hektar başına 3 ton.",
+"why": "placeholders must be exactly: {col:stages.loads_n} {col:stages.loads_t} {col:stages.moist} {col:stages.yield_now}"
+},
+{
+"en": "The field had {col:stages.ops_n} jobs and {col:stages.sprays_n} sprays this season, and {col:stages.rain_since} mm of rain since the start.",
+"kind": "document",
+"max": null,
+"mt": "Bu mevsimde saha iş ve püskürtüler ve başlangıçtan beri 2 mm yağmur vardı.",
+"why": "placeholders must be exactly: {col:stages.ops_n} {col:stages.sprays_n} {col:stages.rain_since}"
+},
+{
+"en": "The target was {col:yield.target_t_ha} tonnes per hectare, or {col:yield.target_t} tonnes. {col:yield.loads_n} loads were weighed, {col:yield.tonnes} tonnes in total, from {col:yield.harv_ha} hectares harvested.",
+"kind": "document",
+"max": null,
+"mt": "Hedef hektar başına 1 ton idi. Toplamda 4 hektarlık hasattan 3 ton ağırlık alınmıştı.",
+"why": "placeholders must be exactly: {col:yield.target_t_ha} {col:yield.target_t} {col:yield.loads_n} {col:yield.tonnes} {col:yield.harv_ha}"
+},
+{
+"en": "The yield is {col:yield.yield_ha} tonnes per hectare, which is {col:yield.vs_target} against the target. Verdict: {col:yield.state}. Tonnes below target: {col:yield.gap_t}.",
+"kind": "document",
+"max": null,
+"mt": "Verdict: {col:yield.state}. Tonlar hedef altındadır: {col:yield.gap_t}.",
+"why": "placeholders must be exactly: {col:yield.yield_ha} {col:yield.vs_target} {col:yield.state} {col:yield.gap_t}"
+},
+{
+"en": "Recorded by {col:weather.recorded_by}. The field limits are in the settings: rain that stops work {set:rain_stop} mm and storm wind {set:storm_wind} km/h.",
+"kind": "document",
+"max": null,
+"mt": "Alanın sınırları ayarlarda: 1 mm yağmur ve 2 km/s fırtına rüzgarı.",
+"why": "placeholders must be exactly: {col:weather.recorded_by} {set:rain_stop} {set:storm_wind}"
+},
+{
+"en": "The average of the last four weeks is {col:crew.week_avg} hours a week against {col:crew.hours_week} contract hours. Overtime check: {col:crew.state}.",
+"kind": "document",
+"max": null,
+"mt": "Son dört haftanın ortalaması haftada {col:crew.week_avg} saat ve kontrat saatleri {col:crew.hours_week} arasındadır.",
+"why": "placeholders must be exactly: {col:crew.week_avg} {col:crew.hours_week} {col:crew.state}"
+}
+]

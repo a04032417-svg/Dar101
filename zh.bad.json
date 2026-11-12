@@ -1,0 +1,394 @@
+[
+{
+"en": "Share of area with healthy pH",
+"kind": "title",
+"max": 60,
+"mt": "具有健康pH的面积份额",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Soil pH per field",
+"kind": "title",
+"max": 60,
+"mt": "每个田间的土壤pH",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Average pH",
+"kind": "label",
+"max": 30,
+"mt": "平均pH值",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Open Start and type your farm name and your own limits in the yellow cells: healthy pH, organic matter target, margin per hectare you want, warning days and the share of rain a crop can use.",
+"kind": "sentence",
+"max": null,
+"mt": "打开\"开始\",然后在黄色的单元中输入农场名称和自己的限制:健康pH值,有机物目标,你想要的每公利率,预警日和作物可以使用的降雨量.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Wind that stops all work, km/h",
+"kind": "setting",
+"max": null,
+"mt": "停止所有工作的风,km/h",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Irrigation pump 30 kW",
+"kind": "list",
+"max": 30,
+"mt": "灌 30 kW",
+"why": "English/Latin words left: kW"
+},
+{
+"en": "Rain in the month, mm",
+"kind": "label",
+"max": null,
+"mt": "月份的雨,mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Target yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "目标产量,t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Average yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "平均产量,t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Area sprayed, ha",
+"kind": "label",
+"max": null,
+"mt": "喷涂的区域,ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Yield on the field area, t/ha",
+"kind": "label",
+"max": null,
+"mt": "田面的产量,t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Faster work 14 ha/h",
+"kind": "label",
+"max": null,
+"mt": "工作速度更快 14 ha/h",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello, today's work order for {field}: {task} with {machine}, {planned_ha} ha in {hours_plan} hours. Operator: {operator}. Please confirm before 7:00.",
+"kind": "message",
+"max": null,
+"mt": "您好,今天的工作顺序为: {field} {task} {machine}, {planned_ha} ha 在 {hours_plan} 小时.操作员: {operator} 请在 7:00 之前确认.",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello {supervisor}, we may have a spray window tomorrow on {field} ({crop}, {area_ha} ha). Check the wind at 6:00 and tell me if the team can start.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们可能会在明天的喷雾窗口. 检查6点的风,告诉我团队是否可以开始.",
+"why": "placeholders must be exactly: {supervisor} {field} {crop} {area_ha}"
+},
+{
+"en": "Hello {supervisor}, the wind is too strong for spraying. Stop the sprayer on {field} ({crop}) and wait until it drops. Tell me when you restart.",
+"kind": "message",
+"max": null,
+"mt": "您好,风力太大了,不能喷雾. 停止喷雾器,等到它下降. 告诉我当你重新启动.",
+"why": "placeholders must be exactly: {supervisor} {field} {crop}"
+},
+{
+"en": "Hello {supervisor}, harvest of {crop} on {field} is planned for {harvest_plan} ({area_ha} ha). Please check the machines and the trailers the day before.",
+"kind": "message",
+"max": null,
+"mt": "请检查机器和拖车前一天.",
+"why": "placeholders must be exactly: {supervisor} {crop} {field} {harvest_plan} {area_ha}"
+},
+{
+"en": "Hello {operator}, take {machine} to {field} for {task} (week of {week_start}, {planned_ha} ha). Please check fuel and grease first.",
+"kind": "message",
+"max": null,
+"mt": "您好,请先检查燃料和油脂.",
+"why": "placeholders must be exactly: {operator} {machine} {field} {task} {week_start} {planned_ha}"
+},
+{
+"en": "Hello {operator}, after spraying {field} on {date} please rinse the tank and the nozzles with clean water and drain the rinse away from ditches.",
+"kind": "message",
+"max": null,
+"mt": "您好,在喷 {field} 之后,请用清洁的水冲洗水箱和喷嘴.",
+"why": "placeholders must be exactly: {operator} {field} {date}"
+},
+{
+"en": "Hello {contractor}, we book {service} on {field} for {date}: {area_ha} ha at {rate_ha} per ha. Please confirm your crew and arrival time.",
+"kind": "message",
+"max": null,
+"mt": "您的船员和抵达时间请确认.",
+"why": "placeholders must be exactly: {contractor} {service} {field} {date} {area_ha} {rate_ha}"
+},
+{
+"en": "Hello {contractor}, your crew is expected on {field} ({area_ha} ha) on {date}. Please bring your weigh record and call the gate on arrival.",
+"kind": "message",
+"max": null,
+"mt": "您的船员在3号机场预计,请携带您的重量记录,并在抵达时给门打电话.",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date}"
+},
+{
+"en": "Hello {contractor}, please sign the work record for {field} ({area_ha} ha), done on {date}. Cost {cost}. Status: {state}.",
+"kind": "message",
+"max": null,
+"mt": "您好,请签署工作记录. 完成于3日. 成本:40. 状态:{state}.",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date} {cost} {state}"
+},
+{
+"en": "Hello, {field} ({crop}, {season}) gave {yield_ha} t/ha against a target of {target_t_ha}, {gap_t} t short. Please send the reasons before Friday.",
+"kind": "message",
+"max": null,
+"mt": "请在星期五之前发送理由.",
+"why": "placeholders must be exactly: {field} {crop} {season} {yield_ha} {target_t_ha} {gap_t}"
+},
+{
+"en": "Hello {recorded_by}, frost is possible tonight, with lows near {tmin} C. Cover tender crops before dark and record the lowest temperature at first light.",
+"kind": "message",
+"max": null,
+"mt": "今天晚上可能有,低温接近1摄氏度. 在黑暗之前覆盖嫩的作物,并在第一天亮时记录最低温度.",
+"why": "placeholders must be exactly: {recorded_by} {tmin}"
+},
+{
+"en": "Hello, {kind} hit {field} on {date}: {area_ha} ha, damage {damage_pct}. Please inspect the {crop} today and send photos.",
+"kind": "message",
+"max": null,
+"mt": "您好, {kind} 在 {date} 上击中 {field}: {area_ha} ha,损坏 {damage_pct}. 请今天检查 {crop} 并发送照片.",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello, rain stops work. {task} on {field} ({planned_ha} ha, week of {week_start}) moves. Please send me a new plan by noon.",
+"kind": "message",
+"max": null,
+"mt": "您好,下雨停止工作. 移动. 请在中午前给我发一个新的计划.",
+"why": "placeholders must be exactly: {task} {field} {planned_ha} {week_start}"
+},
+{
+"en": "Hello {operator}, the weeding team goes to {field} ({area_ha} ha) using {method}: {workers} people, {hours} hours. Meet at the shed at 6:30.",
+"kind": "message",
+"max": null,
+"mt": "您好,除草团队将使用3人,5小时,在6点半在棚里见面.",
+"why": "placeholders must be exactly: {operator} {field} {area_ha} {method} {workers} {hours}"
+},
+{
+"en": "Hello, {field} needs replanting: {replant_ha} ha of {crop} after {cause}. Decision: {state}. Please prepare seed and the drill.",
+"kind": "message",
+"max": null,
+"mt": "请准备种子和种子钻机.",
+"why": "placeholders must be exactly: {field} {replant_ha} {crop} {cause} {state}"
+},
+{
+"en": "Hello {recorded_by}, the weather log for {date} must be complete today: rain, lowest and highest temperature and wind. Please enter it.",
+"kind": "message",
+"max": null,
+"mt": "您好,今天的天气日志必须完整:雨,最低和最高温度和风. 请输入它.",
+"why": "placeholders must be exactly: {recorded_by} {date}"
+},
+{
+"en": "Hello, we return unopened {product}, batch {batch}, bought for {field}. Please collect it this week and send a credit note.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们收回未打开的分数,购买了分数,请在本周收取并发送信用单.",
+"why": "placeholders must be exactly: {product} {batch} {field}"
+},
+{
+"en": "Hello, {kind} hit your field {field} on {date}. About {area_ha} ha are damaged ({damage_pct}), an estimated {loss_t} t. We will send the inspection report.",
+"kind": "message",
+"max": null,
+"mt": "大约3公受损,估计5公.我们将发送检查报告.",
+"why": "placeholders must be exactly: {kind} {field} {date} {area_ha} {damage_pct} {loss_t}"
+},
+{
+"en": "Hello {operator}, please send your timesheet for {date} on {field}: {hours} hours with {machine}, crew of {crew}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "请发送您的时间表, 时间为4小时, 机组人员为5人.",
+"why": "placeholders must be exactly: {operator} {date} {field} {hours} {machine} {crew}"
+},
+{
+"en": "Hello {author}, the diary for {date} shows: {state}. Please enter the weather, the work and the issues by 6 pm every day.",
+"kind": "message",
+"max": null,
+"mt": "您好,每天晚上6点之前请输入天气,工作和问题.",
+"why": "placeholders must be exactly: {author} {date} {state}"
+},
+{
+"en": "Hello, please check spray {sp_id}: {product} at {dose_l_ha} l/ha on {area_ha} ha of {field}, wind {wind_kmh} km/h. Wind check: {wind_state}.",
+"kind": "message",
+"max": null,
+"mt": "您好,请检查喷雾 {sp_id}: {product} 在 {dose_l_ha} l/ha 在 {area_ha} ha 的 {field},风 {wind_kmh} km/h. 风检查: {wind_state}.",
+"why": "English/Latin words left: ha ha km h."
+},
+{
+"en": "Hello {name}, you worked {week_avg} hours a week over the last four weeks against {hours_week} in your contract. Please talk to me about time off.",
+"kind": "message",
+"max": null,
+"mt": "你在过去的四周里每周工作1个小时.请和我谈谈休假时间.",
+"why": "placeholders must be exactly: {name} {week_avg} {hours_week}"
+},
+{
+"en": "Hello {name}, your hours this month are {h_month} and this season {h_season}. Please check them and tell me about any mistake.",
+"kind": "message",
+"max": null,
+"mt": "你的时间是这个月和这个季节. 请检查它们,并告诉我任何错误.",
+"why": "placeholders must be exactly: {name} {h_month} {h_season}"
+},
+{
+"en": "Weather: {col:diary.cond}, with {col:diary.rain} mm of rain recorded. People on site: {col:diary.people}.",
+"kind": "document",
+"max": null,
+"mt": "天气: {col:diary.cond},记录下1毫米的雨.",
+"why": "placeholders must be exactly: {col:diary.cond} {col:diary.rain} {col:diary.people}"
+},
+{
+"en": "Issues: {col:diary.issues}.",
+"kind": "document",
+"max": null,
+"mt": "问题:",
+"why": "placeholders must be exactly: {col:diary.issues}"
+},
+{
+"en": "Conditions: wind {col:sprays.wind_kmh} km/h, temperature {col:sprays.temp_c} C. Wind check: {col:sprays.wind_state}. Operator: {col:sprays.operator}.",
+"kind": "document",
+"max": null,
+"mt": "情况:风 {col:sprays.wind_kmh} 公里/小时,温度 {col:sprays.temp_c} C. 风检查: {col:sprays.wind_state}.操作员: {col:sprays.operator}.",
+"why": "English/Latin words left: C."
+},
+{
+"en": "People may enter the field again from {col:phi.entry_from} ({col:phi.rei} hours). Re-entry check: {col:phi.entry}.",
+"kind": "document",
+"max": null,
+"mt": "人们可以从 {col:phi.entry_from} ({col:phi.rei}小时) 开始重新进入场地.",
+"why": "placeholders must be exactly: {col:phi.entry_from} {col:phi.rei} {col:phi.entry}"
+},
+{
+"en": "The planned harvest date is {col:phi.plan}. Harvest date check: {col:phi.clash}.",
+"kind": "document",
+"max": null,
+"mt": "预计的收获日期是 {col:phi.plan}.",
+"why": "placeholders must be exactly: {col:phi.plan} {col:phi.clash}"
+},
+{
+"en": "Scouting summary of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "查询总结,日期是1",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Report {col:scout.sc_id} of {col:scout.date}. Field: {col:scout.field}. Crop: {col:scout.crop}. Scout: {col:scout.scout}.",
+"kind": "document",
+"max": null,
+"mt": "报道: 农场: 农作物: 侦察员:",
+"why": "placeholders must be exactly: {col:scout.sc_id} {col:scout.date} {col:scout.field} {col:scout.crop} {col:scout.scout}"
+},
+{
+"en": "The report is {col:scout.age} days old. The crop adviser reads it at {col:scout.adv_phone} before any spray is ordered.",
+"kind": "document",
+"max": null,
+"mt": "这份报告是0天前的. 农作物顾问在下令任何喷雾之前在1点阅读它.",
+"why": "placeholders must be exactly: {col:scout.age} {col:scout.adv_phone}"
+},
+{
+"en": "Harvest report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "收获报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "The crop is at the stage {col:stages.stage}. The harvest was planned for {col:stages.harvest_plan}. Schedule check: {col:stages.state}.",
+"kind": "document",
+"max": null,
+"mt": "农作物已经进入收获阶段. 收获计划于1日. 时间表检查: 2日.",
+"why": "placeholders must be exactly: {col:stages.stage} {col:stages.harvest_plan} {col:stages.state}"
+},
+{
+"en": "This season {col:stages.loads_n} loads were weighed, {col:stages.loads_t} tonnes in total, at an average moisture of {col:stages.moist}. That is {col:stages.yield_now} tonnes per hectare on the whole field.",
+"kind": "document",
+"max": null,
+"mt": "在这个季节,总量1,平均湿度为2,即整个田地每公3.",
+"why": "placeholders must be exactly: {col:stages.loads_n} {col:stages.loads_t} {col:stages.moist} {col:stages.yield_now}"
+},
+{
+"en": "The field had {col:stages.ops_n} jobs and {col:stages.sprays_n} sprays this season, and {col:stages.rain_since} mm of rain since the start.",
+"kind": "document",
+"max": null,
+"mt": "这场赛季有工作和喷雾, 开始以来降雨了2毫米.",
+"why": "placeholders must be exactly: {col:stages.ops_n} {col:stages.sprays_n} {col:stages.rain_since}"
+},
+{
+"en": "Yield report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "收益率报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "The target was {col:yield.target_t_ha} tonnes per hectare, or {col:yield.target_t} tonnes. {col:yield.loads_n} loads were weighed, {col:yield.tonnes} tonnes in total, from {col:yield.harv_ha} hectares harvested.",
+"kind": "document",
+"max": null,
+"mt": "目标是每公10,或1.",
+"why": "placeholders must be exactly: {col:yield.target_t_ha} {col:yield.target_t} {col:yield.loads_n} {col:yield.tonnes} {col:yield.harv_ha}"
+},
+{
+"en": "The yield is {col:yield.yield_ha} tonnes per hectare, which is {col:yield.vs_target} against the target. Verdict: {col:yield.state}. Tonnes below target: {col:yield.gap_t}.",
+"kind": "document",
+"max": null,
+"mt": "产量为每公的0,这与目标相抵触.",
+"why": "placeholders must be exactly: {col:yield.yield_ha} {col:yield.vs_target} {col:yield.state} {col:yield.gap_t}"
+},
+{
+"en": "The harvest is worth {col:yield.value} at {col:yield.price_t} per tonne. The average moisture was {col:yield.moist}.",
+"kind": "document",
+"max": null,
+"mt": "收获价值为每1.平均湿度为2.",
+"why": "placeholders must be exactly: {col:yield.value} {col:yield.price_t} {col:yield.moist}"
+},
+{
+"en": "Weather summary of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "气象总结,日期为1",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "On {col:weather.date} the lowest temperature was {col:weather.tmin} C, the highest {col:weather.tmax} C, rain {col:weather.rain_mm} mm and wind {col:weather.wind_kmh} km/h. Work day check: {col:weather.work}.",
+"kind": "document",
+"max": null,
+"mt": "在 {col:weather.date} 最低温度为 {col:weather.tmin} C,最高温度为 {col:weather.tmax} C,降雨 {col:weather.rain_mm} mm,风 {col:weather.wind_kmh} km/h. 工作日检查: {col:weather.work}.",
+"why": "English/Latin words left: mm km h."
+},
+{
+"en": "In the month there were {col:weather.m_rain} mm of rain on {col:weather.m_rain_days} days. The average lowest temperature was {col:weather.m_tmin} C and {col:weather.m_lost} days were lost to weather.",
+"kind": "document",
+"max": null,
+"mt": "在这个月中,在1天中降雨了 {col:weather.m_rain} mm.平均最低温度是 {col:weather.m_tmin} C,天气损失了 {col:weather.m_lost} 天.",
+"why": "placeholders must be exactly: {col:weather.m_rain} {col:weather.m_rain_days} {col:weather.m_tmin} {col:weather.m_lost}"
+},
+{
+"en": "Recorded by {col:weather.recorded_by}. The field limits are in the settings: rain that stops work {set:rain_stop} mm and storm wind {set:storm_wind} km/h.",
+"kind": "document",
+"max": null,
+"mt": "场域限制在设置中:停工雨1毫米和风暴2公里/小时.",
+"why": "placeholders must be exactly: {col:weather.recorded_by} {set:rain_stop} {set:storm_wind}"
+},
+{
+"en": "Hours this month: {col:crew.h_month}. Land work {col:crew.h_land}, crop care {col:crew.h_care}, irrigation {col:crew.h_irr}, harvest and haulage {col:crew.h_harv}. Hours this season: {col:crew.h_season}.",
+"kind": "document",
+"max": null,
+"mt": "本月工作时间: {col:crew.h_month} 土地工作,作物护理,灌,收获和运输.",
+"why": "placeholders must be exactly: {col:crew.h_month} {col:crew.h_land} {col:crew.h_care} {col:crew.h_irr} {col:crew.h_harv} {col:crew.h_season}"
+}
+]

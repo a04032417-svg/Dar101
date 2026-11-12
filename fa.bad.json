@@ -1,0 +1,275 @@
+[
+{
+"en": "Share of area with healthy pH",
+"kind": "title",
+"max": 60,
+"mt": "سهم از سطح با pH سالم",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Soil pH per field",
+"kind": "title",
+"max": 60,
+"mt": "pH خاک در هر زمینه",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Average pH",
+"kind": "label",
+"max": 30,
+"mt": "متوسط pH",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "Open Start and type your farm name and your own limits in the yellow cells: healthy pH, organic matter target, margin per hectare you want, warning days and the share of rain a crop can use.",
+"kind": "sentence",
+"max": null,
+"mt": "شروع را باز کنید و نام مزرعه خود را و محدودیت های خود را در سلول های زرد تایپ کنید: pH سالم، هدف ماده آلی، حاشیه هر هکتار که می خواهید، روزهای هشدار و سهم باران که یک محصول می تواند استفاده کند.",
+"why": "English/Latin words left: pH"
+},
+{
+"en": "area, share of yield lost and the field target give tonnes and money lost, and each loss shows replanted, replant needed or accept loss",
+"kind": "sentence",
+"max": 160,
+"mt": "منطقه، سهم از تولید از دست رفته و هدف میدان می دهد تن و پول از دست رفته و هر از دست رفته نشان می دهد دوباره کاشته شده، دوباره کاشته شده مورد نیاز و یا از دست رفته را بپذیرید",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Knapsack sprayer B",
+"kind": "list",
+"max": 30,
+"mt": "اسپری کننده Knapsack B",
+"why": "English/Latin words left: Knapsack"
+},
+{
+"en": "Behind schedule",
+"kind": "list",
+"max": 30,
+"mt": "از برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه ی برنامه",
+"why": "too long: 486 characters, the limit is 30"
+},
+{
+"en": "Station rain, mm",
+"kind": "label",
+"max": null,
+"mt": "بارندگی ایستگاه، mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Difference, mm",
+"kind": "label",
+"max": null,
+"mt": "تفاوت، mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Weekly work orders: what is planned and what was done",
+"kind": "title",
+"max": 60,
+"mt": "دستورات کاری هفتگی: چه برنامه ریزی شده و چه کاری انجام شده است",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Target yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "میزان حاصل مورد نظر، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Average yield, t/ha",
+"kind": "label",
+"max": null,
+"mt": "میانگین حاصل، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Daily diary sheet with the jobs of the day",
+"kind": "title",
+"max": 60,
+"mt": "صفحه ی روزانه ی دفترچه ی روزانه ای که کارهای آن روز را نشان می دهد",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Area covered per hour and days to finish a field",
+"kind": "title",
+"max": 60,
+"mt": "مساحت پوشش داده شده در هر ساعت و روز برای پایان دادن به یک زمینه",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Rain in the last 30 days, mm",
+"kind": "label",
+"max": null,
+"mt": "بارندگی در 30 روز گذشته، mm",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Hello, today's work order for {field}: {task} with {machine}, {planned_ha} ha in {hours_plan} hours. Operator: {operator}. Please confirm before 7:00.",
+"kind": "message",
+"max": null,
+"mt": "سلام، دستور کار امروز برای {field}: {task} با {machine}، {planned_ha} ha در {hours_plan} ساعت. اپراتور: {operator} لطفا قبل از 7:00 تایید کنید.",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello {supervisor}, we may have a spray window tomorrow on {field} ({crop}, {area_ha} ha). Check the wind at 6:00 and tell me if the team can start.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ممکنه فردا يه پنجره اسپري داشته باشيم. ساعت 6 باد رو چک کن و بهم بگو که تيم ميتونه شروع کنه.",
+"why": "placeholders must be exactly: {supervisor} {field} {crop} {area_ha}"
+},
+{
+"en": "Hello {supervisor}, {field} shows {loads_n} loads and {loads_t} t this season, moisture {moist}. Please send the missing weigh tickets today.",
+"kind": "message",
+"max": null,
+"mt": "سلام، بار و رطوبت امسال را نشان می دهد لطفا بلیط وزن گمشده را امروز بفرستید.",
+"why": "placeholders must be exactly: {supervisor} {field} {loads_n} {loads_t} {moist}"
+},
+{
+"en": "Hello {contractor}, we book {service} on {field} for {date}: {area_ha} ha at {rate_ha} per ha. Please confirm your crew and arrival time.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما با هر هکتار در هر هکتار رزرو ميکنيم لطفا خدمه و زمان رسيدنتون رو تاييد کنيد",
+"why": "placeholders must be exactly: {contractor} {service} {field} {date} {area_ha} {rate_ha}"
+},
+{
+"en": "Hello {contractor}, your crew is expected on {field} ({area_ha} ha) on {date}. Please bring your weigh record and call the gate on arrival.",
+"kind": "message",
+"max": null,
+"mt": "سلام، خدمه شما رو در هاردو انتظار دارن لطفا گزارش وزنتون رو بياريد و وقتي رسيدين به دروازه زنگ بزنيد",
+"why": "placeholders must be exactly: {contractor} {field} {area_ha} {date}"
+},
+{
+"en": "Hello, {field} ({crop}, {season}) gave {yield_ha} t/ha against a target of {target_t_ha}, {gap_t} t short. Please send the reasons before Friday.",
+"kind": "message",
+"max": null,
+"mt": "سلام، {field} ({crop}، {season}) با هدف {target_t_ha}، {gap_t} کمتر از {yield_ha} t/ha. لطفا دلایل قبل از جمعه ارسال کنید.",
+"why": "English/Latin words left: ha."
+},
+{
+"en": "Hello {recorded_by}, frost is possible tonight, with lows near {tmin} C. Cover tender crops before dark and record the lowest temperature at first light.",
+"kind": "message",
+"max": null,
+"mt": "سلام، امشب زمستون ممکنه، با کمترین درجه در حدود 1 درجه سانتیگراد. قبل از تاريکي محصولات نرم را بپوشانيد و کمترين درجه حرارت را در اولين نور ثبت کنيد.",
+"why": "placeholders must be exactly: {recorded_by} {tmin}"
+},
+{
+"en": "Hello, {kind} hit {field} on {date}: {area_ha} ha, damage {damage_pct}. Please inspect the {crop} today and send photos.",
+"kind": "message",
+"max": null,
+"mt": "سلام، {kind} به {date} ضربه زد: {area_ha} ها، آسیب {damage_pct}. لطفا امروز {crop} را بررسی کنید و عکس بفرستید.",
+"why": "placeholders must be exactly: {kind} {field} {date} {area_ha} {damage_pct} {crop}"
+},
+{
+"en": "Hello, rain stops work. {task} on {field} ({planned_ha} ha, week of {week_start}) moves. Please send me a new plan by noon.",
+"kind": "message",
+"max": null,
+"mt": "سلام، بارون کار رو متوقف کرد لطفا تا ظهر يه نقشه جديد برام بفرستيد",
+"why": "placeholders must be exactly: {task} {field} {planned_ha} {week_start}"
+},
+{
+"en": "Hello {operator}, the weeding team goes to {field} ({area_ha} ha) using {method}: {workers} people, {hours} hours. Meet at the shed at 6:30.",
+"kind": "message",
+"max": null,
+"mt": "سلام، تيم تبخال گندم به هکتار مي رود با استفاده از افراد، ساعت 5، ساعت 6:30 در انبار ملاقات مي کنيم",
+"why": "placeholders must be exactly: {operator} {field} {area_ha} {method} {workers} {hours}"
+},
+{
+"en": "Hello, {kind} hit your field {field} on {date}. About {area_ha} ha are damaged ({damage_pct}), an estimated {loss_t} t. We will send the inspection report.",
+"kind": "message",
+"max": null,
+"mt": "سلام، در مورد 3 هکتار آسیب دیده است، حدود 5 ساعت. ما گزارش بازرسی را به شما می فرستیم.",
+"why": "placeholders must be exactly: {kind} {field} {date} {area_ha} {damage_pct} {loss_t}"
+},
+{
+"en": "Hello {operator}, please send your timesheet for {date} on {field}: {hours} hours with {machine}, crew of {crew}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً جدول ساعت هاي خودتون رو براي ساعت ها با خدمه پنج نفره بفرستيد.",
+"why": "placeholders must be exactly: {operator} {date} {field} {hours} {machine} {crew}"
+},
+{
+"en": "Hello, please check spray {sp_id}: {product} at {dose_l_ha} l/ha on {area_ha} ha of {field}, wind {wind_kmh} km/h. Wind check: {wind_state}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفا بررسی اسپری {sp_id}: {product} در {dose_l_ha} l/ha در {area_ha} ha از {field}، باد {wind_kmh} km/h. بررسی باد: {wind_state}.",
+"why": "English/Latin words left: ha ha km h."
+},
+{
+"en": "Hello {name}, you worked {week_avg} hours a week over the last four weeks against {hours_week} in your contract. Please talk to me about time off.",
+"kind": "message",
+"max": null,
+"mt": "سلام، شما در چهار هفته گذشته در مقابل قراردادتان هفته ای 1 ساعت کار کرده اید. لطفاً درباره زمان مرخصی با من صحبت کنید.",
+"why": "placeholders must be exactly: {name} {week_avg} {hours_week}"
+},
+{
+"en": "Hello {name}, your hours this month are {h_month} and this season {h_season}. Please check them and tell me about any mistake.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ساعت هاي شما در اين ماه 1 و اين فصل 2 است لطفاً آنها را چک کنید و در صورت اشتباه به من خبر دهید.",
+"why": "placeholders must be exactly: {name} {h_month} {h_season}"
+},
+{
+"en": "Weather: {col:diary.cond}, with {col:diary.rain} mm of rain recorded. People on site: {col:diary.people}.",
+"kind": "document",
+"max": null,
+"mt": "آب و هوا: {col:diary.cond}، با {col:diary.rain} mm باران ثبت شده. مردم در محل: {col:diary.people}",
+"why": "English/Latin words left: mm"
+},
+{
+"en": "Conditions: wind {col:sprays.wind_kmh} km/h, temperature {col:sprays.temp_c} C. Wind check: {col:sprays.wind_state}. Operator: {col:sprays.operator}.",
+"kind": "document",
+"max": null,
+"mt": "شرایط: باد {col:sprays.wind_kmh} km/h، دمای {col:sprays.temp_c} C. بررسی باد: {col:sprays.wind_state}.",
+"why": "placeholders must be exactly: {col:sprays.wind_kmh} {col:sprays.temp_c} {col:sprays.wind_state} {col:sprays.operator}"
+},
+{
+"en": "People may enter the field again from {col:phi.entry_from} ({col:phi.rei} hours). Re-entry check: {col:phi.entry}.",
+"kind": "document",
+"max": null,
+"mt": "افراد می توانند از {col:phi.entry_from} ({col:phi.rei} ساعت) دوباره وارد میدان شوند.",
+"why": "placeholders must be exactly: {col:phi.entry_from} {col:phi.rei} {col:phi.entry}"
+},
+{
+"en": "The crop is at the stage {col:stages.stage}. The harvest was planned for {col:stages.harvest_plan}. Schedule check: {col:stages.state}.",
+"kind": "document",
+"max": null,
+"mt": "محصول در مرحله 0 است. برداشت برای 1 برنامه ریزی شده بود. چک برنامه: 2",
+"why": "placeholders must be exactly: {col:stages.stage} {col:stages.harvest_plan} {col:stages.state}"
+},
+{
+"en": "The field had {col:stages.ops_n} jobs and {col:stages.sprays_n} sprays this season, and {col:stages.rain_since} mm of rain since the start.",
+"kind": "document",
+"max": null,
+"mt": "میدان این فصل شغل و اسپری داشت و از شروع 2 میلی متر باران باریده بود.",
+"why": "placeholders must be exactly: {col:stages.ops_n} {col:stages.sprays_n} {col:stages.rain_since}"
+},
+{
+"en": "The yield is {col:yield.yield_ha} tonnes per hectare, which is {col:yield.vs_target} against the target. Verdict: {col:yield.state}. Tonnes below target: {col:yield.gap_t}.",
+"kind": "document",
+"max": null,
+"mt": "حاصل {col:yield.yield_ha} تن در هر هکتار است که {col:yield.vs_target} در برابر هدف است. حکم: {col:yield.state}.",
+"why": "placeholders must be exactly: {col:yield.yield_ha} {col:yield.vs_target} {col:yield.state} {col:yield.gap_t}"
+},
+{
+"en": "On {col:weather.date} the lowest temperature was {col:weather.tmin} C, the highest {col:weather.tmax} C, rain {col:weather.rain_mm} mm and wind {col:weather.wind_kmh} km/h. Work day check: {col:weather.work}.",
+"kind": "document",
+"max": null,
+"mt": "در {col:weather.date} دمای پایین ترین {col:weather.tmin} C، بالاترین {col:weather.tmax} C، باران {col:weather.rain_mm} mm و باد {col:weather.wind_kmh} km/h بود. چک روز کاری: {col:weather.work}.",
+"why": "English/Latin words left: mm km"
+},
+{
+"en": "Recorded by {col:weather.recorded_by}. The field limits are in the settings: rain that stops work {set:rain_stop} mm and storm wind {set:storm_wind} km/h.",
+"kind": "document",
+"max": null,
+"mt": "حدود میدان در تنظیمات هستند: باران که کار را متوقف می کند و باد طوفان 2 کیلومتر در ساعت.",
+"why": "placeholders must be exactly: {col:weather.recorded_by} {set:rain_stop} {set:storm_wind}"
+},
+{
+"en": "The average of the last four weeks is {col:crew.week_avg} hours a week against {col:crew.hours_week} contract hours. Overtime check: {col:crew.state}.",
+"kind": "document",
+"max": null,
+"mt": "میانگین چهار هفته گذشته {col:crew.week_avg} ساعت در هفته در برابر {col:crew.hours_week} ساعت قراردادی است.",
+"why": "placeholders must be exactly: {col:crew.week_avg} {col:crew.hours_week} {col:crew.state}"
+}
+]
