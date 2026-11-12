@@ -1,0 +1,303 @@
+[
+{
+"en": "Hello {manager}, {staff} is allocated {pct} to {project} and also works on other projects. Please check the load before we confirm.",
+"kind": "message",
+"max": null,
+"mt": "سلام {manager}، {staff} به {project} اختصاص داده شده و همچنین روی پروژه های دیگر کار می کند. لطفا بار را قبل از تایید بررسی کنید.",
+"why": "placeholders must be exactly: {manager} {staff} {pct} {project}"
+},
+{
+"en": "Hello {staff}, you are allocated {alloc} of your week on {projects_n} projects, above the limit. Please talk to {pm_name} this week.",
+"kind": "message",
+"max": null,
+"mt": "سلام {staff}، شما در {projects_n} پروژه های هفته اختصاص داده شده است، بیش از حد. لطفا با {pm_name} در این هفته صحبت کنید.",
+"why": "placeholders must be exactly: {staff} {alloc} {projects_n} {pm_name}"
+},
+{
+"en": "PMO lead: person above 100%",
+"kind": "label",
+"max": null,
+"mt": "سرب PMO: شخص بالاتر از 100٪",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello, {staff} is allocated {alloc} of the week on {projects_n} projects. Please decide who takes over some of the work.",
+"kind": "message",
+"max": null,
+"mt": "سلام، {staff} برای پروژه های {projects_n} در هفته اختصاص داده شده است. لطفا تصمیم بگیرید که چه کسی بخشی از کار را انجام می دهد.",
+"why": "placeholders must be exactly: {staff} {alloc} {projects_n}"
+},
+{
+"en": "Hello {pm_name}, {staff} has {free_h} free hours per week. If you need help on your project next month, tell me this week.",
+"kind": "message",
+"max": null,
+"mt": "سلام، هفته ای ساعت های خالی دارم. اگه برای پروژه ی ماه آینده به کمک احتیاج داری، این هفته بهم بگو.",
+"why": "placeholders must be exactly: {pm_name} {staff} {free_h}"
+},
+{
+"en": "Hello {staff}, we cannot approve your leave from {start} to {end}. Please send {approved_by} another date this week.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما نمیتونیم مرخصیت شما رو از 1 تا 2 تایید کنیم لطفاً یک تاریخ دیگه این هفته بفرستید",
+"why": "placeholders must be exactly: {staff} {start} {end} {approved_by}"
+},
+{
+"en": "Hello {owner}, the {role} request on {project} starts {start}. Shall we book a contractor? Please confirm today.",
+"kind": "message",
+"max": null,
+"mt": "سلام، درخواست شماره 2 شروع ميشه، بايد يه پيمانکار بگيريم؟ لطفا امروز تاييد کنيد.",
+"why": "placeholders must be exactly: {owner} {role} {project} {start}"
+},
+{
+"en": "Hello {approver}, {project} needs a {role} ({skill}) from {start}, open {days_open} days. Please approve the hire.",
+"kind": "message",
+"max": null,
+"mt": "سلام، از 5 روز قبل به شما نياز دارم لطفاً اجاره رو تایید کنيد",
+"why": "placeholders must be exactly: {approver} {project} {role} {skill} {start} {days_open}"
+},
+{
+"en": "PMO lead: monthly utilisation ready",
+"kind": "label",
+"max": null,
+"mt": "سرب PMO: آماده استفاده ماهانه",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello, {vendor} worked {hours} hours on {project} in the week of {week}, a cost of {cost}. Please pay when the invoice matches.",
+"kind": "message",
+"max": null,
+"mt": "سلام، {vendor} در هفته {week} ساعت {hours} کار کرد، هزینه {cost} لطفا پرداخت زمانی که فاکتور مطابقت دارد.",
+"why": "placeholders must be exactly: {vendor} {hours} {project} {week} {cost}"
+},
+{
+"en": "Contractor: invoice does not match hours",
+"kind": "label",
+"max": null,
+"mt": "پیمانکار: فاکتور با ساعت مطابقت ندارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "A person above {set:over_pct} of the available hours needs work moved to somebody else. A person below {set:free_pct} can take new work. The project manager and the PMO lead agree any change in the weekly resource meeting.",
+"kind": "document",
+"max": null,
+"mt": "یک فرد بالاتر از {set:over_pct} از ساعات موجود نیاز به کار به کسی دیگر منتقل. یک فرد کمتر از {set:free_pct} می تواند کار جدید را انجام دهد. مدیر پروژه و PMO منجر به هر گونه تغییر در جلسه منابع هفتگی توافق می کنند.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Utilisation was {col:util.util} against a target of {col:util.target}, a gap of {col:util.gap}. The check shows: {col:util.state}. The billable share of the hours logged was {col:util.share}.",
+"kind": "document",
+"max": null,
+"mt": "استفاده {col:util.util} در برابر هدف {col:util.target}، فاصله {col:util.gap} بود. چک نشان می دهد: {col:util.state}.",
+"why": "placeholders must be exactly: {col:util.util} {col:util.target} {col:util.gap} {col:util.state} {col:util.share}"
+},
+{
+"en": "We use this statement in the monthly review with the PMO lead. A low utilisation is first a question about the work planned for the person, not about the person.",
+"kind": "document",
+"max": null,
+"mt": "ما از این بیانیه در بررسی ماهانه با PMO استفاده می کنیم. استفاده کم در درجه اول یک سوال در مورد کار برنامه ریزی شده برای فرد است، نه در مورد فرد.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "To {col:bookings.vendor}. Project: {col:bookings.project}. Role: {col:bookings.role}.",
+"kind": "document",
+"max": null,
+"mt": "به پروژه: نقش:",
+"why": "placeholders must be exactly: {col:bookings.vendor} {col:bookings.project} {col:bookings.role}"
+},
+{
+"en": "Person: {col:overtime.staff}. Week starting {col:overtime.week}. Reason: {col:overtime.reason}.",
+"kind": "document",
+"max": null,
+"mt": "فرد: هفته شروع شد. دليل:",
+"why": "placeholders must be exactly: {col:overtime.staff} {col:overtime.week} {col:overtime.reason}"
+},
+{
+"en": "The person is allocated {col:staff.alloc_now} of the week on {col:staff.projects_n} projects and has {col:staff.free_hours} free hours a week.",
+"kind": "document",
+"max": null,
+"mt": "فرد در {col:staff.projects_n} پروژه در هفته اختصاص داده می شود و در هفته {col:staff.free_hours} ساعت آزاد دارد.",
+"why": "placeholders must be exactly: {col:staff.alloc_now} {col:staff.projects_n} {col:staff.free_hours}"
+},
+{
+"en": "Check that billable hours match the plan",
+"kind": "label",
+"max": null,
+"mt": "بررسي کنيد که ساعت هاي فايده دار با برنامه مطابقت داشته باشه",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Send the statements to the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "اعلامیه ها را به رهبر PMO بفرستید",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "People joining projects",
+"kind": "label",
+"max": 30,
+"mt": "افرادی که به پروژه ها ملحق می شوند",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Enter the weekly hours of each person on Timesheets and the dates submitted and approved on Timesheet Approvals. The sheet marks every week as approved, waiting, returned or missing, with the days late.",
+"kind": "sentence",
+"max": null,
+"mt": "ساعت های هفتگی هر فرد را در Time Sheets وارد کنید و تاریخ های ارسال شده و تایید شده در تأییدات جدول زمان.",
+"why": "English/Latin words left: Time Sheets"
+},
+{
+"en": "Forecast at completion with CPI and SPI",
+"kind": "label",
+"max": 50,
+"mt": "پیش بینی در زمان تکمیل با شاخص عملکرد هزینه و شاخص عملکرد برنامه",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "Accruals with cut-off and reversal month",
+"kind": "label",
+"max": 50,
+"mt": "حساب های حسابداری که به صورت حساب های حسابداری به حساب می آیند.",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "Spend plan against actual by month",
+"kind": "label",
+"max": 50,
+"mt": "هزینه های برنامه ریزی شده در مقایسه با هزینه های واقعی در ماه",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "Matched",
+"kind": "list",
+"max": 30,
+"mt": "با هم مطابقت دارند",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Smart Meter Reporting Dashboard",
+"kind": "list",
+"max": 30,
+"mt": "داشبورد گزارش دهنده شمارنده هوشمند",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "ClearLines Translation",
+"kind": "list",
+"max": 30,
+"mt": "ترجمه ClearLines",
+"why": "English/Latin words left: ClearLines"
+},
+{
+"en": "Spend plan: what each project planned to spend in each month",
+"kind": "title",
+"max": 60,
+"mt": "طرح هزینه: هر پروژه در هر ماه چه هزینه ای را برنامه ریزی کرده است",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Forecast at completion: earned value, CPI, SPI, final cost",
+"kind": "title",
+"max": 60,
+"mt": "پیش بینی در زمان تکمیل: ارزش کسب شده، شاخص عملکرد هزینه، شاخص عملکرد برنامه، هزینه نهایی",
+"why": "too long: 88 characters, the limit is 60"
+},
+{
+"en": "Earned value by month: planned, earned and actual cost",
+"kind": "title",
+"max": 60,
+"mt": "ارزش کسب شده در ماه: هزینه های برنامه ریزی شده، کسب شده و واقعی",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "One row per order; tax, total, goods received, last delivery date, invoiced, delivery state, three-way match and the value still open fill in by themselves from receipts and invoices.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف در هر سفارش؛ مالیات، کل، کالاهای دریافت شده، آخرین تاریخ تحویل، صورتحساب، وضعیت تحویل، مطابقت سه طرفه و ارزش هنوز در دسترس خود را از رسید ها و صورتحساب ها پر کنید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Order match",
+"kind": "label",
+"max": null,
+"mt": "مطابقت سفارش",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Vendor invoices: due dates, payment and order match",
+"kind": "title",
+"max": 60,
+"mt": "فاکتورهای فروشنده: تاریخ انقضا، پرداخت و مطابقت سفارش",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "One row per vendor invoice; due date from the vendor terms, days to pay, payment state and the match against the order and the goods received fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر فاکتور فروشنده؛ تاریخ انقضا از شرایط فروشنده، روزهای پرداخت، وضعیت پرداخت و مطابقت با سفارش و کالاهای دریافت شده خود را پر کنید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match",
+"kind": "label",
+"max": null,
+"mt": "مطابقت",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Vendor invoice sheet with its order match",
+"kind": "title",
+"max": 60,
+"mt": "ورق فاکتور فروشنده با مطابقت سفارش",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Earned value, CPI, SPI and forecast from four numbers",
+"kind": "title",
+"max": 60,
+"mt": "ارزش کسب شده، شاخص عملکرد هزینه، شاخص عملکرد برنامه و پیش بینی از چهار عدد",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Contingency drawdown check: what the reserve can still pay",
+"kind": "title",
+"max": 60,
+"mt": "چک استفاده از موارد غیرمنتظره: آنچه که ذخیره هنوز می تواند پرداخت کند",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Hello, we accept your quote {quote_id} of {price} for request {request}. The lead time is {lead_days} days. Our purchase order follows.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما پیشنهاد شما را برای درخواست قبول می کنیم. زمان پیشبرد {lead_days} روز است. سفارش خرید ما دنبال می شود.",
+"why": "placeholders must be exactly: {quote_id} {price} {request} {lead_days}"
+},
+{
+"en": "Hello, please confirm the delivery date of order {po_number} ({amount}). We expected it on {expected}. The delivery check shows: {delivery}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً تاریخ تحویل سفارش را تایید کنید. ما انتظار داشتیم که آن را در 2 داشته باشیم. چک تحویل نشان می دهد: 3",
+"why": "placeholders must be exactly: {po_number} {amount} {expected} {delivery}"
+},
+{
+"en": "Vendor: invoice does not match",
+"kind": "label",
+"max": null,
+"mt": "فروشنده: فاکتور با هم مطابقت ندارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, invoice {inv_no} for {amount} does not match order {po}. The order is {order_amount} and the goods received are {received}. Please send a corrected invoice.",
+"kind": "message",
+"max": null,
+"mt": "سلام، فاکتور {inv_no} برای {amount} با سفارش {po} مطابقت ندارد. سفارش {order_amount} است و کالاهای دریافت شده {received} هستند. لطفا یک فاکتور اصلاح شده ارسال کنید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello {manager}, please confirm accrual {ac_id} for {project}: {vendor}, {amount}, {reason}. The cut-off is {cutoff}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {manager}، لطفا اعتبار {ac_id} را برای {project} تایید کنید: {vendor}، {amount}، {reason}.",
+"why": "placeholders must be exactly: {manager} {ac_id} {project} {vendor} {amount} {reason} {cutoff}"
+}
+]

@@ -1,0 +1,380 @@
+[
+{
+"en": "Hello {staff}, your allocation on {project} is now {pct} of your week ({hours_wk} hours) until {end}. Please check with {manager}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {staff}, {project}'deki tahsisatınız şimdi {pct} haftanın {hours_wk} saatinde {end}'e kadar.",
+"why": "placeholders must be exactly: {staff} {project} {pct} {hours_wk} {end} {manager}"
+},
+{
+"en": "Hello {pm_name}, {staff} has {free_h} free hours per week. If you need help on your project next month, tell me this week.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, haftada iki saat boşluk var.",
+"why": "placeholders must be exactly: {pm_name} {staff} {free_h}"
+},
+{
+"en": "Hello {cover}, {staff} is away from {start} to {end}. Can you cover their project work? Please tell {approved_by} today.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {cover}, {staff} {start} ile {end} arasında uzakta.",
+"why": "placeholders must be exactly: {cover} {staff} {start} {end} {approved_by}"
+},
+{
+"en": "Hello {approver}, {project} needs a {role} ({skill}) from {start}, open {days_open} days. Please approve the hire.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, 5 gün içinde kiralama yaptırmak istiyorum. Lütfen kiralamayı onaylayın.",
+"why": "placeholders must be exactly: {approver} {project} {role} {skill} {start} {days_open}"
+},
+{
+"en": "Hello, the hours of {staff} for {month} are final: {hours} hours, {billable} billable. Please use them for the month-end run.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {staff} için saatler son: {hours} saat, {billable} faturalandırılabilir. Lütfen onları ay sonu çalışması için kullanın.",
+"why": "placeholders must be exactly: {staff} {month} {hours} {billable}"
+},
+{
+"en": "Hello, {vendor} worked {hours} hours on {project} in the week of {week}, a cost of {cost}. Please pay when the invoice matches.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {vendor} {week} haftasında {project} saat çalıştı, bir maliyet {cost}. Lütfen fatura eşleştiğinde ödeme yapın.",
+"why": "placeholders must be exactly: {vendor} {hours} {project} {week} {cost}"
+},
+{
+"en": "Hello, we confirm your booking on {project}: {hours_week} hours a week from {start} to {end} at {rate} an hour. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, rezervasyonunuzu haftada bir saatte 2'den 3'e kadar onaylıyoruz.",
+"why": "placeholders must be exactly: {project} {hours_week} {start} {end} {rate}"
+},
+{
+"en": "Hello, your booking on {project} ends on {end}. Please hand over your work and send your last timesheet.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, rezervasyonunuz 1'de bitiyor.",
+"why": "placeholders must be exactly: {project} {end}"
+},
+{
+"en": "Hello, please send your hours for the week of {week} on {project}. We have {hours} on record. Please confirm them.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen 1'deki hafta için saatlerinizi gönderin.",
+"why": "placeholders must be exactly: {week} {project} {hours}"
+},
+{
+"en": "Hello, your invoice for the week of {week} on {project} shows {invoice_hrs} hours but we have {hours}. Please send a corrected one.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {week} haftası için faturanız {project} saat gösterir ama biz {hours} var. Lütfen düzeltilmiş bir gönderin.",
+"why": "placeholders must be exactly: {week} {project} {invoice_hrs} {hours}"
+},
+{
+"en": "Hello, {staff} joins {project} on {start}. Please prepare their access before that day and tell {manager}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {staff} {project} {start} {project} {start} {start} {start} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager} {manager}",
+"why": "placeholders must be exactly: {staff} {project} {start} {manager}"
+},
+{
+"en": "Person: {col:cap.staff}. Week starting {col:cap.week}.",
+"kind": "document",
+"max": null,
+"mt": "Bir hafta başlıyor.",
+"why": "placeholders must be exactly: {col:cap.staff} {col:cap.week}"
+},
+{
+"en": "Utilisation was {col:util.util} against a target of {col:util.target}, a gap of {col:util.gap}. The check shows: {col:util.state}. The billable share of the hours logged was {col:util.share}.",
+"kind": "document",
+"max": null,
+"mt": "Kullanım {col:util.util} {col:util.target} hedefiyle karşılaştırıldığında, bir fark {col:util.gap}.",
+"why": "placeholders must be exactly: {col:util.util} {col:util.target} {col:util.gap} {col:util.state} {col:util.share}"
+},
+{
+"en": "Up to today the team logged {col:projects.hours_logged} hours on this project, of which {col:projects.billable_h} hours are billable. The charge value of the billable hours is {col:projects.billable_value}.",
+"kind": "document",
+"max": null,
+"mt": "Bugüne kadar ekip bu projeye {col:projects.hours_logged} saat kaydetti, bunlardan {col:projects.billable_h} saat faturalandırılabilir.",
+"why": "placeholders must be exactly: {col:projects.hours_logged} {col:projects.billable_h} {col:projects.billable_value}"
+},
+{
+"en": "The labour cost of all hours is {col:projects.labour_cost} and contractors cost {col:projects.contractor_cost}. The budget of the project is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "Tüm saatlerin işgücü maliyeti {col:projects.labour_cost} ve müteahhitlerin maliyeti {col:projects.contractor_cost}.",
+"why": "placeholders must be exactly: {col:projects.labour_cost} {col:projects.contractor_cost} {col:projects.budget}"
+},
+{
+"en": "Approved by {col:leave.approved_by}. Cover: {col:leave.cover}. The cover check shows: {col:leave.clash}.",
+"kind": "document",
+"max": null,
+"mt": "Kapak kontrolü gösterir: {col:leave.clash}.",
+"why": "placeholders must be exactly: {col:leave.approved_by} {col:leave.cover} {col:leave.clash}"
+},
+{
+"en": "Please put this leave in the team calendar and tell the project managers whose projects the person works on. Of these days, {col:leave.days_30} fall in the next 30 days.",
+"kind": "document",
+"max": null,
+"mt": "Lütfen bu izinleri takviminize yazın ve projenin yöneticilerine bu kişinin hangi projelerde çalıştığını söyleyin.",
+"why": "placeholders must be exactly: {col:leave.days_30}"
+},
+{
+"en": "To {col:bookings.vendor}. Project: {col:bookings.project}. Role: {col:bookings.role}.",
+"kind": "document",
+"max": null,
+"mt": "Proje: {col:bookings.project}. Rol: {col:bookings.role}.",
+"why": "placeholders must be exactly: {col:bookings.vendor} {col:bookings.project} {col:bookings.role}"
+},
+{
+"en": "We confirm your booking from {col:bookings.start} to {col:bookings.end}, {col:bookings.weeks} weeks at {col:bookings.hours_week} hours a week. The rate is {col:bookings.rate} per hour and the planned cost is {col:bookings.cost}.",
+"kind": "document",
+"max": null,
+"mt": "Rezervasyonunuzu haftada {col:bookings.start} ila {col:bookings.end} saatte {col:bookings.hours_week} saatte {col:bookings.weeks} hafta boyunca onaylıyoruz.",
+"why": "placeholders must be exactly: {col:bookings.start} {col:bookings.end} {col:bookings.weeks} {col:bookings.hours_week} {col:bookings.rate} {col:bookings.cost}"
+},
+{
+"en": "The cost per hour is {col:overtime.rate}. With the premium of {set:ot_premium} the cost of the overtime is {col:overtime.cost}.",
+"kind": "document",
+"max": null,
+"mt": "Saat başına maliyet {col:overtime.rate}.",
+"why": "placeholders must be exactly: {col:overtime.rate} {set:ot_premium} {col:overtime.cost}"
+},
+{
+"en": "Person: {col:staff.name}, {col:staff.role}, team {col:staff.team}. Main project manager: {col:staff.main_pm}.",
+"kind": "document",
+"max": null,
+"mt": "Kişi: {col:staff.name}, {col:staff.role}, takım {col:staff.team}.",
+"why": "placeholders must be exactly: {col:staff.name} {col:staff.role} {col:staff.team} {col:staff.main_pm}"
+},
+{
+"en": "Reviewed on {col:load.reviewed}. Person: {col:load.staff}, {col:load.role}.",
+"kind": "document",
+"max": null,
+"mt": "İzleyici: {col:load.staff}, {col:load.role}.",
+"why": "placeholders must be exactly: {col:load.reviewed} {col:load.staff} {col:load.role}"
+},
+{
+"en": "Action agreed: {col:load.action}. Main project manager: {col:load.pm_name}.",
+"kind": "document",
+"max": null,
+"mt": "Baş proje müdürü:",
+"why": "placeholders must be exactly: {col:load.action} {col:load.pm_name}"
+},
+{
+"en": "Control project budget, cost, purchasing and billing in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Proje bütçesini, maliyetini, satın alımını ve faturalandırılmasını tek bir çalışma defterinde kontrol edin",
+"why": "too long: 106 characters, the limit is 80"
+},
+{
+"en": "Budget by category with transfers and draws",
+"kind": "label",
+"max": 50,
+"mt": "Değiştirmeler ve çekimler dahil olmak üzere kategorilere göre bütçe",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "Spend plan against actual by month",
+"kind": "label",
+"max": 50,
+"mt": "Planlanan harcamalar gerçek harcamalara göre aylık olarak",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Invoice above receipt",
+"kind": "list",
+"max": 30,
+"mt": "Faturadan daha yüksek bir fatura",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "To invoice later",
+"kind": "list",
+"max": 30,
+"mt": "Daha sonra faturalandırmak için",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Customer Portal Rebuild",
+"kind": "list",
+"max": 30,
+"mt": "Müşteri portalı yeniden yapılandırma",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Core Banking Data Migration",
+"kind": "list",
+"max": 30,
+"mt": "Temel bankacılık verilerinin taşınması",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Service Desk Process Redesign",
+"kind": "list",
+"max": 30,
+"mt": "Hizmet masası sürecinin yeniden tasarımı",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Booking Engine Integration",
+"kind": "list",
+"max": 30,
+"mt": "Rezervasyon motoru entegrasyonu",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Timesheet and Cost Tracking Rollout",
+"kind": "list",
+"max": 30,
+"mt": "Zaman tablosu ve maliyet izleme uygulaması",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Vendors: terms, spend, orders, invoices and payment record",
+"kind": "title",
+"max": 60,
+"mt": "Satıcılar: şartlar, harcamalar, siparişler, faturalar ve ödeme kayıtları",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Project budgets by cost category with moves and spend",
+"kind": "title",
+"max": 60,
+"mt": "Harcamalar ve harcamalar dahil olmak üzere maliyet kategorileri doğrultusunda proje bütçeleri",
+"why": "too long: 93 characters, the limit is 60"
+},
+{
+"en": "Phase budgets: budget and spend of each work phase",
+"kind": "title",
+"max": 60,
+"mt": "Aşama bütçeleri: her çalışma aşamasının bütçesi ve harcamaları",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cost lines: every cost by project, category and vendor",
+"kind": "title",
+"max": 60,
+"mt": "Maliyet dizileri: projeler, kategoriler ve satıcılar tarafından her maliyet",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Spend plan: what each project planned to spend in each month",
+"kind": "title",
+"max": 60,
+"mt": "Harcama planı: her projenin her ay harcamayı planladığı miktar",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Forecast at completion: earned value, CPI, SPI, final cost",
+"kind": "title",
+"max": 60,
+"mt": "Tamamlandığında tahmin: kazanılan değer, KPI, SPI, nihai maliyet",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Earned value by month: planned, earned and actual cost",
+"kind": "title",
+"max": 60,
+"mt": "Aylık olarak kazanılan değer: planlanan, kazanılan ve gerçek maliyet",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Quotes: vendor offers scored on price, lead time and quality",
+"kind": "title",
+"max": 60,
+"mt": "Teklifler: Satıcı teklifleri fiyat, teslim süresi ve kaliteye göre puanlanmıştır.",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Purchase orders: amount, tax, goods received, open value",
+"kind": "title",
+"max": 60,
+"mt": "Satın alma siparişleri: miktar, vergi, alınan mallar, açık değer",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Receipts: goods and services received against each order",
+"kind": "title",
+"max": 60,
+"mt": "Alıntılar: Her sipariş karşılığında alınan mallar ve hizmetler",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Vendor invoices: due dates, payment and order match",
+"kind": "title",
+"max": 60,
+"mt": "Satıcı faturaları: teslimat tarihleri, ödeme ve sipariş eşleşmesi",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Client billing: milestones, change orders, collected",
+"kind": "title",
+"max": 60,
+"mt": "Müşteri faturalandırma: kilometre taşları, değişim emirleri, toplanmış",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Accruals: work done but not yet invoiced, month by month",
+"kind": "title",
+"max": 60,
+"mt": "Değerlendirme: İşlenmiş ancak henüz faturalandırılmamış işler, aylık olarak",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Quote comparison: price, lead time and quality weighted",
+"kind": "title",
+"max": 60,
+"mt": "Teklif karşılaştırması: fiyat, teslim süresi ve kalite ağırlaştırılmış",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Contingency drawdown check: what the reserve can still pay",
+"kind": "title",
+"max": 60,
+"mt": "Beklenmedik kullanım kontrolü: rezervlerin hala ne kadar ödeyebileceği",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Hello, we issued purchase order {po_number} for {amount} for {project}. Please confirm that you accept it and the delivery date. We expect it on {expected}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {amount} için {project} için satın alma siparişi verdik. Lütfen teslimat tarihini kabul ettiğinizi onaylayın. {expected}'de bekliyoruz.",
+"why": "placeholders must be exactly: {po_number} {amount} {project} {expected}"
+},
+{
+"en": "Hello, we accept your quote {quote_id} of {price} for request {request}. The lead time is {lead_days} days. Our purchase order follows.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, talep için teklifinizi kabul ediyoruz. teslim süresi 3 gündür.",
+"why": "placeholders must be exactly: {quote_id} {price} {request} {lead_days}"
+},
+{
+"en": "Hello, please confirm the delivery date of order {po_number} ({amount}). We expected it on {expected}. The delivery check shows: {delivery}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen siparişin teslimat tarihini onaylayın.",
+"why": "placeholders must be exactly: {po_number} {amount} {expected} {delivery}"
+},
+{
+"en": "Hello, we amended order {po_number}. The new amount is {amount} and the total with tax is {total}. Please confirm the new total and the delivery date.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, siparişimizi değiştirdik. Yeni miktar {amount} ve vergi dahil toplam {total}. Lütfen yeni toplamı ve teslimat tarihini onaylayın.",
+"why": "placeholders must be exactly: {po_number} {amount} {total}"
+},
+{
+"en": "Hello, please send a credit note for invoice {inv_no}. The invoice is {amount} and the order is {order_amount}. We pay the rest when the credit note arrives.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen fatura için bir kredi notu gönderin.",
+"why": "placeholders must be exactly: {inv_no} {amount} {order_amount}"
+},
+{
+"en": "Hello {manager}, please confirm accrual {ac_id} for {project}: {vendor}, {amount}, {reason}. The cut-off is {cutoff}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {manager}, lütfen {project} için toplama {ac_id} onaylayın: {vendor}, {amount}, {reason}.",
+"why": "placeholders must be exactly: {manager} {ac_id} {project} {vendor} {amount} {reason} {cutoff}"
+}
+]

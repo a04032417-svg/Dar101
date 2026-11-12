@@ -1,0 +1,331 @@
+[
+{
+"en": "Hello {staff}, your allocation on {project} is now {pct} of your week ({hours_wk} hours) until {end}. Please check with {manager}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {staff}, alokasi Anda pada {project} sekarang {pct} dari minggu Anda ({hours_wk} jam) sampai {end}.",
+"why": "placeholders must be exactly: {staff} {project} {pct} {hours_wk} {end} {manager}"
+},
+{
+"en": "Hello {staff}, you are allocated {alloc} of your week on {projects_n} projects, above the limit. Please talk to {pm_name} this week.",
+"kind": "message",
+"max": null,
+"mt": "Halo {staff}, Anda dialokasikan {alloc} dari minggu Anda pada {projects_n} proyek, di atas batas.",
+"why": "placeholders must be exactly: {staff} {alloc} {projects_n} {pm_name}"
+},
+{
+"en": "Hello, please send your hours for the week of {week} on {project}. We have {hours} on record. Please confirm them.",
+"kind": "message",
+"max": null,
+"mt": "Halo, silakan kirim jam Anda untuk minggu 1 kami memiliki catatan, mohon konfirmasi.",
+"why": "placeholders must be exactly: {week} {project} {hours}"
+},
+{
+"en": "Utilisation was {col:util.util} against a target of {col:util.target}, a gap of {col:util.gap}. The check shows: {col:util.state}. The billable share of the hours logged was {col:util.share}.",
+"kind": "document",
+"max": null,
+"mt": "Penggunaan {col:util.util} terhadap target {col:util.target}, selisih {col:util.gap}. cek menunjukkan: {col:util.state}.",
+"why": "placeholders must be exactly: {col:util.util} {col:util.target} {col:util.gap} {col:util.state} {col:util.share}"
+},
+{
+"en": "Up to today the team logged {col:projects.hours_logged} hours on this project, of which {col:projects.billable_h} hours are billable. The charge value of the billable hours is {col:projects.billable_value}.",
+"kind": "document",
+"max": null,
+"mt": "Hingga hari ini tim mencatat {col:projects.hours_logged} jam pada proyek ini, di mana {col:projects.billable_h} jam dapat ditagih.",
+"why": "placeholders must be exactly: {col:projects.hours_logged} {col:projects.billable_h} {col:projects.billable_value}"
+},
+{
+"en": "The labour cost of all hours is {col:projects.labour_cost} and contractors cost {col:projects.contractor_cost}. The budget of the project is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "Biaya tenaga kerja dari semua jam adalah {col:projects.labour_cost} dan biaya kontraktor {col:projects.contractor_cost}.",
+"why": "placeholders must be exactly: {col:projects.labour_cost} {col:projects.contractor_cost} {col:projects.budget}"
+},
+{
+"en": "Approved by {col:leave.approved_by}. Cover: {col:leave.cover}. The cover check shows: {col:leave.clash}.",
+"kind": "document",
+"max": null,
+"mt": "Disetujui oleh {col:leave.approved_by}. Cover: {col:leave.cover}.",
+"why": "placeholders must be exactly: {col:leave.approved_by} {col:leave.cover} {col:leave.clash}"
+},
+{
+"en": "We confirm your booking from {col:bookings.start} to {col:bookings.end}, {col:bookings.weeks} weeks at {col:bookings.hours_week} hours a week. The rate is {col:bookings.rate} per hour and the planned cost is {col:bookings.cost}.",
+"kind": "document",
+"max": null,
+"mt": "Kami mengkonfirmasi pemesanan Anda dari {col:bookings.start} sampai {col:bookings.end}, {col:bookings.weeks} minggu pada {col:bookings.hours_week} jam seminggu.",
+"why": "placeholders must be exactly: {col:bookings.start} {col:bookings.end} {col:bookings.weeks} {col:bookings.hours_week} {col:bookings.rate} {col:bookings.cost}"
+},
+{
+"en": "Action agreed: {col:load.action}. Main project manager: {col:load.pm_name}.",
+"kind": "document",
+"max": null,
+"mt": "Tindakan disetujui: {col:load.action}.",
+"why": "placeholders must be exactly: {col:load.action} {col:load.pm_name}"
+},
+{
+"en": "Target, %",
+"kind": "label",
+"max": 30,
+"mt": "Target, %",
+"why": "not translated"
+},
+{
+"en": "People joining projects",
+"kind": "label",
+"max": 30,
+"mt": "Orang-orang yang bergabung dalam proyek",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "percent complete, planned percent and actual cost give earned value, both indexes, the estimate to complete and the final cost of every project",
+"kind": "sentence",
+"max": 160,
+"mt": "persentase selesai, persentase yang direncanakan dan biaya aktual memberikan nilai yang diperoleh, kedua indeks, perkiraan untuk menyelesaikan dan biaya akhir dari setiap proyek",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "price, lead time and quality are scored out of 100 with the weights you set, ranked inside each request and checked against the vendor chosen",
+"kind": "sentence",
+"max": 160,
+"mt": "harga, waktu pengiriman dan kualitas yang skor dari 100 dengan bobot yang Anda tetapkan, peringkat dalam setiap permintaan dan diperiksa terhadap vendor yang dipilih",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Budget by category with transfers and draws",
+"kind": "label",
+"max": 50,
+"mt": "Anggaran menurut kategori dengan transfer dan undian",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "the budget of every project and category moves with approved transfers and reserve draws, and shows spent, open orders and what is left",
+"kind": "sentence",
+"max": 160,
+"mt": "anggaran dari setiap proyek dan kategori bergerak dengan transfer yang disetujui dan cadangan menarik dan menunjukkan dihabiskan, pesanan terbuka dan apa yang tersisa",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Client billing with due dates and days late",
+"kind": "label",
+"max": 50,
+"mt": "Penagihan klien dengan tanggal jatuh tempo dan hari terlambat",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "each change request shows extra cost, extra days, price to the client, margin and a warning for a margin below your target or a late decision",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap permintaan perubahan menunjukkan biaya tambahan, hari tambahan, harga untuk klien, margin dan peringatan untuk margin di bawah target Anda atau keputusan terlambat",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Accruals with cut-off and reversal month",
+"kind": "label",
+"max": 50,
+"mt": "Akurasi dengan bulan pemotongan dan bulan pembalikan",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Spend plan against actual by month",
+"kind": "label",
+"max": 50,
+"mt": "Rencana pengeluaran dibandingkan dengan yang sebenarnya per bulan",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "the planned spend of each project and month is set against what was spent, with the cumulative plan and a check against your amber limit",
+"kind": "sentence",
+"max": 160,
+"mt": "pengeluaran yang direncanakan dari setiap proyek dan bulan ditetapkan terhadap apa yang dihabiskan, dengan rencana kumulatif dan cek terhadap batas kuningan Anda",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Order delivery and late order warnings",
+"kind": "label",
+"max": 50,
+"mt": "Pengiriman pesanan dan peringatan penundaan pesanan",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Vendor record with days to pay and disputes",
+"kind": "label",
+"max": 50,
+"mt": "Catatan vendor dengan hari untuk membayar dan sengketa",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Reserve",
+"kind": "list",
+"max": 30,
+"mt": "Reserve",
+"why": "not translated"
+},
+{
+"en": "Customer Portal Rebuild",
+"kind": "list",
+"max": 30,
+"mt": "Membangun kembali portal pelanggan",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Smart Meter Reporting Dashboard",
+"kind": "list",
+"max": 30,
+"mt": "Smart meter dashboard pelaporan",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Service Desk Process Redesign",
+"kind": "list",
+"max": 30,
+"mt": "Desain ulang proses meja layanan",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cost categories: budget and spend of each category",
+"kind": "title",
+"max": 60,
+"mt": "Kategori biaya: anggaran dan pengeluaran dari setiap kategori",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Vendors: terms, spend, orders, invoices and payment record",
+"kind": "title",
+"max": 60,
+"mt": "Penjual: syarat, pengeluaran, pesanan, faktur dan catatan pembayaran",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Project budgets by cost category with moves and spend",
+"kind": "title",
+"max": 60,
+"mt": "Anggaran proyek menurut kategori biaya dengan pemindahan dan pengeluaran",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Phase budgets: budget and spend of each work phase",
+"kind": "title",
+"max": 60,
+"mt": "Anggaran fase: anggaran dan pengeluaran dari setiap fase pekerjaan",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Cost lines: every cost by project, category and vendor",
+"kind": "title",
+"max": 60,
+"mt": "Baris biaya: setiap biaya berdasarkan proyek, kategori dan vendor",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Spend plan: what each project planned to spend in each month",
+"kind": "title",
+"max": 60,
+"mt": "Rencana pengeluaran: apa yang direncanakan setiap proyek untuk dibelanjakan setiap bulan",
+"why": "too long: 88 characters, the limit is 60"
+},
+{
+"en": "Forecast at completion: earned value, CPI, SPI, final cost",
+"kind": "title",
+"max": 60,
+"mt": "Perkiraan pada saat selesai: nilai penghasilan, CPI, SPI, biaya akhir",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Earned value by month: planned, earned and actual cost",
+"kind": "title",
+"max": 60,
+"mt": "Nilai yang diperoleh per bulan: rencana, biaya yang diperoleh dan biaya yang sebenarnya",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Purchase requests: what to buy and where it stands",
+"kind": "title",
+"max": 60,
+"mt": "Permintaan pembelian: apa yang harus dibeli dan di mana situasinya",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Quotes: vendor offers scored on price, lead time and quality",
+"kind": "title",
+"max": 60,
+"mt": "Quote: penawaran vendor diukur pada harga, waktu pengiriman dan kualitas",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Purchase orders: amount, tax, goods received, open value",
+"kind": "title",
+"max": 60,
+"mt": "Pesanan pembelian: jumlah, pajak, barang yang diterima, nilai terbuka",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Receipts: goods and services received against each order",
+"kind": "title",
+"max": 60,
+"mt": "Penerimaan: barang dan jasa yang diterima untuk setiap pesanan",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Vendor invoices: due dates, payment and order match",
+"kind": "title",
+"max": 60,
+"mt": "Faktur penjual: tanggal jatuh tempo, pembayaran dan pencocokan pesanan",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Margin",
+"kind": "label",
+"max": null,
+"mt": "Margin",
+"why": "not translated"
+},
+{
+"en": "Transfer",
+"kind": "label",
+"max": 30,
+"mt": "Transfer",
+"why": "not translated"
+},
+{
+"en": "Accruals: work done but not yet invoiced, month by month",
+"kind": "title",
+"max": 60,
+"mt": "Akurasi: pekerjaan yang dilakukan tetapi belum di faktur, bulan demi bulan",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Quote comparison: price, lead time and quality weighted",
+"kind": "title",
+"max": 60,
+"mt": "Perbandingan penawaran: harga, lead time dan kualitas tertimbang",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Contingency drawdown check: what the reserve can still pay",
+"kind": "title",
+"max": 60,
+"mt": "Pemeriksaan penggunaan darurat: apa yang masih bisa dibayarkan oleh cadangan",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Hello, please confirm the delivery date of order {po_number} ({amount}). We expected it on {expected}. The delivery check shows: {delivery}.",
+"kind": "message",
+"max": null,
+"mt": "Halo, mohon konfirmasi tanggal pengiriman pesanan {po_number} ({amount}). Kami mengharapkannya pada {expected}.",
+"why": "placeholders must be exactly: {po_number} {amount} {expected} {delivery}"
+},
+{
+"en": "Hello, invoice {inv_no} for {amount} does not match order {po}. The order is {order_amount} and the goods received are {received}. Please send a corrected invoice.",
+"kind": "message",
+"max": null,
+"mt": "Halo, faktur {inv_no} untuk {amount} tidak sesuai dengan pesanan {po}.",
+"why": "placeholders must be exactly: {inv_no} {amount} {po} {order_amount} {received}"
+},
+{
+"en": "Hello {manager}, please confirm accrual {ac_id} for {project}: {vendor}, {amount}, {reason}. The cut-off is {cutoff}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {manager}, mohon konfirmasi akrual {ac_id} untuk {project}: {vendor}, {amount}, {reason}.",
+"why": "placeholders must be exactly: {manager} {ac_id} {project} {vendor} {amount} {reason} {cutoff}"
+}
+]

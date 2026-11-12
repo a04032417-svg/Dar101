@@ -1,0 +1,569 @@
+[
+{
+"en": "Hello {staff}, your allocation on {project} is now {pct} of your week ({hours_wk} hours) until {end}. Please check with {manager}.",
+"kind": "message",
+"max": null,
+"mt": "Salve {staff}, la vostra assegnazione su {project} è ora {pct} della vostra settimana ({hours_wk} ore) fino a {end}.",
+"why": "placeholders must be exactly: {staff} {project} {pct} {hours_wk} {end} {manager}"
+},
+{
+"en": "Hello {staff}, you are allocated {alloc} of your week on {projects_n} projects, above the limit. Please talk to {pm_name} this week.",
+"kind": "message",
+"max": null,
+"mt": "Salve {staff}, vi è stato assegnato {alloc} della vostra settimana su {projects_n} progetti, al di sopra del limite.",
+"why": "placeholders must be exactly: {staff} {alloc} {projects_n} {pm_name}"
+},
+{
+"en": "Hello {pm_name}, {staff} has {free_h} free hours per week. If you need help on your project next month, tell me this week.",
+"kind": "message",
+"max": null,
+"mt": "Se hai bisogno di aiuto per il tuo progetto il mese prossimo, dimmelo questa settimana.",
+"why": "placeholders must be exactly: {pm_name} {staff} {free_h}"
+},
+{
+"en": "Hello {staff}, we cannot approve your leave from {start} to {end}. Please send {approved_by} another date this week.",
+"kind": "message",
+"max": null,
+"mt": "Salve, non possiamo approvare il vostro congedo da 1 a 2 per favore inviate un'altra data questa settimana.",
+"why": "placeholders must be exactly: {staff} {start} {end} {approved_by}"
+},
+{
+"en": "Hello {cover}, {staff} is away from {start} to {end}. Can you cover their project work? Please tell {approved_by} today.",
+"kind": "message",
+"max": null,
+"mt": "Ciao {cover}, {staff} è lontano da {start} a {end}.",
+"why": "placeholders must be exactly: {cover} {staff} {start} {end} {approved_by}"
+},
+{
+"en": "Hello {staff}, your {hours} overtime hours in the week of {week} are approved by {approved_by}. Please log them on your timesheet.",
+"kind": "message",
+"max": null,
+"mt": "Ciao {staff}, le ore extra della settimana di {week} sono state approvate da {approved_by}.",
+"why": "placeholders must be exactly: {staff} {hours} {week} {approved_by}"
+},
+{
+"en": "Hello {owner}, the {role} request on {project} starts {start}. Shall we book a contractor? Please confirm today.",
+"kind": "message",
+"max": null,
+"mt": "Salve, la richiesta su 2 inizia con 3 vogliamo prenotare un appaltatore?",
+"why": "placeholders must be exactly: {owner} {role} {project} {start}"
+},
+{
+"en": "Hello {approver}, {project} needs a {role} ({skill}) from {start}, open {days_open} days. Please approve the hire.",
+"kind": "message",
+"max": null,
+"mt": "Salve, ho bisogno di un contratto da quattro giorni, per favore approvate l'affitto.",
+"why": "placeholders must be exactly: {approver} {project} {role} {skill} {start} {days_open}"
+},
+{
+"en": "Hello, we confirm your booking on {project}: {hours_week} hours a week from {start} to {end} at {rate} an hour. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Salve, confermiamo la prenotazione per le ore da 2 a 3 di settimana.",
+"why": "placeholders must be exactly: {project} {hours_week} {start} {end} {rate}"
+},
+{
+"en": "Hello, please send your hours for the week of {week} on {project}. We have {hours} on record. Please confirm them.",
+"kind": "message",
+"max": null,
+"mt": "Salve, per favore inviate le ore per la settimana di {week} di {project}.",
+"why": "placeholders must be exactly: {week} {project} {hours}"
+},
+{
+"en": "Team capacity report for one person and week",
+"kind": "title",
+"max": 60,
+"mt": "Rapporto sulla capacità di un team per una persona e una settimana",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "The contract hours are {col:cap.contract}. The company is closed on {col:cap.hol_days} days and the person is on leave for {col:cap.leave_days} days, so the person can work {col:cap.work_days} days, which is {col:cap.avail_h} hours.",
+"kind": "document",
+"max": null,
+"mt": "L'azienda è chiusa in {col:cap.hol_days} giorni e la persona è in congedo per {col:cap.leave_days} giorni, quindi la persona può lavorare {col:cap.work_days} giorni, che è {col:cap.avail_h} ore.",
+"why": "placeholders must be exactly: {col:cap.contract} {col:cap.hol_days} {col:cap.leave_days} {col:cap.work_days} {col:cap.avail_h}"
+},
+{
+"en": "Utilisation was {col:util.util} against a target of {col:util.target}, a gap of {col:util.gap}. The check shows: {col:util.state}. The billable share of the hours logged was {col:util.share}.",
+"kind": "document",
+"max": null,
+"mt": "L'utilizzo è stato {col:util.util} rispetto a un obiettivo di {col:util.target}, con un divario di {col:util.gap}.",
+"why": "placeholders must be exactly: {col:util.util} {col:util.target} {col:util.gap} {col:util.state} {col:util.share}"
+},
+{
+"en": "Up to today the team logged {col:projects.hours_logged} hours on this project, of which {col:projects.billable_h} hours are billable. The charge value of the billable hours is {col:projects.billable_value}.",
+"kind": "document",
+"max": null,
+"mt": "Fino ad oggi il team ha registrato {col:projects.hours_logged} ore su questo progetto, di cui {col:projects.billable_h} ore sono fatturabili.",
+"why": "placeholders must be exactly: {col:projects.hours_logged} {col:projects.billable_h} {col:projects.billable_value}"
+},
+{
+"en": "The labour cost of all hours is {col:projects.labour_cost} and contractors cost {col:projects.contractor_cost}. The budget of the project is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "Il costo del lavoro per tutte le ore è {col:projects.labour_cost} e il costo degli appaltatori {col:projects.contractor_cost}.",
+"why": "placeholders must be exactly: {col:projects.labour_cost} {col:projects.contractor_cost} {col:projects.budget}"
+},
+{
+"en": "Please put this leave in the team calendar and tell the project managers whose projects the person works on. Of these days, {col:leave.days_30} fall in the next 30 days.",
+"kind": "document",
+"max": null,
+"mt": "Si prega di inserire questo congedo nel calendario del team e di informare i project manager sui cui progetti la persona lavora.",
+"why": "placeholders must be exactly: {col:leave.days_30}"
+},
+{
+"en": "So far the project used {col:projects.hours_logged} hours, with a labour cost of {col:projects.labour_cost} and {col:projects.contractor_cost} for contractors, against a budget of {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "Finora il progetto ha impiegato 0 ore, con un costo di manodopera di 1 e 2 per gli appaltatori, contro un bilancio di 3.",
+"why": "placeholders must be exactly: {col:projects.hours_logged} {col:projects.labour_cost} {col:projects.contractor_cost} {col:projects.budget}"
+},
+{
+"en": "We confirm your booking from {col:bookings.start} to {col:bookings.end}, {col:bookings.weeks} weeks at {col:bookings.hours_week} hours a week. The rate is {col:bookings.rate} per hour and the planned cost is {col:bookings.cost}.",
+"kind": "document",
+"max": null,
+"mt": "Confirmiamo la prenotazione da {col:bookings.start} a {col:bookings.end}, {col:bookings.weeks} settimane a {col:bookings.hours_week} ore a settimana.",
+"why": "placeholders must be exactly: {col:bookings.start} {col:bookings.end} {col:bookings.weeks} {col:bookings.hours_week} {col:bookings.rate} {col:bookings.cost}"
+},
+{
+"en": "The person worked {col:overtime.hours} overtime hours. The approver is {col:overtime.approved_by} and the status is {col:overtime.status}.",
+"kind": "document",
+"max": null,
+"mt": "La persona ha lavorato {col:overtime.hours} ore di straordinario.",
+"why": "placeholders must be exactly: {col:overtime.hours} {col:overtime.approved_by} {col:overtime.status}"
+},
+{
+"en": "Levels run from 1 (learning) to 5 (can teach others). The full list with the date of every check is on the Skills Matrix sheet. A rating older than {set:skill_days} days should be checked again.",
+"kind": "document",
+"max": null,
+"mt": "I livelli vanno da 1 (apprendimento) a 5 (può insegnare agli altri). L'elenco completo con la data di ogni controllo è sul foglio Matrice delle competenze.",
+"why": "placeholders must be exactly: {set:skill_days}"
+},
+{
+"en": "Team allocation summary for the managing director",
+"kind": "title",
+"max": 60,
+"mt": "Riassunto dell'assegnazione della squadra per il direttore generale",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Reviewed on {col:load.reviewed}. Person: {col:load.staff}, {col:load.role}.",
+"kind": "document",
+"max": null,
+"mt": "Recensione: persona:",
+"why": "placeholders must be exactly: {col:load.reviewed} {col:load.staff} {col:load.role}"
+},
+{
+"en": "Action agreed: {col:load.action}. Main project manager: {col:load.pm_name}.",
+"kind": "document",
+"max": null,
+"mt": "Azione concordata: {col:load.action}.",
+"why": "placeholders must be exactly: {col:load.action} {col:load.pm_name}"
+},
+{
+"en": "People joining projects",
+"kind": "label",
+"max": 30,
+"mt": "Persone che aderiscono ai progetti",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Control project budget, cost, purchasing and billing in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Controllo del budget, dei costi, degli acquisti e della fatturazione del progetto in un unico libro di lavoro",
+"why": "too long: 109 characters, the limit is 80"
+},
+{
+"en": "Control project budget, forecast, purchasing and client billing",
+"kind": "sentence",
+"max": 80,
+"mt": "Controllo del bilancio del progetto, delle previsioni, degli acquisti e della fatturazione dei clienti",
+"why": "too long: 102 characters, the limit is 80"
+},
+{
+"en": "percent complete, planned percent and actual cost give earned value, both indexes, the estimate to complete and the final cost of every project",
+"kind": "sentence",
+"max": 160,
+"mt": "percentuale di completamento, percentuale pianificata e costo effettivo forniscono il valore guadagnato, entrambi gli indici, la stima di completamento e il costo finale di ogni progetto",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "Three-way match of order, receipt and invoice",
+"kind": "title",
+"max": 60,
+"mt": "Corrispondenza trilaterale dell'ordine, della ricevuta e della fattura",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "price, lead time and quality are scored out of 100 with the weights you set, ranked inside each request and checked against the vendor chosen",
+"kind": "sentence",
+"max": 160,
+"mt": "prezzo, tempo di consegna e qualità sono punteggiati su 100 con i pesi impostati, classificati all'interno di ogni richiesta e controllati contro il fornitore scelto",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Budget by category with transfers and draws",
+"kind": "label",
+"max": 50,
+"mt": "Bilancio per categoria con trasferimenti e prelievi",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Client billing with due dates and days late",
+"kind": "label",
+"max": 50,
+"mt": "Fatturazione del cliente con scadenze e giorni di ritardo",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "each change request shows extra cost, extra days, price to the client, margin and a warning for a margin below your target or a late decision",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni richiesta di modifica mostra costi aggiuntivi, giorni aggiuntivi, prezzo per il cliente, margine e un avviso per un margine inferiore al target o una decisione tardiva",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "Accruals with cut-off and reversal month",
+"kind": "label",
+"max": 50,
+"mt": "Articolo 426, paragrafo 1, lettera a), punto b), del CRR.",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Spend plan against actual by month",
+"kind": "label",
+"max": 50,
+"mt": "Piano di spesa rispetto a quello effettivo per mese",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Vendor record with days to pay and disputes",
+"kind": "label",
+"max": 50,
+"mt": "Registro del venditore con i giorni di pagamento e le controversie",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "Invoice above receipt",
+"kind": "list",
+"max": 30,
+"mt": "Fattura superiore alla ricevuta",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Margin below target",
+"kind": "list",
+"max": 30,
+"mt": "Margine al di sotto dell'obiettivo",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Chosen, not best score",
+"kind": "list",
+"max": 30,
+"mt": "Scelto, non il miglior punteggio",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Customer Portal Rebuild",
+"kind": "list",
+"max": 30,
+"mt": "Ricostruzione del portale clienti",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Patient Booking App",
+"kind": "list",
+"max": 30,
+"mt": "App per la prenotazione dei pazienti",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Store Loyalty Platform",
+"kind": "list",
+"max": 30,
+"mt": "Piattaforma di fidelizzazione del negozio",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Core Banking Data Migration",
+"kind": "list",
+"max": 30,
+"mt": "Migrazione dei dati bancari di base",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Smart Meter Reporting Dashboard",
+"kind": "list",
+"max": 30,
+"mt": "Pannello di controllo di segnalazione dei contatori intelligenti",
+"why": "too long: 64 characters, the limit is 30"
+},
+{
+"en": "Digital Learning Strategy",
+"kind": "list",
+"max": 30,
+"mt": "Strategia di apprendimento digitale",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Plant Maintenance Scheduling",
+"kind": "list",
+"max": 30,
+"mt": "Programmazione della manutenzione dell'impianto",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Service Desk Process Redesign",
+"kind": "list",
+"max": 30,
+"mt": "Riprogettazione dei processi di servizio",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Booking Engine Integration",
+"kind": "list",
+"max": 30,
+"mt": "Integrazione del motore di prenotazione",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Delivery Method Refresh",
+"kind": "list",
+"max": 30,
+"mt": "Aggiornamento del metodo di consegna",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Timesheet and Cost Tracking Rollout",
+"kind": "list",
+"max": 30,
+"mt": "Sviluppo di schede di orario e di tracciamento dei costi",
+"why": "too long: 56 characters, the limit is 30"
+},
+{
+"en": "Retail Analytics Discovery",
+"kind": "list",
+"max": 30,
+"mt": "Scoperta dell'analisi al dettaglio",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Pioneer Venues and Equipment",
+"kind": "list",
+"max": 30,
+"mt": "Luoghi e attrezzature di pionieri",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Vendors: terms, spend, orders, invoices and payment record",
+"kind": "title",
+"max": 60,
+"mt": "Venditori: termini, spese, ordini, fatture e registrazione dei pagamenti",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Project budgets by cost category with moves and spend",
+"kind": "title",
+"max": 60,
+"mt": "Bilanci dei progetti per categoria di costi con traslochi e spese",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Phase budgets: budget and spend of each work phase",
+"kind": "title",
+"max": 60,
+"mt": "Bilanci delle fasi: bilancio e spesa di ciascuna fase di lavoro",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cost lines: every cost by project, category and vendor",
+"kind": "title",
+"max": 60,
+"mt": "Linee di costo: tutti i costi per progetto, categoria e fornitore",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Spend plan: what each project planned to spend in each month",
+"kind": "title",
+"max": 60,
+"mt": "Piano di spesa: quanto ogni progetto prevede di spendere ogni mese",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Forecast at completion: earned value, CPI, SPI, final cost",
+"kind": "title",
+"max": 60,
+"mt": "Previsione al completamento: valore economico, IPC, SPI, costo finale",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Earned value by month: planned, earned and actual cost",
+"kind": "title",
+"max": 60,
+"mt": "Valore guadagnato per mese: costo pianificato, guadagnato e effettivo",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Purchase requests: what to buy and where it stands",
+"kind": "title",
+"max": 60,
+"mt": "Richieste di acquisto: cosa acquistare e quale sia la situazione",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Quotes: vendor offers scored on price, lead time and quality",
+"kind": "title",
+"max": 60,
+"mt": "Offerte: offerte del fornitore valutate in base al prezzo, al tempo di consegna e alla qualità",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Purchase orders: amount, tax, goods received, open value",
+"kind": "title",
+"max": 60,
+"mt": "Ordini di acquisto: importo, imposta, merci ricevute, valore aperto",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Vendor invoices: due dates, payment and order match",
+"kind": "title",
+"max": 60,
+"mt": "Fatture del venditore: scadenza, corrispondenza di pagamento e ordine",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Change costs: extra cost, days, price and margin",
+"kind": "title",
+"max": 60,
+"mt": "Costi di modifica: costi aggiuntivi, giorni, prezzo e margine",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Client billing: milestones, change orders, collected",
+"kind": "title",
+"max": 60,
+"mt": "Fatturazione dei clienti: traguardi, ordini di modifica, raccolti",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Budget transfers: money moved between categories",
+"kind": "title",
+"max": 60,
+"mt": "Trasferimenti di bilancio: trasferimento di fondi tra le categorie",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Accruals: work done but not yet invoiced, month by month",
+"kind": "title",
+"max": 60,
+"mt": "Accumulazioni: lavoro svolto ma non ancora fatturato, mese per mese",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Costs, vendor invoices and client billing by month",
+"kind": "title",
+"max": 60,
+"mt": "Costi, fatture dei fornitori e fatturazione dei clienti per mese",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Project budget sheet with its budget by category",
+"kind": "title",
+"max": 60,
+"mt": "Scheda di bilancio del progetto con il suo bilancio per categoria",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Vendor invoice sheet with its order match",
+"kind": "title",
+"max": 60,
+"mt": "Scheda di fattura del fornitore con corrispondenza dell'ordine",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Project financial summary with its client billing",
+"kind": "title",
+"max": 60,
+"mt": "Riassunto finanziario del progetto con la fatturazione del cliente",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Earned value, CPI, SPI and forecast from four numbers",
+"kind": "title",
+"max": 60,
+"mt": "Valore di guadagno, CPI, SPI e previsione a partire da quattro cifre",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Cost and schedule variance of a project in money",
+"kind": "title",
+"max": 60,
+"mt": "Variazione del costo e del calendario di un progetto in denaro",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Forecast the date the budget runs out from the burn rate",
+"kind": "title",
+"max": 60,
+"mt": "Previsione della data di esaurimento del bilancio a partire dal tasso di spesa",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Quote comparison: price, lead time and quality weighted",
+"kind": "title",
+"max": 60,
+"mt": "Confronto delle quotazioni: prezzo, tempo di consegna e qualità ponderati",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Price of a change request: hours, vendor cost and margin",
+"kind": "title",
+"max": 60,
+"mt": "Prezzo della richiesta di modifica: ore, costo del fornitore e margine",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Contingency drawdown check: what the reserve can still pay",
+"kind": "title",
+"max": 60,
+"mt": "Controllo dell'utilizzo per le impreviste: quanto può ancora pagare la riserva",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Milestone invoice amount from the payment share",
+"kind": "title",
+"max": 60,
+"mt": "Importo della fattura di riferimento della quota di pagamento",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello, we issued purchase order {po_number} for {amount} for {project}. Please confirm that you accept it and the delivery date. We expect it on {expected}.",
+"kind": "message",
+"max": null,
+"mt": "Salve, abbiamo emesso l'ordine di acquisto {po_number} per {amount} per {project}.",
+"why": "placeholders must be exactly: {po_number} {amount} {project} {expected}"
+},
+{
+"en": "Hello, please confirm the delivery date of order {po_number} ({amount}). We expected it on {expected}. The delivery check shows: {delivery}.",
+"kind": "message",
+"max": null,
+"mt": "Salve, per favore confermate la data di consegna dell'ordine {po_number} ({amount}).",
+"why": "placeholders must be exactly: {po_number} {amount} {expected} {delivery}"
+},
+{
+"en": "Hello {manager}, the forecast for {project} is {eac}, which is {over_by} above the budget of {bac}. The cost index is {cpi}. Please send me your recovery plan.",
+"kind": "message",
+"max": null,
+"mt": "Ciao {manager}, la previsione per {project} è {eac}, che è {over_by} sopra il budget di {bac}.",
+"why": "placeholders must be exactly: {manager} {project} {eac} {over_by} {bac} {cpi}"
+},
+{
+"en": "Hello {manager}, please confirm accrual {ac_id} for {project}: {vendor}, {amount}, {reason}. The cut-off is {cutoff}.",
+"kind": "message",
+"max": null,
+"mt": "Salve {manager}, per favore confermate l'accumulazione {ac_id} per {project}: {vendor}, {amount}, {reason}.",
+"why": "placeholders must be exactly: {manager} {ac_id} {project} {vendor} {amount} {reason} {cutoff}"
+}
+]

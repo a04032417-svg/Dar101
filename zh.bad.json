@@ -1,0 +1,303 @@
+[
+{
+"en": "Hello {staff}, your timesheet for the week of {week} is missing. Please enter your hours today and send it for approval.",
+"kind": "message",
+"max": null,
+"mt": "你好,您的时间表在 {week} 周缺失.请输入您今天的时间,并将其发送给批准.",
+"why": "placeholders must be exactly: {staff} {week}"
+},
+{
+"en": "Hello {staff}, {approver} returned your timesheet for the week of {week}. Please correct it and send it again today.",
+"kind": "message",
+"max": null,
+"mt": "您的时间表为2周. 请纠正并今天再次发送.",
+"why": "placeholders must be exactly: {staff} {approver} {week}"
+},
+{
+"en": "Hello {staff}, you are allocated to {project} at {pct} of your week from {start}. {manager} is the project manager.",
+"kind": "message",
+"max": null,
+"mt": "你好,你被分配到 {project} 在 {pct} 的你的星期. {start}. {manager} 是项目经理.",
+"why": "placeholders must be exactly: {staff} {project} {pct} {start} {manager}"
+},
+{
+"en": "Hello {staff}, your allocation on {project} is now {pct} of your week ({hours_wk} hours) until {end}. Please check with {manager}.",
+"kind": "message",
+"max": null,
+"mt": "你好,您在 {project} 上的分配现在是 {pct} 在您的周 ({hours_wk} 小时) 到 {end}. 请与 {manager} 检查.",
+"why": "placeholders must be exactly: {staff} {project} {pct} {hours_wk} {end} {manager}"
+},
+{
+"en": "Hello {staff}, you are allocated {alloc} of your week on {projects_n} projects, above the limit. Please talk to {pm_name} this week.",
+"kind": "message",
+"max": null,
+"mt": "你好,你已经分配了 {alloc} 的 {projects_n} 项目,超过了限制. 请与 {pm_name} 谈谈这个星期.",
+"why": "placeholders must be exactly: {staff} {alloc} {projects_n} {pm_name}"
+},
+{
+"en": "PMO lead: person above 100%",
+"kind": "label",
+"max": null,
+"mt": "PMO 领先者:超过100%的人",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {pm_name}, {staff} has {free_h} free hours per week. If you need help on your project next month, tell me this week.",
+"kind": "message",
+"max": null,
+"mt": "你好,每周有2个空时间.如果你需要下个月的项目,告诉我本周.",
+"why": "placeholders must be exactly: {pm_name} {staff} {free_h}"
+},
+{
+"en": "Hello {staff}, your {type} from {start} to {end} is approved by {approved_by}. {cover} covers your work. Please hand over before you go.",
+"kind": "message",
+"max": null,
+"mt": "您的{type}从 {start}到 {end}被 {approved_by} 批准. {cover}涵盖您的工作.请在离开之前交出.",
+"why": "placeholders must be exactly: {staff} {type} {start} {end} {approved_by} {cover}"
+},
+{
+"en": "Hello {staff}, we cannot approve your leave from {start} to {end}. Please send {approved_by} another date this week.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们不能批准你从1到2的假期.请在本周发送另一个日期.",
+"why": "placeholders must be exactly: {staff} {start} {end} {approved_by}"
+},
+{
+"en": "Hello {cover}, {staff} is away from {start} to {end}. Can you cover their project work? Please tell {approved_by} today.",
+"kind": "message",
+"max": null,
+"mt": "您可以覆盖他们的项目工作吗?请今天告诉我们.",
+"why": "placeholders must be exactly: {cover} {staff} {start} {end} {approved_by}"
+},
+{
+"en": "Hello {staff}, your {hours} overtime hours in the week of {week} are approved by {approved_by}. Please log them on your timesheet.",
+"kind": "message",
+"max": null,
+"mt": "你好,您的加班时间在 {week} 周的 {approved_by} 已经批准了. 请将它们记录在您的时间表上.",
+"why": "placeholders must be exactly: {staff} {hours} {week} {approved_by}"
+},
+{
+"en": "Hello {staff}, your course {course} is booked for {date} ({hours} hours). Please plan your project work around that day.",
+"kind": "message",
+"max": null,
+"mt": "你的课程 {course} 已预订 {date} ({hours}小时).请在当天计划你的项目工作.",
+"why": "placeholders must be exactly: {staff} {course} {date} {hours}"
+},
+{
+"en": "Hello {staff}, your rating for {skill} is {age_days} days old. Please check that level {level} is still right and tell me.",
+"kind": "message",
+"max": null,
+"mt": "你好,您的评级为 {skill} 是 {age_days} 天的. 请检查 {level} 的级别是否仍然正确,然后告诉我.",
+"why": "placeholders must be exactly: {staff} {skill} {age_days} {level}"
+},
+{
+"en": "Hello {staff}, your work on {project} ends on {end}. Please hand over your open items and update your timesheet.",
+"kind": "message",
+"max": null,
+"mt": "您的工作结束在2日. 请交出您的公开项目并更新您的时间表.",
+"why": "placeholders must be exactly: {staff} {project} {end}"
+},
+{
+"en": "Hello {owner}, the {role} request on {project} starts {start}. Shall we book a contractor? Please confirm today.",
+"kind": "message",
+"max": null,
+"mt": "你好,在2开始的请求是3的.我们应该预订一个承包商吗?请今天确认.",
+"why": "placeholders must be exactly: {owner} {role} {project} {start}"
+},
+{
+"en": "Hello {approver}, {project} needs a {role} ({skill}) from {start}, open {days_open} days. Please approve the hire.",
+"kind": "message",
+"max": null,
+"mt": "您好,需要从5天开始. 请批准租.",
+"why": "placeholders must be exactly: {approver} {project} {role} {skill} {start} {days_open}"
+},
+{
+"en": "PMO lead: monthly utilisation ready",
+"kind": "label",
+"max": null,
+"mt": "PMO :每月使用准备",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello, {vendor} worked {hours} hours on {project} in the week of {week}, a cost of {cost}. Please pay when the invoice matches.",
+"kind": "message",
+"max": null,
+"mt": "您好,在3周内工作了1个小时,费用为4个小时. 请在发票一致时支付.",
+"why": "placeholders must be exactly: {vendor} {hours} {project} {week} {cost}"
+},
+{
+"en": "Hello, we confirm your booking on {project}: {hours_week} hours a week from {start} to {end} at {rate} an hour. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "我们确认您的预订时间:每周从2小时到3小时. 请确认.",
+"why": "placeholders must be exactly: {project} {hours_week} {start} {end} {rate}"
+},
+{
+"en": "Hello, your booking on {project} ends on {end}. Can you extend it? Please tell us your first free date and your rate.",
+"kind": "message",
+"max": null,
+"mt": "您的预订结束于1日,您可以延长吗?请告诉我们您的第一次免费日期和价格.",
+"why": "placeholders must be exactly: {project} {end}"
+},
+{
+"en": "Hello, your booking on {project} ends on {end}. Please hand over your work and send your last timesheet.",
+"kind": "message",
+"max": null,
+"mt": "您的预订结束在1号. 请递交您的工作并发送您的最后时间表.",
+"why": "placeholders must be exactly: {project} {end}"
+},
+{
+"en": "Hello, please send your hours for the week of {week} on {project}. We have {hours} on record. Please confirm them.",
+"kind": "message",
+"max": null,
+"mt": "你好,请发送您的时间. 我们有记录. 请确认它们.",
+"why": "placeholders must be exactly: {week} {project} {hours}"
+},
+{
+"en": "Team capacity report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "团队能力报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "A person above {set:over_pct} of the available hours needs work moved to somebody else. A person below {set:free_pct} can take new work. The project manager and the PMO lead agree any change in the weekly resource meeting.",
+"kind": "document",
+"max": null,
+"mt": "超过 {set:over_pct} 的可用时间的人需要转移工作给别人. {set:free_pct} 下的人可以接受新的工作. 项目经理和 PMO 负责人在每周资源会议上同意任何变化.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Utilisation was {col:util.util} against a target of {col:util.target}, a gap of {col:util.gap}. The check shows: {col:util.state}. The billable share of the hours logged was {col:util.share}.",
+"kind": "document",
+"max": null,
+"mt": "使用率为 {col:util.util} 与目标为 {col:util.target},差距为 {col:util.gap}. 检查显示: {col:util.state}.",
+"why": "placeholders must be exactly: {col:util.util} {col:util.target} {col:util.gap} {col:util.state} {col:util.share}"
+},
+{
+"en": "We use this statement in the monthly review with the PMO lead. A low utilisation is first a question about the work planned for the person, not about the person.",
+"kind": "document",
+"max": null,
+"mt": "我们在每月与PMO领导进行的审查中使用这个陈述.低利用率首先是关于对人计划的工作,而不是关于人的问题.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "The labour cost of all hours is {col:projects.labour_cost} and contractors cost {col:projects.contractor_cost}. The budget of the project is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "所有小时的劳动力成本是 {col:projects.labour_cost} 和承包商成本是 {col:projects.contractor_cost}.",
+"why": "placeholders must be exactly: {col:projects.labour_cost} {col:projects.contractor_cost} {col:projects.budget}"
+},
+{
+"en": "Approved by {col:leave.approved_by}. Cover: {col:leave.cover}. The cover check shows: {col:leave.clash}.",
+"kind": "document",
+"max": null,
+"mt": "封面: 封面检查显示:",
+"why": "placeholders must be exactly: {col:leave.approved_by} {col:leave.cover} {col:leave.clash}"
+},
+{
+"en": "Please put this leave in the team calendar and tell the project managers whose projects the person works on. Of these days, {col:leave.days_30} fall in the next 30 days.",
+"kind": "document",
+"max": null,
+"mt": "请把这个假期写在团队日历中,并告诉项目经理,该人是谁的项目.",
+"why": "placeholders must be exactly: {col:leave.days_30}"
+},
+{
+"en": "To {col:bookings.vendor}. Project: {col:bookings.project}. Role: {col:bookings.role}.",
+"kind": "document",
+"max": null,
+"mt": "项目: 角色: 角色:",
+"why": "placeholders must be exactly: {col:bookings.vendor} {col:bookings.project} {col:bookings.role}"
+},
+{
+"en": "The cost per hour is {col:overtime.rate}. With the premium of {set:ot_premium} the cost of the overtime is {col:overtime.cost}.",
+"kind": "document",
+"max": null,
+"mt": "每小时的费用是 {col:overtime.rate}.",
+"why": "placeholders must be exactly: {col:overtime.rate} {set:ot_premium} {col:overtime.cost}"
+},
+{
+"en": "Skills report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "技能报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "The person is allocated {col:staff.alloc_now} of the week on {col:staff.projects_n} projects and has {col:staff.free_hours} free hours a week.",
+"kind": "document",
+"max": null,
+"mt": "这个人每周分配 {col:staff.alloc_now} 个项目,每周有 {col:staff.free_hours} 个自由小时.",
+"why": "placeholders must be exactly: {col:staff.alloc_now} {col:staff.projects_n} {col:staff.free_hours}"
+},
+{
+"en": "Reviewed on {col:load.reviewed}. Person: {col:load.staff}, {col:load.role}.",
+"kind": "document",
+"max": null,
+"mt": "评价时间:",
+"why": "placeholders must be exactly: {col:load.reviewed} {col:load.staff} {col:load.role}"
+},
+{
+"en": "The person is allocated {col:load.alloc} of the week ({col:load.alloc_h} of {col:load.hours_wk} hours) on {col:load.projects_n} projects, with {col:load.free_h} hours free. In the last four weeks the person logged {col:load.logged_wk} hours a week. The load check shows: {col:load.state}.",
+"kind": "document",
+"max": null,
+"mt": "在过去的四周里,该人每周登录了 {col:load.logged_wk} 小时.负载检查显示: {col:load.state}.",
+"why": "placeholders must be exactly: {col:load.alloc} {col:load.alloc_h} {col:load.hours_wk} {col:load.projects_n} {col:load.free_h} {col:load.logged_wk} {col:load.state}"
+},
+{
+"en": "Action agreed: {col:load.action}. Main project manager: {col:load.pm_name}.",
+"kind": "document",
+"max": null,
+"mt": "主项目经理:",
+"why": "placeholders must be exactly: {col:load.action} {col:load.pm_name}"
+},
+{
+"en": "We share this summary with the managing director when a person is above {set:over_pct} or below {set:free_pct} of the week, so that hiring, contractor and priority decisions rest on the same facts.",
+"kind": "document",
+"max": null,
+"mt": "当一个人超过或低于1周时,我们会与董事总经理分享这个总结,以便招聘,承包商和优先事项的决定都基于相同的事实.",
+"why": "placeholders must be exactly: {set:over_pct} {set:free_pct}"
+},
+{
+"en": "Send the statements to the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "将声明发送给PMO领导",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello, we paid invoice {inv_no} for {amount} on {paid_on}. Please confirm that you received the payment.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们在 {paid_on} 上支付了 {amount} 的发票. 请确认您收到了付款.",
+"why": "placeholders must be exactly: {inv_no} {amount} {paid_on}"
+},
+{
+"en": "Hello {manager}, the forecast for {project} is {eac}, which is {over_by} above the budget of {bac}. The cost index is {cpi}. Please send me your recovery plan.",
+"kind": "message",
+"max": null,
+"mt": "你好,预测为 {project} 是 {eac},这是 {over_by} 超过预算的 {bac}.成本指数是 {cpi}. 请给我你的恢复计划.",
+"why": "placeholders must be exactly: {manager} {project} {eac} {over_by} {bac} {cpi}"
+},
+{
+"en": "Hello, cost line {cost_id} of {amount} for {project} ({description}) has waited {age} days for approval. Please approve it or return it with a reason.",
+"kind": "message",
+"max": null,
+"mt": "您好, {project} ({description}) 的成本行 {cost_id} 已经等待 {age} 天的批准. 请批准或返回理由.",
+"why": "placeholders must be exactly: {cost_id} {amount} {project} {description} {age}"
+},
+{
+"en": "Hello {manager}, change request {change_id} \"{title}\" on {project} was raised on {raised}. Please send the hours, the vendor cost and the extra days.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {project} 上的 {change_id} \"{title}\" 变更请求在 {raised} 上提出. 请发送时间,供应商成本和额外的日.",
+"why": "placeholders must be exactly: {manager} {change_id} {title} {project} {raised}"
+},
+{
+"en": "Hello {manager}, please confirm accrual {ac_id} for {project}: {vendor}, {amount}, {reason}. The cut-off is {cutoff}.",
+"kind": "message",
+"max": null,
+"mt": "你好,请确认 {project} 的积累 {ac_id}: {vendor}, {amount}, {reason}.",
+"why": "placeholders must be exactly: {manager} {ac_id} {project} {vendor} {amount} {reason} {cutoff}"
+}
+]

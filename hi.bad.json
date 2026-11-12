@@ -1,0 +1,142 @@
+[
+{
+"en": "Hello {approver}, {project} needs a {role} ({skill}) from {start}, open {days_open} days. Please approve the hire.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {approver}, {project} {role} {skill} {start} से {skill} {start} {skill} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {start} {days_open}",
+"why": "placeholders must be exactly: {approver} {project} {role} {skill} {start} {days_open}"
+},
+{
+"en": "Hello, the utilisation of {staff} for {month} is ready: {hours} of {capacity} hours, {util} against a target of {target}.",
+"kind": "message",
+"max": null,
+"mt": "हैलो, {staff} का उपयोग {month} के लिए तैयार हैः {hours} {capacity} घंटे, {util} {target} के लक्ष्य के खिलाफ {hours}।",
+"why": "placeholders must be exactly: {staff} {month} {hours} {capacity} {util} {target}"
+},
+{
+"en": "A person above {set:over_pct} of the available hours needs work moved to somebody else. A person below {set:free_pct} can take new work. The project manager and the PMO lead agree any change in the weekly resource meeting.",
+"kind": "document",
+"max": null,
+"mt": "उपलब्ध घंटों में से {set:over_pct} से अधिक व्यक्ति को किसी और को स्थानांतरित करने की आवश्यकता होती है। {set:free_pct} से कम व्यक्ति नया काम ले सकता है। परियोजना प्रबंधक और PMO लीड साप्ताहिक संसाधन बैठक में किसी भी परिवर्तन पर सहमत होते हैं।",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "People joining projects",
+"kind": "label",
+"max": 30,
+"mt": "परियोजनाओं में शामिल होने वाले लोग",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Forecast at completion with CPI and SPI",
+"kind": "label",
+"max": 50,
+"mt": "लागत प्रदर्शन सूचकांक और अनुसूची प्रदर्शन सूचकांक के साथ पूरा होने पर पूर्वानुमान",
+"why": "too long: 81 characters, the limit is 50"
+},
+{
+"en": "every draw on a project reserve shows the reserve planned, drawn to date, left and a warning before the reserve is used up",
+"kind": "sentence",
+"max": 160,
+"mt": "किसी परियोजना के लिए आरक्षित राशि पर प्रत्येक निकासी में योजनाबद्ध आरक्षित राशि, अब तक निकाली गई, छोड़ दी गई और आरक्षित राशि समाप्त होने से पहले चेतावनी दी जाती है।",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "each change request shows extra cost, extra days, price to the client, margin and a warning for a margin below your target or a late decision",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक परिवर्तन अनुरोध में अतिरिक्त लागत, अतिरिक्त दिन, ग्राहक के लिए मूल्य, मार्जिन और आपके लक्ष्य से कम मार्जिन या देर से निर्णय के लिए चेतावनी दिखाई जाती है",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Spend plan against actual by month",
+"kind": "label",
+"max": 50,
+"mt": "खर्च की योजना वास्तविक के मुकाबले महीने के हिसाब से",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Chosen, not best score",
+"kind": "list",
+"max": 30,
+"mt": "चुना गया, सर्वश्रेष्ठ स्कोर नहीं",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Smart Meter Reporting Dashboard",
+"kind": "list",
+"max": 30,
+"mt": "स्मार्ट मीटर रिपोर्टिंग डैशबोर्ड",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Service Desk Process Redesign",
+"kind": "list",
+"max": 30,
+"mt": "सर्विस डेस्क प्रक्रियाओं का नया डिजाइन",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Timesheet and Cost Tracking Rollout",
+"kind": "list",
+"max": 30,
+"mt": "टाइमशीट और लागत ट्रैकिंग रोलआउट",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "ClearLines Translation",
+"kind": "list",
+"max": 30,
+"mt": "ClearLines अनुवाद",
+"why": "English/Latin words left: ClearLines"
+},
+{
+"en": "Cost lines: every cost by project, category and vendor",
+"kind": "title",
+"max": 60,
+"mt": "लागत लाइनेंः परियोजना, श्रेणी और विक्रेता के अनुसार प्रत्येक लागत",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Spend plan: what each project planned to spend in each month",
+"kind": "title",
+"max": 60,
+"mt": "व्यय योजनाः प्रत्येक परियोजना में प्रत्येक महीने में खर्च करने की योजना क्या है",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Forecast at completion: earned value, CPI, SPI, final cost",
+"kind": "title",
+"max": 60,
+"mt": "पूरा होने पर पूर्वानुमानः अर्जित मूल्य, लागत प्रदर्शन सूचकांक, अनुसूची प्रदर्शन सूचकांक, अंतिम लागत",
+"why": "too long: 99 characters, the limit is 60"
+},
+{
+"en": "Quotes: vendor offers scored on price, lead time and quality",
+"kind": "title",
+"max": 60,
+"mt": "उद्धरणः मूल्य, लीड समय और गुणवत्ता पर विक्रेता प्रस्तावों को स्कोर किया गया",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Accruals: work done but not yet invoiced, month by month",
+"kind": "title",
+"max": 60,
+"mt": "संचयी कार्यः कार्य किया गया लेकिन अभी तक बिल नहीं किया गया, महीने दर महीने",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Earned value, CPI, SPI and forecast from four numbers",
+"kind": "title",
+"max": 60,
+"mt": "अर्जित मूल्य, लागत प्रदर्शन सूचकांक, कार्यक्रम प्रदर्शन सूचकांक और चार अंकों से पूर्वानुमान",
+"why": "too long: 91 characters, the limit is 60"
+},
+{
+"en": "Hello, we issued purchase order {po_number} for {amount} for {project}. Please confirm that you accept it and the delivery date. We expect it on {expected}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, हमने {amount} के लिए {project} के लिए खरीद आदेश जारी किया है। कृपया पुष्टि करें कि आप इसे स्वीकार करते हैं और डिलीवरी की तारीख। हम {expected} पर इसकी उम्मीद करते हैं।",
+"why": "placeholders must be exactly: {po_number} {amount} {project} {expected}"
+}
+]

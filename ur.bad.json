@@ -1,0 +1,177 @@
+[
+{
+"en": "Hello {staff}, your allocation on {project} is now {pct} of your week ({hours_wk} hours) until {end}. Please check with {manager}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {staff}، {project} پر آپ کی تفویض اب {pct} آپ کے ہفتے ({hours_wk} گھنٹے) {end} تک {pct} ہے. {manager} کے ساتھ براہ مہربانی چیک کریں.",
+"why": "placeholders must be exactly: {staff} {project} {pct} {hours_wk} {end} {manager}"
+},
+{
+"en": "Hello {approver}, {project} needs a {role} ({skill}) from {start}, open {days_open} days. Please approve the hire.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {approver}، {project} {role} {skill} {start}، کھلے {days_open} دنوں سے {role} {skill} کی ضرورت ہے. براہ مہربانی کرایہ کی منظوری دے.",
+"why": "placeholders must be exactly: {approver} {project} {role} {skill} {start} {days_open}"
+},
+{
+"en": "Hello, the utilisation of {staff} for {month} is ready: {hours} of {capacity} hours, {util} against a target of {target}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {staff} کے استعمال کے لئے {month} تیار ہے: {hours} {capacity} گھنٹے، {util} {target} کے ہدف کے خلاف {hours}.",
+"why": "placeholders must be exactly: {staff} {month} {hours} {capacity} {util} {target}"
+},
+{
+"en": "Hello, we confirm your booking on {project}: {hours_week} hours a week from {start} to {end} at {rate} an hour. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، ہم {project} پر آپ کی بکنگ کی تصدیق: {hours_week} {start} سے {end} {rate} ایک گھنٹے میں {hours_week} گھنٹے ایک ہفتے. براہ مہربانی تصدیق.",
+"why": "placeholders must be exactly: {project} {hours_week} {start} {end} {rate}"
+},
+{
+"en": "Contractor: invoice does not match hours",
+"kind": "label",
+"max": null,
+"mt": "ٹھیکیدار: انکوائری گھنٹوں سے مطابقت نہیں رکھتی",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "So far the project used {col:projects.hours_logged} hours, with a labour cost of {col:projects.labour_cost} and {col:projects.contractor_cost} for contractors, against a budget of {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "اب تک اس پروجیکٹ میں {col:projects.hours_logged} گھنٹے کا استعمال کیا گیا ہے، جس میں {col:projects.labour_cost} اور {col:projects.contractor_cost} ٹھیکیداروں کے لئے مزدور کی لاگت {col:projects.budget} کے بجٹ کے مقابلے میں {col:projects.labour_cost} ہے.",
+"why": "placeholders must be exactly: {col:projects.hours_logged} {col:projects.labour_cost} {col:projects.contractor_cost} {col:projects.budget}"
+},
+{
+"en": "People joining projects",
+"kind": "label",
+"max": 30,
+"mt": "منصوبوں میں شمولیت اختیار کرنے والے افراد",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Forecast at completion with CPI and SPI",
+"kind": "label",
+"max": 50,
+"mt": "لاگت کارکردگی انڈیکس اور شیڈول کارکردگی انڈیکس کے ساتھ تکمیل پر پیش گوئی",
+"why": "too long: 72 characters, the limit is 50"
+},
+{
+"en": "Budget by category with transfers and draws",
+"kind": "label",
+"max": 50,
+"mt": "ٹرانسفرز اور قرعہ اندازیوں کے ساتھ زمرے کے لحاظ سے بجٹ",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Client billing with due dates and days late",
+"kind": "label",
+"max": 50,
+"mt": "کلائنٹ بلنگ کے ساتھ مقررہ تاریخوں اور دنوں کے ساتھ تاخیر",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "the planned spend of each project and month is set against what was spent, with the cumulative plan and a check against your amber limit",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر منصوبے اور مہینے کے منصوبہ بندی کے اخراجات کے مقابلے میں مقرر کیا جاتا ہے کیا خرچ کیا گیا تھا، مجموعی طور پر منصوبہ بندی کے ساتھ اور آپ کے برگر کی حد کے مقابلے میں ایک چیک کے ساتھ",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "Vendor record with days to pay and disputes",
+"kind": "label",
+"max": 50,
+"mt": "ادائیگی کے دنوں اور تنازعات کے ساتھ فراہم کنندہ ریکارڈ",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Reserve nearly used",
+"kind": "list",
+"max": 30,
+"mt": "ذخیرہ تقریبا استعمال کیا جاتا ہے",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Service Desk Process Redesign",
+"kind": "list",
+"max": 30,
+"mt": "سروس ڈیسک کے عمل کا دوبارہ ڈیزائن",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Timesheet and Cost Tracking Rollout",
+"kind": "list",
+"max": 30,
+"mt": "ٹائم شیٹ اور لاگت سے باخبر رہنے کا آغاز",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Vendors: terms, spend, orders, invoices and payment record",
+"kind": "title",
+"max": 60,
+"mt": "بیچنے والے: شرائط، اخراجات، احکامات، انوائسز اور ادائیگی کا ریکارڈ",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Project budgets by cost category with moves and spend",
+"kind": "title",
+"max": 60,
+"mt": "منصوبے کے بجٹ اخراجات کی قسم کے مطابق نقل و حرکت اور اخراجات کے ساتھ",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Cost lines: every cost by project, category and vendor",
+"kind": "title",
+"max": 60,
+"mt": "لاگت لائنیں: ہر لاگت پروجیکٹ، زمرہ اور فراہم کنندہ کے لحاظ سے",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Spend plan: what each project planned to spend in each month",
+"kind": "title",
+"max": 60,
+"mt": "اخراجات کا منصوبہ: ہر منصوبے میں ہر مہینے میں خرچ کرنے کا منصوبہ بنایا گیا ہے",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Forecast at completion: earned value, CPI, SPI, final cost",
+"kind": "title",
+"max": 60,
+"mt": "مکمل ہونے پر پیش گوئی: کمائی ہوئی قیمت، لاگت کارکردگی انڈیکس، شیڈول کارکردگی انڈیکس، حتمی لاگت",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Quotes: vendor offers scored on price, lead time and quality",
+"kind": "title",
+"max": 60,
+"mt": "حوالہ جات: قیمت، لیڈ ٹائم اور معیار پر فراہم کنندہ کی پیشکشیں",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Costs, vendor invoices and client billing by month",
+"kind": "title",
+"max": 60,
+"mt": "مہینے کے لحاظ سے اخراجات، بیچنے والے کے انوائسز اور کلائنٹ بلنگ",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Earned value, CPI, SPI and forecast from four numbers",
+"kind": "title",
+"max": 60,
+"mt": "کمائی ہوئی قیمت، لاگت کارکردگی انڈیکس، شیڈول کارکردگی انڈیکس اور چار نمبروں سے پیش گوئی",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Hello, cost line {cost_id} of {amount} for {project} ({description}) has waited {age} days for approval. Please approve it or return it with a reason.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {project} ({description}) کے لئے {amount} کی لاگت لائن {cost_id} {project} ({description}) نے منظوری کے لئے {age} دن انتظار کیا ہے. براہ کرم اسے منظور کریں یا ایک وجہ کے ساتھ اسے واپس کریں.",
+"why": "placeholders must be exactly: {cost_id} {amount} {project} {description} {age}"
+},
+{
+"en": "Hello {manager}, please confirm accrual {ac_id} for {project}: {vendor}, {amount}, {reason}. The cut-off is {cutoff}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {manager}، {project} کے لئے {ac_id} جمع کی تصدیق کریں: {vendor}، {amount}، {reason}.",
+"why": "placeholders must be exactly: {manager} {ac_id} {project} {vendor} {amount} {reason} {cutoff}"
+}
+]

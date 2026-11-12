@@ -1,0 +1,156 @@
+[
+{
+"en": "PMO lead: person above 100%",
+"kind": "label",
+"max": null,
+"mt": "مقدمة PMO: شخص فوق 100٪",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {pm_name}, {staff} has {free_h} free hours per week. If you need help on your project next month, tell me this week.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، لديّ ساعتين مجانيتين في الأسبوع، إذا كنت بحاجة للمساعدة في مشروعك الشهر المقبل، أخبرني هذا الأسبوع.",
+"why": "placeholders must be exactly: {pm_name} {staff} {free_h}"
+},
+{
+"en": "Hello {staff}, your {hours} overtime hours in the week of {week} are approved by {approved_by}. Please log them on your timesheet.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً {staff}، تمت الموافقة على ساعات العمل الإضافية الخاصة بك في أسبوع {week} من قبل {approved_by}. يرجى تسجيلها في جدولك الزمني.",
+"why": "placeholders must be exactly: {staff} {hours} {week} {approved_by}"
+},
+{
+"en": "Hello {owner}, the {role} request on {project} starts {start}. Shall we book a contractor? Please confirm today.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، طلب الموقع يبدأ هل نطلب مقاول؟ من فضلكم تأكدوا اليوم",
+"why": "placeholders must be exactly: {owner} {role} {project} {start}"
+},
+{
+"en": "Hello {approver}, {project} needs a {role} ({skill}) from {start}, open {days_open} days. Please approve the hire.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، نريد طلباً من الأيام الخمسة المفتوحة، من فضلكم وافقوا على الإيجار.",
+"why": "placeholders must be exactly: {approver} {project} {role} {skill} {start} {days_open}"
+},
+{
+"en": "PMO lead: monthly utilisation ready",
+"kind": "label",
+"max": null,
+"mt": "رصاص PMO: جاهز للاستخدام الشهري",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "A person above {set:over_pct} of the available hours needs work moved to somebody else. A person below {set:free_pct} can take new work. The project manager and the PMO lead agree any change in the weekly resource meeting.",
+"kind": "document",
+"max": null,
+"mt": "الشخص فوق {set:over_pct} من الساعات المتاحة يحتاج إلى نقل العمل إلى شخص آخر. الشخص دون {set:free_pct} يمكن أن تأخذ عمل جديد. مدير المشروع و PMO يوافق على أي تغيير في اجتماع الموارد الأسبوعي.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Utilisation was {col:util.util} against a target of {col:util.target}, a gap of {col:util.gap}. The check shows: {col:util.state}. The billable share of the hours logged was {col:util.share}.",
+"kind": "document",
+"max": null,
+"mt": "كان الاستخدام {col:util.util} مقابل هدف {col:util.target} ، فجوة {col:util.gap}. يظهر التحقق: {col:util.state}.",
+"why": "placeholders must be exactly: {col:util.util} {col:util.target} {col:util.gap} {col:util.state} {col:util.share}"
+},
+{
+"en": "The labour cost of all hours is {col:projects.labour_cost} and contractors cost {col:projects.contractor_cost}. The budget of the project is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "تكلفة العمالة لجميع الساعات هي {col:projects.labour_cost} وتكلفة المقاولين {col:projects.contractor_cost}.",
+"why": "placeholders must be exactly: {col:projects.labour_cost} {col:projects.contractor_cost} {col:projects.budget}"
+},
+{
+"en": "Approved by {col:leave.approved_by}. Cover: {col:leave.cover}. The cover check shows: {col:leave.clash}.",
+"kind": "document",
+"max": null,
+"mt": "تمت الموافقة عليها بواسطة {col:leave.approved_by}. الغطاء: {col:leave.cover}.",
+"why": "placeholders must be exactly: {col:leave.approved_by} {col:leave.cover} {col:leave.clash}"
+},
+{
+"en": "Action agreed: {col:load.action}. Main project manager: {col:load.pm_name}.",
+"kind": "document",
+"max": null,
+"mt": "تمت الموافقة على الإجراءات: {col:load.action}.",
+"why": "placeholders must be exactly: {col:load.action} {col:load.pm_name}"
+},
+{
+"en": "Send the statements to the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "إرسال البيانات إلى رئيس PMO",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Forecast at completion with CPI and SPI",
+"kind": "label",
+"max": 50,
+"mt": "التنبؤ عند الانتهاء مع مؤشر أداء التكاليف ومؤشر أداء الجدول الزمني",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "Approved, not ordered",
+"kind": "list",
+"max": 30,
+"mt": "تمت الموافقة عليها، لم يتم طلبها",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Forecast at completion: earned value, CPI, SPI, final cost",
+"kind": "title",
+"max": 60,
+"mt": "التوقعات عند الانتهاء: القيمة المكتسبة، مؤشر أداء التكاليف، مؤشر أداء الجدول الزمني، التكلفة النهائية",
+"why": "too long: 101 characters, the limit is 60"
+},
+{
+"en": "Earned value by month: planned, earned and actual cost",
+"kind": "title",
+"max": 60,
+"mt": "القيمة المكتسبة حسب الشهر: التكلفة المخطط لها والكلفة المكتسبة والكلفة الفعلية",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Purchase orders: amount, tax, goods received, open value",
+"kind": "title",
+"max": 60,
+"mt": "طلبات الشراء: المبلغ، الضريبة، البضائع المستلمة، القيمة المفتوحة",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Accruals: work done but not yet invoiced, month by month",
+"kind": "title",
+"max": 60,
+"mt": "التراكمات: العمل المنجز ولكن لم يتم فواتيره بعد، شهرًا بعد شهر",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Earned value, CPI, SPI and forecast from four numbers",
+"kind": "title",
+"max": 60,
+"mt": "القيمة المكتسبة، مؤشر أداء التكلفة، مؤشر أداء الجدول الزمني والتنبؤ من أربعة أرقام",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Hello, please confirm the delivery date of order {po_number} ({amount}). We expected it on {expected}. The delivery check shows: {delivery}.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، من فضلكم أكدوا تاريخ تسليم الطلب {po_number} ({amount}). كنا نتوقع ذلك في {expected}.",
+"why": "placeholders must be exactly: {po_number} {amount} {expected} {delivery}"
+},
+{
+"en": "Hello {manager}, the budget of {name} is {used} used: {spent} spent of {current}. Please tell me whether you expect a change or a request for reserve.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {manager}، تم استخدام ميزانية {name} {used} {spent} {current} {spent} {current} {spent} {current} {current} {current} {current} {current} {current} {5} {5} {6} {6} {6} {7} {7} {8} {8} {8} {8} {8} {9} {9} {9} {9} {9} {9} {",
+"why": "placeholders must be exactly: {manager} {name} {used} {spent} {current}"
+},
+{
+"en": "Hello {manager}, please confirm accrual {ac_id} for {project}: {vendor}, {amount}, {reason}. The cut-off is {cutoff}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {manager}، يرجى تأكيد التراكم {ac_id} ل {project}: {vendor}، {amount}، {reason}.",
+"why": "placeholders must be exactly: {manager} {ac_id} {project} {vendor} {amount} {reason} {cutoff}"
+}
+]

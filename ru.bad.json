@@ -1,0 +1,471 @@
+[
+{
+"en": "Hello {staff}, your allocation on {project} is now {pct} of your week ({hours_wk} hours) until {end}. Please check with {manager}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {staff}, ваше распределение на {project} теперь {pct} вашей недели ({hours_wk} часов) до {end}.",
+"why": "placeholders must be exactly: {staff} {project} {pct} {hours_wk} {end} {manager}"
+},
+{
+"en": "PMO lead: person above 100%",
+"kind": "label",
+"max": null,
+"mt": "Лид PMO: лицо свыше 100%",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {pm_name}, {staff} has {free_h} free hours per week. If you need help on your project next month, tell me this week.",
+"kind": "message",
+"max": null,
+"mt": "Если вам понадобится помощь в вашем проекте в следующем месяце, скажите мне на этой неделе.",
+"why": "placeholders must be exactly: {pm_name} {staff} {free_h}"
+},
+{
+"en": "Hello {staff}, we cannot approve your leave from {start} to {end}. Please send {approved_by} another date this week.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы не можем одобрить ваш отпуск с 1 по 2.",
+"why": "placeholders must be exactly: {staff} {start} {end} {approved_by}"
+},
+{
+"en": "Hello {cover}, {staff} is away from {start} to {end}. Can you cover their project work? Please tell {approved_by} today.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {cover}, {staff} находится от {start} до {end}.",
+"why": "placeholders must be exactly: {cover} {staff} {start} {end} {approved_by}"
+},
+{
+"en": "Hello {owner}, the {role} request on {project} starts {start}. Shall we book a contractor? Please confirm today.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, запрос на 2 начинается.",
+"why": "placeholders must be exactly: {owner} {role} {project} {start}"
+},
+{
+"en": "Hello {approver}, {project} needs a {role} ({skill}) from {start}, open {days_open} days. Please approve the hire.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мне нужен номер от 4 до 5 дней, пожалуйста, одобрите наем.",
+"why": "placeholders must be exactly: {approver} {project} {role} {skill} {start} {days_open}"
+},
+{
+"en": "Hello, we confirm your booking on {project}: {hours_week} hours a week from {start} to {end} at {rate} an hour. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы подтверждаем ваше бронирование на 1 час в неделю с 2 до 3 часов.",
+"why": "placeholders must be exactly: {project} {hours_week} {start} {end} {rate}"
+},
+{
+"en": "Hello, please send your hours for the week of {week} on {project}. We have {hours} on record. Please confirm them.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, присылайте ваши часы на неделю с 1 на 1 мы имеем 2 на учете. пожалуйста, подтвердите их.",
+"why": "placeholders must be exactly: {week} {project} {hours}"
+},
+{
+"en": "The allocated hours are {col:cap.alloc_h}, which leaves {col:cap.free_h} free hours. The load of the week is {col:cap.load} and the load check shows: {col:cap.state}.",
+"kind": "document",
+"max": null,
+"mt": "Нагрузка недели {col:cap.load} и проверка нагрузки показывает: {col:cap.state}.",
+"why": "placeholders must be exactly: {col:cap.alloc_h} {col:cap.free_h} {col:cap.load} {col:cap.state}"
+},
+{
+"en": "A person above {set:over_pct} of the available hours needs work moved to somebody else. A person below {set:free_pct} can take new work. The project manager and the PMO lead agree any change in the weekly resource meeting.",
+"kind": "document",
+"max": null,
+"mt": "Человек, работающий свыше {set:over_pct} рабочих часов, нуждается в переходе на другую работу. Человек, работающий ниже {set:free_pct}, может взять на себя новую работу. Менеджер проекта и руководитель PMO согласовывают любые изменения на еженедельном совещании по ресурсам.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Utilisation was {col:util.util} against a target of {col:util.target}, a gap of {col:util.gap}. The check shows: {col:util.state}. The billable share of the hours logged was {col:util.share}.",
+"kind": "document",
+"max": null,
+"mt": "Использование было {col:util.util} против цели {col:util.target}, разрыв {col:util.gap}. проверка показывает: {col:util.state}.",
+"why": "placeholders must be exactly: {col:util.util} {col:util.target} {col:util.gap} {col:util.state} {col:util.share}"
+},
+{
+"en": "We use this statement in the monthly review with the PMO lead. A low utilisation is first a question about the work planned for the person, not about the person.",
+"kind": "document",
+"max": null,
+"mt": "Мы используем это утверждение в ежемесячном обзоре с руководством PMO.",
+"why": "English/Latin words left: PMO."
+},
+{
+"en": "Up to today the team logged {col:projects.hours_logged} hours on this project, of which {col:projects.billable_h} hours are billable. The charge value of the billable hours is {col:projects.billable_value}.",
+"kind": "document",
+"max": null,
+"mt": "До сегодняшнего дня команда зарегистрировала {col:projects.hours_logged} часов на этом проекте, из которых {col:projects.billable_h} часов являются выставляемыми в расчет.",
+"why": "placeholders must be exactly: {col:projects.hours_logged} {col:projects.billable_h} {col:projects.billable_value}"
+},
+{
+"en": "The labour cost of all hours is {col:projects.labour_cost} and contractors cost {col:projects.contractor_cost}. The budget of the project is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "Стоимость рабочей силы за все часы {col:projects.labour_cost} и стоимость подрядчика {col:projects.contractor_cost}.",
+"why": "placeholders must be exactly: {col:projects.labour_cost} {col:projects.contractor_cost} {col:projects.budget}"
+},
+{
+"en": "Approved by {col:leave.approved_by}. Cover: {col:leave.cover}. The cover check shows: {col:leave.clash}.",
+"kind": "document",
+"max": null,
+"mt": "Подтверждена {col:leave.approved_by}.",
+"why": "placeholders must be exactly: {col:leave.approved_by} {col:leave.cover} {col:leave.clash}"
+},
+{
+"en": "To {col:bookings.vendor}. Project: {col:bookings.project}. Role: {col:bookings.role}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:bookings.project}. Роль: {col:bookings.role}.",
+"why": "placeholders must be exactly: {col:bookings.vendor} {col:bookings.project} {col:bookings.role}"
+},
+{
+"en": "We confirm your booking from {col:bookings.start} to {col:bookings.end}, {col:bookings.weeks} weeks at {col:bookings.hours_week} hours a week. The rate is {col:bookings.rate} per hour and the planned cost is {col:bookings.cost}.",
+"kind": "document",
+"max": null,
+"mt": "Мы подтверждаем ваше бронирование с {col:bookings.start} до {col:bookings.end}, {col:bookings.weeks} недель по {col:bookings.hours_week} часов в неделю.",
+"why": "placeholders must be exactly: {col:bookings.start} {col:bookings.end} {col:bookings.weeks} {col:bookings.hours_week} {col:bookings.rate} {col:bookings.cost}"
+},
+{
+"en": "The person worked {col:overtime.hours} overtime hours. The approver is {col:overtime.approved_by} and the status is {col:overtime.status}.",
+"kind": "document",
+"max": null,
+"mt": "Лицо работало {col:overtime.hours} сверхурочно.",
+"why": "placeholders must be exactly: {col:overtime.hours} {col:overtime.approved_by} {col:overtime.status}"
+},
+{
+"en": "Action agreed: {col:load.action}. Main project manager: {col:load.pm_name}.",
+"kind": "document",
+"max": null,
+"mt": "Главный руководитель проекта:",
+"why": "placeholders must be exactly: {col:load.action} {col:load.pm_name}"
+},
+{
+"en": "People joining projects",
+"kind": "label",
+"max": 30,
+"mt": "Люди, присоединяющиеся к проектам",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Control project budget, cost, purchasing and billing in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Контроль бюджета проекта, стоимости, закупок и выставления счетов в одной рабочей книге",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "Control project budget, forecast, purchasing and client billing",
+"kind": "sentence",
+"max": 80,
+"mt": "Контроль за бюджетом проекта, прогнозом, закупками и выставлением счетов клиентам",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Forecast at completion with CPI and SPI",
+"kind": "label",
+"max": 50,
+"mt": "Прогноз по завершении с индексом эффективности затрат и индексом эффективности графика",
+"why": "too long: 86 characters, the limit is 50"
+},
+{
+"en": "percent complete, planned percent and actual cost give earned value, both indexes, the estimate to complete and the final cost of every project",
+"kind": "sentence",
+"max": 160,
+"mt": "Процент завершения, запланированный процент и фактическая стоимость дают заработанную стоимость, оба индекса, оценка завершения и конечная стоимость каждого проекта",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "price, lead time and quality are scored out of 100 with the weights you set, ranked inside each request and checked against the vendor chosen",
+"kind": "sentence",
+"max": 160,
+"mt": "Цена, время выполнения и качество оцениваются из 100 с помощью весов, которые вы устанавливаете, ранжируются внутри каждого запроса и проверяются с выбранным поставщиком",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Budget by category with transfers and draws",
+"kind": "label",
+"max": 50,
+"mt": "Бюджет по категориям с перечислениями и розыгрышами",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Contingency log with reserve left",
+"kind": "label",
+"max": 50,
+"mt": "Журнал непредвиденных ситуаций с оставшимся резервом",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "every draw on a project reserve shows the reserve planned, drawn to date, left and a warning before the reserve is used up",
+"kind": "sentence",
+"max": 160,
+"mt": "Каждое заимствование резерва проекта показывает запланированный резерв, заимствованный на сегодняшний день, оставленный и предупреждение о том, что резерв не будет использован.",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "each change request shows extra cost, extra days, price to the client, margin and a warning for a margin below your target or a late decision",
+"kind": "sentence",
+"max": 160,
+"mt": "Каждый запрос на изменение показывает дополнительные затраты, дополнительные дни, цену для клиента, маржу и предупреждение о марже ниже целевой или позднего решения",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Accruals with cut-off and reversal month",
+"kind": "label",
+"max": 50,
+"mt": "Сроки начисления с месяцем прекращения и месяца отмены",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "work done and not yet invoiced is listed by month with the cut-off date, the month it reverses and a flag for stale accruals",
+"kind": "sentence",
+"max": 160,
+"mt": "выполненные работы, которые еще не были выставлены на счет, перечислены по месяцам с датой окончания, месяцем, в котором они отменяются, и знаком для устаревших начислений",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Spend plan against actual by month",
+"kind": "label",
+"max": 50,
+"mt": "План расходов по сравнению с фактическими по месяцам",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "orders show goods received, last delivery, value still open and a warning when goods are late or only part delivered",
+"kind": "sentence",
+"max": 160,
+"mt": "Заказы показывают полученные товары, последнюю доставку, стоимость, которая еще не была получена, и предупреждение о том, что товары задерживаются или только частично доставлены",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Behind and over cost",
+"kind": "list",
+"max": 30,
+"mt": "Задержка и избыточная стоимость",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Patient Booking App",
+"kind": "list",
+"max": 30,
+"mt": "Приложение для записи пациентов",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Core Banking Data Migration",
+"kind": "list",
+"max": 30,
+"mt": "Миграция основных банковских данных",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Smart Meter Reporting Dashboard",
+"kind": "list",
+"max": 30,
+"mt": "Приборная панель для отчетности умных счетчиков",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Plant Maintenance Scheduling",
+"kind": "list",
+"max": 30,
+"mt": "Расписание технического обслуживания",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Service Desk Process Redesign",
+"kind": "list",
+"max": 30,
+"mt": "Перепроектирование процесса обслуживания",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Booking Engine Integration",
+"kind": "list",
+"max": 30,
+"mt": "Интеграция системы бронирования",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Timesheet and Cost Tracking Rollout",
+"kind": "list",
+"max": 30,
+"mt": "Распространение расписания и отслеживания затрат",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Retail Analytics Discovery",
+"kind": "list",
+"max": 30,
+"mt": "Открытие аналитики розничной торговли",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "ClearLines Translation",
+"kind": "list",
+"max": 30,
+"mt": "Перевод ClearLines",
+"why": "English/Latin words left: ClearLines"
+},
+{
+"en": "BrightFrame Media",
+"kind": "list",
+"max": 30,
+"mt": "СМИ BrightFrame",
+"why": "English/Latin words left: BrightFrame"
+},
+{
+"en": "Pioneer Venues and Equipment",
+"kind": "list",
+"max": 30,
+"mt": "Пионерские площадки и оборудование",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Vendors: terms, spend, orders, invoices and payment record",
+"kind": "title",
+"max": 60,
+"mt": "Продавцы: условия, расходы, заказы, счета-фактуры и записи о платежах",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Project budgets by cost category with moves and spend",
+"kind": "title",
+"max": 60,
+"mt": "Бюджеты проектов по категориям затрат с переездами и расходами",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cost lines: every cost by project, category and vendor",
+"kind": "title",
+"max": 60,
+"mt": "Линии затрат: все затраты по проектам, категориям и поставщикам",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Spend plan: what each project planned to spend in each month",
+"kind": "title",
+"max": 60,
+"mt": "План расходов: сколько каждый проект планирует тратить в каждый месяц",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Forecast at completion: earned value, CPI, SPI, final cost",
+"kind": "title",
+"max": 60,
+"mt": "Прогноз по завершении: заработанная стоимость, индекс эффективности затрат, индекс эффективности графика, конечная стоимость",
+"why": "too long: 124 characters, the limit is 60"
+},
+{
+"en": "Earned value by month: planned, earned and actual cost",
+"kind": "title",
+"max": 60,
+"mt": "Заработанная стоимость по месяцам: запланированные, заработанные и фактические затраты",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Quotes: vendor offers scored on price, lead time and quality",
+"kind": "title",
+"max": 60,
+"mt": "Котировки: предложения поставщиков, оцениваемые по цене, срокам поставки и качеству",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Vendor invoices: due dates, payment and order match",
+"kind": "title",
+"max": 60,
+"mt": "Счета-фактуры продавца: сроки погашения, соответствие платежа и заказа",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Change costs: extra cost, days, price and margin",
+"kind": "title",
+"max": 60,
+"mt": "Затраты на изменение: дополнительные затраты, дни, цена и маржа",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Accruals: work done but not yet invoiced, month by month",
+"kind": "title",
+"max": 60,
+"mt": "Начисления: выполненные, но еще не выставленные на счет работы, месяц за месяцем",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Costs, vendor invoices and client billing by month",
+"kind": "title",
+"max": 60,
+"mt": "Расходы, счета-фактуры поставщиков и счета клиентов по месяцам",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Earned value, CPI, SPI and forecast from four numbers",
+"kind": "title",
+"max": 60,
+"mt": "Прибыльная стоимость, индекс эффективности затрат, индекс эффективности графика и прогноз из четырех цифр",
+"why": "too long: 105 characters, the limit is 60"
+},
+{
+"en": "Quote comparison: price, lead time and quality weighted",
+"kind": "title",
+"max": 60,
+"mt": "Сравнение котировок: цена, сроки выполнения и качество взвешены",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Price of a change request: hours, vendor cost and margin",
+"kind": "title",
+"max": 60,
+"mt": "Цена запроса на изменение: часы, стоимость поставщика и маржа",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Contingency drawdown check: what the reserve can still pay",
+"kind": "title",
+"max": 60,
+"mt": "Проверка использования резервов на случай непредвиденных обстоятельств: что резерв может еще выплатить",
+"why": "too long: 102 characters, the limit is 60"
+},
+{
+"en": "Milestone invoice amount from the payment share",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость счета-фактуры, являющаяся эталоном, от доли платежа",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello, please confirm the delivery date of order {po_number} ({amount}). We expected it on {expected}. The delivery check shows: {delivery}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, подтвердите дату доставки заказа {po_number} ({amount}). Мы ожидали его на {expected}.",
+"why": "placeholders must be exactly: {po_number} {amount} {expected} {delivery}"
+},
+{
+"en": "Hello, invoice {inv_no} for {amount} does not match order {po}. The order is {order_amount} and the goods received are {received}. Please send a corrected invoice.",
+"kind": "message",
+"max": null,
+"mt": "Привет, счет {inv_no} за {amount} не совпадает с заказом {po}.",
+"why": "placeholders must be exactly: {inv_no} {amount} {po} {order_amount} {received}"
+},
+{
+"en": "Hello, we paid invoice {inv_no} for {amount} on {paid_on}. Please confirm that you received the payment.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы оплатили счет за {amount} на {paid_on}.",
+"why": "placeholders must be exactly: {inv_no} {amount} {paid_on}"
+},
+{
+"en": "Hello {manager}, the forecast for {project} is {eac}, which is {over_by} above the budget of {bac}. The cost index is {cpi}. Please send me your recovery plan.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, прогноз на год {project} - {eac}, что {over_by} выше бюджета {bac}. индекс затрат - {cpi}.",
+"why": "placeholders must be exactly: {manager} {project} {eac} {over_by} {bac} {cpi}"
+},
+{
+"en": "Hello {manager}, please confirm accrual {ac_id} for {project}: {vendor}, {amount}, {reason}. The cut-off is {cutoff}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {manager}, пожалуйста подтвердите начисление {ac_id} для {project}: {vendor}, {amount}, {reason}.",
+"why": "placeholders must be exactly: {manager} {ac_id} {project} {vendor} {amount} {reason} {cutoff}"
+}
+]

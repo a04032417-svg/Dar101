@@ -1,0 +1,436 @@
+[
+{
+"en": "Hello {staff}, your allocation on {project} is now {pct} of your week ({hours_wk} hours) until {end}. Please check with {manager}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {staff}, uw toewijzing op {project} is nu {pct} van uw week ({hours_wk} uur) tot {end}.",
+"why": "placeholders must be exactly: {staff} {project} {pct} {hours_wk} {end} {manager}"
+},
+{
+"en": "Hello {staff}, you are allocated {alloc} of your week on {projects_n} projects, above the limit. Please talk to {pm_name} this week.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {staff}, je hebt {alloc} van je week toegewezen aan {projects_n} projecten, boven de limiet.",
+"why": "placeholders must be exactly: {staff} {alloc} {projects_n} {pm_name}"
+},
+{
+"en": "Hello {pm_name}, {staff} has {free_h} free hours per week. If you need help on your project next month, tell me this week.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, ik heb twee uur vrij per week. Als je hulp nodig hebt met je project volgende maand, laat het me deze week weten.",
+"why": "placeholders must be exactly: {pm_name} {staff} {free_h}"
+},
+{
+"en": "Hello {cover}, {staff} is away from {start} to {end}. Can you cover their project work? Please tell {approved_by} today.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {cover}, {staff} is weg van {start} naar {end}.",
+"why": "placeholders must be exactly: {cover} {staff} {start} {end} {approved_by}"
+},
+{
+"en": "Hello {owner}, the {role} request on {project} starts {start}. Shall we book a contractor? Please confirm today.",
+"kind": "message",
+"max": null,
+"mt": "Wil je een aannemer boeken?",
+"why": "placeholders must be exactly: {owner} {role} {project} {start}"
+},
+{
+"en": "Hello {approver}, {project} needs a {role} ({skill}) from {start}, open {days_open} days. Please approve the hire.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, ik heb een aanvraag nodig vanaf de openingsdagen.",
+"why": "placeholders must be exactly: {approver} {project} {role} {skill} {start} {days_open}"
+},
+{
+"en": "Hello, please send your hours for the week of {week} on {project}. We have {hours} on record. Please confirm them.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, stuur uw uren voor de week van 1 op 1 We hebben 2 geregistreerd, bevestig ze alsjeblieft.",
+"why": "placeholders must be exactly: {week} {project} {hours}"
+},
+{
+"en": "Hello, {staff} joins {project} on {start}. Please prepare their access before that day and tell {manager}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, {staff} sluit {project} aan op {start}.",
+"why": "placeholders must be exactly: {staff} {project} {start} {manager}"
+},
+{
+"en": "Team capacity report for one person and week",
+"kind": "title",
+"max": 60,
+"mt": "Verslag over de capaciteit van het team voor één persoon en week",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Utilisation was {col:util.util} against a target of {col:util.target}, a gap of {col:util.gap}. The check shows: {col:util.state}. The billable share of the hours logged was {col:util.share}.",
+"kind": "document",
+"max": null,
+"mt": "Het gebruik was {col:util.util} ten opzichte van een doel van {col:util.target}, een verschil van {col:util.gap}.",
+"why": "placeholders must be exactly: {col:util.util} {col:util.target} {col:util.gap} {col:util.state} {col:util.share}"
+},
+{
+"en": "Timesheet summary of a project for a client invoice",
+"kind": "title",
+"max": 60,
+"mt": "Tijdschema samenvatting van een project voor een klantenfactuur",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Up to today the team logged {col:projects.hours_logged} hours on this project, of which {col:projects.billable_h} hours are billable. The charge value of the billable hours is {col:projects.billable_value}.",
+"kind": "document",
+"max": null,
+"mt": "Tot op heden heeft het team {col:projects.hours_logged} uur op dit project geregistreerd, waarvan {col:projects.billable_h} uur factureerbaar is.",
+"why": "placeholders must be exactly: {col:projects.hours_logged} {col:projects.billable_h} {col:projects.billable_value}"
+},
+{
+"en": "The labour cost of all hours is {col:projects.labour_cost} and contractors cost {col:projects.contractor_cost}. The budget of the project is {col:projects.budget}.",
+"kind": "document",
+"max": null,
+"mt": "De arbeidskosten van alle uren zijn {col:projects.labour_cost} en de kosten van de aannemers {col:projects.contractor_cost}.",
+"why": "placeholders must be exactly: {col:projects.labour_cost} {col:projects.contractor_cost} {col:projects.budget}"
+},
+{
+"en": "Approved by {col:leave.approved_by}. Cover: {col:leave.cover}. The cover check shows: {col:leave.clash}.",
+"kind": "document",
+"max": null,
+"mt": "Goedgekeurd door {col:leave.approved_by}.",
+"why": "placeholders must be exactly: {col:leave.approved_by} {col:leave.cover} {col:leave.clash}"
+},
+{
+"en": "Please put this leave in the team calendar and tell the project managers whose projects the person works on. Of these days, {col:leave.days_30} fall in the next 30 days.",
+"kind": "document",
+"max": null,
+"mt": "Plaats deze vakantie in de kalender van het team en vertel de projectmanagers aan wiens projecten de persoon werkt.",
+"why": "placeholders must be exactly: {col:leave.days_30}"
+},
+{
+"en": "We confirm your booking from {col:bookings.start} to {col:bookings.end}, {col:bookings.weeks} weeks at {col:bookings.hours_week} hours a week. The rate is {col:bookings.rate} per hour and the planned cost is {col:bookings.cost}.",
+"kind": "document",
+"max": null,
+"mt": "We bevestigen uw boeking van {col:bookings.start} tot {col:bookings.end}, {col:bookings.weeks} weken bij {col:bookings.hours_week} uur per week.",
+"why": "placeholders must be exactly: {col:bookings.start} {col:bookings.end} {col:bookings.weeks} {col:bookings.hours_week} {col:bookings.rate} {col:bookings.cost}"
+},
+{
+"en": "Team allocation summary for the managing director",
+"kind": "title",
+"max": 60,
+"mt": "Samenvatting van de teamtoewijzing voor de directeur-generaal",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Action agreed: {col:load.action}. Main project manager: {col:load.pm_name}.",
+"kind": "document",
+"max": null,
+"mt": "Actie overeengekomen: hoofdprojectmanager:",
+"why": "placeholders must be exactly: {col:load.action} {col:load.pm_name}"
+},
+{
+"en": "People joining projects",
+"kind": "label",
+"max": 30,
+"mt": "Mensen die zich bij projecten aansluiten",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Control project budget, forecast, purchasing and client billing",
+"kind": "sentence",
+"max": 80,
+"mt": "Controle van het projectbegroting, de prognose, de inkoop en de facturatie van de klant",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "percent complete, planned percent and actual cost give earned value, both indexes, the estimate to complete and the final cost of every project",
+"kind": "sentence",
+"max": 160,
+"mt": "Percentage voltooid, gepland percentage en werkelijke kosten geven verdiende waarde, zowel index, de schatting tot voltooiing en de uiteindelijke kosten van elk project",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Budget by category with transfers and draws",
+"kind": "label",
+"max": 50,
+"mt": "Begroting per categorie met overdrachten en trekkingen",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "every draw on a project reserve shows the reserve planned, drawn to date, left and a warning before the reserve is used up",
+"kind": "sentence",
+"max": 160,
+"mt": "elke opname van een reserve voor een project toont de geplande reserve, de tot op heden opgetrokken reserve, de overgebleven reserve en een waarschuwing voordat de reserve is opgebruikt",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "Client billing with due dates and days late",
+"kind": "label",
+"max": 50,
+"mt": "Afrekening van klanten met vervaldatums en dagen te laat",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "work done and not yet invoiced is listed by month with the cut-off date, the month it reverses and a flag for stale accruals",
+"kind": "sentence",
+"max": 160,
+"mt": "voltooide werkzaamheden die nog niet zijn gefactureerd, worden per maand vermeld met de uiterste datum, de maand waarin het wordt omgekeerd en een vlag voor verouderde oplopen",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Spend plan against actual by month",
+"kind": "label",
+"max": 50,
+"mt": "Uitgavenplan ten opzichte van daadwerkelijke uitgaven per maand",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "Order delivery and late order warnings",
+"kind": "label",
+"max": 50,
+"mt": "Opdrachtbezorging en waarschuwingen voor vertraging",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "orders show goods received, last delivery, value still open and a warning when goods are late or only part delivered",
+"kind": "sentence",
+"max": 160,
+"mt": "de bestellingen bevatten de ontvangst van de goederen, de laatste levering, de waarde die nog open is en een waarschuwing wanneer de goederen te laat of slechts gedeeltelijk zijn geleverd;",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Vendor record with days to pay and disputes",
+"kind": "label",
+"max": 50,
+"mt": "Verkoper record met dagen om te betalen en geschillen",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Reserve",
+"kind": "list",
+"max": 30,
+"mt": "Reserve",
+"why": "not translated"
+},
+{
+"en": "Store Loyalty Platform",
+"kind": "list",
+"max": 30,
+"mt": "Loyaliteitsplatform van de winkel",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Smart Meter Reporting Dashboard",
+"kind": "list",
+"max": 30,
+"mt": "Dashboard voor de rapportage van slimme meters",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Plant Maintenance Scheduling",
+"kind": "list",
+"max": 30,
+"mt": "Plan van het onderhoud van de installatie",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Service Desk Process Redesign",
+"kind": "list",
+"max": 30,
+"mt": "Herontwerp van het servicedeskproces",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Booking Engine Integration",
+"kind": "list",
+"max": 30,
+"mt": "Integratie van de boekingsmachine",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Delivery Method Refresh",
+"kind": "list",
+"max": 30,
+"mt": "Vernieuwing van de leveringsmethode",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Timesheet and Cost Tracking Rollout",
+"kind": "list",
+"max": 30,
+"mt": "Uitvoering van tijdschema's en kostensporing",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Retail Analytics Discovery",
+"kind": "list",
+"max": 30,
+"mt": "Ontdekking van retail analytics",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Vendors: terms, spend, orders, invoices and payment record",
+"kind": "title",
+"max": 60,
+"mt": "Verkopers: voorwaarden, uitgaven, bestellingen, facturen en betalingsgegevens",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Open orders",
+"kind": "label",
+"max": null,
+"mt": "Open orders",
+"why": "not translated"
+},
+{
+"en": "Project budgets by cost category with moves and spend",
+"kind": "title",
+"max": 60,
+"mt": "Projectbudgetten per kostencategorie met verhuizingen en uitgaven",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Cost lines: every cost by project, category and vendor",
+"kind": "title",
+"max": 60,
+"mt": "Kostenlijnen: alle kosten per project, categorie en leverancier",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Forecast at completion: earned value, CPI, SPI, final cost",
+"kind": "title",
+"max": 60,
+"mt": "Prognose bij voltooiing: verdiende waarde, CPI, SPI, eindkosten",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Earned value by month: planned, earned and actual cost",
+"kind": "title",
+"max": 60,
+"mt": "Verworven waarde per maand: geplande, verdiende en werkelijke kosten",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Quotes: vendor offers scored on price, lead time and quality",
+"kind": "title",
+"max": 60,
+"mt": "Citaten: aanbiedingen van leveranciers op basis van prijs, levertijd en kwaliteit",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Purchase orders: amount, tax, goods received, open value",
+"kind": "title",
+"max": 60,
+"mt": "Aankoopopdrachten: bedrag, belasting, ontvangen goederen, open waarde",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Receipts: goods and services received against each order",
+"kind": "title",
+"max": 60,
+"mt": "Ontvangsten: goederen en diensten ontvangen tegen elke bestelling",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Vendor invoices: due dates, payment and order match",
+"kind": "title",
+"max": 60,
+"mt": "Verkopersfacturen: vervaldatum, betaling en overeenstemmende bestelling",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Match",
+"kind": "label",
+"max": null,
+"mt": "Match",
+"why": "not translated"
+},
+{
+"en": "Client billing: milestones, change orders, collected",
+"kind": "title",
+"max": 60,
+"mt": "Rekeningstelling van klanten: mijlpalen, wijzigingsopdrachten, verzameld",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Accruals: work done but not yet invoiced, month by month",
+"kind": "title",
+"max": 60,
+"mt": "Oplopende bedragen: voltooide, maar nog niet gefactureerde werkzaamheden, per maand",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Costs, vendor invoices and client billing by month",
+"kind": "title",
+"max": 60,
+"mt": "Kosten, facturen van leveranciers en facturatie van klanten per maand",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Project financial summary with its client billing",
+"kind": "title",
+"max": 60,
+"mt": "Financiële samenvatting van het project met de facturatie van de opdrachtgever",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Schedule performance index SPI",
+"kind": "label",
+"max": null,
+"mt": "Schedule performance index SPI",
+"why": "not translated"
+},
+{
+"en": "Forecast the date the budget runs out from the burn rate",
+"kind": "title",
+"max": 60,
+"mt": "Voorspelling van de uitloopdatum van de begroting op basis van het uitgavenpercentage",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Quote comparison: price, lead time and quality weighted",
+"kind": "title",
+"max": 60,
+"mt": "Citatenvergelijking: prijs, doorlooptijd en kwaliteit gewogen",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Price of a change request: hours, vendor cost and margin",
+"kind": "title",
+"max": 60,
+"mt": "Prijs van een wijzigingsverzoek: uren, leverancierskosten en marge",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "What-if grid: hours overrun and rate rise",
+"kind": "title",
+"max": 60,
+"mt": "Wat als het netwerk: overschrijding van de uren en stijging van de tarieven",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Hello, we issued purchase order {po_number} for {amount} for {project}. Please confirm that you accept it and the delivery date. We expect it on {expected}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we hebben een bestelling {po_number} voor {amount} voor {project} uitgegeven.",
+"why": "placeholders must be exactly: {po_number} {amount} {project} {expected}"
+},
+{
+"en": "Hello, please confirm the delivery date of order {po_number} ({amount}). We expected it on {expected}. The delivery check shows: {delivery}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, bevestig de leveringsdatum van de bestelling {po_number} ({amount}). We verwachtten het op {expected}.",
+"why": "placeholders must be exactly: {po_number} {amount} {expected} {delivery}"
+},
+{
+"en": "Hello {manager}, the forecast for {project} is {eac}, which is {over_by} above the budget of {bac}. The cost index is {cpi}. Please send me your recovery plan.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {manager}, de prognose voor {project} is {eac}, dat is {over_by} boven het budget van {bac}.",
+"why": "placeholders must be exactly: {manager} {project} {eac} {over_by} {bac} {cpi}"
+},
+{
+"en": "Hello {manager}, please confirm accrual {ac_id} for {project}: {vendor}, {amount}, {reason}. The cut-off is {cutoff}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {manager}, bevestig alstublieft de verrekening {ac_id} voor {project}: {vendor}, {amount}, {reason}.",
+"why": "placeholders must be exactly: {manager} {ac_id} {project} {vendor} {amount} {reason} {cutoff}"
+}
+]
