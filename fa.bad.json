@@ -1,0 +1,121 @@
+[
+{
+"en": "Open Start and type your company name and your own rules in the yellow cells: normal hours, overtime limit, warning days, days to pay a subcontractor, pass mark for inductions and the late payment interest.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و قوانین خود را در سلول های زرد تایپ کنید: ساعات معمولی، محدودیت اضافه کاری، روزهای هشدار، روزهای پرداخت به پیمانکار فرعی، نمره قبولی برای القاء و بهره تاخیر پرداخت.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Add every subcontractor on Subcontractors, then each order on Subcontract Packages with its value, retention rate and dates.",
+"kind": "sentence",
+"max": null,
+"mt": "هر پیمانکار فرعی را در Subcontractors اضافه کنید، سپس هر سفارش را در بسته های قرارداد فرعی با ارزش، نرخ پول نگهداری و تاریخ آن اضافه کنید.",
+"why": "English/Latin words left: Subcontractors"
+},
+{
+"en": "Add your own workers on Workers and your gangs on Crews and Gangs. The loaded hour comes from the trade rate.",
+"kind": "sentence",
+"max": null,
+"mt": "کارگران خود را در Workers و خدمه کاری خود را در خدمه و باندهای کاری اضافه کنید. ساعت بارگذاری شده از نرخ تجارت حاصل می شود.",
+"why": "English/Latin words left: Workers"
+},
+{
+"en": "Type one row on Timesheets for each worker and week with the project, normal hours and overtime hours. Cost and the overtime limit check fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف در Timesheets برای هر کارگر و هفته با پروژه، ساعات عادی و ساعات اضافه کاری تایپ کنید. بررسی هزینه و محدودیت اضافه کاری را پر کنید.",
+"why": "English/Latin words left: Timesheets"
+},
+{
+"en": "every part of the work shows the share done before and now; the claim adds variations, takes off retention and advance recovery and gives the net to invoice",
+"kind": "sentence",
+"max": 160,
+"mt": "هر قسمت از کار سهم انجام شده قبل و الان را نشان می دهد. ادعای پرداخت، تغییرات قرارداد را اضافه می کند، پول نگهداشته و پیش بازیابی را حذف می کند و خالص را به صورت حساب می دهد.",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "billing is compared with the work your site team measured, so you see money you can claim and money you hold that is not yet earned",
+"kind": "sentence",
+"max": 160,
+"mt": "صورت‌حساب با کاری که تیم ساخت‌وساز شما اندازه‌گیری کرده‌اند مقایسه می‌شود، بنابراین پولی را می‌بینید که می‌توانید ادعای پرداخت کنید و پولی را که در اختیار دارید و هنوز به دست نیامده است، می‌بینید.",
+"why": "too long: 196 characters, the limit is 160"
+},
+{
+"en": "new claims arrive after your payment lag, retention comes back on its dates and open invoices fall due; the closing balance shows the months below your floor",
+"kind": "sentence",
+"max": 160,
+"mt": "ادعاهای پرداخت جدید پس از تأخیر پرداخت شما وارد می‌شود، پول نگهداری در تاریخ‌های خود بازمی‌گردد و صورت‌حساب‌های باز سررسید می‌شوند. تراز پایانی ماه های زیر طبقه شما را نشان می دهد",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Variation not agreed",
+"kind": "list",
+"max": 30,
+"mt": "تغییر قرارداد مورد توافق قرار نگرفت",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Retention bond swap",
+"kind": "list",
+"max": 30,
+"mt": "معاوضه ضمانت نامه بانکی نگهداری پول",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Receivables ageing by client: what is owed and how old it is",
+"kind": "title",
+"max": 60,
+"mt": "بدهی های دریافتنی توسط مشتری: چه چیزی بدهکار است و چقدر قدیمی است",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Supplier, subcontractor and hire invoices you still owe",
+"kind": "title",
+"max": 60,
+"mt": "فاکتورهای تامین کننده، پیمانکار فرعی و اجاره که هنوز بدهکار هستید",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Final accounts: the last claim and what is still to collect",
+"kind": "title",
+"max": 60,
+"mt": "حساب های نهایی: آخرین ادعای پرداخت و آنچه هنوز جمع آوری می شود",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Retention calculator: held, released and what it costs you",
+"kind": "title",
+"max": 60,
+"mt": "ماشین حساب نگهداری پول: نگهداری شده، آزاد شده و هزینه آن برای شما",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Under-billing and over-billing: billed against work done",
+"kind": "title",
+"max": 60,
+"mt": "صورتحساب کم و بیش از حد صورتحساب: صورتحساب در مقابل کار انجام شده",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Net you should be certified",
+"kind": "label",
+"max": null,
+"mt": "Net شما باید گواهینامه داشته باشید",
+"why": "English/Latin words left: Net"
+},
+{
+"en": "Retention held in cash or released against a bond",
+"kind": "title",
+"max": 60,
+"mt": "نگهداری پولی که به صورت نقدی نگه داشته شده یا در مقابل ضمانت نامه بانکی آزاد شده است",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "We claimed {col:certs.claimed} net and the certificate shows {col:certs.certified}. The difference is {col:certs.cut}.",
+"kind": "document",
+"max": null,
+"mt": "ما ادعای {col:certs.claimed} net کردیم و گواهینامه {col:certs.certified} را نشان می‌دهد. تفاوت {col:certs.cut} است.",
+"why": "English/Latin words left: net"
+}
+]

@@ -1,0 +1,163 @@
+[
+{
+"en": "Claims built from percent complete",
+"kind": "label",
+"max": 50,
+"mt": "Betalingsclaims opgebouwd op basis van het voltooide percentage",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "every part of the work shows the share done before and now; the claim adds variations, takes off retention and advance recovery and gives the net to invoice",
+"kind": "sentence",
+"max": 160,
+"mt": "elk deel van het werk toont het deel dat vroeger en nu is gedaan; de betalingsvordering voegt contractvariaties toe, verwijdert retentiegeld en vooruitbetaling en geeft het nettobedrag aan facturen",
+"why": "too long: 197 characters, the limit is 160"
+},
+{
+"en": "retention to date, released and held, with the first and final release dates from practical completion and the defects period",
+"kind": "sentence",
+"max": 160,
+"mt": "retentiegeld tot nu toe, vrijgegeven en vastgehouden, waarbij de eerste en laatste vrijgave dateert van de substantiële voltooiing en de aansprakelijkheidsperiode voor gebreken",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "billing is compared with the work your site team measured, so you see money you can claim and money you hold that is not yet earned",
+"kind": "sentence",
+"max": 160,
+"mt": "de facturering wordt vergeleken met het werk dat uw bouwplaatsteam heeft gemeten, zodat u geld ziet dat u kunt claimen en geld dat u vasthoudt en dat nog niet is verdiend",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "new claims arrive after your payment lag, retention comes back on its dates and open invoices fall due; the closing balance shows the months below your floor",
+"kind": "sentence",
+"max": 160,
+"mt": "nieuwe betalingsaanvragen komen na uw betalingsvertraging binnen, retentiegelden komen op de afgesproken datum terug en openstaande facturen vervallen; het eindsaldo toont de maanden onder uw minimum",
+"why": "too long: 199 characters, the limit is 160"
+},
+{
+"en": "Variation not agreed",
+"kind": "list",
+"max": 30,
+"mt": "Contractwijziging niet overeengekomen",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "End of defects period",
+"kind": "list",
+"max": 30,
+"mt": "Einde van de aansprakelijkheidstermijn voor gebreken",
+"why": "too long: 52 characters, the limit is 30"
+},
+{
+"en": "Project billing: contract, claims, money in, work done",
+"kind": "title",
+"max": 60,
+"mt": "Projectfacturering: contract, betalingsaanvragen, geld binnen, uitgevoerd werk",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Receivables ageing by client: what is owed and how old it is",
+"kind": "title",
+"max": 60,
+"mt": "Vorderingen verouderen per klant: wat is verschuldigd en hoe oud is het?",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Supplier, subcontractor and hire invoices you still owe",
+"kind": "title",
+"max": 60,
+"mt": "Leveranciers-, onderaannemer- en huurfacturen die u nog verschuldigd bent",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Overdue claims follow-up: every call, message and promise",
+"kind": "title",
+"max": 60,
+"mt": "Opvolging van achterstallige betalingsvorderingen: elk telefoontje, bericht en belofte",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Final accounts: the last claim and what is still to collect",
+"kind": "title",
+"max": 60,
+"mt": "Eindafrekeningen: de laatste betalingsaanvraag en wat er nog moet worden geïnd",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Claim value this month, net of retention and advance",
+"kind": "title",
+"max": 60,
+"mt": "Waarde van de betalingsvordering deze maand, na aftrek van retentiegeld en voorschot",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Retention calculator: held, released and what it costs you",
+"kind": "title",
+"max": 60,
+"mt": "Retentiegeldcalculator: vastgehouden, vrijgegeven en wat het u kost",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Under-billing and over-billing: billed against work done",
+"kind": "title",
+"max": 60,
+"mt": "Onder- en overfacturering: gefactureerd op basis van het uitgevoerde werk",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Days to be paid: how long your money takes to arrive",
+"kind": "title",
+"max": 60,
+"mt": "Dagen te betalen: hoe lang het duurt voordat uw geld arriveert",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Late payment interest on an overdue claim",
+"kind": "title",
+"max": 60,
+"mt": "Vertragingsrente op een vordering tot achterstallige betaling",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Payment certificate check against your claim",
+"kind": "title",
+"max": 60,
+"mt": "Betaalcertificaatcontrole ten opzichte van uw betalingsaanvraag",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Bond expiry and the cover you still need",
+"kind": "title",
+"max": 60,
+"mt": "Het verlopen van de bankgarantie en de dekking die u nog nodig heeft",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Retention held in cash or released against a bond",
+"kind": "title",
+"max": 60,
+"mt": "Retentiegeld wordt contant ingehouden of vrijgegeven tegen een bankgarantie",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Claim date planner: from period end to money in the bank",
+"kind": "title",
+"max": 60,
+"mt": "Datumplanner voor betalingsaanvragen: van periode-einde tot geld op de bank",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Project: {col:ret.proj}.",
+"kind": "document",
+"max": null,
+"mt": "Project: {col:ret.proj}.",
+"why": "not translated"
+},
+{
+"en": "Project: {col:final.proj}.",
+"kind": "document",
+"max": null,
+"mt": "Project: {col:final.proj}.",
+"why": "not translated"
+}
+]
