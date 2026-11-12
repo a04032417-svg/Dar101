@@ -1,0 +1,156 @@
+[
+{
+"en": "We escalate {col:escalations.kind} {col:escalations.item}: {col:escalations.title}. It was escalated on {col:escalations.date} and has been open for {col:escalations.days_open} days.",
+"kind": "document",
+"max": null,
+"mt": "ما بالا رفتيم: بالا رفت و چهار روز باز بود.",
+"why": "placeholders must be exactly: {col:escalations.kind} {col:escalations.item} {col:escalations.title} {col:escalations.date} {col:escalations.days_open}"
+},
+{
+"en": "Outcome so far: {col:escalations.outcome}. State: {col:escalations.state}.",
+"kind": "document",
+"max": null,
+"mt": "نتیجه تا الان:",
+"why": "placeholders must be exactly: {col:escalations.outcome} {col:escalations.state}"
+},
+{
+"en": "Share the report with the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "گزارش را با رهبر PMO به اشتراک بگذارید",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Exposure covered by contingency",
+"kind": "title",
+"max": 60,
+"mt": "مقادیر مقادیر مقادیر مقادیر مقادیر مقادیر مقادیر مقادیر مقادیر مقادیر مقادیر مقادیر مقادیر مقادیر مقادیر مق",
+"why": "too long: 107 characters, the limit is 60"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the risk score levels, review days, issue target days, change limits and the phones of the managing director and the PMO lead.",
+"kind": "sentence",
+"max": null,
+"mt": "شروع را باز کنید و نام شرکت خود را و محدودیت های خود را در سلول های زرد تایپ کنید: سطوح امتیاز ریسک، روزهای بررسی، روزهای هدف، محدودیت های تغییر و تلفن های مدیرعامل و PMO منجر می شود.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Meters: Alerts and thresholds",
+"kind": "list",
+"max": 30,
+"mt": "شمارنده ها: هشدارها و آستانه ها",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Import of old sheets",
+"kind": "list",
+"max": 30,
+"mt": "ورق های زمان: واردات ورق های قدیمی",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Epic ID",
+"kind": "label",
+"max": null,
+"mt": "شناسه Epic",
+"why": "English/Latin words left: Epic"
+},
+{
+"en": "Blockers: what stops a card and how long it has been open",
+"kind": "title",
+"max": 60,
+"mt": "مسدود کننده ها: چه چیزی یک کارت را متوقف می کند و چه مدت باز بوده است",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Retrospectives: what went well, what to improve and the mood",
+"kind": "title",
+"max": 60,
+"mt": "بازنگری ها: چه چیزی خوب پیش رفت، چه چیزی را باید بهبود بخشید و خلق و خو",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Sprint reviews: demo, accepted points and client feedback",
+"kind": "title",
+"max": 60,
+"mt": "بررسی های اسپرینت: نمایش، امتیازات پذیرفته شده و بازخورد مشتری",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Sprints left to finish the backlog with added scope",
+"kind": "title",
+"max": 60,
+"mt": "اسپرینت های باقی مانده برای پایان دادن به پس مانده با دامنه اضافه شده",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Pick an epic and the share of the project velocity it gets; see the points left, the sprints to finish it, the forecast date and the target sprint set on the Epics sheet.",
+"kind": "sentence",
+"max": null,
+"mt": "یک EPIC را انتخاب کنید و سهم سرعت پروژه را که دریافت می کند؛ نقاط باقی مانده، اسپرینت ها برای پایان دادن به آن، تاریخ پیش بینی و هدف اسپرینت تنظیم شده در ورق EPIC را ببینید.",
+"why": "English/Latin words left: EPIC EPIC"
+},
+{
+"en": "What-if grid: team size, focus and added scope",
+"kind": "title",
+"max": 60,
+"mt": "شبکه \"چه اتفاقی می افتد اگر\": اندازه تیم، تمرکز و دامنه اضافه شده",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Hello {staff}, the stand-up of {project} is at {time}. Please bring what you did yesterday, what you plan today and any blocker.",
+"kind": "message",
+"max": null,
+"mt": "سلام، جلسات استانداپ در ساعت 2 هست لطفاً کاري که ديروز انجام داديد، کاري که امروز برنامه ريزي کرديد و هر مانع اي که هستيد رو بياريد",
+"why": "placeholders must be exactly: {staff} {project} {time}"
+},
+{
+"en": "Hello {manager}, blockers open too long on {name}: {old_blockers}. Please help the team remove them today.",
+"kind": "message",
+"max": null,
+"mt": "سلام، بازکن ها خيلي طول کشيده اند لطفا به تيم کمک کن تا اونا رو از بين ببرن",
+"why": "placeholders must be exactly: {manager} {name} {old_blockers}"
+},
+{
+"en": "Hello {client_contact}, the refinement session of {project} is on {date}. Please bring your priorities so that we can order the backlog together.",
+"kind": "message",
+"max": null,
+"mt": "سلام، جلسه اصلاح {project} در {date} است لطفا اولویت های خود را به همراه داشته باشید تا بتوانیم همه کارها را با هم ترتیب دهیم.",
+"why": "placeholders must be exactly: {client_contact} {project} {date}"
+},
+{
+"en": "PMO lead: board over its limits",
+"kind": "label",
+"max": null,
+"mt": "سرب PMO: بورس بیش از محدودیت های خود را",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "The average velocity of the last three closed sprints is {col:projects.velocity} story points. The backlog holds {col:projects.points_open} open points in {col:projects.items_open} items, of which {col:projects.ready_pts} points are ready.",
+"kind": "document",
+"max": null,
+"mt": "سرعت متوسط سه اسپرینت بسته آخر {col:projects.velocity} نقطه داستان است. backlog {col:projects.points_open} نقطه باز را در {col:projects.items_open} آیتم نگه می دارد، که از آن {col:projects.ready_pts} نقطه آماده است.",
+"why": "English/Latin words left: backlog"
+},
+{
+"en": "Project: {col:retros.project}. Sprint {col:retros.number}, held on {col:retros.held_on}. Facilitator: {col:retros.facilitator}.",
+"kind": "document",
+"max": null,
+"mt": "پروژه: {col:retros.project}. اسپرينت {col:retros.number}، در {col:retros.held_on} برگزار شد.",
+"why": "placeholders must be exactly: {col:retros.project} {col:retros.number} {col:retros.held_on} {col:retros.facilitator}"
+},
+{
+"en": "Epic status note for the client",
+"kind": "title",
+"max": 60,
+"mt": "یادداشت وضعیت Epic برای مشتری",
+"why": "English/Latin words left: Epic"
+},
+{
+"en": "Epic: {col:epics.epic} ({col:epics.epic_id}). Project: {col:epics.project}. Owner: {col:epics.owner}. Target sprint: {col:epics.target_sprint}.",
+"kind": "document",
+"max": null,
+"mt": "اپیک: پروژه: مالک: هدف: اسپرینت: هدف:",
+"why": "placeholders must be exactly: {col:epics.epic} {col:epics.epic_id} {col:epics.project} {col:epics.owner} {col:epics.target_sprint}"
+}
+]

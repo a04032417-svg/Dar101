@@ -1,0 +1,128 @@
+[
+{
+"en": "We escalate {col:escalations.kind} {col:escalations.item}: {col:escalations.title}. It was escalated on {col:escalations.date} and has been open for {col:escalations.days_open} days.",
+"kind": "document",
+"max": null,
+"mt": "لقد صعدت في الثالثة و كانت مفتوحة منذ أربعة أيام",
+"why": "placeholders must be exactly: {col:escalations.kind} {col:escalations.item} {col:escalations.title} {col:escalations.date} {col:escalations.days_open}"
+},
+{
+"en": "Outcome so far: {col:escalations.outcome}. State: {col:escalations.state}.",
+"kind": "document",
+"max": null,
+"mt": "النتائج حتى الآن: {col:escalations.outcome}.",
+"why": "placeholders must be exactly: {col:escalations.outcome} {col:escalations.state}"
+},
+{
+"en": "Meters: Meter data import",
+"kind": "list",
+"max": 30,
+"mt": "المترات: استيراد بيانات المترات",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Meters: Usage dashboards",
+"kind": "list",
+"max": 30,
+"mt": "أجهزة العداد: لوحة أجهزة الاستخدام",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Import of old sheets",
+"kind": "list",
+"max": 30,
+"mt": "أوراق العمل: استيراد أوراق العمل القديمة",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Sprints: two-week sprints with goal, points and completion",
+"kind": "title",
+"max": 60,
+"mt": "السباقات السريعة: السباقات السريعة التي تستمر أسبوعين مع الهدف والنقاط وإكمالها",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Velocity by sprint: points done, average and trend",
+"kind": "title",
+"max": 60,
+"mt": "السرعة حسب السبورت: النقاط التي تم إجراؤها، والمتوسط والاتجاه",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Work-in-progress limits: how many cards a column may hold",
+"kind": "title",
+"max": 60,
+"mt": "حدود العمل الجاري: كم عدد البطاقات التي يمكن أن يحملها العمود",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Sprint reviews: demo, accepted points and client feedback",
+"kind": "title",
+"max": 60,
+"mt": "استعراضات السبرينت: العرض التجريبي والنقاط المقبولة وتعليقات العملاء",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Sprints left to finish the backlog with added scope",
+"kind": "title",
+"max": 60,
+"mt": "الرحلات السريعة المتبقية لإنهاء الحزمة المتأخرة مع نطاق إضافي",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello {staff}, the stand-up of {project} is at {time}. Please bring what you did yesterday, what you plan today and any blocker.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، إجتماعات الوقوف في الـ1 في الـ2 من فضلك أحضر ما قمت به بالأمس و ما خططت له اليوم و أي حجبات",
+"why": "placeholders must be exactly: {staff} {project} {time}"
+},
+{
+"en": "Hello {presenter}, the demo of sprint {number} of {project} is on {demo_date}. Please prepare the demo of the {done_pts} finished points.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {presenter}، تم تجسيد سباق {number} من {project} في {demo_date}.",
+"why": "placeholders must be exactly: {presenter} {number} {project} {demo_date} {done_pts}"
+},
+{
+"en": "Hello {sponsor}, at a velocity of {velocity} points the open backlog of {name} is done on {forecast_date}. Sprints left: {sprints_left}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {sponsor}، عند سرعة {velocity} النقاط يتم إنجاز الحزمة المتأخرة المفتوحة من {name} على {forecast_date}.",
+"why": "placeholders must be exactly: {sponsor} {velocity} {name} {forecast_date} {sprints_left}"
+},
+{
+"en": "Hello, bug {item_id} on {project} ({title}) has priority {priority}. Please send your fix date and your estimate in story points.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، هناك خطأ في {project} ({title}) لديه الأولوية {priority}. يرجى إرسال تاريخ إصلاحك وتقديرك في نقاط القصة.",
+"why": "placeholders must be exactly: {item_id} {project} {title} {priority}"
+},
+{
+"en": "Project: {col:reviews.project}. Sprint {col:reviews.number}, review on {col:reviews.demo_date}. Presented by {col:reviews.presenter}.",
+"kind": "document",
+"max": null,
+"mt": "المشروع: {col:reviews.project}. السبرنت {col:reviews.number}، المراجعة في {col:reviews.demo_date}.",
+"why": "placeholders must be exactly: {col:reviews.project} {col:reviews.number} {col:reviews.demo_date} {col:reviews.presenter}"
+},
+{
+"en": "Bugs make up {col:projects.bug_pct} of the open items ({col:projects.bugs_open} bugs). The bug check shows: {col:projects.bug_check}. The state of the backlog for the next sprints is: {col:projects.ready_state}.",
+"kind": "document",
+"max": null,
+"mt": "تعتبر الأخطاء {col:projects.bug_pct} من العناصر المفتوحة ({col:projects.bugs_open} الأخطاء). يظهر فحص الأخطاء: {col:projects.bug_check}.",
+"why": "placeholders must be exactly: {col:projects.bug_pct} {col:projects.bugs_open} {col:projects.bug_check} {col:projects.ready_state}"
+},
+{
+"en": "Project: {col:retros.project}. Sprint {col:retros.number}, held on {col:retros.held_on}. Facilitator: {col:retros.facilitator}.",
+"kind": "document",
+"max": null,
+"mt": "مشروع: {col:retros.project}. السبرنت {col:retros.number}، عقدت في {col:retros.held_on}.",
+"why": "placeholders must be exactly: {col:retros.project} {col:retros.number} {col:retros.held_on} {col:retros.facilitator}"
+},
+{
+"en": "Blocker: {col:standups.blocker}. The blocker flag shows: {col:standups.state}.",
+"kind": "document",
+"max": null,
+"mt": "العلامة تظهر: {col:standups.state}.",
+"why": "placeholders must be exactly: {col:standups.blocker} {col:standups.state}"
+}
+]

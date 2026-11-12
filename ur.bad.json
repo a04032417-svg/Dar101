@@ -1,0 +1,58 @@
+[
+{
+"en": "every action has an owner and a due date and is marked open, due soon, overdue or done, with the days late",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر ایکشن کا ایک مالک اور ایک مقررہ تاریخ ہوتی ہے اور اس پر نشان لگا دیا جاتا ہے کہ وہ کھلا ہے، جلد ہی ختم ہو جائے گا، دیر ہو چکی ہے یا ختم ہو گئی ہے، جس میں دن کی تاخیر ہوتی ہے",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Waiting for another team",
+"kind": "list",
+"max": 30,
+"mt": "ایک اور ٹیم کا انتظار کر رہے ہیں",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Down two sprints",
+"kind": "list",
+"max": 30,
+"mt": "دو دو دو دو دو دو دو دو دو دو دو دو دو دو",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Retrospectives: what went well, what to improve and the mood",
+"kind": "title",
+"max": 60,
+"mt": "پس منظر: کیا اچھی طرح سے چلا گیا، کیا بہتر بنانے کے لئے اور موڈ",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Points finished on cards",
+"kind": "label",
+"max": 30,
+"mt": "کارڈوں پر ختم ہونے والے پوائنٹس",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Points added by refinement",
+"kind": "label",
+"max": 30,
+"mt": "اصلاحات کے مطابق شامل کردہ پوائنٹس",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Hello {owner}, the retrospective action \"{action}\" is due on {due}. Please finish it or tell us what is in the way.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {owner}، retrospective کارروائی \"{action}\" {due} پر واجب الادا ہے. براہ مہربانی اسے ختم کریں یا ہمیں بتائیں کہ راستے میں کیا ہے.",
+"why": "English/Latin words left: retrospective"
+},
+{
+"en": "Project: {col:retros.project}. Sprint {col:retros.number}, held on {col:retros.held_on}. Facilitator: {col:retros.facilitator}.",
+"kind": "document",
+"max": null,
+"mt": "پروجیکٹ: {col:retros.project}. اسپرٹ {col:retros.number}، {col:retros.held_on} پر منعقد.",
+"why": "placeholders must be exactly: {col:retros.project} {col:retros.number} {col:retros.held_on} {col:retros.facilitator}"
+}
+]

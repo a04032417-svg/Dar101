@@ -1,0 +1,289 @@
+[
+{
+"en": "To: {col:escalations.escalated_to} ({col:escalations.level}). Project: {col:escalations.project}.",
+"kind": "document",
+"max": null,
+"mt": "Proje: {col:escalations.escalated_to} ({col:escalations.level}).",
+"why": "placeholders must be exactly: {col:escalations.escalated_to} {col:escalations.level} {col:escalations.project}"
+},
+{
+"en": "Outcome so far: {col:escalations.outcome}. State: {col:escalations.state}.",
+"kind": "document",
+"max": null,
+"mt": "Şu ana kadarki sonuç: {col:escalations.outcome}.",
+"why": "placeholders must be exactly: {col:escalations.outcome} {col:escalations.state}"
+},
+{
+"en": "days available and the focus factor of each person give the capacity in story points, set against the points assigned, with a check for over and under capacity",
+"kind": "sentence",
+"max": 160,
+"mt": "mevcut günler ve her kişinin odak faktörü, kapasitenin fazla ve az olması için bir kontrol ile, atanan noktalara karşı ayarlanan hikaye noktalarındaki kapasiteyi verir.",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "every item shows if it needs an estimate or an owner, is ready, is in a sprint or is done, with the age in days and the criteria written",
+"kind": "sentence",
+"max": 160,
+"mt": "Her bir öğe, bir tahmini veya bir sahibine ihtiyacı olup olmadığını, hazır olup olmadığını, sprintte olup olmadığını veya yapıldığını, yaşını günlerle ve kriterleri yazılı olarak gösterir.",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Timesheets: Timesheet entry",
+"kind": "list",
+"max": 30,
+"mt": "Zaman sayfaları: Zaman sayfası girişleri",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Booking: Appointment booking",
+"kind": "list",
+"max": 30,
+"mt": "Rezervasyon: Randevu rezervasyonu",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Booking: Reminders and notices",
+"kind": "list",
+"max": 30,
+"mt": "Rezervasyon: Hatırlatmalar ve bildirimler",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Loyalty: Store till link",
+"kind": "list",
+"max": 30,
+"mt": "Sadakat: Bağlantıya kadar sakla",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Cost reports",
+"kind": "list",
+"max": 30,
+"mt": "Zaman sayfaları: Maliyet raporları",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Loyalty: Campaigns and offers",
+"kind": "list",
+"max": 30,
+"mt": "Sadakat: Kampanyalar ve teklifler",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Meters: Billing reports",
+"kind": "list",
+"max": 30,
+"mt": "Metre: Faturalandırma raporları",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Import of old sheets",
+"kind": "list",
+"max": 30,
+"mt": "Zaman sayfaları: Eski sayfaların ithalatı",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Booking: Privacy and access",
+"kind": "list",
+"max": 30,
+"mt": "Rezervasyon: Gizlilik ve erişim",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Meters: Users and admin",
+"kind": "list",
+"max": 30,
+"mt": "Metre: Kullanıcılar ve yöneticiler",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Training and rollout",
+"kind": "list",
+"max": 30,
+"mt": "Zaman çizelgeleri: Eğitim ve yayımlama",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Epics: the big pieces of work and how far each one is",
+"kind": "title",
+"max": 60,
+"mt": "Eposlar: büyük parçalar ve her birinin ne kadar uzakta olduğu",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Epic ID",
+"kind": "label",
+"max": null,
+"mt": "Epic ID",
+"why": "not translated"
+},
+{
+"en": "Sprint",
+"kind": "label",
+"max": null,
+"mt": "Sprint",
+"why": "not translated"
+},
+{
+"en": "Sprints: two-week sprints with goal, points and completion",
+"kind": "title",
+"max": 60,
+"mt": "Sprintler: hedef, puan ve tamamlama ile iki haftalık sprintler",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Velocity by sprint: points done, average and trend",
+"kind": "title",
+"max": 60,
+"mt": "Sprint'e göre hız: gerçekleştirilen puanlar, ortalama ve eğilim",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Blockers: what stops a card and how long it has been open",
+"kind": "title",
+"max": 60,
+"mt": "Bloklayıcılar: bir kartı ne durduruyor ve ne kadar süre açık kaldı",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Sprint reviews: demo, accepted points and client feedback",
+"kind": "title",
+"max": 60,
+"mt": "Sprint incelemeleri: gösterim, kabul edilen puanlar ve müşteri geri bildirimi",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Backlog refinement: sessions that ready the backlog",
+"kind": "title",
+"max": 60,
+"mt": "Geriye kalanları arındırmak: Geriye kalanları hazırlayan oturumlar",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Release plan: which release goes out in which sprint",
+"kind": "title",
+"max": 60,
+"mt": "Serbest bırakma planı: hangi sürüm hangi sprint'te yayınlanacak",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Acceptance criteria: what must be true to be done",
+"kind": "title",
+"max": 60,
+"mt": "Kabul kriterleri: Yapılması için neyin doğru olması gerekiyor",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Sprints left to finish the backlog with added scope",
+"kind": "title",
+"max": 60,
+"mt": "Daha fazla kapsamla geri kalanları tamamlamak için kalan sprintler",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Burndown check of an active sprint against the ideal line",
+"kind": "title",
+"max": 60,
+"mt": "İdeal çizgiye karşı aktif bir sprintin yakma çizelgesi kontrolü",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Sprint commitment check against capacity and velocity",
+"kind": "title",
+"max": 60,
+"mt": "Kapasite ve hızla karşılaştırıldığında Sprint bağlılığı kontrolü",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "What-if grid: team size, focus and added scope",
+"kind": "title",
+"max": 60,
+"mt": "Ne olur-eğer ızgara: takım büyüklüğü, odak ve eklenmiş kapsam",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello {staff}, the stand-up of {project} is at {time}. Please bring what you did yesterday, what you plan today and any blocker.",
+"kind": "message",
+"max": null,
+"mt": "Lütfen dün yaptığınız, bugün planladığınız ve herhangi bir engelleyiciyi getirin.",
+"why": "placeholders must be exactly: {staff} {project} {time}"
+},
+{
+"en": "Hello {keeper}, the {lane} column of {project} holds {cards} cards against a limit of {limit}. Please finish a card before you pull a new one.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {keeper}, {project} sütununda {cards} kartlar {limit} sınırına karşı yer alıyor. Lütfen yeni bir kart çekmeden önce bir kartı bitirin.",
+"why": "placeholders must be exactly: {keeper} {lane} {project} {cards} {limit}"
+},
+{
+"en": "Hello {sponsor}, in the review of sprint {number} of {project} the client accepted {accepted} of {done_pts} points. Next step: {next_step}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {sponsor}, {project}'ın sprint {number} incelemesinde müşteri {accepted}'in {done_pts} puanını kabul etti.",
+"why": "placeholders must be exactly: {sponsor} {number} {project} {accepted} {done_pts} {next_step}"
+},
+{
+"en": "Hello {client_contact}, release {release} of {project} is planned for {date}. We would like to show you the result before then. Please suggest a time.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {client_contact}, {project}'nin çıkışı {date} için planlanıyor.",
+"why": "placeholders must be exactly: {client_contact} {release} {project} {date}"
+},
+{
+"en": "Hello {client_contact}, release {release} of {project} goes out on {date}. Scope: {scope}. Please tell us if anything is missing.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {client_contact}, {project}'ın çıkışı {release} {date}'de gerçekleşir.",
+"why": "placeholders must be exactly: {client_contact} {release} {project} {date} {scope}"
+},
+{
+"en": "Hello, the board of {name}: columns over the limit {wip_over}, blocked cards {blocked}. Please check with {manager} this week.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {name} tablosu: sütunlar sınırı geçti {wip_over}, kartlar bloke edildi {blocked}.",
+"why": "placeholders must be exactly: {name} {wip_over} {blocked} {manager}"
+},
+{
+"en": "Feedback of the client: {col:reviews.feedback}. Next step: {col:reviews.next_step}.",
+"kind": "document",
+"max": null,
+"mt": "Müşterinin geri bildirimi: {col:reviews.feedback}.",
+"why": "placeholders must be exactly: {col:reviews.feedback} {col:reviews.next_step}"
+},
+{
+"en": "Release: {col:releases.release} ({col:releases.release_id}). Project: {col:releases.project}. Release date: {col:releases.date}. Status: {col:releases.status}.",
+"kind": "document",
+"max": null,
+"mt": "Çıkış tarihi: {col:releases.date}. Durum: {col:releases.status}.",
+"why": "placeholders must be exactly: {col:releases.release} {col:releases.release_id} {col:releases.project} {col:releases.date} {col:releases.status}"
+},
+{
+"en": "The release is planned for sprint {col:releases.sprint_no} ({col:releases.target_sprint}). The state against its date is: {col:releases.state}.",
+"kind": "document",
+"max": null,
+"mt": "Serbest bırakma için planlanmıştır Sprint {col:releases.sprint_no} ({col:releases.target_sprint}).",
+"why": "placeholders must be exactly: {col:releases.sprint_no} {col:releases.target_sprint} {col:releases.state}"
+},
+{
+"en": "Blocker: {col:standups.blocker}. The blocker flag shows: {col:standups.state}.",
+"kind": "document",
+"max": null,
+"mt": "Engelleyici bayrağı gösterir: {col:standups.state}.",
+"why": "placeholders must be exactly: {col:standups.blocker} {col:standups.state}"
+},
+{
+"en": "Cards blocked: {col:projects.blocked}. Blockers open too long: {col:projects.old_blockers}. Columns over their work-in-progress limit: {col:projects.wip_over}.",
+"kind": "document",
+"max": null,
+"mt": "Kartlar engellendi: {col:projects.blocked}. Bloklayıcılar çok uzun açıldı: {col:projects.old_blockers}.",
+"why": "placeholders must be exactly: {col:projects.blocked} {col:projects.old_blockers} {col:projects.wip_over}"
+},
+{
+"en": "Sprints still needed if the epic gets all of the velocity of the project: {col:epics.sprints_needed}. When other epics run at the same time it takes longer.",
+"kind": "document",
+"max": null,
+"mt": "Eğer epik projenin tüm hızını alırsa, sprintler hala gereklidir.",
+"why": "placeholders must be exactly: {col:epics.sprints_needed}"
+}
+]

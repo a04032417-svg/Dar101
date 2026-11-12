@@ -1,0 +1,86 @@
+[
+{
+"en": "days available and the focus factor of each person give the capacity in story points, set against the points assigned, with a check for over and under capacity",
+"kind": "sentence",
+"max": 160,
+"mt": "उपलब्ध दिनों और प्रत्येक व्यक्ति का फोकस कारक क्षमता को कहानी के बिंदुओं में देता है, जो आवंटित बिंदुओं के खिलाफ सेट किया जाता है, जिसमें क्षमता से अधिक और कम की जांच होती है",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Accepted with changes",
+"kind": "list",
+"max": 30,
+"mt": "परिवर्तनों के साथ स्वीकार किया गया",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Depends on another item",
+"kind": "list",
+"max": 30,
+"mt": "किसी अन्य वस्तु पर निर्भर करता है",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Import of old sheets",
+"kind": "list",
+"max": 30,
+"mt": "समय पत्रक: पुरानी चादरों का आयात",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Training and rollout",
+"kind": "list",
+"max": 30,
+"mt": "समय सारिणीः प्रशिक्षण और रोलआउट",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Sprints: two-week sprints with goal, points and completion",
+"kind": "title",
+"max": 60,
+"mt": "स्प्रिंटः लक्ष्य, अंक और पूरा होने के साथ दो सप्ताह का स्प्रिंट",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Sprint reviews: demo, accepted points and client feedback",
+"kind": "title",
+"max": 60,
+"mt": "स्प्रिंट समीक्षाः डेमो, स्वीकार किए गए अंक और ग्राहक प्रतिक्रिया",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Release plan: which release goes out in which sprint",
+"kind": "title",
+"max": 60,
+"mt": "रिलीज़ योजनाः कौन सा रिलीज़ किस स्प्रिंट में जारी किया जाता है",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Points added by refinement",
+"kind": "label",
+"max": 30,
+"mt": "परिष्करण के अनुसार जोड़े गए अंक",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Sprints left to finish the backlog with added scope",
+"kind": "title",
+"max": 60,
+"mt": "अतिरिक्त दायरे के साथ बैकलॉग को समाप्त करने के लिए छोड़े गए स्प्रिंट",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Burndown check of an active sprint against the ideal line",
+"kind": "title",
+"max": 60,
+"mt": "आदर्श रेखा के विरुद्ध एक सक्रिय स्प्रिंट की बर्नडाउन चार्ट जांच",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Project: {col:retros.project}. Sprint {col:retros.number}, held on {col:retros.held_on}. Facilitator: {col:retros.facilitator}.",
+"kind": "document",
+"max": null,
+"mt": "परियोजना: {col:retros.project}. स्प्रिंट {col:retros.number}, {col:retros.held_on} पर आयोजित किया गया।",
+"why": "placeholders must be exactly: {col:retros.project} {col:retros.number} {col:retros.held_on} {col:retros.facilitator}"
+}
+]

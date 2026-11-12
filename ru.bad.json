@@ -1,0 +1,401 @@
+[
+{
+"en": "To: {col:escalations.escalated_to} ({col:escalations.level}). Project: {col:escalations.project}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:escalations.project}.",
+"why": "placeholders must be exactly: {col:escalations.escalated_to} {col:escalations.level} {col:escalations.project}"
+},
+{
+"en": "Outcome so far: {col:escalations.outcome}. State: {col:escalations.state}.",
+"kind": "document",
+"max": null,
+"mt": "Результаты на данный момент:",
+"why": "placeholders must be exactly: {col:escalations.outcome} {col:escalations.state}"
+},
+{
+"en": "Exposure covered by contingency",
+"kind": "title",
+"max": 60,
+"mt": "Кредитные позиции, подлежащие покрытию по непредвиденным обстоятельствам",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the risk score levels, review days, issue target days, change limits and the phones of the managing director and the PMO lead.",
+"kind": "sentence",
+"max": null,
+"mt": "Откройте \"Начать\" и введите в желтые ячейки название компании и свои лимиты: уровни оценки риска, дни обзора, целевые дни выпуска, лимиты изменений и телефоны управляющего директора и ведущего PMO.",
+"why": "English/Latin words left: PMO."
+},
+{
+"en": "Test environment down",
+"kind": "list",
+"max": 30,
+"mt": "Окружающая среда испытания отключена",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Meters: Meter data import",
+"kind": "list",
+"max": 30,
+"mt": "Счетчики: импорт данных счётчиков",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Timesheet entry",
+"kind": "list",
+"max": 30,
+"mt": "Временные таблицы: запись в таблице",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Booking: Appointment booking",
+"kind": "list",
+"max": 30,
+"mt": "Бронирование: Бронирование встречи",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Meters: Usage dashboards",
+"kind": "list",
+"max": 30,
+"mt": "Счетчики: приборные панели использования",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Plant: Maintenance calendar",
+"kind": "list",
+"max": 30,
+"mt": "Завод: Календарь технического обслуживания",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Booking: Reminders and notices",
+"kind": "list",
+"max": 30,
+"mt": "Заказ: напоминания и уведомления",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Booking: Clinic calendar",
+"kind": "list",
+"max": 30,
+"mt": "Бронирование: календарь клиники",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Loyalty: Campaigns and offers",
+"kind": "list",
+"max": 30,
+"mt": "Лояльность: кампании и предложения",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Meters: Billing reports",
+"kind": "list",
+"max": 30,
+"mt": "Счетчики: отчеты по выставлению счетов",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Import of old sheets",
+"kind": "list",
+"max": 30,
+"mt": "Временные листы: импорт старых листов",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Booking: Privacy and access",
+"kind": "list",
+"max": 30,
+"mt": "Резервация: конфиденциальность и доступ",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Loyalty: Member app",
+"kind": "list",
+"max": 30,
+"mt": "Лояльность: приложение для членов",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Meters: Users and admin",
+"kind": "list",
+"max": 30,
+"mt": "Счетчики: Пользователи и администратор",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Training and rollout",
+"kind": "list",
+"max": 30,
+"mt": "Временные таблицы: обучение и внедрение",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Epic ID",
+"kind": "label",
+"max": null,
+"mt": "Epic ID",
+"why": "English/Latin words left: Epic"
+},
+{
+"en": "Product backlog: every item with points, status and sprint",
+"kind": "title",
+"max": 60,
+"mt": "Остаток продуктов: каждый пункт с баллами, статусом и спринтом",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Sprint capacity: days and focus of each person",
+"kind": "title",
+"max": 60,
+"mt": "Пропускная способность спринта: дни и концентрация внимания каждого человека",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Velocity by sprint: points done, average and trend",
+"kind": "title",
+"max": 60,
+"mt": "Скорость по спринту: пройденные точки, средний показатель и тенденция",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Burndown data: points remaining on each day of a sprint",
+"kind": "title",
+"max": 60,
+"mt": "Данные графика сжигания: остающиеся очки на каждый день спринта",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Work-in-progress limits: how many cards a column may hold",
+"kind": "title",
+"max": 60,
+"mt": "Ограничения работы в процессе: сколько карт может содержаться в колонке",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Blockers: what stops a card and how long it has been open",
+"kind": "title",
+"max": 60,
+"mt": "Блокировщики: что останавливает карту и как долго она была открыта",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Retrospectives: what went well, what to improve and the mood",
+"kind": "title",
+"max": 60,
+"mt": "Ретроспективы: что было хорошо, что нужно улучшить и настроение",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Sprint reviews: demo, accepted points and client feedback",
+"kind": "title",
+"max": 60,
+"mt": "Обзоры спринтов: демонстрация, принятые баллы и отзывы клиентов",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Backlog refinement: sessions that ready the backlog",
+"kind": "title",
+"max": 60,
+"mt": "Усовершенствование задержки: сеансы, которые готовят задержку",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Points added by refinement",
+"kind": "label",
+"max": 30,
+"mt": "Добавленные пункты по уточнению",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Sprints left to finish the backlog with added scope",
+"kind": "title",
+"max": 60,
+"mt": "Спринты, оставшиеся для завершения отставания с дополнительным объемом",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Sprint commitment check against capacity and velocity",
+"kind": "title",
+"max": 60,
+"mt": "Проверка выполнения заданий спринта с учетом мощности и скорости",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Target sprint on the Epics sheet",
+"kind": "label",
+"max": null,
+"mt": "Целевой спринт на листе Epics",
+"why": "English/Latin words left: Epics"
+},
+{
+"en": "What-if grid: team size, focus and added scope",
+"kind": "title",
+"max": 60,
+"mt": "Схема \"что если\": размер команды, фокус и дополнительный объем",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {staff}, sprint {number} of {project} starts on {start}. You have {days} days and a capacity of {cap_points} points. Please check the items assigned to you.",
+"kind": "message",
+"max": null,
+"mt": "У вас есть {days} дней и возможность {cap_points} баллов. Пожалуйста, проверьте предметы, присвоенные вам.",
+"why": "placeholders must be exactly: {staff} {number} {project} {start} {days} {cap_points}"
+},
+{
+"en": "Hello {assignee}, card {card_id} ({title}) on {project} is marked blocked. Please add the blocker to the Blockers sheet and tell us what you need.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, карта {card_id} ({title}) на {project} помечена как заблокированная. Пожалуйста, добавьте блокировщик в лист блокировщиков и скажите нам, что вам нужно.",
+"why": "placeholders must be exactly: {assignee} {card_id} {title} {project}"
+},
+{
+"en": "Hello {staff}, the stand-up of {project} is at {time}. Please bring what you did yesterday, what you plan today and any blocker.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, принесите то, что вы сделали вчера, что вы планируете сегодня и любые блокировки.",
+"why": "placeholders must be exactly: {staff} {project} {time}"
+},
+{
+"en": "Hello {facilitator}, the refinement session of {project} is on {date}. Please bring estimates for the items without story points.",
+"kind": "message",
+"max": null,
+"mt": "Привет, сеанс усовершенствования {project} проходит на {date}.",
+"why": "placeholders must be exactly: {facilitator} {project} {date}"
+},
+{
+"en": "Hello {owner}, the retrospective action \"{action}\" is due on {due}. Please finish it or tell us what is in the way.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, ретроспективное действие \"{action}\" должно быть в {due}. Пожалуйста, закончите его или скажите нам, что мешает.",
+"why": "placeholders must be exactly: {owner} {action} {due}"
+},
+{
+"en": "Hello {presenter}, the demo of sprint {number} of {project} is on {demo_date}. Please prepare the demo of the {done_pts} finished points.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, демонстрация спринта {number} из {project} на {demo_date}.",
+"why": "placeholders must be exactly: {presenter} {number} {project} {demo_date} {done_pts}"
+},
+{
+"en": "Hello {manager}, the velocity of {project} in sprint {number} was {done} points, trend: {trend}. Please talk about it in the retrospective.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, скорость {project} в спринте {number} была {done} баллов, тенденция: {trend}.",
+"why": "placeholders must be exactly: {manager} {project} {number} {done} {trend}"
+},
+{
+"en": "Hello {manager}, blockers open too long on {name}: {old_blockers}. Please help the team remove them today.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, блокировщики слишком долго открываются.",
+"why": "placeholders must be exactly: {manager} {name} {old_blockers}"
+},
+{
+"en": "Hello {sponsor}, in the review of sprint {number} of {project} the client accepted {accepted} of {done_pts} points. Next step: {next_step}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {sponsor}, в обзоре спринта {number} {project} клиент принял {accepted} {done_pts} баллов.",
+"why": "placeholders must be exactly: {sponsor} {number} {project} {accepted} {done_pts} {next_step}"
+},
+{
+"en": "Hello {sponsor}, at a velocity of {velocity} points the open backlog of {name} is done on {forecast_date}. Sprints left: {sprints_left}.",
+"kind": "message",
+"max": null,
+"mt": "Привет {sponsor}, при скорости {velocity} точек открытый задержка {name} выполняется на {forecast_date}.",
+"why": "placeholders must be exactly: {sponsor} {velocity} {name} {forecast_date} {sprints_left}"
+},
+{
+"en": "Hello {client_contact}, the refinement session of {project} is on {date}. Please bring your priorities so that we can order the backlog together.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, приведите свои приоритеты, чтобы мы могли упорядочить отсрочку вместе.",
+"why": "placeholders must be exactly: {client_contact} {project} {date}"
+},
+{
+"en": "Hello {client_contact}, release {release} of {project} goes out on {date}. Scope: {scope}. Please tell us if anything is missing.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {client_contact}, выпуск {release} {project} выходит на {date}.",
+"why": "placeholders must be exactly: {client_contact} {release} {project} {date} {scope}"
+},
+{
+"en": "PMO lead: board over its limits",
+"kind": "label",
+"max": null,
+"mt": "PMO lead: board over its limits (ПМО ведет: плата превышает свои пределы)",
+"why": "English/Latin words left: PMO lead board over"
+},
+{
+"en": "Hello, the board of {name}: columns over the limit {wip_over}, blocked cards {blocked}. Please check with {manager} this week.",
+"kind": "message",
+"max": null,
+"mt": "Привет, доска {name}: столбцы за пределами {wip_over}, заблокированы карты {blocked}.",
+"why": "placeholders must be exactly: {name} {wip_over} {blocked} {manager}"
+},
+{
+"en": "Sprint {col:sprints.number} of {col:sprints.project}, ID {col:sprints.sprint_id}. Status: {col:sprints.status}. The sprint runs from {col:sprints.start} to {col:sprints.end}. Project manager: {col:sprints.pm_name}.",
+"kind": "document",
+"max": null,
+"mt": "Спринт {col:sprints.number} {col:sprints.project}, ID {col:sprints.sprint_id}. Статус: {col:sprints.status}. Спринт проходит от {col:sprints.start} до {col:sprints.end}.",
+"why": "placeholders must be exactly: {col:sprints.number} {col:sprints.project} {col:sprints.sprint_id} {col:sprints.status} {col:sprints.start} {col:sprints.end} {col:sprints.pm_name}"
+},
+{
+"en": "Project: {col:reviews.project}. Sprint {col:reviews.number}, review on {col:reviews.demo_date}. Presented by {col:reviews.presenter}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:reviews.project}. Спринт {col:reviews.number}, обзор на {col:reviews.demo_date}.",
+"why": "placeholders must be exactly: {col:reviews.project} {col:reviews.number} {col:reviews.demo_date} {col:reviews.presenter}"
+},
+{
+"en": "Feedback of the client: {col:reviews.feedback}. Next step: {col:reviews.next_step}.",
+"kind": "document",
+"max": null,
+"mt": "Отзыв клиента: {col:reviews.feedback}.",
+"why": "placeholders must be exactly: {col:reviews.feedback} {col:reviews.next_step}"
+},
+{
+"en": "The average velocity of the last three closed sprints is {col:projects.velocity} story points. The backlog holds {col:projects.points_open} open points in {col:projects.items_open} items, of which {col:projects.ready_pts} points are ready.",
+"kind": "document",
+"max": null,
+"mt": "Средняя скорость последних трех закрытых спринтов составляет {col:projects.velocity} точек сюжета.",
+"why": "placeholders must be exactly: {col:projects.velocity} {col:projects.points_open} {col:projects.items_open} {col:projects.ready_pts}"
+},
+{
+"en": "The release is planned for sprint {col:releases.sprint_no} ({col:releases.target_sprint}). The state against its date is: {col:releases.state}.",
+"kind": "document",
+"max": null,
+"mt": "Выпуск запланирован на спринт {col:releases.sprint_no} ({col:releases.target_sprint}).",
+"why": "placeholders must be exactly: {col:releases.sprint_no} {col:releases.target_sprint} {col:releases.state}"
+},
+{
+"en": "Project: {col:retros.project}. Sprint {col:retros.number}, held on {col:retros.held_on}. Facilitator: {col:retros.facilitator}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:retros.project}. Спринт {col:retros.number}, проведен на {col:retros.held_on}.",
+"why": "placeholders must be exactly: {col:retros.project} {col:retros.number} {col:retros.held_on} {col:retros.facilitator}"
+},
+{
+"en": "Blocker: {col:standups.blocker}. The blocker flag shows: {col:standups.state}.",
+"kind": "document",
+"max": null,
+"mt": "Флаг блокировщика показывает: {col:standups.state}.",
+"why": "placeholders must be exactly: {col:standups.blocker} {col:standups.state}"
+},
+{
+"en": "Cards blocked: {col:projects.blocked}. Blockers open too long: {col:projects.old_blockers}. Columns over their work-in-progress limit: {col:projects.wip_over}.",
+"kind": "document",
+"max": null,
+"mt": "Карты заблокированы: {col:projects.blocked}. Блокировщики открываются слишком долго: {col:projects.old_blockers}.",
+"why": "placeholders must be exactly: {col:projects.blocked} {col:projects.old_blockers} {col:projects.wip_over}"
+},
+{
+"en": "Epic status note for the client",
+"kind": "title",
+"max": 60,
+"mt": "Примечание о состоянии Epic для клиента",
+"why": "English/Latin words left: Epic"
+}
+]

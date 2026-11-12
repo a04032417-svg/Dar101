@@ -1,0 +1,359 @@
+[
+{
+"en": "To: {col:escalations.escalated_to} ({col:escalations.level}). Project: {col:escalations.project}.",
+"kind": "document",
+"max": null,
+"mt": "Aan: {col:escalations.escalated_to} ({col:escalations.level}).",
+"why": "placeholders must be exactly: {col:escalations.escalated_to} {col:escalations.level} {col:escalations.project}"
+},
+{
+"en": "Outcome so far: {col:escalations.outcome}. State: {col:escalations.state}.",
+"kind": "document",
+"max": null,
+"mt": "Resultaten tot nu toe: {col:escalations.outcome}.",
+"why": "placeholders must be exactly: {col:escalations.outcome} {col:escalations.state}"
+},
+{
+"en": "days available and the focus factor of each person give the capacity in story points, set against the points assigned, with a check for over and under capacity",
+"kind": "sentence",
+"max": 160,
+"mt": "de beschikbare dagen en de focusfactor van elke persoon geven de capaciteit in verhaalpunten, in vergelijking met de toegewezen punten, met een controle op over en onder capaciteit",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Work-in-progress limits with a check",
+"kind": "label",
+"max": 50,
+"mt": "Beperkingen van werkzaamheden in uitvoering met controle",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "points done, points accepted by the client and points still to accept, with the feedback and the next step of each review",
+"kind": "sentence",
+"max": 160,
+"mt": "punten die zijn gedaan, punten die door de klant zijn aanvaard en punten die nog moeten worden aanvaard, met de feedback en de volgende stap van elke beoordeling",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Backlog health score for every project",
+"kind": "label",
+"max": 50,
+"mt": "Gezondheidsscore van de achterstand voor elk project",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Needs rework",
+"kind": "list",
+"max": 30,
+"mt": "Vervolgens moet worden herwerkt.",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Booking: Patient registration",
+"kind": "list",
+"max": 30,
+"mt": "Reservering: Patiëntregistratie",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Booking: Appointment booking",
+"kind": "list",
+"max": 30,
+"mt": "Boekingen: Boekingen voor afspraken",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Loyalty: Points and rewards",
+"kind": "list",
+"max": 30,
+"mt": "Loyaliteit: punten en beloningen",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Booking: Reminders and notices",
+"kind": "list",
+"max": 30,
+"mt": "Boekingen: Herinneringen en aankondigingen",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Meters: Alerts and thresholds",
+"kind": "list",
+"max": 30,
+"mt": "Meters: waarschuwingen en drempels",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Loyalty: Campaigns and offers",
+"kind": "list",
+"max": 30,
+"mt": "Loyaliteit: campagnes en aanbiedingen",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Import of old sheets",
+"kind": "list",
+"max": 30,
+"mt": "Tijdschema's: Invoer van oude vellen",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Meters: Users and admin",
+"kind": "list",
+"max": 30,
+"mt": "Meters: Gebruikers en beheerder",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Training and rollout",
+"kind": "list",
+"max": 30,
+"mt": "Tijdschema's: Opleiding en uitrol",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Review due",
+"kind": "list",
+"max": 30,
+"mt": "De herziening moet plaatsvinden",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Projects: the work that runs in sprints and boards",
+"kind": "title",
+"max": 60,
+"mt": "Projecten: het werk dat in sprints en boards wordt uitgevoerd",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Epic ID",
+"kind": "label",
+"max": null,
+"mt": "Epic ID",
+"why": "not translated"
+},
+{
+"en": "Sprint",
+"kind": "label",
+"max": null,
+"mt": "Sprint",
+"why": "not translated"
+},
+{
+"en": "Sprints: two-week sprints with goal, points and completion",
+"kind": "title",
+"max": 60,
+"mt": "Sprints: twee weken durende sprints met doel, punten en voltooiing",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Burndown data: points remaining on each day of a sprint",
+"kind": "title",
+"max": 60,
+"mt": "Verbrandingsgrafiekgegevens: punten die op elke dag van een sprint overblijven",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Work-in-progress limits: how many cards a column may hold",
+"kind": "title",
+"max": 60,
+"mt": "Beperkingen voor werkzaamheden in gang: hoeveel kaarten een kolom kan bevatten",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Daily stand-ups: yesterday, today and blockers",
+"kind": "title",
+"max": 60,
+"mt": "Dagelijkse stand-upbijeenkomsten: gisteren, vandaag en blokkers",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Blocker",
+"kind": "label",
+"max": null,
+"mt": "Blocker",
+"why": "not translated"
+},
+{
+"en": "Retrospectives: what went well, what to improve and the mood",
+"kind": "title",
+"max": 60,
+"mt": "Retrospectieven: wat goed ging, wat verbeterd moet worden en de stemming",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Facilitator",
+"kind": "label",
+"max": null,
+"mt": "Facilitator",
+"why": "not translated"
+},
+{
+"en": "Retrospective actions: what the team agreed to change",
+"kind": "title",
+"max": 60,
+"mt": "Retrospectieve acties: wat het team overeengekomen is te veranderen",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Sprint reviews: demo, accepted points and client feedback",
+"kind": "title",
+"max": 60,
+"mt": "Sprintbeoordelingen: demo, geaccepteerde punten en feedback van de klant",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Acceptance criteria: what must be true to be done",
+"kind": "title",
+"max": 60,
+"mt": "Aanvaardingscriteria: wat moet waar zijn om te kunnen worden gedaan",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Points added by refinement",
+"kind": "label",
+"max": 30,
+"mt": "Door verfijning toegevoegde punten",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Sprints left to finish the backlog with added scope",
+"kind": "title",
+"max": 60,
+"mt": "Sprints die overblijven om de achterstand met toegevoegde reikwijdte te voltooien",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Burndown check of an active sprint against the ideal line",
+"kind": "title",
+"max": 60,
+"mt": "Verbrandingsdiagram controle van een actieve sprint tegen de ideale lijn",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Release date forecast from points left and velocity",
+"kind": "title",
+"max": 60,
+"mt": "Vastgestelde datum van afgifte vanaf de linkerpunten en snelheid",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Buffer 30%",
+"kind": "label",
+"max": null,
+"mt": "Buffer 30%",
+"why": "not translated"
+},
+{
+"en": "Sprint commitment check against capacity and velocity",
+"kind": "title",
+"max": 60,
+"mt": "Controle van sprintverbintenissen tegen capaciteit en snelheid",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {staff}, the stand-up of {project} is at {time}. Please bring what you did yesterday, what you plan today and any blocker.",
+"kind": "message",
+"max": null,
+"mt": "Neem mee wat je gisteren hebt gedaan, wat je vandaag van plan bent en alle blokkers.",
+"why": "placeholders must be exactly: {staff} {project} {time}"
+},
+{
+"en": "Hello {presenter}, the demo of sprint {number} of {project} is on {demo_date}. Please prepare the demo of the {done_pts} finished points.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {presenter}, de demo van de sprint {number} van {project} is op {demo_date}.",
+"why": "placeholders must be exactly: {presenter} {number} {project} {demo_date} {done_pts}"
+},
+{
+"en": "Hello {pm_name}, sprint {number} of {project} shows: {state}. {done} of {committed} points are done. Please decide what to move before the end on {end}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {pm_name}, sprint {number} van {project} laat zien: {state}. {done} van {committed} punten zijn gedaan.",
+"why": "placeholders must be exactly: {pm_name} {number} {project} {state} {done} {committed} {end}"
+},
+{
+"en": "Hello {sponsor}, you are invited to the review of sprint {number} of {project} on {demo_date}. We show {done_pts} finished points. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {sponsor}, u bent uitgenodigd voor de herziening van de sprint {number} van {project} op {demo_date}.",
+"why": "placeholders must be exactly: {sponsor} {number} {project} {demo_date} {done_pts}"
+},
+{
+"en": "Hello {sponsor}, at a velocity of {velocity} points the open backlog of {name} is done on {forecast_date}. Sprints left: {sprints_left}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {sponsor}, bij een snelheid van {velocity} punten wordt de open backlog van {name} op {forecast_date} gedaan.",
+"why": "placeholders must be exactly: {sponsor} {velocity} {name} {forecast_date} {sprints_left}"
+},
+{
+"en": "Hello {client_contact}, release {release} of {project} goes out on {date}. Scope: {scope}. Please tell us if anything is missing.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {client_contact}, release {release} van {project} gaat uit op {date}.",
+"why": "placeholders must be exactly: {client_contact} {release} {project} {date} {scope}"
+},
+{
+"en": "Hello, the board of {name}: columns over the limit {wip_over}, blocked cards {blocked}. Please check with {manager} this week.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, het bord van {name}: kolommen over de limiet {wip_over}, geblokkeerde kaarten {blocked}.",
+"why": "placeholders must be exactly: {name} {wip_over} {blocked} {manager}"
+},
+{
+"en": "Sprint review summary for the sponsor and the client",
+"kind": "title",
+"max": 60,
+"mt": "Samenvatting van de sprintbeoordeling voor de sponsor en de opdrachtgever",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Feedback of the client: {col:reviews.feedback}. Next step: {col:reviews.next_step}.",
+"kind": "document",
+"max": null,
+"mt": "Feedback van de klant: {col:reviews.feedback}.",
+"why": "placeholders must be exactly: {col:reviews.feedback} {col:reviews.next_step}"
+},
+{
+"en": "Sprints left at this velocity: {col:projects.sprints_left}. The open backlog is done on {col:projects.forecast_date}. The active sprint is number {col:projects.sprint_no} and its state is: {col:projects.sprint_state}.",
+"kind": "document",
+"max": null,
+"mt": "De open backlog wordt gedaan op {col:projects.forecast_date}. De actieve sprint is nummer {col:projects.sprint_no} en de staat is: {col:projects.sprint_state}.",
+"why": "placeholders must be exactly: {col:projects.sprints_left} {col:projects.forecast_date} {col:projects.sprint_no} {col:projects.sprint_state}"
+},
+{
+"en": "Product backlog summary for the client contact",
+"kind": "title",
+"max": 60,
+"mt": "Samenvatting van de product-backlog voor het contactpersoon van de klant",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Bugs make up {col:projects.bug_pct} of the open items ({col:projects.bugs_open} bugs). The bug check shows: {col:projects.bug_check}. The state of the backlog for the next sprints is: {col:projects.ready_state}.",
+"kind": "document",
+"max": null,
+"mt": "De bug check laat zien: {col:projects.bug_check}. De staat van de backlog voor de volgende sprints is: {col:projects.ready_state}.",
+"why": "placeholders must be exactly: {col:projects.bug_pct} {col:projects.bugs_open} {col:projects.bug_check} {col:projects.ready_state}"
+},
+{
+"en": "The release is planned for sprint {col:releases.sprint_no} ({col:releases.target_sprint}). The state against its date is: {col:releases.state}.",
+"kind": "document",
+"max": null,
+"mt": "De release is gepland voor sprint {col:releases.sprint_no} ({col:releases.target_sprint}).",
+"why": "placeholders must be exactly: {col:releases.sprint_no} {col:releases.target_sprint} {col:releases.state}"
+},
+{
+"en": "Board snapshot with work-in-progress report",
+"kind": "title",
+"max": 60,
+"mt": "Afbeelding van het bestuur met verslag over de voortgang van het werk",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Cards blocked: {col:projects.blocked}. Blockers open too long: {col:projects.old_blockers}. Columns over their work-in-progress limit: {col:projects.wip_over}.",
+"kind": "document",
+"max": null,
+"mt": "Blocks open te lang: {col:projects.old_blockers}. Kolommen boven hun werk in progress limiet: {col:projects.wip_over}.",
+"why": "placeholders must be exactly: {col:projects.blocked} {col:projects.old_blockers} {col:projects.wip_over}"
+}
+]

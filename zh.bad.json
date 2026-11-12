@@ -1,0 +1,233 @@
+[
+{
+"en": "Outcome so far: {col:escalations.outcome}. State: {col:escalations.state}.",
+"kind": "document",
+"max": null,
+"mt": "截至目前的结果:",
+"why": "placeholders must be exactly: {col:escalations.outcome} {col:escalations.state}"
+},
+{
+"en": "Share the report with the PMO lead",
+"kind": "label",
+"max": null,
+"mt": "与PMO领导人分享报告",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the risk score levels, review days, issue target days, change limits and the phones of the managing director and the PMO lead.",
+"kind": "sentence",
+"max": null,
+"mt": "打开\"开始\",在黄色的单元格中输入公司名称和自己的限制:风险评分水平,审查日,发行目标日,更改限制以及总经理和PMO领导的电话.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Capacity of the active sprints on the Sprints sheet",
+"kind": "label",
+"max": null,
+"mt": "在Sprint表上的活跃冲刺的容量",
+"why": "English/Latin words left: Sprint"
+},
+{
+"en": "State of the sprint on the Sprints sheet",
+"kind": "label",
+"max": null,
+"mt": "在Sprint表上的冲刺状态",
+"why": "English/Latin words left: Sprint"
+},
+{
+"en": "Points a sprint left for bug fixing",
+"kind": "label",
+"max": null,
+"mt": "指出一个冲刺剩下的bug修复",
+"why": "English/Latin words left: bug"
+},
+{
+"en": "Sprints to clear the open bugs",
+"kind": "label",
+"max": null,
+"mt": "冲刺清除开放的bug",
+"why": "English/Latin words left: bug"
+},
+{
+"en": "Pick an epic and the share of the project velocity it gets; see the points left, the sprints to finish it, the forecast date and the target sprint set on the Epics sheet.",
+"kind": "sentence",
+"max": null,
+"mt": "在Epic表上查看剩下的点,完成的冲刺,预测日期和目标冲刺.",
+"why": "English/Latin words left: Epic"
+},
+{
+"en": "Target sprint on the Epics sheet",
+"kind": "label",
+"max": null,
+"mt": "在Epic表上目标冲刺",
+"why": "English/Latin words left: Epic"
+},
+{
+"en": "Hello {staff}, you have {assigned} points in sprint {number} of {project} and a capacity of {cap_points}. Please tell the project manager which item can move.",
+"kind": "message",
+"max": null,
+"mt": "你好,你在冲刺 {number} 的 {assigned} 点 {project} 和一个容量 {cap_points}. 请告诉项目经理哪个项目可以移动.",
+"why": "placeholders must be exactly: {staff} {assigned} {number} {project} {cap_points}"
+},
+{
+"en": "Hello {assignee}, card {card_id} ({title}) on {project} is marked blocked. Please add the blocker to the Blockers sheet and tell us what you need.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {project} 上的卡 {card_id} ({title}) 标记为被封锁.请将封锁器添加到封锁器表中,并告诉我们您需要什么.",
+"why": "placeholders must be exactly: {assignee} {card_id} {title} {project}"
+},
+{
+"en": "Hello {assignee}, card {card_id} ({title}) has been in work for {age} days. Is it still on track? Please update the board or split the card.",
+"kind": "message",
+"max": null,
+"mt": "你好,卡 {card_id} ({title}) 已经工作了 {age} 天.它还在轨吗?请更新板或分割卡.",
+"why": "placeholders must be exactly: {assignee} {card_id} {title} {age}"
+},
+{
+"en": "Hello {staff}, the stand-up of {project} is at {time}. Please bring what you did yesterday, what you plan today and any blocker.",
+"kind": "message",
+"max": null,
+"mt": "您可以带来您昨天做的事情,今天的计划和任何阻碍.",
+"why": "placeholders must be exactly: {staff} {project} {time}"
+},
+{
+"en": "Hello {owner}, the retrospective action \"{action}\" is due on {due}. Please finish it or tell us what is in the way.",
+"kind": "message",
+"max": null,
+"mt": "你好,回顾行动\"{action}\"是由于在{due}. 请完成它或告诉我们是什么.",
+"why": "placeholders must be exactly: {owner} {action} {due}"
+},
+{
+"en": "Hello {keeper}, the {lane} column of {project} holds {cards} cards against a limit of {limit}. Please finish a card before you pull a new one.",
+"kind": "message",
+"max": null,
+"mt": "你好, {keeper} 的 {lane} 列包含 {cards} 卡,限制为 {limit}.请在抽取新卡之前完成一张卡.",
+"why": "placeholders must be exactly: {keeper} {lane} {project} {cards} {limit}"
+},
+{
+"en": "Hello {manager}, the velocity of {project} in sprint {number} was {done} points, trend: {trend}. Please talk about it in the retrospective.",
+"kind": "message",
+"max": null,
+"mt": "你好,在冲刺中 {project} 的速度 {number} 是 {done} 点,趋势: {trend}. 请回顾一下.",
+"why": "placeholders must be exactly: {manager} {project} {number} {done} {trend}"
+},
+{
+"en": "Hello {manager}, blockers open too long on {name}: {old_blockers}. Please help the team remove them today.",
+"kind": "message",
+"max": null,
+"mt": "您好,阻塞器开放时间过长. 请帮助团队今天移除它们.",
+"why": "placeholders must be exactly: {manager} {name} {old_blockers}"
+},
+{
+"en": "Hello {sponsor}, you are invited to the review of sprint {number} of {project} on {demo_date}. We show {done_pts} finished points. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们邀请你参加在 {demo_date} 上 {project} 的冲刺 {number} 的回顾.我们显示 {done_pts} 完成的分数.请确认.",
+"why": "placeholders must be exactly: {sponsor} {number} {project} {demo_date} {done_pts}"
+},
+{
+"en": "Hello {sponsor}, in the review of sprint {number} of {project} the client accepted {accepted} of {done_pts} points. Next step: {next_step}.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {project} 的冲刺 {number} 审查中,客户接受了 {accepted} 的 {done_pts} 分. 下一步: {next_step}.",
+"why": "placeholders must be exactly: {sponsor} {number} {project} {accepted} {done_pts} {next_step}"
+},
+{
+"en": "Hello {sponsor}, at a velocity of {velocity} points the open backlog of {name} is done on {forecast_date}. Sprints left: {sprints_left}.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {velocity} 点的速度下 {name} 的开放积累在 {forecast_date} 上完成.左跑: {sprints_left}.",
+"why": "placeholders must be exactly: {sponsor} {velocity} {name} {forecast_date} {sprints_left}"
+},
+{
+"en": "Hello {client_contact}, the refinement session of {project} is on {date}. Please bring your priorities so that we can order the backlog together.",
+"kind": "message",
+"max": null,
+"mt": "您好, {client_contact} 的改进会在 {date}. 请带来您的优先事项,以便我们一起整理积压.",
+"why": "placeholders must be exactly: {client_contact} {project} {date}"
+},
+{
+"en": "Hello {client_contact}, points of sprint {number} of {project} waiting for your acceptance: {to_accept}. Please accept them or tell us what to change.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们正在等待您的接受:请接受它们或告诉我们要改变什么.",
+"why": "placeholders must be exactly: {client_contact} {number} {project} {to_accept}"
+},
+{
+"en": "Hello {client_contact}, new work in sprint {number} of {project} means something of the same size must leave. Which item should move?",
+"kind": "message",
+"max": null,
+"mt": "你好,新工作在冲刺 {number} 的 {project} 意思是同样大小的东西必须离开. 哪个项目应该移动?",
+"why": "placeholders must be exactly: {client_contact} {number} {project}"
+},
+{
+"en": "Hello, we plan the next sprints of {name}. How many developer days can {vendor} give from the start of the next sprint? Please answer this week.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们计划下一个冲刺.从下一个冲刺开始,开发人员可以给出多少天?请回答本周.",
+"why": "placeholders must be exactly: {name} {vendor}"
+},
+{
+"en": "Hello {facilitator}, the retrospective of sprint {number} of {project} is on {held_on}. Earlier actions still open: {open_actions}. Please start with them.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们已经开始了我们之前的行动.",
+"why": "placeholders must be exactly: {facilitator} {number} {project} {held_on} {open_actions}"
+},
+{
+"en": "PMO lead: board over its limits",
+"kind": "label",
+"max": null,
+"mt": "PMO领先:董事会超过了其限制",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Sprint goal: {col:sprints.goal}.",
+"kind": "document",
+"max": null,
+"mt": "冲刺目标:",
+"why": "placeholders must be exactly: {col:sprints.goal}"
+},
+{
+"en": "A plan above {set:over_pct} of the capacity needs work taken out before the sprint starts. A plan below {set:under_pct} leaves room for another item from the ready backlog.",
+"kind": "document",
+"max": null,
+"mt": "超过 {set:over_pct} 的计划需要在冲刺开始之前完成工作.",
+"why": "placeholders must be exactly: {set:over_pct} {set:under_pct}"
+},
+{
+"en": "Project: {col:projects.name}. Client contact: {col:projects.contact}. Project manager: {col:projects.manager}.",
+"kind": "document",
+"max": null,
+"mt": "项目: 客户联系人: 项目经理:",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.contact} {col:projects.manager}"
+},
+{
+"en": "The release is planned for sprint {col:releases.sprint_no} ({col:releases.target_sprint}). The state against its date is: {col:releases.state}.",
+"kind": "document",
+"max": null,
+"mt": "发行计划为sprint {col:releases.sprint_no} ({col:releases.target_sprint}). 状态与其日期相比是: {col:releases.state}.",
+"why": "English/Latin words left: sprint"
+},
+{
+"en": "Project: {col:retros.project}. Sprint {col:retros.number}, held on {col:retros.held_on}. Facilitator: {col:retros.facilitator}.",
+"kind": "document",
+"max": null,
+"mt": "项目: {col:retros.project}. 冲刺 {col:retros.number},举行在 {col:retros.held_on}.",
+"why": "placeholders must be exactly: {col:retros.project} {col:retros.number} {col:retros.held_on} {col:retros.facilitator}"
+},
+{
+"en": "What went well: {col:retros.went_well}.",
+"kind": "document",
+"max": null,
+"mt": "什么是成功的:",
+"why": "placeholders must be exactly: {col:retros.went_well}"
+},
+{
+"en": "Epic status note for the client",
+"kind": "title",
+"max": 60,
+"mt": "客户端的Epic状态说明",
+"why": "English/Latin words left: Epic"
+}
+]

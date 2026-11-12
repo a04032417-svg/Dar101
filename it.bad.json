@@ -1,0 +1,450 @@
+[
+{
+"en": "We escalate {col:escalations.kind} {col:escalations.item}: {col:escalations.title}. It was escalated on {col:escalations.date} and has been open for {col:escalations.days_open} days.",
+"kind": "document",
+"max": null,
+"mt": "E' stato intensificato il 3 e e' aperto da 4 giorni.",
+"why": "placeholders must be exactly: {col:escalations.kind} {col:escalations.item} {col:escalations.title} {col:escalations.date} {col:escalations.days_open}"
+},
+{
+"en": "Outcome so far: {col:escalations.outcome}. State: {col:escalations.state}.",
+"kind": "document",
+"max": null,
+"mt": "Risultati finora:",
+"why": "placeholders must be exactly: {col:escalations.outcome} {col:escalations.state}"
+},
+{
+"en": "days available and the focus factor of each person give the capacity in story points, set against the points assigned, with a check for over and under capacity",
+"kind": "sentence",
+"max": 160,
+"mt": "giorni disponibili e il fattore di concentrazione di ciascuna persona forniscono la capacità in punti di storia, impostati contro i punti assegnati, con un controllo per oltre e sotto la capacità",
+"why": "too long: 195 characters, the limit is 160"
+},
+{
+"en": "Burndown with ideal line and projection",
+"kind": "label",
+"max": 50,
+"mt": "Grafico di bruciatura con linea ideale e proiezione",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Product backlog with the state of every item",
+"kind": "label",
+"max": 50,
+"mt": "Prodotto in ritardo con lo stato di ogni singolo elemento",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Backlog health score for every project",
+"kind": "label",
+"max": 50,
+"mt": "Punteggio di salute dell'arretrato per ogni progetto",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Waiting for another team",
+"kind": "list",
+"max": 30,
+"mt": "In attesa di un' altra squadra .",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Test environment down",
+"kind": "list",
+"max": 30,
+"mt": "Ambiente di prova in fase di riduzione",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Booking: Patient registration",
+"kind": "list",
+"max": 30,
+"mt": "Prenotazione: registrazione del paziente",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Meters: Meter data import",
+"kind": "list",
+"max": 30,
+"mt": "Metri: importazione di dati di metri",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Plant: Asset register",
+"kind": "list",
+"max": 30,
+"mt": "Impianto: registro patrimoniale",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Timesheet entry",
+"kind": "list",
+"max": 30,
+"mt": "Schede orarie: voce scheda oraria",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Portal: Shipment tracking",
+"kind": "list",
+"max": 30,
+"mt": "Portale: Tracciamento delle spedizioni",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Booking: Appointment booking",
+"kind": "list",
+"max": 30,
+"mt": "Prenotazione: prenotazione di appuntamento",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Plant: Maintenance calendar",
+"kind": "list",
+"max": 30,
+"mt": "Impianto: calendario di manutenzione",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Booking: Reminders and notices",
+"kind": "list",
+"max": 30,
+"mt": "Prenotazione: promemoria e avviso",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Loyalty: Store till link",
+"kind": "list",
+"max": 30,
+"mt": "Fidelità: conservare fino al collegamento",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Meters: Alerts and thresholds",
+"kind": "list",
+"max": 30,
+"mt": "Misuratori: segnalazioni e soglie",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Cost reports",
+"kind": "list",
+"max": 30,
+"mt": "Schede orarie: Relazioni sui costi",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Booking: Clinic calendar",
+"kind": "list",
+"max": 30,
+"mt": "Prenotazione: calendario della clinica",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Meters: Billing reports",
+"kind": "list",
+"max": 30,
+"mt": "Contatori: rapporti di fatturazione",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Import of old sheets",
+"kind": "list",
+"max": 30,
+"mt": "Schede orarie: importazione di fogli vecchi",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Portal: Reports and exports",
+"kind": "list",
+"max": 30,
+"mt": "Portale: Relazioni ed esportazioni",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Booking: Privacy and access",
+"kind": "list",
+"max": 30,
+"mt": "Prenotazione: riservatezza e accesso",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Team: who works on the board and how loaded the sprint is",
+"kind": "title",
+"max": 60,
+"mt": "Squadra: chi lavora sul tabellone e quanto è carico lo sprint",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Epics: the big pieces of work and how far each one is",
+"kind": "title",
+"max": 60,
+"mt": "Epiche: i grandi pezzi di lavoro e quanto sia lontano ciascuno",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Epic ID",
+"kind": "label",
+"max": null,
+"mt": "Epic ID",
+"why": "not translated"
+},
+{
+"en": "Sprint",
+"kind": "label",
+"max": null,
+"mt": "Sprint",
+"why": "not translated"
+},
+{
+"en": "Sprints: two-week sprints with goal, points and completion",
+"kind": "title",
+"max": 60,
+"mt": "Sprint: sprint di due settimane con obiettivo, punti e completamento",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Sprint capacity: days and focus of each person",
+"kind": "title",
+"max": 60,
+"mt": "Capacità dello sprint: giorni e concentrazione di ciascuna persona",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Burndown data: points remaining on each day of a sprint",
+"kind": "title",
+"max": 60,
+"mt": "Dati del grafico di burn-down: punti rimanenti per ogni giorno di uno sprint",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Work-in-progress limits: how many cards a column may hold",
+"kind": "title",
+"max": 60,
+"mt": "Limiti di lavoro in corso: quante carte può contenere una colonna",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Cycle times: how many days each finished card took",
+"kind": "title",
+"max": 60,
+"mt": "Tempo di ciclo: quanti giorni ci sono voluti per ogni scheda terminata",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Blockers: what stops a card and how long it has been open",
+"kind": "title",
+"max": 60,
+"mt": "Bloccanti: cosa blocca una carta e quanto tempo è stata aperta",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Sprint reviews: demo, accepted points and client feedback",
+"kind": "title",
+"max": 60,
+"mt": "Recensioni dello sprint: demo, punti accettati e feedback dei clienti",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Acceptance criteria: what must be true to be done",
+"kind": "title",
+"max": 60,
+"mt": "Criteri di accettazione: cosa deve essere vero per essere fatto",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Points added by refinement",
+"kind": "label",
+"max": 30,
+"mt": "Punti aggiunti per raffinamento",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Backlog item with its acceptance criteria",
+"kind": "title",
+"max": 60,
+"mt": "Articolo del libro di scadenza con i suoi criteri di accettazione",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Sprints left to finish the backlog with added scope",
+"kind": "title",
+"max": 60,
+"mt": "Sprint rimasti per completare il backlog con ulteriore portata",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Burndown check of an active sprint against the ideal line",
+"kind": "title",
+"max": 60,
+"mt": "Verifica del grafico di bruciatura di uno sprint attivo rispetto alla linea ideale",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Release date forecast from points left and velocity",
+"kind": "title",
+"max": 60,
+"mt": "Previsione della data di rilascio da punti a sinistra e velocità",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Sprint commitment check against capacity and velocity",
+"kind": "title",
+"max": 60,
+"mt": "Controllo dell'impegno dello sprint rispetto alla capacità e alla velocità",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "What-if grid: team size, focus and added scope",
+"kind": "title",
+"max": 60,
+"mt": "Griglia di ipotesi: dimensioni del team, focus e ambito aggiunto",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello {staff}, the stand-up of {project} is at {time}. Please bring what you did yesterday, what you plan today and any blocker.",
+"kind": "message",
+"max": null,
+"mt": "Salve, le riunioni di stand-up di {project} sono a {time} per favore portate quello che avete fatto ieri, quello che avete in programma per oggi e qualsiasi blocco.",
+"why": "placeholders must be exactly: {staff} {project} {time}"
+},
+{
+"en": "Hello {presenter}, the demo of sprint {number} of {project} is on {demo_date}. Please prepare the demo of the {done_pts} finished points.",
+"kind": "message",
+"max": null,
+"mt": "Salve {presenter}, la demo dello sprint {number} di {project} è su {demo_date}.",
+"why": "placeholders must be exactly: {presenter} {number} {project} {demo_date} {done_pts}"
+},
+{
+"en": "Hello {pm_name}, sprint {number} of {project} shows: {state}. {done} of {committed} points are done. Please decide what to move before the end on {end}.",
+"kind": "message",
+"max": null,
+"mt": "Ciao {pm_name}, lo sprint {number} di {project} mostra: {state}. {done} di {committed} punti sono fatti.",
+"why": "placeholders must be exactly: {pm_name} {number} {project} {state} {done} {committed} {end}"
+},
+{
+"en": "Hello {manager}, blockers open too long on {name}: {old_blockers}. Please help the team remove them today.",
+"kind": "message",
+"max": null,
+"mt": "Salve, i bloccanti si aprono troppo a lungo su {name}: {old_blockers}.",
+"why": "placeholders must be exactly: {manager} {name} {old_blockers}"
+},
+{
+"en": "Hello {sponsor}, you are invited to the review of sprint {number} of {project} on {demo_date}. We show {done_pts} finished points. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Salve {sponsor}, siete invitati alla revisione dello sprint {number} di {project} di {demo_date}.",
+"why": "placeholders must be exactly: {sponsor} {number} {project} {demo_date} {done_pts}"
+},
+{
+"en": "Hello {sponsor}, in the review of sprint {number} of {project} the client accepted {accepted} of {done_pts} points. Next step: {next_step}.",
+"kind": "message",
+"max": null,
+"mt": "Ciao {sponsor}, nella revisione dello sprint {number} di {project} il cliente ha accettato {accepted} di {done_pts} punti.",
+"why": "placeholders must be exactly: {sponsor} {number} {project} {accepted} {done_pts} {next_step}"
+},
+{
+"en": "Hello {sponsor}, at a velocity of {velocity} points the open backlog of {name} is done on {forecast_date}. Sprints left: {sprints_left}.",
+"kind": "message",
+"max": null,
+"mt": "Ciao {sponsor}, a velocità di {velocity} punti il backlog aperto di {name} è fatto su {forecast_date}.",
+"why": "placeholders must be exactly: {sponsor} {velocity} {name} {forecast_date} {sprints_left}"
+},
+{
+"en": "Hello {client_contact}, release {release} of {project} goes out on {date}. Scope: {scope}. Please tell us if anything is missing.",
+"kind": "message",
+"max": null,
+"mt": "Ciao {client_contact}, rilascio {release} di {project} esce su {date}.",
+"why": "placeholders must be exactly: {client_contact} {release} {project} {date} {scope}"
+},
+{
+"en": "Hello {facilitator}, the retrospective of sprint {number} of {project} is on {held_on}. Earlier actions still open: {open_actions}. Please start with them.",
+"kind": "message",
+"max": null,
+"mt": "Salve {facilitator}, la retrospettiva dello sprint {number} di {project} è in {held_on}.",
+"why": "placeholders must be exactly: {facilitator} {number} {project} {held_on} {open_actions}"
+},
+{
+"en": "Hello, the board of {name}: columns over the limit {wip_over}, blocked cards {blocked}. Please check with {manager} this week.",
+"kind": "message",
+"max": null,
+"mt": "Salve, il tabellone di {name}: colonne oltre il limite {wip_over}, carte bloccate {blocked}.",
+"why": "placeholders must be exactly: {name} {wip_over} {blocked} {manager}"
+},
+{
+"en": "Sprint {col:sprints.number} of {col:sprints.project}, ID {col:sprints.sprint_id}. Status: {col:sprints.status}. The sprint runs from {col:sprints.start} to {col:sprints.end}. Project manager: {col:sprints.pm_name}.",
+"kind": "document",
+"max": null,
+"mt": "Lo sprint {col:sprints.number} di {col:sprints.project}, ID {col:sprints.sprint_id}. Status: {col:sprints.status}. Lo sprint va da {col:sprints.start} a {col:sprints.end}.",
+"why": "placeholders must be exactly: {col:sprints.number} {col:sprints.project} {col:sprints.sprint_id} {col:sprints.status} {col:sprints.start} {col:sprints.end} {col:sprints.pm_name}"
+},
+{
+"en": "The team commits {col:sprints.committed} story points against a capacity of {col:sprints.capacity} points. In the backlog {col:sprints.assigned} points are assigned to this sprint. The commitment check shows: {col:sprints.commit_check}.",
+"kind": "document",
+"max": null,
+"mt": "Il team commette {col:sprints.committed} punti di storia contro una capacità di {col:sprints.capacity} punti. Nel backlog {col:sprints.assigned} i punti sono assegnati a questo sprint.",
+"why": "placeholders must be exactly: {col:sprints.committed} {col:sprints.capacity} {col:sprints.assigned} {col:sprints.commit_check}"
+},
+{
+"en": "Sprint review summary for the sponsor and the client",
+"kind": "title",
+"max": 60,
+"mt": "Riassunto della revisione dello sprint per lo sponsor e il cliente",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Feedback of the client: {col:reviews.feedback}. Next step: {col:reviews.next_step}.",
+"kind": "document",
+"max": null,
+"mt": "Feedback del cliente: {col:reviews.feedback}.",
+"why": "placeholders must be exactly: {col:reviews.feedback} {col:reviews.next_step}"
+},
+{
+"en": "Sprints left at this velocity: {col:projects.sprints_left}. The open backlog is done on {col:projects.forecast_date}. The active sprint is number {col:projects.sprint_no} and its state is: {col:projects.sprint_state}.",
+"kind": "document",
+"max": null,
+"mt": "Lo sprint attivo è il numero {col:projects.sprint_no} e il suo stato è: {col:projects.sprint_state}.",
+"why": "placeholders must be exactly: {col:projects.sprints_left} {col:projects.forecast_date} {col:projects.sprint_no} {col:projects.sprint_state}"
+},
+{
+"en": "Product backlog summary for the client contact",
+"kind": "title",
+"max": 60,
+"mt": "Riepilogo dell'arretrato di prodotti per il contatto con il cliente",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Project: {col:projects.name}. Client contact: {col:projects.contact}. Project manager: {col:projects.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Progetto: {col:projects.name}. Contatto del cliente: {col:projects.contact}.",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.contact} {col:projects.manager}"
+},
+{
+"en": "Release: {col:releases.release} ({col:releases.release_id}). Project: {col:releases.project}. Release date: {col:releases.date}. Status: {col:releases.status}.",
+"kind": "document",
+"max": null,
+"mt": "Pubblicazione: {col:releases.release} ({col:releases.release_id}). Progetto: {col:releases.project}. Data di pubblicazione: {col:releases.date}.",
+"why": "placeholders must be exactly: {col:releases.release} {col:releases.release_id} {col:releases.project} {col:releases.date} {col:releases.status}"
+},
+{
+"en": "Yesterday: {col:standups.yesterday}.",
+"kind": "document",
+"max": null,
+"mt": "Ieri.",
+"why": "placeholders must be exactly: {col:standups.yesterday}"
+},
+{
+"en": "Board snapshot with work-in-progress report",
+"kind": "title",
+"max": 60,
+"mt": "Foto del consiglio di amministrazione con relazione sui lavori in corso",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Project: {col:projects.name}. Project manager: {col:projects.manager}. Active sprint: number {col:projects.sprint_no}, {col:projects.sprint_state}.",
+"kind": "document",
+"max": null,
+"mt": "Progetto: {col:projects.name}. Direttore del progetto: {col:projects.manager}.",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.manager} {col:projects.sprint_no} {col:projects.sprint_state}"
+}
+]

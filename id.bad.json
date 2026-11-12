@@ -1,0 +1,282 @@
+[
+{
+"en": "days available and the focus factor of each person give the capacity in story points, set against the points assigned, with a check for over and under capacity",
+"kind": "sentence",
+"max": 160,
+"mt": "hari yang tersedia dan faktor fokus dari setiap orang memberikan kapasitas dalam poin cerita, diatur terhadap poin yang diberikan, dengan pemeriksaan untuk lebih dari dan di bawah kapasitas",
+"why": "too long: 189 characters, the limit is 160"
+},
+{
+"en": "Work-in-progress limits with a check",
+"kind": "label",
+"max": 50,
+"mt": "Batas pekerjaan yang sedang berlangsung dengan pemeriksaan",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Epic",
+"kind": "label",
+"max": null,
+"mt": "Epic",
+"why": "not translated"
+},
+{
+"en": "Booking: Reminders and notices",
+"kind": "list",
+"max": 30,
+"mt": "Pemesanan: Pengingat dan pemberitahuan",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Loyalty: Campaigns and offers",
+"kind": "list",
+"max": 30,
+"mt": "Loyalitas: Kampanye dan penawaran",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Import of old sheets",
+"kind": "list",
+"max": 30,
+"mt": "Lembar waktu: Impor lembaran lama",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Timesheets: Training and rollout",
+"kind": "list",
+"max": 30,
+"mt": "Timesheets: Pelatihan dan peluncuran",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Team: who works on the board and how loaded the sprint is",
+"kind": "title",
+"max": 60,
+"mt": "Tim: siapa yang bekerja di papan dan seberapa banyak beban sprint",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Epics: the big pieces of work and how far each one is",
+"kind": "title",
+"max": 60,
+"mt": "Epos: bagian besar dari pekerjaan dan seberapa jauh masing-masing",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Epic ID",
+"kind": "label",
+"max": null,
+"mt": "Epic ID",
+"why": "not translated"
+},
+{
+"en": "Target sprint",
+"kind": "label",
+"max": null,
+"mt": "Target sprint",
+"why": "not translated"
+},
+{
+"en": "Sprint",
+"kind": "label",
+"max": null,
+"mt": "Sprint",
+"why": "not translated"
+},
+{
+"en": "Sprints: two-week sprints with goal, points and completion",
+"kind": "title",
+"max": 60,
+"mt": "Sprint: sprint dua minggu dengan tujuan, poin dan penyelesaian",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Burndown data: points remaining on each day of a sprint",
+"kind": "title",
+"max": 60,
+"mt": "Data grafik burndown: poin yang tersisa pada setiap hari sprint",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Work-in-progress limits: how many cards a column may hold",
+"kind": "title",
+"max": 60,
+"mt": "Batas pekerjaan yang sedang berlangsung: berapa banyak kartu yang dapat disimpan oleh satu kolom",
+"why": "too long: 96 characters, the limit is 60"
+},
+{
+"en": "Blockers: what stops a card and how long it has been open",
+"kind": "title",
+"max": 60,
+"mt": "Penghambat: apa yang menghentikan kartu dan berapa lama kartu itu terbuka",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Retrospectives: what went well, what to improve and the mood",
+"kind": "title",
+"max": 60,
+"mt": "Retrospektif: apa yang berhasil, apa yang harus ditingkatkan dan suasana hati",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Sprint reviews: demo, accepted points and client feedback",
+"kind": "title",
+"max": 60,
+"mt": "Ulasan Sprint: demo, poin yang diterima dan umpan balik klien",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Points added by refinement",
+"kind": "label",
+"max": 30,
+"mt": "Poin yang ditambahkan oleh penyempurnaan",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Sprints left to finish the backlog with added scope",
+"kind": "title",
+"max": 60,
+"mt": "Sprint tersisa untuk menyelesaikan backlog dengan ruang lingkup ditambahkan",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Burndown check of an active sprint against the ideal line",
+"kind": "title",
+"max": 60,
+"mt": "Pemeriksaan grafik pembakaran dari sprint aktif terhadap garis ideal",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Buffer 30%",
+"kind": "label",
+"max": null,
+"mt": "Buffer 30%",
+"why": "not translated"
+},
+{
+"en": "Work-in-progress limit advice from flow",
+"kind": "title",
+"max": 60,
+"mt": "Rekomendasi batas pekerjaan yang sedang berlangsung dari aliran",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: team size, focus and added scope",
+"kind": "title",
+"max": 60,
+"mt": "Grid bagaimana jika: ukuran tim, fokus dan ruang lingkup yang ditambahkan",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Hello {presenter}, the demo of sprint {number} of {project} is on {demo_date}. Please prepare the demo of the {done_pts} finished points.",
+"kind": "message",
+"max": null,
+"mt": "Halo {presenter}, demo dari sprint {number} dari {project} adalah pada {demo_date}.",
+"why": "placeholders must be exactly: {presenter} {number} {project} {demo_date} {done_pts}"
+},
+{
+"en": "Hello {pm_name}, sprint {number} of {project} shows: {state}. {done} of {committed} points are done. Please decide what to move before the end on {end}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {pm_name}, sprint {number} dari {project} menunjukkan: {state}. {done} dari {committed} poin selesai.",
+"why": "placeholders must be exactly: {pm_name} {number} {project} {state} {done} {committed} {end}"
+},
+{
+"en": "Hello {sponsor}, you are invited to the review of sprint {number} of {project} on {demo_date}. We show {done_pts} finished points. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Halo {sponsor}, Anda diundang untuk review sprint {number} dari {project} pada {demo_date}.",
+"why": "placeholders must be exactly: {sponsor} {number} {project} {demo_date} {done_pts}"
+},
+{
+"en": "Hello {sponsor}, in the review of sprint {number} of {project} the client accepted {accepted} of {done_pts} points. Next step: {next_step}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {sponsor}, dalam tinjauan sprint {number} dari {project} klien menerima {accepted} dari {done_pts} poin.",
+"why": "placeholders must be exactly: {sponsor} {number} {project} {accepted} {done_pts} {next_step}"
+},
+{
+"en": "Hello {sponsor}, at a velocity of {velocity} points the open backlog of {name} is done on {forecast_date}. Sprints left: {sprints_left}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {sponsor}, pada kecepatan {velocity} poin backlog terbuka {name} dilakukan pada {forecast_date}.",
+"why": "placeholders must be exactly: {sponsor} {velocity} {name} {forecast_date} {sprints_left}"
+},
+{
+"en": "Hello {client_contact}, release {release} of {project} goes out on {date}. Scope: {scope}. Please tell us if anything is missing.",
+"kind": "message",
+"max": null,
+"mt": "Halo {client_contact}, rilis {release} dari {project} akan keluar pada {date}.",
+"why": "placeholders must be exactly: {client_contact} {release} {project} {date} {scope}"
+},
+{
+"en": "Hello, the board of {name}: columns over the limit {wip_over}, blocked cards {blocked}. Please check with {manager} this week.",
+"kind": "message",
+"max": null,
+"mt": "Halo, papan {name}: kolom di atas batas {wip_over}, kartu diblokir {blocked}.",
+"why": "placeholders must be exactly: {name} {wip_over} {blocked} {manager}"
+},
+{
+"en": "Sprint {col:sprints.number} of {col:sprints.project}, ID {col:sprints.sprint_id}. Status: {col:sprints.status}. The sprint runs from {col:sprints.start} to {col:sprints.end}. Project manager: {col:sprints.pm_name}.",
+"kind": "document",
+"max": null,
+"mt": "Sprint {col:sprints.number} dari {col:sprints.project}, ID {col:sprints.sprint_id}. Status: {col:sprints.status}.",
+"why": "placeholders must be exactly: {col:sprints.number} {col:sprints.project} {col:sprints.sprint_id} {col:sprints.status} {col:sprints.start} {col:sprints.end} {col:sprints.pm_name}"
+},
+{
+"en": "A plan above {set:over_pct} of the capacity needs work taken out before the sprint starts. A plan below {set:under_pct} leaves room for another item from the ready backlog.",
+"kind": "document",
+"max": null,
+"mt": "Sebuah rencana di atas {set:over_pct} dari kapasitas membutuhkan pekerjaan yang dilakukan sebelum sprint dimulai.",
+"why": "placeholders must be exactly: {set:over_pct} {set:under_pct}"
+},
+{
+"en": "Project: {col:reviews.project}. Sprint {col:reviews.number}, review on {col:reviews.demo_date}. Presented by {col:reviews.presenter}.",
+"kind": "document",
+"max": null,
+"mt": "Proyek: {col:reviews.project}. Sprint {col:reviews.number}, tinjauan pada {col:reviews.demo_date}.",
+"why": "placeholders must be exactly: {col:reviews.project} {col:reviews.number} {col:reviews.demo_date} {col:reviews.presenter}"
+},
+{
+"en": "Feedback of the client: {col:reviews.feedback}. Next step: {col:reviews.next_step}.",
+"kind": "document",
+"max": null,
+"mt": "Umpan balik dari klien: {col:reviews.feedback}.",
+"why": "placeholders must be exactly: {col:reviews.feedback} {col:reviews.next_step}"
+},
+{
+"en": "Sprints left at this velocity: {col:projects.sprints_left}. The open backlog is done on {col:projects.forecast_date}. The active sprint is number {col:projects.sprint_no} and its state is: {col:projects.sprint_state}.",
+"kind": "document",
+"max": null,
+"mt": "Sprint yang tersisa pada kecepatan ini: {col:projects.sprints_left}. Open backlog dilakukan pada {col:projects.forecast_date}.",
+"why": "placeholders must be exactly: {col:projects.sprints_left} {col:projects.forecast_date} {col:projects.sprint_no} {col:projects.sprint_state}"
+},
+{
+"en": "Bugs make up {col:projects.bug_pct} of the open items ({col:projects.bugs_open} bugs). The bug check shows: {col:projects.bug_check}. The state of the backlog for the next sprints is: {col:projects.ready_state}.",
+"kind": "document",
+"max": null,
+"mt": "Bug membuat {col:projects.bug_pct} dari item terbuka ({col:projects.bugs_open} bug). Pemeriksaan bug menunjukkan: {col:projects.bug_check}.",
+"why": "placeholders must be exactly: {col:projects.bug_pct} {col:projects.bugs_open} {col:projects.bug_check} {col:projects.ready_state}"
+},
+{
+"en": "The release is planned for sprint {col:releases.sprint_no} ({col:releases.target_sprint}). The state against its date is: {col:releases.state}.",
+"kind": "document",
+"max": null,
+"mt": "Rilis direncanakan untuk sprint {col:releases.sprint_no} ({col:releases.target_sprint}).",
+"why": "placeholders must be exactly: {col:releases.sprint_no} {col:releases.target_sprint} {col:releases.state}"
+},
+{
+"en": "Board snapshot with work-in-progress report",
+"kind": "title",
+"max": 60,
+"mt": "Gambar langsung dari dewan dengan laporan pekerjaan yang sedang berlangsung",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "The epic holds {col:epics.items} items worth {col:epics.points} story points. {col:epics.done_pts} points are finished and {col:epics.left_pts} points are left, so {col:epics.pct} is done. The state is: {col:epics.state}.",
+"kind": "document",
+"max": null,
+"mt": "Epos memiliki {col:epics.items} item bernilai {col:epics.points} poin cerita. {col:epics.done_pts} poin selesai dan {col:epics.left_pts} poin tersisa, jadi {col:epics.pct} selesai.",
+"why": "placeholders must be exactly: {col:epics.items} {col:epics.points} {col:epics.done_pts} {col:epics.left_pts} {col:epics.pct} {col:epics.state}"
+}
+]
