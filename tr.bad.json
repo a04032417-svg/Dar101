@@ -1,0 +1,387 @@
+[
+{
+"en": "Hello {person}, we issued {qty} {ppe} on {date}. Please wear it every day for the work it is made for, and tell me when it is worn out.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, 3'te çıkardık lütfen her gün kullanın ve ne zaman biter söyleyin.",
+"why": "placeholders must be exactly: {person} {qty} {ppe} {date}"
+},
+{
+"en": "Machine: {col:machines.name} ({col:machines.kind}). Status: {col:machines.owned}. Bought on {col:machines.buy_date} for {col:machines.price}.",
+"kind": "document",
+"max": null,
+"mt": "Makine: {col:machines.name} ({col:machines.kind}). Durum: {col:machines.owned}. {col:machines.buy_date} için {col:machines.buy_date} satın alınmıştır. {col:machines.price}",
+"why": "placeholders must be exactly: {col:machines.name} {col:machines.kind} {col:machines.owned} {col:machines.buy_date} {col:machines.price}"
+},
+{
+"en": "The machine is {col:machines.age} years old with a planned life of {col:machines.life_years} years. Its value now is {col:machines.value_now}. The age check shows: {col:machines.state}.",
+"kind": "document",
+"max": null,
+"mt": "Makine {col:machines.age} yıl ve planlanan ömrü {col:machines.life_years} yıl. Şimdi değeri {col:machines.value_now}.",
+"why": "placeholders must be exactly: {col:machines.age} {col:machines.life_years} {col:machines.value_now} {col:machines.state}"
+},
+{
+"en": "In the last 12 months it worked {col:machines.hours_year} hours. Repairs cost {col:machines.repair_year} and fuel cost {col:machines.fuel_cost}. The cost of one hour is {col:machines.cost_hour}. It was down for {col:machines.down_days} days.",
+"kind": "document",
+"max": null,
+"mt": "Son 12 ayda {col:machines.hours_year} saat çalıştı. Onarım maliyeti {col:machines.repair_year} ve yakıt maliyeti {col:machines.fuel_cost}.",
+"why": "placeholders must be exactly: {col:machines.hours_year} {col:machines.repair_year} {col:machines.fuel_cost} {col:machines.cost_hour} {col:machines.down_days}"
+},
+{
+"en": "Machine: {col:repairs.machine}. Reported on {col:repairs.date}. Part group: {col:repairs.part}.",
+"kind": "document",
+"max": null,
+"mt": "Makine: {col:repairs.machine}. {col:repairs.date} rapor edildi.",
+"why": "placeholders must be exactly: {col:repairs.machine} {col:repairs.date} {col:repairs.part}"
+},
+{
+"en": "The diesel price used is the average price paid on your fuel purchases. Every dip of the tank is compared with the stock in the books and a difference of more than {set:fuel_loss} is checked.",
+"kind": "document",
+"max": null,
+"mt": "Kullanılan dizel fiyatı, yakıt satın alımlarınız için ödediğiniz ortalama fiyattır.",
+"why": "placeholders must be exactly: {set:fuel_loss}"
+},
+{
+"en": "The contract starts on {col:workers.start_date} and ends on {col:workers.end_date}, which is {col:workers.days} days. The pay is {col:workers.rate_h} per hour. The team leader is {col:workers.leader}.",
+"kind": "document",
+"max": null,
+"mt": "Sözleşme {col:workers.start_date} gününde başlar ve {col:workers.end_date} gününde sona erer. Maaş saat başı {col:workers.rate_h} . Takım lideri {col:workers.leader} .",
+"why": "placeholders must be exactly: {col:workers.start_date} {col:workers.end_date} {col:workers.days} {col:workers.rate_h} {col:workers.leader}"
+},
+{
+"en": "Permanent staff pay is {col:payroll.perm_pay}, seasonal workers pay is {col:payroll.seasonal_pay} and piece-rate pay is {col:payroll.piece_pay}. Allowances and bonuses are {col:payroll.allowances}. The total pay is {col:payroll.pay_total}.",
+"kind": "document",
+"max": null,
+"mt": "Kalıcı personelin ücreti {col:payroll.perm_pay}, mevsimlik işçilerin ücreti {col:payroll.seasonal_pay} ve parça ücreti {col:payroll.piece_pay}.",
+"why": "placeholders must be exactly: {col:payroll.perm_pay} {col:payroll.seasonal_pay} {col:payroll.piece_pay} {col:payroll.allowances} {col:payroll.pay_total}"
+},
+{
+"en": "Picker: {col:workers.name}. Team leader: {col:workers.leader}.",
+"kind": "document",
+"max": null,
+"mt": "Takım lideri:",
+"why": "placeholders must be exactly: {col:workers.name} {col:workers.leader}"
+},
+{
+"en": "During the contract the picker delivered {col:workers.piece_kg} kilograms of accepted fruit and vegetables. The piece-rate pay is {col:workers.piece_pay}.",
+"kind": "document",
+"max": null,
+"mt": "Sözleşme süresince toplayıcı kabul edilen meyve ve sebze kilolarını teslim etti.",
+"why": "placeholders must be exactly: {col:workers.piece_kg} {col:workers.piece_pay}"
+},
+{
+"en": "Time work on other days was paid {col:workers.pay}. The total pay is {col:workers.total_pay} for {col:workers.hours} hours.",
+"kind": "document",
+"max": null,
+"mt": "Diğer günlerde yapılan çalışma saatleri {col:workers.pay} olarak ödenir.",
+"why": "placeholders must be exactly: {col:workers.pay} {col:workers.total_pay} {col:workers.hours}"
+},
+{
+"en": "The check shows: {col:train.state}. The next course is planned for {col:train.course_on}. The course cost {col:train.cost}.",
+"kind": "document",
+"max": null,
+"mt": "Çek gösterir: {col:train.state}. Bir sonraki kurs için planlanmıştır {col:train.course_on}.",
+"why": "placeholders must be exactly: {col:train.state} {col:train.course_on} {col:train.cost}"
+},
+{
+"en": "The farm work of the month needs {col:labourneed.hours_needed} hours, which is {col:labourneed.fte} full-time workers. We have {col:labourneed.perm_workers} permanent staff, so we need {col:labourneed.seasonal_needed} seasonal workers.",
+"kind": "document",
+"max": null,
+"mt": "Ayın tarım işlerine {col:labourneed.hours_needed} saat, yani {col:labourneed.fte} tam zamanlı işçi gerekiyor.",
+"why": "placeholders must be exactly: {col:labourneed.hours_needed} {col:labourneed.fte} {col:labourneed.perm_workers} {col:labourneed.seasonal_needed}"
+},
+{
+"en": "We have {col:labourneed.seasonal_hired} seasonal workers on contract, so {col:labourneed.gap} workers are still short. The check shows: {col:labourneed.state}.",
+"kind": "document",
+"max": null,
+"mt": "Şek göstermektedir: {col:labourneed.state} {col:labourneed.state} {col:labourneed.state} {3} {3} {4} {5} {5} {5} {6} {6} {6} {6} {6} {7} {7} {7} {7} {7} {7} {7} {8} {8} {9} {9} {9} {9} {9} {9} {9} {9} {9}",
+"why": "placeholders must be exactly: {col:labourneed.seasonal_hired} {col:labourneed.gap} {col:labourneed.state}"
+},
+{
+"en": "What happened: {col:safety.what}. How serious: {col:safety.severity}. Days lost: {col:safety.days_lost}. Cost: {col:safety.cost}.",
+"kind": "document",
+"max": null,
+"mt": "Ne oldu, ne kadar ciddi, gün kaybı, maliyet.",
+"why": "placeholders must be exactly: {col:safety.what} {col:safety.severity} {col:safety.days_lost} {col:safety.cost}"
+},
+{
+"en": "The action check shows: {col:safety.state}. The record was closed on {col:safety.closed_on}.",
+"kind": "document",
+"max": null,
+"mt": "Eylem kontrolü gösterir: {col:safety.state}.",
+"why": "placeholders must be exactly: {col:safety.state} {col:safety.closed_on}"
+},
+{
+"en": "Forward contract fulfilment with shortfall penalty",
+"kind": "label",
+"max": 50,
+"mt": "Eksiklik cezası ile vadeli sözleşmenin yerine getirilmesi",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "the price you read each week for a crop is compared with the 4 and 13 week averages to show whether the market is rising, falling or steady",
+"kind": "sentence",
+"max": 160,
+"mt": "Her hafta bir ürün için okuduğunuz fiyat, piyasanın yükseliyor, düşüyor veya istikrarlı olup olmadığını göstermek için 4 ve 13 haftalık ortalamalarla karşılaştırılır.",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Kenya",
+"kind": "list",
+"max": 30,
+"mt": "Kenya",
+"why": "not translated"
+},
+{
+"en": "Vietnam",
+"kind": "list",
+"max": 30,
+"mt": "Vietnam",
+"why": "not translated"
+},
+{
+"en": "Dispute over weight",
+"kind": "list",
+"max": 30,
+"mt": "Ağırlık konusundaki anlaşmazlık",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Not paid after reminders",
+"kind": "list",
+"max": 30,
+"mt": "Hatırlatmalardan sonra ödeme yapılmadı",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "D risk",
+"kind": "list",
+"max": 30,
+"mt": "D risk",
+"why": "not translated"
+},
+{
+"en": "Sales orders: ordered, delivered and still to deliver",
+"kind": "title",
+"max": 60,
+"mt": "Satış siparişleri: sipariş edildi, teslim edildi ve henüz teslim edilmedi",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Contract fulfilment: delivered against contracted",
+"kind": "title",
+"max": 60,
+"mt": "Sözleşmenin yerine getirilmesi: sözleşmeye dayalı olarak teslim edildi",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Receivables ageing: what each buyer owes and for how long",
+"kind": "title",
+"max": 60,
+"mt": "Alıcıların ne kadar borcu olduğu ve ne kadar süre borcu olduğu",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Milk price by quality tier: fat, protein and cell count",
+"kind": "title",
+"max": 60,
+"mt": "Süt fiyatı kalite seviyesine göre: yağ, protein ve hücre sayısı",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Best buyer finder: highest net price among your quotes",
+"kind": "title",
+"max": 60,
+"mt": "En iyi alıcı bulmacı: teklifleriniz arasında en yüksek net fiyat",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Sell now or store: is waiting worth the carrying cost",
+"kind": "title",
+"max": 60,
+"mt": "Şimdi satmak mı yoksa saklamak mı: beklemek taşıma maliyetine değer mi?",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, truck {truck} with load {ticket_id} of {product} leaves the farm at {leaves} and should arrive at {arrival}. Please keep a place at your weighbridge.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, yükü 3 olan kamyon çiftlikten 4'te ayrılıyor ve 5'te gelmek üzere.",
+"why": "placeholders must be exactly: {contact} {truck} {ticket_id} {product} {leaves} {arrival}"
+},
+{
+"en": "Hello {contact}, ticket {ticket_id}: weight leaving the farm {net_kg} kg, your weight {buyer_kg} kg, difference {diff_pct}. Weight check: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {contact}, bilet {ticket_id}: çiftlikten ayrılma ağırlığı {net_kg} kg, ağırlığınız {buyer_kg} kg, fark {diff_pct}.",
+"why": "placeholders must be exactly: {contact} {ticket_id} {net_kg} {buyer_kg} {diff_pct} {state}"
+},
+{
+"en": "Hello {contact}, quality result for delivery {line_id} of {product}: deduction {ded_pct}, worth {ded_value}. The paid weight is {net_t} t at {price_t} per tonne.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {contact}, {line_id}'ın teslimatı için kalite sonucu: düşüş {ded_pct}, değer {ded_value}.",
+"why": "placeholders must be exactly: {contact} {line_id} {product} {ded_pct} {ded_value} {net_t} {price_t}"
+},
+{
+"en": "Hello {contact}, about your claim {cl_id} on {product}: you claimed {claim_value}, which is {claim_pct} of the sale. We checked our weighbridge and quality records and will send our answer in writing.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {contact}, {product}'daki talebiniz hakkında: {claim_value}'i, satışın {claim_pct} olduğunu iddia ettiniz.",
+"why": "placeholders must be exactly: {contact} {cl_id} {product} {claim_value} {claim_pct}"
+},
+{
+"en": "Hello {contact}, contract {contract}: {delivered} t delivered of {contract_t} t, {left} t left, window ends {win_end}. Our forecast shows a shortfall of {shortfall} t. Can we agree a plan?",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {contact}, sözleşme {contract}: {delivered} t teslim {contract_t} t, {left} t sol, pencere sonları {win_end}.",
+"why": "placeholders must be exactly: {contact} {contract} {delivered} {contract_t} {left} {win_end} {shortfall}"
+},
+{
+"en": "Hello {contact}, {head} head of {herd}, about {avg_kg} kg each, are ready for collection. Sale {ls_id} is at {price_kg} per kg live. Please send transport and tell me the time.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, her biri yaklaşık 3 kg'lık 2 başlık, toplanmaya hazır.",
+"why": "placeholders must be exactly: {contact} {head} {herd} {avg_kg} {ls_id} {price_kg}"
+},
+{
+"en": "Hello, please book a truck for job {h_id} on {date}: {tonnes} t for {buyer}, about {km} km. Please confirm the truck and the loading time.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, lütfen iş için bir kamyon rezervasyonu yapın.",
+"why": "placeholders must be exactly: {h_id} {date} {tonnes} {buyer} {km}"
+},
+{
+"en": "Hello, we agree a rate of {rate} per tonne-km plus a fixed charge of {fixed} for job {h_id}. This gives {cost} for {tonnes} t. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, ton-km başına {rate} oranı ve iş için {h_id} sabit ücretle {fixed} kabul ediyoruz.",
+"why": "placeholders must be exactly: {rate} {fixed} {h_id} {cost} {tonnes}"
+},
+{
+"en": "Hello {driver}, load {ticket_id} for {buyer} leaves at {leaves} in truck {truck}. Please be at the weighbridge on time and carry the delivery note.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {driver}, {buyer} yaprakları {leaves} kamyona {truck} yükleyin. Lütfen zamanında tartı köprüsüne gelin ve teslimat notunu taşıyın.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {buyer} {leaves} {truck}"
+},
+{
+"en": "Hello {driver}, please bring the weighbridge slip for ticket {ticket_id} to the office as soon as you return. Net weight {net_kg} kg.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {driver}, geri döndüğünüzde lütfen bilet için ağırlık kaydını ofise getirin. Net ağırlığı {net_kg} kg.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {net_kg}"
+},
+{
+"en": "Hello {staff}, after {market} on {date} {unsold_kg} kg of {product} is unsold, worth {unsold_value}. Please bring it back and put it in cold storage.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {staff}, {market} {date} {unsold_kg} kg {product} {unsold_value} {unsold_value} {date} {unsold_kg} {product} {unsold_value} {unsold_value} {unsold_value} {unsold_value} {unsold_value} {unsold_value} {6} {6} {6} {6} {7} {7} {7} {8} {8} {8} {8} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {9} {",
+"why": "placeholders must be exactly: {staff} {market} {date} {unsold_kg} {product} {unsold_value}"
+},
+{
+"en": "Hello, buyer {buyer} owes {owed} and the credit limit is {limit}. Please decide today whether we deliver more before they pay.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, alıcı borçlu ve kredi limiti 2'dir.",
+"why": "placeholders must be exactly: {buyer} {owed} {limit}"
+},
+{
+"en": "Payment terms are {col:invoices.terms} days, so this invoice is due on {col:invoices.due}. Payments received so far: {col:invoices.paid}. Balance: {col:invoices.balance}.",
+"kind": "document",
+"max": null,
+"mt": "Ödeme süreleri {col:invoices.terms} gündür, bu nedenle bu fatura {col:invoices.due} tarihinde ödenmelidir.",
+"why": "placeholders must be exactly: {col:invoices.terms} {col:invoices.due} {col:invoices.paid} {col:invoices.balance}"
+},
+{
+"en": "To {col:lines.buyer}. Contact: {col:lines.contact}. Order: {col:lines.order}. Contract: {col:lines.contract}.",
+"kind": "document",
+"max": null,
+"mt": "İletişim, sipariş, sözleşme.",
+"why": "placeholders must be exactly: {col:lines.buyer} {col:lines.contact} {col:lines.order} {col:lines.contract}"
+},
+{
+"en": "The agreed price is {col:lines.price_t} per tonne and the sale value is {col:lines.value}. The haulage cost is {col:lines.haul}.",
+"kind": "document",
+"max": null,
+"mt": "Anlaşılmış fiyat ton başına {col:lines.price_t} ve satış değeri {col:lines.value}.",
+"why": "placeholders must be exactly: {col:lines.price_t} {col:lines.value} {col:lines.haul}"
+},
+{
+"en": "The seller will deliver {col:contracts.tonnes} tonnes of {col:contracts.product} at {col:contracts.price_t} per tonne, a total value of {col:contracts.value}. Delivery is between {col:contracts.win_start} and {col:contracts.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "Satıcı, toplam değeri {col:contracts.value} olan {col:contracts.price_t} tonluk {col:contracts.product} tonluk {col:contracts.price_t} tonluk {col:contracts.price_t} tonluk {col:contracts.price_t} tonluk {col:contracts.value} tonluk {col:contracts.value} tonluk {col:contracts.value} tonluk {col:contracts.value} tonluk {col:contracts.value} tonluk {col:contracts.win_start} tonluk {col:contracts.win_end} tonluk {col:contracts.win_start} tonluk {col:contracts.win_end} tonluk {col:contracts.win_start} tonluk {col:contracts.win_end} tonluk {col:contracts.win_start} tonluk {col:contracts.win_end} tonluk {col:contracts.win_end} tonluk {col:contracts.win_end} tonluk {6} tonluk {6} tonluk {6} tonluk {6}",
+"why": "placeholders must be exactly: {col:contracts.tonnes} {col:contracts.product} {col:contracts.price_t} {col:contracts.value} {col:contracts.win_start} {col:contracts.win_end}"
+},
+{
+"en": "To {col:fulfil.buyer}. Contract: {col:fulfil.contract}. Product: {col:fulfil.product}.",
+"kind": "document",
+"max": null,
+"mt": "Sözleşme: {col:fulfil.contract}. Ürün: {col:fulfil.product}.",
+"why": "placeholders must be exactly: {col:fulfil.buyer} {col:fulfil.contract} {col:fulfil.product}"
+},
+{
+"en": "Contracted: {col:fulfil.contract_t} tonnes. Delivered: {col:fulfil.delivered} tonnes, which is {col:fulfil.pct}. Left to deliver: {col:fulfil.left} tonnes before {col:fulfil.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "Sözleşme: {col:fulfil.contract_t} ton. Teslim: {col:fulfil.delivered} ton, yani {col:fulfil.pct}.",
+"why": "placeholders must be exactly: {col:fulfil.contract_t} {col:fulfil.delivered} {col:fulfil.pct} {col:fulfil.left} {col:fulfil.win_end}"
+},
+{
+"en": "To {col:ageing.buyer}. Contact: {col:ageing.contact}.",
+"kind": "document",
+"max": null,
+"mt": "İletişim: {col:ageing.contact}.",
+"why": "placeholders must be exactly: {col:ageing.buyer} {col:ageing.contact}"
+},
+{
+"en": "Total owed now: {col:ageing.owed}. Of this, {col:ageing.not_due} is not yet due.",
+"kind": "document",
+"max": null,
+"mt": "Şu anda toplam borcu: {col:ageing.owed}.",
+"why": "placeholders must be exactly: {col:ageing.owed} {col:ageing.not_due}"
+},
+{
+"en": "Your credit limit is {col:ageing.limit}. Please pay the late amounts this week or write to us if you dispute an invoice.",
+"kind": "document",
+"max": null,
+"mt": "Lütfen bu hafta geç ödeme yapın ya da bir fatura konusunda anlaşmazlık yaşıyorsanız bize yazın.",
+"why": "placeholders must be exactly: {col:ageing.limit}"
+},
+{
+"en": "To {col:quotes.buyer}. Contact: {col:quotes.contact}. Product: {col:quotes.product}, {col:quotes.qty_t} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "İletişim: {col:quotes.contact} Ürün: {col:quotes.product}, {col:quotes.qty_t} ton.",
+"why": "placeholders must be exactly: {col:quotes.buyer} {col:quotes.contact} {col:quotes.product} {col:quotes.qty_t}"
+},
+{
+"en": "The market price today is {col:quotes.market}. This quote is open for seven days.",
+"kind": "document",
+"max": null,
+"mt": "Bugün piyasa fiyatı 0'dur.",
+"why": "placeholders must be exactly: {col:quotes.market}"
+},
+{
+"en": "To {col:claims.buyer}. Contact: {col:claims.contact}. Delivery: {col:claims.line}, {col:claims.product}.",
+"kind": "document",
+"max": null,
+"mt": "İletişim: teslimat: {col:claims.line}, {col:claims.product}.",
+"why": "placeholders must be exactly: {col:claims.buyer} {col:claims.contact} {col:claims.line} {col:claims.product}"
+},
+{
+"en": "You claim {col:claims.claim_value} for {col:claims.cause}, which is {col:claims.claim_pct} of the sale value of {col:claims.line_value}.",
+"kind": "document",
+"max": null,
+"mt": "{col:claims.cause} için {col:claims.claim_value} talep edersiniz, bu {col:claims.claim_pct} {col:claims.line_value} satış değerinin {col:claims.claim_pct} dir.",
+"why": "placeholders must be exactly: {col:claims.claim_value} {col:claims.cause} {col:claims.claim_pct} {col:claims.line_value}"
+},
+{
+"en": "We checked our weighbridge and quality records. Our offer to settle is {col:claims.agreed}. The claim status is {col:claims.status}.",
+"kind": "document",
+"max": null,
+"mt": "Biz tartı köprüsü ve kalite kayıtlarını kontrol ettik.",
+"why": "placeholders must be exactly: {col:claims.agreed} {col:claims.status}"
+}
+]

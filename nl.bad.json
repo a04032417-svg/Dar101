@@ -1,0 +1,443 @@
+[
+{
+"en": "Hello {person}, we issued {qty} {ppe} on {date}. Please wear it every day for the work it is made for, and tell me when it is worn out.",
+"kind": "message",
+"max": null,
+"mt": "Draag het alsjeblieft elke dag voor het werk waarvoor het is gemaakt, en vertel me wanneer het versleten is.",
+"why": "placeholders must be exactly: {person} {qty} {ppe} {date}"
+},
+{
+"en": "Machine: {col:machines.name} ({col:machines.kind}). Status: {col:machines.owned}. Bought on {col:machines.buy_date} for {col:machines.price}.",
+"kind": "document",
+"max": null,
+"mt": "De machine: {col:machines.name} ({col:machines.kind}). Status: {col:machines.owned}.",
+"why": "placeholders must be exactly: {col:machines.name} {col:machines.kind} {col:machines.owned} {col:machines.buy_date} {col:machines.price}"
+},
+{
+"en": "The machine is {col:machines.age} years old with a planned life of {col:machines.life_years} years. Its value now is {col:machines.value_now}. The age check shows: {col:machines.state}.",
+"kind": "document",
+"max": null,
+"mt": "De machine is {col:machines.age} jaar oud met een geplande levensduur van {col:machines.life_years} jaar.",
+"why": "placeholders must be exactly: {col:machines.age} {col:machines.life_years} {col:machines.value_now} {col:machines.state}"
+},
+{
+"en": "Parts cost {col:repairs.parts_cost}. The workshop worked {col:repairs.labour_h} hours, which costs {col:repairs.labour_cost}. The total cost is {col:repairs.cost}.",
+"kind": "document",
+"max": null,
+"mt": "De werkplaats werkte {col:repairs.labour_h} uur, wat {col:repairs.labour_cost} kost.",
+"why": "placeholders must be exactly: {col:repairs.parts_cost} {col:repairs.labour_h} {col:repairs.labour_cost} {col:repairs.cost}"
+},
+{
+"en": "In the last 12 months the machine used {col:machines.fuel_l} litres of diesel in {col:machines.hours_year} hours. The fuel cost was {col:machines.fuel_cost}.",
+"kind": "document",
+"max": null,
+"mt": "In de afgelopen 12 maanden heeft de machine {col:machines.fuel_l} liter diesel gebruikt in {col:machines.hours_year} uur.",
+"why": "placeholders must be exactly: {col:machines.fuel_l} {col:machines.hours_year} {col:machines.fuel_cost}"
+},
+{
+"en": "The diesel price used is the average price paid on your fuel purchases. Every dip of the tank is compared with the stock in the books and a difference of more than {set:fuel_loss} is checked.",
+"kind": "document",
+"max": null,
+"mt": "De gebruikte dieselprijs is de gemiddelde prijs die u betaalt voor de aankoop van brandstof.",
+"why": "placeholders must be exactly: {set:fuel_loss}"
+},
+{
+"en": "Worker: {col:workers.name} from {col:workers.country}. Type: {col:workers.type}. Main task: {col:workers.main_task}.",
+"kind": "document",
+"max": null,
+"mt": "Werknemer: {col:workers.name} van {col:workers.country}. Type: {col:workers.type}.",
+"why": "placeholders must be exactly: {col:workers.name} {col:workers.country} {col:workers.type} {col:workers.main_task}"
+},
+{
+"en": "Month: {col:payroll.month}. Prepared by {col:payroll.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Maand: voorbereid door {col:payroll.manager}.",
+"why": "placeholders must be exactly: {col:payroll.month} {col:payroll.manager}"
+},
+{
+"en": "Permanent staff pay is {col:payroll.perm_pay}, seasonal workers pay is {col:payroll.seasonal_pay} and piece-rate pay is {col:payroll.piece_pay}. Allowances and bonuses are {col:payroll.allowances}. The total pay is {col:payroll.pay_total}.",
+"kind": "document",
+"max": null,
+"mt": "Het loon van de vaste personeelsleden is {col:payroll.perm_pay}, het loon van de seizoenarbeiders is {col:payroll.seasonal_pay} en het stukloon is {col:payroll.piece_pay}.",
+"why": "placeholders must be exactly: {col:payroll.perm_pay} {col:payroll.seasonal_pay} {col:payroll.piece_pay} {col:payroll.allowances} {col:payroll.pay_total}"
+},
+{
+"en": "Employer costs are {col:payroll.oncost_amt}, so the labour cost of the month is {col:payroll.labour_cost} for {col:payroll.hours} hours. The budget was {col:payroll.budget} and the check shows: {col:payroll.state}.",
+"kind": "document",
+"max": null,
+"mt": "De kosten van de werkgever zijn {col:payroll.oncost_amt}, dus de arbeidskosten van de maand zijn {col:payroll.labour_cost} voor {col:payroll.hours} uur.",
+"why": "placeholders must be exactly: {col:payroll.oncost_amt} {col:payroll.labour_cost} {col:payroll.hours} {col:payroll.budget} {col:payroll.state}"
+},
+{
+"en": "Picker: {col:workers.name}. Team leader: {col:workers.leader}.",
+"kind": "document",
+"max": null,
+"mt": "Teamleider:",
+"why": "placeholders must be exactly: {col:workers.name} {col:workers.leader}"
+},
+{
+"en": "During the contract the picker delivered {col:workers.piece_kg} kilograms of accepted fruit and vegetables. The piece-rate pay is {col:workers.piece_pay}.",
+"kind": "document",
+"max": null,
+"mt": "Tijdens het contract levert de plukker {col:workers.piece_kg} kg aanvaarde groenten en fruit.",
+"why": "placeholders must be exactly: {col:workers.piece_kg} {col:workers.piece_pay}"
+},
+{
+"en": "Time work on other days was paid {col:workers.pay}. The total pay is {col:workers.total_pay} for {col:workers.hours} hours.",
+"kind": "document",
+"max": null,
+"mt": "Het totale loon is {col:workers.total_pay} voor {col:workers.hours} uur.",
+"why": "placeholders must be exactly: {col:workers.pay} {col:workers.total_pay} {col:workers.hours}"
+},
+{
+"en": "Month: {col:labourneed.month}. Planned by {col:labourneed.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Maand: {col:labourneed.month}.",
+"why": "placeholders must be exactly: {col:labourneed.month} {col:labourneed.manager}"
+},
+{
+"en": "The farm work of the month needs {col:labourneed.hours_needed} hours, which is {col:labourneed.fte} full-time workers. We have {col:labourneed.perm_workers} permanent staff, so we need {col:labourneed.seasonal_needed} seasonal workers.",
+"kind": "document",
+"max": null,
+"mt": "De boerderijwerkzaamheden van de maand hebben {col:labourneed.hours_needed} uur nodig, dat is {col:labourneed.fte} voltijdswerkers.",
+"why": "placeholders must be exactly: {col:labourneed.hours_needed} {col:labourneed.fte} {col:labourneed.perm_workers} {col:labourneed.seasonal_needed}"
+},
+{
+"en": "We have {col:labourneed.seasonal_hired} seasonal workers on contract, so {col:labourneed.gap} workers are still short. The check shows: {col:labourneed.state}.",
+"kind": "document",
+"max": null,
+"mt": "We hebben seizoenarbeiders op contract, dus er is nog steeds een tekort aan arbeiders.",
+"why": "placeholders must be exactly: {col:labourneed.seasonal_hired} {col:labourneed.gap} {col:labourneed.state}"
+},
+{
+"en": "What happened: {col:safety.what}. How serious: {col:safety.severity}. Days lost: {col:safety.days_lost}. Cost: {col:safety.cost}.",
+"kind": "document",
+"max": null,
+"mt": "Wat is er gebeurd, hoe ernstig, dagen verloren, kosten...",
+"why": "placeholders must be exactly: {col:safety.what} {col:safety.severity} {col:safety.days_lost} {col:safety.cost}"
+},
+{
+"en": "The action check shows: {col:safety.state}. The record was closed on {col:safety.closed_on}.",
+"kind": "document",
+"max": null,
+"mt": "De actiecontrole toont aan: {col:safety.state}.",
+"why": "placeholders must be exactly: {col:safety.state} {col:safety.closed_on}"
+},
+{
+"en": "each quote is cut to a net price after deductions, haulage and days to payment, so the best buyer pays most and not offers most",
+"kind": "sentence",
+"max": 160,
+"mt": "elke offerte wordt gesneden tot een netto prijs na aftrek, transport en dagen tot betaling, zodat de beste koper betaalt het meest en niet de meeste aanbiedingen",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Forward contract fulfilment with shortfall penalty",
+"kind": "label",
+"max": 50,
+"mt": "Uitvoering van een termijncontract met tekortkomingsplicht",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "tonnes delivered against tonnes contracted, the weekly pace you still need, the harvest still to come and the penalty you face if it falls short",
+"kind": "sentence",
+"max": 160,
+"mt": "de tonnen die zijn geleverd tegenover de contractuele tonnen, het wekelijkse tempo dat u nog nodig heeft, de oogst die nog moet worden geoogst en de boete die u krijgt als deze niet wordt geoogst",
+"why": "too long: 195 characters, the limit is 160"
+},
+{
+"en": "what each buyer owes split into not yet due and late by 1 to 30, 31 to 60, 61 to 90 and over 90 days, with the credit left and a warning at the limit",
+"kind": "sentence",
+"max": 160,
+"mt": "de schuld van elke koper, onderverdeeld in nog niet verschuldigd en achterstallig van 1 tot 30, 31 tot 60, 61 tot 90 en meer dan 90 dagen, met het resterende krediet en een waarschuwing bij de limiet;",
+"why": "too long: 200 characters, the limit is 160"
+},
+{
+"en": "weight leaving the farm is compared with the weight the buyer reports and every difference above your tolerance is flagged before it turns into a claim",
+"kind": "sentence",
+"max": 160,
+"mt": "Het gewicht dat de boerderij verlaat, wordt vergeleken met het gewicht dat de koper rapporteert en elk verschil boven uw tolerantie wordt gemarkeerd voordat het een claim wordt.",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "plant health, origin and packing papers for each shipment show who issues them, the days they take and which ones are overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "de gewasgezondheids-, oorsprongs- en verpakkingsdocumenten voor elke zending, met vermelding van wie deze heeft afgegeven, de dagen waarin deze zijn afgegeven en welke dagen achterblijven",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "Vietnam",
+"kind": "list",
+"max": 30,
+"mt": "Vietnam",
+"why": "not translated"
+},
+{
+"en": "Thailand",
+"kind": "list",
+"max": 30,
+"mt": "Thailand",
+"why": "not translated"
+},
+{
+"en": "Ghana",
+"kind": "list",
+"max": 30,
+"mt": "Ghana",
+"why": "not translated"
+},
+{
+"en": "Canada",
+"kind": "list",
+"max": 30,
+"mt": "Canada",
+"why": "not translated"
+},
+{
+"en": "Japan",
+"kind": "list",
+"max": 30,
+"mt": "Japan",
+"why": "not translated"
+},
+{
+"en": "Weighbridge tickets: farm weight against buyer weight",
+"kind": "title",
+"max": 60,
+"mt": "Weegbrieftickets: gewicht van het bedrijf ten opzichte van het gewicht van de koper",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Contract, t",
+"kind": "label",
+"max": null,
+"mt": "Contract, t",
+"why": "not translated"
+},
+{
+"en": "Needed per week, t",
+"kind": "label",
+"max": null,
+"mt": "Needed per week, t",
+"why": "not translated"
+},
+{
+"en": "Invoices: amount, tax, due date and balance owed",
+"kind": "title",
+"max": 60,
+"mt": "Factoren: bedrag, belasting, vervaldatum en verschuldigd saldo",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Receivables ageing: what each buyer owes and for how long",
+"kind": "title",
+"max": 60,
+"mt": "Verouderde vorderingen: hoeveel elke koper verschuldigd is en voor hoe lang",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Trend",
+"kind": "label",
+"max": null,
+"mt": "Trend",
+"why": "not translated"
+},
+{
+"en": "Tonne-km",
+"kind": "label",
+"max": null,
+"mt": "Tonne-km",
+"why": "not translated"
+},
+{
+"en": "Export documents: certificates and papers for each shipment",
+"kind": "title",
+"max": 60,
+"mt": "Uitvoerdocumenten: certificaten en papieren voor elke zending",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Document",
+"kind": "label",
+"max": null,
+"mt": "Document",
+"why": "not translated"
+},
+{
+"en": "Reserve per kg",
+"kind": "label",
+"max": null,
+"mt": "Reserve per kg",
+"why": "not translated"
+},
+{
+"en": "Score",
+"kind": "label",
+"max": null,
+"mt": "Score",
+"why": "not translated"
+},
+{
+"en": "Grade",
+"kind": "label",
+"max": null,
+"mt": "Grade",
+"why": "not translated"
+},
+{
+"en": "Forward contract fill: delivered against contracted",
+"kind": "title",
+"max": 60,
+"mt": "Termijncontractuele invulling: tegen contractuele vergoeding geleverd",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, ticket {ticket_id}: weight leaving the farm {net_kg} kg, your weight {buyer_kg} kg, difference {diff_pct}. Weight check: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {contact}, ticket {ticket_id}: gewicht verlaten van de boerderij {net_kg} kg, uw gewicht {buyer_kg} kg, verschil {diff_pct}.",
+"why": "placeholders must be exactly: {contact} {ticket_id} {net_kg} {buyer_kg} {diff_pct} {state}"
+},
+{
+"en": "Hello {contact}, quality result for delivery {line_id} of {product}: deduction {ded_pct}, worth {ded_value}. The paid weight is {net_t} t at {price_t} per tonne.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {contact}, kwaliteitsresultaat voor de levering {line_id} van {product}: aftrek {ded_pct}, waarde {ded_value}.",
+"why": "placeholders must be exactly: {contact} {line_id} {product} {ded_pct} {ded_value} {net_t} {price_t}"
+},
+{
+"en": "Hello {contact}, thank you for your payment of {amount} received on {date} for invoice {invoice}. Payment type: {type}.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {contact}, bedankt voor uw betaling van {amount} ontvangen op {date} voor de factuur {invoice}.",
+"why": "placeholders must be exactly: {contact} {amount} {date} {invoice} {type}"
+},
+{
+"en": "Hello {contact}, contract {contract}: {delivered} t delivered of {contract_t} t, {left} t left, window ends {win_end}. Our forecast shows a shortfall of {shortfall} t. Can we agree a plan?",
+"kind": "message",
+"max": null,
+"mt": "Hallo {contact}, contract {contract}: {delivered} t geleverd van {contract_t} t, {left} t links, venster eindigt {win_end}.",
+"why": "placeholders must be exactly: {contact} {contract} {delivered} {contract_t} {left} {win_end} {shortfall}"
+},
+{
+"en": "Hello, please book a truck for job {h_id} on {date}: {tonnes} t for {buyer}, about {km} km. Please confirm the truck and the loading time.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, boek een vrachtwagen voor de klus op {date}: {tonnes} t voor {buyer}, ongeveer {km} km.",
+"why": "placeholders must be exactly: {h_id} {date} {tonnes} {buyer} {km}"
+},
+{
+"en": "Hello, we agree a rate of {rate} per tonne-km plus a fixed charge of {fixed} for job {h_id}. This gives {cost} for {tonnes} t. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, we zijn het eens over een tarief van {rate} per ton-km plus een vaste vergoeding van {fixed} voor werk {h_id}.",
+"why": "placeholders must be exactly: {rate} {fixed} {h_id} {cost} {tonnes}"
+},
+{
+"en": "Hello {driver}, please bring the weighbridge slip for ticket {ticket_id} to the office as soon as you return. Net weight {net_kg} kg.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {driver}, breng alstublieft de weegbrief voor het ticket {ticket_id} naar het kantoor zodra u terugkeert.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {net_kg}"
+},
+{
+"en": "Hello {staff}, the stall at {market} opens at {opens} on {date}. Please load {taken_kg} kg of {product} and the price list at {price_kg} per kg.",
+"kind": "message",
+"max": null,
+"mt": "Hallo {staff}, de kraan op {market} opent op {opens} op {date}.",
+"why": "placeholders must be exactly: {staff} {market} {opens} {date} {taken_kg} {product} {price_kg}"
+},
+{
+"en": "Hello, buyer {buyer} owes {owed} and the credit limit is {limit}. Please decide today whether we deliver more before they pay.",
+"kind": "message",
+"max": null,
+"mt": "Hallo, de koper heeft een schuld en de kredietlimiet is twee.",
+"why": "placeholders must be exactly: {buyer} {owed} {limit}"
+},
+{
+"en": "Payment terms are {col:invoices.terms} days, so this invoice is due on {col:invoices.due}. Payments received so far: {col:invoices.paid}. Balance: {col:invoices.balance}.",
+"kind": "document",
+"max": null,
+"mt": "Betalingstermijnen zijn {col:invoices.terms} dagen, dus deze factuur is verschuldigd op {col:invoices.due}.",
+"why": "placeholders must be exactly: {col:invoices.terms} {col:invoices.due} {col:invoices.paid} {col:invoices.balance}"
+},
+{
+"en": "To {col:lines.buyer}. Contact: {col:lines.contact}. Order: {col:lines.order}. Contract: {col:lines.contract}.",
+"kind": "document",
+"max": null,
+"mt": "Contact, bestelling, contract.",
+"why": "placeholders must be exactly: {col:lines.buyer} {col:lines.contact} {col:lines.order} {col:lines.contract}"
+},
+{
+"en": "The agreed price is {col:lines.price_t} per tonne and the sale value is {col:lines.value}. The haulage cost is {col:lines.haul}.",
+"kind": "document",
+"max": null,
+"mt": "De overeengekomen prijs is {col:lines.price_t} per ton en de verkoopwaarde is {col:lines.value}.",
+"why": "placeholders must be exactly: {col:lines.price_t} {col:lines.value} {col:lines.haul}"
+},
+{
+"en": "The seller will deliver {col:contracts.tonnes} tonnes of {col:contracts.product} at {col:contracts.price_t} per tonne, a total value of {col:contracts.value}. Delivery is between {col:contracts.win_start} and {col:contracts.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "De verkoper zal {col:contracts.tonnes} ton {col:contracts.product} leveren tegen {col:contracts.price_t} per ton, voor een totale waarde van {col:contracts.value}.",
+"why": "placeholders must be exactly: {col:contracts.tonnes} {col:contracts.product} {col:contracts.price_t} {col:contracts.value} {col:contracts.win_start} {col:contracts.win_end}"
+},
+{
+"en": "If the seller delivers less than the contracted quantity inside the window, the buyer may charge a penalty of {col:contracts.penalty_pct} of the value of the missing tonnes. The buyer pays within the terms agreed in the buyer file.",
+"kind": "document",
+"max": null,
+"mt": "Indien de verkoper in de verkoopruimte minder dan de contractuele hoeveelheid levert, kan de koper een boete in rekening brengen van de waarde van de ontbrekende tonnen.",
+"why": "placeholders must be exactly: {col:contracts.penalty_pct}"
+},
+{
+"en": "Contracted: {col:fulfil.contract_t} tonnes. Delivered: {col:fulfil.delivered} tonnes, which is {col:fulfil.pct}. Left to deliver: {col:fulfil.left} tonnes before {col:fulfil.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "Contract: {col:fulfil.contract_t} ton. Leverde: {col:fulfil.delivered} ton, wat {col:fulfil.pct} is.",
+"why": "placeholders must be exactly: {col:fulfil.contract_t} {col:fulfil.delivered} {col:fulfil.pct} {col:fulfil.left} {col:fulfil.win_end}"
+},
+{
+"en": "To finish in time we need {col:fulfil.per_week} tonnes each week. The harvest can still give {col:fulfil.forecast_t} tonnes, so the shortfall is {col:fulfil.shortfall} tonnes and the penalty at stake is {col:fulfil.penalty}. Status: {col:fulfil.state}.",
+"kind": "document",
+"max": null,
+"mt": "De oogst kan nog steeds {col:fulfil.forecast_t} ton geven, dus het tekort is {col:fulfil.shortfall} ton en de straf op het spel is {col:fulfil.penalty}.",
+"why": "placeholders must be exactly: {col:fulfil.per_week} {col:fulfil.forecast_t} {col:fulfil.shortfall} {col:fulfil.penalty} {col:fulfil.state}"
+},
+{
+"en": "To {col:ageing.buyer}. Contact: {col:ageing.contact}.",
+"kind": "document",
+"max": null,
+"mt": "Contact: {col:ageing.contact}.",
+"why": "placeholders must be exactly: {col:ageing.buyer} {col:ageing.contact}"
+},
+{
+"en": "We checked our weighbridge and quality records. Our offer to settle is {col:claims.agreed}. The claim status is {col:claims.status}.",
+"kind": "document",
+"max": null,
+"mt": "We hebben onze kwaliteitsgegevens gecontroleerd.",
+"why": "placeholders must be exactly: {col:claims.agreed} {col:claims.status}"
+},
+{
+"en": "Product: {col:plan.product}. Output this year: {col:plan.expected_t} tonnes. Sold this year: {col:plan.sold_t} tonnes at an average of {col:plan.avg_price} per tonne.",
+"kind": "document",
+"max": null,
+"mt": "Productie dit jaar: {col:plan.expected_t} ton Verkocht dit jaar: {col:plan.sold_t} ton met een gemiddelde van {col:plan.avg_price} ton.",
+"why": "placeholders must be exactly: {col:plan.product} {col:plan.expected_t} {col:plan.sold_t} {col:plan.avg_price}"
+},
+{
+"en": "Our minimum price is {col:plan.min_price} and the market price is {col:plan.market_now}. The market check shows: {col:plan.state}.",
+"kind": "document",
+"max": null,
+"mt": "Onze minimumprijs is {col:plan.min_price} en de marktprijs is {col:plan.market_now}.",
+"why": "placeholders must be exactly: {col:plan.min_price} {col:plan.market_now} {col:plan.state}"
+},
+{
+"en": "Contracted tonnes: {col:plan.contracted_t}, {col:plan.contract_share} of the output. Stock in store: {col:plan.in_store_t} tonnes, worth {col:plan.stock_value}.",
+"kind": "document",
+"max": null,
+"mt": "De in de overeenkomst vastgestelde hoeveelheden: {col:plan.contracted_t}, {col:plan.contract_share} van de produktie.",
+"why": "placeholders must be exactly: {col:plan.contracted_t} {col:plan.contract_share} {col:plan.in_store_t} {col:plan.stock_value}"
+}
+]

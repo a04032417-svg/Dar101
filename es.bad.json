@@ -1,0 +1,541 @@
+[
+{
+"en": "Hello {person}, we issued {qty} {ppe} on {date}. Please wear it every day for the work it is made for, and tell me when it is worn out.",
+"kind": "message",
+"max": null,
+"mt": "Por favor, llévalo todos los días para el trabajo para el que está hecho, y dígame cuando esté desgastado.",
+"why": "placeholders must be exactly: {person} {qty} {ppe} {date}"
+},
+{
+"en": "Machine: {col:machines.name} ({col:machines.kind}). Status: {col:machines.owned}. Bought on {col:machines.buy_date} for {col:machines.price}.",
+"kind": "document",
+"max": null,
+"mt": "Se ha comprado en 3 para 4",
+"why": "placeholders must be exactly: {col:machines.name} {col:machines.kind} {col:machines.owned} {col:machines.buy_date} {col:machines.price}"
+},
+{
+"en": "The machine is {col:machines.age} years old with a planned life of {col:machines.life_years} years. Its value now is {col:machines.value_now}. The age check shows: {col:machines.state}.",
+"kind": "document",
+"max": null,
+"mt": "La máquina tiene {col:machines.age} años de antigüedad con una vida prevista de {col:machines.life_years} años. Su valor ahora es {col:machines.value_now}.",
+"why": "placeholders must be exactly: {col:machines.age} {col:machines.life_years} {col:machines.value_now} {col:machines.state}"
+},
+{
+"en": "In the last 12 months it worked {col:machines.hours_year} hours. Repairs cost {col:machines.repair_year} and fuel cost {col:machines.fuel_cost}. The cost of one hour is {col:machines.cost_hour}. It was down for {col:machines.down_days} days.",
+"kind": "document",
+"max": null,
+"mt": "En los últimos 12 meses ha trabajado {col:machines.hours_year} horas. El costo de reparaciones {col:machines.repair_year} y el costo de combustible {col:machines.fuel_cost}. El costo de una hora es {col:machines.cost_hour}.",
+"why": "placeholders must be exactly: {col:machines.hours_year} {col:machines.repair_year} {col:machines.fuel_cost} {col:machines.cost_hour} {col:machines.down_days}"
+},
+{
+"en": "Work done: {col:repairs.repair}. Repaired by {col:repairs.repairer}.",
+"kind": "document",
+"max": null,
+"mt": "Trabajo hecho: {col:repairs.repair}.",
+"why": "placeholders must be exactly: {col:repairs.repair} {col:repairs.repairer}"
+},
+{
+"en": "In the last 12 months the machine used {col:machines.fuel_l} litres of diesel in {col:machines.hours_year} hours. The fuel cost was {col:machines.fuel_cost}.",
+"kind": "document",
+"max": null,
+"mt": "En los últimos 12 meses, la máquina consumió {col:machines.fuel_l} litros de diesel en {col:machines.hours_year} horas.",
+"why": "placeholders must be exactly: {col:machines.fuel_l} {col:machines.hours_year} {col:machines.fuel_cost}"
+},
+{
+"en": "The diesel price used is the average price paid on your fuel purchases. Every dip of the tank is compared with the stock in the books and a difference of more than {set:fuel_loss} is checked.",
+"kind": "document",
+"max": null,
+"mt": "El precio del diésel utilizado es el precio medio pagado por sus compras de combustible.",
+"why": "placeholders must be exactly: {set:fuel_loss}"
+},
+{
+"en": "Worker: {col:workers.name} from {col:workers.country}. Type: {col:workers.type}. Main task: {col:workers.main_task}.",
+"kind": "document",
+"max": null,
+"mt": "Trabajadora: {col:workers.name} desde {col:workers.country}. Tipo: {col:workers.type}.",
+"why": "placeholders must be exactly: {col:workers.name} {col:workers.country} {col:workers.type} {col:workers.main_task}"
+},
+{
+"en": "Month: {col:payroll.month}. Prepared by {col:payroll.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Mes: Preparado por 1.",
+"why": "placeholders must be exactly: {col:payroll.month} {col:payroll.manager}"
+},
+{
+"en": "Permanent staff pay is {col:payroll.perm_pay}, seasonal workers pay is {col:payroll.seasonal_pay} and piece-rate pay is {col:payroll.piece_pay}. Allowances and bonuses are {col:payroll.allowances}. The total pay is {col:payroll.pay_total}.",
+"kind": "document",
+"max": null,
+"mt": "El salario del personal permanente es {col:payroll.perm_pay}, el salario de los trabajadores de temporada es {col:payroll.seasonal_pay} y el salario por pieza es {col:payroll.piece_pay}.",
+"why": "placeholders must be exactly: {col:payroll.perm_pay} {col:payroll.seasonal_pay} {col:payroll.piece_pay} {col:payroll.allowances} {col:payroll.pay_total}"
+},
+{
+"en": "Employer costs are {col:payroll.oncost_amt}, so the labour cost of the month is {col:payroll.labour_cost} for {col:payroll.hours} hours. The budget was {col:payroll.budget} and the check shows: {col:payroll.state}.",
+"kind": "document",
+"max": null,
+"mt": "Los costes del empleador son {col:payroll.oncost_amt}, por lo que el coste de la mano de obra del mes es {col:payroll.labour_cost} por {col:payroll.hours} horas.",
+"why": "placeholders must be exactly: {col:payroll.oncost_amt} {col:payroll.labour_cost} {col:payroll.hours} {col:payroll.budget} {col:payroll.state}"
+},
+{
+"en": "Piece-rate settlement of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "Se trata de la parte de las operaciones de liquidación de las operaciones de liquidación de las operaciones de liquidación de las operaciones de liquidación de las operaciones de liquidación de las operaciones de liquidación de las operaciones de liquidación de las operaciones",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Picker: {col:workers.name}. Team leader: {col:workers.leader}.",
+"kind": "document",
+"max": null,
+"mt": "Líder del equipo:",
+"why": "placeholders must be exactly: {col:workers.name} {col:workers.leader}"
+},
+{
+"en": "During the contract the picker delivered {col:workers.piece_kg} kilograms of accepted fruit and vegetables. The piece-rate pay is {col:workers.piece_pay}.",
+"kind": "document",
+"max": null,
+"mt": "Durante el contrato, el recolector entregó {col:workers.piece_kg} kilogramos de frutas y verduras aceptadas.",
+"why": "placeholders must be exactly: {col:workers.piece_kg} {col:workers.piece_pay}"
+},
+{
+"en": "Time work on other days was paid {col:workers.pay}. The total pay is {col:workers.total_pay} for {col:workers.hours} hours.",
+"kind": "document",
+"max": null,
+"mt": "El tiempo de trabajo en otros días fue pagado {col:workers.pay}.",
+"why": "placeholders must be exactly: {col:workers.pay} {col:workers.total_pay} {col:workers.hours}"
+},
+{
+"en": "The certificate was issued on {col:train.issued} and is valid for {col:train.valid_months} months. It ends on {col:train.expires}, which is in {col:train.days_left} days.",
+"kind": "document",
+"max": null,
+"mt": "El certificado se emitió el {col:train.issued} y es válido durante {col:train.valid_months} meses.",
+"why": "placeholders must be exactly: {col:train.issued} {col:train.valid_months} {col:train.expires} {col:train.days_left}"
+},
+{
+"en": "The check shows: {col:train.state}. The next course is planned for {col:train.course_on}. The course cost {col:train.cost}.",
+"kind": "document",
+"max": null,
+"mt": "El cheque muestra: {col:train.state}. El próximo curso está previsto para {col:train.course_on}.",
+"why": "placeholders must be exactly: {col:train.state} {col:train.course_on} {col:train.cost}"
+},
+{
+"en": "The farm work of the month needs {col:labourneed.hours_needed} hours, which is {col:labourneed.fte} full-time workers. We have {col:labourneed.perm_workers} permanent staff, so we need {col:labourneed.seasonal_needed} seasonal workers.",
+"kind": "document",
+"max": null,
+"mt": "El trabajo agrícola del mes necesita {col:labourneed.hours_needed} horas, que son {col:labourneed.fte} trabajadores a tiempo completo.",
+"why": "placeholders must be exactly: {col:labourneed.hours_needed} {col:labourneed.fte} {col:labourneed.perm_workers} {col:labourneed.seasonal_needed}"
+},
+{
+"en": "We have {col:labourneed.seasonal_hired} seasonal workers on contract, so {col:labourneed.gap} workers are still short. The check shows: {col:labourneed.state}.",
+"kind": "document",
+"max": null,
+"mt": "Tenemos trabajadores de temporada bajo contrato, por lo que los trabajadores todavía son escasos.",
+"why": "placeholders must be exactly: {col:labourneed.seasonal_hired} {col:labourneed.gap} {col:labourneed.state}"
+},
+{
+"en": "What happened: {col:safety.what}. How serious: {col:safety.severity}. Days lost: {col:safety.days_lost}. Cost: {col:safety.cost}.",
+"kind": "document",
+"max": null,
+"mt": "¿Qué pasó? ¿Qué tan grave? ¿Días perdidos?",
+"why": "placeholders must be exactly: {col:safety.what} {col:safety.severity} {col:safety.days_lost} {col:safety.cost}"
+},
+{
+"en": "Labour need against workers available",
+"kind": "title",
+"max": 60,
+"mt": "Necesidad de mano de obra frente a los trabajadores disponibles",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Best buyer finder by net price in cash",
+"kind": "label",
+"max": 50,
+"mt": "Mejor buscador de compradores por precio neto en efectivo",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Net price per tonne after haulage and deductions",
+"kind": "label",
+"max": 50,
+"mt": "Precio neto por tonelada después del transporte y deducciones",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "each delivery shows the price, the moisture or damage deduction, the haulage and the net price per tonne, set against the market price and your minimum price",
+"kind": "sentence",
+"max": 160,
+"mt": "cada entrega muestra el precio, la deducción por humedad o daños, el transporte y el precio neto por tonelada, comparado con el precio de mercado y su precio mínimo",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Forward contract fulfilment with shortfall penalty",
+"kind": "label",
+"max": 50,
+"mt": "Cumplimiento de contratos a plazo con sanción por incumplimiento",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "tonnes delivered against tonnes contracted, the weekly pace you still need, the harvest still to come and the penalty you face if it falls short",
+"kind": "sentence",
+"max": 160,
+"mt": "toneladas entregadas frente a las toneladas contratadas, el ritmo semanal que aún necesita, la cosecha que aún está por venir y la sanción que enfrenta si no lo hace",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "what each buyer owes split into not yet due and late by 1 to 30, 31 to 60, 61 to 90 and over 90 days, with the credit left and a warning at the limit",
+"kind": "sentence",
+"max": 160,
+"mt": "cuánto debe cada comprador dividido en aún vencido y atrasado de 1 a 30, de 31 a 60, de 61 a 90 y de más de 90 días, con el crédito restante y una advertencia en el límite",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "weight leaving the farm is compared with the weight the buyer reports and every difference above your tolerance is flagged before it turns into a claim",
+"kind": "sentence",
+"max": 160,
+"mt": "El peso que sale de la granja se compara con el peso que informa el comprador y toda diferencia por encima de su tolerancia se señala antes de que se convierta en una reclamación",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "every claim is linked to the delivery, shows its share of the sale value and warns when it stays open beyond the days you set",
+"kind": "sentence",
+"max": 160,
+"mt": "cada reclamación está vinculada a la entrega, muestra su participación en el valor de venta y advierte cuando permanece abierta más allá de los días que haya establecido",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "storage cost, shrink and interest are set against the price you expect later, with the later price you need to break even",
+"kind": "sentence",
+"max": 160,
+"mt": "el costo de almacenamiento, la contracción y los intereses se establecen en contra del precio que espera más tarde, con el precio más tarde que necesita para llegar a punto",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "India",
+"kind": "list",
+"max": 30,
+"mt": "India",
+"why": "not translated"
+},
+{
+"en": "Indonesia",
+"kind": "list",
+"max": 30,
+"mt": "Indonesia",
+"why": "not translated"
+},
+{
+"en": "Vietnam",
+"kind": "list",
+"max": 30,
+"mt": "Vietnam",
+"why": "not translated"
+},
+{
+"en": "Argentina",
+"kind": "list",
+"max": 30,
+"mt": "Argentina",
+"why": "not translated"
+},
+{
+"en": "Canada",
+"kind": "list",
+"max": 30,
+"mt": "En el caso de los Estados miembros:",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "FarmLink Haulage",
+"kind": "list",
+"max": 30,
+"mt": "Transporte de mercancías FarmLink",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Saturday village market",
+"kind": "list",
+"max": 30,
+"mt": "Mercado del pueblo de los sábados",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Not paid after reminders",
+"kind": "list",
+"max": 30,
+"mt": "No se paga después de los recordatorios",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Bank or currency problem",
+"kind": "list",
+"max": 30,
+"mt": "Problemas bancarios o monetarios",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Sales lines: price, deduction, haulage and net price",
+"kind": "title",
+"max": 60,
+"mt": "Las líneas de venta: precio, deducción, transporte y precio neto",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Weighbridge tickets: farm weight against buyer weight",
+"kind": "title",
+"max": 60,
+"mt": "Los billetes de puente de pesaje: peso de la explotación frente al peso del comprador",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Invoices: amount, tax, due date and balance owed",
+"kind": "title",
+"max": 60,
+"mt": "Las facturas: importe, impuestos, fecha de vencimiento y saldo adeudado",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Receivables ageing: what each buyer owes and for how long",
+"kind": "title",
+"max": 60,
+"mt": "Envejecimiento de las deudas: cuánto debe cada comprador y por cuánto tiempo",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Buyer price quotes compared: the best net price in cash",
+"kind": "title",
+"max": 60,
+"mt": "Comparación de las cotizaciones de los precios de compra: el mejor precio neto en efectivo",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Quality claims and deductions raised by buyers",
+"kind": "title",
+"max": 60,
+"mt": "Reclamaciones de calidad y deducciones planteadas por los compradores",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Transport and haulage cost for each delivery",
+"kind": "title",
+"max": 60,
+"mt": "Costo del transporte y del transporte de mercancías por cada entrega",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Export documents: certificates and papers for each shipment",
+"kind": "title",
+"max": 60,
+"mt": "Documentos de exportación: certificados y documentos para cada envío",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Milk price by quality tier: fat, protein and cell count",
+"kind": "title",
+"max": 60,
+"mt": "Precio de la leche por nivel de calidad: grasa, proteínas y número de células",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Marketing plan: minimum price and stock per product",
+"kind": "title",
+"max": 60,
+"mt": "Plan de comercialización: precio mínimo y existencias por producto",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Net price per tonne after transport and deductions",
+"kind": "title",
+"max": 60,
+"mt": "Precio neto por tonelada después del transporte y deducciones",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Best buyer finder: highest net price among your quotes",
+"kind": "title",
+"max": 60,
+"mt": "Mejor buscador de compradores: el precio neto más alto entre sus cotizaciones",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Sell now or store: is waiting worth the carrying cost",
+"kind": "title",
+"max": 60,
+"mt": "Vender ahora o almacenar: ¿vale la pena la espera el coste de transporte",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, the {product} harvest is ready. For contract {cid} we propose delivery from {win_start} to {win_end}. Please tell me which days suit you.",
+"kind": "message",
+"max": null,
+"mt": "Hola, la cosecha está lista, para el contrato, proponemos la entrega de 3 a 4 días.",
+"why": "placeholders must be exactly: {contact} {product} {cid} {win_start} {win_end}"
+},
+{
+"en": "Hello {contact}, truck {truck} with load {ticket_id} of {product} leaves the farm at {leaves} and should arrive at {arrival}. Please keep a place at your weighbridge.",
+"kind": "message",
+"max": null,
+"mt": "Hola, el camión con carga de 3 sale de la granja a 4 y debe llegar a 5 por favor, guarde un lugar en su puente de pesas.",
+"why": "placeholders must be exactly: {contact} {truck} {ticket_id} {product} {leaves} {arrival}"
+},
+{
+"en": "Hello {contact}, ticket {ticket_id}: weight leaving the farm {net_kg} kg, your weight {buyer_kg} kg, difference {diff_pct}. Weight check: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Hola {contact}, boleto {ticket_id}: el peso de salir de la granja {net_kg} kg, su peso {buyer_kg} kg, diferencia {diff_pct}.",
+"why": "placeholders must be exactly: {contact} {ticket_id} {net_kg} {buyer_kg} {diff_pct} {state}"
+},
+{
+"en": "Hello {contact}, quality result for delivery {line_id} of {product}: deduction {ded_pct}, worth {ded_value}. The paid weight is {net_t} t at {price_t} per tonne.",
+"kind": "message",
+"max": null,
+"mt": "Hola {contact}, resultado de calidad para la entrega {line_id} de {product}: deducción {ded_pct}, valor {ded_value}.",
+"why": "placeholders must be exactly: {contact} {line_id} {product} {ded_pct} {ded_value} {net_t} {price_t}"
+},
+{
+"en": "Hello {contact}, thank you for your payment of {amount} received on {date} for invoice {invoice}. Payment type: {type}.",
+"kind": "message",
+"max": null,
+"mt": "Hola {contact}, gracias por el pago de {amount} recibido en {date} para la factura {invoice}.",
+"why": "placeholders must be exactly: {contact} {amount} {date} {invoice} {type}"
+},
+{
+"en": "Hello {contact}, from {date} our price for {product} is {offer} per tonne ex farm. Orders confirmed before that date keep the old price.",
+"kind": "message",
+"max": null,
+"mt": "Hola, a partir de ahora nuestro precio es de 3 por tonelada ex granja, los pedidos confirmados antes de esa fecha mantendrán el precio anterior.",
+"why": "placeholders must be exactly: {contact} {date} {product} {offer}"
+},
+{
+"en": "Hello {contact}, {head} head of {herd}, about {avg_kg} kg each, are ready for collection. Sale {ls_id} is at {price_kg} per kg live. Please send transport and tell me the time.",
+"kind": "message",
+"max": null,
+"mt": "Hola, una cabeza de 2 kg cada uno, estamos listos para la recogida.",
+"why": "placeholders must be exactly: {contact} {head} {herd} {avg_kg} {ls_id} {price_kg}"
+},
+{
+"en": "Hello, we agree a rate of {rate} per tonne-km plus a fixed charge of {fixed} for job {h_id}. This gives {cost} for {tonnes} t. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Hola, estamos de acuerdo en una tasa de {rate} por tonelada-km más un cargo fijo de {fixed} para el trabajo {h_id}.",
+"why": "placeholders must be exactly: {rate} {fixed} {h_id} {cost} {tonnes}"
+},
+{
+"en": "Hello {driver}, load {ticket_id} for {buyer} leaves at {leaves} in truck {truck}. Please be at the weighbridge on time and carry the delivery note.",
+"kind": "message",
+"max": null,
+"mt": "Hola, carguen las hojas en el camión, por favor, estén a tiempo en el puente de pesas y lleven la nota de entrega.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {buyer} {leaves} {truck}"
+},
+{
+"en": "Hello {driver}, please bring the weighbridge slip for ticket {ticket_id} to the office as soon as you return. Net weight {net_kg} kg.",
+"kind": "message",
+"max": null,
+"mt": "Hola {driver}, por favor traiga la hoja de pesaje para el boleto {ticket_id} a la oficina tan pronto como regrese.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {net_kg}"
+},
+{
+"en": "To {col:invoices.buyer}, {col:invoices.country}. Contact: {col:invoices.contact}. Delivery: {col:invoices.line}.",
+"kind": "document",
+"max": null,
+"mt": "Para el contacto, entrega.",
+"why": "placeholders must be exactly: {col:invoices.buyer} {col:invoices.country} {col:invoices.contact} {col:invoices.line}"
+},
+{
+"en": "Amount for the produce delivered: {col:invoices.amount}. Sales tax: {col:invoices.tax}. Total to pay: {col:invoices.total}.",
+"kind": "document",
+"max": null,
+"mt": "Impuesto sobre las ventas: {col:invoices.tax} Total a pagar: {col:invoices.total}.",
+"why": "placeholders must be exactly: {col:invoices.amount} {col:invoices.tax} {col:invoices.total}"
+},
+{
+"en": "Payment terms are {col:invoices.terms} days, so this invoice is due on {col:invoices.due}. Payments received so far: {col:invoices.paid}. Balance: {col:invoices.balance}.",
+"kind": "document",
+"max": null,
+"mt": "Los plazos de pago son de {col:invoices.terms} días, por lo que esta factura es vencida en {col:invoices.due}.",
+"why": "placeholders must be exactly: {col:invoices.terms} {col:invoices.due} {col:invoices.paid} {col:invoices.balance}"
+},
+{
+"en": "To {col:lines.buyer}. Contact: {col:lines.contact}. Order: {col:lines.order}. Contract: {col:lines.contract}.",
+"kind": "document",
+"max": null,
+"mt": "Para el contacto, orden, contrato.",
+"why": "placeholders must be exactly: {col:lines.buyer} {col:lines.contact} {col:lines.order} {col:lines.contract}"
+},
+{
+"en": "We deliver {col:lines.gross_t} tonnes of {col:lines.product} through the sales channel {col:lines.channel}. The deduction found at delivery is {col:lines.ded_pct}, so the paid weight is {col:lines.net_t} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "La deducción encontrada en la entrega es {col:lines.ded_pct}, por lo que el peso pagado es {col:lines.net_t} toneladas.",
+"why": "placeholders must be exactly: {col:lines.gross_t} {col:lines.product} {col:lines.channel} {col:lines.ded_pct} {col:lines.net_t}"
+},
+{
+"en": "The agreed price is {col:lines.price_t} per tonne and the sale value is {col:lines.value}. The haulage cost is {col:lines.haul}.",
+"kind": "document",
+"max": null,
+"mt": "El precio acordado es {col:lines.price_t} por tonelada y el valor de venta es {col:lines.value}.",
+"why": "placeholders must be exactly: {col:lines.price_t} {col:lines.value} {col:lines.haul}"
+},
+{
+"en": "The seller will deliver {col:contracts.tonnes} tonnes of {col:contracts.product} at {col:contracts.price_t} per tonne, a total value of {col:contracts.value}. Delivery is between {col:contracts.win_start} and {col:contracts.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "El vendedor entregará {col:contracts.tonnes} toneladas de {col:contracts.product} a {col:contracts.price_t} por tonelada, un valor total de {col:contracts.value}.",
+"why": "placeholders must be exactly: {col:contracts.tonnes} {col:contracts.product} {col:contracts.price_t} {col:contracts.value} {col:contracts.win_start} {col:contracts.win_end}"
+},
+{
+"en": "Contracted: {col:fulfil.contract_t} tonnes. Delivered: {col:fulfil.delivered} tonnes, which is {col:fulfil.pct}. Left to deliver: {col:fulfil.left} tonnes before {col:fulfil.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "Contrato: {col:fulfil.contract_t} toneladas. Entrega: {col:fulfil.delivered} toneladas, que es {col:fulfil.pct}.",
+"why": "placeholders must be exactly: {col:fulfil.contract_t} {col:fulfil.delivered} {col:fulfil.pct} {col:fulfil.left} {col:fulfil.win_end}"
+},
+{
+"en": "To finish in time we need {col:fulfil.per_week} tonnes each week. The harvest can still give {col:fulfil.forecast_t} tonnes, so the shortfall is {col:fulfil.shortfall} tonnes and the penalty at stake is {col:fulfil.penalty}. Status: {col:fulfil.state}.",
+"kind": "document",
+"max": null,
+"mt": "Para terminar a tiempo necesitamos {col:fulfil.per_week} toneladas cada semana. La cosecha todavía puede dar {col:fulfil.forecast_t} toneladas, por lo que el déficit es {col:fulfil.shortfall} toneladas y la penalidad en juego es {col:fulfil.penalty}.",
+"why": "placeholders must be exactly: {col:fulfil.per_week} {col:fulfil.forecast_t} {col:fulfil.shortfall} {col:fulfil.penalty} {col:fulfil.state}"
+},
+{
+"en": "To {col:ageing.buyer}. Contact: {col:ageing.contact}.",
+"kind": "document",
+"max": null,
+"mt": "Para el contacto:",
+"why": "placeholders must be exactly: {col:ageing.buyer} {col:ageing.contact}"
+},
+{
+"en": "Your credit limit is {col:ageing.limit}. Please pay the late amounts this week or write to us if you dispute an invoice.",
+"kind": "document",
+"max": null,
+"mt": "Su límite de crédito es 0. Por favor, pague las cantidades atrasadas esta semana o escríbanos si usted disputa una factura.",
+"why": "placeholders must be exactly: {col:ageing.limit}"
+},
+{
+"en": "To {col:claims.buyer}. Contact: {col:claims.contact}. Delivery: {col:claims.line}, {col:claims.product}.",
+"kind": "document",
+"max": null,
+"mt": "Para el contacto, entrega.",
+"why": "placeholders must be exactly: {col:claims.buyer} {col:claims.contact} {col:claims.line} {col:claims.product}"
+},
+{
+"en": "We checked our weighbridge and quality records. Our offer to settle is {col:claims.agreed}. The claim status is {col:claims.status}.",
+"kind": "document",
+"max": null,
+"mt": "Hemos comprobado nuestros registros de calidad y nuestra oferta para llegar a un acuerdo es 0.",
+"why": "placeholders must be exactly: {col:claims.agreed} {col:claims.status}"
+},
+{
+"en": "Our minimum price is {col:plan.min_price} and the market price is {col:plan.market_now}. The market check shows: {col:plan.state}.",
+"kind": "document",
+"max": null,
+"mt": "Nuestro precio mínimo es {col:plan.min_price} y el precio de mercado es {col:plan.market_now}.",
+"why": "placeholders must be exactly: {col:plan.min_price} {col:plan.market_now} {col:plan.state}"
+},
+{
+"en": "Contracted tonnes: {col:plan.contracted_t}, {col:plan.contract_share} of the output. Stock in store: {col:plan.in_store_t} tonnes, worth {col:plan.stock_value}.",
+"kind": "document",
+"max": null,
+"mt": "En el caso de los productos industriales, las cantidades de productos industriales incluidas en el cuadro de la lista de productos industriales incluidas en el cuadro de las cantidades de productos industriales incluidas en el cuadro de las cantidades de productos industriales incluidas en el cuadro de las cantidades de productos industriales incluidas en el cuadro de las cantidades de productos industriales incluidas en el cuadro de",
+"why": "placeholders must be exactly: {col:plan.contracted_t} {col:plan.contract_share} {col:plan.in_store_t} {col:plan.stock_value}"
+}
+]

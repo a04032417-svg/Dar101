@@ -1,0 +1,338 @@
+[
+{
+"en": "Hello {person}, we issued {qty} {ppe} on {date}. Please wear it every day for the work it is made for, and tell me when it is worn out.",
+"kind": "message",
+"max": null,
+"mt": "Halo, kami mengeluarkan {qty} {ppe} pada {date} Tolong pakai setiap hari untuk pekerjaan itu dibuat, dan memberitahu saya ketika itu dipakai.",
+"why": "placeholders must be exactly: {person} {qty} {ppe} {date}"
+},
+{
+"en": "The machine is {col:machines.age} years old with a planned life of {col:machines.life_years} years. Its value now is {col:machines.value_now}. The age check shows: {col:machines.state}.",
+"kind": "document",
+"max": null,
+"mt": "Mesin {col:machines.age} tahun dengan jangka waktu {col:machines.life_years} tahun. nilainya sekarang adalah {col:machines.value_now}.",
+"why": "placeholders must be exactly: {col:machines.age} {col:machines.life_years} {col:machines.value_now} {col:machines.state}"
+},
+{
+"en": "The diesel price used is the average price paid on your fuel purchases. Every dip of the tank is compared with the stock in the books and a difference of more than {set:fuel_loss} is checked.",
+"kind": "document",
+"max": null,
+"mt": "Harga diesel yang digunakan adalah harga rata-rata yang dibayarkan untuk pembelian bahan bakar Anda.",
+"why": "placeholders must be exactly: {set:fuel_loss}"
+},
+{
+"en": "Permanent staff pay is {col:payroll.perm_pay}, seasonal workers pay is {col:payroll.seasonal_pay} and piece-rate pay is {col:payroll.piece_pay}. Allowances and bonuses are {col:payroll.allowances}. The total pay is {col:payroll.pay_total}.",
+"kind": "document",
+"max": null,
+"mt": "Gaji staf tetap adalah {col:payroll.perm_pay}, gaji pekerja musiman adalah {col:payroll.seasonal_pay} dan gaji potongan adalah {col:payroll.piece_pay}.",
+"why": "placeholders must be exactly: {col:payroll.perm_pay} {col:payroll.seasonal_pay} {col:payroll.piece_pay} {col:payroll.allowances} {col:payroll.pay_total}"
+},
+{
+"en": "Employer costs are {col:payroll.oncost_amt}, so the labour cost of the month is {col:payroll.labour_cost} for {col:payroll.hours} hours. The budget was {col:payroll.budget} and the check shows: {col:payroll.state}.",
+"kind": "document",
+"max": null,
+"mt": "Biaya majikan adalah {col:payroll.oncost_amt}, jadi biaya tenaga kerja bulan adalah {col:payroll.labour_cost} untuk {col:payroll.hours} jam.",
+"why": "placeholders must be exactly: {col:payroll.oncost_amt} {col:payroll.labour_cost} {col:payroll.hours} {col:payroll.budget} {col:payroll.state}"
+},
+{
+"en": "During the contract the picker delivered {col:workers.piece_kg} kilograms of accepted fruit and vegetables. The piece-rate pay is {col:workers.piece_pay}.",
+"kind": "document",
+"max": null,
+"mt": "Selama kontrak pemetik memberikan {col:workers.piece_kg} kilogram buah-buahan dan sayuran yang diterima.",
+"why": "placeholders must be exactly: {col:workers.piece_kg} {col:workers.piece_pay}"
+},
+{
+"en": "Time work on other days was paid {col:workers.pay}. The total pay is {col:workers.total_pay} for {col:workers.hours} hours.",
+"kind": "document",
+"max": null,
+"mt": "Waktu kerja pada hari-hari lain dibayar {col:workers.pay}.",
+"why": "placeholders must be exactly: {col:workers.pay} {col:workers.total_pay} {col:workers.hours}"
+},
+{
+"en": "The certificate was issued on {col:train.issued} and is valid for {col:train.valid_months} months. It ends on {col:train.expires}, which is in {col:train.days_left} days.",
+"kind": "document",
+"max": null,
+"mt": "Sertifikat ini dikeluarkan pada {col:train.issued} dan berlaku selama {col:train.valid_months} bulan.",
+"why": "placeholders must be exactly: {col:train.issued} {col:train.valid_months} {col:train.expires} {col:train.days_left}"
+},
+{
+"en": "The farm work of the month needs {col:labourneed.hours_needed} hours, which is {col:labourneed.fte} full-time workers. We have {col:labourneed.perm_workers} permanent staff, so we need {col:labourneed.seasonal_needed} seasonal workers.",
+"kind": "document",
+"max": null,
+"mt": "Pekerjaan pertanian bulan ini membutuhkan {col:labourneed.hours_needed} jam, yang merupakan {col:labourneed.fte} pekerja penuh waktu.",
+"why": "placeholders must be exactly: {col:labourneed.hours_needed} {col:labourneed.fte} {col:labourneed.perm_workers} {col:labourneed.seasonal_needed}"
+},
+{
+"en": "We have {col:labourneed.seasonal_hired} seasonal workers on contract, so {col:labourneed.gap} workers are still short. The check shows: {col:labourneed.state}.",
+"kind": "document",
+"max": null,
+"mt": "Kita memiliki {col:labourneed.seasonal_hired} pekerja musiman dengan kontrak, jadi {col:labourneed.gap} pekerja masih kekurangan.",
+"why": "placeholders must be exactly: {col:labourneed.seasonal_hired} {col:labourneed.gap} {col:labourneed.state}"
+},
+{
+"en": "The action check shows: {col:safety.state}. The record was closed on {col:safety.closed_on}.",
+"kind": "document",
+"max": null,
+"mt": "Pemeriksaan tindakan menunjukkan: {col:safety.state}.",
+"why": "placeholders must be exactly: {col:safety.state} {col:safety.closed_on}"
+},
+{
+"en": "Best buyer finder by net price in cash",
+"kind": "label",
+"max": 50,
+"mt": "Pencari pembeli terbaik berdasarkan harga bersih dalam bentuk uang tunai",
+"why": "too long: 72 characters, the limit is 50"
+},
+{
+"en": "each quote is cut to a net price after deductions, haulage and days to payment, so the best buyer pays most and not offers most",
+"kind": "sentence",
+"max": 160,
+"mt": "Setiap penawaran dipotong menjadi harga bersih setelah pengurangan, pengiriman dan hari untuk pembayaran sehingga pembeli terbaik membayar paling dan tidak menawarkan paling",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Net price per tonne after haulage and deductions",
+"kind": "label",
+"max": 50,
+"mt": "Harga bersih per ton setelah pengangkutan dan pengurangan",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "each delivery shows the price, the moisture or damage deduction, the haulage and the net price per tonne, set against the market price and your minimum price",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap pengiriman menunjukkan harga, potongan kelembaban atau kerusakan, angkutan dan harga bersih per ton, yang diperbandingkan dengan harga pasar dan harga minimum Anda",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Forward contract fulfilment with shortfall penalty",
+"kind": "label",
+"max": 50,
+"mt": "Pelaksanaan kontrak berjangka dengan sanksi kekurangan",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "tonnes delivered against tonnes contracted, the weekly pace you still need, the harvest still to come and the penalty you face if it falls short",
+"kind": "sentence",
+"max": 160,
+"mt": "ton yang dikirimkan terhadap ton yang dikontrak, kecepatan mingguan yang masih Anda butuhkan, panen yang masih akan datang dan hukuman yang Anda hadapi jika kurang",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "what each buyer owes split into not yet due and late by 1 to 30, 31 to 60, 61 to 90 and over 90 days, with the credit left and a warning at the limit",
+"kind": "sentence",
+"max": 160,
+"mt": "apa yang harus dibayar oleh setiap pembeli dibagi menjadi belum jatuh tempo dan terlambat pada 1 sampai 30, 31 sampai 60, 61 sampai 90 dan lebih dari 90 hari, dengan sisa kredit dan peringatan pada batasnya",
+"why": "too long: 206 characters, the limit is 160"
+},
+{
+"en": "weight leaving the farm is compared with the weight the buyer reports and every difference above your tolerance is flagged before it turns into a claim",
+"kind": "sentence",
+"max": 160,
+"mt": "berat yang meninggalkan peternakan dibandingkan dengan berat yang dilaporkan pembeli dan setiap perbedaan di atas toleransi Anda ditandai sebelum berubah menjadi klaim",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Kenya",
+"kind": "list",
+"max": 30,
+"mt": "Kenya",
+"why": "not translated"
+},
+{
+"en": "India",
+"kind": "list",
+"max": 30,
+"mt": "India",
+"why": "not translated"
+},
+{
+"en": "Indonesia",
+"kind": "list",
+"max": 30,
+"mt": "Indonesia",
+"why": "not translated"
+},
+{
+"en": "Vietnam",
+"kind": "list",
+"max": 30,
+"mt": "Vietnam",
+"why": "not translated"
+},
+{
+"en": "Thailand",
+"kind": "list",
+"max": 30,
+"mt": "Thailand",
+"why": "not translated"
+},
+{
+"en": "Argentina",
+"kind": "list",
+"max": 30,
+"mt": "Argentina",
+"why": "not translated"
+},
+{
+"en": "Ghana",
+"kind": "list",
+"max": 30,
+"mt": "Ghana",
+"why": "not translated"
+},
+{
+"en": "Not paid after reminders",
+"kind": "list",
+"max": 30,
+"mt": "Tidak dibayar setelah pengingat",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Premium",
+"kind": "list",
+"max": 30,
+"mt": "Premium",
+"why": "not translated"
+},
+{
+"en": "Sales lines: price, deduction, haulage and net price",
+"kind": "title",
+"max": 60,
+"mt": "Jalur penjualan: harga, pengurangan, transportasi dan harga bersih",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Invoices: amount, tax, due date and balance owed",
+"kind": "title",
+"max": 60,
+"mt": "Faktur: jumlah, pajak, tanggal jatuh tempo dan saldo yang harus dibayarkan",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Receivables ageing: what each buyer owes and for how long",
+"kind": "title",
+"max": 60,
+"mt": "Tagihan tua: berapa banyak yang harus dibayar oleh masing-masing pembeli dan untuk berapa lama",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Buyer price quotes compared: the best net price in cash",
+"kind": "title",
+"max": 60,
+"mt": "Penawaran harga pembeli dibandingkan: harga bersih terbaik dalam bentuk tunai",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Export documents: certificates and papers for each shipment",
+"kind": "title",
+"max": 60,
+"mt": "Dokumen ekspor: sertifikat dan dokumen untuk setiap pengiriman",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Milk price by quality tier: fat, protein and cell count",
+"kind": "title",
+"max": 60,
+"mt": "Harga susu menurut tingkat kualitas: lemak, protein dan jumlah sel",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Best buyer finder: highest net price among your quotes",
+"kind": "title",
+"max": 60,
+"mt": "Pencari pembeli terbaik: harga bersih tertinggi di antara penawaran Anda",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Forward contract fill: delivered against contracted",
+"kind": "title",
+"max": 60,
+"mt": "Pengisian kontrak jangka panjang: dikirimkan terhadap kontrak",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Sell now or store: is waiting worth the carrying cost",
+"kind": "title",
+"max": 60,
+"mt": "Menjual sekarang atau menyimpan: apakah menunggu layak biaya membawa",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, ticket {ticket_id}: weight leaving the farm {net_kg} kg, your weight {buyer_kg} kg, difference {diff_pct}. Weight check: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {contact}, tiket {ticket_id}: berat meninggalkan peternakan {net_kg} kg, berat {buyer_kg} kg, perbedaan {diff_pct}.",
+"why": "placeholders must be exactly: {contact} {ticket_id} {net_kg} {buyer_kg} {diff_pct} {state}"
+},
+{
+"en": "Hello {contact}, quality result for delivery {line_id} of {product}: deduction {ded_pct}, worth {ded_value}. The paid weight is {net_t} t at {price_t} per tonne.",
+"kind": "message",
+"max": null,
+"mt": "Halo {contact}, hasil kualitas untuk pengiriman {line_id} dari {product}: pengurangan {ded_pct}, nilai {ded_value}.",
+"why": "placeholders must be exactly: {contact} {line_id} {product} {ded_pct} {ded_value} {net_t} {price_t}"
+},
+{
+"en": "Hello {contact}, thank you for your payment of {amount} received on {date} for invoice {invoice}. Payment type: {type}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {contact}, terima kasih atas pembayaran {amount} yang diterima pada {date} untuk faktur {invoice}.",
+"why": "placeholders must be exactly: {contact} {amount} {date} {invoice} {type}"
+},
+{
+"en": "Hello {contact}, contract {contract}: {delivered} t delivered of {contract_t} t, {left} t left, window ends {win_end}. Our forecast shows a shortfall of {shortfall} t. Can we agree a plan?",
+"kind": "message",
+"max": null,
+"mt": "Halo {contact}, kontrak {contract}: {delivered} t dikirimkan {contract_t} t, {left} t kiri, jendela berakhir {win_end}.",
+"why": "placeholders must be exactly: {contact} {contract} {delivered} {contract_t} {left} {win_end} {shortfall}"
+},
+{
+"en": "Hello, we agree a rate of {rate} per tonne-km plus a fixed charge of {fixed} for job {h_id}. This gives {cost} for {tonnes} t. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Halo, kami setuju dengan tarif {rate} per ton-km ditambah biaya tetap {fixed} untuk pekerjaan {h_id}.",
+"why": "placeholders must be exactly: {rate} {fixed} {h_id} {cost} {tonnes}"
+},
+{
+"en": "Hello {driver}, please bring the weighbridge slip for ticket {ticket_id} to the office as soon as you return. Net weight {net_kg} kg.",
+"kind": "message",
+"max": null,
+"mt": "Halo {driver}, tolong bawa slip jembatan berat untuk tiket {ticket_id} ke kantor segera setelah Anda kembali.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {net_kg}"
+},
+{
+"en": "Payment terms are {col:invoices.terms} days, so this invoice is due on {col:invoices.due}. Payments received so far: {col:invoices.paid}. Balance: {col:invoices.balance}.",
+"kind": "document",
+"max": null,
+"mt": "Istilah pembayaran adalah {col:invoices.terms} hari, jadi faktur ini jatuh tempo pada {col:invoices.due}.",
+"why": "placeholders must be exactly: {col:invoices.terms} {col:invoices.due} {col:invoices.paid} {col:invoices.balance}"
+},
+{
+"en": "The agreed price is {col:lines.price_t} per tonne and the sale value is {col:lines.value}. The haulage cost is {col:lines.haul}.",
+"kind": "document",
+"max": null,
+"mt": "Harga yang disepakati adalah {col:lines.price_t} per ton dan nilai penjualan adalah {col:lines.value}.",
+"why": "placeholders must be exactly: {col:lines.price_t} {col:lines.value} {col:lines.haul}"
+},
+{
+"en": "The seller will deliver {col:contracts.tonnes} tonnes of {col:contracts.product} at {col:contracts.price_t} per tonne, a total value of {col:contracts.value}. Delivery is between {col:contracts.win_start} and {col:contracts.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "Penjual akan mengirimkan {col:contracts.tonnes} ton {col:contracts.product} dengan {col:contracts.price_t} per ton, nilai total {col:contracts.value}.",
+"why": "placeholders must be exactly: {col:contracts.tonnes} {col:contracts.product} {col:contracts.price_t} {col:contracts.value} {col:contracts.win_start} {col:contracts.win_end}"
+},
+{
+"en": "We checked our weighbridge and quality records. Our offer to settle is {col:claims.agreed}. The claim status is {col:claims.status}.",
+"kind": "document",
+"max": null,
+"mt": "Kami sudah memeriksa catatan kami dan penawaran kami untuk penyelesaian adalah 0. status klaim adalah 1.",
+"why": "placeholders must be exactly: {col:claims.agreed} {col:claims.status}"
+},
+{
+"en": "Our minimum price is {col:plan.min_price} and the market price is {col:plan.market_now}. The market check shows: {col:plan.state}.",
+"kind": "document",
+"max": null,
+"mt": "Harga minimum kita adalah {col:plan.min_price} dan harga pasar adalah {col:plan.market_now}.",
+"why": "placeholders must be exactly: {col:plan.min_price} {col:plan.market_now} {col:plan.state}"
+}
+]

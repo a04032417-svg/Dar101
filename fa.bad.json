@@ -1,0 +1,233 @@
+[
+{
+"en": "Hello {person}, we issued {qty} {ppe} on {date}. Please wear it every day for the work it is made for, and tell me when it is worn out.",
+"kind": "message",
+"max": null,
+"mt": "سلام، ما در روز 3 نسخه 2 منتشر کردیم لطفا هر روز برای کاری که برایش ساخته شده استفاده کنید و وقتی که از کار خارج شد به من بگویید",
+"why": "placeholders must be exactly: {person} {qty} {ppe} {date}"
+},
+{
+"en": "Permanent staff pay is {col:payroll.perm_pay}, seasonal workers pay is {col:payroll.seasonal_pay} and piece-rate pay is {col:payroll.piece_pay}. Allowances and bonuses are {col:payroll.allowances}. The total pay is {col:payroll.pay_total}.",
+"kind": "document",
+"max": null,
+"mt": "دستمزد کارکنان دائمی {col:payroll.perm_pay}، دستمزد کارگران فصلی {col:payroll.seasonal_pay} و دستمزد قطعی {col:payroll.piece_pay} است.",
+"why": "placeholders must be exactly: {col:payroll.perm_pay} {col:payroll.seasonal_pay} {col:payroll.piece_pay} {col:payroll.allowances} {col:payroll.pay_total}"
+},
+{
+"en": "Picker: {col:workers.name}. Team leader: {col:workers.leader}.",
+"kind": "document",
+"max": null,
+"mt": "رهبر تيم:",
+"why": "placeholders must be exactly: {col:workers.name} {col:workers.leader}"
+},
+{
+"en": "During the contract the picker delivered {col:workers.piece_kg} kilograms of accepted fruit and vegetables. The piece-rate pay is {col:workers.piece_pay}.",
+"kind": "document",
+"max": null,
+"mt": "در طول قرارداد، جمع کننده {col:workers.piece_kg} کیلوگرم میوه و سبزیجات پذیرفته شده را تحویل می دهد.",
+"why": "placeholders must be exactly: {col:workers.piece_kg} {col:workers.piece_pay}"
+},
+{
+"en": "Staff member: {col:train.staff}. Certificate: {col:train.cert}. Provider: {col:train.provider}.",
+"kind": "document",
+"max": null,
+"mt": "کارمند: گواهینامه: ارائه دهنده:",
+"why": "placeholders must be exactly: {col:train.staff} {col:train.cert} {col:train.provider}"
+},
+{
+"en": "We have {col:labourneed.seasonal_hired} seasonal workers on contract, so {col:labourneed.gap} workers are still short. The check shows: {col:labourneed.state}.",
+"kind": "document",
+"max": null,
+"mt": "ما کارگران فصلی با قرارداد داریم، بنابراین کارگران هنوز کمبود دارند. چک نشان می دهد: {col:labourneed.state}.",
+"why": "placeholders must be exactly: {col:labourneed.seasonal_hired} {col:labourneed.gap} {col:labourneed.state}"
+},
+{
+"en": "What happened: {col:safety.what}. How serious: {col:safety.severity}. Days lost: {col:safety.days_lost}. Cost: {col:safety.cost}.",
+"kind": "document",
+"max": null,
+"mt": "چه اتفاقي افتاد؟ چقدر جدي؟ روزها از دست رفته؟",
+"why": "placeholders must be exactly: {col:safety.what} {col:safety.severity} {col:safety.days_lost} {col:safety.cost}"
+},
+{
+"en": "Receivables ageing with credit limits",
+"kind": "label",
+"max": 50,
+"mt": "بدهی های دریافتی که با محدودیت های اعتباری قدیمی می شوند",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Sales orders: ordered, delivered and still to deliver",
+"kind": "title",
+"max": 60,
+"mt": "سفارشات فروش: سفارش داده شده، تحویل داده شده و هنوز تحویل داده نشده",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Sell now or store: is waiting worth the carrying cost",
+"kind": "title",
+"max": 60,
+"mt": "حالا بفروشید یا ذخیره کنید: آیا انتظار ارزش هزینه حمل را دارد؟",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, the {product} harvest is ready. For contract {cid} we propose delivery from {win_start} to {win_end}. Please tell me which days suit you.",
+"kind": "message",
+"max": null,
+"mt": "سلام، محصول آماده است، براي قرارداد ما پیشنهاد تحویل از 3 تا 4 مي کنيم لطفاً به من بگيد چه روزي براتون مناسب است",
+"why": "placeholders must be exactly: {contact} {product} {cid} {win_start} {win_end}"
+},
+{
+"en": "Hello {contact}, truck {truck} with load {ticket_id} of {product} leaves the farm at {leaves} and should arrive at {arrival}. Please keep a place at your weighbridge.",
+"kind": "message",
+"max": null,
+"mt": "سلام، کامیون با بار 2 از مزرعه در 4 ترک می کند و باید در 5 برسند لطفا در پل وزن خود جای خود را نگه دارید.",
+"why": "placeholders must be exactly: {contact} {truck} {ticket_id} {product} {leaves} {arrival}"
+},
+{
+"en": "Hello {contact}, ticket {ticket_id}: weight leaving the farm {net_kg} kg, your weight {buyer_kg} kg, difference {diff_pct}. Weight check: {state}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، بلیط: وزن ترک مزرعه: 2 کیلوگرم، وزن شما: 3 کیلوگرم، تفاوت: 4",
+"why": "placeholders must be exactly: {contact} {ticket_id} {net_kg} {buyer_kg} {diff_pct} {state}"
+},
+{
+"en": "Hello {contact}, contract {contract}: {delivered} t delivered of {contract_t} t, {left} t left, window ends {win_end}. Our forecast shows a shortfall of {shortfall} t. Can we agree a plan?",
+"kind": "message",
+"max": null,
+"mt": "سلام، قرارداد 1، تحویل 3، بازي 5، پيش بيني ما نشان مي دهد که 6، ميتونيم به يک طرح توافق کنيم؟",
+"why": "placeholders must be exactly: {contact} {contract} {delivered} {contract_t} {left} {win_end} {shortfall}"
+},
+{
+"en": "Hello {contact}, from {date} our price for {product} is {offer} per tonne ex farm. Orders confirmed before that date keep the old price.",
+"kind": "message",
+"max": null,
+"mt": "سلام، از 1 قیمت ما برای 2 برای هر تن از مزرعه است سفارشات قبل از آن تاریخ تایید شده قیمت قدیمی را حفظ کنید.",
+"why": "placeholders must be exactly: {contact} {date} {product} {offer}"
+},
+{
+"en": "Hello {contact}, statement of account for {buyer}: owed {owed}, not yet due {not_due}, late 1 to 30 days {d30}, 31 to 60 days {d60}, 61 to 90 days {d90}, over 90 days {over90}. Please check and pay what is due.",
+"kind": "message",
+"max": null,
+"mt": "سلام {contact}، صورت حساب برای {buyer}: بدهی {owed}، هنوز به پایان نرسیده {not_due}، 1 تا 30 روز {d30}، 31 تا 60 روز {d60}، 61 تا 90 روز {d90}، بیش از 90 روز {over90}.",
+"why": "English/Latin words left: over"
+},
+{
+"en": "Hello {contact}, order {order_id}: {tonnes} t of {product} for {due} at {price_t} per tonne. Please confirm the quantity for the week.",
+"kind": "message",
+"max": null,
+"mt": "سلام، سفارش {order_id}: {tonnes} t از {product} برای {due} در {price_t} در هر تن. لطفا مقدار برای هفته را تایید کنید.",
+"why": "placeholders must be exactly: {contact} {order_id} {tonnes} {product} {due} {price_t}"
+},
+{
+"en": "Hello {contact}, {head} head of {herd}, about {avg_kg} kg each, are ready for collection. Sale {ls_id} is at {price_kg} per kg live. Please send transport and tell me the time.",
+"kind": "message",
+"max": null,
+"mt": "سلام، هرکدوم از 2 تا از 3 تا از 3 تا از هرکلو آماده جمع آوری هستند فروش 5 تا از هرکلو در حال اجراست لطفا حمل و نقل بفرستید و زمان را به من بگویید",
+"why": "placeholders must be exactly: {contact} {head} {herd} {avg_kg} {ls_id} {price_kg}"
+},
+{
+"en": "Hello, please book a truck for job {h_id} on {date}: {tonnes} t for {buyer}, about {km} km. Please confirm the truck and the loading time.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفا یک کامیون برای کار در {date}: {tonnes} t برای {buyer}، در مورد {km} کیلومتر رزرو کنید. لطفا کامیون و زمان بارگیری را تایید کنید.",
+"why": "placeholders must be exactly: {h_id} {date} {tonnes} {buyer} {km}"
+},
+{
+"en": "Hello {driver}, load {ticket_id} for {buyer} leaves at {leaves} in truck {truck}. Please be at the weighbridge on time and carry the delivery note.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً در زمان مناسب در پل وزنه باشید و نامه تحویل را همراه داشته باشید.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {buyer} {leaves} {truck}"
+},
+{
+"en": "Hello {staff}, the stall at {market} opens at {opens} on {date}. Please load {taken_kg} kg of {product} and the price list at {price_kg} per kg.",
+"kind": "message",
+"max": null,
+"mt": "سلام، استال در {market} در {opens} در {date} باز می شود. لطفا {taken_kg} کیلوگرم {product} و لیست قیمت در {price_kg} در هر کیلوگرم بارگذاری کنید.",
+"why": "placeholders must be exactly: {staff} {market} {opens} {date} {taken_kg} {product} {price_kg}"
+},
+{
+"en": "Hello, buyer {buyer} owes {owed} and the credit limit is {limit}. Please decide today whether we deliver more before they pay.",
+"kind": "message",
+"max": null,
+"mt": "سلام، خریدار بدهکار است و حد اعتباری 2 است لطفا امروز تصمیم بگیرید که آیا ما بیشتر تحویل می دهیم قبل از اینکه آنها پرداخت کنند.",
+"why": "placeholders must be exactly: {buyer} {owed} {limit}"
+},
+{
+"en": "To {col:invoices.buyer}, {col:invoices.country}. Contact: {col:invoices.contact}. Delivery: {col:invoices.line}.",
+"kind": "document",
+"max": null,
+"mt": "به شماره تماس: ارسال:",
+"why": "placeholders must be exactly: {col:invoices.buyer} {col:invoices.country} {col:invoices.contact} {col:invoices.line}"
+},
+{
+"en": "Payment terms are {col:invoices.terms} days, so this invoice is due on {col:invoices.due}. Payments received so far: {col:invoices.paid}. Balance: {col:invoices.balance}.",
+"kind": "document",
+"max": null,
+"mt": "زمان پرداخت {col:invoices.terms} روز است، بنابراین این فاکتور در {col:invoices.due} واجد است. پرداخت های دریافت شده تا کنون: {col:invoices.paid}.",
+"why": "placeholders must be exactly: {col:invoices.terms} {col:invoices.due} {col:invoices.paid} {col:invoices.balance}"
+},
+{
+"en": "Please quote the invoice number with your payment. If a figure does not match your delivery record, tell us within seven days so that we can correct it.",
+"kind": "document",
+"max": null,
+"mt": "لطفاً شماره فاکتور را همراه با پرداخت خود ذکر کنید. اگر یک رقم با پرونده تحویل شما مطابقت نداشته باشد، در عرض هفت روز به ما اطلاع دهید تا بتوانیم آن را اصلاح کنیم.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "To {col:lines.buyer}. Contact: {col:lines.contact}. Order: {col:lines.order}. Contract: {col:lines.contract}.",
+"kind": "document",
+"max": null,
+"mt": "به شماره تماس شماره سفارش قرارداد شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره شماره",
+"why": "placeholders must be exactly: {col:lines.buyer} {col:lines.contact} {col:lines.order} {col:lines.contract}"
+},
+{
+"en": "To {col:ageing.buyer}. Contact: {col:ageing.contact}.",
+"kind": "document",
+"max": null,
+"mt": "به تماس:",
+"why": "placeholders must be exactly: {col:ageing.buyer} {col:ageing.contact}"
+},
+{
+"en": "Your credit limit is {col:ageing.limit}. Please pay the late amounts this week or write to us if you dispute an invoice.",
+"kind": "document",
+"max": null,
+"mt": "لطفا مبالغ تاخیر را در این هفته پرداخت کنید یا اگر در مورد یک فاکتور اختلاف دارید به ما بنویسید.",
+"why": "placeholders must be exactly: {col:ageing.limit}"
+},
+{
+"en": "The market price today is {col:quotes.market}. This quote is open for seven days.",
+"kind": "document",
+"max": null,
+"mt": "قیمت بازار امروز 0 است. این نقل قول برای هفت روز باز است.",
+"why": "placeholders must be exactly: {col:quotes.market}"
+},
+{
+"en": "To {col:claims.buyer}. Contact: {col:claims.contact}. Delivery: {col:claims.line}, {col:claims.product}.",
+"kind": "document",
+"max": null,
+"mt": "به شماره تماس: ارسال:",
+"why": "placeholders must be exactly: {col:claims.buyer} {col:claims.contact} {col:claims.line} {col:claims.product}"
+},
+{
+"en": "We checked our weighbridge and quality records. Our offer to settle is {col:claims.agreed}. The claim status is {col:claims.status}.",
+"kind": "document",
+"max": null,
+"mt": "ما سوابق سنجش و کیفیتمون رو چک کردیم پیشنهاد ما برای توافق صفر است وضعیت مطالبه یک است",
+"why": "placeholders must be exactly: {col:claims.agreed} {col:claims.status}"
+},
+{
+"en": "Consignee: {col:export.buyer}, {col:export.country}. Delivery: {col:export.line}.",
+"kind": "document",
+"max": null,
+"mt": "پيگيري شده:",
+"why": "placeholders must be exactly: {col:export.buyer} {col:export.country} {col:export.line}"
+},
+{
+"en": "Contracted tonnes: {col:plan.contracted_t}, {col:plan.contract_share} of the output. Stock in store: {col:plan.in_store_t} tonnes, worth {col:plan.stock_value}.",
+"kind": "document",
+"max": null,
+"mt": "تن قرارداد شده: {col:plan.contracted_t}، {col:plan.contract_share} از تولید.",
+"why": "placeholders must be exactly: {col:plan.contracted_t} {col:plan.contract_share} {col:plan.in_store_t} {col:plan.stock_value}"
+}
+]

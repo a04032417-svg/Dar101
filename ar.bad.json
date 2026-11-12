@@ -1,0 +1,198 @@
+[
+{
+"en": "Hello {person}, we issued {qty} {ppe} on {date}. Please wear it every day for the work it is made for, and tell me when it is worn out.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، لقد أصدرناه يوم الثالث من فضلك ارتديه يوميًا للعمل الذي صُمم له، وأخبرني عندما ينفد.",
+"why": "placeholders must be exactly: {person} {qty} {ppe} {date}"
+},
+{
+"en": "Machine: {col:repairs.machine}. Reported on {col:repairs.date}. Part group: {col:repairs.part}.",
+"kind": "document",
+"max": null,
+"mt": "الجهاز: {col:repairs.machine}. تم الإبلاغ عن {col:repairs.date}.",
+"why": "placeholders must be exactly: {col:repairs.machine} {col:repairs.date} {col:repairs.part}"
+},
+{
+"en": "Work done: {col:repairs.repair}. Repaired by {col:repairs.repairer}.",
+"kind": "document",
+"max": null,
+"mt": "تم إصلاحها بواسطة {col:repairs.repairer}.",
+"why": "placeholders must be exactly: {col:repairs.repair} {col:repairs.repairer}"
+},
+{
+"en": "Parts cost {col:repairs.parts_cost}. The workshop worked {col:repairs.labour_h} hours, which costs {col:repairs.labour_cost}. The total cost is {col:repairs.cost}.",
+"kind": "document",
+"max": null,
+"mt": "تكلفة قطع الغيار {col:repairs.parts_cost}. عملت الورشة {col:repairs.labour_h} ساعات، والتي تكلف {col:repairs.labour_cost}.",
+"why": "placeholders must be exactly: {col:repairs.parts_cost} {col:repairs.labour_h} {col:repairs.labour_cost} {col:repairs.cost}"
+},
+{
+"en": "Permanent staff pay is {col:payroll.perm_pay}, seasonal workers pay is {col:payroll.seasonal_pay} and piece-rate pay is {col:payroll.piece_pay}. Allowances and bonuses are {col:payroll.allowances}. The total pay is {col:payroll.pay_total}.",
+"kind": "document",
+"max": null,
+"mt": "أجر الموظفين الدائمين هو {col:payroll.perm_pay} ، أجر العمال الموسميين هو {col:payroll.seasonal_pay} والأجر المقطوع هو {col:payroll.piece_pay}.",
+"why": "placeholders must be exactly: {col:payroll.perm_pay} {col:payroll.seasonal_pay} {col:payroll.piece_pay} {col:payroll.allowances} {col:payroll.pay_total}"
+},
+{
+"en": "Picker: {col:workers.name}. Team leader: {col:workers.leader}.",
+"kind": "document",
+"max": null,
+"mt": "قائد الفريق",
+"why": "placeholders must be exactly: {col:workers.name} {col:workers.leader}"
+},
+{
+"en": "During the contract the picker delivered {col:workers.piece_kg} kilograms of accepted fruit and vegetables. The piece-rate pay is {col:workers.piece_pay}.",
+"kind": "document",
+"max": null,
+"mt": "خلال العقد، قام المتقطع بتسليم {col:workers.piece_kg} كيلوغرام من الفواكه والخضروات المقبولة.",
+"why": "placeholders must be exactly: {col:workers.piece_kg} {col:workers.piece_pay}"
+},
+{
+"en": "What happened: {col:safety.what}. How serious: {col:safety.severity}. Days lost: {col:safety.days_lost}. Cost: {col:safety.cost}.",
+"kind": "document",
+"max": null,
+"mt": "ما حدث، مدى خطورته، الأيام المفقودة، التكلفة",
+"why": "placeholders must be exactly: {col:safety.what} {col:safety.severity} {col:safety.days_lost} {col:safety.cost}"
+},
+{
+"en": "Late 1 to 30",
+"kind": "list",
+"max": 30,
+"mt": "في وقت متأخر من الساعة الواحدة إلى الثلاثين",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Hello {contact}, the {product} harvest is ready. For contract {cid} we propose delivery from {win_start} to {win_end}. Please tell me which days suit you.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، الحصاد جاهز، لنقترح التسليم من 3 إلى 4 أيام، من فضلك أخبرني أي أيام تناسبك؟",
+"why": "placeholders must be exactly: {contact} {product} {cid} {win_start} {win_end}"
+},
+{
+"en": "Hello {contact}, truck {truck} with load {ticket_id} of {product} leaves the farm at {leaves} and should arrive at {arrival}. Please keep a place at your weighbridge.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، الشاحنة التي تحمل حمولة 3 تغادر المزرعة في 4 و ستصل في 5",
+"why": "placeholders must be exactly: {contact} {truck} {ticket_id} {product} {leaves} {arrival}"
+},
+{
+"en": "Hello {contact}, ticket {ticket_id}: weight leaving the farm {net_kg} kg, your weight {buyer_kg} kg, difference {diff_pct}. Weight check: {state}.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، تذكرة: وزن مغادرة المزرعة كيلوغرام، وزنك كيلوغرام، الفرق",
+"why": "placeholders must be exactly: {contact} {ticket_id} {net_kg} {buyer_kg} {diff_pct} {state}"
+},
+{
+"en": "Hello {contact}, quality result for delivery {line_id} of {product}: deduction {ded_pct}, worth {ded_value}. The paid weight is {net_t} t at {price_t} per tonne.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {contact}، نتيجة الجودة لتسليم {line_id} من {product}: خصم {ded_pct}، قيمة {ded_value}.",
+"why": "placeholders must be exactly: {contact} {line_id} {product} {ded_pct} {ded_value} {net_t} {price_t}"
+},
+{
+"en": "Hello {contact}, contract {contract}: {delivered} t delivered of {contract_t} t, {left} t left, window ends {win_end}. Our forecast shows a shortfall of {shortfall} t. Can we agree a plan?",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، العقد تم تسليمه في وقت متأخر، توقعاتنا تشير إلى نقص في 6 أوقات، هل يمكننا الاتفاق على خطة؟",
+"why": "placeholders must be exactly: {contact} {contract} {delivered} {contract_t} {left} {win_end} {shortfall}"
+},
+{
+"en": "Hello {contact}, from {date} our price for {product} is {offer} per tonne ex farm. Orders confirmed before that date keep the old price.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، من الآن فصاعداً، سعرنا لـ {product} هو {offer} لكل طن خارج المزرعة. الطلبات التي تم تأكيدها قبل هذا التاريخ تحتفظ بالسعر القديم.",
+"why": "placeholders must be exactly: {contact} {date} {product} {offer}"
+},
+{
+"en": "Hello {contact}, statement of account for {buyer}: owed {owed}, not yet due {not_due}, late 1 to 30 days {d30}, 31 to 60 days {d60}, 61 to 90 days {d90}, over 90 days {over90}. Please check and pay what is due.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {contact}، بيان الحساب ل {buyer}: مدين {owed}، لم يتم تسديد {not_due} بعد، متأخر من 1 إلى 30 يوما {d30}، 31 إلى 60 يوما {d60}، 61 إلى 90 يوما {d90}، أكثر من 90 يوما {over90}.",
+"why": "English/Latin words left: over"
+},
+{
+"en": "Hello {contact}, {head} head of {herd}, about {avg_kg} kg each, are ready for collection. Sale {ls_id} is at {price_kg} per kg live. Please send transport and tell me the time.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، رأس واحد من كيلوغرامات، حوالي ثلاثة كيلوغرامات، جاهز للاستلام. البيع في خمسة كيلوغرامات مباشرة. من فضلك أرسل النقل وأخبرني بالوقت.",
+"why": "placeholders must be exactly: {contact} {head} {herd} {avg_kg} {ls_id} {price_kg}"
+},
+{
+"en": "Hello, please book a truck for job {h_id} on {date}: {tonnes} t for {buyer}, about {km} km. Please confirm the truck and the loading time.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، من فضلك احجز شاحنة للعمل في {date}: {tonnes} t ل {buyer}، حوالي {km} كم. من فضلك أكد الشاحنة ووقت التحميل.",
+"why": "placeholders must be exactly: {h_id} {date} {tonnes} {buyer} {km}"
+},
+{
+"en": "Hello, we agree a rate of {rate} per tonne-km plus a fixed charge of {fixed} for job {h_id}. This gives {cost} for {tonnes} t. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، لقد اتفقنا على سعر {rate} لكل طن كيلومتر بالإضافة إلى رسوم ثابتة {fixed} للعمل {h_id}. هذا يعطي {cost} ل {tonnes} t.",
+"why": "English/Latin words left: t."
+},
+{
+"en": "Hello {staff}, the stall at {market} opens at {opens} on {date}. Please load {taken_kg} kg of {product} and the price list at {price_kg} per kg.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، يفتح الصندوق عند {market} عند {opens} في {date}. من فضلك احمل {taken_kg} كيلوغرام من {product} وقائمة الأسعار عند {price_kg} لكل كيلوغرام.",
+"why": "placeholders must be exactly: {staff} {market} {opens} {date} {taken_kg} {product} {price_kg}"
+},
+{
+"en": "Hello, buyer {buyer} owes {owed} and the credit limit is {limit}. Please decide today whether we deliver more before they pay.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، المشتري مدين وحد الائتمان هو 2، من فضلكم قرروا اليوم ما إذا كنا سنقدم المزيد قبل أن يدفعوا.",
+"why": "placeholders must be exactly: {buyer} {owed} {limit}"
+},
+{
+"en": "The agreed price is {col:lines.price_t} per tonne and the sale value is {col:lines.value}. The haulage cost is {col:lines.haul}.",
+"kind": "document",
+"max": null,
+"mt": "السعر المتفق عليه هو {col:lines.price_t} لكل طن وقيمة البيع هي {col:lines.value}.",
+"why": "placeholders must be exactly: {col:lines.price_t} {col:lines.value} {col:lines.haul}"
+},
+{
+"en": "The seller will deliver {col:contracts.tonnes} tonnes of {col:contracts.product} at {col:contracts.price_t} per tonne, a total value of {col:contracts.value}. Delivery is between {col:contracts.win_start} and {col:contracts.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "سيقوم البائع بتسليم {col:contracts.tonnes} طن {col:contracts.product} بـ {col:contracts.price_t} لكل طن، بقيمة إجمالية {col:contracts.value}.",
+"why": "placeholders must be exactly: {col:contracts.tonnes} {col:contracts.product} {col:contracts.price_t} {col:contracts.value} {col:contracts.win_start} {col:contracts.win_end}"
+},
+{
+"en": "Contracted: {col:fulfil.contract_t} tonnes. Delivered: {col:fulfil.delivered} tonnes, which is {col:fulfil.pct}. Left to deliver: {col:fulfil.left} tonnes before {col:fulfil.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "عقد: {col:fulfil.contract_t} طن. تسليم: {col:fulfil.delivered} طن، وهو {col:fulfil.pct}.",
+"why": "placeholders must be exactly: {col:fulfil.contract_t} {col:fulfil.delivered} {col:fulfil.pct} {col:fulfil.left} {col:fulfil.win_end}"
+},
+{
+"en": "To finish in time we need {col:fulfil.per_week} tonnes each week. The harvest can still give {col:fulfil.forecast_t} tonnes, so the shortfall is {col:fulfil.shortfall} tonnes and the penalty at stake is {col:fulfil.penalty}. Status: {col:fulfil.state}.",
+"kind": "document",
+"max": null,
+"mt": "لإنهاء في الوقت المناسب نحتاج {col:fulfil.per_week} طن كل أسبوع. الحصاد لا يزال يمكن أن يعطي {col:fulfil.forecast_t} طن، لذلك العجز هو {col:fulfil.shortfall} طن والعقوبة على المحك هي {col:fulfil.penalty}.",
+"why": "placeholders must be exactly: {col:fulfil.per_week} {col:fulfil.forecast_t} {col:fulfil.shortfall} {col:fulfil.penalty} {col:fulfil.state}"
+},
+{
+"en": "Total owed now: {col:ageing.owed}. Of this, {col:ageing.not_due} is not yet due.",
+"kind": "document",
+"max": null,
+"mt": "الإجمالي المستحقة الآن: {col:ageing.owed}.",
+"why": "placeholders must be exactly: {col:ageing.owed} {col:ageing.not_due}"
+},
+{
+"en": "We checked our weighbridge and quality records. Our offer to settle is {col:claims.agreed}. The claim status is {col:claims.status}.",
+"kind": "document",
+"max": null,
+"mt": "لقد تحققنا من سجلاتنا و سجلات الجودة عرضنا للتسوية هو 0",
+"why": "placeholders must be exactly: {col:claims.agreed} {col:claims.status}"
+},
+{
+"en": "Our minimum price is {col:plan.min_price} and the market price is {col:plan.market_now}. The market check shows: {col:plan.state}.",
+"kind": "document",
+"max": null,
+"mt": "سعرنا الأدنى هو {col:plan.min_price} والسعر السوقي هو {col:plan.market_now}.",
+"why": "placeholders must be exactly: {col:plan.min_price} {col:plan.market_now} {col:plan.state}"
+}
+]

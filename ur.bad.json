@@ -1,0 +1,114 @@
+[
+{
+"en": "Check the bund and the spill kit",
+"kind": "label",
+"max": null,
+"mt": "بنڈ اور spillkit چیک کریں",
+"why": "English/Latin words left: spillkit"
+},
+{
+"en": "Use the 14 calculators for machine cost, own or hire, fuel, service dates, labour cost, piece-rate pay, pickers, peak labour, overtime, replacement, fuel stock, output, depreciation and seasonal budget.",
+"kind": "sentence",
+"max": null,
+"mt": "مشین کی لاگت، مالک یا کرایہ، ایندھن، سروس کی تاریخوں، لیبر کی لاگت، ٹکڑا کی شرح تنخواہ، pickers، چوٹی لیبر، اوور ٹائم، متبادل، ایندھن کے ذخائر، پیداوار، کٹوتی اور موسمی بجٹ کے لئے 14 کیلکولیٹر استعمال کریں.",
+"why": "English/Latin words left: pickers"
+},
+{
+"en": "Best buyer finder by net price in cash",
+"kind": "label",
+"max": 50,
+"mt": "نقد میں خالص قیمت کے لحاظ سے بہترین خریدار تلاش کرنے والا",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "each quote is cut to a net price after deductions, haulage and days to payment, so the best buyer pays most and not offers most",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر اقتباس میں کٹوتی، نقل و حمل اور ادائیگی کے دنوں کے بعد ایک خالص قیمت کو کاٹ دیا جاتا ہے تاکہ بہترین خریدار سب سے زیادہ ادا کرتا ہے اور سب سے زیادہ پیش نہیں کرتا",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "what each buyer owes split into not yet due and late by 1 to 30, 31 to 60, 61 to 90 and over 90 days, with the credit left and a warning at the limit",
+"kind": "sentence",
+"max": 160,
+"mt": "جو ہر خریدار کا قرضہ ہے، اس میں تقسیم کیا گیا ہے کہ ابھی تک نہیں اور 1 سے 30، 31 سے 60، 61 سے 90 اور 90 دن سے زیادہ دیر سے، کریڈٹ باقی اور حد پر ایک انتباہ کے ساتھ",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "weight leaving the farm is compared with the weight the buyer reports and every difference above your tolerance is flagged before it turns into a claim",
+"kind": "sentence",
+"max": 160,
+"mt": "فارم سے باہر نکلنے والے وزن کا موازنہ خریدار کی رپورٹ کردہ وزن سے کیا جاتا ہے اور آپ کی رواداری سے زیادہ ہر فرق کو نشان زد کیا جاتا ہے اس سے پہلے کہ یہ دعوی میں بدل جائے",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Sales orders: ordered, delivered and still to deliver",
+"kind": "title",
+"max": 60,
+"mt": "فروخت کے احکامات: حکم دیا، فراہم کی اور ابھی تک فراہم کرنے کے لئے",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Buyer price quotes compared: the best net price in cash",
+"kind": "title",
+"max": 60,
+"mt": "خریدار کی قیمت کی قیمتوں کا موازنہ: نقد رقم میں بہترین خالص قیمت",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Milk price by quality tier: fat, protein and cell count",
+"kind": "title",
+"max": 60,
+"mt": "دودھ کی قیمت معیار کی سطح: چربی، پروٹین اور خلیوں کی تعداد کے لحاظ سے",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Best buyer finder: highest net price among your quotes",
+"kind": "title",
+"max": 60,
+"mt": "بہترین خریدار فائنڈر: آپ کی قیمتوں کا تعین کے درمیان سب سے زیادہ خالص قیمت",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Yield needed at market price, t/ha",
+"kind": "label",
+"max": null,
+"mt": "مارکیٹ کی قیمت پر ضروری پیداوار، t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello {contact}, truck {truck} with load {ticket_id} of {product} leaves the farm at {leaves} and should arrive at {arrival}. Please keep a place at your weighbridge.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {contact}، ٹرک {truck} {ticket_id} {product} کے بوجھ کے ساتھ {leaves} {leaves} میں فارم چھوڑتا ہے اور {arrival} میں پہنچنا چاہئے.",
+"why": "placeholders must be exactly: {contact} {truck} {ticket_id} {product} {leaves} {arrival}"
+},
+{
+"en": "Hello {contact}, thank you for your payment of {amount} received on {date} for invoice {invoice}. Payment type: {type}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {contact}، {date} پر موصول {amount} کی ادائیگی کے لئے شکریہ {invoice} کے لئے انوائس {date}. ادائیگی کی قسم: {type}.",
+"why": "placeholders must be exactly: {contact} {amount} {date} {invoice} {type}"
+},
+{
+"en": "Hello {contact}, from {date} our price for {product} is {offer} per tonne ex farm. Orders confirmed before that date keep the old price.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {contact}، {date} سے {product} کے لئے ہماری قیمت {offer} فی ٹن ex فارم ہے. اس تاریخ سے پہلے تصدیق شدہ احکامات پرانے قیمت کو برقرار رکھنے.",
+"why": "English/Latin words left: ex"
+},
+{
+"en": "Hello {driver}, load {ticket_id} for {buyer} leaves at {leaves} in truck {truck}. Please be at the weighbridge on time and carry the delivery note.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {driver}، ٹرک {truck} میں {leaves} پر {buyer} پتیوں کے لئے {ticket_id} لوڈ {truck}. براہ مہربانی وقت پر وزن پل پر ہو اور ترسیل کا نوٹ لے.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {buyer} {leaves} {truck}"
+},
+{
+"en": "You claim {col:claims.claim_value} for {col:claims.cause}, which is {col:claims.claim_pct} of the sale value of {col:claims.line_value}.",
+"kind": "document",
+"max": null,
+"mt": "آپ {col:claims.claim_value} {col:claims.cause} کے لئے دعوی کرتے ہیں، جو {col:claims.claim_pct} {col:claims.line_value} کی فروخت کی قیمت کا {col:claims.claim_pct} ہے.",
+"why": "placeholders must be exactly: {col:claims.claim_value} {col:claims.cause} {col:claims.claim_pct} {col:claims.line_value}"
+}
+]

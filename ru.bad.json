@@ -1,0 +1,513 @@
+[
+{
+"en": "Hello {person}, we issued {qty} {ppe} on {date}. Please wear it every day for the work it is made for, and tell me when it is worn out.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, носите его каждый день для работы, для которой он создан, и скажите мне, когда он изнашивается.",
+"why": "placeholders must be exactly: {person} {qty} {ppe} {date}"
+},
+{
+"en": "The machine is {col:machines.age} years old with a planned life of {col:machines.life_years} years. Its value now is {col:machines.value_now}. The age check shows: {col:machines.state}.",
+"kind": "document",
+"max": null,
+"mt": "Машины {col:machines.age} лет с запланированным сроком службы {col:machines.life_years} лет. Его значение сейчас {col:machines.value_now}.",
+"why": "placeholders must be exactly: {col:machines.age} {col:machines.life_years} {col:machines.value_now} {col:machines.state}"
+},
+{
+"en": "The service check shows: {col:machines.svc_state}. Every service is written on the service schedule and signed by the mechanic.",
+"kind": "document",
+"max": null,
+"mt": "Каждый сервис записывается в графике обслуживания и подписывается механиком.",
+"why": "placeholders must be exactly: {col:machines.svc_state}"
+},
+{
+"en": "Machine: {col:repairs.machine}. Reported on {col:repairs.date}. Part group: {col:repairs.part}.",
+"kind": "document",
+"max": null,
+"mt": "Машина: {col:repairs.machine}. Сообщается на {col:repairs.date}.",
+"why": "placeholders must be exactly: {col:repairs.machine} {col:repairs.date} {col:repairs.part}"
+},
+{
+"en": "Work done: {col:repairs.repair}. Repaired by {col:repairs.repairer}.",
+"kind": "document",
+"max": null,
+"mt": "Работа выполнена: {col:repairs.repair}.",
+"why": "placeholders must be exactly: {col:repairs.repair} {col:repairs.repairer}"
+},
+{
+"en": "Machine: {col:machines.name}. Usual use: {col:machines.fuel_lph} litres per hour.",
+"kind": "document",
+"max": null,
+"mt": "Обычное потребление: {col:machines.fuel_lph} литров в час.",
+"why": "placeholders must be exactly: {col:machines.name} {col:machines.fuel_lph}"
+},
+{
+"en": "In the last 12 months the machine used {col:machines.fuel_l} litres of diesel in {col:machines.hours_year} hours. The fuel cost was {col:machines.fuel_cost}.",
+"kind": "document",
+"max": null,
+"mt": "За последние 12 месяцев машина потребляла {col:machines.fuel_l} литров дизельного топлива за {col:machines.hours_year} часов.",
+"why": "placeholders must be exactly: {col:machines.fuel_l} {col:machines.hours_year} {col:machines.fuel_cost}"
+},
+{
+"en": "The diesel price used is the average price paid on your fuel purchases. Every dip of the tank is compared with the stock in the books and a difference of more than {set:fuel_loss} is checked.",
+"kind": "document",
+"max": null,
+"mt": "Используемая цена дизельного топлива - это средняя цена, уплаченная за покупку топлива.",
+"why": "placeholders must be exactly: {set:fuel_loss}"
+},
+{
+"en": "Permanent staff pay is {col:payroll.perm_pay}, seasonal workers pay is {col:payroll.seasonal_pay} and piece-rate pay is {col:payroll.piece_pay}. Allowances and bonuses are {col:payroll.allowances}. The total pay is {col:payroll.pay_total}.",
+"kind": "document",
+"max": null,
+"mt": "Заработная плата постоянного персонала {col:payroll.perm_pay}, заработная плата сезонных работников {col:payroll.seasonal_pay} и заработная плата по части {col:payroll.piece_pay}.",
+"why": "placeholders must be exactly: {col:payroll.perm_pay} {col:payroll.seasonal_pay} {col:payroll.piece_pay} {col:payroll.allowances} {col:payroll.pay_total}"
+},
+{
+"en": "Employer costs are {col:payroll.oncost_amt}, so the labour cost of the month is {col:payroll.labour_cost} for {col:payroll.hours} hours. The budget was {col:payroll.budget} and the check shows: {col:payroll.state}.",
+"kind": "document",
+"max": null,
+"mt": "Расходы работодателя {col:payroll.oncost_amt}, поэтому стоимость труда за месяц {col:payroll.labour_cost} за {col:payroll.hours} часов.",
+"why": "placeholders must be exactly: {col:payroll.oncost_amt} {col:payroll.labour_cost} {col:payroll.hours} {col:payroll.budget} {col:payroll.state}"
+},
+{
+"en": "Picker: {col:workers.name}. Team leader: {col:workers.leader}.",
+"kind": "document",
+"max": null,
+"mt": "Лидер команды:",
+"why": "placeholders must be exactly: {col:workers.name} {col:workers.leader}"
+},
+{
+"en": "During the contract the picker delivered {col:workers.piece_kg} kilograms of accepted fruit and vegetables. The piece-rate pay is {col:workers.piece_pay}.",
+"kind": "document",
+"max": null,
+"mt": "В течение срока действия контракта сборщик доставлял {col:workers.piece_kg} килограммов принятых фруктов и овощей.",
+"why": "placeholders must be exactly: {col:workers.piece_kg} {col:workers.piece_pay}"
+},
+{
+"en": "Time work on other days was paid {col:workers.pay}. The total pay is {col:workers.total_pay} for {col:workers.hours} hours.",
+"kind": "document",
+"max": null,
+"mt": "Время работы в другие дни было оплачено {col:workers.pay}.",
+"why": "placeholders must be exactly: {col:workers.pay} {col:workers.total_pay} {col:workers.hours}"
+},
+{
+"en": "We have {col:labourneed.seasonal_hired} seasonal workers on contract, so {col:labourneed.gap} workers are still short. The check shows: {col:labourneed.state}.",
+"kind": "document",
+"max": null,
+"mt": "У нас есть сезонные работники по контракту, так что у нас все еще не хватает рабочих.",
+"why": "placeholders must be exactly: {col:labourneed.seasonal_hired} {col:labourneed.gap} {col:labourneed.state}"
+},
+{
+"en": "What happened: {col:safety.what}. How serious: {col:safety.severity}. Days lost: {col:safety.days_lost}. Cost: {col:safety.cost}.",
+"kind": "document",
+"max": null,
+"mt": "Что случилось, насколько серьезно, потерянные дни, стоимость.",
+"why": "placeholders must be exactly: {col:safety.what} {col:safety.severity} {col:safety.days_lost} {col:safety.cost}"
+},
+{
+"en": "Labour need against workers available",
+"kind": "title",
+"max": 60,
+"mt": "Потребность в рабочей силе по сравнению с рабочими, имеющимися в наличии",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Sell at the best net price, track contracts and get paid on time",
+"kind": "sentence",
+"max": 80,
+"mt": "Продайте по лучшей чистой цене, отслеживайте контракты и получайте деньги вовремя.",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "Best buyer finder by net price in cash",
+"kind": "label",
+"max": 50,
+"mt": "Найдите лучшего покупателя по чистой цене в наличных",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "each quote is cut to a net price after deductions, haulage and days to payment, so the best buyer pays most and not offers most",
+"kind": "sentence",
+"max": 160,
+"mt": "каждая котировка сокращается до чистой цены после вычетов, транспортировки и дней до оплаты, так что лучший покупатель платит больше, а не предлагает больше всего",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Forward contract fulfilment with shortfall penalty",
+"kind": "label",
+"max": 50,
+"mt": "Исполнение форвардного контракта с штрафом за дефицит",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "tonnes delivered against tonnes contracted, the weekly pace you still need, the harvest still to come and the penalty you face if it falls short",
+"kind": "sentence",
+"max": 160,
+"mt": "тонны, поставленные против тонны, заключенного договора, еженедельный темп, который вам еще нужен, урожай, который еще предстоит, и штраф, который вы будете нести, если он не достигнет",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "what each buyer owes split into not yet due and late by 1 to 30, 31 to 60, 61 to 90 and over 90 days, with the credit left and a warning at the limit",
+"kind": "sentence",
+"max": 160,
+"mt": "сумма задолженности каждого покупателя, разделенная на задолженность, еще не погашенную и просроченную на срок от 1 до 30, от 31 до 60, от 61 до 90 и более чем на 90 дней, с оставшимся кредитом и предупреждением о пределе.",
+"why": "too long: 222 characters, the limit is 160"
+},
+{
+"en": "weight leaving the farm is compared with the weight the buyer reports and every difference above your tolerance is flagged before it turns into a claim",
+"kind": "sentence",
+"max": 160,
+"mt": "Вес, покидающий ферму, сравнивается с весом, о котором сообщает покупатель, и всякое различие выше вашего допустимого значения отмечается, прежде чем это превратится в претензию.",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "storage cost, shrink and interest are set against the price you expect later, with the later price you need to break even",
+"kind": "sentence",
+"max": 160,
+"mt": "Стоимость хранения, сокращения и процентов устанавливаются по отношению к цене, которую вы ожидаете позже, с более поздней цене, которую вы должны выйти из равновесия",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "FarmLink Haulage",
+"kind": "list",
+"max": 30,
+"mt": "Перевозки грузов FarmLink",
+"why": "English/Latin words left: FarmLink"
+},
+{
+"en": "Buyer insolvent",
+"kind": "list",
+"max": 30,
+"mt": "Неплатежеспособность покупателя",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Not paid after reminders",
+"kind": "list",
+"max": 30,
+"mt": "Не выплачивается после напоминания",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Weighbridge tickets: farm weight against buyer weight",
+"kind": "title",
+"max": 60,
+"mt": "Билеты для взвешивания: вес фермы по отношению к весу покупателя",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Invoice no",
+"kind": "label",
+"max": null,
+"mt": "Фактура No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Receivables ageing: what each buyer owes and for how long",
+"kind": "title",
+"max": 60,
+"mt": "Старость дебиторской задолженности: сколько каждый покупатель должен и как долго",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Buyer price quotes compared: the best net price in cash",
+"kind": "title",
+"max": 60,
+"mt": "Проверка котировок покупателей: лучшая чистая цена в наличных",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Export documents: certificates and papers for each shipment",
+"kind": "title",
+"max": 60,
+"mt": "Экспортные документы: сертификаты и документы для каждой перевозки",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Document no",
+"kind": "label",
+"max": null,
+"mt": "Документ No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Sale no",
+"kind": "label",
+"max": null,
+"mt": "Продажа No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Milk price by quality tier: fat, protein and cell count",
+"kind": "title",
+"max": 60,
+"mt": "Цена молока по уровню качества: жир, белок и количество клеток",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Case no",
+"kind": "label",
+"max": null,
+"mt": "Дело No",
+"why": "English/Latin words left: No"
+},
+{
+"en": "Crop and egg sales",
+"kind": "label",
+"max": 30,
+"mt": "Продажа сельскохозяйственных культур и яиц",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Best buyer finder: highest net price among your quotes",
+"kind": "title",
+"max": 60,
+"mt": "Найдите лучшего покупателя: самая высокая чистая цена среди ваших котировок",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, we offer a forward contract for {product}: {tonnes} t at {price_t} per tonne, delivered between {win_start} and {win_end}. Please tell me if you want it.",
+"kind": "message",
+"max": null,
+"mt": "Привет, мы предлагаем форвардный контракт на {product}: {tonnes} t по {price_t} за тонну, поставленный между {win_start} и {win_end}.",
+"why": "placeholders must be exactly: {contact} {product} {tonnes} {price_t} {win_start} {win_end}"
+},
+{
+"en": "Hello {contact}, the {product} harvest is ready. For contract {cid} we propose delivery from {win_start} to {win_end}. Please tell me which days suit you.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, урожай готов. Для контракта мы предлагаем доставку с 3 до 4. Пожалуйста, скажите мне, какие дни вам подходят.",
+"why": "placeholders must be exactly: {contact} {product} {cid} {win_start} {win_end}"
+},
+{
+"en": "Hello {contact}, your order {order_id} for {tonnes} t of {product} is confirmed for delivery on {due} at {price_t} per tonne. Please tell me if anything changes.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, ваш заказ {order_id} на {tonnes} т {product} подтвержден для доставки на {due} по {price_t} тонны.",
+"why": "placeholders must be exactly: {contact} {order_id} {tonnes} {product} {due} {price_t}"
+},
+{
+"en": "Hello {contact}, truck {truck} with load {ticket_id} of {product} leaves the farm at {leaves} and should arrive at {arrival}. Please keep a place at your weighbridge.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, грузовик с грузом 3 покидает ферму в 4 и должен прибыть в 5.",
+"why": "placeholders must be exactly: {contact} {truck} {ticket_id} {product} {leaves} {arrival}"
+},
+{
+"en": "Hello {contact}, ticket {ticket_id}: weight leaving the farm {net_kg} kg, your weight {buyer_kg} kg, difference {diff_pct}. Weight check: {state}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, билет: вес, покидающий ферму, килограмм, ваш вес, килограмм, разница.",
+"why": "placeholders must be exactly: {contact} {ticket_id} {net_kg} {buyer_kg} {diff_pct} {state}"
+},
+{
+"en": "Hello {contact}, quality result for delivery {line_id} of {product}: deduction {ded_pct}, worth {ded_value}. The paid weight is {net_t} t at {price_t} per tonne.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {contact}, результат качества для поставки {line_id} {product}: вычет {ded_pct}, стоимость {ded_value}.",
+"why": "placeholders must be exactly: {contact} {line_id} {product} {ded_pct} {ded_value} {net_t} {price_t}"
+},
+{
+"en": "Hello {contact}, thank you for your payment of {amount} received on {date} for invoice {invoice}. Payment type: {type}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {contact}, спасибо за оплату {amount}, полученную на {date} за счет {invoice}.",
+"why": "placeholders must be exactly: {contact} {amount} {date} {invoice} {type}"
+},
+{
+"en": "Hello {contact}, contract {contract}: {delivered} t delivered of {contract_t} t, {left} t left, window ends {win_end}. Our forecast shows a shortfall of {shortfall} t. Can we agree a plan?",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, контракт {contract}: {delivered} t доставлен {contract_t} t, {left} t остался, окно заканчивается {win_end}.",
+"why": "placeholders must be exactly: {contact} {contract} {delivered} {contract_t} {left} {win_end} {shortfall}"
+},
+{
+"en": "Hello {contact}, new samples of {main_product} are ready for {name}. Tell me the address and the quantity of samples you want.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, новые образцы {main_product} готовы для {name}.",
+"why": "placeholders must be exactly: {contact} {main_product} {name}"
+},
+{
+"en": "Hello {contact}, from {date} our price for {product} is {offer} per tonne ex farm. Orders confirmed before that date keep the old price.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, с 1 цены на 1 тонну - 3 тонны за ферму. Заказы, подтвержденные до этой даты, сохраняют прежнюю цену.",
+"why": "placeholders must be exactly: {contact} {date} {product} {offer}"
+},
+{
+"en": "Hello {contact}, statement of account for {buyer}: owed {owed}, not yet due {not_due}, late 1 to 30 days {d30}, 31 to 60 days {d60}, 61 to 90 days {d90}, over 90 days {over90}. Please check and pay what is due.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {contact}, выписка из счета за {buyer}: задолженность {owed}, еще не уплачена {not_due}, просрочка от 1 до 30 дней {d30}, 31 до 60 дней {d60}, 61 до 90 дней {d90}, более 90 дней {over90}.",
+"why": "English/Latin words left: over"
+},
+{
+"en": "Hello {contact}, milk for {month}: about {litres} litres from the {herd}. Please keep the usual daily collection time and send the fat and protein results as soon as you have them.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, соблюдайте обычное время ежедневного сбора и присылайте результаты по жирам и белкам, как только вы их получите.",
+"why": "placeholders must be exactly: {contact} {month} {litres} {herd}"
+},
+{
+"en": "Hello {contact}, order {order_id}: {tonnes} t of {product} for {due} at {price_t} per tonne. Please confirm the quantity for the week.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, заказ {order_id}: {tonnes} t {product} для {due} на {price_t} тонны. Пожалуйста, подтвердите количество на неделю.",
+"why": "placeholders must be exactly: {contact} {order_id} {tonnes} {product} {due} {price_t}"
+},
+{
+"en": "Hello {contact}, {head} head of {herd}, about {avg_kg} kg each, are ready for collection. Sale {ls_id} is at {price_kg} per kg live. Please send transport and tell me the time.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы готовы забрать по 1 головке по 3 кг. Продажа за 5 кг. Пожалуйста, отправьте транспорт и скажите мне время.",
+"why": "placeholders must be exactly: {contact} {head} {herd} {avg_kg} {ls_id} {price_kg}"
+},
+{
+"en": "Hello {contact}, we would like to meet {name} on {next_visit}. Please tell me if the date suits you or suggest another day.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы хотели бы встретиться в день, пожалуйста, скажите мне, если дата вам подходит или предложите другой день.",
+"why": "placeholders must be exactly: {contact} {name} {next_visit}"
+},
+{
+"en": "Hello, we agree a rate of {rate} per tonne-km plus a fixed charge of {fixed} for job {h_id}. This gives {cost} for {tonnes} t. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы договорились о ставке {rate} за тонну-км плюс фиксированный сбор {fixed} за работу {h_id}. Это дает {cost} за {tonnes} t. Пожалуйста, подтвердите.",
+"why": "English/Latin words left: t."
+},
+{
+"en": "Hello {driver}, load {ticket_id} for {buyer} leaves at {leaves} in truck {truck}. Please be at the weighbridge on time and carry the delivery note.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, загружаем в грузовик 2 листа, пожалуйста, будьте вовремя на весах и несите с собой доставку.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {buyer} {leaves} {truck}"
+},
+{
+"en": "Hello {driver}, please bring the weighbridge slip for ticket {ticket_id} to the office as soon as you return. Net weight {net_kg} kg.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, принесите с собой в офис счёт за билет, как только вернетесь.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {net_kg}"
+},
+{
+"en": "Hello {staff}, the stall at {market} opens at {opens} on {date}. Please load {taken_kg} kg of {product} and the price list at {price_kg} per kg.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, стойка в 1 открывается в 2 в 3 пожалуйста, загрузите 4 кг 5 и ценовой список в 6 кг.",
+"why": "placeholders must be exactly: {staff} {market} {opens} {date} {taken_kg} {product} {price_kg}"
+},
+{
+"en": "Hello, buyer {buyer} owes {owed} and the credit limit is {limit}. Please decide today whether we deliver more before they pay.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, покупатель должник и кредитный лимит 2 пожалуйста, решите сегодня, не будем ли мы поставлять больше, прежде чем они будут платить.",
+"why": "placeholders must be exactly: {buyer} {owed} {limit}"
+},
+{
+"en": "To {col:invoices.buyer}, {col:invoices.country}. Contact: {col:invoices.contact}. Delivery: {col:invoices.line}.",
+"kind": "document",
+"max": null,
+"mt": "Контакт: 2 Доставка: 3",
+"why": "placeholders must be exactly: {col:invoices.buyer} {col:invoices.country} {col:invoices.contact} {col:invoices.line}"
+},
+{
+"en": "Amount for the produce delivered: {col:invoices.amount}. Sales tax: {col:invoices.tax}. Total to pay: {col:invoices.total}.",
+"kind": "document",
+"max": null,
+"mt": "Сумма за поставленную продукцию: {col:invoices.amount}. налог с продаж: {col:invoices.tax}.",
+"why": "placeholders must be exactly: {col:invoices.amount} {col:invoices.tax} {col:invoices.total}"
+},
+{
+"en": "Payment terms are {col:invoices.terms} days, so this invoice is due on {col:invoices.due}. Payments received so far: {col:invoices.paid}. Balance: {col:invoices.balance}.",
+"kind": "document",
+"max": null,
+"mt": "Сроки оплаты {col:invoices.terms} дней, поэтому этот счет должен быть уплачен в {col:invoices.due}.",
+"why": "placeholders must be exactly: {col:invoices.terms} {col:invoices.due} {col:invoices.paid} {col:invoices.balance}"
+},
+{
+"en": "To {col:lines.buyer}. Contact: {col:lines.contact}. Order: {col:lines.order}. Contract: {col:lines.contract}.",
+"kind": "document",
+"max": null,
+"mt": "Контакт, заказ, контракт.",
+"why": "placeholders must be exactly: {col:lines.buyer} {col:lines.contact} {col:lines.order} {col:lines.contract}"
+},
+{
+"en": "The agreed price is {col:lines.price_t} per tonne and the sale value is {col:lines.value}. The haulage cost is {col:lines.haul}.",
+"kind": "document",
+"max": null,
+"mt": "Согласованная цена {col:lines.price_t} за тонну и продажная стоимость {col:lines.value}.",
+"why": "placeholders must be exactly: {col:lines.price_t} {col:lines.value} {col:lines.haul}"
+},
+{
+"en": "The seller will deliver {col:contracts.tonnes} tonnes of {col:contracts.product} at {col:contracts.price_t} per tonne, a total value of {col:contracts.value}. Delivery is between {col:contracts.win_start} and {col:contracts.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "Продавец будет поставлять {col:contracts.tonnes} тонн {col:contracts.product} по {col:contracts.price_t} за тонну, общая стоимость {col:contracts.value}.",
+"why": "placeholders must be exactly: {col:contracts.tonnes} {col:contracts.product} {col:contracts.price_t} {col:contracts.value} {col:contracts.win_start} {col:contracts.win_end}"
+},
+{
+"en": "To {col:fulfil.buyer}. Contract: {col:fulfil.contract}. Product: {col:fulfil.product}.",
+"kind": "document",
+"max": null,
+"mt": "Контракт: {col:fulfil.contract}. Продукт: {col:fulfil.product}.",
+"why": "placeholders must be exactly: {col:fulfil.buyer} {col:fulfil.contract} {col:fulfil.product}"
+},
+{
+"en": "To finish in time we need {col:fulfil.per_week} tonnes each week. The harvest can still give {col:fulfil.forecast_t} tonnes, so the shortfall is {col:fulfil.shortfall} tonnes and the penalty at stake is {col:fulfil.penalty}. Status: {col:fulfil.state}.",
+"kind": "document",
+"max": null,
+"mt": "Для того, чтобы закончить в срок, нам нужно {col:fulfil.per_week} тонн каждую неделю. Урожай все еще может дать {col:fulfil.forecast_t} тонн, так что дефицит {col:fulfil.shortfall} тонн и штраф на карту {col:fulfil.penalty}.",
+"why": "placeholders must be exactly: {col:fulfil.per_week} {col:fulfil.forecast_t} {col:fulfil.shortfall} {col:fulfil.penalty} {col:fulfil.state}"
+},
+{
+"en": "To {col:ageing.buyer}. Contact: {col:ageing.contact}.",
+"kind": "document",
+"max": null,
+"mt": "Контакт: {col:ageing.contact}.",
+"why": "placeholders must be exactly: {col:ageing.buyer} {col:ageing.contact}"
+},
+{
+"en": "To {col:quotes.buyer}. Contact: {col:quotes.contact}. Product: {col:quotes.product}, {col:quotes.qty_t} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "Контакт: {col:quotes.contact} Продукт: {col:quotes.product}, {col:quotes.qty_t} тонн.",
+"why": "placeholders must be exactly: {col:quotes.buyer} {col:quotes.contact} {col:quotes.product} {col:quotes.qty_t}"
+},
+{
+"en": "To {col:claims.buyer}. Contact: {col:claims.contact}. Delivery: {col:claims.line}, {col:claims.product}.",
+"kind": "document",
+"max": null,
+"mt": "Контакт: доставка:",
+"why": "placeholders must be exactly: {col:claims.buyer} {col:claims.contact} {col:claims.line} {col:claims.product}"
+},
+{
+"en": "We checked our weighbridge and quality records. Our offer to settle is {col:claims.agreed}. The claim status is {col:claims.status}.",
+"kind": "document",
+"max": null,
+"mt": "Мы проверили наши показатели качества, наше предложение заключено.",
+"why": "placeholders must be exactly: {col:claims.agreed} {col:claims.status}"
+},
+{
+"en": "Goods: {col:export.product}, {col:export.tonnes} tonnes. Document: {col:export.doc}, issued by {col:export.authority}.",
+"kind": "document",
+"max": null,
+"mt": "Документ: {col:export.doc}, выданный {col:export.authority}.",
+"why": "placeholders must be exactly: {col:export.product} {col:export.tonnes} {col:export.doc} {col:export.authority}"
+},
+{
+"en": "Our minimum price is {col:plan.min_price} and the market price is {col:plan.market_now}. The market check shows: {col:plan.state}.",
+"kind": "document",
+"max": null,
+"mt": "Наша минимальная цена {col:plan.min_price} и рыночная цена {col:plan.market_now}.",
+"why": "placeholders must be exactly: {col:plan.min_price} {col:plan.market_now} {col:plan.state}"
+},
+{
+"en": "Contracted tonnes: {col:plan.contracted_t}, {col:plan.contract_share} of the output. Stock in store: {col:plan.in_store_t} tonnes, worth {col:plan.stock_value}.",
+"kind": "document",
+"max": null,
+"mt": "Контрактные тонны: {col:plan.contracted_t}, {col:plan.contract_share} производства.",
+"why": "placeholders must be exactly: {col:plan.contracted_t} {col:plan.contract_share} {col:plan.in_store_t} {col:plan.stock_value}"
+}
+]

@@ -1,0 +1,170 @@
+[
+{
+"en": "Machine: {col:machines.name} ({col:machines.kind}). Status: {col:machines.owned}. Bought on {col:machines.buy_date} for {col:machines.price}.",
+"kind": "document",
+"max": null,
+"mt": "मशीनः {col:machines.name} ({col:machines.kind}). स्थितिः {col:machines.owned}. {col:machines.buy_date} के लिए {col:machines.price} पर खरीदा {col:machines.buy_date}।",
+"why": "placeholders must be exactly: {col:machines.name} {col:machines.kind} {col:machines.owned} {col:machines.buy_date} {col:machines.price}"
+},
+{
+"en": "Worker: {col:workers.name} from {col:workers.country}. Type: {col:workers.type}. Main task: {col:workers.main_task}.",
+"kind": "document",
+"max": null,
+"mt": "कार्यकर्ता: {col:workers.name} {col:workers.country} से {col:workers.type} प्रकार: {col:workers.type} मुख्य कार्यः {col:workers.main_task}",
+"why": "placeholders must be exactly: {col:workers.name} {col:workers.country} {col:workers.type} {col:workers.main_task}"
+},
+{
+"en": "Employer costs are {col:payroll.oncost_amt}, so the labour cost of the month is {col:payroll.labour_cost} for {col:payroll.hours} hours. The budget was {col:payroll.budget} and the check shows: {col:payroll.state}.",
+"kind": "document",
+"max": null,
+"mt": "नियोक्ता की लागत {col:payroll.oncost_amt} है, इसलिए महीने की श्रम लागत {col:payroll.labour_cost} {col:payroll.hours} घंटे के लिए {col:payroll.labour_cost} है। बजट {col:payroll.budget} था और चेक दिखाता हैः {col:payroll.state}",
+"why": "placeholders must be exactly: {col:payroll.oncost_amt} {col:payroll.labour_cost} {col:payroll.hours} {col:payroll.budget} {col:payroll.state}"
+},
+{
+"en": "We have {col:labourneed.seasonal_hired} seasonal workers on contract, so {col:labourneed.gap} workers are still short. The check shows: {col:labourneed.state}.",
+"kind": "document",
+"max": null,
+"mt": "हमारे पास अनुबंध पर मौसमी श्रमिक हैं, इसलिए श्रमिक अभी भी कम हैं। चेक दिखाता हैः {col:labourneed.state}",
+"why": "placeholders must be exactly: {col:labourneed.seasonal_hired} {col:labourneed.gap} {col:labourneed.state}"
+},
+{
+"en": "Sell at the best net price, track contracts and get paid on time",
+"kind": "sentence",
+"max": 80,
+"mt": "सर्वोत्तम शुद्ध मूल्य पर बेचें, अनुबंधों को ट्रैक करें और समय पर भुगतान प्राप्त करें",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "Best buyer finder by net price in cash",
+"kind": "label",
+"max": 50,
+"mt": "नकद में शुद्ध मूल्य के आधार पर सर्वश्रेष्ठ खरीदार खोजक",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "each quote is cut to a net price after deductions, haulage and days to payment, so the best buyer pays most and not offers most",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक उद्धरण कटौती की जाती है एक शुद्ध मूल्य के बाद कटौती, ढुलाई और भुगतान करने के लिए दिनों, तो सबसे अच्छा खरीदार सबसे अधिक भुगतान करता है और सबसे अधिक प्रदान नहीं करता है",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "what each buyer owes split into not yet due and late by 1 to 30, 31 to 60, 61 to 90 and over 90 days, with the credit left and a warning at the limit",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक खरीदार के लिए क्या बकाया है, जो अभी तक नहीं बकाया है और 1 से 30, 31 से 60, 61 से 90 और 90 दिनों से अधिक समय के लिए देरी से बकाया है, क्रेडिट के साथ शेष और सीमा पर चेतावनी के साथ",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "weight leaving the farm is compared with the weight the buyer reports and every difference above your tolerance is flagged before it turns into a claim",
+"kind": "sentence",
+"max": 160,
+"mt": "खेत से बाहर जाने वाले वजन की तुलना खरीदार द्वारा रिपोर्ट किए गए वजन से की जाती है और आपके सहिष्णुता से ऊपर के हर अंतर को एक दावे में बदलने से पहले चिह्नित किया जाता है",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "plant health, origin and packing papers for each shipment show who issues them, the days they take and which ones are overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक शिपमेंट के लिए पौधों के स्वास्थ्य, उत्पत्ति और पैकिंग दस्तावेजों में यह दर्शाया गया है कि उन्हें किसने जारी किया है, वे कितने दिन लगते हैं और कौन से देरी से आते हैं",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Receivables ageing: what each buyer owes and for how long",
+"kind": "title",
+"max": 60,
+"mt": "प्राप्तियों का वृद्धावस्थाः प्रत्येक खरीदार के पास कितना और कब तक ऋण है",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Buyer price quotes compared: the best net price in cash",
+"kind": "title",
+"max": 60,
+"mt": "खरीदार मूल्य उद्धरणों की तुलनाः सबसे अच्छा शुद्ध मूल्य नकद में",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Export documents: certificates and papers for each shipment",
+"kind": "title",
+"max": 60,
+"mt": "निर्यात दस्तावेज: प्रत्येक शिपमेंट के लिए प्रमाण पत्र और कागजात",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Milk price by quality tier: fat, protein and cell count",
+"kind": "title",
+"max": 60,
+"mt": "दूध की कीमत गुणवत्ता स्तर के अनुसारः वसा, प्रोटीन और कोशिकाओं की संख्या",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Best buyer finder: highest net price among your quotes",
+"kind": "title",
+"max": 60,
+"mt": "सर्वश्रेष्ठ खरीदार खोजकः आपके उद्धरणों के बीच उच्चतम शुद्ध मूल्य",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, truck {truck} with load {ticket_id} of {product} leaves the farm at {leaves} and should arrive at {arrival}. Please keep a place at your weighbridge.",
+"kind": "message",
+"max": null,
+"mt": "हैलो {contact}, ट्रक {truck} {ticket_id} {product} के भार के साथ {leaves} {leaves} पर खेत छोड़ देता है और {arrival} पर पहुंचना चाहिए। कृपया अपने वजन पुल पर एक जगह रखें।",
+"why": "placeholders must be exactly: {contact} {truck} {ticket_id} {product} {leaves} {arrival}"
+},
+{
+"en": "Hello {contact}, thank you for your payment of {amount} received on {date} for invoice {invoice}. Payment type: {type}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {contact}, {date} पर प्राप्त {amount} के भुगतान के लिए धन्यवाद।",
+"why": "placeholders must be exactly: {contact} {amount} {date} {invoice} {type}"
+},
+{
+"en": "Hello {contact}, from {date} our price for {product} is {offer} per tonne ex farm. Orders confirmed before that date keep the old price.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {contact}, {date} से {product} के लिए हमारी कीमत {offer} प्रति टन ex फार्म है. उस तारीख से पहले पुष्टि आदेश पुरानी कीमत रखने.",
+"why": "English/Latin words left: ex"
+},
+{
+"en": "Hello {contact}, the {doc} for {product}, {tonnes} t to {country}, is attached as document {ex_id}. Please confirm that you received it.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {contact}, {product} के लिए {doc}, {tonnes} t to {country}, दस्तावेज़ {ex_id} के रूप में संलग्न है। कृपया पुष्टि करें कि आपने इसे प्राप्त किया है।",
+"why": "English/Latin words left: to"
+},
+{
+"en": "Hello {driver}, load {ticket_id} for {buyer} leaves at {leaves} in truck {truck}. Please be at the weighbridge on time and carry the delivery note.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {driver}, ट्रक {truck} में {leaves} पर {buyer} पत्तियों के लिए {ticket_id} लोड {truck}। कृपया समय पर वेजब्रिज पर रहें और डिलीवरी नोट ले जाएं।",
+"why": "placeholders must be exactly: {driver} {ticket_id} {buyer} {leaves} {truck}"
+},
+{
+"en": "Hello {staff}, after {market} on {date} {unsold_kg} kg of {product} is unsold, worth {unsold_value}. Please bring it back and put it in cold storage.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {staff}, {market} पर {date} {unsold_kg} {product} किलो {unsold_value} के लायक {unsold_value} बेचा जाता है के बाद कृपया इसे वापस लाओ और इसे ठंडा भंडारण में रखो।",
+"why": "placeholders must be exactly: {staff} {market} {date} {unsold_kg} {product} {unsold_value}"
+},
+{
+"en": "The seller will deliver {col:contracts.tonnes} tonnes of {col:contracts.product} at {col:contracts.price_t} per tonne, a total value of {col:contracts.value}. Delivery is between {col:contracts.win_start} and {col:contracts.win_end}.",
+"kind": "document",
+"max": null,
+"mt": "विक्रेता {col:contracts.tonnes} टन {col:contracts.product} प्रति टन {col:contracts.price_t} पर {col:contracts.value} के कुल मूल्य पर {col:contracts.tonnes} टन {col:contracts.product} वितरित करेगा। वितरण {col:contracts.win_start} और {col:contracts.win_end} के बीच है।",
+"why": "placeholders must be exactly: {col:contracts.tonnes} {col:contracts.product} {col:contracts.price_t} {col:contracts.value} {col:contracts.win_start} {col:contracts.win_end}"
+},
+{
+"en": "To {col:ageing.buyer}. Contact: {col:ageing.contact}.",
+"kind": "document",
+"max": null,
+"mt": "संपर्कः {col:ageing.contact}.",
+"why": "placeholders must be exactly: {col:ageing.buyer} {col:ageing.contact}"
+},
+{
+"en": "The quoted price is {col:quotes.offer} per tonne ex farm. The expected deduction is {col:quotes.ded_pct} and the haulage is {col:quotes.haul} per tonne. Payment is due in {col:quotes.pay_days} days.",
+"kind": "document",
+"max": null,
+"mt": "उद्धृत मूल्य {col:quotes.offer} प्रति टन ex-farm है। अपेक्षित कटौती {col:quotes.ded_pct} है और परिवहन {col:quotes.haul} प्रति टन है। भुगतान {col:quotes.pay_days} दिनों में देय है।",
+"why": "English/Latin words left: ex farm"
+}
+]

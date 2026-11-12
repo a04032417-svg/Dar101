@@ -1,0 +1,303 @@
+[
+{
+"en": "Hello {person}, we issued {qty} {ppe} on {date}. Please wear it every day for the work it is made for, and tell me when it is worn out.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们在3日发行了1号. 请每天都穿它,",
+"why": "placeholders must be exactly: {person} {qty} {ppe} {date}"
+},
+{
+"en": "Machine history of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "机器历史记录,日期为 {today}.",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Fuel use report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "燃料使用报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "In the last 12 months the machine used {col:machines.fuel_l} litres of diesel in {col:machines.hours_year} hours. The fuel cost was {col:machines.fuel_cost}.",
+"kind": "document",
+"max": null,
+"mt": "在过去的12个月里,机器在1小时内使用了{col:machines.fuel_l}升柴油.燃料成本是{col:machines.fuel_cost}.",
+"why": "placeholders must be exactly: {col:machines.fuel_l} {col:machines.hours_year} {col:machines.fuel_cost}"
+},
+{
+"en": "A job that uses more than {set:fuel_over} above the usual litres per hour is marked as high fuel use on the sheet Fuel Use per Task.",
+"kind": "document",
+"max": null,
+"mt": "一个使用超过通常每小时1升的工作在表格上标记为高燃油使用.",
+"why": "placeholders must be exactly: {set:fuel_over}"
+},
+{
+"en": "Contract summary of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "合同总结日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "During the contract the picker delivered {col:workers.piece_kg} kilograms of accepted fruit and vegetables. The piece-rate pay is {col:workers.piece_pay}.",
+"kind": "document",
+"max": null,
+"mt": "在合同期间,采摘者交付了 {col:workers.piece_kg} 公斤接受的水果和蔬菜.",
+"why": "placeholders must be exactly: {col:workers.piece_kg} {col:workers.piece_pay}"
+},
+{
+"en": "We have {col:labourneed.seasonal_hired} seasonal workers on contract, so {col:labourneed.gap} workers are still short. The check shows: {col:labourneed.state}.",
+"kind": "document",
+"max": null,
+"mt": "我们有合同的季节工人,所以工人还很少.",
+"why": "placeholders must be exactly: {col:labourneed.seasonal_hired} {col:labourneed.gap} {col:labourneed.state}"
+},
+{
+"en": "The action check shows: {col:safety.state}. The record was closed on {col:safety.closed_on}.",
+"kind": "document",
+"max": null,
+"mt": "操作检查显示: {col:safety.state}.",
+"why": "placeholders must be exactly: {col:safety.state} {col:safety.closed_on}"
+},
+{
+"en": "Yield needed at market price, t/ha",
+"kind": "label",
+"max": null,
+"mt": "在市场价格下所需的产量,t/ha",
+"why": "English/Latin words left: ha"
+},
+{
+"en": "Hello {contact}, we offer a forward contract for {product}: {tonnes} t at {price_t} per tonne, delivered between {win_start} and {win_end}. Please tell me if you want it.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们提供一个期货合同: {product}: {tonnes} t 在 {price_t} 每,交付在 {win_start} 和 {win_end} 之间. 请告诉我如果你想要它.",
+"why": "placeholders must be exactly: {contact} {product} {tonnes} {price_t} {win_start} {win_end}"
+},
+{
+"en": "Hello {contact}, the {product} harvest is ready. For contract {cid} we propose delivery from {win_start} to {win_end}. Please tell me which days suit you.",
+"kind": "message",
+"max": null,
+"mt": "你好,收获已经准备好了. 对于合同,我们建议从3到4日交货. 请告诉我哪些日子适合你.",
+"why": "placeholders must be exactly: {contact} {product} {cid} {win_start} {win_end}"
+},
+{
+"en": "Hello {contact}, your order {order_id} for {tonnes} t of {product} is confirmed for delivery on {due} at {price_t} per tonne. Please tell me if anything changes.",
+"kind": "message",
+"max": null,
+"mt": "你好,您的订单 {order_id}为 {tonnes} t {product} 确认交付 {due} 在 {price_t} 每. 请告诉我如果有任何变化.",
+"why": "placeholders must be exactly: {contact} {order_id} {tonnes} {product} {due} {price_t}"
+},
+{
+"en": "Hello {contact}, truck {truck} with load {ticket_id} of {product} leaves the farm at {leaves} and should arrive at {arrival}. Please keep a place at your weighbridge.",
+"kind": "message",
+"max": null,
+"mt": "您好,卡车1号载有2号卡车3号卡车4号卡车离开农场,5号卡车到达农场.请在权衡桥上留一个位置.",
+"why": "placeholders must be exactly: {contact} {truck} {ticket_id} {product} {leaves} {arrival}"
+},
+{
+"en": "Hello {contact}, ticket {ticket_id}: weight leaving the farm {net_kg} kg, your weight {buyer_kg} kg, difference {diff_pct}. Weight check: {state}.",
+"kind": "message",
+"max": null,
+"mt": "您的体重是2公斤,您的体重是3公斤,差异是4公斤.",
+"why": "placeholders must be exactly: {contact} {ticket_id} {net_kg} {buyer_kg} {diff_pct} {state}"
+},
+{
+"en": "Hello {contact}, quality result for delivery {line_id} of {product}: deduction {ded_pct}, worth {ded_value}. The paid weight is {net_t} t at {price_t} per tonne.",
+"kind": "message",
+"max": null,
+"mt": "您好,质量结果为 {line_id} 的交付 {product}:扣除 {ded_pct},价值 {ded_value}.",
+"why": "placeholders must be exactly: {contact} {line_id} {product} {ded_pct} {ded_value} {net_t} {price_t}"
+},
+{
+"en": "Hello {contact}, about your claim {cl_id} on {product}: you claimed {claim_value}, which is {claim_pct} of the sale. We checked our weighbridge and quality records and will send our answer in writing.",
+"kind": "message",
+"max": null,
+"mt": "你好,关于您的索赔 {cl_id} 在 {product}:您的索赔 {claim_value},这是 {claim_pct} 的销售.我们检查了我们的权衡桥和质量记录,并将以书面形式发送我们的答案.",
+"why": "placeholders must be exactly: {contact} {cl_id} {product} {claim_value} {claim_pct}"
+},
+{
+"en": "Hello {contact}, invoice {inv_id} for {total}, tax {tax} included, is issued and due on {due}. Please confirm that you received it.",
+"kind": "message",
+"max": null,
+"mt": "您好,为 {total} 发行了 {inv_id} 发票,包括税 {tax} ,并应付于 {due}. 请确认您收到了.",
+"why": "placeholders must be exactly: {contact} {inv_id} {total} {tax} {due}"
+},
+{
+"en": "Hello {contact}, this is our second reminder: invoice {inv_id}, balance {balance}, is {days_late} days past its due date of {due}. Please pay now. If there is a problem with the invoice, please call me today.",
+"kind": "message",
+"max": null,
+"mt": "您好,这是我们的第二个提醒: 发票 {inv_id},余额 {balance},已 {days_late} 天过期 {due}. 请现在付款. 如果发票出现问题,请今天给我打电话.",
+"why": "placeholders must be exactly: {contact} {inv_id} {balance} {days_late} {due}"
+},
+{
+"en": "Hello {contact}, thank you for your payment of {amount} received on {date} for invoice {invoice}. Payment type: {type}.",
+"kind": "message",
+"max": null,
+"mt": "你好,谢谢您在 {date} 发票 {invoice} 上收到的 {amount} 付款. 付款类型: {type}.",
+"why": "placeholders must be exactly: {contact} {amount} {date} {invoice} {type}"
+},
+{
+"en": "Hello {contact}, contract {contract}: {delivered} t delivered of {contract_t} t, {left} t left, window ends {win_end}. Our forecast shows a shortfall of {shortfall} t. Can we agree a plan?",
+"kind": "message",
+"max": null,
+"mt": "我们的预测显示缺口为6t. 我们能达成一个计划吗?",
+"why": "placeholders must be exactly: {contact} {contract} {delivered} {contract_t} {left} {win_end} {shortfall}"
+},
+{
+"en": "Hello {contact}, new samples of {main_product} are ready for {name}. Tell me the address and the quantity of samples you want.",
+"kind": "message",
+"max": null,
+"mt": "你好,新样品已经准备好了. 告诉我你想要的地址和样品数量.",
+"why": "placeholders must be exactly: {contact} {main_product} {name}"
+},
+{
+"en": "Hello {contact}, from {date} our price for {product} is {offer} per tonne ex farm. Orders confirmed before that date keep the old price.",
+"kind": "message",
+"max": null,
+"mt": "您好,从1开始,我们的价格是每的3个.",
+"why": "placeholders must be exactly: {contact} {date} {product} {offer}"
+},
+{
+"en": "Hello {contact}, the {doc} for {product}, {tonnes} t to {country}, is attached as document {ex_id}. Please confirm that you received it.",
+"kind": "message",
+"max": null,
+"mt": "您好,为 {product}, {tonnes} t 到 {country} 的 {doc} 作为文件 {ex_id} 附件. 请确认您收到了.",
+"why": "placeholders must be exactly: {contact} {doc} {product} {tonnes} {country} {ex_id}"
+},
+{
+"en": "Hello {contact}, milk for {month}: about {litres} litres from the {herd}. Please keep the usual daily collection time and send the fat and protein results as soon as you have them.",
+"kind": "message",
+"max": null,
+"mt": "你好,牛奶为 {month}:大约 {litres} 升从 {herd}. 请保持通常的每日收集时间,并发送脂肪和蛋白质的结果,一旦你得到它们.",
+"why": "placeholders must be exactly: {contact} {month} {litres} {herd}"
+},
+{
+"en": "Hello {contact}, order {order_id}: {tonnes} t of {product} for {due} at {price_t} per tonne. Please confirm the quantity for the week.",
+"kind": "message",
+"max": null,
+"mt": "您好,订单 {order_id}: {tonnes} t {product} 的 {due} 在 {price_t} 每. 请确认本周的数量.",
+"why": "placeholders must be exactly: {contact} {order_id} {tonnes} {product} {due} {price_t}"
+},
+{
+"en": "Hello {contact}, {head} head of {herd}, about {avg_kg} kg each, are ready for collection. Sale {ls_id} is at {price_kg} per kg live. Please send transport and tell me the time.",
+"kind": "message",
+"max": null,
+"mt": "您好,每头2头,每头3公斤,准备收取. 销售价格为每公斤5. 请发送运输,并告诉我时间.",
+"why": "placeholders must be exactly: {contact} {head} {herd} {avg_kg} {ls_id} {price_kg}"
+},
+{
+"en": "Hello {contact}, we would like to meet {name} on {next_visit}. Please tell me if the date suits you or suggest another day.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们希望在2日见面.请告诉我这个日期是否适合您,或者建议另一个日期.",
+"why": "placeholders must be exactly: {contact} {name} {next_visit}"
+},
+{
+"en": "Hello, please book a truck for job {h_id} on {date}: {tonnes} t for {buyer}, about {km} km. Please confirm the truck and the loading time.",
+"kind": "message",
+"max": null,
+"mt": "您好,请预订一辆卡车在 {date}: {tonnes} t {buyer},大约 {km} 公里. 请确认卡车和加载时间.",
+"why": "placeholders must be exactly: {h_id} {date} {tonnes} {buyer} {km}"
+},
+{
+"en": "Hello, we agree a rate of {rate} per tonne-km plus a fixed charge of {fixed} for job {h_id}. This gives {cost} for {tonnes} t. Please confirm.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们同意每公里 {rate} 的税率加上 {fixed} 的固定费用.",
+"why": "placeholders must be exactly: {rate} {fixed} {h_id} {cost} {tonnes}"
+},
+{
+"en": "Hello {driver}, load {ticket_id} for {buyer} leaves at {leaves} in truck {truck}. Please be at the weighbridge on time and carry the delivery note.",
+"kind": "message",
+"max": null,
+"mt": "请按时到达权重桥并携带交付单.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {buyer} {leaves} {truck}"
+},
+{
+"en": "Hello {driver}, please bring the weighbridge slip for ticket {ticket_id} to the office as soon as you return. Net weight {net_kg} kg.",
+"kind": "message",
+"max": null,
+"mt": "您好,请在返回后,把票的权重表带到办公室.净重量为2公斤.",
+"why": "placeholders must be exactly: {driver} {ticket_id} {net_kg}"
+},
+{
+"en": "Hello {staff}, the stall at {market} opens at {opens} on {date}. Please load {taken_kg} kg of {product} and the price list at {price_kg} per kg.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {market} 的摊位在 {opens} 在 {date} 开放. 请装 {taken_kg} 千克的 {product} 和价格表在 {price_kg} 每千克.",
+"why": "placeholders must be exactly: {staff} {market} {opens} {date} {taken_kg} {product} {price_kg}"
+},
+{
+"en": "Hello {staff}, after {market} on {date} {unsold_kg} kg of {product} is unsold, worth {unsold_value}. Please bring it back and put it in cold storage.",
+"kind": "message",
+"max": null,
+"mt": "您好,在 {date} {unsold_kg} kg {product} 未出售后,价值 {unsold_value}. 请把它带回冷藏.",
+"why": "placeholders must be exactly: {staff} {market} {date} {unsold_kg} {product} {unsold_value}"
+},
+{
+"en": "Hello, buyer {buyer} owes {owed} and the credit limit is {limit}. Please decide today whether we deliver more before they pay.",
+"kind": "message",
+"max": null,
+"mt": "请今天决定我们是否交付更多,",
+"why": "placeholders must be exactly: {buyer} {owed} {limit}"
+},
+{
+"en": "To {col:invoices.buyer}, {col:invoices.country}. Contact: {col:invoices.contact}. Delivery: {col:invoices.line}.",
+"kind": "document",
+"max": null,
+"mt": "接收: 接收: 接收: 接收: 接收: 接收: 接收: 接收:",
+"why": "placeholders must be exactly: {col:invoices.buyer} {col:invoices.country} {col:invoices.contact} {col:invoices.line}"
+},
+{
+"en": "To {col:lines.buyer}. Contact: {col:lines.contact}. Order: {col:lines.order}. Contract: {col:lines.contract}.",
+"kind": "document",
+"max": null,
+"mt": "联系人: 订单: 合同:",
+"why": "placeholders must be exactly: {col:lines.buyer} {col:lines.contact} {col:lines.order} {col:lines.contract}"
+},
+{
+"en": "The agreed price is {col:lines.price_t} per tonne and the sale value is {col:lines.value}. The haulage cost is {col:lines.haul}.",
+"kind": "document",
+"max": null,
+"mt": "协议价格为每,销售价值为1.运输成本为2.",
+"why": "placeholders must be exactly: {col:lines.price_t} {col:lines.value} {col:lines.haul}"
+},
+{
+"en": "Forward contract {col:contracts.cid} between {set:firm} (the seller) and {col:contracts.buyer} (the buyer), signed on {col:contracts.signed_on}.",
+"kind": "document",
+"max": null,
+"mt": "在 {set:firm} (卖方) 和 {col:contracts.buyer} (买方) 之间签订的前期合同 {col:contracts.cid}",
+"why": "placeholders must be exactly: {col:contracts.cid} {set:firm} {col:contracts.buyer} {col:contracts.signed_on}"
+},
+{
+"en": "Statement of account of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "截止日期为 {set:firm} 的账单.",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "To {col:ageing.buyer}. Contact: {col:ageing.contact}.",
+"kind": "document",
+"max": null,
+"mt": "联系人:",
+"why": "placeholders must be exactly: {col:ageing.buyer} {col:ageing.contact}"
+},
+{
+"en": "To {col:quotes.buyer}. Contact: {col:quotes.contact}. Product: {col:quotes.product}, {col:quotes.qty_t} tonnes.",
+"kind": "document",
+"max": null,
+"mt": "联系人: {col:quotes.contact} 产品: {col:quotes.product}, {col:quotes.qty_t} .",
+"why": "placeholders must be exactly: {col:quotes.buyer} {col:quotes.contact} {col:quotes.product} {col:quotes.qty_t}"
+},
+{
+"en": "To {col:claims.buyer}. Contact: {col:claims.contact}. Delivery: {col:claims.line}, {col:claims.product}.",
+"kind": "document",
+"max": null,
+"mt": "接收: 交付:",
+"why": "placeholders must be exactly: {col:claims.buyer} {col:claims.contact} {col:claims.line} {col:claims.product}"
+}
+]
