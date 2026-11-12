@@ -306,7 +306,7 @@ def google2(items, sheetT=None):
     elif os.environ.get('TR_ENGINE') == 'edge2':
         out = edge_call(lines)
     else:
-        w = _LASTREQ[0] + float(os.environ.get('TR_SPACING', '8')) - time.time()
+        w = _LASTREQ[0] + float(os.environ.get('TR_SPACING', '3')) - time.time()
         if w > 0: time.sleep(w)
         _LASTREQ[0] = time.time()
         data = urllib.parse.urlencode({'q': '\n'.join(lines)}).encode()
@@ -328,7 +328,7 @@ def google2(items, sheetT=None):
 if os.environ.get('TR_ENGINE') in ('google2', 'nllb', 'bing', 'edge2'):
     miss = [x for x in todo if x['en'] not in done]
     print(LANG, 'google2: todo', len(todo), 'done', len(done), 'missing', len(miss), flush=True)
-    if os.environ.get('TR_ENGINE') == 'google2': time.sleep(abs(hash(LANG)) % 60)
+    if os.environ.get('TR_ENGINE') == 'google2': time.sleep(abs(hash(LANG)) % 8)
     bad, n = [], 0
     def batch(part, sheetT):
         global n
