@@ -1,0 +1,37 @@
+[
+{
+"en": "Rank the products and mark the ABC classes",
+"kind": "label",
+"max": null,
+"mt": "رتب المنتجات وحدد فئات ABC",
+"why": "English/Latin words left: ABC"
+},
+{
+"en": "Use the 14 calculators for order profit, channel compare, break-even, payout check, fee rule check, ABC class, customer value, cohort retention, account value, tier check, mix shift, stall day, growth and a commission what-if.",
+"kind": "sentence",
+"max": null,
+"mt": "استخدم 14 آلة حاسبة لربح الطلب، ومقارنة القنوات، والتعادل، والتحقق من العوائد، والتحقق من قاعدة الرسوم، وفئة ABC، وقيمة العميل، والاحتفاظ بالفوج، وقيمة الحساب، والتحقق من الطبقة، والتحول المختلط، ويوم المماطلة، والنمو، والعمولة ماذا لو.",
+"why": "English/Latin words left: ABC"
+},
+{
+"en": "sales, product cost, fees, shipping, ads, refunds, payroll and owner pay of every month come from your own pages, with gross and net margin against your target",
+"kind": "sentence",
+"max": 160,
+"mt": "المبيعات، وتكلفة المنتج، والرسوم، والشحن، والإعلانات، والمبالغ المستردة، وكشوف المرتبات، وأجور المالك لكل شهر تأتي من صفحاتك الخاصة، مع هامش إجمالي وصافي مقابل هدفك",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Payables: carrier, ad platform, packaging and service bills",
+"kind": "title",
+"max": 60,
+"mt": "الذمم الدائنة: فواتير الناقل والمنصة الإعلانية والتعبئة والتغليف والخدمة",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Hello, the line {description} of {amount} on {date} is {state}. Please match it to the payout report this week.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، السطر {description} من {amount} على {date} هو {state}. يرجى مطابقتها مع تقرير الدفع هذا الأسبوع.",
+"why": "never use the word for \"compatible\""
+}
+]

@@ -1,0 +1,135 @@
+[
+{
+"en": "Enter the account in Customers and Wholesale Accounts",
+"kind": "label",
+"max": null,
+"mt": "حساب را در Customers و حساب های عمده فروشی وارد کنید",
+"why": "English/Latin words left: Customers"
+},
+{
+"en": "Rank the products and mark the ABC classes",
+"kind": "label",
+"max": null,
+"mt": "محصولات را رتبه بندی کنید و کلاس های ABC را علامت گذاری کنید",
+"why": "English/Latin words left: ABC"
+},
+{
+"en": "Payouts matching expected",
+"kind": "title",
+"max": 60,
+"mt": "پرداخت‌ها مطابقت دارند",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your shop name and your own limits in the yellow cells: target and floor margin, warning days, packaging and picking cost, payout tolerance and the phone numbers for messages.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام فروشگاه و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: حاشیه هدف و طبقه، روزهای هشدار، هزینه بسته‌بندی و انتخاب، تحمل پرداخت و شماره تلفن پیام‌ها.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Record every payout on Payouts. The expected net, the difference and a check show whether it matches. Open a row on Payout Issues for each short payment.",
+"kind": "sentence",
+"max": null,
+"mt": "هر پرداختی را در Payouts ثبت کنید. خالص مورد انتظار، تفاوت و چک نشان می دهد که آیا مطابقت دارد یا خیر. برای هر پرداخت کوتاه، یک ردیف در مشکلات پرداخت باز کنید.",
+"why": "English/Latin words left: Payouts"
+},
+{
+"en": "Use the 14 calculators for order profit, channel compare, break-even, payout check, fee rule check, ABC class, customer value, cohort retention, account value, tier check, mix shift, stall day, growth and a commission what-if.",
+"kind": "sentence",
+"max": null,
+"mt": "از 14 ماشین حساب برای سود سفارش، مقایسه کانال، سربه سر، چک پرداخت، بررسی قوانین کارمزد، کلاس ABC، ارزش مشتری، حفظ گروه، ارزش حساب، بررسی ردیف، تغییر ترکیب، روز توقف، رشد و کمیسیون چه می‌شود، استفاده کنید.",
+"why": "English/Latin words left: ABC"
+},
+{
+"en": "payouts, wholesale invoices, supplier payments, tax, bills and payroll land in the week due and warn you before cash runs low",
+"kind": "sentence",
+"max": 160,
+"mt": "پرداخت های بازار، فاکتورهای عمده فروشی، پرداخت های تامین کننده، مالیات، صورتحساب ها و زمین های حقوق و دستمزد در هفته مقرر و به شما هشدار می دهند قبل از کم شدن پول نقد",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "One row for each month with the amount the owner takes and the date paid; the profit before owner pay, the share taken and the payment status fill in from Profit and Loss.",
+"kind": "sentence",
+"max": null,
+"mt": "One row for each month with the amount the owner takes and the date paid; the profit before owner pay, the share taken and the payment status fill in from سود و زیان.",
+"why": "English/Latin words left: One row for each"
+},
+{
+"en": "One row for each month with the money that came in and went out of the bank; money in, money out, net cash and the closing balance fill in, with a warning under the safety level.",
+"kind": "sentence",
+"max": null,
+"mt": "One row for each month with the money that came in and went out of the bank; پول وارد شده، پول خارج شده، وجه نقد خالص و مانده پایانی با یک هشدار زیر سطح ایمنی پر می شود.",
+"why": "English/Latin words left: One row for each"
+},
+{
+"en": "Payout timing: expected payouts by channel and week",
+"kind": "title",
+"max": 60,
+"mt": "زمان پرداخت: پرداخت های مورد انتظار بازار بر اساس کانال و هفته",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "One row for each bank statement line with the record it matches and that record amount; the difference and whether it is matched fill in, so short payouts and unknown lines stand out.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر ردیف صورت حساب بانکی با رکوردی که مطابقت دارد و آن مقدار رکورد. تفاوت و اینکه آیا مطابقت دارد پر می شود، بنابراین پرداخت های کوتاه بازار و خطوط ناشناخته برجسته می شوند.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Bank lines not matched",
+"kind": "label",
+"max": null,
+"mt": "خطوط بانک مطابقت ندارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Bookkeeper: payouts to match",
+"kind": "label",
+"max": null,
+"mt": "دفتردار: پرداخت‌های بازار برای مطابقت",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, the line {description} of {amount} on {date} is {state}. Please match it to the payout report this week.",
+"kind": "message",
+"max": null,
+"mt": "سلام، خط {description} از {amount} در {date} {state} است. لطفاً آن را با گزارش پرداخت این هفته مطابقت دهید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match payouts to the bank lines",
+"kind": "label",
+"max": null,
+"mt": "پرداخت های بازار را با خطوط بانکی مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match tax collected to the ledger",
+"kind": "label",
+"max": null,
+"mt": "مالیات مطابقت داده شده به دفتر کل",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Mark the line matched",
+"kind": "label",
+"max": null,
+"mt": "خط مطابقت را علامت بزنید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your shop name, the safety level for your bank balance, the net margin you want and the phone numbers of the owner, the bookkeeper and the team leads.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام مغازه، سطح ایمنی موجودی بانکی، حاشیه خالص مورد نظر و شماره تلفن مالک، حسابدار و سرنخ های تیم را تایپ کنید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Match the statement lines on Bank Reconciliation and list the year-end items on Year-End Tasks.",
+"kind": "sentence",
+"max": null,
+"mt": "خطوط بیانیه را در تسویه حساب بانکی مطابقت دهید و موارد پایان سال را در وظایف پایان سال فهرست کنید.",
+"why": "never use the word for \"compatible\""
+}
+]
