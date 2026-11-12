@@ -196,13 +196,18 @@ def nllb_call(lines):
         _NL['t'] = AutoTokenizer.from_pretrained(name, src_lang='eng_Latn'); _NL['m'] = AutoModelForSeq2SeqLM.from_pretrained(name).eval()
         torch.set_num_threads(os.cpu_count() or 4)
     tok, m = _NL['t'], _NL['m']
-    res = []
-    for k in range(0, len(lines), 12):
-        part = [l.replace(' ¶ ', ' ') for l in lines[k:k + 12]]
+    if os.environ.get('TR_QUANT', '1') == '1' and not _NL.get('q'):
+        m = _NL['m'] = torch.quantization.quantize_dynamic(m, {torch.nn.Linear}, dtype=torch.qint8); _NL['q'] = 1
+    beams = int(os.environ.get('TR_BEAMS', '2'))
+    order = sorted(range(len(lines)), key=lambda i: len(lines[i]))      # similar lengths together: less padding, faster
+    res = [''] * len(lines)
+    for k in range(0, len(order), 16):
+        idx = order[k:k + 16]
+        part = [lines[i].replace(' ¶ ', ' ') for i in idx]
         enc = tok(part, return_tensors='pt', padding=True, truncation=True, max_length=200)
         with torch.no_grad():
-            out = m.generate(**enc, forced_bos_token_id=tok.convert_tokens_to_ids(NLLB[LANG]), num_beams=4, max_new_tokens=int(enc['input_ids'].shape[1] * 2.2 + 10))
-        res += tok.batch_decode(out, skip_special_tokens=True)
+            out = m.generate(**enc, forced_bos_token_id=tok.convert_tokens_to_ids(NLLB[LANG]), num_beams=beams, max_new_tokens=int(enc['input_ids'].shape[1] * 2.2 + 10))
+        for i, t in zip(idx, tok.batch_decode(out, skip_special_tokens=True)): res[i] = t
     return res
 
 
