@@ -1,0 +1,23 @@
+[
+{
+"en": "One row for each SKU with its cost, price and weight; the display name, the weight in kilograms, the units sold, the sales and the margin on the sample orders fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "每个 SKU 占一行，包含其成本、价格和重量；填写样品订单上的显示名称、重量（公斤）、销售单位、销售额和利润。",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Carrier volume divisor, cm3 per kg",
+"kind": "label",
+"max": null,
+"mt": "载体体积除数，cm3/kg",
+"why": "English/Latin words left: cm kg"
+},
+{
+"en": "Hello, please send your updated rates for zone {zone}. Our cost for 5 kg is now {cost_5kg}.",
+"kind": "message",
+"max": null,
+"mt": "您好，请发送您的 {zone} 区的更新费率。现在 5 公斤的费用为 {cost_5kg}。",
+"why": "English/Latin words left: cost kg"
+}
+]

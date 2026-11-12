@@ -1,0 +1,44 @@
+[
+{
+"en": "Pick, pack and ship every order on time and see what shipping really costs",
+"kind": "sentence",
+"max": 80,
+"mt": "ہر آرڈر کو وقت پر چنیں، پیک کریں اور بھیجیں اور دیکھیں کہ واقعی شپنگ کی کیا قیمت ہے۔",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "Order pipeline with age and next action",
+"kind": "label",
+"max": 50,
+"mt": "عمر اور اگلی کارروائی کے ساتھ پائپ لائن کا آرڈر دیں۔",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Order lines: what each order contains and what it earns",
+"kind": "title",
+"max": 60,
+"mt": "آرڈر لائنز: ہر آرڈر میں کیا ہوتا ہے اور اس سے کیا حاصل ہوتا ہے۔",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "One row for each SKU with its cost, price and weight; the display name, the weight in kilograms, the units sold, the sales and the margin on the sample orders fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "ہر SKU کے لیے اس کی قیمت، قیمت اور وزن کے ساتھ ایک قطار؛ ڈسپلے کا نام، کلوگرام میں وزن، فروخت شدہ یونٹس، سیلز اور نمونے کے آرڈر پر مارجن بھرتے ہیں۔",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Carrier volume divisor, cm3 per kg",
+"kind": "label",
+"max": null,
+"mt": "کیریئر والیوم ڈیوائزر، cm3 فی کلوگرام",
+"why": "English/Latin words left: cm"
+},
+{
+"en": "Hello, please send your updated rates for zone {zone}. Our cost for 5 kg is now {cost_5kg}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، براہ کرم زون {zone} کے لیے اپنے تازہ ترین نرخ بھیجیں۔ 5 کلو کے لیے ہماری قیمت اب {cost_5kg} ہے۔",
+"why": "English/Latin words left: cost kg"
+}
+]

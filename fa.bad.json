@@ -1,0 +1,58 @@
+[
+{
+"en": "Open Start and type your shop name and your limits in the yellow cells: warning days, late days, highest acceptable defect rate, lowest supplier rating and the weights of the score.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام فروشگاه و محدودیت های خود را در سلول های زرد تایپ کنید: روزهای هشدار، روزهای پایانی، بالاترین میزان نقص قابل قبول، پایین ترین رتبه بندی تامین کننده و وزن امتیاز.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Pick, pack and ship every order on time and see what shipping really costs",
+"kind": "sentence",
+"max": 80,
+"mt": "هر سفارش را به موقع انتخاب کنید، بسته بندی کنید و ارسال کنید و ببینید هزینه ارسال واقعا چقدر است",
+"why": "too long: 96 characters, the limit is 80"
+},
+{
+"en": "Order lines: what each order contains and what it earns",
+"kind": "title",
+"max": 60,
+"mt": "خطوط سفارش: هر سفارش شامل چه چیزی است و چه چیزی به دست می آورد",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Order pipeline: open orders and what each needs next",
+"kind": "title",
+"max": 60,
+"mt": "خط لوله سفارش: سفارشات باز و آنچه که هر کدام در مرحله بعد نیاز دارند",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "One row for each carrier, zone and weight band; the price comes from the Carriers sheet and the cost per kilogram, the delivery days and the rank among carriers fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر حامل، منطقه و باند وزن. قیمت از برگه Carriers می آید و هزینه هر کیلوگرم، روزهای تحویل و رتبه در بین حامل ها پر می شود.",
+"why": "English/Latin words left: Carriers"
+},
+{
+"en": "One row for each SKU with its cost, price and weight; the display name, the weight in kilograms, the units sold, the sales and the margin on the sample orders fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر SKU با هزینه، قیمت و وزن آن؛ نام نمایشی، وزن به کیلوگرم، واحدهای فروخته شده، فروش و حاشیه در سفارشات نمونه را پر کنید.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Cheapest cost that meets the speed",
+"kind": "label",
+"max": null,
+"mt": "ارزان ترین هزینه که با سرعت مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, please send your updated rates for zone {zone}. Our cost for 5 kg is now {cost_5kg}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً نرخ های به روز شده خود را برای منطقه {zone} ارسال کنید. هزینه ما برای 5 کیلوگرم اکنون {cost_5kg} است.",
+"why": "English/Latin words left: cost kg"
+}
+]

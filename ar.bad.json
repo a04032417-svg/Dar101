@@ -1,0 +1,23 @@
+[
+{
+"en": "Address and payment problems: found, fixed or given up",
+"kind": "title",
+"max": 60,
+"mt": "مشاكل العنوان والدفع: تم العثور عليها أو إصلاحها أو التخلي عنها",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "One row for each SKU with its cost, price and weight; the display name, the weight in kilograms, the units sold, the sales and the margin on the sample orders fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "صف واحد لكل SKU مع تكلفته وسعره ووزنه؛ يتم ملء اسم العرض والوزن بالكيلوجرام والوحدات المباعة والمبيعات والهامش على أوامر العينة.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Hello, please send your updated rates for zone {zone}. Our cost for 5 kg is now {cost_5kg}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، يرجى إرسال الأسعار المحدثة للمنطقة {zone}. التكلفة لدينا الآن هي 5 كجم {cost_5kg}.",
+"why": "English/Latin words left: cost kg"
+}
+]

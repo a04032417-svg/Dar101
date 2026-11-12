@@ -1,0 +1,149 @@
+[
+{
+"en": "Pick, pack and ship every order on time and see what shipping really costs",
+"kind": "sentence",
+"max": 80,
+"mt": "Выбирайте, упаковывайте и отправляйте каждый заказ вовремя и узнавайте, сколько на самом деле стоит доставка.",
+"why": "too long: 109 characters, the limit is 80"
+},
+{
+"en": "Pick, pack and ship every order on time and see what shipping costs",
+"kind": "sentence",
+"max": 80,
+"mt": "Выбирайте, упаковывайте и отправляйте каждый заказ вовремя и узнавайте стоимость доставки.",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "Order pipeline with age and next action",
+"kind": "label",
+"max": 50,
+"mt": "Воронка заказов с указанием возраста и следующего действия",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Pick and pack minutes against expected",
+"kind": "label",
+"max": 50,
+"mt": "Выбирайте и упаковывайте минуты в соответствии с ожидаемыми",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "Order lines: what each order contains and what it earns",
+"kind": "title",
+"max": 60,
+"mt": "Строки заказов: что содержит каждый заказ и какую прибыль он приносит",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Carrier rate table: price by weight band and zone",
+"kind": "title",
+"max": 60,
+"mt": "Таблица тарифов перевозчика: цена по весовому диапазону и зоне",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Shipments: parcel cost against what the customer paid",
+"kind": "title",
+"max": 60,
+"mt": "Отгрузки: стоимость посылки в сравнении с суммой, уплаченной клиентом.",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Address and payment problems: found, fixed or given up",
+"kind": "title",
+"max": 60,
+"mt": "Проблемы с адресом и оплатой: найдены, исправлены или отброшены",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Channel rules: cut-off, handling time and shipping",
+"kind": "title",
+"max": 60,
+"mt": "Правила канала: прекращение подачи, время обработки и доставка",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Packaging stock: cartons, mailers, tape and fillers",
+"kind": "title",
+"max": 60,
+"mt": "Упаковочный материал: картонные коробки, почтовые конверты, лента и наполнители.",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Daily order summary: orders, units and sales for every day",
+"kind": "title",
+"max": 60,
+"mt": "Сводка ежедневных заказов: заказы, единицы и продажи за каждый день.",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Peak plan: busy weeks, staff and cartons needed",
+"kind": "title",
+"max": 60,
+"mt": "Пиковый план: напряженные недели, необходим персонал и картонные коробки",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "One row for each SKU with its cost, price and weight; the display name, the weight in kilograms, the units sold, the sales and the margin on the sample orders fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Одна строка для каждого SKU с его стоимостью, ценой и весом; заполняются отображаемое имя, вес в килограммах, проданные единицы, объем продаж и прибыль по образцам заказов.",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Carrier claim for a late, lost or damaged parcel",
+"kind": "title",
+"max": 60,
+"mt": "Претензия перевозчика в случае опоздания, утери или повреждения посылки",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Shipping cost of a parcel from weight, carrier and zone",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость доставки посылки в зависимости от веса, перевозчика и зоны",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Free-shipping threshold effect on cost and basket size",
+"kind": "title",
+"max": 60,
+"mt": "Влияние порога бесплатной доставки на стоимость и размер корзины",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Pick and pack capacity for a daily order count",
+"kind": "title",
+"max": 60,
+"mt": "Возможность комплектации и упаковки для ежедневного количества заказов",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Late delivery compensation: claim and refund",
+"kind": "title",
+"max": 60,
+"mt": "Компенсация за просрочку доставки: претензия и возврат средств",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Same-day dispatch rate and the cut-off time setting",
+"kind": "title",
+"max": 60,
+"mt": "Скорость отправки в тот же день и настройка времени окончания",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "What if orders per day and staff cost change",
+"kind": "title",
+"max": 60,
+"mt": "Что делать, если количество заказов в день и стоимость персонала изменятся?",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Hello, please send your updated rates for zone {zone}. Our cost for 5 kg is now {cost_5kg}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пришлите, пожалуйста, обновленные тарифы для зоны {zone}. Наша стоимость за 5 кг теперь составляет {cost_5kg}.",
+"why": "English/Latin words left: cost kg"
+}
+]

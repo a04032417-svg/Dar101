@@ -1,0 +1,58 @@
+[
+{
+"en": "Pick, pack and ship every order on time and see what shipping really costs",
+"kind": "sentence",
+"max": 80,
+"mt": "प्रत्येक ऑर्डर को समय पर चुनें, पैक करें और शिप करें और देखें कि वास्तव में शिपिंग की लागत क्या है",
+"why": "too long: 98 characters, the limit is 80"
+},
+{
+"en": "Pick, pack and ship every order on time and see what shipping costs",
+"kind": "sentence",
+"max": 80,
+"mt": "प्रत्येक ऑर्डर को समय पर चुनें, पैक करें और शिप करें और देखें कि शिपिंग लागत क्या है",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "Order lines: what each order contains and what it earns",
+"kind": "title",
+"max": 60,
+"mt": "ऑर्डर पंक्तियाँ: प्रत्येक ऑर्डर में क्या शामिल है और इससे क्या कमाई होती है",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Shipments: parcel cost against what the customer paid",
+"kind": "title",
+"max": 60,
+"mt": "शिपमेंट: ग्राहक द्वारा भुगतान की गई राशि के विरुद्ध पार्सल लागत",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Address and payment problems: found, fixed or given up",
+"kind": "title",
+"max": 60,
+"mt": "पता और भुगतान संबंधी समस्याएं: पाया गया, ठीक किया गया या छोड़ दिया गया",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "One row for each SKU with its cost, price and weight; the display name, the weight in kilograms, the units sold, the sales and the margin on the sample orders fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "प्रत्येक SKU के लिए उसकी लागत, मूल्य और वजन के साथ एक पंक्ति; प्रदर्शन नाम, किलोग्राम में वजन, बेची गई इकाइयाँ, बिक्री और नमूना आदेशों पर मार्जिन भरें।",
+"why": "English/Latin words left: SKU"
+},
+{
+"en": "Hello, please send your updated rates for zone {zone}. Our cost for 5 kg is now {cost_5kg}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, कृपया ज़ोन {zone} के लिए अपनी अद्यतन दरें भेजें। 5 किलो के लिए हमारी लागत अब {cost_5kg} है।",
+"why": "English/Latin words left: cost kg"
+},
+{
+"en": "Your order has {col:orders.items} items. Subtotal {col:orders.subtotal}, discount {col:orders.discount}, shipping {col:orders.ship_charged}, sales tax {col:orders.tax}. Total: {col:orders.total}.",
+"kind": "document",
+"max": null,
+"mt": "आपके ऑर्डर में शून्य आइटम है। उप-योग {col:orders.subtotal}, छूट {col:orders.discount}, शिपिंग {col:orders.ship_charged}, बिक्री कर {col:orders.tax}। कुल: {col:orders.total}.",
+"why": "placeholders must be exactly: {col:orders.items} {col:orders.subtotal} {col:orders.discount} {col:orders.ship_charged} {col:orders.tax} {col:orders.total}"
+}
+]

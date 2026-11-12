@@ -1,0 +1,247 @@
+[
+{
+"en": "Pick, pack and ship every order on time and see what shipping really costs",
+"kind": "sentence",
+"max": 80,
+"mt": "Choisissez, emballez et expédiez chaque commande à temps et voyez ce que coûte réellement l'expédition.",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "Pick, pack and ship every order on time and see what shipping costs",
+"kind": "sentence",
+"max": 80,
+"mt": "Choisissez, emballez et expédiez chaque commande à temps et voyez quels sont les frais d'expédition",
+"why": "too long: 99 characters, the limit is 80"
+},
+{
+"en": "Pick and pack minutes against expected",
+"kind": "label",
+"max": 50,
+"mt": "Choisissez et emballez les minutes par rapport aux attentes",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "Channel rules with free-shipping check",
+"kind": "label",
+"max": 50,
+"mt": "Règles de chaîne avec contrôle de livraison gratuite",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Fragile",
+"kind": "list",
+"max": 30,
+"mt": "Fragile",
+"why": "not translated"
+},
+{
+"en": "Name mismatch",
+"kind": "list",
+"max": 30,
+"mt": "Incompatibilité de nom",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Carton",
+"kind": "list",
+"max": 30,
+"mt": "Carton",
+"why": "not translated"
+},
+{
+"en": "Urgent",
+"kind": "list",
+"max": 30,
+"mt": "Urgent",
+"why": "not translated"
+},
+{
+"en": "Claim window over",
+"kind": "list",
+"max": 30,
+"mt": "Fenêtre de réclamation terminée",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Order lines: what each order contains and what it earns",
+"kind": "title",
+"max": 60,
+"mt": "Lignes de commande : ce que contient chaque commande et ce qu'elle rapporte",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Order pipeline: open orders and what each needs next",
+"kind": "title",
+"max": 60,
+"mt": "Pipeline de commandes : commandes ouvertes et ce dont chacun a besoin ensuite",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Pick and pack log: minutes for every order",
+"kind": "title",
+"max": 60,
+"mt": "Journal de préparation et d'emballage : minutes pour chaque commande",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Carriers: rates and delivery days for every zone",
+"kind": "title",
+"max": 60,
+"mt": "Transporteurs : tarifs et jours de livraison pour chaque zone",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Carrier rate table: price by weight band and zone",
+"kind": "title",
+"max": 60,
+"mt": "Tableau des tarifs transporteur : prix par tranche de poids et zone",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Shipments: parcel cost against what the customer paid",
+"kind": "title",
+"max": 60,
+"mt": "Expéditions : coût du colis par rapport à ce que le client a payé",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Address and payment problems: found, fixed or given up",
+"kind": "title",
+"max": 60,
+"mt": "Problèmes d'adresse et de paiement : trouvés, résolus ou abandonnés",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Wholesale order book: accounts, terms and what is due",
+"kind": "title",
+"max": 60,
+"mt": "Carnet de commandes de gros : comptes, modalités et sommes dues",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Channel rules: cut-off, handling time and shipping",
+"kind": "title",
+"max": 60,
+"mt": "Règles de canal : date limite, délai de traitement et expédition",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Packaging stock: cartons, mailers, tape and fillers",
+"kind": "title",
+"max": 60,
+"mt": "Stock d'emballage : cartons, enveloppes, rubans adhésifs et produits de remplissage",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Daily order summary: orders, units and sales for every day",
+"kind": "title",
+"max": 60,
+"mt": "Récapitulatif quotidien des commandes : commandes, unités et ventes pour chaque jour",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Fulfilment roster: who packs and for how many hours",
+"kind": "title",
+"max": 60,
+"mt": "Liste de distribution : qui emballe et pendant combien d'heures",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Peak plan: busy weeks, staff and cartons needed",
+"kind": "title",
+"max": 60,
+"mt": "Plan de pointe : semaines chargées, personnel et cartons nécessaires",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Products: the range, with landed cost and sales",
+"kind": "title",
+"max": 60,
+"mt": "Produits : la gamme, avec le coût au débarquement et les ventes",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Carrier claim for a late, lost or damaged parcel",
+"kind": "title",
+"max": 60,
+"mt": "Réclamation du transporteur pour un colis en retard, perdu ou endommagé",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Shipping cost of a parcel from weight, carrier and zone",
+"kind": "title",
+"max": 60,
+"mt": "Frais d'expédition d'un colis selon le poids, le transporteur et la zone",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Cheapest carrier for an order by weight, zone and speed",
+"kind": "title",
+"max": 60,
+"mt": "Transporteur le moins cher pour une commande par poids, zone et vitesse",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Free-shipping threshold effect on cost and basket size",
+"kind": "title",
+"max": 60,
+"mt": "Effet du seuil de livraison gratuite sur le coût et la taille du panier",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Delivery date promise from cut-off and transit days",
+"kind": "title",
+"max": 60,
+"mt": "Promesse de date de livraison à partir des jours limites et des jours de transit",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Pick and pack capacity for a daily order count",
+"kind": "title",
+"max": 60,
+"mt": "Capacité de prélèvement et d’emballage pour un décompte quotidien des commandes",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Late delivery compensation: claim and refund",
+"kind": "title",
+"max": 60,
+"mt": "Indemnité de retard de livraison : réclamation et remboursement",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cost per order from picking, packaging and shipping",
+"kind": "title",
+"max": 60,
+"mt": "Coût par commande depuis la préparation, l'emballage et l'expédition",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Parcel weight and volume check for the billable weight",
+"kind": "title",
+"max": 60,
+"mt": "Contrôle du poids et du volume du colis pour le poids facturable",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Order value needed to cover shipping on a channel",
+"kind": "title",
+"max": 60,
+"mt": "Valeur de la commande nécessaire pour couvrir l'expédition sur un canal",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "What if orders per day and staff cost change",
+"kind": "title",
+"max": 60,
+"mt": "Et si les commandes par jour et les coûts du personnel changeaient",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Hello, {item} is down to {on_hand} units with {days_left} days left. Please order {order_qty} units.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, il ne reste plus que {item} unités avec {days_left} jours restants. Veuillez commander {order_qty} unités.",
+"why": "placeholders must be exactly: {item} {on_hand} {days_left} {order_qty}"
+}
+]
