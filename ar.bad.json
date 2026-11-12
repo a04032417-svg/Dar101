@@ -1,0 +1,163 @@
+[
+{
+"en": "Hello, we drew {amount} from the reserve of {project} on {date} for: {reason}. The reserve left is {left}. Approved by {approved_by}.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، لقد سحبنا {amount} من احتياطي {project} في {date} ل: {reason}.",
+"why": "placeholders must be exactly: {amount} {project} {date} {reason} {left} {approved_by}"
+},
+{
+"en": "Hello {contact}, we sent invoice {invoice_no} for {amount} for the milestone {milestone} on {project}. It is due on {due}. Please tell us if anything is missing.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً {contact} ، لقد أرسلنا فاتورة {invoice_no} لـ {amount} لـ {milestone} في {project}.",
+"why": "placeholders must be exactly: {contact} {invoice_no} {amount} {milestone} {project} {due}"
+},
+{
+"en": "Hello {contact}, we received your payment of {amount} for invoice {invoice_no} on {paid_on}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، لقد تلقينا دفعتك من الفاتورة في الثالثة، شكراً",
+"why": "placeholders must be exactly: {contact} {amount} {invoice_no} {paid_on}"
+},
+{
+"en": "Budget now {col:forecast.bac}. Percent complete {col:forecast.pct}. Percent planned by now {col:forecast.planned_pct}.",
+"kind": "document",
+"max": null,
+"mt": "الميزانية الآن % انتهت % تم التخطيط لها الآن %",
+"why": "placeholders must be exactly: {col:forecast.bac} {col:forecast.pct} {col:forecast.planned_pct}"
+},
+{
+"en": "Each quote is scored out of 100 with these weights: price {set:w_price}, lead time {set:w_lead} and quality {set:w_quality}. The chosen vendor is {col:requests.chosen_vendor}, on order {col:requests.order}.",
+"kind": "document",
+"max": null,
+"mt": "يتم تقييم كل عرض من 100 مع هذه الوزن: السعر {set:w_price}، وقت التوصيل {set:w_lead} والجودة {set:w_quality}.",
+"why": "placeholders must be exactly: {set:w_price} {set:w_lead} {set:w_quality} {col:requests.chosen_vendor} {col:requests.order}"
+},
+{
+"en": "The change adds {col:changes.extra_days} working days and is priced at {col:changes.price}. The status is {col:changes.status}, decided on {col:changes.decided_on}.",
+"kind": "document",
+"max": null,
+"mt": "يضيف التغيير {col:changes.extra_days} أيام عمل ويتم تسعيره في {col:changes.price}.",
+"why": "placeholders must be exactly: {col:changes.extra_days} {col:changes.price} {col:changes.status} {col:changes.decided_on}"
+},
+{
+"en": "An amount of {col:contingency.amount} is drawn from the project reserve and moved to the category {col:contingency.category}. Reason: {col:contingency.reason}.",
+"kind": "document",
+"max": null,
+"mt": "يتم سحب مبلغ {col:contingency.amount} من احتياطي المشروع ونقله إلى فئة {col:contingency.category}.",
+"why": "placeholders must be exactly: {col:contingency.amount} {col:contingency.category} {col:contingency.reason}"
+},
+{
+"en": "Risk heat map: open risks by probability and impact",
+"kind": "title",
+"max": 60,
+"mt": "خريطة الحرارة للمخاطر: المخاطر المفتوحة حسب الاحتمال والتأثير",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Decision log: what was decided, by whom, and what is waiting",
+"kind": "title",
+"max": 60,
+"mt": "سجل القرارات: ما الذي تم القرار به، من قبل من، وما الذي ينتظر",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Risk cost, change cost and reserve drawn by month",
+"kind": "title",
+"max": 60,
+"mt": "تكلفة المخاطر وتكلفة التغيير والاحتياطي الذي تم استخدامه حسب الشهر",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, the indicator \"{indicator}\" is {current} {unit} against a threshold of {threshold}. Please act on risk {risk}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا {owner}، المؤشر \"{indicator}\" هو {current} {unit} ضد عتبة {threshold}.",
+"why": "placeholders must be exactly: {owner} {indicator} {current} {unit} {threshold} {risk}"
+},
+{
+"en": "Hello {owner}, issue {issue_id} \"{title}\" is {over} days overdue. Please send me a new date today.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، الإصدار 1 \"{title}\" متأخر بـ {over} أيام من فضلك أرسل لي تاريخ جديد اليوم.",
+"why": "placeholders must be exactly: {owner} {issue_id} {title} {over}"
+},
+{
+"en": "PMO lead: risk position of a project",
+"kind": "label",
+"max": null,
+"mt": "قيادة مؤسسة PMO: موقف المشروع من المخاطر",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello, {project} has {open_risks} open risks, {high_risks} high or critical, with an expected cost of {exposure}. Reserve left: {left}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبا، {project} لديه {open_risks} مخاطر مفتوحة، {high_risks} عالية أو حرجة، مع تكلفة متوقعة من {exposure}.",
+"why": "placeholders must be exactly: {project} {open_risks} {high_risks} {exposure} {left}"
+},
+{
+"en": "Hello {sponsor}, issue {issue_id} \"{title}\" needs your decision by {due}. Please call me today.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، القضية تحتاج إلى قراركم بحلول الثالثة من فضلكم اتصلوا بي اليوم",
+"why": "placeholders must be exactly: {sponsor} {issue_id} {title} {due}"
+},
+{
+"en": "Hello {sponsor}, change {change} \"{title}\" was rejected on {date}. Reason: {conditions}.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً {sponsor}، تم رفض تغيير {change} \"{title}\" في {date}.",
+"why": "placeholders must be exactly: {sponsor} {change} {title} {date} {conditions}"
+},
+{
+"en": "Hello, issue {issue_id} \"{title}\" concerns your delivery to {project}. Please respond by {due}.",
+"kind": "message",
+"max": null,
+"mt": "مرحباً، المسألة تتعلق بتوصيلك لـ {project}، من فضلك أجب بحلول {due}.",
+"why": "placeholders must be exactly: {issue_id} {title} {project} {due}"
+},
+{
+"en": "Hello {owner}, your action {action_id} \"{action}\" was due on {due}. Please finish it or send me a new date.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، كان موعد إجراءاتكم في الثالثة من فضلكم أكملوها أو أرسلوا لي تاريخ جديد",
+"why": "placeholders must be exactly: {owner} {action_id} {action} {due}"
+},
+{
+"en": "Their expected cost is {col:raid.exposure}. The reserve left is {col:raid.left}, so the exposure above the reserve is {col:raid.short}. The reserve check shows: {col:raid.reserve_check}.",
+"kind": "document",
+"max": null,
+"mt": "التكلفة المتوقعة هي {col:raid.exposure}. الاحتياطي المتبقي هو {col:raid.left}، لذلك التعرض فوق الاحتياطي هو {col:raid.short}.",
+"why": "placeholders must be exactly: {col:raid.exposure} {col:raid.left} {col:raid.short} {col:raid.reserve_check}"
+},
+{
+"en": "Reason and next step: {col:board.conditions}. Decided by: {col:board.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "السبب والخطوة التالية:",
+"why": "placeholders must be exactly: {col:board.conditions} {col:board.approved_by}"
+},
+{
+"en": "Decision: {col:decisions.decision}. Date: {col:decisions.date}. Status: {col:decisions.status}. Decided by: {col:decisions.decided_by}.",
+"kind": "document",
+"max": null,
+"mt": "القرار: {col:decisions.decision}. التاريخ: {col:decisions.date}. الحالة: {col:decisions.status}.",
+"why": "placeholders must be exactly: {col:decisions.decision} {col:decisions.date} {col:decisions.status} {col:decisions.decided_by}"
+},
+{
+"en": "Risks: {col:raid.open_risks} open, {col:raid.high_risks} high or critical, {col:raid.no_owner} without an owner. Expected cost {col:raid.exposure} against a reserve of {col:raid.left}. Reserve check: {col:raid.reserve_check}.",
+"kind": "document",
+"max": null,
+"mt": "المخاطر: {col:raid.open_risks} مفتوحة، {col:raid.high_risks} عالية أو حرجة، {col:raid.no_owner} بدون مالك. التكلفة المتوقعة {col:raid.exposure} مقابل احتياطي {col:raid.left}.",
+"why": "placeholders must be exactly: {col:raid.open_risks} {col:raid.high_risks} {col:raid.no_owner} {col:raid.exposure} {col:raid.left} {col:raid.reserve_check}"
+},
+{
+"en": "What happened: {col:lessons.what}.",
+"kind": "document",
+"max": null,
+"mt": "ماذا حدث؟",
+"why": "placeholders must be exactly: {col:lessons.what}"
+}
+]

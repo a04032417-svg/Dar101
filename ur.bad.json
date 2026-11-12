@@ -1,0 +1,121 @@
+[
+{
+"en": "Hello, invoice {inv_no} from {vendor} for {amount} on {project} is approved for payment. The due date is {due}. Please schedule the payment.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {vendor} سے {amount} پر {project} کے لئے {vendor} سے انوائس {inv_no} ادائیگی کے لئے منظور کیا جاتا ہے. مقررہ تاریخ {due} ہے. براہ مہربانی ادائیگی کا شیڈول.",
+"why": "placeholders must be exactly: {inv_no} {vendor} {amount} {project} {due}"
+},
+{
+"en": "Hello, we drew {amount} from the reserve of {project} on {date} for: {reason}. The reserve left is {left}. Approved by {approved_by}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، ہم {amount} {date} پر {project} کے ریزرو سے {reason} کے لئے نکالا. {reason} کے لئے {project} کے ریزرو چھوڑ دیا {left}. {approved_by} کی طرف سے منظوری دے دی. {approved_by} کے لئے {project} کے ریزرو سے {amount} نکالا. {reason} کے لئے {reason} کے لئے {reason} کے لئے {reason} کے لئے {reason} کے لئے {reason} کے لئے {reason} کے لئے {",
+"why": "placeholders must be exactly: {amount} {project} {date} {reason} {left} {approved_by}"
+},
+{
+"en": "Hello {sponsor}, the forecast cost of {project} is {eac} against a budget of {bac}. The project is {pct} complete and the cost index is {cpi}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {sponsor}، {project} کی متوقع لاگت {eac} {bac} کے بجٹ کے مقابلے میں {eac} ہے. منصوبے {pct} مکمل ہے اور لاگت انڈیکس {cpi} ہے.",
+"why": "placeholders must be exactly: {sponsor} {project} {eac} {bac} {pct} {cpi}"
+},
+{
+"en": "Hello {sponsor}, please approve transfer {tr_id} on {project}: {amount} from {from_cat} to {to_cat}. Reason: {reason}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {sponsor}، براہ مہربانی منتقلی {tr_id} {project} پر {amount} {from_cat} سے {to_cat} {amount} کی منظوری دیں. وجہ: {reason}.",
+"why": "placeholders must be exactly: {sponsor} {tr_id} {project} {amount} {from_cat} {to_cat} {reason}"
+},
+{
+"en": "Hello {contact}, we received your payment of {amount} for invoice {invoice_no} on {paid_on}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {contact}، ہم {paid_on} پر {invoice_no} کے لئے {amount} کی ادائیگی {amount} موصول ہوئی. شکریہ.",
+"why": "placeholders must be exactly: {contact} {amount} {invoice_no} {paid_on}"
+},
+{
+"en": "Request {col:requests.req_id}: {col:requests.item}, for {col:requests.project}. Requested by {col:requests.requested_by}. Estimated amount {col:requests.amount}. Needed by {col:requests.needed_by}.",
+"kind": "document",
+"max": null,
+"mt": "درخواست {col:requests.req_id}: {col:requests.item}، {col:requests.project} کے لئے {col:requests.requested_by} کی طرف سے درخواست کی. متوقع رقم {col:requests.amount}. {col:requests.needed_by} کی طرف سے کی ضرورت {col:requests.needed_by}.",
+"why": "placeholders must be exactly: {col:requests.req_id} {col:requests.item} {col:requests.project} {col:requests.requested_by} {col:requests.amount} {col:requests.needed_by}"
+},
+{
+"en": "Each quote is scored out of 100 with these weights: price {set:w_price}, lead time {set:w_lead} and quality {set:w_quality}. The chosen vendor is {col:requests.chosen_vendor}, on order {col:requests.order}.",
+"kind": "document",
+"max": null,
+"mt": "ہر قیمت 100 میں سے درج کی جاتی ہے ان وزنوں کے ساتھ: قیمت {set:w_price} ، لیڈ ٹائم {set:w_lead} اور معیار {set:w_quality}.",
+"why": "placeholders must be exactly: {set:w_price} {set:w_lead} {set:w_quality} {col:requests.chosen_vendor} {col:requests.order}"
+},
+{
+"en": "Read Budget and Cost Dashboard and Charts every week: budget used, forecast, indexes, reserve, open orders, overdue invoices and client payments.",
+"kind": "sentence",
+"max": null,
+"mt": "بجٹ اور لاگت ڈیش بورڈ اور چارٹ ہر ہفتے پڑھیں: بجٹ استعمال کیا، پیش گوئی، اشاریہ جات، ریزرو، کھلی احکامات، overdue انوائسز اور کلائنٹ کی ادائیگیوں.",
+"why": "English/Latin words left: overdue"
+},
+{
+"en": "every escalation records the level, the person, the date and the outcome, and shows when an escalation itself has waited too long",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر escalation کی سطح، شخص، تاریخ اور نتیجہ ریکارڈ کرتا ہے اور ظاہر کرتا ہے جب ایک escalation خود بہت طویل انتظار کیا ہے",
+"why": "English/Latin words left: escalation escalation"
+},
+{
+"en": "each draw on a project reserve points to the risk that occurred, and shows the reserve planned, drawn to date, left and a warning before it runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "ایک پروجیکٹ ریزرو پر ہر ٹراؤ اس خطرے کی نشاندہی کرتا ہے جو واقع ہوا ہے اور منصوبہ بندی شدہ ریزرو، تاریخ تک استعمال کیا، چھوڑ دیا اور ختم ہونے سے پہلے ایک انتباہ دکھاتا ہے",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Decision log: what was decided, by whom, and what is waiting",
+"kind": "title",
+"max": 60,
+"mt": "فیصلے کا نوشتہ: کیا فیصلہ کیا گیا، کس نے کیا اور کیا انتظار کر رہا ہے",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "RAID summary: one line per project",
+"kind": "title",
+"max": 60,
+"mt": "خطرات، مفروضات، مسائل اور انحصار کا خلاصہ: ہر منصوبے کے لئے ایک لائن",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, the indicator \"{indicator}\" is {current} {unit} against a threshold of {threshold}. Please act on risk {risk}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {owner}، اشارے \"{indicator}\" {current} {unit} {threshold} کی حد کے خلاف ہے.",
+"why": "placeholders must be exactly: {owner} {indicator} {current} {unit} {threshold} {risk}"
+},
+{
+"en": "Hello, {project} has {open_risks} open risks, {high_risks} high or critical, with an expected cost of {exposure}. Reserve left: {left}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {project} {open_risks} کھلے خطرات، {high_risks} اعلی یا اہم، {exposure} کی ایک متوقع لاگت کے ساتھ ہے.",
+"why": "placeholders must be exactly: {project} {open_risks} {high_risks} {exposure} {left}"
+},
+{
+"en": "Hello {sponsor}, we need your decision on \"{decision}\" for {project} by {needed_by}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {sponsor}، ہم {needed_by} کی طرف {project} کے لئے {decision} پر آپ کے فیصلے کی ضرورت ہے {needed_by}.",
+"why": "placeholders must be exactly: {sponsor} {decision} {project} {needed_by}"
+},
+{
+"en": "Hello, \"{title}\" on {project} is at level {level}. May I ask for your support?",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {title} {project} {level} سطح پر {title} {project} ہے. میں آپ کی حمایت کے لئے پوچھ سکتے ہیں؟",
+"why": "placeholders must be exactly: {title} {project} {level}"
+},
+{
+"en": "Conditions: {col:board.conditions}. Decided by: {col:board.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "شرائط: {col:board.conditions} {col:board.approved_by} کی طرف سے فیصلہ کیا: {col:board.approved_by}",
+"why": "placeholders must be exactly: {col:board.conditions} {col:board.approved_by}"
+}
+]

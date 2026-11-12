@@ -1,0 +1,401 @@
+[
+{
+"en": "Hello, we drew {amount} from the reserve of {project} on {date} for: {reason}. The reserve left is {left}. Approved by {approved_by}.",
+"kind": "message",
+"max": null,
+"mt": "Привет, мы извлекли {amount} из резерва {project} на {date} для: {reason}.",
+"why": "placeholders must be exactly: {amount} {project} {date} {reason} {left} {approved_by}"
+},
+{
+"en": "Hello {contact}, we received your payment of {amount} for invoice {invoice_no} on {paid_on}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, мы получили оплату за счет.",
+"why": "placeholders must be exactly: {contact} {amount} {invoice_no} {paid_on}"
+},
+{
+"en": "The budget now is {col:forecast.bac}. The actual cost to date is {col:forecast.ac}, which is {col:forecast.used_pct} of the budget.",
+"kind": "document",
+"max": null,
+"mt": "Фактическая стоимость на сегодняшний день составляет {col:forecast.ac}, что составляет {col:forecast.used_pct} бюджета.",
+"why": "placeholders must be exactly: {col:forecast.bac} {col:forecast.ac} {col:forecast.used_pct}"
+},
+{
+"en": "Budget now {col:forecast.bac}. Percent complete {col:forecast.pct}. Percent planned by now {col:forecast.planned_pct}.",
+"kind": "document",
+"max": null,
+"mt": "Процентная загрузка. Процентная загрузка.",
+"why": "placeholders must be exactly: {col:forecast.bac} {col:forecast.pct} {col:forecast.planned_pct}"
+},
+{
+"en": "Each quote is scored out of 100 with these weights: price {set:w_price}, lead time {set:w_lead} and quality {set:w_quality}. The chosen vendor is {col:requests.chosen_vendor}, on order {col:requests.order}.",
+"kind": "document",
+"max": null,
+"mt": "Каждая котировка оценивается из 100 с помощью следующих веса: цена {set:w_price}, время {set:w_lead} и качество {set:w_quality}.",
+"why": "placeholders must be exactly: {set:w_price} {set:w_lead} {set:w_quality} {col:requests.chosen_vendor} {col:requests.order}"
+},
+{
+"en": "The change adds {col:changes.extra_days} working days and is priced at {col:changes.price}. The status is {col:changes.status}, decided on {col:changes.decided_on}.",
+"kind": "document",
+"max": null,
+"mt": "Изменение добавляет {col:changes.extra_days} рабочих дней и оценивается в {col:changes.price}.",
+"why": "placeholders must be exactly: {col:changes.extra_days} {col:changes.price} {col:changes.status} {col:changes.decided_on}"
+},
+{
+"en": "Project: {col:contingency.project}. Draw {col:contingency.cg_id} on {col:contingency.date}. Approved by {col:contingency.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:contingency.project}. Нарисуйте {col:contingency.cg_id} на {col:contingency.date}.",
+"why": "placeholders must be exactly: {col:contingency.project} {col:contingency.cg_id} {col:contingency.date} {col:contingency.approved_by}"
+},
+{
+"en": "The reserve planned is {col:contingency.reserve}. After this draw {col:contingency.drawn} is drawn to date, {col:contingency.left} is left and {col:contingency.share} of the reserve is used. The reserve check shows: {col:contingency.check}.",
+"kind": "document",
+"max": null,
+"mt": "Запланированный резерв составляет {col:contingency.reserve}. После того как этот вывод {col:contingency.drawn} будет проведен до даты, {col:contingency.left} оставляется и {col:contingency.share} резерва используется.",
+"why": "placeholders must be exactly: {col:contingency.reserve} {col:contingency.drawn} {col:contingency.left} {col:contingency.share} {col:contingency.check}"
+},
+{
+"en": "The contract price now is {col:projects.price_now}. We have billed {col:projects.billed} and you have paid {col:projects.paid}. The balance owed is {col:projects.owed}.",
+"kind": "document",
+"max": null,
+"mt": "Цена контракта сейчас {col:projects.price_now}. мы выписали {col:projects.billed} и вы заплатили {col:projects.paid}.",
+"why": "placeholders must be exactly: {col:projects.price_now} {col:projects.billed} {col:projects.paid} {col:projects.owed}"
+},
+{
+"en": "Budget against actual per project",
+"kind": "title",
+"max": 60,
+"mt": "Бюджет по сравнению с фактическими затратами на каждый проект",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "SPI",
+"kind": "label",
+"max": 30,
+"mt": "индекс эффективности расписания",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Keep the risks, issues, changes and decisions of every project in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Сохраняйте риски, проблемы, изменения и решения каждого проекта в одной рабочей книге",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "the 25 cells of probability times impact count your open risks and their expected cost by themselves, so the steering group sees where the danger sits",
+"kind": "sentence",
+"max": 160,
+"mt": "25 ячеек вероятности умножить на воздействие подсчитать ваши открытые риски и их ожидаемые затраты сами по себе, так что руководящая группа видит, где опасность находится",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Contingency reserve against expected cost",
+"kind": "label",
+"max": 50,
+"mt": "Резерв на непредвиденные случаи в отношении ожидаемых затрат",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "Issue log with age, target and escalation level",
+"kind": "label",
+"max": 50,
+"mt": "Журнал выпусков с указанием возраста, цели и уровня эскалации",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "each draw on a project reserve points to the risk that occurred, and shows the reserve planned, drawn to date, left and a warning before it runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "Каждое заимствование резерва проекта указывает на риск, который произошел, и показывает запланированный резерв, заимствованный на дату, оставленный и предупреждение до его исчерпания.",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "Client and stakeholder",
+"kind": "list",
+"max": 30,
+"mt": "Клиент и заинтересованные стороны",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Legal and compliance",
+"kind": "list",
+"max": 30,
+"mt": "Юридические вопросы и соблюдение",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Projects: sponsor, status and contingency reserve",
+"kind": "title",
+"max": 60,
+"mt": "Проекты: спонсор, статус и резерв на случай непредвиденных обстоятельств",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Risk heat map: open risks by probability and impact",
+"kind": "title",
+"max": 60,
+"mt": "Тепловая карта рисков: открытые риски по вероятности и воздействию",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Risk triggers: early-warning indicators and thresholds",
+"kind": "title",
+"max": 60,
+"mt": "Причины возникновения риска: индикаторы раннего предупреждения и пороги",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Issue log: severity, age, due date and escalation level",
+"kind": "title",
+"max": 60,
+"mt": "Журнал выпусков: степень тяжести, возраст, срок погашения и уровень эскалации",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Change requests: effect on cost and days, and the decision",
+"kind": "title",
+"max": 60,
+"mt": "Запросы об изменении: влияние на стоимость и дни, а также решение",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Change board decisions: approved, rejected or deferred",
+"kind": "title",
+"max": 60,
+"mt": "Изменение решений совета: утверждение, отклонение или отсрочка",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Assumptions: what the plan relies on and whether it holds",
+"kind": "title",
+"max": 60,
+"mt": "Предположения: на чем основывается план и соответствует ли он",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Contingency drawdowns: reserve used by risks that occurred",
+"kind": "title",
+"max": 60,
+"mt": "В случае, если в соответствии со статьей 242 настоящих Правил не применяется один из этих критериев, то в соответствии со статьей 242 настоящих Правил не применяется один из следующих критериев:",
+"why": "too long: 194 characters, the limit is 60"
+},
+{
+"en": "RAID summary: one line per project",
+"kind": "title",
+"max": 60,
+"mt": "Резюме рисков, предположений, проблем и зависимостей: одна строка на проект",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Issue ageing: open issues per project and age band",
+"kind": "title",
+"max": 60,
+"mt": "Старение эмиссии: открытые эмиссии по проектам и возрастным группам",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Risk cost, change cost and reserve drawn by month",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость риска, стоимость изменения и резерв, выделенный в месяц",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Weekly risk burn-down: open exposure over the weeks",
+"kind": "title",
+"max": 60,
+"mt": "Еженедельное снижение риска: открытое воздействие в течение нескольких недель",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Schedule buffer from the days that risks could add",
+"kind": "title",
+"max": 60,
+"mt": "Буфер расписания от дней, которые могут быть добавлены рисками",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, issue {issue_id} \"{title}\" is {over} days overdue. Please send me a new date today.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, выпуск {issue_id} \"{title}\" задерживается {over} дней. Пожалуйста, присылайте мне новую дату сегодня.",
+"why": "placeholders must be exactly: {owner} {issue_id} {title} {over}"
+},
+{
+"en": "Hello {manager}, {project} has {no_owner} open risks without an owner. Please name an owner for each one this week.",
+"kind": "message",
+"max": null,
+"mt": "Пожалуйста, назовите владельца для каждого из них на этой неделе.",
+"why": "placeholders must be exactly: {manager} {project} {no_owner}"
+},
+{
+"en": "Hello, {project} has {open_risks} open risks, {high_risks} high or critical, with an expected cost of {exposure}. Reserve left: {left}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {project} имеет {open_risks} открытые риски, {high_risks} высокие или критические, с ожидаемой стоимостью {exposure}.",
+"why": "placeholders must be exactly: {project} {open_risks} {high_risks} {exposure} {left}"
+},
+{
+"en": "Hello {sponsor}, {project} has {open_risks} open risks, {high_risks} of them high or critical. Expected cost {exposure}, reserve left {left}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {sponsor}, {project} имеет {open_risks} открытые риски, {high_risks} из них высокие или критические.",
+"why": "placeholders must be exactly: {sponsor} {project} {open_risks} {high_risks} {exposure} {left}"
+},
+{
+"en": "Hello {sponsor}, issue {issue_id} \"{title}\" needs your decision by {due}. Please call me today.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, выпуск нуждается в вашем решении до 3 числа.",
+"why": "placeholders must be exactly: {sponsor} {issue_id} {title} {due}"
+},
+{
+"en": "Hello {sponsor}, change request {change_id} \"{title}\" costs {cost} and adds {days} days. The route is {route}. Please decide.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {sponsor}, запрос на изменение {change_id} \"{title}\" стоит {cost} и добавляет {days} дней.",
+"why": "placeholders must be exactly: {sponsor} {change_id} {title} {cost} {days} {route}"
+},
+{
+"en": "Hello {sponsor}, change {change} \"{title}\" was rejected on {date}. Reason: {conditions}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {sponsor}, изменение {change} \"{title}\" было отклонено на {date}.",
+"why": "placeholders must be exactly: {sponsor} {change} {title} {date} {conditions}"
+},
+{
+"en": "Hello {owner}, the lessons workshop for {project} is on {date}. Please prepare the {phase} phase.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, уроки для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уроков для уро",
+"why": "placeholders must be exactly: {owner} {project} {date} {phase}"
+},
+{
+"en": "Hello, \"{title}\" on {project} is at level {level}. May I ask for your support?",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, я на уровне 2.",
+"why": "placeholders must be exactly: {title} {project} {level}"
+},
+{
+"en": "Hello {owner}, your action {action_id} \"{action}\" was due on {due}. Please finish it or send me a new date.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, ваша акция была назначена на 3 пожалуйста, закончите или присылайте мне новую дату.",
+"why": "placeholders must be exactly: {owner} {action_id} {action} {due}"
+},
+{
+"en": "The register holds {col:raid.open_risks} open risks. Of these, {col:raid.high_risks} are high or critical and {col:raid.critical_risks} are critical. The open risk score is {col:raid.risk_score}.",
+"kind": "document",
+"max": null,
+"mt": "В регистре {col:raid.open_risks} содержится открытый риск. Из них {col:raid.high_risks} высокий или критический и {col:raid.critical_risks} критический.",
+"why": "placeholders must be exactly: {col:raid.open_risks} {col:raid.high_risks} {col:raid.critical_risks} {col:raid.risk_score}"
+},
+{
+"en": "The expected cost of the open risks is {col:raid.exposure}. The reserve planned is {col:raid.reserve}, of which {col:raid.drawn} is drawn and {col:raid.left} is left. The reserve check shows: {col:raid.reserve_check}.",
+"kind": "document",
+"max": null,
+"mt": "Ожидаемая стоимость открытых рисков {col:raid.exposure}. Планируемый резерв {col:raid.reserve}, из которого {col:raid.drawn} извлекается и {col:raid.left} остается.",
+"why": "placeholders must be exactly: {col:raid.exposure} {col:raid.reserve} {col:raid.drawn} {col:raid.left} {col:raid.reserve_check}"
+},
+{
+"en": "Project: {col:raid.project}. Project manager: {col:raid.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Руководитель проекта:",
+"why": "placeholders must be exactly: {col:raid.project} {col:raid.manager}"
+},
+{
+"en": "Of {col:raid.open_risks} open risks, {col:raid.critical_risks} are in the critical zone of the heat map and {col:raid.high_risks} are high or critical. Together the open risks carry a score of {col:raid.risk_score}.",
+"kind": "document",
+"max": null,
+"mt": "Из {col:raid.open_risks} открытых рисков {col:raid.critical_risks} находятся в критической зоне тепловой карты и {col:raid.high_risks} являются высокими или критическими.",
+"why": "placeholders must be exactly: {col:raid.open_risks} {col:raid.critical_risks} {col:raid.high_risks} {col:raid.risk_score}"
+},
+{
+"en": "Their expected cost is {col:raid.exposure}. The reserve left is {col:raid.left}, so the exposure above the reserve is {col:raid.short}. The reserve check shows: {col:raid.reserve_check}.",
+"kind": "document",
+"max": null,
+"mt": "Ожидаемая стоимость {col:raid.exposure}. оставшийся резерв {col:raid.left}, так что экспозиция выше резерва {col:raid.short}.",
+"why": "placeholders must be exactly: {col:raid.exposure} {col:raid.left} {col:raid.short} {col:raid.reserve_check}"
+},
+{
+"en": "Changes waiting for a decision: {col:raid.open_changes}. Change cost approved so far: {col:raid.approved_cost}.",
+"kind": "document",
+"max": null,
+"mt": "Изменения, ожидающие решения: {col:raid.open_changes}.",
+"why": "placeholders must be exactly: {col:raid.open_changes} {col:raid.approved_cost}"
+},
+{
+"en": "The assessed cost so far is {col:changes.assessed}. The decision route is: {col:changes.route}.",
+"kind": "document",
+"max": null,
+"mt": "Оцененная стоимость до сих пор {col:changes.assessed}.",
+"why": "placeholders must be exactly: {col:changes.assessed} {col:changes.route}"
+},
+{
+"en": "To: {col:board.sponsor}, telephone {col:board.sponsor_phone}. Project: {col:board.project}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:board.sponsor}, телефон {col:board.sponsor_phone}.",
+"why": "placeholders must be exactly: {col:board.sponsor} {col:board.sponsor_phone} {col:board.project}"
+},
+{
+"en": "Conditions: {col:board.conditions}. Decided by: {col:board.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "Условия: {col:board.conditions}.",
+"why": "placeholders must be exactly: {col:board.conditions} {col:board.approved_by}"
+},
+{
+"en": "The change adds {col:board.cost} to the budget and {col:board.days} days to the plan. The decision came {col:board.wait} days after the request.",
+"kind": "document",
+"max": null,
+"mt": "Изменение добавляет {col:board.cost} к бюджету и {col:board.days} дней к плану.",
+"why": "placeholders must be exactly: {col:board.cost} {col:board.days} {col:board.wait}"
+},
+{
+"en": "Reason and next step: {col:board.conditions}. Decided by: {col:board.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "Причина и следующий шаг: {col:board.conditions}.",
+"why": "placeholders must be exactly: {col:board.conditions} {col:board.approved_by}"
+},
+{
+"en": "The decision had to be taken by {col:decisions.needed_by}. The state of the decision is: {col:decisions.state}.",
+"kind": "document",
+"max": null,
+"mt": "Решение должно было быть принято {col:decisions.needed_by}.",
+"why": "placeholders must be exactly: {col:decisions.needed_by} {col:decisions.state}"
+},
+{
+"en": "Risks: {col:raid.open_risks} open, {col:raid.high_risks} high or critical, {col:raid.no_owner} without an owner. Expected cost {col:raid.exposure} against a reserve of {col:raid.left}. Reserve check: {col:raid.reserve_check}.",
+"kind": "document",
+"max": null,
+"mt": "Риски: {col:raid.open_risks} открытые, {col:raid.high_risks} высокие или критические, {col:raid.no_owner} без владельца. Ожидаемая стоимость {col:raid.exposure} против резерва {col:raid.left}.",
+"why": "placeholders must be exactly: {col:raid.open_risks} {col:raid.high_risks} {col:raid.no_owner} {col:raid.exposure} {col:raid.left} {col:raid.reserve_check}"
+},
+{
+"en": "What happened: {col:lessons.what}.",
+"kind": "document",
+"max": null,
+"mt": "Что случилось?",
+"why": "placeholders must be exactly: {col:lessons.what}"
+},
+{
+"en": "Lesson: {col:lessons.lesson}.",
+"kind": "document",
+"max": null,
+"mt": "Урок:",
+"why": "placeholders must be exactly: {col:lessons.lesson}"
+},
+{
+"en": "Action: {col:lessons.action}. Owner: {col:lessons.owner}. Due: {col:lessons.due}. State: {col:lessons.state}.",
+"kind": "document",
+"max": null,
+"mt": "Действие: {col:lessons.action}. Владелец: {col:lessons.owner}.",
+"why": "placeholders must be exactly: {col:lessons.action} {col:lessons.owner} {col:lessons.due} {col:lessons.state}"
+}
+]

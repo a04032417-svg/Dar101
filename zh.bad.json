@@ -1,0 +1,345 @@
+[
+{
+"en": "Hello, invoice {inv_no} from {vendor} for {amount} on {project} is approved for payment. The due date is {due}. Please schedule the payment.",
+"kind": "message",
+"max": null,
+"mt": "您好, {vendor} 的 {amount} 的 {project} 发票已批准支付.到期日期是 {due}. 请安排支付.",
+"why": "placeholders must be exactly: {inv_no} {vendor} {amount} {project} {due}"
+},
+{
+"en": "Hello, we drew {amount} from the reserve of {project} on {date} for: {reason}. The reserve left is {left}. Approved by {approved_by}.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们从 {project} 的储备中抽出 {date} 的: {reason}. 剩下的储备是 {left}.",
+"why": "placeholders must be exactly: {amount} {project} {date} {reason} {left} {approved_by}"
+},
+{
+"en": "Hello {sponsor}, the forecast cost of {project} is {eac} against a budget of {bac}. The project is {pct} complete and the cost index is {cpi}.",
+"kind": "message",
+"max": null,
+"mt": "您好, {sponsor} 的预测成本是 {eac} 与 {bac} 的预算. 项目是 {pct} 完成,成本指数是 {cpi}.",
+"why": "placeholders must be exactly: {sponsor} {project} {eac} {bac} {pct} {cpi}"
+},
+{
+"en": "Hello {sponsor}, please approve transfer {tr_id} on {project}: {amount} from {from_cat} to {to_cat}. Reason: {reason}.",
+"kind": "message",
+"max": null,
+"mt": "您好,请批准在 {project}: {amount} 从 {from_cat} 转到 {to_cat} 的转移.原因: {reason}.",
+"why": "placeholders must be exactly: {sponsor} {tr_id} {project} {amount} {from_cat} {to_cat} {reason}"
+},
+{
+"en": "Hello {contact}, we sent invoice {invoice_no} for {amount} for the milestone {milestone} on {project}. It is due on {due}. Please tell us if anything is missing.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们已发送 {invoice_no} 的发票 {amount} 对于 {milestone} 的里程碑 {project}. 它是由于 {due}. 请告诉我们如果有什么缺失.",
+"why": "placeholders must be exactly: {contact} {invoice_no} {amount} {milestone} {project} {due}"
+},
+{
+"en": "Hello {contact}, we received your payment of {amount} for invoice {invoice_no} on {paid_on}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们收到了您在3日发票的付款. 谢谢.",
+"why": "placeholders must be exactly: {contact} {amount} {invoice_no} {paid_on}"
+},
+{
+"en": "Hello {person}, your expense claim {claim_id} for {amount} ({description}) on {project} is returned. Please add the receipt or the reason and send it again.",
+"kind": "message",
+"max": null,
+"mt": "你好,您的费用索赔 {claim_id} {amount} ({description}) 在 {project} 已返回.请添加收据或理由,并再次发送.",
+"why": "placeholders must be exactly: {person} {claim_id} {amount} {description} {project}"
+},
+{
+"en": "Budget against actual report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "预算与日期为 {set:firm} 的实际报告相比.",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Project: {col:forecast.project}. Project manager: {col:forecast.manager}. Status: {col:forecast.pstatus}.",
+"kind": "document",
+"max": null,
+"mt": "项目: 项目经理: 状态:",
+"why": "placeholders must be exactly: {col:forecast.project} {col:forecast.manager} {col:forecast.pstatus}"
+},
+{
+"en": "Project: {col:forecast.project}. Project manager: {col:forecast.manager}. Sponsor: {col:forecast.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "项目经理: 赞助人:",
+"why": "placeholders must be exactly: {col:forecast.project} {col:forecast.manager} {col:forecast.sponsor}"
+},
+{
+"en": "Budget now {col:forecast.bac}. Percent complete {col:forecast.pct}. Percent planned by now {col:forecast.planned_pct}.",
+"kind": "document",
+"max": null,
+"mt": "预算现在完成了. 计划的百分比现在完成了.",
+"why": "placeholders must be exactly: {col:forecast.bac} {col:forecast.pct} {col:forecast.planned_pct}"
+},
+{
+"en": "To: {col:changes.contact}, telephone {col:changes.client_phone}. Project: {col:changes.project}.",
+"kind": "document",
+"max": null,
+"mt": "电话: 项目:",
+"why": "placeholders must be exactly: {col:changes.contact} {col:changes.client_phone} {col:changes.project}"
+},
+{
+"en": "Statement of account of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "账户结账号,日期为 {today}.",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Hello {owner}, risk {risk_id} \"{title}\" is due for review on {review}. Please check its score and its mitigation.",
+"kind": "message",
+"max": null,
+"mt": "您好,危险 {risk_id} \"{title}\"将于 {review} 进行审查. 请检查其评分和缓解.",
+"why": "placeholders must be exactly: {owner} {risk_id} {title} {review}"
+},
+{
+"en": "Hello {owner}, the score of risk {risk_id} \"{title}\" went from {last_score} to {score}. Please review the mitigation.",
+"kind": "message",
+"max": null,
+"mt": "您好,风险分数 {risk_id} \"{title}\" 从 {last_score} 升到 {score}. 请检查减缓措施.",
+"why": "placeholders must be exactly: {owner} {risk_id} {title} {last_score} {score}"
+},
+{
+"en": "Hello {owner}, risk {risk_id} \"{title}\" has no open action. Please add one with a due date this week.",
+"kind": "message",
+"max": null,
+"mt": "您好,风险 {risk_id} \"{title}\"没有开放活动.请添加一个本周到期日期.",
+"why": "placeholders must be exactly: {owner} {risk_id} {title}"
+},
+{
+"en": "Hello {owner}, the indicator \"{indicator}\" is {current} {unit} against a threshold of {threshold}. Please act on risk {risk}.",
+"kind": "message",
+"max": null,
+"mt": "您好,指标\"{indicator}\"是{current} {unit} 与{threshold} 的值相比. 请采取危险{risk}.",
+"why": "placeholders must be exactly: {owner} {indicator} {current} {unit} {threshold} {risk}"
+},
+{
+"en": "Hello {owner}, issue {issue_id} \"{title}\" is {over} days overdue. Please send me a new date today.",
+"kind": "message",
+"max": null,
+"mt": "您好,发行日期已延迟了3天. 请今天给我发新日期.",
+"why": "placeholders must be exactly: {owner} {issue_id} {title} {over}"
+},
+{
+"en": "Hello {owner}, please update the status of issue {issue_id} \"{title}\" before {due}.",
+"kind": "message",
+"max": null,
+"mt": "您好,请在 {due} 之前更新 {issue_id} \"{title}\" 发行的状态.",
+"why": "placeholders must be exactly: {owner} {issue_id} {title} {due}"
+},
+{
+"en": "Hello {owner}, issue {issue_id} \"{title}\" is critical. Please call me today so that we agree the next step.",
+"kind": "message",
+"max": null,
+"mt": "你好,问题是关键的.请今天给我打电话,以便我们同意下一步.",
+"why": "placeholders must be exactly: {owner} {issue_id} {title}"
+},
+{
+"en": "Hello {manager}, risk {risk_id} \"{title}\" has a score of {score}, level {level}. Please check the response.",
+"kind": "message",
+"max": null,
+"mt": "你好,风险 {risk_id} \"{title}\"的分数是 {score},级别 {level}. 请检查响应.",
+"why": "placeholders must be exactly: {manager} {risk_id} {title} {score} {level}"
+},
+{
+"en": "Hello {manager}, {project} has {no_owner} open risks without an owner. Please name an owner for each one this week.",
+"kind": "message",
+"max": null,
+"mt": "您好, {manager} 有 {no_owner} 没有所有者的开放风险. 请给每个本周的所有者一个名字.",
+"why": "placeholders must be exactly: {manager} {project} {no_owner}"
+},
+{
+"en": "Hello {manager}, on {project} the expected cost of open risks is {exposure} and the reserve left is {left}. Please send me a plan.",
+"kind": "message",
+"max": null,
+"mt": "你好,在 {project} 预期的开放风险成本是 {exposure} 和剩余储备是 {left}. 请给我一个计划.",
+"why": "placeholders must be exactly: {manager} {project} {exposure} {left}"
+},
+{
+"en": "Hello {manager}, issue {issue_id} \"{title}\" is {age} days old and the target is {target}. Please check it.",
+"kind": "message",
+"max": null,
+"mt": "您好,问题 {issue_id} \"{title}\"是 {age} 天的,目标是 {target}. 请检查它.",
+"why": "placeholders must be exactly: {manager} {issue_id} {title} {age} {target}"
+},
+{
+"en": "Hello {sponsor}, issue {issue_id} \"{title}\" needs your decision by {due}. Please call me today.",
+"kind": "message",
+"max": null,
+"mt": "你好,问题需要你在3日前做出决定.请今天给我打电话.",
+"why": "placeholders must be exactly: {sponsor} {issue_id} {title} {due}"
+},
+{
+"en": "Hello {sponsor}, change request {change_id} \"{title}\" costs {cost} and adds {days} days. The route is {route}. Please decide.",
+"kind": "message",
+"max": null,
+"mt": "您好,改变请求 {change_id} \"{title}\" 费用 {cost} 并增加 {days} 天.路线是 {route}. 请决定.",
+"why": "placeholders must be exactly: {sponsor} {change_id} {title} {cost} {days} {route}"
+},
+{
+"en": "Hello {sponsor}, change {change} \"{title}\" was approved on {date}. The plan and the budget are updated.",
+"kind": "message",
+"max": null,
+"mt": "您好,变更 {change} \"{title}\"已于 {date} 获得批准.计划和预算已更新.",
+"why": "placeholders must be exactly: {sponsor} {change} {title} {date}"
+},
+{
+"en": "Hello {sponsor}, change {change} \"{title}\" was rejected on {date}. Reason: {conditions}.",
+"kind": "message",
+"max": null,
+"mt": "您好,变更 {change} \"{title}\" 在 {date} 拒绝了. 原因: {conditions}.",
+"why": "placeholders must be exactly: {sponsor} {change} {title} {date} {conditions}"
+},
+{
+"en": "Hello {sponsor}, we need your decision on \"{decision}\" for {project} by {needed_by}.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们需要你对{project} by {needed_by}的{decision}的决定.",
+"why": "placeholders must be exactly: {sponsor} {decision} {project} {needed_by}"
+},
+{
+"en": "Hello {contact}, issue {issue_id} \"{title}\" waits for your side. Please reply by {due}.",
+"kind": "message",
+"max": null,
+"mt": "你好,问题 {issue_id} \"{title}\"正在等待您. 请在 {due} 之前回答.",
+"why": "placeholders must be exactly: {contact} {issue_id} {title} {due}"
+},
+{
+"en": "Hello {contact}, change request \"{title}\" on {project} costs {cost} and adds {days} days. Please review it.",
+"kind": "message",
+"max": null,
+"mt": "您好,改变要求\"{title}\"在 {project} 成本 {cost} 和添加 {days} 天. 请检查它.",
+"why": "placeholders must be exactly: {contact} {title} {project} {cost} {days}"
+},
+{
+"en": "Hello {assessed_by}, please assess the {area} impact of the change \"{title}\" by {due}.",
+"kind": "message",
+"max": null,
+"mt": "您好,请评估变更\"{title}\"的影响.",
+"why": "placeholders must be exactly: {assessed_by} {area} {title} {due}"
+},
+{
+"en": "Hello {owner}, the lessons workshop for {project} is on {date}. Please prepare the {phase} phase.",
+"kind": "message",
+"max": null,
+"mt": "您好,为 {project} 进行课程工作坊. 请准备 {phase} 阶段.",
+"why": "placeholders must be exactly: {owner} {project} {date} {phase}"
+},
+{
+"en": "Hello {owner}, the dependency \"{item}\" is blocked. Please follow up with {from_party} before {needed_by}.",
+"kind": "message",
+"max": null,
+"mt": "您好,依赖关系\"{item}\"被封锁. 请在{needed_by}之前继续使用{from_party}.",
+"why": "placeholders must be exactly: {owner} {item} {from_party} {needed_by}"
+},
+{
+"en": "Hello, issue {issue_id} \"{title}\" concerns your delivery to {project}. Please respond by {due}.",
+"kind": "message",
+"max": null,
+"mt": "您的问题是您的交付. 请在3日之前回复.",
+"why": "placeholders must be exactly: {issue_id} {title} {project} {due}"
+},
+{
+"en": "Hello, \"{title}\" on {project} is at level {level}. May I ask for your support?",
+"kind": "message",
+"max": null,
+"mt": "您可以支持我吗?",
+"why": "placeholders must be exactly: {title} {project} {level}"
+},
+{
+"en": "Hello {owner}, your action {action_id} \"{action}\" was due on {due}. Please finish it or send me a new date.",
+"kind": "message",
+"max": null,
+"mt": "您的行动应于3日. 请完成或给我新的日期.",
+"why": "placeholders must be exactly: {owner} {action_id} {action} {due}"
+},
+{
+"en": "Hello {manager}, change request {change_id} \"{title}\" has waited {waiting} days for a decision. Please chase the sponsor.",
+"kind": "message",
+"max": null,
+"mt": "你好,变更请求 {change_id} \"{title}\"已经等待 {waiting} 天的决定. 请追赶赞助商.",
+"why": "placeholders must be exactly: {manager} {change_id} {title} {waiting}"
+},
+{
+"en": "Risk register report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "风险登记报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Focus of the week: {col:raid.focus}.",
+"kind": "document",
+"max": null,
+"mt": "这周的焦点:",
+"why": "placeholders must be exactly: {col:raid.focus}"
+},
+{
+"en": "Project: {col:raid.project}. Project manager: {col:raid.manager}.",
+"kind": "document",
+"max": null,
+"mt": "项目经理:",
+"why": "placeholders must be exactly: {col:raid.project} {col:raid.manager}"
+},
+{
+"en": "Of {col:raid.open_risks} open risks, {col:raid.critical_risks} are in the critical zone of the heat map and {col:raid.high_risks} are high or critical. Together the open risks carry a score of {col:raid.risk_score}.",
+"kind": "document",
+"max": null,
+"mt": "在 {col:raid.open_risks} 的开放风险中, {col:raid.critical_risks} 在热图的关键区, {col:raid.high_risks} 是高或关键.",
+"why": "placeholders must be exactly: {col:raid.open_risks} {col:raid.critical_risks} {col:raid.high_risks} {col:raid.risk_score}"
+},
+{
+"en": "Project: {col:raid.project}. Project manager: {col:raid.manager}. Sponsor: {col:raid.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "项目: 项目经理: 赞助人:",
+"why": "placeholders must be exactly: {col:raid.project} {col:raid.manager} {col:raid.sponsor}"
+},
+{
+"en": "Conditions: {col:board.conditions}. Decided by: {col:board.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "条件:由:",
+"why": "placeholders must be exactly: {col:board.conditions} {col:board.approved_by}"
+},
+{
+"en": "Project: {col:decisions.project}. Project manager: {col:decisions.manager}. Sponsor: {col:decisions.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "项目: 项目经理: 赞助人:",
+"why": "placeholders must be exactly: {col:decisions.project} {col:decisions.manager} {col:decisions.sponsor}"
+},
+{
+"en": "RAID summary of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "风险,假设,问题和依赖情况的总结,日期: {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Lessons learned report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "已学习的经验报告,日期为1",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "What happened: {col:lessons.what}.",
+"kind": "document",
+"max": null,
+"mt": "发生了什么:",
+"why": "placeholders must be exactly: {col:lessons.what}"
+},
+{
+"en": "Lesson: {col:lessons.lesson}.",
+"kind": "document",
+"max": null,
+"mt": "课程:",
+"why": "placeholders must be exactly: {col:lessons.lesson}"
+}
+]

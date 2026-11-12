@@ -1,0 +1,93 @@
+[
+{
+"en": "Hello, invoice {inv_no} from {vendor} for {amount} on {project} is approved for payment. The due date is {due}. Please schedule the payment.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {vendor} से {amount} के लिए {project} पर {vendor} का चालान भुगतान के लिए अनुमोदित है. देय तिथि {due} है. कृपया भुगतान का समय निर्धारित करें.",
+"why": "placeholders must be exactly: {inv_no} {vendor} {amount} {project} {due}"
+},
+{
+"en": "Hello, we drew {amount} from the reserve of {project} on {date} for: {reason}. The reserve left is {left}. Approved by {approved_by}.",
+"kind": "message",
+"max": null,
+"mt": "हैलो, हम {amount} {date} पर {project} के रिजर्व से {reason} के लिए आकर्षित किया है।",
+"why": "placeholders must be exactly: {amount} {project} {date} {reason} {left} {approved_by}"
+},
+{
+"en": "Hello {sponsor}, the forecast cost of {project} is {eac} against a budget of {bac}. The project is {pct} complete and the cost index is {cpi}.",
+"kind": "message",
+"max": null,
+"mt": "हैलो {sponsor}, {project} की अनुमानित लागत {eac} {bac} के बजट के खिलाफ {eac} है। परियोजना {pct} पूरा हो गया है और लागत सूचकांक {cpi} है।",
+"why": "placeholders must be exactly: {sponsor} {project} {eac} {bac} {pct} {cpi}"
+},
+{
+"en": "Budget now {col:forecast.bac}. Percent complete {col:forecast.pct}. Percent planned by now {col:forecast.planned_pct}.",
+"kind": "document",
+"max": null,
+"mt": "बजट अब {col:forecast.bac}. प्रतिशत पूरा {col:forecast.pct}. प्रतिशत अब {col:forecast.planned_pct} के लिए योजना बनाई {col:forecast.pct}.",
+"why": "placeholders must be exactly: {col:forecast.bac} {col:forecast.pct} {col:forecast.planned_pct}"
+},
+{
+"en": "Issue ageing by project and band",
+"kind": "label",
+"max": 50,
+"mt": "परियोजनाओं और बैंडों के आधार पर समस्या की उम्र बढ़ने",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "each change is assessed by area with a cost and days estimate, and the sheet shows the cost assessed so far and the assessments still open",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक परिवर्तन को लागत और दिनों के अनुमान के साथ क्षेत्र के आधार पर मूल्यांकन किया जाता है और शीट में अब तक मूल्यांकन की गई लागत और अभी भी चल रहे मूल्यांकन दिखाए जाते हैं।",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "decisions keep their options, who decided and the decide-by date, and proposed decisions past their date are flagged as overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "निर्णय अपने विकल्पों को बनाए रखते हैं, जिन्होंने निर्णय लिया और निर्णय की समय सीमा और प्रस्तावित निर्णयों को उनकी तारीख के बाद विलंबित के रूप में चिह्नित किया जाता है",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "each draw on a project reserve points to the risk that occurred, and shows the reserve planned, drawn to date, left and a warning before it runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "किसी परियोजना के लिए आरक्षित राशि पर प्रत्येक निकासी उस जोखिम की ओर इशारा करती है जो हुआ है और योजनाबद्ध आरक्षित राशि, तिथि, छोड़ दिया और समाप्त होने से पहले चेतावनी दिखाती है",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Decision log: what was decided, by whom, and what is waiting",
+"kind": "title",
+"max": 60,
+"mt": "निर्णय लॉगः क्या निर्णय लिया गया, किसके द्वारा, और क्या इंतजार कर रहा है",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Contingency drawdowns: reserve used by risks that occurred",
+"kind": "title",
+"max": 60,
+"mt": "आकस्मिक उपयोगः जोखिमों के लिए उपयोग की जाने वाली आरक्षित राशि",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "RAID summary: one line per project",
+"kind": "title",
+"max": 60,
+"mt": "जोखिमों, धारणाओं, मुद्दों और निर्भरताओं का सारांशः प्रति परियोजना एक पंक्ति",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Hello, {project} has {open_risks} open risks, {high_risks} high or critical, with an expected cost of {exposure}. Reserve left: {left}.",
+"kind": "message",
+"max": null,
+"mt": "हैलो, {project} {open_risks} खुला जोखिम है, {high_risks} उच्च या महत्वपूर्ण, {exposure} की एक अपेक्षित लागत के साथ।",
+"why": "placeholders must be exactly: {project} {open_risks} {high_risks} {exposure} {left}"
+},
+{
+"en": "To: {col:board.sponsor}, telephone {col:board.sponsor_phone}. Project: {col:board.project}.",
+"kind": "document",
+"max": null,
+"mt": "परियोजनाः {col:board.project}",
+"why": "placeholders must be exactly: {col:board.sponsor} {col:board.sponsor_phone} {col:board.project}"
+}
+]

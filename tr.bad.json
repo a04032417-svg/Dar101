@@ -1,0 +1,380 @@
+[
+{
+"en": "Hello, invoice {inv_no} from {vendor} for {amount} on {project} is approved for payment. The due date is {due}. Please schedule the payment.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {vendor} {amount} için {project} faturası ödeme için onaylandı. Ödemesi için son tarih {due}. Lütfen ödemeyi planlayın.",
+"why": "placeholders must be exactly: {inv_no} {vendor} {amount} {project} {due}"
+},
+{
+"en": "Hello, invoice {inv_no} from {vendor} for {amount} is disputed. The match check shows: {match}. Please do not pay it until the vendor sends a correction.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {vendor} için {amount} faturası tartışılıyor. Eşleşme kontrolü gösteriyor: {match}.",
+"why": "placeholders must be exactly: {inv_no} {vendor} {amount} {match}"
+},
+{
+"en": "Hello, we drew {amount} from the reserve of {project} on {date} for: {reason}. The reserve left is {left}. Approved by {approved_by}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {amount} {project} 'in yedekinden {date}'de {reason} için çektik.",
+"why": "placeholders must be exactly: {amount} {project} {date} {reason} {left} {approved_by}"
+},
+{
+"en": "Hello {contact}, we sent invoice {invoice_no} for {amount} for the milestone {milestone} on {project}. It is due on {due}. Please tell us if anything is missing.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {contact}, {amount} için {invoice_no} faturayı gönderdik.",
+"why": "placeholders must be exactly: {contact} {invoice_no} {amount} {milestone} {project} {due}"
+},
+{
+"en": "Hello {person}, your expense claim {claim_id} for {amount} ({description}) on {project} is returned. Please add the receipt or the reason and send it again.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {person}, {amount} ({description}) {project} için masraf talebiniz iade edildi. Lütfen makbuzu veya nedeni ekleyin ve tekrar gönderin.",
+"why": "placeholders must be exactly: {person} {claim_id} {amount} {description} {project}"
+},
+{
+"en": "Hello, the forecast of {project} is {over_by} above its budget and the cost index is {cpi}. The manager is {manager}. Please look at the recovery plan this week.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {project}'un tahminleri bütçesinin üzerinde {over_by} ve maliyet endeksi {cpi}.",
+"why": "placeholders must be exactly: {project} {over_by} {cpi} {manager}"
+},
+{
+"en": "To date {col:projects.spent} is spent, which is {col:projects.used} of the budget now, and {col:projects.left} is left. The forecast cost at completion is {col:projects.eac}. The cost check shows: {col:projects.state}.",
+"kind": "document",
+"max": null,
+"mt": "Bugüne kadar {col:projects.spent} harcandı, bu şimdi bütçeden {col:projects.used} ve {col:projects.left} kaldı. Tamamlandığında tahmin edilen maliyet {col:projects.eac}.",
+"why": "placeholders must be exactly: {col:projects.spent} {col:projects.used} {col:projects.left} {col:projects.eac} {col:projects.state}"
+},
+{
+"en": "The budget now is {col:forecast.bac}. The actual cost to date is {col:forecast.ac}, which is {col:forecast.used_pct} of the budget.",
+"kind": "document",
+"max": null,
+"mt": "Bugüne kadarki maliyet, bütçenin 2'si.",
+"why": "placeholders must be exactly: {col:forecast.bac} {col:forecast.ac} {col:forecast.used_pct}"
+},
+{
+"en": "Budget now {col:forecast.bac}. Percent complete {col:forecast.pct}. Percent planned by now {col:forecast.planned_pct}.",
+"kind": "document",
+"max": null,
+"mt": "Bütçe şimdi %1 tamamlandı %2 planlandı.",
+"why": "placeholders must be exactly: {col:forecast.bac} {col:forecast.pct} {col:forecast.planned_pct}"
+},
+{
+"en": "The forecast at completion is {col:forecast.eac}, a variance of {col:forecast.vac} against the budget. The cost forecast shows: {col:forecast.state}.",
+"kind": "document",
+"max": null,
+"mt": "Bütçeye karşı varyans {col:forecast.vac} olan projeksyon tamamlandığında {col:forecast.eac}'dır.",
+"why": "placeholders must be exactly: {col:forecast.eac} {col:forecast.vac} {col:forecast.state}"
+},
+{
+"en": "The forecast cost at completion is {col:forecast.eac}. The variance against the budget is {col:forecast.vac}, which is {col:forecast.vac_pct} of the budget. The forecast is over the budget by {col:forecast.over_by}.",
+"kind": "document",
+"max": null,
+"mt": "Bütçeye karşı varyans, bütçenin {col:forecast.vac_pct} olan {col:forecast.vac}'dir.",
+"why": "placeholders must be exactly: {col:forecast.eac} {col:forecast.vac} {col:forecast.vac_pct} {col:forecast.over_by}"
+},
+{
+"en": "Order amount: {col:orders.amount}. Tax: {col:orders.tax}. Total with tax: {col:orders.total}. Expected on: {col:orders.expected}.",
+"kind": "document",
+"max": null,
+"mt": "Sipariş miktarı: {col:orders.amount}. Vergi: {col:orders.tax}. Vergi dahil toplam: {col:orders.total}.",
+"why": "placeholders must be exactly: {col:orders.amount} {col:orders.tax} {col:orders.total} {col:orders.expected}"
+},
+{
+"en": "Each quote is scored out of 100 with these weights: price {set:w_price}, lead time {set:w_lead} and quality {set:w_quality}. The chosen vendor is {col:requests.chosen_vendor}, on order {col:requests.order}.",
+"kind": "document",
+"max": null,
+"mt": "Her teklif, aşağıdaki ağırlıklar ile 100 üzerinden puanlanır: fiyat {set:w_price}, teslim süresi {set:w_lead} ve kalite {set:w_quality}.",
+"why": "placeholders must be exactly: {set:w_price} {set:w_lead} {set:w_quality} {col:requests.chosen_vendor} {col:requests.order}"
+},
+{
+"en": "To: {col:changes.contact}, telephone {col:changes.client_phone}. Project: {col:changes.project}.",
+"kind": "document",
+"max": null,
+"mt": "Adres: {col:changes.contact}, telefon: {col:changes.client_phone}.",
+"why": "placeholders must be exactly: {col:changes.contact} {col:changes.client_phone} {col:changes.project}"
+},
+{
+"en": "The change adds {col:changes.extra_days} working days and is priced at {col:changes.price}. The status is {col:changes.status}, decided on {col:changes.decided_on}.",
+"kind": "document",
+"max": null,
+"mt": "Değişim {col:changes.extra_days} iş gününü ekler ve fiyatı {col:changes.price}.",
+"why": "placeholders must be exactly: {col:changes.extra_days} {col:changes.price} {col:changes.status} {col:changes.decided_on}"
+},
+{
+"en": "To: {col:projects.contact}, {col:projects.client}, telephone {col:projects.client_phone}. Project: {col:projects.name}.",
+"kind": "document",
+"max": null,
+"mt": "Proje: {col:projects.name}.",
+"why": "placeholders must be exactly: {col:projects.contact} {col:projects.client} {col:projects.client_phone} {col:projects.name}"
+},
+{
+"en": "The contract price now is {col:projects.price_now}. We have billed {col:projects.billed} and you have paid {col:projects.paid}. The balance owed is {col:projects.owed}.",
+"kind": "document",
+"max": null,
+"mt": "Şimdi sözleşme fiyatı {col:projects.price_now}. biz {col:projects.billed} faturalandı ve ödedi {col:projects.paid}.",
+"why": "placeholders must be exactly: {col:projects.price_now} {col:projects.billed} {col:projects.paid} {col:projects.owed}"
+},
+{
+"en": "Keep the risks, issues, changes and decisions of every project in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Her projenin risklerini, sorunlarını, değişikliklerini ve kararlarını tek bir çalışma defterinde tutun",
+"why": "too long: 102 characters, the limit is 80"
+},
+{
+"en": "Control project risks, issues, changes, decisions and assumptions",
+"kind": "sentence",
+"max": 80,
+"mt": "Proje risklerini, sorunlarını, değişikliklerini, kararlarını ve varsayımlarını kontrol etmek",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "probability and impact from 1 to 5 give the score, the level and the expected cost; a check shows risks with no owner, no action or an overdue review",
+"kind": "sentence",
+"max": 160,
+"mt": "1 ila 5 arasındaki olasılık ve etki puanı, seviyesini ve beklenen maliyeti verir; bir kontrol, sahibi olmadan, hiçbir eylem yapmadan veya gecikmiş bir inceleme yapmadan riskleri gösterir.",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "Contingency reserve against expected cost",
+"kind": "label",
+"max": 50,
+"mt": "Beklenen maliyetlere karşı beklenmedik durum rezervleri",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "each change is assessed by area with a cost and days estimate, and the sheet shows the cost assessed so far and the assessments still open",
+"kind": "sentence",
+"max": 160,
+"mt": "Her değişiklik bir maliyet ve gün tahmini ile bölgeye göre değerlendirilir ve tablo şimdiye kadar değerlendirilen maliyeti ve hala açık olan değerlendirmeleri gösterir.",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Contingency drawdowns tied to the risk",
+"kind": "label",
+"max": 50,
+"mt": "Riskle bağlantılı beklenmedik durumlar için kullanılan fonlar",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "Legal and compliance",
+"kind": "list",
+"max": 30,
+"mt": "Yasal ve uyumluluk",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Risk",
+"kind": "list",
+"max": 30,
+"mt": "Risk",
+"why": "not translated"
+},
+{
+"en": "Exposure above reserve",
+"kind": "list",
+"max": 30,
+"mt": "Değerlendirmeyi gerektiren riskler",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Risk reviews: planned, held and what they changed",
+"kind": "title",
+"max": 60,
+"mt": "Risk değerlendirmeleri: planlanmış, gerçekleştirilmiş ve ne değişti",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Issue log: severity, age, due date and escalation level",
+"kind": "title",
+"max": 60,
+"mt": "Sorun günlüğü: ciddiyet, yaş, vade tarihi ve tırmanma seviyesi",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Change board decisions: approved, rejected or deferred",
+"kind": "title",
+"max": 60,
+"mt": "Değiştirme kurulu kararları: onaylandı, reddedildi veya ertelendi",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Decision log: what was decided, by whom, and what is waiting",
+"kind": "title",
+"max": 60,
+"mt": "Karar günlüğü: ne karar verildi, kim tarafından ve ne bekliyor",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Assumptions: what the plan relies on and whether it holds",
+"kind": "title",
+"max": 60,
+"mt": "Varsayılanlar: Planın neye dayandığı ve planın geçerli olup olmadığı",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Exposure by level: open risks and cost per project",
+"kind": "title",
+"max": 60,
+"mt": "Katılım seviyesine göre: açık riskler ve projeler başına maliyet",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Issue ageing: open issues per project and age band",
+"kind": "title",
+"max": 60,
+"mt": "Sorunların yaşlanması: projeler ve yaş grubu başına açık sorular",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Risk cost, change cost and reserve drawn by month",
+"kind": "title",
+"max": 60,
+"mt": "Risk maliyeti, değişim maliyeti ve aylık olarak çekilen rezerv",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Change cost assessed",
+"kind": "label",
+"max": 30,
+"mt": "Değişim maliyeti değerlendirildi",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Latest date to decide so the plan holds",
+"kind": "title",
+"max": 60,
+"mt": "Planın yürürlüğe girmesi için karar vermen gereken son tarih.",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello {manager}, {project} has {no_owner} open risks without an owner. Please name an owner for each one this week.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {manager}, {project} bir sahibi olmadan açık riskleri var. Lütfen bu hafta her biri için bir sahibi isimlendirin.",
+"why": "placeholders must be exactly: {manager} {project} {no_owner}"
+},
+{
+"en": "Hello {manager}, on {project} the expected cost of open risks is {exposure} and the reserve left is {left}. Please send me a plan.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {manager}, açık risklerin beklenen maliyeti {exposure} ve geriye kalan rezerv {left}. bana bir plan gönderin.",
+"why": "placeholders must be exactly: {manager} {project} {exposure} {left}"
+},
+{
+"en": "Hello, {project} has {open_risks} open risks, {high_risks} high or critical, with an expected cost of {exposure}. Reserve left: {left}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {project} açık risklere sahiptir, {high_risks} yüksek veya kritik, beklenen maliyet {exposure}.",
+"why": "placeholders must be exactly: {project} {open_risks} {high_risks} {exposure} {left}"
+},
+{
+"en": "Hello {sponsor}, issue {issue_id} \"{title}\" needs your decision by {due}. Please call me today.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, konu 3'e kadar kararınızı istiyor.",
+"why": "placeholders must be exactly: {sponsor} {issue_id} {title} {due}"
+},
+{
+"en": "Hello {sponsor}, change request {change_id} \"{title}\" costs {cost} and adds {days} days. The route is {route}. Please decide.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {sponsor}, değişim isteği {change_id} \"{title}\" {cost} maliyeti ve {days} gün ekler.",
+"why": "placeholders must be exactly: {sponsor} {change_id} {title} {cost} {days} {route}"
+},
+{
+"en": "Hello {sponsor}, change {change} \"{title}\" was rejected on {date}. Reason: {conditions}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {sponsor}, değişim {change} \"{title}\" {date}'de reddedildi.",
+"why": "placeholders must be exactly: {sponsor} {change} {title} {date} {conditions}"
+},
+{
+"en": "Hello, for {project} we need \"{item}\" by {needed_by}. Please confirm the date in writing.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {project} için {item}'e ihtiyacımız var. Lütfen tarihi yazılı olarak onaylayın.",
+"why": "placeholders must be exactly: {project} {item} {needed_by}"
+},
+{
+"en": "Hello, \"{title}\" on {project} is at level {level}. May I ask for your support?",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, 1 numaralı telefon 2 seviyesinde.",
+"why": "placeholders must be exactly: {title} {project} {level}"
+},
+{
+"en": "Hello {owner}, your action {action_id} \"{action}\" was due on {due}. Please finish it or send me a new date.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, eyleminiz 3'te bitmeliydi lütfen bitirin ya da yeni bir tarih gönderin.",
+"why": "placeholders must be exactly: {owner} {action_id} {action} {due}"
+},
+{
+"en": "Project: {col:raid.project}. Project manager: {col:raid.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Proje yöneticisi:",
+"why": "placeholders must be exactly: {col:raid.project} {col:raid.manager}"
+},
+{
+"en": "Of {col:raid.open_risks} open risks, {col:raid.critical_risks} are in the critical zone of the heat map and {col:raid.high_risks} are high or critical. Together the open risks carry a score of {col:raid.risk_score}.",
+"kind": "document",
+"max": null,
+"mt": "{col:raid.open_risks} açık risklerden, {col:raid.critical_risks} ısı haritasının kritik bölgesindedir ve {col:raid.high_risks} yüksek veya kritiktir.",
+"why": "placeholders must be exactly: {col:raid.open_risks} {col:raid.critical_risks} {col:raid.high_risks} {col:raid.risk_score}"
+},
+{
+"en": "Their expected cost is {col:raid.exposure}. The reserve left is {col:raid.left}, so the exposure above the reserve is {col:raid.short}. The reserve check shows: {col:raid.reserve_check}.",
+"kind": "document",
+"max": null,
+"mt": "Beklenen maliyetleri {col:raid.exposure}. geride kalan rezerv {col:raid.left} , bu nedenle rezervden üstteki maruz kalma {col:raid.short}.",
+"why": "placeholders must be exactly: {col:raid.exposure} {col:raid.left} {col:raid.short} {col:raid.reserve_check}"
+},
+{
+"en": "Changes waiting for a decision: {col:raid.open_changes}. Change cost approved so far: {col:raid.approved_cost}.",
+"kind": "document",
+"max": null,
+"mt": "Karar bekleyen değişiklikler: {col:raid.open_changes}.",
+"why": "placeholders must be exactly: {col:raid.open_changes} {col:raid.approved_cost}"
+},
+{
+"en": "The assessed cost so far is {col:changes.assessed}. The decision route is: {col:changes.route}.",
+"kind": "document",
+"max": null,
+"mt": "Şimdiye kadar değerlendirilmiş maliyet {col:changes.assessed}.",
+"why": "placeholders must be exactly: {col:changes.assessed} {col:changes.route}"
+},
+{
+"en": "To: {col:board.sponsor}, telephone {col:board.sponsor_phone}. Project: {col:board.project}.",
+"kind": "document",
+"max": null,
+"mt": "Adres: {col:board.sponsor}, telefon: {col:board.sponsor_phone}.",
+"why": "placeholders must be exactly: {col:board.sponsor} {col:board.sponsor_phone} {col:board.project}"
+},
+{
+"en": "Reason and next step: {col:board.conditions}. Decided by: {col:board.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "Sebep ve bir sonraki adım: {col:board.conditions}.",
+"why": "placeholders must be exactly: {col:board.conditions} {col:board.approved_by}"
+},
+{
+"en": "Project: {col:decisions.project}. Project manager: {col:decisions.manager}. Sponsor: {col:decisions.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Proje yöneticisi: sponsor:",
+"why": "placeholders must be exactly: {col:decisions.project} {col:decisions.manager} {col:decisions.sponsor}"
+},
+{
+"en": "Changes: {col:raid.open_changes} waiting for a decision. Items needing attention: {col:raid.attention}. Focus of the week: {col:raid.focus}.",
+"kind": "document",
+"max": null,
+"mt": "Değişiklikler: {col:raid.open_changes} karar bekliyor. Dikkat edilmesi gereken konular: {col:raid.attention}.",
+"why": "placeholders must be exactly: {col:raid.open_changes} {col:raid.attention} {col:raid.focus}"
+}
+]

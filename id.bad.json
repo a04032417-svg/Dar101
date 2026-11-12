@@ -1,0 +1,338 @@
+[
+{
+"en": "Hello, invoice {inv_no} from {vendor} for {amount} on {project} is approved for payment. The due date is {due}. Please schedule the payment.",
+"kind": "message",
+"max": null,
+"mt": "Halo, faktur {inv_no} dari {vendor} untuk {amount} pada {project} disetujui untuk pembayaran.",
+"why": "placeholders must be exactly: {inv_no} {vendor} {amount} {project} {due}"
+},
+{
+"en": "Hello, we drew {amount} from the reserve of {project} on {date} for: {reason}. The reserve left is {left}. Approved by {approved_by}.",
+"kind": "message",
+"max": null,
+"mt": "Halo, kita menarik {amount} dari cadangan {project} pada {date} untuk: {reason}.",
+"why": "placeholders must be exactly: {amount} {project} {date} {reason} {left} {approved_by}"
+},
+{
+"en": "Hello {sponsor}, please approve transfer {tr_id} on {project}: {amount} from {from_cat} to {to_cat}. Reason: {reason}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {sponsor}, mohon persetujuan transfer {tr_id} pada {project}: {amount} dari {from_cat} ke {to_cat}.",
+"why": "placeholders must be exactly: {sponsor} {tr_id} {project} {amount} {from_cat} {to_cat} {reason}"
+},
+{
+"en": "Hello {contact}, we sent invoice {invoice_no} for {amount} for the milestone {milestone} on {project}. It is due on {due}. Please tell us if anything is missing.",
+"kind": "message",
+"max": null,
+"mt": "Halo {contact}, kami mengirim faktur {invoice_no} untuk {amount} untuk tonggak {milestone} pada {project}.",
+"why": "placeholders must be exactly: {contact} {invoice_no} {amount} {milestone} {project} {due}"
+},
+{
+"en": "Hello, the forecast of {project} is {over_by} above its budget and the cost index is {cpi}. The manager is {manager}. Please look at the recovery plan this week.",
+"kind": "message",
+"max": null,
+"mt": "Halo, perkiraan {project} adalah {over_by} di atas anggaran dan indeks biaya adalah {cpi}.",
+"why": "placeholders must be exactly: {project} {over_by} {cpi} {manager}"
+},
+{
+"en": "To date {col:projects.spent} is spent, which is {col:projects.used} of the budget now, and {col:projects.left} is left. The forecast cost at completion is {col:projects.eac}. The cost check shows: {col:projects.state}.",
+"kind": "document",
+"max": null,
+"mt": "Untuk tanggal {col:projects.spent} dihabiskan, yang adalah {col:projects.used} dari anggaran sekarang, dan {col:projects.left} tersisa.",
+"why": "placeholders must be exactly: {col:projects.spent} {col:projects.used} {col:projects.left} {col:projects.eac} {col:projects.state}"
+},
+{
+"en": "The forecast at completion is {col:forecast.eac}, a variance of {col:forecast.vac} against the budget. The cost forecast shows: {col:forecast.state}.",
+"kind": "document",
+"max": null,
+"mt": "Perkiraan pada saat selesai adalah {col:forecast.eac}, varian {col:forecast.vac} terhadap anggaran.",
+"why": "placeholders must be exactly: {col:forecast.eac} {col:forecast.vac} {col:forecast.state}"
+},
+{
+"en": "The forecast cost at completion is {col:forecast.eac}. The variance against the budget is {col:forecast.vac}, which is {col:forecast.vac_pct} of the budget. The forecast is over the budget by {col:forecast.over_by}.",
+"kind": "document",
+"max": null,
+"mt": "Biaya perkiraan pada saat selesai adalah {col:forecast.eac}. Varian terhadap anggaran adalah {col:forecast.vac}, yang merupakan {col:forecast.vac_pct} dari anggaran.",
+"why": "placeholders must be exactly: {col:forecast.eac} {col:forecast.vac} {col:forecast.vac_pct} {col:forecast.over_by}"
+},
+{
+"en": "The price now is {col:forecast.price} and the margin at completion is {col:forecast.margin}. The cost forecast shows: {col:forecast.state}.",
+"kind": "document",
+"max": null,
+"mt": "Harga sekarang adalah {col:forecast.price} dan margin pada saat selesai adalah {col:forecast.margin}.",
+"why": "placeholders must be exactly: {col:forecast.price} {col:forecast.margin} {col:forecast.state}"
+},
+{
+"en": "Each quote is scored out of 100 with these weights: price {set:w_price}, lead time {set:w_lead} and quality {set:w_quality}. The chosen vendor is {col:requests.chosen_vendor}, on order {col:requests.order}.",
+"kind": "document",
+"max": null,
+"mt": "Setiap kutipan diberi nilai dari 100 dengan bobot ini: harga {set:w_price}, lead time {set:w_lead} dan kualitas {set:w_quality}.",
+"why": "placeholders must be exactly: {set:w_price} {set:w_lead} {set:w_quality} {col:requests.chosen_vendor} {col:requests.order}"
+},
+{
+"en": "To: {col:changes.contact}, telephone {col:changes.client_phone}. Project: {col:changes.project}.",
+"kind": "document",
+"max": null,
+"mt": "Untuk: {col:changes.contact}, telepon {col:changes.client_phone}.",
+"why": "placeholders must be exactly: {col:changes.contact} {col:changes.client_phone} {col:changes.project}"
+},
+{
+"en": "The reserve planned is {col:contingency.reserve}. After this draw {col:contingency.drawn} is drawn to date, {col:contingency.left} is left and {col:contingency.share} of the reserve is used. The reserve check shows: {col:contingency.check}.",
+"kind": "document",
+"max": null,
+"mt": "Reserve yang direncanakan adalah {col:contingency.reserve}. Setelah undian ini {col:contingency.drawn} ditarik hingga saat ini, {col:contingency.left} ditinggalkan dan {col:contingency.share} dari cadangan digunakan.",
+"why": "placeholders must be exactly: {col:contingency.reserve} {col:contingency.drawn} {col:contingency.left} {col:contingency.share} {col:contingency.check}"
+},
+{
+"en": "To: {col:projects.contact}, {col:projects.client}, telephone {col:projects.client_phone}. Project: {col:projects.name}.",
+"kind": "document",
+"max": null,
+"mt": "Untuk: {col:projects.contact}, {col:projects.client}, telepon {col:projects.client_phone}.",
+"why": "placeholders must be exactly: {col:projects.contact} {col:projects.client} {col:projects.client_phone} {col:projects.name}"
+},
+{
+"en": "Keep the risks, issues, changes and decisions of every project in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Simpan risiko, masalah, perubahan dan keputusan dari setiap proyek dalam satu buku kerja",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "Risk register with score and expected cost",
+"kind": "label",
+"max": 50,
+"mt": "Daftar risiko dengan skor dan biaya yang diharapkan",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "probability and impact from 1 to 5 give the score, the level and the expected cost; a check shows risks with no owner, no action or an overdue review",
+"kind": "sentence",
+"max": 160,
+"mt": "kemungkinan dan dampak dari 1 sampai 5 memberikan skor, tingkat dan biaya yang diharapkan; pemeriksaan menunjukkan risiko tanpa pemilik, tidak ada tindakan atau tinjauan yang tertunda",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "the 25 cells of probability times impact count your open risks and their expected cost by themselves, so the steering group sees where the danger sits",
+"kind": "sentence",
+"max": 160,
+"mt": "25 sel kemungkinan kali dampak menghitung risiko terbuka Anda dan biaya yang diharapkan oleh diri mereka sendiri sehingga kelompok kemudi melihat di mana bahaya terletak",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Change board decisions with speed check",
+"kind": "label",
+"max": 50,
+"mt": "Mengubah keputusan dewan dengan pemeriksaan kecepatan",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "decisions keep their options, who decided and the decide-by date, and proposed decisions past their date are flagged as overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "keputusan menyimpan pilihan mereka, yang memutuskan dan tanggal akhir keputusan dan keputusan yang diusulkan setelah tanggal mereka ditandai sebagai keterlambatan",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Contingency drawdowns tied to the risk",
+"kind": "label",
+"max": 50,
+"mt": "Pendapatan yang tidak terduga yang terkait dengan risiko",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "each draw on a project reserve points to the risk that occurred, and shows the reserve planned, drawn to date, left and a warning before it runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap penarikan pada cadangan proyek menunjukkan risiko yang terjadi dan menunjukkan cadangan yang direncanakan, ditarik hingga saat ini, ditinggalkan dan peringatan sebelum habis",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Risk register: score, expected cost and review state",
+"kind": "title",
+"max": 60,
+"mt": "Daftar risiko: skor, biaya yang diharapkan dan status tinjauan",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Risk heat map: open risks by probability and impact",
+"kind": "title",
+"max": 60,
+"mt": "Peta panas risiko: risiko terbuka berdasarkan probabilitas dan dampak",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Risk and issue actions: who does what by when",
+"kind": "title",
+"max": 60,
+"mt": "Risiko dan tindakan penerbitan: siapa yang melakukan apa pada kapan",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Risk reviews: planned, held and what they changed",
+"kind": "title",
+"max": 60,
+"mt": "Tinjauan risiko: direncanakan, dilakukan dan apa yang berubah",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Issue log: severity, age, due date and escalation level",
+"kind": "title",
+"max": 60,
+"mt": "Log isu: tingkat keparahan, usia, tanggal jatuh tempo dan tingkat eskalasi",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Escalations: what went up a level and what came of it",
+"kind": "title",
+"max": 60,
+"mt": "Eskalasi: apa yang naik tingkat dan apa yang terjadi dari itu",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Change requests: effect on cost and days, and the decision",
+"kind": "title",
+"max": 60,
+"mt": "Permintaan perubahan: dampak pada biaya dan hari, dan keputusan",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Change impact: effect by area with cost and days",
+"kind": "title",
+"max": 60,
+"mt": "Dampak perubahan: efek berdasarkan wilayah dengan biaya dan hari",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Change board decisions: approved, rejected or deferred",
+"kind": "title",
+"max": 60,
+"mt": "Perubahan keputusan dewan: disetujui, ditolak atau ditangguhkan",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Decision log: what was decided, by whom, and what is waiting",
+"kind": "title",
+"max": 60,
+"mt": "Catatan keputusan: apa yang diputuskan, oleh siapa, dan apa yang menunggu",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Assumptions: what the plan relies on and whether it holds",
+"kind": "title",
+"max": 60,
+"mt": "Asumsi: apa yang didasarkan pada rencana dan apakah itu berlaku",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Lessons learned: what happened and what we change",
+"kind": "title",
+"max": 60,
+"mt": "Pelajaran yang dipelajari: apa yang terjadi dan apa yang kita ubah",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Contingency drawdowns: reserve used by risks that occurred",
+"kind": "title",
+"max": 60,
+"mt": "Pendapatan yang tidak terduga: cadangan yang digunakan untuk risiko yang telah terjadi",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Exposure by level: open risks and cost per project",
+"kind": "title",
+"max": 60,
+"mt": "Eksposur berdasarkan tingkat: risiko terbuka dan biaya per proyek",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Risk cost, change cost and reserve drawn by month",
+"kind": "title",
+"max": 60,
+"mt": "Biaya risiko, biaya perubahan dan cadangan yang ditarik per bulan",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Weekly risk burn-down: open exposure over the weeks",
+"kind": "title",
+"max": 60,
+"mt": "Risiko pembakaran mingguan: paparan terbuka selama beberapa minggu",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, the indicator \"{indicator}\" is {current} {unit} against a threshold of {threshold}. Please act on risk {risk}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {owner}, indikator \"{indicator}\" adalah {current} {unit} terhadap ambang {threshold}.",
+"why": "placeholders must be exactly: {owner} {indicator} {current} {unit} {threshold} {risk}"
+},
+{
+"en": "Hello, {project} has {open_risks} open risks, {high_risks} high or critical, with an expected cost of {exposure}. Reserve left: {left}.",
+"kind": "message",
+"max": null,
+"mt": "Halo, {project} memiliki {open_risks} risiko terbuka, {high_risks} tinggi atau kritis, dengan biaya yang diharapkan dari {exposure}.",
+"why": "placeholders must be exactly: {project} {open_risks} {high_risks} {exposure} {left}"
+},
+{
+"en": "Hello {sponsor}, {project} has {open_risks} open risks, {high_risks} of them high or critical. Expected cost {exposure}, reserve left {left}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {sponsor}, {project} memiliki {open_risks} risiko terbuka, {high_risks} dari mereka tinggi atau kritis.",
+"why": "placeholders must be exactly: {sponsor} {project} {open_risks} {high_risks} {exposure} {left}"
+},
+{
+"en": "Hello {owner}, the lessons workshop for {project} is on {date}. Please prepare the {phase} phase.",
+"kind": "message",
+"max": null,
+"mt": "Halo {owner}, workshop pelajaran untuk {project} adalah pada {date}.",
+"why": "placeholders must be exactly: {owner} {project} {date} {phase}"
+},
+{
+"en": "Hello, issue {issue_id} \"{title}\" concerns your delivery to {project}. Please respond by {due}.",
+"kind": "message",
+"max": null,
+"mt": "Halo, masalah {issue_id} \"{title}\" menyangkut pengiriman Anda ke {project}.",
+"why": "placeholders must be exactly: {issue_id} {title} {project} {due}"
+},
+{
+"en": "Of {col:raid.open_risks} open risks, {col:raid.critical_risks} are in the critical zone of the heat map and {col:raid.high_risks} are high or critical. Together the open risks carry a score of {col:raid.risk_score}.",
+"kind": "document",
+"max": null,
+"mt": "Dari {col:raid.open_risks} risiko terbuka, {col:raid.critical_risks} berada di zona kritis peta panas dan {col:raid.high_risks} tinggi atau kritis.",
+"why": "placeholders must be exactly: {col:raid.open_risks} {col:raid.critical_risks} {col:raid.high_risks} {col:raid.risk_score}"
+},
+{
+"en": "Change requested: {col:changes.title}. Requested by {col:changes.requester} on {col:changes.raised}.",
+"kind": "document",
+"max": null,
+"mt": "Perubahan diminta: {col:changes.title}.",
+"why": "placeholders must be exactly: {col:changes.title} {col:changes.requester} {col:changes.raised}"
+},
+{
+"en": "The assessed cost so far is {col:changes.assessed}. The decision route is: {col:changes.route}.",
+"kind": "document",
+"max": null,
+"mt": "Biaya yang dinilai sejauh ini adalah {col:changes.assessed}.",
+"why": "placeholders must be exactly: {col:changes.assessed} {col:changes.route}"
+},
+{
+"en": "To: {col:board.sponsor}, telephone {col:board.sponsor_phone}. Project: {col:board.project}.",
+"kind": "document",
+"max": null,
+"mt": "Untuk: {col:board.sponsor}, telepon {col:board.sponsor_phone}.",
+"why": "placeholders must be exactly: {col:board.sponsor} {col:board.sponsor_phone} {col:board.project}"
+},
+{
+"en": "The change adds {col:board.cost} to the budget and {col:board.days} days to the plan. The decision came {col:board.wait} days after the request.",
+"kind": "document",
+"max": null,
+"mt": "Perubahan ini menambahkan {col:board.cost} ke anggaran dan {col:board.days} hari ke rencana.",
+"why": "placeholders must be exactly: {col:board.cost} {col:board.days} {col:board.wait}"
+},
+{
+"en": "Risks: {col:raid.open_risks} open, {col:raid.high_risks} high or critical, {col:raid.no_owner} without an owner. Expected cost {col:raid.exposure} against a reserve of {col:raid.left}. Reserve check: {col:raid.reserve_check}.",
+"kind": "document",
+"max": null,
+"mt": "Risiko: {col:raid.open_risks} terbuka, {col:raid.high_risks} tinggi atau kritis, {col:raid.no_owner} tanpa pemilik.",
+"why": "placeholders must be exactly: {col:raid.open_risks} {col:raid.high_risks} {col:raid.no_owner} {col:raid.exposure} {col:raid.left} {col:raid.reserve_check}"
+}
+]

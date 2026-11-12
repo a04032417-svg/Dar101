@@ -1,0 +1,611 @@
+[
+{
+"en": "Hello, invoice {inv_no} from {vendor} for {amount} on {project} is approved for payment. The due date is {due}. Please schedule the payment.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, la facture {inv_no} de {vendor} pour {amount} le {project} est approuvée pour le paiement.",
+"why": "placeholders must be exactly: {inv_no} {vendor} {amount} {project} {due}"
+},
+{
+"en": "Hello, we drew {amount} from the reserve of {project} on {date} for: {reason}. The reserve left is {left}. Approved by {approved_by}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons tiré {amount} de la réserve de {project} sur {date} pour: {reason}.",
+"why": "placeholders must be exactly: {amount} {project} {date} {reason} {left} {approved_by}"
+},
+{
+"en": "Hello {sponsor}, please approve transfer {tr_id} on {project}: {amount} from {from_cat} to {to_cat}. Reason: {reason}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {sponsor}, veuillez approuver le transfert {tr_id} le {project}: {amount} de {from_cat} à {to_cat}.",
+"why": "placeholders must be exactly: {sponsor} {tr_id} {project} {amount} {from_cat} {to_cat} {reason}"
+},
+{
+"en": "Hello {contact}, we sent invoice {invoice_no} for {amount} for the milestone {milestone} on {project}. It is due on {due}. Please tell us if anything is missing.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {contact}, nous avons envoyé la facture {invoice_no} pour {amount} pour le jalon {milestone} le {project}.",
+"why": "placeholders must be exactly: {contact} {invoice_no} {amount} {milestone} {project} {due}"
+},
+{
+"en": "Hello {contact}, we received your payment of {amount} for invoice {invoice_no} on {paid_on}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, nous avons reçu votre paiement de la facture le 3 février.",
+"why": "placeholders must be exactly: {contact} {amount} {invoice_no} {paid_on}"
+},
+{
+"en": "Hello, the forecast of {project} is {over_by} above its budget and the cost index is {cpi}. The manager is {manager}. Please look at the recovery plan this week.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, la prévision de {project} est {over_by} au-dessus de son budget et l'indice de coût est {cpi}.",
+"why": "placeholders must be exactly: {project} {over_by} {cpi} {manager}"
+},
+{
+"en": "To date {col:projects.spent} is spent, which is {col:projects.used} of the budget now, and {col:projects.left} is left. The forecast cost at completion is {col:projects.eac}. The cost check shows: {col:projects.state}.",
+"kind": "document",
+"max": null,
+"mt": "À ce jour {col:projects.spent} est dépensé, ce qui est {col:projects.used} du budget maintenant, et {col:projects.left} est laissé. Le coût prévu à l'achèvement est {col:projects.eac}.",
+"why": "placeholders must be exactly: {col:projects.spent} {col:projects.used} {col:projects.left} {col:projects.eac} {col:projects.state}"
+},
+{
+"en": "The budget now is {col:forecast.bac}. The actual cost to date is {col:forecast.ac}, which is {col:forecast.used_pct} of the budget.",
+"kind": "document",
+"max": null,
+"mt": "Le coût réel à ce jour est de {col:forecast.ac}, qui est {col:forecast.used_pct} du budget.",
+"why": "placeholders must be exactly: {col:forecast.bac} {col:forecast.ac} {col:forecast.used_pct}"
+},
+{
+"en": "The reserve planned is {col:forecast.reserve}. Of this {col:forecast.drawn} was drawn and {col:forecast.reserve_left} is left.",
+"kind": "document",
+"max": null,
+"mt": "La réserve prévue est {col:forecast.reserve}.",
+"why": "placeholders must be exactly: {col:forecast.reserve} {col:forecast.drawn} {col:forecast.reserve_left}"
+},
+{
+"en": "Project: {col:forecast.project}. Project manager: {col:forecast.manager}. Sponsor: {col:forecast.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Le chef de projet, le commanditaire.",
+"why": "placeholders must be exactly: {col:forecast.project} {col:forecast.manager} {col:forecast.sponsor}"
+},
+{
+"en": "Budget now {col:forecast.bac}. Percent complete {col:forecast.pct}. Percent planned by now {col:forecast.planned_pct}.",
+"kind": "document",
+"max": null,
+"mt": "Le budget est maintenant en pourcentage, le pourcentage prévu est maintenant en pourcentage.",
+"why": "placeholders must be exactly: {col:forecast.bac} {col:forecast.pct} {col:forecast.planned_pct}"
+},
+{
+"en": "The cost performance index is {col:forecast.cpi}: a value below 1 means each unit of money spent has earned less than a unit of planned work. The schedule performance index is {col:forecast.spi}: a value below 1 means the work is behind the plan.",
+"kind": "document",
+"max": null,
+"mt": "L'indice de performance des coûts est {col:forecast.cpi}: une valeur inférieure à 1 signifie que chaque unité d'argent dépensée a gagné moins d'une unité de travail prévu.",
+"why": "placeholders must be exactly: {col:forecast.cpi} {col:forecast.spi}"
+},
+{
+"en": "The forecast at completion is {col:forecast.eac}, a variance of {col:forecast.vac} against the budget. The cost forecast shows: {col:forecast.state}.",
+"kind": "document",
+"max": null,
+"mt": "La prévision à l'achèvement est de {col:forecast.eac}, une variance de {col:forecast.vac} par rapport au budget.",
+"why": "placeholders must be exactly: {col:forecast.eac} {col:forecast.vac} {col:forecast.state}"
+},
+{
+"en": "The price now is {col:forecast.price} and the margin at completion is {col:forecast.margin}. The cost forecast shows: {col:forecast.state}.",
+"kind": "document",
+"max": null,
+"mt": "Le prix actuel est {col:forecast.price} et la marge à l'achèvement est {col:forecast.margin}.",
+"why": "placeholders must be exactly: {col:forecast.price} {col:forecast.margin} {col:forecast.state}"
+},
+{
+"en": "Order amount: {col:orders.amount}. Tax: {col:orders.tax}. Total with tax: {col:orders.total}. Expected on: {col:orders.expected}.",
+"kind": "document",
+"max": null,
+"mt": "Montant de la commande: {col:orders.amount}. Taxe: {col:orders.tax}. Total avec taxe: {col:orders.total}.",
+"why": "placeholders must be exactly: {col:orders.amount} {col:orders.tax} {col:orders.total} {col:orders.expected}"
+},
+{
+"en": "Each quote is scored out of 100 with these weights: price {set:w_price}, lead time {set:w_lead} and quality {set:w_quality}. The chosen vendor is {col:requests.chosen_vendor}, on order {col:requests.order}.",
+"kind": "document",
+"max": null,
+"mt": "Chaque offre est notée sur 100 avec ces poids: prix {set:w_price}, délai {set:w_lead} et qualité {set:w_quality}.",
+"why": "placeholders must be exactly: {set:w_price} {set:w_lead} {set:w_quality} {col:requests.chosen_vendor} {col:requests.order}"
+},
+{
+"en": "Vendor: {col:vendors.name} ({col:vendors.service}). Contact: {col:vendors.contact}, telephone {col:vendors.phone}.",
+"kind": "document",
+"max": null,
+"mt": "Le fournisseur: {col:vendors.name} {col:vendors.service}.",
+"why": "placeholders must be exactly: {col:vendors.name} {col:vendors.service} {col:vendors.contact} {col:vendors.phone}"
+},
+{
+"en": "To: {col:changes.contact}, telephone {col:changes.client_phone}. Project: {col:changes.project}.",
+"kind": "document",
+"max": null,
+"mt": "À: {col:changes.contact}, téléphone {col:changes.client_phone}.",
+"why": "placeholders must be exactly: {col:changes.contact} {col:changes.client_phone} {col:changes.project}"
+},
+{
+"en": "The change adds {col:changes.extra_days} working days and is priced at {col:changes.price}. The status is {col:changes.status}, decided on {col:changes.decided_on}.",
+"kind": "document",
+"max": null,
+"mt": "Le changement ajoute {col:changes.extra_days} jours ouvrables et est évalué à {col:changes.price}.",
+"why": "placeholders must be exactly: {col:changes.extra_days} {col:changes.price} {col:changes.status} {col:changes.decided_on}"
+},
+{
+"en": "An amount of {col:contingency.amount} is drawn from the project reserve and moved to the category {col:contingency.category}. Reason: {col:contingency.reason}.",
+"kind": "document",
+"max": null,
+"mt": "Un montant de {col:contingency.amount} est prélevé sur la réserve de projet et transféré dans la catégorie {col:contingency.category}.",
+"why": "placeholders must be exactly: {col:contingency.amount} {col:contingency.category} {col:contingency.reason}"
+},
+{
+"en": "The reserve planned is {col:contingency.reserve}. After this draw {col:contingency.drawn} is drawn to date, {col:contingency.left} is left and {col:contingency.share} of the reserve is used. The reserve check shows: {col:contingency.check}.",
+"kind": "document",
+"max": null,
+"mt": "La réserve prévue est {col:contingency.reserve}. Après ce tirage {col:contingency.drawn} est tiré à la date, {col:contingency.left} est laissé et {col:contingency.share} de la réserve est utilisé.",
+"why": "placeholders must be exactly: {col:contingency.reserve} {col:contingency.drawn} {col:contingency.left} {col:contingency.share} {col:contingency.check}"
+},
+{
+"en": "To: {col:projects.contact}, {col:projects.client}, telephone {col:projects.client_phone}. Project: {col:projects.name}.",
+"kind": "document",
+"max": null,
+"mt": "À: {col:projects.contact}, {col:projects.client}, téléphone {col:projects.client_phone}.",
+"why": "placeholders must be exactly: {col:projects.contact} {col:projects.client} {col:projects.client_phone} {col:projects.name}"
+},
+{
+"en": "CPI",
+"kind": "label",
+"max": 30,
+"mt": "Indice du prix à la consommation",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Keep the risks, issues, changes and decisions of every project in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Gardez les risques, les problèmes, les changements et les décisions de chaque projet dans un seul classeur",
+"why": "too long: 106 characters, the limit is 80"
+},
+{
+"en": "Control project risks, issues, changes, decisions and assumptions",
+"kind": "sentence",
+"max": 80,
+"mt": "Contrôler les risques, les problèmes, les changements, les décisions et les hypothèses liés aux projets",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "probability and impact from 1 to 5 give the score, the level and the expected cost; a check shows risks with no owner, no action or an overdue review",
+"kind": "sentence",
+"max": 160,
+"mt": "la probabilité et l'impact de 1 à 5 donnent le score, le niveau et le coût attendu; une vérification montre les risques sans propriétaire, sans action ou un examen en retard",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Risk heat map with live counts",
+"kind": "label",
+"max": 50,
+"mt": "Carte de chaleur du risque avec le nombre de personnes vivantes",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "the 25 cells of probability times impact count your open risks and their expected cost by themselves, so the steering group sees where the danger sits",
+"kind": "sentence",
+"max": 160,
+"mt": "Les 25 cellules de probabilité fois impact comptent vos risques ouverts et leur coût attendu par eux-mêmes, de sorte que le groupe de pilotage voit où se trouve le danger",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Early-warning triggers against thresholds",
+"kind": "label",
+"max": 50,
+"mt": "Les déclencheurs d'alerte précoce contre les seuils",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Issue log with age, target and escalation level",
+"kind": "label",
+"max": 50,
+"mt": "Journal des émissions avec âge, cible et niveau d'escalade",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Issue ageing by project and band",
+"kind": "label",
+"max": 50,
+"mt": "Vieillissement de la question par projet et par tranche",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "open issues are counted by project and age band, with the high and critical ones shown, so old problems cannot hide",
+"kind": "sentence",
+"max": 160,
+"mt": "Les problèmes ouverts sont comptés par projet et groupe d'âge, les problèmes élevés et les problèmes critiques étant indiqués, de sorte que les anciens problèmes ne peuvent pas être cachés",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Escalations with outcome and days open",
+"kind": "label",
+"max": 50,
+"mt": "Des escaliers avec des résultats et des jours ouverts",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "scope, cost and days effects set the approval route under your limits, and a check flags decisions that wait longer than your target",
+"kind": "sentence",
+"max": 160,
+"mt": "l'étendue, les coûts et les effets des jours définissent la voie d'approbation en dessous de vos limites, et une vérification indique les décisions qui attendent plus longtemps que votre objectif",
+"why": "too long: 195 characters, the limit is 160"
+},
+{
+"en": "each change is assessed by area with a cost and days estimate, and the sheet shows the cost assessed so far and the assessments still open",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque modification est évaluée par zone avec une estimation des coûts et des jours, et la fiche indique les coûts évalués jusqu'à présent et les évaluations encore en cours",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Change board decisions with speed check",
+"kind": "label",
+"max": 50,
+"mt": "Modifier les décisions du conseil avec contrôle de vitesse",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "approved, rejected and deferred decisions are logged with their conditions and the days from the request, with a late-decision flag",
+"kind": "sentence",
+"max": 160,
+"mt": "les décisions approuvées, rejetées et reportées sont enregistrées, avec leurs conditions et les jours à compter de la demande, avec un indicateur de décision tardive",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "each draw on a project reserve points to the risk that occurred, and shows the reserve planned, drawn to date, left and a warning before it runs out",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque tirage sur une réserve de projet indique le risque qui s'est produit et montre la réserve prévue, tirée à la date, laissée et un avertissement avant son épuisement.",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Approved with conditions",
+"kind": "list",
+"max": 30,
+"mt": "Approuvé à certaines conditions",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Exposure above reserve",
+"kind": "list",
+"max": 30,
+"mt": "Exposition au-dessus des réserves",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Risk register: score, expected cost and review state",
+"kind": "title",
+"max": 60,
+"mt": "Registre des risques: score, coût attendu et état de l'examen",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Risk heat map: open risks by probability and impact",
+"kind": "title",
+"max": 60,
+"mt": "Carte thermique des risques: risques ouverts par probabilité et impact",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Risk reviews: planned, held and what they changed",
+"kind": "title",
+"max": 60,
+"mt": "Évaluations des risques: planifiées, réalisées et ce qu'elles ont changé",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Risk triggers: early-warning indicators and thresholds",
+"kind": "title",
+"max": 60,
+"mt": "Les facteurs de risque: indicateurs et seuils d'alerte précoce",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Issue log: severity, age, due date and escalation level",
+"kind": "title",
+"max": 60,
+"mt": "Journal des émissions: gravité, âge, date d'échéance et niveau d'escalade",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Escalations: what went up a level and what came of it",
+"kind": "title",
+"max": 60,
+"mt": "Les escaladeurs: ce qui a augmenté un niveau et ce qui en est résulté",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Change requests: effect on cost and days, and the decision",
+"kind": "title",
+"max": 60,
+"mt": "Les demandes de modification: incidence sur le coût et les jours, ainsi que sur la décision",
+"why": "too long: 91 characters, the limit is 60"
+},
+{
+"en": "Change board decisions: approved, rejected or deferred",
+"kind": "title",
+"max": 60,
+"mt": "Décisions du comité de changement: approuvées, rejetées ou reportées",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Decision log: what was decided, by whom, and what is waiting",
+"kind": "title",
+"max": 60,
+"mt": "Journal des décisions: ce qui a été décidé, par qui et ce qui est en attente",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Assumptions: what the plan relies on and whether it holds",
+"kind": "title",
+"max": 60,
+"mt": "Les hypothèses: sur quoi le plan repose-t-il et s'il est valable",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Lessons learned: what happened and what we change",
+"kind": "title",
+"max": 60,
+"mt": "Les leçons apprises: ce qui s'est passé et ce que nous changeons",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Issue ageing: open issues per project and age band",
+"kind": "title",
+"max": 60,
+"mt": "Vieillissement des émissions: émissions ouvertes par projet et groupe d'âge",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Change request sheet with the board decisions",
+"kind": "title",
+"max": 60,
+"mt": "Fiche de demande de modification avec les décisions du conseil",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Risk score and level from probability and impact",
+"kind": "title",
+"max": 60,
+"mt": "Score et niveau de risque à partir de la probabilité et de l'impact",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Expected cost of a risk, with a three-point range",
+"kind": "title",
+"max": 60,
+"mt": "Coût attendu d'un risque, avec une fourchette de trois points",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Probability and impact what-if grid",
+"kind": "title",
+"max": 60,
+"mt": "Probabilité et incidence sur la grille \"que se passerait-il si\"",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Weekly risk burn-down: open exposure over the weeks",
+"kind": "title",
+"max": 60,
+"mt": "Réduction hebdomadaire du risque: exposition ouverte au cours des semaines",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Schedule buffer from the days that risks could add",
+"kind": "title",
+"max": 60,
+"mt": "Buffer de planification des jours qui pourraient être ajoutés par les risques",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, the indicator \"{indicator}\" is {current} {unit} against a threshold of {threshold}. Please act on risk {risk}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {owner}, l'indicateur \"{indicator}\" est {current} {unit} contre un seuil de {threshold}.",
+"why": "placeholders must be exactly: {owner} {indicator} {current} {unit} {threshold} {risk}"
+},
+{
+"en": "Hello {owner}, issue {issue_id} \"{title}\" is {over} days overdue. Please send me a new date today.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le numéro 2 est en retard de 3 jours. S'il vous plaît envoyez-moi une nouvelle date aujourd'hui.",
+"why": "placeholders must be exactly: {owner} {issue_id} {title} {over}"
+},
+{
+"en": "Hello, {project} has {open_risks} open risks, {high_risks} high or critical, with an expected cost of {exposure}. Reserve left: {left}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, {project} a {open_risks} des risques ouverts, {high_risks} élevés ou critiques, avec un coût attendu de {exposure}.",
+"why": "placeholders must be exactly: {project} {open_risks} {high_risks} {exposure} {left}"
+},
+{
+"en": "Hello {sponsor}, {project} has {open_risks} open risks, {high_risks} of them high or critical. Expected cost {exposure}, reserve left {left}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, {sponsor}, {project} a {open_risks} des risques ouverts, {high_risks} d'entre eux élevés ou critiques.",
+"why": "placeholders must be exactly: {sponsor} {project} {open_risks} {high_risks} {exposure} {left}"
+},
+{
+"en": "Hello {sponsor}, issue {issue_id} \"{title}\" needs your decision by {due}. Please call me today.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le numéro 2 a besoin de votre décision d'ici demain.",
+"why": "placeholders must be exactly: {sponsor} {issue_id} {title} {due}"
+},
+{
+"en": "Hello {sponsor}, change request {change_id} \"{title}\" costs {cost} and adds {days} days. The route is {route}. Please decide.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {sponsor}, demande de changement {change_id} \"{title}\" coûte {cost} et ajoute {days} jours.",
+"why": "placeholders must be exactly: {sponsor} {change_id} {title} {cost} {days} {route}"
+},
+{
+"en": "Hello {sponsor}, change {change} \"{title}\" was rejected on {date}. Reason: {conditions}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {sponsor}, le changement {change} \"{title}\" a été rejeté le {date}.",
+"why": "placeholders must be exactly: {sponsor} {change} {title} {date} {conditions}"
+},
+{
+"en": "Hello {owner}, the lessons workshop for {project} is on {date}. Please prepare the {phase} phase.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour {owner}, l'atelier de leçons pour {project} est sur {date}.",
+"why": "placeholders must be exactly: {owner} {project} {date} {phase}"
+},
+{
+"en": "Hello, issue {issue_id} \"{title}\" concerns your delivery to {project}. Please respond by {due}.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, le problème {issue_id} \"{title}\" concerne votre livraison à {project}.",
+"why": "placeholders must be exactly: {issue_id} {title} {project} {due}"
+},
+{
+"en": "Hello, \"{title}\" on {project} is at level {level}. May I ask for your support?",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, je peux vous demander votre soutien ?",
+"why": "placeholders must be exactly: {title} {project} {level}"
+},
+{
+"en": "Hello {owner}, your action {action_id} \"{action}\" was due on {due}. Please finish it or send me a new date.",
+"kind": "message",
+"max": null,
+"mt": "Bonjour, votre action devait être terminée le 3 s'il vous plaît ou envoyez-moi une nouvelle date.",
+"why": "placeholders must be exactly: {owner} {action_id} {action} {due}"
+},
+{
+"en": "The expected cost of the open risks is {col:raid.exposure}. The reserve planned is {col:raid.reserve}, of which {col:raid.drawn} is drawn and {col:raid.left} is left. The reserve check shows: {col:raid.reserve_check}.",
+"kind": "document",
+"max": null,
+"mt": "Le coût attendu des risques ouverts est {col:raid.exposure}. La réserve prévue est {col:raid.reserve}, dont {col:raid.drawn} est tirée et {col:raid.left} est laissée.",
+"why": "placeholders must be exactly: {col:raid.exposure} {col:raid.reserve} {col:raid.drawn} {col:raid.left} {col:raid.reserve_check}"
+},
+{
+"en": "Project: {col:raid.project}. Project manager: {col:raid.manager}.",
+"kind": "document",
+"max": null,
+"mt": "Le chef de projet:",
+"why": "placeholders must be exactly: {col:raid.project} {col:raid.manager}"
+},
+{
+"en": "Of {col:raid.open_risks} open risks, {col:raid.critical_risks} are in the critical zone of the heat map and {col:raid.high_risks} are high or critical. Together the open risks carry a score of {col:raid.risk_score}.",
+"kind": "document",
+"max": null,
+"mt": "Parmi les {col:raid.open_risks} risques ouverts, {col:raid.critical_risks} se trouvent dans la zone critique de la carte de chaleur et {col:raid.high_risks} sont élevés ou critiques.",
+"why": "placeholders must be exactly: {col:raid.open_risks} {col:raid.critical_risks} {col:raid.high_risks} {col:raid.risk_score}"
+},
+{
+"en": "Their expected cost is {col:raid.exposure}. The reserve left is {col:raid.left}, so the exposure above the reserve is {col:raid.short}. The reserve check shows: {col:raid.reserve_check}.",
+"kind": "document",
+"max": null,
+"mt": "Leur coût attendu est {col:raid.exposure}. La réserve laissée est {col:raid.left}, donc l'exposition au-dessus de la réserve est {col:raid.short}.",
+"why": "placeholders must be exactly: {col:raid.exposure} {col:raid.left} {col:raid.short} {col:raid.reserve_check}"
+},
+{
+"en": "Project: {col:raid.project}. Project manager: {col:raid.manager}. Sponsor: {col:raid.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Le chef de projet, le promoteur.",
+"why": "placeholders must be exactly: {col:raid.project} {col:raid.manager} {col:raid.sponsor}"
+},
+{
+"en": "Changes waiting for a decision: {col:raid.open_changes}. Change cost approved so far: {col:raid.approved_cost}.",
+"kind": "document",
+"max": null,
+"mt": "Les modifications en attente de décision: {col:raid.open_changes}.",
+"why": "placeholders must be exactly: {col:raid.open_changes} {col:raid.approved_cost}"
+},
+{
+"en": "The assessed cost so far is {col:changes.assessed}. The decision route is: {col:changes.route}.",
+"kind": "document",
+"max": null,
+"mt": "Le coût estimé jusqu'à présent est {col:changes.assessed}.",
+"why": "placeholders must be exactly: {col:changes.assessed} {col:changes.route}"
+},
+{
+"en": "To: {col:board.sponsor}, telephone {col:board.sponsor_phone}. Project: {col:board.project}.",
+"kind": "document",
+"max": null,
+"mt": "À: {col:board.sponsor}, téléphone {col:board.sponsor_phone}.",
+"why": "placeholders must be exactly: {col:board.sponsor} {col:board.sponsor_phone} {col:board.project}"
+},
+{
+"en": "Conditions: {col:board.conditions}. Decided by: {col:board.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "Conditions décidées par:",
+"why": "placeholders must be exactly: {col:board.conditions} {col:board.approved_by}"
+},
+{
+"en": "Reason and next step: {col:board.conditions}. Decided by: {col:board.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "Raison et prochaine étape: décidée par:",
+"why": "placeholders must be exactly: {col:board.conditions} {col:board.approved_by}"
+},
+{
+"en": "Project: {col:decisions.project}. Project manager: {col:decisions.manager}. Sponsor: {col:decisions.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Le chef de projet, le commanditaire.",
+"why": "placeholders must be exactly: {col:decisions.project} {col:decisions.manager} {col:decisions.sponsor}"
+},
+{
+"en": "Decision: {col:decisions.decision}. Date: {col:decisions.date}. Status: {col:decisions.status}. Decided by: {col:decisions.decided_by}.",
+"kind": "document",
+"max": null,
+"mt": "Décision prise par:",
+"why": "placeholders must be exactly: {col:decisions.decision} {col:decisions.date} {col:decisions.status} {col:decisions.decided_by}"
+},
+{
+"en": "The decision had to be taken by {col:decisions.needed_by}. The state of the decision is: {col:decisions.state}.",
+"kind": "document",
+"max": null,
+"mt": "La décision devait être prise par {col:decisions.needed_by}.",
+"why": "placeholders must be exactly: {col:decisions.needed_by} {col:decisions.state}"
+},
+{
+"en": "Risks: {col:raid.open_risks} open, {col:raid.high_risks} high or critical, {col:raid.no_owner} without an owner. Expected cost {col:raid.exposure} against a reserve of {col:raid.left}. Reserve check: {col:raid.reserve_check}.",
+"kind": "document",
+"max": null,
+"mt": "Risques: {col:raid.open_risks} ouverts, {col:raid.high_risks} élevés ou critiques, {col:raid.no_owner} sans propriétaire. Coût attendu {col:raid.exposure} par rapport à une réserve de {col:raid.left}.",
+"why": "placeholders must be exactly: {col:raid.open_risks} {col:raid.high_risks} {col:raid.no_owner} {col:raid.exposure} {col:raid.left} {col:raid.reserve_check}"
+},
+{
+"en": "Changes: {col:raid.open_changes} waiting for a decision. Items needing attention: {col:raid.attention}. Focus of the week: {col:raid.focus}.",
+"kind": "document",
+"max": null,
+"mt": "Changements: {col:raid.open_changes} en attente d'une décision. Points nécessitant une attention: {col:raid.attention}.",
+"why": "placeholders must be exactly: {col:raid.open_changes} {col:raid.attention} {col:raid.focus}"
+},
+{
+"en": "What happened: {col:lessons.what}.",
+"kind": "document",
+"max": null,
+"mt": "Qu'est-ce qui est arrivé ?",
+"why": "placeholders must be exactly: {col:lessons.what}"
+},
+{
+"en": "Lesson: {col:lessons.lesson}.",
+"kind": "document",
+"max": null,
+"mt": "Leçon:",
+"why": "placeholders must be exactly: {col:lessons.lesson}"
+},
+{
+"en": "Action: {col:lessons.action}. Owner: {col:lessons.owner}. Due: {col:lessons.due}. State: {col:lessons.state}.",
+"kind": "document",
+"max": null,
+"mt": "L'action: {col:lessons.action}. Le propriétaire: {col:lessons.owner}.",
+"why": "placeholders must be exactly: {col:lessons.action} {col:lessons.owner} {col:lessons.due} {col:lessons.state}"
+}
+]
