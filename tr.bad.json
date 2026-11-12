@@ -1,0 +1,44 @@
+[
+{
+"en": "Daywork",
+"kind": "label",
+"max": 30,
+"mt": "Günlük işler (zaman ve materyaller)",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Deliveries with days late and rejected quantity",
+"kind": "label",
+"max": 50,
+"mt": "Günlerce gecikmeli ve reddedilen miktardaki teslimatlar",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Stock on site with reorder level",
+"kind": "label",
+"max": 50,
+"mt": "Yeniden sipariş düzeyine sahip şantiyedeki malzeme stoğu",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "days on hire and cost so far grow each day a machine stays, and a hire past your limit is flagged so you can compare with buying",
+"kind": "sentence",
+"max": 160,
+"mt": "Kiralanan gün sayısı ve şu ana kadarki maliyet, makinenin kaldığı her gün artar ve limitinizi aşan bir kiralama, satın alma işlemiyle karşılaştırabilmeniz için işaretlenir",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Material catalogue with budget price and what you really pay",
+"kind": "title",
+"max": 60,
+"mt": "Bütçe fiyatını ve gerçekte ödediğiniz tutarı içeren malzeme kataloğu",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Rebar weight from bar size, length and number",
+"kind": "title",
+"max": 60,
+"mt": "Çubuk boyutundan, uzunluğundan ve sayısından inşaat demiri ağırlığı",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

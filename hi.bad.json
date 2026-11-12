@@ -1,0 +1,72 @@
+[
+{
+"en": "To {col:backcharges.sub}. Project: {col:backcharges.proj}. Reason: {col:backcharges.reason}.",
+"kind": "document",
+"max": null,
+"mt": "{col:backcharges.sub} को. प्रोजेक्ट 1}। कारण: {col:backcharges.reason}.",
+"why": "placeholders must be exactly: {col:backcharges.sub} {col:backcharges.proj} {col:backcharges.reason}"
+},
+{
+"en": "Project: {col:provsum.proj}. Item: {col:provsum.item}.",
+"kind": "document",
+"max": null,
+"mt": "प्रोजेक्ट: {col:provsum.proj}. वस्तु 1}।",
+"why": "placeholders must be exactly: {col:provsum.proj} {col:provsum.item}"
+},
+{
+"en": "Overhead carried and recovered by month",
+"kind": "title",
+"max": 60,
+"mt": "महीने के हिसाब से ओवरहेड ले जाया गया और पुनर्प्राप्त किया गया",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "each delivery note records the quantity delivered and rejected, the days late and the lead time, so suppliers are judged on facts",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक डिलीवरी नोट में वितरित और अस्वीकृत मात्रा, देर से आए दिन और डिलीवरी का समय दर्ज होता है, इसलिए आपूर्तिकर्ताओं का मूल्यांकन तथ्यों के आधार पर किया जाता है",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Stock on site with reorder level",
+"kind": "label",
+"max": 50,
+"mt": "पुनर्क्रमित स्तर के साथ निर्माण स्थल पर सामग्री का स्टॉक",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Projects that buy materials and use equipment",
+"kind": "title",
+"max": 60,
+"mt": "ऐसी परियोजनाएँ जो सामग्री खरीदती हैं और उपकरण का उपयोग करती हैं",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Material catalogue with budget price and what you really pay",
+"kind": "title",
+"max": 60,
+"mt": "बजट मूल्य और आप वास्तव में कितना भुगतान करते हैं, के साथ सामग्री सूची",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Stock on site for each project and material",
+"kind": "title",
+"max": 60,
+"mt": "प्रत्येक परियोजना और सामग्री के लिए निर्माण स्थल पर सामग्री का स्टॉक",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Lead times: what the supplier says and what you get",
+"kind": "title",
+"max": 60,
+"mt": "डिलीवरी का समय: आपूर्तिकर्ता क्या कहता है और आपको क्या मिलता है",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "To {col:po.sname}. Project: {col:po.pname}.",
+"kind": "document",
+"max": null,
+"mt": "{col:po.sname} को. प्रोजेक्ट 1}।",
+"why": "placeholders must be exactly: {col:po.sname} {col:po.pname}"
+}
+]

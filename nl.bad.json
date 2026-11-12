@@ -1,0 +1,121 @@
+[
+{
+"en": "Daywork",
+"kind": "label",
+"max": 30,
+"mt": "Dagwerkzaamheden (tijd en materialen)",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Orders with received and outstanding quantity",
+"kind": "label",
+"max": 50,
+"mt": "Bestellingen met ontvangen en openstaande hoeveelheid",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Three-way match of order, delivery and invoice",
+"kind": "label",
+"max": 50,
+"mt": "Drievoudige match van bestelling, levering en factuur",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "every invoice is checked against the price on the order and the quantity you accepted, and shows the amount billed above what you owe",
+"kind": "sentence",
+"max": 160,
+"mt": "elke factuur wordt gecontroleerd aan de hand van de prijs op de bestelling en de hoeveelheid die u hebt geaccepteerd, en toont het gefactureerde bedrag boven wat u verschuldigd bent",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "Deliveries with days late and rejected quantity",
+"kind": "label",
+"max": 50,
+"mt": "Leveringen met dagen vertraging en afgewezen hoeveelheid",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Requisitions from site with an ordered check",
+"kind": "label",
+"max": 50,
+"mt": "Aanvragen van de bouwplaats met een bestelde cheque",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "a request is marked ordered only when an order for that project and material exists, and warns when the needed date passes",
+"kind": "sentence",
+"max": 160,
+"mt": "een aanvraag wordt alleen als besteld gemarkeerd als er een bestelling voor dat project en materiaal bestaat, en waarschuwt wanneer de benodigde datum verstrijkt",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Stock on site with reorder level",
+"kind": "label",
+"max": 50,
+"mt": "Voorraad van materialen op de bouwplaats met bestelniveau",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "days on hire and cost so far grow each day a machine stays, and a hire past your limit is flagged so you can compare with buying",
+"kind": "sentence",
+"max": 160,
+"mt": "Het aantal gehuurde dagen en de kosten tot nu toe stijgen elke dag dat een machine blijft staan, en een verhuur boven uw limiet wordt gemarkeerd zodat u deze kunt vergelijken met kopen",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "Material catalogue with budget price and what you really pay",
+"kind": "title",
+"max": 60,
+"mt": "Materiaalcatalogus met budgetprijs en wat u werkelijk betaalt",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Purchase orders with what arrived and what is still due",
+"kind": "title",
+"max": 60,
+"mt": "Inkooporders met wat er is aangekomen en wat er nog moet gebeuren",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Stock on site for each project and material",
+"kind": "title",
+"max": 60,
+"mt": "Voorraad van materialen op de bouwplaats voor elk project en materiaal",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Stop",
+"kind": "label",
+"max": null,
+"mt": "Stop",
+"why": "not translated"
+},
+{
+"en": "Stock count for a project and material",
+"kind": "title",
+"max": 60,
+"mt": "Voorraad van materialen tellen mee voor een project en materiaal",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Fuel cost for a project, so far and to the end",
+"kind": "title",
+"max": 60,
+"mt": "Brandstofkosten voor een project, tot nu toe en tot het einde",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Compare three supplier offers on the real cost",
+"kind": "title",
+"max": 60,
+"mt": "Vergelijk drie aanbiedingen van leveranciers op de werkelijke kosten",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Days of stock cover and the date you run out",
+"kind": "title",
+"max": 60,
+"mt": "Dagen van voorraad van materiaaldekking en de datum waarop u opraakt",
+"why": "too long: 68 characters, the limit is 60"
+}
+]

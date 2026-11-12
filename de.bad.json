@@ -1,0 +1,156 @@
+[
+{
+"en": "Daywork",
+"kind": "label",
+"max": 30,
+"mt": "Tagesarbeit (Zeit und Material)",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Orders with received and outstanding quantity",
+"kind": "label",
+"max": 50,
+"mt": "Bestellungen mit eingegangener und ausstehender Menge",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Three-way match of order, delivery and invoice",
+"kind": "label",
+"max": 50,
+"mt": "Dreifacher Abgleich von Bestellung, Lieferung und Rechnung",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "every invoice is checked against the price on the order and the quantity you accepted, and shows the amount billed above what you owe",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Rechnung wird mit dem Preis der Bestellung und der von Ihnen akzeptierten Menge verglichen und zeigt den in Rechnung gestellten Betrag über dem Betrag an, den Sie schulden",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Deliveries with days late and rejected quantity",
+"kind": "label",
+"max": 50,
+"mt": "Lieferungen mit Tagen Verspätung und abgelehnter Menge",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "each delivery note records the quantity delivered and rejected, the days late and the lead time, so suppliers are judged on facts",
+"kind": "sentence",
+"max": 160,
+"mt": "Auf jedem Lieferschein werden die gelieferte und abgelehnte Menge, die Verspätungstage und die Lieferzeit vermerkt, sodass Lieferanten anhand von Fakten beurteilt werden können",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Requisitions from site with an ordered check",
+"kind": "label",
+"max": 50,
+"mt": "Anforderungen von der Baustelle mit bestelltem Scheck",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "a request is marked ordered only when an order for that project and material exists, and warns when the needed date passes",
+"kind": "sentence",
+"max": 160,
+"mt": "Eine Anfrage wird nur dann als „bestellt“ markiert, wenn eine Bestellung für dieses Projekt und dieses Material vorliegt, und es wird eine Warnung ausgegeben, wenn das erforderliche Datum überschritten wird",
+"why": "too long: 206 characters, the limit is 160"
+},
+{
+"en": "Stock on site with reorder level",
+"kind": "label",
+"max": 50,
+"mt": "Materialbestand auf der Baustelle mit Nachbestellbestand",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "days on hire and cost so far grow each day a machine stays, and a hire past your limit is flagged so you can compare with buying",
+"kind": "sentence",
+"max": 160,
+"mt": "Die Anzahl der gemieteten Tage und die bisherigen Kosten steigen mit jedem Tag, an dem eine Maschine bleibt, und eine Miete, die über Ihrem Limit liegt, wird markiert, damit Sie sie mit dem Kauf vergleichen können",
+"why": "too long: 213 characters, the limit is 160"
+},
+{
+"en": "the average delivery time you really get is compared with the usual lead time and tells you how many days earlier to order",
+"kind": "sentence",
+"max": 160,
+"mt": "Die durchschnittliche Lieferzeit, die Sie tatsächlich erhalten, wird mit der üblichen Lieferzeit verglichen und gibt an, wie viele Tage früher Sie bestellen müssen",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Transport",
+"kind": "list",
+"max": 30,
+"mt": "Transport",
+"why": "not translated"
+},
+{
+"en": "Service",
+"kind": "list",
+"max": 30,
+"mt": "Service",
+"why": "not translated"
+},
+{
+"en": "Projects that buy materials and use equipment",
+"kind": "title",
+"max": 60,
+"mt": "Projekte, bei denen Materialien gekauft und Geräte verwendet werden",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Material catalogue with budget price and what you really pay",
+"kind": "title",
+"max": 60,
+"mt": "Materialkatalog mit Budgetpreis und dem, was Sie wirklich bezahlen",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Purchase orders with what arrived and what is still due",
+"kind": "title",
+"max": 60,
+"mt": "Bestellungen mit dem, was angekommen ist und was noch fällig ist",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Timing",
+"kind": "label",
+"max": null,
+"mt": "Timing",
+"why": "not translated"
+},
+{
+"en": "Supplier invoices matched to orders and deliveries",
+"kind": "title",
+"max": 60,
+"mt": "Den Bestellungen und Lieferungen zugeordnete Lieferantenrechnungen",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Stock on site for each project and material",
+"kind": "title",
+"max": 60,
+"mt": "Materialvorrat auf der Baustelle für jedes Projekt und Material",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Rebar weight from bar size, length and number",
+"kind": "title",
+"max": 60,
+"mt": "Bewehrungsstabgewicht anhand der Stabgröße, -länge und -anzahl",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Compare three supplier offers on the real cost",
+"kind": "title",
+"max": 60,
+"mt": "Vergleichen Sie die Angebote dreier Anbieter zu den tatsächlichen Kosten",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Days of stock cover and the date you run out",
+"kind": "title",
+"max": 60,
+"mt": "Die Anzahl der Tage, an denen der Materialvorrat verfügbar ist, und das Datum, an dem Ihr Material aufgebraucht ist",
+"why": "too long: 115 characters, the limit is 60"
+}
+]
