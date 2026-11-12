@@ -1,0 +1,457 @@
+[
+{
+"en": "Hello {approved_by}, version {version} of the baseline of {project} waits for your approval. The new end is {end}. Reason: {reason}.",
+"kind": "message",
+"max": null,
+"mt": "Привет, версия {version} базовой линии {project} ждет вашего одобрения. Новый конец {end}. Причина: {reason}.",
+"why": "placeholders must be exactly: {approved_by} {version} {project} {end} {reason}"
+},
+{
+"en": "Hello, schedule variance on {name}: forecast end {forecast_end} against baseline {end}, {slip} days ({sched}). Manager: {manager}. We review it at the weekly meeting.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, расписание отклонение на {name}: прогноз конец {forecast_end} по сравнению с базовой {end}, {slip} дней ({sched}).",
+"why": "placeholders must be exactly: {name} {forecast_end} {end} {slip} {sched} {manager}"
+},
+{
+"en": "PMO lead: delay entry overdue",
+"kind": "label",
+"max": null,
+"mt": "Ведущий PMO: задержка входа задержка",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {sponsor}, the delay on {name} ({project}) comes from: {cause}. Our recovery action is: {action}, due {due}. The recovery plan is attached.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {sponsor}, задержка на {name} ({project}) происходит от: {cause}.",
+"why": "placeholders must be exactly: {sponsor} {name} {project} {cause} {action} {due}"
+},
+{
+"en": "Hello {sponsor}, we need your decision this week to hold {name} on {date} ({project}). The forecast is {forecast}, with {margin} spare days. Penalty per week late: {penalty_week}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте {sponsor}, нам нужно ваше решение на этой неделе провести {name} на {date} ({project}). Прогноз {forecast}, с {margin} свободными днями.",
+"why": "placeholders must be exactly: {sponsor} {name} {date} {project} {forecast} {margin} {penalty_week}"
+},
+{
+"en": "Hello {contact}, the release {release} is planned for {date}. The code freeze starts on {freeze}. Please confirm the window and who signs off on your side.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, выпуск {release} запланирован на {date}. замораживание кода начинается на {freeze}. пожалуйста, подтвердите окно и кто подписывается на вашей стороне.",
+"why": "placeholders must be exactly: {contact} {release} {date} {freeze}"
+},
+{
+"en": "Hello {who}, please confirm the delivery date of {item} for {project}. We need it by {needed_by}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, подтвердите дату доставки {item} для {project}.",
+"why": "placeholders must be exactly: {who} {item} {project} {needed_by}"
+},
+{
+"en": "Hello {who}, please confirm your booking dates for {item} on {project}. We asked on {asked_on}. Our owner is {owner}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, подтвердите даты бронирования на 2 мы спросили на 3 наш хозяин 4",
+"why": "placeholders must be exactly: {who} {item} {project} {asked_on} {owner}"
+},
+{
+"en": "Phase 7: {col:projects.plan_4}.",
+"kind": "document",
+"max": null,
+"mt": "Фаза 7:",
+"why": "placeholders must be exactly: {col:projects.plan_4}"
+},
+{
+"en": "The schedule skips weekends and company holidays. The next company closure is on {col:projects.next_closure}. A change of a date is entered on the Schedule Changes sheet and approved by the sponsor or the PMO lead.",
+"kind": "document",
+"max": null,
+"mt": "В расписании пропускаются выходные и праздничные дни. Следующее закрытие компании происходит в {col:projects.next_closure}. Изменение даты вносится в лист Изменения графика и одобряется спонсором или руководителем PMO.",
+"why": "English/Latin words left: PMO."
+},
+{
+"en": "Project: {col:milestones.project}. Milestone: {col:milestones.name}. Status: {col:milestones.status}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:milestones.project}.",
+"why": "placeholders must be exactly: {col:milestones.project} {col:milestones.name} {col:milestones.status}"
+},
+{
+"en": "Project: {col:baselines.project}. Version {col:baselines.version}, set on {col:baselines.date}. Status: {col:baselines.status}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:baselines.project}. Версия {col:baselines.version}, установленная на {col:baselines.date}.",
+"why": "placeholders must be exactly: {col:baselines.project} {col:baselines.version} {col:baselines.date} {col:baselines.status}"
+},
+{
+"en": "Reason: {col:baselines.reason}. Approved by: {col:baselines.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "Причина: {col:baselines.reason}.",
+"why": "placeholders must be exactly: {col:baselines.reason} {col:baselines.approved_by}"
+},
+{
+"en": "To {col:changes.contact}. Project: {col:changes.project}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:changes.project}.",
+"why": "placeholders must be exactly: {col:changes.contact} {col:changes.project}"
+},
+{
+"en": "To {col:delays.sponsor}. Project: {col:delays.project}.",
+"kind": "document",
+"max": null,
+"mt": "Проект: {col:delays.project}.",
+"why": "placeholders must be exactly: {col:delays.sponsor} {col:delays.project}"
+},
+{
+"en": "Week starting {col:lookahead.start}. Tasks starting: {col:lookahead.starting}. Tasks due: {col:lookahead.due_n}. Hours planned: {col:lookahead.hours}. Late tasks: {col:lookahead.late_n}. People away: {col:lookahead.away}.",
+"kind": "document",
+"max": null,
+"mt": "Неделя начинается {col:lookahead.start}. Задачи начинаются: {col:lookahead.starting}. Задачи должны быть выполнены: {col:lookahead.due_n}. Часы запланированы: {col:lookahead.hours}.",
+"why": "placeholders must be exactly: {col:lookahead.start} {col:lookahead.starting} {col:lookahead.due_n} {col:lookahead.hours} {col:lookahead.late_n} {col:lookahead.away}"
+},
+{
+"en": "Tasks due in the next three weeks: {col:lookahead.due_w2}, {col:lookahead.due_w3} and {col:lookahead.due_w4}. Hours planned: {col:lookahead.hrs_w2}, {col:lookahead.hrs_w3} and {col:lookahead.hrs_w4}.",
+"kind": "document",
+"max": null,
+"mt": "Задачи, которые должны быть выполнены в течение следующих трех недель: {col:lookahead.due_w2}, {col:lookahead.due_w3} и {col:lookahead.due_w4}.",
+"why": "placeholders must be exactly: {col:lookahead.due_w2} {col:lookahead.due_w3} {col:lookahead.due_w4} {col:lookahead.hrs_w2} {col:lookahead.hrs_w3} {col:lookahead.hrs_w4}"
+},
+{
+"en": "Float: {col:critical.float_days} days. The limit in our settings is {set:float_limit} days, so the state is: {col:critical.state}. The driver is: {col:critical.driver}.",
+"kind": "document",
+"max": null,
+"mt": "Поплыв: {col:critical.float_days} дней. Предел в наших настройках {set:float_limit} дней, так что состояние: {col:critical.state}.",
+"why": "placeholders must be exactly: {col:critical.float_days} {set:float_limit} {col:critical.state} {col:critical.driver}"
+},
+{
+"en": "Watch owner: {col:critical.watch}. Action: {col:critical.action}. Due on {col:critical.due}. Action state: {col:critical.action_state}.",
+"kind": "document",
+"max": null,
+"mt": "Владелец часов: {col:critical.watch}. Действие: {col:critical.action}.",
+"why": "placeholders must be exactly: {col:critical.watch} {col:critical.action} {col:critical.due} {col:critical.action_state}"
+},
+{
+"en": "The code freeze starts on {col:releases.freeze}, {set:freeze_days} working days before the release. Days to go: {col:releases.days_to}. State: {col:releases.state}. Window check: {col:releases.window}.",
+"kind": "document",
+"max": null,
+"mt": "Заморозка кода начинается {col:releases.freeze}, {set:freeze_days} рабочих дней до выпуска.",
+"why": "placeholders must be exactly: {col:releases.freeze} {set:freeze_days} {col:releases.days_to} {col:releases.state} {col:releases.window}"
+},
+{
+"en": "Project: {col:projects.name}. Manager: {col:projects.manager}. Sponsor: {col:projects.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Менеджер: спонсор:",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.manager} {col:projects.sponsor}"
+},
+{
+"en": "Hours left: {col:projects.hours_left}. To hold the baseline end the team needs about {col:projects.catch_hours} more hours each week. Overdue tasks: {col:projects.late_n}. Tasks without an owner: {col:projects.no_owner}.",
+"kind": "document",
+"max": null,
+"mt": "Часы, оставшиеся: {col:projects.hours_left}. Чтобы удержать базовый конец, команде нужно примерно {col:projects.catch_hours} больше часов каждую неделю.",
+"why": "placeholders must be exactly: {col:projects.hours_left} {col:projects.catch_hours} {col:projects.late_n} {col:projects.no_owner}"
+},
+{
+"en": "Every Monday read Look-ahead and Critical Items: heavy weeks, people away, tasks with little float and the action and owner for each one.",
+"kind": "sentence",
+"max": null,
+"mt": "Каждый понедельник читать Look-ahead и Критические пункты: тяжелые недели, люди далеко, задачи с небольшим плавающим и действия и владелец для каждого.",
+"why": "English/Latin words left: Look ahead"
+},
+{
+"en": "Plan team capacity, timesheets, leave and utilisation for every project",
+"kind": "sentence",
+"max": 80,
+"mt": "Планируйте качество команды, график работы, отпуск и использование для каждого проекта",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "Weekly capacity with leave and closures",
+"kind": "label",
+"max": 50,
+"mt": "Еженедельная пропускная способность с отпусками и закрытиями",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "for every person and week the contract hours less company closure days and approved leave give the hours really available, set against the hours allocated",
+"kind": "sentence",
+"max": 160,
+"mt": "для каждого человека и недели договорные часы минус дни закрытия компании и утвержденный отпуск дают фактически доступные часы, начисленные на распределенные часы",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Load check: over, full, balanced or free",
+"kind": "label",
+"max": 50,
+"mt": "Проверка нагрузки: сверх, полный, сбалансированный или свободный",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "each person's allocation on all projects is checked against your own limits, so overload and free time show before they hurt a project",
+"kind": "sentence",
+"max": 160,
+"mt": "распределение каждого человека на всех проектах проверяется против ваших собственных лимитов, так что перегрузка и свободное время показывают, прежде чем они повредить проект",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Utilisation by month against each person's target",
+"kind": "label",
+"max": 50,
+"mt": "Использование по месяцам по целевому показателю для каждого человека",
+"why": "too long: 68 characters, the limit is 50"
+},
+{
+"en": "capacity, hours logged and billable hours are compared with the target of the person and marked above, on or below target",
+"kind": "sentence",
+"max": 160,
+"mt": "пропускная способность, зарегистрированные часы и считываемые часы сравниваются с целевым показателем лица и отмечены выше, на уровне или ниже целевого показателя",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "hours worked are compared with hours invoiced for every contractor week, and rate times hours gives the cost to pay",
+"kind": "sentence",
+"max": 160,
+"mt": "Проработанные часы сравниваются с часами, выставленными в счет за каждую неделю подрядчика, и ставка умножена на часы, дает стоимость, которую необходимо оплатить.",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Contractor bookings with cost so far",
+"kind": "label",
+"max": 50,
+"mt": "Заказы подрядчиков с стоимостью на сегодняшний день",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "hours per week times weeks times rate gives the planned cost, next to the hours and cost so far and a warning before a booking ends",
+"kind": "sentence",
+"max": 160,
+"mt": "Часы в неделю, умноженные на недели, умноженные на ставку, дает запланированную стоимость, рядом с часами и стоимостью до сих пор и предупреждением до окончания бронирования",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Resource gaps turned into full-time posts",
+"kind": "label",
+"max": 50,
+"mt": "Отсутствие ресурсов превратилось в полный рабочий день",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Stakeholder management",
+"kind": "list",
+"max": 30,
+"mt": "Управление заинтересованными сторонами",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Test design and automation",
+"kind": "list",
+"max": 30,
+"mt": "Проектирование испытаний и автоматизация",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Workshop facilitation",
+"kind": "list",
+"max": 30,
+"mt": "Содействие проведению семинаров",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Staff augmentation",
+"kind": "list",
+"max": 30,
+"mt": "Увеличение численности персонала",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Go-live support",
+"kind": "list",
+"max": 30,
+"mt": "Поддержка в режиме реального времени",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Clash",
+"kind": "list",
+"max": 30,
+"mt": "Совместимость расписания",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "PixelCraft Studio",
+"kind": "list",
+"max": 30,
+"mt": "Студия PixelCraft",
+"why": "English/Latin words left: PixelCraft"
+},
+{
+"en": "CodeBridge Contractors",
+"kind": "list",
+"max": 30,
+"mt": "Подрядчики CodeBridge",
+"why": "English/Latin words left: CodeBridge"
+},
+{
+"en": "SecureNet Assurance",
+"kind": "list",
+"max": 30,
+"mt": "Уверенность SecureNet",
+"why": "English/Latin words left: SecureNet"
+},
+{
+"en": "DataForge Analytics",
+"kind": "list",
+"max": 30,
+"mt": "Аналитика DataForge",
+"why": "English/Latin words left: DataForge"
+},
+{
+"en": "Summit Training Partners",
+"kind": "list",
+"max": 30,
+"mt": "Партнеры по подготовке на саммите",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "LegalEase Advisors",
+"kind": "list",
+"max": 30,
+"mt": "Консультанты LegalEase",
+"why": "English/Latin words left: LegalEase"
+},
+{
+"en": "TestLab Quality Services",
+"kind": "list",
+"max": 30,
+"mt": "Качественные услуги TestLab",
+"why": "English/Latin words left: TestLab"
+},
+{
+"en": "AccuStaff Resourcing",
+"kind": "list",
+"max": 30,
+"mt": "AccuКардинализация персонала",
+"why": "English/Latin words left: Accu"
+},
+{
+"en": "Team: who works here, their rates, weekly hours and load",
+"kind": "title",
+"max": 60,
+"mt": "Команда: кто здесь работает, их ставки, еженедельные часы и нагрузка",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Skill needs: skills each project needs and who has them",
+"kind": "title",
+"max": 60,
+"mt": "Необходимость в навыках: навыки, необходимые каждому проекту, и кто их имеет",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Weekly capacity: available hours against allocated hours",
+"kind": "title",
+"max": 60,
+"mt": "Еженедельная пропускная способность: доступные часы по отношению к распределенным часам",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Timesheets: weekly hours of each person on each project",
+"kind": "title",
+"max": 60,
+"mt": "Часовые таблицы: еженедельные часы каждого человека на каждом проекте",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Company holidays: closure days that reduce capacity",
+"kind": "title",
+"max": 60,
+"mt": "Праздники: дни закрытия, которые снижают пропускную способность",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Overtime log: extra hours, why and what they cost",
+"kind": "title",
+"max": 60,
+"mt": "Журнал сверхурочных: сверхурочные, почему и сколько они стоят",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "One row for each overtime week with hours, reason and approval; the hourly cost, the cost with the premium from Start and the phone fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "Один ряд за каждую неделю сверхурочных с часами, причиной и утверждением; почасовая стоимость, стоимость с премией от Start и телефон заполняют сами.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Utilisation by month: capacity, hours and billable hours",
+"kind": "title",
+"max": 60,
+"mt": "Использование по месяцам: пропускная способность, часы и расчетные часы",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Phone of the PMO lead for messages",
+"kind": "label",
+"max": null,
+"mt": "Телефон ведущего PMO для сообщений",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Contractor timesheets: weekly hours and invoice check",
+"kind": "title",
+"max": 60,
+"mt": "Графики работы подрядчика: еженедельное количество часов и проверка счетов",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Rate card: cost rate and charge rate of each role over time",
+"kind": "title",
+"max": 60,
+"mt": "Тарифная карта: стоимость и ставка оплаты каждой роли с течением времени",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Roll-ons and roll-offs: when people join and leave a project",
+"kind": "title",
+"max": 60,
+"mt": "Включение и отключение: когда люди присоединяются к проекту и покидают его",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Allocation check: planned shares against the week",
+"kind": "title",
+"max": 60,
+"mt": "Проверка распределения: планируемые доли по сравнению с неделей",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Project staffing hours from effort and focus factor",
+"kind": "title",
+"max": 60,
+"mt": "Продолжительность работы персонала в проекте от фактора усилий и концентрации",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Contractor or employee: which costs less per productive hour",
+"kind": "title",
+"max": 60,
+"mt": "Подрядчик или работник: который стоит меньше за производительный час",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Booking cost: hours per week times weeks times rate",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость бронирования: часы в неделю умножить на недели умножить на ставку",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Hiring need: gap hours turned into full-time posts",
+"kind": "title",
+"max": 60,
+"mt": "Необходимость в найме: перевод перерыва в полный рабочий день",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

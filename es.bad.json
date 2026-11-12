@@ -1,0 +1,506 @@
+[
+{
+"en": "Hello {approved_by}, version {version} of the baseline of {project} waits for your approval. The new end is {end}. Reason: {reason}.",
+"kind": "message",
+"max": null,
+"mt": "Hola {approved_by}, la versión {version} de la línea de base de {project} espera su aprobación. El nuevo final es {end}.",
+"why": "placeholders must be exactly: {approved_by} {version} {project} {end} {reason}"
+},
+{
+"en": "Hello {manager}, the float of {name} on {project} is {float_days} days ({state}). Watch owner: {watch}. Please check its links and the people on it.",
+"kind": "message",
+"max": null,
+"mt": "Hola {manager}, el flotador de {name} en {project} es {float_days} días ({state}).",
+"why": "placeholders must be exactly: {manager} {name} {project} {float_days} {state} {watch}"
+},
+{
+"en": "Hello {manager}, this week on {name}: {week_start} tasks start and {week_due} are due, and {late_n} are overdue. Next milestone: {next_ms}. Please confirm the owners by Monday noon.",
+"kind": "message",
+"max": null,
+"mt": "Hola {manager}, esta semana en {name}: {week_start} las tareas comienzan y {week_due} son debido, y {late_n} son atrasados.",
+"why": "placeholders must be exactly: {manager} {name} {week_start} {week_due} {late_n} {next_ms}"
+},
+{
+"en": "Hello, schedule variance on {name}: forecast end {forecast_end} against baseline {end}, {slip} days ({sched}). Manager: {manager}. We review it at the weekly meeting.",
+"kind": "message",
+"max": null,
+"mt": "Hola, la variación de horario en {name}: final del pronóstico {forecast_end} contra la línea de base {end}, {slip} días ({sched}).",
+"why": "placeholders must be exactly: {name} {forecast_end} {end} {slip} {sched} {manager}"
+},
+{
+"en": "Hello, the recovery action for {name} on {project} was due on {due} and is still {status}. Cause: {cause}. Owner: {owner}. Please chase it.",
+"kind": "message",
+"max": null,
+"mt": "Hola, la acción de recuperación para {name} en {project} se debía en {due} y sigue siendo {status}.",
+"why": "placeholders must be exactly: {name} {project} {due} {status} {cause} {owner}"
+},
+{
+"en": "Hello {sponsor}, we need your decision this week to hold {name} on {date} ({project}). The forecast is {forecast}, with {margin} spare days. Penalty per week late: {penalty_week}.",
+"kind": "message",
+"max": null,
+"mt": "Hola {sponsor}, necesitamos su decisión esta semana para sostener {name} en {date} ({project}). El pronóstico es {forecast}, con {margin} días libres.",
+"why": "placeholders must be exactly: {sponsor} {name} {date} {project} {forecast} {margin} {penalty_week}"
+},
+{
+"en": "Hello {who}, we still need {item} for {project} by {needed_by}. We asked on {asked_on}. Please tell us when we will receive it.",
+"kind": "message",
+"max": null,
+"mt": "Hola {who}, todavía necesitamos {item} para {project} por {needed_by}.",
+"why": "placeholders must be exactly: {who} {item} {project} {needed_by} {asked_on}"
+},
+{
+"en": "Hello {who}, please confirm the delivery date of {item} for {project}. We need it by {needed_by}.",
+"kind": "message",
+"max": null,
+"mt": "Hola {who}, por favor confirme la fecha de entrega de {item} para {project}.",
+"why": "placeholders must be exactly: {who} {item} {project} {needed_by}"
+},
+{
+"en": "Hello {who}, please confirm your booking dates for {item} on {project}. We asked on {asked_on}. Our owner is {owner}.",
+"kind": "message",
+"max": null,
+"mt": "Hola, por favor confirmen sus fechas de reserva para el día 2 preguntamos el día 3 nuestro dueño es el día 4",
+"why": "placeholders must be exactly: {who} {item} {project} {asked_on} {owner}"
+},
+{
+"en": "Phase 7: {col:projects.plan_4}.",
+"kind": "document",
+"max": null,
+"mt": "Fase siete:",
+"why": "placeholders must be exactly: {col:projects.plan_4}"
+},
+{
+"en": "The plan holds {col:projects.tasks_n} tasks. {col:projects.done_n} are done and {col:projects.late_n} are overdue. Work done, weighted by hours: {col:projects.pct_done}. Hours left: {col:projects.hours_left}.",
+"kind": "document",
+"max": null,
+"mt": "El plan contiene {col:projects.tasks_n} tareas. {col:projects.done_n} están terminadas y {col:projects.late_n} están atrasadas. Trabajo terminado, ponderado por horas: {col:projects.pct_done}.",
+"why": "placeholders must be exactly: {col:projects.tasks_n} {col:projects.done_n} {col:projects.late_n} {col:projects.pct_done} {col:projects.hours_left}"
+},
+{
+"en": "Project: {col:milestones.project}. Milestone: {col:milestones.name}. Status: {col:milestones.status}.",
+"kind": "document",
+"max": null,
+"mt": "Proyecto: [0].",
+"why": "placeholders must be exactly: {col:milestones.project} {col:milestones.name} {col:milestones.status}"
+},
+{
+"en": "Sponsor: {col:milestones.sponsor}. Client contact: {col:milestones.contact}.",
+"kind": "document",
+"max": null,
+"mt": "El cliente tiene contacto con el patrocinador.",
+"why": "placeholders must be exactly: {col:milestones.sponsor} {col:milestones.contact}"
+},
+{
+"en": "Reason: {col:baselines.reason}. Approved by: {col:baselines.approved_by}.",
+"kind": "document",
+"max": null,
+"mt": "Motivo: aprobado por:",
+"why": "placeholders must be exactly: {col:baselines.reason} {col:baselines.approved_by}"
+},
+{
+"en": "To {col:changes.contact}. Project: {col:changes.project}.",
+"kind": "document",
+"max": null,
+"mt": "Para el proyecto:",
+"why": "placeholders must be exactly: {col:changes.contact} {col:changes.project}"
+},
+{
+"en": "To {col:delays.sponsor}. Project: {col:delays.project}.",
+"kind": "document",
+"max": null,
+"mt": "Para el proyecto:",
+"why": "placeholders must be exactly: {col:delays.sponsor} {col:delays.project}"
+},
+{
+"en": "The task {col:delays.name} is {col:delays.days_late} days late. We raised the delay on {col:delays.raised}.",
+"kind": "document",
+"max": null,
+"mt": "La tarea {col:delays.name} tiene {col:delays.days_late} días de retraso.",
+"why": "placeholders must be exactly: {col:delays.name} {col:delays.days_late} {col:delays.raised}"
+},
+{
+"en": "Our recovery action is: {col:delays.action}. Owner: {col:delays.owner}. Due on {col:delays.due}. Status: {col:delays.status}.",
+"kind": "document",
+"max": null,
+"mt": "Nuestra acción de recuperación es:",
+"why": "placeholders must be exactly: {col:delays.action} {col:delays.owner} {col:delays.due} {col:delays.status}"
+},
+{
+"en": "Tasks due in the next three weeks: {col:lookahead.due_w2}, {col:lookahead.due_w3} and {col:lookahead.due_w4}. Hours planned: {col:lookahead.hrs_w2}, {col:lookahead.hrs_w3} and {col:lookahead.hrs_w4}.",
+"kind": "document",
+"max": null,
+"mt": "Las tareas que deben realizarse en las próximas tres semanas: {col:lookahead.due_w2}, {col:lookahead.due_w3} y {col:lookahead.due_w4}.",
+"why": "placeholders must be exactly: {col:lookahead.due_w2} {col:lookahead.due_w3} {col:lookahead.due_w4} {col:lookahead.hrs_w2} {col:lookahead.hrs_w3} {col:lookahead.hrs_w4}"
+},
+{
+"en": "Team capacity this week: {col:lookahead.capacity} hours. Load: {col:lookahead.load}, so the week is: {col:lookahead.state}. Holidays in the week: {col:lookahead.holidays_n}.",
+"kind": "document",
+"max": null,
+"mt": "Capacidad del equipo esta semana: {col:lookahead.capacity} horas. Carga: {col:lookahead.load}, así que la semana es: {col:lookahead.state}.",
+"why": "placeholders must be exactly: {col:lookahead.capacity} {col:lookahead.load} {col:lookahead.state} {col:lookahead.holidays_n}"
+},
+{
+"en": "Float: {col:critical.float_days} days. The limit in our settings is {set:float_limit} days, so the state is: {col:critical.state}. The driver is: {col:critical.driver}.",
+"kind": "document",
+"max": null,
+"mt": "El límite en nuestras configuraciones es {set:float_limit} días, así que el estado es: {col:critical.state}.",
+"why": "placeholders must be exactly: {col:critical.float_days} {set:float_limit} {col:critical.state} {col:critical.driver}"
+},
+{
+"en": "The code freeze starts on {col:releases.freeze}, {set:freeze_days} working days before the release. Days to go: {col:releases.days_to}. State: {col:releases.state}. Window check: {col:releases.window}.",
+"kind": "document",
+"max": null,
+"mt": "El congelamiento del código comienza en {col:releases.freeze}, {set:freeze_days} días hábiles antes de la liberación.",
+"why": "placeholders must be exactly: {col:releases.freeze} {set:freeze_days} {col:releases.days_to} {col:releases.state} {col:releases.window}"
+},
+{
+"en": "Client contact: {col:releases.contact}. Before the release the owner confirms the freeze, the test result, the way back and the people on call. The client contact confirms the window in writing.",
+"kind": "document",
+"max": null,
+"mt": "Antes de la liberación, el propietario confirma el congelamiento, el resultado de la prueba, el camino de regreso y las personas de guardia.",
+"why": "placeholders must be exactly: {col:releases.contact}"
+},
+{
+"en": "Project: {col:projects.name}. Manager: {col:projects.manager}. Sponsor: {col:projects.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "Proyecto: gerente: patrocinador:",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.manager} {col:projects.sponsor}"
+},
+{
+"en": "Hours left: {col:projects.hours_left}. To hold the baseline end the team needs about {col:projects.catch_hours} more hours each week. Overdue tasks: {col:projects.late_n}. Tasks without an owner: {col:projects.no_owner}.",
+"kind": "document",
+"max": null,
+"mt": "Horas restantes: {col:projects.hours_left}. Para mantener el final de la línea de base, el equipo necesita aproximadamente {col:projects.catch_hours} horas más cada semana.",
+"why": "placeholders must be exactly: {col:projects.hours_left} {col:projects.catch_hours} {col:projects.late_n} {col:projects.no_owner}"
+},
+{
+"en": "Plan team capacity, timesheets, leave and utilisation for every project",
+"kind": "sentence",
+"max": 80,
+"mt": "Planificar la capacidad del equipo, los horarios, las vacaciones y la utilización de cada proyecto",
+"why": "too long: 98 characters, the limit is 80"
+},
+{
+"en": "for every person and week the contract hours less company closure days and approved leave give the hours really available, set against the hours allocated",
+"kind": "sentence",
+"max": 160,
+"mt": "Por cada persona y por cada semana las horas contratadas menos los días de cierre de la empresa y las vacaciones aprobadas dan las horas realmente disponibles, calculadas con respecto a las horas asignadas.",
+"why": "too long: 206 characters, the limit is 160"
+},
+{
+"en": "Load check: over, full, balanced or free",
+"kind": "label",
+"max": 50,
+"mt": "Verificación de carga: más, plena, equilibrada o libre",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "each person's allocation on all projects is checked against your own limits, so overload and free time show before they hurt a project",
+"kind": "sentence",
+"max": 160,
+"mt": "la asignación de cada persona en todos los proyectos se comprueba contra sus propios límites, por lo que la sobrecarga y el tiempo libre muestra antes de que dañen un proyecto",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Timesheet approvals with days late",
+"kind": "label",
+"max": 50,
+"mt": "Aprobaciones de hojas de tiempo con días de retraso",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Utilisation by month against each person's target",
+"kind": "label",
+"max": 50,
+"mt": "Utilización por mes en relación con el objetivo de cada persona",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "capacity, hours logged and billable hours are compared with the target of the person and marked above, on or below target",
+"kind": "sentence",
+"max": 160,
+"mt": "la capacidad, las horas registradas y las horas facturables se comparan con el objetivo de la persona y se marcan por encima, por encima o por debajo del objetivo",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Skills matrix with project skill gaps",
+"kind": "label",
+"max": 50,
+"mt": "Matriz de habilidades con brechas de habilidades del proyecto",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "skill levels of the team are matched to what each project needs and the gap in people is counted, so a missing skill is seen early",
+"kind": "sentence",
+"max": 160,
+"mt": "Los niveles de habilidades del equipo se ajustan a lo que necesita cada proyecto y se cuenta la brecha de personas, por lo que una habilidad que falta se ve temprano",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Contractor timesheets with an invoice check",
+"kind": "label",
+"max": 50,
+"mt": "Hojas de horario del contratista con verificación de la factura",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "Contractor bookings with cost so far",
+"kind": "label",
+"max": 50,
+"mt": "Reservas de contratistas con coste hasta el momento",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Resource gaps turned into full-time posts",
+"kind": "label",
+"max": 50,
+"mt": "Las lagunas de recursos convertidas en puestos a tiempo completo",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "missing hours per week become full-time posts, with the days a request has been open and a check of the start date",
+"kind": "sentence",
+"max": 160,
+"mt": "Las horas perdidas por semana se convierten en puestos a tiempo completo, con los días en que se ha abierto una solicitud y una verificación de la fecha de inicio",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Stakeholder management",
+"kind": "list",
+"max": 30,
+"mt": "Gestión de las partes interesadas",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Test design and automation",
+"kind": "list",
+"max": 30,
+"mt": "Diseño y automatización de ensayos",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cloud hosting and licences",
+"kind": "list",
+"max": 30,
+"mt": "Alojamiento en la nube y licencias",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Video and content production",
+"kind": "list",
+"max": 30,
+"mt": "Producción de vídeo y contenido",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Workshop outside hours",
+"kind": "list",
+"max": 30,
+"mt": "Taller fuera del horario de trabajo",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Skill needed elsewhere",
+"kind": "list",
+"max": 30,
+"mt": "Habilidades necesarias en otros lugares",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Lucas Ferreira",
+"kind": "list",
+"max": 30,
+"mt": "Lucas Ferreira",
+"why": "not translated"
+},
+{
+"en": "Omar Haddad",
+"kind": "list",
+"max": 30,
+"mt": "Omar Haddad",
+"why": "not translated"
+},
+{
+"en": "Summit Training Partners",
+"kind": "list",
+"max": 30,
+"mt": "Socios de formación en la Cumbre",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "TestLab Quality Services",
+"kind": "list",
+"max": 30,
+"mt": "Servicios de calidad de TestLab",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Team: who works here, their rates, weekly hours and load",
+"kind": "title",
+"max": 60,
+"mt": "Equipo: quién trabaja aquí, sus tarifas, horas semanales y carga",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Vendors and contractors: who supplies people and services",
+"kind": "title",
+"max": 60,
+"mt": "Vendedores y contratistas: quién suministra personas y servicios",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Skill needs: skills each project needs and who has them",
+"kind": "title",
+"max": 60,
+"mt": "Necesidades de competencias: las competencias que cada proyecto necesita y quién las tiene",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Weekly capacity: available hours against allocated hours",
+"kind": "title",
+"max": 60,
+"mt": "Capacidad semanal: horas disponibles frente a las horas asignadas",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Timesheets: weekly hours of each person on each project",
+"kind": "title",
+"max": 60,
+"mt": "Hojas de trabajo: horas semanales de cada persona en cada proyecto",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Timesheet approvals: one row for each person and week",
+"kind": "title",
+"max": 60,
+"mt": "Aprobación de las hojas de horarios: una fila por persona y por semana",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Company holidays: closure days that reduce capacity",
+"kind": "title",
+"max": 60,
+"mt": "Feriados de la empresa: días de cierre que reducen la capacidad",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Overtime log: extra hours, why and what they cost",
+"kind": "title",
+"max": 60,
+"mt": "Registro de horas extras: horas extras, por qué y cuánto cuestan",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Load check: allocation of each person against their week",
+"kind": "title",
+"max": 60,
+"mt": "Verificación de la carga: asignación de cada persona en función de su semana",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Contractor bookings: who, which project, hours and rate",
+"kind": "title",
+"max": 60,
+"mt": "Reservas de contratistas: quién, qué proyecto, horas y precio",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Contractor timesheets: weekly hours and invoice check",
+"kind": "title",
+"max": 60,
+"mt": "Hojas de trabajo del contratista: horas semanales y verificación de las facturas",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Resource gaps: roles and skills the projects still need",
+"kind": "title",
+"max": 60,
+"mt": "Desabastecimiento de recursos: funciones y competencias que los proyectos aún necesitan",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Rate card: cost rate and charge rate of each role over time",
+"kind": "title",
+"max": 60,
+"mt": "Tarjeta de tarifas: tasas de coste y tasas de cobro de cada función a lo largo del tiempo",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Roll-ons and roll-offs: when people join and leave a project",
+"kind": "title",
+"max": 60,
+"mt": "Reincorporaciones y reincorporaciones: cuando las personas se unen y abandonan un proyecto",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Contractor hours",
+"kind": "label",
+"max": 30,
+"mt": "Horas de trabajo del contratista",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Contractor booking with the weekly hours worked",
+"kind": "title",
+"max": 60,
+"mt": "Reservación del contratista con las horas semanales trabajadas",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Allocation check: planned shares against the week",
+"kind": "title",
+"max": 60,
+"mt": "Verificación de la asignación: cuotas previstas con respecto a la semana",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Project staffing hours from effort and focus factor",
+"kind": "title",
+"max": 60,
+"mt": "Horas de personal del proyecto por el factor esfuerzo y enfoque",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Contractor or employee: which costs less per productive hour",
+"kind": "title",
+"max": 60,
+"mt": "Contratista o empleado: cuál cuesta menos por hora productiva",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Booking cost: hours per week times weeks times rate",
+"kind": "title",
+"max": 60,
+"mt": "Costo de la reserva: horas por semana veces semanas veces tarifa",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hiring need: gap hours turned into full-time posts",
+"kind": "title",
+"max": 60,
+"mt": "Necesidad de contratación: las horas de vacío convertidas en puestos a tiempo completo",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Resource levelling: hours to move to a free person",
+"kind": "title",
+"max": 60,
+"mt": "Nivelación de los recursos: horas para pasar a una persona libre",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Timesheet completion check for one week",
+"kind": "title",
+"max": 60,
+"mt": "Verificación de la finalización de la hoja de tiempo durante una semana",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "What-if grid: utilisation and charge rate against margin",
+"kind": "title",
+"max": 60,
+"mt": "Cuál sería el caso de la red: utilización y tasa de carga frente al margen",
+"why": "too long: 74 characters, the limit is 60"
+}
+]

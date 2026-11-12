@@ -1,0 +1,107 @@
+[
+{
+"en": "Phase 7: {col:projects.plan_4}.",
+"kind": "document",
+"max": null,
+"mt": "المرحلة السابعة",
+"why": "placeholders must be exactly: {col:projects.plan_4}"
+},
+{
+"en": "The schedule skips weekends and company holidays. The next company closure is on {col:projects.next_closure}. A change of a date is entered on the Schedule Changes sheet and approved by the sponsor or the PMO lead.",
+"kind": "document",
+"max": null,
+"mt": "يتم إدخال تغيير التاريخ على ورقة تغييرات الجدول ويتم الموافقة عليه من قبل الراعي أو رئيس PMO.",
+"why": "placeholders must be exactly: {col:projects.next_closure}"
+},
+{
+"en": "To {col:changes.contact}. Project: {col:changes.project}.",
+"kind": "document",
+"max": null,
+"mt": "للمشروع:",
+"why": "placeholders must be exactly: {col:changes.contact} {col:changes.project}"
+},
+{
+"en": "To {col:delays.sponsor}. Project: {col:delays.project}.",
+"kind": "document",
+"max": null,
+"mt": "للمشروع:",
+"why": "placeholders must be exactly: {col:delays.sponsor} {col:delays.project}"
+},
+{
+"en": "Tasks due in the next three weeks: {col:lookahead.due_w2}, {col:lookahead.due_w3} and {col:lookahead.due_w4}. Hours planned: {col:lookahead.hrs_w2}, {col:lookahead.hrs_w3} and {col:lookahead.hrs_w4}.",
+"kind": "document",
+"max": null,
+"mt": "المهام المستحقة في الأسابيع الثلاثة المقبلة: {col:lookahead.due_w2}، {col:lookahead.due_w3} و {col:lookahead.due_w4}.",
+"why": "placeholders must be exactly: {col:lookahead.due_w2} {col:lookahead.due_w3} {col:lookahead.due_w4} {col:lookahead.hrs_w2} {col:lookahead.hrs_w3} {col:lookahead.hrs_w4}"
+},
+{
+"en": "The code freeze starts on {col:releases.freeze}, {set:freeze_days} working days before the release. Days to go: {col:releases.days_to}. State: {col:releases.state}. Window check: {col:releases.window}.",
+"kind": "document",
+"max": null,
+"mt": "يبدأ تجميد الشفرة في {col:releases.freeze}، {set:freeze_days} أيام عمل قبل الإفراج. أيام للذهاب: {col:releases.days_to}.",
+"why": "placeholders must be exactly: {col:releases.freeze} {set:freeze_days} {col:releases.days_to} {col:releases.state} {col:releases.window}"
+},
+{
+"en": "Every Monday read Look-ahead and Critical Items: heavy weeks, people away, tasks with little float and the action and owner for each one.",
+"kind": "sentence",
+"max": null,
+"mt": "كل يوم الاثنين اقرأ Look-ahead و البنود الحرجة: أسابيع ثقيلة، الناس بعيدا، المهام مع القليل من العائمة والعمل والمالك لكل واحد.",
+"why": "English/Latin words left: Look ahead"
+},
+{
+"en": "Skill needed elsewhere",
+"kind": "list",
+"max": 30,
+"mt": "المهارات المطلوبة في أماكن أخرى",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "SecureNet Assurance",
+"kind": "list",
+"max": 30,
+"mt": "ضمان SecureNet",
+"why": "English/Latin words left: SecureNet"
+},
+{
+"en": "DataForge Analytics",
+"kind": "list",
+"max": 30,
+"mt": "تحليلات DataForge",
+"why": "English/Latin words left: DataForge"
+},
+{
+"en": "LegalEase Advisors",
+"kind": "list",
+"max": 30,
+"mt": "مستشارون لـ LegalEase",
+"why": "English/Latin words left: LegalEase"
+},
+{
+"en": "TestLab Quality Services",
+"kind": "list",
+"max": 30,
+"mt": "خدمات الجودة في مختبر TestLab",
+"why": "English/Latin words left: TestLab"
+},
+{
+"en": "Utilisation by month: capacity, hours and billable hours",
+"kind": "title",
+"max": 60,
+"mt": "الاستخدام حسب الشهر: القدرة، الساعات والساعات القابلة للتفويض",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Resource gaps: roles and skills the projects still need",
+"kind": "title",
+"max": 60,
+"mt": "الثغرات في الموارد: الأدوار والمهارات التي لا تزال المشاريع بحاجة إليها",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Roll-ons and roll-offs: when people join and leave a project",
+"kind": "title",
+"max": 60,
+"mt": "التشغيل والانفصال: عندما ينضم الأشخاص إلى المشروع ويخرجون منه",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

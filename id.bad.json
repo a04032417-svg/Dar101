@@ -1,0 +1,324 @@
+[
+{
+"en": "Hello {approved_by}, version {version} of the baseline of {project} waits for your approval. The new end is {end}. Reason: {reason}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {approved_by}, versi {version} dari garis dasar {project} menunggu persetujuan Anda.",
+"why": "placeholders must be exactly: {approved_by} {version} {project} {end} {reason}"
+},
+{
+"en": "Hello {manager}, this week on {name}: {week_start} tasks start and {week_due} are due, and {late_n} are overdue. Next milestone: {next_ms}. Please confirm the owners by Monday noon.",
+"kind": "message",
+"max": null,
+"mt": "Halo {manager}, minggu ini pada {name}: {week_start} tugas dimulai dan {week_due} jatuh tempo, dan {late_n} tertunda.",
+"why": "placeholders must be exactly: {manager} {name} {week_start} {week_due} {late_n} {next_ms}"
+},
+{
+"en": "Hello, schedule variance on {name}: forecast end {forecast_end} against baseline {end}, {slip} days ({sched}). Manager: {manager}. We review it at the weekly meeting.",
+"kind": "message",
+"max": null,
+"mt": "Halo, perbedaan jadwal pada {name}: akhir perkiraan {forecast_end} terhadap garis dasar {end}, {slip} hari ({sched}).",
+"why": "placeholders must be exactly: {name} {forecast_end} {end} {slip} {sched} {manager}"
+},
+{
+"en": "Hello, the recovery action for {name} on {project} was due on {due} and is still {status}. Cause: {cause}. Owner: {owner}. Please chase it.",
+"kind": "message",
+"max": null,
+"mt": "Halo, tindakan pemulihan untuk {name} pada {project} adalah karena pada {due} dan masih {status}.",
+"why": "placeholders must be exactly: {name} {project} {due} {status} {cause} {owner}"
+},
+{
+"en": "Hello {sponsor}, we need your decision this week to hold {name} on {date} ({project}). The forecast is {forecast}, with {margin} spare days. Penalty per week late: {penalty_week}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {sponsor}, kami membutuhkan keputusan Anda minggu ini untuk memegang {name} pada {date} ({project}).",
+"why": "placeholders must be exactly: {sponsor} {name} {date} {project} {forecast} {margin} {penalty_week}"
+},
+{
+"en": "Hello {who}, please confirm the delivery date of {item} for {project}. We need it by {needed_by}.",
+"kind": "message",
+"max": null,
+"mt": "Halo {who}, mohon konfirmasi tanggal pengiriman {item} untuk {project}.",
+"why": "placeholders must be exactly: {who} {item} {project} {needed_by}"
+},
+{
+"en": "Phase 7: {col:projects.plan_4}.",
+"kind": "document",
+"max": null,
+"mt": "Fase 7:",
+"why": "placeholders must be exactly: {col:projects.plan_4}"
+},
+{
+"en": "The plan holds {col:projects.tasks_n} tasks. {col:projects.done_n} are done and {col:projects.late_n} are overdue. Work done, weighted by hours: {col:projects.pct_done}. Hours left: {col:projects.hours_left}.",
+"kind": "document",
+"max": null,
+"mt": "{col:projects.done_n} selesai dan {col:projects.late_n} tertunda. pekerjaan selesai, diukur dengan jam: {col:projects.pct_done}. jam tersisa: {col:projects.hours_left}.",
+"why": "placeholders must be exactly: {col:projects.tasks_n} {col:projects.done_n} {col:projects.late_n} {col:projects.pct_done} {col:projects.hours_left}"
+},
+{
+"en": "Our recovery action is: {col:delays.action}. Owner: {col:delays.owner}. Due on {col:delays.due}. Status: {col:delays.status}.",
+"kind": "document",
+"max": null,
+"mt": "Aksi pemulihan kami adalah: {col:delays.action}. Pemilik: {col:delays.owner}.",
+"why": "placeholders must be exactly: {col:delays.action} {col:delays.owner} {col:delays.due} {col:delays.status}"
+},
+{
+"en": "Float: {col:critical.float_days} days. The limit in our settings is {set:float_limit} days, so the state is: {col:critical.state}. The driver is: {col:critical.driver}.",
+"kind": "document",
+"max": null,
+"mt": "Float: {col:critical.float_days} hari. Batas dalam pengaturan kami adalah {set:float_limit} hari, jadi keadaan adalah: {col:critical.state}.",
+"why": "placeholders must be exactly: {col:critical.float_days} {set:float_limit} {col:critical.state} {col:critical.driver}"
+},
+{
+"en": "Watch owner: {col:critical.watch}. Action: {col:critical.action}. Due on {col:critical.due}. Action state: {col:critical.action_state}.",
+"kind": "document",
+"max": null,
+"mt": "Pemilik jam tangan: {col:critical.watch}. Aksi: {col:critical.action}. Karena pada {col:critical.due}.",
+"why": "placeholders must be exactly: {col:critical.watch} {col:critical.action} {col:critical.due} {col:critical.action_state}"
+},
+{
+"en": "Plan team capacity, timesheets, leave and utilisation for every project",
+"kind": "sentence",
+"max": 80,
+"mt": "Rencanakan kapasitas tim, lembaran waktu, cuti dan pemanfaatan untuk setiap proyek",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "for every person and week the contract hours less company closure days and approved leave give the hours really available, set against the hours allocated",
+"kind": "sentence",
+"max": 160,
+"mt": "untuk setiap orang dan minggu jam kontrak dikurangi hari-hari penutupan perusahaan dan cuti yang disetujui memberikan jam yang benar-benar tersedia, dihitung terhadap jam yang dialokasikan",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Utilisation by month against each person's target",
+"kind": "label",
+"max": 50,
+"mt": "Penggunaan per bulan terhadap target masing-masing orang",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Skills matrix with project skill gaps",
+"kind": "label",
+"max": 50,
+"mt": "Matriks keterampilan dengan kesenjangan keterampilan proyek",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "skill levels of the team are matched to what each project needs and the gap in people is counted, so a missing skill is seen early",
+"kind": "sentence",
+"max": 160,
+"mt": "tingkat keterampilan tim yang dicocokkan dengan apa yang dibutuhkan setiap proyek dan kesenjangan dalam orang dihitung, sehingga keterampilan yang hilang terlihat awal",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Resource gaps turned into full-time posts",
+"kind": "label",
+"max": 50,
+"mt": "Celah sumber daya berubah menjadi posisi penuh waktu",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Test design and automation",
+"kind": "list",
+"max": 30,
+"mt": "Desain dan otomatisasi pengujian",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cover for absence",
+"kind": "list",
+"max": 30,
+"mt": "Pembayaran untuk ketidakhadiran",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Skill needed elsewhere",
+"kind": "list",
+"max": 30,
+"mt": "Keterampilan yang dibutuhkan di tempat lain",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Matches",
+"kind": "list",
+"max": 30,
+"mt": "Matches",
+"why": "not translated"
+},
+{
+"en": "Daniel Okafor",
+"kind": "list",
+"max": 30,
+"mt": "Daniel Okafor",
+"why": "not translated"
+},
+{
+"en": "Mei Tanaka",
+"kind": "list",
+"max": 30,
+"mt": "Mei Tanaka",
+"why": "not translated"
+},
+{
+"en": "Lucas Ferreira",
+"kind": "list",
+"max": 30,
+"mt": "Lucas Ferreira",
+"why": "not translated"
+},
+{
+"en": "Sofia Andersson",
+"kind": "list",
+"max": 30,
+"mt": "Sofia Andersson",
+"why": "not translated"
+},
+{
+"en": "Rahul Verma",
+"kind": "list",
+"max": 30,
+"mt": "Rahul Verma",
+"why": "not translated"
+},
+{
+"en": "Elena Petrova",
+"kind": "list",
+"max": 30,
+"mt": "Elena Petrova",
+"why": "not translated"
+},
+{
+"en": "Grace Kim",
+"kind": "list",
+"max": 30,
+"mt": "Grace Kim",
+"why": "not translated"
+},
+{
+"en": "Liam O'Connor",
+"kind": "list",
+"max": 30,
+"mt": "Liam O'Connor",
+"why": "not translated"
+},
+{
+"en": "Team: who works here, their rates, weekly hours and load",
+"kind": "title",
+"max": 60,
+"mt": "Tim: siapa yang bekerja di sini, tarif mereka, jam mingguan dan beban",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Skills matrix: who can do what, from level 1 to 5",
+"kind": "title",
+"max": 60,
+"mt": "Matriks keterampilan: siapa yang bisa melakukan apa, dari tingkat 1 hingga 5",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Skill needs: skills each project needs and who has them",
+"kind": "title",
+"max": 60,
+"mt": "Kebutuhan keterampilan: keterampilan yang dibutuhkan setiap proyek dan siapa yang memilikinya",
+"why": "too long: 93 characters, the limit is 60"
+},
+{
+"en": "Weekly capacity: available hours against allocated hours",
+"kind": "title",
+"max": 60,
+"mt": "Kapasitas mingguan: jam yang tersedia terhadap jam yang dialokasikan",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Timesheets: weekly hours of each person on each project",
+"kind": "title",
+"max": 60,
+"mt": "lembar waktu: jam mingguan dari setiap orang di setiap proyek",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Timesheet approvals: one row for each person and week",
+"kind": "title",
+"max": 60,
+"mt": "Persetujuan lembar waktu: satu baris untuk setiap orang dan minggu",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Utilisation by month: capacity, hours and billable hours",
+"kind": "title",
+"max": 60,
+"mt": "Penggunaan per bulan: kapasitas, jam dan jam yang dapat ditagih",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Load check: allocation of each person against their week",
+"kind": "title",
+"max": 60,
+"mt": "Pemeriksaan beban: penugasan setiap orang terhadap minggu mereka",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Resource gaps: roles and skills the projects still need",
+"kind": "title",
+"max": 60,
+"mt": "Celah sumber daya: peran dan keterampilan yang masih dibutuhkan proyek",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Rate card: cost rate and charge rate of each role over time",
+"kind": "title",
+"max": 60,
+"mt": "Kartu tarif: tingkat biaya dan tingkat biaya dari setiap peran dari waktu ke waktu",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Rate ID",
+"kind": "label",
+"max": null,
+"mt": "Rate ID",
+"why": "not translated"
+},
+{
+"en": "Roll-ons and roll-offs: when people join and leave a project",
+"kind": "title",
+"max": 60,
+"mt": "Roll-on dan roll-off: ketika orang bergabung dan meninggalkan proyek",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Resource request for a missing role or skill",
+"kind": "title",
+"max": 60,
+"mt": "Permintaan sumber daya untuk peran atau keterampilan yang hilang",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Target 85%",
+"kind": "label",
+"max": null,
+"mt": "Target 85%",
+"why": "not translated"
+},
+{
+"en": "Premium 100%",
+"kind": "label",
+"max": null,
+"mt": "Premium 100%",
+"why": "not translated"
+},
+{
+"en": "Hiring need: gap hours turned into full-time posts",
+"kind": "title",
+"max": 60,
+"mt": "Kebutuhan perekrutan: jam istirahat berubah menjadi pekerjaan penuh waktu",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "What-if grid: utilisation and charge rate against margin",
+"kind": "title",
+"max": 60,
+"mt": "Bagaimana jika jaringan: pemanfaatan dan tingkat biaya terhadap margin",
+"why": "too long: 70 characters, the limit is 60"
+}
+]

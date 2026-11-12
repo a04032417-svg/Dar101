@@ -1,0 +1,401 @@
+[
+{
+"en": "Hello {approved_by}, version {version} of the baseline of {project} waits for your approval. The new end is {end}. Reason: {reason}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {approved_by}, {project}'un temel çizgisinin sürümü {version} onayınızı bekliyor. Yeni son {end}.",
+"why": "placeholders must be exactly: {approved_by} {version} {project} {end} {reason}"
+},
+{
+"en": "Hello {manager}, this week on {name}: {week_start} tasks start and {week_due} are due, and {late_n} are overdue. Next milestone: {next_ms}. Please confirm the owners by Monday noon.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {manager}, bu hafta {name}: {week_start} görevler başlıyor ve {week_due} ödenmeli ve {late_n} gecikmeli.",
+"why": "placeholders must be exactly: {manager} {name} {week_start} {week_due} {late_n} {next_ms}"
+},
+{
+"en": "Hello {manager}, the fixed date {name} on {project} is {date} and the forecast is {forecast}: {margin} spare days ({state}). Please plan the recovery before a penalty applies.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {manager}, {project} için belirlenmiş tarih {date} ve tahmin {forecast}: {margin} boş gün ({state}).",
+"why": "placeholders must be exactly: {manager} {name} {project} {date} {forecast} {margin} {state}"
+},
+{
+"en": "Hello, schedule variance on {name}: forecast end {forecast_end} against baseline {end}, {slip} days ({sched}). Manager: {manager}. We review it at the weekly meeting.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, plan değişikliği {name}: tahmin sonu {forecast_end} temel hat {end}, {slip} gün ({sched}).",
+"why": "placeholders must be exactly: {name} {forecast_end} {end} {slip} {sched} {manager}"
+},
+{
+"en": "Hello, the recovery action for {name} on {project} was due on {due} and is still {status}. Cause: {cause}. Owner: {owner}. Please chase it.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {name} için kurtarma eylemini {project} {due}'de yapmalıydı ve hala {status}'de.",
+"why": "placeholders must be exactly: {name} {project} {due} {status} {cause} {owner}"
+},
+{
+"en": "Hello {sponsor}, the delay on {name} ({project}) comes from: {cause}. Our recovery action is: {action}, due {due}. The recovery plan is attached.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {sponsor}, {name} ({project}) gecikmesi: {cause}'den geliyor.",
+"why": "placeholders must be exactly: {sponsor} {name} {project} {cause} {action} {due}"
+},
+{
+"en": "Hello {sponsor}, we need your decision this week to hold {name} on {date} ({project}). The forecast is {forecast}, with {margin} spare days. Penalty per week late: {penalty_week}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {sponsor}, bu hafta {name}'ı {date} ({project}) 'de tutmak için kararınıza ihtiyacımız var. Tahmin {forecast}'dir, {margin} boş günlerle.",
+"why": "placeholders must be exactly: {sponsor} {name} {date} {project} {forecast} {margin} {penalty_week}"
+},
+{
+"en": "Hello {contact}, the milestone {name} of {project} is planned for {forecast} (baseline {planned}). Please keep your reviewers free in that week.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {contact}, {project}'in dönüm noktası {name} {forecast} için planlanmıştır.",
+"why": "placeholders must be exactly: {contact} {name} {project} {forecast} {planned}"
+},
+{
+"en": "Hello {contact}, we moved the end of {name} on {project} from {old_end} to {new_end}. The reason is: {reason}. Please tell us if this affects your plans.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {contact}, {name}'ın sonunu {old_end}'dan {new_end}'e taşıdık. Sebebi: {reason}.",
+"why": "placeholders must be exactly: {contact} {name} {project} {old_end} {new_end} {reason}"
+},
+{
+"en": "Hello {who}, please confirm the delivery date of {item} for {project}. We need it by {needed_by}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {who}, lütfen {item} için teslimat tarihini onaylayın. {needed_by} için ihtiyacımız var.",
+"why": "placeholders must be exactly: {who} {item} {project} {needed_by}"
+},
+{
+"en": "Hello {who}, please confirm your booking dates for {item} on {project}. We asked on {asked_on}. Our owner is {owner}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba {who}, lütfen {item} için rezervasyon tarihlerinizi onaylayın {project}.",
+"why": "placeholders must be exactly: {who} {item} {project} {asked_on} {owner}"
+},
+{
+"en": "Phases 5 and 6: {col:projects.plan_3}.",
+"kind": "document",
+"max": null,
+"mt": "5. ve 6. aşamalar.",
+"why": "placeholders must be exactly: {col:projects.plan_3}"
+},
+{
+"en": "Phase 7: {col:projects.plan_4}.",
+"kind": "document",
+"max": null,
+"mt": "7. aşama.",
+"why": "placeholders must be exactly: {col:projects.plan_4}"
+},
+{
+"en": "The plan holds {col:projects.tasks_n} tasks. {col:projects.done_n} are done and {col:projects.late_n} are overdue. Work done, weighted by hours: {col:projects.pct_done}. Hours left: {col:projects.hours_left}.",
+"kind": "document",
+"max": null,
+"mt": "Plan {col:projects.tasks_n} görevleri barındırır. {col:projects.done_n} yapılmış ve {col:projects.late_n} gecikmiş. İş yapılmış, saatlere göre ağırlıklandırılmış: {col:projects.pct_done}.",
+"why": "placeholders must be exactly: {col:projects.tasks_n} {col:projects.done_n} {col:projects.late_n} {col:projects.pct_done} {col:projects.hours_left}"
+},
+{
+"en": "Project: {col:milestones.project}. Milestone: {col:milestones.name}. Status: {col:milestones.status}.",
+"kind": "document",
+"max": null,
+"mt": "Projenin durumu:",
+"why": "placeholders must be exactly: {col:milestones.project} {col:milestones.name} {col:milestones.status}"
+},
+{
+"en": "To {col:changes.contact}. Project: {col:changes.project}.",
+"kind": "document",
+"max": null,
+"mt": "Proje: {col:changes.project}.",
+"why": "placeholders must be exactly: {col:changes.contact} {col:changes.project}"
+},
+{
+"en": "We moved the end of the task {col:changes.name} from {col:changes.old_end} to {col:changes.new_end}. That is {col:changes.shift} days, or {col:changes.wshift} working days.",
+"kind": "document",
+"max": null,
+"mt": "Görevin sonunu {col:changes.name} {col:changes.old_end} den {col:changes.new_end} 'e taşıdık.",
+"why": "placeholders must be exactly: {col:changes.name} {col:changes.old_end} {col:changes.new_end} {col:changes.shift} {col:changes.wshift}"
+},
+{
+"en": "To {col:delays.sponsor}. Project: {col:delays.project}.",
+"kind": "document",
+"max": null,
+"mt": "Proje: {col:delays.project}.",
+"why": "placeholders must be exactly: {col:delays.sponsor} {col:delays.project}"
+},
+{
+"en": "Our recovery action is: {col:delays.action}. Owner: {col:delays.owner}. Due on {col:delays.due}. Status: {col:delays.status}.",
+"kind": "document",
+"max": null,
+"mt": "İstihdam işlemimiz: {col:delays.action} {col:delays.owner} {col:delays.owner} {col:delays.due} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {col:delays.status} {4} {4} {4} {4}",
+"why": "placeholders must be exactly: {col:delays.action} {col:delays.owner} {col:delays.due} {col:delays.status}"
+},
+{
+"en": "Week starting {col:lookahead.start}. Tasks starting: {col:lookahead.starting}. Tasks due: {col:lookahead.due_n}. Hours planned: {col:lookahead.hours}. Late tasks: {col:lookahead.late_n}. People away: {col:lookahead.away}.",
+"kind": "document",
+"max": null,
+"mt": "Hafta başlıyor {col:lookahead.start}. Görevler başlıyor: {col:lookahead.starting}. Görevlerin sona ermesi: {col:lookahead.due_n}. Planlanan saatler: {col:lookahead.hours}. Geç görevler: {col:lookahead.late_n}.",
+"why": "placeholders must be exactly: {col:lookahead.start} {col:lookahead.starting} {col:lookahead.due_n} {col:lookahead.hours} {col:lookahead.late_n} {col:lookahead.away}"
+},
+{
+"en": "Team capacity this week: {col:lookahead.capacity} hours. Load: {col:lookahead.load}, so the week is: {col:lookahead.state}. Holidays in the week: {col:lookahead.holidays_n}.",
+"kind": "document",
+"max": null,
+"mt": "Bu haftaki ekip kapasitesi: {col:lookahead.capacity} saat. Yük: {col:lookahead.load}, yani hafta: {col:lookahead.state}.",
+"why": "placeholders must be exactly: {col:lookahead.capacity} {col:lookahead.load} {col:lookahead.state} {col:lookahead.holidays_n}"
+},
+{
+"en": "Watch owner: {col:critical.watch}. Action: {col:critical.action}. Due on {col:critical.due}. Action state: {col:critical.action_state}.",
+"kind": "document",
+"max": null,
+"mt": "Saat sahibi: {col:critical.watch}. Hareket: {col:critical.action}.",
+"why": "placeholders must be exactly: {col:critical.watch} {col:critical.action} {col:critical.due} {col:critical.action_state}"
+},
+{
+"en": "The code freeze starts on {col:releases.freeze}, {set:freeze_days} working days before the release. Days to go: {col:releases.days_to}. State: {col:releases.state}. Window check: {col:releases.window}.",
+"kind": "document",
+"max": null,
+"mt": "Kod dondurma başlıyor {col:releases.freeze}, {set:freeze_days} serbest bırakılmadan önceki çalışma günleri.",
+"why": "placeholders must be exactly: {col:releases.freeze} {set:freeze_days} {col:releases.days_to} {col:releases.state} {col:releases.window}"
+},
+{
+"en": "The baseline end is {col:projects.end} and the forecast end is {col:projects.forecast_end}. The slip is {col:projects.slip} days, or {col:projects.slip_pct} of the baseline duration. The schedule colour is: {col:projects.sched}.",
+"kind": "document",
+"max": null,
+"mt": "Temel çizgi sonu {col:projects.end} ve tahmin sonu {col:projects.forecast_end}. kayma {col:projects.slip} gün veya {col:projects.slip_pct} temel çizgi süresi.",
+"why": "placeholders must be exactly: {col:projects.end} {col:projects.forecast_end} {col:projects.slip} {col:projects.slip_pct} {col:projects.sched}"
+},
+{
+"en": "Hours left: {col:projects.hours_left}. To hold the baseline end the team needs about {col:projects.catch_hours} more hours each week. Overdue tasks: {col:projects.late_n}. Tasks without an owner: {col:projects.no_owner}.",
+"kind": "document",
+"max": null,
+"mt": "Saatler kaldı: {col:projects.hours_left}. Temel çizgi sonunu tutmak için takıma her hafta yaklaşık {col:projects.catch_hours} daha fazla saat gerekir. Geçmiş görevler: {col:projects.late_n}.",
+"why": "placeholders must be exactly: {col:projects.hours_left} {col:projects.catch_hours} {col:projects.late_n} {col:projects.no_owner}"
+},
+{
+"en": "Plan team capacity, timesheets, leave and utilisation for every project",
+"kind": "sentence",
+"max": 80,
+"mt": "Her proje için ekip kapasitesini, çalışma saatlerini, izinleri ve kullanımı planlayın",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Plan who is free, who is overloaded and where the hours go",
+"kind": "sentence",
+"max": 80,
+"mt": "Kimlerin boş, kimlerin aşırı yüklü olduğunu ve saatlerin nereye gittiğini planlayın",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "for every person and week the contract hours less company closure days and approved leave give the hours really available, set against the hours allocated",
+"kind": "sentence",
+"max": 160,
+"mt": "Her kişi ve hafta için sözleşme saatleri şirketin kapanış günleri ve onaylanmış izinler hariç, gerçekten kullanılabilir saatleri, tahsis edilen saatlere göre hesaplar.",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Load check: over, full, balanced or free",
+"kind": "label",
+"max": 50,
+"mt": "Yük kontrolü: tamamlanmış, tam, dengelenmiş veya ücretsiz",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Contractor bookings with cost so far",
+"kind": "label",
+"max": 50,
+"mt": "Şimdiye kadarki maliyetle yüklenicinin rezervasyonları",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Resource gaps turned into full-time posts",
+"kind": "label",
+"max": 50,
+"mt": "Kaynak boşlukları tam zamanlı görevlere dönüştürüldü",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Skill needed elsewhere",
+"kind": "list",
+"max": 30,
+"mt": "Başka yerlerde ihtiyaç duyulan beceri",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Helena Rossi",
+"kind": "list",
+"max": 30,
+"mt": "Helena Rossi",
+"why": "not translated"
+},
+{
+"en": "Daniel Okafor",
+"kind": "list",
+"max": 30,
+"mt": "Daniel Okafor",
+"why": "not translated"
+},
+{
+"en": "Mei Tanaka",
+"kind": "list",
+"max": 30,
+"mt": "Mei Tanaka",
+"why": "not translated"
+},
+{
+"en": "Lucas Ferreira",
+"kind": "list",
+"max": 30,
+"mt": "Lucas Ferreira",
+"why": "not translated"
+},
+{
+"en": "Sofia Andersson",
+"kind": "list",
+"max": 30,
+"mt": "Sofia Andersson",
+"why": "not translated"
+},
+{
+"en": "Rahul Verma",
+"kind": "list",
+"max": 30,
+"mt": "Rahul Verma",
+"why": "not translated"
+},
+{
+"en": "Elena Petrova",
+"kind": "list",
+"max": 30,
+"mt": "Elena Petrova",
+"why": "not translated"
+},
+{
+"en": "Omar Haddad",
+"kind": "list",
+"max": 30,
+"mt": "Omar Haddad",
+"why": "not translated"
+},
+{
+"en": "Liam O'Connor",
+"kind": "list",
+"max": 30,
+"mt": "Liam O'Connor",
+"why": "not translated"
+},
+{
+"en": "Team: who works here, their rates, weekly hours and load",
+"kind": "title",
+"max": 60,
+"mt": "Takım: burada kimler çalışıyor, ücretleri, haftalık saatleri ve yükleri",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Vendors and contractors: who supplies people and services",
+"kind": "title",
+"max": 60,
+"mt": "Satıcılar ve müteahhitler: kim insanları ve hizmetleri tedarik ediyor",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Skills matrix: who can do what, from level 1 to 5",
+"kind": "title",
+"max": 60,
+"mt": "Yetenek matrisi: kim ne yapabilir, 1 seviyesinden 5 seviyesine kadar",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Skill needs: skills each project needs and who has them",
+"kind": "title",
+"max": 60,
+"mt": "Yetenek ihtiyaçları: her projenin ihtiyaç duyduğu ve kimde olan beceriler",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Weekly capacity: available hours against allocated hours",
+"kind": "title",
+"max": 60,
+"mt": "Haftalık kapasite: tahsis edilen saatlere karşı kullanılabilir saatler",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Utilisation by month: capacity, hours and billable hours",
+"kind": "title",
+"max": 60,
+"mt": "Aylık kullanım: kapasite, saatler ve faturalandırılabilir saatler",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Contractor timesheets: weekly hours and invoice check",
+"kind": "title",
+"max": 60,
+"mt": "Müteahhit çalışma saatleri: haftalık çalışma saatleri ve fatura kontrolü",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Resource gaps: roles and skills the projects still need",
+"kind": "title",
+"max": 60,
+"mt": "Kaynak boşlukları: projelerin hala ihtiyaç duyduğu roller ve beceriler",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Rate card: cost rate and charge rate of each role over time",
+"kind": "title",
+"max": 60,
+"mt": "Tarif kartı: zaman içinde her rolün maliyet oranı ve ücret oranı",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Rate ID",
+"kind": "label",
+"max": null,
+"mt": "Rate ID",
+"why": "not translated"
+},
+{
+"en": "Roll-ons and roll-offs: when people join and leave a project",
+"kind": "title",
+"max": 60,
+"mt": "Roll-on ve roll-offs: insanlar bir projeye katıldığında ve ayrıldığında",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Contractor booking with the weekly hours worked",
+"kind": "title",
+"max": 60,
+"mt": "İşçiye haftalık işlenen saatlerle birlikte rezervasyon yapılması",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Contractor or employee: which costs less per productive hour",
+"kind": "title",
+"max": 60,
+"mt": "Müteahhit veya çalışan: üretken saat başına daha az maliyetli olan",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Booking cost: hours per week times weeks times rate",
+"kind": "title",
+"max": 60,
+"mt": "Rezervasyon maliyeti: Haftalık saatler Haftalık saatler oranı",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hiring need: gap hours turned into full-time posts",
+"kind": "title",
+"max": 60,
+"mt": "İstihdam ihtiyacı: boşluk saatleri tam zamanlı görevlere dönüştürüldü",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Resource levelling: hours to move to a free person",
+"kind": "title",
+"max": 60,
+"mt": "Kaynakların eşitlenmesi: serbest bir kişiye geçmek için saatler",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

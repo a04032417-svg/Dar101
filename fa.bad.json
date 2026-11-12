@@ -1,0 +1,170 @@
+[
+{
+"en": "PMO lead: schedule variance this week",
+"kind": "label",
+"max": null,
+"mt": "PMO lead: اختلاف برنامه در اين هفته",
+"why": "English/Latin words left: PMO lead"
+},
+{
+"en": "PMO lead: delay entry overdue",
+"kind": "label",
+"max": null,
+"mt": "PMO lead: تاخير وارد شدن به تاخير",
+"why": "English/Latin words left: PMO lead"
+},
+{
+"en": "PMO lead: heavy week ahead",
+"kind": "label",
+"max": null,
+"mt": "پیشروی PMO: یک هفته سخت در پیش است",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Hello {contact}, the milestone {name} of {project} is planned for {forecast} (baseline {planned}). Please keep your reviewers free in that week.",
+"kind": "message",
+"max": null,
+"mt": "سلام {contact}، نقطه عطف {name} از {project} برای {forecast} برنامه ریزی شده است.",
+"why": "placeholders must be exactly: {contact} {name} {project} {forecast} {planned}"
+},
+{
+"en": "Hello {who}, please confirm your booking dates for {item} on {project}. We asked on {asked_on}. Our owner is {owner}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً تاریخ رزرو خود را برای {item} در {project} تایید کنید. ما در {asked_on} پرسیدیم. صاحب ما {owner} است.",
+"why": "placeholders must be exactly: {who} {item} {project} {asked_on} {owner}"
+},
+{
+"en": "Phase 7: {col:projects.plan_4}.",
+"kind": "document",
+"max": null,
+"mt": "مرحله هفتم:",
+"why": "placeholders must be exactly: {col:projects.plan_4}"
+},
+{
+"en": "The schedule skips weekends and company holidays. The next company closure is on {col:projects.next_closure}. A change of a date is entered on the Schedule Changes sheet and approved by the sponsor or the PMO lead.",
+"kind": "document",
+"max": null,
+"mt": "برنامه تعطیلات آخر هفته و تعطیلات شرکت را حذف می کند. تعطیلات بعدی شرکت در {col:projects.next_closure} است. تغییر تاریخ در ورق تغییر برنامه وارد می شود و توسط حامیان مالی یا PMO تایید می شود.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "To {col:changes.contact}. Project: {col:changes.project}.",
+"kind": "document",
+"max": null,
+"mt": "به پروژه:",
+"why": "placeholders must be exactly: {col:changes.contact} {col:changes.project}"
+},
+{
+"en": "To {col:delays.sponsor}. Project: {col:delays.project}.",
+"kind": "document",
+"max": null,
+"mt": "به پروژه:",
+"why": "placeholders must be exactly: {col:delays.sponsor} {col:delays.project}"
+},
+{
+"en": "The cause is: {col:delays.cause}.",
+"kind": "document",
+"max": null,
+"mt": "علتش اينه:",
+"why": "placeholders must be exactly: {col:delays.cause}"
+},
+{
+"en": "Our recovery action is: {col:delays.action}. Owner: {col:delays.owner}. Due on {col:delays.due}. Status: {col:delays.status}.",
+"kind": "document",
+"max": null,
+"mt": "اقدام ما براي بازپرداخت اينه که:",
+"why": "placeholders must be exactly: {col:delays.action} {col:delays.owner} {col:delays.due} {col:delays.status}"
+},
+{
+"en": "Set milestones, fixed dates and releases on Milestones, Fixed Dates and Releases. Slip, spare days, freeze dates and window checks fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "تعیین تاریخ های تعیین شده، تاریخ های ثابت و انتشار در Milestones، تاریخ های ثابت و Releases. Slip، روز های خالی، تاریخ های منجمد و بررسی پنجره را پر کنید.",
+"why": "English/Latin words left: Milestones Releases. Slip"
+},
+{
+"en": "Plan who is free, who is overloaded and where the hours go",
+"kind": "sentence",
+"max": 80,
+"mt": "برنامه ریزی کنید که چه کسی آزاد است، چه کسی بیش از حد بار دارد و ساعت ها کجا می روند",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "skill levels of the team are matched to what each project needs and the gap in people is counted, so a missing skill is seen early",
+"kind": "sentence",
+"max": 160,
+"mt": "سطح مهارت های تیم با آنچه هر پروژه نیاز دارد مطابقت دارد و شکاف در افراد محاسبه می شود، بنابراین یک مهارت از دست رفته در اوایل دیده می شود",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "SecureNet Assurance",
+"kind": "list",
+"max": 30,
+"mt": "تضمین SecureNet",
+"why": "English/Latin words left: SecureNet"
+},
+{
+"en": "DataForge Analytics",
+"kind": "list",
+"max": 30,
+"mt": "تجزیه و تحلیل DataForge",
+"why": "English/Latin words left: DataForge"
+},
+{
+"en": "TestLab Quality Services",
+"kind": "list",
+"max": 30,
+"mt": "خدمات با کیفیت TestLab",
+"why": "English/Latin words left: TestLab"
+},
+{
+"en": "Team: who works here, their rates, weekly hours and load",
+"kind": "title",
+"max": 60,
+"mt": "تیم: چه کسانی اینجا کار می کنند، نرخ آنها، ساعت های هفتگی و بار",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Skills matrix: who can do what, from level 1 to 5",
+"kind": "title",
+"max": 60,
+"mt": "ماتریس مهارت ها: چه کسی می تواند چه کاری انجام دهد، از سطح 1 تا 5",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Skill needs: skills each project needs and who has them",
+"kind": "title",
+"max": 60,
+"mt": "نیاز به مهارت: مهارت هایی که هر پروژه نیاز دارد و چه کسی آنها را دارد",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Weekly capacity: available hours against allocated hours",
+"kind": "title",
+"max": 60,
+"mt": "ظرفیت هفتگی: ساعت های موجود در برابر ساعت های اختصاص داده شده",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Utilisation by month: capacity, hours and billable hours",
+"kind": "title",
+"max": 60,
+"mt": "بهره برداری به صورت ماهانه: ظرفیت، ساعت ها و ساعت های صورتحساب پذیر",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Phone of the PMO lead for messages",
+"kind": "label",
+"max": null,
+"mt": "تلفن مدیر PMO برای پیام ها",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Roll-ons and roll-offs: when people join and leave a project",
+"kind": "title",
+"max": 60,
+"mt": "ورود و خروج: زمانی که افراد به پروژه ملحق می شوند و از آن خارج می شوند",
+"why": "too long: 70 characters, the limit is 60"
+}
+]

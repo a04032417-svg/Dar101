@@ -1,0 +1,93 @@
+[
+{
+"en": "Hello {sponsor}, we need your decision this week to hold {name} on {date} ({project}). The forecast is {forecast}, with {margin} spare days. Penalty per week late: {penalty_week}.",
+"kind": "message",
+"max": null,
+"mt": "हैलो {sponsor}, हम {name} {date} ({project}) पर {name} रखने के लिए इस सप्ताह अपने निर्णय की जरूरत है। पूर्वानुमान {forecast} है, {margin} खाली दिनों के साथ। प्रति सप्ताह देरी के लिए जुर्मानाः {penalty_week}।",
+"why": "placeholders must be exactly: {sponsor} {name} {date} {project} {forecast} {margin} {penalty_week}"
+},
+{
+"en": "Hello {contact}, the milestone {name} of {project} is planned for {forecast} (baseline {planned}). Please keep your reviewers free in that week.",
+"kind": "message",
+"max": null,
+"mt": "हैलो {contact}, {project} का मील का पत्थर {forecast} (आधार रेखा {planned}) के लिए योजनाबद्ध है। कृपया उस सप्ताह में अपने समीक्षकों को मुक्त रखें।",
+"why": "placeholders must be exactly: {contact} {name} {project} {forecast} {planned}"
+},
+{
+"en": "for every person and week the contract hours less company closure days and approved leave give the hours really available, set against the hours allocated",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक व्यक्ति और सप्ताह के लिए अनुबंध घंटों से कम कंपनी के बंद होने के दिन और अनुमोदित अवकाश वास्तव में उपलब्ध घंटों को देते हैं, जो आवंटित घंटों के खिलाफ सेट किए जाते हैं",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Resource gaps turned into full-time posts",
+"kind": "label",
+"max": 50,
+"mt": "संसाधनों के अंतराल को पूर्णकालिक पदों में बदल दिया गया",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "SecureNet Assurance",
+"kind": "list",
+"max": 30,
+"mt": "SecureNet आश्वासन",
+"why": "English/Latin words left: SecureNet"
+},
+{
+"en": "Skill needs: skills each project needs and who has them",
+"kind": "title",
+"max": 60,
+"mt": "कौशल की आवश्यकताएं: प्रत्येक परियोजना को कौशल की आवश्यकता होती है और उनके पास कौन है",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Timesheets: weekly hours of each person on each project",
+"kind": "title",
+"max": 60,
+"mt": "समय सारिणीः प्रत्येक परियोजना पर प्रत्येक व्यक्ति के साप्ताहिक घंटे",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Timesheet approvals: one row for each person and week",
+"kind": "title",
+"max": 60,
+"mt": "समय सारिणी अनुमोदनः प्रत्येक व्यक्ति और सप्ताह के लिए एक पंक्ति",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Load check: allocation of each person against their week",
+"kind": "title",
+"max": 60,
+"mt": "लोड चेकः प्रत्येक व्यक्ति को उनके सप्ताह के आधार पर आवंटित किया जाता है",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Resource gaps: roles and skills the projects still need",
+"kind": "title",
+"max": 60,
+"mt": "संसाधनों में कमीः परियोजनाओं को अभी भी भूमिकाओं और कौशल की आवश्यकता है",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Roll-ons and roll-offs: when people join and leave a project",
+"kind": "title",
+"max": 60,
+"mt": "रोल-ऑन और रोल-ऑफः जब लोग किसी परियोजना में शामिल होते हैं और छोड़ देते हैं",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Hiring need: gap hours turned into full-time posts",
+"kind": "title",
+"max": 60,
+"mt": "भर्ती की आवश्यकताः अंतराल के समय को पूर्णकालिक पदों में बदल दिया गया",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Resource levelling: hours to move to a free person",
+"kind": "title",
+"max": 60,
+"mt": "संसाधनों का समानांतरः एक मुक्त व्यक्ति के लिए जाने के लिए घंटे",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

@@ -1,0 +1,128 @@
+[
+{
+"en": "Hello {approved_by}, version {version} of the baseline of {project} waits for your approval. The new end is {end}. Reason: {reason}.",
+"kind": "message",
+"max": null,
+"mt": "您好,{approved_by}的基线版本 {version} 等待您的批准. 新的结尾是 {end}. 原因: {reason}.",
+"why": "placeholders must be exactly: {approved_by} {version} {project} {end} {reason}"
+},
+{
+"en": "Hello {manager}, this week on {name}: {week_start} tasks start and {week_due} are due, and {late_n} are overdue. Next milestone: {next_ms}. Please confirm the owners by Monday noon.",
+"kind": "message",
+"max": null,
+"mt": "您好,本周在 {name}: {week_start} 任务开始和 {week_due} 截止,和 {late_n} 延迟. 下一个里程碑: {next_ms}. 请在周一中午之前确认所有者.",
+"why": "placeholders must be exactly: {manager} {name} {week_start} {week_due} {late_n} {next_ms}"
+},
+{
+"en": "Hello {sponsor}, we need your decision this week to hold {name} on {date} ({project}). The forecast is {forecast}, with {margin} spare days. Penalty per week late: {penalty_week}.",
+"kind": "message",
+"max": null,
+"mt": "你好,我们需要你本周的决定. 预测是 {forecast},有 {margin} 余天. 每周迟到的处罚: {penalty_week}.",
+"why": "placeholders must be exactly: {sponsor} {name} {date} {project} {forecast} {margin} {penalty_week}"
+},
+{
+"en": "Hello {who}, we still need {item} for {project} by {needed_by}. We asked on {asked_on}. Please tell us when we will receive it.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们仍然需要 {item} 的 {project} 通过 {needed_by}. 我们在 {asked_on}. 请告诉我们什么时候我们会收到它.",
+"why": "placeholders must be exactly: {who} {item} {project} {needed_by} {asked_on}"
+},
+{
+"en": "Hello {contact}, the release {release} is planned for {date}. The code freeze starts on {freeze}. Please confirm the window and who signs off on your side.",
+"kind": "message",
+"max": null,
+"mt": "你好,发行 {release} 计划在 {date}. 代码结开始于 {freeze}. 请确认窗口和谁签署在你的边.",
+"why": "placeholders must be exactly: {contact} {release} {date} {freeze}"
+},
+{
+"en": "Hello {contact}, we moved the end of {name} on {project} from {old_end} to {new_end}. The reason is: {reason}. Please tell us if this affects your plans.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们把 {name} 的结尾从 {old_end} 移到 {new_end}.原因是: {reason}.请告诉我们,如果这影响您的计划.",
+"why": "placeholders must be exactly: {contact} {name} {project} {old_end} {new_end} {reason}"
+},
+{
+"en": "Hello {contact}, our next company closure is on {next_closure}. The plan for {name} already skips it. Please tell us about your own closure days.",
+"kind": "message",
+"max": null,
+"mt": "您好,我们的下一个公司关闭时间是1号. 计划已经跳过了2号. 请告诉我们您的关闭日.",
+"why": "placeholders must be exactly: {contact} {next_closure} {name}"
+},
+{
+"en": "Hello {who}, please confirm the delivery date of {item} for {project}. We need it by {needed_by}.",
+"kind": "message",
+"max": null,
+"mt": "您好,请确认 {item} 的交付日期.我们需要它在 {needed_by}.",
+"why": "placeholders must be exactly: {who} {item} {project} {needed_by}"
+},
+{
+"en": "Hello {who}, please confirm your booking dates for {item} on {project}. We asked on {asked_on}. Our owner is {owner}.",
+"kind": "message",
+"max": null,
+"mt": "你好,请确认您的预订日期. 我们在3号问. 我们的主人是4号.",
+"why": "placeholders must be exactly: {who} {item} {project} {asked_on} {owner}"
+},
+{
+"en": "Phase 7: {col:projects.plan_4}.",
+"kind": "document",
+"max": null,
+"mt": "第七阶段.",
+"why": "placeholders must be exactly: {col:projects.plan_4}"
+},
+{
+"en": "The schedule skips weekends and company holidays. The next company closure is on {col:projects.next_closure}. A change of a date is entered on the Schedule Changes sheet and approved by the sponsor or the PMO lead.",
+"kind": "document",
+"max": null,
+"mt": "时间表跳过周末和公司假日.下一个公司关闭时间是 {col:projects.next_closure}. 改变日期将在 时间表变更 页面上输入,并由赞助商或 PMO 领导批准.",
+"why": "English/Latin words left: PMO"
+},
+{
+"en": "Sponsor: {col:milestones.sponsor}. Client contact: {col:milestones.contact}.",
+"kind": "document",
+"max": null,
+"mt": "赞助人: 客户联系人:",
+"why": "placeholders must be exactly: {col:milestones.sponsor} {col:milestones.contact}"
+},
+{
+"en": "To {col:changes.contact}. Project: {col:changes.project}.",
+"kind": "document",
+"max": null,
+"mt": "项目:",
+"why": "placeholders must be exactly: {col:changes.contact} {col:changes.project}"
+},
+{
+"en": "To {col:delays.sponsor}. Project: {col:delays.project}.",
+"kind": "document",
+"max": null,
+"mt": "项目:",
+"why": "placeholders must be exactly: {col:delays.sponsor} {col:delays.project}"
+},
+{
+"en": "The cause is: {col:delays.cause}.",
+"kind": "document",
+"max": null,
+"mt": "原因是:",
+"why": "placeholders must be exactly: {col:delays.cause}"
+},
+{
+"en": "Critical items report of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "关键项目报告日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Recovery plan of {set:firm}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "复苏计划日期为 {set:firm}",
+"why": "placeholders must be exactly: {set:firm} {today}"
+},
+{
+"en": "Project: {col:projects.name}. Manager: {col:projects.manager}. Sponsor: {col:projects.sponsor}.",
+"kind": "document",
+"max": null,
+"mt": "项目: 经理: 赞助人:",
+"why": "placeholders must be exactly: {col:projects.name} {col:projects.manager} {col:projects.sponsor}"
+}
+]
