@@ -1,0 +1,30 @@
+[
+{
+"en": "Projects signed",
+"kind": "label",
+"max": 30,
+"mt": "परियोजनाओं पर हस्ताक्षर किये गये",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "what part of an FF&E or hours overrun can still be billed for a fixed, hourly or percentage fee, and what the studio absorbs",
+"kind": "sentence",
+"max": 160,
+"mt": "फ़र्निचर, फिक्सचर और उपकरण के किस हिस्से या घंटों की अधिकता के बाद भी एक निश्चित, प्रति घंटा या प्रतिशत शुल्क के लिए बिल किया जा सकता है, और स्टूडियो क्या अवशोषित करता है",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Hours used against the fee with a forecast overrun",
+"kind": "title",
+"max": 60,
+"mt": "पूर्वानुमानित ओवररन के साथ शुल्क के विरुद्ध उपयोग किए गए घंटे",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Project {col:phases.project} ({col:phases.project_name}). Phase: {col:phases.phase}. Status: {col:phases.status}. Timing: {col:phases.timing}.",
+"kind": "document",
+"max": null,
+"mt": "प्रोजेक्ट {col:phases.project} ({col:phases.project_name}). 2 चरण}। स्थिति: {col:phases.status}. समय: {col:phases.timing}.",
+"why": "placeholders must be exactly: {col:phases.project} {col:phases.project_name} {col:phases.phase} {col:phases.status} {col:phases.timing}"
+}
+]
