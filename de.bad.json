@@ -1,0 +1,79 @@
+[
+{
+"en": "waiting time, unloading fees, extra stops and cancelled load fees with the amount not yet billed and the days it has waited",
+"kind": "sentence",
+"max": 160,
+"mt": "Wartezeit, Entladegebühren, zusätzliche Stopps und stornierte Ladegebühren mit dem noch nicht in Rechnung gestellten Betrag und den Tagen, an denen gewartet wurde",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Customer delay in loading",
+"kind": "list",
+"max": 30,
+"mt": "Verzögerung des Kunden beim Laden",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Poor return load on lane",
+"kind": "list",
+"max": 30,
+"mt": "Schlechte Rücklast auf der Spur",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fuel or tyre stop detour",
+"kind": "list",
+"max": 30,
+"mt": "Umleitung zum Tank- oder Reifenstopp",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Billed above agreement",
+"kind": "list",
+"max": 30,
+"mt": "Wird über der Vereinbarung in Rechnung gestellt",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Billed below agreement",
+"kind": "list",
+"max": 30,
+"mt": "Wird gemäß der Vereinbarung in Rechnung gestellt",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Rate confirmations against what was billed",
+"kind": "title",
+"max": 60,
+"mt": "Tarifbestätigungen im Vergleich zu dem, was in Rechnung gestellt wurde",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Fuel surcharge from the fuel price and the base price",
+"kind": "title",
+"max": 60,
+"mt": "Treibstoffzuschlag aus dem Treibstoffpreis und dem Grundpreis",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Empty km cost and the rate needed with a poor return load",
+"kind": "title",
+"max": 60,
+"mt": "Kosten für Leerkilometer und erforderlicher Tarif bei schlechter Rückladung",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Driver driving hours left and loads possible this week",
+"kind": "title",
+"max": 60,
+"mt": "Diese Woche sind noch verbleibende Fahrstunden des Fahrers und Ladungen möglich",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rate and loaded km against profit",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Tarif und geladene Kilometer gegen Gewinn",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

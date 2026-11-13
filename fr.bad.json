@@ -1,0 +1,163 @@
+[
+{
+"en": "rate, km, empty km, fuel, driver pay and tolls give the profit and the profit per km driven before a load is booked",
+"kind": "sentence",
+"max": 160,
+"mt": "le tarif, les kilomètres, les kilomètres à vide, le carburant, la rémunération du conducteur et les péages donnent le bénéfice et le bénéfice par km parcouru avant la réservation d'un chargement",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "Traffic or road works",
+"kind": "list",
+"max": 30,
+"mt": "Circulation ou travaux routiers",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Customer delay in loading",
+"kind": "list",
+"max": 30,
+"mt": "Retard client dans le chargement",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Waiting for next load",
+"kind": "list",
+"max": 30,
+"mt": "En attente du prochain chargement",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Poor return load on lane",
+"kind": "list",
+"max": 30,
+"mt": "Mauvaise charge de retour sur la voie",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Fuel or tyre stop detour",
+"kind": "list",
+"max": 30,
+"mt": "Détour d'arrêt de carburant ou de pneu",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Empty km under target",
+"kind": "list",
+"max": 30,
+"mt": "Km à vide en deçà de l'objectif",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Empty km over target",
+"kind": "list",
+"max": 30,
+"mt": "Km à vide au-dessus de l'objectif",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Load A earns more per day",
+"kind": "list",
+"max": 30,
+"mt": "La charge A gagne plus par jour",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Load B earns more per day",
+"kind": "list",
+"max": 30,
+"mt": "La charge B gagne plus par jour",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Truck availability checks with idle days",
+"kind": "title",
+"max": 60,
+"mt": "Contrôles de disponibilité des camions avec jours d'inactivité",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Brokers and direct shippers with terms and results",
+"kind": "title",
+"max": 60,
+"mt": "Courtiers et expéditeurs directs avec conditions et résultats",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Return load search for trucks that will be free",
+"kind": "title",
+"max": 60,
+"mt": "Recherche de chargements de retour pour les camions qui seront gratuits",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Fuel surcharge schedule by fuel price band",
+"kind": "title",
+"max": 60,
+"mt": "Barème des suppléments carburant par tranche de prix du carburant",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Rate confirmation sheet with the billing check",
+"kind": "title",
+"max": 60,
+"mt": "Feuille de confirmation du tarif avec le chèque de facturation",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Extra charge sheet for a cancelled load fee",
+"kind": "title",
+"max": 60,
+"mt": "Feuille de frais supplémentaire pour les frais de chargement annulé",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Fuel surcharge from the fuel price and the base price",
+"kind": "title",
+"max": 60,
+"mt": "Supplément carburant par rapport au prix du carburant et au prix de base",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Empty km cost and the rate needed with a poor return load",
+"kind": "title",
+"max": 60,
+"mt": "Coût du km à vide et tarif nécessaire avec un mauvais chargement retour",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Waiting time charge from arrival, departure and free hours",
+"kind": "title",
+"max": 60,
+"mt": "Facturation du temps d'attente à l'arrivée, au départ et heures gratuites",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Trip days and arrival date from km and driving hours",
+"kind": "title",
+"max": 60,
+"mt": "Jours de voyage et date d'arrivée en km et heures de conduite",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Driver driving hours left and loads possible this week",
+"kind": "title",
+"max": 60,
+"mt": "Heures de conduite restantes et chargements possibles cette semaine",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Quote win rate and the value of a small rate cut",
+"kind": "title",
+"max": 60,
+"mt": "Taux d’obtention des devis et valeur d’une petite réduction de taux",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rate and loaded km against profit",
+"kind": "title",
+"max": 60,
+"mt": "Grille de simulation : taux et kilomètres chargés contre profit",
+"why": "too long: 63 characters, the limit is 60"
+}
+]
