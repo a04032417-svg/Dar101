@@ -1,0 +1,114 @@
+[
+{
+"en": "Passport validity and visa lead-time check",
+"kind": "label",
+"max": 50,
+"mt": "Vérification de la validité du passeport et du visa",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Disruption and rebooking helper",
+"kind": "label",
+"max": 50,
+"mt": "Aide aux perturbations et aux modifications de réservation",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Early or late timing",
+"kind": "list",
+"max": 30,
+"mt": "Synchronisation précoce ou tardive",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Europe",
+"kind": "list",
+"max": 30,
+"mt": "Europe",
+"why": "not translated"
+},
+{
+"en": "Lead time is too short",
+"kind": "list",
+"max": 30,
+"mt": "Le délai de livraison est trop court",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Nights do not add up",
+"kind": "list",
+"max": 30,
+"mt": "Les nuits ne s'additionnent pas",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cover amount is too low",
+"kind": "list",
+"max": 30,
+"mt": "Le montant de la couverture est trop faible",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Arrival is before check-in",
+"kind": "list",
+"max": 30,
+"mt": "L'arrivée s'effectue avant l'enregistrement",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Arrival is after check-in",
+"kind": "list",
+"max": 30,
+"mt": "L'arrivée s'effectue après l'enregistrement",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Some steps are late",
+"kind": "list",
+"max": 30,
+"mt": "Certaines étapes sont en retard",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "All dates are ahead",
+"kind": "list",
+"max": 30,
+"mt": "Toutes les dates sont en avance",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Insurance premiums, disruption costs and supplier refunds",
+"kind": "title",
+"max": 60,
+"mt": "Primes d'assurance, frais de perturbation et remboursements des fournisseurs",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Extra cost of disruptions",
+"kind": "label",
+"max": 30,
+"mt": "Coût supplémentaire des perturbations",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Net cost of a rebooking for the client and the agency",
+"kind": "title",
+"max": 60,
+"mt": "Coût net d'une nouvelle réservation pour le client et l'agence",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Packing advice from the weather and the trip length",
+"kind": "title",
+"max": 60,
+"mt": "Conseils d'emballage en fonction de la météo et de la durée du voyage",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Documents ready on time for lead days and reminders",
+"kind": "title",
+"max": 60,
+"mt": "Documents prêts à temps pour les jours de livraison et les rappels",
+"why": "too long: 66 characters, the limit is 60"
+}
+]

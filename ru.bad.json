@@ -1,0 +1,163 @@
+[
+{
+"en": "Write each client profile on Client Profiles, each preference on Travel Preferences and each person who travels with them on Companions.",
+"kind": "sentence",
+"max": null,
+"mt": "Запишите каждый профиль клиента в Профили клиентов, каждое предпочтение в Предпочтения путешествия и каждого человека, который путешествует с ними, в Companions.",
+"why": "English/Latin words left: Companions."
+},
+{
+"en": "Log every contact on Touchpoints and every note on Client Notes with a follow-up date. Overdue follow-ups and clients without a touch are flagged for you.",
+"kind": "sentence",
+"max": null,
+"mt": "Записывайте каждый контакт в Touchpoints и каждую заметку в Примечания клиента с указанием даты последующего обращения. Вам помечаются просроченные последующие действия и клиенты, к которым не обращаются.",
+"why": "English/Latin words left: Touchpoints"
+},
+{
+"en": "Passport validity and visa lead-time check",
+"kind": "label",
+"max": 50,
+"mt": "Срок действия паспорта и проверка времени получения визы",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "months valid after the return, the last safe expiry date and the visa apply-by date flag a traveller before it is too late",
+"kind": "sentence",
+"max": 160,
+"mt": "месяцев, действительных после возвращения, последняя безопасная дата истечения срока действия и дата подачи заявления на визу предупреждают путешественника, пока не стало слишком поздно.",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "Your time zone, hours from UTC",
+"kind": "setting",
+"max": null,
+"mt": "Ваш часовой пояс, часы от UTC",
+"why": "English/Latin words left: UTC"
+},
+{
+"en": "Passport valid 6 months",
+"kind": "list",
+"max": 30,
+"mt": "Паспорт действителен 6 месяцев.",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Final itinerary sent",
+"kind": "list",
+"max": 30,
+"mt": "Окончательный маршрут отправлен",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Not sent, send now",
+"kind": "list",
+"max": 30,
+"mt": "Не отправлено, отправьте сейчас",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Lead time is too short",
+"kind": "list",
+"max": 30,
+"mt": "Срок выполнения слишком короткий",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Lead time is enough",
+"kind": "list",
+"max": 30,
+"mt": "Времени на выполнение достаточно",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Client pays nothing extra",
+"kind": "list",
+"max": 30,
+"mt": "Клиент ничего не платит дополнительно",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Agency absorbs the cost",
+"kind": "list",
+"max": 30,
+"mt": "Агентство берет на себя расходы",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "One row per voucher or ticket: booking, kind, date it arrived from the supplier and date you sent it; days sent before travel and a send check fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "One row per voucher or ticket: booking, kind, date it arrived from the supplier and date you sent it; days sent before travel and a send check fill in by themselves.",
+"why": "English/Latin words left: One row per voucher"
+},
+{
+"en": "One row per task before a trip leaves: task, due date, who owns it and when it was done; days late and a task check fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "One row per task before a trip leaves: task, due date, who owns it and when it was done; опоздание на несколько дней, и проверка задачи заполняется сама собой.",
+"why": "English/Latin words left: One row per task"
+},
+{
+"en": "One row per briefing: trip, date, kind and the date the notes went out; days before departure, the notes check, the client and the phone fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "One row per briefing: trip, date, kind and the date the notes went out; days before departure, the notes check, the client and the phone fill in by themselves.",
+"why": "English/Latin words left: One row per briefing"
+},
+{
+"en": "Packing and weather notes by destination and season",
+"kind": "title",
+"max": 60,
+"mt": "Packing and weather notes by destination and season",
+"why": "English/Latin words left: Packing and weather notes"
+},
+{
+"en": "Typical planning figures for 40 destination and season pairs, with the note you send; check a current forecast first. Clothing advice, rain advice and trips to the place fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "Typical planning figures for 40 destination and season pairs, with the note you send; сначала проверьте текущий прогноз. Советы по одежде, советы по дождю и поездки на место заполняют сами собой.",
+"why": "English/Latin words left: Typical planning figures for"
+},
+{
+"en": "One row per trip: local contact, hotel, supplier desk and phone numbers, and the time zone of the place; the hours of difference, the client and the advisor phone fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "One row per trip: local contact, hotel, supplier desk and phone numbers, and the time zone of the place; the hours of difference, the client and the advisor phone fill in by themselves.",
+"why": "English/Latin words left: One row per trip"
+},
+{
+"en": "Zone, hours from UTC",
+"kind": "label",
+"max": null,
+"mt": "Зона, часы от UTC",
+"why": "English/Latin words left: UTC"
+},
+{
+"en": "In-trip support cases and time to solve",
+"kind": "title",
+"max": 60,
+"mt": "Обращения в службу поддержки во время поездки и время на решение",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "In-trip support case with time to solve",
+"kind": "title",
+"max": 60,
+"mt": "Обращение в службу поддержки во время поездки с указанием времени на решение",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Visa or entry permit apply-by date",
+"kind": "title",
+"max": 60,
+"mt": "Дата подачи заявления на получение визы или разрешения на въезд",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Packing advice from the weather and the trip length",
+"kind": "title",
+"max": 60,
+"mt": "Советы по упаковке вещей в зависимости от погоды и продолжительности поездки",
+"why": "too long: 76 characters, the limit is 60"
+}
+]

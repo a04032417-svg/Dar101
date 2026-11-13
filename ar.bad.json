@@ -1,0 +1,44 @@
+[
+{
+"en": "Log every contact on Touchpoints and every note on Client Notes with a follow-up date. Overdue follow-ups and clients without a touch are flagged for you.",
+"kind": "sentence",
+"max": null,
+"mt": "قم بتسجيل كل جهة اتصال على Touchpoints وكل ملاحظة على ملاحظات العميل مع تاريخ المتابعة. يتم وضع علامة على المتابعات المتأخرة والعملاء دون لمسة.",
+"why": "English/Latin words left: Touchpoints"
+},
+{
+"en": "Your time zone, hours from UTC",
+"kind": "setting",
+"max": null,
+"mt": "منطقتك الزمنية، ساعات من UTC",
+"why": "English/Latin words left: UTC"
+},
+{
+"en": "Rail or ferry ticket",
+"kind": "list",
+"max": 30,
+"mt": "تذكرة السكك الحديدية أو العبارة",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Passport long enough",
+"kind": "list",
+"max": 30,
+"mt": "جواز السفر طويل بما فيه الكفاية",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Passport is long enough",
+"kind": "list",
+"max": 30,
+"mt": "جواز السفر طويل بما فيه الكفاية",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Zone, hours from UTC",
+"kind": "label",
+"max": null,
+"mt": "المنطقة، ساعات من UTC",
+"why": "English/Latin words left: UTC"
+}
+]

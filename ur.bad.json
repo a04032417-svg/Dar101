@@ -1,0 +1,51 @@
+[
+{
+"en": "Your time zone, hours from UTC",
+"kind": "setting",
+"max": null,
+"mt": "آپ کا ٹائم زون، UTC سے گھنٹے",
+"why": "English/Latin words left: UTC"
+},
+{
+"en": "Declined, offer another",
+"kind": "list",
+"max": 30,
+"mt": "مسترد کر دیا، دوسری پیشکش کریں۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "All requests answered",
+"kind": "list",
+"max": 30,
+"mt": "تمام درخواستوں کا جواب دیا گیا۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client pays nothing extra",
+"kind": "list",
+"max": 30,
+"mt": "کلائنٹ کوئی اضافی ادائیگی نہیں کرتا ہے۔",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Client pays the change",
+"kind": "list",
+"max": 30,
+"mt": "کلائنٹ تبدیلی کی ادائیگی کرتا ہے۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Req ID",
+"kind": "label",
+"max": null,
+"mt": "Req ID",
+"why": "English/Latin words left: Req"
+},
+{
+"en": "Zone, hours from UTC",
+"kind": "label",
+"max": null,
+"mt": "زون، UTC سے گھنٹے",
+"why": "English/Latin words left: UTC"
+}
+]

@@ -1,0 +1,37 @@
+[
+{
+"en": "Your time zone, hours from UTC",
+"kind": "setting",
+"max": null,
+"mt": "आपका समय क्षेत्र, UTC से घंटे",
+"why": "English/Latin words left: UTC"
+},
+{
+"en": "Final itinerary sent",
+"kind": "list",
+"max": 30,
+"mt": "अंतिम यात्रा कार्यक्रम भेजा गया",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Declined, offer another",
+"kind": "list",
+"max": 30,
+"mt": "अस्वीकार कर दिया, दूसरा प्रस्ताव दें",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Client pays nothing extra",
+"kind": "list",
+"max": 30,
+"mt": "ग्राहक कुछ भी अतिरिक्त भुगतान नहीं करता",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Client pays the change",
+"kind": "list",
+"max": 30,
+"mt": "ग्राहक परिवर्तन का भुगतान करता है",
+"why": "too long: 33 characters, the limit is 30"
+}
+]
