@@ -6,7 +6,7 @@ usage: suite_pack.py <suite.json> <parts_dir> <out_dir>
   spec of each part: build/<suite>/<part>.json (for sheet names, hints and translations)
 Writes out_dir/<Suite>-<n>-workbooks-15-languages.zip (one folder per part) and, for every language, out_dir/images/<lang>/:
   00-cover.png (the suite: its workbooks, page counts, a picture of each), 01-inside-<k>.png (every page of every workbook, named in that
-  language, with what each workbook is for), then the parts' own pictures in the order Whop/Etsy show them: gallery.json lists 8 per language."""
+  language, with what each workbook is for), then the parts' own pictures; gallery.json lists 8 per language = the big hero picture of each workbook (style of the first products, owner 2026-11-13)."""
 import sys, os, json, zipfile, re, html, shutil
 HERE = os.path.dirname(os.path.abspath(__file__)); ENGINE = os.path.join(os.path.dirname(HERE), 'engine'); sys.path.insert(0, ENGINE)
 import board as B
@@ -82,15 +82,18 @@ def main(suite_json, parts_dir, out):
                          f'<div style="font-size:22px;color:#3E5068;margin:6px 0 12px">{E(tg)}</div><div>{chips}</div></div>')
             pages.append((f'01-inside-{k // 3 + 1}', B.page(E(title), E(S['inside_h1'].get(lang, S['inside_h1']['en'])), E(note), [], body)))
         imgs = B.shoot(pages, os.path.join(out, 'images', lang), lang_head(lang))
-        # gallery: cover, inside, then each part's hero picture, 8 at most (Whop's limit)
-        g = [os.path.relpath(x, out) for x in imgs]
-        for i, (p, spec, z, res) in enumerate(parts, 1):
-            src = os.path.join(parts_dir, p, 'images', '' if lang == 'en' else lang)
-            if os.path.isdir(src):
-                hero = next((f for f in sorted(os.listdir(src)) if f.startswith('01-')), None)
-                if hero:
-                    dst = os.path.join(out, 'images', lang, f'1{i}-part{i}-{hero}'); shutil.copy(os.path.join(src, hero), dst); g.append(os.path.relpath(dst, out))
-        gallery[lang] = g[:2] + g[len(imgs):][:6]
+        # gallery (2026-11-13, the owner: «من قال إنني اريد شبكة؟ قلت لك نفس المنتجات الأولية» -> answer «نعم، للقادمة فقط»):
+        # 8 pictures in the style of the first single-workbook products: the big hero picture of each workbook, in order.
+        # No grid cover, no list page in the gallery (00-cover / 01-inside stay in images/<lang>/ but are not shown).
+        # Fewer than 8 workbooks: fill with each workbook's dashboard, then charts picture.
+        g = []
+        for pre in ('01-', '03-', '02-'):
+            for i, (p, spec, z, res) in enumerate(parts, 1):
+                src = os.path.join(parts_dir, p, 'images', '' if lang == 'en' else lang)
+                f = next((f for f in sorted(os.listdir(src)) if f.startswith(pre)), None) if os.path.isdir(src) else None
+                if f and len(g) < 8:
+                    dst = os.path.join(out, 'images', lang, f'{len(g) + 10}-part{i}-{f}'); shutil.copy(os.path.join(src, f), dst); g.append(os.path.relpath(dst, out))
+        gallery[lang] = g
         shutil.rmtree(work, ignore_errors=True)
     json.dump({'zip': zname, 'gallery': gallery}, open(os.path.join(out, 'gallery.json'), 'w'), ensure_ascii=False, indent=1)
     print(json.dumps({'ok': True, 'zip': zname, 'mb': round(os.path.getsize(zp) / 1e6, 1), 'languages': len(gallery)}))
