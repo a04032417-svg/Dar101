@@ -1,0 +1,282 @@
+[
+{
+"en": "FF&E invoices to the client are compared with what was ordered so you never bill far behind or ahead",
+"kind": "sentence",
+"max": 160,
+"mt": "Счета-фактуры на мебель, сантехнику и оборудование, выставляемые клиенту, сравниваются с тем, что было заказано, поэтому вы никогда не выставите счет слишком поздно или вперед.",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Maker out of stock",
+"kind": "list",
+"max": 30,
+"mt": "Производитель закончился на складе",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Delivery date or address changed",
+"kind": "list",
+"max": 30,
+"mt": "Дата доставки или адрес изменены",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Wrong finish sent back",
+"kind": "list",
+"max": 30,
+"mt": "Неправильная отделка отправлена обратно",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "White Glove Freight Co",
+"kind": "list",
+"max": 30,
+"mt": "Грузовая компания «Белые перчатки»",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Billed ahead of orders",
+"kind": "list",
+"max": 30,
+"mt": "Оплата производится перед заказом",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Over the FF&E budget",
+"kind": "list",
+"max": 30,
+"mt": "Превышение бюджета на мебель, сантехнику и оборудование",
+"why": "too long: 55 characters, the limit is 30"
+},
+{
+"en": "Within the FF&E budget",
+"kind": "list",
+"max": 30,
+"mt": "В рамках бюджета на мебель, сантехнику и оборудование",
+"why": "too long: 53 characters, the limit is 30"
+},
+{
+"en": "Balance due soon",
+"kind": "list",
+"max": 30,
+"mt": "Остаток должен быть оплачен в ближайшее время",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Covered by client receipts",
+"kind": "list",
+"max": 30,
+"mt": "Покрывается за счет клиентских чеков",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Short before client receipts",
+"kind": "list",
+"max": 30,
+"mt": "Незадолго до поступления клиентов",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Order within the warn days",
+"kind": "list",
+"max": 30,
+"mt": "Заказ в течение дней предупреждения",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Vendor A offers the best value",
+"kind": "list",
+"max": 30,
+"mt": "Поставщик А предлагает лучшую цену",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Vendor B offers the best value",
+"kind": "list",
+"max": 30,
+"mt": "Поставщик Б предлагает лучшее соотношение цены и качества.",
+"why": "too long: 58 characters, the limit is 30"
+},
+{
+"en": "Purchase orders with trade cost, client price and payments",
+"kind": "title",
+"max": 60,
+"mt": "Заказы на поставку с торговой стоимостью, ценой клиента и платежами",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Approved items waiting to be ordered with the order-by date",
+"kind": "title",
+"max": 60,
+"mt": "Утвержденные товары, ожидающие заказа, с датой окончания заказа",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Vendor payments with due date, days late and open amount",
+"kind": "title",
+"max": 60,
+"mt": "Платежи поставщикам со сроком оплаты, днями задержки и открытой суммой",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Vendor quotes with validity and days to expiry",
+"kind": "title",
+"max": 60,
+"mt": "Котировки поставщиков с указанием срока действия и дней до истечения срока действия",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Back-orders and delays with new promise and client notice",
+"kind": "title",
+"max": 60,
+"mt": "Недозаказы и задержки с новыми обещаниями и уведомлением клиента",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Projects with lead, status, FF&E budget and ordered value",
+"kind": "title",
+"max": 60,
+"mt": "Проекты с указанием проекта, статуса, мебели, сантехники и оборудования, бюджета и заказанной стоимости.",
+"why": "too long: 104 characters, the limit is 60"
+},
+{
+"en": "FF&E invoices to the client against what was ordered",
+"kind": "title",
+"max": 60,
+"mt": "Счета-фактуры на мебель, сантехнику и оборудование, выставляемые клиенту в соответствии с заказанным",
+"why": "too long: 100 characters, the limit is 60"
+},
+{
+"en": "Freight and handling with quote, actual and insurance",
+"kind": "title",
+"max": 60,
+"mt": "Фрахтование и погрузочно-разгрузочные работы с ценой, фактической и страховкой",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Lead time book by vendor category with buffer",
+"kind": "title",
+"max": 60,
+"mt": "Книга времени выполнения заказов по категориям поставщиков с буфером",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Cancelled and changed orders with fee and net change",
+"kind": "title",
+"max": 60,
+"mt": "Отмененные и измененные заказы с комиссией и чистым изменением",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Reorder and top-up list for short or damaged items",
+"kind": "title",
+"max": 60,
+"mt": "Список повторного заказа и пополнения для коротких или поврежденных товаров",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Weekly calendar with deposits, balances and cash needed",
+"kind": "title",
+"max": 60,
+"mt": "Еженедельный календарь с депозитами, остатками и необходимыми наличными",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Team with roles, hour cost, bill rate and projects led",
+"kind": "title",
+"max": 60,
+"mt": "Команда с ролями, стоимостью часа, ставкой счета и возглавляемыми проектами",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Order value at trade cost",
+"kind": "label",
+"max": 30,
+"mt": "Стоимость заказа по торговой себестоимости",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Order value at client price",
+"kind": "label",
+"max": 30,
+"mt": "Стоимость заказа по цене клиента",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Vendor payments due",
+"kind": "label",
+"max": 30,
+"mt": "Причитающиеся платежи поставщикам",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Quote request with validity and expiry check",
+"kind": "title",
+"max": 60,
+"mt": "Запрос котировок с проверкой действительности и срока действия",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Vendor payment with due date and days late",
+"kind": "title",
+"max": 60,
+"mt": "Платеж поставщику со сроком оплаты и опозданием на несколько дней",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Purchase order total with deposit and client price",
+"kind": "title",
+"max": 60,
+"mt": "Общая сумма заказа на покупку с учетом депозита и цены клиента",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Latest order date from the needed-by date and the lead time",
+"kind": "title",
+"max": 60,
+"mt": "Последняя дата заказа с учетом необходимой даты и времени выполнения",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Cash needed for vendor payments before the client pays",
+"kind": "title",
+"max": 60,
+"mt": "Денежные средства, необходимые для оплаты поставщикам до оплаты клиента",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Wait, substitute or split when an item is back-ordered",
+"kind": "title",
+"max": 60,
+"mt": "Подождите, замените или разделите товар, если товар заказан повторно.",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Landed cost per item and the client price to quote",
+"kind": "title",
+"max": 60,
+"mt": "Конечная стоимость за единицу товара и цена клиента для предложения",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Saving and yearly return of paying a vendor balance early",
+"kind": "title",
+"max": 60,
+"mt": "Сохранение и ежегодный возврат досрочной оплаты баланса поставщика",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Order value this year against the vendor discount tiers",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость заказа в этом году по сравнению с уровнями скидок поставщиков",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "One purchase order or two, by lead time",
+"kind": "title",
+"max": 60,
+"mt": "Один или два заказа на поставку, в зависимости от времени выполнения",
+"why": "too long: 68 characters, the limit is 60"
+}
+]

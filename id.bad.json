@@ -1,0 +1,310 @@
+[
+{
+"en": "Order-by date from the needed-by date",
+"kind": "label",
+"max": 50,
+"mt": "Tanggal pemesanan berdasarkan tanggal yang dibutuhkan",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Customs or port hold",
+"kind": "list",
+"max": 30,
+"mt": "Bea Cukai atau pelabuhan ditahan",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Finish or fabric unavailable",
+"kind": "list",
+"max": 30,
+"mt": "Selesai atau kain tidak tersedia",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Vendor moved the promise date",
+"kind": "list",
+"max": 30,
+"mt": "Vendor memindahkan tanggal janji",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Delivery date or address changed",
+"kind": "list",
+"max": 30,
+"mt": "Tanggal pengiriman atau alamat diubah",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Returned unused",
+"kind": "list",
+"max": 30,
+"mt": "Dikembalikan dalam keadaan tidak terpakai",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Wrong finish sent back",
+"kind": "list",
+"max": 30,
+"mt": "Hasil akhir yang salah dikirim kembali",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Sample approved after the order",
+"kind": "list",
+"max": 30,
+"mt": "Sampel disetujui setelah pesanan",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "White Glove Freight Co",
+"kind": "list",
+"max": 30,
+"mt": "co pengiriman sarung tangan putih",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Reorder not placed",
+"kind": "list",
+"max": 30,
+"mt": "Penyusunan ulang tidak dilakukan",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Over the FF&E budget",
+"kind": "list",
+"max": 30,
+"mt": "Atas anggaran furnitur, perlengkapan dan perlengkapan",
+"why": "too long: 53 characters, the limit is 30"
+},
+{
+"en": "Within the FF&E budget",
+"kind": "list",
+"max": 30,
+"mt": "Sesuai anggaran furnitur, perlengkapan dan peralatan",
+"why": "too long: 52 characters, the limit is 30"
+},
+{
+"en": "Covered by client receipts",
+"kind": "list",
+"max": 30,
+"mt": "Dilindungi oleh tanda terima klien",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Short before client receipts",
+"kind": "list",
+"max": 30,
+"mt": "Sesaat sebelum tanda terima klien",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Vendor A offers the best value",
+"kind": "list",
+"max": 30,
+"mt": "Vendor A menawarkan nilai terbaik",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Vendor B offers the best value",
+"kind": "list",
+"max": 30,
+"mt": "Vendor B menawarkan nilai terbaik",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Delay is absorbed by the schedule",
+"kind": "list",
+"max": 30,
+"mt": "Keterlambatan diserap oleh jadwal",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Freight above the usual share",
+"kind": "list",
+"max": 30,
+"mt": "Pengangkutan di atas porsi biasanya",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Purchase orders with trade cost, client price and payments",
+"kind": "title",
+"max": 60,
+"mt": "Pesanan pembelian dengan biaya perdagangan, harga klien, dan pembayaran",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Order lines with trade cost, client price and margin",
+"kind": "title",
+"max": 60,
+"mt": "Jalur pemesanan dengan biaya perdagangan, harga klien, dan margin",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Approved items waiting to be ordered with the order-by date",
+"kind": "title",
+"max": 60,
+"mt": "Barang yang disetujui menunggu untuk dipesan dengan tanggal pemesanan",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Vendor payments with due date, days late and open amount",
+"kind": "title",
+"max": 60,
+"mt": "Pembayaran vendor dengan tanggal jatuh tempo, hari terlambat dan jumlah terbuka",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Vendor deposits and balances due by vendor and month",
+"kind": "title",
+"max": 60,
+"mt": "Setoran dan saldo vendor jatuh tempo menurut vendor dan bulan",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Back-orders and delays with new promise and client notice",
+"kind": "title",
+"max": 60,
+"mt": "Pemesanan kembali dan penundaan dengan janji baru dan pemberitahuan klien",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Projects with lead, status, FF&E budget and ordered value",
+"kind": "title",
+"max": 60,
+"mt": "Proyek dengan prospek, status, furnitur, perlengkapan dan anggaran peralatan serta nilai yang dipesan",
+"why": "too long: 101 characters, the limit is 60"
+},
+{
+"en": "Orders by project with margin and what is not yet ordered",
+"kind": "title",
+"max": 60,
+"mt": "Pesanan berdasarkan proyek dengan margin dan apa yang belum dipesan",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "FF&E invoices to the client against what was ordered",
+"kind": "title",
+"max": 60,
+"mt": "faktur furnitur, perlengkapan dan peralatan kepada klien sesuai dengan apa yang dipesan",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Freight and handling with quote, actual and insurance",
+"kind": "title",
+"max": 60,
+"mt": "Pengangkutan dan penanganan dengan penawaran, aktual dan asuransi",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Cancelled and changed orders with fee and net change",
+"kind": "title",
+"max": 60,
+"mt": "Membatalkan dan mengubah pesanan dengan biaya dan kembalian bersih",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Credits and returns with amount and open credit flag",
+"kind": "title",
+"max": 60,
+"mt": "Kredit dan pengembalian dengan jumlah dan tanda kredit terbuka",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Reorder and top-up list for short or damaged items",
+"kind": "title",
+"max": 60,
+"mt": "Susun ulang dan daftar isi ulang untuk barang-barang yang pendek atau rusak",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Weekly calendar with deposits, balances and cash needed",
+"kind": "title",
+"max": 60,
+"mt": "Kalender mingguan dengan setoran, saldo, dan uang tunai yang dibutuhkan",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Team with roles, hour cost, bill rate and projects led",
+"kind": "title",
+"max": 60,
+"mt": "Tim dengan peran, biaya jam, tarif tagihan, dan proyek yang dipimpin",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Order value at trade cost",
+"kind": "label",
+"max": 30,
+"mt": "Nilai pesanan dengan biaya perdagangan",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Order value at client price",
+"kind": "label",
+"max": 30,
+"mt": "Nilai pesanan dengan harga klien",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Quote request with validity and expiry check",
+"kind": "title",
+"max": 60,
+"mt": "Permintaan penawaran dengan pemeriksaan validitas dan kedaluwarsa",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Vendor payment with due date and days late",
+"kind": "title",
+"max": 60,
+"mt": "Pembayaran vendor dengan tanggal jatuh tempo dan hari terlambat",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Deposit and balance dates and amounts for one purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Tanggal dan jumlah penyetoran dan saldo untuk satu pesanan pembelian",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Latest order date from the needed-by date and the lead time",
+"kind": "title",
+"max": 60,
+"mt": "Tanggal pemesanan terbaru dari tanggal yang dibutuhkan dan waktu tunggu",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Cash needed for vendor payments before the client pays",
+"kind": "title",
+"max": 60,
+"mt": "Uang tunai diperlukan untuk pembayaran vendor sebelum klien membayar",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Effect of a late delivery on installation and handover",
+"kind": "title",
+"max": 60,
+"mt": "Pengaruh keterlambatan pengiriman pada pemasangan dan serah terima",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Wait, substitute or split when an item is back-ordered",
+"kind": "title",
+"max": 60,
+"mt": "Tunggu, gantikan atau pisahkan ketika suatu barang dipesan kembali",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Landed freight from weight, carrier rates and insurance",
+"kind": "title",
+"max": 60,
+"mt": "Pengangkutan mendarat dari berat, tarif pengangkut dan asuransi",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Saving and yearly return of paying a vendor balance early",
+"kind": "title",
+"max": 60,
+"mt": "Penghematan dan pengembalian tahunan dengan membayar saldo vendor lebih awal",
+"why": "too long: 76 characters, the limit is 60"
+}
+]

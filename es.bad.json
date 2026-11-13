@@ -1,0 +1,317 @@
+[
+{
+"en": "Rooms over budget by room type",
+"kind": "title",
+"max": 60,
+"mt": "Habitaciones por encima del presupuesto por tipo de habitación",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Order-by date from the needed-by date",
+"kind": "label",
+"max": 50,
+"mt": "Fecha de caducidad desde la fecha de caducidad necesaria",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Vendor moved the promise date",
+"kind": "list",
+"max": 30,
+"mt": "El proveedor movió la fecha prometida",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Delivery date or address changed",
+"kind": "list",
+"max": 30,
+"mt": "Fecha de entrega o dirección cambiada",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Sample approved after the order",
+"kind": "list",
+"max": 30,
+"mt": "Muestra aprobada después del pedido.",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "White Glove Freight Co",
+"kind": "list",
+"max": 30,
+"mt": "Compañía de carga de guante blanco",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Over the FF&E budget",
+"kind": "list",
+"max": 30,
+"mt": "Sobre el presupuesto de muebles, accesorios y equipos.",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Within the FF&E budget",
+"kind": "list",
+"max": 30,
+"mt": "Dentro del presupuesto de mobiliario, enseres y equipos",
+"why": "too long: 55 characters, the limit is 30"
+},
+{
+"en": "Lead time on plan",
+"kind": "list",
+"max": 30,
+"mt": "Plazo de entrega según lo previsto",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Covered by client receipts",
+"kind": "list",
+"max": 30,
+"mt": "Cubierto por recibos de clientes.",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Short before client receipts",
+"kind": "list",
+"max": 30,
+"mt": "Poco antes de los recibos del cliente",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Order within the warn days",
+"kind": "list",
+"max": 30,
+"mt": "Orden dentro de los días de advertencia",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Take the early discount",
+"kind": "list",
+"max": 30,
+"mt": "Aprovecha el descuento anticipado",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Vendor A offers the best value",
+"kind": "list",
+"max": 30,
+"mt": "El proveedor A ofrece el mejor valor",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Vendor B offers the best value",
+"kind": "list",
+"max": 30,
+"mt": "El proveedor B ofrece el mejor valor",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Delay is absorbed by the schedule",
+"kind": "list",
+"max": 30,
+"mt": "El retraso es absorbido por el horario.",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Freight within the usual share",
+"kind": "list",
+"max": 30,
+"mt": "Flete dentro de la cuota habitual.",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Freight above the usual share",
+"kind": "list",
+"max": 30,
+"mt": "Flete por encima de la cuota habitual",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Purchase orders with trade cost, client price and payments",
+"kind": "title",
+"max": 60,
+"mt": "Órdenes de compra con costo comercial, precio al cliente y pagos.",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Order lines with trade cost, client price and margin",
+"kind": "title",
+"max": 60,
+"mt": "Líneas de orden con costo comercial, precio de cliente y margen.",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Approved items waiting to be ordered with the order-by date",
+"kind": "title",
+"max": 60,
+"mt": "Artículos aprobados en espera de ser ordenados con fecha de caducidad",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Vendor payments with due date, days late and open amount",
+"kind": "title",
+"max": 60,
+"mt": "Pagos a proveedores con fecha de vencimiento, días de retraso y monto pendiente",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Vendor deposits and balances due by vendor and month",
+"kind": "title",
+"max": 60,
+"mt": "Depósitos de proveedores y saldos adeudados por proveedor y mes",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Vendor accounts with discount, terms and open balance",
+"kind": "title",
+"max": 60,
+"mt": "Cuentas de proveedores con descuento, términos y saldo abierto",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Vendor quotes with validity and days to expiry",
+"kind": "title",
+"max": 60,
+"mt": "Cotizaciones de proveedores con vigencia y días hasta el vencimiento",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Back-orders and delays with new promise and client notice",
+"kind": "title",
+"max": 60,
+"mt": "Pedidos pendientes y retrasos con nueva promesa y aviso al cliente",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Projects with lead, status, FF&E budget and ordered value",
+"kind": "title",
+"max": 60,
+"mt": "Proyectos con presupuesto de plomo, estado, muebles, accesorios y equipos y valor ordenado.",
+"why": "too long: 91 characters, the limit is 60"
+},
+{
+"en": "FF&E invoices to the client against what was ordered",
+"kind": "title",
+"max": 60,
+"mt": "Facturas de muebles, accesorios y equipos al cliente contra lo ordenado.",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Lead time book by vendor category with buffer",
+"kind": "title",
+"max": 60,
+"mt": "Libro de plazos de entrega por categoría de proveedor con buffer",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Credits and returns with amount and open credit flag",
+"kind": "title",
+"max": 60,
+"mt": "Créditos y devoluciones con importe y bandera de crédito abierto",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Weekly calendar with deposits, balances and cash needed",
+"kind": "title",
+"max": 60,
+"mt": "Calendario semanal con depósitos, saldos y efectivo necesario.",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Team with roles, hour cost, bill rate and projects led",
+"kind": "title",
+"max": 60,
+"mt": "Equipo con roles, costo de horas, tarifa de facturación y proyectos liderados.",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Order value, client price, margin and vendor payments",
+"kind": "title",
+"max": 60,
+"mt": "Valor del pedido, precio del cliente, margen y pagos a proveedores",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Order value at trade cost",
+"kind": "label",
+"max": 30,
+"mt": "Valor del pedido al costo comercial",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Order value at client price",
+"kind": "label",
+"max": 30,
+"mt": "Valor del pedido a precio del cliente",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Quote request with validity and expiry check",
+"kind": "title",
+"max": 60,
+"mt": "Solicitud de cotización con verificación de validez y vencimiento.",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Vendor payment with due date and days late",
+"kind": "title",
+"max": 60,
+"mt": "Pago a proveedores con fecha de vencimiento y días de retraso",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Purchase order total with deposit and client price",
+"kind": "title",
+"max": 60,
+"mt": "Total de la orden de compra con depósito y precio del cliente",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Latest order date from the needed-by date and the lead time",
+"kind": "title",
+"max": 60,
+"mt": "Última fecha del pedido a partir de la fecha de caducidad y el plazo de entrega",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Cash needed for vendor payments before the client pays",
+"kind": "title",
+"max": 60,
+"mt": "Efectivo necesario para pagos a proveedores antes de que pague el cliente",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Wait, substitute or split when an item is back-ordered",
+"kind": "title",
+"max": 60,
+"mt": "Espere, sustituya o divida cuando un artículo esté pendiente de entrega",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Landed freight from weight, carrier rates and insurance",
+"kind": "title",
+"max": 60,
+"mt": "Flete desembarcado según peso, tarifas del transportista y seguro.",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Saving and yearly return of paying a vendor balance early",
+"kind": "title",
+"max": 60,
+"mt": "Ahorro y retorno anual por pagar anticipadamente un saldo de proveedor",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Order value this year against the vendor discount tiers",
+"kind": "title",
+"max": 60,
+"mt": "Valor del pedido este año frente a los niveles de descuento del proveedor",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Weeks of slip and cost of a day against the handover",
+"kind": "title",
+"max": 60,
+"mt": "Semanas de deslizamiento y coste de un día contra la entrega.",
+"why": "too long: 61 characters, the limit is 60"
+}
+]
