@@ -1,0 +1,156 @@
+[
+{
+"en": "Receivables with the expected payment date",
+"kind": "label",
+"max": 50,
+"mt": "Дебиторская задолженность с ожидаемой датой платежа",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Payables run with due and overdue flags",
+"kind": "label",
+"max": 50,
+"mt": "Кредиторская задолженность отображается с пометками «просрочено» и «просрочено».",
+"why": "too long: 80 characters, the limit is 50"
+},
+{
+"en": "Tax instalments and fuel tax by region",
+"kind": "label",
+"max": 50,
+"mt": "Налоговые отчисления и налог на топливо по регионам",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "twelve offers with loan, payment, interest, added fixed cost, profit after the added cost and the cash left after the deposit",
+"kind": "sentence",
+"max": 160,
+"mt": "двенадцать предложений с кредитом, выплатой, процентами, добавленной фиксированной стоимостью, прибылью после добавленной стоимости и денежными средствами, оставшимися после депозита",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "Communication and software",
+"kind": "list",
+"max": 30,
+"mt": "Связь и программное обеспечение",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Driver training and gear",
+"kind": "list",
+"max": 30,
+"mt": "Обучение водителей и экипировка",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Truck-stop meals and lodging",
+"kind": "list",
+"max": 30,
+"mt": "Питание и проживание на стоянке грузовика",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Kestrel Load Brokers",
+"kind": "list",
+"max": 30,
+"mt": "Брокеры нагрузки Kestrel",
+"why": "English/Latin words left: Kestrel"
+},
+{
+"en": "Summit Lane Brokerage",
+"kind": "list",
+"max": 30,
+"mt": "Брокерская компания Summit Lane",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Bluewater Load Partners",
+"kind": "list",
+"max": 30,
+"mt": "Партнеры по загрузке Bluewater",
+"why": "English/Latin words left: Bluewater"
+},
+{
+"en": "Oakfield Brokerage",
+"kind": "list",
+"max": 30,
+"mt": "Брокерская деятельность в Окфилде",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Tidewater Load Desk",
+"kind": "list",
+"max": 30,
+"mt": "Погрузочная стойка Tidewater",
+"why": "English/Latin words left: Tidewater"
+},
+{
+"en": "Greenfield Produce Packers",
+"kind": "list",
+"max": 30,
+"mt": "Упаковщики продукции Greenfield",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Larkspur Beverage Distribution",
+"kind": "list",
+"max": 30,
+"mt": "Дистрибьюция напитков Larkspur",
+"why": "English/Latin words left: Larkspur"
+},
+{
+"en": "Copperline Steel Stockists",
+"kind": "list",
+"max": 30,
+"mt": "Продавцы стали Copperline",
+"why": "English/Latin words left: Copperline"
+},
+{
+"en": "Cash forecast for 13 weeks from receipts and payments",
+"kind": "title",
+"max": 60,
+"mt": "Прогноз денежных средств на 13 недель от поступлений и платежей",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: revenue and cost per km against profit",
+"kind": "title",
+"max": 60,
+"mt": "Сеть «что, если»: выручка и стоимость километра в сравнении с прибылью",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Budget check for {category}: {state}. Actual over 12 months {actual_12m}, variance {variance}.",
+"kind": "message",
+"max": null,
+"mt": "Проверка бюджета для {category}: {state}. Фактически за 12 месяцев {actual_12m}, отклонение {variance}.",
+"why": "English/Latin words left: actual"
+},
+{
+"en": "Owner: replace TR-05 decision pack",
+"kind": "label",
+"max": null,
+"mt": "Владелец: заменить пакет решений TR-05",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "Decision pack for TR-05: \"{option}\" costs {payment} per month for {months} months, interest {interest_total}, start {start}.",
+"kind": "message",
+"max": null,
+"mt": "Пакет решений для TR-05: «{option}» стоит {payment} в месяц в течение {months} месяцев, проценты {interest_total}, начало {start}.",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "Receivables and payables summary for an invoice",
+"kind": "title",
+"max": 60,
+"mt": "Сводка дебиторской и кредиторской задолженности по счету-фактуре",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Compare offers on Truck Purchase Plan and Growth Scenarios before you replace TR-05 or add a truck; read the profit after the added cost and the cash left after the deposit.",
+"kind": "sentence",
+"max": null,
+"mt": "Сравните предложения по План покупки грузовика и Сценарии роста, прежде чем заменять TR-05 или добавлять грузовик; прочтите прибыль после добавленной стоимости и наличные, оставшиеся после депозита.",
+"why": "English/Latin words left: TR"
+}
+]

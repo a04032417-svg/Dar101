@@ -1,0 +1,261 @@
+[
+{
+"en": "Open Start and type your company name, your planning cost per km, your wanted and lowest margin, the km one truck should drive per month and the cost of an hour of waiting time in the yellow cells.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت خود، هزینه برنامه ریزی خود را در هر کیلومتر، کمترین حاشیه سود، کیلومتری که یک کامیون در ماه طی می کند و هزینه یک ساعت انتظار در سلول های زرد را تایپ کنید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Truck-stop meals and lodging",
+"kind": "list",
+"max": 30,
+"mt": "وعده های غذایی و اقامتگاه در ایستگاه کامیون",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Ironbridge Freight Agents",
+"kind": "list",
+"max": 30,
+"mt": "نمایندگی های باربری Ironbridge",
+"why": "English/Latin words left: Ironbridge"
+},
+{
+"en": "Oakfield Brokerage",
+"kind": "list",
+"max": 30,
+"mt": "کارگزاری Oakfield",
+"why": "English/Latin words left: Oakfield"
+},
+{
+"en": "Greenfield Produce Packers",
+"kind": "list",
+"max": 30,
+"mt": "گرین‌فیلد بسته‌بندی‌کننده‌ها را تولید می‌کند",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Larkspur Beverage Distribution",
+"kind": "list",
+"max": 30,
+"mt": "توزیع نوشیدنی Larkspur",
+"why": "English/Latin words left: Larkspur"
+},
+{
+"en": "TR-01",
+"kind": "list",
+"max": 30,
+"mt": "TR-01",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-02",
+"kind": "list",
+"max": 30,
+"mt": "TR-02",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-03",
+"kind": "list",
+"max": 30,
+"mt": "TR-03",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-04",
+"kind": "list",
+"max": 30,
+"mt": "TR-04",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-05",
+"kind": "list",
+"max": 30,
+"mt": "TR-05",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-06",
+"kind": "list",
+"max": 30,
+"mt": "TR-06",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-07",
+"kind": "list",
+"max": 30,
+"mt": "TR-07",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-08",
+"kind": "list",
+"max": 30,
+"mt": "TR-08",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TL-01",
+"kind": "list",
+"max": 30,
+"mt": "TL-01",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-02",
+"kind": "list",
+"max": 30,
+"mt": "TL-02",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-03",
+"kind": "list",
+"max": 30,
+"mt": "TL-03",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-04",
+"kind": "list",
+"max": 30,
+"mt": "TL-04",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-08",
+"kind": "list",
+"max": 30,
+"mt": "TL-08",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-09",
+"kind": "list",
+"max": 30,
+"mt": "TL-09",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-10",
+"kind": "list",
+"max": 30,
+"mt": "TL-10",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "Matched to",
+"kind": "label",
+"max": null,
+"mt": "مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Replace TR-05",
+"kind": "list",
+"max": 30,
+"mt": "TR-05 را جایگزین کنید",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "Type the expected receipts and payments of each week; the closing balance starts from the bank balance in Start and an under-safety-cash warning appears when it falls below your safety cash.",
+"kind": "sentence",
+"max": null,
+"mt": "دریافت ها و پرداخت های مورد انتظار هر هفته را تایپ کنید. موجودی بسته شدن از موجودی بانکی در Start شروع می‌شود و زمانی که به زیر وجه نقدی شما می‌رسد، یک هشدار عدم ایمنی نقدی ظاهر می‌شود.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Twelve offers to replace TR-05 or add a truck: price, deposit, rate and months; the payment, interest, added fixed cost, profit after cost and cash left after the deposit fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "دوازده پیشنهاد برای جایگزینی TR-05 یا اضافه کردن یک کامیون: قیمت، سپرده، نرخ و ماه. پرداخت، سود، هزینه ثابت اضافه، سود پس از هزینه و وجه نقد باقی مانده پس از پر کردن سپرده.",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "Bank statement lines to match with receipts and payments: the date, the text, the amount and what it matches; the direction, the days open and a check fill in so nothing stays unmatched.",
+"kind": "sentence",
+"max": null,
+"mt": "خطوط صورت‌حساب بانکی برای مطابقت با دریافت‌ها و پرداخت‌ها: تاریخ، متن، مبلغ و آنچه مطابقت دارد. جهت، روزها باز است و چک پر می شود تا هیچ چیز بی بدیل باقی نماند.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Bookkeeper: payments to match this week",
+"kind": "label",
+"max": null,
+"mt": "حسابدار: پرداخت ها برای مطابقت با این هفته",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Bank line {br_id} of {amount} on {date} (\"{text}\") is not matched yet. Please match it this week.",
+"kind": "message",
+"max": null,
+"mt": "خط بانکی {br_id} از {amount} در {date} (\"{text}\") هنوز مطابقت ندارد. لطفا این هفته آن را مطابقت دهید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Budget check for {category}: {state}. Actual over 12 months {actual_12m}, variance {variance}.",
+"kind": "message",
+"max": null,
+"mt": "بررسی بودجه برای {category}: {state}. واقعی بیش از 12 ماه {actual_12m}، واریانس {variance}.",
+"why": "English/Latin words left: actual"
+},
+{
+"en": "Owner: replace TR-05 decision pack",
+"kind": "label",
+"max": null,
+"mt": "مالک: بسته تصمیم TR-05 را جایگزین کنید",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "Decision pack for TR-05: \"{option}\" costs {payment} per month for {months} months, interest {interest_total}, start {start}.",
+"kind": "message",
+"max": null,
+"mt": "بسته تصمیم برای TR-05: هزینه \"{option}\" {payment} در ماه برای {months} ماه، بهره {interest_total}، شروع {start} است.",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "Match the bank statement",
+"kind": "label",
+"max": null,
+"mt": "صورت حساب بانکی را مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match customer receipts to invoices",
+"kind": "label",
+"max": null,
+"mt": "رسیدهای مشتری را با فاکتورها مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match fuel card and loan payments",
+"kind": "label",
+"max": null,
+"mt": "کارت سوخت و پرداخت وام را مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match payroll, tax and draw",
+"kind": "label",
+"max": null,
+"mt": "حقوق و دستمزد، مالیات و قرعه کشی را مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name, your safety cash (the bank balance you never want to go under), your wanted operating margin and the bank balance today in the yellow cells.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت خود، وجه نقد امن خود (موجودی بانکی که هرگز نمی خواهید زیر آن بروید)، حاشیه عملیاتی مورد نظر و موجودی بانک امروزی خود را در سلول های زرد تایپ کنید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Compare offers on Truck Purchase Plan and Growth Scenarios before you replace TR-05 or add a truck; read the profit after the added cost and the cash left after the deposit.",
+"kind": "sentence",
+"max": null,
+"mt": "قبل از جایگزینی TR-05 یا اضافه کردن کامیون، پیشنهادهای طرح خرید کامیون و سناریوهای رشد را مقایسه کنید. سود را بعد از هزینه اضافه و وجه نقد باقی مانده پس از سپرده را بخوانید.",
+"why": "English/Latin words left: TR"
+}
+]

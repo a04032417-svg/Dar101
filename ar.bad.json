@@ -1,0 +1,177 @@
+[
+{
+"en": "Payables run with due and overdue flags",
+"kind": "label",
+"max": 50,
+"mt": "يتم تشغيل الذمم الدائنة مع العلامات المستحقة والمتأخرة",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Truck-stop meals and lodging",
+"kind": "list",
+"max": 30,
+"mt": "وجبات الطعام والإقامة في توقف الشاحنات",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Greenfield Produce Packers",
+"kind": "list",
+"max": 30,
+"mt": "تنتج شركة Greenfield عبوات",
+"why": "English/Latin words left: Greenfield"
+},
+{
+"en": "TR-01",
+"kind": "list",
+"max": 30,
+"mt": "TR-01",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-02",
+"kind": "list",
+"max": 30,
+"mt": "TR-02",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-03",
+"kind": "list",
+"max": 30,
+"mt": "TR-03",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-04",
+"kind": "list",
+"max": 30,
+"mt": "TR-04",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-05",
+"kind": "list",
+"max": 30,
+"mt": "TR-05",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-06",
+"kind": "list",
+"max": 30,
+"mt": "TR-06",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-07",
+"kind": "list",
+"max": 30,
+"mt": "TR-07",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TR-08",
+"kind": "list",
+"max": 30,
+"mt": "TR-08",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "TL-01",
+"kind": "list",
+"max": 30,
+"mt": "TL-01",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-02",
+"kind": "list",
+"max": 30,
+"mt": "TL-02",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-03",
+"kind": "list",
+"max": 30,
+"mt": "TL-03",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-04",
+"kind": "list",
+"max": 30,
+"mt": "TL-04",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-08",
+"kind": "list",
+"max": 30,
+"mt": "TL-08",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-09",
+"kind": "list",
+"max": 30,
+"mt": "TL-09",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-10",
+"kind": "list",
+"max": 30,
+"mt": "TL-10",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "Replace TR-05",
+"kind": "list",
+"max": 30,
+"mt": "استبدل TR-05",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "Twelve offers to replace TR-05 or add a truck: price, deposit, rate and months; the payment, interest, added fixed cost, profit after cost and cash left after the deposit fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "اثنا عشر عرضًا لاستبدال TR-05 أو إضافة شاحنة: السعر والإيداع والسعر والأشهر؛ الدفع والفائدة والتكلفة الثابتة المضافة والربح بعد التكلفة والنقد المتبقي بعد ملء الوديعة.",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "Bank line {br_id} of {amount} on {date} (\"{text}\") is not matched yet. Please match it this week.",
+"kind": "message",
+"max": null,
+"mt": "خط البنك {br_id} من {amount} في {date} (\"{text}\") غير متطابق بعد. يرجى مطابقتها هذا الأسبوع.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Budget check for {category}: {state}. Actual over 12 months {actual_12m}, variance {variance}.",
+"kind": "message",
+"max": null,
+"mt": "فحص الميزانية لـ {category}: {state}. الفعلي على مدى 12 شهرًا {actual_12m}، الفرق {variance}.",
+"why": "English/Latin words left: actual"
+},
+{
+"en": "Owner: replace TR-05 decision pack",
+"kind": "label",
+"max": null,
+"mt": "المالك: استبدال حزمة القرار TR-05",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "Decision pack for TR-05: \"{option}\" costs {payment} per month for {months} months, interest {interest_total}, start {start}.",
+"kind": "message",
+"max": null,
+"mt": "حزمة القرار لـ TR-05: \"{option}\" تكلف {payment} شهريًا لمدة {months} شهرًا، الفائدة {interest_total}، البداية {start}.",
+"why": "English/Latin words left: TR"
+},
+{
+"en": "Compare offers on Truck Purchase Plan and Growth Scenarios before you replace TR-05 or add a truck; read the profit after the added cost and the cash left after the deposit.",
+"kind": "sentence",
+"max": null,
+"mt": "قارن العروض على خطة شراء الشاحنات وسيناريوهات النمو قبل استبدال TR-05 أو إضافة شاحنة؛ اقرأ الربح بعد التكلفة المضافة والمبلغ المتبقي بعد الإيداع.",
+"why": "English/Latin words left: TR"
+}
+]
