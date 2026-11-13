@@ -1,0 +1,37 @@
+[
+{
+"en": "Unpaid over 90 days",
+"kind": "list",
+"max": 30,
+"mt": "غير مدفوعة الأجر لأكثر من 90 يومًا",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Escalate to the host agency",
+"kind": "list",
+"max": 30,
+"mt": "قم بالتصعيد إلى وكالة السفر المضيفة",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "One row per month for the last 14 months: sales, commission and bookings count themselves from Bookings; the commission rate follows.",
+"kind": "sentence",
+"max": null,
+"mt": "صف واحد شهريًا لآخر 14 شهرًا: المبيعات والعمولات والحجوزات تحسب نفسها من Bookings؛ يلي ذلك سعر العمولة.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Type the sales, supplier net, commission, service fee, advisor share, other costs and hours; the host agency share comes from Start; see the net earnings, margin and income per hour.",
+"kind": "sentence",
+"max": null,
+"mt": "اكتب المبيعات، وشبكة الموردين، والعمولة، ورسوم الخدمة، وحصة المستشار، والتكاليف والساعات الأخرى؛ تأتي حصة وكالة السفر المضيفة من Start؛ انظر صافي الأرباح والهامش والدخل في الساعة.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Type the client price, the commission rate, a flat fee and the hours; the host agency share comes from Start; see which earns more, the rate that matches the fee and the income per hour of each.",
+"kind": "sentence",
+"max": null,
+"mt": "اكتب سعر العميل وسعر العمولة والرسوم الثابتة وساعات العمل؛ تأتي حصة وكالة السفر المضيفة من Start؛ انظر من يكسب أكثر، والمعدل الذي يطابق الرسوم والدخل في الساعة لكل منهما.",
+"why": "English/Latin words left: Start"
+}
+]

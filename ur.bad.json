@@ -1,0 +1,30 @@
+[
+{
+"en": "Unpaid over 90 days",
+"kind": "list",
+"max": 30,
+"mt": "90 دنوں سے زیادہ ادائیگی نہیں کی گئی۔",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Spread across suppliers",
+"kind": "list",
+"max": 30,
+"mt": "سپلائی کرنے والوں میں پھیل گیا۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Escalate to the host agency",
+"kind": "list",
+"max": 30,
+"mt": "میزبان ٹریول ایجنسی کی طرف بڑھیں۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Hello, the {kind} with {supplier} on trip {trip_id} has been open {days_open} days. Cost so far {cost}. Please step in.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، ٹرپ پر {supplier} کے ساتھ {kind} {days_open} دن کھلا ہے۔ اب تک کی لاگت {cost}۔ براہ کرم اندر قدم رکھیں۔",
+"why": "placeholders must be exactly: {kind} {supplier} {trip_id} {days_open} {cost}"
+}
+]

@@ -1,0 +1,156 @@
+[
+{
+"en": "Travellers placed and missing by group",
+"kind": "title",
+"max": 60,
+"mt": "Путешественники, размещенные и пропавшие без вести по группам",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Average price per person by booking month",
+"kind": "title",
+"max": 60,
+"mt": "Средняя цена на человека в зависимости от месяца бронирования",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "List every traveller on Travellers with room type, room, passport, dietary need and the amount paid. Then write one line per room on Rooming List.",
+"kind": "sentence",
+"max": null,
+"mt": "Перечислите каждого путешественника в Travelers с указанием типа номера, номера, паспорта, диетических потребностей и уплаченной суммы. Затем напишите по одной строке для каждой комнаты на Список номеров.",
+"why": "English/Latin words left: Travelers"
+},
+{
+"en": "Supplier scorecard with a weighted score",
+"kind": "label",
+"max": 50,
+"mt": "Система показателей поставщика с взвешенной оценкой",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Trip profitability with host share and payout",
+"kind": "label",
+"max": 50,
+"mt": "Рентабельность поездки с долей принимающей стороны и выплатой",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "every late voucher, overbooking or billing error with its cost, days open and whether it was solved in time",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый просроченный ваучер, избыточное бронирование или ошибка выставления счета с указанием его стоимости, количества дней работы и того, была ли проблема решена вовремя",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Missing commission statement",
+"kind": "list",
+"max": 30,
+"mt": "Отсутствует заявление о комиссии",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Service fee earns more",
+"kind": "list",
+"max": 30,
+"mt": "Комиссия за обслуживание приносит больше",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Escalate to the host agency",
+"kind": "list",
+"max": 30,
+"mt": "Эскалация в принимающее туристическое агентство",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Preferred supplier deals with sales against target",
+"kind": "title",
+"max": 60,
+"mt": "Предпочитаемый поставщик совершает продажи против запланированных",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "One row per month for the last 14 months: sales, commission and bookings count themselves from Bookings; the commission rate follows.",
+"kind": "sentence",
+"max": null,
+"mt": "Одна строка в месяц за последние 14 месяцев: продажи, комиссии и бронирования рассчитываются самостоятельно из Bookings; ниже указана ставка комиссии.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Commission, service fees, supplier payments and issue costs",
+"kind": "title",
+"max": 60,
+"mt": "Комиссия, плата за услуги, платежи поставщикам и затраты на эмиссию",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Service fees invoiced",
+"kind": "label",
+"max": 30,
+"mt": "Плата за услуги выставлена на оплату",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Cost of supplier issues",
+"kind": "label",
+"max": 30,
+"mt": "Стоимость вопросов с поставщиками",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Preferred supplier deal with sales against target",
+"kind": "title",
+"max": 60,
+"mt": "Сделка с предпочтительным поставщиком с продажами против запланированного",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Type the four scores from 1 to 5; the weights come from Start; see the weighted score, its rank among all scorecards, the weakest area and whether the supplier meets your minimum.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите четыре балла от 1 до 5; веса берутся из Start; посмотрите взвешенную оценку, ее место среди всех систем показателей, самую слабую область и соответствует ли поставщик вашему минимуму.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Trip profit from sales to net earnings and hourly income",
+"kind": "title",
+"max": 60,
+"mt": "Прибыль от поездки от продаж к чистой прибыли и почасовому доходу",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Type the sales, supplier net, commission, service fee, advisor share, other costs and hours; the host agency share comes from Start; see the net earnings, margin and income per hour.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите объем продаж, сеть поставщиков, комиссию, плату за обслуживание, долю консультанта, другие расходы и часы; доля принимающего туристического агентства поступает от Start; увидеть чистую прибыль, маржу и доход в час.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Commission or a flat service fee on a booking",
+"kind": "title",
+"max": 60,
+"mt": "Комиссия или фиксированная плата за обслуживание при бронировании",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Type the client price, the commission rate, a flat fee and the hours; the host agency share comes from Start; see which earns more, the rate that matches the fee and the income per hour of each.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите цену клиента, ставку комиссии, фиксированную плату и часы; доля принимающего туристического агентства поступает от Start; посмотрите, кто зарабатывает больше, ставку, соответствующую гонорару, и доход за час каждого.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Preferred supplier bonus: earned, needed and projected",
+"kind": "title",
+"max": 60,
+"mt": "Бонус за предпочтение поставщика: заработанный, необходимый и прогнозируемый",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Cost of waived fees against the gain from loyalty",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость отказа от комиссий в сравнении с выгодой от лояльности",
+"why": "too long: 64 characters, the limit is 60"
+}
+]
