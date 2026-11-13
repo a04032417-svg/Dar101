@@ -1,0 +1,23 @@
+[
+{
+"en": "Hello, {comparable} charges {weekday_rate} on weekdays against our {our_rate} for {unit}. I am looking at the price.",
+"kind": "message",
+"max": null,
+"mt": "您好，{comparable} 在工作日向我们的 {our_rate} 收取 {unit} 的费用。我正在看价格。",
+"why": "placeholders must be exactly: {comparable} {weekday_rate} {our_rate} {unit}"
+},
+{
+"en": "Hello {owner}, the average price of a night sold at {name} over 12 months is {adr_12m}, against a base rate of {base_rate}.",
+"kind": "message",
+"max": null,
+"mt": "您好 {owner}，12 个月内在 {name} 出售一晚的平均价格为 {adr_12m}，而基本价格为 {base_rate}。",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the minimum stay for {unit} changes to {weekday_min} nights on weekdays and {weekend_min} on weekends.",
+"kind": "message",
+"max": null,
+"mt": "您好，工作日的最短入住时间为 {unit} 晚，周末为 {weekend_min} 晚。",
+"why": "placeholders must be exactly: {unit} {weekday_min} {weekend_min}"
+}
+]

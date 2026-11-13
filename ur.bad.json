@@ -1,0 +1,44 @@
+[
+{
+"en": "Direct earns the host more",
+"kind": "list",
+"max": 30,
+"mt": "براہ راست میزبان کو زیادہ کماتا ہے۔",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Rate change adds profit",
+"kind": "list",
+"max": 30,
+"mt": "شرح کی تبدیلی منافع میں اضافہ کرتی ہے۔",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Rate change loses profit",
+"kind": "list",
+"max": 30,
+"mt": "شرح کی تبدیلی منافع کو کھو دیتی ہے۔",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Pricing calendar by unit and week with suggested rate",
+"kind": "title",
+"max": 60,
+"mt": "تجویز کردہ شرح کے ساتھ یونٹ اور ہفتہ کے لحاظ سے قیمتوں کا کیلنڈر",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Unit months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "قبضے کے ساتھ یونٹ مہینے، یومیہ کی اوسط شرح اور فی دستیاب رات آمدنی",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, the average price of a night sold at {name} over 12 months is {adr_12m}, against a base rate of {base_rate}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {owner}، 12 مہینوں میں {name} میں فروخت ہونے والی رات کی اوسط قیمت {base_rate} کی بنیادی شرح کے مقابلے میں {adr_12m} ہے۔",
+"why": "English/Latin words left: adr"
+}
+]

@@ -1,0 +1,233 @@
+[
+{
+"en": "Price every unit and every week so no night is sold too cheap",
+"kind": "sentence",
+"max": 80,
+"mt": "Оценивайте каждую единицу и каждую неделю, чтобы ни одна ночь не продавалась слишком дешево.",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "Gap-night discount engine",
+"kind": "label",
+"max": 50,
+"mt": "Механизм скидок Gap-night",
+"why": "English/Latin words left: Gap night"
+},
+{
+"en": "a free night between two bookings gets a discount that depends on how close it is, with the revenue gained and the lowest rate that still pays",
+"kind": "sentence",
+"max": 160,
+"mt": "бесплатная ночь между двумя бронированиями получает скидку, которая зависит от того, насколько близко они расположены, с учетом полученного дохода и самой низкой ставки, которая все еще выплачивается.",
+"why": "too long: 200 characters, the limit is 160"
+},
+{
+"en": "rent, utilities, other fixed cost and platform fees give the nightly rate and the occupancy at which each unit stops losing money",
+"kind": "sentence",
+"max": 160,
+"mt": "арендная плата, коммунальные услуги, другие фиксированные расходы и плата за платформу определяют ночную ставку и заполняемость, при которой каждая единица перестает терять деньги.",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Below target ADR",
+"kind": "list",
+"max": 30,
+"mt": "Ниже целевой средней дневной ставки",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "On target ADR",
+"kind": "list",
+"max": 30,
+"mt": "По целевой средней дневной ставке",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Discount costs revenue",
+"kind": "list",
+"max": 30,
+"mt": "Доход от дисконтированных затрат",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Direct earns the host more",
+"kind": "list",
+"max": 30,
+"mt": "Директ зарабатывает хозяину больше",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Rate change adds profit",
+"kind": "list",
+"max": 30,
+"mt": "Изменение курса добавляет прибыль",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Rate change loses profit",
+"kind": "list",
+"max": 30,
+"mt": "Изменение курса приводит к потере прибыли",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Rate is on target",
+"kind": "list",
+"max": 30,
+"mt": "Ставка находится на целевом уровне",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Event rate applies",
+"kind": "list",
+"max": 30,
+"mt": "Применяется тариф на мероприятие",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Units with rates and results of the last 12 months",
+"kind": "title",
+"max": 60,
+"mt": "Единицы с показателями и результатами за последние 12 месяцев",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Bookings with channel, rate and lead time",
+"kind": "title",
+"max": 60,
+"mt": "Бронирование с указанием канала, тарифа и времени выполнения заказа",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Unit months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Единичные месяцы с указанием занятости, средней дневной ставки и дохода за свободную ночь",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Rate changes with change percent and bookings after",
+"kind": "title",
+"max": 60,
+"mt": "Изменения тарифов в зависимости от процента изменения и бронирования после",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Local events with demand lift and days to the event",
+"kind": "title",
+"max": 60,
+"mt": "Местные мероприятия с ростом спроса и днями проведения мероприятия",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Weekend minimum",
+"kind": "label",
+"max": null,
+"mt": "Weekend minimum",
+"why": "English/Latin words left: Weekend minimum"
+},
+{
+"en": "Gap-night minimum",
+"kind": "label",
+"max": null,
+"mt": "Gap-night minimum",
+"why": "English/Latin words left: Gap night minimum"
+},
+{
+"en": "Gap nights with offer rate and revenue recovered",
+"kind": "title",
+"max": 60,
+"mt": "Промежуточные ночи со ставкой предложения и восстановленным доходом",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Gap ID",
+"kind": "label",
+"max": null,
+"mt": "Gap ID",
+"why": "English/Latin words left: Gap"
+},
+{
+"en": "Nights free",
+"kind": "label",
+"max": null,
+"mt": "Nights free",
+"why": "English/Latin words left: Nights free"
+},
+{
+"en": "Offer rate",
+"kind": "label",
+"max": null,
+"mt": "Offer rate",
+"why": "English/Latin words left: Offer rate"
+},
+{
+"en": "Revenue recovered",
+"kind": "label",
+"max": null,
+"mt": "Revenue recovered",
+"why": "English/Latin words left: Revenue recovered"
+},
+{
+"en": "Revenue missed",
+"kind": "label",
+"max": null,
+"mt": "Revenue missed",
+"why": "English/Latin words left: Revenue missed"
+},
+{
+"en": "Linen",
+"kind": "label",
+"max": null,
+"mt": "Bed linen",
+"why": "English/Latin words left: Bed linen"
+},
+{
+"en": "Cleaning fee charged",
+"kind": "label",
+"max": null,
+"mt": "Cleaning fee charged",
+"why": "English/Latin words left: Cleaning fee charged"
+},
+{
+"en": "Cleaner cost",
+"kind": "label",
+"max": null,
+"mt": "Cleaner cost",
+"why": "English/Latin words left: Cleaner cost"
+},
+{
+"en": "Gap night revenue, 12 months",
+"kind": "label",
+"max": null,
+"mt": "Доход от Gap Night, 12 месяцев",
+"why": "English/Latin words left: Gap Night"
+},
+{
+"en": "Room, gap night, last-minute and direct offer revenue",
+"kind": "title",
+"max": 60,
+"mt": "Доход от номеров, пропускных ночей, горящих и прямых предложений",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Gap night revenue recovered",
+"kind": "label",
+"max": 30,
+"mt": "Выручка от Gap Night восстановлена",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Nightly rate from season, demand and days left",
+"kind": "title",
+"max": 60,
+"mt": "Ночная ставка в зависимости от сезона, спроса и оставшихся дней",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, the average price of a night sold at {name} over 12 months is {adr_12m}, against a base rate of {base_rate}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {owner}! Средняя цена ночи, проданной в {name} за 12 месяцев, составляет {adr_12m} по базовой ставке {base_rate}.",
+"why": "English/Latin words left: adr"
+}
+]

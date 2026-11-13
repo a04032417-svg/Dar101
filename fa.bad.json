@@ -1,0 +1,37 @@
+[
+{
+"en": "Direct earns the host more",
+"kind": "list",
+"max": 30,
+"mt": "دایرکت درآمد بیشتری برای میزبان کسب می کند",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Rate change adds profit",
+"kind": "list",
+"max": 30,
+"mt": "تغییر نرخ باعث افزایش سود می شود",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Unit months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "ماه های واحد با اشغال، میانگین نرخ روزانه و درآمد هر شب موجود",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Review-adjusted rate to match",
+"kind": "label",
+"max": null,
+"mt": "نرخ تنظیم شده برای مطابقت با مرور",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello {owner}, the average price of a night sold at {name} over 12 months is {adr_12m}, against a base rate of {base_rate}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {owner}، میانگین قیمت یک شب فروخته شده در {name} در طی 12 ماه، {adr_12m} است، در مقابل نرخ پایه {base_rate}.",
+"why": "English/Latin words left: adr"
+}
+]

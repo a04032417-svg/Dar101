@@ -1,0 +1,240 @@
+[
+{
+"en": "Price every unit and every week so no night is sold too cheap",
+"kind": "sentence",
+"max": 80,
+"mt": "Prix chaque unité et chaque semaine afin qu'aucune nuit ne soit vendue trop bon marché",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "Pricing calendar with season and event lifts",
+"kind": "label",
+"max": 50,
+"mt": "Calendrier tarifaire avec remontées saisonnières et événementielles",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "base rate, season, night type, demand, event and days to check-in become one rate to list, with raise, hold or lower",
+"kind": "sentence",
+"max": 160,
+"mt": "le tarif de base, la saison, le type de nuit, la demande, l'événement et les jours d'enregistrement deviennent un seul tarif à indiquer, avec augmentation, maintien ou diminution",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "local events with their demand lift, days to go and the free nights still listed, plus the rate to ask when few nights are left",
+"kind": "sentence",
+"max": 160,
+"mt": "les événements locaux avec leur augmentation de la demande, les jours restants et les nuits gratuites toujours répertoriées, plus le tarif à demander lorsqu'il reste quelques nuits",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "days to check-in, free nights and occupancy decide whether to discount, with the profit of one stay after fees and turnover",
+"kind": "sentence",
+"max": 160,
+"mt": "jours pour l'enregistrement, les nuits gratuites et l'occupation décident de l'opportunité de bénéficier d'une remise, avec le bénéfice d'un séjour après frais et chiffre d'affaires",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "rent, utilities, other fixed cost and platform fees give the nightly rate and the occupancy at which each unit stops losing money",
+"kind": "sentence",
+"max": 160,
+"mt": "le loyer, les services publics, les autres coûts fixes et les frais de plateforme donnent le tarif par nuit et l'occupation auquel chaque unité cesse de perdre de l'argent",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "guest price, host income on each route, the platform fee saved and the largest discount that still earns the same",
+"kind": "sentence",
+"max": 160,
+"mt": "le prix invité, les revenus de l'hôte sur chaque itinéraire, les frais de plateforme économisés et la remise la plus importante qui rapporte toujours la même chose",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Porto",
+"kind": "list",
+"max": 30,
+"mt": "Porto",
+"why": "not translated"
+},
+{
+"en": "Cascais",
+"kind": "list",
+"max": 30,
+"mt": "Cascais",
+"why": "not translated"
+},
+{
+"en": "Sintra",
+"kind": "list",
+"max": 30,
+"mt": "Sintra",
+"why": "not translated"
+},
+{
+"en": "Below suggested rate",
+"kind": "list",
+"max": 30,
+"mt": "Tarif inférieur à celui suggéré",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Above suggested rate",
+"kind": "list",
+"max": 30,
+"mt": "Tarif supérieur à celui suggéré",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Busy check-in day",
+"kind": "list",
+"max": 30,
+"mt": "Journée d'enregistrement chargée",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Quiet check-in day",
+"kind": "list",
+"max": 30,
+"mt": "Journée d'enregistrement tranquille",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Below target ADR",
+"kind": "list",
+"max": 30,
+"mt": "Tarif journalier moyen inférieur à l'objectif",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "On target ADR",
+"kind": "list",
+"max": 30,
+"mt": "Tarif journalier moyen conforme à l'objectif",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Discount costs revenue",
+"kind": "list",
+"max": 30,
+"mt": "Revenus des coûts d’actualisation",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Direct is cheaper for the guest",
+"kind": "list",
+"max": 30,
+"mt": "Direct est moins cher pour le client",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Rate change adds profit",
+"kind": "list",
+"max": 30,
+"mt": "Le changement de taux ajoute du profit",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Rate change loses profit",
+"kind": "list",
+"max": 30,
+"mt": "Le changement de taux fait perdre du profit",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Rate is on target",
+"kind": "list",
+"max": 30,
+"mt": "Le taux est conforme à l'objectif",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Rate is below target",
+"kind": "list",
+"max": 30,
+"mt": "Le taux est inférieur à l'objectif",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Event rate applies",
+"kind": "list",
+"max": 30,
+"mt": "Le tarif événementiel s'applique",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pricing calendar by unit and week with suggested rate",
+"kind": "title",
+"max": 60,
+"mt": "Calendrier de tarification par unité et par semaine avec tarif suggéré",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Unit months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Mois unitaires avec occupation, tarif journalier moyen et revenu par nuit disponible",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Rate changes with change percent and bookings after",
+"kind": "title",
+"max": 60,
+"mt": "Les tarifs changent avec le pourcentage de changement et les réservations après",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Local events with demand lift and days to the event",
+"kind": "title",
+"max": 60,
+"mt": "Événements locaux avec augmentation de la demande et jours pour l'événement",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Comparable",
+"kind": "label",
+"max": null,
+"mt": "Comparable",
+"why": "not translated"
+},
+{
+"en": "Team with hours and rate changes made",
+"kind": "title",
+"max": 60,
+"mt": "Équipe avec des changements d'horaires et de tarifs effectués",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Room, gap night, last-minute and direct offer revenue",
+"kind": "title",
+"max": 60,
+"mt": "Revenus de chambre, de nuit sabbatique, de dernière minute et d'offre directe",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Gap night revenue recovered",
+"kind": "label",
+"max": 30,
+"mt": "Revenus des nuits sabbatiques récupérés",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Unit with base rate, rate card and break-even",
+"kind": "title",
+"max": 60,
+"mt": "Unité avec taux de base, grille tarifaire et seuil de rentabilité",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Nightly rate from season, demand and days left",
+"kind": "title",
+"max": 60,
+"mt": "Tarif par nuit selon la saison, la demande et les jours restants",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Direct booking price, host income and guest saving",
+"kind": "title",
+"max": 60,
+"mt": "Prix de réservation directe, revenus de l'hôte et économies des clients",
+"why": "too long: 71 characters, the limit is 60"
+}
+]

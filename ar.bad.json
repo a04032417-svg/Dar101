@@ -1,0 +1,30 @@
+[
+{
+"en": "Below target ADR",
+"kind": "list",
+"max": 30,
+"mt": "أقل من متوسط المعدل اليومي المستهدف",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "On target ADR",
+"kind": "list",
+"max": 30,
+"mt": "على متوسط المعدل اليومي المستهدف",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Unit months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "أشهر الوحدة مع الإشغال ومتوسط السعر اليومي والإيرادات لكل ليلة متاحة",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, the average price of a night sold at {name} over 12 months is {adr_12m}, against a base rate of {base_rate}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {owner}، متوسط سعر الليلة المباعة بسعر {name} على مدى 12 شهرًا هو {adr_12m}، مقابل سعر أساسي قدره {base_rate}.",
+"why": "English/Latin words left: adr"
+}
+]

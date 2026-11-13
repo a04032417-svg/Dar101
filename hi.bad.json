@@ -1,0 +1,79 @@
+[
+{
+"en": "Price every unit and every week so no night is sold too cheap",
+"kind": "sentence",
+"max": 80,
+"mt": "प्रत्येक इकाई और हर सप्ताह मूल्य निर्धारित करें ताकि कोई भी रात बहुत सस्ती न बेची जाए",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Pricing calendar with season and event lifts",
+"kind": "label",
+"max": 50,
+"mt": "सीज़न और इवेंट लिफ़्ट के साथ मूल्य निर्धारण कैलेंडर",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Direct is cheaper for the guest",
+"kind": "list",
+"max": 30,
+"mt": "मेहमानों के लिए डायरेक्ट सस्ता है",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Direct earns the host more",
+"kind": "list",
+"max": 30,
+"mt": "डायरेक्ट मेज़बान को अधिक कमाई होती है",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Pricing calendar by unit and week with suggested rate",
+"kind": "title",
+"max": 60,
+"mt": "सुझाई गई दर के साथ इकाई और सप्ताह के अनुसार मूल्य निर्धारण कैलेंडर",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Unit months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "अधिभोग, औसत दैनिक दर और प्रति उपलब्ध रात राजस्व के साथ इकाई महीने",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Rate changes with change percent and bookings after",
+"kind": "title",
+"max": 60,
+"mt": "परिवर्तन प्रतिशत और उसके बाद बुकिंग के साथ दर में परिवर्तन होता है",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Room revenue by month",
+"kind": "label",
+"max": 30,
+"mt": "महीने के हिसाब से कमरे का राजस्व",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Gap night revenue recovered",
+"kind": "label",
+"max": 30,
+"mt": "गैप रात्रि राजस्व की वसूली की गई",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Weekday and weekend rate for each season of a unit",
+"kind": "title",
+"max": 60,
+"mt": "एक इकाई के प्रत्येक सीज़न के लिए सप्ताहांत और सप्ताहांत की दर",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, the average price of a night sold at {name} over 12 months is {adr_12m}, against a base rate of {base_rate}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {owner}, 12 महीनों में {name} पर बेची गई एक रात की औसत कीमत {base_rate} की आधार दर के मुकाबले {adr_12m} है।",
+"why": "English/Latin words left: adr"
+}
+]

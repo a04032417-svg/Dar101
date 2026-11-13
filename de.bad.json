@@ -1,0 +1,205 @@
+[
+{
+"en": "Price every unit and every week so no night is sold too cheap",
+"kind": "sentence",
+"max": 80,
+"mt": "Bewerten Sie jede Einheit und jede Woche, damit keine Nacht zu billig verkauft wird",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "base rate, season, night type, demand, event and days to check-in become one rate to list, with raise, hold or lower",
+"kind": "sentence",
+"max": 160,
+"mt": "Basispreis, Saison, Nachttyp, Nachfrage, Veranstaltung und Tage bis zum Check-in werden zu einem Tarif zusammengefasst, der angezeigt werden kann, mit Erhöhung, Warteschleife oder Senkung",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "local events with their demand lift, days to go and the free nights still listed, plus the rate to ask when few nights are left",
+"kind": "sentence",
+"max": 160,
+"mt": "Lokale Veranstaltungen mit ihrer Nachfragesteigerung, verbleibenden Tagen und den noch aufgeführten Gratisnächten sowie dem Preis, den Sie erfragen können, wenn nur noch wenige Nächte übrig sind",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "a free night between two bookings gets a discount that depends on how close it is, with the revenue gained and the lowest rate that still pays",
+"kind": "sentence",
+"max": 160,
+"mt": "Für eine kostenlose Nacht zwischen zwei Buchungen gibt es einen Rabatt, der davon abhängt, wie nahe sie beieinander liegen, mit dem erzielten Umsatz und dem niedrigsten Tarif, der noch gezahlt wird",
+"why": "too long: 197 characters, the limit is 160"
+},
+{
+"en": "Loft",
+"kind": "list",
+"max": 30,
+"mt": "Loft",
+"why": "not translated"
+},
+{
+"en": "Porto",
+"kind": "list",
+"max": 30,
+"mt": "Porto",
+"why": "not translated"
+},
+{
+"en": "Cascais",
+"kind": "list",
+"max": 30,
+"mt": "Cascais",
+"why": "not translated"
+},
+{
+"en": "Sintra",
+"kind": "list",
+"max": 30,
+"mt": "Sintra",
+"why": "not translated"
+},
+{
+"en": "Below suggested rate",
+"kind": "list",
+"max": 30,
+"mt": "Untenstehender empfohlener Preis",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Below target ADR",
+"kind": "list",
+"max": 30,
+"mt": "Unter dem angestrebten durchschnittlichen Tagessatz",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "On target ADR",
+"kind": "list",
+"max": 30,
+"mt": "Zum angestrebten durchschnittlichen Tagespreis",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Priced above comparables",
+"kind": "list",
+"max": 30,
+"mt": "Preislich über vergleichbaren Preisen",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Priced below comparables",
+"kind": "list",
+"max": 30,
+"mt": "Preislich unter vergleichbaren Preisen",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Direct is cheaper for the guest",
+"kind": "list",
+"max": 30,
+"mt": "Direkt ist für den Gast günstiger",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Direct earns the host more",
+"kind": "list",
+"max": 30,
+"mt": "Direkt bringt dem Gastgeber mehr ein",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Rate change adds profit",
+"kind": "list",
+"max": 30,
+"mt": "Tarifänderungen erhöhen den Gewinn",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Rate change loses profit",
+"kind": "list",
+"max": 30,
+"mt": "Tarifänderungen führen zu Gewinneinbußen",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Rate is below target",
+"kind": "list",
+"max": 30,
+"mt": "Die Rate liegt unter dem Zielwert",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Event rate applies",
+"kind": "list",
+"max": 30,
+"mt": "Es gilt der Veranstaltungspreis",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Unit months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Einheitsmonate mit Belegung, durchschnittlichem Tagespreis und Umsatz pro verfügbarer Nacht",
+"why": "too long: 91 characters, the limit is 60"
+},
+{
+"en": "Rate changes with change percent and bookings after",
+"kind": "title",
+"max": 60,
+"mt": "Tarifänderungen mit Änderungsprozentsatz und Buchungen danach",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Local events with demand lift and days to the event",
+"kind": "title",
+"max": 60,
+"mt": "Lokale Veranstaltungen mit Nachfragesteigerung und Tagen bis zur Veranstaltung",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Gap nights with offer rate and revenue recovered",
+"kind": "title",
+"max": 60,
+"mt": "Lückennächte mit Angebotspreis und wiederhergestelltem Umsatz",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Room, gap night, last-minute and direct offer revenue",
+"kind": "title",
+"max": 60,
+"mt": "Zimmer-, Lückennacht-, Last-Minute- und direkte Angebotsumsätze",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Gap night revenue recovered",
+"kind": "label",
+"max": 30,
+"mt": "Die Einnahmen aus den Lückennächten erholten sich",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Nightly rate from season, demand and days left",
+"kind": "title",
+"max": 60,
+"mt": "Preis pro Nacht abhängig von Saison, Nachfrage und verbleibenden Tagen",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Last-minute discount or hold for the nights ahead",
+"kind": "title",
+"max": 60,
+"mt": "Last-Minute-Rabatt oder Reservierung für die kommenden Nächte",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Price per night and total for a long stay",
+"kind": "title",
+"max": 60,
+"mt": "Preis pro Nacht und Gesamtpreis für einen längeren Aufenthalt",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Monthly revenue for a nightly rate and an occupancy",
+"kind": "title",
+"max": 60,
+"mt": "Monatlicher Umsatz für einen Übernachtungspreis und eine Belegung",
+"why": "too long: 65 characters, the limit is 60"
+}
+]
