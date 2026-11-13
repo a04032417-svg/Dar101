@@ -1,0 +1,16 @@
+[
+{
+"en": "Log your bookings on Bookings. Lead time, the ADR of each stay and the rate against the unit base rate fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "在 Bookings 上记录您的预订。填写提前期、每次入住的平均每日房价以及相对于单位基本房价的房价。",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Hello, {cleaner} has {booked_hours} hours booked on {date} against {available_hours} available.",
+"kind": "message",
+"max": null,
+"mt": "您好，{cleaner} 在 {date} 预订了 {available_hours} 小时的可用时间。",
+"why": "placeholders must be exactly: {cleaner} {booked_hours} {date} {available_hours}"
+}
+]

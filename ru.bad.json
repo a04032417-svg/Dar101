@@ -1,0 +1,177 @@
+[
+{
+"en": "Yearly review of one unit against its goal",
+"kind": "title",
+"max": 60,
+"mt": "Ежегодная проверка одного подразделения на соответствие его цели",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Nights by stay length bucket",
+"kind": "title",
+"max": 60,
+"mt": "Количество ночей в зависимости от продолжительности пребывания",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Log your bookings on Bookings. Lead time, the ADR of each stay and the rate against the unit base rate fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "Регистрируйте свои бронирования на Bookings. Заполните время выполнения заказа, среднюю дневную ставку за каждое пребывание и ставку относительно базовой ставки за единицу.",
+"why": "English/Latin words left: Bookings."
+},
+{
+"en": "Run every clean, every cleaner and every supply shelf from one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Управляйте каждой уборкой, каждым уборщиком и каждой полкой с расходными материалами из одной рабочей книги.",
+"why": "too long: 108 characters, the limit is 80"
+},
+{
+"en": "Daily turnover schedule with cleaner workload",
+"kind": "label",
+"max": 50,
+"mt": "График ежедневной текучести с более чистой рабочей нагрузкой",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "Long stay ended",
+"kind": "list",
+"max": 30,
+"mt": "Длительное пребывание закончилось",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Reorder soon",
+"kind": "list",
+"max": 30,
+"mt": "Сделайте повторный заказ в ближайшее время",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Open for days",
+"kind": "list",
+"max": 30,
+"mt": "Открыто в течение нескольких дней",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Follow up needed",
+"kind": "list",
+"max": 30,
+"mt": "Необходимо дальнейшее наблюдение",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cleaners cover it",
+"kind": "list",
+"max": 30,
+"mt": "Чистящие средства покрывают это",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Redo costs more than the fee",
+"kind": "list",
+"max": 30,
+"mt": "Повторное выполнение стоит больше, чем плата",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Cleaners and backup helpers with weekly hours",
+"kind": "title",
+"max": 60,
+"mt": "Уборщики и помощники по резервному копированию с еженедельными часами",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Supply items with pack, price, reorder point and supplier",
+"kind": "title",
+"max": 60,
+"mt": "Поставка товаров с указанием упаковки, цены, точки повторного заказа и поставщика.",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Supply stock with days of cover and quantity to order",
+"kind": "title",
+"max": 60,
+"mt": "Поставка запасов с указанием дней покрытия и количества для заказа.",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Supply purchases with amount, supplier and share of spend",
+"kind": "title",
+"max": 60,
+"mt": "Поставка закупок с указанием суммы, поставщика и доли расходов.",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Inspection checks with score, issues found and pass flag",
+"kind": "title",
+"max": 60,
+"mt": "Инспекционные проверки с оценкой, обнаруженными проблемами и флагом прохождения",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Redo jobs with reason, hours lost and cost",
+"kind": "title",
+"max": 60,
+"mt": "Переделывайте работы с разумом, потерянными часами и затратами",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Linen counts with sets in use, damaged and bought",
+"kind": "title",
+"max": 60,
+"mt": "Белье учитывается с комплектами в использовании, поврежденными и купленными.",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Cleaner availability with booked and free hours",
+"kind": "title",
+"max": 60,
+"mt": "Доступность более чистых помещений с забронированными и бесплатными часами",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Same-day turns with hours between stays and slack",
+"kind": "title",
+"max": 60,
+"mt": "Очереди в тот же день с часами между пребываниями и перерывами",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cleaner notes with unit, note and follow-up",
+"kind": "title",
+"max": 60,
+"mt": "Чистые заметки с блоком, примечанием и последующими действиями",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Team with hours this week, turnovers and pay",
+"kind": "title",
+"max": 60,
+"mt": "Команда с графиком работы на этой неделе, оборотами и зарплатой",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cleaner pay, supplies, laundry and deep clean cost",
+"kind": "title",
+"max": 60,
+"mt": "Зарплата уборщицы, расходные материалы, стирка и стоимость генеральной уборки",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Weekly load of one cleaner against the weekly limit",
+"kind": "title",
+"max": 60,
+"mt": "Еженедельная загрузка одного уборщика в пределах недельного лимита",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Own machines, laundry service and linen hire per set",
+"kind": "title",
+"max": 60,
+"mt": "Собственные машины, услуги прачечной и прокат белья за комплект.",
+"why": "too long: 64 characters, the limit is 60"
+}
+]

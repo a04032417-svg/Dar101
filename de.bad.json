@@ -1,0 +1,240 @@
+[
+{
+"en": "Units at or above the target ADR",
+"kind": "title",
+"max": 60,
+"mt": "Einheiten, die dem durchschnittlichen Tageszielpreis entsprechen oder darüber liegen",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Units at or above the target RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Einheiten, die dem Zielumsatz pro verfügbarer Nacht entsprechen oder darüber liegen",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Nights ahead or behind target",
+"kind": "label",
+"max": 30,
+"mt": "Nächte vor oder hinter dem Ziel",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Run every clean, every cleaner and every supply shelf from one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Führen Sie jede Reinigung, jeden Reiniger und jedes Vorratsregal aus einer Arbeitsmappe aus",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "Daily turnover schedule with cleaner workload",
+"kind": "label",
+"max": 50,
+"mt": "Täglicher Umsatzplan mit saubererer Arbeitsbelastung",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Dust or hair left",
+"kind": "list",
+"max": 30,
+"mt": "Staub oder Haare sind zurückgeblieben",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Long stay ended",
+"kind": "list",
+"max": 30,
+"mt": "Der lange Aufenthalt ist zu Ende",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Within weekly hours",
+"kind": "list",
+"max": 30,
+"mt": "Innerhalb wöchentlicher Stunden",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Below reorder point",
+"kind": "list",
+"max": 30,
+"mt": "Unterhalb des Nachbestellpunkts",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Own machines are cheapest",
+"kind": "list",
+"max": 30,
+"mt": "Eigene Maschinen sind am günstigsten",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Laundry service is cheapest",
+"kind": "list",
+"max": 30,
+"mt": "Der Wäscheservice ist am günstigsten",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Redo costs more than the fee",
+"kind": "list",
+"max": 30,
+"mt": "Redo kostet mehr als die Gebühr",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cleaner pay by month with pay per turnover and per hour",
+"kind": "title",
+"max": 60,
+"mt": "Reinigungskräfte zahlen monatlich mit Bezahlung pro Umsatz und pro Stunde",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Cleaners and backup helpers with weekly hours",
+"kind": "title",
+"max": 60,
+"mt": "Reinigungskräfte und Ersatzhelfer mit wöchentlicher Arbeitszeit",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Bookings with dates and the cleaner who turns the unit",
+"kind": "title",
+"max": 60,
+"mt": "Buchungen mit Datum und der Reinigungskraft, die die Einheit reinigt",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Supply items with pack, price, reorder point and supplier",
+"kind": "title",
+"max": 60,
+"mt": "Liefern Sie Artikel mit Verpackung, Preis, Bestellpunkt und Lieferant",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Supply stock with days of cover and quantity to order",
+"kind": "title",
+"max": 60,
+"mt": "Liefern Sie den Lagerbestand mit der Deckungszeit und der Bestellmenge",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Supply purchases with amount, supplier and share of spend",
+"kind": "title",
+"max": 60,
+"mt": "Liefern Sie Einkäufe mit Betrag, Lieferant und Ausgabenanteil",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Inspection checks with score, issues found and pass flag",
+"kind": "title",
+"max": 60,
+"mt": "Inspektionsprüfungen mit Ergebnis, gefundenen Problemen und bestandener Flagge",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Redo jobs with reason, hours lost and cost",
+"kind": "title",
+"max": 60,
+"mt": "Wiederholen Sie Aufträge mit Begründung, verlorenen Stunden und Kosten",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Linen counts with sets in use, damaged and bought",
+"kind": "title",
+"max": 60,
+"mt": "Wäsche zählt zu den in Gebrauch befindlichen, beschädigten und gekauften Garnituren",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Cleaner availability with booked and free hours",
+"kind": "title",
+"max": 60,
+"mt": "Reinigungsverfügbarkeit mit gebuchten und kostenlosen Stunden",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Same-day turns with hours between stays and slack",
+"kind": "title",
+"max": 60,
+"mt": "Turnus am selben Tag mit Stunden zwischen Aufenthalt und Ruhe",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Lost and found items with status and days open",
+"kind": "title",
+"max": 60,
+"mt": "Verlorene und gefundene Gegenstände mit Status und Öffnungstagen",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Cleaner pay, supplies, laundry and deep clean cost",
+"kind": "title",
+"max": 60,
+"mt": "Bezahlung der Reinigungskraft, Verbrauchsmaterial, Wäsche und Kosten für die Tiefenreinigung",
+"why": "too long: 92 characters, the limit is 60"
+},
+{
+"en": "Redo request with reason, hours and cost",
+"kind": "title",
+"max": 60,
+"mt": "Wiederholen Sie die Anfrage mit Begründung, Stunden und Kosten",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Turnovers of a day against the cleaners and hours you have",
+"kind": "title",
+"max": 60,
+"mt": "Umsätze eines Tages im Verhältnis zu den Reinigungskräften und Stunden, die Sie haben",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Weekly load of one cleaner against the weekly limit",
+"kind": "title",
+"max": 60,
+"mt": "Wöchentliche Ladung eines Reinigers gegen das wöchentliche Limit",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Slack or late start between check-out and check-in",
+"kind": "title",
+"max": 60,
+"mt": "Langsamer oder verspäteter Start zwischen Check-out und Check-in",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Pay for a period with the same-day premium",
+"kind": "title",
+"max": 60,
+"mt": "Bezahlen Sie einen Zeitraum lang mit der gleichen Tagesprämie",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Cleaning cost of a stay spread over its nights",
+"kind": "title",
+"max": 60,
+"mt": "Die Reinigungskosten eines Aufenthalts werden auf mehrere Nächte verteilt",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Margin of the cleaning fee over the cost of a turnover",
+"kind": "title",
+"max": 60,
+"mt": "Marge der Reinigungsgebühr gegenüber den Kosten eines Umsatzes",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Supplies budget for next month from the turnovers",
+"kind": "title",
+"max": 60,
+"mt": "Stellt aus den Umsätzen das Budget für den nächsten Monat bereit",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Monthly cleaner pay and fee margin for a number of turnovers",
+"kind": "title",
+"max": 60,
+"mt": "Monatlicher Reinigerlohn und Gebührenspanne für eine Reihe von Umsätzen",
+"why": "too long: 71 characters, the limit is 60"
+}
+]

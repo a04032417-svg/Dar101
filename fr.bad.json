@@ -1,0 +1,331 @@
+[
+{
+"en": "Units at or above the target RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Unités égales ou supérieures au revenu cible par nuit disponible",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Nights ahead or behind target",
+"kind": "label",
+"max": 30,
+"mt": "Nuits en avance ou en retard sur l'objectif",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Revenue this year against last year",
+"kind": "title",
+"max": 60,
+"mt": "Chiffre d'affaires cette année par rapport à l'année dernière",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Run every clean, every cleaner and every supply shelf from one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Exécutez chaque nettoyage, chaque nettoyant et chaque étagère de fournitures à partir d'un seul classeur",
+"why": "too long: 104 characters, the limit is 80"
+},
+{
+"en": "Daily turnover schedule with cleaner workload",
+"kind": "label",
+"max": 50,
+"mt": "Calendrier de rotation quotidien avec une charge de travail plus propre",
+"why": "too long: 71 characters, the limit is 50"
+},
+{
+"en": "units, stays a week and laundry days give the sets on the beds, in the wash and spare, and the money tied up in linen",
+"kind": "sentence",
+"max": 160,
+"mt": "les unités, les séjours par semaine et les jours de lessive donnent les ensembles sur les lits, dans la lessive et les pièces de rechange, et l'argent immobilisé en linge",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Dust or hair left",
+"kind": "list",
+"max": 30,
+"mt": "Il reste de la poussière ou des cheveux",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Supplies not restocked",
+"kind": "list",
+"max": 30,
+"mt": "Fournitures non réapprovisionnées",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Own machines are cheapest",
+"kind": "list",
+"max": 30,
+"mt": "Les propres machines sont les moins chères",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Laundry service is cheapest",
+"kind": "list",
+"max": 30,
+"mt": "Le service de blanchisserie est le moins cher",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Linen hire is cheapest",
+"kind": "list",
+"max": 30,
+"mt": "La location de linge est la moins chère",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Redo costs more than the fee",
+"kind": "list",
+"max": 30,
+"mt": "Refaire coûte plus cher que les frais",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Turnovers by day with cleaner, hours and pay",
+"kind": "title",
+"max": 60,
+"mt": "Chiffre d'affaires par jour avec femme de ménage, horaires et salaire",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Cleaner pay by month with pay per turnover and per hour",
+"kind": "title",
+"max": 60,
+"mt": "Salaire plus propre par mois avec salaire par chiffre d'affaires et par heure",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Bookings with dates and the cleaner who turns the unit",
+"kind": "title",
+"max": 60,
+"mt": "Réservations avec dates et nettoyeur qui fait tourner l'unité",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supply items with pack, price, reorder point and supplier",
+"kind": "title",
+"max": 60,
+"mt": "Fournir les articles avec pack, prix, point de commande et fournisseur",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Supply stock with days of cover and quantity to order",
+"kind": "title",
+"max": 60,
+"mt": "Approvisionnement du stock avec jours de couverture et quantité à commander",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Supply purchases with amount, supplier and share of spend",
+"kind": "title",
+"max": 60,
+"mt": "Fournir les achats avec le montant, le fournisseur et la part des dépenses",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Inspection checks with score, issues found and pass flag",
+"kind": "title",
+"max": 60,
+"mt": "Contrôles d'inspection avec score, problèmes détectés et indicateur de réussite",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Linen counts with sets in use, damaged and bought",
+"kind": "title",
+"max": 60,
+"mt": "Le linge compte avec les ensembles en usage, abîmés et achetés",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Laundry runs with loads, cost and route",
+"kind": "title",
+"max": 60,
+"mt": "La blanchisserie fonctionne avec des charges, des coûts et un itinéraire",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Cleaner availability with booked and free hours",
+"kind": "title",
+"max": 60,
+"mt": "Disponibilité plus propre avec des heures réservées et gratuites",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Same-day turns with hours between stays and slack",
+"kind": "title",
+"max": 60,
+"mt": "Tours le jour même avec des heures entre les séjours et du slack",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Team with hours this week, turnovers and pay",
+"kind": "title",
+"max": 60,
+"mt": "Équipe avec horaires cette semaine, chiffres d'affaires et salaire",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Cleaner pay, supplies, laundry and deep clean cost",
+"kind": "title",
+"max": 60,
+"mt": "Salaire, fournitures, blanchisserie et nettoyage en profondeur plus propres",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Deep clean cost",
+"kind": "label",
+"max": 30,
+"mt": "Coût du nettoyage en profondeur",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Turnover with cleaner, hours and time check",
+"kind": "title",
+"max": 60,
+"mt": "Chiffre d'affaires avec nettoyeur, heures et contrôle des horaires",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Turnovers of a day against the cleaners and hours you have",
+"kind": "title",
+"max": 60,
+"mt": "Chiffre d'affaires d'une journée contre les nettoyeurs et les heures dont vous disposez",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Weekly load of one cleaner against the weekly limit",
+"kind": "title",
+"max": 60,
+"mt": "Charge hebdomadaire d'un nettoyeur par rapport à la limite hebdomadaire",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Margin of the cleaning fee over the cost of a turnover",
+"kind": "title",
+"max": 60,
+"mt": "Marge des frais de ménage sur le coût d'un chiffre d'affaires",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Sets of linen to own for your units and laundry days",
+"kind": "title",
+"max": 60,
+"mt": "Ensembles de linge à posséder pour vos unités et journées de lessive",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Own machines, laundry service and linen hire per set",
+"kind": "title",
+"max": 60,
+"mt": "Machines propres, service de blanchisserie et location de linge par set",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Supplies budget for next month from the turnovers",
+"kind": "title",
+"max": 60,
+"mt": "Budget de fournitures pour le mois prochain à partir des chiffres d'affaires",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Monthly cleaner pay and fee margin for a number of turnovers",
+"kind": "title",
+"max": 60,
+"mt": "Salaire mensuel plus propre et marge de frais pour un certain nombre de chiffres d'affaires",
+"why": "too long: 91 characters, the limit is 60"
+},
+{
+"en": "Hello {cleaner}, a deep clean is booked at {unit} on {date}, about {hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "Hello {cleaner}, a deep clean is booked at {unit} on {date}, about {hours} hours.",
+"why": "not translated"
+},
+{
+"en": "Hello {cleaner}, a new turnover was added for {date}: {unit}, about {hours} hours.",
+"kind": "message",
+"max": null,
+"mt": "Hello {cleaner}, a new turnover was added for {date}: {unit}, about {hours} hours.",
+"why": "not translated"
+},
+{
+"en": "Hello, {unit} is ready for check-in after the turnover on {date} by {cleaner}.",
+"kind": "message",
+"max": null,
+"mt": "Hello, {unit} is ready for check-in after the turnover on {date} by {cleaner}.",
+"why": "not translated"
+},
+{
+"en": "Host: cleaner hours are over the limit",
+"kind": "label",
+"max": null,
+"mt": "Host: cleaner hours are over the limit",
+"why": "not translated"
+},
+{
+"en": "Host: the fee does not cover the cost",
+"kind": "label",
+"max": null,
+"mt": "Host: the fee does not cover the cost",
+"why": "not translated"
+},
+{
+"en": "Host: the redo rate is high",
+"kind": "label",
+"max": null,
+"mt": "Host: the redo rate is high",
+"why": "not translated"
+},
+{
+"en": "Host: linen sets are running low",
+"kind": "label",
+"max": null,
+"mt": "Host: linen sets are running low",
+"why": "not translated"
+},
+{
+"en": "Supplier: the delivery was short",
+"kind": "label",
+"max": null,
+"mt": "Supplier: the delivery was short",
+"why": "not translated"
+},
+{
+"en": "Supplier: a price update for an item",
+"kind": "label",
+"max": null,
+"mt": "Supplier: a price update for an item",
+"why": "not translated"
+},
+{
+"en": "Hello, please confirm the price of {item}. Our last price was {unit_cost} for {pack}.",
+"kind": "message",
+"max": null,
+"mt": "Hello, please confirm the price of {item}. Our last price was {unit_cost} for {pack}.",
+"why": "not translated"
+},
+{
+"en": "Owner: cleaning cost of your unit",
+"kind": "label",
+"max": null,
+"mt": "Owner: cleaning cost of your unit",
+"why": "not translated"
+},
+{
+"en": "Daily turnover schedule for one turnover and its day",
+"kind": "title",
+"max": 60,
+"mt": "Calendrier de chiffre d'affaires journalier pour un chiffre d'affaires et sa journée",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Redo and quality report for one redo job",
+"kind": "title",
+"max": 60,
+"mt": "Rapport de restauration et de qualité pour une tâche de restauration",
+"why": "too long: 68 characters, the limit is 60"
+}
+]

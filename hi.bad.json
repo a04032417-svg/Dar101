@@ -1,0 +1,128 @@
+[
+{
+"en": "Year-on-year report of {set:company}, dated {today}. Unit: {col:yoy.unit}. Month starting {col:yoy.month}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} की वर्ष-दर-वर्ष रिपोर्ट, दिनांक {today}। युनिट 2}। महीना शुरू हो रहा है {col:yoy.month}.",
+"why": "placeholders must be exactly: {set:company} {today} {col:yoy.unit} {col:yoy.month}"
+},
+{
+"en": "Yearly review of {set:company}, dated {today}. Unit: {col:targets.unit}. Targets set on {col:targets.set_on}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} की वार्षिक समीक्षा, दिनांक {today}। युनिट 2}। {col:targets.set_on} पर लक्ष्य निर्धारित।",
+"why": "placeholders must be exactly: {set:company} {today} {col:targets.unit} {col:targets.set_on}"
+},
+{
+"en": "Target sheet of {set:company}, dated {today}. Unit: {col:targets.unit}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} की लक्ष्य शीट, दिनांक {today}। युनिट 2}।",
+"why": "placeholders must be exactly: {set:company} {today} {col:targets.unit}"
+},
+{
+"en": "Run every clean, every cleaner and every supply shelf from one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "प्रत्येक स्वच्छ, प्रत्येक क्लीनर और प्रत्येक आपूर्ति शेल्फ़ को एक कार्यपुस्तिका से चलाएँ",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "Supplies not restocked",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्ति पुनः संग्रहित नहीं की गई",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Redo costs more than the fee",
+"kind": "list",
+"max": 30,
+"mt": "Redo की लागत शुल्क से अधिक है",
+"why": "English/Latin words left: Redo"
+},
+{
+"en": "Redo is small",
+"kind": "list",
+"max": 30,
+"mt": "Redo छोटा है",
+"why": "English/Latin words left: Redo"
+},
+{
+"en": "Cleaner pay by month with pay per turnover and per hour",
+"kind": "title",
+"max": 60,
+"mt": "प्रति टर्नओवर और प्रति घंटे के हिसाब से वेतन के साथ क्लीनर को महीने के हिसाब से भुगतान किया जाता है",
+"why": "too long: 99 characters, the limit is 60"
+},
+{
+"en": "Supply items with pack, price, reorder point and supplier",
+"kind": "title",
+"max": 60,
+"mt": "पैक, कीमत, पुनः ऑर्डर बिंदु और आपूर्तिकर्ता के साथ वस्तुओं की आपूर्ति करें",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Supply stock with days of cover and quantity to order",
+"kind": "title",
+"max": 60,
+"mt": "कवर के दिनों और ऑर्डर करने के लिए मात्रा के साथ स्टॉक की आपूर्ति करें",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Supply purchases with amount, supplier and share of spend",
+"kind": "title",
+"max": 60,
+"mt": "राशि, आपूर्तिकर्ता और खर्च के हिस्से के साथ खरीदारी की आपूर्ति करें",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Inspection checks with score, issues found and pass flag",
+"kind": "title",
+"max": 60,
+"mt": "निरीक्षण स्कोर, पाए गए मुद्दों और पास फ़्लैग के साथ जाँच करता है",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Linen counts with sets in use, damaged and bought",
+"kind": "title",
+"max": 60,
+"mt": "उपयोग में आने वाले, क्षतिग्रस्त होने वाले और खरीदे गए सेटों के साथ लिनेन की गिनती होती है",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Turnovers of a day against the cleaners and hours you have",
+"kind": "title",
+"max": 60,
+"mt": "आपके पास मौजूद सफ़ाईकर्मियों और घंटों के मुकाबले एक दिन का टर्नओवर",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Own machines, laundry service and linen hire per set",
+"kind": "title",
+"max": 60,
+"mt": "स्वयं की मशीनें, कपड़े धोने की सेवा और प्रति सेट लिनेन का किराया",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Cleaner job sheet of {set:company}, dated {today}. Cleaner: {col:availability.cleaner}. Day: {col:availability.date}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} की क्लीनर जॉब शीट, दिनांक {today}। क्लीनर: {col:availability.cleaner}. तीसरा दिन}।",
+"why": "placeholders must be exactly: {set:company} {today} {col:availability.cleaner} {col:availability.date}"
+},
+{
+"en": "Unit cleaning checklist of {set:company}, dated {today}. Unit: {col:unit_tasks.unit}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} की इकाई सफाई चेकलिस्ट, दिनांक {today}। युनिट 2}।",
+"why": "placeholders must be exactly: {set:company} {today} {col:unit_tasks.unit}"
+},
+{
+"en": "Linen inventory of {set:company}, dated {today}. Unit: {col:linen.unit}. Month: {col:linen.month}. Counted by {col:linen.counted_by}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} की लिनेन सूची, दिनांक {today}। युनिट 2}। महीना: {col:linen.month}. {col:linen.counted_by} से गिना गया.",
+"why": "placeholders must be exactly: {set:company} {today} {col:linen.unit} {col:linen.month} {col:linen.counted_by}"
+}
+]
