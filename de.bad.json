@@ -1,0 +1,240 @@
+[
+{
+"en": "Percentage fee per FF&E invoice",
+"kind": "label",
+"max": 50,
+"mt": "Prozentuale Gebühr pro Möbel-, Einrichtungs- und Ausstattungsrechnung",
+"why": "too long: 69 characters, the limit is 50"
+},
+{
+"en": "every invoice of a project from retainer to FF&E balances and trades with dates, for fixed, hourly or percentage fees",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Rechnung eines Projekts, vom Honorar bis hin zu Möbeln, Einrichtungsgegenständen und Ausrüstung, Salden und Geschäfte mit Datum, für feste, stündliche oder prozentuale Gebühren",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "Statements and overdue by client",
+"kind": "label",
+"max": 50,
+"mt": "Vom Kunden überfällige und überfällige Abrechnungen",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Chase log with promises kept or broken",
+"kind": "label",
+"max": 50,
+"mt": "Verfolgungsprotokoll mit gehaltenen oder gebrochenen Versprechen",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "Design fee milestone",
+"kind": "list",
+"max": 30,
+"mt": "Meilenstein für die Designgebühr",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "FF&E deposit",
+"kind": "list",
+"max": 30,
+"mt": "Kaution für Möbel, Einrichtungsgegenstände und Ausrüstung",
+"why": "too long: 57 characters, the limit is 30"
+},
+{
+"en": "FF&E balance",
+"kind": "list",
+"max": 30,
+"mt": "Gleichgewicht zwischen Möbeln, Einrichtungsgegenständen und Geräten",
+"why": "too long: 67 characters, the limit is 30"
+},
+{
+"en": "Fee rounded down at handover",
+"kind": "list",
+"max": 30,
+"mt": "Bei Übergabe abgerundetes Honorar",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Unrecoverable balance",
+"kind": "list",
+"max": 30,
+"mt": "Unwiederbringliches Gleichgewicht",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Billed within 10 days",
+"kind": "list",
+"max": 30,
+"mt": "Rechnungsstellung innerhalb von 10 Tagen",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Billed later",
+"kind": "list",
+"max": 30,
+"mt": "Wird später in Rechnung gestellt",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Hours within estimate",
+"kind": "list",
+"max": 30,
+"mt": "Stunden innerhalb der Schätzung",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Reminder due now",
+"kind": "list",
+"max": 30,
+"mt": "Die Erinnerung ist jetzt fällig",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fee exceeds the hours value",
+"kind": "list",
+"max": 30,
+"mt": "Die Gebühr übersteigt den Stundenwert",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Fee covers the hours at cost",
+"kind": "list",
+"max": 30,
+"mt": "Die Gebühr deckt die Stunden zum Selbstkostenpreis ab",
+"why": "too long: 53 characters, the limit is 30"
+},
+{
+"en": "Client invoices with days late, state and open amount",
+"kind": "title",
+"max": 60,
+"mt": "Kundenrechnungen mit Verspätungstagen, Status und offenem Betrag",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Invoices still to come or open, by due date",
+"kind": "title",
+"max": 60,
+"mt": "Rechnungen, die noch ausstehen oder offen sind, mit Fälligkeitsdatum",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Fee milestones with share, due date and billing",
+"kind": "title",
+"max": 60,
+"mt": "Gebührenmeilensteine mit Anteil, Fälligkeitsdatum und Abrechnung",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "FF&E deposit and balance invoices against the ordered value",
+"kind": "title",
+"max": 60,
+"mt": "Möbel, Einrichtungsgegenstände und Ausstattung hinterlegen und die Rechnungen mit dem Bestellwert abgleichen",
+"why": "too long: 108 characters, the limit is 60"
+},
+{
+"en": "Payments received with month and days after the due date",
+"kind": "title",
+"max": 60,
+"mt": "Eingegangene Zahlungen mit Monat und Tagen nach dem Fälligkeitsdatum",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Chase steps for late invoices with promises kept or broken",
+"kind": "title",
+"max": 60,
+"mt": "Verfolgen Sie Schritte für verspätete Rechnungen mit eingehaltenen oder gebrochenen Versprechen",
+"why": "too long: 95 characters, the limit is 60"
+},
+{
+"en": "Team with hour cost, bill rate and the last four weeks",
+"kind": "title",
+"max": 60,
+"mt": "Team mit Stundenkosten, Rechnungssatz und den letzten vier Wochen",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Invoiced, received, time value logged and credits",
+"kind": "title",
+"max": 60,
+"mt": "In Rechnung gestellt, erhalten, protokollierter Zeitwert und Gutschriften",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Credits and write-offs",
+"kind": "label",
+"max": 30,
+"mt": "Gutschriften und Abschreibungen",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fee milestone with share, amount and billing check",
+"kind": "title",
+"max": 60,
+"mt": "Gebührenmeilenstein mit Anteil, Betrag und Abrechnungsprüfung",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "FF&E deposit or balance against the ordered value",
+"kind": "title",
+"max": 60,
+"mt": "Mobiliar, Einrichtungsgegenstände und Ausstattung zu hinterlegen oder mit dem Bestellwert zu verrechnen",
+"why": "too long: 103 characters, the limit is 60"
+},
+{
+"en": "Reminder for a late invoice with the promise made",
+"kind": "title",
+"max": 60,
+"mt": "Erinnerung für eine verspätete Rechnung mit abgegebener Zusage",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Fixed fee against the hours logged, with overrun and margin",
+"kind": "title",
+"max": 60,
+"mt": "Feste Gebühr für die protokollierten Stunden, mit Überschreitung und Marge",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Percentage fee on each FF&E invoice with retainer credit",
+"kind": "title",
+"max": 60,
+"mt": "Prozentuale Gebühr auf jeder Möbel-, Einrichtungs- und Ausstattungsrechnung mit Vorschussgutschrift",
+"why": "too long: 99 characters, the limit is 60"
+},
+{
+"en": "Late payment cost: money carried and time spent chasing",
+"kind": "title",
+"max": 60,
+"mt": "Kosten für verspätete Zahlungen: Mitgeführtes Geld und Zeitaufwand für die Nachverfolgung",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Average days to pay and what a slow payer costs",
+"kind": "title",
+"max": 60,
+"mt": "Durchschnittliche Zahlungsdauer und was ein Langsamzahler kostet",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Effective hourly rate of a fixed fee against the rate card",
+"kind": "title",
+"max": 60,
+"mt": "Effektiver Stundensatz einer festen Gebühr gemäß der Preisliste",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Effect of a credit or write-off on the project margin",
+"kind": "title",
+"max": 60,
+"mt": "Auswirkung einer Gutschrift oder Abschreibung auf die Projektmarge",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Trades re-billing price from contractor cost and mark-up",
+"kind": "title",
+"max": 60,
+"mt": "Handelt den Neuabrechnungspreis aus den Kosten des Auftragnehmers und dem Aufschlag",
+"why": "too long: 83 characters, the limit is 60"
+}
+]

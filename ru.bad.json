@@ -1,0 +1,240 @@
+[
+{
+"en": "Percentage fee per FF&E invoice",
+"kind": "label",
+"max": 50,
+"mt": "Процентная плата за мебель, сантехнику и оборудование",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Chase log with promises kept or broken",
+"kind": "label",
+"max": 50,
+"mt": "Журнал погони с выполненными или нарушенными обещаниями",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "FF&E deposit",
+"kind": "list",
+"max": 30,
+"mt": "Залог за мебель, сантехнику и технику",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "FF&E balance",
+"kind": "list",
+"max": 30,
+"mt": "баланс мебели, сантехники и оборудования",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Fee rounded down at handover",
+"kind": "list",
+"max": 30,
+"mt": "Сумма округляется в меньшую сторону при передаче",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Fee exceeds the hours value",
+"kind": "list",
+"max": 30,
+"mt": "Плата превышает стоимость часов",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fee covers the hours at cost",
+"kind": "list",
+"max": 30,
+"mt": "Плата покрывает часы по себестоимости",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Timesheet by week with utilisation and value",
+"kind": "title",
+"max": 60,
+"mt": "Табель учета рабочего времени по неделям с указанием использования и стоимости",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Time value by project and month, billed or not",
+"kind": "title",
+"max": 60,
+"mt": "Временная стоимость по проектам и месяцам, с выставлением счета или без него",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Client invoices with days late, state and open amount",
+"kind": "title",
+"max": 60,
+"mt": "Счета-фактуры клиента с указанием дней просрочки, состояния и открытой суммы",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Invoices still to come or open, by due date",
+"kind": "title",
+"max": 60,
+"mt": "Счета-фактуры еще не получены или открыты в установленный срок.",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Fee milestones with share, due date and billing",
+"kind": "title",
+"max": 60,
+"mt": "Этапы сбора с указанием доли, даты оплаты и выставления счетов",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "FF&E deposit and balance invoices against the ordered value",
+"kind": "title",
+"max": 60,
+"mt": "Залог за мебель, сантехнику и оборудование и баланс счета-фактуры в зависимости от заказанной стоимости",
+"why": "too long: 103 characters, the limit is 60"
+},
+{
+"en": "Payments received with month and days after the due date",
+"kind": "title",
+"max": 60,
+"mt": "Платежи, полученные через месяц и дни после установленной даты",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Clients with invoiced, paid, open balance and lateness",
+"kind": "title",
+"max": 60,
+"mt": "Клиенты с выставленными счетами, оплаченными, открытым остатком и опозданиями",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Projects with fee type, billed, paid and balance",
+"kind": "title",
+"max": 60,
+"mt": "Проекты с типом комиссии, выставленными счетами, оплаченными и балансом",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Chase steps for late invoices with promises kept or broken",
+"kind": "title",
+"max": 60,
+"mt": "Действия по борьбе с просроченными счетами при выполнении или нарушении обещаний",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Statement of account per client, overdue first",
+"kind": "title",
+"max": 60,
+"mt": "Выписка по счету по каждому клиенту, просроченная в первую очередь",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Billing rates with cost and margin per hour",
+"kind": "title",
+"max": 60,
+"mt": "Тарифы выставления счетов с учетом стоимости и почасовой маржи",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Team with hour cost, bill rate and the last four weeks",
+"kind": "title",
+"max": 60,
+"mt": "Команда со стоимостью часа, ставкой счета и последними четырьмя неделями",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Invoiced, received, time value logged and credits",
+"kind": "title",
+"max": 60,
+"mt": "Счет выставлен, получен, временная стоимость зарегистрирована и кредиты",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Time value logged",
+"kind": "label",
+"max": 30,
+"mt": "Значение времени зарегистрировано",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Time entry with billable value and cost",
+"kind": "title",
+"max": 60,
+"mt": "Запись времени с указанием оплачиваемой стоимости и стоимости",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "FF&E deposit or balance against the ordered value",
+"kind": "title",
+"max": 60,
+"mt": "залог за мебель, сантехнику и оборудование или остаток от заказанной стоимости",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Fixed fee against the hours logged, with overrun and margin",
+"kind": "title",
+"max": 60,
+"mt": "Фиксированная плата за отработанные часы, с перерасходом и маржой",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Percentage fee on each FF&E invoice with retainer credit",
+"kind": "title",
+"max": 60,
+"mt": "Процентная плата за каждый счет за мебель, приспособления и оборудование с предварительным кредитом",
+"why": "too long: 99 characters, the limit is 60"
+},
+{
+"en": "Late payment cost: money carried and time spent chasing",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость просрочки платежа: перенесенные деньги и время, потраченное на погоню.",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Average days to pay and what a slow payer costs",
+"kind": "title",
+"max": 60,
+"mt": "Среднее количество дней для оплаты и сколько стоит медленно платящему",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Effective hourly rate of a fixed fee against the rate card",
+"kind": "title",
+"max": 60,
+"mt": "Эффективная почасовая ставка фиксированной платы по прейскуранту",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Trades re-billing price from contractor cost and mark-up",
+"kind": "title",
+"max": 60,
+"mt": "Заменяет цену пересчета на основе стоимости подрядчика и наценки",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Studio income per designer for hourly rate and utilisation",
+"kind": "title",
+"max": 60,
+"mt": "Доход студии на одного дизайнера по почасовой ставке и использованию",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, thank you for paying invoice {invoice_id} on time. It helps us a lot.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {contact}! Благодарим вас за своевременную оплату счета {invoice_id}. It helps us a lot.",
+"why": "English/Latin words left: It helps us lot."
+},
+{
+"en": "Hello {contact}, the final invoice for {name} is ready. The balance owed is {balance}. Final documents follow when it is paid.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {contact}! Окончательный счет за {name} готов. The balance owed is {balance}. Итоговые документы выдаются после оплаты.",
+"why": "English/Latin words left: The balance owed is"
+},
+{
+"en": "Hello, {name} has hours worth {logged_value} against a fee of {fee}. The unrecovered overrun is {unrecovered}. Please review the scope.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! У пользователя {name} есть часы стоимостью {logged_value} за плату в размере {fee}. Невосстановленное превышение равно {unrecovered}. Please review the scope.",
+"why": "English/Latin words left: Please review the scope."
+}
+]

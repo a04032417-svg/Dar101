@@ -1,0 +1,205 @@
+[
+{
+"en": "Trade jobs started",
+"kind": "label",
+"max": 30,
+"mt": "Les travaux commerciaux ont commencé",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Percentage fee per FF&E invoice",
+"kind": "label",
+"max": 50,
+"mt": "Honoraire en pourcentage par facture de mobilier, agencements et équipements",
+"why": "too long: 76 characters, the limit is 50"
+},
+{
+"en": "every invoice of a project from retainer to FF&E balances and trades with dates, for fixed, hourly or percentage fees",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque facture d'un projet, depuis les honoraires jusqu'aux soldes de meubles, d'agencements et d'équipements et les échanges avec des dates, pour des frais fixes, horaires ou en pourcentage",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "Chase log with promises kept or broken",
+"kind": "label",
+"max": 50,
+"mt": "Journal de chasse avec promesses tenues ou non tenues",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "FF&E deposit",
+"kind": "list",
+"max": 30,
+"mt": "dépôt de meubles, agencements et équipements",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "FF&E balance",
+"kind": "list",
+"max": 30,
+"mt": "solde du mobilier, des agencements et de l'équipement",
+"why": "too long: 53 characters, the limit is 30"
+},
+{
+"en": "Fee rounded down at handover",
+"kind": "list",
+"max": 30,
+"mt": "Honoraires arrondis à la baisse",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Mark-up below the set",
+"kind": "list",
+"max": 30,
+"mt": "Majoration en dessous de l'ensemble",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Rate above the rate card",
+"kind": "list",
+"max": 30,
+"mt": "Tarif supérieur à la grille tarifaire",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Rate below the rate card",
+"kind": "list",
+"max": 30,
+"mt": "Tarif inférieur à la grille tarifaire",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Utilisation on target",
+"kind": "list",
+"max": 30,
+"mt": "Utilisation conforme aux objectifs",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Fee exceeds the hours value",
+"kind": "list",
+"max": 30,
+"mt": "Fee exceeds the hours value",
+"why": "not translated"
+},
+{
+"en": "Fee covers the hours at cost",
+"kind": "list",
+"max": 30,
+"mt": "Fee covers the hours at cost",
+"why": "not translated"
+},
+{
+"en": "Client invoices with days late, state and open amount",
+"kind": "title",
+"max": 60,
+"mt": "Factures clients avec jours de retard, état et montant en cours",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "FF&E deposit and balance invoices against the ordered value",
+"kind": "title",
+"max": 60,
+"mt": "dépôt de mobilier, d'agencements et d'équipement et factures de solde par rapport à la valeur commandée",
+"why": "too long: 103 characters, the limit is 60"
+},
+{
+"en": "Chase steps for late invoices with promises kept or broken",
+"kind": "title",
+"max": 60,
+"mt": "Rechercher les démarches en cas de factures en retard dont les promesses sont tenues ou non tenues",
+"why": "too long: 98 characters, the limit is 60"
+},
+{
+"en": "Team with hour cost, bill rate and the last four weeks",
+"kind": "title",
+"max": 60,
+"mt": "Équipe avec coût horaire, taux de facturation et les quatre dernières semaines",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Payment received with timing against the due date",
+"kind": "title",
+"max": 60,
+"mt": "Paiement reçu dans les délais par rapport à la date d'échéance",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Fee milestone with share, amount and billing check",
+"kind": "title",
+"max": 60,
+"mt": "Jalon de frais avec partage, montant et contrôle de facturation",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "FF&E deposit or balance against the ordered value",
+"kind": "title",
+"max": 60,
+"mt": "caution pour les meubles, accessoires et équipements ou solde par rapport à la valeur commandée",
+"why": "too long: 95 characters, the limit is 60"
+},
+{
+"en": "Fixed fee against the hours logged, with overrun and margin",
+"kind": "title",
+"max": 60,
+"mt": "Honoraire fixe par rapport aux heures enregistrées, avec dépassement et marge",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Percentage fee on each FF&E invoice with retainer credit",
+"kind": "title",
+"max": 60,
+"mt": "Frais en pourcentage sur chaque facture de mobilier, d'agencements et d'équipement avec crédit d'acompte",
+"why": "too long: 104 characters, the limit is 60"
+},
+{
+"en": "Late payment cost: money carried and time spent chasing",
+"kind": "title",
+"max": 60,
+"mt": "Coût du retard de paiement : argent transporté et temps passé à courir après",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Reminder dates from a due date, by client kind",
+"kind": "title",
+"max": 60,
+"mt": "Dates de rappel à partir d'une date d'échéance, par type de client",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Client A",
+"kind": "label",
+"max": null,
+"mt": "Client A",
+"why": "not translated"
+},
+{
+"en": "Client B",
+"kind": "label",
+"max": null,
+"mt": "Client B",
+"why": "not translated"
+},
+{
+"en": "Effective hourly rate of a fixed fee against the rate card",
+"kind": "title",
+"max": 60,
+"mt": "Taux horaire effectif d'un tarif fixe par rapport à la grille tarifaire",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Trades re-billing price from contractor cost and mark-up",
+"kind": "title",
+"max": 60,
+"mt": "Prix de refacturation des échanges à partir du coût et de la majoration de l'entrepreneur",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Studio income per designer for hourly rate and utilisation",
+"kind": "title",
+"max": 60,
+"mt": "Revenu du studio par designer pour le taux horaire et l'utilisation",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

@@ -1,0 +1,184 @@
+[
+{
+"en": "Percentage fee per FF&E invoice",
+"kind": "label",
+"max": 50,
+"mt": "Percentage vergoeding per factuur voor meubilair, inventaris en uitrusting",
+"why": "too long: 74 characters, the limit is 50"
+},
+{
+"en": "every invoice of a project from retainer to FF&E balances and trades with dates, for fixed, hourly or percentage fees",
+"kind": "sentence",
+"max": 160,
+"mt": "elke factuur van een project, van provisie tot meubilair, inventaris en apparatuur, saldi en transacties met datums, voor vaste, uur- of procentuele vergoedingen",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Statements and overdue by client",
+"kind": "label",
+"max": 50,
+"mt": "Verklaringen en achterstallige betalingen door de klant",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Chase log with promises kept or broken",
+"kind": "label",
+"max": 50,
+"mt": "Achtervolgingslogboek met nagekomen of gebroken beloften",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "FF&E deposit",
+"kind": "list",
+"max": 30,
+"mt": "borg voor meubilair, inventaris en apparatuur",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "FF&E balance",
+"kind": "list",
+"max": 30,
+"mt": "meubilair, armaturen en uitrustingsbalans",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Fee rounded down at handover",
+"kind": "list",
+"max": 30,
+"mt": "Bij overdracht wordt het honorarium naar beneden afgerond",
+"why": "too long: 57 characters, the limit is 30"
+},
+{
+"en": "Fee exceeds the hours value",
+"kind": "list",
+"max": 30,
+"mt": "Het honorarium is hoger dan de urenwaarde",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Fee covers the hours at cost",
+"kind": "list",
+"max": 30,
+"mt": "Het honorarium dekt de uren tegen kostprijs",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "FF&E deposit and balance invoices against the ordered value",
+"kind": "title",
+"max": 60,
+"mt": "meubilair, inrichting en uitrusting borgen en salderen van facturen tegen de bestelde waarde",
+"why": "too long: 92 characters, the limit is 60"
+},
+{
+"en": "Contractor jobs re-billed with mark-up",
+"kind": "title",
+"max": 60,
+"mt": "Opdrachten voor aannemers worden opnieuw gefactureerd met opslag",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Payments received with month and days after the due date",
+"kind": "title",
+"max": 60,
+"mt": "Betalingen ontvangen binnen de maand en dagen na de vervaldatum",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Clients with invoiced, paid, open balance and lateness",
+"kind": "title",
+"max": 60,
+"mt": "Klanten met gefactureerd, betaald, openstaand saldo en laattijdigheid",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Projects with fee type, billed, paid and balance",
+"kind": "title",
+"max": 60,
+"mt": "Projecten met type vergoeding, gefactureerd, betaald en saldo",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Chase steps for late invoices with promises kept or broken",
+"kind": "title",
+"max": 60,
+"mt": "Achtervolg stappen voor te late facturen met nagekomen of gebroken beloftes",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Invoiced, received, time value logged and credits",
+"kind": "title",
+"max": 60,
+"mt": "Gefactureerd, ontvangen, geregistreerde tijdswaarde en tegoeden",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "FF&E deposit or balance against the ordered value",
+"kind": "title",
+"max": 60,
+"mt": "meubilair, inrichting en uitrusting borg of saldo tegen de bestelde waarde",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Reminder for a late invoice with the promise made",
+"kind": "title",
+"max": 60,
+"mt": "Herinnering voor een laattijdige factuur met de gedane belofte",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Fixed fee against the hours logged, with overrun and margin",
+"kind": "title",
+"max": 60,
+"mt": "Vaste vergoeding over de geregistreerde uren, met overschrijding en marge",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Percentage fee on each FF&E invoice with retainer credit",
+"kind": "title",
+"max": 60,
+"mt": "Percentage vergoeding op elke factuur voor meubilair, inventaris en uitrusting met provisiekrediet",
+"why": "too long: 98 characters, the limit is 60"
+},
+{
+"en": "Late payment cost: money carried and time spent chasing",
+"kind": "title",
+"max": 60,
+"mt": "Kosten voor laattijdige betaling: geld dat wordt meegenomen en tijd die wordt besteed aan het achtervolgen",
+"why": "too long: 106 characters, the limit is 60"
+},
+{
+"en": "Average days to pay and what a slow payer costs",
+"kind": "title",
+"max": 60,
+"mt": "Gemiddelde dagen om te betalen en wat een langzame betaler kost",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Score A",
+"kind": "label",
+"max": null,
+"mt": "Score A",
+"why": "not translated"
+},
+{
+"en": "Effective hourly rate of a fixed fee against the rate card",
+"kind": "title",
+"max": 60,
+"mt": "Effectief uurtarief van een vast honorarium op basis van de tariefkaart",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Effect of a credit or write-off on the project margin",
+"kind": "title",
+"max": 60,
+"mt": "Effect van een creditering of afschrijving op de projectmarge",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Trades re-billing price from contractor cost and mark-up",
+"kind": "title",
+"max": 60,
+"mt": "Verhandelt de herfactureringsprijs op basis van de kosten van de aannemer en de opslag",
+"why": "too long: 86 characters, the limit is 60"
+}
+]

@@ -1,0 +1,149 @@
+[
+{
+"en": "Lead designer: {col:projects.lead}. Phase: {col:projects.phase}. Forecast handover: {col:projects.forecast_handover}, in {col:projects.days_to_handover} days.",
+"kind": "document",
+"max": null,
+"mt": "लीड डिज़ाइनर: {col:projects.lead}. चरण एक}। पूर्वानुमान हैंडओवर: {col:projects.forecast_handover}, {col:projects.days_to_handover} दिनों में।",
+"why": "placeholders must be exactly: {col:projects.lead} {col:projects.phase} {col:projects.forecast_handover} {col:projects.days_to_handover}"
+},
+{
+"en": "Date: {col:install.date}. Project: {col:install.project}. Room: {col:install.room}. Crew lead: {col:install.crew}, phone {col:install.crew_phone}.",
+"kind": "document",
+"max": null,
+"mt": "दिनांक: {col:install.date}. प्रोजेक्ट 1}। कमरा: {col:install.room}. क्रू लीड: {col:install.crew}, फ़ोन {col:install.crew_phone}।",
+"why": "placeholders must be exactly: {col:install.date} {col:install.project} {col:install.room} {col:install.crew} {col:install.crew_phone}"
+},
+{
+"en": "Room: {col:punch.room}. Issue: {col:punch.issue}. Kind: {col:punch.kind}. Reported on {col:punch.reported_on}, due on {col:punch.due_on}.",
+"kind": "document",
+"max": null,
+"mt": "कमरा: {col:punch.room}. अंक 1}। प्रकार: {col:punch.kind}. {col:punch.reported_on} को रिपोर्ट की गई, {col:punch.due_on} को देय।",
+"why": "placeholders must be exactly: {col:punch.room} {col:punch.issue} {col:punch.kind} {col:punch.reported_on} {col:punch.due_on}"
+},
+{
+"en": "Trade jobs started",
+"kind": "label",
+"max": 30,
+"mt": "व्यापारिक नौकरियाँ प्रारम्भ हुईं",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Percentage fee per FF&E invoice",
+"kind": "label",
+"max": 50,
+"mt": "प्रति फर्नीचर, फिक्स्चर और उपकरण चालान पर प्रतिशत शुल्क",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "FF&E balance",
+"kind": "list",
+"max": 30,
+"mt": "फर्नीचर, फिक्स्चर और उपकरण संतुलन",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Fee rounded down at handover",
+"kind": "list",
+"max": 30,
+"mt": "हैंडओवर पर शुल्क को पूर्णांकित कर दिया गया",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Fee covers the hours at cost",
+"kind": "list",
+"max": 30,
+"mt": "शुल्क लागत पर घंटों को कवर करता है",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Client invoices with days late, state and open amount",
+"kind": "title",
+"max": 60,
+"mt": "ग्राहक इनवॉइस में दिनों की देरी, राज्य और खुली राशि बताते हैं",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "FF&E deposit and balance invoices against the ordered value",
+"kind": "title",
+"max": 60,
+"mt": "फर्नीचर, फिक्स्चर और उपकरण आदेशित मूल्य के विरुद्ध जमा और शेष चालान",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Chase steps for late invoices with promises kept or broken",
+"kind": "title",
+"max": 60,
+"mt": "वादों को पूरा करने या तोड़ने के साथ देर से चालान के लिए कदम उठाएं",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Invoiced, received, time value logged and credits",
+"kind": "title",
+"max": 60,
+"mt": "चालान किया गया, प्राप्त किया गया, समय मूल्य लॉग किया गया और क्रेडिट किया गया",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "FF&E deposit or balance against the ordered value",
+"kind": "title",
+"max": 60,
+"mt": "फर्नीचर, फिक्स्चर और उपकरण आदेशित मूल्य के विरुद्ध जमा या शेष राशि",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Fixed fee against the hours logged, with overrun and margin",
+"kind": "title",
+"max": 60,
+"mt": "ओवररन और मार्जिन के साथ, लॉग किए गए घंटों के विरुद्ध निश्चित शुल्क",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Percentage fee on each FF&E invoice with retainer credit",
+"kind": "title",
+"max": 60,
+"mt": "रिटेनर क्रेडिट के साथ प्रत्येक फर्नीचर, फिक्स्चर और उपकरण चालान पर प्रतिशत शुल्क",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Late payment cost: money carried and time spent chasing",
+"kind": "title",
+"max": 60,
+"mt": "देर से भुगतान की लागत: पैसा ले जाया गया और पीछा करने में समय व्यतीत हुआ",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Reminder dates from a due date, by client kind",
+"kind": "title",
+"max": 60,
+"mt": "ग्राहक के प्रकार के अनुसार, अनुस्मारक की तारीखें नियत तारीख से शुरू होती हैं",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Average days to pay and what a slow payer costs",
+"kind": "title",
+"max": 60,
+"mt": "भुगतान करने के औसत दिन और धीमी गति से भुगतान करने वाले की लागत क्या है",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Effective hourly rate of a fixed fee against the rate card",
+"kind": "title",
+"max": 60,
+"mt": "दर कार्ड के विरुद्ध एक निश्चित शुल्क की प्रभावी प्रति घंटा दर",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Trades re-billing price from contractor cost and mark-up",
+"kind": "title",
+"max": 60,
+"mt": "ठेकेदार की लागत और मार्क-अप से पुनः बिलिंग मूल्य का व्यापार करता है",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Hello, please confirm the {billable_hours} billable hours on {project} for {month} before we send the time invoice.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, कृपया समय चालान भेजने से पहले कृपया {month} के लिए {project} पर बिल योग्य घंटों की पुष्टि करें।",
+"why": "placeholders must be exactly: {billable_hours} {project} {month}"
+}
+]
