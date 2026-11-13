@@ -1,0 +1,562 @@
+[
+{
+"en": "Truck Availability",
+"kind": "sheet",
+"max": 31,
+"mt": "Beschikbaarheid van vrachtwagens",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Waiting Time Claim Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Declaratieformulier voor wachttijden",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Cancelled Load Fee Claim",
+"kind": "sheet",
+"max": 31,
+"mt": "Geannuleerde claim voor laadkosten",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "New Load Booking Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Nieuwe stappen voor het boeken van ladingen",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Pickup Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor controle bij ophalen",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Waiting Time Claim Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het claimen van wachttijden",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Weekly Lane Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Wekelijkse stappen voor het beoordelen van de rijstrook",
+"why": "too long: 55 characters, the limit is 31"
+},
+{
+"en": "Factoring Advances",
+"kind": "sheet",
+"max": 31,
+"mt": "Vooruitgangen in rekening brengen",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Short Pay Dispute Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Geschillenblad voor kortetermijnbetalingen",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Bad Debt Allowance",
+"kind": "sheet",
+"max": 31,
+"mt": "Voorziening voor dubieuze debiteuren",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Short Pay Dispute Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Geschillenbrief over korte termijnbetalingen",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Invoice a Delivered Load Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Factureer een geleverde ladingsstap",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Weekly Invoicing Run Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Wekelijkse facturatie voert stappen uit",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Chase an Overdue Invoice Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Achterstallige factuurstappen achtervolgen",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Short Pay Dispute Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Korte stappen voor loongeschillen",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Reserve Release Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Controlestappen voor vrijgave van reserveringen",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Credit Check New Broker Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Kredietcontrole nieuwe makelaarsstappen",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Month-end Receivables Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor debiteuren aan het einde van de maand",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Stop Loads Slow Payer Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stop met veel trage betalerstappen",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Fuel Use per Truck",
+"kind": "sheet",
+"max": 31,
+"mt": "Brandstofverbruik per vrachtwagen",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Fuel Use per Driver",
+"kind": "sheet",
+"max": 31,
+"mt": "Brandstofverbruik per bestuurder",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Filing Calendar",
+"kind": "sheet",
+"max": 31,
+"mt": "Kalender voor het indienen van brandstofbelasting",
+"why": "too long: 49 characters, the limit is 31"
+},
+{
+"en": "Cheapest Stops by Lane",
+"kind": "sheet",
+"max": 31,
+"mt": "Goedkoopste haltes per rijstrook",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Fuel Use Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Overzichtsblad voor brandstofverbruik",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Weekly Fuel Card Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Wekelijkse stappen voor tankkaartcontrole",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Data Collection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het verzamelen van brandstofbelastinggegevens",
+"why": "too long: 58 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Return Filing Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het indienen van de brandstofbelastingaangifte",
+"why": "too long: 59 characters, the limit is 31"
+},
+{
+"en": "Bulk Tank Delivery Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het leveren van bulktanks",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Fuel Use Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Beoordelingsstappen voor brandstofgebruik",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Price Swing Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor beoordeling van prijsschommelingen",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Missing Receipt Follow-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Ontbrekende vervolgstappen voor ontvangstbewijzen",
+"why": "too long: 49 characters, the limit is 31"
+},
+{
+"en": "Quarter-end Fuel Close Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het afsluiten van brandstof aan het einde van het kwartaal",
+"why": "too long: 71 characters, the limit is 31"
+},
+{
+"en": "Fleet Maintenance Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Dashboard voor wagenparkonderhoud",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Spare Part Order Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Bestelblad voor reserveonderdelen",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Truck Replacement Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Vervangingsblad voor vrachtwagens",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Workshop Check-in Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Incheckformulier voor de werkplaats",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Spare Part Reorder",
+"kind": "sheet",
+"max": 31,
+"mt": "Nabestelling van reserveonderdelen",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Truck Replacement Proposal",
+"kind": "sheet",
+"max": 31,
+"mt": "Voorstel voor vrachtwagenvervanging",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Trailer Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het controleren van aanhangwagens",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Workshop Hand-over Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de overdracht van de werkplaats",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Spare Parts Count Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Reserveonderdelen tellen stappen",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Monthly Fleet Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Maandelijkse stappen voor vlootbeoordeling",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Driver Profitability",
+"kind": "sheet",
+"max": 31,
+"mt": "Winstgevendheid van de chauffeur",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Pay Rate Change Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Wijzigingsblad voor loontarieven",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Weekly Settlement Run Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Wekelijkse stappen voor afwikkelingsruns",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "New Driver Onboarding Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Onboardingstappen voor nieuwe chauffeurs",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Driver Exit Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het verlaten van de bestuurder",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Quarterly Pay Rate Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het beoordelen van de driemaandelijkse loontarieven",
+"why": "too long: 64 characters, the limit is 31"
+},
+{
+"en": "Driver Scorecard Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Beoordelingsstappen voor de scorekaart van de chauffeur",
+"why": "too long: 55 characters, the limit is 31"
+},
+{
+"en": "Payroll Run Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor de loonadministratie",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Compliance and Safety Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Compliance- en veiligheidsdashboard",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Annual Safety Inspections",
+"kind": "sheet",
+"max": 31,
+"mt": "Jaarlijkse veiligheidsinspecties",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Driver Safety Record",
+"kind": "sheet",
+"max": 31,
+"mt": "Veiligheidsrecord van de bestuurder",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Equipment Safety Checks",
+"kind": "sheet",
+"max": 31,
+"mt": "Veiligheidscontroles van apparatuur",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Driver Safety Score",
+"kind": "sheet",
+"max": 31,
+"mt": "Veiligheidsscore van de bestuurder",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Driver Compliance File",
+"kind": "sheet",
+"max": 31,
+"mt": "Conformiteitsbestand voor chauffeurs",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Truck Compliance File",
+"kind": "sheet",
+"max": 31,
+"mt": "Conformiteitsdossier voor vrachtwagens",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Monthly Expiry Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Maandelijkse stappen voor beoordeling van de vervaldatum",
+"why": "too long: 56 characters, the limit is 31"
+},
+{
+"en": "Licence or Medical Card Renewal",
+"kind": "sheet",
+"max": 31,
+"mt": "Verlenging van licentie of medische kaart",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Registration Permit Renewal",
+"kind": "sheet",
+"max": 31,
+"mt": "Verlenging registratievergunning",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Annual Safety Inspection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Jaarlijkse veiligheidsinspectiestappen",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Incident Response Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor reactie op incidenten",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Cargo Claim Response Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor respons op vrachtclaims",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Audit Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Stappen voor het voorbereiden van audits",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Rate Floor by Lane",
+"kind": "sheet",
+"max": 31,
+"mt": "Beoordeel verdieping per rijstrook",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Lanes to Raise or Drop",
+"kind": "sheet",
+"max": 31,
+"mt": "Lanes om te verhogen of te laten vallen",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Price Swing Scenarios",
+"kind": "sheet",
+"max": 31,
+"mt": "Scenario's voor prijsschommelingen",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Truck Cost Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Overzichtsblad voor vrachtwagenkosten",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Break-even Rate for a Lane",
+"kind": "sheet",
+"max": 31,
+"mt": "Break-even tarief voor een rijstrook",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Lane Profitability Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport over winstgevendheid van rijstroken",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Monthly Cost per Km Update",
+"kind": "sheet",
+"max": 31,
+"mt": "Update van maandelijkse kosten per km",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Quarterly Lane Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Kwartaaloverzicht van de rijstrook",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Customer Profitability Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Beoordeling van de winstgevendheid van klanten",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Truck Cost Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Kostenoverzicht van vrachtwagens",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Payments",
+"kind": "sheet",
+"max": 31,
+"mt": "Betalingen van brandstofbelasting",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Payroll Approval Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Goedkeuringsblad voor loonadministratie",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Cash Forecast Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculator voor contante prognoses",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Truck Purchase Affordability",
+"kind": "sheet",
+"max": 31,
+"mt": "Betaalbaarheid van de aankoop van vrachtwagens",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Revenue and Cost per Km Grid",
+"kind": "sheet",
+"max": 31,
+"mt": "Opbrengsten en kosten per km-net",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Year-end Preparation",
+"kind": "sheet",
+"max": 31,
+"mt": "Voorbereiding op het einde van het jaar",
+"why": "too long: 39 characters, the limit is 31"
+}
+]

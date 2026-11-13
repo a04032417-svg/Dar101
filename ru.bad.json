@@ -1,0 +1,611 @@
+[
+{
+"en": "Waiting Time Claim Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист претензии по времени ожидания",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Backhaul Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист запроса на транзитное соединение",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Waiting Time Claim Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Письмо с претензией на время ожидания",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Cancelled Load Fee Claim",
+"kind": "sheet",
+"max": 31,
+"mt": "Отменена заявка на оплату загрузки",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Lane Rate Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Таблица тарифов на полосу движения",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "New Load Booking Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Новые этапы бронирования загрузки",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Waiting Time Claim Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Действия по претензии времени ожидания",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Weekly Lane Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы еженедельного обзора полосы движения",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Backhaul Search Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы поиска транзитного соединения",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Weekend Load Plan Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы плана загрузки на выходные",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Receivables Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Панель дебиторской задолженности",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Unbilled Extras",
+"kind": "sheet",
+"max": 31,
+"mt": "Неоплаченные дополнительные услуги",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Short Pay Dispute Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Краткий лист спора по заработной плате",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Credit Check Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист проверки кредитоспособности",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Late Payer Cost",
+"kind": "sheet",
+"max": 31,
+"mt": "Стоимость просроченного плательщика",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Short Pay Dispute Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Краткое письмо о споре по заработной плате",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Invoice a Delivered Load Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Выставление счета за доставленную погрузку",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Weekly Invoicing Run Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Шаги еженедельного выставления счетов",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Chase an Overdue Invoice Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Действия по борьбе с просроченным счетом",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Short Pay Dispute Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Короткие шаги по спору о заработной плате",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Reserve Release Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы проверки резервного выпуска",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Credit Check New Broker Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Проверка кредитоспособности новые шаги брокера",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Month-end Receivables Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Действия по дебиторской задолженности на конец месяца",
+"why": "too long: 53 characters, the limit is 31"
+},
+{
+"en": "Stop Loads Slow Payer Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Остановить загрузку шагов медленного плательщика",
+"why": "too long: 48 characters, the limit is 31"
+},
+{
+"en": "Fuel Use per Driver",
+"kind": "sheet",
+"max": 31,
+"mt": "Расход топлива на одного водителя",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Filing Calendar",
+"kind": "sheet",
+"max": 31,
+"mt": "Календарь подачи декларации по налогу на топливо",
+"why": "too long: 48 characters, the limit is 31"
+},
+{
+"en": "Cheapest Stops by Lane",
+"kind": "sheet",
+"max": 31,
+"mt": "Самые дешевые остановки по полосам",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Reefer Fuel Use",
+"kind": "sheet",
+"max": 31,
+"mt": "Использование рефрижераторного топлива",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Return Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Бланк декларации по налогу на топливо",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Fuel Card Statement Check Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Контрольный лист выписки по топливной карте",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Fuel Use Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Обзорный лист использования топлива",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Bulk Tank vs Pump",
+"kind": "sheet",
+"max": 31,
+"mt": "Наливной резервуар против насоса",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Cheapest Stops Guide",
+"kind": "sheet",
+"max": 31,
+"mt": "Путеводитель по самым дешевым остановкам",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Weekly Fuel Card Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы еженедельной проверки топливной карты",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Monthly Odometer Reading Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Шаги ежемесячного считывания одометра",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Data Collection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы сбора данных по налогу на топливо",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Return Filing Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы подачи декларации по налогу на топливо",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Fuel Use Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы проверки использования топлива",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Missing Receipt Follow-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Отсутствуют последующие действия по получению",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Quarter-end Fuel Close Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Шаги закрытия четверти конца топлива",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Fleet Maintenance Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Информационная панель обслуживания автопарка",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Reefer Unit Hours",
+"kind": "sheet",
+"max": 31,
+"mt": "Часы работы рефрижераторной установки",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Maintenance Job Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист работ по техническому обслуживанию",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Workshop Check-in Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист регистрации заезда в мастерскую",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Maintenance Budget",
+"kind": "sheet",
+"max": 31,
+"mt": "Бюджет на техническое обслуживание",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Repair or Replace Analysis",
+"kind": "sheet",
+"max": 31,
+"mt": "Отремонтировать или заменить анализ",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Warranty Claim Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Гарантийное претензионное письмо",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Monthly Fleet Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы ежемесячной проверки автопарка",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Pay Rate Change Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист изменения ставки заработной платы",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Home Time Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Домашний табель учета рабочего времени",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Pay Rate Change",
+"kind": "sheet",
+"max": 31,
+"mt": "Изменение ставки заработной платы",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Driver Pay Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Сводка по заработной плате водителя",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Quarterly Pay Rate Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы ежеквартального пересмотра ставки заработной платы",
+"why": "too long: 56 characters, the limit is 31"
+},
+{
+"en": "Driver Scorecard Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы проверки системы показателей водителя",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Compliance and Safety Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Панель управления соответствием и безопасностью",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Expiry Calendar",
+"kind": "sheet",
+"max": 31,
+"mt": "Календарь истечения срока действия",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Equipment Safety Checks",
+"kind": "sheet",
+"max": 31,
+"mt": "Проверка безопасности оборудования",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Cargo Claim Response Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Бланк ответа на претензию по грузу",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Safety Meeting Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист совещания по технике безопасности",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Truck Out of Service",
+"kind": "sheet",
+"max": 31,
+"mt": "Грузовик выведен из эксплуатации",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Compliance Cost per Truck",
+"kind": "sheet",
+"max": 31,
+"mt": "Стоимость соответствия за грузовик",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Expiry Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Отчет об истечении срока действия",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Safety Meeting Minutes",
+"kind": "sheet",
+"max": 31,
+"mt": "Протокол совещания по безопасности",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Monthly Expiry Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы проверки ежемесячного срока действия",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Licence or Medical Card Renewal",
+"kind": "sheet",
+"max": 31,
+"mt": "Продление лицензии или медицинской карты",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Registration Permit Renewal",
+"kind": "sheet",
+"max": 31,
+"mt": "Продление разрешения на регистрацию",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Annual Safety Inspection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы ежегодной проверки безопасности",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Incident Response Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Действия по реагированию на инциденты",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Cargo Claim Response Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Этапы ответа на претензию по грузу",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Costs and Profit Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Информационная панель затрат и прибыли",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Fixed Costs and Overhead",
+"kind": "sheet",
+"max": 31,
+"mt": "Постоянные затраты и накладные расходы",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Lanes to Raise or Drop",
+"kind": "sheet",
+"max": 31,
+"mt": "Дорожки для подъема или опускания",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Lane Decision Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист принятия решения о полосе движения",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Break-even Rate for a Lane",
+"kind": "sheet",
+"max": 31,
+"mt": "Коэффициент безубыточности для полосы",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Rate Floor for Dispatcher",
+"kind": "sheet",
+"max": 31,
+"mt": "Минимальный тариф для диспетчера",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Lane Decision Memo",
+"kind": "sheet",
+"max": 31,
+"mt": "Памятка о решении полосы движения",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Monthly Cost per Km Update",
+"kind": "sheet",
+"max": 31,
+"mt": "Ежемесячное обновление стоимости за км",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Yearly Overhead Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Ежегодный обзор накладных расходов",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Finance and Cash Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Панель управления финансами и наличными",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Payroll Approval Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист утверждения заработной платы",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Cash Forecast Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Калькулятор прогноза денежных средств",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Slow Payer Cash Gap",
+"kind": "sheet",
+"max": 31,
+"mt": "Денежный разрыв медленно плательщика",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Working Capital Need",
+"kind": "sheet",
+"max": 31,
+"mt": "Потребность в оборотном капитале",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Depreciation and Book Value",
+"kind": "sheet",
+"max": 31,
+"mt": "Амортизация и балансовая стоимость",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Revenue and Cost per Km Grid",
+"kind": "sheet",
+"max": 31,
+"mt": "Доход и стоимость на километр сетки",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Cash Forecast Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Отчет о прогнозе денежных средств",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Receivable Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Сводка дебиторской задолженности",
+"why": "too long: 32 characters, the limit is 31"
+}
+]

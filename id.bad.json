@@ -1,0 +1,548 @@
+[
+{
+"en": "Fuel Surcharge Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Jadwal biaya tambahan bahan bakar",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Cancelled Load Fee Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Lembar biaya pemuatan dibatalkan",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Late Delivery Explanation",
+"kind": "sheet",
+"max": 31,
+"mt": "Penjelasan keterlambatan pengiriman",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Dispatch a Load Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Mengirimkan langkah-langkah pemuatan",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Pickup Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pemeriksaan penjemputan",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Delivery and Proof Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pengiriman dan pembuktian",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Waiting Time Claim Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah klaim waktu tunggu",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Weekly Lane Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah peninjauan jalur mingguan",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Backhaul Search Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pencarian backhaul",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Weekend Load Plan Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah rencana pemuatan akhir pekan",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Short Pay Dispute Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Lembar perselisihan pembayaran pendek",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Quick-pay Offer Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Lembar penawaran pembayaran cepat",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Expected Payment Date",
+"kind": "sheet",
+"max": 31,
+"mt": "Tanggal pembayaran yang diharapkan",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Cash for a Slow Broker",
+"kind": "sheet",
+"max": 31,
+"mt": "Uang tunai untuk broker yang lambat",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Invoice a Delivered Load Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Faktur langkah-langkah pemuatan yang dikirimkan",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Weekly Invoicing Run Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah menjalankan faktur mingguan",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Payment Matching Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pencocokan pembayaran",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Chase an Overdue Invoice Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Mengejar langkah-langkah faktur yang telah jatuh tempo",
+"why": "too long: 54 characters, the limit is 31"
+},
+{
+"en": "Short Pay Dispute Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah perselisihan pembayaran singkat",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Factoring Submission Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah penyerahan anjak piutang",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Reserve Release Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pemeriksaan rilis cadangan",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Credit Check New Broker Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Periksa kredit langkah broker baru",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Month-end Receivables Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah piutang akhir bulan",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Stop Loads Slow Payer Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Hentikan memuat langkah pembayar yang lambat",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Fuel Use per Driver",
+"kind": "sheet",
+"max": 31,
+"mt": "Penggunaan bahan bakar per pengemudi",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Km and Litres by Region",
+"kind": "sheet",
+"max": 31,
+"mt": "Km dan liter berdasarkan wilayah",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Return",
+"kind": "sheet",
+"max": 31,
+"mt": "Surat Pemberitahuan Pajak Bahan Bakar",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Filing Calendar",
+"kind": "sheet",
+"max": 31,
+"mt": "Kalender pengajuan pajak bahan bakar",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Cheapest Stops by Lane",
+"kind": "sheet",
+"max": 31,
+"mt": "Perhentian termurah berdasarkan jalur",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Fuel Surcharge Recovered",
+"kind": "sheet",
+"max": 31,
+"mt": "Biaya tambahan bahan bakar dipulihkan",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Missing Fuel Receipts",
+"kind": "sheet",
+"max": 31,
+"mt": "Tanda terima bahan bakar tidak ada",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Return Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Lembar pengembalian pajak bahan bakar",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Fuel Card Statement Check Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Lembar pemeriksaan pernyataan kartu bahan bakar",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Fuel Price Check Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Lembar pemeriksaan harga bahan bakar",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Fuel Use Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Lembar tinjauan penggunaan bahan bakar",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax by Region",
+"kind": "sheet",
+"max": 31,
+"mt": "Pajak bahan bakar menurut wilayah",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Surcharge Recovery Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Laporan pemulihan biaya tambahan",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Fill-up and Receipt Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pengisian dan penerimaan",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Weekly Fuel Card Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pemeriksaan kartu bahan bakar mingguan",
+"why": "too long: 54 characters, the limit is 31"
+},
+{
+"en": "Monthly Odometer Reading Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah pembacaan odometer bulanan",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Data Collection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pendataan pajak bahan bakar",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Return Filing Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pengajuan SPT BBM",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Bulk Tank Delivery Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pengiriman tangki massal",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Fuel Use Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah peninjauan penggunaan bahan bakar",
+"why": "too long: 49 characters, the limit is 31"
+},
+{
+"en": "Price Swing Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah peninjauan ayunan harga",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Missing Receipt Follow-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah tindak lanjut tanda terima tidak ada",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Quarter-end Fuel Close Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah penutupan bahan bakar di akhir kuartal",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Scheduled Service Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah layanan terjadwal",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Breakdown Response Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah respons kerusakan",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Pre-trip Walk-around Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah berjalan-jalan sebelum perjalanan",
+"why": "too long: 49 characters, the limit is 31"
+},
+{
+"en": "Trailer Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pemeriksaan trailer",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Workshop Hand-over Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah serah terima bengkel",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Monthly Fleet Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah peninjauan armada bulanan",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Replacement Decision Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah pengambilan keputusan penggantian",
+"why": "too long: 49 characters, the limit is 31"
+},
+{
+"en": "Time Off Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Lembar permintaan waktu istirahat",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Pay Rate Change Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Lembar perubahan tarif pembayaran",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Weekly Settlement Run Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah penyelesaian mingguan",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "New Driver Onboarding Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah orientasi pengemudi baru",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Bonus Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah peninjauan bonus",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Time Off Approval Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah persetujuan waktu istirahat",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Quarterly Pay Rate Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah peninjauan tingkat gaji triwulanan",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Driver Scorecard Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah peninjauan kartu skor pengemudi",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Payroll Run Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah menjalankan penggajian",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Compliance and Safety Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Dasbor kepatuhan dan keselamatan",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Roadside Inspection Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Lembar pemeriksaan pinggir jalan",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Roadside Clean Rate",
+"kind": "sheet",
+"max": 31,
+"mt": "Tingkat kebersihan pinggir jalan",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Monthly Expiry Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah peninjauan kedaluwarsa bulanan",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Licence or Medical Card Renewal",
+"kind": "sheet",
+"max": 31,
+"mt": "Perpanjangan lisensi atau kartu kesehatan",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Annual Safety Inspection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah inspeksi keselamatan tahunan",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Roadside Follow-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah tindak lanjut di pinggir jalan",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Cargo Claim Response Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Langkah-langkah respon klaim kargo",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Lanes to Raise or Drop",
+"kind": "sheet",
+"max": 31,
+"mt": "Jalur untuk dinaikkan atau diturunkan",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Break-even Rate for a Lane",
+"kind": "sheet",
+"max": 31,
+"mt": "Tingkat titik impas untuk suatu jalur",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Customer Profitability Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Laporan profitabilitas pelanggan",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Rate Floor for Dispatcher",
+"kind": "sheet",
+"max": 31,
+"mt": "Nilai minimum untuk petugas operator",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Customer Profitability Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Tinjauan profitabilitas pelanggan",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Slow Payer Cash Gap",
+"kind": "sheet",
+"max": 31,
+"mt": "Kesenjangan uang tunai pembayar yang lambat",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Revenue and Cost per Km Grid",
+"kind": "sheet",
+"max": 31,
+"mt": "Pendapatan dan biaya jaringan per km",
+"why": "too long: 36 characters, the limit is 31"
+}
+]

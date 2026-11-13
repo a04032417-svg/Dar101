@@ -1,0 +1,919 @@
+[
+{
+"en": "Fuel Surcharge Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Cronograma de sobretaxa de combustível",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Waiting Time Claim Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de reclamação de tempo de espera",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Late Load Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de carregamento atrasado",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Cancelled Load Fee Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de taxa de carregamento cancelada",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Backhaul Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Planilha de solicitação de backhaul",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Waiting Time Claim Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Carta de reclamação de tempo de espera",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Cancelled Load Fee Claim",
+"kind": "sheet",
+"max": 31,
+"mt": "Reivindicação de taxa de carregamento cancelada",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Appointment Change Request",
+"kind": "sheet",
+"max": 31,
+"mt": "Solicitação de alteração de compromisso",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "New Load Booking Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Novas etapas de reserva de carga",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Dispatch a Load Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de despacho de carregamento",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Pickup Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de verificação de retirada",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Waiting Time Claim Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de reivindicação de tempo de espera",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Quote Follow-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de acompanhamento da cotação",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Weekly Lane Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas semanais de revisão da pista",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Cancelled Load Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de carregamento canceladas",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Weekend Load Plan Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas do plano de carga de fim de semana",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Factoring Schedule Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Planilha de cronograma de factoring",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Quick-pay Offer Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de ofertas de pagamento rápido",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Bad Debt Allowance",
+"kind": "sheet",
+"max": 31,
+"mt": "Provisão para devedores duvidosos",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Factoring Cost Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de custos de factoring",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Invoice a Delivered Load Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Faturar uma carga entregue em etapas",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Weekly Invoicing Run Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de execução do faturamento semanal",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Payment Matching Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de correspondência de pagamento",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Chase an Overdue Invoice Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de perseguir uma fatura vencida",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Short Pay Dispute Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas curtas de disputa salarial",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Reserve Release Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de verificação de liberação de reserva",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Credit Check New Broker Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificação de crédito novas etapas do corretor",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Month-end Receivables Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de contas a receber no final do mês",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Stop Loads Slow Payer Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pare de carregar etapas lentas do pagador",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Fuel Card Statements",
+"kind": "sheet",
+"max": 31,
+"mt": "Extratos do cartão de combustível",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Fuel Use per Truck",
+"kind": "sheet",
+"max": 31,
+"mt": "Consumo de combustível por caminhão",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Fuel Use per Driver",
+"kind": "sheet",
+"max": 31,
+"mt": "Consumo de combustível por motorista",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Return",
+"kind": "sheet",
+"max": 31,
+"mt": "Declaração de imposto de combustível",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Filing Calendar",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendário de declaração de impostos sobre combustíveis",
+"why": "too long: 55 characters, the limit is 31"
+},
+{
+"en": "Fuel Card Discounts",
+"kind": "sheet",
+"max": 31,
+"mt": "Descontos no cartão de combustível",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Fuel Surcharge Recovered",
+"kind": "sheet",
+"max": 31,
+"mt": "Sobretaxa de combustível recuperada",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Fuel Receipt Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de recebimento de combustível",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Return Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de declaração de imposto de combustível",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Fuel Card Statement Check Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de verificação do extrato do cartão de combustível",
+"why": "too long: 56 characters, the limit is 31"
+},
+{
+"en": "Bulk Tank Delivery Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de entrega de tanque a granel",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Bulk Tank Issue Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de problema do tanque a granel",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Fuel Price Check Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de verificação do preço do combustível",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Fuel Budget Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Planilha de orçamento de combustível",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Fuel Use Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de revisão do uso de combustível",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax by Region",
+"kind": "sheet",
+"max": 31,
+"mt": "Imposto sobre combustível por região",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Cheaper Stop Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificação de parada mais barata",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Trip Fuel Budget",
+"kind": "sheet",
+"max": 31,
+"mt": "Orçamento de combustível de viagem",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Resumo do imposto sobre combustível",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Truck Fuel Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de combustível de caminhão",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Driver Fuel Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de combustível do motorista",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Card Statement Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificação do extrato do cartão",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Surcharge Recovery Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de recuperação de sobretaxa",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Fuel Budget Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de orçamento de combustível",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Fill-up and Receipt Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de preenchimento e recebimento",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Weekly Fuel Card Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de verificação semanal do cartão de combustível",
+"why": "too long: 54 characters, the limit is 31"
+},
+{
+"en": "Monthly Odometer Reading Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas mensais de leitura do hodômetro",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Data Collection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de coleta de dados sobre impostos sobre combustíveis",
+"why": "too long: 59 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Return Filing Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas para apresentação da declaração de imposto de combustível",
+"why": "too long: 64 characters, the limit is 31"
+},
+{
+"en": "Bulk Tank Delivery Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de entrega de tanques a granel",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Fuel Use Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão do uso de combustível",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Price Swing Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão da oscilação de preço",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Missing Receipt Follow-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de acompanhamento de recebimento ausentes",
+"why": "too long: 48 characters, the limit is 31"
+},
+{
+"en": "Quarter-end Fuel Close Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de fechamento de combustível no trimestre",
+"why": "too long: 48 characters, the limit is 31"
+},
+{
+"en": "Spare Part Order Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de pedido de peças de reposição",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Truck Replacement Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de substituição de caminhão",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Spare Part Reorder",
+"kind": "sheet",
+"max": 31,
+"mt": "Reencomenda de peças sobressalentes",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Truck History Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de histórico de caminhão",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Warranty Claim Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Carta de reivindicação de garantia",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Maintenance Cost Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de custos de manutenção",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Cost of Ownership Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de custo de propriedade",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Truck Replacement Proposal",
+"kind": "sheet",
+"max": 31,
+"mt": "Proposta de substituição de caminhão",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Trailer Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de verificação do trailer",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Warranty Claim Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de reivindicação de garantia",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Spare Parts Count Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de contagem de peças sobressalentes",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Monthly Fleet Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão mensal da frota",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Replacement Decision Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de decisão de substituição",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Driver Pay Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Painel de pagamento do motorista",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Driver Scorecard",
+"kind": "sheet",
+"max": 31,
+"mt": "Cartão de pontuação do motorista",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Office Payroll",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de pagamento do escritório",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Pay Rate Change Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de alteração da taxa de pagamento",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Driver Pay Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Resumo de pagamento do motorista",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Driver Cost Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de custos do motorista",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Owner Draw Record",
+"kind": "sheet",
+"max": 31,
+"mt": "Registro de sorteio do proprietário",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Weekly Settlement Run Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de execução de liquidação semanal",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "New Driver Onboarding Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de integração de novos motoristas",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Advance and Deduction Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de adiantamento e dedução",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Quarterly Pay Rate Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão da taxa de pagamento trimestral",
+"why": "too long: 49 characters, the limit is 31"
+},
+{
+"en": "Driver Scorecard Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão do scorecard do motorista",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Payroll Run Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de execução da folha de pagamento",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Compliance and Safety Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Painel de conformidade e segurança",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Driver Safety Record",
+"kind": "sheet",
+"max": 31,
+"mt": "Registro de segurança do motorista",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Equipment Safety Checks",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificações de segurança do equipamento",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Compliance Renewal Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de renovação de conformidade",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Cargo Claim Response Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de resposta de reclamação de carga",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Driver Safety Score",
+"kind": "sheet",
+"max": 31,
+"mt": "Pontuação de segurança do motorista",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Cargo Claim Exposure",
+"kind": "sheet",
+"max": 31,
+"mt": "Exposição de reclamação de carga",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Compliance Cost per Truck",
+"kind": "sheet",
+"max": 31,
+"mt": "Custo de conformidade por caminhão",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Driver Compliance File",
+"kind": "sheet",
+"max": 31,
+"mt": "Arquivo de conformidade do driver",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Truck Compliance File",
+"kind": "sheet",
+"max": 31,
+"mt": "Arquivo de conformidade do caminhão",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Driver Safety Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de segurança do motorista",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Monthly Expiry Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de revisão de vencimento mensal",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Licence or Medical Card Renewal",
+"kind": "sheet",
+"max": 31,
+"mt": "Renovação de licença ou cartão médico",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Registration Permit Renewal",
+"kind": "sheet",
+"max": 31,
+"mt": "Renovação da licença de registro",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Annual Safety Inspection Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas anuais de inspeção de segurança",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Roadside Follow-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de acompanhamento na estrada",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Insurance Claim Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de reivindicação de seguro",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Cargo Claim Response Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de resposta à reclamação de carga",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Audit Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Etapas de preparação para auditoria",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Lanes to Raise or Drop",
+"kind": "sheet",
+"max": 31,
+"mt": "Pistas para aumentar ou diminuir",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Truck Cost Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de revisão de custos de caminhão",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Break-even Rate for a Lane",
+"kind": "sheet",
+"max": 31,
+"mt": "Taxa de equilíbrio para uma pista",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Driver Pay Effect",
+"kind": "sheet",
+"max": 31,
+"mt": "Efeito do pagamento do motorista",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Lane Profitability Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de lucratividade da pista",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Customer Profitability Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório de rentabilidade do cliente",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Monthly Cost per Km Update",
+"kind": "sheet",
+"max": 31,
+"mt": "Atualização mensal do custo por km",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Customer Profitability Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Análise de rentabilidade do cliente",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Cost Scenario Planning",
+"kind": "sheet",
+"max": 31,
+"mt": "Planejamento de cenário de custos",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Yearly Overhead Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisão anual de despesas gerais",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Payments",
+"kind": "sheet",
+"max": 31,
+"mt": "Pagamentos de impostos sobre combustíveis",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Payroll Approval Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de aprovação de folha de pagamento",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Owner Draw Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Folha de desenho do proprietário",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Tax Instalment Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Planilha de parcelamento de imposto",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Cash Forecast Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculadora de previsão de caixa",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Slow Payer Cash Gap",
+"kind": "sheet",
+"max": 31,
+"mt": "Latência de caixa do pagador lento",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Owner Draw Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculadora de sorteio do proprietário",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Truck Purchase Affordability",
+"kind": "sheet",
+"max": 31,
+"mt": "Acessibilidade de compra de caminhão",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Loan or Lease Cost",
+"kind": "sheet",
+"max": 31,
+"mt": "Custo de empréstimo ou arrendamento",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Owner and Accountant Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Relatório do proprietário e do contador",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Business Tax Instalment",
+"kind": "sheet",
+"max": 31,
+"mt": "Parcelamento de imposto empresarial",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Fuel Tax Payment",
+"kind": "sheet",
+"max": 31,
+"mt": "Pagamento de imposto sobre combustível",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Bank Reconciliation Run",
+"kind": "sheet",
+"max": 31,
+"mt": "Execução de reconciliação bancária",
+"why": "too long: 34 characters, the limit is 31"
+}
+]
