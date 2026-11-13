@@ -1,0 +1,79 @@
+[
+{
+"en": "Time value billed and not yet billed per project",
+"kind": "title",
+"max": 60,
+"mt": "समय मूल्य बिल किया गया है और अभी तक प्रति प्रोजेक्ट बिल नहीं किया गया है",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Only source for a category",
+"kind": "list",
+"max": 30,
+"mt": "किसी श्रेणी के लिए एकमात्र स्रोत",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Starts as planned",
+"kind": "list",
+"max": 30,
+"mt": "योजना के अनुसार प्रारंभ होता है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Contractors with jobs, quoted against actual and overrun",
+"kind": "title",
+"max": 60,
+"mt": "ठेकेदारों के पास नौकरियां हैं, जो वास्तविक और ओवररन के विपरीत उद्धृत की गई हैं",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Trade jobs with quote, actual, overrun and rework",
+"kind": "title",
+"max": 60,
+"mt": "कोटेशन, वास्तविक, ओवररन और पुनः कार्य के साथ नौकरियों का व्यापार करें",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Contractor availability by week with booked and free days",
+"kind": "title",
+"max": 60,
+"mt": "बुक और निःशुल्क दिनों के साथ सप्ताह के अनुसार ठेकेदार की उपलब्धता",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Vendor risks with level, action and review date",
+"kind": "title",
+"max": 60,
+"mt": "विक्रेता स्तर, कार्रवाई और समीक्षा तिथि को लेकर जोखिम उठाता है",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Trade discount needed to stay under the client price ceiling",
+"kind": "title",
+"max": 60,
+"mt": "ग्राहक मूल्य सीमा के अंतर्गत रहने के लिए व्यापार छूट की आवश्यकता है",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Contractor overrun and rework cost: the true cost of a job",
+"kind": "title",
+"max": 60,
+"mt": "ठेकेदार की अधिक लागत और पुनः कार्य की लागत: किसी कार्य की वास्तविक लागत",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Discount 25 percent, mark-up 30 percent",
+"kind": "label",
+"max": null,
+"mt": "Discount 25 percent, mark-up 30 percent",
+"why": "English/Latin words left: Discount percent mark up"
+},
+{
+"en": "Hello {rep}, we ordered {year_value} from you this year. Can we agree a volume rebate of {rebate_pct} above {rebate_from} for next year?",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {rep}, हमने इस वर्ष आपसे {year_value} ऑर्डर किया था। Can we agree a volume rebate of {rebate_pct} above {rebate_from} for next year?",
+"why": "English/Latin words left: Can we agree volume"
+}
+]

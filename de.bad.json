@@ -1,0 +1,226 @@
+[
+{
+"en": "Time invoiced within the bill days",
+"kind": "title",
+"max": 60,
+"mt": "Zeit, die innerhalb der Rechnungstage in Rechnung gestellt wird",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Not yet billed",
+"kind": "label",
+"max": 30,
+"mt": "Noch nicht in Rechnung gestellt",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Know which vendors and contractors deserve your next order",
+"kind": "sentence",
+"max": 80,
+"mt": "Erfahren Sie, welche Anbieter und Auftragnehmer Ihre nächste Bestellung verdienen",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Best value vendor for an item",
+"kind": "label",
+"max": 50,
+"mt": "Anbieter mit dem besten Preis-Leistungs-Verhältnis für einen Artikel",
+"why": "too long: 68 characters, the limit is 50"
+},
+{
+"en": "Trade discount needed for a target margin",
+"kind": "label",
+"max": 50,
+"mt": "Handelsrabatt, der für eine Zielmarge erforderlich ist",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Only source for a category",
+"kind": "list",
+"max": 30,
+"mt": "Einzige Quelle für eine Kategorie",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Alternative",
+"kind": "list",
+"max": 30,
+"mt": "Alternative",
+"why": "not translated"
+},
+{
+"en": "Take the discount",
+"kind": "list",
+"max": 30,
+"mt": "Nehmen Sie den Rabatt in Anspruch",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Score is above target",
+"kind": "list",
+"max": 30,
+"mt": "Die Punktzahl liegt über dem Ziel",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Score is below target",
+"kind": "list",
+"max": 30,
+"mt": "Die Punktzahl liegt unter dem Zielwert",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Purchase orders by vendor with delay and on-time flag",
+"kind": "title",
+"max": 60,
+"mt": "Bestellungen nach Lieferanten mit Verspätungs- und Pünktlichkeitskennzeichnung",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Vendor payments with due date, days late and state",
+"kind": "title",
+"max": 60,
+"mt": "Lieferantenzahlungen mit Fälligkeitsdatum, Verspätungstagen und Status",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Damage and quality issues with credit and days to resolve",
+"kind": "title",
+"max": 60,
+"mt": "Schäden und Qualitätsprobleme mit Kredit und Tagen zur Behebung",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Contractors with jobs, quoted against actual and overrun",
+"kind": "title",
+"max": 60,
+"mt": "Auftragnehmer mit Aufträgen, kalkuliert im Vergleich zu tatsächlichen und überzogenen Aufträgen",
+"why": "too long: 95 characters, the limit is 60"
+},
+{
+"en": "Trade jobs with quote, actual, overrun and rework",
+"kind": "title",
+"max": 60,
+"mt": "Tauschen Sie Aufträge mit Angebot, Ist, Überschreitung und Nacharbeit aus",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Contractor availability by week with booked and free days",
+"kind": "title",
+"max": 60,
+"mt": "Verfügbarkeit des Auftragnehmers pro Woche mit gebuchten und freien Tagen",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Contractor quotes with status and accepted share",
+"kind": "title",
+"max": 60,
+"mt": "Angebote des Auftragnehmers mit Status und akzeptiertem Anteil",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Contractor payments with retention and days late",
+"kind": "title",
+"max": 60,
+"mt": "Zahlungen des Auftragnehmers mit Einbehaltung und Verzug um mehrere Tage",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Contractor payments due",
+"kind": "label",
+"max": 30,
+"mt": "Fällige Zahlungen des Auftragnehmers",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Vendor sheet with terms, orders and price lines",
+"kind": "title",
+"max": 60,
+"mt": "Lieferantenblatt mit Konditionen, Bestellungen und Preiszeilen",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Contractor sheet with jobs, overrun and true cost",
+"kind": "title",
+"max": 60,
+"mt": "Auftragnehmerblatt mit Aufträgen, Überschreitung und tatsächlichen Kosten",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Contractor review with score and true cost",
+"kind": "title",
+"max": 60,
+"mt": "Auftragnehmerbewertung mit Punktzahl und tatsächlichen Kosten",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Vendor score from on-time, damage, price and communication",
+"kind": "title",
+"max": 60,
+"mt": "Lieferantenbewertung anhand von Pünktlichkeit, Schaden, Preis und Kommunikation",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Best value vendor for an item from three vendors",
+"kind": "title",
+"max": 60,
+"mt": "Anbieter mit dem besten Preis-Leistungs-Verhältnis für einen Artikel von drei Anbietern",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Trade discount needed to stay under the client price ceiling",
+"kind": "title",
+"max": 60,
+"mt": "Handelsrabatt erforderlich, um unter der Kundenpreisobergrenze zu bleiben",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Contractor overrun and rework cost: the true cost of a job",
+"kind": "title",
+"max": 60,
+"mt": "Überschreitungs- und Nacharbeitskosten des Auftragnehmers: die tatsächlichen Kosten eines Auftrags",
+"why": "too long: 98 characters, the limit is 60"
+},
+{
+"en": "Credit headroom on a trade account for a new order",
+"kind": "title",
+"max": 60,
+"mt": "Guthabenspielraum auf einem Handelskonto für eine neue Bestellung",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Vendor concentration: share of order value and risk flag",
+"kind": "title",
+"max": 60,
+"mt": "Lieferantenkonzentration: Anteil am Bestellwert und Risikokennzeichnung",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Contractor booking planner: the earliest week for a job",
+"kind": "title",
+"max": 60,
+"mt": "Terminplaner für Auftragnehmer: die früheste Woche für einen Auftrag",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "What-if grid: discount and mark-up against margin",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Rabatt und Aufschlag gegenüber der Marge",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Quality issue notice to a vendor",
+"kind": "title",
+"max": 60,
+"mt": "Benachrichtigung über ein Qualitätsproblem an einen Lieferanten",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Contractor agreement summary for a job",
+"kind": "title",
+"max": 60,
+"mt": "Zusammenfassung der Auftragnehmervereinbarung für einen Auftrag",
+"why": "too long: 63 characters, the limit is 60"
+}
+]
