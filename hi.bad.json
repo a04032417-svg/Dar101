@@ -1,0 +1,51 @@
+[
+{
+"en": "every licence, registration, permit and policy shows days left and a flag that says start now, started or lapsed, so nothing rolls on an expired paper",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक लाइसेंस, पंजीकरण, परमिट और पॉलिसी में शेष दिन और एक ध्वज लिखा होता है जिस पर लिखा होता है कि अभी प्रारंभ करें, प्रारंभ करें या समाप्त हो गया है, इसलिए समाप्त हो चुके कागज पर कुछ भी अंकित नहीं होता है",
+"why": "too long: 208 characters, the limit is 160"
+},
+{
+"en": "Inspection needs repair",
+"kind": "list",
+"max": 30,
+"mt": "निरीक्षण के लिए मरम्मत की आवश्यकता है",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Straps, chains, tarps, extinguishers and first-aid kits",
+"kind": "title",
+"max": 60,
+"mt": "पट्टियाँ, जंजीरें, तिरपाल, अग्निशामक यंत्र और प्राथमिक चिकित्सा किट",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Incident cost, claims paid and compliance cost by month",
+"kind": "title",
+"max": 60,
+"mt": "घटना की लागत, भुगतान किए गए दावे और महीने के अनुसार अनुपालन लागत",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Insurer paid on claims",
+"kind": "label",
+"max": 30,
+"mt": "बीमाकर्ता ने दावों पर भुगतान किया",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Cost of a truck out of service for an expired document",
+"kind": "title",
+"max": 60,
+"mt": "एक समय सीमा समाप्त दस्तावेज़ के कारण ट्रक को सेवा से बाहर करने की लागत",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Hello, inspection {inspection_id} of {asset} on {date} found {defects} defects. Please book the repair and send an estimate.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {asset} के निरीक्षण में {date} पर {defects} दोष पाए गए। कृपया मरम्मत बुक करें और एक अनुमान भेजें।",
+"why": "placeholders must be exactly: {inspection_id} {asset} {date} {defects}"
+}
+]

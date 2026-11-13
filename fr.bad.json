@@ -1,0 +1,219 @@
+[
+{
+"en": "Driver cost report for one pay rate",
+"kind": "title",
+"max": 60,
+"mt": "Rapport sur les coûts du conducteur pour un taux de rémunération",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Expiry calendar with renewal flags",
+"kind": "label",
+"max": 50,
+"mt": "Calendrier d'expiration avec indicateurs de renouvellement",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "every licence, registration, permit and policy shows days left and a flag that says start now, started or lapsed, so nothing rolls on an expired paper",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque licence, enregistrement, permis et politique indique les jours restants et un drapeau indiquant commencer maintenant, commencé ou expiré, afin que rien ne roule sur un papier expiré.",
+"why": "too long: 189 characters, the limit is 160"
+},
+{
+"en": "Registrations and permits with renewal cost",
+"kind": "label",
+"max": 50,
+"mt": "Inscriptions et permis avec frais de renouvellement",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "monthly, trailer, annual and roadside inspections with defects, points and the next due date, flagged when no newer inspection was done",
+"kind": "sentence",
+"max": 160,
+"mt": "inspections mensuelles, des remorques, annuelles et routières avec les défauts, les points et la prochaine date d'échéance, signalées lorsqu'aucune nouvelle inspection n'a été effectuée",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "incidents, roadside points and failed inspections are counted from the other pages and give each driver a score for the year and the last 12 months",
+"kind": "sentence",
+"max": 160,
+"mt": "les incidents, les points en bordure de route et les contrôles échoués sont comptabilisés à partir des autres pages et donnent à chaque conducteur une note pour l'année et les 12 derniers mois",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "Annual safety inspection",
+"kind": "list",
+"max": 30,
+"mt": "Inspection de sécurité annuelle",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Late delivery penalty",
+"kind": "list",
+"max": 30,
+"mt": "Pénalité de retard de livraison",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Driver accident cover",
+"kind": "list",
+"max": 30,
+"mt": "Couverture accident du conducteur",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Safety training certificate",
+"kind": "list",
+"max": 30,
+"mt": "Certificat de formation en sécurité",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Tyre and brake checks",
+"kind": "list",
+"max": 30,
+"mt": "Vérifications des pneus et des freins",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Renewal can wait",
+"kind": "list",
+"max": 30,
+"mt": "Le renouvellement peut attendre",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Clean rate is low",
+"kind": "list",
+"max": 30,
+"mt": "Le taux de nettoyage est faible",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Safety needs work",
+"kind": "list",
+"max": 30,
+"mt": "La sécurité nécessite du travail",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Claim is worth it",
+"kind": "list",
+"max": 30,
+"mt": "La réclamation en vaut la peine",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Near miss rate is good",
+"kind": "list",
+"max": 30,
+"mt": "Le taux de quasi-accidents est bon",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Near miss rate is high",
+"kind": "list",
+"max": 30,
+"mt": "Le taux de quasi-accidents est élevé",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Chase the insurer now",
+"kind": "list",
+"max": 30,
+"mt": "Poursuivez l'assureur maintenant",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Driver licences, medical cards and training certificates",
+"kind": "title",
+"max": 60,
+"mt": "Permis de conduire, cartes médicales et attestations de formation",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Truck and trailer registrations and road permits",
+"kind": "title",
+"max": 60,
+"mt": "Immatriculations de camions et de remorques et permis de circulation",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Points",
+"kind": "label",
+"max": null,
+"mt": "Points",
+"why": "not translated"
+},
+{
+"en": "Insurance claims with open amount and days open",
+"kind": "title",
+"max": 60,
+"mt": "Réclamations d'assurance avec montant ouvert et jours d'ouverture",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Straps, chains, tarps, extinguishers and first-aid kits",
+"kind": "title",
+"max": 60,
+"mt": "Sangles, chaînes, bâches, extincteurs et trousses de premiers secours",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Incident cost, claims paid and compliance cost by month",
+"kind": "title",
+"max": 60,
+"mt": "Coût des incidents, sinistres payés et coût de conformité par mois",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Renewal workload and cash for the next 90 days",
+"kind": "title",
+"max": 60,
+"mt": "Charge de travail et liquidités pour le renouvellement pour les 90 prochains jours",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Safety inspection result and next due date",
+"kind": "title",
+"max": 60,
+"mt": "Résultat de l'inspection de sécurité et prochaine date d'échéance",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Roadside points per inspection and clean rate",
+"kind": "title",
+"max": 60,
+"mt": "Points en bordure de route par inspection et taux de nettoyage",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cargo claim exposure against the cover limit",
+"kind": "title",
+"max": 60,
+"mt": "Exposition aux réclamations relatives au fret par rapport à la limite de couverture",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Defect repair priority from days open and severity",
+"kind": "title",
+"max": 60,
+"mt": "Priorité de réparation des défauts à partir des jours d'ouverture et de la gravité",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "What-if grid: incidents and premium against cost",
+"kind": "title",
+"max": 60,
+"mt": "Grille de simulation : incidents et prime par rapport aux coûts",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Expiry report for an item in the next 90 days",
+"kind": "title",
+"max": 60,
+"mt": "Rapport d'expiration d'un article dans les 90 prochains jours",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

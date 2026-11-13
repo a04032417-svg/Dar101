@@ -1,0 +1,156 @@
+[
+{
+"en": "every licence, registration, permit and policy shows days left and a flag that says start now, started or lapsed, so nothing rolls on an expired paper",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Lizenz, Registrierung, Genehmigung und Police zeigt die verbleibenden Tage und eine Flagge mit der Aufschrift „Jetzt beginnen“, „Begonnen“ oder „Abgelaufen“ an, sodass auf einem abgelaufenen Papier nichts angezeigt wird",
+"why": "too long: 224 characters, the limit is 160"
+},
+{
+"en": "Registrations and permits with renewal cost",
+"kind": "label",
+"max": 50,
+"mt": "Registrierungen und Genehmigungen mit Verlängerungskosten",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "monthly, trailer, annual and roadside inspections with defects, points and the next due date, flagged when no newer inspection was done",
+"kind": "sentence",
+"max": 160,
+"mt": "monatliche, Anhänger-, jährliche und Straßenkontrollen mit Mängeln, Punkten und dem nächsten Fälligkeitsdatum, gekennzeichnet, wenn keine neuere Inspektion durchgeführt wurde",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "cost, insurance paid and what you pay yourself for every accident, cargo damage and penalty, with the days it took to report",
+"kind": "sentence",
+"max": 160,
+"mt": "Kosten, bezahlte Versicherung und was Sie selbst für jeden Unfall, jeden Frachtschaden und jede Strafe zahlen, mit den Tagen, die für die Meldung benötigt wurden",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "claimed, deductible and paid give the open amount and the days open, and a claim that waits too long shows as chase the insurer",
+"kind": "sentence",
+"max": 160,
+"mt": "Anspruch, Selbstbehalt und Zahlung geben den offenen Betrag und die offenen Tage an, und ein Anspruch, der zu lange wartet, wird dem Versicherer als Verfolgung angezeigt",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "incidents, roadside points and failed inspections are counted from the other pages and give each driver a score for the year and the last 12 months",
+"kind": "sentence",
+"max": 160,
+"mt": "Vorfälle, Straßenkontrollen und nicht bestandene Inspektionen werden auf den anderen Seiten gezählt und geben jedem Fahrer eine Punktzahl für das Jahr und die letzten 12 Monate",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Annual safety inspection",
+"kind": "list",
+"max": 30,
+"mt": "Jährliche Sicherheitsinspektion",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Late delivery penalty",
+"kind": "list",
+"max": 30,
+"mt": "Strafe für verspätete Lieferung",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Temperature out of range",
+"kind": "list",
+"max": 30,
+"mt": "Temperatur außerhalb des zulässigen Bereichs",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Inspection needs repair",
+"kind": "list",
+"max": 30,
+"mt": "Die Inspektion muss repariert werden",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Near miss rate is good",
+"kind": "list",
+"max": 30,
+"mt": "Die Beinahe-Unfall-Rate ist gut",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Chase the insurer now",
+"kind": "list",
+"max": 30,
+"mt": "Verfolgen Sie jetzt den Versicherer",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Driver licences, medical cards and training certificates",
+"kind": "title",
+"max": 60,
+"mt": "Führerscheine, Krankenversicherungskarten und Ausbildungsnachweise",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Truck and trailer registrations and road permits",
+"kind": "title",
+"max": 60,
+"mt": "Zulassungen von LKWs und Anhängern sowie Straßengenehmigungen",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Incident cost, claims paid and compliance cost by month",
+"kind": "title",
+"max": 60,
+"mt": "Vorfallkosten, bezahlte Ansprüche und Compliance-Kosten pro Monat",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Insurer paid on claims",
+"kind": "label",
+"max": 30,
+"mt": "Der Versicherer hat die Ansprüche bezahlt",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Days to expiry and the date to start a renewal",
+"kind": "title",
+"max": 60,
+"mt": "Tage bis zum Ablauf und Datum für den Beginn einer Verlängerung",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Safety inspection result and next due date",
+"kind": "title",
+"max": 60,
+"mt": "Ergebnis der Sicherheitsinspektion und nächster Fälligkeitstermin",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Incident cost after insurance, deductible and premium effect",
+"kind": "title",
+"max": 60,
+"mt": "Unfallkosten nach Versicherung, Selbstbehalt und Prämieneffekt",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cost of a truck out of service for an expired document",
+"kind": "title",
+"max": 60,
+"mt": "Kosten für die Stilllegung eines Lkw aufgrund eines abgelaufenen Dokuments",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Defect repair priority from days open and severity",
+"kind": "title",
+"max": 60,
+"mt": "Priorität der Fehlerbeseitigung nach Öffnungstagen und Schweregrad",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "What-if grid: incidents and premium against cost",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Vorfälle und Prämie im Vergleich zu Kosten",
+"why": "too long: 64 characters, the limit is 60"
+}
+]
