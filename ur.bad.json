@@ -1,0 +1,51 @@
+[
+{
+"en": "Hello, the rate card for {name} is ready for the new tax year: lowest season {low_rate}, peak season {peak_rate}. Room revenue of 12 months: {revenue_12m}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، نئے ٹیکس سال کے لیے {name} کا ریٹ کارڈ تیار ہے: کم ترین سیزن {low_rate}، چوٹی کا سیزن {peak_rate}۔ 12 ماہ کے کمرے کی آمدنی: {revenue_12m}۔",
+"why": "English/Latin words left: revenue"
+},
+{
+"en": "Payout short, claim the difference",
+"kind": "list",
+"max": 30,
+"mt": "ادائیگی مختصر، فرق کا دعوی کریں۔",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Payout late, chase now",
+"kind": "list",
+"max": 30,
+"mt": "ادائیگی دیر سے، ابھی پیچھا کریں۔",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Schedule fits before check-in",
+"kind": "list",
+"max": 30,
+"mt": "چیک ان سے پہلے شیڈول فٹ بیٹھتا ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Platform earns the host more",
+"kind": "list",
+"max": 30,
+"mt": "پلیٹ فارم میزبان کو زیادہ کماتا ہے۔",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Nights, ADR, RevPAR and revenue between two dates",
+"kind": "title",
+"max": 60,
+"mt": "راتیں، روزانہ کی اوسط شرح، فی دستیاب رات کی آمدنی اور دو تاریخوں کے درمیان آمدنی",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Cascais 5 percent",
+"kind": "label",
+"max": null,
+"mt": "Cascais 5 فیصد",
+"why": "English/Latin words left: Cascais"
+}
+]

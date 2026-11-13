@@ -1,0 +1,163 @@
+[
+{
+"en": "Hello, the rate card for {name} is ready for the new tax year: lowest season {low_rate}, peak season {peak_rate}. Room revenue of 12 months: {revenue_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Прейскурант для {name} готов к новому налоговому году: самый низкий сезон {low_rate}, пиковый сезон {peak_rate}. Доход от комнаты за 12 месяцев: {revenue_12m}.",
+"why": "English/Latin words left: revenue"
+},
+{
+"en": "Weekly pricing meeting sheet for one unit week",
+"kind": "title",
+"max": 60,
+"mt": "Еженедельный лист совещаний по ценам на одну единицу в неделю",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Discount and minimum-stay policy for one rule",
+"kind": "title",
+"max": 60,
+"mt": "Политика скидок и минимального срока проживания для одного правила",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Log every booking on Bookings and each month of every unit on Unit Months. Occupancy, ADR (the average price of a night sold) and RevPAR (revenue per available night) calculate themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "Регистрируйте каждое бронирование в Bookings и каждый месяц каждой единицы в Единичные месяцы. Заполняемость, средняя дневная ставка (средняя цена проданной ночи) и доход за доступную ночь (доход за доступную ночь) рассчитываются самостоятельно.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Know what every booking paid, what is late and what never arrived",
+"kind": "sentence",
+"max": 80,
+"mt": "Знайте, сколько оплачено каждое бронирование, что опоздало, а что так и не прибыло.",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "Booking ledger with fees and payouts by channel",
+"kind": "label",
+"max": 50,
+"mt": "Журнал бронирования с комиссиями и выплатами по каналам",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "every stay shows the platform fee, the local tax and the net payout, and the monthly channel table shows what each channel really paid",
+"kind": "sentence",
+"max": 160,
+"mt": "для каждого пребывания указана плата за платформу, местный налог и чистая выплата, а в ежемесячной таблице каналов показано, сколько действительно заплатил каждый канал.",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Payout reconciliation with late and short flags",
+"kind": "label",
+"max": 50,
+"mt": "Сверка выплат с флажками просрочки и короткого замыкания",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Clash with another booking",
+"kind": "list",
+"max": 30,
+"mt": "Конфликт с другим бронированием",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Payout short, claim the difference",
+"kind": "list",
+"max": 30,
+"mt": "Короткая выплата, требуйте разницу",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Payout late, chase now",
+"kind": "list",
+"max": 30,
+"mt": "Выплата задерживается, гонитесь сейчас",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Platform earns the host more",
+"kind": "list",
+"max": 30,
+"mt": "Платформа зарабатывает хосту больше",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Booking fits the unit",
+"kind": "list",
+"max": 30,
+"mt": "Бронирование соответствует единице",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Payouts with days late, short amount and chase flag",
+"kind": "title",
+"max": 60,
+"mt": "Выплаты с задержкой в несколько дней, небольшой суммой и флагом преследования",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Booking sources with lead time bucket",
+"kind": "title",
+"max": 60,
+"mt": "Источники бронирования с интервалом времени выполнения заказа",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Booking changes with the nights and amount difference",
+"kind": "title",
+"max": 60,
+"mt": "Бронирование меняется в зависимости от ночей и разницы в сумме.",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Booking notes with kind and who handled them",
+"kind": "title",
+"max": 60,
+"mt": "Примечания о бронировании с указанием вида и кто их обрабатывал",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Gross, platform fees, net payouts and local tax by month",
+"kind": "title",
+"max": 60,
+"mt": "Общая сумма, комиссия платформы, чистые выплаты и местный налог по месяцам",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Bookings a year moved to direct",
+"kind": "label",
+"max": null,
+"mt": "Бронирования за год перешли в Direct",
+"why": "English/Latin words left: Direct"
+},
+{
+"en": "Keep on Platform C",
+"kind": "label",
+"max": null,
+"mt": "Продолжайте оставаться на платформе C.",
+"why": "English/Latin words left: C."
+},
+{
+"en": "Nights, ADR, RevPAR and revenue between two dates",
+"kind": "title",
+"max": 60,
+"mt": "Ночи, средняя дневная ставка, доход за свободную ночь и доход между двумя датами.",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Local occupancy tax and what the host remits",
+"kind": "title",
+"max": 60,
+"mt": "Местный налог на проживание и сумму, которую перечисляет хозяин",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Gross to move to direct to save 5,000",
+"kind": "label",
+"max": null,
+"mt": "Гросс перейдет в Direct, чтобы сэкономить 5000",
+"why": "English/Latin words left: Direct"
+}
+]

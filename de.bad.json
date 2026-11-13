@@ -1,0 +1,226 @@
+[
+{
+"en": "Bookings at or above the wanted ADR",
+"kind": "title",
+"max": 60,
+"mt": "Buchungen zum gewünschten durchschnittlichen Tagespreis oder darüber",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Average nightly rate",
+"kind": "label",
+"max": 30,
+"mt": "Durchschnittlicher Übernachtungspreis",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Know what every booking paid, what is late and what never arrived",
+"kind": "sentence",
+"max": 80,
+"mt": "Erfahren Sie, was bei jeder Buchung bezahlt wurde, was verspätet ist und was nie angekommen ist",
+"why": "too long: 95 characters, the limit is 80"
+},
+{
+"en": "Booking ledger with fees and payouts by channel",
+"kind": "label",
+"max": 50,
+"mt": "Buchungsbuch mit Gebühren und Auszahlungen nach Kanal",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "every stay shows the platform fee, the local tax and the net payout, and the monthly channel table shows what each channel really paid",
+"kind": "sentence",
+"max": 160,
+"mt": "Bei jedem Aufenthalt werden die Plattformgebühr, die Ortstaxe und die Nettoauszahlung angezeigt, und in der monatlichen Kanaltabelle wird angezeigt, was jeder Kanal wirklich gezahlt hat",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "Payout reconciliation with late and short flags",
+"kind": "label",
+"max": 50,
+"mt": "Auszahlungsabgleich mit Verspätungs- und Short-Flags",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Guest changed plans",
+"kind": "list",
+"max": 30,
+"mt": "Der Gast hat seine Pläne geändert",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Found another place",
+"kind": "list",
+"max": 30,
+"mt": "Habe einen anderen Ort gefunden",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Dates moved earlier",
+"kind": "list",
+"max": 30,
+"mt": "Termine wurden früher verschoben",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Dates moved later",
+"kind": "list",
+"max": 30,
+"mt": "Termine wurden später verschoben",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Host remits tax",
+"kind": "list",
+"max": 30,
+"mt": "Der Gastgeber überweist die Steuer",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Fee on early payout",
+"kind": "list",
+"max": 30,
+"mt": "Gebühr bei vorzeitiger Auszahlung",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Clash with another booking",
+"kind": "list",
+"max": 30,
+"mt": "Konflikt mit einer anderen Buchung",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Payout short, claim the difference",
+"kind": "list",
+"max": 30,
+"mt": "Auszahlung zu kurz, Differenz einfordern",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Payout late, chase now",
+"kind": "list",
+"max": 30,
+"mt": "Auszahlung verspätet, jetzt verfolgen",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Schedule fits before check-in",
+"kind": "list",
+"max": 30,
+"mt": "Der Zeitplan passt vor dem Check-in",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Pay the full amount now",
+"kind": "list",
+"max": 30,
+"mt": "Zahlen Sie jetzt den vollen Betrag",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Platform earns the host more",
+"kind": "list",
+"max": 30,
+"mt": "Die Plattform bringt dem Host mehr ein",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Host remits the tax",
+"kind": "list",
+"max": 30,
+"mt": "Der Gastgeber überweist die Steuer",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Platform remits the tax",
+"kind": "list",
+"max": 30,
+"mt": "Die Plattform führt die Steuer ab",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Claim the full amount",
+"kind": "list",
+"max": 30,
+"mt": "Fordern Sie den vollen Betrag an",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Profit per night is healthy",
+"kind": "list",
+"max": 30,
+"mt": "Der Gewinn pro Nacht ist gesund",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Profit per night is thin",
+"kind": "list",
+"max": 30,
+"mt": "Der Gewinn pro Nacht ist gering",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Payouts with days late, short amount and chase flag",
+"kind": "title",
+"max": 60,
+"mt": "Auszahlungen mit Verspätungstagen, Unterbeträgen und Verfolgungsflagge",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Bookings, fees and net payouts by month and channel",
+"kind": "title",
+"max": 60,
+"mt": "Buchungen, Gebühren und Nettoauszahlungen nach Monat und Kanal",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Booking changes with the nights and amount difference",
+"kind": "title",
+"max": 60,
+"mt": "Die Buchung ändert sich mit der Übernachtungs- und Betragsdifferenz",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Booking notes with kind and who handled them",
+"kind": "title",
+"max": 60,
+"mt": "Buchungsnotizen mit Freundlichkeit und wer sie bearbeitet hat",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Seasons with the price factor and bookings of each month",
+"kind": "title",
+"max": 60,
+"mt": "Jahreszeiten mit dem Preisfaktor und den Buchungen jedes Monats",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Gross, platform fees, net payouts and local tax by month",
+"kind": "title",
+"max": 60,
+"mt": "Brutto, Plattformgebühren, Nettoauszahlungen und lokale Steuer pro Monat",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Refund and kept amount for a cancellation",
+"kind": "title",
+"max": 60,
+"mt": "Rückerstattung und einbehaltener Betrag bei einer Stornierung",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Free or clash for new dates in a unit",
+"kind": "title",
+"max": 60,
+"mt": "Kostenlos oder streiten Sie sich um neue Termine in einer Einheit",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Nights, ADR, RevPAR and revenue between two dates",
+"kind": "title",
+"max": 60,
+"mt": "Nächte, durchschnittlicher Tagespreis, Umsatz pro verfügbarer Nacht und Umsatz zwischen zwei Terminen",
+"why": "too long: 101 characters, the limit is 60"
+}
+]

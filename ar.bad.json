@@ -1,0 +1,51 @@
+[
+{
+"en": "Hello, the rate card for {name} is ready for the new tax year: lowest season {low_rate}, peak season {peak_rate}. Room revenue of 12 months: {revenue_12m}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، بطاقة الأسعار الخاصة بـ {name} جاهزة للسنة الضريبية الجديدة: الموسم الأدنى {low_rate}، موسم الذروة {peak_rate}. إيرادات الغرفة لمدة 12 شهرًا: {revenue_12m}.",
+"why": "English/Latin words left: revenue"
+},
+{
+"en": "Log every booking on Bookings and each month of every unit on Unit Months. Occupancy, ADR (the average price of a night sold) and RevPAR (revenue per available night) calculate themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "قم بتسجيل كل حجز على Bookings وكل شهر من كل وحدة على أشهر الوحدة. يقوم كل من الإشغال ومتوسط ​​السعر اليومي (متوسط ​​سعر الليلة المباعة) والإيرادات لكل ليلة متاحة (الإيرادات لكل ليلة متاحة) بحساب أنفسهم.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Booking ledger with fees and payouts by channel",
+"kind": "label",
+"max": 50,
+"mt": "دفتر الأستاذ الحجز مع الرسوم والدفعات عن طريق القناة",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Schedule fits before check-in",
+"kind": "list",
+"max": 30,
+"mt": "الجدول الزمني مناسب قبل تسجيل الوصول",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Gross, platform fees, net payouts and local tax by month",
+"kind": "title",
+"max": 60,
+"mt": "الإجمالي ورسوم المنصة وصافي المدفوعات والضرائب المحلية حسب الشهر",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Nights, ADR, RevPAR and revenue between two dates",
+"kind": "title",
+"max": 60,
+"mt": "الليالي، ومتوسط السعر اليومي، والإيرادات لكل ليلة متاحة، والإيرادات بين تاريخين",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Type the first and last check-in date and the units; nights sold, occupancy, ADR (the average price of a night sold), RevPAR (revenue per available night) and revenue come from Bookings.",
+"kind": "sentence",
+"max": null,
+"mt": "اكتب تاريخ الدخول الأول والأخير والوحدات؛ الليالي المباعة، والإشغال، ومتوسط ​​السعر اليومي (متوسط ​​سعر الليلة المباعة)، والإيرادات لكل ليلة متاحة (الإيرادات لكل ليلة متاحة)، والإيرادات تأتي من Bookings.",
+"why": "English/Latin words left: Bookings."
+}
+]

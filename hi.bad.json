@@ -1,0 +1,93 @@
+[
+{
+"en": "Hello, the rate card for {name} is ready for the new tax year: lowest season {low_rate}, peak season {peak_rate}. Room revenue of 12 months: {revenue_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, नए कर वर्ष के लिए {name} का रेट कार्ड तैयार है: सबसे कम सीज़न {low_rate}, पीक सीज़न {peak_rate}। 12 महीने का कमरे का राजस्व: {revenue_12m}.",
+"why": "English/Latin words left: revenue"
+},
+{
+"en": "Weekly pricing meeting of {set:company}, dated {today}. Unit: {col:pricing.unit}. Week of {col:pricing.week}. Season: {col:pricing.season}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} की साप्ताहिक मूल्य निर्धारण बैठक, दिनांक {today}। युनिट 2}। {col:pricing.week} का सप्ताह. सीज़न 4}।",
+"why": "placeholders must be exactly: {set:company} {today} {col:pricing.unit} {col:pricing.week} {col:pricing.season}"
+},
+{
+"en": "Break-even summary of {set:company}, dated {today}. Unit: {col:breakeven.unit}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} का ब्रेक-ईवन सारांश, दिनांक {today}। युनिट 2}।",
+"why": "placeholders must be exactly: {set:company} {today} {col:breakeven.unit}"
+},
+{
+"en": "Know what every booking paid, what is late and what never arrived",
+"kind": "sentence",
+"max": 80,
+"mt": "जानें कि प्रत्येक बुकिंग के लिए क्या भुगतान किया गया, क्या देर से आया और क्या नहीं आया",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "Kept most of it",
+"kind": "list",
+"max": 30,
+"mt": "इसका अधिकांश भाग अपने पास रख लिया",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Payout short, claim the difference",
+"kind": "list",
+"max": 30,
+"mt": "कम भुगतान करें, अंतर का दावा करें",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Payout late, chase now",
+"kind": "list",
+"max": 30,
+"mt": "देर से भुगतान करो, अभी पीछा करो",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Schedule fits before check-in",
+"kind": "list",
+"max": 30,
+"mt": "चेक-इन से पहले शेड्यूल फिट बैठता है",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Platform earns the host more",
+"kind": "list",
+"max": 30,
+"mt": "प्लेटफ़ॉर्म से होस्ट को अधिक कमाई होती है",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Wait for the grace days",
+"kind": "list",
+"max": 30,
+"mt": "अनुग्रह के दिनों की प्रतीक्षा करें",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Team with the notes each person handles",
+"kind": "title",
+"max": 60,
+"mt": "प्रत्येक व्यक्ति द्वारा संभाले जाने वाले नोट्स के साथ टीम बनाएं",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Gross, platform fees, net payouts and local tax by month",
+"kind": "title",
+"max": 60,
+"mt": "महीने के हिसाब से सकल, प्लेटफ़ॉर्म शुल्क, शुद्ध भुगतान और स्थानीय कर",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Nights, ADR, RevPAR and revenue between two dates",
+"kind": "title",
+"max": 60,
+"mt": "रातें, औसत दैनिक दर, प्रति उपलब्ध रात राजस्व और दो तिथियों के बीच राजस्व",
+"why": "too long: 72 characters, the limit is 60"
+}
+]

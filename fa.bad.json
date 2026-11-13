@@ -1,0 +1,86 @@
+[
+{
+"en": "Hello, the rate card for {name} is ready for the new tax year: lowest season {low_rate}, peak season {peak_rate}. Room revenue of 12 months: {revenue_12m}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، کارت نرخ برای {name} برای سال مالیاتی جدید آماده است: کمترین فصل {low_rate}، فصل اوج {peak_rate}. درآمد اتاق 12 ماهه: {revenue_12m}.",
+"why": "English/Latin words left: revenue"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: wanted occupancy and ADR, weekend lift, the discounts you usually give, the cleaner pay and your cleaning fee margin target.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: اشغال مورد نظر و میانگین نرخ روزانه، آسانسور آخر هفته، تخفیف‌هایی که معمولاً ارائه می‌دهید، پرداخت تمیزکننده و هدف حاشیه هزینه نظافت شما.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Log every booking on Bookings and each month of every unit on Unit Months. Occupancy, ADR (the average price of a night sold) and RevPAR (revenue per available night) calculate themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "ثبت هر رزرو در Bookings و هر ماه از هر واحد در ماه های واحد. اشغال، میانگین نرخ روزانه (متوسط ​​قیمت یک شب فروخته شده) و درآمد هر شب موجود (درآمد هر شب موجود) خود محاسبه می شوند.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Know what every booking paid, what is late and what never arrived",
+"kind": "sentence",
+"max": 80,
+"mt": "بدانید که هر رزرو چه چیزی پرداخت می کند، چه چیزی دیر است و چه چیزی هرگز وارد نشده است",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Payout late, chase now",
+"kind": "list",
+"max": 30,
+"mt": "دیر پرداخت کنید، همین الان تعقیب کنید",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Platform earns the host more",
+"kind": "list",
+"max": 30,
+"mt": "پلتفرم درآمد بیشتری برای میزبان کسب می کند",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Local occupancy tax by city and who collects it",
+"kind": "title",
+"max": 60,
+"mt": "مالیات اشغال محلی بر اساس شهر و اینکه چه کسی آن را دریافت می کند",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Booking notes with kind and who handled them",
+"kind": "title",
+"max": 60,
+"mt": "رزرو یادداشت با مهربانی و اینکه چه کسی آنها را اداره کرده است",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Gross, platform fees, net payouts and local tax by month",
+"kind": "title",
+"max": 60,
+"mt": "ناخالص، هزینه های پلت فرم، پرداخت های خالص و مالیات محلی بر اساس ماه",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Note on a booking and who handled it",
+"kind": "title",
+"max": 60,
+"mt": "در مورد رزرو و اینکه چه کسی آن را مدیریت کرده است، یادداشت کنید",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Nights, ADR, RevPAR and revenue between two dates",
+"kind": "title",
+"max": 60,
+"mt": "شب ها، میانگین نرخ روزانه، درآمد هر شب در دسترس و درآمد بین دو تاریخ",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Fees saved when more bookings come direct",
+"kind": "title",
+"max": 60,
+"mt": "وقتی رزروهای بیشتری مستقیماً انجام می شود، هزینه ها ذخیره می شود",
+"why": "too long: 64 characters, the limit is 60"
+}
+]
