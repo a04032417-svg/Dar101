@@ -1,0 +1,44 @@
+[
+{
+"en": "Free as agreed",
+"kind": "list",
+"max": 30,
+"mt": "Free as agreed",
+"why": "English/Latin words left: Free as agreed"
+},
+{
+"en": "Fee below suggestion",
+"kind": "list",
+"max": 30,
+"mt": "Fee below suggestion",
+"why": "English/Latin words left: Fee below suggestion"
+},
+{
+"en": "Warning due",
+"kind": "list",
+"max": 30,
+"mt": "Warning due",
+"why": "English/Latin words left: Warning due"
+},
+{
+"en": "Hello, a {kind} message from {guest} for {unit} waits for a reply. Reply time so far: {response_min} minutes.",
+"kind": "message",
+"max": null,
+"mt": "您好，来自 {guest} 的 {unit} 消息正在等待回复。目前回复时间：{response_min} 分钟。",
+"why": "placeholders must be exactly: {kind} {guest} {unit} {response_min}"
+},
+{
+"en": "Hello, the rating of {name} is {avg_rating_90d} over 90 days, below the minimum. Please look at its reviews.",
+"kind": "message",
+"max": null,
+"mt": "您好，{name} 在 90 天内的评分为 {avg_ rating_90d}，低于最低评分。请看一下它的评论。",
+"why": "English/Latin words left: avg rating"
+},
+{
+"en": "Sections kept up to date: {col:units.wb_sections}. Last update: {col:units.wb_updated}. Sections cover the Wi-Fi and TV, heating and hot water, parking, bins, local food, emergency numbers and the checkout steps.",
+"kind": "document",
+"max": null,
+"mt": "保持最新的部分：{col:units.wb_sections}。最后更新：{col:units.wb_updated}。部分内容包括 Wi-Fi 和电视、暖气和热水、停车场、垃圾箱、当地食品、紧急电话号码和结账步骤。",
+"why": "English/Latin words left: Wi Fi"
+}
+]
