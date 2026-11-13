@@ -1,0 +1,156 @@
+[
+{
+"en": "Ticketing time limit planner",
+"kind": "label",
+"max": 50,
+"mt": "Planejador de limite de tempo de emissão de ingressos",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Client pays supplier direct",
+"kind": "list",
+"max": 30,
+"mt": "O cliente paga diretamente ao fornecedor",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Final payment is overdue",
+"kind": "list",
+"max": 30,
+"mt": "O pagamento final está atrasado",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is near",
+"kind": "list",
+"max": 30,
+"mt": "A data de vencimento do fornecedor está próxima",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is far",
+"kind": "list",
+"max": 30,
+"mt": "A data de vencimento do fornecedor está distante",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Cash held is above the floor",
+"kind": "list",
+"max": 30,
+"mt": "O dinheiro retido está acima do chão",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Cash held is below the floor",
+"kind": "list",
+"max": 30,
+"mt": "O dinheiro retido está abaixo do chão",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Payment covers every balance",
+"kind": "list",
+"max": 30,
+"mt": "O pagamento cobre todos os saldos",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Pay before the supplier may cancel",
+"kind": "list",
+"max": 30,
+"mt": "Pague antes que o fornecedor possa cancelar",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Ticketing deadlines for air, rail and ferry bookings",
+"kind": "title",
+"max": 60,
+"mt": "Prazos de emissão de bilhetes para reservas aéreas, ferroviárias e de ferry",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Supplier cancellation rules by days before travel",
+"kind": "title",
+"max": 60,
+"mt": "Regras de cancelamento do fornecedor por dias antes da viagem",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Bookings, deposits, final payments and cash held by month",
+"kind": "title",
+"max": 60,
+"mt": "Reservas, depósitos, pagamentos finais e dinheiro retidos por mês",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Booking value by booking date",
+"kind": "label",
+"max": 30,
+"mt": "Valor da reserva por data de reserva",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Client payments less refunds",
+"kind": "label",
+"max": 30,
+"mt": "Pagamentos do cliente menos reembolsos",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Supplier payments by date paid",
+"kind": "label",
+"max": 30,
+"mt": "Pagamentos de fornecedores por data de pagamento",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Supplier payment with due date and days late",
+"kind": "title",
+"max": 60,
+"mt": "Pagamento do fornecedor com data de vencimento e dias de atraso",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Final payment deadline for a travel date and a supplier rule",
+"kind": "title",
+"max": 60,
+"mt": "Prazo final de pagamento para uma data de viagem e uma regra do fornecedor",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Penalty at each stage as the travel date comes closer",
+"kind": "title",
+"max": 60,
+"mt": "Penalidade em cada etapa conforme a data da viagem se aproxima",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cash held after client money in and supplier money out",
+"kind": "title",
+"max": 60,
+"mt": "Dinheiro retido após entrada de dinheiro do cliente e saída de dinheiro do fornecedor",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Late fee and the risk of cancellation when a payment is late",
+"kind": "title",
+"max": 60,
+"mt": "Taxa de atraso e o risco de cancelamento quando um pagamento está atrasado",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "One client payment split in proportion across three bookings",
+"kind": "title",
+"max": 60,
+"mt": "Pagamento de um cliente dividido proporcionalmente em três reservas",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Client money in and supplier money out by week",
+"kind": "title",
+"max": 60,
+"mt": "Entrada de dinheiro do cliente e saída de dinheiro do fornecedor por semana",
+"why": "too long: 75 characters, the limit is 60"
+}
+]

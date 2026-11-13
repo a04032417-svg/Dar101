@@ -1,0 +1,177 @@
+[
+{
+"en": "Our service fee for planning and booking your {col:quotes.trip_type} trip to {col:quotes.destination} is {col:quotes.service_fee}, before any tax.",
+"kind": "document",
+"max": null,
+"mt": "آپ کے {col:quotes.trip_type} کے سفر کی منصوبہ بندی اور بکنگ کے لیے ہماری سروس فیس {col:quotes.destination} ہے، کسی بھی ٹیکس سے پہلے۔",
+"why": "placeholders must be exactly: {col:quotes.trip_type} {col:quotes.destination} {col:quotes.service_fee}"
+},
+{
+"en": "Use the 14 calculators for quotes, margins, fees, budgets, payment plans, win chance, counter-offers, add-ons, expiry dates and what-ifs.",
+"kind": "sentence",
+"max": null,
+"mt": "اقتباسات، مارجن، فیس، بجٹ، ادائیگی کے منصوبے، جیتنے کا موقع، جوابی پیشکش، ایڈ آنز، میعاد ختم ہونے کی تاریخوں اور واٹس-ifs کے لیے 14 کیلکولیٹر استعمال کریں۔",
+"why": "English/Latin words left: ifs"
+},
+{
+"en": "Paid after reminder",
+"kind": "list",
+"max": 30,
+"mt": "یاد دہانی کے بعد ادائیگی کی گئی۔",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Agency pays client",
+"kind": "list",
+"max": 30,
+"mt": "ایجنسی کلائنٹ کو ادائیگی کرتی ہے۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Supplier pays client",
+"kind": "list",
+"max": 30,
+"mt": "سپلائر کلائنٹ کو ادائیگی کرتا ہے۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Supplier pays agency",
+"kind": "list",
+"max": 30,
+"mt": "سپلائر ایجنسی کو ادائیگی کرتا ہے۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Client pays supplier direct",
+"kind": "list",
+"max": 30,
+"mt": "کلائنٹ سپلائر کو براہ راست ادائیگی کرتا ہے۔",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Agency pays supplier",
+"kind": "list",
+"max": 30,
+"mt": "ایجنسی سپلائر کو ادائیگی کرتی ہے۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Deposit paid late",
+"kind": "list",
+"max": 30,
+"mt": "ڈپازٹ کی ادائیگی تاخیر سے ہوئی۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Ticketing overdue",
+"kind": "list",
+"max": 30,
+"mt": "ٹکٹوں کی ادائیگی ختم ہو گئی ہے۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Refund due soon",
+"kind": "list",
+"max": 30,
+"mt": "رقم کی واپسی جلد واجب الادا ہے۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Starts soon and not paid",
+"kind": "list",
+"max": 30,
+"mt": "جلد شروع ہوتا ہے اور ادا نہیں ہوتا ہے۔",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is far",
+"kind": "list",
+"max": 30,
+"mt": "سپلائر کی مقررہ تاریخ بہت دور ہے۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Payment covers every balance",
+"kind": "list",
+"max": 30,
+"mt": "ادائیگی ہر بیلنس کا احاطہ کرتی ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Plan ends before the deadline",
+"kind": "list",
+"max": 30,
+"mt": "منصوبہ ڈیڈ لائن سے پہلے ختم ہو جاتا ہے۔",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Plan ends after the deadline",
+"kind": "list",
+"max": 30,
+"mt": "منصوبہ ڈیڈ لائن کے بعد ختم ہو جاتا ہے۔",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Pay before the supplier may cancel",
+"kind": "list",
+"max": 30,
+"mt": "اس سے پہلے کہ سپلائر منسوخ کر دے۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Weeks pay out more cash",
+"kind": "list",
+"max": 30,
+"mt": "ہفتے مزید نقد ادائیگی کرتے ہیں۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Bookings, deposits, final payments and cash held by month",
+"kind": "title",
+"max": 60,
+"mt": "بکنگ، ڈپازٹ، حتمی ادائیگیاں اور نقد رقم ماہ کے لحاظ سے رکھی گئی ہے۔",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Booking value by booking date",
+"kind": "label",
+"max": 30,
+"mt": "بکنگ کی تاریخ کے لحاظ سے بکنگ کی قیمت",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Client payments less refunds",
+"kind": "label",
+"max": 30,
+"mt": "کلائنٹ کی ادائیگی کم رقم کی واپسی",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Supplier payments by date paid",
+"kind": "label",
+"max": 30,
+"mt": "فراہم کنندہ کی ادائیگی تاریخ کے حساب سے",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "What a change costs the client and does to your commission",
+"kind": "title",
+"max": 60,
+"mt": "کلائنٹ کو کیا تبدیلی لانی پڑتی ہے اور آپ کے کمیشن پر کیا اثر پڑتا ہے۔",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Cash held after client money in and supplier money out",
+"kind": "title",
+"max": 60,
+"mt": "کلائنٹ کے پیسے کے اندر اور سپلائی کے پیسے باہر ہونے کے بعد کیش رکھی گئی ہے۔",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Dates and amounts of what the agency pays a supplier",
+"kind": "title",
+"max": 60,
+"mt": "ایجنسی فراہم کنندہ کو جو ادائیگی کرتی ہے اس کی تاریخیں اور رقم",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

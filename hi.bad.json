@@ -1,0 +1,170 @@
+[
+{
+"en": "Paid after reminder",
+"kind": "list",
+"max": 30,
+"mt": "अनुस्मारक के बाद भुगतान किया गया",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Agency pays client",
+"kind": "list",
+"max": 30,
+"mt": "एजेंसी ग्राहक को भुगतान करती है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Supplier pays client",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्तिकर्ता ग्राहक को भुगतान करता है",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Supplier pays agency",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्तिकर्ता एजेंसी को भुगतान करता है",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Client pays agency",
+"kind": "list",
+"max": 30,
+"mt": "ग्राहक एजेंसी को भुगतान करता है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client pays supplier direct",
+"kind": "list",
+"max": 30,
+"mt": "ग्राहक आपूर्तिकर्ता को सीधे भुगतान करता है",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Agency pays supplier",
+"kind": "list",
+"max": 30,
+"mt": "एजेंसी आपूर्तिकर्ता को भुगतान करती है",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Deposit paid late",
+"kind": "list",
+"max": 30,
+"mt": "जमा राशि का भुगतान देर से किया गया",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Starts soon and not paid",
+"kind": "list",
+"max": 30,
+"mt": "जल्द ही शुरू होगा और भुगतान नहीं किया जाएगा",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Pay the supplier today",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्तिकर्ता को आज ही भुगतान करें",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is near",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्तिकर्ता की देय तिथि निकट है",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is far",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्तिकर्ता की देय तिथि अभी दूर है",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Payment covers every balance",
+"kind": "list",
+"max": 30,
+"mt": "भुगतान प्रत्येक शेष राशि को कवर करता है",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Plan ends before the deadline",
+"kind": "list",
+"max": 30,
+"mt": "योजना समय सीमा से पहले ही समाप्त हो जाती है",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Plan ends after the deadline",
+"kind": "list",
+"max": 30,
+"mt": "समय सीमा के बाद योजना समाप्त हो जाती है",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Pay before the supplier may cancel",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्तिकर्ता रद्द करने से पहले भुगतान करें",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Weeks pay out more cash",
+"kind": "list",
+"max": 30,
+"mt": "सप्ताह अधिक नकद भुगतान करते हैं",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Booking value by booking date",
+"kind": "label",
+"max": 30,
+"mt": "बुकिंग तिथि के अनुसार बुकिंग मूल्य",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Supplier payments by date paid",
+"kind": "label",
+"max": 30,
+"mt": "भुगतान तिथि के अनुसार आपूर्तिकर्ता भुगतान",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Final payment deadline for a travel date and a supplier rule",
+"kind": "title",
+"max": 60,
+"mt": "यात्रा की तारीख और आपूर्तिकर्ता नियम के लिए अंतिम भुगतान की समय सीमा",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "What a change costs the client and does to your commission",
+"kind": "title",
+"max": 60,
+"mt": "एक बदलाव से ग्राहक को क्या कीमत चुकानी पड़ती है और आपके कमीशन पर क्या प्रभाव पड़ता है",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Cash held after client money in and supplier money out",
+"kind": "title",
+"max": 60,
+"mt": "ग्राहक के पैसे आने और आपूर्तिकर्ता के पैसे निकलने के बाद रखी गई नकदी",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Client money in and supplier money out by week",
+"kind": "title",
+"max": 60,
+"mt": "सप्ताह के अनुसार ग्राहक का पैसा अंदर और आपूर्तिकर्ता का पैसा बाहर",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Hello {name}, your clients have {finals_due} final payments due soon and {overdue_n} overdue payments. Balance owed by your clients: {balance_owed}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {name}, आपके ग्राहकों का अंतिम भुगतान शीघ्र ही और {overdue_n} अतिदेय है। आपके ग्राहकों द्वारा बकाया राशि: {balance_owed}।",
+"why": "placeholders must be exactly: {name} {finals_due} {overdue_n} {balance_owed}"
+}
+]

@@ -1,0 +1,51 @@
+[
+{
+"en": "Deposit paid on time",
+"kind": "list",
+"max": 30,
+"mt": "الوديعة المدفوعة في الوقت المحدد",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pay before the supplier may cancel",
+"kind": "list",
+"max": 30,
+"mt": "ادفع قبل أن يتمكن المورد من الإلغاء",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Ticketing deadlines for air, rail and ferry bookings",
+"kind": "title",
+"max": 60,
+"mt": "المواعيد النهائية لحجز التذاكر لحجوزات الطيران والسكك الحديدية والعبارات",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Bookings, deposits, final payments and cash held by month",
+"kind": "title",
+"max": 60,
+"mt": "الحجوزات والودائع والمدفوعات النهائية والنقد المحتفظ به شهريًا",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Client payments less refunds",
+"kind": "label",
+"max": 30,
+"mt": "مدفوعات العميل أقل من المبالغ المستردة",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Supplier payments by date paid",
+"kind": "label",
+"max": 30,
+"mt": "مدفوعات الموردين حسب تاريخ الدفع",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Please pay by the due date. If you have already paid, thank you, and please tell us the date so we can match it. If you need to talk about the payment, contact us before the due date.",
+"kind": "document",
+"max": null,
+"mt": "يرجى الدفع في الموعد المحدد. إذا كنت قد دفعت بالفعل، شكرًا لك، ويرجى إخبارنا بالموعد حتى نتمكن من مطابقته. إذا كنت بحاجة إلى التحدث عن الدفع، فاتصل بنا قبل تاريخ الاستحقاق.",
+"why": "never use the word for \"compatible\""
+}
+]

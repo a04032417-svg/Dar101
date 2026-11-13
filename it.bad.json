@@ -1,0 +1,240 @@
+[
+{
+"en": "Price hold and option date tracker",
+"kind": "label",
+"max": 50,
+"mt": "Mantenimento del prezzo e monitoraggio della data dell'opzione",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "Ticketing time limit planner",
+"kind": "label",
+"max": 50,
+"mt": "Pianificatore dei limiti di tempo per l'emissione dei biglietti",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "Cash held for suppliers view",
+"kind": "label",
+"max": 50,
+"mt": "Liquidità trattenuta per la visualizzazione dei fornitori",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Room or cabin upgrade",
+"kind": "list",
+"max": 30,
+"mt": "Upgrade della camera o della cabina",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Client pays supplier direct",
+"kind": "list",
+"max": 30,
+"mt": "Il cliente paga direttamente il fornitore",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Hold ends soon",
+"kind": "list",
+"max": 30,
+"mt": "La sospensione terminerà presto",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Starts soon and not paid",
+"kind": "list",
+"max": 30,
+"mt": "Inizia presto e non viene pagato",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Final payment is overdue",
+"kind": "list",
+"max": 30,
+"mt": "Il pagamento finale è in ritardo",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is near",
+"kind": "list",
+"max": 30,
+"mt": "La data di scadenza del fornitore è vicina",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is far",
+"kind": "list",
+"max": 30,
+"mt": "La data di scadenza del fornitore è lontana",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Client owes the agency",
+"kind": "list",
+"max": 30,
+"mt": "Il cliente è in debito con l'agenzia",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Cash held is above the floor",
+"kind": "list",
+"max": 30,
+"mt": "La liquidità detenuta è al di sopra del pavimento",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Cash held is below the floor",
+"kind": "list",
+"max": 30,
+"mt": "La liquidità detenuta è al di sotto del livello minimo",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Plan ends before the deadline",
+"kind": "list",
+"max": 30,
+"mt": "Il piano termina prima della scadenza",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Plan ends after the deadline",
+"kind": "list",
+"max": 30,
+"mt": "Il piano termina dopo la scadenza",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Pay before the supplier may cancel",
+"kind": "list",
+"max": 30,
+"mt": "Paga prima che il fornitore possa annullare",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Ticketing deadlines for air, rail and ferry bookings",
+"kind": "title",
+"max": 60,
+"mt": "Scadenze per l'emissione di biglietti aerei, ferroviari e traghetti",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Supplier cancellation rules by days before travel",
+"kind": "title",
+"max": 60,
+"mt": "Regole di cancellazione del fornitore entro giorni prima del viaggio",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Supplier statements checked against your records",
+"kind": "title",
+"max": 60,
+"mt": "Le dichiarazioni dei fornitori sono state confrontate con i tuoi archivi",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Bookings, deposits, final payments and cash held by month",
+"kind": "title",
+"max": 60,
+"mt": "Prenotazioni, acconti, pagamenti finali e contanti trattenuti per mese",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Booking value, payments in and out, penalties",
+"kind": "title",
+"max": 60,
+"mt": "Valore della prenotazione, pagamenti in entrata e in uscita, penalità",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Booking value by booking date",
+"kind": "label",
+"max": 30,
+"mt": "Valore della prenotazione in base alla data di prenotazione",
+"why": "too long: 59 characters, the limit is 30"
+},
+{
+"en": "Client payments less refunds",
+"kind": "label",
+"max": 30,
+"mt": "Pagamenti dei clienti meno rimborsi",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Supplier payments by date paid",
+"kind": "label",
+"max": 30,
+"mt": "Pagamenti dei fornitori per data di pagamento",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Price hold with what is held and days left",
+"kind": "title",
+"max": 60,
+"mt": "Mantenimento del prezzo con ciò che è trattenuto e i giorni rimasti",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Ticketing time limit with fare rule",
+"kind": "title",
+"max": 60,
+"mt": "Limite temporale per l'emissione dei biglietti con regola tariffaria",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Final payment deadline for a travel date and a supplier rule",
+"kind": "title",
+"max": 60,
+"mt": "Termine ultimo di pagamento per una data di viaggio e una regola del fornitore",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Balance owed by one trip from the bookings and payments",
+"kind": "title",
+"max": 60,
+"mt": "Saldo dovuto per un viaggio dalle prenotazioni e dai pagamenti",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Penalty at each stage as the travel date comes closer",
+"kind": "title",
+"max": 60,
+"mt": "Penalità in ogni fase man mano che la data del viaggio si avvicina",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "What a change costs the client and does to your commission",
+"kind": "title",
+"max": 60,
+"mt": "Che cambiamento costa al cliente e incide sulla tua commissione",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cash held after client money in and supplier money out",
+"kind": "title",
+"max": 60,
+"mt": "Contanti trattenuti dopo l'ingresso del denaro del cliente e l'uscita del denaro dal fornitore",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Late fee and the risk of cancellation when a payment is late",
+"kind": "title",
+"max": 60,
+"mt": "Penale per ritardo e rischio di annullamento in caso di ritardo nel pagamento",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "One client payment split in proportion across three bookings",
+"kind": "title",
+"max": 60,
+"mt": "Il pagamento di un cliente viene suddiviso proporzionalmente su tre prenotazioni",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Last ticketing date from the fare rule and the travel date",
+"kind": "title",
+"max": 60,
+"mt": "Ultima data di emissione del biglietto dalla regola tariffaria e dalla data del viaggio",
+"why": "too long: 87 characters, the limit is 60"
+}
+]

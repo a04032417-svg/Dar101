@@ -1,0 +1,219 @@
+[
+{
+"en": "Price hold and option date tracker",
+"kind": "label",
+"max": 50,
+"mt": "Seguimiento de fecha de opción y retención de precio",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Ticketing time limit planner",
+"kind": "label",
+"max": 50,
+"mt": "Planificador de límite de tiempo de emisión de billetes",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Paid after reminder",
+"kind": "list",
+"max": 30,
+"mt": "Pagado después del recordatorio",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client pays supplier direct",
+"kind": "list",
+"max": 30,
+"mt": "El cliente paga directamente al proveedor",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Final due within 2 days",
+"kind": "list",
+"max": 30,
+"mt": "Vencimiento final dentro de 2 días",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is near",
+"kind": "list",
+"max": 30,
+"mt": "La fecha de vencimiento del proveedor está cerca",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is far",
+"kind": "list",
+"max": 30,
+"mt": "La fecha de vencimiento del proveedor está lejos",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Client owes the agency",
+"kind": "list",
+"max": 30,
+"mt": "El cliente le debe a la agencia",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cash held is above the floor",
+"kind": "list",
+"max": 30,
+"mt": "El efectivo retenido está por encima del piso",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Cash held is below the floor",
+"kind": "list",
+"max": 30,
+"mt": "El efectivo retenido está por debajo del piso",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Plan ends before the deadline",
+"kind": "list",
+"max": 30,
+"mt": "El plan finaliza antes de la fecha límite",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Plan ends after the deadline",
+"kind": "list",
+"max": 30,
+"mt": "El plan finaliza después de la fecha límite",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Pay before the supplier may cancel",
+"kind": "list",
+"max": 30,
+"mt": "Pagar antes de que el proveedor pueda cancelar",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Ticketing deadlines for air, rail and ferry bookings",
+"kind": "title",
+"max": 60,
+"mt": "Plazos de emisión de billetes para reservas aéreas, ferroviarias y de ferry",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Supplier cancellation rules by days before travel",
+"kind": "title",
+"max": 60,
+"mt": "Normas de cancelación de proveedores por días antes del viaje",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Bookings, deposits, final payments and cash held by month",
+"kind": "title",
+"max": 60,
+"mt": "Reservas, depósitos, pagos finales y efectivo retenido por mes",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cash due in the next 60 days with running total",
+"kind": "title",
+"max": 60,
+"mt": "Efectivo adeudado en los próximos 60 días con total acumulado",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Booking value, payments in and out, penalties",
+"kind": "title",
+"max": 60,
+"mt": "Valor de la reserva, pagos de entrada y salida, penalizaciones",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Booking value by booking date",
+"kind": "label",
+"max": 30,
+"mt": "Valor de la reserva por fecha de reserva",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Client payments less refunds",
+"kind": "label",
+"max": 30,
+"mt": "Pagos de clientes menos reembolsos",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Supplier payments by date paid",
+"kind": "label",
+"max": 30,
+"mt": "Pagos a proveedores por fecha de pago",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Supplier payment with due date and days late",
+"kind": "title",
+"max": 60,
+"mt": "Pago a proveedores con fecha de vencimiento y días de retraso",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Final payment deadline for a travel date and a supplier rule",
+"kind": "title",
+"max": 60,
+"mt": "Fecha límite de pago final para una fecha de viaje y una regla de proveedor",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Penalty at each stage as the travel date comes closer",
+"kind": "title",
+"max": 60,
+"mt": "Penalización en cada etapa a medida que se acerca la fecha del viaje",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "What a change costs the client and does to your commission",
+"kind": "title",
+"max": 60,
+"mt": "Lo que un cambio le cuesta al cliente y le hace a su comisión",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Cash held after client money in and supplier money out",
+"kind": "title",
+"max": 60,
+"mt": "Efectivo retenido después de la entrada de dinero del cliente y la salida de dinero del proveedor",
+"why": "too long: 97 characters, the limit is 60"
+},
+{
+"en": "Late fee and the risk of cancellation when a payment is late",
+"kind": "title",
+"max": 60,
+"mt": "Cargo por mora y riesgo de cancelación cuando un pago se retrasa",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "One client payment split in proportion across three bookings",
+"kind": "title",
+"max": 60,
+"mt": "Pago de un cliente dividido en proporción entre tres reservas",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Last ticketing date from the fare rule and the travel date",
+"kind": "title",
+"max": 60,
+"mt": "Última fecha de emisión del billete según la regla de tarifa y la fecha de viaje",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Client money in and supplier money out by week",
+"kind": "title",
+"max": 60,
+"mt": "Entrada de dinero del cliente y salida de dinero del proveedor por semana",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Cash held for different deposit and final terms",
+"kind": "title",
+"max": 60,
+"mt": "Efectivo retenido para diferentes depósitos y términos finales",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

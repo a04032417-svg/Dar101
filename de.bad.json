@@ -1,0 +1,268 @@
+[
+{
+"en": "Free advisor hours per week, monthly average",
+"kind": "title",
+"max": 60,
+"mt": "Kostenlose Beraterstunden pro Woche, monatlicher Durchschnitt",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "supplier deposit and final payment dates and the day to send your payment so a supplier is never paid late",
+"kind": "sentence",
+"max": 160,
+"mt": "Geben Sie die Anzahlungs- und Endzahlungstermine des Lieferanten sowie den Tag an, an dem Ihre Zahlung gesendet werden soll, damit ein Lieferant nie zu spät bezahlt wird",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Supplier pays client",
+"kind": "list",
+"max": 30,
+"mt": "Der Lieferant bezahlt den Kunden",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Supplier pays agency",
+"kind": "list",
+"max": 30,
+"mt": "Der Lieferant zahlt die Agentur",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client pays supplier direct",
+"kind": "list",
+"max": 30,
+"mt": "Der Kunde bezahlt den Lieferanten direkt",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Supplier refund due",
+"kind": "list",
+"max": 30,
+"mt": "Rückerstattung des Lieferanten fällig",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Client refund due",
+"kind": "list",
+"max": 30,
+"mt": "Rückerstattung des Kunden fällig",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Final due soon",
+"kind": "list",
+"max": 30,
+"mt": "Die endgültige Ausgabe ist bald fällig",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Starts soon and not paid",
+"kind": "list",
+"max": 30,
+"mt": "Beginnt bald und ist nicht bezahlt",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Final payment is overdue",
+"kind": "list",
+"max": 30,
+"mt": "Die letzte Zahlung ist überfällig",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Final due within 2 days",
+"kind": "list",
+"max": 30,
+"mt": "Endgültig innerhalb von 2 Tagen fällig",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Pay the supplier today",
+"kind": "list",
+"max": 30,
+"mt": "Bezahlen Sie den Lieferanten noch heute",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is near",
+"kind": "list",
+"max": 30,
+"mt": "Das Fälligkeitsdatum des Lieferanten steht kurz bevor",
+"why": "too long: 53 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is far",
+"kind": "list",
+"max": 30,
+"mt": "Das Fälligkeitsdatum des Lieferanten ist in weiter Ferne",
+"why": "too long: 56 characters, the limit is 30"
+},
+{
+"en": "Cash held is above the floor",
+"kind": "list",
+"max": 30,
+"mt": "Bargeld befindet sich über dem Boden",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Cash held is below the floor",
+"kind": "list",
+"max": 30,
+"mt": "Das Bargeld befindet sich unter dem Boden",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Payment covers every balance",
+"kind": "list",
+"max": 30,
+"mt": "Die Zahlung deckt den gesamten Restbetrag ab",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Payment covers part",
+"kind": "list",
+"max": 30,
+"mt": "Die Zahlung deckt einen Teil ab",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Plan ends before the deadline",
+"kind": "list",
+"max": 30,
+"mt": "Der Plan endet vor Ablauf der Frist",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Plan ends after the deadline",
+"kind": "list",
+"max": 30,
+"mt": "Der Plan endet nach Ablauf der Frist",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Pay before the supplier may cancel",
+"kind": "list",
+"max": 30,
+"mt": "Zahlen Sie, bevor der Lieferant stornieren kann",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Bookings with deposits, final payments and balance owed",
+"kind": "title",
+"max": 60,
+"mt": "Buchungen mit Anzahlung, Restzahlung und geschuldetem Restbetrag",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Trips with bookings, balance owed and next deadline",
+"kind": "title",
+"max": 60,
+"mt": "Reisen mit Buchungen, geschuldetem Restbetrag und nächster Frist",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Cancellations with penalty, refund and fee kept",
+"kind": "title",
+"max": 60,
+"mt": "Stornierungen mit Vertragsstrafe, Rückerstattung und Gebühr bleiben vorbehalten",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Bookings, deposits, final payments and cash held by month",
+"kind": "title",
+"max": 60,
+"mt": "Buchungen, Anzahlungen, Abschlusszahlungen und Bargeldbestände pro Monat",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Booking value by booking date",
+"kind": "label",
+"max": 30,
+"mt": "Buchungswert nach Buchungsdatum",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client payments less refunds",
+"kind": "label",
+"max": 30,
+"mt": "Kundenzahlungen abzüglich Rückerstattungen",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Supplier payments by date paid",
+"kind": "label",
+"max": 30,
+"mt": "Lieferantenzahlungen nach Zahlungsdatum",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Final payment reminder with stage and risk",
+"kind": "title",
+"max": 60,
+"mt": "Abschließende Zahlungserinnerung mit Angabe von Zeitpunkt und Risiko",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Cancellation with penalty, refund and fee kept",
+"kind": "title",
+"max": 60,
+"mt": "Stornierung mit Vertragsstrafe, Rückerstattung und Gebühr einbehalten",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Price hold with what is held and days left",
+"kind": "title",
+"max": 60,
+"mt": "Preisbindung mit dem gehaltenen Betrag und den verbleibenden Tagen",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Final payment deadline for a travel date and a supplier rule",
+"kind": "title",
+"max": 60,
+"mt": "Letzte Zahlungsfrist für einen Reisetermin und eine Lieferantenregel",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "What a change costs the client and does to your commission",
+"kind": "title",
+"max": 60,
+"mt": "Was kostet eine Änderung den Kunden und wirkt sich auf Ihre Provision aus?",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Cash held after client money in and supplier money out",
+"kind": "title",
+"max": 60,
+"mt": "Nach Eingang von Kundengeldern und Auszahlungen von Lieferantengeldern gehaltenes Bargeld",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Dates and amounts of what the agency pays a supplier",
+"kind": "title",
+"max": 60,
+"mt": "Termine und Beträge dessen, was die Agentur einem Lieferanten zahlt",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "One client payment split in proportion across three bookings",
+"kind": "title",
+"max": 60,
+"mt": "Die Zahlung eines Kunden wird anteilig auf drei Buchungen aufgeteilt",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Last ticketing date from the fare rule and the travel date",
+"kind": "title",
+"max": 60,
+"mt": "Letztes Ticketausstellungsdatum aus der Tarifregel und dem Reisedatum",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Cash held for different deposit and final terms",
+"kind": "title",
+"max": 60,
+"mt": "Bargeld, das für unterschiedliche Einzahlungs- und Endbedingungen gehalten wird",
+"why": "too long: 79 characters, the limit is 60"
+}
+]

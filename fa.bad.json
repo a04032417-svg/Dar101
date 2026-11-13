@@ -1,0 +1,156 @@
+[
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: mark-up, planning fee, smallest fee, target margin, reply hours, days a quote stays valid and the budget that needs the owner.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: نشانه‌گذاری، هزینه برنامه‌ریزی، کمترین هزینه، حاشیه هدف، ساعات پاسخ، روزهای معتبر ماندن قیمت و بودجه مورد نیاز مالک.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Supplier pays client",
+"kind": "list",
+"max": 30,
+"mt": "تامین کننده به مشتری پرداخت می کند",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Client pays supplier direct",
+"kind": "list",
+"max": 30,
+"mt": "مشتری مستقیماً به تامین کننده پرداخت می کند",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Agency pays supplier",
+"kind": "list",
+"max": 30,
+"mt": "آژانس به تامین کننده پرداخت می کند",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Hold ends soon",
+"kind": "list",
+"max": 30,
+"mt": "نگه داشتن به زودی به پایان می رسد",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Starts soon and not paid",
+"kind": "list",
+"max": 30,
+"mt": "به زودی شروع می شود و پرداخت نمی شود",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Final payment is overdue",
+"kind": "list",
+"max": 30,
+"mt": "پرداخت نهایی به تاخیر افتاده است",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pay the supplier today",
+"kind": "list",
+"max": 30,
+"mt": "امروز به تامین کننده پرداخت کنید",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is near",
+"kind": "list",
+"max": 30,
+"mt": "تاریخ سررسید تامین کننده نزدیک است",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Supplier due date is far",
+"kind": "list",
+"max": 30,
+"mt": "تاریخ سررسید تامین کننده بسیار دور است",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Payment covers every balance",
+"kind": "list",
+"max": 30,
+"mt": "پرداخت هر موجودی را پوشش می دهد",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Plan ends before the deadline",
+"kind": "list",
+"max": 30,
+"mt": "طرح قبل از پایان مهلت به پایان می رسد",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Plan ends after the deadline",
+"kind": "list",
+"max": 30,
+"mt": "طرح پس از پایان مهلت به پایان می رسد",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Pay before the supplier may cancel",
+"kind": "list",
+"max": 30,
+"mt": "قبل از اینکه تامین کننده لغو کند پرداخت کنید",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Weeks bring in more cash",
+"kind": "list",
+"max": 30,
+"mt": "هفته ها پول نقد بیشتری به ارمغان می آورند",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Weeks pay out more cash",
+"kind": "list",
+"max": 30,
+"mt": "هفته ها پول نقد بیشتری پرداخت می کنند",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Bookings, deposits, final payments and cash held by month",
+"kind": "title",
+"max": 60,
+"mt": "رزروها، سپرده ها، پرداخت های نهایی و وجه نقد نگهداری شده بر اساس ماه",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Client payments less refunds",
+"kind": "label",
+"max": 30,
+"mt": "مشتری بازپرداخت کمتری پرداخت می کند",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Supplier payments by date paid",
+"kind": "label",
+"max": 30,
+"mt": "پرداخت های تامین کننده بر اساس تاریخ پرداخت",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "What a change costs the client and does to your commission",
+"kind": "title",
+"max": 60,
+"mt": "چه تغییری برای مشتری هزینه دارد و برای کمیسیون شما انجام می دهد",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cash held after client money in and supplier money out",
+"kind": "title",
+"max": 60,
+"mt": "پول نقد پس از ورود پول مشتری و خروج پول تامین کننده نگهداری می شود",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Please pay by the due date. If you have already paid, thank you, and please tell us the date so we can match it. If you need to talk about the payment, contact us before the due date.",
+"kind": "document",
+"max": null,
+"mt": "لطفا در تاریخ مقرر پرداخت نمایید. اگر قبلاً پرداخت کرده اید، متشکرم و لطفاً تاریخ را به ما بگویید تا بتوانیم آن را مطابقت دهیم. اگر نیاز به صحبت در مورد پرداخت دارید، قبل از موعد مقرر با ما تماس بگیرید.",
+"why": "never use the word for \"compatible\""
+}
+]
