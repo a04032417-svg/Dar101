@@ -1,0 +1,37 @@
+[
+{
+"en": "Log every booking on Bookings and every document on Travel Documents. Days to the deadline, days early and the risk check fill in; Departures by Week shows which weeks are at risk.",
+"kind": "sentence",
+"max": null,
+"mt": "قم بتسجيل كل حجز على Bookings وكل مستند على وثائق السفر. أيام حتى الموعد النهائي، أيام مبكرة وملء فحص المخاطر؛ يعرض المغادرة حسب الأسبوع الأسابيع المعرضة للخطر.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Tell the hotel about diets",
+"kind": "list",
+"max": 30,
+"mt": "أخبر الفندق عن الأنظمة الغذائية",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Travellers still need a room",
+"kind": "list",
+"max": 30,
+"mt": "لا يزال المسافرون بحاجة إلى غرفة",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Free places cover the gap",
+"kind": "list",
+"max": 30,
+"mt": "الأماكن المجانية تغطي هذه الفجوة",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Group price per person with free places and mark-up",
+"kind": "title",
+"max": 60,
+"mt": "سعر المجموعة للشخص الواحد مع الأماكن المجانية والعلامات المميزة",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

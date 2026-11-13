@@ -1,0 +1,170 @@
+[
+{
+"en": "Log every booking on Bookings and every document on Travel Documents. Days to the deadline, days early and the risk check fill in; Departures by Week shows which weeks are at risk.",
+"kind": "sentence",
+"max": null,
+"mt": "Регистрируйте каждое бронирование в Bookings и каждый документ в Проездные документы. Количество дней до крайнего срока, дней раньше и проверка рисков; Выезды по неделям показывает, какие недели находятся под угрозой.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Run group trips with every traveller, room and payment in one place",
+"kind": "sentence",
+"max": 80,
+"mt": "Запускайте групповые поездки с каждым путешественником, номером и оплатой в одном месте",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "every group shows days to the rooming deadline, travellers placed and travellers missing, and turns red when time runs short",
+"kind": "sentence",
+"max": 160,
+"mt": "В каждой группе отображаются дни до крайнего срока размещения, размещенные и отсутствующие путешественники, а также они становятся красными, когда время истекает.",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Sign the supplier contract",
+"kind": "list",
+"max": 30,
+"mt": "Подпишите договор с поставщиком",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Open the traveller list",
+"kind": "list",
+"max": 30,
+"mt": "Открыть список путешественников",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Collect traveller names",
+"kind": "list",
+"max": 30,
+"mt": "Соберите имена путешественников",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Final payment reminder",
+"kind": "list",
+"max": 30,
+"mt": "Напоминание об окончательном платеже",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Close-out and commission claim",
+"kind": "list",
+"max": 30,
+"mt": "Закрытие сделки и комиссионное требование",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "No group led",
+"kind": "list",
+"max": 30,
+"mt": "Ни одна группа не возглавлялась",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Travellers still need a room",
+"kind": "list",
+"max": 30,
+"mt": "Путешественникам все еще нужен номер",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Singles cost extra",
+"kind": "list",
+"max": 30,
+"mt": "Одиночные номера оплачиваются дополнительно.",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "No singles supplement",
+"kind": "list",
+"max": 30,
+"mt": "Без доплаты за одиночное проживание",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Free places cover the gap",
+"kind": "list",
+"max": 30,
+"mt": "Свободные места покрывают дефицит",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Travellers with room, passport, needs and balance",
+"kind": "title",
+"max": 60,
+"mt": "Путешественники с комнатой, паспортом, потребностями и балансом",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Group price build-up and margin per traveller",
+"kind": "title",
+"max": 60,
+"mt": "Формирование групповых цен и прибыль на одного путешественника",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Group sales booked",
+"kind": "label",
+"max": 30,
+"mt": "Забронированы групповые продажи",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Leader free places, upgrades and value given",
+"kind": "title",
+"max": 60,
+"mt": "Бесплатные места для лидеров, повышение класса обслуживания и стоимость",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Room count and singles supplement for a group",
+"kind": "title",
+"max": 60,
+"mt": "Количество номеров и доплата за одноместное размещение для группы",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Type the travellers, the share who want a single room and the nightly rates; see the rooms to book, what the singles cost over sharing and the extra for each single traveller.",
+"kind": "sentence",
+"max": null,
+"mt": "Укажите количество путешественников, долю тех, кто хочет одноместный номер, и стоимость ночи; посмотрите, какие номера нужно забронировать, сколько стоят одноместные номера при совместном размещении, а также дополнительные расходы для каждого отдельного путешественника.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Group price per person with free places and mark-up",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость группы на человека со свободными местами и наценкой",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Vehicles needed and cost per traveller for a transfer",
+"kind": "title",
+"max": 60,
+"mt": "Необходимые транспортные средства и стоимость трансфера на одного путешественника",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Dietary and access needs of a group by kind",
+"kind": "title",
+"max": 60,
+"mt": "Диетические потребности и потребности в доступе группы по виду",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Leader free places and upgrades against the group margin",
+"kind": "title",
+"max": 60,
+"mt": "Бесплатные места для лидеров и повышение класса в зависимости от маржи группы",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Margin per traveller for group size and price together",
+"kind": "title",
+"max": 60,
+"mt": "Наценка на одного путешественника за размер группы и цену вместе",
+"why": "too long: 64 characters, the limit is 60"
+}
+]
