@@ -1,0 +1,233 @@
+[
+{
+"en": "Keep every unit guest-ready and know what each one costs to keep",
+"kind": "sentence",
+"max": 80,
+"mt": "Halten Sie jede Einheit für Gäste bereit und wissen Sie, was die Unterhaltskosten jeder einzelnen Einheit kosten",
+"why": "too long: 112 characters, the limit is 80"
+},
+{
+"en": "every problem has a priority, a fix-by date, days open and a check that shows overdue, due soon, waiting for parts or closed on time",
+"kind": "sentence",
+"max": 160,
+"mt": "Jedes Problem hat eine Priorität, ein Behebungsdatum, offene Tage und eine Prüfung, die anzeigt, ob es überfällig, bald fällig, auf Teile wartend oder pünktlich abgeschlossen ist",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "deposit, claim and days since check-out say how much to return, how much to keep and whether the release is overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "Anzahlung, Reklamation und Tage seit dem Check-out geben Aufschluss darüber, wie viel zurückgegeben werden muss, wie viel behalten werden soll und ob die Freigabe überfällig ist",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "every appliance with its warranty end, age and a warning before the cover ends, so a faulty machine is claimed from the seller",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jedes Gerät werden das Garantieende, das Alter und eine Warnung vor Ablauf der Garantiezeit angegeben, so dass beim Verkäufer eine fehlerhafte Maschine reklamiert wird",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "each recurring service shows the next due date, the days left and the yearly cost, and the planner prices a new service for all units",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jeden wiederkehrenden Service werden das nächste Fälligkeitsdatum, die verbleibenden Tage und die jährlichen Kosten angezeigt. Der Planer berechnet für alle Einheiten einen neuen Service",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "cost by unit and month divided by the nights booked shows which unit costs most to keep and which repairs keep coming back",
+"kind": "sentence",
+"max": 160,
+"mt": "Die Kosten pro Einheit und Monat dividiert durch die gebuchten Nächte zeigen, welche Einheit die meisten Kosten verursacht und welche Reparaturen immer wieder anfallen",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Code changed after check-out",
+"kind": "list",
+"max": 30,
+"mt": "Der Code wurde nach dem Auschecken geändert",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Claim waiting too long",
+"kind": "list",
+"max": 30,
+"mt": "Behauptung, man habe zu lange gewartet",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Overdue to release",
+"kind": "list",
+"max": 30,
+"mt": "Die Veröffentlichung ist überfällig",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Payback under 24 months",
+"kind": "list",
+"max": 30,
+"mt": "Amortisation in weniger als 24 Monaten",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "No saving counted",
+"kind": "list",
+"max": 30,
+"mt": "Es wurde keine Ersparnis gezählt",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Repair now, plan a replacement",
+"kind": "list",
+"max": 30,
+"mt": "Jetzt reparieren, Ersatz einplanen",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Keep part of the deposit",
+"kind": "list",
+"max": 30,
+"mt": "Behalten Sie einen Teil der Anzahlung",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Claim the rest after the deposit",
+"kind": "list",
+"max": 30,
+"mt": "Fordern Sie den Restbetrag nach der Anzahlung an",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Deposit covers the damage",
+"kind": "list",
+"max": 30,
+"mt": "Die Kaution deckt den Schaden ab",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Start by the last safe day",
+"kind": "list",
+"max": 30,
+"mt": "Beginnen Sie mit dem letzten sicheren Tag",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Last safe day has passed",
+"kind": "list",
+"max": 30,
+"mt": "Der letzte sichere Tag ist vorbei",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Handyperson has spare hours",
+"kind": "list",
+"max": 30,
+"mt": "Der Handwerker hat freie Stunden",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cost per night is fine",
+"kind": "list",
+"max": 30,
+"mt": "Der Preis pro Nacht ist in Ordnung",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Bookings with the issues reported during the stay",
+"kind": "title",
+"max": 60,
+"mt": "Buchungen mit den während des Aufenthalts gemeldeten Problemen",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Pest control, empty unit",
+"kind": "label",
+"max": null,
+"mt": "Pest control, empty unit",
+"why": "not translated"
+},
+{
+"en": "Next check-in in 3 days",
+"kind": "label",
+"max": null,
+"mt": "Next check-in in 3 days",
+"why": "not translated"
+},
+{
+"en": "Hours per ticket",
+"kind": "label",
+"max": null,
+"mt": "Hours per ticket",
+"why": "not translated"
+},
+{
+"en": "Weekly capacity, hours",
+"kind": "label",
+"max": null,
+"mt": "Weekly capacity, hours",
+"why": "not translated"
+},
+{
+"en": "New tickets per week",
+"kind": "label",
+"max": null,
+"mt": "New tickets per week",
+"why": "not translated"
+},
+{
+"en": "Free hours this week",
+"kind": "label",
+"max": null,
+"mt": "Free hours this week",
+"why": "not translated"
+},
+{
+"en": "Load this week",
+"kind": "label",
+"max": null,
+"mt": "Load this week",
+"why": "not translated"
+},
+{
+"en": "Ravi Menon, 24 hours",
+"kind": "label",
+"max": null,
+"mt": "Ravi Menon, 24 hours",
+"why": "not translated"
+},
+{
+"en": "Tariq Haddad, 18 hours",
+"kind": "label",
+"max": null,
+"mt": "Tariq Haddad, 18 hours",
+"why": "not translated"
+},
+{
+"en": "Twelve open tickets",
+"kind": "label",
+"max": null,
+"mt": "Twelve open tickets",
+"why": "not translated"
+},
+{
+"en": "Expected life in years",
+"kind": "label",
+"max": null,
+"mt": "Expected life in years",
+"why": "not translated"
+},
+{
+"en": "Release or keep a damage deposit",
+"kind": "title",
+"max": 60,
+"mt": "Geben Sie eine Schadenskaution frei oder behalten Sie sie ein",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Next safety check and the time it takes",
+"kind": "title",
+"max": 60,
+"mt": "Nächster Sicherheitscheck und wie viel Zeit dafür benötigt wird",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

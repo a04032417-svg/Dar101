@@ -1,0 +1,107 @@
+[
+{
+"en": "Cleaner cost per turnover",
+"kind": "label",
+"max": 30,
+"mt": "Ciro başına temizlikçi maliyeti",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "every problem has a priority, a fix-by date, days open and a check that shows overdue, due soon, waiting for parts or closed on time",
+"kind": "sentence",
+"max": 160,
+"mt": "Her sorunun bir önceliği, bir son düzeltme tarihi, açık günleri ve vadesi geçmiş, yakında teslim edilecek, parça beklendiğini veya zamanında kapatıldığını gösteren bir çek vardır",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "cost by unit and month divided by the nights booked shows which unit costs most to keep and which repairs keep coming back",
+"kind": "sentence",
+"max": 160,
+"mt": "Birime ve aya göre maliyetin, rezerve edilen gecelere bölünmesi, hangi birimin muhafaza edilmesinin en maliyetli olduğunu ve hangi onarımların sürekli olarak tekrarlandığını gösterir",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "Code changed after check-out",
+"kind": "list",
+"max": 30,
+"mt": "Çıkıştan sonra kod değiştirildi",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Claim waiting too long",
+"kind": "list",
+"max": 30,
+"mt": "Çok uzun süre beklediğinizi iddia edin",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Payback under 24 months",
+"kind": "list",
+"max": 30,
+"mt": "24 aydan kısa sürede geri ödeme",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Repair now, plan a replacement",
+"kind": "list",
+"max": 30,
+"mt": "Şimdi onarın, değiştirmeyi planlayın",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Keep part of the deposit",
+"kind": "list",
+"max": 30,
+"mt": "Depozitonun bir kısmını saklayın",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Claim the rest after the deposit",
+"kind": "list",
+"max": 30,
+"mt": "Geri kalanını depozitodan sonra talep edin",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Spend more, it pays",
+"kind": "list",
+"max": 30,
+"mt": "Daha fazla harcayın, karşılığını verir",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Handyperson has spare hours",
+"kind": "list",
+"max": 30,
+"mt": "Becerikli kişinin boş saatleri var",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Bookings with the issues reported during the stay",
+"kind": "title",
+"max": 60,
+"mt": "Konaklama sırasında bildirilen sorunlarla ilgili rezervasyonlar",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Incidents during stays with action and close date",
+"kind": "title",
+"max": 60,
+"mt": "İşlem ve kapanış tarihi içeren konaklamalar sırasındaki olaylar",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Key and lock events with code changes",
+"kind": "title",
+"max": 60,
+"mt": "Kod değişiklikleriyle birlikte anahtarlama ve kilitleme etkinlikleri",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Months to pay back a spend on a unit",
+"kind": "title",
+"max": 60,
+"mt": "Bir birime yapılan harcamanın geri ödenmesi için gereken aylar",
+"why": "too long: 62 characters, the limit is 60"
+}
+]
