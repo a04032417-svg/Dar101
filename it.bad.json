@@ -1,0 +1,289 @@
+[
+{
+"en": "Order confirmation check against the purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Controllo della conferma dell'ordine rispetto all'ordine di acquisto",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Cash needed for orders report for one week",
+"kind": "title",
+"max": 60,
+"mt": "Contanti necessari per il rapporto degli ordini per una settimana",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "PO value at trade cost",
+"kind": "label",
+"max": 30,
+"mt": "Valore dell'ordine d'acquisto al costo commerciale",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Cash needed for vendors",
+"kind": "label",
+"max": 30,
+"mt": "Contanti necessari ai venditori",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Receiving check with damage claim",
+"kind": "label",
+"max": 50,
+"mt": "Ricezione di assegno con richiesta di risarcimento danni",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Appliance installer",
+"kind": "list",
+"max": 30,
+"mt": "Installatore di elettrodomestici",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Delivery and installation crew",
+"kind": "list",
+"max": 30,
+"mt": "Personale di consegna e installazione",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Claim waiting for vendor",
+"kind": "list",
+"max": 30,
+"mt": "Reclamo in attesa del venditore",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Replacement delays install",
+"kind": "list",
+"max": 30,
+"mt": "Installazione dei ritardi di sostituzione",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Delivery arrives too late",
+"kind": "list",
+"max": 30,
+"mt": "La consegna arriva troppo tardi",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Replacement fits the schedule",
+"kind": "list",
+"max": 30,
+"mt": "La sostituzione rientra nel programma",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Replacement delays the install",
+"kind": "list",
+"max": 30,
+"mt": "La sostituzione ritarda l'installazione",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Plan fits the day",
+"kind": "list",
+"max": 30,
+"mt": "Il piano si adatta alla giornata",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Punch list needs more fixers",
+"kind": "list",
+"max": 30,
+"mt": "L'elenco dei punch ha bisogno di più riparatori",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Storage is free",
+"kind": "list",
+"max": 30,
+"mt": "Lo spazio di archiviazione è gratuito",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Deliveries with days late, due this week and open flag",
+"kind": "title",
+"max": 60,
+"mt": "Consegne con giorni di ritardo, scadenza questa settimana e bandiera aperta",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Delivery schedule by week with late and damaged counts",
+"kind": "title",
+"max": 60,
+"mt": "Programma di consegna per settimana con conteggi in ritardo e danneggiati",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Installation days by room with crew and items to install",
+"kind": "title",
+"max": 60,
+"mt": "Giorni di installazione per stanza con personale e articoli da installare",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Items by room with delivery, installation and waiting days",
+"kind": "title",
+"max": 60,
+"mt": "Articoli per stanza con consegna, installazione e giorni di attesa",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Room readiness from delivered and installed items",
+"kind": "title",
+"max": 60,
+"mt": "Prontezza della stanza dagli articoli consegnati e installati",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Trade booking days with access contact and status",
+"kind": "title",
+"max": 60,
+"mt": "Giorni di prenotazione commerciale con contatto e stato di accesso",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Team with day rate, installation days booked and crew cost",
+"kind": "title",
+"max": 60,
+"mt": "Team con tariffa giornaliera, giorni di installazione prenotati e costo dell'equipaggio",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Warehouse storage lots with storage days and charge",
+"kind": "title",
+"max": 60,
+"mt": "Lotti di stoccaggio in magazzino con giorni di giacenza e addebito",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Handover items with due date and days to due",
+"kind": "title",
+"max": 60,
+"mt": "Elementi di consegna con data di scadenza e giorni di scadenza",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Deliveries due, damage claims, crew cost and trade hours",
+"kind": "title",
+"max": 60,
+"mt": "Consegne dovute, richieste di risarcimento danni, costo dell'equipaggio e orari commerciali",
+"why": "too long: 91 characters, the limit is 60"
+},
+{
+"en": "Damage claim value",
+"kind": "label",
+"max": 30,
+"mt": "Valore della richiesta di risarcimento danni",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Installation crew cost",
+"kind": "label",
+"max": 30,
+"mt": "Costo della squadra di installazione",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Damage claim with vendor, remedy and days open",
+"kind": "title",
+"max": 60,
+"mt": "Richiesta di risarcimento danni con venditore, rimedio e giorni aperti",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Trade job with quote, actual cost and overrun",
+"kind": "title",
+"max": 60,
+"mt": "Lavoro commerciale con preventivo, costo effettivo e superamento",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Punch item with due date, assignee and days open",
+"kind": "title",
+"max": 60,
+"mt": "Fornisci oggetto con data di scadenza, assegnatario e giorni aperti",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Installation sequence for a room with drying days",
+"kind": "title",
+"max": 60,
+"mt": "Sequenza di installazione per una stanza con giorni di asciugatura",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Delivery slot planner: how many deliveries fit in a site day",
+"kind": "title",
+"max": 60,
+"mt": "Pianificatore degli slot di consegna: quante consegne rientrano in una giornata lavorativa",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Damage claim value and effect on the schedule",
+"kind": "title",
+"max": 60,
+"mt": "Valore della richiesta di risarcimento danni ed effetto sul programma",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Room ready date from the last delivery and the trades",
+"kind": "title",
+"max": 60,
+"mt": "Camera pronta data dall'ultima consegna e dalle compravendite",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Trade overrun check: quote against actual cost and days",
+"kind": "title",
+"max": 60,
+"mt": "Controllo dello sconfinamento commerciale: preventivo rispetto al costo e ai giorni effettivi",
+"why": "too long: 93 characters, the limit is 60"
+},
+{
+"en": "Storage cost: lots, days stored and the charge to re-bill",
+"kind": "title",
+"max": 60,
+"mt": "Costo di giacenza: lotti, giorni di giacenza e addebito per rifatturazione",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Punch list close-out forecast: finish date and fixers needed",
+"kind": "title",
+"max": 60,
+"mt": "Previsioni di chiusura della punch list: data di fine e interventi necessari",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Install crew days and cost by item type",
+"kind": "title",
+"max": 60,
+"mt": "Installa i giorni dell'equipaggio e i costi per tipo di articolo",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Trade rebooking cost: days moved, notice given and day rate",
+"kind": "title",
+"max": 60,
+"mt": "Costo di riprenotazione commerciale: giorni spostati, preavviso dato e tariffa giornaliera",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Delivery on-time rate by vendor: share and average delay",
+"kind": "title",
+"max": 60,
+"mt": "Tasso di puntualità di consegna per fornitore: quota e ritardo medio",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "What-if grid: delivery delay and rebooked trade days",
+"kind": "title",
+"max": 60,
+"mt": "Griglia what-if: ritardo nella consegna e giorni commerciali riprenotati",
+"why": "too long: 72 characters, the limit is 60"
+}
+]

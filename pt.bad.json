@@ -1,0 +1,219 @@
+[
+{
+"en": "Order confirmation check against the purchase order",
+"kind": "title",
+"max": 60,
+"mt": "Verificação de confirmação do pedido em relação ao pedido de compra",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Order confirmations that differ by vendor",
+"kind": "title",
+"max": 60,
+"mt": "Confirmações de pedidos que variam de acordo com o fornecedor",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Cash needed for vendors",
+"kind": "label",
+"max": 30,
+"mt": "Dinheiro necessário para fornecedores",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Curtain and blind fitter",
+"kind": "list",
+"max": 30,
+"mt": "Instalador de cortinas e persianas",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Claim waiting for vendor",
+"kind": "list",
+"max": 30,
+"mt": "Reclamação aguardando fornecedor",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Replacement delays install",
+"kind": "list",
+"max": 30,
+"mt": "Instalação de atrasos de substituição",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Replacement fits the schedule",
+"kind": "list",
+"max": 30,
+"mt": "A substituição se ajusta ao cronograma",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Replacement delays the install",
+"kind": "list",
+"max": 30,
+"mt": "A substituição atrasa a instalação",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Punch list closes on time",
+"kind": "list",
+"max": 30,
+"mt": "A lista de pendências fecha na hora certa",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Punch list needs more fixers",
+"kind": "list",
+"max": 30,
+"mt": "A lista de pendências precisa de mais fixadores",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Deliveries with days late, due this week and open flag",
+"kind": "title",
+"max": 60,
+"mt": "Entregas com dias de atraso, vencimento esta semana e bandeira aberta",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Delivery schedule by week with late and damaged counts",
+"kind": "title",
+"max": 60,
+"mt": "Cronograma de entrega por semana com contagens atrasadas e danificadas",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Installation days by room with crew and items to install",
+"kind": "title",
+"max": 60,
+"mt": "Dias de instalação por sala com equipe e itens a serem instalados",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Contractors with jobs, overrun and late jobs",
+"kind": "title",
+"max": 60,
+"mt": "Empreiteiros com empregos, excesso de trabalho e trabalhos atrasados",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Punch list with days open and overdue flag",
+"kind": "title",
+"max": 60,
+"mt": "Lista de pendências com sinalização de dias abertos e vencidos",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Team with day rate, installation days booked and crew cost",
+"kind": "title",
+"max": 60,
+"mt": "Equipe com diária, dias de instalação reservados e custo da equipe",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Warehouse storage lots with storage days and charge",
+"kind": "title",
+"max": 60,
+"mt": "Lotes de armazenamento em armazém com dias de armazenamento e cobrança",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Vendors with on-time rate, average delay and claims",
+"kind": "title",
+"max": 60,
+"mt": "Fornecedores com taxa de pontualidade, atraso médio e reclamações",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Deliveries due, damage claims, crew cost and trade hours",
+"kind": "title",
+"max": 60,
+"mt": "Entregas vencidas, reclamações de danos, custo da tripulação e horário comercial",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Damage claim with vendor, remedy and days open",
+"kind": "title",
+"max": 60,
+"mt": "Reivindicação de danos com fornecedor, solução e dias abertos",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Punch item with due date, assignee and days open",
+"kind": "title",
+"max": 60,
+"mt": "Item de punch com data de vencimento, responsável e dias em aberto",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Site access with hours, parking, lift and keys",
+"kind": "title",
+"max": 60,
+"mt": "Acesso ao local com horários, estacionamento, elevador e chaves",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Delivery slot planner: how many deliveries fit in a site day",
+"kind": "title",
+"max": 60,
+"mt": "Planejador de intervalo de entrega: quantas entregas cabem em um dia no local",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Receiving check count: ordered, damaged, missing",
+"kind": "title",
+"max": 60,
+"mt": "Contagem de cheques recebidos: encomendados, danificados, perdidos",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Room ready date from the last delivery and the trades",
+"kind": "title",
+"max": 60,
+"mt": "Data de prontidão do quarto a partir da última entrega e das negociações",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Trade overrun check: quote against actual cost and days",
+"kind": "title",
+"max": 60,
+"mt": "Verificação de excesso de negociação: cotação em relação ao custo real e dias",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Storage cost: lots, days stored and the charge to re-bill",
+"kind": "title",
+"max": 60,
+"mt": "Custo de armazenamento: lotes, dias armazenados e cobrança para refaturar",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Punch list close-out forecast: finish date and fixers needed",
+"kind": "title",
+"max": 60,
+"mt": "Previsão de encerramento da lista de pendências: data de término e correções necessárias",
+"why": "too long: 88 characters, the limit is 60"
+},
+{
+"en": "Trade rebooking cost: days moved, notice given and day rate",
+"kind": "title",
+"max": 60,
+"mt": "Custo de remarcação comercial: dias movidos, aviso prévio e taxa diária",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Delivery on-time rate by vendor: share and average delay",
+"kind": "title",
+"max": 60,
+"mt": "Taxa de entrega no prazo por fornecedor: participação e atraso médio",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "What-if grid: delivery delay and rebooked trade days",
+"kind": "title",
+"max": 60,
+"mt": "Grade hipotética: atraso na entrega e dias de negociação remarcados",
+"why": "too long: 67 characters, the limit is 60"
+}
+]
