@@ -1,0 +1,268 @@
+[
+{
+"en": "Projects within the FF&E budget",
+"kind": "title",
+"max": 60,
+"mt": "Projets dans le cadre du budget mobilier, agencements et équipements",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Hours estimated against logged per project",
+"kind": "title",
+"max": 60,
+"mt": "Heures estimées par rapport aux heures enregistrées par projet",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "FF&E budget against specified by project",
+"kind": "title",
+"max": 60,
+"mt": "budget de mobilier, d'agencements et d'équipement par rapport à spécifié par le projet",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "FF&E schedule with price and margin",
+"kind": "label",
+"max": 50,
+"mt": "calendrier du mobilier, des agencements et de l'équipement avec prix et marge",
+"why": "too long: 77 characters, the limit is 50"
+},
+{
+"en": "every item shows list price, trade discount, unit cost, mark-up, client price and the margin it earns, with checks for approval, lead time and margin",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque article indique le prix catalogue, la remise commerciale, le coût unitaire, la majoration, le prix client et la marge gagnée, avec des contrôles d'approbation, de délai de livraison et de marge.",
+"why": "too long: 201 characters, the limit is 160"
+},
+{
+"en": "Room-by-room budget against specified",
+"kind": "label",
+"max": 50,
+"mt": "Budget pièce par pièce par rapport à ce qui est spécifié",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "each room's approved budget against what is specified, the share used and a three-level over-budget check using your reserve",
+"kind": "sentence",
+"max": 160,
+"mt": "le budget approuvé de chaque chambre par rapport à ce qui est spécifié, la part utilisée et un contrôle de dépassement de budget à trois niveaux utilisant votre réserve",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Substitution effect on price, margin and schedule",
+"kind": "label",
+"max": 50,
+"mt": "Effet de substitution sur le prix, la marge et le calendrier",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "every substituted item shows the trade price change, the client price change and the lead-time change against the original",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque article remplacé indique la modification du prix commercial, la modification du prix client et la modification du délai de livraison par rapport à l'original",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "widths, pattern repeat, cut length, waste and cost for curtains and upholstery, plus a schedule that gives the order and ready dates",
+"kind": "sentence",
+"max": 160,
+"mt": "largeurs, répétition du motif, longueur de coupe, gaspillage et coût des rideaux et des tissus d'ameublement, ainsi qu'un calendrier indiquant la commande et les dates de préparation",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "90 reusable items with vendor, trade cost and a standard client price from your mark-up rule, with how often each was used",
+"kind": "sentence",
+"max": 160,
+"mt": "90 articles réutilisables avec le fournisseur, le coût de transaction et un prix client standard issu de votre règle de majoration, avec la fréquence d'utilisation de chacun",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "FF&E Schedules and Room Budgets",
+"kind": "title",
+"max": 60,
+"mt": "mobilier, agencements et équipement Horaires et budgets des salles",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Kitchen and bath fixtures",
+"kind": "list",
+"max": 30,
+"mt": "Luminaires de cuisine et de salle de bain",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Vendor stock unclear",
+"kind": "list",
+"max": 30,
+"mt": "Le stock du fournisseur n'est pas clair",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Vendor needs a decision",
+"kind": "list",
+"max": 30,
+"mt": "Le fournisseur a besoin d'une décision",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Decision due soon",
+"kind": "list",
+"max": 30,
+"mt": "Décision attendue prochainement",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Below minimum mark-up",
+"kind": "list",
+"max": 30,
+"mt": "En dessous de la majoration minimale",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "FF&E schedule with trade cost, client price and margin",
+"kind": "title",
+"max": 60,
+"mt": "calendrier du mobilier, des agencements et de l'équipement avec coût de transaction, prix client et marge",
+"why": "too long: 105 characters, the limit is 60"
+},
+{
+"en": "Item, sample and budget approvals with waiting time",
+"kind": "title",
+"max": 60,
+"mt": "Approbations d'articles, d'échantillons et de budgets avec temps d'attente",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Finish and sample log with days to receive",
+"kind": "title",
+"max": 60,
+"mt": "Terminer et échantillonner le journal avec les jours de réception",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Vendors with trade discount, lead time and what is specified",
+"kind": "title",
+"max": 60,
+"mt": "Fournisseurs avec remise commerciale, délai de livraison et ce qui est spécifié",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Mark-up rules by category with what is really used",
+"kind": "title",
+"max": 60,
+"mt": "Règles de majoration par catégorie avec ce qui est réellement utilisé",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Room and sqm benchmarks against your own rooms",
+"kind": "title",
+"max": 60,
+"mt": "Comparaison des chambres et des m² par rapport à vos propres chambres",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Item library of reusable items with trade and standard price",
+"kind": "title",
+"max": 60,
+"mt": "Bibliothèque d'articles d'articles réutilisables avec prix d'échange et prix standard",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Allowance in the proposal against what is specified",
+"kind": "title",
+"max": 60,
+"mt": "Allocation dans la proposition par rapport à ce qui est spécifié",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Volume m3",
+"kind": "label",
+"max": null,
+"mt": "Volume m3",
+"why": "not translated"
+},
+{
+"en": "Fabric and upholstery schedule with metres and cost",
+"kind": "title",
+"max": 60,
+"mt": "Calendrier des tissus et des tissus d'ameublement avec mètres et coût",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Projects with FF&E budget and the items in them",
+"kind": "title",
+"max": 60,
+"mt": "Projets avec budget mobilier, agencements et équipements et les éléments qu'ils contiennent",
+"why": "too long: 91 characters, the limit is 60"
+},
+{
+"en": "Margin on specified items",
+"kind": "label",
+"max": 30,
+"mt": "Marge sur des éléments spécifiés",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "FF&E item with cost, price and margin",
+"kind": "title",
+"max": 60,
+"mt": "mobilier, agencements et équipements avec coût, prix et marge",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Client approval of items, samples or a budget",
+"kind": "title",
+"max": 60,
+"mt": "Approbation par le client d'articles, d'échantillons ou d'un budget",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "FF&E budget split by category",
+"kind": "title",
+"max": 60,
+"mt": "budget mobilier, agencements et équipements réparti par catégorie",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Budget 135000",
+"kind": "label",
+"max": null,
+"mt": "Budget 135000",
+"why": "not translated"
+},
+{
+"en": "Item substitution effect on price, margin and schedule",
+"kind": "title",
+"max": 60,
+"mt": "Effet de substitution d'articles sur le prix, la marge et le calendrier",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Unit cost and total at a quantity with extra discount tiers",
+"kind": "title",
+"max": 60,
+"mt": "Coût unitaire et total pour une quantité avec des niveaux de remise supplémentaires",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Fabric and upholstery metres with repeat and waste",
+"kind": "title",
+"max": 60,
+"mt": "Mètres de tissus et de tissus d'ameublement avec répétition et déchets",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Rug and flooring quantity with waste and packs",
+"kind": "title",
+"max": 60,
+"mt": "Quantité de tapis et revêtements de sol avec déchets et paquets",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "FF&E schedule for a project",
+"kind": "title",
+"max": 60,
+"mt": "calendrier du mobilier, des agencements et de l'équipement pour un projet",
+"why": "too long: 73 characters, the limit is 60"
+}
+]
