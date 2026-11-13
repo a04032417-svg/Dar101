@@ -1,0 +1,128 @@
+[
+{
+"en": "Open Start and type your company name and your limits in the yellow cells: statement and payment days, tax due day, co-host fee percent, lowest net to owner and the reserve to hold.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: روزهای صورت‌حساب و پرداخت، سررسید مالیات، درصد هزینه میزبانی مشترک، کمترین خالص خالص برای مالک و ذخیره برای نگهداری.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "expected payouts, costs, owner payments, local tax and draws give the balance of every week and flag the weeks near your cash floor",
+"kind": "sentence",
+"max": 160,
+"mt": "پرداخت‌های مورد انتظار، هزینه‌ها، پرداخت‌های مالک، مالیات محلی و قرعه‌کشی‌ها موجودی هر هفته را نشان می‌دهد و هفته‌های نزدیک به کف نقدی شما را علامت‌گذاری می‌کند.",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Reduced draw, cash tight",
+"kind": "list",
+"max": 30,
+"mt": "قرعه کشی کاهش یافته، پول نقد تنگ است",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Normal cost per turnover",
+"kind": "list",
+"max": 30,
+"mt": "هزینه عادی به ازای هر گردش مالی",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Collected, not yet remitted",
+"kind": "list",
+"max": 30,
+"mt": "جمع آوری شده، هنوز حواله نشده است",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Rate rise loses profit",
+"kind": "list",
+"max": 30,
+"mt": "افزایش نرخ سود را از دست می دهد",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Direct saves money",
+"kind": "list",
+"max": 30,
+"mt": "Direct باعث صرفه جویی در هزینه می شود",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Type the revenue and each cost of one unit and the nights; see the profit, the margin, the profit per night, the cost shares and whether the unit meets your wanted margin.",
+"kind": "sentence",
+"max": null,
+"mt": "درآمد و هر هزینه یک واحد و شب ها را تایپ کنید. سود، حاشیه، سود هر شب، سهم هزینه و اینکه آیا واحد با حاشیه مورد نظر شما مطابقت دارد یا خیر را ببینید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Yearly platform fee saved when more guests book direct",
+"kind": "title",
+"max": 60,
+"mt": "هزینه سالانه پلتفرم با رزرو مستقیم مهمانان بیشتر صرفه جویی می شود",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Hello, {name} made {profit_12m} in 12 months on revenue of {revenue_12m}. Its break-even occupancy is {be_occ}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، {name} با درآمد {revenue_12m} در 12 ماه {profit_12m} به دست آورد. میزان اشغال آن {be_occ} است.",
+"why": "English/Latin words left: revenue profit"
+},
+{
+"en": "Hello, {name} earned a profit of {profit_12m} over 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، {name} طی 12 ماه سودی معادل {profit_12m} به دست آورد، حاشیه {margin_12m}.",
+"why": "English/Latin words left: profit margin"
+},
+{
+"en": "Hello, platform fees for {name} were {fees_12m} over 12 months, {fees_change} against the year before.",
+"kind": "message",
+"max": null,
+"mt": "سلام، هزینه‌های پلتفرم برای {name} {fees_12m} طی 12 ماه بود، {fees_change} نسبت به سال قبل.",
+"why": "English/Latin words left: fees"
+},
+{
+"en": "Cleaner: the cleaning budget",
+"kind": "label",
+"max": null,
+"mt": "Cleaner: بودجه تمیز کردن",
+"why": "English/Latin words left: Cleaner"
+},
+{
+"en": "Handyperson: the maintenance budget",
+"kind": "label",
+"max": null,
+"mt": "Handyperson: بودجه نگهداری",
+"why": "English/Latin words left: Handyperson"
+},
+{
+"en": "Hello {owner}, {name} made a profit of {profit_12m} over the last 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {owner}، {name} در 12 ماه گذشته {profit_12m} سود داشته است، حاشیه {margin_12m}.",
+"why": "English/Latin words left: profit margin"
+},
+{
+"en": "Set revenue and cost growth in Start",
+"kind": "label",
+"max": null,
+"mt": "افزایش درآمد و هزینه را در Start تنظیم کنید",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: wanted occupancy and margin, cash floor, owner draw, tax set-aside share and the longest payback you accept for a new unit.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: اشغال و حاشیه مورد نظر، کف نقدی، قرعه‌کشی مالک، سهم واگذاری مالیات و طولانی‌ترین بازپرداختی که برای یک واحد جدید می‌پذیرید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Log bookings on Bookings and each payout on Payouts. Late, short and missing payouts turn red with the amount still missing.",
+"kind": "sentence",
+"max": null,
+"mt": "ثبت رزرو در Bookings و هر پرداخت در Payouts. پرداخت های دیرهنگام، کوتاه و از دست رفته قرمز می شوند و مبلغ هنوز وجود ندارد.",
+"why": "English/Latin words left: Bookings Payouts."
+}
+]

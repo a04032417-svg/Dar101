@@ -1,0 +1,93 @@
+[
+{
+"en": "Local tax collected by host or platform per month",
+"kind": "title",
+"max": 60,
+"mt": "مقامی ٹیکس میزبان یا پلیٹ فارم کے ذریعے ماہانہ جمع کیا جاتا ہے۔",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "13-week cash forecast with floor warning",
+"kind": "label",
+"max": 50,
+"mt": "فلور وارننگ کے ساتھ 13 ہفتے کی نقد رقم کی پیشن گوئی",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Scenario adds profit",
+"kind": "list",
+"max": 30,
+"mt": "منظر نامہ منافع میں اضافہ کرتا ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Collected, not yet remitted",
+"kind": "list",
+"max": 30,
+"mt": "جمع کیا گیا، ابھی تک نہیں بھیجا۔",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Rate rise adds profit",
+"kind": "list",
+"max": 30,
+"mt": "شرح میں اضافہ منافع میں اضافہ کرتا ہے۔",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Rate rise loses profit",
+"kind": "list",
+"max": 30,
+"mt": "شرح میں اضافہ منافع کھو دیتا ہے۔",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "No draw this month",
+"kind": "list",
+"max": 30,
+"mt": "اس مہینے کوئی قرعہ اندازی نہیں۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Income tax set-aside by month with the balance held",
+"kind": "title",
+"max": 60,
+"mt": "انکم ٹیکس کو ماہ کے لحاظ سے رکھا گیا بیلنس کے ساتھ الگ کر دیا گیا ہے۔",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Yearly platform fee saved when more guests book direct",
+"kind": "title",
+"max": 60,
+"mt": "سالانہ پلیٹ فارم فیس بچ جاتی ہے جب زیادہ مہمان براہ راست بک کرتے ہیں۔",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Hello, {name} made {profit_12m} in 12 months on revenue of {revenue_12m}. Its break-even occupancy is {be_occ}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {name} نے 12 ماہ میں {revenue_12m} کی آمدنی پر {profit_12m} کمایا۔ اس کا وقفہ وقفہ ہے {be_occ}۔",
+"why": "English/Latin words left: revenue profit"
+},
+{
+"en": "Hello, payout {payout_id} for booking {booking_id} in {unit} was expected on {expected_date}. {gap} is still missing.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {unit} میں بکنگ {payout_id} کی ادائیگی {expected_date} کو متوقع تھی۔ {gap} ابھی تک غائب ہے۔",
+"why": "placeholders must be exactly: {payout_id} {booking_id} {unit} {expected_date} {gap}"
+},
+{
+"en": "Hello, {name} earned a profit of {profit_12m} over 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {name} نے 12 مہینوں میں {margin_12m} کا مارجن {profit_12m} کا منافع کمایا۔",
+"why": "English/Latin words left: margin profit"
+},
+{
+"en": "Hello {owner}, {name} made a profit of {profit_12m} over the last 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {owner}، {name} نے پچھلے 12 مہینوں میں {profit_12m} کا منافع کمایا، ایک مارجن {margin_12m}۔",
+"why": "English/Latin words left: profit margin"
+}
+]

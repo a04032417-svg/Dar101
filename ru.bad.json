@@ -1,0 +1,191 @@
+[
+{
+"en": "Co-host fees per month",
+"kind": "title",
+"max": 60,
+"mt": "Плата за совместное размещение в месяц",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Co-host messages per month",
+"kind": "title",
+"max": 60,
+"mt": "Совместные сообщения в месяц",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "every unit and month shows revenue, platform fees, cleaning, supplies, repairs, rent and bills, with profit, margin and profit per night",
+"kind": "sentence",
+"max": 160,
+"mt": "для каждой единицы и месяца показаны доходы, плата за платформу, уборка, расходные материалы, ремонт, аренда и счета с указанием прибыли, маржи и прибыли за ночь.",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "13-week cash forecast with floor warning",
+"kind": "label",
+"max": 50,
+"mt": "Прогноз денежных средств на 13 недель с предупреждением о минимальном уровне",
+"why": "too long: 76 characters, the limit is 50"
+},
+{
+"en": "set-up cost, rent, rate and occupancy give the yearly profit, margin and months to pay back, checked against your longest payback",
+"kind": "sentence",
+"max": 160,
+"mt": "Стоимость установки, арендная плата, ставка и заполняемость дают годовую прибыль, маржу и месяцы окупаемости, сверяемые с вашим самым длительным сроком окупаемости.",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Extra draw after peak season",
+"kind": "list",
+"max": 30,
+"mt": "Дополнительный розыгрыш после пикового сезона",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Rate rise and one new unit",
+"kind": "list",
+"max": 30,
+"mt": "Повышение тарифов и одна новая единица",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Cannot break even",
+"kind": "list",
+"max": 30,
+"mt": "Не может выйти на уровень безубыточности",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Draw within safe limit",
+"kind": "list",
+"max": 30,
+"mt": "Ничья в пределах безопасного предела",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Remit soon",
+"kind": "list",
+"max": 30,
+"mt": "Отправьте перевод в ближайшее время",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Rate rise adds profit",
+"kind": "list",
+"max": 30,
+"mt": "Повышение ставок добавляет прибыли",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Rate rise loses profit",
+"kind": "list",
+"max": 30,
+"mt": "Повышение ставок приводит к потере прибыли",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "No draw this month",
+"kind": "list",
+"max": 30,
+"mt": "В этом месяце розыгрыша не будет",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Gap needs cash",
+"kind": "list",
+"max": 30,
+"mt": "Gap нужны деньги",
+"why": "English/Latin words left: Gap"
+},
+{
+"en": "Bookings with channel, earnings and platform fee",
+"kind": "title",
+"max": 60,
+"mt": "Бронирования с указанием канала, доходов и платы за платформу",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Cash forecast for the next 13 weeks with the floor warning",
+"kind": "title",
+"max": 60,
+"mt": "Прогноз денежных средств на следующие 13 недель с предупреждением о минимальном уровне",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Maintenance costs by repair with parts and labour",
+"kind": "title",
+"max": 60,
+"mt": "Затраты на техническое обслуживание за счет ремонта с запчастями и рабочей силой",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Income tax set-aside by month with the balance held",
+"kind": "title",
+"max": 60,
+"mt": "Отчисление подоходного налога по месяцам с сохранением остатка",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Month-end close with profit, cash and open items",
+"kind": "title",
+"max": 60,
+"mt": "Закрытие месяца с прибылью, денежными средствами и открытыми позициями",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Cash needed to bridge the wait for payouts",
+"kind": "title",
+"max": 60,
+"mt": "Денежные средства, необходимые для преодоления ожидания выплат",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Yearly platform fee saved when more guests book direct",
+"kind": "title",
+"max": 60,
+"mt": "Ежегодная плата за платформу экономится, когда больше гостей бронируют напрямую",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Hello, {name} made {profit_12m} in 12 months on revenue of {revenue_12m}. Its break-even occupancy is {be_occ}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {name} заработал {profit_12m} за 12 месяцев при доходе {revenue_12m}. Его безубыточная заселенность равна {be_occ}.",
+"why": "English/Latin words left: profit revenue"
+},
+{
+"en": "Hello, {name} earned a profit of {profit_12m} over 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {name} заработал прибыль в размере {profit_12m} за 12 месяцев, маржа — {margin_12m}.",
+"why": "English/Latin words left: profit margin"
+},
+{
+"en": "Hello, platform fees for {name} were {fees_12m} over 12 months, {fees_change} against the year before.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, плата за платформу для {name} составила {fees_12m} за 12 месяцев, по сравнению с {fees_change} годом ранее.",
+"why": "English/Latin words left: fees"
+},
+{
+"en": "Hello {owner}, {name} made a profit of {profit_12m} over the last 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {owner}! За последние 12 месяцев {name} получил прибыль в размере {profit_12 млн}, маржа — {margin_12 млн}.",
+"why": "English/Latin words left: profit margin"
+},
+{
+"en": "Break-even occupancy against occupancy per month",
+"kind": "title",
+"max": 60,
+"mt": "Безубыточная заполняемость относительно заполняемости в месяц",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Log bookings on Bookings and each payout on Payouts. Late, short and missing payouts turn red with the amount still missing.",
+"kind": "sentence",
+"max": null,
+"mt": "Регистрируйте бронирования в Bookings и каждую выплату в Payouts. Просроченные, короткие и пропущенные выплаты становятся красными, а сумма все еще отсутствует.",
+"why": "English/Latin words left: Bookings Payouts."
+}
+]

@@ -1,0 +1,121 @@
+[
+{
+"en": "Collected, not yet remitted",
+"kind": "list",
+"max": 30,
+"mt": "Collected, not yet remitted",
+"why": "English/Latin words left: Collected not yet remitted"
+},
+{
+"en": "Hello, {name} made {profit_12m} in 12 months on revenue of {revenue_12m}. Its break-even occupancy is {be_occ}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{name} 在 12 个月内赚取了 {profit_12m}，收入为 {revenue_12m}。其盈亏平衡入住率为{be_occ}。",
+"why": "English/Latin words left: profit revenue"
+},
+{
+"en": "Hello, {name} earned a profit of {profit_12m} over 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{name} 在 12 个月内赚取了 {profit_12m} 的利润，利润为 {margin_12m}。",
+"why": "English/Latin words left: profit margin"
+},
+{
+"en": "Hello, platform fees for {name} were {fees_12m} over 12 months, {fees_change} against the year before.",
+"kind": "message",
+"max": null,
+"mt": "您好，12 个月内 {name} 的平台费用为 {fees_12m}，与前一年相比为 {fees_change}。",
+"why": "English/Latin words left: fees"
+},
+{
+"en": "Hello, the cash forecast is updated. Week of {week}: closing balance {closing}, net for the week {net}.",
+"kind": "message",
+"max": null,
+"mt": "您好，现金预测已更新。 Week of {week}: closing balance {closing}, net for the week {net}.",
+"why": "English/Latin words left: Week of closing balance"
+},
+{
+"en": "Hello, utilities for {name} are {utilities} a month and internet {internet}. Please check the bills.",
+"kind": "message",
+"max": null,
+"mt": "Hello, utilities for {name} are {utilities} a month and internet {internet}. Please check the bills.",
+"why": "English/Latin words left: Hello utilities for are"
+},
+{
+"en": "Hello, the profit and loss for {month} is attached: revenue {pl_revenue}, costs {pl_costs}, profit {pl_profit}.",
+"kind": "message",
+"max": null,
+"mt": "Hello, the profit and loss for {month} is attached: revenue {pl_revenue}, costs {pl_costs}, profit {pl_profit}.",
+"why": "English/Latin words left: Hello the profit and"
+},
+{
+"en": "Hello, the cash report for {month}: opening {opening}, cash in {cash_in}, cash out {total_out}, closing {closing}.",
+"kind": "message",
+"max": null,
+"mt": "Hello, the cash report for {month}: opening {opening}, cash in {cash_in}, cash out {total_out}, closing {closing}.",
+"why": "English/Latin words left: Hello the cash report"
+},
+{
+"en": "Hello, the year-end pack is ready. Profit for tax in {month}: {profit}. Balance held: {balance}.",
+"kind": "message",
+"max": null,
+"mt": "大家好，年终礼包已经准备好了。 {month} 的税利润：{profit}。 Balance held: {balance}.",
+"why": "English/Latin words left: Balance held"
+},
+{
+"en": "Hello, owner statement {statement_id} for {owner}, {month}: revenue {revenue}, management fee {mgmt_fee}, net to owner {net_to_owner}.",
+"kind": "message",
+"max": null,
+"mt": "Hello, owner statement {statement_id} for {owner}, {month}: revenue {revenue}, management fee {mgmt_fee}, net to owner {net_to_owner}.",
+"why": "English/Latin words left: Hello owner statement for"
+},
+{
+"en": "Co-host: the fee budget",
+"kind": "label",
+"max": null,
+"mt": "Co-host: the fee budget",
+"why": "English/Latin words left: Co host the fee"
+},
+{
+"en": "Hello, your fee for {month} is {fee_amount} on net revenue of {net_revenue}. Next quarter keeps the same share, {fee_pct}.",
+"kind": "message",
+"max": null,
+"mt": "Hello, your fee for {month} is {fee_amount} on net revenue of {net_revenue}.下个季度保持相同的份额，{fee_pct}。",
+"why": "English/Latin words left: Hello your fee for"
+},
+{
+"en": "Hello {handyperson}, the repair budget for next month follows {unit} on {done_on}: {cost} for {kind}.",
+"kind": "message",
+"max": null,
+"mt": "Hello {handyperson}, the repair budget for next month follows {unit} on {done_on}: {cost} for {kind}.",
+"why": "English/Latin words left: Hello the repair budget"
+},
+{
+"en": "Hello {owner}, {name} made a profit of {profit_12m} over the last 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "您好 {owner}，{name} 在过去 12 个月内赚取了 {profit_12m} 的利润，利润为 {margin_12m}。",
+"why": "English/Latin words left: profit margin"
+},
+{
+"en": "Hello, plan for {unit}: it earns {rate} a night and breaks even at {be_rate}. Let us look at the rate and the costs together.",
+"kind": "message",
+"max": null,
+"mt": "Hello, plan for {unit}: it earns {rate} a night and breaks even at {be_rate}.让我们一起看看费率和成本。",
+"why": "English/Latin words left: Hello plan for it"
+},
+{
+"en": "Hello, {unit} breaks even at an occupancy of {be_occ}. Today it runs at {occ_now}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{unit} 在 {be_occ} 的入住率下收支平衡。 Today it runs at {occ_now}.",
+"why": "English/Latin words left: Today it runs at"
+},
+{
+"en": "Log bookings on Bookings and each payout on Payouts. Late, short and missing payouts turn red with the amount still missing.",
+"kind": "sentence",
+"max": null,
+"mt": "在 Bookings 上记录预订，在 Payouts 上记录每次付款。逾期、短期和缺失的支出会变成红色，且金额仍缺失。",
+"why": "English/Latin words left: Bookings Payouts"
+}
+]

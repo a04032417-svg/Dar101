@@ -1,0 +1,51 @@
+[
+{
+"en": "Local tax collected by host or platform per month",
+"kind": "title",
+"max": 60,
+"mt": "الضريبة المحلية التي يتم جمعها بواسطة المضيف أو النظام الأساسي شهريًا",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Cash by month: money in, money out and the closing balance",
+"kind": "title",
+"max": 60,
+"mt": "النقد حسب الشهر: الأموال الواردة والأموال الخارجة والرصيد الختامي",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Yearly platform fee saved when more guests book direct",
+"kind": "title",
+"max": 60,
+"mt": "يتم توفير رسوم المنصة السنوية عندما يقوم المزيد من الضيوف بالحجز مباشرة",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Hello, {name} made {profit_12m} in 12 months on revenue of {revenue_12m}. Its break-even occupancy is {be_occ}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، حقق {name} {profit_12m} في 12 شهرًا بإيرادات قدرها {revenue_12m}. إشغالها التعادلي هو {be_occ}.",
+"why": "English/Latin words left: profit revenue"
+},
+{
+"en": "Hello, {name} earned a profit of {profit_12m} over 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، حصل {name} على ربح قدره {profit_12m} على مدار 12 شهرًا، بهامش {margin_12m}.",
+"why": "English/Latin words left: profit margin"
+},
+{
+"en": "Hello, platform fees for {name} were {fees_12m} over 12 months, {fees_change} against the year before.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، بلغت رسوم النظام الأساسي لـ {name} {fees_12m} على مدى 12 شهرًا، {fees_change} مقابل العام السابق.",
+"why": "English/Latin words left: fees"
+},
+{
+"en": "Hello {owner}, {name} made a profit of {profit_12m} over the last 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {owner}، حقق {name} ربحًا قدره {profit_12m} خلال آخر 12 شهرًا، بهامش {margin_12m}.",
+"why": "English/Latin words left: profit margin"
+}
+]

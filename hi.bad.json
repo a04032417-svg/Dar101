@@ -1,0 +1,107 @@
+[
+{
+"en": "Local tax collected by host or platform per month",
+"kind": "title",
+"max": 60,
+"mt": "प्रति माह होस्ट या प्लेटफ़ॉर्म द्वारा स्थानीय कर एकत्र किया जाता है",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "13-week cash forecast with floor warning",
+"kind": "label",
+"max": 50,
+"mt": "न्यूनतम चेतावनी के साथ 13-सप्ताह का नकद पूर्वानुमान",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Draw for a personal cost",
+"kind": "list",
+"max": 30,
+"mt": "व्यक्तिगत लागत के लिए ड्रा करें",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cut platform fees",
+"kind": "list",
+"max": 30,
+"mt": "प्लेटफ़ॉर्म शुल्क में कटौती करें",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Draw within safe limit",
+"kind": "list",
+"max": 30,
+"mt": "सुरक्षित सीमा के भीतर ड्रा करें",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Collected, not yet remitted",
+"kind": "list",
+"max": 30,
+"mt": "एकत्र किया गया, अभी तक प्रेषित नहीं किया गया",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Pays back too slowly",
+"kind": "list",
+"max": 30,
+"mt": "बहुत धीरे-धीरे वापस भुगतान करता है",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cash forecast for the next 13 weeks with the floor warning",
+"kind": "title",
+"max": 60,
+"mt": "न्यूनतम चेतावनी के साथ अगले 13 सप्ताहों के लिए नकदी का पूर्वानुमान",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Cleaner pay by month with cost per turnover",
+"kind": "title",
+"max": 60,
+"mt": "प्रति टर्नओवर लागत के साथ क्लीनर को महीने के हिसाब से भुगतान करें",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Cash needed to bridge the wait for payouts",
+"kind": "title",
+"max": 60,
+"mt": "भुगतान के लिए प्रतीक्षा को पूरा करने के लिए नकदी की आवश्यकता है",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Yearly platform fee saved when more guests book direct",
+"kind": "title",
+"max": 60,
+"mt": "जब अधिक मेहमान सीधे बुक करते हैं तो वार्षिक प्लेटफ़ॉर्म शुल्क बच जाता है",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Hello, {name} made {profit_12m} in 12 months on revenue of {revenue_12m}. Its break-even occupancy is {be_occ}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {name} ने 12 महीनों में {राजस्व_12m} के राजस्व पर {profit_12m} कमाया। इसका ब्रेक-ईवन अधिभोग {be_occ} है।",
+"why": "English/Latin words left: profit"
+},
+{
+"en": "Hello, {name} earned a profit of {profit_12m} over 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {name} ने 12 महीनों में {profit_12m} का लाभ कमाया, मार्जिन {margin_12m} का।",
+"why": "English/Latin words left: profit margin"
+},
+{
+"en": "Hello, platform fees for {name} were {fees_12m} over 12 months, {fees_change} against the year before.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, 12 महीनों में {name} के लिए प्लेटफ़ॉर्म शुल्क {fees_12m} था, जो पिछले वर्ष की तुलना में {fees_change} था।",
+"why": "English/Latin words left: fees"
+},
+{
+"en": "Hello {owner}, {name} made a profit of {profit_12m} over the last 12 months, a margin of {margin_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {owner}, {name} ने पिछले 12 महीनों में {profit_12m} का मुनाफ़ा कमाया, मार्जिन {margin_12m} का।",
+"why": "English/Latin words left: profit margin"
+}
+]
