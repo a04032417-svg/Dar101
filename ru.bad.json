@@ -1,0 +1,184 @@
+[
+{
+"en": "Use Short-pay Claims, Clawbacks and Rate History to catch short payments, commissions taken back and supplier rate changes.",
+"kind": "sentence",
+"max": null,
+"mt": "Используйте Претензии по поводу недоплаты, Clawbacks и История оценок для отслеживания невыполненных платежей, возврата комиссий и изменений ставок поставщиков.",
+"why": "English/Latin words left: Clawbacks"
+},
+{
+"en": "Repeat-client scoring with next trip suggestion",
+"kind": "label",
+"max": 50,
+"mt": "Оценка повторных клиентов с предложением следующей поездки",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "every traveller expiry against the trip end date and the validity you want, with the risk flagged before final payment",
+"kind": "sentence",
+"max": 160,
+"mt": "Срок действия каждого путешественника истекает в соответствии с датой окончания поездки и желаемым сроком действия, при этом риск помечается до окончательного платежа",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Move to the earned tier",
+"kind": "list",
+"max": 30,
+"mt": "Перейти на заработанный уровень",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Expires before travel",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия истекает до поездки",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Expires within margin",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия истекает в пределах маржи",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Win-back offer pays back",
+"kind": "list",
+"max": 30,
+"mt": "Компенсационное предложение окупается",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Win-back offer costs too much",
+"kind": "list",
+"max": 30,
+"mt": "Предложение по возврату денег стоит слишком дорого",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Expires within the margin",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия истекает в пределах маржи",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Send the review request now",
+"kind": "list",
+"max": 30,
+"mt": "Отправьте запрос на проверку сейчас",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "First quote fits the budget",
+"kind": "list",
+"max": 30,
+"mt": "Первое предложение соответствует бюджету",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Send a thank-you call",
+"kind": "list",
+"max": 30,
+"mt": "Отправить звонок с благодарностью",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Offer a new trip idea",
+"kind": "list",
+"max": 30,
+"mt": "Предложите новую идею путешествия",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Clients with trips, sales, last trip and loyalty tier",
+"kind": "title",
+"max": 60,
+"mt": "Клиенты с поездками, продажами, последней поездкой и уровнем лояльности",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Client profiles with travel style and nights travelled",
+"kind": "title",
+"max": 60,
+"mt": "Профили клиентов с указанием стиля путешествия и количества проведенных ночей",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Companions with passport expiry and dietary needs",
+"kind": "title",
+"max": 60,
+"mt": "Спутники с истекающим сроком действия паспорта и диетическими потребностями",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Win-back list with months since the last trip",
+"kind": "title",
+"max": 60,
+"mt": "Список возвратов с указанием месяцев с момента последней поездки",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Birthday and anniversary offers with sent date and result",
+"kind": "title",
+"max": 60,
+"mt": "Предложения на день рождения и годовщину с датой отправки и результатом",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Client segments with clients, sales and average value",
+"kind": "title",
+"max": 60,
+"mt": "Клиентские сегменты с клиентами, продажами и средней стоимостью",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Sales booked, new clients, repeat bookings and reviews",
+"kind": "title",
+"max": 60,
+"mt": "Забронированные продажи, новые клиенты, повторные заказы и отзывы",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Travel preference with value, note and date",
+"kind": "title",
+"max": 60,
+"mt": "Предпочтения в поездке с указанием стоимости, примечания и даты",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Companion with passport expiry and dietary need",
+"kind": "title",
+"max": 60,
+"mt": "Спутник с истекающим сроком действия паспорта и диетическими потребностями",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Next trip ideas from interest, last trip and season",
+"kind": "title",
+"max": 60,
+"mt": "Идеи следующей поездки из интереса, последней поездки и сезона",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Win-back offer: value, response rate and expected return",
+"kind": "title",
+"max": 60,
+"mt": "Компенсационное предложение: ценность, скорость отклика и ожидаемая прибыль.",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Cost of winning a new client against keeping one",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость привлечения нового клиента по сравнению с удержанием одного",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Sales next year from the repeat rate and the referral rate",
+"kind": "title",
+"max": 60,
+"mt": "Продажи в следующем году от ставки повторения и ставки рефералов",
+"why": "too long: 64 characters, the limit is 60"
+}
+]

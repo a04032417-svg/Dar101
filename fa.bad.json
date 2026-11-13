@@ -1,0 +1,51 @@
+[
+{
+"en": "Open Start and type your company name and your limits in the yellow cells: host agency rate, advisor rate, chase days, escalation days, grace days, smallest claim and the share you want to keep.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: نرخ آژانس مسافرتی میزبان، نرخ مشاوره، روزهای تعقیب، روزهای تشدید، روزهای تخفیف، کوچک‌ترین ادعا و سهمی که می‌خواهید حفظ کنید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Use Short-pay Claims, Clawbacks and Rate History to catch short payments, commissions taken back and supplier rate changes.",
+"kind": "sentence",
+"max": null,
+"mt": "از مطالبات کوتاه مدت، Clawbacks و تاریخچه را رتبه بندی کنید برای دریافت کوتاهی پرداخت‌ها، کمیسیون‌های پس گرفته شده و تغییرات نرخ تامین‌کننده استفاده کنید.",
+"why": "English/Latin words left: Clawbacks"
+},
+{
+"en": "Win-back offer costs too much",
+"kind": "list",
+"max": 30,
+"mt": "پیشنهاد برگشتی هزینه زیادی دارد",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Send the review request now",
+"kind": "list",
+"max": 30,
+"mt": "اکنون درخواست بررسی را ارسال کنید",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "First quote fits the budget",
+"kind": "list",
+"max": 30,
+"mt": "نقل قول اول متناسب با بودجه است",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Offer a new trip idea",
+"kind": "list",
+"max": 30,
+"mt": "یک ایده جدید برای سفر ارائه دهید",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Hello {client}, we found a deal that matches your wish: {wish}. Shall I send you the price?",
+"kind": "message",
+"max": null,
+"mt": "سلام {client}، ما معامله ای پیدا کردیم که با خواسته شما مطابقت دارد: {wish}. قیمت رو برات بفرستم؟",
+"why": "never use the word for \"compatible\""
+}
+]
