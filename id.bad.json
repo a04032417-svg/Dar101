@@ -1,0 +1,240 @@
+[
+{
+"en": "See which units earn, which lag and what to do about it",
+"kind": "sentence",
+"max": 80,
+"mt": "Lihat unit mana yang menghasilkan, mana yang tertinggal, dan apa yang harus dilakukan untuk mengatasinya",
+"why": "too long: 104 characters, the limit is 80"
+},
+{
+"en": "Occupancy, ADR and RevPAR by unit and month",
+"kind": "label",
+"max": 50,
+"mt": "Tingkat hunian, tarif harian rata-rata, dan pendapatan per malam yang tersedia menurut unit dan bulan",
+"why": "too long: 101 characters, the limit is 50"
+},
+{
+"en": "nights on the books now and a month ago against the nights wanted, with the gap and the price move to make for each unit and coming month",
+"kind": "sentence",
+"max": 160,
+"mt": "malam yang tercatat sekarang dan sebulan yang lalu dibandingkan malam yang diinginkan, dengan selisih dan pergerakan harga yang harus dilakukan untuk setiap unit dan bulan yang akan datang",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Occupancy needed for a revenue goal",
+"kind": "label",
+"max": 50,
+"mt": "Tingkat hunian diperlukan untuk mencapai sasaran pendapatan",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "a price cut shows the extra occupancy needed to earn the same profit and whether the response you expect pays for it",
+"kind": "sentence",
+"max": 160,
+"mt": "potongan harga menunjukkan tingkat hunian tambahan yang dibutuhkan untuk mendapatkan keuntungan yang sama dan apakah respons yang Anda harapkan akan membuahkan hasil",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "every blocked period shows the revenue it cost at the ADR and occupancy of that unit, so owner stays and repairs are priced",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap periode yang diblokir menunjukkan pendapatan yang dikeluarkan berdasarkan tarif harian rata-rata dan tingkat hunian unit tersebut, sehingga biaya menginap dan perbaikan pemilik diberi harga",
+"why": "too long: 196 characters, the limit is 160"
+},
+{
+"en": "occupancy, rate against the market, rating, lead time and weekday gaps point to the likely cause and the fix to try first",
+"kind": "sentence",
+"max": 160,
+"mt": "tingkat hunian, harga dibandingkan pasar, peringkat, waktu tunggu, dan kesenjangan pada hari kerja menunjukkan kemungkinan penyebab dan solusi yang harus dicoba terlebih dahulu",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "your occupancy, ADR and RevPAR against comparable listings by city and month, with the index and a fair share check",
+"kind": "sentence",
+"max": 160,
+"mt": "tingkat hunian Anda, tarif harian rata-rata, dan pendapatan per malam yang tersedia dibandingkan tempat yang sebanding berdasarkan kota dan bulan, dengan indeks dan pemeriksaan pembagian yang adil",
+"why": "too long: 196 characters, the limit is 160"
+},
+{
+"en": "nights and revenue against a year earlier split into more nights and a better rate, so you know what drove the change",
+"kind": "sentence",
+"max": 160,
+"mt": "malam dan pendapatan dibandingkan tahun sebelumnya dibagi menjadi lebih banyak malam dan tarif yang lebih baik, sehingga Anda tahu apa yang mendorong perubahan tersebut",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Tingkat hunian, tarif harian rata-rata, dan pendapatan per malam yang tersedia",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Too few weekday nights",
+"kind": "list",
+"max": 30,
+"mt": "Terlalu sedikit malam hari kerja",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Fix the cleaning and the complaints",
+"kind": "list",
+"max": 30,
+"mt": "Perbaiki pembersihan dan keluhannya",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Open dates further ahead",
+"kind": "list",
+"max": 30,
+"mt": "Tanggal terbuka lebih jauh ke depan",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Add midweek offers",
+"kind": "list",
+"max": 30,
+"mt": "Tambahkan penawaran tengah minggu",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Goal is a stretch",
+"kind": "list",
+"max": 30,
+"mt": "Tujuan adalah sebuah peregangan",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Growth comes from rate",
+"kind": "list",
+"max": 30,
+"mt": "Pertumbuhan berasal dari tingkat",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Growth comes from nights",
+"kind": "list",
+"max": 30,
+"mt": "Pertumbuhan datang dari malam hari",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Bookings with ADR, lead time and rate against base",
+"kind": "title",
+"max": 60,
+"mt": "Pemesanan dengan tarif harian rata-rata, waktu tunggu, dan tarif terhadap basis",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Targets by unit with the result against them",
+"kind": "title",
+"max": 60,
+"mt": "Target berdasarkan unit dengan hasil yang berlawanan dengan mereka",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "City months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Bulan kota dengan tingkat hunian, tarif harian rata-rata, dan pendapatan per malam yang tersedia",
+"why": "too long: 96 characters, the limit is 60"
+},
+{
+"en": "Unit type months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Jenis unit bulan dengan tingkat hunian, tarif harian rata-rata, dan pendapatan per malam yang tersedia",
+"why": "too long: 102 characters, the limit is 60"
+},
+{
+"en": "Lead time curve: bookings by how far ahead they were made",
+"kind": "title",
+"max": 60,
+"mt": "Kurva waktu tunggu: pemesanan berdasarkan seberapa jauh pemesanan dilakukan",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Room revenue, blocked night loss and orphan night recovery",
+"kind": "title",
+"max": 60,
+"mt": "Pendapatan kamar, kehilangan malam yang diblokir, dan pemulihan malam yatim piatu",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Revenue lost on blocked nights",
+"kind": "label",
+"max": 30,
+"mt": "Pendapatan hilang pada malam yang diblokir",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Orphan night revenue recovered",
+"kind": "label",
+"max": 30,
+"mt": "Pendapatan malam yatim piatu pulih",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Finding and action on a unit, with owner",
+"kind": "title",
+"max": 60,
+"mt": "Menemukan dan mengambil tindakan pada suatu unit, dengan pemiliknya",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Occupancy, ADR and RevPAR of a unit or a month",
+"kind": "title",
+"max": 60,
+"mt": "Tingkat hunian, tarif harian rata-rata, dan pendapatan per malam yang tersedia dalam satu unit atau sebulan",
+"why": "too long: 107 characters, the limit is 60"
+},
+{
+"en": "Unit health score from occupancy, ADR, rating and margin",
+"kind": "title",
+"max": 60,
+"mt": "Skor kesehatan unit dari tingkat hunian, rata-rata tarif harian, rating dan margin",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Pace of a coming month and the price move to make",
+"kind": "title",
+"max": 60,
+"mt": "Kecepatan bulan yang akan datang dan pergerakan harga yang akan terjadi",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Best and worst months and an occupancy target for each month",
+"kind": "title",
+"max": 60,
+"mt": "Bulan terbaik dan terburuk serta target hunian setiap bulannya",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Two units side by side: occupancy, ADR, RevPAR and profit",
+"kind": "title",
+"max": 60,
+"mt": "Dua unit berdampingan: tingkat hunian, tarif rata-rata harian, pendapatan per malam yang tersedia, dan keuntungan",
+"why": "too long: 113 characters, the limit is 60"
+},
+{
+"en": "Likely cause of a weak unit and the fix to try first",
+"kind": "title",
+"max": 60,
+"mt": "Kemungkinan penyebab unit lemah dan perbaikannya harus dicoba terlebih dahulu",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Change in nights, ADR and revenue against last year",
+"kind": "title",
+"max": 60,
+"mt": "Perubahan malam, tarif harian rata-rata, dan pendapatan dibandingkan tahun lalu",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "RevPAR for an occupancy and an ADR together",
+"kind": "title",
+"max": 60,
+"mt": "pendapatan per malam yang tersedia untuk suatu hunian dan tarif harian rata-rata secara bersamaan",
+"why": "too long: 97 characters, the limit is 60"
+}
+]

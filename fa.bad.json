@@ -1,0 +1,163 @@
+[
+{
+"en": "Match each payout with its booking",
+"kind": "label",
+"max": null,
+"mt": "هر پرداخت را با رزرو آن مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match every payout with its booking",
+"kind": "label",
+"max": null,
+"mt": "هر پرداختی را با رزرو آن مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the grace days before a payout is chased, the deposit share of a direct booking, the weekly and monthly discounts and the wanted direct share.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: روزهای مهلت قبل از تعقیب پرداخت، سهم سپرده رزرو مستقیم، تخفیف‌های هفتگی و ماهانه و سهم مستقیم مورد نظر.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Enter every stay on Bookings with its channel, dates, rate, cleaning fee, local tax and status. The platform fee, the net payout, the payout date and the net per night calculate themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "هر اقامت در Bookings را با کانال، تاریخ، نرخ، هزینه تمیز کردن، مالیات محلی و وضعیت آن وارد کنید. کارمزد پلت فرم، پرداخت خالص، تاریخ پرداخت و خالص هر شب خود محاسبه می شود.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Enter each payout on Payouts with the expected date and amount and what arrived. Days late, short amount and the chase flag show which payouts need a message today.",
+"kind": "sentence",
+"max": null,
+"mt": "هر پرداختی را در Payouts با تاریخ و مبلغ مورد انتظار و میزان دریافتی وارد کنید. چند روز تأخیر، مبلغ کوتاه و پرچم تعقیب و گریز نشان می‌دهد کدام پرداخت‌ها امروز به پیام نیاز دارند.",
+"why": "English/Latin words left: Payouts"
+},
+{
+"en": "Occupancy, ADR and RevPAR by unit and month",
+"kind": "label",
+"max": 50,
+"mt": "اشغال، میانگین نرخ روزانه و درآمد هر شب در دسترس بر حسب واحد و ماه",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "Lower the rate on weekdays",
+"kind": "list",
+"max": 30,
+"mt": "نرخ را در روزهای هفته کاهش دهید",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Add midweek offers",
+"kind": "list",
+"max": 30,
+"mt": "پیشنهادات میان هفته را اضافه کنید",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Handyperson phone",
+"kind": "label",
+"max": null,
+"mt": "گوشی Handyperson",
+"why": "English/Latin words left: Handyperson"
+},
+{
+"en": "Unit type months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "ماه های نوع واحد با اشغال، میانگین نرخ روزانه و درآمد هر شب موجود",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Revenue lost on blocked nights",
+"kind": "label",
+"max": 30,
+"mt": "درآمد در شب های مسدود شده از دست می رود",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Occupancy, ADR and RevPAR of a unit or a month",
+"kind": "title",
+"max": 60,
+"mt": "اشغال، میانگین نرخ روزانه و درآمد هر شب در دسترس یک واحد یا یک ماه",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Two units side by side: occupancy, ADR, RevPAR and profit",
+"kind": "title",
+"max": 60,
+"mt": "دو واحد در کنار هم: اشغال، میانگین نرخ روزانه، درآمد هر شب موجود و سود",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Likely cause of a weak unit and the fix to try first",
+"kind": "title",
+"max": 60,
+"mt": "دلیل احتمالی یک واحد ضعیف است و ابتدا باید اصلاح را امتحان کنید",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "RevPAR for an occupancy and an ADR together",
+"kind": "title",
+"max": 60,
+"mt": "درآمد هر شب در دسترس برای یک اشغال و میانگین نرخ روزانه با هم",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello, {unit} beat its target: occupancy of {occ_12m} against {target_occ} and RevPAR of {revpar_12m} against {target_revpar}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، {unit} هدف خود را شکست داد: اشغال {occ_12m} در برابر {target_occ} و درآمد هر شب موجود {revpar_12m} در برابر {target_revpar}.",
+"why": "English/Latin words left: occ revpar"
+},
+{
+"en": "Hello {owner}, the average rate of {name} over the last 3 months is {adr_q}, against {adr_12m} over 12 months.",
+"kind": "message",
+"max": null,
+"mt": "سلام {owner}، میانگین نرخ {name} در 3 ماه گذشته {adr_q} است، در مقابل {adr_12m} در طول 12 ماه.",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the yearly review of {unit} is ready: room revenue {revenue_12m} against a goal of {goal_year}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، بررسی سالانه {unit} آماده است: درآمد اتاق {revenue_12m} در مقابل هدف {goal_year}.",
+"why": "English/Latin words left: revenue"
+},
+{
+"en": "Hello {owner}, we suggest a rate change for {name}: the ADR is {adr_12m} against a target of {target_adr}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {owner}، ما تغییر نرخ را برای {name} پیشنهاد می‌کنیم: میانگین نرخ روزانه {adr_12m} در برابر هدف {target_adr} است.",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the quarter review of {name} is ready: room revenue {revenue_q}, ADR {adr_q}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، بررسی سه ماهه {name} آماده است: درآمد اتاق {revenue_q}، میانگین نرخ روزانه {adr_q}، اشغال {occ_12m}.",
+"why": "English/Latin words left: occ"
+},
+{
+"en": "Handyperson: fix before the high season",
+"kind": "label",
+"max": null,
+"mt": "Handyperson: قبل از فصل پربازدید اصلاح کنید",
+"why": "English/Latin words left: Handyperson"
+},
+{
+"en": "Hello, please check {name} before the high season. Its occupancy over 12 months is {occ_12m}, so every closed day costs revenue.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً قبل از شروع فصل، {name} را بررسی کنید. اشغال آن بیش از 12 ماه {occ_12m} است، بنابراین هر روز تعطیل هزینه درآمد دارد.",
+"why": "English/Latin words left: occ"
+},
+{
+"en": "Hello, the yearly performance of {name}: room revenue {revenue_12m}, ADR {adr_12m}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، عملکرد سالانه {name}: درآمد اتاق {revenue_12m}، میانگین نرخ روزانه {adr_12m}، اشغال {occ_12m}.",
+"why": "English/Latin words left: revenue adr occ"
+}
+]

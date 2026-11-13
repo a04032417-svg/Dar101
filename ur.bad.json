@@ -1,0 +1,142 @@
+[
+{
+"en": "Hello, please check {unit}: booking {booking_id} for {guest} starts on {check_in}. Make sure no other stay overlaps these dates.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، براہ کرم چیک کریں {unit}: بکنگ {guest} کے لیے {check_in} سے شروع ہوگی۔ یقینی بنائیں کہ کوئی دوسرا قیام ان تاریخوں کو اوورلیپ نہیں کرتا ہے۔",
+"why": "placeholders must be exactly: {unit} {booking_id} {guest} {check_in}"
+},
+{
+"en": "Occupancy, ADR and RevPAR by unit and month",
+"kind": "label",
+"max": 50,
+"mt": "قبضے، یومیہ کی اوسط شرح اور یونٹ اور مہینے کے لحاظ سے فی دستیاب رات کی آمدنی",
+"why": "too long: 76 characters, the limit is 50"
+},
+{
+"en": "Fix the cleaning and the complaints",
+"kind": "list",
+"max": 30,
+"mt": "صفائی ستھرائی اور شکایات کو دور کریں۔",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Bookings with ADR, lead time and rate against base",
+"kind": "title",
+"max": 60,
+"mt": "اوسط یومیہ شرح، لیڈ ٹائم اور بیس کے مقابلے میں شرح کے ساتھ بکنگ",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "City months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "قبضے کے ساتھ شہر کے مہینے، روزانہ کی اوسط شرح اور فی دستیاب رات کی آمدنی",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Unit type months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "قبضے کے ساتھ یونٹ کی قسم مہینے، روزانہ کی اوسط شرح اور فی دستیاب رات کی آمدنی",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Revenue lost on blocked nights",
+"kind": "label",
+"max": 30,
+"mt": "بلاک شدہ راتوں پر ریونیو ضائع ہو گیا۔",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Occupancy, ADR and RevPAR of a unit or a month",
+"kind": "title",
+"max": 60,
+"mt": "قبضے، یومیہ کی اوسط شرح اور ایک یونٹ یا ایک مہینے کی فی دستیاب رات کی آمدنی",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Unit health score from occupancy, ADR, rating and margin",
+"kind": "title",
+"max": 60,
+"mt": "قبضے سے یونٹ ہیلتھ اسکور، یومیہ اوسط شرح، درجہ بندی اور مارجن",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Two units side by side: occupancy, ADR, RevPAR and profit",
+"kind": "title",
+"max": 60,
+"mt": "دو یونٹ ساتھ ساتھ: قبضے، روزانہ کی اوسط شرح، فی دستیاب رات اور منافع",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Change in nights, ADR and revenue against last year",
+"kind": "title",
+"max": 60,
+"mt": "راتوں میں تبدیلی، یومیہ کی اوسط شرح اور پچھلے سال کے مقابلے آمدنی",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "How far ahead to open dates for the lead time of your guests",
+"kind": "title",
+"max": 60,
+"mt": "آپ کے مہمانوں کے لیڈ ٹائم کے لیے تاریخیں کھولنے میں کتنا آگے ہے۔",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "RevPAR for an occupancy and an ADR together",
+"kind": "title",
+"max": 60,
+"mt": "ایک قبضے کے لیے فی دستیاب رات کی آمدنی اور روزانہ کی اوسط شرح ایک ساتھ",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Hello, {unit} beat its target: occupancy of {occ_12m} against {target_occ} and RevPAR of {revpar_12m} against {target_revpar}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {unit} نے اپنا ہدف پورا کر لیا: {target_occ} کے مقابلے میں {occ_12m} کا قبضہ اور {target_revpar} کے مقابلے میں {revpar_12m} کی فی دستیاب رات آمدنی۔",
+"why": "English/Latin words left: occ revpar"
+},
+{
+"en": "Hello {owner}, the average rate of {name} over the last 3 months is {adr_q}, against {adr_12m} over 12 months.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {owner}، پچھلے 3 مہینوں کے دوران {name} کی اوسط شرح 12 مہینوں میں {adr_12m} کے مقابلے میں {adr_q} ہے۔",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the yearly review of {unit} is ready: room revenue {revenue_12m} against a goal of {goal_year}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {unit} کا سالانہ جائزہ تیار ہے: {goal_year} کے ہدف کے مقابلے میں کمرے کی آمدنی {revenue_12m}۔",
+"why": "English/Latin words left: revenue"
+},
+{
+"en": "Hello {owner}, we suggest a rate change for {name}: the ADR is {adr_12m} against a target of {target_adr}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {owner}، ہم {name} کے لیے شرح میں تبدیلی کا مشورہ دیتے ہیں: یومیہ کی اوسط شرح {target_adr} کے ہدف کے مقابلے میں {adr_12m} ہے۔",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the quarter review of {name} is ready: room revenue {revenue_q}, ADR {adr_q}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {name} کا سہ ماہی جائزہ تیار ہے: کمرے کی آمدنی {revenue_q}، یومیہ کی اوسط شرح {adr_q}، قبضے {occ_12m}۔",
+"why": "English/Latin words left: occ"
+},
+{
+"en": "Hello, please check {name} before the high season. Its occupancy over 12 months is {occ_12m}, so every closed day costs revenue.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، براہ کرم ہائی سیزن سے پہلے {name} کو چیک کریں۔ اس کا 12 مہینوں سے زیادہ کا قبضہ {occ_12m} ہے، لہذا ہر بند دن کی آمدنی لاگت آتی ہے۔",
+"why": "English/Latin words left: occ"
+},
+{
+"en": "Hello, the yearly performance of {name}: room revenue {revenue_12m}, ADR {adr_12m}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {name} کی سالانہ کارکردگی: کمرے کی آمدنی {revenue_12m}، اوسط یومیہ شرح {adr_12m}، قبضے {occ_12m}۔",
+"why": "English/Latin words left: revenue adr occ"
+}
+]

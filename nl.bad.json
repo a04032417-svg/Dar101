@@ -1,0 +1,212 @@
+[
+{
+"en": "Occupancy, ADR and RevPAR by unit and month",
+"kind": "label",
+"max": 50,
+"mt": "Bezetting, gemiddeld dagtarief en omzet per beschikbare nacht per eenheid en maand",
+"why": "too long: 82 characters, the limit is 50"
+},
+{
+"en": "every unit and month shows nights sold, the average price of a night sold and revenue per available night against the target for that unit",
+"kind": "sentence",
+"max": 160,
+"mt": "Elke eenheid en maand toont de verkochte nachten, de gemiddelde prijs van een verkochte nacht en de opbrengst per beschikbare nacht ten opzichte van het doel voor die eenheid",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "nights on the books now and a month ago against the nights wanted, with the gap and the price move to make for each unit and coming month",
+"kind": "sentence",
+"max": 160,
+"mt": "nachten in de boeken nu en een maand geleden tegen de gewenste nachten, met het gat en de prijsbeweging die voor elke eenheid en de komende maand moet worden gemaakt",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "every blocked period shows the revenue it cost at the ADR and occupancy of that unit, so owner stays and repairs are priced",
+"kind": "sentence",
+"max": 160,
+"mt": "elke geblokkeerde periode toont de inkomsten die het heeft gekost tegen het gemiddelde dagtarief en de gemiddelde bezetting van die unit, zodat de kosten voor verblijf en reparatie van de eigenaar zijn",
+"why": "too long: 201 characters, the limit is 160"
+},
+{
+"en": "occupancy, rate against the market, rating, lead time and weekday gaps point to the likely cause and the fix to try first",
+"kind": "sentence",
+"max": 160,
+"mt": "bezettingsgraad, koers ten opzichte van de markt, beoordeling, doorlooptijd en verschillen op weekdagen wijzen op de waarschijnlijke oorzaak en de oplossing die als eerste moet worden geprobeerd",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "your occupancy, ADR and RevPAR against comparable listings by city and month, with the index and a fair share check",
+"kind": "sentence",
+"max": 160,
+"mt": "uw bezetting, gemiddelde dagprijs en omzet per beschikbare nacht ten opzichte van vergelijkbare vermeldingen per stad en maand, met de index en een fair share check",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Bezetting, gemiddeld dagtarief en omzet per beschikbare nacht",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Lower the rate on weekdays",
+"kind": "list",
+"max": 30,
+"mt": "Verlaag het tarief op weekdagen",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fix the cleaning and the complaints",
+"kind": "list",
+"max": 30,
+"mt": "Herstel de schoonmaak en de klachten",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Bookings with ADR, lead time and rate against base",
+"kind": "title",
+"max": 60,
+"mt": "Boekingen met gemiddeld dagtarief, doorlooptijd en tarief tegen basis",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "City months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Stadmaanden met bezetting, gemiddeld dagtarief en omzet per beschikbare nacht",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Unit type months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Unittype maanden met bezetting, gemiddeld dagtarief en omzet per beschikbare nacht",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Lead time curve: bookings by how far ahead they were made",
+"kind": "title",
+"max": 60,
+"mt": "Doorlooptijdcurve: boekingen op basis van hoe ver vooruit ze zijn gemaakt",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Competitor set summary: our results against the market",
+"kind": "title",
+"max": 60,
+"mt": "Samenvatting van de concurrentieset: onze resultaten ten opzichte van de markt",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Room revenue, blocked night loss and orphan night recovery",
+"kind": "title",
+"max": 60,
+"mt": "Kamerinkomsten, geblokkeerde nachtverlies en weesnachtherstel",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Revenue lost on blocked nights",
+"kind": "label",
+"max": 30,
+"mt": "Inkomstenverlies op geblokkeerde nachten",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Orphan night revenue recovered",
+"kind": "label",
+"max": 30,
+"mt": "De inkomsten uit weesnachten herstelden zich",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Season of a month with the rate it brings",
+"kind": "title",
+"max": 60,
+"mt": "Seizoen van een maand met de koers die het met zich meebrengt",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Owner view of one unit over 12 months and 3 months",
+"kind": "title",
+"max": 60,
+"mt": "Eigenaarsaanzicht van één unit gedurende 12 maanden en 3 maanden",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Occupancy, ADR and RevPAR of a unit or a month",
+"kind": "title",
+"max": 60,
+"mt": "Bezetting, gemiddeld dagtarief en omzet per beschikbare nacht van een eenheid of een maand",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Unit health score from occupancy, ADR, rating and margin",
+"kind": "title",
+"max": 60,
+"mt": "Gezondheidsscore van de unit op basis van bezetting, gemiddeld dagtarief, beoordeling en marge",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Pace of a coming month and the price move to make",
+"kind": "title",
+"max": 60,
+"mt": "Tempo van de komende maand en de prijsbeweging die moet worden gemaakt",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Price cut against the extra occupancy it needs",
+"kind": "title",
+"max": 60,
+"mt": "Prijsverlaging ten opzichte van de extra bezetting die nodig is",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Best and worst months and an occupancy target for each month",
+"kind": "title",
+"max": 60,
+"mt": "Beste en slechtste maanden en een bezettingsdoel voor elke maand",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Our occupancy and ADR against the market",
+"kind": "title",
+"max": 60,
+"mt": "Onze bezetting en gemiddelde dagprijs ten opzichte van de markt",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Two units side by side: occupancy, ADR, RevPAR and profit",
+"kind": "title",
+"max": 60,
+"mt": "Twee eenheden naast elkaar: bezetting, gemiddeld dagtarief, omzet per beschikbare nacht en winst",
+"why": "too long: 96 characters, the limit is 60"
+},
+{
+"en": "Likely cause of a weak unit and the fix to try first",
+"kind": "title",
+"max": 60,
+"mt": "Waarschijnlijke oorzaak van een zwakke eenheid en de oplossing die u eerst moet proberen",
+"why": "too long: 88 characters, the limit is 60"
+},
+{
+"en": "Change in nights, ADR and revenue against last year",
+"kind": "title",
+"max": 60,
+"mt": "Verandering in nachten, gemiddeld dagtarief en omzet ten opzichte van vorig jaar",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "How far ahead to open dates for the lead time of your guests",
+"kind": "title",
+"max": 60,
+"mt": "Hoe ver vooruit de openingsdata voor de doorlooptijd van uw gasten",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "RevPAR for an occupancy and an ADR together",
+"kind": "title",
+"max": 60,
+"mt": "opbrengst per beschikbare nacht voor een bezetting en een gemiddeld dagtarief samen",
+"why": "too long: 83 characters, the limit is 60"
+}
+]

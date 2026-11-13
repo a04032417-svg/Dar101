@@ -1,0 +1,261 @@
+[
+{
+"en": "Cancellation notice and refund summary",
+"kind": "title",
+"max": 60,
+"mt": "Уведомление об отмене и сводная информация о возврате средств",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Missing payout claim letter to a booking platform",
+"kind": "title",
+"max": 60,
+"mt": "Отсутствует письмо с претензией на выплату на платформу бронирования",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Enter every stay on Bookings with its channel, dates, rate, cleaning fee, local tax and status. The platform fee, the net payout, the payout date and the net per night calculate themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите в Bookings каждое пребывание с указанием его канала, дат, тарифа, платы за уборку, местного налога и статуса. Плата за платформу, чистая выплата, дата выплаты и чистая сумма за ночь рассчитываются самостоятельно.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Occupancy, ADR and RevPAR by unit and month",
+"kind": "label",
+"max": 50,
+"mt": "Заполняемость, средняя дневная ставка и доход за доступную ночь по единице и месяцу",
+"why": "too long: 83 characters, the limit is 50"
+},
+{
+"en": "Occupancy needed for a revenue goal",
+"kind": "label",
+"max": 50,
+"mt": "Вместимость, необходимая для достижения цели по доходу",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "every blocked period shows the revenue it cost at the ADR and occupancy of that unit, so owner stays and repairs are priced",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый заблокированный период показывает доход, который он стоил, по средней дневной ставке и занятости этой квартиры, поэтому владелец остается, а стоимость ремонта оценивается.",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "occupancy, rate against the market, rating, lead time and weekday gaps point to the likely cause and the fix to try first",
+"kind": "sentence",
+"max": 160,
+"mt": "заполняемость, рыночная цена, рейтинг, время выполнения заказа и перерывы в рабочие дни указывают на вероятную причину и способ устранения, который следует попробовать в первую очередь",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "your occupancy, ADR and RevPAR against comparable listings by city and month, with the index and a fair share check",
+"kind": "sentence",
+"max": 160,
+"mt": "ваша заполняемость, средняя дневная ставка и доход за доступную ночь по сравнению с сопоставимыми списками по городу и месяцу, с индексом и проверкой справедливой доли",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Заполняемость, средняя дневная ставка и доход за доступную ночь",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cut the minimum stay",
+"kind": "list",
+"max": 30,
+"mt": "Сократить минимальный срок пребывания",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Add midweek offers",
+"kind": "list",
+"max": 30,
+"mt": "Добавьте предложения середины недели",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Occupancy leads",
+"kind": "list",
+"max": 30,
+"mt": "Количество потенциальных клиентов",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Bookings with ADR, lead time and rate against base",
+"kind": "title",
+"max": 60,
+"mt": "Бронирования со средней дневной ставкой, временем выполнения и базовой ставкой",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "City months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Городские месяцы с заполняемостью, средней дневной ставкой и доходом за свободную ночь",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Unit type months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "Тип объекта в месяцах с указанием заполняемости, средней дневной ставки и дохода за доступную ночь",
+"why": "too long: 98 characters, the limit is 60"
+},
+{
+"en": "Lead time curve: bookings by how far ahead they were made",
+"kind": "title",
+"max": 60,
+"mt": "Кривая времени выполнения заказа: заказы в зависимости от того, насколько заранее они были сделаны.",
+"why": "too long: 99 characters, the limit is 60"
+},
+{
+"en": "Length of stay mix by unit over 12 months",
+"kind": "title",
+"max": 60,
+"mt": "Продолжительность пребывания в разбивке по подразделениям более 12 месяцев",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Competitor set summary: our results against the market",
+"kind": "title",
+"max": 60,
+"mt": "Обзор набора конкурентов: наши результаты по сравнению с рынком",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Room revenue, blocked night loss and orphan night recovery",
+"kind": "title",
+"max": 60,
+"mt": "Доход от номеров, потеря заблокированных ночей и восстановление потерянных ночей",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Revenue lost on blocked nights",
+"kind": "label",
+"max": 30,
+"mt": "Потеря дохода из-за заблокированных ночей",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Orphan night revenue recovered",
+"kind": "label",
+"max": 30,
+"mt": "Доходы от «сиротских ночей» восстановлены",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Occupancy, ADR and RevPAR of a unit or a month",
+"kind": "title",
+"max": 60,
+"mt": "Заполняемость, средняя дневная ставка и доход за доступные сутки проживания в единице или за месяц.",
+"why": "too long: 99 characters, the limit is 60"
+},
+{
+"en": "Unit health score from occupancy, ADR, rating and margin",
+"kind": "title",
+"max": 60,
+"mt": "Оценка здоровья объекта на основе занятости, средней дневной ставки, рейтинга и маржи.",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Price cut against the extra occupancy it needs",
+"kind": "title",
+"max": 60,
+"mt": "Снижение цен в связи с необходимостью дополнительного размещения.",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Best and worst months and an occupancy target for each month",
+"kind": "title",
+"max": 60,
+"mt": "Лучшие и худшие месяцы, а также целевая заполняемость на каждый месяц.",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Our occupancy and ADR against the market",
+"kind": "title",
+"max": 60,
+"mt": "Наша заполняемость и средняя дневная цена по сравнению с рынком",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Two units side by side: occupancy, ADR, RevPAR and profit",
+"kind": "title",
+"max": 60,
+"mt": "Две единицы рядом: заполняемость, средняя дневная ставка, доход за доступные сутки и прибыль.",
+"why": "too long: 93 characters, the limit is 60"
+},
+{
+"en": "Likely cause of a weak unit and the fix to try first",
+"kind": "title",
+"max": 60,
+"mt": "Вероятная причина слабого устройства и исправление, которое следует попробовать в первую очередь.",
+"why": "too long: 97 characters, the limit is 60"
+},
+{
+"en": "Change in nights, ADR and revenue against last year",
+"kind": "title",
+"max": 60,
+"mt": "Изменение количества ночей, средней суточной ставки и выручки по сравнению с прошлым годом",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "RevPAR for an occupancy and an ADR together",
+"kind": "title",
+"max": 60,
+"mt": "доход за доступную ночь за номер и среднюю дневную ставку вместе",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello, {unit} beat its target: occupancy of {occ_12m} against {target_occ} and RevPAR of {revpar_12m} against {target_revpar}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {unit} превзошел свою цель: заполняемость {occ_12m} по сравнению с {target_occ} и доход за доступную ночь в размере {revpar_12m} по сравнению с {target_revpar}.",
+"why": "English/Latin words left: occ revpar"
+},
+{
+"en": "Hello {owner}, the average rate of {name} over the last 3 months is {adr_q}, against {adr_12m} over 12 months.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {owner}! Средняя ставка {name} за последние 3 месяца составляет {adr_q} по сравнению с {adr_12m} за 12 месяцев.",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the yearly review of {unit} is ready: room revenue {revenue_12m} against a goal of {goal_year}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Годовой обзор {unit} готов: доход от номеров {revenue_12m} при целевом показателе {goal_year}.",
+"why": "English/Latin words left: revenue"
+},
+{
+"en": "Hello {owner}, we suggest a rate change for {name}: the ADR is {adr_12m} against a target of {target_adr}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {owner}! Мы предлагаем изменить ставку для {name}: средняя дневная ставка составляет {adr_12m} при целевом значении {target_adr}.",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the quarter review of {name} is ready: room revenue {revenue_q}, ADR {adr_q}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, квартальный обзор {name} готов: доход от номера {revenue_q}, средняя дневная цена {adr_q}, вместимость {occ_12m}.",
+"why": "English/Latin words left: occ"
+},
+{
+"en": "Hello, please check {name} before the high season. Its occupancy over 12 months is {occ_12m}, so every closed day costs revenue.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, проверьте {name} перед высоким сезоном. Его заполняемость в течение 12 месяцев составляет {occ_12m}, поэтому каждый выходной день приносит доход.",
+"why": "English/Latin words left: occ"
+},
+{
+"en": "Hello, the yearly performance of {name}: room revenue {revenue_12m}, ADR {adr_12m}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Годовые показатели {name}: доход от номеров {revenue_12m}, средняя дневная цена {adr_12m}, заполняемость {occ_12m}.",
+"why": "English/Latin words left: revenue adr occ"
+}
+]

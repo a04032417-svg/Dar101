@@ -1,0 +1,135 @@
+[
+{
+"en": "Enter every stay on Bookings with its channel, dates, rate, cleaning fee, local tax and status. The platform fee, the net payout, the payout date and the net per night calculate themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "أدخل كل إقامة في Bookings مع القناة والتواريخ والسعر ورسوم التنظيف والضريبة المحلية والحالة. رسوم المنصة وصافي العائد وتاريخ الدفع وصافي الليلة الواحدة تحسب نفسها.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Occupancy, ADR and RevPAR by unit and month",
+"kind": "label",
+"max": 50,
+"mt": "الإشغال ومتوسط السعر اليومي والإيرادات لكل ليلة متاحة حسب الوحدة والشهر",
+"why": "too long: 71 characters, the limit is 50"
+},
+{
+"en": "Too few weekday nights",
+"kind": "list",
+"max": 30,
+"mt": "عدد قليل جدًا من ليالي أيام الأسبوع",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Bookings with ADR, lead time and rate against base",
+"kind": "title",
+"max": 60,
+"mt": "الحجوزات بمتوسط السعر اليومي والمهلة الزمنية والسعر مقابل القاعدة",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "City months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "أشهر المدينة مع الإشغال ومتوسط السعر اليومي والإيرادات لكل ليلة متاحة",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Unit type months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "أشهر نوع الوحدة مع الإشغال ومتوسط السعر اليومي والإيرادات لكل ليلة متاحة",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Room revenue, blocked night loss and orphan night recovery",
+"kind": "title",
+"max": 60,
+"mt": "إيرادات الغرف وخسارة الليالي المحجوبة واسترداد الليالي اليتيمة",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Revenue lost on blocked nights",
+"kind": "label",
+"max": 30,
+"mt": "الإيرادات المفقودة في الليالي المحظورة",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Occupancy, ADR and RevPAR of a unit or a month",
+"kind": "title",
+"max": 60,
+"mt": "الإشغال ومتوسط السعر اليومي والإيرادات لكل ليلة متاحة للوحدة أو الشهر",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Unit health score from occupancy, ADR, rating and margin",
+"kind": "title",
+"max": 60,
+"mt": "درجة صحة الوحدة من الإشغال ومتوسط السعر اليومي والتصنيف والهامش",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Two units side by side: occupancy, ADR, RevPAR and profit",
+"kind": "title",
+"max": 60,
+"mt": "وحدتان جنبًا إلى جنب: الإشغال ومتوسط السعر اليومي والإيرادات لكل ليلة متاحة والأرباح",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Change in nights, ADR and revenue against last year",
+"kind": "title",
+"max": 60,
+"mt": "التغيير في الليالي ومتوسط السعر اليومي والإيرادات مقارنة بالعام الماضي",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Hello, {unit} beat its target: occupancy of {occ_12m} against {target_occ} and RevPAR of {revpar_12m} against {target_revpar}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، تجاوزت {unit} هدفها: الإشغال {occ_12m} مقابل {target_occ} والإيرادات لكل ليلة متاحة بقيمة {revpar_12m} مقابل {target_revpar}.",
+"why": "English/Latin words left: occ revpar"
+},
+{
+"en": "Hello {owner}, the average rate of {name} over the last 3 months is {adr_q}, against {adr_12m} over 12 months.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {owner}، متوسط سعر {name} خلال آخر 3 أشهر هو {adr_q}، مقابل {adr_12m} خلال 12 شهرًا.",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the yearly review of {unit} is ready: room revenue {revenue_12m} against a goal of {goal_year}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، المراجعة السنوية لـ {unit} جاهزة: إيرادات الغرفة {revenue_12m} مقابل هدف {goal_year}.",
+"why": "English/Latin words left: revenue"
+},
+{
+"en": "Hello {owner}, we suggest a rate change for {name}: the ADR is {adr_12m} against a target of {target_adr}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {owner}، نقترح تغيير السعر لـ {name}: متوسط السعر اليومي هو {adr_12m} مقابل هدف قدره {target_adr}.",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the quarter review of {name} is ready: room revenue {revenue_q}, ADR {adr_q}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، المراجعة ربع السنوية لـ {name} جاهزة: إيرادات الغرفة {revenue_q}، متوسط السعر اليومي {adr_q}، الإشغال {occ_12m}.",
+"why": "English/Latin words left: occ"
+},
+{
+"en": "Hello, please check {name} before the high season. Its occupancy over 12 months is {occ_12m}, so every closed day costs revenue.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، يرجى التحقق من {name} قبل موسم الذروة. تبلغ نسبة إشغاله على مدار 12 شهرًا {occ_12m}، لذا فإن كل يوم مغلق يكلف إيرادات.",
+"why": "English/Latin words left: occ"
+},
+{
+"en": "Hello, the yearly performance of {name}: room revenue {revenue_12m}, ADR {adr_12m}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، الأداء السنوي لـ {name}: إيرادات الغرفة {revenue_12m}، متوسط السعر اليومي {adr_12m}، الإشغال {occ_12m}.",
+"why": "English/Latin words left: revenue adr occ"
+}
+]

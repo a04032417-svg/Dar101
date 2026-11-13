@@ -1,0 +1,135 @@
+[
+{
+"en": "Enter every stay on Bookings with its channel, dates, rate, cleaning fee, local tax and status. The platform fee, the net payout, the payout date and the net per night calculate themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "在 Bookings 上输入每次入住的渠道、日期、房价、清洁费、当地税费和状态。平台费用、净支出、支出日期和每晚净收入自行计算。",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Hello, {unit} beat its target: occupancy of {occ_12m} against {target_occ} and RevPAR of {revpar_12m} against {target_revpar}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{unit} 超出了目标：{target_occ} 的入住率达到 {occ_12m}，每晚收入达到 {target_revpar} 的 {revpar_12m}。",
+"why": "English/Latin words left: occ revpar"
+},
+{
+"en": "Hello {owner}, the average rate of {name} over the last 3 months is {adr_q}, against {adr_12m} over 12 months.",
+"kind": "message",
+"max": null,
+"mt": "您好 {owner}，过去 3 个月内 {name} 的平均费率为 {adr_q}，而过去 12 个月内的平均费率为 {adr_12m}。",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the yearly review of {unit} is ready: room revenue {revenue_12m} against a goal of {goal_year}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{unit} 的年度审核已准备就绪：客房收入 {revenue_12m}，目标为 {goal_year}。",
+"why": "English/Latin words left: revenue"
+},
+{
+"en": "Hello, market occupancy in {city} for {month} is {market_occupancy} against our {our_occupancy}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{month} 在 {city} 的市场占有率是 {market_occupancy}，而我们的 {our_occupancy} 的市场占有率是 {market_occupancy}。",
+"why": "placeholders must be exactly: {city} {month} {market_occupancy} {our_occupancy}"
+},
+{
+"en": "Hello {owner}, we suggest a rate change for {name}: the ADR is {adr_12m} against a target of {target_adr}.",
+"kind": "message",
+"max": null,
+"mt": "您好 {owner}，我们建议更改 {name} 的费率：平均每日费率为 {adr_12m}，目标为 {target_adr}。",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the quarter review of {name} is ready: room revenue {revenue_q}, ADR {adr_q}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Hello, the quarter review of {name} is ready: room revenue {revenue_q}, average daily rate {adr_q}, occupancy {occ_12m}.",
+"why": "English/Latin words left: Hello the quarter review"
+},
+{
+"en": "Hello, for {unit} in {month} the ADR is {adr_this} against {adr_last} a year ago.",
+"kind": "message",
+"max": null,
+"mt": "Hello, for {unit} in {month} the average daily rate is {adr_this} against {adr_last} a year ago.",
+"why": "English/Latin words left: Hello for in the"
+},
+{
+"en": "Hello, {unit} has occupancy of {occupancy} on {weekday} nights over 12 months. Consider a midweek offer.",
+"kind": "message",
+"max": null,
+"mt": "Hello, {unit} has occupancy of {occupancy} on {weekday} nights over 12 months.考虑周中报价。",
+"why": "English/Latin words left: Hello has occupancy of"
+},
+{
+"en": "Hello, market data for {city} in {month} was updated: market occupancy {market_occupancy}, market ADR {market_adr}.",
+"kind": "message",
+"max": null,
+"mt": "Hello, market data for {city} in {month} was updated: market occupancy {market_occupancy}, market average daily rate {market_adr}.",
+"why": "English/Latin words left: Hello market data for"
+},
+{
+"en": "Hello, busy weeks are coming in {unit}: {booked_now} nights are booked for {month}. Please keep your calendar free.",
+"kind": "message",
+"max": null,
+"mt": "Hello, busy weeks are coming in {unit}: {booked_now} nights are booked for {month}.请保持您的日历免费。",
+"why": "English/Latin words left: Hello busy weeks are"
+},
+{
+"en": "Hello, please check {name} before the high season. Its occupancy over 12 months is {occ_12m}, so every closed day costs revenue.",
+"kind": "message",
+"max": null,
+"mt": "您好，请在旺季前查看{name}。 Its occupancy over 12 months is {occ_12m}, so every closed day costs revenue.",
+"why": "English/Latin words left: Its occupancy over months"
+},
+{
+"en": "Hello, the yearly performance of {name}: room revenue {revenue_12m}, ADR {adr_12m}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Hello, the yearly performance of {name}: room revenue {revenue_12m}, average daily rate {adr_12m}, occupancy {occ_12m}.",
+"why": "English/Latin words left: Hello the yearly performance"
+},
+{
+"en": "Hello {owner}, thank you for another good quarter. {name} earned {revenue_q} in room revenue over the last 3 months.",
+"kind": "message",
+"max": null,
+"mt": "您好{owner}，感谢您又一个美好的季度。 {name} earned {revenue_q} in room revenue over the last 3 months.",
+"why": "English/Latin words left: earned in room revenue"
+},
+{
+"en": "Monthly performance report of {set:company}, dated {today}. Unit: {col:unit_months.unit} in {col:unit_months.city}, month starting {col:unit_months.month} ({col:unit_months.season} season).",
+"kind": "document",
+"max": null,
+"mt": "{set:company} 的月度绩效报告，日期为 {today}。 Unit: {col:unit_months.unit} in {col:unit_months.city}, month starting {col:unit_months.month} ({col:unit_months.season} season).",
+"why": "English/Latin words left: Unit in month starting"
+},
+{
+"en": "Occupancy: {col:unit_months.occupancy} against a target of {col:unit_months.target_occ} ({col:unit_months.occ_flag}). ADR, the average price of a night sold: {col:unit_months.adr}. RevPAR, revenue per available night: {col:unit_months.revpar}.",
+"kind": "document",
+"max": null,
+"mt": "占用率：{col:unit_months.occupancy}，目标为{col:unit_months.target_occ} ({col:unit_months.occ_flag})。 average daily rate, the average price of a night sold: {col:unit_months.adr}. revenue per available night, revenue per available night: {col:unit_months.revpar}.",
+"why": "English/Latin words left: average daily rate the"
+},
+{
+"en": "Notes on the month and the actions for the next month are written below.",
+"kind": "document",
+"max": null,
+"mt": "Notes on the month and the actions for the next month are written below.",
+"why": "English/Latin words left: Notes on the month"
+},
+{
+"en": "Last 12 months: {col:units.nights_12m} nights sold of {col:units.avail_12m} available, occupancy {col:units.occ_12m} against a target of {col:units.target_occ} ({col:units.occ_flag}).",
+"kind": "document",
+"max": null,
+"mt": "Last 12 months: {col:units.nights_12m} nights sold of {col:units.avail_12m} available, occupancy {col:units.occ_12m} against a target of {col:units.target_occ} ({col:units.occ_flag}).",
+"why": "English/Latin words left: Last months nights sold"
+},
+{
+"en": "ADR {col:units.adr_12m} against a target of {col:units.target_adr} ({col:units.adr_flag}). RevPAR {col:units.revpar_12m}. Room revenue {col:units.revenue_12m}.",
+"kind": "document",
+"max": null,
+"mt": "average daily rate {col:units.adr_12m} against a target of {col:units.target_adr} ({col:units.adr_flag}).每晚可用收入{col:units.revpar_12m}。客房收入{col:units.revenue_12m}。",
+"why": "English/Latin words left: average daily rate against"
+}
+]

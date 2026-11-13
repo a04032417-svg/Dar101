@@ -1,0 +1,142 @@
+[
+{
+"en": "See which units earn, which lag and what to do about it",
+"kind": "sentence",
+"max": 80,
+"mt": "देखें कि कौन सी इकाइयाँ कमाती हैं, कौन सी पिछड़ जाती हैं और इसके बारे में क्या करना है",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "Occupancy, ADR and RevPAR by unit and month",
+"kind": "label",
+"max": 50,
+"mt": "अधिभोग, औसत दैनिक दर और इकाई और महीने के अनुसार प्रति उपलब्ध रात का राजस्व",
+"why": "too long: 74 characters, the limit is 50"
+},
+{
+"en": "City months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "अधिभोग, औसत दैनिक दर और प्रति उपलब्ध रात राजस्व के साथ शहर के महीने",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Unit type months with occupancy, ADR and RevPAR",
+"kind": "title",
+"max": 60,
+"mt": "अधिभोग, औसत दैनिक दर और प्रति उपलब्ध रात राजस्व के साथ इकाई प्रकार के महीने",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Revenue lost on blocked nights",
+"kind": "label",
+"max": 30,
+"mt": "अवरुद्ध रातों में राजस्व की हानि हुई",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Orphan night revenue recovered",
+"kind": "label",
+"max": 30,
+"mt": "अनाथ रात्रि का राजस्व वसूल किया गया",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Occupancy, ADR and RevPAR of a unit or a month",
+"kind": "title",
+"max": 60,
+"mt": "एक इकाई या एक महीने की प्रति उपलब्ध रात अधिभोग, औसत दैनिक दर और राजस्व",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Unit health score from occupancy, ADR, rating and margin",
+"kind": "title",
+"max": 60,
+"mt": "अधिभोग, औसत दैनिक दर, रेटिंग और मार्जिन से इकाई स्वास्थ्य स्कोर",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Best and worst months and an occupancy target for each month",
+"kind": "title",
+"max": 60,
+"mt": "सर्वोत्तम और सबसे खराब महीने और प्रत्येक माह के लिए अधिभोग लक्ष्य",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Two units side by side: occupancy, ADR, RevPAR and profit",
+"kind": "title",
+"max": 60,
+"mt": "दो इकाइयाँ एक साथ: अधिभोग, औसत दैनिक दर, प्रति उपलब्ध रात राजस्व और लाभ",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Change in nights, ADR and revenue against last year",
+"kind": "title",
+"max": 60,
+"mt": "पिछले वर्ष की तुलना में रातों में बदलाव, औसत दैनिक दर और राजस्व",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "How far ahead to open dates for the lead time of your guests",
+"kind": "title",
+"max": 60,
+"mt": "आपके मेहमानों के आने के समय के लिए खुलने की तारीखें कितनी आगे हैं",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "RevPAR for an occupancy and an ADR together",
+"kind": "title",
+"max": 60,
+"mt": "एक अधिभोग के लिए प्रति उपलब्ध रात्रि राजस्व और औसत दैनिक दर एक साथ",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Hello, {unit} beat its target: occupancy of {occ_12m} against {target_occ} and RevPAR of {revpar_12m} against {target_revpar}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {unit} ने अपना लक्ष्य पूरा कर लिया: {target_occ} के मुकाबले {occ_12m} का अधिभोग और {target_revpar} के मुकाबले {revpar_12m} प्रति उपलब्ध रात का राजस्व।",
+"why": "English/Latin words left: occ revpar"
+},
+{
+"en": "Hello {owner}, the average rate of {name} over the last 3 months is {adr_q}, against {adr_12m} over 12 months.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {owner}, पिछले 3 महीनों में {name} की औसत दर {adr_q} है, जबकि 12 महीनों में {adr_12m}।",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello {owner}, we suggest a rate change for {name}: the ADR is {adr_12m} against a target of {target_adr}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {owner}, हम {name} के लिए दर में बदलाव का सुझाव देते हैं: औसत दैनिक दर {target_adr} के लक्ष्य के मुकाबले {adr_12m} है।",
+"why": "English/Latin words left: adr"
+},
+{
+"en": "Hello, the quarter review of {name} is ready: room revenue {revenue_q}, ADR {adr_q}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {name} की तिमाही समीक्षा तैयार है: कमरे का राजस्व {revenue_q}, औसत दैनिक दर {adr_q}, अधिभोग {occ_12m}।",
+"why": "English/Latin words left: occ"
+},
+{
+"en": "Hello, please check {name} before the high season. Its occupancy over 12 months is {occ_12m}, so every closed day costs revenue.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, कृपया व्यस्त सीज़न से पहले {name} जांचें। 12 महीनों में इसका अधिभोग {occ_12m} है, इसलिए प्रत्येक बंद दिन पर राजस्व खर्च होता है।",
+"why": "English/Latin words left: occ"
+},
+{
+"en": "Hello, the yearly performance of {name}: room revenue {revenue_12m}, ADR {adr_12m}, occupancy {occ_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {name} का वार्षिक प्रदर्शन: कमरे का राजस्व {राजस्व_12m}, औसत दैनिक दर {adr_12m}, अधिभोग {occ_12m}।",
+"why": "English/Latin words left: adr occ"
+},
+{
+"en": "Pace report of {set:company}, dated {today}. Unit: {col:pace.unit}. Month starting {col:pace.month}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} की गति रिपोर्ट, दिनांक {today}। युनिट 2}। महीना शुरू हो रहा है {col:pace.month}.",
+"why": "placeholders must be exactly: {set:company} {today} {col:pace.unit} {col:pace.month}"
+}
+]
