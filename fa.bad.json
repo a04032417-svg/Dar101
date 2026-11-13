@@ -1,0 +1,86 @@
+[
+{
+"en": "Match the payments received",
+"kind": "label",
+"max": null,
+"mt": "پرداخت های دریافتی را مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: days before a chase, the yearly cost of your own cash, the factoring fee you want to stay under and the days after which loads are put on hold.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: چند روز قبل از تعقیب و گریز، هزینه سالانه پول نقد خود، هزینه فاکتورینگی که می‌خواهید تحت آن بمانید و روزهای پس از آن که بارها متوقف می‌شوند.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "TL-05",
+"kind": "list",
+"max": 30,
+"mt": "TL-05",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-06",
+"kind": "list",
+"max": 30,
+"mt": "TL-06",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-07",
+"kind": "list",
+"max": 30,
+"mt": "TL-07",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "Surcharge covers the rise",
+"kind": "list",
+"max": 30,
+"mt": "اضافه هزینه افزایش را پوشش می دهد",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Thirstier fleet 35",
+"kind": "label",
+"max": null,
+"mt": "ناوگان Thirstier 35",
+"why": "English/Latin words left: Thirstier"
+},
+{
+"en": "Cheaper stop check: extra km against the price saving",
+"kind": "title",
+"max": 60,
+"mt": "بررسی توقف ارزان تر: کیلومتر اضافی در برابر صرفه جویی در قیمت",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "What-if grid: fuel price and use against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "شبکه What-if: قیمت سوخت و استفاده در برابر هزینه در هر کیلومتر",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {driver}, your fuel use is {l_100km} litres per 100 km against the fleet average of {fleet_avg}. Smooth speed and less idling bring it down.",
+"kind": "message",
+"max": null,
+"mt": "سلام {driver}، مصرف سوخت شما {l_100km} لیتر در 100 کیلومتر در برابر میانگین ناوگان {fleet_avg} است. سرعت صاف و دور آرام کمتر آن را پایین می آورد.",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Hello {driver}, well done: your fuel use of {l_100km} litres per 100 km is among the best this quarter. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "سلام {driver}، آفرین: مصرف سوخت شما {l_100km} لیتر در هر 100 کیلومتر جزو بهترین ها در این سه ماهه است. متشکرم.",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Truck {truck} burned {l_100km} litres per 100 km in {month} against the rated {rated}. Please look at it.",
+"kind": "message",
+"max": null,
+"mt": "کامیون {truck} {l_100km} لیتر در هر 100 کیلومتر در {month} در برابر نامی {rated} سوزاند. لطفا به آن نگاه کنید.",
+"why": "English/Latin words left: km"
+}
+]

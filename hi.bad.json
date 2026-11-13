@@ -1,0 +1,51 @@
+[
+{
+"en": "Waiting for the driver",
+"kind": "list",
+"max": 30,
+"mt": "ड्राइवर का इंतज़ार किया जा रहा है",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Weekly fuel card statements checked against your fills",
+"kind": "title",
+"max": 60,
+"mt": "आपके द्वारा भरे गए ईंधन कार्ड विवरण की साप्ताहिक जाँच की जाती है",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Litres used in a region from km and the fleet average",
+"kind": "title",
+"max": 60,
+"mt": "किमी और बेड़े के औसत से एक क्षेत्र में उपयोग किए जाने वाले लीटर",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Price swing effect on cost per km (price rise of 10%)",
+"kind": "title",
+"max": 60,
+"mt": "प्रति किमी लागत पर मूल्य परिवर्तन का प्रभाव (10% की कीमत वृद्धि)",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "What-if grid: fuel price and use against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "क्या-अगर ग्रिड: ईंधन की कीमत और प्रति किमी लागत के मुकाबले उपयोग",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello {driver}, your fuel use is {l_100km} litres per 100 km against the fleet average of {fleet_avg}. Smooth speed and less idling bring it down.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {driver}, आपके बेड़े के औसत {fleet_avg} के मुकाबले आपका ईंधन उपयोग प्रति 100 किमी पर {l_100km} लीटर है। सहज गति और कम सुस्ती इसे नीचे लाती है।",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Hello {driver}, well done: your fuel use of {l_100km} litres per 100 km is among the best this quarter. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {driver}, शाबाश: प्रति 100 किमी पर आपका {l_100km} लीटर ईंधन उपयोग इस तिमाही में सबसे अच्छा है। धन्यवाद।",
+"why": "English/Latin words left: km"
+}
+]

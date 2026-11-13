@@ -1,0 +1,121 @@
+[
+{
+"en": "Invoices sent within the days you set",
+"kind": "title",
+"max": 60,
+"mt": "Счета-фактуры отправляются в течение установленных вами дней.",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Know what every litre costs and what you owe in fuel tax",
+"kind": "sentence",
+"max": 80,
+"mt": "Узнайте, сколько стоит каждый литр и какую сумму вы должны заплатить по налогу на топливо.",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "km and litres bought per region and quarter give the litres used, the net litres and the tax due or the credit for every region before you file",
+"kind": "sentence",
+"max": 160,
+"mt": "км и литры, купленные по региону и кварталу, отражают использованные литры, чистые литры и причитающийся налог или кредит для каждого региона перед подачей заявки.",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "each fill shows the km since the last fill, the litres per 100 km and the fuel cost per km, so a thirsty truck shows within days",
+"kind": "sentence",
+"max": 160,
+"mt": "каждая заправка показывает пробег с момента последней заправки, количество литров на 100 км и стоимость топлива на км, поэтому испытывающий жажду грузовик показывает в течение нескольких дней.",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "Take the cheaper stop",
+"kind": "list",
+"max": 30,
+"mt": "Возьмите более дешевую остановку",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Weekly fuel card statements checked against your fills",
+"kind": "title",
+"max": 60,
+"mt": "Еженедельные выписки по топливным картам сверяются с вашими заправками.",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Cheapest fuel region on each lane and the saving per fill",
+"kind": "title",
+"max": 60,
+"mt": "Самый дешевый регион топлива на каждой полосе и экономия на заправке",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Fuel card discount received against the discount due",
+"kind": "title",
+"max": 60,
+"mt": "Получена скидка по топливной карте в счет причитающейся скидки",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Odometer readings with km since the previous reading",
+"kind": "title",
+"max": 60,
+"mt": "Показания одометра с указанием км с момента предыдущего показания",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Trucks with the driver and rated fuel use",
+"kind": "title",
+"max": 60,
+"mt": "Грузовые автомобили с водителем и нормированным расходом топлива",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Litres per 100 km from a fill and the km since the last fill",
+"kind": "title",
+"max": 60,
+"mt": "Литров на 100 км с момента заправки и км с момента последней заправки",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Cheaper stop check: extra km against the price saving",
+"kind": "title",
+"max": 60,
+"mt": "Дешевая проверка на остановке: дополнительные километры за счет экономии",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Price swing effect on cost per km (price rise of 10%)",
+"kind": "title",
+"max": 60,
+"mt": "Влияние колебаний цен на стоимость километра (рост цен на 10%)",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: fuel price and use against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Сетка «что, если»: цена и расход топлива в зависимости от стоимости километра",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Hello {driver}, your fuel use is {l_100km} litres per 100 km against the fleet average of {fleet_avg}. Smooth speed and less idling bring it down.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {driver}! Ваш расход топлива составляет {l_100km} литров на 100 км при среднем показателе автопарка {fleet_avg}. Плавная скорость и меньший холостой ход сводят его на нет.",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Hello {driver}, well done: your fuel use of {l_100km} litres per 100 km is among the best this quarter. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {driver}! Молодец! Ваш расход топлива — {l_100km} литров на 100 км — один из лучших показателей в этом квартале. Спасибо.",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Truck {truck} burned {l_100km} litres per 100 km in {month} against the rated {rated}. Please look at it.",
+"kind": "message",
+"max": null,
+"mt": "Грузовик {truck} сжег {l_100km} литров на 100 км в {month} по сравнению с номинальным значением {rated}. Пожалуйста, посмотрите на это.",
+"why": "English/Latin words left: km"
+}
+]

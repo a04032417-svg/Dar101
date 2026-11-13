@@ -1,0 +1,100 @@
+[
+{
+"en": "km and litres bought per region and quarter give the litres used, the net litres and the tax due or the credit for every region before you file",
+"kind": "sentence",
+"max": 160,
+"mt": "کلومیٹر اور لیٹر فی خطہ اور سہ ماہی میں خریدا گیا لیٹر استعمال شدہ لیٹر، خالص لیٹر اور ٹیکس کا واجب الادا یا کریڈٹ آپ کے فائل کرنے سے پہلے ہر علاقے کے لیے دیتا ہے۔",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "TL-05",
+"kind": "list",
+"max": 30,
+"mt": "TL-05",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-06",
+"kind": "list",
+"max": 30,
+"mt": "TL-06",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-07",
+"kind": "list",
+"max": 30,
+"mt": "TL-07",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "Weekly fuel card statements checked against your fills",
+"kind": "title",
+"max": 60,
+"mt": "ہفتہ وار فیول کارڈ سٹیٹمنٹس آپ کے فلز کے مطابق چیک کیے جاتے ہیں۔",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Km driven and litres bought by region and quarter",
+"kind": "title",
+"max": 60,
+"mt": "کلومیٹر سے چلنے والا اور لیٹر علاقہ اور سہ ماہی کے لحاظ سے خریدا گیا۔",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Litres per 100 km from a fill and the km since the last fill",
+"kind": "title",
+"max": 60,
+"mt": "ایک فل سے فی 100 کلومیٹر لیٹر اور آخری بھرنے کے بعد سے کلومیٹر",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Fuel surcharge needed to cover a price rise",
+"kind": "title",
+"max": 60,
+"mt": "قیمتوں میں اضافے کو پورا کرنے کے لیے فیول سرچارج کی ضرورت ہے۔",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Price swing effect on cost per km (price rise of 10%)",
+"kind": "title",
+"max": 60,
+"mt": "قیمت میں تبدیلی کا اثر لاگت فی کلومیٹر پر (قیمت میں 10% اضافہ)",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: fuel price and use against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "کیا ہو تو گرڈ: ایندھن کی قیمت اور فی کلومیٹر لاگت کے خلاف استعمال",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Hello {driver}, your fuel use is {l_100km} litres per 100 km against the fleet average of {fleet_avg}. Smooth speed and less idling bring it down.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {driver}، آپ کا ایندھن کا استعمال {l_100km} لیٹر فی 100 کلومیٹر فی فلیٹ اوسط {fleet_avg} ہے۔ ہموار رفتار اور کم سستی اسے نیچے لاتی ہے۔",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Hello {driver}, fill up in {region} before you drive into a region where fuel costs more per litre.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {driver}، کسی ایسے علاقے میں جانے سے پہلے جہاں ایندھن کی قیمت فی لیٹر زیادہ ہو۔",
+"why": "placeholders must be exactly: {driver} {region}"
+},
+{
+"en": "Hello {driver}, well done: your fuel use of {l_100km} litres per 100 km is among the best this quarter. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {driver}، شاباش: آپ کا فی 100 کلومیٹر فی l_100km} لیٹر ایندھن کا استعمال اس سہ ماہی میں بہترین ہے۔ شکریہ",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Truck {truck} burned {l_100km} litres per 100 km in {month} against the rated {rated}. Please look at it.",
+"kind": "message",
+"max": null,
+"mt": "ٹرک {truck} نے {rated} درجہ بندی کے مقابلے میں {month} میں {l_100km} لیٹر فی 100 کلومیٹر جلایا۔ براہ کرم اسے دیکھیں۔",
+"why": "English/Latin words left: km"
+}
+]

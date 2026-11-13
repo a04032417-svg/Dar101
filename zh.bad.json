@@ -1,0 +1,44 @@
+[
+{
+"en": "TL-05",
+"kind": "list",
+"max": 30,
+"mt": "TL-05",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-06",
+"kind": "list",
+"max": 30,
+"mt": "TL-06",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-07",
+"kind": "list",
+"max": 30,
+"mt": "TL-07",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "Hello {driver}, your fuel use is {l_100km} litres per 100 km against the fleet average of {fleet_avg}. Smooth speed and less idling bring it down.",
+"kind": "message",
+"max": null,
+"mt": "您好 {driver}，您的燃油消耗量为每 100 公里 {l_100km} 升，而车队平均值为 {fleet_avg}。平稳的速度和较少的空转会降低速度。",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Hello {driver}, well done: your fuel use of {l_100km} litres per 100 km is among the best this quarter. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "您好 {driver}，干得好：您每 100 公里的燃油消耗量为 {l_100km} 升，是本季度最好的。谢谢。",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Truck {truck} burned {l_100km} litres per 100 km in {month} against the rated {rated}. Please look at it.",
+"kind": "message",
+"max": null,
+"mt": "卡车 {truck} 在 {month} 中每 100 公里燃烧 {l_100km} 升，额定值为 {rated}。请看一下。",
+"why": "English/Latin words left: km"
+}
+]

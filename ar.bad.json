@@ -1,0 +1,65 @@
+[
+{
+"en": "TL-05",
+"kind": "list",
+"max": 30,
+"mt": "TL-05",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-06",
+"kind": "list",
+"max": 30,
+"mt": "TL-06",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "TL-07",
+"kind": "list",
+"max": 30,
+"mt": "TL-07",
+"why": "English/Latin words left: TL"
+},
+{
+"en": "Weekly fuel card statements checked against your fills",
+"kind": "title",
+"max": 60,
+"mt": "يتم فحص بيانات بطاقة الوقود الأسبوعية مقابل عمليات التعبئة الخاصة بك",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Km driven and litres bought by region and quarter",
+"kind": "title",
+"max": 60,
+"mt": "عدد الكيلومترات المقطوعة واللترات المشتراة حسب المنطقة والربع",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Price swing effect on cost per km (price rise of 10%)",
+"kind": "title",
+"max": 60,
+"mt": "تأثير تأرجح السعر على التكلفة لكل كيلومتر (ارتفاع السعر بنسبة 10%)",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Hello {driver}, your fuel use is {l_100km} litres per 100 km against the fleet average of {fleet_avg}. Smooth speed and less idling bring it down.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {driver}، استهلاكك للوقود هو {l_100km} لتر لكل 100 كيلومتر مقابل متوسط الأسطول {fleet_avg}. السرعة السلسة والتباطؤ الأقل تؤدي إلى انخفاضها.",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Hello {driver}, well done: your fuel use of {l_100km} litres per 100 km is among the best this quarter. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {driver}، أحسنت: استهلاكك للوقود يبلغ {l_100km} لترًا لكل 100 كيلومتر هو من بين الأفضل خلال هذا الربع. شكرًا لك.",
+"why": "English/Latin words left: km"
+},
+{
+"en": "Truck {truck} burned {l_100km} litres per 100 km in {month} against the rated {rated}. Please look at it.",
+"kind": "message",
+"max": null,
+"mt": "أحرقت الشاحنة {truck} {l_100km} لترًا لكل 100 كيلومتر في {month} مقابل التصنيف {rated}. يرجى النظر في ذلك.",
+"why": "English/Latin words left: km"
+}
+]
