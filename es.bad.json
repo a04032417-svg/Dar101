@@ -1,0 +1,296 @@
+[
+{
+"en": "Commission tracker by supplier with ageing",
+"kind": "label",
+"max": 50,
+"mt": "Rastreador de comisiones por proveedor con antigüedad",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "90-day escalation to the host agency",
+"kind": "label",
+"max": 50,
+"mt": "Escalado de 90 días a la agencia de viajes anfitriona",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Asked for booking details",
+"kind": "list",
+"max": 30,
+"mt": "Solicitó detalles de la reserva",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client cancelled part of the booking",
+"kind": "list",
+"max": 30,
+"mt": "El cliente canceló parte de la reserva.",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Price reduced after rebooking",
+"kind": "list",
+"max": 30,
+"mt": "Precio reducido después de cambiar la reserva.",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Supplier e-mail",
+"kind": "list",
+"max": 30,
+"mt": "Correo electrónico del proveedor",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Claim form not sent",
+"kind": "list",
+"max": 30,
+"mt": "Formulario de reclamación no enviado",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Confirmation number to check",
+"kind": "list",
+"max": 30,
+"mt": "Número de confirmación para comprobar",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Supplier asked for an invoice",
+"kind": "list",
+"max": 30,
+"mt": "El proveedor solicitó una factura.",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Escalate to host agency",
+"kind": "list",
+"max": 30,
+"mt": "Escalar a la agencia de viajes anfitriona",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Top five supplier",
+"kind": "list",
+"max": 30,
+"mt": "Los cinco principales proveedores",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Rate is below the target",
+"kind": "list",
+"max": 30,
+"mt": "La tasa está por debajo del objetivo",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Escalate to the host agency now",
+"kind": "list",
+"max": 30,
+"mt": "Escalar a la agencia de viajes anfitriona ahora",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Difference is too small to claim",
+"kind": "list",
+"max": 30,
+"mt": "La diferencia es demasiado pequeña para reclamarla",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Bonus is out of reach",
+"kind": "list",
+"max": 30,
+"mt": "El bono está fuera de nuestro alcance",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Quote meets the target rate",
+"kind": "list",
+"max": 30,
+"mt": "La cotización cumple con la tasa objetivo",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Quote is below the target rate",
+"kind": "list",
+"max": 30,
+"mt": "La cotización está por debajo de la tasa objetivo.",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Business keeps a good share",
+"kind": "list",
+"max": 30,
+"mt": "Las empresas mantienen una buena participación",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Business keeps a thin share",
+"kind": "list",
+"max": 30,
+"mt": "Las empresas mantienen una pequeña participación",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Host rate is the biggest lever",
+"kind": "list",
+"max": 30,
+"mt": "La tarifa de host es la palanca más importante",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Chase log with promises and broken-promise check",
+"kind": "title",
+"max": 60,
+"mt": "Registro de persecución con promesas y cheques de promesa incumplida",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Host agency statements with fee and difference check",
+"kind": "title",
+"max": 60,
+"mt": "Estados de cuenta de la agencia anfitriona con verificación de tarifas y diferencias",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Commission forecast with probability and weighted amount",
+"kind": "title",
+"max": 60,
+"mt": "Previsión de comisiones con probabilidad y importe ponderado.",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier payment calendar with next expected payment",
+"kind": "title",
+"max": 60,
+"mt": "Calendario de pagos a proveedores con el próximo pago esperado",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Preferred supplier bonuses against sales targets",
+"kind": "title",
+"max": 60,
+"mt": "Preferred supplier bonuses against sales targets",
+"why": "not translated"
+},
+{
+"en": "Commission by supplier category and year",
+"kind": "title",
+"max": 60,
+"mt": "Commission by supplier category and year",
+"why": "not translated"
+},
+{
+"en": "Commissions still to claim with claim-by dates",
+"kind": "title",
+"max": 60,
+"mt": "Commissions still to claim with claim-by dates",
+"why": "not translated"
+},
+{
+"en": "Owner view of commission, shares and net earnings by month",
+"kind": "title",
+"max": 60,
+"mt": "Vista del propietario de comisiones, acciones y ganancias netas por mes",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Commission expected this year",
+"kind": "label",
+"max": null,
+"mt": "Commission expected this year",
+"why": "not translated"
+},
+{
+"en": "Commission received in the last 30 days",
+"kind": "label",
+"max": null,
+"mt": "Commission received in the last 30 days",
+"why": "not translated"
+},
+{
+"en": "Commission overdue past escalation days",
+"kind": "label",
+"max": null,
+"mt": "Commission overdue past escalation days",
+"why": "not translated"
+},
+{
+"en": "Commission received, host share, payouts and fees",
+"kind": "title",
+"max": 60,
+"mt": "Comisión recibida, participación del anfitrión, pagos y tarifas",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Host agency share",
+"kind": "label",
+"max": 30,
+"mt": "Participación de la agencia anfitriona",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Host agency statement with difference check",
+"kind": "title",
+"max": 60,
+"mt": "Declaración de la agencia anfitriona con verificación de diferencia",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Commission, host share, agency share and advisor payout",
+"kind": "title",
+"max": 60,
+"mt": "Comisión, participación del anfitrión, participación de la agencia y pago del asesor",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Who to chase first: age, amount and supplier history",
+"kind": "title",
+"max": 60,
+"mt": "A quién perseguir primero: edad, cantidad e historial de proveedores",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Short-paid commission: difference, rate and claim worth",
+"kind": "title",
+"max": 60,
+"mt": "Comisión pagada a corto plazo: diferencia, tasa y valor del reclamo",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Host agency tier, rate and sales needed for the next tier",
+"kind": "title",
+"max": 60,
+"mt": "Nivel de agencia anfitriona, tarifa y ventas necesarias para el siguiente nivel",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Commission expected in each of the next six 30-day periods",
+"kind": "title",
+"max": 60,
+"mt": "Comisión esperada en cada uno de los próximos seis períodos de 30 días.",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Average days late from three expected and paid dates",
+"kind": "title",
+"max": 60,
+"mt": "Promedio de días de retraso en tres fechas esperadas y pagadas",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Clawback impact on the host, advisor and business",
+"kind": "title",
+"max": 60,
+"mt": "Impacto de la recuperación en el anfitrión, el asesor y el negocio",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Agency net earnings for host rate and advisor rate together",
+"kind": "title",
+"max": 60,
+"mt": "Ganancias netas de la agencia por la tarifa de anfitrión y la tarifa de asesor juntas",
+"why": "too long: 85 characters, the limit is 60"
+}
+]

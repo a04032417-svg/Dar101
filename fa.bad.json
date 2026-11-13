@@ -1,0 +1,163 @@
+[
+{
+"en": "Due date: {col:supplier_payments.due_date}. Paid on: {col:supplier_payments.paid_on}. Days late: {col:supplier_payments.days_late}. Please confirm receipt and match it to your booking.",
+"kind": "document",
+"max": null,
+"mt": "تاریخ سررسید: {col:supplier_payments.due_date}. پرداخت شده در: {col:supplier_payments.paid_on}. روزهای تأخیر: {col:supplier_payments.days_late}. لطفاً رسید را تأیید کنید و آن را با رزرو خود مطابقت دهید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: days to warn of a final payment, days a deposit is due, the highest cancellation rate you accept and your cash floor.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: روزهای هشدار در مورد پرداخت نهایی، روزهای سررسید سپرده، بالاترین نرخ ابطال پذیرفته شده و کف نقدی شما.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "agency share, advisor rate, clawbacks and advances give each advisor a payout and a year to date",
+"kind": "sentence",
+"max": 160,
+"mt": "سهم آژانس، نرخ مشاور، clawbackها و پیشرفت ها به هر مشاور یک سال پرداخت می دهد",
+"why": "English/Latin words left: clawback"
+},
+{
+"en": "Supplier cancelled a service",
+"kind": "list",
+"max": 30,
+"mt": "تامین کننده یک سرویس را لغو کرد",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Price reduced after rebooking",
+"kind": "list",
+"max": 30,
+"mt": "پس از رزرو مجدد قیمت کاهش می یابد",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Escalate to the host agency now",
+"kind": "list",
+"max": 30,
+"mt": "اکنون به آژانس مسافرتی میزبان بروید",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Difference is too small to claim",
+"kind": "list",
+"max": 30,
+"mt": "تفاوت آنقدر کوچک است که بتوان ادعا کرد",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Reduce the payout not yet paid",
+"kind": "list",
+"max": 30,
+"mt": "پرداختی را که هنوز پرداخت نشده است کاهش دهید",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Supplier pays on time",
+"kind": "list",
+"max": 30,
+"mt": "تامین کننده به موقع پرداخت می کند",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Forecast covers the payouts",
+"kind": "list",
+"max": 30,
+"mt": "پیش بینی پرداخت ها را پوشش می دهد",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Business keeps a thin share",
+"kind": "list",
+"max": 30,
+"mt": "کسب و کار سهم کمی را حفظ می کند",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "One row per monthly host agency statement: commissions reported, host fee and amount paid to you; what you recorded, the difference, net share and match check fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف در بیانیه آژانس مسافرتی میزبان ماهانه: کمیسیون گزارش شده، هزینه میزبان و مبلغ پرداختی به شما. آنچه ثبت کردید، تفاوت، سهم خالص و چک مطابقت را خودشان پر می کنند.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Clawback ID",
+"kind": "label",
+"max": null,
+"mt": "شناسه Clawback",
+"why": "English/Latin words left: Clawback"
+},
+{
+"en": "Clawbacks in the last 12 months",
+"kind": "label",
+"max": null,
+"mt": "Clawback در 12 ماه گذشته",
+"why": "English/Latin words left: Clawback"
+},
+{
+"en": "Clawback with reason and effect on the payout",
+"kind": "title",
+"max": 60,
+"mt": "Clawback با دلیل و تأثیر در پرداخت",
+"why": "English/Latin words left: Clawback"
+},
+{
+"en": "Monthly advisor payout with clawbacks and advances",
+"kind": "title",
+"max": 60,
+"mt": "پرداخت ماهانه مشاور با clawback و پیش پرداخت",
+"why": "English/Latin words left: clawback"
+},
+{
+"en": "No clawback",
+"kind": "label",
+"max": null,
+"mt": "بدون clawback",
+"why": "English/Latin words left: clawback"
+},
+{
+"en": "Clawback impact on the host, advisor and business",
+"kind": "title",
+"max": 60,
+"mt": "تاثیر Clawback بر میزبان، مشاور و تجارت",
+"why": "English/Latin words left: Clawback"
+},
+{
+"en": "Advisor part of the clawback",
+"kind": "label",
+"max": null,
+"mt": "بخش مشاور clawback",
+"why": "English/Latin words left: clawback"
+},
+{
+"en": "Business part of the clawback",
+"kind": "label",
+"max": null,
+"mt": "بخش تجاری از clawback",
+"why": "English/Latin words left: clawback"
+},
+{
+"en": "Commission left after the clawback",
+"kind": "label",
+"max": null,
+"mt": "کمیسیون پس از clawback ترک شد",
+"why": "English/Latin words left: clawback"
+},
+{
+"en": "Host agency: a clawback was applied",
+"kind": "label",
+"max": null,
+"mt": "آژانس میزبان: یک clawback اعمال شد",
+"why": "English/Latin words left: clawback"
+},
+{
+"en": "A clawback of {amount} was applied to confirmation {confirmation} from {supplier}. Please check it with us.",
+"kind": "message",
+"max": null,
+"mt": "یک clawback از {amount} برای تأیید {confirmation} از {supplier} اعمال شد. لطفا آن را با ما بررسی کنید.",
+"why": "English/Latin words left: clawback"
+}
+]

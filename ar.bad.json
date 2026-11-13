@@ -1,0 +1,58 @@
+[
+{
+"en": "Due date: {col:supplier_payments.due_date}. Paid on: {col:supplier_payments.paid_on}. Days late: {col:supplier_payments.days_late}. Please confirm receipt and match it to your booking.",
+"kind": "document",
+"max": null,
+"mt": "تاريخ الاستحقاق: {col:supplier_payments.due_date}. مدفوع في: {col:supplier_payments.paid_on}. أيام متأخرة: {col:supplier_payments.days_late}. يرجى تأكيد الاستلام ومطابقته مع حجزك.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Log every supplier booking on Bookings: confirmation number, dates, price, commission rate, deposit and final payment. The net to supplier, balance owed and deadline checks fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "سجل حجز كل مورد على Bookings: رقم التأكيد والتواريخ والسعر وسعر العمولة والإيداع والدفع النهائي. يتم ملء الشبكة للمورد والرصيد المستحق وشيكات الموعد النهائي.",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "Escalate to host agency",
+"kind": "list",
+"max": 30,
+"mt": "التصعيد إلى وكالة السفر المضيفة",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Escalate to the host agency now",
+"kind": "list",
+"max": 30,
+"mt": "قم بالتصعيد إلى وكالة السفر المضيفة الآن",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Difference is too small to claim",
+"kind": "list",
+"max": 30,
+"mt": "الفرق صغير جدًا بحيث لا يمكن المطالبة به",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Quote is below the target rate",
+"kind": "list",
+"max": 30,
+"mt": "الاقتباس أقل من المعدل المستهدف",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Host agency tier, rate and sales needed for the next tier",
+"kind": "title",
+"max": 60,
+"mt": "مستوى الوكالة المضيفة والأسعار والمبيعات اللازمة للمستوى التالي",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "{name} has {overdue90} commissions unpaid past the escalation days, {unpaid} unpaid in all.",
+"kind": "message",
+"max": null,
+"mt": "{name} لديه {overdue90} عمولة غير مدفوعة بعد أيام التصعيد، {unpaid} غير مدفوعة إجمالاً.",
+"why": "English/Latin words left: overdue"
+}
+]

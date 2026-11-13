@@ -1,0 +1,310 @@
+[
+{
+"en": "Commission tracker by supplier with ageing",
+"kind": "label",
+"max": 50,
+"mt": "Suivi des commissions par fournisseur avec vieillissement",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "90-day escalation to the host agency",
+"kind": "label",
+"max": 50,
+"mt": "Transmission sous 90 jours à l'agence de voyages hôte",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Asked for booking details",
+"kind": "list",
+"max": 30,
+"mt": "Demandé les détails de la réservation",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Client cancelled part of the booking",
+"kind": "list",
+"max": 30,
+"mt": "Le client a annulé une partie de la réservation",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Supplier cancelled a service",
+"kind": "list",
+"max": 30,
+"mt": "Le fournisseur a annulé un service",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Traveller did not show",
+"kind": "list",
+"max": 30,
+"mt": "Le voyageur ne s'est pas présenté",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Price reduced after rebooking",
+"kind": "list",
+"max": 30,
+"mt": "Prix réduit après une nouvelle réservation",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Refund after a complaint",
+"kind": "list",
+"max": 30,
+"mt": "Remboursement après une réclamation",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Preferred supplier deal",
+"kind": "list",
+"max": 30,
+"mt": "Accord avec un fournisseur privilégié",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Claim form not sent",
+"kind": "list",
+"max": 30,
+"mt": "Formulaire de réclamation non envoyé",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Waiting for client names",
+"kind": "list",
+"max": 30,
+"mt": "En attente des noms des clients",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Confirmation number to check",
+"kind": "list",
+"max": 30,
+"mt": "Numéro de confirmation à vérifier",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Supplier asked for an invoice",
+"kind": "list",
+"max": 30,
+"mt": "Le fournisseur a demandé une facture",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Claim window passed",
+"kind": "list",
+"max": 30,
+"mt": "Période de réclamation dépassée",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Escalate to host agency",
+"kind": "list",
+"max": 30,
+"mt": "Transmettre à l'agence de voyages hôte",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Share below target",
+"kind": "list",
+"max": 30,
+"mt": "Partager en dessous de l'objectif",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Rate is below the target",
+"kind": "list",
+"max": 30,
+"mt": "Le taux est inférieur à l'objectif",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Escalate to the host agency now",
+"kind": "list",
+"max": 30,
+"mt": "Transférez-le maintenant à l'agence de voyages hôte",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Chase again first",
+"kind": "list",
+"max": 30,
+"mt": "Poursuivez à nouveau en premier",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Difference is too small to claim",
+"kind": "list",
+"max": 30,
+"mt": "La différence est trop petite pour être revendiquée",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Reduce the payout not yet paid",
+"kind": "list",
+"max": 30,
+"mt": "Réduire le paiement non encore payé",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Forecast covers the payouts",
+"kind": "list",
+"max": 30,
+"mt": "Les prévisions couvrent les paiements",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Quote meets the target rate",
+"kind": "list",
+"max": 30,
+"mt": "Le devis correspond au taux cible",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Quote is below the target rate",
+"kind": "list",
+"max": 30,
+"mt": "Le cours est inférieur au taux cible",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Business keeps a good share",
+"kind": "list",
+"max": 30,
+"mt": "Les affaires conservent une bonne part",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Business keeps a thin share",
+"kind": "list",
+"max": 30,
+"mt": "Les entreprises conservent une mince part",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Host rate is the biggest lever",
+"kind": "list",
+"max": 30,
+"mt": "Le taux d’hébergement est le plus gros levier",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Commissions with ageing, host split and payout",
+"kind": "title",
+"max": 60,
+"mt": "Commissions avec vieillissement, répartition des hôtes et paiement",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Chase log with promises and broken-promise check",
+"kind": "title",
+"max": 60,
+"mt": "Journal de poursuite avec promesses et contrôle de promesse non tenue",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Host agency statements with fee and difference check",
+"kind": "title",
+"max": 60,
+"mt": "Relevés de l'agence d'accueil avec vérification des honoraires et des différences",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Team with advisor rate, payouts and unpaid commission",
+"kind": "title",
+"max": 60,
+"mt": "Équipe avec taux conseiller, paiements et commissions impayées",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Supplier payment calendar with next expected payment",
+"kind": "title",
+"max": 60,
+"mt": "Calendrier de paiement du fournisseur avec le prochain paiement prévu",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Preferred supplier bonuses against sales targets",
+"kind": "title",
+"max": 60,
+"mt": "Bonus des fournisseurs privilégiés par rapport aux objectifs de vente",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Commissions still to claim with claim-by dates",
+"kind": "title",
+"max": 60,
+"mt": "Commissions encore à réclamer avec dates limites de réclamation",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Owner view of commission, shares and net earnings by month",
+"kind": "title",
+"max": 60,
+"mt": "Vue du propriétaire des commissions, des actions et des bénéfices nets par mois",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Short-pay claim with difference and recovery",
+"kind": "title",
+"max": 60,
+"mt": "Réclamation pour salaire insuffisant avec différence et récupération",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Rate change with the rate before and the live rate",
+"kind": "title",
+"max": 60,
+"mt": "Changement de tarif avec le tarif d'avant et le tarif en direct",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Commission, host share, agency share and advisor payout",
+"kind": "title",
+"max": 60,
+"mt": "Commission, part de l'hôte, part de l'agence et paiement du conseiller",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Who to chase first: age, amount and supplier history",
+"kind": "title",
+"max": 60,
+"mt": "Qui rechercher en premier : âge, montant et historique du fournisseur",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Short-paid commission: difference, rate and claim worth",
+"kind": "title",
+"max": 60,
+"mt": "Commissions payées à découvert : différence, taux et valeur du sinistre",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Host agency tier, rate and sales needed for the next tier",
+"kind": "title",
+"max": 60,
+"mt": "Niveau d'agence hôte, tarif et ventes nécessaires pour le niveau suivant",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Commission expected in each of the next six 30-day periods",
+"kind": "title",
+"max": 60,
+"mt": "Commission attendue dans chacune des six prochaines périodes de 30 jours",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Clawback impact on the host, advisor and business",
+"kind": "title",
+"max": 60,
+"mt": "Impact de la récupération sur l’hôte, le conseiller et l’entreprise",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Agency net earnings for host rate and advisor rate together",
+"kind": "title",
+"max": 60,
+"mt": "Bénéfice net de l'agence pour le tarif hôte et le tarif conseiller réunis",
+"why": "too long: 73 characters, the limit is 60"
+}
+]

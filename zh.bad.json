@@ -1,0 +1,16 @@
+[
+{
+"en": "Log every supplier booking on Bookings: confirmation number, dates, price, commission rate, deposit and final payment. The net to supplier, balance owed and deadline checks fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "在 Bookings 上记录每个供应商的预订：确认号码、日期、价格、佣金率、押金和最终付款。填写供应商净额、所欠余额和截止日期检查。",
+"why": "English/Latin words left: Bookings"
+},
+{
+"en": "{name} has {overdue90} commissions unpaid past the escalation days, {unpaid} unpaid in all.",
+"kind": "message",
+"max": null,
+"mt": "超过升级期限后，{name} 有 {overdue90} 笔佣金未付，总共有 {unpaid} 笔未付。",
+"why": "English/Latin words left: overdue"
+}
+]

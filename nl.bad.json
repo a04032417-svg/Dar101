@@ -1,0 +1,247 @@
+[
+{
+"en": "Final payments due",
+"kind": "label",
+"max": 30,
+"mt": "Laatste betalingen verschuldigd",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client cancelled part of the booking",
+"kind": "list",
+"max": 30,
+"mt": "Klant heeft een deel van de boeking geannuleerd",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Supplier cancelled a service",
+"kind": "list",
+"max": 30,
+"mt": "Leverancier heeft een dienst opgezegd",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Host agency notice",
+"kind": "list",
+"max": 30,
+"mt": "Kennisgeving van het gastbureau",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Travel has not ended",
+"kind": "list",
+"max": 30,
+"mt": "Het reizen is nog niet afgelopen",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Confirmation number to check",
+"kind": "list",
+"max": 30,
+"mt": "Bevestigingsnummer om te controleren",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Supplier asked for an invoice",
+"kind": "list",
+"max": 30,
+"mt": "Leverancier vroeg om een factuur",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Escalate to host agency",
+"kind": "list",
+"max": 30,
+"mt": "Escaleer naar het hostreisbureau",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Rate meets the target",
+"kind": "list",
+"max": 30,
+"mt": "Tarief voldoet aan de doelstelling",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Escalate to the host agency now",
+"kind": "list",
+"max": 30,
+"mt": "Escaleer nu naar het gastreisbureau",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Difference is too small to claim",
+"kind": "list",
+"max": 30,
+"mt": "Het verschil is te klein om te claimen",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Take it from the next payout",
+"kind": "list",
+"max": 30,
+"mt": "Neem het mee vanaf de volgende uitbetaling",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Reduce the payout not yet paid",
+"kind": "list",
+"max": 30,
+"mt": "Verlaag de nog niet betaalde uitbetaling",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Forecast covers the payouts",
+"kind": "list",
+"max": 30,
+"mt": "De prognose dekt de uitbetalingen",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Quote meets the target rate",
+"kind": "list",
+"max": 30,
+"mt": "Offerte voldoet aan het streeftarief",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Quote is below the target rate",
+"kind": "list",
+"max": 30,
+"mt": "Offerte ligt onder het richttarief",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Business keeps a good share",
+"kind": "list",
+"max": 30,
+"mt": "Het bedrijfsleven behoudt een goed aandeel",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Business keeps a thin share",
+"kind": "list",
+"max": 30,
+"mt": "Het bedrijfsleven behoudt een klein aandeel",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Host rate is the biggest lever",
+"kind": "list",
+"max": 30,
+"mt": "Het hosttarief is de grootste hefboom",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Suppliers with expected, received and unpaid commission",
+"kind": "title",
+"max": 60,
+"mt": "Leveranciers met verwachte, ontvangen en onbetaalde commissie",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Chase log with promises and broken-promise check",
+"kind": "title",
+"max": 60,
+"mt": "Achtervolgingslogboek met beloften en controle op gebroken beloften",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Host agency statements with fee and difference check",
+"kind": "title",
+"max": 60,
+"mt": "Verklaringen van gastbureaus met controle op vergoedingen en verschillen",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Team with advisor rate, payouts and unpaid commission",
+"kind": "title",
+"max": 60,
+"mt": "Team met adviseurstarief, uitbetalingen en onbetaalde commissie",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Supplier payment calendar with next expected payment",
+"kind": "title",
+"max": 60,
+"mt": "Betalingskalender van leveranciers met de volgende verwachte betaling",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Preferred supplier bonuses against sales targets",
+"kind": "title",
+"max": 60,
+"mt": "Bonussen voor voorkeursleveranciers ten opzichte van verkoopdoelstellingen",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Owner view of commission, shares and net earnings by month",
+"kind": "title",
+"max": 60,
+"mt": "Eigenaarsweergave van commissie, aandelen en nettowinst per maand",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Commission received, host share, payouts and fees",
+"kind": "title",
+"max": 60,
+"mt": "Ontvangen commissie, hostaandeel, uitbetalingen en vergoedingen",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Commission, host share, agency share and advisor payout",
+"kind": "title",
+"max": 60,
+"mt": "Commissie, hostaandeel, agentschapaandeel en adviseuruitbetaling",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Who to chase first: age, amount and supplier history",
+"kind": "title",
+"max": 60,
+"mt": "Wie moet je als eerste achtervolgen: leeftijd, hoeveelheid en leveranciersgeschiedenis",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Host agency tier, rate and sales needed for the next tier",
+"kind": "title",
+"max": 60,
+"mt": "Niveau van gastbureau, tarief en omzet die nodig zijn voor het volgende niveau",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Monthly advisor payout with clawbacks and advances",
+"kind": "title",
+"max": 60,
+"mt": "Maandelijkse adviseursuitbetaling met terugvorderingen en voorschotten",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Commission expected in each of the next six 30-day periods",
+"kind": "title",
+"max": 60,
+"mt": "Commissie verwacht in elk van de volgende zes perioden van 30 dagen",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Average days late from three expected and paid dates",
+"kind": "title",
+"max": 60,
+"mt": "Gemiddeld aantal dagen te laat vanaf drie verwachte en betaalde datums",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Expected commission on a quote before it is booked",
+"kind": "title",
+"max": 60,
+"mt": "Verwachte commissie op een offerte voordat deze wordt geboekt",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Agency net earnings for host rate and advisor rate together",
+"kind": "title",
+"max": 60,
+"mt": "Nettowinst van bureau voor hosttarief en adviseurtarief samen",
+"why": "too long: 61 characters, the limit is 60"
+}
+]
