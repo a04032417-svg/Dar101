@@ -1,0 +1,72 @@
+[
+{
+"en": "No reply after the quote",
+"kind": "list",
+"max": 30,
+"mt": "بعد از نقل قول پاسخی داده نمی شود",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Offer a lower hotel tier",
+"kind": "list",
+"max": 30,
+"mt": "یک طبقه پایین تر هتل ارائه دهید",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Quote can go out now",
+"kind": "list",
+"max": 30,
+"mt": "نقل قول می تواند در حال حاضر خارج شود",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Price hold ends first",
+"kind": "list",
+"max": 30,
+"mt": "توقف قیمت ابتدا به پایان می رسد",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Quote expiry ends first",
+"kind": "list",
+"max": 30,
+"mt": "انقضای نقل قول ابتدا به پایان می رسد",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Add-on earns no commission",
+"kind": "list",
+"max": 30,
+"mt": "افزونه هیچ کمیسیونی دریافت نمی کند",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Pick the stage and the source, type how well the budget fits the price, the days waiting, the quote value and your income on it; see the win chance and the weighted value for your pipeline.",
+"kind": "sentence",
+"max": null,
+"mt": "مرحله و منبع را انتخاب کنید، تایپ کنید که بودجه چقدر با قیمت، روزهای انتظار، ارزش نقل قول و درآمد شما مطابقت دارد. شانس برد و ارزش وزنی خط لوله خود را ببینید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello {client}, a gentle reminder about your {destination} quote sent on {date_sent}. Do you have questions, or would a call help?",
+"kind": "message",
+"max": null,
+"mt": "سلام {client}، یک یادآوری ملایم در مورد نقل قول شما در {date_sent} ارسال شد. آیا سوالی دارید یا تماس تلفنی کمک می کند؟",
+"why": "placeholders must be exactly: {client} {destination} {date_sent}"
+},
+{
+"en": "Hello {client}, I will send your {destination} quote line by line. The total is {total_quote}, which is {per_person} per person. Our service fee of {service_fee} is its own line.",
+"kind": "message",
+"max": null,
+"mt": "سلام {client}، من نقل قول شما را خط به خط ارسال می کنم. کل مبلغ {total_quote} است که برای هر نفر {per_person} است. هزینه خدمات ما از {service_fee} خط خودش است.",
+"why": "placeholders must be exactly: {client} {destination} {total_quote} {per_person} {service_fee}"
+},
+{
+"en": "Hello {contact}, thank you for considering us. We are sorry we could not match your budget for your {trip_type} trip. We would be glad to help in the future.",
+"kind": "message",
+"max": null,
+"mt": "سلام {contact}، از اینکه ما را در نظر گرفتید متشکریم. متأسفیم که نتوانستیم بودجه شما را برای سفر {trip_type} شما مطابقت دهیم. ما خوشحال خواهیم شد که در آینده کمک کنیم.",
+"why": "never use the word for \"compatible\""
+}
+]
