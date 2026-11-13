@@ -1,0 +1,65 @@
+[
+{
+"en": "Open Start and type your studio name and your own limits in the yellow cells: target scores, wanted trade discount, on-time target, the largest share for one vendor, the days that count as on time and the score weights.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام استودیو و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: امتیازات هدف، تخفیف تجاری مورد نظر، هدف به موقع، بیشترین سهم برای یک فروشنده، روزهایی که به‌عنوان زمان به حساب می‌آیند و وزن امتیاز.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Paid, filing pending",
+"kind": "list",
+"max": 30,
+"mt": "پرداخت شده، پرونده در انتظار است",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Plan covers the break-even",
+"kind": "list",
+"max": 30,
+"mt": "طرح نقطه سربه سر را پوشش می دهد",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Set-aside covers the tax",
+"kind": "list",
+"max": 30,
+"mt": "کنار گذاشتن مالیات را پوشش می دهد",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Cash stays above safety",
+"kind": "list",
+"max": 30,
+"mt": "پول نقد بالاتر از ایمنی باقی می ماند",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Cash drops below safety",
+"kind": "list",
+"max": 30,
+"mt": "پول نقد به زیر سطح ایمنی می رسد",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cash covers the wanted level",
+"kind": "list",
+"max": 30,
+"mt": "پول نقد سطح مورد نظر را پوشش می دهد",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Match every client payment to its invoice",
+"kind": "label",
+"max": null,
+"mt": "هر پرداخت مشتری را با فاکتور آن مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your studio name and your own limits in the yellow cells: target margin, hour cost, safety cash, tax set-aside share, months of cash cover, draw limit and overhead share per project.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام استودیو و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: حاشیه هدف، هزینه ساعت، وجه نقد ایمنی، سهم کنار گذاشتن مالیات، ماه‌ها پوشش نقدی، سقف قرعه کشی و سهم سربار در هر پروژه.",
+"why": "English/Latin words left: Start"
+}
+]

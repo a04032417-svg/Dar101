@@ -1,0 +1,184 @@
+[
+{
+"en": "Documents expiring",
+"kind": "label",
+"max": 30,
+"mt": "Срок действия документов истекает",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "invoiced less product cost, trades cost and labour at hour cost for every project, with the margin share and the margin per hour against your target",
+"kind": "sentence",
+"max": 160,
+"mt": "выставляется счет за вычетом себестоимости продукта, торговых затрат и стоимости труда по часовой стоимости для каждого проекта, при этом доля маржи и почасовая маржа соответствуют вашей цели",
+"why": "too long: 191 characters, the limit is 160"
+},
+{
+"en": "yearly overheads, payroll and owner draw divided by the margin of an average project, so you know how many projects you must finish",
+"kind": "sentence",
+"max": 160,
+"mt": "ежегодные накладные расходы, заработная плата и доход владельца, разделенные на прибыль среднего проекта, чтобы вы знали, сколько проектов вам необходимо завершить.",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "13-week cash forecast with safety level",
+"kind": "label",
+"max": 50,
+"mt": "13-недельный прогноз денежных средств с уровнем безопасности",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "expected receipts from open invoices against vendor, trade, payroll, overhead and tax payments each week, flagged below your safety level",
+"kind": "sentence",
+"max": 160,
+"mt": "ожидаемые поступления по открытым счетам-фактурам против поставщиков, торговых операций, заработной платы, накладных расходов и налоговых платежей каждую неделю, помеченные как ниже вашего уровня безопасности",
+"why": "too long: 208 characters, the limit is 160"
+},
+{
+"en": "Receivables and payables ageing",
+"kind": "label",
+"max": 50,
+"mt": "Сроки погашения дебиторской и кредиторской задолженности",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Studio rent and utilities",
+"kind": "list",
+"max": 30,
+"mt": "Аренда студии и коммунальные услуги",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Travel and site visits",
+"kind": "list",
+"max": 30,
+"mt": "Путешествия и посещения объектов",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Paid, filing pending",
+"kind": "list",
+"max": 30,
+"mt": "Оплачено, ожидается подача заявки",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Cyber and data cover",
+"kind": "list",
+"max": 30,
+"mt": "Кибербезопасность и защита данных",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Design software licences",
+"kind": "list",
+"max": 30,
+"mt": "Лицензии на программное обеспечение для проектирования",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Covers its overhead share",
+"kind": "list",
+"max": 30,
+"mt": "Покрывает свою долю накладных расходов",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Plan is below the break-even",
+"kind": "list",
+"max": 30,
+"mt": "План ниже уровня безубыточности",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Growth needs more capacity",
+"kind": "list",
+"max": 30,
+"mt": "Для роста требуется больше возможностей",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Cash stays above safety",
+"kind": "list",
+"max": 30,
+"mt": "Наличные остаются выше безопасности",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Cash drops below safety",
+"kind": "list",
+"max": 30,
+"mt": "Денежные средства падают ниже уровня безопасности",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Cash covers the wanted level",
+"kind": "list",
+"max": 30,
+"mt": "Денежные средства покрывают уровень розыска",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Cash is below the wanted level",
+"kind": "list",
+"max": 30,
+"mt": "Денежные средства ниже желаемого уровня",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Overheads heading over budget",
+"kind": "list",
+"max": 30,
+"mt": "Накладные расходы превышают бюджет",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cash forecast for the next 13 weeks with safety level",
+"kind": "title",
+"max": 60,
+"mt": "Денежный прогноз на следующие 13 недель с уровнем безопасности",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Overhead budget by category against spending this year",
+"kind": "title",
+"max": 60,
+"mt": "Накладные расходы бюджета по категориям относительно расходов в этом году",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Business tax instalments with days to the due date",
+"kind": "title",
+"max": 60,
+"mt": "Рассрочка по налогу на прибыль с указанием дней до даты платежа",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Insurance and yearly renewals with days to renewal",
+"kind": "title",
+"max": 60,
+"mt": "Страхование и ежегодное продление с указанием дней до продления",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Revenue, net result, overheads and cash received",
+"kind": "title",
+"max": 60,
+"mt": "Выручка, чистый результат, накладные расходы и полученные денежные средства",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Marketing spend with cost per booking and return",
+"kind": "title",
+"max": 60,
+"mt": "Маркетинговые расходы с учетом стоимости бронирования и возврата",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Client lifetime value and what to spend to keep the client",
+"kind": "title",
+"max": 60,
+"mt": "Пожизненная ценность клиента и что нужно потратить, чтобы удержать клиента",
+"why": "too long: 74 characters, the limit is 60"
+}
+]
