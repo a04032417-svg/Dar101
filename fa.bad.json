@@ -1,0 +1,37 @@
+[
+{
+"en": "Design show or showroom event",
+"kind": "list",
+"max": 30,
+"mt": "طراحی نمایشگاه یا رویداد نمایشگاه",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Cap above the expected bill",
+"kind": "list",
+"max": 30,
+"mt": "سرپوش بالاتر از صورتحساب مورد انتظار",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Fee value of proposals sent",
+"kind": "label",
+"max": 30,
+"mt": "ارزش کارمزد پیشنهادات ارسال شده",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Retainer, fee milestones and FF&E invoices with dates",
+"kind": "title",
+"max": 60,
+"mt": "نگهدارنده، نقاط عطف هزینه و فاکتورهای مبلمان، وسایل و تجهیزات با تاریخ",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, for your budget of {budget_est} we can offer three levels of FF&E: Essential {opt_ess}, Refined {opt_ref} or Luxury {opt_lux}. Which feels closest?",
+"kind": "message",
+"max": null,
+"mt": "سلام {contact}، با بودجه {budget_est} شما می‌توانیم سه سطح مبلمان، وسایل و تجهیزات ارائه دهیم: Essential {opt_ess}، Refined {opt_ref} یا Luxury {opt_lux}. کدام یک احساس نزدیکی می کند؟",
+"why": "English/Latin words left: Essential Refined Luxury"
+}
+]

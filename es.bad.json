@@ -1,0 +1,289 @@
+[
+{
+"en": "Fee yield check before signing",
+"kind": "label",
+"max": 50,
+"mt": "Verificación de rendimiento de tarifas antes de firmar",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Budget reality check by room",
+"kind": "label",
+"max": 50,
+"mt": "Verificación de la realidad del presupuesto por habitación",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Proposal builder from the rate card",
+"kind": "label",
+"max": 50,
+"mt": "Generador de propuestas a partir de la hoja de tarifas",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Source scoreboard with cost per project",
+"kind": "label",
+"max": 50,
+"mt": "Cuadro de indicadores de origen con coste por proyecto",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Percentage of FF&E",
+"kind": "list",
+"max": 30,
+"mt": "Porcentaje de muebles, enseres y equipos",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Referral from past client",
+"kind": "list",
+"max": 30,
+"mt": "Referencia de un cliente anterior",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Trade partner referral",
+"kind": "list",
+"max": 30,
+"mt": "Referencia de socios comerciales",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Architect or builder referral",
+"kind": "list",
+"max": 30,
+"mt": "Referencia de arquitecto o constructor.",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Design show or showroom event",
+"kind": "list",
+"max": 30,
+"mt": "Exposición de diseño o evento de sala de exposición",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Budget too low for the scope",
+"kind": "list",
+"max": 30,
+"mt": "Presupuesto demasiado bajo para el alcance",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Not our kind of project",
+"kind": "list",
+"max": 30,
+"mt": "No es nuestro tipo de proyecto.",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Above usual budget",
+"kind": "list",
+"max": 30,
+"mt": "Por encima del presupuesto habitual",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Fee above target yield",
+"kind": "list",
+"max": 30,
+"mt": "Tarifa por encima del rendimiento objetivo",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Fee below target yield",
+"kind": "list",
+"max": 30,
+"mt": "Tarifa por debajo del rendimiento objetivo",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Budget is too low",
+"kind": "list",
+"max": 30,
+"mt": "El presupuesto es demasiado bajo",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Win chance is high",
+"kind": "list",
+"max": 30,
+"mt": "La probabilidad de ganar es alta",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Win chance is moderate",
+"kind": "list",
+"max": 30,
+"mt": "La probabilidad de ganar es moderada",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Win chance is low",
+"kind": "list",
+"max": 30,
+"mt": "La probabilidad de ganar es baja",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cap above the expected bill",
+"kind": "list",
+"max": 30,
+"mt": "Límite por encima de la factura esperada",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Cap below the expected bill",
+"kind": "list",
+"max": 30,
+"mt": "Límite por debajo de la factura esperada",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Source does not pay back",
+"kind": "list",
+"max": 30,
+"mt": "La fuente no devuelve el dinero.",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Fee is too low for the hours",
+"kind": "list",
+"max": 30,
+"mt": "La tarifa es demasiado baja para las horas.",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Keep the scope and price",
+"kind": "list",
+"max": 30,
+"mt": "Mantenga el alcance y el precio.",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Enquiries with budget fit, replies and follow-ups",
+"kind": "title",
+"max": 60,
+"mt": "Consultas con ajuste de presupuesto, respuestas y seguimientos.",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Proposals with fee share, expiry and chase check",
+"kind": "title",
+"max": 60,
+"mt": "Propuestas con cuota compartida, vencimiento y cheque de seguimiento",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Projects with fee type, fee share and value per sqm",
+"kind": "title",
+"max": 60,
+"mt": "Proyectos con tipo de tarifa, tarifa compartida y valor por m2",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Referral partners with leads, bookings and value",
+"kind": "title",
+"max": 60,
+"mt": "Socios de referencia con clientes potenciales, reservas y valor",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Marketing results with cost per enquiry and per project",
+"kind": "title",
+"max": 60,
+"mt": "Resultados de marketing con coste por consulta y por proyecto.",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Lost enquiries with reason, price gap and lesson",
+"kind": "title",
+"max": 60,
+"mt": "Consultas perdidas con motivo, diferencia de precios y lección.",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "FF&E allowance per room by tier",
+"kind": "title",
+"max": 60,
+"mt": "asignación de muebles, accesorios y equipos por habitación por nivel",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Team with roles, hour cost, bill rate and booked until",
+"kind": "title",
+"max": 60,
+"mt": "Equipo con roles, costo de horas, tarifa de facturación y reservado hasta",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Fee value of proposals sent",
+"kind": "label",
+"max": 30,
+"mt": "Valor de la tarifa de las propuestas enviadas",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Package choice with fee model and price per room",
+"kind": "title",
+"max": 60,
+"mt": "Elección de paquete con modelo de tarifa y precio por habitación.",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Lost enquiry with reason, price gap and lesson",
+"kind": "title",
+"max": 60,
+"mt": "Consulta perdida con motivo, diferencia de precios y lección.",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Referral partner with leads, bookings and value",
+"kind": "title",
+"max": 60,
+"mt": "Socio de referencia con clientes potenciales, reservas y valor",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Design fee under three fee models, side by side",
+"kind": "title",
+"max": 60,
+"mt": "Tarifa de diseño bajo tres modelos de tarifas, uno al lado del otro",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Client budget reality check by category",
+"kind": "title",
+"max": 60,
+"mt": "Verificación de la realidad del presupuesto del cliente por categoría",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Retainer, fee milestones and FF&E invoices with dates",
+"kind": "title",
+"max": 60,
+"mt": "Anticipos, hitos de honorarios y facturas de muebles, accesorios y equipos con fechas",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Win chance and expected value of an enquiry or proposal",
+"kind": "title",
+"max": 60,
+"mt": "Ganar oportunidad y valor esperado de una consulta o propuesta",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Counter-offer when the budget is below your price",
+"kind": "title",
+"max": 60,
+"mt": "Contraoferta cuando el presupuesto está por debajo de su precio",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Price of extra rooms or revisions with the schedule impact",
+"kind": "title",
+"max": 60,
+"mt": "Precio de habitaciones extras o revisiones con impacto de horario",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

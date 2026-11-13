@@ -1,0 +1,184 @@
+[
+{
+"en": "Percentage of FF&E",
+"kind": "list",
+"max": 30,
+"mt": "Процент мебели, сантехники и оборудования",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Referral from past client",
+"kind": "list",
+"max": 30,
+"mt": "Рекомендации от прошлого клиента",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Architect or builder referral",
+"kind": "list",
+"max": 30,
+"mt": "Рекомендация архитектора или строителя",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Budget too low for the scope",
+"kind": "list",
+"max": 30,
+"mt": "Бюджет слишком мал для такого масштаба",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Follow-up planned",
+"kind": "list",
+"max": 30,
+"mt": "Планируется последующее наблюдение",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "No follow-up set",
+"kind": "list",
+"max": 30,
+"mt": "Нет набора последующих действий",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Expired still open",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия истек, все еще открыт",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Fee above target yield",
+"kind": "list",
+"max": 30,
+"mt": "Комиссия выше целевой доходности",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Fee below target yield",
+"kind": "list",
+"max": 30,
+"mt": "Комиссия ниже целевой доходности",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cap above the expected bill",
+"kind": "list",
+"max": 30,
+"mt": "Ограничение сверх ожидаемого счета",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cap below the expected bill",
+"kind": "list",
+"max": 30,
+"mt": "Ограничение ниже ожидаемого счета",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Extra rounds to charge",
+"kind": "list",
+"max": 30,
+"mt": "Дополнительные раунды для зарядки",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Enquiries with budget fit, replies and follow-ups",
+"kind": "title",
+"max": 60,
+"mt": "Запросы, соответствующие бюджету, ответы и последующие действия",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Proposals with fee share, expiry and chase check",
+"kind": "title",
+"max": 60,
+"mt": "Предложения с долей комиссии, сроком действия и проверкой погони",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Follow-up log with days since the last touch",
+"kind": "title",
+"max": 60,
+"mt": "Последующий журнал с указанием дней с момента последнего касания",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Lost enquiries with reason, price gap and lesson",
+"kind": "title",
+"max": 60,
+"mt": "Потерянные запросы с указанием причины, ценового разрыва и урока",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "FF&E allowance per room by tier",
+"kind": "title",
+"max": 60,
+"mt": "скидка на мебель, сантехнику и оборудование на комнату по уровням",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Team with roles, hour cost, bill rate and booked until",
+"kind": "title",
+"max": 60,
+"mt": "Команда с ролями, стоимостью часа, ставкой счета и забронировано до",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Signed value, fees proposed, retainers and marketing",
+"kind": "title",
+"max": 60,
+"mt": "Подписанная стоимость, предлагаемые гонорары, гонорары и маркетинг",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Fee value of proposals sent",
+"kind": "label",
+"max": 30,
+"mt": "Стоимость отправленных предложений",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Retainers invoiced",
+"kind": "label",
+"max": 30,
+"mt": "Счета-фактуры выставлены гонорарам",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Design brief with budget per room and deadline",
+"kind": "title",
+"max": 60,
+"mt": "Бриф на проектирование с указанием бюджета на комнату и сроков",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Fee proposal with service lines and expiry",
+"kind": "title",
+"max": 60,
+"mt": "Предложение по тарифам с линиями обслуживания и сроком действия",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Lost enquiry with reason, price gap and lesson",
+"kind": "title",
+"max": 60,
+"mt": "Потерянный запрос с указанием причины, ценового разрыва и урока",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Retainer, fee milestones and FF&E invoices with dates",
+"kind": "title",
+"max": 60,
+"mt": "Аванс, этапы оплаты и счета за мебель, приспособления и оборудование с указанием дат.",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Price of extra rooms or revisions with the schedule impact",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость дополнительных комнат или изменений, влияющих на график",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

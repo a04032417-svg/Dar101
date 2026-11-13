@@ -1,0 +1,233 @@
+[
+{
+"en": "Fee yield check before signing",
+"kind": "label",
+"max": 50,
+"mt": "Controllo del rendimento delle commissioni prima della firma",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "Source scoreboard with cost per project",
+"kind": "label",
+"max": 50,
+"mt": "Quadro di valutazione delle fonti con costo per progetto",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Percentage of FF&E",
+"kind": "list",
+"max": 30,
+"mt": "Percentuale di mobili, arredi e attrezzature",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Architect or builder referral",
+"kind": "list",
+"max": 30,
+"mt": "Referente architetto o costruttore",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Design show or showroom event",
+"kind": "list",
+"max": 30,
+"mt": "Mostra di design o evento in showroom",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Needs a second visit",
+"kind": "list",
+"max": 30,
+"mt": "Necessita di una seconda visita",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Budget too low for the scope",
+"kind": "list",
+"max": 30,
+"mt": "Budget troppo basso per l'ambito",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Not our kind of project",
+"kind": "list",
+"max": 30,
+"mt": "Non è il nostro tipo di progetto",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "No reply after proposal",
+"kind": "list",
+"max": 30,
+"mt": "Nessuna risposta dopo la proposta",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Fee on target",
+"kind": "list",
+"max": 30,
+"mt": "Commissione in linea con l'obiettivo",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Fee under target",
+"kind": "list",
+"max": 30,
+"mt": "Commissione inferiore all'obiettivo",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Next step passed",
+"kind": "list",
+"max": 30,
+"mt": "Il passaggio successivo è stato superato",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Fee above target yield",
+"kind": "list",
+"max": 30,
+"mt": "Commissione superiore al rendimento target",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Fee below target yield",
+"kind": "list",
+"max": 30,
+"mt": "Commissione inferiore al rendimento target",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Win chance is high",
+"kind": "list",
+"max": 30,
+"mt": "La possibilità di vincere è alta",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Win chance is moderate",
+"kind": "list",
+"max": 30,
+"mt": "La possibilità di vittoria è moderata",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Win chance is low",
+"kind": "list",
+"max": 30,
+"mt": "La possibilità di vincere è bassa",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Cap above the expected bill",
+"kind": "list",
+"max": 30,
+"mt": "Limite superiore al conto previsto",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cap below the expected bill",
+"kind": "list",
+"max": 30,
+"mt": "Tetto inferiore alla fattura prevista",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Rounds within allowance",
+"kind": "list",
+"max": 30,
+"mt": "Giri entro i limiti della franchigia",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Fee is too low for the hours",
+"kind": "list",
+"max": 30,
+"mt": "La tariffa è troppo bassa per gli orari",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Keep the scope and price",
+"kind": "list",
+"max": 30,
+"mt": "Mantieni la portata e il prezzo",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Projects with fee type, fee share and value per sqm",
+"kind": "title",
+"max": 60,
+"mt": "Progetti con tipologia di tariffa, quota di tariffa e valore al mq",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Marketing results with cost per enquiry and per project",
+"kind": "title",
+"max": 60,
+"mt": "Risultati di marketing con costo per richiesta e per progetto",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Follow-up log with days since the last touch",
+"kind": "title",
+"max": 60,
+"mt": "Registro di follow-up con i giorni trascorsi dall'ultimo tocco",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "FF&E allowance per room by tier",
+"kind": "title",
+"max": 60,
+"mt": "indennità per mobili, arredi e attrezzature per camera e per livello",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Team with roles, hour cost, bill rate and booked until",
+"kind": "title",
+"max": 60,
+"mt": "Team con ruoli, costo orario, tariffa della fattura e prenotato fino a",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Fee value of proposals sent",
+"kind": "label",
+"max": 30,
+"mt": "Valore della commissione delle proposte inviate",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Package choice with fee model and price per room",
+"kind": "title",
+"max": 60,
+"mt": "Scelta del pacchetto con modello tariffario e prezzo per camera",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Design fee under three fee models, side by side",
+"kind": "title",
+"max": 60,
+"mt": "Tassa di progettazione in tre modelli tariffari, fianco a fianco",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Retainer, fee milestones and FF&E invoices with dates",
+"kind": "title",
+"max": 60,
+"mt": "Acconti, scadenze tariffarie e fatture di mobili, impianti e attrezzature con date",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Win chance and expected value of an enquiry or proposal",
+"kind": "title",
+"max": 60,
+"mt": "Vinci la possibilità e il valore atteso di una richiesta o di una proposta",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Price of extra rooms or revisions with the schedule impact",
+"kind": "title",
+"max": 60,
+"mt": "Prezzo di camere extra o revisioni con impatto sulla pianificazione",
+"why": "too long: 67 characters, the limit is 60"
+}
+]
