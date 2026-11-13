@@ -1,0 +1,135 @@
+[
+{
+"en": "last service, odometer and interval give the km left, an estimated due date and an overdue flag for three services on every truck",
+"kind": "sentence",
+"max": 160,
+"mt": "El último servicio, el odómetro y el intervalo indican los kilómetros restantes, una fecha de vencimiento estimada y un indicador de vencimiento para tres servicios en cada camión.",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Reefer unit repair",
+"kind": "list",
+"max": 30,
+"mt": "Reparación de unidades refrigeradas",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Body and trailer repair",
+"kind": "list",
+"max": 30,
+"mt": "Reparación de carrocerías y remolques.",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Reefer specialist",
+"kind": "list",
+"max": 30,
+"mt": "Especialista en contenedores frigoríficos",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Brakes and suspension check",
+"kind": "list",
+"max": 30,
+"mt": "Revisión de frenos y suspensión",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Gearbox and axle oil",
+"kind": "list",
+"max": 30,
+"mt": "Aceite de caja de cambios y ejes",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Body or trailer damage",
+"kind": "list",
+"max": 30,
+"mt": "Daños en la carrocería o el remolque",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Brake pads, axle set",
+"kind": "list",
+"max": 30,
+"mt": "Pastillas de freno, juego de ejes",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Reefer drive belt",
+"kind": "list",
+"max": 30,
+"mt": "Correa de transmisión para frigoríficos",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Gearbox oil, 20 litre",
+"kind": "list",
+"max": 30,
+"mt": "Aceite de caja de cambios, 20 litros",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Workshops, mobile repair, tyre shops and parts suppliers",
+"kind": "title",
+"max": 60,
+"mt": "Talleres, reparación de móviles, neumáticos y proveedores de repuestos.",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Maintenance log with labour, parts and downtime",
+"kind": "title",
+"max": 60,
+"mt": "Registro de mantenimiento con mano de obra, piezas y tiempo de inactividad.",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Downtime, availability and maintenance budget by month",
+"kind": "title",
+"max": 60,
+"mt": "Presupuesto de paradas, disponibilidad y mantenimiento por mes",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Revenue lost to downtime",
+"kind": "label",
+"max": 30,
+"mt": "Ingresos perdidos por el tiempo de inactividad",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Tyre cost per 1000 km and retread against new",
+"kind": "title",
+"max": 60,
+"mt": "Coste del neumático cada 1.000 km y recauchutado frente a nuevo.",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Maintenance budget from km planned and cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Presupuesto de mantenimiento a partir de km planificados y coste por km",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Availability rate and revenue lost from downtime",
+"kind": "title",
+"max": 60,
+"mt": "Tasa de disponibilidad e ingresos perdidos por el tiempo de inactividad",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Trade-in and resale value estimate from age and odometer",
+"kind": "title",
+"max": 60,
+"mt": "Estimación del valor de intercambio y reventa a partir de la edad y el odómetro",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "What-if grid: truck age and repair cost against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Cuadrícula hipotética: antigüedad del camión y coste de reparación frente al coste por kilómetro",
+"why": "too long: 96 characters, the limit is 60"
+}
+]

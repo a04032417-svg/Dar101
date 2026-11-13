@@ -1,0 +1,128 @@
+[
+{
+"en": "last service, odometer and interval give the km left, an estimated due date and an overdue flag for three services on every truck",
+"kind": "sentence",
+"max": 160,
+"mt": "último serviço, hodômetro e intervalo fornecem os quilômetros restantes, uma data de vencimento estimada e um sinalizador de atraso para três serviços em cada caminhão",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Spare parts reorder flags",
+"kind": "label",
+"max": 50,
+"mt": "Sinalizadores de reordenamento de peças sobressalentes",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Body and trailer repair",
+"kind": "list",
+"max": 30,
+"mt": "Reparação de carrocerias e reboques",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Brakes and suspension check",
+"kind": "list",
+"max": 30,
+"mt": "Verificação de freios e suspensão",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Gearbox and axle oil",
+"kind": "list",
+"max": 30,
+"mt": "Óleo para caixa de câmbio e eixo",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Body or trailer damage",
+"kind": "list",
+"max": 30,
+"mt": "Danos na carroceria ou no trailer",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Brake pads, axle set",
+"kind": "list",
+"max": 30,
+"mt": "Pastilhas de freio, conjunto de eixo",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Reefer drive belt",
+"kind": "list",
+"max": 30,
+"mt": "Correia de transmissão refrigerada",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Gearbox oil, 20 litre",
+"kind": "list",
+"max": 30,
+"mt": "Óleo de caixa de câmbio, 20 litros",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Service is not due yet",
+"kind": "list",
+"max": 30,
+"mt": "O serviço ainda não está vencido",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Workshops, mobile repair, tyre shops and parts suppliers",
+"kind": "title",
+"max": 60,
+"mt": "Oficinas, reparos móveis, lojas de pneus e fornecedores de peças",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Maintenance log with labour, parts and downtime",
+"kind": "title",
+"max": 60,
+"mt": "Registro de manutenção com mão de obra, peças e tempo de inatividade",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Downtime, availability and maintenance budget by month",
+"kind": "title",
+"max": 60,
+"mt": "Tempo de inatividade, disponibilidade e orçamento de manutenção por mês",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Revenue lost to downtime",
+"kind": "label",
+"max": 30,
+"mt": "Receita perdida devido ao tempo de inatividade",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Availability rate and revenue lost from downtime",
+"kind": "title",
+"max": 60,
+"mt": "Taxa de disponibilidade e receita perdida devido ao tempo de inatividade",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Trade-in and resale value estimate from age and odometer",
+"kind": "title",
+"max": 60,
+"mt": "Estimativa do valor de troca e revenda a partir da idade e do hodômetro",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Trailer count needed from loads per week",
+"kind": "title",
+"max": 60,
+"mt": "Contagem de reboques necessária a partir de cargas por semana",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "What-if grid: truck age and repair cost against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Grade hipotética: idade do caminhão e custo de reparo em relação ao custo por km",
+"why": "too long: 80 characters, the limit is 60"
+}
+]

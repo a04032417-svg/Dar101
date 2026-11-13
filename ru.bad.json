@@ -1,0 +1,149 @@
+[
+{
+"en": "last service, odometer and interval give the km left, an estimated due date and an overdue flag for three services on every truck",
+"kind": "sentence",
+"max": 160,
+"mt": "последнее обслуживание, одометр и интервал указывают оставшийся километраж, предполагаемую дату выполнения и флаг просрочки для трех сервисов на каждом грузовике.",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Maintenance log with real cost",
+"kind": "label",
+"max": 50,
+"mt": "Журнал технического обслуживания с реальной стоимостью",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "steer, drive and trailer tyres with the km left on each, plus a replace-soon flag against your own limit",
+"kind": "sentence",
+"max": 160,
+"mt": "шины рулевого управления, ведущего колеса и прицепа с указанием оставшегося километража на каждой, а также отметка о скорой замене в соответствии с вашим собственным лимитом.",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Cooling and electrical",
+"kind": "list",
+"max": 30,
+"mt": "Охлаждение и электрооборудование",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Reefer unit repair",
+"kind": "list",
+"max": 30,
+"mt": "Ремонт рефрижераторной установки",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Gearbox and axle oil",
+"kind": "list",
+"max": 30,
+"mt": "Масло для коробки передач и мостов",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cooling or electrical",
+"kind": "list",
+"max": 30,
+"mt": "Охлаждение или электрооборудование",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Reefer unit fault",
+"kind": "list",
+"max": 30,
+"mt": "Неисправность рефрижераторной установки",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Brake pads, axle set",
+"kind": "list",
+"max": 30,
+"mt": "Тормозные колодки, комплект осей",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Coolant, 20 litre",
+"kind": "list",
+"max": 30,
+"mt": "Охлаждающая жидкость, 20 литров",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fuse and relay kit",
+"kind": "list",
+"max": 30,
+"mt": "Комплект предохранителей и реле",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Reefer unit filter",
+"kind": "list",
+"max": 30,
+"mt": "Фильтр рефрижераторной установки",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Gearbox oil, 20 litre",
+"kind": "list",
+"max": 30,
+"mt": "Масло трансмиссионное, 20 литров",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Service is due now",
+"kind": "list",
+"max": 30,
+"mt": "Срок оказания услуги истекает сейчас",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Service is not due yet",
+"kind": "list",
+"max": 30,
+"mt": "Срок оказания услуги еще не истек",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Workshops, mobile repair, tyre shops and parts suppliers",
+"kind": "title",
+"max": 60,
+"mt": "Мастерские, мобильный ремонт, шиномонтажные мастерские и поставщики запчастей",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Maintenance log with labour, parts and downtime",
+"kind": "title",
+"max": 60,
+"mt": "Журнал технического обслуживания с указанием работ, запчастей и времени простоя",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Tyre cost per 1000 km and retread against new",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость шин на 1000 км и восстановление протектора по сравнению с новыми",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Maintenance budget from km planned and cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Бюджет технического обслуживания от запланированных км и стоимость за км",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Trade-in and resale value estimate from age and odometer",
+"kind": "title",
+"max": 60,
+"mt": "Оценка стоимости при обмене и перепродаже на основе возраста и одометра",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "What-if grid: truck age and repair cost against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Сетка «что если»: возраст грузовика и стоимость ремонта в зависимости от стоимости километра",
+"why": "too long: 92 characters, the limit is 60"
+}
+]

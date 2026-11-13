@@ -1,0 +1,128 @@
+[
+{
+"en": "last service, odometer and interval give the km left, an estimated due date and an overdue flag for three services on every truck",
+"kind": "sentence",
+"max": 160,
+"mt": "l'ultimo tagliando, il contachilometri e l'intervallo indicano i km rimasti, una data di scadenza stimata e un indicatore di ritardo per tre tagliandi su ogni camion",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "days down and loads lost are priced at your revenue per day, and a truck with no return date shows as in the shop",
+"kind": "sentence",
+"max": 160,
+"mt": "i giorni di inattività e i carichi persi vengono valutati in base alle entrate giornaliere e un camion senza data di restituzione viene visualizzato come nel negozio",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Reefer unit repair",
+"kind": "list",
+"max": 30,
+"mt": "Riparazione dell'unità refrigerata",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Body and trailer repair",
+"kind": "list",
+"max": 30,
+"mt": "Riparazione carrozzeria e rimorchio",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Body or trailer damage",
+"kind": "list",
+"max": 30,
+"mt": "Danni alla carrozzeria o al rimorchio",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Brake pad wear",
+"kind": "list",
+"max": 30,
+"mt": "Usura delle pastiglie dei freni",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Door or floor damage",
+"kind": "list",
+"max": 30,
+"mt": "Danni alla porta o al pavimento",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Reefer unit fault",
+"kind": "list",
+"max": 30,
+"mt": "Guasto all'unità di refrigerazione",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Reefer drive belt",
+"kind": "list",
+"max": 30,
+"mt": "Cinghia di trasmissione del frigorifero",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Service is not due yet",
+"kind": "list",
+"max": 30,
+"mt": "Il servizio non è ancora scaduto",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Workshops, mobile repair, tyre shops and parts suppliers",
+"kind": "title",
+"max": 60,
+"mt": "Officine, riparazioni mobili, gommisti e fornitori di ricambi",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Maintenance log with labour, parts and downtime",
+"kind": "title",
+"max": 60,
+"mt": "Registro di manutenzione con manodopera, ricambi e tempi di fermo",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Downtime, availability and maintenance budget by month",
+"kind": "title",
+"max": 60,
+"mt": "Tempi di inattività, disponibilità e budget di manutenzione per mese",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Revenue lost to downtime",
+"kind": "label",
+"max": 30,
+"mt": "Guadagni persi a causa dei tempi di inattività",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Tyre cost per 1000 km and retread against new",
+"kind": "title",
+"max": 60,
+"mt": "Costo del pneumatico per 1000 km e ricostruito rispetto al nuovo",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Availability rate and revenue lost from downtime",
+"kind": "title",
+"max": 60,
+"mt": "Tasso di disponibilità ed entrate perse a causa dei tempi di inattività",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Trade-in and resale value estimate from age and odometer",
+"kind": "title",
+"max": 60,
+"mt": "Stima del valore di permuta e di rivendita in base all'età e al contachilometri",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "What-if grid: truck age and repair cost against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Griglia \"what-if\": età del camion e costo di riparazione rispetto al costo per km",
+"why": "too long: 81 characters, the limit is 60"
+}
+]

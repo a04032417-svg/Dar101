@@ -1,0 +1,142 @@
+[
+{
+"en": "Average monthly swing",
+"kind": "label",
+"max": 30,
+"mt": "Durchschnittlicher monatlicher Swing",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "last service, odometer and interval give the km left, an estimated due date and an overdue flag for three services on every truck",
+"kind": "sentence",
+"max": 160,
+"mt": "Letzte Wartung, Kilometerzähler und Intervall geben die verbleibenden Kilometer, ein voraussichtliches Fälligkeitsdatum und eine Überfälligkeitsmarkierung für drei Wartungen an jedem LKW an",
+"why": "too long: 189 characters, the limit is 160"
+},
+{
+"en": "Breakdowns with the revenue they cost",
+"kind": "label",
+"max": 50,
+"mt": "Aufschlüsselungen mit den Einnahmen, die sie kosten",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "stock value and a reorder flag for filters, belts, lamps, hoses and fluids, with the cost of the reorder and the supplier phone",
+"kind": "sentence",
+"max": 160,
+"mt": "Lagerbestandswert und eine Nachbestellmarkierung für Filter, Riemen, Lampen, Schläuche und Flüssigkeiten, mit den Kosten der Nachbestellung und der Telefonnummer des Lieferanten",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Body and trailer repair",
+"kind": "list",
+"max": 30,
+"mt": "Karosserie- und Anhängerreparatur",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Brakes and suspension check",
+"kind": "list",
+"max": 30,
+"mt": "Überprüfung der Bremsen und Federung",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Body or trailer damage",
+"kind": "list",
+"max": 30,
+"mt": "Schäden an Karosserie oder Anhänger",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Door or floor damage",
+"kind": "list",
+"max": 30,
+"mt": "Beschädigung der Tür oder des Bodens",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Service is not due yet",
+"kind": "list",
+"max": 30,
+"mt": "Der Service ist noch nicht fällig",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Workshops, mobile repair, tyre shops and parts suppliers",
+"kind": "title",
+"max": 60,
+"mt": "Werkstätten, mobile Reparaturen, Reifengeschäfte und Teilelieferanten",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Maintenance log with labour, parts and downtime",
+"kind": "title",
+"max": 60,
+"mt": "Wartungsprotokoll mit Arbeitsaufwand, Teilen und Ausfallzeiten",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Option",
+"kind": "label",
+"max": null,
+"mt": "Option",
+"why": "not translated"
+},
+{
+"en": "Revenue lost to downtime",
+"kind": "label",
+"max": 30,
+"mt": "Umsatzeinbußen durch Ausfallzeiten",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Tyre cost per 1000 km and retread against new",
+"kind": "title",
+"max": 60,
+"mt": "Reifenkosten pro 1000 km und runderneuert im Vergleich zu neu",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Trade-in and resale value estimate from age and odometer",
+"kind": "title",
+"max": 60,
+"mt": "Schätzung des Inzahlungnahme- und Wiederverkaufswerts anhand von Alter und Kilometerstand",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "What-if grid: truck age and repair cost against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: LKW-Alter und Reparaturkosten im Vergleich zu den Kosten pro km",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Driver: use this trailer",
+"kind": "label",
+"max": null,
+"mt": "Driver: use this trailer",
+"why": "not translated"
+},
+{
+"en": "Workshop: quote needed",
+"kind": "label",
+"max": null,
+"mt": "Workshop: quote needed",
+"why": "not translated"
+},
+{
+"en": "Workshop: warranty claim",
+"kind": "label",
+"max": null,
+"mt": "Workshop: warranty claim",
+"why": "not translated"
+},
+{
+"en": "Workshop: tyres needed",
+"kind": "label",
+"max": null,
+"mt": "Workshop: tyres needed",
+"why": "not translated"
+}
+]

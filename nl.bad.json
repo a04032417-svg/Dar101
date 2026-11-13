@@ -1,0 +1,86 @@
+[
+{
+"en": "last service, odometer and interval give the km left, an estimated due date and an overdue flag for three services on every truck",
+"kind": "sentence",
+"max": 160,
+"mt": "laatste onderhoudsbeurt, kilometerteller en interval geven de resterende km, een geschatte vervaldatum en een markering voor achterstallig onderhoud voor elke vrachtwagen",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Body and trailer repair",
+"kind": "list",
+"max": 30,
+"mt": "Reparatie van carrosserie en aanhangwagen",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Brakes and suspension check",
+"kind": "list",
+"max": 30,
+"mt": "Controle van remmen en ophanging",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Body or trailer damage",
+"kind": "list",
+"max": 30,
+"mt": "Schade aan carrosserie of aanhangwagen",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Used truck, 2 years old",
+"kind": "list",
+"max": 30,
+"mt": "Gebruikte vrachtwagen, 2 jaar oud",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Used truck, 5 years old",
+"kind": "list",
+"max": 30,
+"mt": "Gebruikte vrachtwagen, 5 jaar oud",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Washer fluid, 20 litre",
+"kind": "list",
+"max": 30,
+"mt": "Ruitensproeiervloeistof, 20 liter",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Service is not due yet",
+"kind": "list",
+"max": 30,
+"mt": "De dienst is nog niet verschuldigd",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Workshops, mobile repair, tyre shops and parts suppliers",
+"kind": "title",
+"max": 60,
+"mt": "Werkplaatsen, mobiele reparatie, bandenwinkels en onderdelenleveranciers",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Interval, km",
+"kind": "label",
+"max": null,
+"mt": "Interval, km",
+"why": "not translated"
+},
+{
+"en": "Trade-in and resale value estimate from age and odometer",
+"kind": "title",
+"max": 60,
+"mt": "Geschatte inruil- en verkoopwaarde op basis van leeftijd en kilometerteller",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "What-if grid: truck age and repair cost against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Wat-als-raster: leeftijd van de vrachtwagen en reparatiekosten versus kosten per km",
+"why": "too long: 83 characters, the limit is 60"
+}
+]

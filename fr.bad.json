@@ -1,0 +1,170 @@
+[
+{
+"en": "last service, odometer and interval give the km left, an estimated due date and an overdue flag for three services on every truck",
+"kind": "sentence",
+"max": 160,
+"mt": "le dernier entretien, le compteur kilométrique et l'intervalle donnent les kilomètres restants, une date d'échéance estimée et un indicateur de retard pour trois entretiens sur chaque camion",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "Spare parts reorder flags",
+"kind": "label",
+"max": 50,
+"mt": "Drapeaux de réapprovisionnement en pièces détachées",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "stock value and a reorder flag for filters, belts, lamps, hoses and fluids, with the cost of the reorder and the supplier phone",
+"kind": "sentence",
+"max": 160,
+"mt": "valeur du stock et un indicateur de commande pour les filtres, courroies, lampes, tuyaux et fluides, avec le coût de la commande et le numéro de téléphone du fournisseur",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Reefer unit repair",
+"kind": "list",
+"max": 30,
+"mt": "Réparation d'unité frigorifique",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Body and trailer repair",
+"kind": "list",
+"max": 30,
+"mt": "Réparation de carrosserie et de remorque",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Rotation",
+"kind": "list",
+"max": 30,
+"mt": "Rotation",
+"why": "not translated"
+},
+{
+"en": "Brakes and suspension check",
+"kind": "list",
+"max": 30,
+"mt": "Vérification des freins et des suspensions",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Gearbox and axle oil",
+"kind": "list",
+"max": 30,
+"mt": "Huile de boîte de vitesses et de pont",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Body or trailer damage",
+"kind": "list",
+"max": 30,
+"mt": "Dommages à la carrosserie ou à la remorque",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Tyre tread low",
+"kind": "list",
+"max": 30,
+"mt": "Bande de roulement du pneu faible",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Brake pads, axle set",
+"kind": "list",
+"max": 30,
+"mt": "Plaquettes de frein, jeu d'essieux",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Coolant, 20 litre",
+"kind": "list",
+"max": 30,
+"mt": "Liquide de refroidissement, 20 litres",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Reefer drive belt",
+"kind": "list",
+"max": 30,
+"mt": "Courroie d'entraînement pour camion frigorifique",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Gearbox oil, 20 litre",
+"kind": "list",
+"max": 30,
+"mt": "Huile de boîte de vitesses, 20 litres",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Workshops, mobile repair, tyre shops and parts suppliers",
+"kind": "title",
+"max": 60,
+"mt": "Ateliers, réparation mobile, ateliers de pneus et fournisseurs de pièces",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Maintenance log with labour, parts and downtime",
+"kind": "title",
+"max": 60,
+"mt": "Journal de maintenance avec main d'œuvre, pièces et temps d'arrêt",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Downtime, availability and maintenance budget by month",
+"kind": "title",
+"max": 60,
+"mt": "Budget d'indisponibilité, de disponibilité et de maintenance par mois",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Revenue lost to downtime",
+"kind": "label",
+"max": 30,
+"mt": "Revenus perdus en raison des temps d'arrêt",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Service due from odometer and interval",
+"kind": "title",
+"max": 60,
+"mt": "Entretien dû à partir du compteur kilométrique et de l'intervalle",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Availability rate and revenue lost from downtime",
+"kind": "title",
+"max": 60,
+"mt": "Taux de disponibilité et perte de revenus en raison des temps d'arrêt",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Trade-in and resale value estimate from age and odometer",
+"kind": "title",
+"max": 60,
+"mt": "Estimation de la valeur d'échange et de revente à partir de l'âge et du compteur kilométrique",
+"why": "too long: 93 characters, the limit is 60"
+},
+{
+"en": "Reefer unit service interval from hours",
+"kind": "title",
+"max": 60,
+"mt": "Intervalle d'entretien des unités frigorifiques à partir d'heures",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Trailer count needed from loads per week",
+"kind": "title",
+"max": 60,
+"mt": "Nombre de remorques nécessaires à partir de chargements par semaine",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What-if grid: truck age and repair cost against cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Grille de simulation : âge du camion et coût de réparation par rapport au coût par km",
+"why": "too long: 85 characters, the limit is 60"
+}
+]
