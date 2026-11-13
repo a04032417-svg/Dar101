@@ -1,0 +1,23 @@
+[
+{
+"en": "Claim {col:claims.claim_id} for incident {col:claims.incident_id}, load {col:claims.load_id} of {col:claims.customer}, truck {col:claims.truck}, made on {col:claims.date}.",
+"kind": "document",
+"max": null,
+"mt": "针对事件 {col:claims.incident_id} 索赔 {col:claims.claim_id}，负载为 {col:claims.customer}，卡车 {col:claims.truck}，于 {col:claims.date} 进行。",
+"why": "placeholders must be exactly: {col:claims.claim_id} {col:claims.incident_id} {col:claims.load_id} {col:claims.customer} {col:claims.truck} {col:claims.date}"
+},
+{
+"en": "Check Trucks and Drivers, then list every paper in Compliance Items: licences, medical cards, registrations, road permits, insurance and safety inspections, each with its expiry date.",
+"kind": "sentence",
+"max": null,
+"mt": "检查 Trucks and Drivers，然后列出 合规项目 中的每份文件：执照、医疗卡、登记、道路许可证、保险和安全检查，每份文件均附有到期日期。",
+"why": "English/Latin words left: Trucks and Drivers"
+},
+{
+"en": "Lane profitability report of {set:company}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} 的 Lane 盈利能力报告，日期为 {today}。",
+"why": "English/Latin words left: Lane"
+}
+]

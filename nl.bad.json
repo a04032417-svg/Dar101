@@ -1,0 +1,93 @@
+[
+{
+"en": "fuel, driver pay, repairs, tyres, tolls, insurance, payments and overhead over the km you really drive, with the empty km carried by the loaded km",
+"kind": "sentence",
+"max": 160,
+"mt": "brandstof, chauffeursvergoeding, reparaties, banden, tol, verzekering, betalingen en overhead over de km die u werkelijk rijdt, waarbij de lege km wordt gedragen door de geladen km",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Lanes to keep, raise, fix or drop",
+"kind": "label",
+"max": 50,
+"mt": "Banen om te behouden, verhogen, repareren of laten vallen",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Driver pay and per diem",
+"kind": "list",
+"max": 30,
+"mt": "Chauffeurssalaris en dagvergoeding",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Meals, lodging and training",
+"kind": "list",
+"max": 30,
+"mt": "Maaltijden, accommodatie en training",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Truck is above break-even",
+"kind": "list",
+"max": 30,
+"mt": "De vrachtwagen is boven break-even",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Truck is below break-even",
+"kind": "list",
+"max": 30,
+"mt": "De vrachtwagen is beneden break-even",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Truck pays for itself",
+"kind": "list",
+"max": 30,
+"mt": "Vrachtwagen betaalt zichzelf terug",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Margin is under target",
+"kind": "list",
+"max": 30,
+"mt": "De marge ligt onder de doelstelling",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Lane profitability with empty km cost",
+"kind": "title",
+"max": 60,
+"mt": "Winstgevendheid van rijstroken met kosten voor lege kilometers",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Price swing scenarios against the last twelve months",
+"kind": "title",
+"max": 60,
+"mt": "Prijsschommelingsscenario's ten opzichte van de afgelopen twaalf maanden",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Scenario",
+"kind": "label",
+"max": null,
+"mt": "Scenario",
+"why": "not translated"
+},
+{
+"en": "Effect of a fuel price rise on cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Effect van een stijging van de brandstofprijs op de kosten per km",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Effect of a driver pay rise on cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Effect van een loonsverhoging voor de chauffeur op de kosten per km",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

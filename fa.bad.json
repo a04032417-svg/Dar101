@@ -1,0 +1,79 @@
+[
+{
+"en": "Driver compliance file of {set:company}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "فایل مطابقت با درایور {set:company}، مورخ {today}.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Truck or trailer compliance file",
+"kind": "title",
+"max": 60,
+"mt": "فایل مطابقت کامیون یا تریلر",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Compliance file of {set:company}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "فایل مطابقت {set:company}، مورخ {today}.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Compliance summary of {set:company}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "خلاصه مطابقت {set:company}، مورخ {today}.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Print the driver compliance files",
+"kind": "label",
+"max": null,
+"mt": "فایل های سازگار با درایور را چاپ کنید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Print the truck compliance files",
+"kind": "label",
+"max": null,
+"mt": "فایل های مطابقت کامیون را چاپ کنید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Record every monthly check, trailer check, annual inspection and roadside stop on Inspections and Roadside Inspections; Annual Safety Inspections shows the next due date of every asset.",
+"kind": "sentence",
+"max": null,
+"mt": "هر چک ماهانه، بررسی تریلر، بازرسی سالانه و توقف کنار جاده را در Inspections و بازرسی های کنار جاده ای ثبت کنید. بازرسی سالانه ایمنی تاریخ سررسید بعدی هر دارایی را نشان می دهد.",
+"why": "English/Latin words left: Inspections"
+},
+{
+"en": "Cost per km driven and per loaded km",
+"kind": "label",
+"max": 50,
+"mt": "هزینه به ازای هر کیلومتر رانده شده و به ازای هر کیلومتر بارگیری شده",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "fuel, driver pay, repairs, tyres, tolls, insurance, payments and overhead over the km you really drive, with the empty km carried by the loaded km",
+"kind": "sentence",
+"max": 160,
+"mt": "سوخت، پرداخت راننده، تعمیرات، لاستیک‌ها، عوارض، بیمه، پرداخت‌ها و سربار بیش از کیلومتری که واقعاً رانندگی می‌کنید، با کیلومتر خالی حمل شده توسط کیلومتر بارگیری شده",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Fixed cost per km at a planned monthly km",
+"kind": "title",
+"max": 60,
+"mt": "هزینه ثابت در هر کیلومتر در یک کیلومتر ماهانه برنامه ریزی شده",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rate per km and cost per km against margin",
+"kind": "title",
+"max": 60,
+"mt": "شبکه What-if: نرخ در هر کیلومتر و هزینه در هر کیلومتر در برابر حاشیه",
+"why": "too long: 68 characters, the limit is 60"
+}
+]

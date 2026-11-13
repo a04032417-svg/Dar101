@@ -1,0 +1,93 @@
+[
+{
+"en": "fuel, driver pay, repairs, tyres, tolls, insurance, payments and overhead over the km you really drive, with the empty km carried by the loaded km",
+"kind": "sentence",
+"max": 160,
+"mt": "carburante, compenso conducente, riparazioni, pneumatici, pedaggi, assicurazione, pagamenti e spese generali sui km effettivamente percorsi, con i km a vuoto trasportati dai km a carico",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "revenue against fuel, driver pay, repairs and tyres, tolls and a fixed share gives profit, profit per km and a loss-making flag",
+"kind": "sentence",
+"max": 160,
+"mt": "le entrate derivanti da carburante, retribuzione del conducente, riparazioni e pneumatici, pedaggi e una quota fissa danno profitto, profitto per km e una bandiera in perdita",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Lanes to keep, raise, fix or drop",
+"kind": "label",
+"max": 50,
+"mt": "Corsie da mantenere, alzare, aggiustare o eliminare",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "diesel, driver pay, repairs, tolls and km changes run through the last twelve months to give a new cost per km and margin",
+"kind": "sentence",
+"max": 160,
+"mt": "diesel, retribuzione del conducente, riparazioni, pedaggi e variazioni di km vengono eseguiti negli ultimi dodici mesi per fornire un nuovo costo per km e margine",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Driver pay and per diem",
+"kind": "list",
+"max": 30,
+"mt": "Retribuzione autista e giornaliera",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Rate is under the cost",
+"kind": "list",
+"max": 30,
+"mt": "La tariffa è inferiore al costo",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Truck is below break-even",
+"kind": "list",
+"max": 30,
+"mt": "Il camion è al di sotto del pareggio",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Margin is on target",
+"kind": "list",
+"max": 30,
+"mt": "Il margine è in linea con l'obiettivo",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Price swing scenarios against the last twelve months",
+"kind": "title",
+"max": 60,
+"mt": "Scenari di oscillazione dei prezzi rispetto agli ultimi dodici mesi",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Scenario",
+"kind": "label",
+"max": null,
+"mt": "Scenario",
+"why": "not translated"
+},
+{
+"en": "Effect of a fuel price rise on cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Effetto dell'aumento del prezzo del carburante sul costo per km",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Effect of a driver pay rise on cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Effetto dell'aumento della retribuzione del conducente sul costo per km",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rate per km and cost per km against margin",
+"kind": "title",
+"max": 60,
+"mt": "Griglia what-if: tariffa per km e costo per km rispetto al margine",
+"why": "too long: 66 characters, the limit is 60"
+}
+]

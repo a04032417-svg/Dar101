@@ -1,0 +1,121 @@
+[
+{
+"en": "fuel, driver pay, repairs, tyres, tolls, insurance, payments and overhead over the km you really drive, with the empty km carried by the loaded km",
+"kind": "sentence",
+"max": 160,
+"mt": "combustível, pagamento do motorista, reparos, pneus, pedágios, seguros, pagamentos e despesas gerais sobre os quilômetros que você realmente dirige, com os quilômetros vazios carregados pelos quilômetros carregados",
+"why": "too long: 214 characters, the limit is 160"
+},
+{
+"en": "Lanes to keep, raise, fix or drop",
+"kind": "label",
+"max": 50,
+"mt": "Pistas para manter, aumentar, consertar ou abandonar",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Driver pay and per diem",
+"kind": "list",
+"max": 30,
+"mt": "Pagamento do motorista e diárias",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Meals, lodging and training",
+"kind": "list",
+"max": 30,
+"mt": "Refeições, hospedagem e treinamento",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Truck is above break-even",
+"kind": "list",
+"max": 30,
+"mt": "Caminhão está acima do ponto de equilíbrio",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Truck is below break-even",
+"kind": "list",
+"max": 30,
+"mt": "Caminhão está abaixo do ponto de equilíbrio",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Price swing scenarios against the last twelve months",
+"kind": "title",
+"max": 60,
+"mt": "Cenários de oscilação de preços em relação aos últimos doze meses",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Km the truck will drive per month",
+"kind": "label",
+"max": null,
+"mt": "Km the truck will drive per month",
+"why": "not translated"
+},
+{
+"en": "Km driven per load, loaded plus empty",
+"kind": "label",
+"max": null,
+"mt": "Km driven per load, loaded plus empty",
+"why": "not translated"
+},
+{
+"en": "Extra fixed cost per month",
+"kind": "label",
+"max": null,
+"mt": "Extra fixed cost per month",
+"why": "not translated"
+},
+{
+"en": "Profit per month at the planned km",
+"kind": "label",
+"max": null,
+"mt": "Profit per month at the planned km",
+"why": "not translated"
+},
+{
+"en": "Break-even loads per month",
+"kind": "label",
+"max": null,
+"mt": "Break-even loads per month",
+"why": "not translated"
+},
+{
+"en": "Used truck, payment 1,100",
+"kind": "label",
+"max": null,
+"mt": "Used truck, payment 1,100",
+"why": "not translated"
+},
+{
+"en": "What-if grid: rate per km and cost per km against margin",
+"kind": "title",
+"max": 60,
+"mt": "Grade hipotética: taxa por km e custo por km em relação à margem",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Rate needed for your target margin",
+"kind": "label",
+"max": null,
+"mt": "Rate needed for your target margin",
+"why": "not translated"
+},
+{
+"en": "Rate needed for the floor margin",
+"kind": "label",
+"max": null,
+"mt": "Rate needed for the floor margin",
+"why": "not translated"
+},
+{
+"en": "Dispatcher: new rate floor on a lane",
+"kind": "label",
+"max": null,
+"mt": "Dispatcher: new rate floor on a lane",
+"why": "not translated"
+}
+]

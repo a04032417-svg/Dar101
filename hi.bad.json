@@ -1,0 +1,51 @@
+[
+{
+"en": "Know what a km really costs and which lanes lose money",
+"kind": "sentence",
+"max": 80,
+"mt": "जानें कि वास्तव में एक किमी की लागत कितनी है और कौन सी लेन पर पैसे की हानि होती है",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "Cost per km driven and per loaded km",
+"kind": "label",
+"max": 50,
+"mt": "लागत प्रति किलोमीटर संचालित और प्रति लोडेड किलोमीटर",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "fuel, driver pay, repairs, tyres, tolls, insurance, payments and overhead over the km you really drive, with the empty km carried by the loaded km",
+"kind": "sentence",
+"max": 160,
+"mt": "ईंधन, ड्राइवर का भुगतान, मरम्मत, टायर, टोल, बीमा, भुगतान और उस किमी पर ओवरहेड जिस पर आप वास्तव में गाड़ी चलाते हैं, खाली किमी को लोड किए गए किमी द्वारा ले जाया जाता है",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "fixed cost against margin per km gives the km each truck must drive per month, set against the km it really drives",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रति किमी मार्जिन के मुकाबले निश्चित लागत वह किमी बताती है जो प्रत्येक ट्रक को प्रति माह चलाना चाहिए, जो कि वास्तव में चलने वाले किमी के मुकाबले निर्धारित होता है",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Truck does not pay yet",
+"kind": "list",
+"max": 30,
+"mt": "ट्रक ने अभी तक भुगतान नहीं किया है",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "What-if grid: rate per km and cost per km against margin",
+"kind": "title",
+"max": 60,
+"mt": "क्या-क्या ग्रिड: प्रति किमी दर और मार्जिन के मुकाबले प्रति किमी लागत",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Fixed cost {item} is {monthly} per month ({per_km} per km at the planned km). A new truck adds a cost like this to the break-even.",
+"kind": "message",
+"max": null,
+"mt": "निश्चित लागत {item} प्रति माह {monthly} है (योजनाबद्ध किमी पर प्रति किमी)। एक नया ट्रक ब्रेक-ईवन में इस तरह की लागत जोड़ता है।",
+"why": "placeholders must be exactly: {item} {monthly} {per_km}"
+}
+]

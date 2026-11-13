@@ -1,0 +1,149 @@
+[
+{
+"en": "Driver compliance file",
+"kind": "title",
+"max": 60,
+"mt": "Sürücü uyumluluk dosyası",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Driver compliance file of {set:company}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} tarihli, {today} tarihli sürücü uyumluluk dosyası.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Truck or trailer compliance file",
+"kind": "title",
+"max": 60,
+"mt": "Kamyon veya treyler uyumluluk dosyası",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Compliance file of {set:company}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} tarihli, {today} tarihli uyumluluk dosyası.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Compliance summary for a customer or insurer",
+"kind": "title",
+"max": 60,
+"mt": "Bir müşteri veya sigortacı için uyumluluk özeti",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Compliance summary of {set:company}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company}'un {today} tarihli uyumluluk özeti.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Print the driver compliance files",
+"kind": "label",
+"max": null,
+"mt": "Sürücü uyumluluk dosyalarını yazdırın",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Print the truck compliance files",
+"kind": "label",
+"max": null,
+"mt": "Kamyon uyumluluk dosyalarını yazdırın",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Check Trucks and Drivers, then list every paper in Compliance Items: licences, medical cards, registrations, road permits, insurance and safety inspections, each with its expiry date.",
+"kind": "sentence",
+"max": null,
+"mt": "Kamyonları ve Sürücüleri kontrol edin, ardından Uyumluluk öğeleri'daki tüm belgeleri listeleyin: lisanslar, sağlık kartları, kayıtlar, yol izinleri, sigorta ve güvenlik denetimleri, her birinin son kullanma tarihi var.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Read Driver Safety Record each quarter and talk to a driver whose check says watch or needs action; keep Equipment Safety Checks, Document Register and Compliance Cost up to date.",
+"kind": "sentence",
+"max": null,
+"mt": "Her üç ayda bir Sürücü güvenlik kaydı okuyun ve çekinde dikkat edin veya işlem yapılması gerektiğini belirten bir sürücüyle konuşun; Ekipman güvenlik kontrolleri, Belge kaydı ve Uyumluluk maliyeti'ü güncel tutun.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Read Compliance and Safety Dashboard and Charts every month: items due, inspections, defects, incidents, claims, near misses and compliance cost.",
+"kind": "sentence",
+"max": null,
+"mt": "Her ay Uyumluluk ve güvenlik kontrol paneli ve Grafikleri okuyun: vadesi gelen öğeler, denetimler, kusurlar, olaylar, hak talepleri, ramak kala durumlar ve uyumluluk maliyeti.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Know what a km really costs and which lanes lose money",
+"kind": "sentence",
+"max": 80,
+"mt": "Bir km'nin gerçekte ne kadara mal olduğunu ve hangi şeritlerin para kaybettiğini öğrenin",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "Know what a km costs and which lanes lose money",
+"kind": "sentence",
+"max": 80,
+"mt": "Bir kilometrenin ne kadara mal olduğunu ve hangi şeritlerin para kaybettiğini öğrenin",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "fuel, driver pay, repairs, tyres, tolls, insurance, payments and overhead over the km you really drive, with the empty km carried by the loaded km",
+"kind": "sentence",
+"max": 160,
+"mt": "yakıt, sürücü maaşı, onarımlar, lastikler, geçiş ücretleri, sigorta, ödemeler ve gerçekte sürdüğünüz km üzerinden genel giderler, boş km ise yüklü km tarafından taşınmaktadır",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Lanes to keep, raise, fix or drop",
+"kind": "label",
+"max": 50,
+"mt": "Tutulacak, yükseltilecek, düzeltilecek veya bırakılacak şeritler",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "Truck is above break-even",
+"kind": "list",
+"max": 30,
+"mt": "Kamyon başabaş noktasının üzerinde",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Truck is below break-even",
+"kind": "list",
+"max": 30,
+"mt": "Kamyon başabaş noktasının altında",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Truck pays for itself",
+"kind": "list",
+"max": 30,
+"mt": "Kamyon kendi masrafını çıkarıyor",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cost per km and break-even by truck and quarter",
+"kind": "title",
+"max": 60,
+"mt": "Km başına maliyet ve kamyon ve çeyrek bazında başabaş noktası",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Effect of a fuel price rise on cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Akaryakıt fiyatlarındaki artışın kilometre başına maliyete etkisi",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rate per km and cost per km against margin",
+"kind": "title",
+"max": 60,
+"mt": "What-if grid: km başına ücret ve marja göre km başına maliyet",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

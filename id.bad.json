@@ -1,0 +1,65 @@
+[
+{
+"en": "fuel, driver pay, repairs, tyres, tolls, insurance, payments and overhead over the km you really drive, with the empty km carried by the loaded km",
+"kind": "sentence",
+"max": 160,
+"mt": "bahan bakar, gaji supir, reparasi, ban, tol, asuransi, pembayaran dan overhead sepanjang km yang sebenarnya Anda kendarai, dengan km kosong dibawa oleh km yang dimuati",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "each lane shows profit per km driven, margin and what the empty km cost, so a lane like the long empty return stands out",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap jalur menunjukkan keuntungan per km yang ditempuh, margin, dan berapa biaya km kosong, sehingga jalur seperti jalur pulang kosong yang panjang terlihat menonjol",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Lanes to keep, raise, fix or drop",
+"kind": "label",
+"max": 50,
+"mt": "Jalur untuk dipertahankan, dinaikkan, diperbaiki, atau diturunkan",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "Meals, lodging and training",
+"kind": "list",
+"max": 30,
+"mt": "Makan, penginapan dan pelatihan",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Truck is above break-even",
+"kind": "list",
+"max": 30,
+"mt": "Truk berada di atas titik impas",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Truck is below break-even",
+"kind": "list",
+"max": 30,
+"mt": "Truk berada di bawah titik impas",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Lane rate against cost with the floor and target rate",
+"kind": "title",
+"max": 60,
+"mt": "Tarif jalur terhadap biaya dengan harga dasar dan tarif target",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Price swing scenarios against the last twelve months",
+"kind": "title",
+"max": 60,
+"mt": "Skenario perubahan harga dibandingkan dua belas bulan terakhir",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rate per km and cost per km against margin",
+"kind": "title",
+"max": 60,
+"mt": "Jaringan bagaimana-jika: tarif per km dan biaya per km terhadap margin",
+"why": "too long: 70 characters, the limit is 60"
+}
+]

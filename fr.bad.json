@@ -1,0 +1,114 @@
+[
+{
+"en": "Know what a km really costs and which lanes lose money",
+"kind": "sentence",
+"max": 80,
+"mt": "Sachez combien coûte réellement un kilomètre et quelles voies perdent de l'argent",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "fuel, driver pay, repairs, tyres, tolls, insurance, payments and overhead over the km you really drive, with the empty km carried by the loaded km",
+"kind": "sentence",
+"max": 160,
+"mt": "carburant, rémunération du conducteur, réparations, pneus, péages, assurances, paiements et frais généraux sur les kilomètres réellement parcourus, les kilomètres à vide étant portés par les kilomètres chargés",
+"why": "too long: 209 characters, the limit is 160"
+},
+{
+"en": "revenue against fuel, driver pay, repairs and tyres, tolls and a fixed share gives profit, profit per km and a loss-making flag",
+"kind": "sentence",
+"max": 160,
+"mt": "les revenus sur le carburant, la rémunération des conducteurs, les réparations et les pneus, les péages et une part fixe donnent un bénéfice, un bénéfice par km et un indicateur de perte",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "diesel, driver pay, repairs, tolls and km changes run through the last twelve months to give a new cost per km and margin",
+"kind": "sentence",
+"max": 160,
+"mt": "le diesel, la rémunération des conducteurs, les réparations, les péages et les modifications de km au cours des douze derniers mois pour donner un nouveau coût par km et une nouvelle marge",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Driver pay and per diem",
+"kind": "list",
+"max": 30,
+"mt": "Rémunération du conducteur et indemnité journalière",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Meals, lodging and training",
+"kind": "list",
+"max": 30,
+"mt": "Repas, hébergement et formation",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Variable",
+"kind": "list",
+"max": 30,
+"mt": "Variable",
+"why": "not translated"
+},
+{
+"en": "Truck is above break-even",
+"kind": "list",
+"max": 30,
+"mt": "Le camion est au-dessus du seuil de rentabilité",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Truck is below break-even",
+"kind": "list",
+"max": 30,
+"mt": "Le camion est en dessous du seuil de rentabilité",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Margin is on target",
+"kind": "list",
+"max": 30,
+"mt": "La marge est conforme à l'objectif",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Margin is under target",
+"kind": "list",
+"max": 30,
+"mt": "La marge est inférieure à l'objectif",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Cost per km and break-even by truck and quarter",
+"kind": "title",
+"max": 60,
+"mt": "Coût au km et seuil de rentabilité par camion et par trimestre",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Lane rate against cost with the floor and target rate",
+"kind": "title",
+"max": 60,
+"mt": "Taux de voie par rapport au coût avec le taux plancher et le taux cible",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Price swing scenarios against the last twelve months",
+"kind": "title",
+"max": 60,
+"mt": "Scénarios d’évolution des prix par rapport aux douze derniers mois",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Effect of a driver pay rise on cost per km",
+"kind": "title",
+"max": 60,
+"mt": "Effet d'une augmentation de salaire du conducteur sur le coût au km",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rate per km and cost per km against margin",
+"kind": "title",
+"max": 60,
+"mt": "Réseau de simulation : tarif par km et coût par km par rapport à la marge",
+"why": "too long: 73 characters, the limit is 60"
+}
+]
