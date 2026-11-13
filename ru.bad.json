@@ -1,0 +1,233 @@
+[
+{
+"en": "Send every owner a clear statement and never miss a local tax date",
+"kind": "sentence",
+"max": 80,
+"mt": "Отправьте каждому владельцу четкое заявление и никогда не пропустите местную налоговую дату.",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "Owner statement builder with management fee",
+"kind": "label",
+"max": 50,
+"mt": "Создатель заявления о владельце с комиссией за управление",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "revenue, platform fees, cleaning, supplies, repairs and utilities become one statement with the management fee and the net to owner, checked line by line",
+"kind": "sentence",
+"max": 160,
+"mt": "доходы, плата за платформу, уборка, расходные материалы, ремонт и коммунальные услуги становятся одним отчетом с комиссией за управление и суммой, передаваемой владельцу, проверяемой построчно.",
+"why": "too long: 193 characters, the limit is 160"
+},
+{
+"en": "Local tax collected, remitted and due by city",
+"kind": "label",
+"max": 50,
+"mt": "Местный налог, взимаемый, перечисляемый и подлежащий уплате по городу",
+"why": "too long: 69 characters, the limit is 50"
+},
+{
+"en": "the tax the platforms say they remitted against the tax you worked out, with the difference to explain and the adjustments that follow",
+"kind": "sentence",
+"max": 160,
+"mt": "налог, который, по словам платформ, они перечислили в счет налога, который вы разработали, с разницей, которую необходимо объяснить, и последующими корректировками.",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Issue follow-up",
+"kind": "list",
+"max": 30,
+"mt": "Последующие действия по проблеме",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cancelled stay refund",
+"kind": "list",
+"max": 30,
+"mt": "Возврат средств при отмене проживания",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Long stay exemption",
+"kind": "list",
+"max": 30,
+"mt": "Освобождение от длительного пребывания",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Owner stay not taxed",
+"kind": "list",
+"max": 30,
+"mt": "Пребывание владельца не облагается налогом",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Difference to explain",
+"kind": "list",
+"max": 30,
+"mt": "Разница, которую нужно объяснить",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pay rate on target",
+"kind": "list",
+"max": 30,
+"mt": "Ставка заработной платы на целевом уровне",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Pay rate off target",
+"kind": "list",
+"max": 30,
+"mt": "Уровень заработной платы не соответствует плану",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Ends within 90 days",
+"kind": "list",
+"max": 30,
+"mt": "Заканчивается в течение 90 дней",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cash covers the payments",
+"kind": "list",
+"max": 30,
+"mt": "Денежные средства покрывают платежи",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Tax already paid by the platform",
+"kind": "list",
+"max": 30,
+"mt": "Налог, уже уплаченный платформой",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Monthly owner statements with fees, costs and net to owner",
+"kind": "title",
+"max": 60,
+"mt": "Ежемесячные отчеты владельца с указанием комиссий, затрат и чистой прибыли владельцу.",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Units with owner, management percent and 12-month results",
+"kind": "title",
+"max": 60,
+"mt": "Доли с владельцем, процентами управления и результатами за 12 месяцев",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Co-host fees on net revenue with fee per message",
+"kind": "title",
+"max": 60,
+"mt": "Плата за совместное размещение от чистого дохода с оплатой за сообщение",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Co-host duties logged by unit with minutes",
+"kind": "title",
+"max": 60,
+"mt": "Обязанности соведущего фиксируются по единицам с точностью до минут.",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Bookings on owner units with earned amount and platform fee",
+"kind": "title",
+"max": 60,
+"mt": "Бронирование юнитов владельца с заработанной суммой и комиссией платформы",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Local tax adjustments with reason and filing date",
+"kind": "title",
+"max": 60,
+"mt": "Корректировки местных налогов с указанием причины и даты подачи",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Owner repair reserves held and spent by month",
+"kind": "title",
+"max": 60,
+"mt": "Резервы на ремонт, имеющиеся и израсходованные владельцем, по месяцам",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Owner contracts with end dates and notice dates",
+"kind": "title",
+"max": 60,
+"mt": "Контракты с собственниками с датами окончания и датами уведомления",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Owner revenue, net to owner, management fees and local tax",
+"kind": "title",
+"max": 60,
+"mt": "Доход владельца, за вычетом владельца, комиссионные за управление и местный налог",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Owner stay with cleaning and linen charged",
+"kind": "title",
+"max": 60,
+"mt": "Проживание владельца, уборка и постельное белье оплачиваются.",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Local tax adjustment with reason and filing",
+"kind": "title",
+"max": 60,
+"mt": "Корректировка местного налога с указанием причины и подачи заявки",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Owner contract term with end and notice dates",
+"kind": "title",
+"max": 60,
+"mt": "Срок действия договора с владельцем с датами окончания и уведомления",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Co-host fee on net revenue and cost per message",
+"kind": "title",
+"max": 60,
+"mt": "Плата со-организатора за чистый доход и стоимость за сообщение",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Net to owner, margin and net per night for one unit",
+"kind": "title",
+"max": 60,
+"mt": "Чистая прибыль для владельца, маржа и чистая прибыль за ночь за одну единицу",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Difference to explain between tax collected and tax expected",
+"kind": "title",
+"max": 60,
+"mt": "Разница в объяснении между собранным налогом и ожидаемым налогом",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Host fee and net to owner for each management percent",
+"kind": "title",
+"max": 60,
+"mt": "Плата за хостинг и чистая прибыль владельца за каждый процент управления",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, your 12-month summary is ready: revenue {own_rev_12m}, management fees {own_fee_12m}, net to you {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {owner}! Ваш отчет за 12 месяцев готов: доход {own_rev_12m}, плата за управление {own_fee_12m}, чистая прибыль вам {own_net_12m}.",
+"why": "English/Latin words left: own rev own fee"
+},
+{
+"en": "Hello, the year-end summary for {owner} is attached: revenue {own_rev_12m}, net to owner {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Краткий отчет по {owner} на конец года прилагается: доход {own_rev_12m}, чистый доход владельцу {own_net_12m}.",
+"why": "English/Latin words left: own rev own net"
+}
+]

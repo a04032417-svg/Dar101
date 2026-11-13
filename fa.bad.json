@@ -1,0 +1,100 @@
+[
+{
+"en": "Replied share",
+"kind": "label",
+"max": 30,
+"mt": "پاسخ داده شده به اشتراک بگذارید",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: lowest acceptable unit rating, wanted rating, wanted reply time, days to reply to a review and days to resolve a complaint.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: پایین‌ترین رتبه‌بندی واحد قابل قبول، رتبه‌بندی مورد نیاز، زمان پاسخگویی مورد نظر، روزهای پاسخ به یک بررسی و روزهای برای حل یک شکایت.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Local tax collected, remitted and due by city",
+"kind": "label",
+"max": 50,
+"mt": "مالیات محلی جمع‌آوری شده، پرداخت شده و سررسید بر اساس شهر",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Fee matches the rate",
+"kind": "list",
+"max": 30,
+"mt": "هزینه با نرخ مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Owner pays for the stay",
+"kind": "list",
+"max": 30,
+"mt": "هزینه اقامت را مالک پرداخت می کند",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Cash covers the payments",
+"kind": "list",
+"max": 30,
+"mt": "پول نقد پرداخت ها را پوشش می دهد",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Tax already paid by the platform",
+"kind": "list",
+"max": 30,
+"mt": "مالیات قبلاً توسط پلتفرم پرداخت شده است",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Utilities 320",
+"kind": "label",
+"max": null,
+"mt": "Utilities 320",
+"why": "English/Latin words left: Utilities"
+},
+{
+"en": "Local tax to remit and tax already paid by the platform",
+"kind": "title",
+"max": 60,
+"mt": "مالیات محلی برای حواله و مالیاتی که قبلاً توسط پلتفرم پرداخت شده است",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Difference to explain between tax collected and tax expected",
+"kind": "title",
+"max": 60,
+"mt": "تفاوت بین مالیات جمع آوری شده و مالیات مورد انتظار توضیح داده شود",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, your 12-month summary is ready: revenue {own_rev_12m}, management fees {own_fee_12m}, net to you {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {owner}، خلاصه 12 ماهه شما آماده است: درآمد {own_rev_12m}، هزینه مدیریت {own_fee_12m}، خالص برای شما {own_net_12m}.",
+"why": "English/Latin words left: own rev own fee"
+},
+{
+"en": "Hello {owner}, a question about your statement for {month}: net to you is {net_to_owner}. Could we speak this week?",
+"kind": "message",
+"max": null,
+"mt": "سلام {owner}، یک سوال در مورد بیانیه شما برای {month}: net to you {net_to_owner} است. آیا می توانیم این هفته صحبت کنیم؟",
+"why": "English/Latin words left: net to you"
+},
+{
+"en": "Hello, the year-end summary for {owner} is attached: revenue {own_rev_12m}, net to owner {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، خلاصه پایان سال برای {owner} پیوست شده است: درآمد {own_rev_12m}، خالص برای مالک {own_net_12m}.",
+"why": "English/Latin words left: own rev own net"
+},
+{
+"en": "Hello, the statement for {owner} for {month} shows net to owner of {net_to_owner}. Please review it before it is sent.",
+"kind": "message",
+"max": null,
+"mt": "سلام، بیانیه {owner} برای {month} net را به مالک {net_to_owner} نشان می دهد. لطفا قبل از ارسال آن را بررسی کنید.",
+"why": "English/Latin words left: net"
+}
+]

@@ -1,0 +1,86 @@
+[
+{
+"en": "Ends within 90 days",
+"kind": "list",
+"max": 30,
+"mt": "90 दिनों के भीतर समाप्त हो जाता है",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Owner pays for the stay",
+"kind": "list",
+"max": 30,
+"mt": "मालिक ठहरने के लिए भुगतान करता है",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Tax already paid by the platform",
+"kind": "list",
+"max": 30,
+"mt": "प्लेटफ़ॉर्म द्वारा कर का भुगतान पहले ही किया जा चुका है",
+"why": "too long: 55 characters, the limit is 30"
+},
+{
+"en": "Co-host duties logged by unit with minutes",
+"kind": "title",
+"max": 60,
+"mt": "सह-मेज़बान कर्तव्यों को इकाई द्वारा मिनटों के साथ लॉग किया गया",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Bookings on owner units with earned amount and platform fee",
+"kind": "title",
+"max": 60,
+"mt": "अर्जित राशि और प्लेटफ़ॉर्म शुल्क के साथ स्वामी इकाइयों पर बुकिंग",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Owner repair reserves held and spent by month",
+"kind": "title",
+"max": 60,
+"mt": "मालिक की मरम्मत का भंडार महीने के हिसाब से रखा और खर्च किया जाता है",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Cleaner pay by month with pay per turnover",
+"kind": "title",
+"max": 60,
+"mt": "प्रति टर्नओवर वेतन के साथ क्लीनर को महीने के हिसाब से वेतन मिलता है",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Owner revenue, net to owner, management fees and local tax",
+"kind": "title",
+"max": 60,
+"mt": "मालिक का राजस्व, मालिक का शुद्ध राजस्व, प्रबंधन शुल्क और स्थानीय कर",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Local tax to remit and tax already paid by the platform",
+"kind": "title",
+"max": 60,
+"mt": "स्थानीय कर माफ करना होगा और कर का भुगतान मंच द्वारा पहले ही किया जा चुका है",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, your 12-month summary is ready: revenue {own_rev_12m}, management fees {own_fee_12m}, net to you {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {owner}, आपका 12-महीने का सारांश तैयार है: राजस्व {own_rev_12m}, प्रबंधन शुल्क {own_fee_12m}, कुल आपके लिए {own_net_12m}।",
+"why": "English/Latin words left: own rev own fee"
+},
+{
+"en": "Hello, the year-end summary for {owner} is attached: revenue {own_rev_12m}, net to owner {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {owner} के लिए वर्ष के अंत का सारांश संलग्न है: राजस्व {own_rev_12m}, मालिक का शुद्ध मूल्य {own_net_12m}।",
+"why": "English/Latin words left: own rev own net"
+},
+{
+"en": "Management fee schedule of {set:company}, dated {today}. Tier: {col:tiers.tier}.",
+"kind": "document",
+"max": null,
+"mt": "{set:company} की प्रबंधन शुल्क अनुसूची, दिनांक {today}। कतार 2}।",
+"why": "placeholders must be exactly: {set:company} {today} {col:tiers.tier}"
+}
+]

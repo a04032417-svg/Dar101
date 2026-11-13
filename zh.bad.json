@@ -1,0 +1,16 @@
+[
+{
+"en": "Hello {owner}, your 12-month summary is ready: revenue {own_rev_12m}, management fees {own_fee_12m}, net to you {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "您好 {owner}，您的 12 个月摘要已准备就绪：收入 {own_rev_12m}、管理费 {own_fee_12m}、您的净收入 {own_net_12m}。",
+"why": "English/Latin words left: own rev own fee"
+},
+{
+"en": "Hello, the year-end summary for {owner} is attached: revenue {own_rev_12m}, net to owner {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "您好，附上 {owner} 的年终摘要：收入 {own_rev_12m}，所有者净收益 {own_net_12m}。",
+"why": "English/Latin words left: own rev own net"
+}
+]

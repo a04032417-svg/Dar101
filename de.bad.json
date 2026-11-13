@@ -1,0 +1,282 @@
+[
+{
+"en": "Send every owner a clear statement and never miss a local tax date",
+"kind": "sentence",
+"max": 80,
+"mt": "Senden Sie jedem Eigentümer eine klare Erklärung und verpassen Sie nie wieder einen lokalen Steuertermin",
+"why": "too long: 104 characters, the limit is 80"
+},
+{
+"en": "revenue, platform fees, cleaning, supplies, repairs and utilities become one statement with the management fee and the net to owner, checked line by line",
+"kind": "sentence",
+"max": 160,
+"mt": "Einnahmen, Plattformgebühren, Reinigung, Lieferungen, Reparaturen und Nebenkosten werden zusammen mit der Verwaltungsgebühr und dem Nettobetrag an den Eigentümer zu einer Abrechnung zusammengefasst, die Zeile für Zeile überprüft wird",
+"why": "too long: 233 characters, the limit is 160"
+},
+{
+"en": "each amount on a statement is split by unit and kind, with the booking or repair it comes from, so an owner's question has an answer",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder Betrag auf einer Abrechnung wird nach Einheit und Art sowie der Buchung oder Reparatur, aus der er stammt, aufgeteilt, sodass auf die Frage eines Eigentümers eine Antwort gefunden wird",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "the fee on net revenue, the fee per message and per unit, compared with your own history so a high month stands out",
+"kind": "sentence",
+"max": 160,
+"mt": "Die Gebühr bezieht sich auf den Nettoumsatz, die Gebühr pro Nachricht und pro Einheit, verglichen mit Ihrer eigenen Historie, sodass ein hoher Monat hervorsticht",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Local tax collected, remitted and due by city",
+"kind": "label",
+"max": 50,
+"mt": "Die Kommunalsteuer wird von der Stadt erhoben, abgeführt und fällig",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "tax collected by the host and by the platforms, what must be remitted, the due date and the days to go for every city and month",
+"kind": "sentence",
+"max": 160,
+"mt": "Steuern, die vom Gastgeber und von den Plattformen erhoben werden, was abgeführt werden muss, das Fälligkeitsdatum und die verbleibenden Tage für jede Stadt und jeden Monat",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "the tax the platforms say they remitted against the tax you worked out, with the difference to explain and the adjustments that follow",
+"kind": "sentence",
+"max": 160,
+"mt": "die Steuer, die die Plattformen angeblich abgeführt haben, mit der von Ihnen berechneten Steuer, mit der zu erläuternden Differenz und den sich daraus ergebenden Anpassungen",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Local taxes and permits",
+"kind": "list",
+"max": 30,
+"mt": "Lokale Steuern und Genehmigungen",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cancelled stay refund",
+"kind": "list",
+"max": 30,
+"mt": "Rückerstattung für stornierten Aufenthalt",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Rate applied in error",
+"kind": "list",
+"max": 30,
+"mt": "Der Tarif wurde fälschlicherweise angewendet",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Long stay exemption",
+"kind": "list",
+"max": 30,
+"mt": "Befreiung von Langzeitaufenthalten",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Platform report timing",
+"kind": "list",
+"max": 30,
+"mt": "Zeitpunkt des Plattformberichts",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Owner stay not taxed",
+"kind": "list",
+"max": 30,
+"mt": "Der Aufenthalt des Eigentümers wird nicht besteuert",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Fee matches the rate",
+"kind": "list",
+"max": 30,
+"mt": "Die Gebühr entspricht dem Preis",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Charged to owner",
+"kind": "list",
+"max": 30,
+"mt": "Wird dem Eigentümer in Rechnung gestellt",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Owner pays for the stay",
+"kind": "list",
+"max": 30,
+"mt": "Der Eigentümer zahlt den Aufenthalt",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Return is above target",
+"kind": "list",
+"max": 30,
+"mt": "Die Rendite liegt über dem Ziel",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Return is below target",
+"kind": "list",
+"max": 30,
+"mt": "Die Rendite liegt unter dem Zielwert",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Charge below cost",
+"kind": "list",
+"max": 30,
+"mt": "Gebühr unterhalb der Selbstkosten",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Fee per message is high",
+"kind": "list",
+"max": 30,
+"mt": "Die Gebühr pro Nachricht ist hoch",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Fee per message is fine",
+"kind": "list",
+"max": 30,
+"mt": "Die Gebühr pro Nachricht ist in Ordnung",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Tax already paid by the platform",
+"kind": "list",
+"max": 30,
+"mt": "Von der Plattform bereits gezahlte Steuer",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Monthly owner statements with fees, costs and net to owner",
+"kind": "title",
+"max": 60,
+"mt": "Monatliche Eigentümerabrechnungen mit Gebühren, Kosten und Netto für Eigentümer",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Owners with the kind of service and the management percent",
+"kind": "title",
+"max": 60,
+"mt": "Eigentümer mit der Art des Service und dem Managementprozentsatz",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Units with owner, management percent and 12-month results",
+"kind": "title",
+"max": 60,
+"mt": "Einheiten mit Eigentümer-, Management-Prozentsatz und 12-Monats-Ergebnissen",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Co-host fees on net revenue with fee per message",
+"kind": "title",
+"max": 60,
+"mt": "Co-Host-Gebühren auf Basis des Nettoumsatzes mit Gebühr pro Nachricht",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Co-host duties logged by unit with minutes",
+"kind": "title",
+"max": 60,
+"mt": "Co-Host-Aufgaben werden nach Einheit mit Protokoll protokolliert",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Bookings on owner units with earned amount and platform fee",
+"kind": "title",
+"max": 60,
+"mt": "Buchungen für Eigentümereinheiten mit verdientem Betrag und Plattformgebühr",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Management fee tiers by package and units managed",
+"kind": "title",
+"max": 60,
+"mt": "Verwaltungsgebührenstufen nach Paket und verwalteten Einheiten",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Owner stays with cleaning and linen charged",
+"kind": "title",
+"max": 60,
+"mt": "Der Eigentümer bleibt mit der Endreinigung und der Bettwäsche in Rechnung",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Owner repair reserves held and spent by month",
+"kind": "title",
+"max": 60,
+"mt": "Monatlich gehaltene und ausgegebene Reparaturreserven des Eigentümers",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Owner revenue, net to owner, management fees and local tax",
+"kind": "title",
+"max": 60,
+"mt": "Einnahmen des Eigentümers, netto an den Eigentümer, Verwaltungsgebühren und lokale Steuern",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Owner stay with cleaning and linen charged",
+"kind": "title",
+"max": 60,
+"mt": "Beim Aufenthalt beim Eigentümer wird die Reinigung und Bettwäsche in Rechnung gestellt",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Owner contract term with end and notice dates",
+"kind": "title",
+"max": 60,
+"mt": "Laufzeit des Eigentümervertrags mit End- und Kündigungsterminen",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Net to owner, margin and net per night for one unit",
+"kind": "title",
+"max": 60,
+"mt": "Netto an den Eigentümer, Marge und Netto pro Nacht für eine Einheit",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Local tax to remit and tax already paid by the platform",
+"kind": "title",
+"max": 60,
+"mt": "Zu überweisende lokale Steuern und bereits von der Plattform gezahlte Steuern",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Difference to explain between tax collected and tax expected",
+"kind": "title",
+"max": 60,
+"mt": "Zu erklärender Unterschied zwischen erhobener und erwarteter Steuer",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What changed between this month and last month",
+"kind": "title",
+"max": 60,
+"mt": "Was hat sich zwischen diesem Monat und dem letzten Monat geändert?",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Host fee and net to owner for each management percent",
+"kind": "title",
+"max": 60,
+"mt": "Gastgebergebühr und netto an den Eigentümer für jeden Verwaltungsprozentsatz",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Management percent against host fee and net to owner",
+"kind": "title",
+"max": 60,
+"mt": "Verwaltungsprozentsatz gegen Gastgebergebühr und netto an den Eigentümer",
+"why": "too long: 72 characters, the limit is 60"
+}
+]

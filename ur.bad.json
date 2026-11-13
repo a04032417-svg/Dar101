@@ -1,0 +1,86 @@
+[
+{
+"en": "Send every owner a clear statement and never miss a local tax date",
+"kind": "sentence",
+"max": 80,
+"mt": "ہر مالک کو ایک واضح بیان بھیجیں اور کبھی بھی مقامی ٹیکس کی تاریخ سے محروم نہ ہوں۔",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Local tax collected, remitted and due by city",
+"kind": "label",
+"max": 50,
+"mt": "مقامی ٹیکس جمع، بھجوایا اور شہر کے لحاظ سے واجب الادا",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Ends within 90 days",
+"kind": "list",
+"max": 30,
+"mt": "90 دنوں کے اندر ختم ہو جاتا ہے۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Paid by the host",
+"kind": "list",
+"max": 30,
+"mt": "میزبان کے ذریعہ ادائیگی کی گئی۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Owner pays for the stay",
+"kind": "list",
+"max": 30,
+"mt": "مالک قیام کے لیے ادائیگی کرتا ہے۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Cash covers the payments",
+"kind": "list",
+"max": 30,
+"mt": "نقد ادائیگیوں کا احاطہ کرتا ہے۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Tax already paid by the platform",
+"kind": "list",
+"max": 30,
+"mt": "پلیٹ فارم کی طرف سے پہلے ہی ٹیکس ادا کیا جا چکا ہے۔",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Monthly owner statements with fees, costs and net to owner",
+"kind": "title",
+"max": 60,
+"mt": "فیس، اخراجات اور مالک کے لیے خالص کے ساتھ ماہانہ مالک کے بیانات",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Owner repair reserves held and spent by month",
+"kind": "title",
+"max": 60,
+"mt": "مالک کی مرمت کے ذخائر رکھے گئے اور مہینے کے حساب سے خرچ کیے گئے۔",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Local tax to remit and tax already paid by the platform",
+"kind": "title",
+"max": 60,
+"mt": "ترسیل کے لیے مقامی ٹیکس اور پلیٹ فارم کے ذریعے پہلے سے ادا کردہ ٹیکس",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, your 12-month summary is ready: revenue {own_rev_12m}, management fees {own_fee_12m}, net to you {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {owner}، آپ کا 12 ماہ کا خلاصہ تیار ہے: آمدنی {own_rev_12m}، انتظامی فیس {own_fee_12m}، آپ کے لیے خالص {own_net_12m}۔",
+"why": "English/Latin words left: own rev own fee"
+},
+{
+"en": "Hello, the year-end summary for {owner} is attached: revenue {own_rev_12m}, net to owner {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {owner} کے لیے سال کے آخر کا خلاصہ منسلک ہے: ریوینیو {own_rev_12m}، خالص سے مالک {own_net_12m}۔",
+"why": "English/Latin words left: own rev own net"
+}
+]

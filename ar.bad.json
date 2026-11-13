@@ -1,0 +1,58 @@
+[
+{
+"en": "Local tax collected, remitted and due by city",
+"kind": "label",
+"max": 50,
+"mt": "الضرائب المحلية التي يتم تحصيلها وتحويلها والمستحقة حسب المدينة",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "Cancelled stay refund",
+"kind": "list",
+"max": 30,
+"mt": "تم إلغاء استرداد الأموال للإقامة",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Tax already paid by the platform",
+"kind": "list",
+"max": 30,
+"mt": "الضريبة المدفوعة بالفعل من قبل المنصة",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Owner revenue, net to owner, management fees and local tax",
+"kind": "title",
+"max": 60,
+"mt": "إيرادات المالك، الصافية للمالك، الرسوم الإدارية والضرائب المحلية",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Co-host fee on net revenue and cost per message",
+"kind": "title",
+"max": 60,
+"mt": "رسوم الاستضافة المشتركة على صافي الإيرادات والتكلفة لكل رسالة",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Local tax to remit and tax already paid by the platform",
+"kind": "title",
+"max": 60,
+"mt": "الضريبة المحلية المراد تحويلها والضرائب المدفوعة بالفعل بواسطة المنصة",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Hello {owner}, your 12-month summary is ready: revenue {own_rev_12m}, management fees {own_fee_12m}, net to you {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {owner}، ملخص الـ 12 شهرًا جاهز: الإيرادات {own_rev_12m}، الرسوم الإدارية {own_fee_12m}، صافي المبلغ لك {own_net_12m}.",
+"why": "English/Latin words left: own rev own fee"
+},
+{
+"en": "Hello, the year-end summary for {owner} is attached: revenue {own_rev_12m}, net to owner {own_net_12m}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، ملخص نهاية العام لـ {owner} مرفق: الإيرادات {own_rev_12m}، صافي للمالك {own_net_12m}.",
+"why": "English/Latin words left: own rev own net"
+}
+]
