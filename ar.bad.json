@@ -1,0 +1,86 @@
+[
+{
+"en": "LN-05",
+"kind": "list",
+"max": 30,
+"mt": "LN-05",
+"why": "English/Latin words left: LN"
+},
+{
+"en": "LN-09",
+"kind": "list",
+"max": 30,
+"mt": "LN-09",
+"why": "English/Latin words left: LN"
+},
+{
+"en": "LN-10",
+"kind": "list",
+"max": 30,
+"mt": "LN-10",
+"why": "English/Latin words left: LN"
+},
+{
+"en": "LN-11",
+"kind": "list",
+"max": 30,
+"mt": "LN-11",
+"why": "English/Latin words left: LN"
+},
+{
+"en": "LN-12",
+"kind": "list",
+"max": 30,
+"mt": "LN-12",
+"why": "English/Latin words left: LN"
+},
+{
+"en": "LN-13",
+"kind": "list",
+"max": 30,
+"mt": "LN-13",
+"why": "English/Latin words left: LN"
+},
+{
+"en": "LN-14",
+"kind": "list",
+"max": 30,
+"mt": "LN-14",
+"why": "English/Latin words left: LN"
+},
+{
+"en": "Payments received and matched to invoices",
+"kind": "title",
+"max": 60,
+"mt": "تم استلام الدفعات ومطابقتها للفواتير",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Extras still to bill: waiting time, unloading fees",
+"kind": "title",
+"max": 60,
+"mt": "الإضافات التي لا تزال مطلوبة في الفاتورة: وقت الانتظار، ورسوم التفريغ",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Short pay check: billed against paid and the likely cause",
+"kind": "title",
+"max": 60,
+"mt": "شيك الراتب القصير: يتم إصدار فاتورة به مقابل المبلغ المدفوع والسبب المحتمل",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Hello, {customer} has {over60} overdue by more than 60 days, out of {total_open} open. Please decide the next step.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، {customer} لديه {over60} متأخرًا لأكثر من 60 يومًا، من أصل {total_open} مفتوح. يرجى تحديد الخطوة التالية.",
+"why": "English/Latin words left: over"
+},
+{
+"en": "Hello, payment {payment_id} of {amount} from {customer} arrived on {date}. Please match it to the invoice.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، وصلت الدفعة {payment_id} بقيمة {amount} من {customer} في {date}. يرجى مطابقتها للفاتورة.",
+"why": "never use the word for \"compatible\""
+}
+]
