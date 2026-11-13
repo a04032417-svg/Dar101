@@ -1,0 +1,863 @@
+[
+{
+"en": "Design Fee Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculadora de tarifas de diseño",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Percentage Fee on FF&E",
+"kind": "sheet",
+"max": 31,
+"mt": "Tarifa porcentual sobre muebles, enseres y equipos",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Budget Reality Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificación de la realidad del presupuesto",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Fee What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Tarifa ¿qué pasaría si?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Expiry Reminder Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Carta recordatorio de vencimiento",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Partner Thank-you Note",
+"kind": "sheet",
+"max": 31,
+"mt": "Nota de agradecimiento para socios",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Consultation Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de preparación de la consulta",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Proposal Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de preparación de la propuesta",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Proposal Follow-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de seguimiento de la propuesta",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Retainer and Start Date Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para el anticipo y la fecha de inicio",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Lost Enquiry Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión de consultas perdidas",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Quarterly Rate Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión de tarifas trimestrales",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Client response speed",
+"kind": "sheet",
+"max": 31,
+"mt": "Velocidad de respuesta del cliente",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Phase Slip Impact",
+"kind": "sheet",
+"max": 31,
+"mt": "Impacto de deslizamiento de fase",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Project Margin Forecast",
+"kind": "sheet",
+"max": 31,
+"mt": "Previsión del margen del proyecto",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Approval Deadline Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Planificador de plazos de aprobación",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Budget Variance by Room",
+"kind": "sheet",
+"max": 31,
+"mt": "Variación del presupuesto por habitación",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Cancel or Pause Settlement",
+"kind": "sheet",
+"max": 31,
+"mt": "Cancelar o pausar la liquidación",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Scope Creep Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificación de fluencia del alcance",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Project Profit Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe de ganancias del proyecto",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Concept Presentation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de presentación del concepto",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Design Development Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión del desarrollo del diseño.",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Specification Approval Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de aprobación de especificaciones",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Procurement Start Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para iniciar la adquisición",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Pre-installation Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de verificación previos a la instalación",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Installation Week Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de la semana de instalación",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Handover Walk-through Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos paso a paso para la entrega",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Project Close-out Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para el cierre del proyecto",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "FF&E schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "calendario de muebles, accesorios y equipos",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Specification approvals",
+"kind": "sheet",
+"max": 31,
+"mt": "Aprobaciones de especificaciones",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Room benchmarks",
+"kind": "sheet",
+"max": 31,
+"mt": "Puntos de referencia de la habitación",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "FF&E Item Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Ficha de artículos de muebles, accesorios y equipos.",
+"why": "too long: 52 characters, the limit is 31"
+},
+{
+"en": "Item Specification Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de especificaciones del artículo",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Room Budget Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de presupuesto de habitaciones",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Room Budget Builder",
+"kind": "sheet",
+"max": 31,
+"mt": "Creador de presupuesto de habitaciones",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Specified Against Budget",
+"kind": "sheet",
+"max": 31,
+"mt": "Especificado contra el presupuesto",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Budget Gap and Cuts",
+"kind": "sheet",
+"max": 31,
+"mt": "Brecha presupuestaria y recortes",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Margin What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Margen ¿Y si?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Project FF&E Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendario de muebles, accesorios y equipos del proyecto.",
+"why": "too long: 57 characters, the limit is 31"
+},
+{
+"en": "Lighting Schedule Note",
+"kind": "sheet",
+"max": 31,
+"mt": "Nota sobre el horario de iluminación",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "New Project Specification Start",
+"kind": "sheet",
+"max": 31,
+"mt": "Inicio de la especificación del nuevo proyecto",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Room Specification Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para la especificación de la habitación",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Item Sheet Complete Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos completos de la hoja de artículo",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Budget Check Before Presenting",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificación de presupuesto antes de presentar",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Approval and Order Release",
+"kind": "sheet",
+"max": 31,
+"mt": "Aprobación y liberación de pedido.",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Lighting Plan Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificación del plan de iluminación.",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Vendor Deposits and Balances",
+"kind": "sheet",
+"max": 31,
+"mt": "Depósitos y saldos de proveedores",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Cancelled and Changed Orders",
+"kind": "sheet",
+"max": 31,
+"mt": "Pedidos cancelados y modificados",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "PO Confirmation Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "hoja de confirmación de orden de compra",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Back-Order Notice Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de aviso de pedidos pendientes",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Deposit and Balance Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendario de depósitos y saldos",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Cash Before the Client Pays",
+"kind": "sheet",
+"max": 31,
+"mt": "Efectivo antes de que el cliente pague",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Freight Cost per PO",
+"kind": "sheet",
+"max": 31,
+"mt": "Costo de flete por orden de compra",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Landed Cost and Client Price",
+"kind": "sheet",
+"max": 31,
+"mt": "Costo de destino y precio para el cliente",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Vendor Balance Priority",
+"kind": "sheet",
+"max": 31,
+"mt": "Prioridad del saldo del proveedor",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Vendor Price Comparison",
+"kind": "sheet",
+"max": 31,
+"mt": "Comparación de precios de proveedores",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Lead Time Slip What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Deslizamiento del plazo de entrega ¿Y si?",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Procurement Status Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe de estado de adquisiciones",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Place a Purchase Order Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para realizar una orden de compra",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Confirmation Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de verificación de confirmación",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Weekly Order Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión de pedidos semanales",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Back-order Response Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de respuesta a pedidos pendientes",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Balance Before Dispatch Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Saldo antes de los pasos de envío",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Month-end Vendor Match Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para igualar proveedores a fin de mes",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Delivery Slot Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Planificador de franjas horarias de entrega",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Room Ready Date",
+"kind": "sheet",
+"max": 31,
+"mt": "Fecha de preparación de la habitación",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Trade Overrun Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificación de exceso comercial",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Punch List Forecast",
+"kind": "sheet",
+"max": 31,
+"mt": "Previsión de la lista de tareas pendientes",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Trade Rebooking Cost",
+"kind": "sheet",
+"max": 31,
+"mt": "Costo de cambio de reserva comercial",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Vendor On-time Rate",
+"kind": "sheet",
+"max": 31,
+"mt": "Tarifa de puntualidad del proveedor",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Project Delivery Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendario de entrega del proyecto",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Vendor Damage Claim",
+"kind": "sheet",
+"max": 31,
+"mt": "Reclamación por daños al proveedor",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Trade Job Instruction",
+"kind": "sheet",
+"max": 31,
+"mt": "Instrucción de trabajo comercial",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Project Punch List",
+"kind": "sheet",
+"max": 31,
+"mt": "Lista de tareas pendientes del proyecto",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Room Ready Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para preparar la habitación",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Trade Job Start Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para iniciar un trabajo comercial",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Trade Job Completion Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para completar el trabajo comercial",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Punch List Close-out Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para cerrar la lista de tareas pendientes",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Final Styling Day Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos finales del día de peinado",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Photo Shoot Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de preparación para la sesión de fotos.",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "FF&E Invoices",
+"kind": "sheet",
+"max": 31,
+"mt": "facturas de muebles, enseres y equipos",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "FF&E Invoice Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "hoja de factura de muebles, enseres y equipos",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Rate and Utilisation What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Tasa y utilización ¿Y si?",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "Time Billing Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Resumen de facturación de tiempo",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Weekly Time Logging Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para el registro de tiempo semanal",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Month-end Time Billing Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de facturación de fin de mes",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "FF&E Invoice Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para facturar muebles, accesorios y equipos.",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Late Payer Follow-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de seguimiento de los morosos",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Project Final Invoice Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos finales de la factura del proyecto",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Vendor and Contractor Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Panel de control de proveedores y contratistas",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Vendor Price Lists",
+"kind": "sheet",
+"max": 31,
+"mt": "Listas de precios de proveedores",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Contractor Quote Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de cotización del contratista",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Contractor Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Hoja de revisión del contratista",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Vendor Score Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculadora de puntuación de proveedores",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Contractor Quote Comparison",
+"kind": "sheet",
+"max": 31,
+"mt": "Comparación de cotizaciones de contratistas",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Lead Time Reliability",
+"kind": "sheet",
+"max": 31,
+"mt": "Confiabilidad del tiempo de entrega",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Contractor Booking Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Planificador de reservas de contratistas",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Vendor Scorecard Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe de cuadro de mando del proveedor",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Contractor Quote Request",
+"kind": "sheet",
+"max": 31,
+"mt": "Solicitud de cotización de contratista",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Contractor Agreement Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Resumen del acuerdo del contratista",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Annual Vendor Volume Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe anual de volumen de proveedores",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Document Check Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe de verificación de documentos",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "New Vendor Setup Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de configuración de nuevos proveedores",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Trade Account Opened Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para abrir una cuenta comercial",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Quality Issue Follow-up Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de seguimiento de problemas de calidad",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "New Contractor Onboarding Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para la incorporación de nuevos contratistas",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Contractor Job Completion Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para finalizar el trabajo del contratista",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Document Expiry Check Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para comprobar la caducidad del documento",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Annual Vendor Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión anual de proveedores",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Annual Contractor Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión anual del contratista",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "13-week Cash Forecast",
+"kind": "sheet",
+"max": 31,
+"mt": "Previsión de efectivo a 13 semanas",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Price Review Impact",
+"kind": "sheet",
+"max": 31,
+"mt": "Impacto de la revisión de precios",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Cash Forecast Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Planificador de previsión de efectivo",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Owner Draw Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Cheque de sorteo del propietario",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Tax Instalment Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Planificador de cuotas de impuestos",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Mark-up and Fee Mix",
+"kind": "sheet",
+"max": 31,
+"mt": "Combinación de márgenes y tarifas",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Overhead Budget Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Verificación del presupuesto general",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "13-week Forecast Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe de previsión de 13 semanas",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Marketing Results Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Informe de resultados de marketing",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Weekly Money Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión semanal del dinero",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Project Profit Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de revisión de ganancias del proyecto",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Cash Forecast Update Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos para actualizar la previsión de efectivo",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Year-end Preparation Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Pasos de preparación de fin de año",
+"why": "too long: 34 characters, the limit is 31"
+}
+]
