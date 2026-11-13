@@ -1,0 +1,4356 @@
+[
+{
+"en": "Sales Dashboard",
+"where": "ta1:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Advisors",
+"where": "ta1:lists[team].values[advisors]",
+"kind": "sheet",
+"max": 30,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Enquiries",
+"where": "ta1:tables[enquiries].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Travellers",
+"where": "ta1:tables[enquiries].columns[travellers].label",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Quotes",
+"where": "ta1:tables[quotes].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Quote Lines",
+"where": "ta1:tables[quote_lines].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Discovery Calls",
+"where": "ta1:tables[discovery].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Trip Briefs",
+"where": "ta1:tables[briefs].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Clients",
+"where": "ta1:tables[clients].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1",
+"ta2",
+"ta4",
+"ta5",
+"ta6"
+]
+},
+{
+"en": "Trips",
+"where": "ta1:tables[clients].columns[trips].label",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2",
+"ta3",
+"ta5",
+"ta7"
+]
+},
+{
+"en": "Suppliers",
+"where": "ta1:tables[suppliers].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1",
+"ta2",
+"ta3",
+"ta5",
+"ta7"
+]
+},
+{
+"en": "Service Fee Schedule",
+"where": "ta1:tables[fees].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1",
+"ta7"
+]
+},
+{
+"en": "Trip Packages",
+"where": "ta1:tables[packages].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Destination Price Guide",
+"where": "ta1:tables[price_guide].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Lost Enquiries",
+"where": "ta1:tables[lost].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Follow-up Log",
+"where": "ta1:tables[followups].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Referral Partners",
+"where": "ta1:tables[partners].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Marketing Results",
+"where": "ta1:tables[marketing].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1",
+"ta8"
+]
+},
+{
+"en": "Bookings",
+"where": "ta1:tables[marketing].columns[bookings].label",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2",
+"ta3"
+]
+},
+{
+"en": "Quote Terms Library",
+"where": "ta1:tables[terms].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Advisor Capacity Weeks",
+"where": "ta1:tables[capacity].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Seasonal Demand",
+"where": "ta1:tables[seasonal].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Pipeline by Month",
+"where": "ta1:tables[pipeline].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Enquiry Sheet",
+"where": "ta1:forms[enquiry_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Discovery Call Sheet",
+"where": "ta1:forms[call_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Trip Brief Sheet",
+"where": "ta1:forms[brief_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Quote Sheet",
+"where": "ta1:forms[quote_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Package Choice Sheet",
+"where": "ta1:forms[package_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Quote Revision Sheet",
+"where": "ta1:forms[revision_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Lost Enquiry Sheet",
+"where": "ta1:forms[lost_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Referral Partner Sheet",
+"where": "ta1:forms[partner_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Follow-up Sheet",
+"where": "ta1:forms[touch_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Handover to Booking Sheet",
+"where": "ta1:forms[handover_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Trip Quote Builder",
+"where": "ta1:tools[quote_builder].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Quote Margin Check",
+"where": "ta1:tools[margin_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Service Fee Calculator",
+"where": "ta1:tools[fee_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Budget Reality Check",
+"where": "ta1:tools[budget_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Per-Person and Per-Night Price",
+"where": "ta1:tools[per_person].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Deposit and Final Payment Plan",
+"where": "ta1:tools[payment_plan].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1",
+"ta2"
+]
+},
+{
+"en": "Win Chance and Weighted Value",
+"where": "ta1:tools[win_chance].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Counter-Offer for a Low Budget",
+"where": "ta1:tools[counter_offer].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Price Comparison of Two Options",
+"where": "ta1:tools[compare].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Cost per Enquiry by Source",
+"where": "ta1:tools[source_cost].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Capacity Check for a New Trip",
+"where": "ta1:tools[capacity_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Upgrade and Add-on Pricing",
+"where": "ta1:tools[addon].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Quote Expiry Planner",
+"where": "ta1:tools[expiry_planner].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Mark-up and Fee What-if",
+"where": "ta1:tools[whatif].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Trip Proposal",
+"where": "ta1:documents[proposal].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Quote Comparison",
+"where": "ta1:documents[compare].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Three Package Options",
+"where": "ta1:documents[options].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Discovery Call Summary",
+"where": "ta1:documents[call_summary].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Trip Brief Summary",
+"where": "ta1:documents[brief_summary].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Quote Terms and Conditions",
+"where": "ta1:documents[terms].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Expiry Reminder Letter",
+"where": "ta1:documents[expiry_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Referral Thank-you Note",
+"where": "ta1:documents[partner_note].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1",
+"ta4"
+]
+},
+{
+"en": "Service Fee Agreement",
+"where": "ta1:documents[fee_agreement].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Pipeline Report",
+"where": "ta1:documents[pipeline_report].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "New Enquiry Steps",
+"where": "ta1:checklists[enquiry_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Discovery Call Prep Steps",
+"where": "ta1:checklists[call_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Trip Brief Capture Steps",
+"where": "ta1:checklists[brief_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Quote Preparation Steps",
+"where": "ta1:checklists[quote_prep].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Quote Follow-up Steps",
+"where": "ta1:checklists[quote_follow].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Deposit and Booking Steps",
+"where": "ta1:checklists[deposit_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Lost Enquiry Review Steps",
+"where": "ta1:checklists[lost_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Handover to Booking Steps",
+"where": "ta1:checklists[handover_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Partner Follow-up Steps",
+"where": "ta1:checklists[partner_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Quarterly Fee Review Steps",
+"where": "ta1:checklists[fee_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta1"
+]
+},
+{
+"en": "Bookings Dashboard",
+"where": "ta2:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Client Payments",
+"where": "ta2:tables[client_payments].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Supplier Payments",
+"where": "ta2:tables[supplier_payments].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2",
+"ta7"
+]
+},
+{
+"en": "Payment Schedule",
+"where": "ta2:tables[schedule].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Final Payment Watch",
+"where": "ta2:tables[final_watch].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Deposit Watch",
+"where": "ta2:tables[deposit_watch].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Price Holds",
+"where": "ta2:tables[holds].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Booking Changes",
+"where": "ta2:tables[changes].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Cancellations",
+"where": "ta2:tables[cancellations].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Refunds",
+"where": "ta2:tables[refunds].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Ticketing Deadlines",
+"where": "ta2:tables[ticketing].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Supplier Cancellation Rules",
+"where": "ta2:tables[cancel_rules].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Supplier Statements",
+"where": "ta2:tables[statements].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Payment Method Fees",
+"where": "ta2:tables[methods].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Bookings by Month",
+"where": "ta2:tables[by_month].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Cash Due Next 60 Days",
+"where": "ta2:tables[cash_due].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Booking Sheet",
+"where": "ta2:forms[booking_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Client Payment Sheet",
+"where": "ta2:forms[client_pay_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Supplier Payment Sheet",
+"where": "ta2:forms[supplier_pay_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Final Payment Reminder Sheet",
+"where": "ta2:forms[final_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Change Request Sheet",
+"where": "ta2:forms[change_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Cancellation Sheet",
+"where": "ta2:forms[cancel_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Refund Sheet",
+"where": "ta2:forms[refund_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Price Hold Sheet",
+"where": "ta2:forms[hold_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Ticketing Sheet",
+"where": "ta2:forms[ticket_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Instalment Plan Sheet",
+"where": "ta2:forms[instalment_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Final Payment Deadline Checker",
+"where": "ta2:tools[final_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Balance Owed by Trip",
+"where": "ta2:tools[trip_balance].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Refund on Cancellation",
+"where": "ta2:tools[refund_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Cancellation Penalty Ladder",
+"where": "ta2:tools[ladder].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Change Fee and Price Effect",
+"where": "ta2:tools[change_effect].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Agency-Collected Cash Plan",
+"where": "ta2:tools[cash_plan].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Pay-the-Supplier Schedule",
+"where": "ta2:tools[supplier_plan].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Instalment Plan for a Client",
+"where": "ta2:tools[instalments].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Late Payment Cost",
+"where": "ta2:tools[late_cost].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Split Payment Across Bookings",
+"where": "ta2:tools[split_pay].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Ticketing Time Limit Planner",
+"where": "ta2:tools[ticket_limit].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Payments In and Out by Week",
+"where": "ta2:tools[weekly_flows].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Deposit and Final What-if",
+"where": "ta2:tools[cash_whatif].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Booking Confirmation",
+"where": "ta2:documents[confirmation].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Payment Schedule Letter",
+"where": "ta2:documents[plan_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Final Payment Reminder",
+"where": "ta2:documents[final_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Final Payment Overdue Notice",
+"where": "ta2:documents[overdue_notice].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Cancellation Statement",
+"where": "ta2:documents[cancel_statement].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Change Confirmation",
+"where": "ta2:documents[change_confirm].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Receipt for a Payment",
+"where": "ta2:documents[receipt].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Supplier Payment Advice",
+"where": "ta2:documents[supplier_advice].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Trip Balance Statement",
+"where": "ta2:documents[balance_statement].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Weekly Deadline Report",
+"where": "ta2:documents[weekly_report].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "New Booking Confirmed Steps",
+"where": "ta2:checklists[booking_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Deposit Collected Steps",
+"where": "ta2:checklists[deposit_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Final Payment Reminder Cycle",
+"where": "ta2:checklists[final_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Ticketing Completed Steps",
+"where": "ta2:checklists[ticket_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Supplier Payment Made Steps",
+"where": "ta2:checklists[supplier_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Booking Change Handled Steps",
+"where": "ta2:checklists[change_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Cancellation Processed Steps",
+"where": "ta2:checklists[cancel_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Refund Paid Steps",
+"where": "ta2:checklists[refund_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Price Hold Expiry Check",
+"where": "ta2:checklists[hold_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Weekly Deadline Review Steps",
+"where": "ta2:checklists[week_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta2"
+]
+},
+{
+"en": "Commission Dashboard",
+"where": "ta3:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Commissions",
+"where": "ta3:tables[commissions].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3",
+"ta7"
+]
+},
+{
+"en": "Chase Log",
+"where": "ta3:tables[chase].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Host Statements",
+"where": "ta3:tables[host].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Host Tiers",
+"where": "ta3:tables[tiers].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Short-pay Claims",
+"where": "ta3:tables[claims].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Clawbacks",
+"where": "ta3:tables[clawbacks].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Rate History",
+"where": "ta3:tables[rates].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Advisor Payouts",
+"where": "ta3:tables[payouts].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3",
+"ta8"
+]
+},
+{
+"en": "Service Fees",
+"where": "ta3:tables[fees].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3",
+"ta7",
+"ta8"
+]
+},
+{
+"en": "Commission Forecast",
+"where": "ta3:tables[forecast].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Supplier Pay Calendar",
+"where": "ta3:tables[calendar].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Supplier Bonuses",
+"where": "ta3:tables[bonuses].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Commission by Category",
+"where": "ta3:tables[bycat].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Unclaimed Commissions",
+"where": "ta3:tables[unclaimed].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Ageing",
+"where": "ta3:tables[ageing].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Owner Net Earnings",
+"where": "ta3:tables[monthly].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Commission Entry Sheet",
+"where": "ta3:forms[entry_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Commission Received Sheet",
+"where": "ta3:forms[received_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Chase Contact Sheet",
+"where": "ta3:forms[chase_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Short-pay Claim Sheet",
+"where": "ta3:forms[claim_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Clawback Sheet",
+"where": "ta3:forms[clawback_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Host Statement Sheet",
+"where": "ta3:forms[host_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Advisor Payout Sheet",
+"where": "ta3:forms[payout_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3",
+"ta8"
+]
+},
+{
+"en": "Rate Change Sheet",
+"where": "ta3:forms[rate_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Bonus Target Sheet",
+"where": "ta3:forms[bonus_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Escalation Sheet",
+"where": "ta3:forms[escalation_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Commission Calculator",
+"where": "ta3:tools[commission_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Net Earnings per Trip",
+"where": "ta3:tools[net_trip].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Commission Ageing",
+"where": "ta3:tools[ageing_tool].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Chase Priority",
+"where": "ta3:tools[chase_priority].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Short-pay Check",
+"where": "ta3:tools[shortpay_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Escalation to the Host Agency",
+"where": "ta3:tools[escalation_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Host Tier Planner",
+"where": "ta3:tools[tier_planner].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Advisor Payout Statement",
+"where": "ta3:tools[payout_statement].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3",
+"ta8"
+]
+},
+{
+"en": "Commission Forecast by Month",
+"where": "ta3:tools[forecast_months].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Supplier Pay Time",
+"where": "ta3:tools[paytime_analysis].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Clawback Impact",
+"where": "ta3:tools[clawback_impact].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Commission on a Quote",
+"where": "ta3:tools[quote_commission].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Supplier Bonus Tracker",
+"where": "ta3:tools[bonus_tracker].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Host and Advisor Rate What-if",
+"where": "ta3:tools[split_whatif].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Commission Statement",
+"where": "ta3:documents[statement].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Chase Letter",
+"where": "ta3:documents[chase_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Final Notice",
+"where": "ta3:documents[final_notice].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Short-pay Claim Letter",
+"where": "ta3:documents[claim_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Escalation Letter",
+"where": "ta3:documents[escalation_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Payout Statement",
+"where": "ta3:documents[payout_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Host Reconciliation",
+"where": "ta3:documents[host_recon].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Forecast Report",
+"where": "ta3:documents[forecast_report].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Supplier Review",
+"where": "ta3:documents[supplier_review].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Annual Summary",
+"where": "ta3:documents[annual_summary].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Commission Expected on Booking",
+"where": "ta3:checklists[after_booking].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Commission Claimed After Travel",
+"where": "ta3:checklists[after_travel].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Monthly Chase Run",
+"where": "ta3:checklists[chase_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "90-day Escalation",
+"where": "ta3:checklists[escalate_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Short-pay Review",
+"where": "ta3:checklists[shortpay_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Host Statement Reconciliation",
+"where": "ta3:checklists[host_recon_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Advisor Payout Run",
+"where": "ta3:checklists[payout_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Clawback Check After Cancel",
+"where": "ta3:checklists[clawback_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Rate Change Check",
+"where": "ta3:checklists[rate_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Year-end Commission Review",
+"where": "ta3:checklists[year_end_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta3"
+]
+},
+{
+"en": "Client Dashboard",
+"where": "ta4:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Client Profiles",
+"where": "ta4:tables[client_profiles].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Travel Preferences",
+"where": "ta4:tables[preferences].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Companions",
+"where": "ta4:tables[companions].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Special Dates",
+"where": "ta4:tables[special_dates].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Touchpoints",
+"where": "ta4:tables[touchpoints].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Loyalty Tiers",
+"where": "ta4:tables[tiers].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Referrals",
+"where": "ta4:tables[referrals].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Reviews",
+"where": "ta4:tables[reviews].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4",
+"ta8"
+]
+},
+{
+"en": "Past Trip Ideas",
+"where": "ta4:tables[wishlist].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Win-back List",
+"where": "ta4:tables[winback].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Client Notes",
+"where": "ta4:tables[client_notes].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Passport and Visa Watch",
+"where": "ta4:tables[passport_watch].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Birthday and Anniversary Offers",
+"where": "ta4:tables[offers].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Client Segments",
+"where": "ta4:tables[segments].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Newsletter List",
+"where": "ta4:tables[newsletter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Anniversary Trips Due",
+"where": "ta4:tables[anniversary_trips].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Clients by Month",
+"where": "ta4:tables[clients_month].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Client Profile Sheet",
+"where": "ta4:forms[client_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Travel Preference Sheet",
+"where": "ta4:forms[preference_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Companion Sheet",
+"where": "ta4:forms[companion_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Special Date Sheet",
+"where": "ta4:forms[date_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Touchpoint Sheet",
+"where": "ta4:forms[touch_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Referral Sheet",
+"where": "ta4:forms[referral_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Review Sheet",
+"where": "ta4:forms[review_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Win-back Sheet",
+"where": "ta4:forms[winback_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Passport Check Sheet",
+"where": "ta4:forms[passport_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Client Feedback Sheet",
+"where": "ta4:forms[feedback_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Client Lifetime Value",
+"where": "ta4:tools[ltv].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Repeat Client Score",
+"where": "ta4:tools[repeat_score].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Next Trip Suggestion",
+"where": "ta4:tools[next_trip].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Contact Planner",
+"where": "ta4:tools[contact_planner].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Referral Value",
+"where": "ta4:tools[referral_value].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Win-back Offer Builder",
+"where": "ta4:tools[winback_offer].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Passport Expiry Check",
+"where": "ta4:tools[passport_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Client Share of the Business",
+"where": "ta4:tools[client_share].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Segment Sizer",
+"where": "ta4:tools[segment_sizer].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Review Request Timing",
+"where": "ta4:tools[review_timing].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Gift and Thank-you Budget",
+"where": "ta4:tools[gift_budget].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Anniversary Trip Pricing",
+"where": "ta4:tools[anniversary_quote].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Cost of Winning Against Keeping",
+"where": "ta4:tools[win_vs_keep].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Repeat and Referral What-if",
+"where": "ta4:tools[repeat_whatif].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Client Profile Summary",
+"where": "ta4:documents[profile_summary].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Trip History Statement",
+"where": "ta4:documents[trip_history].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Supplier Preference Sheet",
+"where": "ta4:documents[supplier_prefs].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Trip Thank-you Letter",
+"where": "ta4:documents[trip_thanks].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Review Request Letter",
+"where": "ta4:documents[review_request].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Anniversary Trip Offer",
+"where": "ta4:documents[anniversary_offer].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Win-back Letter",
+"where": "ta4:documents[winback_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Client Loyalty Statement",
+"where": "ta4:documents[loyalty_statement].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Top Clients Report",
+"where": "ta4:documents[top_clients].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "New Client Onboarding Steps",
+"where": "ta4:checklists[onboarding].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Profile and Preferences Steps",
+"where": "ta4:checklists[profile_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Passport and Visa Check Steps",
+"where": "ta4:checklists[passport_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Post-trip Follow-up Steps",
+"where": "ta4:checklists[post_trip].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Review Requested Steps",
+"where": "ta4:checklists[review_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Referral Thanked Steps",
+"where": "ta4:checklists[referral_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Anniversary Contact Steps",
+"where": "ta4:checklists[anniv_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Win-back Call Steps",
+"where": "ta4:checklists[winback_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Quarterly Client Review Steps",
+"where": "ta4:checklists[quarter_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Annual Client Clean-up Steps",
+"where": "ta4:checklists[clean_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta4"
+]
+},
+{
+"en": "Departure Dashboard",
+"where": "ta5:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Itinerary Days",
+"where": "ta5:tables[itinerary].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Travel Documents",
+"where": "ta5:tables[documents].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Travel Requirements",
+"where": "ta5:tables[requirements].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Passport and Visa Checks",
+"where": "ta5:tables[passports].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Insurance Policies",
+"where": "ta5:tables[insurance].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Vouchers and E-tickets",
+"where": "ta5:tables[vouchers].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Pre-departure Tasks",
+"where": "ta5:tables[predep].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Pre-departure Briefings",
+"where": "ta5:tables[briefings].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Packing and Weather Notes",
+"where": "ta5:tables[packing].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Emergency Contacts",
+"where": "ta5:tables[emergency].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Support Log",
+"where": "ta5:tables[support].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Disruptions and Rebookings",
+"where": "ta5:tables[disruptions].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Special Requests",
+"where": "ta5:tables[requests].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Post-trip Tasks",
+"where": "ta5:tables[posttrip].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Departures by Week",
+"where": "ta5:tables[weeks].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Travel Document Sheet",
+"where": "ta5:forms[doc_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Passport and Visa Sheet",
+"where": "ta5:forms[passport_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Insurance Policy Sheet",
+"where": "ta5:forms[insurance_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Itinerary Day Sheet",
+"where": "ta5:forms[itin_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Voucher Sheet",
+"where": "ta5:forms[voucher_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Special Request Sheet",
+"where": "ta5:forms[request_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Pre-departure Briefing Sheet",
+"where": "ta5:forms[brief_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Support Case Sheet",
+"where": "ta5:forms[support_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Disruption Sheet",
+"where": "ta5:forms[disruption_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Post-trip Sheet",
+"where": "ta5:forms[post_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Document Deadline Planner",
+"where": "ta5:tools[doc_planner].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Passport Validity Check",
+"where": "ta5:tools[passport_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Visa Lead-time Planner",
+"where": "ta5:tools[visa_planner].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Itinerary Day Builder",
+"where": "ta5:tools[itinerary_builder].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Trip Readiness Score",
+"where": "ta5:tools[readiness].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Insurance Cover Check",
+"where": "ta5:tools[insurance_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Time-zone and Arrival Planner",
+"where": "ta5:tools[timezone_planner].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Connection Time Check",
+"where": "ta5:tools[connection_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Departure Checklist Generator",
+"where": "ta5:tools[dep_checklist].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Special Request Summary",
+"where": "ta5:tools[request_summary].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Disruption Cost and Rebooking",
+"where": "ta5:tools[disruption_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Packing and Weather Builder",
+"where": "ta5:tools[packing_builder].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Time-off Calculator",
+"where": "ta5:tools[leave_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Lead Time and Reminders What-if",
+"where": "ta5:tools[whatif].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Day-by-day Itinerary",
+"where": "ta5:documents[itinerary_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Requirements Summary",
+"where": "ta5:documents[requirements_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Document Checklist Letter",
+"where": "ta5:documents[checklist_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Voucher Pack Cover",
+"where": "ta5:documents[voucher_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Briefing Handout",
+"where": "ta5:documents[briefing_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Emergency Contact Card",
+"where": "ta5:documents[emergency_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Packing and Weather Page",
+"where": "ta5:documents[packing_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Insurance Summary",
+"where": "ta5:documents[insurance_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Disruption Notice",
+"where": "ta5:documents[disruption_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Post-trip Letter",
+"where": "ta5:documents[followup_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Documents Requested Steps",
+"where": "ta5:checklists[docs_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Passport and Visa Checked Steps",
+"where": "ta5:checklists[passport_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Insurance Confirmed Steps",
+"where": "ta5:checklists[insurance_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Itinerary Reviewed Steps",
+"where": "ta5:checklists[itin_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Vouchers and Tickets Sent Steps",
+"where": "ta5:checklists[voucher_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Special Request Steps",
+"where": "ta5:checklists[request_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Pre-departure Briefing Steps",
+"where": "ta5:checklists[brief_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "In-trip Check-in Steps",
+"where": "ta5:checklists[checkin_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Return and Follow-up Steps",
+"where": "ta5:checklists[return_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Requirements Review Steps",
+"where": "ta5:checklists[review_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta5"
+]
+},
+{
+"en": "Group Dashboard",
+"where": "ta6:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Groups",
+"where": "ta6:tables[groups].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Rooming List",
+"where": "ta6:tables[rooming].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Room Blocks",
+"where": "ta6:tables[blocks].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Payments",
+"where": "ta6:tables[gpay].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Payment Plans",
+"where": "ta6:tables[plan].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Attrition and Cut-offs",
+"where": "ta6:tables[attrition].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Trips",
+"where": "ta6:tables[group_trips].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Bookings",
+"where": "ta6:tables[bookings].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Documents",
+"where": "ta6:tables[gdocs].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Dietary and Access",
+"where": "ta6:tables[needs].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Leader Benefits",
+"where": "ta6:tables[leader].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Tasks",
+"where": "ta6:tables[tasks].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Transfers and Flights",
+"where": "ta6:tables[transfers].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Excursions and Meals",
+"where": "ta6:tables[excursions].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Supplier Contacts",
+"where": "ta6:tables[sup_contacts].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6",
+"ta7"
+]
+},
+{
+"en": "Group Enquiries",
+"where": "ta6:tables[genq].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Groups by Month",
+"where": "ta6:tables[by_month].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Sheet",
+"where": "ta6:forms[group_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Traveller Sheet",
+"where": "ta6:forms[traveller_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Rooming List Sheet",
+"where": "ta6:forms[rooming_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Room Block Sheet",
+"where": "ta6:forms[block_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Payment Sheet",
+"where": "ta6:forms[pay_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Attrition Sheet",
+"where": "ta6:forms[attrition_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Name Change Sheet",
+"where": "ta6:forms[name_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Dietary and Access Sheet",
+"where": "ta6:forms[needs_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Task Sheet",
+"where": "ta6:forms[task_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Leader Benefit Sheet",
+"where": "ta6:forms[leader_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Rooming List Builder",
+"where": "ta6:tools[rooming_builder].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Room Count and Singles",
+"where": "ta6:tools[room_count].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Price per Person",
+"where": "ta6:tools[group_price].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Free Place Calculator",
+"where": "ta6:tools[free_place].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Payment Plan",
+"where": "ta6:tools[pay_plan].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Attrition Check",
+"where": "ta6:tools[attrition_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Room Block Release Planner",
+"where": "ta6:tools[block_release].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Coach and Transfer Sizing",
+"where": "ta6:tools[coach_size].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Commission and Margin",
+"where": "ta6:tools[group_margin].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Traveller Balance Statement",
+"where": "ta6:tools[trav_balance].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Waiting List and Substitution",
+"where": "ta6:tools[substitution].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Dietary and Access Summary",
+"where": "ta6:tools[diet_summary].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Leader Benefit Planner",
+"where": "ta6:tools[leader_benefit].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Size and Price What-if",
+"where": "ta6:tools[whatif].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Rooming List Letter",
+"where": "ta6:documents[rooming_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Traveller List",
+"where": "ta6:documents[trav_list_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Payment Schedule",
+"where": "ta6:documents[schedule_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Traveller Statement",
+"where": "ta6:documents[statement_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Itinerary and Rules",
+"where": "ta6:documents[rules_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Dietary Summary Letter",
+"where": "ta6:documents[diet_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Room Block and Cut-off Summary",
+"where": "ta6:documents[block_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Attrition Notice",
+"where": "ta6:documents[attrition_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Leader Briefing",
+"where": "ta6:documents[briefing_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Margin Report",
+"where": "ta6:documents[margin_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Enquiry Accepted Steps",
+"where": "ta6:checklists[enq_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Room Block Secured Steps",
+"where": "ta6:checklists[block_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Traveller List Complete Steps",
+"where": "ta6:checklists[list_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Rooming List Sent Steps",
+"where": "ta6:checklists[send_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Payments On Time Steps",
+"where": "ta6:checklists[pay_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Passport and Documents Steps",
+"where": "ta6:checklists[doc_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Attrition Cut-off Steps",
+"where": "ta6:checklists[cut_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Group Briefing Steps",
+"where": "ta6:checklists[brief_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "On-trip Group Check-in Steps",
+"where": "ta6:checklists[trip_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Post-trip Group Close-out Steps",
+"where": "ta6:checklists[close_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta6"
+]
+},
+{
+"en": "Supplier Dashboard",
+"where": "ta7:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Scorecards",
+"where": "ta7:tables[scorecards].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Terms",
+"where": "ta7:tables[terms].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Issues",
+"where": "ta7:tables[issues].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Preferred Deals",
+"where": "ta7:tables[deals].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Familiarisation Trips",
+"where": "ta7:tables[fam].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Fee Reviews",
+"where": "ta7:tables[fee_reviews].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Trip Profitability",
+"where": "ta7:tables[tp].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Categories",
+"where": "ta7:tables[cats].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Sales by Month",
+"where": "ta7:tables[sm].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Destination Suppliers",
+"where": "ta7:tables[dest].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Replacement Options",
+"where": "ta7:tables[repl].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Sheet",
+"where": "ta7:forms[supplier_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Contact Sheet",
+"where": "ta7:forms[contact_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Terms Sheet",
+"where": "ta7:forms[terms_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Scorecard Sheet",
+"where": "ta7:forms[scorecard_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Issue Sheet",
+"where": "ta7:forms[issue_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Preferred Deal Sheet",
+"where": "ta7:forms[deal_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Familiarisation Sheet",
+"where": "ta7:forms[fam_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Service Fee Sheet",
+"where": "ta7:forms[fee_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Fee Review Sheet",
+"where": "ta7:forms[review_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Replacement Sheet",
+"where": "ta7:forms[repl_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Scorecard Calculator",
+"where": "ta7:tools[scorecard_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Comparison",
+"where": "ta7:tools[compare].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Trip Profit Calculator",
+"where": "ta7:tools[profit_calc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Best Supplier for a Trip",
+"where": "ta7:tools[best_supplier].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Commission or Fee",
+"where": "ta7:tools[comm_vs_fee].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Preferred Bonus Check",
+"where": "ta7:tools[bonus_check].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Concentration",
+"where": "ta7:tools[concentration].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Service Fee Review",
+"where": "ta7:tools[fee_review].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Fee Waiver Cost",
+"where": "ta7:tools[waiver_cost].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Issue Cost",
+"where": "ta7:tools[issue_cost].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Commission Timing",
+"where": "ta7:tools[pay_forecast].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Familiarisation Trip Return",
+"where": "ta7:tools[fam_return].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Hourly Income by Trip",
+"where": "ta7:tools[hourly].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Commission and Fee What-if",
+"where": "ta7:tools[whatif].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Profile",
+"where": "ta7:documents[supplier_profile].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Scorecard Report",
+"where": "ta7:documents[scorecard_report].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Terms Summary",
+"where": "ta7:documents[terms_summary].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Issue Report",
+"where": "ta7:documents[issue_report].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Deal Summary",
+"where": "ta7:documents[deal_summary].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Review Letter",
+"where": "ta7:documents[review_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Fee Schedule Letter",
+"where": "ta7:documents[fee_schedule_letter].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Fee Invoice",
+"where": "ta7:documents[fee_invoice].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Profitability Report",
+"where": "ta7:documents[profit_report].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Annual Review",
+"where": "ta7:documents[annual_review].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "New Supplier Steps",
+"where": "ta7:checklists[new_supplier].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Terms Check Steps",
+"where": "ta7:checklists[terms_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Quarterly Scorecard Steps",
+"where": "ta7:checklists[score_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Issue Steps",
+"where": "ta7:checklists[issue_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Preferred Deal Review Steps",
+"where": "ta7:checklists[deal_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Training Follow-up Steps",
+"where": "ta7:checklists[fam_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Service Fee Invoice Steps",
+"where": "ta7:checklists[fee_invoice_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Annual Fee Review Steps",
+"where": "ta7:checklists[fee_review_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Replacement Steps",
+"where": "ta7:checklists[repl_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Supplier Contact Update Steps",
+"where": "ta7:checklists[contact_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta7"
+]
+},
+{
+"en": "Finance Dashboard",
+"where": "ta8:dashboard.title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Cash Flow",
+"where": "ta8:tables[cash].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Income by Month",
+"where": "ta8:tables[income].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Client Money Held",
+"where": "ta8:tables[held].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Expense Budget",
+"where": "ta8:tables[budget].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Owner Draw",
+"where": "ta8:tables[draw].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Tax Instalments",
+"where": "ta8:tables[tax].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Tax Set-aside",
+"where": "ta8:tables[setaside].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Profit and Loss by Month",
+"where": "ta8:tables[pnl].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Profit by Trip Type",
+"where": "ta8:tables[bytype].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Profit by Advisor",
+"where": "ta8:tables[byadv].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Growth Goals",
+"where": "ta8:tables[goals].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Forecast Next 12 Months",
+"where": "ta8:tables[forecast].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Expense Sheet",
+"where": "ta8:forms[expense_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Owner Draw Sheet",
+"where": "ta8:forms[draw_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Tax Instalment Sheet",
+"where": "ta8:forms[tax_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Budget Sheet",
+"where": "ta8:forms[budget_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Goal Sheet",
+"where": "ta8:forms[goal_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Forecast Sheet",
+"where": "ta8:forms[forecast_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Income Sheet",
+"where": "ta8:forms[income_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Client Money Sheet",
+"where": "ta8:forms[held_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Year-end Sheet",
+"where": "ta8:forms[year_sheet].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Cash Runway",
+"where": "ta8:tools[runway].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Break-even Trips",
+"where": "ta8:tools[breakeven].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Profit and Tax Set-aside",
+"where": "ta8:tools[taxplan].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Safe Owner Draw",
+"where": "ta8:tools[drawplan].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Income by Travel Date",
+"where": "ta8:tools[incomefc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Client Money Check",
+"where": "ta8:tools[moneycheck].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Advisor Economics",
+"where": "ta8:tools[advisoreco].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Pricing Review",
+"where": "ta8:tools[pricing].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Marketing Return",
+"where": "ta8:tools[mktreturn].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Growth Plan",
+"where": "ta8:tools[growth].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Hiring or Host Change",
+"where": "ta8:tools[hirecheck].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Seasonality Planner",
+"where": "ta8:tools[seasonality].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Expense Control",
+"where": "ta8:tools[expensecontrol].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Yearly Profit What-if",
+"where": "ta8:tools[whatif].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Monthly Profit and Loss",
+"where": "ta8:documents[pnl_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Cash Flow Statement",
+"where": "ta8:documents[cash_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Client Money Statement",
+"where": "ta8:documents[held_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Tax Set-aside Summary",
+"where": "ta8:documents[taxsum_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Profit by Trip Type Report",
+"where": "ta8:documents[type_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Budget Against Actual",
+"where": "ta8:documents[budget_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Growth Plan Summary",
+"where": "ta8:documents[growth_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Year-end Summary",
+"where": "ta8:documents[yearend_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Owner Pay Summary",
+"where": "ta8:documents[ownerpay_doc].sheet",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Monthly Close Steps",
+"where": "ta8:checklists[month_close].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Client Money Reconciliation",
+"where": "ta8:checklists[money_rec].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Income Reconciliation",
+"where": "ta8:checklists[income_rec].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Advisor Payout Run Steps",
+"where": "ta8:checklists[payout_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Expense Receipts Filed Steps",
+"where": "ta8:checklists[receipts_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Tax Set-aside Steps",
+"where": "ta8:checklists[tax_run].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Quarterly Review Steps",
+"where": "ta8:checklists[quarter_review].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Year-end Pack Steps",
+"where": "ta8:checklists[yearend_pack].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Annual Budget and Goals Steps",
+"where": "ta8:checklists[budget_goals].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+},
+{
+"en": "Annual Host Agency Review Steps",
+"where": "ta8:checklists[host_review].title",
+"kind": "sheet",
+"max": 31,
+"wbs": [
+"ta8"
+]
+}
+]
