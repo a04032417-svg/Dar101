@@ -8,9 +8,9 @@ CLI: python3 build.py spec.json <lang> <out.xlsx> [--demo] [--raw] [--today YYYY
 import sys, os, json, math, unicodedata, datetime as dt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (RTL, FIXED, YESNO, STEPSTAT, NUMFMT, PH, TOK, tr, normalize, substitute, find_col, col_format, main_date, first_required,
-                    record_key, series_date, brand_setting, sheet_names, parse_date, parse_time, list_by_key)
+                    record_key, series_date, brand_setting, sheet_names, parse_date, parse_time, list_by_key, DATE_FMT, EDITION_EN, EN_TEXT, DATE_CHOICES)
 from openpyxl import Workbook
-from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side, Protection
 from openpyxl.worksheet.datavalidation import DataValidation
 from openpyxl.worksheet.hyperlink import Hyperlink
 from openpyxl.formatting.rule import FormulaRule, DataBarRule, ColorScaleRule
@@ -65,8 +65,13 @@ class Builder:
         self.lists = list(spec['lists']) + [list_by_key(spec, YESNO)] + ([list_by_key(spec, STEPSTAT)] if spec.get('checklists') else [])
         self.lcol = {l['key']: CL(i + 1) for i, l in enumerate(self.lists)}
         # Start sheet layout
-        self.r_how = 5; self.r_steps = 6; self.r_set = self.r_steps + len(spec['guide']) + 1
-        self.setrow = {x['key']: self.r_set + 1 + i for i, x in enumerate(spec['settings'])}
+        # English edition: an instructions block on top of the Start sheet and two more settings (currency symbol, date format)
+        self.extra = ([{'key': 'fx_cur', 'label': EN_TEXT['set_currency'], 'type': 'text', 'default': '$'},
+                       {'key': 'fx_datefmt', 'label': EN_TEXT['set_datefmt'], 'type': 'text', 'default': DATE_CHOICES[0], 'choices': DATE_CHOICES}] if EDITION_EN else [])
+        self.r_intro = 5; self.n_intro = len(EN_TEXT['start_lines']) + 2 if EDITION_EN else 0
+        self.r_how = 5 + self.n_intro; self.r_steps = self.r_how + 1; self.r_set = self.r_steps + len(spec['guide']) + 1
+        self.setrow = {x['key']: self.r_set + 1 + i for i, x in enumerate(spec['settings'] + self.extra)}
+        self.open = []       # (sheet, range) of cells a buyer types into: unlocked when the sheet is protected (English edition)
         # WhatsApp message columns: visible link columns right after a table's columns, then hidden helpers (phone digits, url)
         self.msg_layout = {}
         for t in spec['tables']:
@@ -128,6 +133,12 @@ class Builder:
     def origin(self, sheet, where, org, dsl=None):
         self.meta['origin'].setdefault(sheet, {})[where] = org
         if dsl is not None: self.meta['dsl'][org] = dsl
+    def lab(self, text, money):
+        """A label; in the English edition a money label gets the currency symbol of the Start sheet as a suffix (formula, so the value next to it stays numeric)."""
+        if not (EDITION_EN and money): return text
+        c = self.SET('fx_cur'); return f'={X(text)}&IF({c}="",""," ("&{c}&")")'
+    def dv_lit(self, ws, rng, items):
+        d = DataValidation(type='list', formula1='"' + ','.join(items) + '"', allow_blank=False, showErrorMessage=True, errorStyle='stop'); d.add(rng); ws.add_data_validation(d)
     def label_of(self, l, k): return self.T(next(x['label'] for x in list_by_key(self.s, l)['values'] if x['key'] == k))
 
     # ---------- v1.3: a column as wide as its longest real value (nothing overlaps or is cut, no "####")
@@ -191,11 +202,27 @@ class Builder:
         for x in self.s.get('tools', []): ws['x:' + x['key']].sheet_properties.tabColor = '0F766E'
         for c in self.s.get('checklists', []): ws['c:' + c['key']].sheet_properties.tabColor = '6D28D9'
         if 'msgs' in ws: ws['msgs'].sheet_properties.tabColor = '128C7E'
+        if EDITION_EN: self.protect_all()
         self.wb.active = 0
         self.wb.properties.title = self.T(self.s['name']); self.wb.properties.creator = ''; self.wb.properties.language = self.lang
         self.wb.calculation = CalcProperties(fullCalcOnLoad=True)
         self.wb.save(out)
         return self.meta
+
+    def protect_all(self):
+        """English edition: every sheet protected without a password; formulas locked, every cell the buyer types into unlocked (the input colour cells,
+        the table input columns on all prepared rows, the checklist ticks and dates, the Lists values). Allowed: select, format columns/rows, sort, filter, insert rows."""
+        free = Protection(locked=False)
+        for ws, rng in self.open:
+            for row in ws[rng] if ':' in rng else [(ws[rng],)]:
+                for c in row: c.protection = free
+        for ws in self.ws.values():
+            for row in ws.iter_rows():
+                for c in row:
+                    if c.fill is not None and c.fill.fill_type == 'solid' and str(c.fill.start_color.rgb)[-6:] == CREAM: c.protection = free
+            p = ws.protection; p.sheet = True
+            p.formatColumns = p.formatRows = p.insertRows = p.sort = p.autoFilter = False       # False = allowed
+            p.selectLockedCells = p.selectUnlockedCells = False
 
     def lists_sheet(self):
         ws = self.ws['lists']
@@ -205,6 +232,7 @@ class Builder:
             c = self.lcol[l['key']]
             self.put(ws, f'{c}3', self.T(l['label']), self.F(bold=True, color='FFFFFF'), self.P, self.AL('center', wrap=True), border=BOX)
             for j, v in enumerate(l['values']): self.put(ws, f'{c}{4 + j}', self.T(v['label']), self.F(), align=self.AL(), border=BOX)
+            self.open.append((ws, f'{c}4:{c}{3 + len(l["values"])}'))
             ws.column_dimensions[c].width = max(18, min(34, max(vlen(self.T(v['label'])) for v in l['values']) + 3))
         ws.row_dimensions[3].height = 32; ws.freeze_panes = 'A4'
 
@@ -215,16 +243,22 @@ class Builder:
         self.put(ws, 'B2', T(s['tagline']), self.F(size=12, color=GRAY)); ws.row_dimensions[2].height = 20
         for c in 'BCDEF': ws[f'{c}3'].fill = fill(self.A)
         ws.row_dimensions[3].height = 5
+        if EDITION_EN:
+            self.section(ws, f'B{self.r_intro}', EN_TEXT['start_title'])
+            for i, txt in enumerate(EN_TEXT['start_lines']):
+                r = self.r_intro + 1 + i; txt = f'{i + 1}.  {txt}'
+                self.put(ws, f'B{r}', txt, self.F(size=11), align=self.AL(v='top', wrap=True)); ws.merge_cells(f'B{r}:F{r}')
+                ws.row_dimensions[r].height = 16 * lines(txt, 112) + 6
         self.section(ws, f'B{self.r_how}', T(FIXED['how']))
         for i, step in enumerate(s['guide']):
             r = self.r_steps + i; txt = f'{i + 1}.  {T(step)}'
             self.put(ws, f'B{r}', txt, self.F(size=11), align=self.AL(v='top', wrap=True)); ws.merge_cells(f'B{r}:F{r}')
             ws.row_dimensions[r].height = 16 * lines(txt, 112) + 6
         self.section(ws, f'B{self.r_set}', T(FIXED['settings']))
-        for x in s['settings']:
+        for x in s['settings'] + self.extra:
             r = self.setrow[x['key']]; t = x['type']
-            self.put(ws, f'B{r}', T(x['label']), self.F(size=11), align=self.AL(wrap=True))
-            v = x['default']; fmt = {'pct': '0.0%', 'money': '#,##0.00', 'int': '0', 'num': '#,##0.00', 'date': 'yyyy-mm-dd', 'text': '@'}.get(t)
+            self.put(ws, f'B{r}', self.lab(T(x['label']), t == 'money'), self.F(size=11), align=self.AL(wrap=True))
+            v = x['default']; fmt = {'pct': '0.0%', 'money': '#,##0.00', 'int': '0', 'num': '#,##0.00', 'date': DATE_FMT, 'text': '@'}.get(t)
             if t == 'list': v = self.label_of(x['list'], v)
             if t == 'date': v = parse_date(v, self.today)
             if t == 'text' and isinstance(v, str) and v in self.list_labels():   # 2026-11-12: a text setting compared with drop-down values (e.g. home country) follows their translation
@@ -232,8 +266,9 @@ class Builder:
                 except KeyError: pass
             self.put(ws, f'C{r}', v, self.F(size=11, bold=True, color=BLUE), CREAM, self.ALN() if t not in ('text', 'list') else self.AL(), fmt, BOX)
             if t == 'list': self.dv(ws, f'C{r}', self.LR(x['list']))
+            if x.get('choices'): self.dv_lit(ws, f'C{r}', x['choices'])
             ws.row_dimensions[r].height = max(20, 16 * lines(T(x['label']), 46) + 4)
-        r = self.r_set + len(s['settings']) + 2
+        r = self.r_set + len(s['settings']) + len(self.extra) + 2
         self.section(ws, f'B{r}', T(FIXED['inside'])); r += 1
         items = [('dash', T(FIXED['dash_hint']))] + [('t:' + t['key'], T(t['hint'])) for t in s['tables']] + \
                 [('x:' + x['key'], T(x['hint'])) for x in s.get('tools', [])] + \
@@ -280,6 +315,7 @@ class Builder:
             else:
                 for r in range(FIRST, last + 1):
                     x = ws[f'{L}{r}']; x.border = BOX; x.font = f_link if ty == 'link' else f_in; x.alignment = a_num if num else a_txt; x.number_format = fmt
+                self.open.append((ws, f'{L}{FIRST}:{L}{last}'))
                 for j, row in enumerate(rows):
                     v = self.demo_value(c, row.get(c['key']))
                     if v is not None: ws[f'{L}{FIRST + j}'].value = v
@@ -325,13 +361,13 @@ class Builder:
         yv = self.demo_year() if self.demo else '=YEAR(TODAY())'
         self.put(ws, 'L2', yv, self.F(size=12, bold=True, color=BLUE), CREAM, self.AL('center'), '0', BOX)
         d2 = DataValidation(type='whole', operator='between', formula1='1990', formula2='2100', allow_blank=False); d2.add('L2'); ws.add_data_validation(d2)
-        Y = '$L$2'
+        Y = '$L$2'; self.open.append((ws, 'L2'))
         # KPI cards: 4 per row, each 3 columns wide
         top = Side(style='medium', color=self.P); white = Side(style='medium', color='FFFFFF')
         for i, kp in enumerate(d['kpis']):
             r = 5 + (i // 4) * 3; c0 = 2 + (i % 4) * 3; L0, L2 = CL(c0), CL(c0 + 2)
             fmt = {'money': '#,##0;[Red]-#,##0', 'num': '#,##0.0', 'int': '#,##0;[Red]-#,##0'}.get(kp['format'], NUMFMT[kp['format']])
-            self.put(ws, f'{L0}{r}', T(kp['label']), self.F(size=9, bold=True, color=GRAY), CARD, self.AL('center', 'bottom', True))
+            self.put(ws, f'{L0}{r}', self.lab(T(kp['label']), kp['format'] == 'money'), self.F(size=9, bold=True, color=GRAY), CARD, self.AL('center', 'bottom', True))
             expr = self.res(kp['formula'])
             self.put(ws, f'{L0}{r + 1}', '=' + self.safe(expr), self.F(size=20, bold=True, color=self.P), CARD, self.AL('center'), fmt)
             for cc in range(c0, c0 + 3):
@@ -604,7 +640,7 @@ class Builder:
         r = 6
         for n, (j, x) in enumerate(top):
             rr = r + n // 2; lc, v1, v2 = (('B', 'C', 'D') if n % 2 == 0 else ('E', 'F', 'G'))
-            self.put(ws, f'{lc}{rr}', T(x['label']), self.F(color=GRAY), align=self.AL(wrap=True))
+            self.put(ws, f'{lc}{rr}', self.lab(T(x['label']), self.field_money(x)), self.F(color=GRAY), align=self.AL(wrap=True))
             value_cell(f'{v1}{rr}', j, x, left=True); ws.merge_cells(f'{v1}{rr}:{v2}{rr}')
             for c in (v1, v2): ws[f'{c}{rr}'].border = under
             ws.row_dimensions[rr].height = 22
@@ -614,7 +650,7 @@ class Builder:
             cols = L['columns']; mx = L.get('max', 15)
             for j, ck in enumerate(cols):
                 _, col = find_col(s, f'{lt}.{ck}')
-                self.put(ws, f'{CL(2 + j)}{r}', T(col['label']), self.F(bold=True, color='FFFFFF'), self.P, self.AL('center', wrap=True), border=BOX)
+                self.put(ws, f'{CL(2 + j)}{r}', self.lab(T(col['label']), col_format(col) == 'money'), self.F(bold=True, color='FFFFFF'), self.P, self.AL('center', wrap=True), border=BOX)
             ws.row_dimensions[r].height = 30
             for i in range(mx):
                 rr = r + 1 + i
@@ -628,7 +664,7 @@ class Builder:
             r = r + mx + 2
             for n, (j, x) in enumerate(summ):
                 rr = r + n; big = n == len(summ) - 1
-                self.put(ws, f'E{rr}', T(x['label']), self.F(size=13 if big else 11, bold=True, color=self.P if big else INK), align=self.AL(wrap=True))
+                self.put(ws, f'E{rr}', self.lab(T(x['label']), self.field_money(x)), self.F(size=13 if big else 11, bold=True, color=self.P if big else INK), align=self.AL(wrap=True))
                 value_cell(f'F{rr}', j, x, big); ws.merge_cells(f'F{rr}:G{rr}')
                 if big:
                     for c in 'EFG': ws[f'{c}{rr}'].border = Border(top=Side(style='medium', color=self.P))
@@ -640,6 +676,10 @@ class Builder:
         ws.page_setup.orientation = 'portrait'; ws.page_setup.fitToWidth = 1; ws.page_setup.fitToHeight = 0; ws.sheet_properties.pageSetUpPr.fitToPage = True
         ws.page_margins.left = ws.page_margins.right = 0.5
         self.meta['forms'][f['key']] = {'sheet': name, 'range': f'A1:G{r + 1}'}
+
+    def field_money(self, x):
+        if 'value' in x: return col_format(find_col(self.s, x['value'])[1]) == 'money'
+        return x.get('format') == 'money'
 
     def form_pick(self, f):
         """The record the demo form shows: the one with the most lines (or the first)."""
@@ -656,7 +696,12 @@ class Builder:
 
     # ---------- v1.1: values as text (messages, documents)
     def as_text(self, x, fk):
+        if fk == 'date' and EDITION_EN:   # follows the Start-sheet "Date format" (US order when it is MM/DD/YYYY or anything unknown)
+            f, y, m, d = self.SET('fx_datefmt'), f'YEAR({x})', f'RIGHT("0"&MONTH({x}),2)', f'RIGHT("0"&DAY({x}),2)'
+            return f'IF(N({x})=0,"",IF({f}="DD/MM/YYYY",{d}&"/"&{m}&"/"&{y},IF({f}="YYYY-MM-DD",{y}&"-"&{m}&"-"&{d},{m}&"/"&{d}&"/"&{y})))'
         if fk == 'date': return f'IF(N({x})=0,"",YEAR({x})&"-"&RIGHT("0"&MONTH({x}),2)&"-"&RIGHT("0"&DAY({x}),2))'
+        if fk == 'money' and EDITION_EN:  # the Start-sheet currency symbol in front of every amount written into a text
+            return f'IF({x}="","",IF({x}<0,"-","")&{self.SET("fx_cur")}&FIXED(ABS({x}),2))'
         if fk == 'time': return f'IF({x}="","",HOUR({x})&":"&RIGHT("0"&MINUTE({x}),2))'
         if fk in ('money', 'num'): return f'IF({x}="","",FIXED({x},2))'
         if fk == 'int': return f'IF({x}="","",FIXED({x},0))'
@@ -734,14 +779,14 @@ class Builder:
         self.section(ws, 'B5', T(FIXED['inputs']))
         ins = {}; r = 6
         for i_ in x['inputs']:
-            ty = i_['type']; v = i_['default']; fmt = {'pct': '0.0%', 'money': '#,##0.00', 'int': '#,##0', 'num': '#,##0.00', 'date': 'yyyy-mm-dd', 'text': '@'}.get(ty)
+            ty = i_['type']; v = i_['default']; fmt = {'pct': '0.0%', 'money': '#,##0.00', 'int': '#,##0', 'num': '#,##0.00', 'date': DATE_FMT, 'text': '@'}.get(ty)
             if ty == 'list': v = self.label_of(i_['list'], v)
             if ty == 'date': v = self.date_default(v)
             if ty == 'text' and isinstance(v, str) and v.strip():
                 # 2026-11-12: a text default (e.g. a person's name) is matched against the demo rows, which are translated -> translate it too when a translation exists
                 try: v = T(v)
                 except KeyError: pass
-            self.put(ws, f'B{r}', T(i_['label']), self.F(size=11), align=self.AL(wrap=True))
+            self.put(ws, f'B{r}', self.lab(T(i_['label']), ty == 'money'), self.F(size=11), align=self.AL(wrap=True))
             self.put(ws, f'C{r}', v, self.F(size=11, bold=True, color=BLUE), CREAM, self.ALN() if ty not in ('text', 'list') else self.AL(), fmt, BOX)
             if ty == 'list': self.dv(ws, f'C{r}', self.LR(i_['list']))
             ins[i_['key']] = f'$C${r}'; ws.row_dimensions[r].height = 20; r += 1
@@ -750,7 +795,7 @@ class Builder:
         for j, o in enumerate(outs):
             big = j == len(outs) - 1; fk = o['format']
             fmt = {'money': '#,##0.00;[Red]-#,##0.00'}.get(fk, NUMFMT[fk])
-            self.put(ws, f'B{r}', T(o['label']), self.F(size=12 if big else 11, bold=big), align=self.AL(wrap=True))
+            self.put(ws, f'B{r}', self.lab(T(o['label']), fk == 'money'), self.F(size=12 if big else 11, bold=big), align=self.AL(wrap=True))
             self.put(ws, f'C{r}', '=' + self.safe(self.res(o['formula'], ins=ins)), self.F(size=14 if big else 11, bold=True, color=self.P if big else INK),
                      AUTO, self.ALN() if fk not in ('text',) else self.AL(), fmt, BOX)
             org = f'tools[{x["key"]}].outputs[{j}]'; self.origin(name, f'C{r}', org, o['formula'])
@@ -762,8 +807,9 @@ class Builder:
             over = [i_ for i_ in x['inputs'] if any(i_['key'] in row['values'] for row in g['rows'])]
             outs = [o for o in outs if any('{in:' + i_['key'] + '}' in o['formula'] for i_ in over)] or outs   # only what the scenarios change
             heads = [''] + [T(i_['label']) for i_ in over] + [T(o['label']) for o in outs]
+            hmoney = [False] + [i_['type'] == 'money' for i_ in over] + [o['format'] == 'money' for o in outs]
             for j, h in enumerate(heads):
-                self.put(ws, f'{CL(2 + j)}{r}', h, self.F(bold=True, color='FFFFFF'), self.P if j <= len(over) else self.PC, self.AL('center', wrap=True), border=BOX)
+                self.put(ws, f'{CL(2 + j)}{r}', self.lab(h, hmoney[j]), self.F(bold=True, color='FFFFFF'), self.P if j <= len(over) else self.PC, self.AL('center', wrap=True), border=BOX)
             ws.row_dimensions[r].height = max(32, 13 * max(lines(h, 16) for h in heads if h) + 8)
             for gi, row in enumerate(g['rows']):
                 rr = r + 1 + gi; rins = dict(ins)
@@ -773,7 +819,7 @@ class Builder:
                     if v is None: val, font = f'={ins[i_["key"]]}', self.F(color=GRAY)
                     elif isinstance(v, str): val, font = '=' + self.safe(self.res(v, ins=ins)), self.F(bold=True, color=BLUE)
                     else: val, font = v, self.F(bold=True, color=BLUE)
-                    fmt = {'pct': '0.0%', 'money': '#,##0.00', 'int': '#,##0', 'num': '#,##0.00', 'date': 'yyyy-mm-dd'}.get(i_['type'])
+                    fmt = {'pct': '0.0%', 'money': '#,##0.00', 'int': '#,##0', 'num': '#,##0.00', 'date': DATE_FMT}.get(i_['type'])
                     self.put(ws, f'{L}{rr}', val, font, CREAM if v is not None else None, self.ALN() if i_['type'] not in ('text', 'list') else self.AL(), fmt, BOX)
                     rins[i_['key']] = f'${L}{rr}'
                     if isinstance(v, str): self.origin(name, f'{L}{rr}', f'tools[{x["key"]}].grid.rows[{gi}].values.{i_["key"]}', v)
@@ -825,7 +871,7 @@ class Builder:
         self.head(ws, T(d['title']), T(FIXED['form_hint']))
         self.pick_block(ws, d['pick'], self.form_pick({'pick': d['pick']}) if self.demo else None)
         self.put(ws, 'F5', T(FIXED['date']), self.F(color=GRAY), align=self.AL('left' if self.rtl else 'right'))
-        self.put(ws, 'G5', '=TODAY()', self.F(bold=True, color=BLUE), CREAM, self.AL(), 'yyyy-mm-dd', BOX)
+        self.put(ws, 'G5', '=TODAY()', self.F(bold=True, color=BLUE), CREAM, self.AL(), DATE_FMT, BOX)
         self.put(ws, 'L5', T(FIXED['wording']), self.F(bold=True, color='FFFFFF'), GRAY, self.AL(), border=BOX)
         pt = d['pick'].split('.')[0]
         r = 7
@@ -889,7 +935,7 @@ class Builder:
         self.put(ws, 'G4', f'=IF(AND($D$4<>"",$J$4=""),{X(T(FIXED["not_found"]))},"")', self.F(bold=True, color='9B1C1C'))
         _, scol = find_col(self.s, c['start'])
         self.put(ws, 'B5', T(scol['label']), self.F(size=11))
-        self.put(ws, 'D5', f'=IF($J$4="","",IF(INDEX({self.RG(st, sc)},$J$4)="","",INDEX({self.RG(st, sc)},$J$4)))', self.F(size=11, bold=True), AUTO, self.AL(), 'yyyy-mm-dd', BOX)
+        self.put(ws, 'D5', f'=IF($J$4="","",IF(INDEX({self.RG(st, sc)},$J$4)="","",INDEX({self.RG(st, sc)},$J$4)))', self.F(size=11, bold=True), AUTO, self.AL(), DATE_FMT, BOX)
         for rr in (5, 6):
             for col in 'EF': ws[f'{col}{rr}'].fill = fill(AUTO); ws[f'{col}{rr}'].border = BOX
             ws.merge_cells(f'D{rr}:F{rr}')
@@ -905,18 +951,18 @@ class Builder:
             self.put(ws, f'B{r}', i + 1, self.F(color=GRAY), align=self.AL('center'), border=BOX)
             self.put(ws, f'C{r}', txt, self.F(), align=self.AL(wrap=True), border=BOX)
             self.put(ws, f'D{r}', s_['days'], self.F(color=BLUE), align=self.ALN(), fmt='0', border=BOX)
-            self.put(ws, f'E{r}', f'=IF($D$5="","",$D$5+D{r})', self.F(bold=True), AUTO, self.ALN(), 'yyyy-mm-dd', BOX)
+            self.put(ws, f'E{r}', f'=IF($D$5="","",$D$5+D{r})', self.F(bold=True), AUTO, self.ALN(), DATE_FMT, BOX)
             done = done_on = None
             if self.demo and best is not None:
                 due = best + dt.timedelta(days=s_['days'])
                 late_ones = [j for j, x in enumerate(steps) if best + dt.timedelta(days=x['days']) < self.today]
                 if due < self.today and i != (late_ones[-1] if late_ones else -1): done, done_on = yes_l, due
             self.put(ws, f'F{r}', done, self.F(bold=True), align=self.AL('center'), border=BOX)
-            self.put(ws, f'G{r}', done_on, self.F(), align=self.ALN(), fmt='yyyy-mm-dd', border=BOX)
+            self.put(ws, f'G{r}', done_on, self.F(), align=self.ALN(), fmt=DATE_FMT, border=BOX)
             self.put(ws, f'H{r}', f'=IF(E{r}="","",IF(F{r}={YES},{DONE},IF(E{r}<TODAY(),{LATE},{TODO})))', self.F(bold=True), AUTO, self.AL('center'), border=BOX)
             ws.row_dimensions[r].height = max(20, 15 * lines(txt, 54) + 5)
         last = H0 + n
-        self.dv(ws, f'F{H0 + 1}:F{last}', self.LR(YESNO))
+        self.dv(ws, f'F{H0 + 1}:F{last}', self.LR(YESNO)); self.open.append((ws, f'F{H0 + 1}:G{last}'))
         for j, (key, style) in enumerate((('late', 'bad'), ('done', 'good'), ('todo', None))):
             ws[f'K{1 + j}'] = f'={self.LI(STEPSTAT, key)}'; ws[f'K{1 + j}'].number_format = ';;;'
             if style: self.cf(ws, f'H{H0 + 1}:H{last}', f'H{H0 + 1}=$K${1 + j}', style)
