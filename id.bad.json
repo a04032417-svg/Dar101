@@ -1,0 +1,275 @@
+[
+{
+"en": "Pay your technicians fairly, collect booth rent and see who is productive",
+"kind": "sentence",
+"max": 80,
+"mt": "Bayar teknisi Anda dengan adil, kumpulkan uang sewa stan, dan lihat siapa yang produktif",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "each staff member and month shows takings, tips, hours, commission or hourly pay, total cost with the employer extra and a check for pay that is not yet paid",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap anggota staf dan bulan menunjukkan penghasilan, tip, jam kerja, komisi atau gaji per jam, total biaya tambahan majikan dan cek untuk gaji yang belum dibayarkan",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "every renter and month with the rent due, due date, paid date, days late and the arrears still owed, so no late rent hides",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap penyewa dan bulan dengan jatuh tempo sewa, tanggal jatuh tempo, tanggal pembayaran, hari terlambat dan tunggakan masih terutang, sehingga tidak ada keterlambatan sewa yang disembunyikan",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "booked against available minutes and revenue for each booked hour for every technician and month, set against each technician's own target",
+"kind": "sentence",
+"max": 160,
+"mt": "dipesan berdasarkan menit yang tersedia dan pendapatan untuk setiap jam yang dipesan untuk setiap teknisi dan bulan, ditetapkan berdasarkan target masing-masing teknisi",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Rent more than 21 days late",
+"kind": "list",
+"max": 30,
+"mt": "Sewa terlambat lebih dari 21 hari",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Day over capacity, move a booking",
+"kind": "list",
+"max": 30,
+"mt": "Hari melebihi kapasitas, pindah pemesanan",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Matches the pay run",
+"kind": "list",
+"max": 30,
+"mt": "Cocok dengan pembayaran yang dijalankan",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Course date passed, update the log",
+"kind": "list",
+"max": 30,
+"mt": "Tanggal kursus telah berlalu, perbarui log",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Retail per client below target",
+"kind": "list",
+"max": 30,
+"mt": "Ritel per klien di bawah target",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Under half of the revenue",
+"kind": "list",
+"max": 30,
+"mt": "Di bawah setengah dari pendapatan",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Margin per chair hour above the minimum",
+"kind": "list",
+"max": 30,
+"mt": "Margin per jam kursi di atas minimum",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Margin per chair hour below the minimum",
+"kind": "list",
+"max": 30,
+"mt": "Margin per jam kursi di bawah minimum",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "No date promised",
+"kind": "list",
+"max": 30,
+"mt": "Tidak ada tanggal yang dijanjikan",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Promised date passed",
+"kind": "list",
+"max": 30,
+"mt": "Tanggal yang dijanjikan telah berlalu",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Promised date ahead",
+"kind": "list",
+"max": 30,
+"mt": "Tanggal yang dijanjikan ke depan",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pay cost within the wanted share",
+"kind": "list",
+"max": 30,
+"mt": "Bayar biaya sesuai bagian yang diinginkan",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Pay cost above the wanted share",
+"kind": "list",
+"max": 30,
+"mt": "Bayar biaya di atas bagian yang diinginkan",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Revenue per hour on target",
+"kind": "list",
+"max": 30,
+"mt": "Pendapatan per jam sesuai target",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Revenue per hour below target",
+"kind": "list",
+"max": 30,
+"mt": "Pendapatan per jam di bawah target",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Commission is at or under standard",
+"kind": "list",
+"max": 30,
+"mt": "Komisi berada pada atau di bawah standar",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Call the renter and ask for a date",
+"kind": "list",
+"max": 30,
+"mt": "Hubungi penyewa dan mintalah tanggalnya",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Send a written notice of arrears",
+"kind": "list",
+"max": 30,
+"mt": "Kirimkan pemberitahuan tertulis tentang tunggakan",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Meet the renter and agree a payment plan",
+"kind": "list",
+"max": 30,
+"mt": "Temui penyewa dan setujui rencana pembayaran",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Commission leaves the studio the most",
+"kind": "list",
+"max": 30,
+"mt": "Komisi paling banyak meninggalkan studio",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Hourly pay leaves the studio the most",
+"kind": "list",
+"max": 30,
+"mt": "Gaji per jam paling banyak meninggalkan studio",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Booth rent leaves the studio the most",
+"kind": "list",
+"max": 30,
+"mt": "Sewa booth paling banyak meninggalkan studio",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Technician is at or above the target",
+"kind": "list",
+"max": 30,
+"mt": "Teknisi berada pada atau di atas target",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Target needs many more bookings",
+"kind": "list",
+"max": 30,
+"mt": "Target membutuhkan lebih banyak pemesanan",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Solid, one habit to improve",
+"kind": "list",
+"max": 30,
+"mt": "Solid, satu kebiasaan yang perlu ditingkatkan",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Expected bookings cover the cost",
+"kind": "list",
+"max": 30,
+"mt": "Pemesanan yang diharapkan menutupi biaya",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Expected bookings fall short",
+"kind": "list",
+"max": 30,
+"mt": "Pemesanan yang diharapkan gagal",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Planned hours match the contract",
+"kind": "list",
+"max": 30,
+"mt": "Jam yang direncanakan sesuai dengan kontrak",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Planned hours are over the contract",
+"kind": "list",
+"max": 30,
+"mt": "Jam yang direncanakan sudah melebihi kontrak",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Planned hours are under the contract",
+"kind": "list",
+"max": 30,
+"mt": "Jam yang direncanakan berdasarkan kontrak",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Studio revenue, pay cost and booth rent collected by month",
+"kind": "title",
+"max": 60,
+"mt": "Pendapatan studio, biaya pembayaran, dan sewa stan dikumpulkan berdasarkan bulan",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Utilisation and revenue per booked hour of a technician",
+"kind": "title",
+"max": 60,
+"mt": "Pemanfaatan dan pendapatan per jam yang dipesan seorang teknisi",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Extra appointments needed to reach the utilisation target",
+"kind": "title",
+"max": 60,
+"mt": "Diperlukan penunjukan tambahan untuk mencapai target pemanfaatan",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Appointments a new technician needs to cover their cost",
+"kind": "title",
+"max": 60,
+"mt": "Janji temu yang dibutuhkan teknisi baru untuk menutupi biayanya",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Technician pay by commission percent and studio revenue",
+"kind": "title",
+"max": 60,
+"mt": "Teknisi membayar berdasarkan persen komisi dan pendapatan studio",
+"why": "too long: 64 characters, the limit is 60"
+}
+]

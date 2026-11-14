@@ -1,0 +1,422 @@
+[
+{
+"en": "Expiry watch by follow-up owner",
+"kind": "title",
+"max": 60,
+"mt": "Vigilancia de vencimiento por parte del propietario siguiente",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Pay your technicians fairly, collect booth rent and see who is productive",
+"kind": "sentence",
+"max": 80,
+"mt": "Pague a sus técnicos de manera justa, cobre el alquiler del stand y vea quién es productivo",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "each staff member and month shows takings, tips, hours, commission or hourly pay, total cost with the employer extra and a check for pay that is not yet paid",
+"kind": "sentence",
+"max": 160,
+"mt": "cada miembro del personal y mes muestra ingresos, propinas, horas, comisión o pago por hora, costo total con el empleador adicional y un cheque por el pago que aún no se ha pagado.",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "every renter and month with the rent due, due date, paid date, days late and the arrears still owed, so no late rent hides",
+"kind": "sentence",
+"max": 160,
+"mt": "cada inquilino y mes con el alquiler adeudado, la fecha de vencimiento, la fecha de pago, los días de retraso y los atrasos aún adeudados, para que no se oculte ningún alquiler atrasado",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "booked against available minutes and revenue for each booked hour for every technician and month, set against each technician's own target",
+"kind": "sentence",
+"max": 160,
+"mt": "reservado en función de los minutos disponibles y los ingresos por cada hora reservada para cada técnico y mes, en comparación con el objetivo propio de cada técnico",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Rent more than 21 days late",
+"kind": "list",
+"max": 30,
+"mt": "Alquiler con más de 21 días de retraso",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Utilisation below target",
+"kind": "list",
+"max": 30,
+"mt": "Utilización por debajo del objetivo",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Day over capacity, move a booking",
+"kind": "list",
+"max": 30,
+"mt": "Día por encima de capacidad, mover una reserva",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Matches the pay run",
+"kind": "list",
+"max": 30,
+"mt": "Coincide con la carrera salarial",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Differs from the pay run",
+"kind": "list",
+"max": 30,
+"mt": "Se diferencia de la carrera salarial",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Tips all passed on",
+"kind": "list",
+"max": 30,
+"mt": "Todos los consejos transmitidos",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Hours match the contract",
+"kind": "list",
+"max": 30,
+"mt": "Las horas coinciden con el contrato.",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Course date passed, update the log",
+"kind": "list",
+"max": 30,
+"mt": "Fecha del curso aprobada, actualizar el registro.",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Retail per client on target",
+"kind": "list",
+"max": 30,
+"mt": "Venta minorista por cliente según el objetivo",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Retail per client below target",
+"kind": "list",
+"max": 30,
+"mt": "Venta minorista por cliente por debajo del objetivo",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Over half of the revenue",
+"kind": "list",
+"max": 30,
+"mt": "Más de la mitad de los ingresos",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Under half of the revenue",
+"kind": "list",
+"max": 30,
+"mt": "Menos de la mitad de los ingresos",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Margin per chair hour above the minimum",
+"kind": "list",
+"max": 30,
+"mt": "Margen por hora de silla por encima del mínimo",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Margin per chair hour below the minimum",
+"kind": "list",
+"max": 30,
+"mt": "Margen por hora de silla por debajo del mínimo",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Pay cost within the wanted share",
+"kind": "list",
+"max": 30,
+"mt": "Pagar el costo dentro de la parte deseada",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Pay cost above the wanted share",
+"kind": "list",
+"max": 30,
+"mt": "Pagar el costo por encima de la parte deseada",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Revenue per hour on target",
+"kind": "list",
+"max": 30,
+"mt": "Ingresos por hora según el objetivo",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Revenue per hour below target",
+"kind": "list",
+"max": 30,
+"mt": "Ingresos por hora por debajo del objetivo",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Commission is at or under standard",
+"kind": "list",
+"max": 30,
+"mt": "La comisión está al nivel o por debajo del estándar",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Commission is over standard",
+"kind": "list",
+"max": 30,
+"mt": "La comisión está por encima del estándar.",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Rent is still to collect",
+"kind": "list",
+"max": 30,
+"mt": "El alquiler aún está por cobrar.",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Call the renter and ask for a date",
+"kind": "list",
+"max": 30,
+"mt": "Llama al inquilino y pide una fecha.",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Send a written notice of arrears",
+"kind": "list",
+"max": 30,
+"mt": "Enviar un aviso por escrito de atrasos",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Meet the renter and agree a payment plan",
+"kind": "list",
+"max": 30,
+"mt": "Conozca al inquilino y acuerde un plan de pago",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Commission leaves the studio the most",
+"kind": "list",
+"max": 30,
+"mt": "La comisión es la que más deja el estudio.",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Hourly pay leaves the studio the most",
+"kind": "list",
+"max": 30,
+"mt": "El pago por hora es el que más deja el estudio.",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Booth rent leaves the studio the most",
+"kind": "list",
+"max": 30,
+"mt": "El alquiler del stand es lo que más deja el estudio.",
+"why": "too long: 52 characters, the limit is 30"
+},
+{
+"en": "Technician is at or above the target",
+"kind": "list",
+"max": 30,
+"mt": "El técnico está en o por encima del objetivo",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Technician is below the target",
+"kind": "list",
+"max": 30,
+"mt": "El técnico está por debajo del objetivo.",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Bookings are within reach of the target",
+"kind": "list",
+"max": 30,
+"mt": "Las reservas están al alcance del objetivo",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Target needs many more bookings",
+"kind": "list",
+"max": 30,
+"mt": "Target necesita muchas más reservas",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Tips are fully passed on",
+"kind": "list",
+"max": 30,
+"mt": "Las propinas se transmiten íntegramente.",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Tips are still to pass on",
+"kind": "list",
+"max": 30,
+"mt": "Aún quedan consejos por transmitir",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Rent covers the chair cost",
+"kind": "list",
+"max": 30,
+"mt": "El alquiler cubre el costo de la silla.",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Rent is below the chair cost",
+"kind": "list",
+"max": 30,
+"mt": "El alquiler está por debajo del costo de la silla.",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Solid, one habit to improve",
+"kind": "list",
+"max": 30,
+"mt": "Sólido, un hábito para mejorar.",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Needs a coaching plan",
+"kind": "list",
+"max": 30,
+"mt": "Necesita un plan de entrenamiento",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Expected bookings cover the cost",
+"kind": "list",
+"max": 30,
+"mt": "Las reservas previstas cubren el coste.",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Expected bookings fall short",
+"kind": "list",
+"max": 30,
+"mt": "Las reservas esperadas se quedan cortas",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Planned hours match the contract",
+"kind": "list",
+"max": 30,
+"mt": "Las horas planificadas coinciden con el contrato.",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Planned hours are over the contract",
+"kind": "list",
+"max": 30,
+"mt": "Las horas planificadas han superado el contrato.",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Planned hours are under the contract",
+"kind": "list",
+"max": 30,
+"mt": "Las horas previstas están bajo el contrato.",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Booth rent ledger with days late and arrears",
+"kind": "title",
+"max": 60,
+"mt": "Libro mayor de alquiler de stand con días de retraso y atrasos",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Rent chase log with the promised date check",
+"kind": "title",
+"max": 60,
+"mt": "Alquile el registro de persecución con la verificación de la fecha prometida",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Service mix by technician with share of revenue",
+"kind": "title",
+"max": 60,
+"mt": "Combinación de servicios por técnico con participación en los ingresos",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Retail sales by technician with retail per client",
+"kind": "title",
+"max": 60,
+"mt": "Ventas al por menor por técnico con venta al por menor por cliente",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Studio revenue, pay cost and booth rent collected by month",
+"kind": "title",
+"max": 60,
+"mt": "Ingresos del estudio, coste salarial y alquiler del stand recaudados por mes",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Rent reminder with the promised date check",
+"kind": "title",
+"max": 60,
+"mt": "Recordatorio de alquiler con la verificación de la fecha prometida.",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Gross pay and overtime for an hourly team member",
+"kind": "title",
+"max": 60,
+"mt": "Salario bruto y horas extras para un miembro del equipo por horas",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Booth rent income, arrears and the share collected",
+"kind": "title",
+"max": 60,
+"mt": "Ingresos por alquiler de stand, atrasos y participación recaudada",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Next step and total due for a late booth rent",
+"kind": "title",
+"max": 60,
+"mt": "Siguiente paso y total adeudado por el alquiler tardío del stand",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Extra appointments needed to reach the utilisation target",
+"kind": "title",
+"max": 60,
+"mt": "Se necesitan citas adicionales para alcanzar el objetivo de utilización",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Card tips to pass on after the card fee",
+"kind": "title",
+"max": 60,
+"mt": "Consejos sobre tarjetas para transmitir después de la tarifa de la tarjeta",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Score of a technician from rebooking, retail and reviews",
+"kind": "title",
+"max": 60,
+"mt": "Puntuación de un técnico por cambio de reserva, venta minorista y reseñas.",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Technician pay by commission percent and studio revenue",
+"kind": "title",
+"max": 60,
+"mt": "Pago del técnico por porcentaje de comisión e ingresos del estudio",
+"why": "too long: 66 characters, the limit is 60"
+}
+]

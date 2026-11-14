@@ -1,0 +1,450 @@
+[
+{
+"en": "Monthly fee {col:memberships.monthly_fee}, {col:memberships.months_billed} months billed, billed to date {col:memberships.billed_to_date}. Status {col:memberships.status}.",
+"kind": "document",
+"max": null,
+"mt": "Monthly fee {col:memberships.monthly_fee}, {col:memberships.months_billed} months billed, billed to date {col:memberships.billed_to_date}. Status {col:memberships.status}.",
+"why": "not translated"
+},
+{
+"en": "The balance can be checked at any time at the front desk.",
+"kind": "document",
+"max": null,
+"mt": "The balance can be checked at any time at the front desk.",
+"why": "not translated"
+},
+{
+"en": "An unused balance is a value the studio owes the holder until the card ends.",
+"kind": "document",
+"max": null,
+"mt": "An unused balance is a value the studio owes the holder until the card ends.",
+"why": "not translated"
+},
+{
+"en": "Expiring prepaid list, prepared for {col:team.name} of {set:company} on {today}. {col:team.exp14_count} packs expire in the next 14 days with {col:team.exp14_value} of value unused.",
+"kind": "document",
+"max": null,
+"mt": "Expiring prepaid list, prepared for {col:team.name} of {set:company} on {today}. {col:team.exp14_count} packs expire in the next 14 days with {col:team.exp14_value} of value unused.",
+"why": "not translated"
+},
+{
+"en": "Check your own local rules on how unused prepaid value is reported.",
+"kind": "document",
+"max": null,
+"mt": "Check your own local rules on how unused prepaid value is reported.",
+"why": "not translated"
+},
+{
+"en": "Paid after a retry",
+"kind": "label",
+"max": 30,
+"mt": "Bezahlt nach einem erneuten Versuch",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Pay your technicians fairly, collect booth rent and see who is productive",
+"kind": "sentence",
+"max": 80,
+"mt": "Bezahlen Sie Ihre Techniker fair, kassieren Sie Standmiete und sehen Sie, wer produktiv ist",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "Pay your technicians, collect rent and see who is productive",
+"kind": "sentence",
+"max": 80,
+"mt": "Bezahlen Sie Ihre Techniker, kassieren Sie Miete und sehen Sie, wer produktiv ist",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "each staff member and month shows takings, tips, hours, commission or hourly pay, total cost with the employer extra and a check for pay that is not yet paid",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jeden Mitarbeiter und jeden Monat werden Einnahmen, Trinkgelder, Stunden, Provisionen oder Stundenlöhne, Gesamtkosten mit Zuschlag des Arbeitgebers und ein Scheck über das noch nicht gezahlte Gehalt angezeigt",
+"why": "too long: 212 characters, the limit is 160"
+},
+{
+"en": "every renter and month with the rent due, due date, paid date, days late and the arrears still owed, so no late rent hides",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder Mieter und Monat mit der fälligen Miete, dem Fälligkeitsdatum, dem Zahlungstermin, den Verspätungstagen und den noch geschuldeten Rückständen, sodass sich keine verspätete Miete verbirgt",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "type the utilisation and the target and see the extra appointments and revenue needed, and how many technicians are below target now",
+"kind": "sentence",
+"max": 160,
+"mt": "Geben Sie die Auslastung und das Ziel ein und sehen Sie, welche zusätzlichen Termine und Umsätze erforderlich sind und wie viele Techniker derzeit unter dem Ziel liegen",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Rent late, chase now",
+"kind": "list",
+"max": 30,
+"mt": "Mieten Sie spät, jagen Sie jetzt",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Day over capacity, move a booking",
+"kind": "list",
+"max": 30,
+"mt": "Tag über Kapazität, verschieben Sie eine Buchung",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Differs from the pay run",
+"kind": "list",
+"max": 30,
+"mt": "Unterscheidet sich vom Lohnlauf",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Tips all passed on",
+"kind": "list",
+"max": 30,
+"mt": "Trinkgelder wurden alle weitergegeben",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Tips part passed on",
+"kind": "list",
+"max": 30,
+"mt": "Trinkgelder werden teilweise weitergegeben",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Tips not passed on yet",
+"kind": "list",
+"max": 30,
+"mt": "Tipps wurden noch nicht weitergegeben",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Hours match the contract",
+"kind": "list",
+"max": 30,
+"mt": "Die Stunden entsprechen dem Vertrag",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Hours over the contract",
+"kind": "list",
+"max": 30,
+"mt": "Stunden über den Vertrag hinaus",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Course date passed, update the log",
+"kind": "list",
+"max": 30,
+"mt": "Das Kursdatum ist abgelaufen. Aktualisieren Sie das Protokoll",
+"why": "too long: 61 characters, the limit is 30"
+},
+{
+"en": "Retail per client below target",
+"kind": "list",
+"max": 30,
+"mt": "Einzelhandel pro Kunde unter Zielwert",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Over half of the revenue",
+"kind": "list",
+"max": 30,
+"mt": "Mehr als die Hälfte des Umsatzes",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Under half of the revenue",
+"kind": "list",
+"max": 30,
+"mt": "Weniger als die Hälfte des Umsatzes",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Margin per chair hour above the minimum",
+"kind": "list",
+"max": 30,
+"mt": "Marge pro Lehrstuhlstunde über dem Minimum",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Margin per chair hour below the minimum",
+"kind": "list",
+"max": 30,
+"mt": "Marge pro Lehrstuhlstunde unter dem Minimum",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Promised date passed",
+"kind": "list",
+"max": 30,
+"mt": "Versprochener Termin verstrichen",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pay cost within the wanted share",
+"kind": "list",
+"max": 30,
+"mt": "Bezahlen Sie die Kosten innerhalb des gewünschten Anteils",
+"why": "too long: 57 characters, the limit is 30"
+},
+{
+"en": "Pay cost above the wanted share",
+"kind": "list",
+"max": 30,
+"mt": "Zahlen Sie Kosten, die über dem gewünschten Anteil liegen",
+"why": "too long: 57 characters, the limit is 30"
+},
+{
+"en": "Commission is at or under standard",
+"kind": "list",
+"max": 30,
+"mt": "Die Provision entspricht oder liegt unter dem Standard",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Commission is over standard",
+"kind": "list",
+"max": 30,
+"mt": "Die Provision ist über dem Standard",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "All rent is collected",
+"kind": "list",
+"max": 30,
+"mt": "Die gesamte Miete wird eingezogen",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Rent is still to collect",
+"kind": "list",
+"max": 30,
+"mt": "Die Miete muss noch eingezogen werden",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Call the renter and ask for a date",
+"kind": "list",
+"max": 30,
+"mt": "Rufen Sie den Mieter an und fragen Sie nach einem Termin",
+"why": "too long: 56 characters, the limit is 30"
+},
+{
+"en": "Send a written notice of arrears",
+"kind": "list",
+"max": 30,
+"mt": "Senden Sie eine schriftliche Zahlungsrückstandsanzeige",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Meet the renter and agree a payment plan",
+"kind": "list",
+"max": 30,
+"mt": "Treffen Sie den Mieter und vereinbaren Sie einen Zahlungsplan",
+"why": "too long: 61 characters, the limit is 30"
+},
+{
+"en": "Commission leaves the studio the most",
+"kind": "list",
+"max": 30,
+"mt": "Die Provision verlässt das Studio am meisten",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Hourly pay leaves the studio the most",
+"kind": "list",
+"max": 30,
+"mt": "Der Stundenlohn verlässt das Studio am meisten",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Booth rent leaves the studio the most",
+"kind": "list",
+"max": 30,
+"mt": "Die Standmiete verlässt am meisten das Studio",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Technician is at or above the target",
+"kind": "list",
+"max": 30,
+"mt": "Der Techniker befindet sich auf oder über dem Zielwert",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Technician is below the target",
+"kind": "list",
+"max": 30,
+"mt": "Der Techniker liegt unter dem Zielwert",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Bookings are within reach of the target",
+"kind": "list",
+"max": 30,
+"mt": "Buchungen liegen in greifbarer Nähe des Ziels",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Target needs many more bookings",
+"kind": "list",
+"max": 30,
+"mt": "Target benötigt noch viele weitere Buchungen",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Tips are fully passed on",
+"kind": "list",
+"max": 30,
+"mt": "Trinkgelder werden vollumfänglich weitergegeben",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Tips are still to pass on",
+"kind": "list",
+"max": 30,
+"mt": "Trinkgelder sind weiterhin weiterzugeben",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Rent covers the chair cost",
+"kind": "list",
+"max": 30,
+"mt": "Die Miete deckt die Stuhlkosten",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Rent is below the chair cost",
+"kind": "list",
+"max": 30,
+"mt": "Die Miete liegt unter den Stuhlkosten",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Solid, one habit to improve",
+"kind": "list",
+"max": 30,
+"mt": "Solide, eine Gewohnheit, die es zu verbessern gilt",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Expected bookings cover the cost",
+"kind": "list",
+"max": 30,
+"mt": "Voraussichtliche Buchungen decken die Kosten",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Expected bookings fall short",
+"kind": "list",
+"max": 30,
+"mt": "Die erwarteten Buchungen bleiben zurück",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Planned hours match the contract",
+"kind": "list",
+"max": 30,
+"mt": "Geplante Stunden entsprechen dem Vertrag",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Planned hours are over the contract",
+"kind": "list",
+"max": 30,
+"mt": "Geplante Stunden gehen über den Vertrag hinaus",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Planned hours are under the contract",
+"kind": "list",
+"max": 30,
+"mt": "Geplante Stunden sind vertraglich vereinbart",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Rent chase log with the promised date check",
+"kind": "title",
+"max": 60,
+"mt": "Mieten Sie ein Verfolgungsprotokoll mit der versprochenen Datumsprüfung",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Weekly schedules with hours against contract",
+"kind": "title",
+"max": 60,
+"mt": "Wöchentliche Stundenpläne mit vertraglich vereinbarten Stunden",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Retail sales by technician with retail per client",
+"kind": "title",
+"max": 60,
+"mt": "Einzelhandelsumsätze nach Technikern mit Einzelhandel pro Kunde",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Studio revenue, pay cost and booth rent collected by month",
+"kind": "title",
+"max": 60,
+"mt": "Monatlich erfasste Studioeinnahmen, Lohnkosten und Standmiete",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Weekly timesheet with overtime and gross pay",
+"kind": "title",
+"max": 60,
+"mt": "Wöchentliche Arbeitszeittabelle mit Überstunden und Bruttolohn",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Check-in with the next step and the review date",
+"kind": "title",
+"max": 60,
+"mt": "Checken Sie mit dem nächsten Schritt und dem Überprüfungsdatum ein",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Booth rent income, arrears and the share collected",
+"kind": "title",
+"max": 60,
+"mt": "Einnahmen aus der Standmiete, Zahlungsrückstände und der eingezogene Anteil",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Next step and total due for a late booth rent",
+"kind": "title",
+"max": 60,
+"mt": "Nächster Schritt und Gesamtbetrag für eine verspätete Standmiete",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Extra appointments needed to reach the utilisation target",
+"kind": "title",
+"max": 60,
+"mt": "Zusätzliche Termine erforderlich, um das Auslastungsziel zu erreichen",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Score of a technician from rebooking, retail and reviews",
+"kind": "title",
+"max": 60,
+"mt": "Bewertung eines Technikers aus Umbuchung, Einzelhandel und Bewertungen",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Appointments a new technician needs to cover their cost",
+"kind": "title",
+"max": 60,
+"mt": "Termine, die ein neuer Techniker benötigt, um seine Kosten zu decken",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Technician pay by commission percent and studio revenue",
+"kind": "title",
+"max": 60,
+"mt": "Techniker werden nach Provisionsprozentsatz und Studioeinnahmen bezahlt",
+"why": "too long: 71 characters, the limit is 60"
+}
+]
