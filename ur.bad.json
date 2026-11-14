@@ -1,0 +1,23 @@
+[
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "پیک کیے جانے کا انتظار کرنے والا ہر آرڈر اس کے پیکر، اس کی مقررہ تاریخ، اس نے کتنے گھنٹے انتظار کیا ہے اور ایک جھنڈا دکھاتا ہے جب یہ آج یا زائد المیعاد ہے، لہذا کچھ بھی دنوں تک نہیں بیٹھتا ہے۔",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "At or above minimum margin",
+"kind": "list",
+"max": 30,
+"mt": "کم از کم مارجن پر یا اس سے اوپر",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Hello {customer}, thank you for order {order_no}. Use the code THANKS10 for your next order.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {customer}، آرڈر کے لیے آپ کا شکریہ {order_no}۔ اپنے اگلے آرڈر کے لیے THANKS10 کوڈ استعمال کریں۔",
+"why": "English/Latin words left: THANKS"
+}
+]

@@ -1,0 +1,23 @@
+[
+{
+"en": "At or above minimum margin",
+"kind": "list",
+"max": 30,
+"mt": "عند أو أعلى من الحد الأدنى للهامش",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Online orders with profit after fee, shipping and packaging",
+"kind": "title",
+"max": 60,
+"mt": "الطلبات عبر الإنترنت مع الربح بعد الرسوم والشحن والتعبئة والتغليف",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Hello {customer}, thank you for order {order_no}. Use the code THANKS10 for your next order.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {customer}، شكرًا لك على الطلب {order_no}. استخدم الرمز THANKS10 لطلبك التالي.",
+"why": "English/Latin words left: THANKS"
+}
+]

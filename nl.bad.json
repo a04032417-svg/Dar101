@@ -1,0 +1,100 @@
+[
+{
+"en": "Order profit after fee, shipping and packaging",
+"kind": "label",
+"max": 50,
+"mt": "Bestelwinst na aftrek van kosten, verzending en verpakking",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "each order shows its goods cost, channel fee, shipping paid and packaging, so profit and margin are numbers and a loss-maker turns red",
+"kind": "sentence",
+"max": 160,
+"mt": "bij elke bestelling worden de goederenkosten, kanaalkosten, betaalde verzendkosten en verpakking weergegeven, dus winst en marge zijn cijfers en een verliesmaker wordt rood",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "Bij elke bestelling die wacht om te worden verpakt, wordt de verpakker weergegeven, de vervaldatum, de uren waarop de bestelling heeft gewacht en een vlaggetje wanneer de bestelling vandaag of te laat moet worden afgeleverd, dus niets blijft dagenlang staan",
+"why": "too long: 257 characters, the limit is 160"
+},
+{
+"en": "the average order, the threshold, the shipping cost and the orders a month show what free shipping costs and the extra spend a customer needs to reach it",
+"kind": "sentence",
+"max": 160,
+"mt": "de gemiddelde bestelling, de drempel, de verzendkosten en de bestellingen per maand laten zien welke gratis verzendkosten en de extra uitgaven die een klant nodig heeft om dit te bereiken",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "damaged, lost and late parcels with the claim amount, the status and the days open, so no claim is forgotten before the courier deadline",
+"kind": "sentence",
+"max": 160,
+"mt": "beschadigde, verloren en te late pakketten met het claimbedrag, de status en de openstaande dagen, zodat geen enkele claim wordt vergeten vóór de deadline van de koerier",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "the days you promise against the days parcels really take for each country and method, with a late flag, so the delivery message tells the truth",
+"kind": "sentence",
+"max": 160,
+"mt": "de dagen die u belooft tegen de dagen dat pakketten werkelijk nodig zijn voor elk land en elke methode, met een late vlag, zodat het bezorgbericht de waarheid vertelt",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "the day and time a message came and the day and time you replied give the hours to reply and a check against your target",
+"kind": "sentence",
+"max": 160,
+"mt": "de dag en het tijdstip waarop een bericht kwam en de dag en het tijdstip waarop u antwoordde, geef de uren op waarop u kunt antwoorden en een controle op uw doel",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Repeat rate is low",
+"kind": "list",
+"max": 30,
+"mt": "Het herhalingspercentage is laag",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Online orders with profit after fee, shipping and packaging",
+"kind": "title",
+"max": 60,
+"mt": "Online bestellingen met winst na aftrek van kosten, verzending en verpakking",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Refunds with reason, approval and share of the order",
+"kind": "title",
+"max": 60,
+"mt": "Terugbetalingen met reden, goedkeuring en deel van de bestelling",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Discount codes with uses and revenue given up",
+"kind": "title",
+"max": 60,
+"mt": "Kortingscodes waarbij het gebruik en de inkomsten zijn opgegeven",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Details",
+"kind": "label",
+"max": null,
+"mt": "Details",
+"why": "not translated"
+},
+{
+"en": "Courier claims for damaged, lost and late parcels",
+"kind": "title",
+"max": 60,
+"mt": "Koerier beweert voor beschadigde, verloren en te late pakketten",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Gift orders with occasion, wrapping and card message",
+"kind": "title",
+"max": 60,
+"mt": "Cadeaubestellingen met gelegenheid, verpakking en kaartbericht",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

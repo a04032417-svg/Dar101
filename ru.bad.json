@@ -1,0 +1,79 @@
+[
+{
+"en": "Suppliers at or above the target score",
+"kind": "title",
+"max": 60,
+"mt": "Поставщики, достигшие целевого показателя или превышающие его",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Order profit after fee, shipping and packaging",
+"kind": "label",
+"max": 50,
+"mt": "Прибыль от заказа после комиссии, доставки и упаковки",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "each order shows its goods cost, channel fee, shipping paid and packaging, so profit and margin are numbers and a loss-maker turns red",
+"kind": "sentence",
+"max": 160,
+"mt": "В каждом заказе указана стоимость товара, комиссия канала, оплаченная доставка и упаковка, поэтому прибыль и маржа представляют собой цифры, а убыток становится красным.",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "В каждом заказе, ожидающем упаковки, указан упаковщик, срок его выполнения, часы ожидания и пометка, когда он должен быть исполнен сегодня или просрочен, поэтому ничего не задерживается на несколько дней.",
+"why": "too long: 204 characters, the limit is 160"
+},
+{
+"en": "the average order, the threshold, the shipping cost and the orders a month show what free shipping costs and the extra spend a customer needs to reach it",
+"kind": "sentence",
+"max": 160,
+"mt": "средний заказ, порог, стоимость доставки и количество заказов в месяц показывают, сколько стоит бесплатная доставка и какие дополнительные расходы необходимо покупателю, чтобы ее достичь.",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "damaged, lost and late parcels with the claim amount, the status and the days open, so no claim is forgotten before the courier deadline",
+"kind": "sentence",
+"max": 160,
+"mt": "поврежденные, утерянные и просроченные посылки с указанием суммы претензии, статуса и дней открытия, чтобы ни одна претензия не была забыта до истечения срока доставки курьером.",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "the days you promise against the days parcels really take for each country and method, with a late flag, so the delivery message tells the truth",
+"kind": "sentence",
+"max": 160,
+"mt": "дни, которые вы обещаете, вместо дней, в течение которых на самом деле идут посылки для каждой страны и метода, с флагом опоздания, чтобы сообщение о доставке говорило правду",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Return rate under target",
+"kind": "list",
+"max": 30,
+"mt": "Коэффициент возврата ниже целевого показателя",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "The 24 products with price, cost and return rate",
+"kind": "title",
+"max": 60,
+"mt": "24 продукта с указанием цены, стоимости и коэффициента возврата.",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Courier claims for damaged, lost and late parcels",
+"kind": "title",
+"max": 60,
+"mt": "Претензии курьера за поврежденные, утерянные и просроченные посылки",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Cancelled orders with reason, stage and fee lost",
+"kind": "title",
+"max": 60,
+"mt": "Отмененные заказы с указанием причины, этапа и комиссии потеряны",
+"why": "too long: 64 characters, the limit is 60"
+}
+]

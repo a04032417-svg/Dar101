@@ -1,0 +1,212 @@
+[
+{
+"en": "Supplier: thank you, on time",
+"kind": "label",
+"max": null,
+"mt": "Supplier: thank you, on time",
+"why": "not translated"
+},
+{
+"en": "Maker: [item] is running low",
+"kind": "label",
+"max": null,
+"mt": "Maker: [item] is running low",
+"why": "not translated"
+},
+{
+"en": "Maker: a new lot of [item] is in",
+"kind": "label",
+"max": null,
+"mt": "Maker: a new lot of [item] is in",
+"why": "not translated"
+},
+{
+"en": "Maker: use lot [lot no] first",
+"kind": "label",
+"max": null,
+"mt": "Maker: use lot [lot no] first",
+"why": "not translated"
+},
+{
+"en": "Maker: please count the shelf for [item]",
+"kind": "label",
+"max": null,
+"mt": "Maker: please count the shelf for [item]",
+"why": "not translated"
+},
+{
+"en": "Packer: new boxes arrive on [date]",
+"kind": "label",
+"max": null,
+"mt": "Packer: new boxes arrive on [date]",
+"why": "not translated"
+},
+{
+"en": "Packer: count the mailers on the shelf",
+"kind": "label",
+"max": null,
+"mt": "Packer: count the mailers on the shelf",
+"why": "not translated"
+},
+{
+"en": "Owner: [item] has [n] days of cover",
+"kind": "label",
+"max": null,
+"mt": "Owner: [item] has [n] days of cover",
+"why": "not translated"
+},
+{
+"en": "Owner: a stock count variance was found",
+"kind": "label",
+"max": null,
+"mt": "Owner: a stock count variance was found",
+"why": "not translated"
+},
+{
+"en": "Owner: a lot is near its use-by date",
+"kind": "label",
+"max": null,
+"mt": "Owner: a lot is near its use-by date",
+"why": "not translated"
+},
+{
+"en": "Order profit, packing, shipping and returns for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Bénéfice des commandes, emballage, expédition et retours pour les fabricants de bougies et de savons",
+"why": "too long: 100 characters, the limit is 80"
+},
+{
+"en": "Order profit after fee, shipping and packaging",
+"kind": "label",
+"max": 50,
+"mt": "Bénéfice de la commande après frais, expédition et emballage",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "each order shows its goods cost, channel fee, shipping paid and packaging, so profit and margin are numbers and a loss-maker turns red",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque commande indique le coût des marchandises, les frais de canal, les frais d'expédition payés et l'emballage, donc le profit et la marge sont des chiffres et un producteur à perte devient rouge",
+"why": "too long: 198 characters, the limit is 160"
+},
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque commande en attente d'être emballée indique son emballeur, sa date d'échéance, les heures qu'elle a attendues et un indicateur lorsqu'elle est due aujourd'hui ou en retard, donc rien ne reste pendant des jours",
+"why": "too long: 216 characters, the limit is 160"
+},
+{
+"en": "the average order, the threshold, the shipping cost and the orders a month show what free shipping costs and the extra spend a customer needs to reach it",
+"kind": "sentence",
+"max": 160,
+"mt": "la commande moyenne, le seuil, les frais d'expédition et les commandes par mois indiquent les frais d'expédition gratuits et les dépenses supplémentaires dont un client a besoin pour l'atteindre",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "damaged, lost and late parcels with the claim amount, the status and the days open, so no claim is forgotten before the courier deadline",
+"kind": "sentence",
+"max": 160,
+"mt": "colis endommagés, perdus ou en retard avec le montant de la réclamation, le statut et les jours ouverts, afin qu'aucune réclamation ne soit oubliée avant la date limite du transporteur",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "the days you promise against the days parcels really take for each country and method, with a late flag, so the delivery message tells the truth",
+"kind": "sentence",
+"max": 160,
+"mt": "les jours que vous promettez contre les jours que prennent réellement les colis pour chaque pays et méthode, avec un drapeau en retard, pour que le message de livraison dise la vérité",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "the day and time a message came and the day and time you replied give the hours to reply and a check against your target",
+"kind": "sentence",
+"max": 160,
+"mt": "le jour et l'heure où un message est arrivé et le jour et l'heure auxquels vous avez répondu, indiquez les heures pour répondre et vérifiez par rapport à votre objectif",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "orders a day, minutes per order and packing staff give the hours needed, the overtime and the people you need before the busy weeks",
+"kind": "sentence",
+"max": 160,
+"mt": "commandes par jour, minutes par commande et le personnel d'emballage indique les heures nécessaires, les heures supplémentaires et les personnes dont vous avez besoin avant les semaines chargées",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "Below minimum margin",
+"kind": "list",
+"max": 30,
+"mt": "En dessous de la marge minimale",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "At or above minimum margin",
+"kind": "list",
+"max": 30,
+"mt": "Marge minimale égale ou supérieure",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Return rate under target",
+"kind": "list",
+"max": 30,
+"mt": "Taux de retour inférieur à l'objectif",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Repeat rate is low",
+"kind": "list",
+"max": 30,
+"mt": "Le taux de répétition est faible",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Online orders with profit after fee, shipping and packaging",
+"kind": "title",
+"max": 60,
+"mt": "Commandes en ligne avec bénéfice après frais, expédition et emballage",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Refunds with reason, approval and share of the order",
+"kind": "title",
+"max": 60,
+"mt": "Remboursements avec motif, approbation et partage de la commande",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Discount codes with uses and revenue given up",
+"kind": "title",
+"max": 60,
+"mt": "Codes de réduction avec des utilisations et des revenus abandonnés",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Packing queue with due dates and hours waiting",
+"kind": "title",
+"max": 60,
+"mt": "File d'attente d'emballage avec des dates d'échéance et des heures d'attente",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Daily order summary with sales and shipping",
+"kind": "title",
+"max": 60,
+"mt": "Récapitulatif quotidien des commandes avec ventes et expédition",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Courier claims for damaged, lost and late parcels",
+"kind": "title",
+"max": 60,
+"mt": "Réclamations du courrier pour les colis endommagés, perdus ou en retard",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Gift orders with occasion, wrapping and card message",
+"kind": "title",
+"max": 60,
+"mt": "Commandes de cadeaux avec occasion, emballage et message de carte",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

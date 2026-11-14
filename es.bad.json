@@ -1,0 +1,107 @@
+[
+{
+"en": "Order profit, packing, shipping and returns for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Ganancias de pedidos, embalaje, envío y devoluciones para fabricantes de velas y jabón.",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "Order profit after fee, shipping and packaging",
+"kind": "label",
+"max": 50,
+"mt": "Beneficio del pedido después de la tarifa, el envío y el embalaje",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "each order shows its goods cost, channel fee, shipping paid and packaging, so profit and margin are numbers and a loss-maker turns red",
+"kind": "sentence",
+"max": 160,
+"mt": "cada pedido muestra el costo de los productos, la tarifa del canal, el envío pagado y el embalaje, por lo que las ganancias y el margen son números y el que genera pérdidas se pone rojo.",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "Cada pedido en espera de ser empacado muestra su empaquetador, su fecha de entrega, las horas que ha esperado y una bandera cuando vence hoy o está vencido, para que nada permanezca en espera durante días.",
+"why": "too long: 205 characters, the limit is 160"
+},
+{
+"en": "the average order, the threshold, the shipping cost and the orders a month show what free shipping costs and the extra spend a customer needs to reach it",
+"kind": "sentence",
+"max": 160,
+"mt": "El pedido promedio, el umbral, el costo de envío y los pedidos por mes muestran los costos de envío gratuito y el gasto adicional que un cliente necesita para alcanzarlo.",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "damaged, lost and late parcels with the claim amount, the status and the days open, so no claim is forgotten before the courier deadline",
+"kind": "sentence",
+"max": 160,
+"mt": "Paquetes dañados, perdidos y retrasados con el importe del reclamo, el estado y los días abiertos, para que ningún reclamo se olvide antes de la fecha límite del servicio de mensajería.",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "the days you promise against the days parcels really take for each country and method, with a late flag, so the delivery message tells the truth",
+"kind": "sentence",
+"max": 160,
+"mt": "los días que promete contra los días que realmente tardan los paquetes para cada país y método, con una bandera tardía, por lo que el mensaje de entrega dice la verdad",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "orders a day, minutes per order and packing staff give the hours needed, the overtime and the people you need before the busy weeks",
+"kind": "sentence",
+"max": 160,
+"mt": "pedidos por día, minutos por pedido y personal de embalaje le brindan las horas necesarias, las horas extras y las personas que necesita antes de las semanas ocupadas",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "At or above minimum margin",
+"kind": "list",
+"max": 30,
+"mt": "En o por encima del margen mínimo",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Return rate under target",
+"kind": "list",
+"max": 30,
+"mt": "Tasa de retorno por debajo del objetivo",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Repeat rate is healthy",
+"kind": "list",
+"max": 30,
+"mt": "La tasa de repetición es saludable",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Online orders with profit after fee, shipping and packaging",
+"kind": "title",
+"max": 60,
+"mt": "Pedidos en línea con ganancias después de tarifa, envío y embalaje",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Refunds with reason, approval and share of the order",
+"kind": "title",
+"max": 60,
+"mt": "Reembolsos con motivo, aprobación y participación del pedido.",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Courier claims for damaged, lost and late parcels",
+"kind": "title",
+"max": 60,
+"mt": "Reclamaciones de mensajería para paquetes dañados, perdidos y retrasados",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Gift orders with occasion, wrapping and card message",
+"kind": "title",
+"max": 60,
+"mt": "Pedidos de regalo con ocasión, envoltorio y mensaje de tarjeta.",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

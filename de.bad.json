@@ -1,0 +1,114 @@
+[
+{
+"en": "Order profit, packing, shipping and returns for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Auftragsgewinn, Verpackung, Versand und Rücksendungen für Kerzen- und Seifenhersteller",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "each order shows its goods cost, channel fee, shipping paid and packaging, so profit and margin are numbers and a loss-maker turns red",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jede Bestellung werden die Warenkosten, die Vertriebsgebühr, die bezahlten Versandkosten und die Verpackung angezeigt. Gewinn und Marge sind also Zahlen und ein Verlustbringer wird rot",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Bestellung, die darauf wartet, verpackt zu werden, zeigt ihren Packer, ihr Fälligkeitsdatum, die Stunden, die sie gewartet hat, und eine Markierung, wann sie heute fällig oder überfällig ist, sodass nichts mehrere Tage lang liegen bleibt",
+"why": "too long: 242 characters, the limit is 160"
+},
+{
+"en": "the average order, the threshold, the shipping cost and the orders a month show what free shipping costs and the extra spend a customer needs to reach it",
+"kind": "sentence",
+"max": 160,
+"mt": "Die durchschnittliche Bestellung, der Schwellenwert, die Versandkosten und die Bestellungen pro Monat zeigen, wie viel kostenloser Versand kostet und welche zusätzlichen Ausgaben ein Kunde tätigen muss, um ihn zu erreichen",
+"why": "too long: 222 characters, the limit is 160"
+},
+{
+"en": "each return has its reason, product, refund and the days to resolve, and each refund its approval and share of the order",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jede Rücksendung gibt es einen Grund, ein Produkt, eine Rückerstattung und die Frist für die Lösung, und für jede Rückerstattung gibt es eine Genehmigung und einen Anteil an der Bestellung",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "damaged, lost and late parcels with the claim amount, the status and the days open, so no claim is forgotten before the courier deadline",
+"kind": "sentence",
+"max": 160,
+"mt": "Beschädigte, verlorene und verspätete Pakete mit Angabe des Reklamationsbetrags, des Status und der offenen Tage, damit keine Reklamation vor Ablauf der Kurierfrist vergessen wird",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "the days you promise against the days parcels really take for each country and method, with a late flag, so the delivery message tells the truth",
+"kind": "sentence",
+"max": 160,
+"mt": "die Tage, die Sie versprechen, im Vergleich zu den Tagen, die Pakete tatsächlich für jedes Land und jede Methode benötigen, mit einer Verspätungsmarkierung, damit die Zustellnachricht die Wahrheit sagt",
+"why": "too long: 201 characters, the limit is 160"
+},
+{
+"en": "the day and time a message came and the day and time you replied give the hours to reply and a check against your target",
+"kind": "sentence",
+"max": 160,
+"mt": "Geben Sie den Tag und die Uhrzeit an, zu der eine Nachricht eingegangen ist, sowie den Tag und die Uhrzeit, zu der Sie geantwortet haben. Geben Sie die Stunden für die Antwort an und vergleichen Sie sie mit Ihrem Ziel",
+"why": "too long: 217 characters, the limit is 160"
+},
+{
+"en": "orders a day, minutes per order and packing staff give the hours needed, the overtime and the people you need before the busy weeks",
+"kind": "sentence",
+"max": 160,
+"mt": "Bestellungen pro Tag, Minuten pro Bestellung und Verpackungspersonal geben die benötigten Stunden, die Überstunden und die Leute an, die Sie vor den arbeitsreichen Wochen brauchen",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Repeat rate is healthy",
+"kind": "list",
+"max": 30,
+"mt": "Die Wiederholungsrate ist gesund",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Repeat rate is low",
+"kind": "list",
+"max": 30,
+"mt": "Die Wiederholungsrate ist niedrig",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Online orders with profit after fee, shipping and packaging",
+"kind": "title",
+"max": 60,
+"mt": "Online-Bestellungen mit Gewinn abzüglich Gebühr, Versand und Verpackung",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Refunds with reason, approval and share of the order",
+"kind": "title",
+"max": 60,
+"mt": "Rückerstattungen mit Begründung, Genehmigung und Anteil der Bestellung",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Courier claims for damaged, lost and late parcels",
+"kind": "title",
+"max": 60,
+"mt": "Kurieransprüche für beschädigte, verlorene und verspätete Pakete",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Gift orders with occasion, wrapping and card message",
+"kind": "title",
+"max": 60,
+"mt": "Geschenkbestellungen mit Anlass, Verpackung und Kartenbotschaft",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cancelled orders with reason, stage and fee lost",
+"kind": "title",
+"max": 60,
+"mt": "Stornierte Bestellungen mit Grund, Etappe und Gebühr verloren",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

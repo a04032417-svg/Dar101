@@ -1,0 +1,58 @@
+[
+{
+"en": "Maker: a new lot of [item] is in",
+"kind": "label",
+"max": null,
+"mt": "سازنده: تعداد زیادی از [item] در دسترس است",
+"why": "English/Latin words left: item"
+},
+{
+"en": "Maker: use lot [lot no] first",
+"kind": "label",
+"max": null,
+"mt": "سازنده: ابتدا از lot [خیلی] استفاده کنید",
+"why": "English/Latin words left: lot"
+},
+{
+"en": "Open Start and type your company name and your own numbers in the yellow cells: safety days, the days of stock to hold, the count gap you accept, the supplier score you want and the most you want to hold in materials.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و اعداد خود را در سلول‌های زرد تایپ کنید: روزهای ایمنی، روزهای نگهداری موجودی، فاصله شماری که می‌پذیرید، امتیاز تامین‌کننده‌ای که می‌خواهید و بیشترین میزانی که می‌خواهید در مواد نگه دارید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Each delivery gets a lot number (a lot is one delivery of a material with its own lot number). Lots ranks the lots in first in first out order, so the oldest lot is opened first, and warns of a use-by date.",
+"kind": "sentence",
+"max": null,
+"mt": "هر تحویل تعداد زیادی دریافت می کند (بسیار یک تحویل یک ماده با شماره لات خاص خود است). Lots لات ها را به ترتیب اول در رتبه اول قرار می دهد، بنابراین قدیمی ترین لات ابتدا باز می شود و در مورد تاریخ استفاده هشدار می دهد.",
+"why": "English/Latin words left: Lots"
+},
+{
+"en": "Order profit after fee, shipping and packaging",
+"kind": "label",
+"max": 50,
+"mt": "سود پس از کارمزد، حمل و نقل و بسته بندی را سفارش دهید",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "هر سفارشی که در انتظار بسته‌بندی است، بسته‌کننده، تاریخ سررسید آن، ساعت‌های انتظار و پرچمی را نشان می‌دهد که امروز سررسید یا سررسید شده است، بنابراین هیچ چیز برای روزها باقی نمی‌ماند.",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "What-if grid: order value and threshold",
+"kind": "title",
+"max": 60,
+"mt": "شبکه What-if: مقدار سفارش و آستانه",
+"why": "English/Latin words left: What if"
+},
+{
+"en": "Hello {customer}, thank you for order {order_no}. Use the code THANKS10 for your next order.",
+"kind": "message",
+"max": null,
+"mt": "سلام {customer}، از سفارش {order_no} سپاسگزاریم. برای سفارش بعدی خود از کد THANKS10 استفاده کنید.",
+"why": "English/Latin words left: THANKS"
+}
+]

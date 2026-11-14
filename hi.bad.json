@@ -1,0 +1,23 @@
+[
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "पैक होने की प्रतीक्षा कर रहा प्रत्येक ऑर्डर उसके पैकर, उसकी नियत तारीख, उसके द्वारा इंतजार किए गए घंटों और एक ध्वज दिखाता है कि वह आज कब आएगा या कब आएगा, इसलिए कुछ भी दिनों तक नहीं टिकता है",
+"why": "too long: 189 characters, the limit is 160"
+},
+{
+"en": "Courier claims for damaged, lost and late parcels",
+"kind": "title",
+"max": 60,
+"mt": "कूरियर का दावा क्षतिग्रस्त, खोए हुए और देर से आए पार्सल के लिए",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {customer}, thank you for order {order_no}. Use the code THANKS10 for your next order.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {customer}, ऑर्डर {order_no} के लिए धन्यवाद। अपने अगले ऑर्डर के लिए THANKS10 कोड का उपयोग करें।",
+"why": "English/Latin words left: THANKS"
+}
+]

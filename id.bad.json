@@ -1,0 +1,100 @@
+[
+{
+"en": "Order profit, packing, shipping and returns in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Keuntungan pesanan, pengepakan, pengiriman, dan pengembalian dalam satu buku kerja",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "Order profit, packing, shipping and returns for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Keuntungan pesanan, pengepakan, pengiriman dan pengembalian untuk pembuat lilin dan sabun",
+"why": "too long: 89 characters, the limit is 80"
+},
+{
+"en": "Order profit after fee, shipping and packaging",
+"kind": "label",
+"max": 50,
+"mt": "Keuntungan pesanan setelah biaya, pengiriman dan pengemasan",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "each order shows its goods cost, channel fee, shipping paid and packaging, so profit and margin are numbers and a loss-maker turns red",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap pesanan menunjukkan biaya barang, biaya saluran, biaya pengiriman dan pengemasan, jadi keuntungan dan margin adalah angka dan pihak yang merugi berubah menjadi merah",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap pesanan yang menunggu untuk dikemas menunjukkan pengepaknya, tanggal jatuh tempo, jam menunggunya, dan tanda kapan harus jatuh tempo hari ini atau terlambat, jadi tidak ada yang disimpan selama berhari-hari",
+"why": "too long: 213 characters, the limit is 160"
+},
+{
+"en": "the average order, the threshold, the shipping cost and the orders a month show what free shipping costs and the extra spend a customer needs to reach it",
+"kind": "sentence",
+"max": 160,
+"mt": "pesanan rata-rata, ambang batas, biaya pengiriman, dan pesanan sebulan menunjukkan berapa biaya pengiriman gratis dan pembelanjaan ekstra yang dibutuhkan pelanggan untuk mencapainya",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "the days you promise against the days parcels really take for each country and method, with a late flag, so the delivery message tells the truth",
+"kind": "sentence",
+"max": 160,
+"mt": "hari-hari yang Anda janjikan terhadap hari-hari yang sebenarnya dibutuhkan paket untuk setiap negara dan metode, dengan tanda yang terlambat, sehingga pesan pengiriman mengatakan yang sebenarnya",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "At or above minimum margin",
+"kind": "list",
+"max": 30,
+"mt": "Pada atau di atas margin minimum",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Return rate under target",
+"kind": "list",
+"max": 30,
+"mt": "Tingkat pengembalian di bawah target",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Online orders with profit after fee, shipping and packaging",
+"kind": "title",
+"max": 60,
+"mt": "Pesanan online dengan keuntungan setelah biaya, pengiriman dan pengemasan",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Return register with reason and days to resolve",
+"kind": "title",
+"max": 60,
+"mt": "Kembalikan daftar dengan alasan dan hari untuk menyelesaikannya",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Refunds with reason, approval and share of the order",
+"kind": "title",
+"max": 60,
+"mt": "Pengembalian dana dengan alasan, persetujuan dan pembagian pesanan",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Packing queue with due dates and hours waiting",
+"kind": "title",
+"max": 60,
+"mt": "Antrian pengepakan dengan tanggal jatuh tempo dan jam menunggu",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cancelled orders with reason, stage and fee lost",
+"kind": "title",
+"max": 60,
+"mt": "Pesanan yang dibatalkan dengan alasan, tahapan dan biaya hilang",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

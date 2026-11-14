@@ -1,0 +1,51 @@
+[
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "Paketlenmeyi bekleyen her sipariş, paketleyicisini, teslim tarihini, beklediği saatleri ve vadesinin bugün mü yoksa gecikmiş mi olduğunu gösteren bir bayrak gösterir; böylece hiçbir şey günlerce beklemez",
+"why": "too long: 203 characters, the limit is 160"
+},
+{
+"en": "the average order, the threshold, the shipping cost and the orders a month show what free shipping costs and the extra spend a customer needs to reach it",
+"kind": "sentence",
+"max": 160,
+"mt": "ortalama sipariş, eşik, gönderim maliyeti ve aylık siparişler, ücretsiz gönderim maliyetlerini ve müşterinin buna ulaşmak için ihtiyaç duyduğu ekstra harcamayı gösterir",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "orders a day, minutes per order and packing staff give the hours needed, the overtime and the people you need before the busy weeks",
+"kind": "sentence",
+"max": 160,
+"mt": "günlük siparişler, sipariş başına dakikalar ve paketleme personeli, yoğun haftalardan önce ihtiyaç duyduğunuz saatleri, fazla mesaiyi ve ihtiyacınız olan kişileri sağlar",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Return rate under target",
+"kind": "list",
+"max": 30,
+"mt": "Geri dönüş oranı hedefin altında",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Online orders with profit after fee, shipping and packaging",
+"kind": "title",
+"max": 60,
+"mt": "Ücret, nakliye ve paketleme sonrası kar sağlayan çevrimiçi siparişler",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Order lines with line total and line cost",
+"kind": "title",
+"max": 60,
+"mt": "Satır toplamı ve satır maliyetiyle birlikte Sipariş satırları",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Packing queue with due dates and hours waiting",
+"kind": "title",
+"max": 60,
+"mt": "Son tarihler ve bekleme saatleri ile birlikte Paketleme kuyruğu",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

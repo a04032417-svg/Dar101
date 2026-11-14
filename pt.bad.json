@@ -1,0 +1,58 @@
+[
+{
+"en": "Order profit, packing, shipping and returns for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Lucro do pedido, embalagem, envio e devoluções para fabricantes de velas e sabonetes",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "each order waiting to be packed shows its packer, its due date, the hours it has waited and a flag when it is due today or overdue, so nothing sits for days",
+"kind": "sentence",
+"max": 160,
+"mt": "cada pedido aguardando para ser embalado mostra seu embalador, sua data de vencimento, as horas que esperou e uma sinalização quando vence hoje ou está vencido, para que nada fique parado por dias",
+"why": "too long: 196 characters, the limit is 160"
+},
+{
+"en": "damaged, lost and late parcels with the claim amount, the status and the days open, so no claim is forgotten before the courier deadline",
+"kind": "sentence",
+"max": 160,
+"mt": "encomendas danificadas, perdidas e atrasadas com o valor da reclamação, o estado e os dias em aberto, para que nenhuma reclamação seja esquecida antes do prazo do correio",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "the days you promise against the days parcels really take for each country and method, with a late flag, so the delivery message tells the truth",
+"kind": "sentence",
+"max": 160,
+"mt": "os dias que você promete contra os dias que as encomendas realmente levam para cada país e método, com bandeira atrasada, para que a mensagem de entrega diga a verdade",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "orders a day, minutes per order and packing staff give the hours needed, the overtime and the people you need before the busy weeks",
+"kind": "sentence",
+"max": 160,
+"mt": "pedidos por dia, minutos por pedido e equipe de embalagem fornecem as horas necessárias, as horas extras e as pessoas que você precisa antes das semanas movimentadas",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Refunds with reason, approval and share of the order",
+"kind": "title",
+"max": 60,
+"mt": "Reembolsos com motivo, aprovação e compartilhamento do pedido",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Courier claims for damaged, lost and late parcels",
+"kind": "title",
+"max": 60,
+"mt": "Reivindicações de correio para pacotes danificados, perdidos e atrasados",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Gift orders with occasion, wrapping and card message",
+"kind": "title",
+"max": 60,
+"mt": "Pedidos de presentes com ocasião, embalagem e mensagem de cartão",
+"why": "too long: 64 characters, the limit is 60"
+}
+]
