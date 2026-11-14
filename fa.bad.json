@@ -1,0 +1,79 @@
+[
+{
+"en": "each enquiry shows the Essential, Signature and Luxury price for its guest count and says which tier the client budget fits, before you write a proposal",
+"kind": "sentence",
+"max": 160,
+"mt": "هر پرس و جو، قیمت اساسی، امضا و لوکس را برای تعداد مهمانان خود نشان می دهد و می گوید که بودجه مشتری با کدام طبقه مطابقت دارد، قبل از اینکه پیشنهادی بنویسید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Venue holds that lapse before the client signs",
+"kind": "label",
+"max": 50,
+"mt": "محل برگزاری این وقفه را قبل از امضای مشتری حفظ می کند",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Lost enquiries with price gap and who won",
+"kind": "label",
+"max": 50,
+"mt": "سوالات را با شکاف قیمت از دست داد و چه کسی برنده شد",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "the notice scale and your vendor deposits show what you keep and lose when a client cancels, and a counter-offer shows what to cut when the budget is too low",
+"kind": "sentence",
+"max": 160,
+"mt": "مقیاس اعلان و سپرده‌های فروشنده نشان می‌دهد که چه چیزی را نگه می‌دارید و وقتی مشتری لغو می‌کند چه چیزی را از دست می‌دهید، و یک پیشنهاد متقابل نشان می‌دهد که وقتی بودجه خیلی کم است چه چیزی را کاهش دهید.",
+"why": "too long: 201 characters, the limit is 160"
+},
+{
+"en": "Chose another planner",
+"kind": "list",
+"max": 30,
+"mt": "برنامه ریز دیگری را انتخاب کنید",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Lighting, sound and AV",
+"kind": "list",
+"max": 30,
+"mt": "نورپردازی، صدا و AV",
+"why": "English/Latin words left: AV"
+},
+{
+"en": "Signed value, planning fee, proposals and marketing by month",
+"kind": "title",
+"max": 60,
+"mt": "ارزش امضا شده، هزینه برنامه ریزی، پیشنهادات و بازاریابی بر اساس ماه",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Type the client budget and guests; see the planning fee, what is left for the event, the budget per guest against the usual Essential wedding level and what each main category can get.",
+"kind": "sentence",
+"max": null,
+"mt": "بودجه مشتری و مهمانان را تایپ کنید. هزینه برنامه ریزی، آنچه برای رویداد باقی مانده است، بودجه هر مهمان در برابر سطح معمول عروسی Essential و آنچه هر دسته اصلی می تواند دریافت کند را ببینید.",
+"why": "English/Latin words left: Essential"
+},
+{
+"en": "What-if grid: guests and budget per guest",
+"kind": "title",
+"max": 60,
+"mt": "شبکه What-if: مهمان و بودجه هر مهمان",
+"why": "English/Latin words left: What if"
+},
+{
+"en": "Hello {contact}, for {guests_est} guests we can offer three options: Essential {opt_ess}, Signature {opt_sig} and Luxury {opt_lux}. Which one looks right?",
+"kind": "message",
+"max": null,
+"mt": "سلام {contact}، برای مهمانان {guests_est} ما می توانیم سه گزینه ارائه دهیم: Essential {opt_ess}، Signature {opt_sig} و Luxury {opt_lux}. کدام یک درست به نظر می رسد؟",
+"why": "English/Latin words left: Essential Signature Luxury"
+},
+{
+"en": "Essential covers the planning and the day itself. Signature adds full vendor management and a design plan. Luxury adds design boards and a second coordinator on the day. We can mix items from different tiers.",
+"kind": "document",
+"max": null,
+"mt": "Essential برنامه ریزی و خود روز را پوشش می دهد. امضا، مدیریت کامل فروشنده و طرح طراحی را اضافه می کند. لوکس تابلوهای طراحی و هماهنگ کننده دوم را در روز اضافه می کند. ما می توانیم آیتم هایی را از لایه های مختلف مخلوط کنیم.",
+"why": "English/Latin words left: Essential"
+}
+]
