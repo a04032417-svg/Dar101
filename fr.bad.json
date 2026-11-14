@@ -1,0 +1,212 @@
+[
+{
+"en": "Repeat client orders",
+"kind": "label",
+"max": 30,
+"mt": "Répéter les commandes des clients",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Plan every bake and decoration with oven, fridge and team load",
+"kind": "sentence",
+"max": 80,
+"mt": "Planifiez chaque cuisson et décoration avec le four, le réfrigérateur et la charge d'équipe",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "Production plan, order calendar and oven load for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Plan de production, calendrier de commande et charge du four pour les boulangeries à domicile et les pâtisseries",
+"why": "too long: 112 characters, the limit is 80"
+},
+{
+"en": "Daily production plan by day and person",
+"kind": "label",
+"max": 50,
+"mt": "Plan de production journalier par jour et par personne",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "every day shows the orders and units due, the hours for baking, decorating and packing and the team hours, with tasks and hours for each person",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque jour indique les commandes et les unités à rendre, les heures de cuisson, de décoration et d'emballage et les heures de l'équipe, avec des tâches et des heures pour chaque personne",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "Oven tray and fridge slot planner",
+"kind": "label",
+"max": 50,
+"mt": "Planificateur de plaques de four et d'emplacements pour réfrigérateur",
+"why": "too long: 69 characters, the limit is 50"
+},
+{
+"en": "tray loads and fridge slots needed against the capacity for each day, with a nearly full and an over capacity flag before the day starts",
+"kind": "sentence",
+"max": 160,
+"mt": "chargements de plateaux et emplacements de réfrigérateur nécessaires par rapport à la capacité de chaque jour, avec un indicateur presque plein et un indicateur de surcapacité avant le début de la journée",
+"why": "too long: 204 characters, the limit is 160"
+},
+{
+"en": "Overload warning for a team member",
+"kind": "label",
+"max": 50,
+"mt": "Avertissement de surcharge pour un membre de l'équipe",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "hours against the hours a person can work, a load percent and a flag, so one decorator never carries a busy Friday alone",
+"kind": "sentence",
+"max": 160,
+"mt": "heures contre les heures pendant lesquelles une personne peut travailler, un pourcentage de charge et un drapeau, pour qu'un décorateur ne porte jamais seul un vendredi chargé",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "from the due date, the shelf days, the tiers and the decoration level to the day to bake and the day to decorate, with a freshness check",
+"kind": "sentence",
+"max": 160,
+"mt": "depuis la date d'échéance, les jours de conservation, les étages et le niveau de décoration jusqu'au jour à cuire et au jour à décorer, avec un contrôle de fraîcheur",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "units for each delivery day, batches, tray loads and the renewal date of every cafe or shop order, so a weekly bake is never missed",
+"kind": "sentence",
+"max": 160,
+"mt": "unités pour chaque jour de livraison, lots, chargements de plateaux et date de renouvellement de chaque commande de café ou de magasin, afin qu'une cuisson hebdomadaire ne soit jamais manquée",
+"why": "too long: 191 characters, the limit is 160"
+},
+{
+"en": "Ingredients arrived late",
+"kind": "list",
+"max": 30,
+"mt": "Les ingrédients sont arrivés en retard",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Service ok",
+"kind": "list",
+"max": 30,
+"mt": "Service ok",
+"why": "not translated"
+},
+{
+"en": "Day is within capacity",
+"kind": "list",
+"max": 30,
+"mt": "La journée est dans la limite de sa capacité",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Team can cover the peak",
+"kind": "list",
+"max": 30,
+"mt": "L'équipe peut couvrir le sommet",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Orders fit the team",
+"kind": "list",
+"max": 30,
+"mt": "Les commandes correspondent à l'équipe",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Orders need more hours",
+"kind": "list",
+"max": 30,
+"mt": "Les commandes nécessitent plus d'heures",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Spare units are small",
+"kind": "list",
+"max": 30,
+"mt": "Les unités de rechange sont petites",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Spare units are large",
+"kind": "list",
+"max": 30,
+"mt": "Les unités de rechange sont grandes",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Products with labour minutes, tray loads and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Produits avec minutes de travail, chargements de plateaux et jours de conservation",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Standing orders baked for cafes and shops",
+"kind": "title",
+"max": 60,
+"mt": "Commandes en gros récurrentes préparés pour les cafés et les magasins",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Holiday peaks with expected orders and extra hours",
+"kind": "title",
+"max": 60,
+"mt": "Les sommets des vacances avec les commandes attendues et les heures supplémentaires",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Daily production sheet with oven and fridge load",
+"kind": "title",
+"max": 60,
+"mt": "Feuille de production journalière avec charge du four et du frigo",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Day load check for one person or the whole team",
+"kind": "title",
+"max": 60,
+"mt": "Contrôle de charge journalier pour une personne ou toute l'équipe",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Fridge slots for the items due tomorrow",
+"kind": "title",
+"max": 60,
+"mt": "Emplacements dans le réfrigérateur pour les articles à rendre demain",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Bake day and decorating day for a due date",
+"kind": "title",
+"max": 60,
+"mt": "Jour de cuisson et jour de décoration pour une date d'échéance",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Staff hours and people needed for a day",
+"kind": "title",
+"max": 60,
+"mt": "Horaires du personnel et personnes nécessaires pour une journée",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Overtime cost and the cheaper day to move work to",
+"kind": "title",
+"max": 60,
+"mt": "Coût des heures supplémentaires et jour le moins cher pour déplacer le travail",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Units to bake for each delivery of a standing order",
+"kind": "title",
+"max": 60,
+"mt": "Unités à cuire pour chaque livraison d'une commande de gros récurrente",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "What-if grid: orders a day against hours an order",
+"kind": "title",
+"max": 60,
+"mt": "Grille de simulation : commandes par jour contre heures par commande",
+"why": "too long: 68 characters, the limit is 60"
+}
+]

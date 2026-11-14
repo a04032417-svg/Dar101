@@ -1,0 +1,16 @@
+[
+{
+"en": "Hello, deposit {deposit_id} of {amount} for {client} is {days_late} days late. Please follow up.",
+"kind": "message",
+"max": null,
+"mt": "您好，{client} 的 {amount} 存款已晚 {days_late} 天。请跟进。",
+"why": "placeholders must be exactly: {deposit_id} {amount} {client} {days_late}"
+},
+{
+"en": "A deposit of {set:deposit_pct} of the price is asked for orders from {set:deposit_from}, and {set:big_pct} from {set:big_from}. It secures the date.",
+"kind": "document",
+"max": null,
+"mt": "对于来自 {set:deposit_from} 的订单和来自 {set:big_from} 的订单，要求支付价格 {set:deposit_pct} 的押金。它确保了日期。",
+"why": "placeholders must be exactly: {set:deposit_pct} {set:deposit_from} {set:big_pct} {set:big_from}"
+}
+]

@@ -1,0 +1,177 @@
+[
+{
+"en": "Send a friendly reminder",
+"kind": "label",
+"max": 30,
+"mt": "Enviar un recordatorio amistoso",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Production plan, order calendar and oven load for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Plan de producción, calendario de pedidos y carga del horno para panaderías caseras y pastelerías.",
+"why": "too long: 98 characters, the limit is 80"
+},
+{
+"en": "Oven tray and fridge slot planner",
+"kind": "label",
+"max": 50,
+"mt": "Planificador de espacios para bandejas de horno y frigorífico",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "tray loads and fridge slots needed against the capacity for each day, with a nearly full and an over capacity flag before the day starts",
+"kind": "sentence",
+"max": 160,
+"mt": "cargas de bandejas y ranuras de refrigerador necesarias según la capacidad de cada día, con un indicador de capacidad casi llena y de exceso de capacidad antes de que comience el día",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "Overload warning for a team member",
+"kind": "label",
+"max": 50,
+"mt": "Advertencia de sobrecarga para un miembro del equipo",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "from the due date, the shelf days, the tiers and the decoration level to the day to bake and the day to decorate, with a freshness check",
+"kind": "sentence",
+"max": 160,
+"mt": "desde la fecha de vencimiento, los días de estantería, los niveles y el nivel de decoración hasta el día de hornear y el día de decorar, con un control de frescura",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "units for each delivery day, batches, tray loads and the renewal date of every cafe or shop order, so a weekly bake is never missed",
+"kind": "sentence",
+"max": 160,
+"mt": "unidades para cada día de entrega, lotes, cargas de bandejas y la fecha de renovación de cada pedido de cafetería o tienda, para que nunca se pierda un horneado semanal",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Ingredients arrived late",
+"kind": "list",
+"max": 30,
+"mt": "Los ingredientes llegaron tarde.",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Day is within capacity",
+"kind": "list",
+"max": 30,
+"mt": "El día está dentro de la capacidad",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Day is over capacity",
+"kind": "list",
+"max": 30,
+"mt": "El día ha superado la capacidad",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Oven is over capacity",
+"kind": "list",
+"max": 30,
+"mt": "El horno está por encima de su capacidad",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Fresh on the due date",
+"kind": "list",
+"max": 30,
+"mt": "Fresco en la fecha de vencimiento",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Too old on the due date",
+"kind": "list",
+"max": 30,
+"mt": "Demasiado mayor en la fecha de vencimiento",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Orders fit the team",
+"kind": "list",
+"max": 30,
+"mt": "Los pedidos se adaptan al equipo",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Orders need more hours",
+"kind": "list",
+"max": 30,
+"mt": "Los pedidos necesitan más horas",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Spare units are small",
+"kind": "list",
+"max": 30,
+"mt": "Las unidades de repuesto son pequeñas.",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Spare units are large",
+"kind": "list",
+"max": 30,
+"mt": "Las unidades de repuesto son grandes",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Products with labour minutes, tray loads and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Productos con minutos de mano de obra, cargas de bandejas y días de estantería.",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Standing orders baked for cafes and shops",
+"kind": "title",
+"max": 60,
+"mt": "Pedidos mayoristas recurrentes horneado para cafeterías y tiendas",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Ingredient needs by day against stock on hand",
+"kind": "title",
+"max": 60,
+"mt": "Necesidades de ingredientes por día contra acciones disponibles",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Fridge slots for the items due tomorrow",
+"kind": "title",
+"max": 60,
+"mt": "Espacios en el frigorífico para los artículos que vencen mañana.",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Bake day and decorating day for a due date",
+"kind": "title",
+"max": 60,
+"mt": "Día de horneado y día de decoración para una fecha de vencimiento.",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Overtime cost and the cheaper day to move work to",
+"kind": "title",
+"max": 60,
+"mt": "Costo de horas extras y el día más barato para trasladar el trabajo",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Units to bake for each delivery of a standing order",
+"kind": "title",
+"max": 60,
+"mt": "Unidades a hornear para cada entrega de un pedido mayorista recurrente",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "What-if grid: orders a day against hours an order",
+"kind": "title",
+"max": 60,
+"mt": "Cuadrícula What-if: pedidos por día frente a horas por pedido",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

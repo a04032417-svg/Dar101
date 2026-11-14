@@ -1,0 +1,30 @@
+[
+{
+"en": "A deposit of {set:deposit_pct} of the price is asked for orders from {set:deposit_from}, and {set:big_pct} from {set:big_from}. It secures the date.",
+"kind": "document",
+"max": null,
+"mt": "{set:deposit_from} से ऑर्डर के लिए, और {set:big_from} से ऑर्डर के लिए कीमत का {set:deposit_pct} जमा करने के लिए कहा जाता है। यह तारीख सुरक्षित करता है.",
+"why": "placeholders must be exactly: {set:deposit_pct} {set:deposit_from} {set:big_pct} {set:big_from}"
+},
+{
+"en": "Orders need more hours",
+"kind": "list",
+"max": 30,
+"mt": "ऑर्डर के लिए अधिक घंटों की आवश्यकता है",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Ingredient needs by day against stock on hand",
+"kind": "title",
+"max": 60,
+"mt": "दिन के हिसाब से संघटक की जरूरतें हाथ में मौजूद स्टॉक के विरुद्ध",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Units to bake for each delivery of a standing order",
+"kind": "title",
+"max": 60,
+"mt": "आवर्ती थोक ऑर्डर की प्रत्येक डिलीवरी के लिए बेक की जाने वाली इकाइयाँ",
+"why": "too long: 68 characters, the limit is 60"
+}
+]

@@ -1,0 +1,107 @@
+[
+{
+"en": "Send a friendly reminder",
+"kind": "label",
+"max": 30,
+"mt": "Отправить дружеское напоминание",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Send each quote from Quotes and fill the status. Quotes with no reply after the warning days are flagged, and Quote follow-ups keeps the outcome of each call or message.",
+"kind": "sentence",
+"max": null,
+"mt": "Отправьте каждую цитату из Quotes и заполните статус. Котировки без ответа после дней с предупреждением отмечаются, и Отслеживание цитат сохраняет результаты каждого звонка или сообщения.",
+"why": "English/Latin words left: Quotes"
+},
+{
+"en": "Production plan, order calendar and oven load for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "План производства, календарь заказов и загрузка духовки для домашних пекарен и кондитерских",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "tray loads and fridge slots needed against the capacity for each day, with a nearly full and an over capacity flag before the day starts",
+"kind": "sentence",
+"max": 160,
+"mt": "Загрузка подносов и количество мест в холодильнике, необходимые в зависимости от емкости на каждый день, с флажком о почти полной или переполненной емкости перед началом дня",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "units for each delivery day, batches, tray loads and the renewal date of every cafe or shop order, so a weekly bake is never missed",
+"kind": "sentence",
+"max": 160,
+"mt": "единиц для каждого дня доставки, партий, загрузки лотков и даты продления каждого заказа в кафе или магазине, поэтому еженедельная выпечка никогда не будет пропущена",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Ingredients arrived late",
+"kind": "list",
+"max": 30,
+"mt": "Ингредиенты прибыли с опозданием",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Team can cover the peak",
+"kind": "list",
+"max": 30,
+"mt": "Команда может преодолеть вершину",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Products with labour minutes, tray loads and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Продукты с указанием трудо-минут, загрузки лотков и дней хранения",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Bake batches with oven minutes and tray loads",
+"kind": "title",
+"max": 60,
+"mt": "Выпекать партии с указанием минут в духовке и загрузкой противней",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Holiday peaks with expected orders and extra hours",
+"kind": "title",
+"max": 60,
+"mt": "Праздничные вершины с ожидаемыми заказами и дополнительными часами",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Daily production sheet with oven and fridge load",
+"kind": "title",
+"max": 60,
+"mt": "Ежедневная производственная таблица с загрузкой духовки и холодильника",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Day load check for one person or the whole team",
+"kind": "title",
+"max": 60,
+"mt": "Проверка дневной нагрузки для одного человека или всей команды",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Staff hours and people needed for a day",
+"kind": "title",
+"max": 60,
+"mt": "Количество сотрудников и количество людей, необходимых на день",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Overtime cost and the cheaper day to move work to",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость сверхурочной работы и более дешевый день для переноса работы",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Units to bake for each delivery of a standing order",
+"kind": "title",
+"max": 60,
+"mt": "Единиц выпечки для каждой поставки повторяющегося оптового заказа",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

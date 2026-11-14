@@ -1,0 +1,114 @@
+[
+{
+"en": "Production plan, order calendar and oven load for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Plano de produção, calendário de pedidos e carga de forno para padarias caseiras e estúdios de bolos",
+"why": "too long: 100 characters, the limit is 80"
+},
+{
+"en": "every day shows the orders and units due, the hours for baking, decorating and packing and the team hours, with tasks and hours for each person",
+"kind": "sentence",
+"max": 160,
+"mt": "todos os dias mostra os pedidos e unidades a serem entregues, os horários de cozimento, decoração e embalagem e os horários da equipe, com tarefas e horários para cada pessoa",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "tray loads and fridge slots needed against the capacity for each day, with a nearly full and an over capacity flag before the day starts",
+"kind": "sentence",
+"max": 160,
+"mt": "cargas de bandejas e slots de geladeira necessários em relação à capacidade de cada dia, com um sinalizador de quase cheio e de excesso de capacidade antes do início do dia",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "hours against the hours a person can work, a load percent and a flag, so one decorator never carries a busy Friday alone",
+"kind": "sentence",
+"max": 160,
+"mt": "horas contra as horas que uma pessoa pode trabalhar, um percentual de carga e uma bandeira, para que um decorador nunca carregue sozinho uma sexta-feira movimentada",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "units for each delivery day, batches, tray loads and the renewal date of every cafe or shop order, so a weekly bake is never missed",
+"kind": "sentence",
+"max": 160,
+"mt": "unidades para cada dia de entrega, lotes, carregamentos de bandejas e a data de renovação de cada pedido de café ou loja, para que nunca perca um cozimento semanal",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Ingredients arrived late",
+"kind": "list",
+"max": 30,
+"mt": "Ingredientes chegaram atrasados",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Day is within capacity",
+"kind": "list",
+"max": 30,
+"mt": "O dia está dentro da capacidade",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Oven is over capacity",
+"kind": "list",
+"max": 30,
+"mt": "O forno está acima da capacidade",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Too old on the due date",
+"kind": "list",
+"max": 30,
+"mt": "Muito velho na data de vencimento",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Spare units are small",
+"kind": "list",
+"max": 30,
+"mt": "As unidades sobressalentes são pequenas",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Spare units are large",
+"kind": "list",
+"max": 30,
+"mt": "As unidades sobressalentes são grandes",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Products with labour minutes, tray loads and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Produtos com minutos de trabalho, cargas de bandeja e dias de prateleira",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Ingredient needs by day against stock on hand",
+"kind": "title",
+"max": 60,
+"mt": "Necessidades de ingredientes por dia em relação ao estoque disponível",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Overtime cost and the cheaper day to move work to",
+"kind": "title",
+"max": 60,
+"mt": "Custo de horas extras e o dia mais barato para mudar o trabalho para",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Units to bake for each delivery of a standing order",
+"kind": "title",
+"max": 60,
+"mt": "Unidades a serem preparadas para cada entrega de um pedido recorrente no atacado",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "What-if grid: orders a day against hours an order",
+"kind": "title",
+"max": 60,
+"mt": "Grade hipotética: pedidos por dia em relação a horas por pedido",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

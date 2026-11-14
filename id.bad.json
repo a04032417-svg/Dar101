@@ -1,0 +1,93 @@
+[
+{
+"en": "Plan every bake and decoration with oven, fridge and team load",
+"kind": "sentence",
+"max": 80,
+"mt": "Rencanakan setiap pemanggangan dan dekorasi dengan oven, lemari es, dan muatan tim",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "Production plan, order calendar and oven load for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Rencana produksi, kalender pemesanan, dan beban oven untuk toko roti rumahan dan studio kue",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "every day shows the orders and units due, the hours for baking, decorating and packing and the team hours, with tasks and hours for each person",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap hari menunjukkan pesanan dan unit yang harus dibayar, jam untuk memanggang, mendekorasi dan mengemas, serta jam tim, dengan tugas dan jam untuk setiap orang",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "hours against the hours a person can work, a load percent and a flag, so one decorator never carries a busy Friday alone",
+"kind": "sentence",
+"max": 160,
+"mt": "jam dibandingkan dengan jam kerja seseorang, persentase beban dan sebuah bendera, sehingga seorang dekorator tidak pernah melakukan hari Jumat yang sibuk sendirian",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "units for each delivery day, batches, tray loads and the renewal date of every cafe or shop order, so a weekly bake is never missed",
+"kind": "sentence",
+"max": 160,
+"mt": "unit untuk setiap hari pengiriman, batch, jumlah baki, dan tanggal pembaruan setiap pesanan kafe atau toko, sehingga pembuatan kue mingguan tidak pernah terlewatkan",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "each late task and each cake made again with the minutes or hours lost, the reason and the cost, so the real price of a mistake shows",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap tugas yang terlambat dan setiap kue dibuat lagi dengan menit atau jam yang hilang, alasan dan biayanya, sehingga harga sebenarnya dari sebuah kesalahan terlihat",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Ingredients arrived late",
+"kind": "list",
+"max": 30,
+"mt": "Bahan-bahannya datang terlambat",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Too old on the due date",
+"kind": "list",
+"max": 30,
+"mt": "Terlalu tua pada tanggal jatuh tempo",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Needs more than one day",
+"kind": "list",
+"max": 30,
+"mt": "Membutuhkan lebih dari satu hari",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "No day has room",
+"kind": "list",
+"max": 30,
+"mt": "Tidak ada hari yang memiliki ruang",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Orders need more hours",
+"kind": "list",
+"max": 30,
+"mt": "Pesanan memerlukan waktu lebih lama",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Ingredient needs by day against stock on hand",
+"kind": "title",
+"max": 60,
+"mt": "Kebutuhan bahan pada siang hari dibandingkan stok yang tersedia",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Units to bake for each delivery of a standing order",
+"kind": "title",
+"max": 60,
+"mt": "Unit yang akan dipanggang untuk setiap pengiriman pesanan grosir berulang",
+"why": "too long: 73 characters, the limit is 60"
+}
+]

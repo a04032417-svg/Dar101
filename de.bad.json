@@ -1,0 +1,163 @@
+[
+{
+"en": "Send a friendly reminder",
+"kind": "label",
+"max": 30,
+"mt": "Senden Sie eine freundliche Erinnerung",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Plan every bake and decoration with oven, fridge and team load",
+"kind": "sentence",
+"max": 80,
+"mt": "Planen Sie jeden Backvorgang und jede Dekoration mit Ofen, Kühlschrank und Teambeladung",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "Production plan, order calendar and oven load for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Produktionsplan, Bestellkalender und Ofenbeladung für Heimbäckereien und Kuchenstudios",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "every day shows the orders and units due, the hours for baking, decorating and packing and the team hours, with tasks and hours for each person",
+"kind": "sentence",
+"max": 160,
+"mt": "An jedem Tag werden die fälligen Bestellungen und Einheiten, die Stunden zum Backen, Dekorieren und Verpacken sowie die Teamstunden mit Aufgaben und Stunden für jede Person angezeigt",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "tray loads and fridge slots needed against the capacity for each day, with a nearly full and an over capacity flag before the day starts",
+"kind": "sentence",
+"max": 160,
+"mt": "Vergleichen Sie die benötigten Tablettbeladungen und Kühlschrankplätze mit der Kapazität für jeden Tag, mit einer Markierung „Fast voll“ und „Überkapazität“, bevor der Tag beginnt",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "hours against the hours a person can work, a load percent and a flag, so one decorator never carries a busy Friday alone",
+"kind": "sentence",
+"max": 160,
+"mt": "Stunden im Vergleich zu den Stunden, die eine Person arbeiten kann, einen Auslastungsprozentsatz und eine Flagge, sodass ein Dekorateur nie einen geschäftigen Freitag alleine bewältigen kann",
+"why": "too long: 190 characters, the limit is 160"
+},
+{
+"en": "units for each delivery day, batches, tray loads and the renewal date of every cafe or shop order, so a weekly bake is never missed",
+"kind": "sentence",
+"max": 160,
+"mt": "Einheiten für jeden Liefertag, Chargen, Tablettladungen und das Erneuerungsdatum jeder Café- oder Ladenbestellung, sodass ein wöchentlicher Kuchen nie verpasst wird",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "each late task and each cake made again with the minutes or hours lost, the reason and the cost, so the real price of a mistake shows",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede verspätete Aufgabe und jeder erneut gebackene Kuchen mit den verlorenen Minuten oder Stunden, dem Grund und den Kosten, sodass der wahre Preis eines Fehlers sichtbar wird",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "every decorated cake with the hours, the days left and the hours needed each day, with a tight flag for a cake that is running out of time",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder dekorierte Kuchen wird mit den Stunden, den verbleibenden Tagen und den täglich benötigten Stunden angezeigt, mit einer festen Flagge für einen Kuchen, dem die Zeit davonläuft",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "the main ingredients each day's bakes need against the stock on hand, with a shortage flag before the bake",
+"kind": "sentence",
+"max": 160,
+"mt": "Die Hauptzutaten, die zum Backen eines jeden Tages benötigt werden, werden mit dem vorhandenen Vorrat abgeglichen, wobei vor dem Backen eine Mangelanzeige angezeigt wird",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Mixer",
+"kind": "list",
+"max": 30,
+"mt": "Mixer",
+"why": "not translated"
+},
+{
+"en": "Proofer",
+"kind": "list",
+"max": 30,
+"mt": "Proofer",
+"why": "not translated"
+},
+{
+"en": "Service ok",
+"kind": "list",
+"max": 30,
+"mt": "Service ok",
+"why": "not translated"
+},
+{
+"en": "Day is within capacity",
+"kind": "list",
+"max": 30,
+"mt": "Der Tag ist innerhalb der Kapazitäten",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Team can cover the peak",
+"kind": "list",
+"max": 30,
+"mt": "Das Team kann den Gipfel abdecken",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Orders need more hours",
+"kind": "list",
+"max": 30,
+"mt": "Bestellungen benötigen mehr Stunden",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Hours for each person and day against their day",
+"kind": "title",
+"max": 60,
+"mt": "Stunden für jede Person und jeden Tag im Vergleich zu ihrem Tag",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Standing orders baked for cafes and shops",
+"kind": "title",
+"max": 60,
+"mt": "Wiederkehrende Großhandelsbestellungen gebacken für Cafés und Geschäfte",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Holiday peaks with expected orders and extra hours",
+"kind": "title",
+"max": 60,
+"mt": "Urlaubsgipfel mit erwarteten Bestellungen und zusätzlichen Stunden",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Day load check for one person or the whole team",
+"kind": "title",
+"max": 60,
+"mt": "Kontrolle der Tageslast für eine Person oder das gesamte Team",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Overtime cost and the cheaper day to move work to",
+"kind": "title",
+"max": 60,
+"mt": "Überstundenkosten und der günstigere Tag, an dem die Arbeit verlegt werden kann",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Units to bake for each delivery of a standing order",
+"kind": "title",
+"max": 60,
+"mt": "Für jede Lieferung einer wiederkehrenden Großhandelsbestellung zu backende Einheiten",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "What-if grid: orders a day against hours an order",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Bestellungen pro Tag im Vergleich zu Stunden pro Bestellung",
+"why": "too long: 81 characters, the limit is 60"
+}
+]
