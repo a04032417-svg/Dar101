@@ -1,0 +1,23 @@
+[
+{
+"en": "Maker: the scent feedback on a product",
+"kind": "label",
+"max": null,
+"mt": "Maker：对产品的气味反馈",
+"why": "English/Latin words left: Maker"
+},
+{
+"en": "Hello, the rating of {name} is {rating_90d} in the last 90 days, below the target. {reviews_waiting} reviews wait for a reply.",
+"kind": "message",
+"max": null,
+"mt": "您好，过去 90 天内 {name} 的评分为 { rating_90d} ，低于目标。 {reviews_waiting} 条评论正在等待回复。",
+"why": "English/Latin words left: rating"
+},
+{
+"en": "Hello, {name} sold {units_90d} units in the last 3 months and its margin check is: {margin_check}. Please decide whether to reprice or retire it.",
+"kind": "message",
+"max": null,
+"mt": "您好，{name} 在过去 3 个月内售出了 {units_90d} 件，其保证金检查为：{margin_check}。请决定是否重新定价或退役。",
+"why": "English/Latin words left: units"
+}
+]

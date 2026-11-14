@@ -1,0 +1,72 @@
+[
+{
+"en": "revenue, profit and margin of each product over 12 months after fees, shipping and labour, with a warning when a product falls below your lowest margin",
+"kind": "sentence",
+"max": 160,
+"mt": "доход, прибыль и маржа каждого продукта в течение 12 месяцев после уплаты сборов, доставки и труда, с предупреждением, когда продукт падает ниже вашей минимальной прибыли.",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "units sold in the last 12 full months and the demand factor of each month give the units to make next year with your growth, and the date to finish planning",
+"kind": "sentence",
+"max": 160,
+"mt": "единиц, проданных за последние 12 полных месяцев, и коэффициент спроса каждого месяца дают количество единиц, которые нужно произвести в следующем году по мере вашего роста, а также дату окончания планирования.",
+"why": "too long: 210 characters, the limit is 160"
+},
+{
+"en": "Email newsletter",
+"kind": "list",
+"max": 30,
+"mt": "Информационный бюллетень по электронной почте",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Trial batches with sell-through and tester scores",
+"kind": "title",
+"max": 60,
+"mt": "Пробные партии со сквозными продажами и оценками тестировщиков",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Customers with orders, spend and months since the last order",
+"kind": "title",
+"max": 60,
+"mt": "Клиенты с заказами, расходами и месяцами с момента последнего заказа",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Units to make in each month of the coming year",
+"kind": "title",
+"max": 60,
+"mt": "Единиц, которые нужно изготовить в каждом месяце наступающего года",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Products to keep, reprice or retire",
+"kind": "title",
+"max": 60,
+"mt": "Продукты, которые стоит оставить, переоценить или снять с производства",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "What-if grid: repeat rate against order value",
+"kind": "title",
+"max": 60,
+"mt": "Сетка «Что, если»: частота повторения в зависимости от стоимости заказа",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Hello, the rating of {name} is {rating_90d} in the last 90 days, below the target. {reviews_waiting} reviews wait for a reply.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, рейтинг {name} за последние 90 дней – {rating_90d}, что ниже целевого показателя. {reviews_waiting} отзывов ждут ответа.",
+"why": "English/Latin words left: rating"
+},
+{
+"en": "Hello, {name} sold {units_90d} units in the last 3 months and its margin check is: {margin_check}. Please decide whether to reprice or retire it.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Компания {name} продала единиц товара ({units_90d}) за последние 3 месяца, и ее чек по марже: {margin_check}. Пожалуйста, решите, следует ли переоценить его или отказаться от него.",
+"why": "English/Latin words left: units"
+}
+]

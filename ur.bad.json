@@ -1,0 +1,37 @@
+[
+{
+"en": "Sample requests, Shop calls and visits, Account notes, Prospects and Catalogue requests keep the selling work: what you sent, who you talked to, what the shop said and which prospect is next.",
+"kind": "sentence",
+"max": null,
+"mt": "نمونے کی درخواستیں۔, شاپ کالز اور وزٹ کریں۔, اکاؤنٹ کے نوٹس, Prospects اور کیٹلاگ کی درخواستیں۔ فروخت کا کام رکھیں: آپ نے کیا بھیجا، کس سے بات کی، دکان نے کیا کہا اور کون سا امکان آگے ہے۔",
+"why": "English/Latin words left: Prospects"
+},
+{
+"en": "Product margin, reviews, repeat customers and growth for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "موم بتی اور صابن بنانے والوں کے لیے پروڈکٹ کا مارجن، جائزے، دوبارہ صارفین اور ترقی",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "What each review topic means and the rating you want",
+"kind": "title",
+"max": 60,
+"mt": "جائزہ لینے کے ہر موضوع کا کیا مطلب ہے اور وہ درجہ بندی جو آپ چاہتے ہیں۔",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Hello, the rating of {name} is {rating_90d} in the last 90 days, below the target. {reviews_waiting} reviews wait for a reply.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، پچھلے 90 دنوں میں {name} کی ریٹنگ {rating_90d} ہے، ہدف سے کم۔ {reviews_waiting} جائزے جواب کا انتظار کرتے ہیں۔",
+"why": "English/Latin words left: rating"
+},
+{
+"en": "Hello, {name} sold {units_90d} units in the last 3 months and its margin check is: {margin_check}. Please decide whether to reprice or retire it.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {name} نے پچھلے 3 مہینوں میں {units_90d} یونٹس فروخت کیے اور اس کا مارجن چیک ہے: {margin_check}۔ براہ کرم فیصلہ کریں کہ اس کی دوبارہ قیمت لگائی جائے یا اسے ریٹائر کیا جائے۔",
+"why": "English/Latin words left: units"
+}
+]

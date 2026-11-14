@@ -1,0 +1,30 @@
+[
+{
+"en": "Product margin, reviews, repeat customers and growth for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "मोमबत्ती और साबुन निर्माताओं के लिए उत्पाद मार्जिन, समीक्षाएं, बार-बार आने वाले ग्राहक और विकास",
+"why": "too long: 95 characters, the limit is 80"
+},
+{
+"en": "days to reply for each review, a check against your reply window and the reviews still waiting, so no customer is left without an answer",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक समीक्षा के लिए उत्तर देने के लिए कुछ दिन, आपकी उत्तर विंडो के विरुद्ध एक जांच और समीक्षाएं अभी भी प्रतीक्षारत हैं, ताकि कोई भी ग्राहक उत्तर दिए बिना न रहे",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "What each review topic means and the rating you want",
+"kind": "title",
+"max": 60,
+"mt": "प्रत्येक समीक्षा विषय का क्या अर्थ है और आप कौन सी रेटिंग चाहते हैं",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Hello, {name} sold {units_90d} units in the last 3 months and its margin check is: {margin_check}. Please decide whether to reprice or retire it.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, {name} ने पिछले 3 महीनों में {units_90d} इकाइयाँ बेचीं और इसका मार्जिन चेक है: {margin_check}। कृपया निर्णय लें कि इसका पुनर्मूल्यांकन करना है या रिटायर करना है।",
+"why": "English/Latin words left: units"
+}
+]

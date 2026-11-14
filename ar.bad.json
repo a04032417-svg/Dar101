@@ -1,0 +1,30 @@
+[
+{
+"en": "Email newsletter",
+"kind": "list",
+"max": 30,
+"mt": "النشرة الإخبارية عبر البريد الإلكتروني",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Online craft seller",
+"kind": "list",
+"max": 30,
+"mt": "بائع الحرف اليدوية عبر الإنترنت",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Hello, the rating of {name} is {rating_90d} in the last 90 days, below the target. {reviews_waiting} reviews wait for a reply.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، تصنيف {name} هو { rating_90d} في آخر 90 يومًا، وهو أقل من الهدف. {reviews_waiting} تعليق في انتظار الرد.",
+"why": "English/Latin words left: rating"
+},
+{
+"en": "Hello, {name} sold {units_90d} units in the last 3 months and its margin check is: {margin_check}. Please decide whether to reprice or retire it.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، تم بيع {name} {units_90d} من الوحدات في آخر 3 أشهر وفحص الهامش الخاص بها هو: {margin_check}. يرجى اتخاذ قرار بشأن إعادة تسعيره أو إيقافه.",
+"why": "English/Latin words left: units"
+}
+]
