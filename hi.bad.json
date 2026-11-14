@@ -1,0 +1,16 @@
+[
+{
+"en": "Hello {crew}, are you free to work on {date}? We need crew for a {hours}-hour day.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {crew}, क्या आप {date} पर काम करने के लिए स्वतंत्र हैं? हमें दिन में 2 घंटे के लिए क्रू की आवश्यकता है।",
+"why": "placeholders must be exactly: {crew} {date} {hours}"
+},
+{
+"en": "Hello, {name} has {free4} free hours in the next four weeks and {open_tasks} open tasks.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {name} के पास अगले चार सप्ताहों में {free4} निःशुल्क घंटे और {open_tasks} खुले कार्य हैं।",
+"why": "English/Latin words left: free"
+}
+]
