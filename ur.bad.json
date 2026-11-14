@@ -1,0 +1,72 @@
+[
+{
+"en": "Hello, the interest on loan {loan_id} for {property} was {interest_12m} in the last 12 months. Please note it for the year and check it with the lender statement.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {property} کے لیے قرض {loan_id} پر سود گزشتہ 12 مہینوں میں {interest_12m} تھا۔ براہ کرم اسے سال کے لیے نوٹ کریں اور اسے قرض دہندہ کے بیان سے چیک کریں۔",
+"why": "English/Latin words left: interest"
+},
+{
+"en": "Properties at or above the minimum DSCR",
+"kind": "title",
+"max": 60,
+"mt": "کم از کم قرض کی خدمت کوریج کے تناسب پر یا اس سے اوپر پراپرٹیز",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Permit needs changes",
+"kind": "list",
+"max": 30,
+"mt": "اجازت نامے میں تبدیلی کی ضرورت ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Adds more than it costs",
+"kind": "list",
+"max": 30,
+"mt": "اس کی لاگت سے زیادہ اضافہ کرتا ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Costs more than it adds",
+"kind": "list",
+"max": 30,
+"mt": "اس میں اضافے سے زیادہ لاگت آتی ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Flip sale plan: list price options and the profit of each",
+"kind": "title",
+"max": 60,
+"mt": "پلٹائیں فروخت کا منصوبہ: فہرست قیمت کے اختیارات اور ہر ایک کا منافع",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Draw schedule: planned draws against paid draws",
+"kind": "title",
+"max": 60,
+"mt": "شیڈول ڈرا کریں۔: بامعاوضہ قرعہ اندازی کے خلاف منصوبہ بند ڈراز",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Bid B has no gap",
+"kind": "label",
+"max": null,
+"mt": "Bid B میں کوئی فرق نہیں ہے۔",
+"why": "English/Latin words left: Bid"
+},
+{
+"en": "Cost per square metre and per bedroom against past jobs",
+"kind": "title",
+"max": 60,
+"mt": "لاگت فی مربع میٹر اور ماضی کی ملازمتوں کے مقابلے میں فی بیڈروم",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Rehab overrun",
+"kind": "label",
+"max": null,
+"mt": "Rehab overrun",
+"why": "English/Latin words left: Rehab overrun"
+}
+]

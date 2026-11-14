@@ -1,0 +1,37 @@
+[
+{
+"en": "Hello, the interest on loan {loan_id} for {property} was {interest_12m} in the last 12 months. Please note it for the year and check it with the lender statement.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, पिछले 12 महीनों में {property} के लिए ऋण पर ब्याज {loan_id} {interest_12m} था। कृपया इसे वर्ष के लिए नोट करें और ऋणदाता विवरण के साथ इसकी जांच करें।",
+"why": "English/Latin words left: interest"
+},
+{
+"en": "Paid without inspection",
+"kind": "list",
+"max": 30,
+"mt": "बिना निरीक्षण के भुगतान कर दिया गया",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Waiting for payment",
+"kind": "list",
+"max": 30,
+"mt": "भुगतान की प्रतीक्षा की जा रही है",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Costs more than it adds",
+"kind": "list",
+"max": 30,
+"mt": "जितना जोड़ा जाता है उससे कहीं अधिक खर्च होता है",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Cost per square metre and per bedroom against past jobs",
+"kind": "title",
+"max": 60,
+"mt": "लागत प्रति वर्ग मीटर और पिछली नौकरियों के मुकाबले प्रति शयनकक्ष",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

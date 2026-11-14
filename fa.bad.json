@@ -1,0 +1,65 @@
+[
+{
+"en": "Hello, the interest on loan {loan_id} for {property} was {interest_12m} in the last 12 months. Please note it for the year and check it with the lender statement.",
+"kind": "message",
+"max": null,
+"mt": "سلام، سود وام {loan_id} برای {property} در 12 ماه گذشته {interest_12m} بوده است. لطفاً آن را برای سال یادداشت کنید و آن را با بیانیه وام دهنده بررسی کنید.",
+"why": "English/Latin words left: interest"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the lowest DSCR, the highest loan share a lender allows, the loan-to-value you want to stay under and the days to warn before a balloon date.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: کمترین نسبت پوشش خدمات بدهی، بالاترین سهم وام که وام‌دهنده اجازه می‌دهد، وام به ارزشی که می‌خواهید در آن باقی بمانید و روزهای هشدار قبل از تاریخ بادکنکی.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Rehab budgets, contractor draws and flip profit for real estate investors",
+"kind": "sentence",
+"max": 80,
+"mt": "بودجه های توانبخشی، قرعه کشی های پیمانکاران و تلنگر سود برای سرمایه گذاران املاک و مستغلات",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "Costs more than it adds",
+"kind": "list",
+"max": 30,
+"mt": "هزینه ها بیشتر از چیزی است که اضافه می کند",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Draw schedule: planned draws against paid draws",
+"kind": "title",
+"max": 60,
+"mt": "برنامه قرعه کشی: قرعه کشی های برنامه ریزی شده در برابر قرعه کشی های پولی",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "One row for each draw inspection with the result and the percent complete found on site; the percent claimed, the gap and the draw amount fill in from Draws.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر بازرسی قرعه کشی با نتیجه و درصد کامل یافت شده در سایت. درصد ادعا شده، شکاف و مقدار قرعه کشی از Draw ها پر می شود.",
+"why": "English/Latin words left: Draw"
+},
+{
+"en": "Utilities 380",
+"kind": "label",
+"max": null,
+"mt": "Utilities 380",
+"why": "English/Latin words left: Utilities"
+},
+{
+"en": "Trade: invoice does not match the draw",
+"kind": "label",
+"max": null,
+"mt": "تجارت: فاکتور با قرعه کشی مطابقت ندارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, the invoice does not match draw {draw_no} at {property} ({amount}). Please send a corrected invoice.",
+"kind": "message",
+"max": null,
+"mt": "سلام، فاکتور با قرعه کشی {draw_no} در {property} ({amount}) مطابقت ندارد. لطفا فاکتور اصلاح شده ارسال کنید",
+"why": "never use the word for \"compatible\""
+}
+]

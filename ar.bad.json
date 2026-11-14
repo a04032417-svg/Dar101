@@ -1,0 +1,23 @@
+[
+{
+"en": "Hello, the interest on loan {loan_id} for {property} was {interest_12m} in the last 12 months. Please note it for the year and check it with the lender statement.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، بلغت الفائدة على القرض {loan_id} لـ {property} {interest_12m} في آخر 12 شهرًا. يرجى ملاحظة ذلك للسنة والتحقق من ذلك مع كشف حساب المقرض.",
+"why": "English/Latin words left: interest"
+},
+{
+"en": "Write a plan for each balloon loan on Balloon plan. The balance due and the days left fill in, and the date turns red inside your warning days.",
+"kind": "sentence",
+"max": null,
+"mt": "اكتب خطة لكل قرض بالون في خطة Balloon. يتم ملء الرصيد المستحق والأيام المتبقية، ويتحول التاريخ إلى اللون الأحمر داخل أيام التحذير.",
+"why": "English/Latin words left: Balloon."
+},
+{
+"en": "Maximum rehab spend (the 70% rule and your profit)",
+"kind": "title",
+"max": 60,
+"mt": "الحد الأقصى للإنفاق على إعادة التأهيل (قاعدة الـ 70% وأرباحك)",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

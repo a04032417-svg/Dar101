@@ -1,0 +1,72 @@
+[
+{
+"en": "Hello, the interest on loan {loan_id} for {property} was {interest_12m} in the last 12 months. Please note it for the year and check it with the lender statement.",
+"kind": "message",
+"max": null,
+"mt": "您好，过去 12 个月中 {property} 的贷款 {loan_id} 的利息为 {interest_12m}。请记下年份并与贷款人对账单进行核对。",
+"why": "English/Latin words left: interest"
+},
+{
+"en": "Hello, the balloon loan on {property} is due in {days_to} days with {balloon_balance} to pay. Please choose the plan.",
+"kind": "message",
+"max": null,
+"mt": "您好，{property} 的大额贷款将于 {days_to} 天后到期，需支付 {balloon_balance}。 Please choose the plan.",
+"why": "English/Latin words left: Please choose the plan."
+},
+{
+"en": "Hello, the line of credit balance is {balance_after}, which is {used_pct} of the limit of {limit}. Room left: {available}.",
+"kind": "message",
+"max": null,
+"mt": "您好，信用额度余额为{balance_after}，即限额{limit}的{used_pct}。 Room left: {available}.",
+"why": "English/Latin words left: Room left"
+},
+{
+"en": "Property: {col:loans.property}. Lender: {col:loans.lender}. Loan type: {col:loans.loan_type}. Started on {col:loans.start_date}.",
+"kind": "document",
+"max": null,
+"mt": "Property: {col:loans.property}. Lender: {col:loans.lender}. Loan type: {col:loans.loan_type}. Started on {col:loans.start_date}.",
+"why": "English/Latin words left: Property Lender Loan type"
+},
+{
+"en": "Amount {col:loans.amount} at {col:loans.rate} over {col:loans.term_years} years. Monthly payment {col:loans.payment}. Balance today {col:loans.balance}, which is {col:loans.paid_down} paid down.",
+"kind": "document",
+"max": null,
+"mt": "{col:loans.term_years} 年期间 {col:loans.rate} 金额为 {col:loans.amount}。 Monthly payment {col:loans.payment}.今天余额为 {col:loans.balance}，已付清 {col:loans.paid_down}。",
+"why": "English/Latin words left: Monthly payment"
+},
+{
+"en": "Balloon date {col:loans.balloon_date} (a balloon loan has its remaining balance due on one date), {col:loans.months_to_balloon} months away, with {col:loans.balloon_due} due. Balloon check: {col:loans.balloon_flag}.",
+"kind": "document",
+"max": null,
+"mt": "追加日期 {col:loans.balloon_date}（一笔追加贷款的剩余余额将在某一天到期），距离 {col:loans.months_to_balloon} 个月，到期日为 {col:loans.balloon_due}。 Balloon check: {col:loans.balloon_flag}.",
+"why": "English/Latin words left: Balloon check"
+},
+{
+"en": "Property: {col:loans.property}. Loan amount {col:loans.amount} at {col:loans.rate}, term {col:loans.term_years} years, monthly payment {col:loans.payment}.",
+"kind": "document",
+"max": null,
+"mt": "Property: {col:loans.property}.贷款金额为 {col:loans.amount}，期限为 {col:loans.rate}，期限为 {col:loans.term_years} 年，每月还款额为 {col:loans.payment}。",
+"why": "English/Latin words left: Property"
+},
+{
+"en": "Use the Amortisation calculator to print the first 12 months of this loan month by month. The loan ends on {col:loans.ends_on}.",
+"kind": "document",
+"max": null,
+"mt": "使用摊销计算器逐月打印该贷款的前 12 个月。 The loan ends on {col:loans.ends_on}.",
+"why": "English/Latin words left: The loan ends on"
+},
+{
+"en": "Refinance proposal",
+"kind": "title",
+"max": 60,
+"mt": "Refinance proposal",
+"why": "English/Latin words left: Refinance proposal"
+},
+{
+"en": "Balloon maturity plan",
+"kind": "title",
+"max": 60,
+"mt": "Balloon maturity plan",
+"why": "English/Latin words left: Balloon maturity plan"
+}
+]
