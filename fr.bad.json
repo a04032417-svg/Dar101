@@ -1,0 +1,821 @@
+[
+{
+"en": "Weekly Sales Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Récapitulatif des ventes hebdomadaire",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Planning Fee Compare",
+"kind": "sheet",
+"max": 31,
+"mt": "Comparaison des frais de planification",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Peak and Off-peak",
+"kind": "sheet",
+"max": 31,
+"mt": "Heures de pointe et heures creuses",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Cancellation Acknowledgement",
+"kind": "sheet",
+"max": 31,
+"mt": "Accusé de réception d'annulation",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Sales Pipeline Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur le pipeline des ventes",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Deposit and Date Secured Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de dépôt et de date sécurisées",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Coordinator Handover Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de transfert du coordinateur",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Quarterly Pricing Review Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de révision des prix trimestrielles",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Extras and Change Orders",
+"kind": "sheet",
+"max": 31,
+"mt": "Extras et modifications de commandes",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Payment Plan Changes",
+"kind": "sheet",
+"max": 31,
+"mt": "Modifications du plan de paiement",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Event Cash Position",
+"kind": "sheet",
+"max": 31,
+"mt": "Situation de trésorerie de l'événement",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Weekly Cash from Clients",
+"kind": "sheet",
+"max": 31,
+"mt": "Encaisse hebdomadaire des clients",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Proposal to Invoice Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Proposition de contrôle des factures",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Payment Plan Change Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de changement de plan de paiement",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Extras Approval Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'approbation des extras",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Cancellation Settlement Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de règlement d’annulation",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Refund Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de demande de remboursement",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Payment Schedule Builder",
+"kind": "sheet",
+"max": 31,
+"mt": "Générateur d'échéanciers de paiement",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Refund After Vendor Refunds",
+"kind": "sheet",
+"max": 31,
+"mt": "Remboursement après remboursement du fournisseur",
+"why": "too long: 48 characters, the limit is 31"
+},
+{
+"en": "Event Funding Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification du financement de l'événement",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Deposit and Plan What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Déposez et planifiez des simulations",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Cancellation Settlement Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de règlement de l'annulation",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Refund and Credit Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Étapes de remboursement et de crédit",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "New Client Payment Terms",
+"kind": "sheet",
+"max": 31,
+"mt": "Conditions de paiement des nouveaux clients",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Event Budget Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord du budget de l'événement",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Guest Count Changes",
+"kind": "sheet",
+"max": 31,
+"mt": "Modifications du nombre d'invités",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Planning Fee Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Barème des frais de planification",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Guest Count Change Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de changement du nombre d'invités",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Final Cost Reconciliation Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de rapprochement des coûts finaux",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Guest Count Change Impact",
+"kind": "sheet",
+"max": 31,
+"mt": "Impact du changement du nombre d'invités",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Bar Quantity Estimate",
+"kind": "sheet",
+"max": 31,
+"mt": "Estimation de la quantité de barres",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Labour Cost and Fee Yield",
+"kind": "sheet",
+"max": 31,
+"mt": "Coût de la main-d'œuvre et rendement des frais",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Budget Change Approval",
+"kind": "sheet",
+"max": 31,
+"mt": "Approbation des modifications budgétaires",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Vendor Quote Comparison",
+"kind": "sheet",
+"max": 31,
+"mt": "Comparaison des devis des fournisseurs",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Event Profit Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Résumé des bénéfices de l'événement",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Guest Count Confirmation",
+"kind": "sheet",
+"max": 31,
+"mt": "Confirmation du nombre d'invités",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Approve a Budget Change",
+"kind": "sheet",
+"max": 31,
+"mt": "Approuver une modification budgétaire",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Compare Vendor Quotes",
+"kind": "sheet",
+"max": 31,
+"mt": "Comparez les devis des fournisseurs",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Quarterly Price Update",
+"kind": "sheet",
+"max": 31,
+"mt": "Mise à jour trimestrielle des prix",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Post-event Profit Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Examen des bénéfices post-événement",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Vendors Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des fournisseurs",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Vendor Scorecards",
+"kind": "sheet",
+"max": 31,
+"mt": "Cartes de pointage des fournisseurs",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Vendor Price Changes",
+"kind": "sheet",
+"max": 31,
+"mt": "Modifications des prix des fournisseurs",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Vendor Contact Log",
+"kind": "sheet",
+"max": 31,
+"mt": "Journal de contact du fournisseur",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Venue Load-in Rules",
+"kind": "sheet",
+"max": 31,
+"mt": "Règles de chargement sur le site",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Vendor Booking Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de réservation du fournisseur",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Vendor Quote Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de demande de devis fournisseur",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Vendor Cancellation Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'annulation du fournisseur",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Replacement Vendor Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche fournisseur de remplacement",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Invoice Dispute Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de contestation de facture",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Availability Hold Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de retenue de disponibilité",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Vendor Onboarding Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche d'intégration du fournisseur",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Vendor Document Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de document du fournisseur",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Cost to Replace a Vendor",
+"kind": "sheet",
+"max": 31,
+"mt": "Coût pour remplacer un fournisseur",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Payment Priority This Week",
+"kind": "sheet",
+"max": 31,
+"mt": "Priorité de paiement cette semaine",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Spend Share and Concentration",
+"kind": "sheet",
+"max": 31,
+"mt": "Partage des dépenses et concentration",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Vendor Hours and Overtime",
+"kind": "sheet",
+"max": 31,
+"mt": "Horaires et heures supplémentaires des fournisseurs",
+"why": "too long: 51 characters, the limit is 31"
+},
+{
+"en": "Booking Lead Time Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification des délais de réservation",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Vendor Reliability Score",
+"kind": "sheet",
+"max": 31,
+"mt": "Score de fiabilité du fournisseur",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Vendor Cash for 4 Weeks",
+"kind": "sheet",
+"max": 31,
+"mt": "Paiement du vendeur pendant 4 semaines",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Staff Meals and Gratuity",
+"kind": "sheet",
+"max": 31,
+"mt": "Repas et pourboires du personnel",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Catering What-if Grid",
+"kind": "sheet",
+"max": 31,
+"mt": "Grille de simulation pour la restauration",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Invoice Dispute Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Lettre de contestation de facture",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Vendor Schedule for the Day",
+"kind": "sheet",
+"max": 31,
+"mt": "Planning des vendeurs pour la journée",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Vendor Agreement Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Résumé du contrat du fournisseur",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Vendor Document Renewal",
+"kind": "sheet",
+"max": 31,
+"mt": "Renouvellement des documents fournisseur",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Quarterly Vendor Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revue trimestrielle des fournisseurs",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Final Vendor Confirmations",
+"kind": "sheet",
+"max": 31,
+"mt": "Confirmations finales du fournisseur",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Guest and RSVP Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des réponses des invités et des invitations",
+"why": "too long: 59 characters, the limit is 31"
+},
+{
+"en": "RSVP Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "résumé de la réponse à l'invitation",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "RSVP Reminders",
+"kind": "sheet",
+"max": 31,
+"mt": "rappels de réponse aux invitations",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "RSVP Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "feuille de réponse à l'invitation",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Head Count from RSVPs",
+"kind": "sheet",
+"max": 31,
+"mt": "Effectif à partir de la réponse à l'invitation",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "RSVP Deadline Date",
+"kind": "sheet",
+"max": 31,
+"mt": "date limite de réponse à l'invitation",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "RSVP Status Report",
+"kind": "sheet",
+"max": 31,
+"mt": "rapport sur l'état des réponses aux invitations",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Invitation Wording Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de formulation d'invitation",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Final Head Count Confirmation",
+"kind": "sheet",
+"max": 31,
+"mt": "Confirmation finale de l'effectif",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Dietary and Allergy Details",
+"kind": "sheet",
+"max": 31,
+"mt": "Détails diététiques et allergies",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Guest Check-in on the Day",
+"kind": "sheet",
+"max": 31,
+"mt": "Enregistrement des invités le jour même",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Vendor Arrival Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'arrivée du fournisseur",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Vendor Check-in Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'enregistrement du fournisseur",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Post-event Debrief Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de débriefing post-événement",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Set-up Time Estimate",
+"kind": "sheet",
+"max": 31,
+"mt": "Estimation du temps de mise en place",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Crew Size and Hours",
+"kind": "sheet",
+"max": 31,
+"mt": "Taille et horaires de l'équipage",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Speech and Programme Timing",
+"kind": "sheet",
+"max": 31,
+"mt": "Synchronisation du discours et du programme",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Weather and Sunset Decision",
+"kind": "sheet",
+"max": 31,
+"mt": "Décision météo et coucher du soleil",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Overtime and Curfew Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Contrôle des heures supplémentaires et du couvre-feu",
+"why": "too long: 52 characters, the limit is 31"
+},
+{
+"en": "Packing and Equipment List",
+"kind": "sheet",
+"max": 31,
+"mt": "Liste de colisage et d'équipement",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Issue and Incident Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport de problème et d'incident",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Post-event Debrief Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport de débriefing post-événement",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Planning Timeline from Signing",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendrier de planification à partir de la signature",
+"why": "too long: 52 characters, the limit is 31"
+},
+{
+"en": "Debrief and Rebook Vendors",
+"kind": "sheet",
+"max": 31,
+"mt": "Débriefing et changement de réservation des fournisseurs",
+"why": "too long: 56 characters, the limit is 31"
+},
+{
+"en": "Team and Capacity Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des équipes et des capacités",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Event Staffing Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Plan de dotation en personnel pour l'événement",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Labour Cost by Event",
+"kind": "sheet",
+"max": 31,
+"mt": "Coût de la main d'œuvre par événement",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Freelance Crew Bookings",
+"kind": "sheet",
+"max": 31,
+"mt": "Réservations d'équipages indépendants",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Event Ownership Calendar",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendrier de propriété des événements",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Crew Booking Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de réservation de l'équipage",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Overtime and Time Off",
+"kind": "sheet",
+"max": 31,
+"mt": "Heures supplémentaires et congés",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Ownership Clash Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification des conflits de propriété",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Weekly Workload Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport hebdomadaire sur la charge de travail",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Event Staffing Plan Doc",
+"kind": "sheet",
+"max": 31,
+"mt": "Document sur le plan de personnel pour l'événement",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Crew Booking Confirmation",
+"kind": "sheet",
+"max": 31,
+"mt": "Confirmation de réservation de l'équipage",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Performance Feedback Note",
+"kind": "sheet",
+"max": 31,
+"mt": "Note de rétroaction sur les performances",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Weekly Hours and Capacity",
+"kind": "sheet",
+"max": 31,
+"mt": "Horaires et capacité hebdomadaires",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Hire a Freelance Crew Member",
+"kind": "sheet",
+"max": 31,
+"mt": "Embaucher un membre d'équipage indépendant",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "New Team Member Onboarding",
+"kind": "sheet",
+"max": 31,
+"mt": "Intégration d'un nouveau membre de l'équipe",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Quarterly Training Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Bilan trimestriel de la formation",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Business Finance Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord financier des entreprises",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Business Tax Instalments",
+"kind": "sheet",
+"max": 31,
+"mt": "Acomptes provisionnels de taxe professionnelle",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Event Profit Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Contrôle des bénéfices de l'événement",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Tax Instalment Reserve",
+"kind": "sheet",
+"max": 31,
+"mt": "Réserve pour acomptes provisionnels",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Owner Draw Affordability",
+"kind": "sheet",
+"max": 31,
+"mt": "Le propriétaire tire l'abordabilité",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Events and Margin What-if",
+"kind": "sheet",
+"max": 31,
+"mt": "Événements et simulation de marge",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Event Profit Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur les bénéfices de l'événement",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Event Profit Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Examen des bénéfices de l'événement",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Cash Forecast Update",
+"kind": "sheet",
+"max": 31,
+"mt": "Mise à jour des prévisions de trésorerie",
+"why": "too long: 40 characters, the limit is 31"
+}
+]
