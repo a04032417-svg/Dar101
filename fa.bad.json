@@ -1,0 +1,86 @@
+[
+{
+"en": "Formula costing, batch costs and pricing for candle, soap and body-care makers",
+"kind": "sentence",
+"max": 80,
+"mt": "هزینه یابی فرمول، هزینه های دسته ای و قیمت گذاری برای سازندگان شمع، صابون و مراقبت از بدن",
+"why": "too long: 89 characters, the limit is 80"
+},
+{
+"en": "every batch shows its cost per good unit against the standard cost of the product, so a batch that used too much wax or too many hours is flagged the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "هر دسته هزینه خود را در هر واحد خوب در برابر هزینه استاندارد محصول نشان می دهد، بنابراین دسته ای که بیش از حد موم یا ساعت های زیادی استفاده کرده باشد در همان روز علامت گذاری می شود.",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "units before and during a test at a new price give the unit change and the change in profit, so a price rise that cost more sales than it earned is visible",
+"kind": "sentence",
+"max": 160,
+"mt": "واحدها قبل و در حین آزمایش با قیمت جدید به واحد تغییر و تغییر در سود می دهند، بنابراین افزایش قیمتی که هزینه فروش بیشتری نسبت به کسب درآمد داشته باشد قابل مشاهده است.",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Eucalyptus Mint Soy Candle 200 g",
+"kind": "list",
+"max": 30,
+"mt": "شمع سویا نعناع اکالیپتوس 200 گرم",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Olive and Lavender Soap Bar 110 g",
+"kind": "list",
+"max": 30,
+"mt": "صابون زیتون و اسطوخودوس 110 گرم",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Price is too low for the fee",
+"kind": "list",
+"max": 30,
+"mt": "قیمت برای کارمزد خیلی پایین است",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Load matches your standard",
+"kind": "list",
+"max": 30,
+"mt": "بار با استاندارد شما مطابقت دارد",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Load differs from your standard",
+"kind": "list",
+"max": 30,
+"mt": "بار با استاندارد شما متفاوت است",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Set price covers the cost",
+"kind": "list",
+"max": 30,
+"mt": "قیمت تعیین شده هزینه را پوشش می دهد",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Absorb 4.5 shipping",
+"kind": "label",
+"max": null,
+"mt": "Absorb 4.5 حمل و نقل",
+"why": "English/Latin words left: Absorb"
+},
+{
+"en": "Supplier: can you match the quote",
+"kind": "label",
+"max": null,
+"mt": "تامین کننده: آیا می توانید قیمت را مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, can you match another quote for {material}? Our last cost was {new_cost}. Thank you.",
+"kind": "message",
+"max": null,
+"mt": "سلام، آیا می توانید نقل قول دیگری را برای {material} مطابقت دهید؟ آخرین هزینه ما {new_cost} بود. متشکرم.",
+"why": "never use the word for \"compatible\""
+}
+]
