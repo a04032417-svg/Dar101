@@ -1,0 +1,58 @@
+[
+{
+"en": "Skipped or cancelled visits",
+"kind": "label",
+"max": 30,
+"mt": "دوروں کو چھوڑ دیا گیا یا منسوخ کر دیا گیا۔",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Crew hours, pay, overtime, capacity and hiring for cleaning businesses",
+"kind": "sentence",
+"max": 80,
+"mt": "عملے کے اوقات، تنخواہ، اوور ٹائم، صلاحیت اور کاروبار کی صفائی کے لیے خدمات حاصل کرنا",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "Hire cost is covered fast",
+"kind": "list",
+"max": 30,
+"mt": "کرایہ کی لاگت تیزی سے احاطہ کرتا ہے۔",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Hire cost is slow to cover",
+"kind": "list",
+"max": 30,
+"mt": "کرایہ کی لاگت کو پورا کرنے میں سست ہے۔",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Pay cost, labour cost, bonus and overtime by month",
+"kind": "title",
+"max": 60,
+"mt": "مہینہ کے حساب سے لاگت، مزدوری کی قیمت، بونس اور اوور ٹائم ادا کریں۔",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What overtime costs against an extra part-timer",
+"kind": "title",
+"max": 60,
+"mt": "ایک اضافی پارٹ ٹائمر کے مقابلے میں اوور ٹائم کی قیمت کتنی ہے۔",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Labour hours a week that cover your fixed costs",
+"kind": "title",
+"max": 60,
+"mt": "ہفتے میں مزدوری کے اوقات جو آپ کے مقررہ اخراجات کو پورا کرتے ہیں۔",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "{col:crewcost.crew}, month of {col:crewcost.month}: {col:crewcost.hours} labour hours on {col:crewcost.jobs} jobs, labour cost {col:crewcost.labour_cost} against revenue {col:crewcost.revenue}.",
+"kind": "document",
+"max": null,
+"mt": "{col:crewcost.crew}، {col:crewcost.month} کا مہینہ: {col:crewcost.jobs} ملازمتوں پر {col:crewcost.hours} مزدوری کے اوقات، محصول کے مقابلے میں مزدوری کی قیمت {col:crewcost.revenue}۔",
+"why": "placeholders must be exactly: {col:crewcost.crew} {col:crewcost.month} {col:crewcost.hours} {col:crewcost.jobs} {col:crewcost.labour_cost} {col:crewcost.revenue}"
+}
+]
