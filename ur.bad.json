@@ -1,0 +1,100 @@
+[
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "ایک ورک بک میں پوائنٹس، لاٹس، سپلائر آرڈرز اور اسٹاک کی گنتی کو دوبارہ ترتیب دیں۔",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Reorder points, lots, supplier orders and counts for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "موم بتی اور صابن بنانے والوں کے لیے پوائنٹس، لاٹ، سپلائر آرڈرز اور شمار کو دوبارہ ترتیب دیں۔",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "Reorder point from use and lead days",
+"kind": "label",
+"max": 50,
+"mt": "استعمال اور لیڈ دنوں سے پوائنٹ کو دوبارہ ترتیب دیں۔",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر ڈیلیوری کا لاٹ نمبر، استعمال کے لحاظ سے تاریخ اور قدر باقی ہے، اور سب سے پرانی لاٹ کو پہلے درجہ دیا جاتا ہے لہذا اسے پہلے کھولا جاتا ہے اور بہت زیادہ استعمال شدہ آرڈر سے باہر سرخ رنگ میں ظاہر ہوتا ہے۔",
+"why": "too long: 203 characters, the limit is 160"
+},
+{
+"en": "24 products with units on hand, curing and reserved, the days of cover and a flag, so the shop hides what runs out and a batch is planned in time",
+"kind": "sentence",
+"max": 160,
+"mt": "24 پروڈکٹس جن میں یونٹ ہاتھ پر ہیں، کیورنگ اور ریزرو، کور کے دن اور ایک جھنڈا، اس لیے دکان چھپا دیتی ہے جو ختم ہو جاتا ہے اور وقت پر ایک بیچ کی منصوبہ بندی کی جاتی ہے۔",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Past use-by date",
+"kind": "list",
+"max": 30,
+"mt": "ماضی کے استعمال کے لحاظ سے تاریخ",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Waiting for supplier",
+"kind": "list",
+"max": 30,
+"mt": "فراہم کنندہ کا انتظار کر رہے ہیں۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "No use-by date",
+"kind": "list",
+"max": 30,
+"mt": "تاریخ کے لحاظ سے کوئی استعمال نہیں۔",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Pack size sets the quantity",
+"kind": "list",
+"max": 30,
+"mt": "پیک سائز مقدار کا تعین کرتا ہے۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Order size is near the best",
+"kind": "list",
+"max": 30,
+"mt": "آرڈر کا سائز بہترین کے قریب ہے۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "آرڈر کا سائز بہترین سے بہت دور ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Lots with use-by dates and first in first out order",
+"kind": "title",
+"max": 60,
+"mt": "استعمال کے لحاظ سے تاریخوں کے ساتھ اور پہلے فرسٹ آؤٹ آرڈر میں",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier price comparison by landed cost per kg",
+"kind": "title",
+"max": 60,
+"mt": "فراہم کنندہ کی قیمت کا موازنہ زمینی قیمت فی کلوگرام کے حساب سے",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: demand against lead days",
+"kind": "title",
+"max": 60,
+"mt": "What-if گرڈ: لیڈ دنوں کے خلاف مطالبہ",
+"why": "English/Latin words left: What if"
+}
+]

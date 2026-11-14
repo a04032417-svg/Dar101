@@ -1,0 +1,121 @@
+[
+{
+"en": "Maker workload summary for one maker and week",
+"kind": "title",
+"max": 60,
+"mt": "Сводка по Рабочая нагрузка создателя для одного производителя за неделю",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Recheck or fail",
+"kind": "label",
+"max": 30,
+"mt": "Перепроверь или потерпи неудачу",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Точки повторного заказа, партии, заказы поставщиков и инвентаризация в одной книге.",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "Reorder points, lots, supplier orders and counts for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Точки повторного заказа, лоты, заказы поставщиков и количество товаров для производителей свечей и мыла.",
+"why": "too long: 104 characters, the limit is 80"
+},
+{
+"en": "Reorder point from use and lead days",
+"kind": "label",
+"max": 50,
+"mt": "Точка повторного заказа по дням использования и выполнения заказа",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "the stock level at which you order again, from the average use a day, the lead days and your safety days, so orders go out before the shelf is empty",
+"kind": "sentence",
+"max": 160,
+"mt": "уровень запасов, при котором вы заказываете снова, от среднего использования в день, дней подготовки и дней безопасности, поэтому заказы отправляются до того, как полка опустеет",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Lot register with first in first out",
+"kind": "label",
+"max": 50,
+"mt": "Регистрация лотов по принципу «первым пришел — первым ушел»",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "каждая поставка имеет номер партии, срок годности и оставшуюся стоимость, а самая старая партия занимает первое место, поэтому она открывается первой, а партия, использованная не по порядку, отображается красным цветом",
+"why": "too long: 218 characters, the limit is 160"
+},
+{
+"en": "Supplier order tracker with late flags",
+"kind": "label",
+"max": 50,
+"mt": "Отслеживание заказов поставщика с флажками просрочки",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "every spill, expired lot and failed batch with its reason and value, so you see what waste costs by month and by reason",
+"kind": "sentence",
+"max": 160,
+"mt": "каждая утечка, партия с истекшим сроком годности и неудачная партия с указанием причины и стоимости, чтобы вы могли видеть, сколько стоят отходы по месяцам и по причинам.",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "24 products with units on hand, curing and reserved, the days of cover and a flag, so the shop hides what runs out and a batch is planned in time",
+"kind": "sentence",
+"max": 160,
+"mt": "24 продукта с единицами в наличии, отверждением и резервированием, днями покрытия и флажком, чтобы магазин скрывал, что заканчивается, и партия планировалась вовремя",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "each delivery checked at the door with the quantity ordered and received and its condition, so a short or damaged delivery is reported the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "каждая поставка проверяется у двери с указанием заказанного и полученного количества и ее состояния, поэтому о недостающей или поврежденной поставке сообщается в тот же день",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Pack size sets the quantity",
+"kind": "list",
+"max": 30,
+"mt": "Размер упаковки определяет количество",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Variance outside tolerance",
+"kind": "list",
+"max": 30,
+"mt": "Отклонение за пределами допуска",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Materials with cost, unit, supplier and lead time",
+"kind": "title",
+"max": 60,
+"mt": "Материалы со стоимостью, единицей измерения, поставщиком и временем выполнения",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Lot record sheet with the first in first out order",
+"kind": "title",
+"max": 60,
+"mt": "Лист регистрации партии с указанием порядка поступления в порядке очереди",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "What-if grid: demand against lead days",
+"kind": "title",
+"max": 60,
+"mt": "Сетка «что если»: спрос в зависимости от дней выполнения заказа",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

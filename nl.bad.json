@@ -1,0 +1,121 @@
+[
+{
+"en": "Recheck or fail",
+"kind": "label",
+"max": 30,
+"mt": "Opnieuw controleren of mislukken",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Punten, partijen, leveranciersbestellingen en voorraadtellingen opnieuw ordenen in één werkboek",
+"why": "too long: 95 characters, the limit is 80"
+},
+{
+"en": "Reorder points, lots, supplier orders and counts for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Herbestelpunten, partijen, leveranciersbestellingen en tellingen voor kaarsen- en zeepmakers",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "Reorder point from use and lead days",
+"kind": "label",
+"max": 50,
+"mt": "Bestelpunt vanaf gebruiks- en leaddagen opnieuw bestellen",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "the stock level at which you order again, from the average use a day, the lead days and your safety days, so orders go out before the shelf is empty",
+"kind": "sentence",
+"max": 160,
+"mt": "het voorraadniveau waarop je weer bestelt, van het gemiddelde gebruik per dag, de leaddagen en je veiligheidsdagen, zodat bestellingen de deur uit gaan voordat het schap leeg is",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "bij elke levering staat het lotnummer, de uiterste gebruiksdatum en de waarde ervan, en het oudste lot staat op de eerste plaats, dus het wordt als eerste geopend en een partij die buiten gebruik is, wordt in het rood weergegeven",
+"why": "too long: 229 characters, the limit is 160"
+},
+{
+"en": "every order shows the expected date, the days late of an open order, the lead time and the date to pay, so a late order is chased the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "bij elke bestelling staat de verwachte datum, de dagen te laat van een openstaande bestelling, de doorlooptijd en de datum van betaling, een late bestelling wordt dus dezelfde dag achtervolgd",
+"why": "too long: 191 characters, the limit is 160"
+},
+{
+"en": "orders, share on time, issues and days to arrive of each supplier become one score from 0 to 100 against your target for the quarterly review",
+"kind": "sentence",
+"max": 160,
+"mt": "bestellingen, deel op tijd, problemen en dagen tot aankomst van elke leverancier worden één score van 0 tot 100 ten opzichte van uw doelstelling voor de driemaandelijkse beoordeling",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "24 products with units on hand, curing and reserved, the days of cover and a flag, so the shop hides what runs out and a batch is planned in time",
+"kind": "sentence",
+"max": 160,
+"mt": "24 producten met eenheden bij de hand, uithardend en gereserveerd, de dekkingsdagen en een vlag, zodat de winkel verbergt wat opraakt en een batch op tijd wordt gepland",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "each delivery checked at the door with the quantity ordered and received and its condition, so a short or damaged delivery is reported the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "bij elke levering wordt aan de deur gecontroleerd wat de bestelde en ontvangen hoeveelheid is en in welke staat deze verkeert, zodat een tekortschietende of beschadigde levering dezelfde dag nog wordt gemeld",
+"why": "too long: 207 characters, the limit is 160"
+},
+{
+"en": "Minimum order applies",
+"kind": "list",
+"max": 30,
+"mt": "Er geldt een minimale bestelling",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pack size sets the quantity",
+"kind": "list",
+"max": 30,
+"mt": "De verpakkingsgrootte bepaalt de hoeveelheid",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Use-by date has passed",
+"kind": "list",
+"max": 30,
+"mt": "De houdbaarheidsdatum is verstreken",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Near the use-by date",
+"kind": "list",
+"max": 30,
+"mt": "Bijna de uiterste gebruiksdatum",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Order size is near the best",
+"kind": "list",
+"max": 30,
+"mt": "De ordergrootte is bijna de beste",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "De ordergrootte is verre van de beste",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Supplier price comparison by landed cost per kg",
+"kind": "title",
+"max": 60,
+"mt": "Vergelijking van leveranciersprijzen op basis van aangevoerde kosten per kg",
+"why": "too long: 75 characters, the limit is 60"
+}
+]

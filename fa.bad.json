@@ -1,0 +1,86 @@
+[
+{
+"en": "Open Start and type your company name and your own numbers in the yellow cells: weight tolerance, yield target, most hours for one maker in a day, service warning days and the share of a batch you test.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و اعداد خود را در سلول‌های زرد تایپ کنید: تحمل وزن، هدف بازده، بیشتر ساعت‌ها برای یک سازنده در روز، روزهای هشدار خدمات و سهم دسته‌ای که آزمایش می‌کنید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Record every batch on Batches (a batch is one production run with its own batch number): the units made, the issue, the quality result, the cure days and the lots. Yield, days to ready and waste cost fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "هر دسته را در Batch ثبت کنید (یک دسته یک دوره تولید با شماره دسته خاص خود است): واحدهای ساخته شده، موضوع، نتیجه کیفیت، روزهای درمان و تعداد زیادی. بازده، روزهای آماده شدن و هزینه ضایعات را پر کنید.",
+"why": "English/Latin words left: Batch"
+},
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "امتیازها، لات ها، سفارش های تامین کننده و تعداد سهام را در یک کتاب کار دوباره سفارش دهید",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "Reorder points, lots, supplier orders and counts for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "امتیازها، لات ها، سفارش های تامین کننده و شمارش برای سازندگان شمع و صابون را دوباره سفارش دهید",
+"why": "too long: 94 characters, the limit is 80"
+},
+{
+"en": "Lot register with first in first out",
+"kind": "label",
+"max": 50,
+"mt": "Lot با اولین ورود اولین خروج ثبت نام کنید",
+"why": "English/Latin words left: Lot"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "هر تحویل دارای شماره لات، تاریخ استفاده و ارزش باقی مانده است، و قدیمی ترین لات در رتبه اول قرار می گیرد، بنابراین اول باز می شود و تعداد زیادی از موارد استفاده نشده با رنگ قرمز نشان داده می شود.",
+"why": "too long: 195 characters, the limit is 160"
+},
+{
+"en": "Pack size sets the quantity",
+"kind": "list",
+"max": 30,
+"mt": "اندازه بسته مقدار را تعیین می کند",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Use more than one lot",
+"kind": "list",
+"max": 30,
+"mt": "از بیش از یک مقدار استفاده کنید",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Order size is near the best",
+"kind": "list",
+"max": 30,
+"mt": "اندازه سفارش نزدیک به بهترین است",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "اندازه سفارش با بهترین اندازه فاصله دارد",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Supplier: the invoice does not match",
+"kind": "label",
+"max": null,
+"mt": "تامین کننده: فاکتور مطابقت ندارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, the invoice for order {order_no} ({item}) does not match what we ordered: {qty} {unit} at {unit_cost} each. Please send a corrected invoice.",
+"kind": "message",
+"max": null,
+"mt": "سلام، فاکتور سفارش {order_no} ({item}) با آنچه ما سفارش دادیم مطابقت ندارد: {qty} {unit} در هر {unit_cost}. لطفا فاکتور اصلاح شده ارسال کنید",
+"why": "never use the word for \"compatible\""
+}
+]

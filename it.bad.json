@@ -1,0 +1,163 @@
+[
+{
+"en": "Label check print (check your own local rules)",
+"kind": "title",
+"max": 60,
+"mt": "Stampa di controllo dell'etichetta (controlla le tue regole locali)",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Maker workload summary for one maker and week",
+"kind": "title",
+"max": 60,
+"mt": "Riepilogo Carico di lavoro del creatore per un produttore e settimana",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Punti di riordino, lotti, ordini dei fornitori e conteggi delle scorte in un'unica cartella di lavoro",
+"why": "too long: 101 characters, the limit is 80"
+},
+{
+"en": "Reorder points, lots, supplier orders and counts for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Punti di riordino, lotti, ordini fornitori e conteggi per produttori di candele e saponi",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "Reorder point from use and lead days",
+"kind": "label",
+"max": 50,
+"mt": "Punto di riordino dall'utilizzo e dai giorni di consegna",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "the stock level at which you order again, from the average use a day, the lead days and your safety days, so orders go out before the shelf is empty",
+"kind": "sentence",
+"max": 160,
+"mt": "il livello delle scorte al quale ordini di nuovo, dall'utilizzo medio giornaliero, dai giorni di lead e dai giorni di sicurezza, in modo che gli ordini vengano spediti prima che lo scaffale sia vuoto",
+"why": "too long: 199 characters, the limit is 160"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni consegna ha il suo numero di lotto, la data di scadenza e il valore rimasto, e il lotto più vecchio viene classificato per primo, quindi viene aperto per primo e il lotto utilizzato fuori ordine viene visualizzato in rosso",
+"why": "too long: 227 characters, the limit is 160"
+},
+{
+"en": "every order shows the expected date, the days late of an open order, the lead time and the date to pay, so a late order is chased the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni ordine mostra la data prevista, i giorni di ritardo di un ordine aperto, il tempo di consegna e la data da pagare, quindi un ordine in ritardo viene eseguito lo stesso giorno",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "orders, share on time, issues and days to arrive of each supplier become one score from 0 to 100 against your target for the quarterly review",
+"kind": "sentence",
+"max": 160,
+"mt": "ordini, condivisione di tempi, problemi e giorni di arrivo di ciascun fornitore diventano un punteggio da 0 a 100 rispetto al tuo obiettivo per la revisione trimestrale",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "the system quantity against the quantity counted, the gap in money and a tolerance check, so a gap is a number and not a feeling",
+"kind": "sentence",
+"max": 160,
+"mt": "la quantità del sistema rispetto alla quantità conteggiata, il divario monetario e un controllo di tolleranza, quindi il divario è un numero e non una sensazione",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "24 products with units on hand, curing and reserved, the days of cover and a flag, so the shop hides what runs out and a batch is planned in time",
+"kind": "sentence",
+"max": 160,
+"mt": "24 prodotti con unità a disposizione, stagionate e riservate, i giorni di copertura e una bandierina, così il negozio nasconde ciò che finisce e un lotto viene pianificato per tempo",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "jars, tins, boxes, labels and tape with days of cover and the next delivery date, so the packer is never stopped by a missing box",
+"kind": "sentence",
+"max": 160,
+"mt": "barattoli, lattine, scatole, etichette e nastri con i giorni di copertura e la successiva data di consegna, così l'imballatore non viene mai fermato dalla mancanza di una scatola",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "each delivery checked at the door with the quantity ordered and received and its condition, so a short or damaged delivery is reported the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni consegna viene controllata all'ingresso con la quantità ordinata e ricevuta e il suo stato, quindi una consegna insufficiente o danneggiata viene segnalata lo stesso giorno",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Pack size sets the quantity",
+"kind": "list",
+"max": 30,
+"mt": "La dimensione della confezione imposta la quantità",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Use-by date has passed",
+"kind": "list",
+"max": 30,
+"mt": "La data di scadenza è trascorsa",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Enough shelf life",
+"kind": "list",
+"max": 30,
+"mt": "Durata di conservazione sufficiente",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Order size is near the best",
+"kind": "list",
+"max": 30,
+"mt": "La dimensione dell'ordine è quasi la migliore",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "La dimensione dell'ordine è lungi dall'essere la migliore",
+"why": "too long: 57 characters, the limit is 30"
+},
+{
+"en": "Supplier is often late",
+"kind": "list",
+"max": 30,
+"mt": "Il fornitore è spesso in ritardo",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Material stock with days of cover and the reorder point",
+"kind": "title",
+"max": 60,
+"mt": "Scorta di materiale con giorni di copertura e punto di riordino",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Lot record sheet with the first in first out order",
+"kind": "title",
+"max": 60,
+"mt": "Scheda di registrazione del lotto con il primo in ordine di uscita",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Order quantity by pack size",
+"kind": "title",
+"max": 60,
+"mt": "Ordinare la quantità in base alla dimensione della confezione",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier price comparison by landed cost per kg",
+"kind": "title",
+"max": 60,
+"mt": "Confronto dei prezzi dei fornitori in base al costo allo sbarco per kg",
+"why": "too long: 70 characters, the limit is 60"
+}
+]

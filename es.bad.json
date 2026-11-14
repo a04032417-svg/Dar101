@@ -1,0 +1,163 @@
+[
+{
+"en": "Label check print (check your own local rules)",
+"kind": "title",
+"max": 60,
+"mt": "Impresión de verificación de etiquetas (consulte sus propias reglas locales)",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Maker workload summary for one maker and week",
+"kind": "title",
+"max": 60,
+"mt": "Carga de trabajo del creador resumen para un fabricante y una semana",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Puntos de reorden, lotes, pedidos de proveedores y recuentos de existencias en un solo libro de trabajo",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "Reorder points, lots, supplier orders and counts for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Puntos de reorden, lotes, pedidos de proveedores y conteos para fabricantes de velas y jabón.",
+"why": "too long: 93 characters, the limit is 80"
+},
+{
+"en": "the stock level at which you order again, from the average use a day, the lead days and your safety days, so orders go out before the shelf is empty",
+"kind": "sentence",
+"max": 160,
+"mt": "el nivel de stock en el que vuelves a realizar el pedido, desde el uso promedio por día, los días de entrega y tus días de seguridad, para que los pedidos salgan antes de que se vacíe el estante",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "Lot register with first in first out",
+"kind": "label",
+"max": 50,
+"mt": "Registro de lotes con primero en entrar, primero en salir",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "cada entrega tiene su número de lote, fecha de caducidad y valor restante, y el lote más antiguo ocupa el primer lugar, por lo que se abre primero y un lote usado fuera de pedido se muestra en rojo.",
+"why": "too long: 198 characters, the limit is 160"
+},
+{
+"en": "Supplier order tracker with late flags",
+"kind": "label",
+"max": 50,
+"mt": "Rastreador de pedidos de proveedores con indicadores de retraso",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "every order shows the expected date, the days late of an open order, the lead time and the date to pay, so a late order is chased the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "cada pedido muestra la fecha esperada, los días de retraso de un pedido abierto, el tiempo de entrega y la fecha de pago, por lo que un pedido atrasado se procesa el mismo día",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "orders, share on time, issues and days to arrive of each supplier become one score from 0 to 100 against your target for the quarterly review",
+"kind": "sentence",
+"max": 160,
+"mt": "Los pedidos, el tiempo compartido, los problemas y los días de llegada de cada proveedor se convierten en una puntuación de 0 a 100 frente a su objetivo para la revisión trimestral.",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "24 products with units on hand, curing and reserved, the days of cover and a flag, so the shop hides what runs out and a batch is planned in time",
+"kind": "sentence",
+"max": 160,
+"mt": "24 productos con unidades disponibles, curado y reservado, los días de cobertura y una bandera, para que la tienda oculte lo que se acaba y se planifique un lote con tiempo",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "jars, tins, boxes, labels and tape with days of cover and the next delivery date, so the packer is never stopped by a missing box",
+"kind": "sentence",
+"max": 160,
+"mt": "frascos, latas, cajas, etiquetas y cintas con los días de cobertura y la próxima fecha de entrega, para que el empaquetador nunca se detenga por una caja faltante.",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Pack size sets the quantity",
+"kind": "list",
+"max": 30,
+"mt": "El tamaño del paquete establece la cantidad",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Variance within tolerance",
+"kind": "list",
+"max": 30,
+"mt": "Variación dentro de la tolerancia",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Use-by date has passed",
+"kind": "list",
+"max": 30,
+"mt": "La fecha de caducidad ha pasado",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Order size is near the best",
+"kind": "list",
+"max": 30,
+"mt": "El tamaño del pedido está cerca del mejor",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "El tamaño del pedido está lejos de ser el mejor",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Supplier is often late",
+"kind": "list",
+"max": 30,
+"mt": "El proveedor suele llegar tarde",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Material stock with days of cover and the reorder point",
+"kind": "title",
+"max": 60,
+"mt": "existencias de materiales con días de cobertura y el punto de reorden",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Lots with use-by dates and first in first out order",
+"kind": "title",
+"max": 60,
+"mt": "Lotes con fechas de caducidad y orden de primero en entrar, primero en salir",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Lot record sheet with the first in first out order",
+"kind": "title",
+"max": 60,
+"mt": "Hoja de registro de lote con orden de primero en entrar, primero en salir",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Supplier quote sheet with the cost per 100 grams",
+"kind": "title",
+"max": 60,
+"mt": "Hoja de cotización del proveedor con el coste por 100 gramos.",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier price comparison by landed cost per kg",
+"kind": "title",
+"max": 60,
+"mt": "Comparación de precios de proveedores por costo en destino por kg",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

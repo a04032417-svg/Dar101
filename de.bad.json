@@ -1,0 +1,198 @@
+[
+{
+"en": "Label check print (check your own local rules)",
+"kind": "title",
+"max": 60,
+"mt": "Etiketten-Check-Druck (überprüfen Sie Ihre eigenen lokalen Regeln)",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Maker workload summary for one maker and week",
+"kind": "title",
+"max": 60,
+"mt": "Arbeitsbelastung des Herstellers Zusammenfassung für einen Hersteller und eine Woche",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Nachbestellpunkte, Chargen, Lieferantenbestellungen und Lagerbestände in einer Arbeitsmappe",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "Reorder points, lots, supplier orders and counts for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Nachbestellpunkte, Chargen, Lieferantenbestellungen und Zählungen für Kerzen- und Seifenhersteller",
+"why": "too long: 98 characters, the limit is 80"
+},
+{
+"en": "the stock level at which you order again, from the average use a day, the lead days and your safety days, so orders go out before the shelf is empty",
+"kind": "sentence",
+"max": 160,
+"mt": "den Lagerbestand, bei dem Sie erneut bestellen, vom durchschnittlichen Verbrauch pro Tag, den Vorlaufzeiten und Ihren Sicherheitstagen, damit Bestellungen ausgehen, bevor das Regal leer ist",
+"why": "too long: 189 characters, the limit is 160"
+},
+{
+"en": "34 materials with the stock on hand, the days it lasts, the date it runs out and a suggested order rounded to the pack size",
+"kind": "sentence",
+"max": 160,
+"mt": "34 Materialien mit dem verfügbaren Vorrat, den Tagen, an denen er reicht, dem Datum, an dem er aufgebraucht ist, und einem auf die Packungsgröße gerundeten Bestellvorschlag",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "Lot register with first in first out",
+"kind": "label",
+"max": 50,
+"mt": "Losregistrierung nach dem Prinzip „First In First Out“.",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jede Lieferung sind die Chargennummer, das Verfallsdatum und der Restwert angegeben. Die älteste Charge steht an erster Stelle, sodass sie zuerst geöffnet wird und eine nicht ordnungsgemäß verwendete Charge in Rot angezeigt wird",
+"why": "too long: 232 characters, the limit is 160"
+},
+{
+"en": "Supplier order tracker with late flags",
+"kind": "label",
+"max": 50,
+"mt": "Lieferanten-Auftragsverfolgung mit Verspätungsmarkierungen",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "every order shows the expected date, the days late of an open order, the lead time and the date to pay, so a late order is chased the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "Bei jeder Bestellung werden das erwartete Datum, die Verspätungstage einer offenen Bestellung, die Vorlaufzeit und das Zahlungsdatum angezeigt, sodass eine verspätete Bestellung noch am selben Tag bearbeitet wird",
+"why": "too long: 212 characters, the limit is 160"
+},
+{
+"en": "orders, share on time, issues and days to arrive of each supplier become one score from 0 to 100 against your target for the quarterly review",
+"kind": "sentence",
+"max": 160,
+"mt": "Bestellungen, Pünktlichkeit, Probleme und Tage bis zum Eintreffen jedes Lieferanten ergeben eine Punktzahl von 0 bis 100 im Vergleich zu Ihrem Ziel für die vierteljährliche Überprüfung",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "every spill, expired lot and failed batch with its reason and value, so you see what waste costs by month and by reason",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Verschüttung, jede abgelaufene Charge und jede fehlerhafte Charge mit Angabe von Grund und Wert, sodass Sie sehen können, welche Abfallkosten pro Monat und Grund anfallen",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "24 products with units on hand, curing and reserved, the days of cover and a flag, so the shop hides what runs out and a batch is planned in time",
+"kind": "sentence",
+"max": 160,
+"mt": "24 Produkte mit vorrätigen, ausgehärteten und reservierten Einheiten, den Deckungstagen und einer Flagge, damit der Shop verbirgt, was ausgeht, und eine Charge rechtzeitig geplant wird",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "jars, tins, boxes, labels and tape with days of cover and the next delivery date, so the packer is never stopped by a missing box",
+"kind": "sentence",
+"max": 160,
+"mt": "Gläser, Dosen, Kartons, Etiketten und Klebeband mit Haltbarkeitsdatum und dem nächsten Liefertermin, sodass der Verpacker nie durch einen fehlenden Karton aufgehalten wird",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "each change in what a supplier charges with the percent, the direction and the month, so a rising cost reaches your prices early",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Änderung der von einem Lieferanten berechneten Prozentsätze, Richtungen und Monate führt dazu, dass sich steigende Kosten frühzeitig auf Ihre Preise auswirken",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "each delivery checked at the door with the quantity ordered and received and its condition, so a short or damaged delivery is reported the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Lieferung wird an der Tür anhand der bestellten und erhaltenen Menge und ihres Zustands überprüft, sodass eine fehlerhafte oder fehlerhafte Lieferung noch am selben Tag gemeldet wird",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "Minimum order applies",
+"kind": "list",
+"max": 30,
+"mt": "Es gilt eine Mindestbestellmenge",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pack size sets the quantity",
+"kind": "list",
+"max": 30,
+"mt": "Die Packungsgröße bestimmt die Menge",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Stock covers the batches",
+"kind": "list",
+"max": 30,
+"mt": "Der Vorrat deckt die Chargen ab",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Use more than one lot",
+"kind": "list",
+"max": 30,
+"mt": "Verwenden Sie mehr als eine Charge",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Variance within tolerance",
+"kind": "list",
+"max": 30,
+"mt": "Abweichung innerhalb der Toleranz",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Variance outside tolerance",
+"kind": "list",
+"max": 30,
+"mt": "Abweichung außerhalb der Toleranz",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Use-by date has passed",
+"kind": "list",
+"max": 30,
+"mt": "Das Verfallsdatum ist abgelaufen",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Order size is near the best",
+"kind": "list",
+"max": 30,
+"mt": "Die Bestellgröße ist nahezu optimal",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "Die Bestellgröße ist bei weitem nicht die beste",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Supplier is often late",
+"kind": "list",
+"max": 30,
+"mt": "Der Lieferant kommt oft zu spät",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Lots with use-by dates and first in first out order",
+"kind": "title",
+"max": 60,
+"mt": "Lose mit Mindesthaltbarkeitsdatum und First-In-First-Out-Reihenfolge",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "What-if grid: demand against lead days",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Nachfrage im Vergleich zu Durchlaufzeiten",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

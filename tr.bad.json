@@ -1,0 +1,114 @@
+[
+{
+"en": "Label check print (check your own local rules)",
+"kind": "title",
+"max": 60,
+"mt": "Etiket kontrolü baskısı (kendi yerel kurallarınızı kontrol edin)",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Recheck or fail",
+"kind": "label",
+"max": 30,
+"mt": "Yeniden kontrol edin veya başarısız olun",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Noktaları, partileri, tedarikçi siparişlerini ve stok sayımlarını tek bir çalışma kitabında yeniden sıralama",
+"why": "too long: 108 characters, the limit is 80"
+},
+{
+"en": "Reorder points, lots, supplier orders and counts for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Mum ve sabun üreticileri için yeniden sipariş noktaları, partiler, tedarikçi siparişleri ve sayımlar",
+"why": "too long: 100 characters, the limit is 80"
+},
+{
+"en": "Reorder point from use and lead days",
+"kind": "label",
+"max": 50,
+"mt": "Kullanımdan ve teslim günlerinden itibaren yeniden sipariş verme noktası",
+"why": "too long: 72 characters, the limit is 50"
+},
+{
+"en": "the stock level at which you order again, from the average use a day, the lead days and your safety days, so orders go out before the shelf is empty",
+"kind": "sentence",
+"max": 160,
+"mt": "Günlük ortalama kullanımdan, teslim günlerinden ve güvenlik günlerinden tekrar sipariş verdiğiniz stok seviyesi, böylece siparişler raf boşalmadan önce gönderilir",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "her teslimatın kendi parti numarası, son kullanma tarihi ve değeri kalır ve en eski parti ilk sırada yer alır, böylece ilk önce açılır ve kullanım dışı kullanılan çoğu parti kırmızı renkte gösterilir",
+"why": "too long: 199 characters, the limit is 160"
+},
+{
+"en": "every spill, expired lot and failed batch with its reason and value, so you see what waste costs by month and by reason",
+"kind": "sentence",
+"max": 160,
+"mt": "her dökülme, son kullanma tarihi geçmiş parti ve başarısız partinin nedeni ve değeri ile birlikte, böylece atıkların aylara ve nedenlere göre ne kadara mal olduğunu görebilirsiniz",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "jars, tins, boxes, labels and tape with days of cover and the next delivery date, so the packer is never stopped by a missing box",
+"kind": "sentence",
+"max": 160,
+"mt": "kavanozlar, teneke kutular, kutular, etiketler ve bantlar, kapak günlerini ve bir sonraki teslimat tarihini gösterir, böylece paketleyici eksik bir kutu nedeniyle asla durdurulmaz",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "Sipariş boyutu en iyisinden uzak",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Materials with cost, unit, supplier and lead time",
+"kind": "title",
+"max": 60,
+"mt": "Maliyeti, birimi, tedarikçisi ve teslim süresi olan malzemeler",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Material stock with days of cover and the reorder point",
+"kind": "title",
+"max": 60,
+"mt": "Kapsama günleri ve yeniden sipariş noktasıyla birlikte Malzeme stoğu",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Lots with use-by dates and first in first out order",
+"kind": "title",
+"max": 60,
+"mt": "Son kullanma tarihi ve ilk giren ilk çıkar sırasını içeren lotlar",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Suppliers with contact, lead days and terms",
+"kind": "title",
+"max": 60,
+"mt": "İletişim bilgileri, teslim günleri ve şartları olan tedarikçiler",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Lead times promised and actual by supplier",
+"kind": "title",
+"max": 60,
+"mt": "Teslimat süreleri tedarikçi tarafından vaat edilen ve gerçekleşen",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Supplier price comparison by landed cost per kg",
+"kind": "title",
+"max": 60,
+"mt": "Kg başına iniş maliyetine göre tedarikçi fiyat karşılaştırması",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

@@ -1,0 +1,149 @@
+[
+{
+"en": "Label check print (check your own local rules)",
+"kind": "title",
+"max": 60,
+"mt": "Impressão de verificação de etiqueta (verifique suas próprias regras locais)",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Pontos de reabastecimento, lotes, pedidos de fornecedores e contagens de estoque em uma pasta de trabalho",
+"why": "too long: 105 characters, the limit is 80"
+},
+{
+"en": "Reorder points, lots, supplier orders and counts for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Pontos de reabastecimento, lotes, pedidos de fornecedores e contagens para fabricantes de velas e sabonetes",
+"why": "too long: 107 characters, the limit is 80"
+},
+{
+"en": "Reorder point from use and lead days",
+"kind": "label",
+"max": 50,
+"mt": "Ponto de reabastecimento a partir do uso e dias de entrega",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "the stock level at which you order again, from the average use a day, the lead days and your safety days, so orders go out before the shelf is empty",
+"kind": "sentence",
+"max": 160,
+"mt": "o nível de estoque no qual você faz o pedido novamente, desde o uso médio por dia, os dias de entrega e os dias de segurança, para que os pedidos saiam antes que a prateleira esteja vazia",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "Lot register with first in first out",
+"kind": "label",
+"max": 50,
+"mt": "Registro de lote com primeiro a entrar, primeiro a sair",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "cada entrega tem seu número de lote, data de validade e valor restante, e o lote mais antigo é classificado em primeiro lugar, então é aberto primeiro e um lote usado fora de ordem aparece em vermelho",
+"why": "too long: 200 characters, the limit is 160"
+},
+{
+"en": "Supplier order tracker with late flags",
+"kind": "label",
+"max": 50,
+"mt": "Rastreador de pedidos de fornecedores com sinalizadores atrasados",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "every order shows the expected date, the days late of an open order, the lead time and the date to pay, so a late order is chased the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "cada pedido mostra a data prevista, os dias de atraso de um pedido aberto, o prazo de entrega e a data de pagamento, portanto, um pedido atrasado é processado no mesmo dia",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "orders, share on time, issues and days to arrive of each supplier become one score from 0 to 100 against your target for the quarterly review",
+"kind": "sentence",
+"max": 160,
+"mt": "pedidos, compartilhamento no prazo, problemas e dias de chegada de cada fornecedor tornam-se uma pontuação de 0 a 100 em relação à sua meta para a revisão trimestral",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "the system quantity against the quantity counted, the gap in money and a tolerance check, so a gap is a number and not a feeling",
+"kind": "sentence",
+"max": 160,
+"mt": "a quantidade do sistema em relação à quantidade contada, a diferença em dinheiro e uma verificação de tolerância, portanto, uma lacuna é um número e não um sentimento",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "24 products with units on hand, curing and reserved, the days of cover and a flag, so the shop hides what runs out and a batch is planned in time",
+"kind": "sentence",
+"max": 160,
+"mt": "24 produtos com unidades em mãos, curadas e reservadas, os dias de cobertura e uma bandeira, para que a loja esconda o que acaba e um lote seja planejado na hora",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Pack size sets the quantity",
+"kind": "list",
+"max": 30,
+"mt": "O tamanho da embalagem define a quantidade",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Order size is near the best",
+"kind": "list",
+"max": 30,
+"mt": "O tamanho do pedido está próximo do melhor",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "O tamanho do pedido está longe de ser o melhor",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Supplier is often late",
+"kind": "list",
+"max": 30,
+"mt": "Fornecedor muitas vezes se atrasa",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Material stock with days of cover and the reorder point",
+"kind": "title",
+"max": 60,
+"mt": "Estoque de materiais com dias de cobertura e ponto de novo pedido",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Lots with use-by dates and first in first out order",
+"kind": "title",
+"max": 60,
+"mt": "Lotes com datas de validade e primeiro a entrar, primeiro a sair",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Purchase orders to suppliers with late flags",
+"kind": "title",
+"max": 60,
+"mt": "Pedidos de compra para fornecedores com sinalizações atrasadas",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Lot record sheet with the first in first out order",
+"kind": "title",
+"max": 60,
+"mt": "Folha de registro do lote com a ordem do primeiro a entrar, primeiro a sair",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Supplier price comparison by landed cost per kg",
+"kind": "title",
+"max": 60,
+"mt": "Comparação de preços do fornecedor por custo no destino por kg",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

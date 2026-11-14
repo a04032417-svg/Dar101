@@ -1,0 +1,128 @@
+[
+{
+"en": "Label check print (check your own local rules)",
+"kind": "title",
+"max": 60,
+"mt": "Cetak periksa label (periksa peraturan setempat Anda sendiri)",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Titik pemesanan ulang, lot, pesanan pemasok, dan jumlah stok dalam satu buku kerja",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "Reorder point from use and lead days",
+"kind": "label",
+"max": 50,
+"mt": "Titik pemesanan ulang dari hari penggunaan dan hari tunggu",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap pengiriman memiliki nomor lot, tanggal penggunaan dan nilai yang tersisa, dan lot terlama diberi peringkat pertama sehingga dibuka terlebih dahulu dan banyak yang terpakai rusak ditampilkan dengan warna merah",
+"why": "too long: 215 characters, the limit is 160"
+},
+{
+"en": "every order shows the expected date, the days late of an open order, the lead time and the date to pay, so a late order is chased the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap pesanan menunjukkan tanggal yang diharapkan, hari keterlambatan pesanan dibuka, waktu tunggu dan tanggal pembayaran, sehingga pesanan yang terlambat dikejar pada hari yang sama",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "orders, share on time, issues and days to arrive of each supplier become one score from 0 to 100 against your target for the quarterly review",
+"kind": "sentence",
+"max": 160,
+"mt": "pesanan, pembagian tepat waktu, masalah, dan hari kedatangan masing-masing pemasok menjadi satu skor dari 0 hingga 100 terhadap target Anda untuk tinjauan triwulanan",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "24 products with units on hand, curing and reserved, the days of cover and a flag, so the shop hides what runs out and a batch is planned in time",
+"kind": "sentence",
+"max": 160,
+"mt": "24 produk dengan unit yang tersedia, proses pengawetan dan pemesanan, hari perlindungan dan bendera, sehingga toko menyembunyikan apa yang habis dan batch direncanakan tepat waktu",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "each delivery checked at the door with the quantity ordered and received and its condition, so a short or damaged delivery is reported the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap kiriman diperiksa di depan pintu dengan jumlah yang dipesan dan diterima serta kondisinya, sehingga kiriman yang pendek atau rusak dilaporkan pada hari yang sama",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Past use-by date",
+"kind": "list",
+"max": 30,
+"mt": "Tanggal penggunaan yang sudah lewat",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Pack size sets the quantity",
+"kind": "list",
+"max": 30,
+"mt": "Ukuran paket menentukan kuantitas",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Use-by date has passed",
+"kind": "list",
+"max": 30,
+"mt": "Tanggal penggunaan telah berlalu",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Order size is near the best",
+"kind": "list",
+"max": 30,
+"mt": "Ukuran pesanan mendekati yang terbaik",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "Ukuran pesanan jauh dari yang terbaik",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Material stock with days of cover and the reorder point",
+"kind": "title",
+"max": 60,
+"mt": "Stok bahan dengan hari pertanggungan dan titik pemesanan ulang",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Purchase spend and waste value by month",
+"kind": "title",
+"max": 60,
+"mt": "Pembelanjaan pembelian dan nilai pemborosan berdasarkan bulan",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Lot record sheet with the first in first out order",
+"kind": "title",
+"max": 60,
+"mt": "Lembar catatan lot dengan urutan pertama masuk pertama keluar",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplier price comparison by landed cost per kg",
+"kind": "title",
+"max": 60,
+"mt": "Perbandingan harga pemasok berdasarkan biaya pendaratan per kg",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: demand against lead days",
+"kind": "title",
+"max": 60,
+"mt": "Jaringan bagaimana-jika: permintaan terhadap hari-hari tunggu",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

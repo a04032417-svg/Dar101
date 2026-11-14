@@ -1,0 +1,72 @@
+[
+{
+"en": "Reorder points, lots, supplier orders and stock counts in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "एक कार्यपुस्तिका में अंक, लॉट, आपूर्तिकर्ता ऑर्डर और स्टॉक गणना को पुन: व्यवस्थित करें",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "Reorder points, lots, supplier orders and counts for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "मोमबत्ती और साबुन निर्माताओं के लिए अंक, लॉट, आपूर्तिकर्ता ऑर्डर और गिनती को पुन: व्यवस्थित करें",
+"why": "too long: 96 characters, the limit is 80"
+},
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक डिलीवरी की अपनी लॉट संख्या, उपयोग की तिथि और मूल्य शेष होता है, और सबसे पुराने लॉट को पहले स्थान पर रखा जाता है, इसलिए इसे पहले खोला जाता है और ऑर्डर से बाहर उपयोग किया गया लॉट लाल रंग में दिखता है",
+"why": "too long: 206 characters, the limit is 160"
+},
+{
+"en": "Supplier order tracker with late flags",
+"kind": "label",
+"max": 50,
+"mt": "देर से आने वाले झंडों के साथ आपूर्तिकर्ता ऑर्डर ट्रैकर",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "each delivery checked at the door with the quantity ordered and received and its condition, so a short or damaged delivery is reported the same day",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक डिलीवरी को दरवाजे पर ऑर्डर की गई और प्राप्त की गई मात्रा और उसकी स्थिति के साथ जांचा जाता है, इसलिए उसी दिन कम या क्षतिग्रस्त डिलीवरी की सूचना दी जाती है",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Waiting for supplier",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्तिकर्ता की प्रतीक्षा की जा रही है",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Pack size sets the quantity",
+"kind": "list",
+"max": 30,
+"mt": "पैक का आकार मात्रा निर्धारित करता है",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Order size is near the best",
+"kind": "list",
+"max": 30,
+"mt": "ऑर्डर का आकार सर्वोत्तम के करीब है",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "ऑर्डर का आकार सर्वोत्तम से बहुत दूर है",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Supplier is often late",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्तिकर्ता अक्सर देर से आता है",
+"why": "too long: 32 characters, the limit is 30"
+}
+]

@@ -1,0 +1,16 @@
+[
+{
+"en": "each delivery has its lot number, use-by date and value left, and the oldest lot is ranked first so it is opened first and a lot used out of order shows in red",
+"kind": "sentence",
+"max": 160,
+"mt": "كل تسليم له رقم الدفعة الخاصة به وتاريخ الاستخدام والقيمة المتبقية، ويتم ترتيب الدفعة الأقدم في المرتبة الأولى بحيث يتم فتحها أولاً وتظهر الكمية المستخدمة خارج الطلب باللون الأحمر",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Order size is far from the best",
+"kind": "list",
+"max": 30,
+"mt": "حجم الطلب أبعد ما يكون عن الأفضل",
+"why": "too long: 32 characters, the limit is 30"
+}
+]
