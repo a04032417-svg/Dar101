@@ -1,0 +1,107 @@
+[
+{
+"en": "Batches above standard",
+"kind": "label",
+"max": 30,
+"mt": "Standartların üzerindeki partiler",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Plan every batch, cure date and quality check in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Her partiyi, tedavi tarihini ve kalite kontrolünü tek bir çalışma kitabında planlayın",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Batch records, cure dates, yield and quality checks for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Mum ve sabun üreticileri için seri kayıtları, kürleme tarihleri, verim ve kalite kontrolleri",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "each batch has its number, maker, units, issue, quality result and the lots of wax, oil and fragrance, so a problem is traced to a day and a delivery",
+"kind": "sentence",
+"max": 160,
+"mt": "her partinin kendi numarası, üreticisi, birimleri, sayısı, kalite sonucu ve bol miktarda balmumu, yağ ve koku bulunur; böylece sorun bir güne ve teslimata kadar takip edilir",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "each weight check shows the gap in grams and percent against your tolerance, so a unit that is too light or too heavy is a recheck, not a surprise",
+"kind": "sentence",
+"max": 160,
+"mt": "Her ağırlık kontrolü, toleransınızla arasındaki farkı gram ve yüzde cinsinden gösterir, bu nedenle çok hafif veya çok ağır bir ünite sürpriz değil, yeniden kontrol edilir",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "each batch records the label version and whether ingredients and warnings are printed, with a stop for the packer (check your own local rules)",
+"kind": "sentence",
+"max": 160,
+"mt": "her parti, paketleyici için bir duraklamayla birlikte etiket versiyonunu ve içindekiler ile uyarıların yazdırılıp yazdırılmadığını kaydeder (kendi yerel kurallarınızı kontrol edin)",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Weight needs a recheck",
+"kind": "list",
+"max": 30,
+"mt": "Ağırlığın yeniden kontrol edilmesi gerekiyor",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Rework pays back",
+"kind": "list",
+"max": 30,
+"mt": "Yeniden çalışma karşılığını verir",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Rework loses money",
+"kind": "list",
+"max": 30,
+"mt": "Yeniden çalışma para kaybettirir",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Remelt and repour",
+"kind": "list",
+"max": 30,
+"mt": "Yeniden eritin ve yeniden dökün",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Batches with batch numbers, lots, yield and quality result",
+"kind": "title",
+"max": 60,
+"mt": "Parti numaraları, partiler, verim ve kalite sonucunu içeren partiler",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Production plan with the hours of each maker for the day",
+"kind": "title",
+"max": 60,
+"mt": "Üretim planı her yapımcının gün içindeki çalışma saatleri ile birlikte",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Failed and recheck batches with the action and the loss",
+"kind": "title",
+"max": 60,
+"mt": "Başarısız oldu ve toplu işlemleri eylem ve kayıpla yeniden kontrol etti",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Maker workload by week against the hours each maker can give",
+"kind": "title",
+"max": 60,
+"mt": "Her yapımcının verebileceği saatlere göre hafta bazında Yapımcı iş yükü",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "What-if grid: batch size against labour minutes per unit",
+"kind": "title",
+"max": 60,
+"mt": "Durum tablosu: birim başına çalışma dakikalarına göre parti büyüklüğü",
+"why": "too long: 69 characters, the limit is 60"
+}
+]

@@ -1,0 +1,149 @@
+[
+{
+"en": "Plan every batch, cure date and quality check in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Planifiez chaque lot, date de durcissement et contrôle de qualité dans un seul classeur",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "Batch records, cure dates, yield and quality checks for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Enregistrements de lots, dates de durcissement, contrôles de rendement et de qualité pour les fabricants de bougies et de savons",
+"why": "too long: 128 characters, the limit is 80"
+},
+{
+"en": "each batch has its number, maker, units, issue, quality result and the lots of wax, oil and fragrance, so a problem is traced to a day and a delivery",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque lot a son numéro, son fabricant, ses unités, sa sortie, son résultat qualité et les lots de cire, d'huile et de parfum, ainsi un problème est rattaché à un jour et une livraison",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "the hours of every maker on every planned day are added up and flagged against your limit, so a day with five batches shows before it happens",
+"kind": "sentence",
+"max": 160,
+"mt": "les heures de chaque fabricant pour chaque jour planifié sont additionnées et signalées par rapport à votre limite, donc une journée avec cinq lots s'affiche avant qu'elle ne se produise",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "Quality check log with weight tolerance",
+"kind": "label",
+"max": 50,
+"mt": "Journal de contrôle qualité avec tolérance de poids",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "each weight check shows the gap in grams and percent against your tolerance, so a unit that is too light or too heavy is a recheck, not a surprise",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque contrôle de poids montre l'écart en grammes et en pourcentage par rapport à votre tolérance, donc une unité trop légère ou trop lourde est une nouvelle vérification, pas une surprise",
+"why": "too long: 189 characters, the limit is 160"
+},
+{
+"en": "each batch records the label version and whether ingredients and warnings are printed, with a stop for the packer (check your own local rules)",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque lot enregistre la version de l'étiquette et si les ingrédients et les avertissements sont imprimés, avec un arrêt pour l'emballeur (vérifiez vos propres règles locales)",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Yield on target",
+"kind": "list",
+"max": 30,
+"mt": "Rendement conforme à l'objectif",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Yield below target",
+"kind": "list",
+"max": 30,
+"mt": "Rendement inférieur à l'objectif",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Yield meets the target",
+"kind": "list",
+"max": 30,
+"mt": "Le rendement atteint l’objectif",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Yield is below the target",
+"kind": "list",
+"max": 30,
+"mt": "Le rendement est inférieur à l'objectif",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Cure is still running",
+"kind": "list",
+"max": 30,
+"mt": "Le remède est toujours en cours",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Batches with batch numbers, lots, yield and quality result",
+"kind": "title",
+"max": 60,
+"mt": "Lots avec numéros de lots, lots, rendement et résultat qualité",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Production plan with the hours of each maker for the day",
+"kind": "title",
+"max": 60,
+"mt": "Plan de fabrication avec les heures de chaque créateur pour la journée",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Products with batches and units made in the last 90 days",
+"kind": "title",
+"max": 60,
+"mt": "Produits avec des lots et des unités fabriqués au cours des 90 derniers jours",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Quality checks with the weight gap against the tolerance",
+"kind": "title",
+"max": 60,
+"mt": "Contrôles de qualité avec l'écart de poids par rapport à la tolérance",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Cure shelf with ready dates and days left",
+"kind": "title",
+"max": 60,
+"mt": "Étagère de guérison avec les dates prêtes et les jours restants",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Maker workload by week against the hours each maker can give",
+"kind": "title",
+"max": 60,
+"mt": "Charge de travail du créateur par semaine en fonction des heures que chaque créateur peut consacrer",
+"why": "too long: 99 characters, the limit is 60"
+},
+{
+"en": "Equipment downtime with the cause and the repair cost",
+"kind": "title",
+"max": 60,
+"mt": "Temps d'arrêt de l'équipement avec la cause et le coût de la réparation",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Production demand by month and product with batches needed",
+"kind": "title",
+"max": 60,
+"mt": "Demande de production par mois et produit avec les lots nécessaires",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What-if grid: batch size against labour minutes per unit",
+"kind": "title",
+"max": 60,
+"mt": "Grille de simulation : taille du lot par rapport aux minutes de travail par unité",
+"why": "too long: 81 characters, the limit is 60"
+}
+]

@@ -1,0 +1,163 @@
+[
+{
+"en": "Batch cost per good unit against standard by month",
+"kind": "title",
+"max": 60,
+"mt": "Chargenkosten pro Wareneinheit im Vergleich zum Standard pro Monat",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Plan every batch, cure date and quality check in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Planen Sie jede Charge, jedes Aushärtedatum und jede Qualitätsprüfung in einer Arbeitsmappe",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "Batch records, cure dates, yield and quality checks for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Chargenprotokolle, Aushärtedaten, Ertrags- und Qualitätsprüfungen für Kerzen- und Seifenhersteller",
+"why": "too long: 98 characters, the limit is 80"
+},
+{
+"en": "each batch has its number, maker, units, issue, quality result and the lots of wax, oil and fragrance, so a problem is traced to a day and a delivery",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Charge hat ihre Nummer, Hersteller, Einheiten, Ausgabe, Qualitätsergebnis und die Menge an Wachs, Öl und Duftstoff, sodass ein Problem auf einen Tag und eine Lieferung zurückgeführt werden kann",
+"why": "too long: 198 characters, the limit is 160"
+},
+{
+"en": "each batch on a shelf shows its ready date, the days left and whether it was released on time, so nothing is sold early or forgotten",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Charge in einem Regal zeigt ihr Fertigstellungsdatum, die verbleibenden Tage und ob sie rechtzeitig freigegeben wurde, sodass nichts vorzeitig verkauft oder vergessen wird",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "the hours of every maker on every planned day are added up and flagged against your limit, so a day with five batches shows before it happens",
+"kind": "sentence",
+"max": 160,
+"mt": "Die Stunden jedes Herstellers an jedem geplanten Tag werden addiert und mit Ihrem Limit verglichen, sodass ein Tag mit fünf Chargen angezeigt wird, bevor es passiert",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "each weight check shows the gap in grams and percent against your tolerance, so a unit that is too light or too heavy is a recheck, not a surprise",
+"kind": "sentence",
+"max": 160,
+"mt": "Bei jeder Gewichtskontrolle wird der Unterschied in Gramm und Prozent gegenüber Ihrer Toleranz angezeigt. Wenn das Gerät also zu leicht oder zu schwer ist, ist dies eine erneute Kontrolle und keine Überraschung",
+"why": "too long: 210 characters, the limit is 160"
+},
+{
+"en": "each batch records the label version and whether ingredients and warnings are printed, with a stop for the packer (check your own local rules)",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Charge zeichnet die Etikettenversion auf und ob Zutaten und Warnhinweise aufgedruckt sind, mit einem Stopp für den Verpacker (überprüfen Sie Ihre eigenen lokalen Vorschriften).",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "units remade, relabelled or sold as seconds with their value, so the cost of fixing mistakes is a number and not a feeling",
+"kind": "sentence",
+"max": 160,
+"mt": "Einheiten werden mit ihrem Wert neu hergestellt, neu etikettiert oder als Sekunden verkauft, sodass die Kosten für die Behebung von Fehlern eine Zahl und kein Gefühl sind",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "each lot used in a batch with the quantity and value, so one bad delivery shows every batch it went into",
+"kind": "sentence",
+"max": 160,
+"mt": "jede in einer Charge verwendete Charge mit der Menge und dem Wert, sodass bei einer fehlerhaften Lieferung jede Charge angezeigt wird, in die sie eingegangen ist",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Yield is below the target",
+"kind": "list",
+"max": 30,
+"mt": "Der Ertrag liegt unter dem Zielwert",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Weight is within tolerance",
+"kind": "list",
+"max": 30,
+"mt": "Das Gewicht liegt innerhalb der Toleranz",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Weight needs a recheck",
+"kind": "list",
+"max": 30,
+"mt": "Das Gewicht muss noch einmal überprüft werden",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Rework loses money",
+"kind": "list",
+"max": 30,
+"mt": "Durch Nacharbeiten geht Geld verloren",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Batches with batch numbers, lots, yield and quality result",
+"kind": "title",
+"max": 60,
+"mt": "Chargen mit Chargennummern, Chargen, Ausbeute und Qualitätsergebnis",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Production plan with the hours of each maker for the day",
+"kind": "title",
+"max": 60,
+"mt": "Produktionsplan mit den Stunden jedes Herstellers für den Tag",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Products with batches and units made in the last 90 days",
+"kind": "title",
+"max": 60,
+"mt": "Produkte mit Chargen und Einheiten, die in den letzten 90 Tagen hergestellt wurden",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Quality checks with the weight gap against the tolerance",
+"kind": "title",
+"max": 60,
+"mt": "Qualitätskontrollen mit der Gewichtsdifferenz gegenüber der Toleranz",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Failed and recheck batches with the action and the loss",
+"kind": "title",
+"max": 60,
+"mt": "Fehlgeschlagene und erneute Überprüfung der Chargen mit der Aktion und dem Verlust",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Maker workload by week against the hours each maker can give",
+"kind": "title",
+"max": 60,
+"mt": "Arbeitsbelastung des Herstellers pro Woche im Vergleich zu den Stunden, die jeder Hersteller geben kann",
+"why": "too long: 103 characters, the limit is 60"
+},
+{
+"en": "Equipment downtime with the cause and the repair cost",
+"kind": "title",
+"max": 60,
+"mt": "Ausfallzeit der Ausrüstung mit der Ursache und den Reparaturkosten",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Production demand by month and product with batches needed",
+"kind": "title",
+"max": 60,
+"mt": "Produktionsnachfrage nach Monat und Produkt mit den benötigten Chargen",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "What-if grid: batch size against labour minutes per unit",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Chargengröße im Vergleich zu Arbeitsminuten pro Einheit",
+"why": "too long: 77 characters, the limit is 60"
+}
+]

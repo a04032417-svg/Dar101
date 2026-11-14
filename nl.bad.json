@@ -1,0 +1,128 @@
+[
+{
+"en": "Batch records, cure dates, yield and quality checks for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Batchregistratie, uithardingsdata, opbrengst- en kwaliteitscontroles voor kaarsen- en zeepmakers",
+"why": "too long: 96 characters, the limit is 80"
+},
+{
+"en": "each batch has its number, maker, units, issue, quality result and the lots of wax, oil and fragrance, so a problem is traced to a day and a delivery",
+"kind": "sentence",
+"max": 160,
+"mt": "elke batch heeft zijn nummer, maker, eenheden, uitgifte, kwaliteitsresultaat en de vele was, olie en geur, zodat een probleem kan worden herleid tot een dag en een levering",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "good units as a share of planned units for each product over 90 days, with the waste cost and the gap to the target of the product",
+"kind": "sentence",
+"max": 160,
+"mt": "goede eenheden als percentage van de geplande eenheden voor elk product over een periode van 90 dagen, met de afvalkosten en de kloof met het doel van het product",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "each weight check shows the gap in grams and percent against your tolerance, so a unit that is too light or too heavy is a recheck, not a surprise",
+"kind": "sentence",
+"max": 160,
+"mt": "elke gewichtscontrole toont het verschil in grammen en procenten ten opzichte van uw tolerantie, dus een eenheid die te licht of te zwaar is, is een nieuwe controle en geen verrassing",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "units remade, relabelled or sold as seconds with their value, so the cost of fixing mistakes is a number and not a feeling",
+"kind": "sentence",
+"max": 160,
+"mt": "eenheden opnieuw gemaakt, opnieuw geëtiketteerd of verkocht als seconden met hun waarde, dus de kosten voor het herstellen van fouten zijn een getal en geen gevoel",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Yield meets the target",
+"kind": "list",
+"max": 30,
+"mt": "De opbrengst voldoet aan de doelstelling",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Yield is below the target",
+"kind": "list",
+"max": 30,
+"mt": "De opbrengst ligt onder de doelstelling",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Weight needs a recheck",
+"kind": "list",
+"max": 30,
+"mt": "Het gewicht moet opnieuw worden gecontroleerd",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Rebatch",
+"kind": "list",
+"max": 30,
+"mt": "Rebatch",
+"why": "not translated"
+},
+{
+"en": "Batches with batch numbers, lots, yield and quality result",
+"kind": "title",
+"max": 60,
+"mt": "Partijen met partijnummers, partijen, opbrengst en kwaliteitsresultaat",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Products with batches and units made in the last 90 days",
+"kind": "title",
+"max": 60,
+"mt": "Producten met batches en eenheden die in de afgelopen 90 dagen zijn gemaakt",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Quality checks with the weight gap against the tolerance",
+"kind": "title",
+"max": 60,
+"mt": "Kwaliteitscontroles waarbij het gewichtsverschil tegen de tolerantie ligt",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Failed and recheck batches with the action and the loss",
+"kind": "title",
+"max": 60,
+"mt": "Mislukt en controleer batches opnieuw met de actie en het verlies",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Maker workload by week against the hours each maker can give",
+"kind": "title",
+"max": 60,
+"mt": "Werklast van de maker per week tegen de uren die elke maker kan geven",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Production demand by month and product with batches needed",
+"kind": "title",
+"max": 60,
+"mt": "Vraag naar productie per maand en product met benodigde batches",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Test 20%",
+"kind": "label",
+"max": null,
+"mt": "Test 20%",
+"why": "not translated"
+},
+{
+"en": "Test 5%",
+"kind": "label",
+"max": null,
+"mt": "Test 5%",
+"why": "not translated"
+},
+{
+"en": "What-if grid: batch size against labour minutes per unit",
+"kind": "title",
+"max": 60,
+"mt": "What-if-raster: batchgrootte versus arbeidsminuten per eenheid",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

@@ -1,0 +1,114 @@
+[
+{
+"en": "Batch cost per good unit against standard by month",
+"kind": "title",
+"max": 60,
+"mt": "Custo do lote por unidade de bem em relação ao padrão por mês",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Plan every batch, cure date and quality check in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Planeje cada lote, data de cura e verificação de qualidade em uma pasta de trabalho",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "Batch records, cure dates, yield and quality checks for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Registros de lotes, datas de cura, verificações de rendimento e qualidade para fabricantes de velas e sabonetes",
+"why": "too long: 111 characters, the limit is 80"
+},
+{
+"en": "each batch has its number, maker, units, issue, quality result and the lots of wax, oil and fragrance, so a problem is traced to a day and a delivery",
+"kind": "sentence",
+"max": 160,
+"mt": "cada lote tem seu número, fabricante, unidades, emissão, resultado de qualidade e os lotes de cera, óleo e fragrância, então um problema é atribuído a um dia e uma entrega",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "the hours of every maker on every planned day are added up and flagged against your limit, so a day with five batches shows before it happens",
+"kind": "sentence",
+"max": 160,
+"mt": "as horas de cada fabricante em cada dia planejado são somadas e sinalizadas em relação ao seu limite, portanto, um dia com cinco lotes aparece antes de acontecer",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "good units as a share of planned units for each product over 90 days, with the waste cost and the gap to the target of the product",
+"kind": "sentence",
+"max": 160,
+"mt": "unidades boas como uma parcela das unidades planejadas para cada produto ao longo de 90 dias, com o custo do desperdício e a lacuna em relação ao objetivo do produto",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Quality check log with weight tolerance",
+"kind": "label",
+"max": 50,
+"mt": "Registro de verificação de qualidade com tolerância de peso",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "each weight check shows the gap in grams and percent against your tolerance, so a unit that is too light or too heavy is a recheck, not a surprise",
+"kind": "sentence",
+"max": 160,
+"mt": "cada verificação de peso mostra a diferença em gramas e porcentagem em relação à sua tolerância, portanto, uma unidade muito leve ou muito pesada é uma nova verificação, não uma surpresa",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "Yield is below the target",
+"kind": "list",
+"max": 30,
+"mt": "O rendimento está abaixo da meta",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Weight is within tolerance",
+"kind": "list",
+"max": 30,
+"mt": "O peso está dentro da tolerância",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Weight needs a recheck",
+"kind": "list",
+"max": 30,
+"mt": "O peso precisa de uma nova verificação",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Batches with batch numbers, lots, yield and quality result",
+"kind": "title",
+"max": 60,
+"mt": "Lotes com números de lote, lotes, rendimento e resultado de qualidade",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Quality checks with the weight gap against the tolerance",
+"kind": "title",
+"max": 60,
+"mt": "Verificações de qualidade com a diferença de peso em relação à tolerância",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Maker workload by week against the hours each maker can give",
+"kind": "title",
+"max": 60,
+"mt": "Carga de trabalho do criador por semana em relação às horas que cada fabricante pode oferecer",
+"why": "too long: 93 characters, the limit is 60"
+},
+{
+"en": "Equipment downtime with the cause and the repair cost",
+"kind": "title",
+"max": 60,
+"mt": "Tempo de inatividade do equipamento com a causa e o custo do reparo",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What-if grid: batch size against labour minutes per unit",
+"kind": "title",
+"max": 60,
+"mt": "Grade hipotética: tamanho do lote em relação aos minutos de mão de obra por unidade",
+"why": "too long: 83 characters, the limit is 60"
+}
+]
