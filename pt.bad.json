@@ -1,0 +1,79 @@
+[
+{
+"en": "Allergens, labels, batch codes and cleaning for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Alérgenos, rótulos, códigos de lote e limpeza para padarias caseiras e confeitarias",
+"why": "too long: 83 characters, the limit is 80"
+},
+{
+"en": "every bake gets a batch code and a use-by date from the shelf days, and the label log checks that no label gives more days than the product keeps",
+"kind": "sentence",
+"max": 160,
+"mt": "cada cozimento recebe um código de lote e uma data de validade a partir dos dias de prateleira, e o registro do rótulo verifica se nenhum rótulo fornece mais dias do que o produto mantém",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "Cleaning log with days since the last clean",
+"kind": "label",
+"max": 50,
+"mt": "Registro de limpeza com dias desde a última limpeza",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Wrong allergen information given",
+"kind": "list",
+"max": 30,
+"mt": "Informações erradas sobre alérgenos fornecidas",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Handling an allergy order",
+"kind": "list",
+"max": 30,
+"mt": "Lidando com um pedido de alergia",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Give the shelf days and storage",
+"kind": "list",
+"max": 30,
+"mt": "Dê os dias de prateleira e armazenamento",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Give the use-by date of the batch",
+"kind": "list",
+"max": 30,
+"mt": "Informe a data de validade do lote",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Check the recipe lines and declarations",
+"kind": "list",
+"max": 30,
+"mt": "Verifique as linhas e declarações da receita",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Check the shelf life rules",
+"kind": "list",
+"max": 30,
+"mt": "Verifique as regras de prazo de validade",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Client answer helper for a question about food",
+"kind": "title",
+"max": 60,
+"mt": "Ajudante de resposta do cliente para uma pergunta sobre comida",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: shelf days against units baked",
+"kind": "title",
+"max": 60,
+"mt": "Grade hipotética: dias de prateleira em relação às unidades assadas",
+"why": "too long: 67 characters, the limit is 60"
+}
+]
