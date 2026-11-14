@@ -1,0 +1,93 @@
+[
+{
+"en": "Match invoices to the agreed cost",
+"kind": "label",
+"max": null,
+"mt": "فاکتورها را با هزینه توافق شده مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the planning fee share, the smallest fee, the markup, the target margin, the reserve and the owner approval limit.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت های خود را در سلول های زرد تایپ کنید: سهم هزینه برنامه ریزی، کوچکترین کارمزد، نشانه گذاری، حاشیه هدف، ذخیره و محدودیت تایید مالک.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Use the 14 calculators before you quote: budget by guest count, catering, venues, guest changes, markup, price per guest, staff, rentals, bar, overrun, reserve, fee yield, two quotes and a what-if grid.",
+"kind": "sentence",
+"max": null,
+"mt": "قبل از نقل قول از 14 ماشین حساب استفاده کنید: بودجه بر اساس تعداد مهمان، پذیرایی، مکان، تغییرات مهمان، نشانه گذاری، قیمت هر مهمان، کارمند، اجاره، بار، بیش از حد، رزرو، بازده هزینه، دو قیمت و یک شبکه what-if.",
+"why": "English/Latin words left: what if."
+},
+{
+"en": "Too late for the usual lead time",
+"kind": "list",
+"max": 30,
+"mt": "برای زمان تحویل معمول خیلی دیر است",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cash covers the next 4 weeks",
+"kind": "list",
+"max": 30,
+"mt": "پول نقد 4 هفته آینده را پوشش می دهد",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Deposits mostly refundable",
+"kind": "list",
+"max": 30,
+"mt": "سپرده ها عمدتاً قابل استرداد هستند",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Deposits mostly at risk",
+"kind": "list",
+"max": 30,
+"mt": "سپرده ها عمدتا در معرض خطر هستند",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Dates held with vendors and when each hold ends",
+"kind": "title",
+"max": 60,
+"mt": "تاریخ‌هایی که با فروشندگان برگزار می‌شود و زمان پایان هر نگهداری",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Vendor: your invoice does not match",
+"kind": "label",
+"max": null,
+"mt": "فروشنده: فاکتور شما مطابقت ندارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, your invoice for {payment_id} ({event_id}) does not match the order. Please check it and send a corrected one.",
+"kind": "message",
+"max": null,
+"mt": "سلام، فاکتور شما برای {payment_id} ({event_id}) با ترتیب مطابقت ندارد. لطفا آن را بررسی کنید و یک مورد اصلاح شده ارسال کنید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Please check the amount against your invoice and tell us if it does not match.",
+"kind": "document",
+"max": null,
+"mt": "لطفاً مبلغ را در برابر فاکتور خود بررسی کنید و اگر مطابقت ندارد به ما بگویید.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "The invoice does not match the order. Issue: {col:disp.issue}. Amount in dispute: {col:disp.amount_disputed}. Raised on {col:disp.raised_on}.",
+"kind": "document",
+"max": null,
+"mt": "فاکتور با سفارش مطابقت ندارد. مسئله: {col:disp.issue}. مبلغ مورد اختلاف: {col:disp.amount_disputed}. در {col:disp.raised_on} مطرح شد.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Write down what does not match",
+"kind": "label",
+"max": null,
+"mt": "آنچه را که مطابقت ندارد بنویسید",
+"why": "never use the word for \"compatible\""
+}
+]

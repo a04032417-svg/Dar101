@@ -1,0 +1,16 @@
+[
+{
+"en": "Hello, your payment {payment_id} of {amount} for {event_id} was paid on {paid_on}. Please confirm it arrived.",
+"kind": "message",
+"max": null,
+"mt": "您好，您已于 {paid_on} 支付了 {event_id} 的付款，共 {amount} 款。请确认已到达。",
+"why": "placeholders must be exactly: {payment_id} {amount} {event_id} {paid_on}"
+},
+{
+"en": "Lead: record the vendor scores",
+"kind": "label",
+"max": null,
+"mt": "Lead：记录供应商分数",
+"why": "English/Latin words left: Lead"
+}
+]
