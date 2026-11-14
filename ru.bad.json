@@ -1,0 +1,205 @@
+[
+{
+"en": "Check Items: the 35 back-bar and retail items with cost, price, reorder point, par level, supplier and lead days. Back-bar means the products used on clients, not sold. Update a cost or a price here first.",
+"kind": "sentence",
+"max": null,
+"mt": "Контрольные элементы: 35-значная полоса (используется в сфере услуг) и розничные товары со стоимостью, ценой, точкой повторного заказа, номинальным уровнем, поставщиком и днями выполнения заказа. Back-bar означает продукцию, используемую клиентами, а не проданную. Сначала обновите стоимость или цену здесь.",
+"why": "English/Latin words left: Back bar"
+},
+{
+"en": "Close the till, see the profit per service and plan cash and growth",
+"kind": "sentence",
+"max": 80,
+"mt": "Закройте кассу, посмотрите прибыль на каждую услугу и планируйте денежные средства и рост",
+"why": "too long: 89 characters, the limit is 80"
+},
+{
+"en": "every trading day shows services, retail, prepaid sold, cash, card and transfer, with the counted cash and a till check for a drawer that is over or short",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый торговый день показывает услуги, розничную торговлю, проданные по предоплате, наличные, карты и переводы, с подсчитанными наличными и кассовым чеком для ящика, в котором закончилось или недостаточно",
+"why": "too long: 205 characters, the limit is 160"
+},
+{
+"en": "price less product and pay for each of the 20 services, per chair hour and after the studio overhead, so a service that loses money is flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "цена за вычетом продукта и оплата за каждую из 20 услуг за час работы и после накладных расходов студии, поэтому услуга, которая приносит убытки, помечается как убыточная.",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "studio revenue, retail and booth rent less product, pay and overhead for each technician and month, so you see who really earns for the studio",
+"kind": "sentence",
+"max": 160,
+"mt": "доход студии, розничная торговля и аренда стенда за вычетом продукции, заработной платы и накладных расходов за каждого техника в месяц, так что вы увидите, кто действительно зарабатывает для студии",
+"why": "too long: 198 characters, the limit is 160"
+},
+{
+"en": "weekly cash in, cash out and the owner draw give the closing balance for 13 weeks and a warning when it comes close to or drops below your floor",
+"kind": "sentence",
+"max": 160,
+"mt": "еженедельный ввод и вывод средств, а также розыгрыш от владельца дают итоговый баланс на 13 недель и предупреждение, когда он приближается к вашему минимуму или падает ниже него.",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "cash now less the floor and the taxes you owe or hold shows how much the owner can draw without risking the rent and the pay run",
+"kind": "sentence",
+"max": 160,
+"mt": "наличные деньги теперь за вычетом пола, а налоги, которые вы должны или удерживаете, показывают, сколько владелец может получить, не рискуя арендной платой и заработной платой.",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Booking system and software",
+"kind": "list",
+"max": 30,
+"mt": "Система бронирования и программное обеспечение",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Accounting and permits",
+"kind": "list",
+"max": 30,
+"mt": "Учет и разрешительная документация",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cash over, recount",
+"kind": "list",
+"max": 30,
+"mt": "Наличные закончились, пересчитайте",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Rent paid in full",
+"kind": "list",
+"max": 30,
+"mt": "Арендная плата оплачена полностью",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Rent paid after the due date",
+"kind": "list",
+"max": 30,
+"mt": "Арендная плата оплачена после установленного срока",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Tax overdue, pay now",
+"kind": "list",
+"max": 30,
+"mt": "Налог просрочен, заплатите сейчас",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Over budget, review",
+"kind": "list",
+"max": 30,
+"mt": "Превышение бюджета, пересмотрите",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Well above break-even",
+"kind": "list",
+"max": 30,
+"mt": "Значительно выше точки безубыточности",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "No studio revenue (renter service)",
+"kind": "list",
+"max": 30,
+"mt": "Нет дохода студии (услуги арендатора)",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Profit margin on target",
+"kind": "list",
+"max": 30,
+"mt": "Маржа прибыли на целевом уровне",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cost share is within the limit",
+"kind": "list",
+"max": 30,
+"mt": "Доля затрат находится в пределах лимита",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Draw less to keep the floor",
+"kind": "list",
+"max": 30,
+"mt": "Рисуйте меньше, чтобы сохранить пол",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Hold more to catch up",
+"kind": "list",
+"max": 30,
+"mt": "Держите больше, чтобы наверстать упущенное",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Chair pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "Кресло окупается в течение года",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Service pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "Услуга окупается в течение года",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Room pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "Комната окупается в течение года",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Service earns above the minimum",
+"kind": "list",
+"max": 30,
+"mt": "Сервис зарабатывает выше минимума",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Service earns below the minimum",
+"kind": "list",
+"max": 30,
+"mt": "Сервис зарабатывает ниже минимума",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "13-week cash forecast with the floor",
+"kind": "title",
+"max": 60,
+"mt": "Прогноз денежных средств на 13 недель с минимальным значением",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Revenue, costs, profit and closing cash by month",
+"kind": "title",
+"max": 60,
+"mt": "Выручка, затраты, прибыль и итоговые денежные средства по месяцам",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "13-week cash forecast with the floor warning",
+"kind": "title",
+"max": 60,
+"mt": "Прогноз денежных средств на 13 недель с предупреждением о нижней границе",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Hello, the yearly profit summary is ready: {profit_12m} in the 12 months to the month starting {month}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Годовой отчет о прибыли готов: {profit_12m} за 12 месяцев до месяца, начинающегося с {month}.",
+"why": "English/Latin words left: profit"
+}
+]

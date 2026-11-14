@@ -1,0 +1,142 @@
+[
+{
+"en": "Open Start and type your company name and your own rules in the yellow cells: the days of stock to hold, the safety days, the wanted retail margin and attach rate, the count difference you accept and the days before a use-by date.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و قوانین خود را در سلول‌های زرد تایپ کنید: روزهای نگهداری انبار، روزهای ایمنی، حاشیه خرده‌فروشی مورد نظر و نرخ پیوست، تفاوت تعداد شما و روزهای قبل از تاریخ مصرف.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Check Items: the 35 back-bar and retail items with cost, price, reorder point, par level, supplier and lead days. Back-bar means the products used on clients, not sold. Update a cost or a price here first.",
+"kind": "sentence",
+"max": null,
+"mt": "بررسی اقلام: 35 اقلام پشتی (استفاده شده در خدمات) و اقلام خرده فروشی با هزینه، قیمت، نقطه سفارش مجدد، سطح همتراز، تامین کننده و روزهای سرب. Back-bar به معنای محصولاتی است که برای مشتریان استفاده می شود، نه فروخته شده. ابتدا هزینه یا قیمتی را در اینجا به‌روزرسانی کنید.",
+"why": "English/Latin words left: Back bar"
+},
+{
+"en": "Use Usage per Service and Services to see the product cost of each service from the units it uses, and Laundry and Linen for the monthly linen cost.",
+"kind": "sentence",
+"max": null,
+"mt": "از استفاده در هر سرویس و Services برای مشاهده هزینه محصول هر سرویس از واحدهایی که استفاده می‌کند، و لباسشویی و کتانی برای هزینه ماهانه کتانی استفاده کنید.",
+"why": "English/Latin words left: Services"
+},
+{
+"en": "Close the till, see the profit per service and plan cash and growth",
+"kind": "sentence",
+"max": 80,
+"mt": "تالار را ببندید، سود به ازای هر سرویس را ببینید و برای پول نقد و رشد برنامه ریزی کنید",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Rent paid in full",
+"kind": "list",
+"max": 30,
+"mt": "اجاره به طور کامل پرداخت شده است",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Rent paid after the due date",
+"kind": "list",
+"max": 30,
+"mt": "اجاره بعد از سررسید پرداخت می شود",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Tax overdue, pay now",
+"kind": "list",
+"max": 30,
+"mt": "مالیات عقب افتاده، همین الان پرداخت کنید",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Pays back in one to two years",
+"kind": "list",
+"max": 30,
+"mt": "پس از یک تا دو سال پرداخت می شود",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "No studio revenue (renter service)",
+"kind": "list",
+"max": 30,
+"mt": "بدون درآمد استودیو (خدمات اجاره کننده)",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Cost share is above the limit",
+"kind": "list",
+"max": 30,
+"mt": "سهم هزینه بالاتر از حد مجاز است",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Hold more to catch up",
+"kind": "list",
+"max": 30,
+"mt": "بیشتر نگه دارید تا به عقب برگردید",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Chair pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "کرسی ظرف یک سال بازپرداخت می کند",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Service pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "خدمات در عرض یک سال بازپرداخت می شود",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Service pays back slowly",
+"kind": "list",
+"max": 30,
+"mt": "خدمات به آرامی بازپرداخت می کند",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Room pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "اتاق در عرض یک سال بازپرداخت می کند",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Service earns above the minimum",
+"kind": "list",
+"max": 30,
+"mt": "خدمات بالاتر از حداقل درآمد دارد",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Hello, the yearly profit summary is ready: {profit_12m} in the 12 months to the month starting {month}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، خلاصه سود سالانه آماده است: {profit_12m} در 12 ماه تا ماه شروع {month}.",
+"why": "English/Latin words left: profit"
+},
+{
+"en": "Enter the bills in Expenses",
+"kind": "label",
+"max": null,
+"mt": "صورت حساب ها را در Expenses وارد کنید",
+"why": "English/Latin words left: Expenses"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the overhead for each chair hour, the minimum margin, the sales tax percent, the income tax set-aside share, the cash floor and the owner draw.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: سربار برای هر ساعت صندلی، حداقل حاشیه، درصد مالیات بر فروش، سهم کنار گذاشته شده مالیات بر درآمد، کف نقدی و قرعه‌کشی مالک.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Use Service Months, Technician Months and Services to see which service and which technician leave the most after product, pay and overhead.",
+"kind": "sentence",
+"max": null,
+"mt": "از ماه های خدمات، ماه های تکنسین و Services استفاده کنید تا ببینید کدام سرویس و کدام تکنسین بعد از محصول، پرداخت و سربار بیشتر را ترک می کند.",
+"why": "English/Latin words left: Services"
+}
+]

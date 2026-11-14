@@ -1,0 +1,142 @@
+[
+{
+"en": "every trading day shows services, retail, prepaid sold, cash, card and transfer, with the counted cash and a till check for a drawer that is over or short",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक व्यापारिक दिन सेवाओं, खुदरा, प्रीपेड बिक्री, नकदी, कार्ड और हस्तांतरण को दिखाता है, जिसमें गिनती की गई नकदी और एक दराज के लिए एक चेक होता है जो समाप्त हो गया है या कम है",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "price less product and pay for each of the 20 services, per chair hour and after the studio overhead, so a service that loses money is flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "उत्पाद की कीमत कम करें और 20 सेवाओं में से प्रत्येक के लिए प्रति कुर्सी घंटे और स्टूडियो ओवरहेड के बाद भुगतान करें, इसलिए पैसे खोने वाली सेवा को चिह्नित किया जाता है",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Pay run paid late",
+"kind": "list",
+"max": 30,
+"mt": "वेतन भुगतान देर से भुगतान किया गया",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Rent paid after the due date",
+"kind": "list",
+"max": 30,
+"mt": "देय तिथि के बाद किराया भुगतान किया गया",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "एक वर्ष के भीतर वापस भुगतान करता है",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Pays back in one to two years",
+"kind": "list",
+"max": 30,
+"mt": "एक से दो साल में भुगतान कर देता है",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Below the minimum margin per hour",
+"kind": "list",
+"max": 30,
+"mt": "प्रति घंटे न्यूनतम मार्जिन से नीचे",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Margin per chair hour is healthy",
+"kind": "list",
+"max": 30,
+"mt": "प्रति कुर्सी घंटे का मार्जिन स्वस्थ है",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "No studio revenue (renter service)",
+"kind": "list",
+"max": 30,
+"mt": "कोई स्टूडियो राजस्व नहीं (किराया सेवा)",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Cost share is within the limit",
+"kind": "list",
+"max": 30,
+"mt": "लागत हिस्सेदारी सीमा के भीतर है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Draw less to keep the floor",
+"kind": "list",
+"max": 30,
+"mt": "फर्श बनाए रखने के लिए कम चित्र बनाएं",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Chair pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "चेयर एक वर्ष के भीतर भुगतान कर देता है",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Chair pays back slowly",
+"kind": "list",
+"max": 30,
+"mt": "कुर्सी धीरे-धीरे भुगतान करती है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Service pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "सेवा एक वर्ष के भीतर वापस भुगतान कर देती है",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Service pays back slowly",
+"kind": "list",
+"max": 30,
+"mt": "सेवा का प्रतिफल धीरे-धीरे मिलता है",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Room pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "रूम एक वर्ष के भीतर भुगतान कर देता है",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Growth project read as a new chair decision",
+"kind": "title",
+"max": 60,
+"mt": "विकास परियोजना को नए अध्यक्ष के निर्णय के रूप में पढ़ा जाता है",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Growth project read as a second room decision",
+"kind": "title",
+"max": 60,
+"mt": "विकास परियोजना को दूसरे कमरे के निर्णय के रूप में पढ़ा जाता है",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Appointments needed to cover the fixed costs",
+"kind": "title",
+"max": 60,
+"mt": "निर्धारित लागतों को कवर करने के लिए नियुक्तियों की आवश्यकता है",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello, the yearly profit summary is ready: {profit_12m} in the 12 months to the month starting {month}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, वार्षिक लाभ सारांश तैयार है: {month} से शुरू होने वाले 12 महीनों में {profit_12m}।",
+"why": "English/Latin words left: profit"
+}
+]

@@ -1,0 +1,65 @@
+[
+{
+"en": "Cash over, recount",
+"kind": "list",
+"max": 30,
+"mt": "النقدية أكثر، إعادة فرز الأصوات",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cash short, recount",
+"kind": "list",
+"max": 30,
+"mt": "النقدية قصيرة، إعادة فرز الأصوات",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pay run paid late",
+"kind": "list",
+"max": 30,
+"mt": "تشغيل الدفع المدفوع في وقت متأخر",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Rent paid after the due date",
+"kind": "list",
+"max": 30,
+"mt": "الإيجار المدفوع بعد تاريخ الاستحقاق",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Below the minimum margin per hour",
+"kind": "list",
+"max": 30,
+"mt": "أقل من الحد الأدنى للهامش في الساعة",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "No studio revenue (renter service)",
+"kind": "list",
+"max": 30,
+"mt": "لا توجد إيرادات الاستوديو (خدمة المستأجر)",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Room pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "الغرفة تدفع مرة أخرى في غضون عام",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Service earns above the minimum",
+"kind": "list",
+"max": 30,
+"mt": "الخدمة تكسب أعلى من الحد الأدنى",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Hello, the yearly profit summary is ready: {profit_12m} in the 12 months to the month starting {month}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، ملخص الأرباح السنوي جاهز: {profit_12m} خلال 12 شهرًا حتى الشهر الذي يبدأ في {month}.",
+"why": "English/Latin words left: profit"
+}
+]

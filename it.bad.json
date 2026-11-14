@@ -1,0 +1,289 @@
+[
+{
+"en": "Close the till, see the profit per service and plan cash and growth",
+"kind": "sentence",
+"max": 80,
+"mt": "Chiudi la cassa, visualizza il profitto per servizio e pianifica liquidità e crescita",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "every trading day shows services, retail, prepaid sold, cash, card and transfer, with the counted cash and a till check for a drawer that is over or short",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni giorno di Borsa sono indicati i servizi, vendita al dettaglio, prepagato, contanti, carte e bonifici, con il contante conteggiato e l'assegno di cassa per cassetto finito o in corto",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "Profit per service after overhead",
+"kind": "label",
+"max": 50,
+"mt": "Profitto per servizio al netto delle spese generali",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "price less product and pay for each of the 20 services, per chair hour and after the studio overhead, so a service that loses money is flagged",
+"kind": "sentence",
+"max": 160,
+"mt": "prezzo meno prodotto e pagamento per ciascuno dei 20 servizi, per ora di sedia e dopo le spese generali dello studio, quindi un servizio che perde denaro viene contrassegnato",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "studio revenue, retail and booth rent less product, pay and overhead for each technician and month, so you see who really earns for the studio",
+"kind": "sentence",
+"max": 160,
+"mt": "entrate dello studio, vendita al dettaglio e affitto dello stand meno prodotti, retribuzioni e spese generali per ogni tecnico e mese, così puoi vedere chi guadagna davvero per lo studio",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "fixed costs after booth rent against the margin kept on each appointment gives the break-even for every month and the safety margin above it",
+"kind": "sentence",
+"max": 160,
+"mt": "i costi fissi dopo l'affitto dello stand rispetto al margine mantenuto su ogni appuntamento danno il pareggio per ogni mese e il margine di sicurezza sopra di esso",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "weekly cash in, cash out and the owner draw give the closing balance for 13 weeks and a warning when it comes close to or drops below your floor",
+"kind": "sentence",
+"max": 160,
+"mt": "incassi, incassi settimanali e l'estrazione del proprietario forniscono il saldo di chiusura per 13 settimane e un avviso quando si avvicina o scende al di sotto del livello minimo",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "setup cost, extra appointments and margin give the payback in months for a new chair, a new service or a second room, with a month by month scenario",
+"kind": "sentence",
+"max": 160,
+"mt": "il costo di installazione, gli appuntamenti extra e il margine danno il rimborso in mesi per una nuova sedia, un nuovo servizio o una seconda stanza, con uno scenario mese per mese",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Booking system and software",
+"kind": "list",
+"max": 30,
+"mt": "Sistema e software di prenotazione",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Card processing fees",
+"kind": "list",
+"max": 30,
+"mt": "Commissioni per l'elaborazione della carta",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Equipment upgrade",
+"kind": "list",
+"max": 30,
+"mt": "Aggiornamento dell'attrezzatura",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Pay run paid late",
+"kind": "list",
+"max": 30,
+"mt": "La corsa alla paga è stata pagata in ritardo",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Pay run still accruing",
+"kind": "list",
+"max": 30,
+"mt": "La retribuzione sta ancora maturando",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Rent paid after the due date",
+"kind": "list",
+"max": 30,
+"mt": "Affitto pagato oltre la scadenza",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Below the minimum margin per hour",
+"kind": "list",
+"max": 30,
+"mt": "Al di sotto del margine minimo orario",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Margin per chair hour is healthy",
+"kind": "list",
+"max": 30,
+"mt": "Il margine per ora di seduta è salutare",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "No studio revenue (renter service)",
+"kind": "list",
+"max": 30,
+"mt": "Nessun ricavo dallo studio (servizio di noleggio)",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Profit margin on target",
+"kind": "list",
+"max": 30,
+"mt": "Margine di profitto sull'obiettivo",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Profit margin below target",
+"kind": "list",
+"max": 30,
+"mt": "Margine di profitto inferiore al target",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Cost share is within the limit",
+"kind": "list",
+"max": 30,
+"mt": "La condivisione dei costi rientra nei limiti",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Cost share is above the limit",
+"kind": "list",
+"max": 30,
+"mt": "La condivisione dei costi è superiore al limite",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Safe to draw the full amount",
+"kind": "list",
+"max": 30,
+"mt": "Sicuro di prelevare l'intero importo",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Draw less to keep the floor",
+"kind": "list",
+"max": 30,
+"mt": "Disegna di meno per mantenere il pavimento",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Cash stays above the floor",
+"kind": "list",
+"max": 30,
+"mt": "I contanti rimangono al di sopra del pavimento",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Cash drops below the floor",
+"kind": "list",
+"max": 30,
+"mt": "I contanti scendono sotto il pavimento",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Service pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "Il servizio si ripaga entro un anno",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Room pays back within a year",
+"kind": "list",
+"max": 30,
+"mt": "La stanza si ripaga entro un anno",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Tax return is covered",
+"kind": "list",
+"max": 30,
+"mt": "La dichiarazione dei redditi è coperta",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Service earns above the minimum",
+"kind": "list",
+"max": 30,
+"mt": "Il servizio guadagna sopra il minimo",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Service earns below the minimum",
+"kind": "list",
+"max": 30,
+"mt": "Il servizio guadagna al di sotto del minimo",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Daily takings by payment method with the till check",
+"kind": "title",
+"max": 60,
+"mt": "Incassi giornalieri con modalità di pagamento con assegno di cassa",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Studio months with profit after product, pay and costs",
+"kind": "title",
+"max": 60,
+"mt": "Mesi di studio con profitto dopo prodotto, retribuzione e costi",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Pay runs by staff member and month",
+"kind": "title",
+"max": 60,
+"mt": "La retribuzione viene eseguita per membro del personale e mese",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Income tax set-aside with the balance held",
+"kind": "title",
+"max": 60,
+"mt": "Accantonamento delle imposte sul reddito con il saldo trattenuto",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Growth project read as a new chair decision",
+"kind": "title",
+"max": 60,
+"mt": "Progetto di crescita letto come una nuova decisione della presidenza",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Growth project read as a new service decision",
+"kind": "title",
+"max": 60,
+"mt": "Progetto di crescita letto come una nuova decisione di servizio",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Growth project read as a second room decision",
+"kind": "title",
+"max": 60,
+"mt": "Progetto di crescita letto come una decisione di seconda stanza",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Daily till close with takings and cash variance",
+"kind": "title",
+"max": 60,
+"mt": "Giornaliero fino a chiusura con incassi e scostamento contante",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Profit per service and per chair hour after overhead",
+"kind": "title",
+"max": 60,
+"mt": "Profitto per servizio e per ora di sedia dopo le spese generali",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Sales tax return check from the taxable sales",
+"kind": "title",
+"max": 60,
+"mt": "Controllo della dichiarazione dei redditi dalle vendite imponibili",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Yearly profit change from a price rise",
+"kind": "title",
+"max": 60,
+"mt": "Variazione annuale del profitto derivante da un aumento del prezzo",
+"why": "too long: 66 characters, the limit is 60"
+}
+]
