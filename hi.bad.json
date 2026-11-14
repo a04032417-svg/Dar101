@@ -1,0 +1,51 @@
+[
+{
+"en": "Needs owner approval",
+"kind": "list",
+"max": 30,
+"mt": "स्वामी की स्वीकृति की आवश्यकता है",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Price rise restores the margin",
+"kind": "list",
+"max": 30,
+"mt": "मूल्य वृद्धि मार्जिन को बहाल करती है",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Win rate needs work",
+"kind": "list",
+"max": 30,
+"mt": "जीत की दर पर काम करने की जरूरत है",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Clients with price per m2, monthly value and rate card check",
+"kind": "title",
+"max": 60,
+"mt": "ग्राहक प्रति वर्ग मीटर मूल्य, मासिक मूल्य और मूल्य सूची की जाँच करें",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Office quotes by area, desks and visits per week",
+"kind": "title",
+"max": 60,
+"mt": "क्षेत्र, डेस्क और प्रति सप्ताह विज़िट के अनुसार कार्यालय उद्धरण",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Hello {prospect}, can we book a short site visit to measure your {area_m2} m2 so that the price is exact? Which day suits you?",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {prospect}, क्या हम आपके {area_m2} m2 को मापने के लिए एक छोटी साइट विजिट बुक कर सकते हैं ताकि कीमत सटीक हो? कौन सा दिन आपके लिए उपयुक्त है?",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Hello, the win rate of the last 90 days is {win_90}. Please look at the lost quotes and the prices.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, पिछले 90 दिनों की जीत दर {win_90} है। कृपया खोए हुए उद्धरण और कीमतों को देखें।",
+"why": "English/Latin words left: win"
+}
+]

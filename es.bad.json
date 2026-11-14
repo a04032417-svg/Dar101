@@ -1,0 +1,226 @@
+[
+{
+"en": "Area, rooms, frequency and add-on quote builder",
+"kind": "label",
+"max": 50,
+"mt": "Creador de cotizaciones de áreas, habitaciones, frecuencia y complementos",
+"why": "too long: 73 characters, the limit is 50"
+},
+{
+"en": "type the area or the rooms, the service, the frequency and the add-ons and get the labour hours, the cleaners, the price of the visit, the cost and the margin",
+"kind": "sentence",
+"max": 160,
+"mt": "escriba la zona o las habitaciones, el servicio, la frecuencia y los complementos y obtenga las horas de mano de obra, las limpiadoras, el precio de la visita, el coste y el margen",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "the price, hours and cleaners of every service and size band with the price per m2, per labour hour and the margin, checked against the market",
+"kind": "sentence",
+"max": 160,
+"mt": "el precio, horarios y personal de limpieza de cada servicio y franja de tamaño con el precio por m2, por hora de mano de obra y el margen, contrastados con el mercado",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "hours, crew size and price from the rooms, the state of the home, the dust level and the days you have, for the jobs that are quoted once",
+"kind": "sentence",
+"max": 160,
+"mt": "horas, tamaño de la cuadrilla y precio de las habitaciones, el estado de la vivienda, el nivel de polvo y los días que tiene, para los trabajos que se cotizan una vez",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Post construction clean",
+"kind": "list",
+"max": 30,
+"mt": "Limpieza posterior a la construcción",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Pet hair treatment",
+"kind": "list",
+"max": 30,
+"mt": "Tratamiento del pelo de mascotas",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Needs owner approval",
+"kind": "list",
+"max": 30,
+"mt": "Necesita la aprobación del propietario",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Next step overdue",
+"kind": "list",
+"max": 30,
+"mt": "El siguiente paso está retrasado",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Margin is below target",
+"kind": "list",
+"max": 30,
+"mt": "El margen está por debajo del objetivo",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Price is above the minimum",
+"kind": "list",
+"max": 30,
+"mt": "El precio está por encima del mínimo.",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Price is below the minimum",
+"kind": "list",
+"max": 30,
+"mt": "El precio está por debajo del mínimo.",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Discount is within the limit",
+"kind": "list",
+"max": 30,
+"mt": "El descuento está dentro del límite.",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Discount is too deep",
+"kind": "list",
+"max": 30,
+"mt": "El descuento es demasiado grande.",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Price rise restores the margin",
+"kind": "list",
+"max": 30,
+"mt": "La subida de precios restablece el margen",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Price rise is too small",
+"kind": "list",
+"max": 30,
+"mt": "El aumento de precios es demasiado pequeño",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Crew size is enough",
+"kind": "list",
+"max": 30,
+"mt": "El tamaño de la tripulación es suficiente",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Price per hour is healthy",
+"kind": "list",
+"max": 30,
+"mt": "El precio por hora es saludable.",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Price per hour is too low",
+"kind": "list",
+"max": 30,
+"mt": "El precio por hora es demasiado bajo.",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Win rate needs work",
+"kind": "list",
+"max": 30,
+"mt": "La tasa de ganancia necesita mejorar",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Win rate is on target",
+"kind": "list",
+"max": 30,
+"mt": "La tasa de ganancia está en el objetivo",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Clients with price per m2, monthly value and rate card check",
+"kind": "title",
+"max": 60,
+"mt": "Clientes con precio por m2, valor mensual y consulta de lista de precios.",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Lead sources with cost per lead and usual win rate",
+"kind": "title",
+"max": 60,
+"mt": "Fuentes de clientes potenciales con costo por cliente potencial y tasa de ganancia habitual",
+"why": "too long: 91 characters, the limit is 60"
+},
+{
+"en": "Lost quotes with the price gap and competitor",
+"kind": "title",
+"max": 60,
+"mt": "Cotizaciones perdidas con la diferencia de precios y el competidor.",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Office quotes by area, desks and visits per week",
+"kind": "title",
+"max": 60,
+"mt": "Cotizaciones de oficinas por zona, escritorios y visitas por semana",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Move-out and deep-clean quotes by rooms and state",
+"kind": "title",
+"max": 60,
+"mt": "Cotizaciones de mudanza y limpieza profunda por habitaciones y estado",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Market price checks against the rate card",
+"kind": "title",
+"max": 60,
+"mt": "Verificaciones de precios de mercado contra la lista de precios.",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Quotes, price changes and job revenue by month",
+"kind": "title",
+"max": 60,
+"mt": "Cotizaciones, cambios de precios e ingresos laborales por mes.",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Value of quotes won",
+"kind": "label",
+"max": 30,
+"mt": "Valor de las cotizaciones ganadas",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Gain from price changes",
+"kind": "label",
+"max": 30,
+"mt": "Ganancia por cambios de precios",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Job revenue of the sample",
+"kind": "label",
+"max": 30,
+"mt": "Ingresos laborales de la muestra",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Post-construction hours, crew size and price",
+"kind": "title",
+"max": 60,
+"mt": "Horas posteriores a la construcción, tamaño del equipo y precio",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rate and hours against the profit of a visit",
+"kind": "title",
+"max": 60,
+"mt": "Cuadrícula What-if: tarifa y horas frente al beneficio de una visita",
+"why": "too long: 68 characters, the limit is 60"
+}
+]

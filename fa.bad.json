@@ -1,0 +1,65 @@
+[
+{
+"en": "Price rise restores the margin",
+"kind": "list",
+"max": 30,
+"mt": "افزایش قیمت باعث بازیابی حاشیه می شود",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Clients with price per m2, monthly value and rate card check",
+"kind": "title",
+"max": 60,
+"mt": "مشتریان با قیمت هر متر مربع، ارزش ماهانه و لیست قیمت چک می کنند",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Move-out and deep-clean quotes by rooms and state",
+"kind": "title",
+"max": 60,
+"mt": "نقل قول های جابجایی و تمیز کردن عمیق بر اساس اتاق ها و ایالت ها",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rate and hours against the profit of a visit",
+"kind": "title",
+"max": 60,
+"mt": "شبکه What-if: نرخ و ساعت در برابر سود یک بازدید",
+"why": "English/Latin words left: What if"
+},
+{
+"en": "Hello {prospect}, can we book a short site visit to measure your {area_m2} m2 so that the price is exact? Which day suits you?",
+"kind": "message",
+"max": null,
+"mt": "سلام {prospect}، آیا می توانیم یک بازدید کوتاه از سایت رزرو کنیم تا {area_m2} متر مربع شما را اندازه گیری کنیم تا قیمت دقیق باشد؟ کدام روز برای شما مناسب است؟",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Prospect: your office proposal",
+"kind": "label",
+"max": null,
+"mt": "Prospect: پیشنهاد دفتر شما",
+"why": "English/Latin words left: Prospect"
+},
+{
+"en": "Hello {prospect}, a question about your quote {quote_id}: is the area of {area_m2} m2 right, and is there anything we should add?",
+"kind": "message",
+"max": null,
+"mt": "سلام {prospect}، یک سوال در مورد نقل قول شما {quote_id}: آیا مساحت {area_m2} متر مربع درست است، و آیا چیزی وجود دارد که باید اضافه کنیم؟",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Hello, the win rate of the last 90 days is {win_90}. Please look at the lost quotes and the prices.",
+"kind": "message",
+"max": null,
+"mt": "سلام، نرخ برد 90 روز گذشته {win_90} است. لطفا به مظنه های گم شده و قیمت ها نگاه کنید.",
+"why": "English/Latin words left: win"
+},
+{
+"en": "Hello, please measure the rooms at the site visit for {prospect} on {date}: about {area_m2} m2, {rooms} rooms, condition {condition}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً اتاق‌های بازدید از سایت را برای {prospect} در {date} اندازه‌گیری کنید: حدود {area_m2} متر مربع، {rooms} اتاق، شرایط {condition}.",
+"why": "English/Latin words left: area"
+}
+]

@@ -1,0 +1,30 @@
+[
+{
+"en": "Hello {prospect}, can we book a short site visit to measure your {area_m2} m2 so that the price is exact? Which day suits you?",
+"kind": "message",
+"max": null,
+"mt": "您好 {prospect}，我们可以预约一次短暂的实地考察来测量您的 {area_m2} 平方米，以便确定价格吗？哪一天适合你？",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Hello {prospect}, a question about your quote {quote_id}: is the area of {area_m2} m2 right, and is there anything we should add?",
+"kind": "message",
+"max": null,
+"mt": "您好 {prospect}，关于您的报价 {quote_id} 的问题：{area_m2} m2 的面积正确吗？我们需要添加什么吗？",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Hello, the win rate of the last 90 days is {win_90}. Please look at the lost quotes and the prices.",
+"kind": "message",
+"max": null,
+"mt": "您好，过去 90 天的胜率是 {win_90}。请查看丢失的报价和价格。",
+"why": "English/Latin words left: win"
+},
+{
+"en": "Hello, please measure the rooms at the site visit for {prospect} on {date}: about {area_m2} m2, {rooms} rooms, condition {condition}.",
+"kind": "message",
+"max": null,
+"mt": "您好，请在{date}实地考察{prospect}时测量房间：约{area_m2}平方米，{rooms}个房间，条件{condition}。",
+"why": "English/Latin words left: area"
+}
+]

@@ -1,0 +1,30 @@
+[
+{
+"en": "Hello {prospect}, can we book a short site visit to measure your {area_m2} m2 so that the price is exact? Which day suits you?",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {prospect}، هل يمكننا حجز زيارة قصيرة للموقع لقياس {area_m2} م2 بحيث يكون السعر دقيقًا؟ أي يوم يناسبك؟",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Hello {prospect}, a question about your quote {quote_id}: is the area of {area_m2} m2 right, and is there anything we should add?",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {prospect}، سؤال حول عرضك {quote_id}: هل مساحة {area_m2} m2 صحيحة، وهل هناك أي شيء يجب أن نضيفه؟",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Hello, the win rate of the last 90 days is {win_90}. Please look at the lost quotes and the prices.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، معدل الفوز لآخر 90 يومًا هو {win_90}. يرجى إلقاء نظرة على الأسعار المفقودة والأسعار.",
+"why": "English/Latin words left: win"
+},
+{
+"en": "Hello, please measure the rooms at the site visit for {prospect} on {date}: about {area_m2} m2, {rooms} rooms, condition {condition}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، يرجى قياس الغرف في زيارة الموقع لمدة {prospect} في {date}: حوالي {are_m2} م2، {rooms} غرفة، الحالة {condition}.",
+"why": "English/Latin words left: are"
+}
+]

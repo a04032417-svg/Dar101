@@ -1,0 +1,121 @@
+[
+{
+"en": "Area, rooms, frequency and add-on quote builder",
+"kind": "label",
+"max": 50,
+"mt": "Площадь, комнаты, частота и дополнительный конструктор цен",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "hours measured on site against the hours estimated and the area against the quote, so a wrong estimate is found before the first visit",
+"kind": "sentence",
+"max": 160,
+"mt": "часы, измеренные на месте, в сравнении с расчетными часами, а площадь - в соответствии с ценой, поэтому неправильная оценка обнаруживается еще до первого посещения.",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Pet hair treatment",
+"kind": "list",
+"max": 30,
+"mt": "Лечение шерсти домашних животных",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Price rise is too small",
+"kind": "list",
+"max": 30,
+"mt": "Повышение цен слишком незначительное",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Win rate needs work",
+"kind": "list",
+"max": 30,
+"mt": "Процент побед требует доработки",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Win rate is on target",
+"kind": "list",
+"max": 30,
+"mt": "Процент побед находится на целевом уровне",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Clients with price per m2, monthly value and rate card check",
+"kind": "title",
+"max": 60,
+"mt": "Клиенты с ценой за м2, ежемесячной стоимостью и проверкой прайс-листа",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Price factor and visits per month by frequency",
+"kind": "title",
+"max": 60,
+"mt": "Ценовой коэффициент и количество посещений в месяц по частоте",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Monthly value lost",
+"kind": "label",
+"max": 30,
+"mt": "Потерянная ежемесячная стоимость",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Office quotes by area, desks and visits per week",
+"kind": "title",
+"max": 60,
+"mt": "Расценки на офисы по площади, количеству рабочих мест и посещений в неделю",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Post-construction hours, crew size and price",
+"kind": "title",
+"max": 60,
+"mt": "Часы работы после завершения строительства, численность бригады и цена",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rate and hours against the profit of a visit",
+"kind": "title",
+"max": 60,
+"mt": "Сетка «Что, если»: ставка и часы в сравнении с прибылью от посещения",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Hello {prospect}, can we book a short site visit to measure your {area_m2} m2 so that the price is exact? Which day suits you?",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {prospect}, можем ли мы заказать короткий визит на объект, чтобы измерить ваш {area_m2} м2, чтобы узнать точную цену? Какой день вам подходит?",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Hello {prospect}, a question about your quote {quote_id}: is the area of {area_m2} m2 right, and is there anything we should add?",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {prospect}, вопрос по вашей цитате {quote_id}: правильная ли площадь {area_m2} м2, и есть ли что-нибудь, что нам следует добавить?",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Hello, the win rate of the last 90 days is {win_90}. Please look at the lost quotes and the prices.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, процент побед за последние 90 дней — {win_90}. Пожалуйста, посмотрите на потерянные котировки и цены.",
+"why": "English/Latin words left: win"
+},
+{
+"en": "Hello, please measure the rooms at the site visit for {prospect} on {date}: about {area_m2} m2, {rooms} rooms, condition {condition}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пожалуйста, измерьте комнаты при посещении объекта для {prospect} на {date}: около {area_m2} м2, {rooms} комнат, состояние {condition}.",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Rate card line for a service and size band",
+"kind": "title",
+"max": 60,
+"mt": "Линия прейскурантов для определенного диапазона услуг и размера",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

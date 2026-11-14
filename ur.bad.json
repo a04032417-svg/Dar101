@@ -1,0 +1,51 @@
+[
+{
+"en": "Price rise restores the margin",
+"kind": "list",
+"max": 30,
+"mt": "قیمت میں اضافہ مارجن کو بحال کرتا ہے۔",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Clients with price per m2, monthly value and rate card check",
+"kind": "title",
+"max": 60,
+"mt": "قیمت فی m2 کے ساتھ کلائنٹ، ماہانہ قیمت اور قیمت کی فہرست کی جانچ پڑتال",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Site visits with measured against estimated hours",
+"kind": "title",
+"max": 60,
+"mt": "اندازے کے مطابق گھنٹوں کے مقابلے میں ماپا کے ساتھ سائٹ کے دورے",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {prospect}, can we book a short site visit to measure your {area_m2} m2 so that the price is exact? Which day suits you?",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {prospect}، کیا ہم آپ کے {rea_m2} m2 کی پیمائش کرنے کے لیے ایک مختصر سائٹ وزٹ بک کر سکتے ہیں تاکہ قیمت بالکل درست ہو؟ آپ کو کون سا دن مناسب ہے؟",
+"why": "English/Latin words left: rea"
+},
+{
+"en": "Hello {prospect}, a question about your quote {quote_id}: is the area of {area_m2} m2 right, and is there anything we should add?",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {prospect}، آپ کے اقتباس {quote_id} کے بارے میں ایک سوال: کیا {area_m2} m2 کا رقبہ درست ہے، اور کیا ہمیں کچھ شامل کرنا چاہیے؟",
+"why": "English/Latin words left: area"
+},
+{
+"en": "Hello, the win rate of the last 90 days is {win_90}. Please look at the lost quotes and the prices.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، پچھلے 90 دنوں کی جیت کی شرح {win_90} ہے۔ براہ کرم کھوئے ہوئے حوالوں اور قیمتوں کو دیکھیں۔",
+"why": "English/Latin words left: win"
+},
+{
+"en": "Hello, please measure the rooms at the site visit for {prospect} on {date}: about {area_m2} m2, {rooms} rooms, condition {condition}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، براہ کرم {date} کو {prospect} کے لیے سائٹ وزٹ پر کمروں کی پیمائش کریں: تقریباً {rea_m2} m2، {rooms} کمرے، حالت {condition}۔",
+"why": "English/Latin words left: rea"
+}
+]
