@@ -1,0 +1,44 @@
+[
+{
+"en": "Hello, the return rate of {name} is {return_rate} in 90 days: {returns_90d} returns of {units_90d} units. Please check the reasons.",
+"kind": "message",
+"max": null,
+"mt": "سلام، نرخ بازگشت {name} در 90 روز {return_rate} است: {returns_90d} برمی‌گرداند از {units_90d} واحد. لطفا دلایل را بررسی کنید.",
+"why": "English/Latin words left: returns units"
+},
+{
+"en": "Open Start and type your company name and your own numbers in the yellow cells: the lowest margin you accept, the order value for free shipping, the hours you want to take to reply and the days you aim to ship in.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و شماره‌های خود را در سلول‌های زرد تایپ کنید: کمترین حاشیه‌ای که می‌پذیرید، ارزش سفارش برای ارسال رایگان، ساعت‌هایی که می‌خواهید پاسخ دهید و روزهایی که می‌خواهید ارسال کنید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "every product to bring, the units packed, who packs and who makes it, with the gap and a warning when a fair is close and the crates are not full",
+"kind": "sentence",
+"max": 160,
+"mt": "هر محصولی که باید بیاورید، واحدهای بسته بندی شده، چه کسی بسته بندی می کند و چه کسی آن را می سازد، با شکاف و هشدار زمانی که نمایشگاه تعطیل است و جعبه ها پر نیستند",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "What to bring to each event, what is packed and the gap",
+"kind": "title",
+"max": 60,
+"mt": "چه چیزی را برای هر رویداد به ارمغان بیاوریم، چه چیزی پر است و شکاف",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Quotes sent for custom orders with total, margin and outcome",
+"kind": "title",
+"max": 60,
+"mt": "قیمت‌ها برای سفارش‌های سفارشی با کل، حاشیه و نتیجه ارسال می‌شوند",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "What-if grid: stall fee against expected sales",
+"kind": "title",
+"max": 60,
+"mt": "شبکه What-if: هزینه توقف در برابر فروش مورد انتظار",
+"why": "English/Latin words left: What if"
+}
+]

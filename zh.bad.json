@@ -1,0 +1,23 @@
+[
+{
+"en": "Hello, the return rate of {name} is {return_rate} in 90 days: {returns_90d} returns of {units_90d} units. Please check the reasons.",
+"kind": "message",
+"max": null,
+"mt": "您好，90 天内 {name} 的退货率为 {return_rate}：{returns_90d} 退货 {units_90d} 件。请检查原因。",
+"why": "English/Latin words left: returns units"
+},
+{
+"en": "Hello, refund {refund_id} of {amount} was recorded on {date} for order {order_no}, reason {reason}.",
+"kind": "message",
+"max": null,
+"mt": "您好，订单 {order_no} 的退款金额为 {amount}，已于 {date} 记录，原因为 {reason}。",
+"why": "placeholders must be exactly: {refund_id} {amount} {date} {order_no} {reason}"
+},
+{
+"en": "Packer: add the gift cards",
+"kind": "label",
+"max": null,
+"mt": "Packer：添加礼品卡",
+"why": "English/Latin words left: Packer"
+}
+]

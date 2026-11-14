@@ -1,0 +1,142 @@
+[
+{
+"en": "Hello, the return rate of {name} is {return_rate} in 90 days: {returns_90d} returns of {units_90d} units. Please check the reasons.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Коэффициент возврата {name} составляет {return_rate} за 90 дней: {returns_90d} возвращает {units_90d} единиц. Пожалуйста, проверьте причины.",
+"why": "English/Latin words left: returns units"
+},
+{
+"en": "Fair profit, stock lists, custom quotes and deposits for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Справедливая прибыль, списки акций, индивидуальные котировки и депозиты для производителей свечей и мыла.",
+"why": "too long: 105 characters, the limit is 80"
+},
+{
+"en": "Event profit after stall fee, helper and travel",
+"kind": "label",
+"max": 50,
+"mt": "Прибыль от мероприятия после платы за киоск, помощника и проезда",
+"why": "too long: 64 characters, the limit is 50"
+},
+{
+"en": "each fair shows sales, goods, stall fee, helper pay, travel and card fees, so profit and profit per helper hour are numbers and a loss turns red",
+"kind": "sentence",
+"max": 160,
+"mt": "на каждой ярмарке показаны продажи, товары, плата за палатку, оплата помощникам, командировочные и карточные сборы, поэтому прибыль и прибыль за час работы помощника представляют собой цифры, а убытки окрашиваются в красный цвет.",
+"why": "too long: 229 characters, the limit is 160"
+},
+{
+"en": "every product to bring, the units packed, who packs and who makes it, with the gap and a warning when a fair is close and the crates are not full",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый продукт, который нужно принести, упакованные единицы, кто его упаковывает и кто производит, с пробелом и предупреждением, когда ярмарка приближается, а ящики не заполнены",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "units, cost of one unit, setup fee, rush share and margin give the price of one unit, the quote and a check against your lowest margin",
+"kind": "sentence",
+"max": 160,
+"mt": "единицы, стоимость одной единицы, плата за установку, срочная доля и маржа — это цена одной единицы, котировка и проверка на соответствие вашей минимальной марже.",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "open custom orders with the maker, the due date, the days left and a flag for orders that are overdue or due soon",
+"kind": "sentence",
+"max": 160,
+"mt": "открытые индивидуальные заказы у производителя, срок выполнения, оставшиеся дни и пометка для заказов, которые просрочены или должны быть выполнены в ближайшее время",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "What to bring to each event, what is packed and the gap",
+"kind": "title",
+"max": 60,
+"mt": "Что взять с собой на каждое мероприятие, что упаковано и есть ли запас",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Staff shifts at each event with hours and pay",
+"kind": "title",
+"max": 60,
+"mt": "Персонал меняется на каждом мероприятии с указанием часов и оплаты.",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Applications to fairs with deadline, fee and decision",
+"kind": "title",
+"max": 60,
+"mt": "Заявки на ярмарки с указанием срока, размера оплаты и решения",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Custom orders with deposit, balance and due date",
+"kind": "title",
+"max": 60,
+"mt": "Индивидуальные заказы с указанием депозита, остатка и даты платежа",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Quotes sent for custom orders with total, margin and outcome",
+"kind": "title",
+"max": 60,
+"mt": "Котировки, отправляемые по индивидуальным заказам, с указанием общей суммы, маржи и результата.",
+"why": "too long: 95 characters, the limit is 60"
+},
+{
+"en": "Proofs sent for approval with rounds and days to approve",
+"kind": "title",
+"max": 60,
+"mt": "Доказательства отправлены на утверждение с указанием раундов и дней для утверждения.",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Custom order deliveries with method and delay",
+"kind": "title",
+"max": 60,
+"mt": "Доставка по индивидуальному заказу с указанием способа и задержки",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Corporate clients with orders, spend and last order",
+"kind": "title",
+"max": 60,
+"mt": "Корпоративные клиенты с заказами, расходами и последним заказом",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Display equipment with cost, age and where it is kept",
+"kind": "title",
+"max": 60,
+"mt": "Дисплейное оборудование со стоимостью, возрастом и местом хранения.",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Volume discount and setup fee for custom orders",
+"kind": "title",
+"max": 60,
+"mt": "Скидка за объем и плата за установку для индивидуальных заказов",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "The 24 products with price, cost and sell-through at events",
+"kind": "title",
+"max": 60,
+"mt": "24 продукта с указанием цены, стоимости и продаж на мероприятиях.",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Invoices for the balance of custom orders with days late",
+"kind": "title",
+"max": 60,
+"mt": "Счета-фактуры на остаток индивидуальных заказов с опозданием на несколько дней",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "What-if grid: stall fee against expected sales",
+"kind": "title",
+"max": 60,
+"mt": "Сетка «что, если»: плата за стойло в зависимости от ожидаемых продаж",
+"why": "too long: 68 characters, the limit is 60"
+}
+]

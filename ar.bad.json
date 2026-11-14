@@ -1,0 +1,30 @@
+[
+{
+"en": "Hello, the return rate of {name} is {return_rate} in 90 days: {returns_90d} returns of {units_90d} units. Please check the reasons.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، معدل الإرجاع {name} هو {return_rate} في 90 يومًا: {returns_90d} إرجاعات من {units_90d} وحدة. يرجى التحقق من الأسباب.",
+"why": "English/Latin words left: returns units"
+},
+{
+"en": "each fair shows sales, goods, stall fee, helper pay, travel and card fees, so profit and profit per helper hour are numbers and a loss turns red",
+"kind": "sentence",
+"max": 160,
+"mt": "يُظهر كل معرض المبيعات والسلع ورسوم المماطلة ودفع المساعدين ورسوم السفر والبطاقات، لذا فإن الربح والربح لكل ساعة مساعدة عبارة عن أرقام وتتحول الخسارة إلى اللون الأحمر",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Bring fewer next time",
+"kind": "list",
+"max": 30,
+"mt": "أحضر عددًا أقل في المرة القادمة",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Quotes sent for custom orders with total, margin and outcome",
+"kind": "title",
+"max": 60,
+"mt": "عروض الأسعار المرسلة للطلبات المخصصة مع الإجمالي والهامش والنتيجة",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

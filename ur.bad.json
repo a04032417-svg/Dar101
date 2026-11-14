@@ -1,0 +1,30 @@
+[
+{
+"en": "Hello, the return rate of {name} is {return_rate} in 90 days: {returns_90d} returns of {units_90d} units. Please check the reasons.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، 90 دنوں میں {name} کی واپسی کی شرح {return_rate} ہے: {returns_90d} {units_90d} یونٹس کی واپسی۔ براہ کرم وجوہات کی جانچ کریں۔",
+"why": "English/Latin words left: returns units"
+},
+{
+"en": "Fair profit, stock lists, custom quotes and deposits for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "موم بتی اور صابن بنانے والوں کے لیے منصفانہ منافع، اسٹاک کی فہرستیں، حسب ضرورت قیمتیں اور ڈپازٹس",
+"why": "too long: 96 characters, the limit is 80"
+},
+{
+"en": "Quotes sent for custom orders with total, margin and outcome",
+"kind": "title",
+"max": 60,
+"mt": "کل، مارجن اور نتائج کے ساتھ حسب ضرورت آرڈرز کے لیے بھیجے گئے کوٹس",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Proofs sent for approval with rounds and days to approve",
+"kind": "title",
+"max": 60,
+"mt": "راؤنڈ اور منظوری کے دنوں کے ساتھ منظوری کے لیے بھیجے گئے ثبوت",
+"why": "too long: 61 characters, the limit is 60"
+}
+]
