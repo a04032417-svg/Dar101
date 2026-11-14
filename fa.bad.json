@@ -1,0 +1,121 @@
+[
+{
+"en": "Match every payment to an invoice",
+"kind": "label",
+"max": null,
+"mt": "هر پرداختی را با یک فاکتور مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "List the payments you cannot match",
+"kind": "label",
+"max": null,
+"mt": "پرداخت هایی را که نمی توانید مطابقت دهید فهرست کنید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name and your own rules in the yellow cells: the grace days, the late fee, the days for each reminder step, the deposit share, the overdue amount you accept and the days you want clients to pay within.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و قوانین خود را در سلول‌های زرد تایپ کنید: روزهای مهلت، هزینه تأخیر، روزهای هر مرحله یادآوری، سهم سپرده، مبلغ معوقی که می‌پذیرید و روزهایی که می‌خواهید مشتریان در آن پرداخت کنند.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Record every payment on Payments and the weekly totals on Cash Received by Week; a part payment keeps the invoice open with the balance that remains.",
+"kind": "sentence",
+"max": null,
+"mt": "ثبت هر پرداخت در Payments و مجموع هفتگی در وجه نقد دریافتی در هفته. بخشی از پرداخت فاکتور را با موجودی باقیمانده باز نگه می دارد.",
+"why": "English/Latin words left: Payments"
+},
+{
+"en": "Keep the clients you win and see a lost contract before it is gone",
+"kind": "sentence",
+"max": 80,
+"mt": "مشتریانی را که برنده می‌کنید نگه دارید و قبل از اینکه قراردادی از بین برود، یک قرارداد از دست رفته را ببینید",
+"why": "too long: 108 characters, the limit is 80"
+},
+{
+"en": "Price held for a year",
+"kind": "list",
+"max": 30,
+"mt": "قیمت برای یک سال نگهداری می شود",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Free re-clean promise",
+"kind": "list",
+"max": 30,
+"mt": "نوید بازدید از نظافت مجدد رایگان",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Coordinator calls today",
+"kind": "list",
+"max": 30,
+"mt": "هماهنگ کننده امروز تماس می گیرد",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Coordinator can approve",
+"kind": "list",
+"max": 30,
+"mt": "هماهنگ کننده می تواند تایید کند",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Thank them and name the topic",
+"kind": "list",
+"max": 30,
+"mt": "از آنها تشکر کنید و موضوع را نام ببرید",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Say sorry and offer to fix it",
+"kind": "list",
+"max": 30,
+"mt": "متاسفم و پیشنهاد رفع آن را بدهید",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Ask them to call the office",
+"kind": "list",
+"max": 30,
+"mt": "از آنها بخواهید با دفتر تماس بگیرند",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Share the praise with the crew",
+"kind": "list",
+"max": 30,
+"mt": "ستایش را با خدمه به اشتراک بگذارید",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Invite them to book again",
+"kind": "list",
+"max": 30,
+"mt": "آنها را برای رزرو مجدد دعوت کنید",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Credits, re-clean cost, value lost and rewards by month",
+"kind": "title",
+"max": 60,
+"mt": "اعتبار، هزینه بازدید از نظافت مجدد، ارزش از دست رفته و جوایز ماهانه",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Whether an offer to a lost client pays back",
+"kind": "title",
+"max": 60,
+"mt": "اینکه آیا پیشنهادی به مشتری از دست رفته بازپرداخت می کند یا خیر",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: monthly churn against the clients you have",
+"kind": "title",
+"max": 60,
+"mt": "شبکه چه می‌شود: ماهانه در برابر مشتریانی که دارید، مخالفت کنید",
+"why": "too long: 62 characters, the limit is 60"
+}
+]
