@@ -597,6 +597,7 @@ class Builder:
                 for row in tb['demo']:
                     d_ = parse_date(row.get(c['key']), self.today)
                     if d_: years[d_.year] = years.get(d_.year, 0) + 1
+        if EDITION_EN and years.get(self.today.year, 0) >= 12: return self.today.year   # English edition: the demo opens on the current year when it has data (buyers saw last year first)
         return max(years, key=lambda y: (years[y], y)) if years else self.today.year
 
     def form(self, f):
