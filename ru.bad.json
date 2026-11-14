@@ -1,0 +1,233 @@
+[
+{
+"en": "Head count against contract guests per event type",
+"kind": "title",
+"max": 60,
+"mt": "Подсчет количества гостей по контракту для каждого типа мероприятия",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Fill Shuttle Manifest, Room Block, VIPs and Speakers and Place Cards for the events that need them.",
+"kind": "sentence",
+"max": null,
+"mt": "Заполните Манифест шаттла, Комнатный блок, VIP-персоны и спикеры и Карты мест для событий, которым они нужны.",
+"why": "English/Latin words left: VIP"
+},
+{
+"en": "Run-of-show, milestones, vendor arrivals and day-of plans for event planners",
+"kind": "sentence",
+"max": 80,
+"mt": "Завершение показа, основные этапы, прибытие поставщиков и планы на день для организаторов мероприятий",
+"why": "too long: 101 characters, the limit is 80"
+},
+{
+"en": "Run-of-show with overlap finder",
+"kind": "label",
+"max": 50,
+"mt": "Run-of-show с поиском перекрытий",
+"why": "English/Latin words left: Run of show"
+},
+{
+"en": "Venue curfew and load-out deadline",
+"kind": "label",
+"max": 50,
+"mt": "Комендантский час на объекте и крайний срок разгрузки",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "load-in opens, curfew and load-out deadline for each venue, and a check of every event's finish against the curfew",
+"kind": "sentence",
+"max": 160,
+"mt": "открытие загрузки, комендантский час и крайний срок выгрузки для каждого объекта, а также проверка окончания каждого мероприятия на соответствие комендантскому часу.",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Weather and backup decision time",
+"kind": "label",
+"max": 50,
+"mt": "Погода и время принятия решения о резервном копировании",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Vendor check-in with minutes late",
+"kind": "label",
+"max": 50,
+"mt": "Регистрация продавца с опозданием на несколько минут",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "Issues log with the fix and the minutes lost",
+"kind": "label",
+"max": 50,
+"mt": "Журнал проблем с исправлениями и потерянными минутами",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "Post-event debrief with open follow-ups",
+"kind": "label",
+"max": 50,
+"mt": "Подведение итогов после мероприятия с открытыми последующими действиями",
+"why": "too long: 71 characters, the limit is 50"
+},
+{
+"en": "Team solved it on site",
+"kind": "list",
+"max": 30,
+"mt": "Команда решила проблему на месте",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Emergency and repair",
+"kind": "list",
+"max": 30,
+"mt": "Аварийно-восстановительные работы",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Stage and AV",
+"kind": "list",
+"max": 30,
+"mt": "Сцена и AV",
+"why": "English/Latin words left: AV"
+},
+{
+"en": "Finish fits the curfew",
+"kind": "list",
+"max": 30,
+"mt": "Отделка соответствует комендантскому часу",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Finish is after the curfew",
+"kind": "list",
+"max": 30,
+"mt": "Финиш – после комендантского часа",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Service fits the slot",
+"kind": "list",
+"max": 30,
+"mt": "Сервис соответствует требованиям",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Set-up fits the time",
+"kind": "list",
+"max": 30,
+"mt": "Настройка соответствует времени",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Set-up needs more crew",
+"kind": "list",
+"max": 30,
+"mt": "Для установки требуется больше команды",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Events with days to go and run-of-show state",
+"kind": "title",
+"max": 60,
+"mt": "События с указанием дней до конца и состоянием временной шкалы событий.",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Planning milestones with due dates and overdue flags",
+"kind": "title",
+"max": 60,
+"mt": "Планирование этапов со сроками выполнения и флажками просрочки",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Venue load-in, curfew and load-out deadline",
+"kind": "title",
+"max": 60,
+"mt": "Крайний срок загрузки объекта, комендантского часа и выгрузки",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Day-of team roster with hours and overtime",
+"kind": "title",
+"max": 60,
+"mt": "Состав команды на день с указанием часов и сверхурочной работы",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Emergency kit and emergency contacts with check dates",
+"kind": "title",
+"max": 60,
+"mt": "Аварийный комплект и контакты для экстренных случаев с датами проверки",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Vendor check-in with minutes late and set-up on time",
+"kind": "title",
+"max": 60,
+"mt": "Регистрация продавца с опозданием на несколько минут и установка вовремя",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Post-event debriefs with the score and open follow-ups",
+"kind": "title",
+"max": 60,
+"mt": "Подведение итогов после мероприятия с указанием результатов и открытыми последующими действиями.",
+"why": "too long: 96 characters, the limit is 60"
+},
+{
+"en": "Guests, minutes lost and minutes to fix by month",
+"kind": "title",
+"max": 60,
+"mt": "Гости, потерянные минуты и минуты, которые нужно исправить, по месяцам",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Issue report sheet with fix and minutes lost",
+"kind": "title",
+"max": 60,
+"mt": "Лист отчета о проблеме с исправлениями и потерянными минутами",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Minutes between run-of-show items and the clash finder",
+"kind": "title",
+"max": 60,
+"mt": "Минуты между элементами временной шкалы событий и средством поиска конфликтов",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Catering service timing with servers and courses",
+"kind": "title",
+"max": 60,
+"mt": "Время обслуживания общественного питания с серверами и курсами",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Programme length from speeches, acts and changeovers",
+"kind": "title",
+"max": 60,
+"mt": "Продолжительность программы от речей, выступлений и смены мест",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Finish time against the curfew and the load-out deadline",
+"kind": "title",
+"max": 60,
+"mt": "Время окончания комендантского часа и крайнего срока выгрузки",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "What-if grid: guests and servers against serving time",
+"kind": "title",
+"max": 60,
+"mt": "Сетка «что если»: гости и серверы против времени обслуживания",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Hello, you have {ms_due7} milestones due soon for {event_id}. Please check the list.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, у вас скоро должны быть выполнены этапы {ms_due7} для {event_id}. Пожалуйста, проверьте список.",
+"why": "English/Latin words left: ms due"
+}
+]

@@ -1,0 +1,93 @@
+[
+{
+"en": "each weather risk with its backup plan, the set-up minutes and the time you must decide by, with a flag when it is too late to switch",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक मौसम का जोखिम इसकी बैकअप योजना, सेट-अप मिनटों और आपके द्वारा तय किए जाने वाले समय के साथ होता है, जब स्विच करने में बहुत देर हो जाती है तो एक ध्वज के साथ",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Issues log with the fix and the minutes lost",
+"kind": "label",
+"max": 50,
+"mt": "समस्याएँ ठीक होने और नष्ट हुए मिनटों के साथ लॉग होती हैं",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Post-event debrief with open follow-ups",
+"kind": "label",
+"max": 50,
+"mt": "खुली अनुवर्ती कार्रवाई के साथ घटना के बाद की संक्षिप्त जानकारी",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "Team solved it on site",
+"kind": "list",
+"max": 30,
+"mt": "टीम ने मौके पर ही इसका समाधान कर दिया",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Packed, not loaded",
+"kind": "list",
+"max": 30,
+"mt": "पैक किया गया, लोड नहीं किया गया",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Too late to switch",
+"kind": "list",
+"max": 30,
+"mt": "स्विच करने में बहुत देर हो चुकी है",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Programme fits the slot",
+"kind": "list",
+"max": 30,
+"mt": "प्रोग्राम स्लॉट में फिट बैठता है",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Set-up needs more crew",
+"kind": "list",
+"max": 30,
+"mt": "सेट-अप के लिए अधिक क्रू की आवश्यकता है",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Load-out misses the deadline",
+"kind": "list",
+"max": 30,
+"mt": "लोड-आउट की समय सीमा चूक जाती है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Planning milestones with due dates and overdue flags",
+"kind": "title",
+"max": 60,
+"mt": "नियत तिथियों और अतिदेय झंडों के साथ मील के पत्थर की योजना बनाना",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Vendor check-in with minutes late and set-up on time",
+"kind": "title",
+"max": 60,
+"mt": "विक्रेता मिनटों की देरी से चेक-इन करता है और समय पर सेट-अप करता है",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Guests, minutes lost and minutes to fix by month",
+"kind": "title",
+"max": 60,
+"mt": "मेहमान, खोए हुए मिनट और महीने के हिसाब से ठीक करने के लिए मिनट",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello, you have {ms_due7} milestones due soon for {event_id}. Please check the list.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, आपके पास जल्द ही {event_id} के लिए {ms_due7} मील के पत्थर हैं। कृपया सूची की जांच करें.",
+"why": "English/Latin words left: ms due"
+}
+]

@@ -1,0 +1,30 @@
+[
+{
+"en": "Stage and AV",
+"kind": "list",
+"max": 30,
+"mt": "المرحلة وAV",
+"why": "English/Latin words left: AV"
+},
+{
+"en": "Set-up needs more crew",
+"kind": "list",
+"max": 30,
+"mt": "الإعداد يحتاج إلى المزيد من الطاقم",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Day-of budget cash: float, tips, purchases and receipts",
+"kind": "title",
+"max": 60,
+"mt": "يوم الميزانية النقدية: التعويم، والنصائح، والمشتريات والإيصالات",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Hello, you have {ms_due7} milestones due soon for {event_id}. Please check the list.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، لديك {ms_due7} من الإنجازات المستحقة قريبًا في {event_id}. يرجى التحقق من القائمة.",
+"why": "English/Latin words left: ms due"
+}
+]
