@@ -1,0 +1,177 @@
+[
+{
+"en": "Cash forecast, reserves, owner draw and growth targets for your portfolio",
+"kind": "sentence",
+"max": 80,
+"mt": "Kasprognoses, reserves, eigenaarsaantallen en groeidoelstellingen voor uw portefeuille",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "rent, costs, loan payments, rehab draws, owner draw and the balloon week by week, with the closing cash and a warning when it nears or falls below your floor",
+"kind": "sentence",
+"max": 160,
+"mt": "huur, kosten, afbetalingen van leningen, trekkingen voor revalidatie, trekking van eigenaren en de ballon van week tot week, met het slotbedrag en een waarschuwing wanneer deze uw vloer nadert of onderschrijdt",
+"why": "too long: 209 characters, the limit is 160"
+},
+{
+"en": "every loan payment, tax, premium, contractor draw and the balloon with its due date, days left and an overdue or due-soon check",
+"kind": "sentence",
+"max": 160,
+"mt": "elke leningbetaling, belasting, premie, aannemerstrekking en de ballon met de vervaldatum, resterende dagen en een cheque die te laat is of binnenkort moet worden betaald",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Cash stays above the floor",
+"kind": "list",
+"max": 30,
+"mt": "Contant geld blijft boven de vloer",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cash falls below the floor",
+"kind": "list",
+"max": 30,
+"mt": "Contant geld valt onder de vloer",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cash is short for the purchase",
+"kind": "list",
+"max": 30,
+"mt": "Contant geld is een tekort voor de aankoop",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Money is available to invest",
+"kind": "list",
+"max": 30,
+"mt": "Er is geld beschikbaar om te investeren",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "No money to invest yet",
+"kind": "list",
+"max": 30,
+"mt": "Er is nog geen geld om te investeren",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Balloon needs a refinance",
+"kind": "list",
+"max": 30,
+"mt": "Balloon heeft een herfinanciering nodig",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Refinance releases cash",
+"kind": "list",
+"max": 30,
+"mt": "Herfinanciering maakt contant geld vrij",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Refinance releases little",
+"kind": "list",
+"max": 30,
+"mt": "Herfinanciering maakt weinig vrij",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "13-week forecast: closing cash week by week",
+"kind": "title",
+"max": 60,
+"mt": "Voorspelling voor 13 weken: contant geld week na week afsluiten",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Reserves by property: months of loan payments and costs held",
+"kind": "title",
+"max": 60,
+"mt": "Reserveringen per eigendom: maanden aan leningbetalingen en ingehouden kosten",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Owner draws: what was taken out and who approved it",
+"kind": "title",
+"max": 60,
+"mt": "Eigenaar trekt: wat is verwijderd en wie heeft het goedgekeurd",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Funding sources: where the money for purchases can come from",
+"kind": "title",
+"max": 60,
+"mt": "Financieringsbronnen: waar het geld voor aankopen vandaan kan komen",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Growth targets: doors, cash flow and net worth each quarter",
+"kind": "title",
+"max": 60,
+"mt": "Groeidoelstellingen: deuren, cashflow en nettowaarde per kwartaal",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Draws: money released to contractors as work is finished",
+"kind": "title",
+"max": 60,
+"mt": "Trekkingen: geld dat wordt vrijgegeven aan aannemers als het werk is voltooid",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Capital calls: money asked from partners and private lenders",
+"kind": "title",
+"max": 60,
+"mt": "Kapitaaloproepen: geld gevraagd van partners en particuliere kredietverstrekkers",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Weekly cash log: cash in, cash out and closing cash",
+"kind": "title",
+"max": 60,
+"mt": "Wekelijks kaslogboek: uitbetalen, uitbetalen en contant afsluiten",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Safe owner draw: what you can take and keep the cash floor",
+"kind": "title",
+"max": 60,
+"mt": "Veilige opname door eigenaar: wat u kunt meenemen en de cashvloer kunt behouden",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Cash needed for the next purchase: total cash and the gap",
+"kind": "title",
+"max": 60,
+"mt": "Geld nodig voor de volgende aankoop: totaal contant geld en het gat",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Months until the next purchase and the date you could buy",
+"kind": "title",
+"max": 60,
+"mt": "Maanden tot de volgende aankoop en de datum waarop u kon kopen",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Refinance cash release: cash that could fund a purchase",
+"kind": "title",
+"max": 60,
+"mt": "Vrijgave van contant geld herfinancieren: contant geld waarmee een aankoop kan worden gefinancierd",
+"why": "too long: 98 characters, the limit is 60"
+},
+{
+"en": "Cash-on-cash of a purchase plan: return and payback",
+"kind": "title",
+"max": 60,
+"mt": "Contant op contant geld van een aankoop-plan: rendement en terugverdientijd",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "What-if grid: purchases a year against cash-on-cash",
+"kind": "title",
+"max": 60,
+"mt": "What-if-raster: aankopen per jaar tegen cash-on-cash rendement",
+"why": "too long: 62 characters, the limit is 60"
+}
+]
