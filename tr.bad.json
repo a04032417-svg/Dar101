@@ -1,0 +1,212 @@
+[
+{
+"en": "Client record with patch test and consent dates",
+"kind": "label",
+"max": 50,
+"mt": "Yama testi ve izin tarihlerini içeren müşteri kaydı",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Patch test expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Yama testinin süresi yakında doluyor",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Consent form expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Onay formunun süresi yakında doluyor",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Patch test due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Ziyaretten önce yama testi yapılacak",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Consent form due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Ziyaretten önce teslim edilmesi gereken onay formu",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Patch test and consent due",
+"kind": "list",
+"max": 30,
+"mt": "Yama testi ve onay zamanı geldi",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Booked soon, no patch test",
+"kind": "list",
+"max": 30,
+"mt": "Yakında rezervasyon yapıldı, yama testi yok",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Patch test expires before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Yama testinin süresi ziyaretten önce dolar",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Allergy note needs a review",
+"kind": "list",
+"max": 30,
+"mt": "Alerji notunun gözden geçirilmesi gerekiyor",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Redo fix booked",
+"kind": "list",
+"max": 30,
+"mt": "Rezervasyonu düzeltmeyi yeniden yap",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Invite to rebook now",
+"kind": "list",
+"max": 30,
+"mt": "Şimdi yeniden rezervasyon yapmaya davet edin",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Thank with a small gift",
+"kind": "list",
+"max": 30,
+"mt": "Küçük bir hediye ile teşekkür ederim",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Rebook now",
+"kind": "list",
+"max": 30,
+"mt": "Şimdi yeniden rezervasyon yaptırın",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Overdue, send a reminder",
+"kind": "list",
+"max": 30,
+"mt": "Gecikmiş, bir hatırlatma gönder",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Patch test valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Ziyaret gününde geçerli olan yama testi",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Consent form valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Ziyaret gününde geçerli onam formu",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is healthy",
+"kind": "list",
+"max": 30,
+"mt": "Yeni müşteri başına maliyet sağlıklı",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is high",
+"kind": "list",
+"max": 30,
+"mt": "Yeni müşteri başına maliyet yüksek",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Client value above the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Kazanma maliyetinin üzerinde müşteri değeri",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Client value below the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Müşteri değeri kazanma maliyetinin altında",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Conflict, check before the service",
+"kind": "list",
+"max": 30,
+"mt": "Uyuşmazlık, servisten önce kontrol edin",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Birthday offer pays back",
+"kind": "list",
+"max": 30,
+"mt": "Doğum günü teklifi karşılığını veriyor",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Birthday offer costs more than it earns",
+"kind": "list",
+"max": 30,
+"mt": "Doğum günü teklifinin maliyeti kazandığından daha fazla",
+"why": "too long: 55 characters, the limit is 30"
+},
+{
+"en": "Referrals pay back the reward",
+"kind": "list",
+"max": 30,
+"mt": "Yönlendirmeler ödülü geri ödüyor",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Client records with patch test, consent and readiness",
+"kind": "title",
+"max": 60,
+"mt": "Yama testi, onay ve hazır olma durumunu içeren müşteri kayıtları",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Client preferences for quiet visits, drinks and contact",
+"kind": "title",
+"max": 60,
+"mt": "Sessiz ziyaretler, içecekler ve iletişim için müşteri tercihleri",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Services with minutes, price, deposit and patch test need",
+"kind": "title",
+"max": 60,
+"mt": "Dakika, fiyat, depozito ve yama testi ihtiyacı olan hizmetler",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Rebooking due date and days overdue from the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Son ziyaretten sonra vade tarihi ve geciken günleri yeniden ayırtma",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Tier and next step from visits, spend and the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Ziyaretler, harcama ve son ziyaretten sonraki aşama ve sonraki adım",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Client value for an average ticket against visits a year",
+"kind": "title",
+"max": 60,
+"mt": "Yıllık ziyaretlere karşılık ortalama bir bilet için müşteri değeri",
+"why": "too long: 66 characters, the limit is 60"
+}
+]

@@ -1,0 +1,30 @@
+[
+{
+"en": "Hello, deposit {deposit_id} of {amount} is held for {client} for the appointment on {date}. Days held: {days_held}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{amount} 的押金为 {client}，用于 {date} 的预约。举行天数：{days_held}。",
+"why": "placeholders must be exactly: {deposit_id} {amount} {client} {date} {days_held}"
+},
+{
+"en": "Spend from which a client is a VIP",
+"kind": "setting",
+"max": null,
+"mt": "客户成为 VIP 的支出",
+"why": "English/Latin words left: VIP"
+},
+{
+"en": "Spend to the VIP level",
+"kind": "label",
+"max": null,
+"mt": "消费至VIP级别",
+"why": "English/Latin words left: VIP"
+},
+{
+"en": "Type the visits, the spend and the days since the last visit; see the tier (new or occasional, regular, loyal, VIP or lapsed), the distance to the next tier and the next step.",
+"kind": "sentence",
+"max": null,
+"mt": "输入访问次数、花费以及自上次访问以来的天数；查看等级（新的或偶尔的、常规的、忠诚的、VIP 或已失效）、到下一个等级的距离以及下一步。",
+"why": "English/Latin words left: VIP"
+}
+]

@@ -1,0 +1,282 @@
+[
+{
+"en": "Revenue lost by no-show rate and appointments",
+"kind": "title",
+"max": 60,
+"mt": "Pendapatan hilang karena tingkat janji temu dan janji temu yang terlewat",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Cancellation or no-show notice to a client",
+"kind": "title",
+"max": 60,
+"mt": "Pemberitahuan pembatalan atau janji temu yang terlewat kepada klien",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Client record with patch test and consent dates",
+"kind": "label",
+"max": 50,
+"mt": "Catatan klien dengan uji tempel dan tanggal persetujuan",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Patch test expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Uji tempel akan segera berakhir",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Patch test expired",
+"kind": "list",
+"max": 30,
+"mt": "Uji tempel sudah habis masa berlakunya",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Consent form expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Formulir persetujuan akan segera habis masa berlakunya",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Consent form due",
+"kind": "list",
+"max": 30,
+"mt": "Formulir persetujuan sudah jatuh tempo",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Consent form expired",
+"kind": "list",
+"max": 30,
+"mt": "Formulir persetujuan sudah habis masa berlakunya",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Ready for the next visit",
+"kind": "list",
+"max": 30,
+"mt": "Siap untuk kunjungan berikutnya",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Patch test due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Uji tempel harus dilakukan sebelum kunjungan",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Consent form due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Formulir persetujuan harus dikumpulkan sebelum kunjungan",
+"why": "too long: 56 characters, the limit is 30"
+},
+{
+"en": "Patch test and consent due",
+"kind": "list",
+"max": 30,
+"mt": "Uji tempel dan persetujuan jatuh tempo",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "No visit booked",
+"kind": "list",
+"max": 30,
+"mt": "Tidak ada kunjungan yang dipesan",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Record expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Catatan akan segera habis masa berlakunya",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Record expired",
+"kind": "list",
+"max": 30,
+"mt": "Catatan sudah habis masa berlakunya",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Booked soon, no patch test",
+"kind": "list",
+"max": 30,
+"mt": "Segera dipesan, tanpa uji tempel",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Patch test expires before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Uji tempel berakhir sebelum kunjungan",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Offer a package or membership",
+"kind": "list",
+"max": 30,
+"mt": "Tawarkan paket atau keanggotaan",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Invite to rebook now",
+"kind": "list",
+"max": 30,
+"mt": "Undang untuk memesan ulang sekarang",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "On time to rebook",
+"kind": "list",
+"max": 30,
+"mt": "Tepat waktu untuk memesan ulang",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Patch test valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Patch test berlaku pada hari kunjungan",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Consent form valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Formulir persetujuan berlaku pada hari kunjungan",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is healthy",
+"kind": "list",
+"max": 30,
+"mt": "Biaya per klien baru masuk akal",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client value above the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Nilai klien di atas biaya untuk menang",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Client value below the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Nilai klien di bawah biaya untuk menang",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Conflict, check before the service",
+"kind": "list",
+"max": 30,
+"mt": "Konflik, periksa sebelum layanan",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Birthday offer pays back",
+"kind": "list",
+"max": 30,
+"mt": "Tawaran ulang tahun terbayar kembali",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Birthday offer costs more than it earns",
+"kind": "list",
+"max": 30,
+"mt": "Tawaran ulang tahun harganya lebih mahal daripada penghasilannya",
+"why": "too long: 64 characters, the limit is 30"
+},
+{
+"en": "Referrals pay back the reward",
+"kind": "list",
+"max": 30,
+"mt": "Referensi membayar kembali hadiahnya",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Record has missing items",
+"kind": "list",
+"max": 30,
+"mt": "Catatan memiliki item yang hilang",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Before and after photo log with consent to share",
+"kind": "title",
+"max": 60,
+"mt": "Catatan foto sebelum dan sesudah dengan persetujuan untuk dibagikan",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Client preferences for quiet visits, drinks and contact",
+"kind": "title",
+"max": 60,
+"mt": "Preferensi klien untuk kunjungan yang tenang, minuman dan kontak",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Services with minutes, price, deposit and patch test need",
+"kind": "title",
+"max": 60,
+"mt": "Layanan dengan menit, harga, deposit, dan kebutuhan uji tempel",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Client data requests with due date and days open",
+"kind": "title",
+"max": 60,
+"mt": "Permintaan data klien dengan tanggal jatuh tempo dan hari terbuka",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Consent form with signed and expiry dates",
+"kind": "title",
+"max": 60,
+"mt": "Formulir persetujuan dengan tanggal ditandatangani dan kadaluarsa",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Before and after photo entry with consent to share",
+"kind": "title",
+"max": 60,
+"mt": "Entri foto sebelum dan sesudah dengan persetujuan untuk dibagikan",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Rebooking due date and days overdue from the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Tanggal jatuh tempo pemesanan ulang dan hari terlambat sejak kunjungan terakhir",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Is the consent form still valid on the visit day",
+"kind": "title",
+"max": 60,
+"mt": "Apakah formulir persetujuan masih berlaku pada hari kunjungan",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Tier and next step from visits, spend and the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Tingkat dan langkah selanjutnya dari kunjungan, pembelanjaan, dan kunjungan terakhir",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Client value for an average ticket against visits a year",
+"kind": "title",
+"max": 60,
+"mt": "Nilai klien untuk tiket rata-rata dibandingkan kunjungan setahun",
+"why": "too long: 64 characters, the limit is 60"
+}
+]

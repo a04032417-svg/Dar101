@@ -1,0 +1,345 @@
+[
+{
+"en": "Chair capacity report for one technician and weekday",
+"kind": "title",
+"max": 60,
+"mt": "Informe de capacidad de silla para un técnico y día laborable",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Client record with patch test and consent dates",
+"kind": "label",
+"max": 50,
+"mt": "Registro de cliente con prueba de parche y fechas de consentimiento",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "contact details, allergy note, patch test and consent form with their dates, the days since the last visit, the tier and a record score on one row",
+"kind": "sentence",
+"max": 160,
+"mt": "datos de contacto, nota de alergia, prueba de parche y formulario de consentimiento con sus fechas, los días desde la última visita, el nivel y una puntuación de registro en una fila",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "Gift card holder",
+"kind": "list",
+"max": 30,
+"mt": "Titular de la tarjeta de regalo",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Patch test expires soon",
+"kind": "list",
+"max": 30,
+"mt": "La prueba del parche caduca pronto",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "No patch test needed",
+"kind": "list",
+"max": 30,
+"mt": "No se necesita prueba de parche",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Consent form valid",
+"kind": "list",
+"max": 30,
+"mt": "Formulario de consentimiento válido",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Consent form expires soon",
+"kind": "list",
+"max": 30,
+"mt": "El formulario de consentimiento caduca pronto",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Consent form due",
+"kind": "list",
+"max": 30,
+"mt": "Formulario de consentimiento debido",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Consent form expired",
+"kind": "list",
+"max": 30,
+"mt": "El formulario de consentimiento expiró",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Patch test due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Prueba de parche antes de la visita.",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Consent form due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Formulario de consentimiento pendiente antes de la visita.",
+"why": "too long: 58 characters, the limit is 30"
+},
+{
+"en": "Patch test and consent due",
+"kind": "list",
+"max": 30,
+"mt": "Prueba de parche y consentimiento debido",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Booked soon, no patch test",
+"kind": "list",
+"max": 30,
+"mt": "Reservado pronto, no hay prueba de parche",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Patch test expires before the visit",
+"kind": "list",
+"max": 30,
+"mt": "La prueba de parche caduca antes de la visita.",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Allergy note needs a review",
+"kind": "list",
+"max": 30,
+"mt": "La nota de alergia necesita una revisión",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Invite to rebook now",
+"kind": "list",
+"max": 30,
+"mt": "Invitar a volver a reservar ahora",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Thank with a small gift",
+"kind": "list",
+"max": 30,
+"mt": "Agradecer con un pequeño regalo.",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Send a win-back offer",
+"kind": "list",
+"max": 30,
+"mt": "Enviar una oferta de recuperación",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "On time to rebook",
+"kind": "list",
+"max": 30,
+"mt": "A tiempo para volver a reservar",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Patch test valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Prueba de parche válida el día de la visita.",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Consent form valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Formulario de consentimiento válido el día de la visita.",
+"why": "too long: 56 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is healthy",
+"kind": "list",
+"max": 30,
+"mt": "El costo por nuevo cliente es saludable",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is high",
+"kind": "list",
+"max": 30,
+"mt": "El costo por nuevo cliente es alto",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Client value above the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Valor para el cliente por encima del costo de ganar",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Client value below the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Valor para el cliente por debajo del costo de ganar",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Conflict, check before the service",
+"kind": "list",
+"max": 30,
+"mt": "Conflicto, verifique antes del servicio.",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "No conflict found",
+"kind": "list",
+"max": 30,
+"mt": "No se encontró ningún conflicto",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Birthday offer pays back",
+"kind": "list",
+"max": 30,
+"mt": "La oferta de cumpleaños se amortiza",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Birthday offer costs more than it earns",
+"kind": "list",
+"max": 30,
+"mt": "La oferta de cumpleaños cuesta más de lo que gana",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Referrals pay back the reward",
+"kind": "list",
+"max": 30,
+"mt": "Las referencias devuelven la recompensa",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Referral reward is too high",
+"kind": "list",
+"max": 30,
+"mt": "La recompensa por recomendación es demasiado alta",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "May keep in the client record",
+"kind": "list",
+"max": 30,
+"mt": "Puede mantenerse en el registro del cliente.",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Record has missing items",
+"kind": "list",
+"max": 30,
+"mt": "Al registro le faltan elementos",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client records with patch test, consent and readiness",
+"kind": "title",
+"max": 60,
+"mt": "Registros de clientes con prueba de parche, consentimiento y preparación",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Patch tests, consent forms and allergy reviews",
+"kind": "title",
+"max": 60,
+"mt": "Pruebas de parche, formularios de consentimiento y revisiones de alergias",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Before and after photo log with consent to share",
+"kind": "title",
+"max": 60,
+"mt": "Registro de fotos de antes y después con consentimiento para compartir.",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Client preferences for quiet visits, drinks and contact",
+"kind": "title",
+"max": 60,
+"mt": "Preferencias del cliente por visitas tranquilas, bebidas y contacto.",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Services with minutes, price, deposit and patch test need",
+"kind": "title",
+"max": 60,
+"mt": "Servicios con necesidad de minutos, precio, depósito y prueba de parche.",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Client data requests with due date and days open",
+"kind": "title",
+"max": 60,
+"mt": "Solicitudes de datos de clientes con fecha de vencimiento y días abiertos",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "New client card with patch test and consent",
+"kind": "title",
+"max": 60,
+"mt": "Nueva tarjeta de cliente con prueba de parche y consentimiento",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Consent form with signed and expiry dates",
+"kind": "title",
+"max": 60,
+"mt": "Formulario de consentimiento con firma y fechas de vencimiento",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Before and after photo entry with consent to share",
+"kind": "title",
+"max": 60,
+"mt": "Entrada de fotos de antes y después con consentimiento para compartir.",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Birthday offer with the days left to use it",
+"kind": "title",
+"max": 60,
+"mt": "Oferta de cumpleaños con los días que quedan para utilizarla.",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Rebooking due date and days overdue from the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Fecha de vencimiento de la nueva reserva y días de retraso desde la última visita",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Is the patch test still valid on the day of the visit",
+"kind": "title",
+"max": 60,
+"mt": "¿La prueba del parche sigue siendo válida el día de la visita?",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Is the consent form still valid on the visit day",
+"kind": "title",
+"max": 60,
+"mt": "¿El formulario de consentimiento sigue siendo válido el día de la visita?",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Score of a client record out of the required fields",
+"kind": "title",
+"max": 60,
+"mt": "Puntuación de un registro de cliente fuera de los campos obligatorios",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Client value for an average ticket against visits a year",
+"kind": "title",
+"max": 60,
+"mt": "Valor para el cliente por un ticket medio frente a visitas al año",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

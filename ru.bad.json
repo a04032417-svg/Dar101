@@ -1,0 +1,275 @@
+[
+{
+"en": "Revenue lost by no-show rate and appointments",
+"kind": "title",
+"max": 60,
+"mt": "Доход, потерянный из-за количества пропущенных встреч и встреч",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "contact details, allergy note, patch test and consent form with their dates, the days since the last visit, the tier and a record score on one row",
+"kind": "sentence",
+"max": 160,
+"mt": "контактные данные, примечание об аллергии, патч-тест и форма согласия с указанием дат, дней с момента последнего посещения, уровня и рекордного балла в одной строке.",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Spend from which a client is a VIP",
+"kind": "setting",
+"max": null,
+"mt": "Расходы, от которых клиент становится VIP",
+"why": "English/Latin words left: VIP"
+},
+{
+"en": "Patch test expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия патч-теста скоро истечет",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Patch test due",
+"kind": "list",
+"max": 30,
+"mt": "Приближается тестирование патча",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Consent form expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия формы согласия скоро истечет",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Consent form expired",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия формы согласия истек",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Patch test due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Перед визитом необходимо провести патч-тест",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Consent form due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Форма согласия, которую необходимо заполнить до визита",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Patch test and consent due",
+"kind": "list",
+"max": 30,
+"mt": "Тестирование исправлений и получение согласия",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Booked soon, no patch test",
+"kind": "list",
+"max": 30,
+"mt": "Скоро забронировано, без патч-теста",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Patch test expires before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия патч-теста истекает до посещения",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Allergy note needs a review",
+"kind": "list",
+"max": 30,
+"mt": "Примечание об аллергии требует проверки",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Redo fix booked",
+"kind": "list",
+"max": 30,
+"mt": "Повторное исправление забронировано",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Invite to rebook now",
+"kind": "list",
+"max": 30,
+"mt": "Пригласить перебронировать сейчас",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Thank with a small gift",
+"kind": "list",
+"max": 30,
+"mt": "Отблагодарить небольшим подарком",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Send a win-back offer",
+"kind": "list",
+"max": 30,
+"mt": "Отправьте предложение о возврате денег",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Overdue, send a reminder",
+"kind": "list",
+"max": 30,
+"mt": "Просрочено, отправить напоминание",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Patch test valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Патч-тест действителен в день посещения",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Consent form valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Форма согласия действительна в день посещения.",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is healthy",
+"kind": "list",
+"max": 30,
+"mt": "Стоимость за нового клиента является здоровой",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is high",
+"kind": "list",
+"max": 30,
+"mt": "Стоимость нового клиента высока",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client value above the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Ценность клиента выше затрат на победу",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Client value below the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Ценность клиента ниже затрат на победу",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Conflict, check before the service",
+"kind": "list",
+"max": 30,
+"mt": "Конфликт, проверьте перед обслуживанием",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Birthday offer pays back",
+"kind": "list",
+"max": 30,
+"mt": "Предложение на день рождения окупается",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Birthday offer costs more than it earns",
+"kind": "list",
+"max": 30,
+"mt": "Предложение на день рождения стоит больше, чем зарабатывает",
+"why": "too long: 59 characters, the limit is 30"
+},
+{
+"en": "Referrals pay back the reward",
+"kind": "list",
+"max": 30,
+"mt": "Рефералы возвращают вознаграждение",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Referral reward is too high",
+"kind": "list",
+"max": 30,
+"mt": "Реферальное вознаграждение слишком велико",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "May keep in the client record",
+"kind": "list",
+"max": 30,
+"mt": "Может храниться в учетной записи клиента",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Client preferences for quiet visits, drinks and contact",
+"kind": "title",
+"max": 60,
+"mt": "Предпочтения клиента в отношении тихих посещений, напитков и контактов",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Services with minutes, price, deposit and patch test need",
+"kind": "title",
+"max": 60,
+"mt": "Услуги с указанием минут, цены, депозита и необходимости тестирования патчей",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Birthday offers with use and days left",
+"kind": "title",
+"max": 60,
+"mt": "Предложения на день рождения с использованием и оставшимися днями",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Birthday offer with the days left to use it",
+"kind": "title",
+"max": 60,
+"mt": "Предложение на день рождения с оставшимися днями, чтобы им воспользоваться",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Spend to the VIP level",
+"kind": "label",
+"max": null,
+"mt": "Тратьте на VIP-уровень",
+"why": "English/Latin words left: VIP"
+},
+{
+"en": "Rebooking due date and days overdue from the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Срок перебронирования и дни просрочки с момента последнего визита",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Tier and next step from visits, spend and the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Уровень и следующий шаг с учетом посещений, расходов и последнего посещения.",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Type the visits, the spend and the days since the last visit; see the tier (new or occasional, regular, loyal, VIP or lapsed), the distance to the next tier and the next step.",
+"kind": "sentence",
+"max": null,
+"mt": "Введите посещения, расходы и дни с момента последнего посещения; увидеть уровень (новый или случайный, обычный, лояльный, VIP или истекший), расстояние до следующего уровня и следующий шаг.",
+"why": "English/Latin words left: VIP"
+},
+{
+"en": "Client value for an average ticket against visits a year",
+"kind": "title",
+"max": 60,
+"mt": "Ценность клиента за средний чек по сравнению с посещениями в год",
+"why": "too long: 64 characters, the limit is 60"
+}
+]

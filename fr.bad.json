@@ -1,0 +1,324 @@
+[
+{
+"en": "Revenue lost by no-show rate and appointments",
+"kind": "title",
+"max": 60,
+"mt": "Revenus perdus en raison du taux de rendez-vous manqués et des rendez-vous",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Chair capacity report for one technician and weekday",
+"kind": "title",
+"max": 60,
+"mt": "Rapport de capacité de chaise pour un technicien et un jour de semaine",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Client record with patch test and consent dates",
+"kind": "label",
+"max": 50,
+"mt": "Dossier client avec patch test et dates de consentement",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "contact details, allergy note, patch test and consent form with their dates, the days since the last visit, the tier and a record score on one row",
+"kind": "sentence",
+"max": 160,
+"mt": "coordonnées, note d'allergie, test cutané et formulaire de consentement avec leurs dates, les jours depuis la dernière visite, le niveau et un score record sur une ligne",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "every upcoming visit that needs a patch test with the date on file, the days to the visit and a flag when the test is missing or runs out first",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque visite à venir nécessitant un test cutané avec la date inscrite dans le dossier, les jours de la visite et un indicateur lorsque le test est manquant ou épuisé en premier",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Patch test expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Le test de patch expire bientôt",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Consent form valid",
+"kind": "list",
+"max": 30,
+"mt": "Formulaire de consentement valide",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Consent form expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Le formulaire de consentement expire bientôt",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Consent form expired",
+"kind": "list",
+"max": 30,
+"mt": "Formulaire de consentement expiré",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Patch test due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Test patch à effectuer avant la visite",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Consent form due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Formulaire de consentement à remettre avant la visite",
+"why": "too long: 53 characters, the limit is 30"
+},
+{
+"en": "Patch test and consent due",
+"kind": "list",
+"max": 30,
+"mt": "Test de patch et consentement requis",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Booked soon, no patch test",
+"kind": "list",
+"max": 30,
+"mt": "Réservé bientôt, pas de patch test",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Patch test expires before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Le test patch expire avant la visite",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Allergy note needs a review",
+"kind": "list",
+"max": 30,
+"mt": "La note sur les allergies doit être révisée",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Kept as two records",
+"kind": "list",
+"max": 30,
+"mt": "Conservé sous forme de deux enregistrements",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Offer a package or membership",
+"kind": "list",
+"max": 30,
+"mt": "Proposer un forfait ou un abonnement",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Invite to rebook now",
+"kind": "list",
+"max": 30,
+"mt": "Inviter à réserver à nouveau maintenant",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Send a win-back offer",
+"kind": "list",
+"max": 30,
+"mt": "Envoyer une offre de reconquête",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "On time to rebook",
+"kind": "list",
+"max": 30,
+"mt": "À temps pour réserver à nouveau",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Patch test valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Patch test valable le jour de la visite",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Consent form valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Formulaire de consentement valable le jour de la visite",
+"why": "too long: 55 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is healthy",
+"kind": "list",
+"max": 30,
+"mt": "Le coût par nouveau client est sain",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is high",
+"kind": "list",
+"max": 30,
+"mt": "Le coût par nouveau client est élevé",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Client value above the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Valeur client supérieure au coût pour gagner",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Client value below the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Valeur client inférieure au coût pour gagner",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Conflict, check before the service",
+"kind": "list",
+"max": 30,
+"mt": "Conflit, vérifier avant le service",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Birthday offer pays back",
+"kind": "list",
+"max": 30,
+"mt": "L'offre d'anniversaire est payante",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Birthday offer costs more than it earns",
+"kind": "list",
+"max": 30,
+"mt": "L'offre d'anniversaire coûte plus cher qu'elle ne rapporte",
+"why": "too long: 58 characters, the limit is 30"
+},
+{
+"en": "Referrals pay back the reward",
+"kind": "list",
+"max": 30,
+"mt": "Les références remboursent la récompense",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Referral reward is too high",
+"kind": "list",
+"max": 30,
+"mt": "La récompense de parrainage est trop élevée",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "May keep in the client record",
+"kind": "list",
+"max": 30,
+"mt": "Peut conserver dans le dossier client",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Record has missing items",
+"kind": "list",
+"max": 30,
+"mt": "L'enregistrement contient des éléments manquants",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Client records with patch test, consent and readiness",
+"kind": "title",
+"max": 60,
+"mt": "Dossiers clients avec test de patch, consentement et préparation",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Patch tests, consent forms and allergy reviews",
+"kind": "title",
+"max": 60,
+"mt": "Tests cutanés, formulaires de consentement et examens des allergies",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Client preferences for quiet visits, drinks and contact",
+"kind": "title",
+"max": 60,
+"mt": "Préférences des clients pour les visites tranquilles, les boissons et le contact",
+"why": "too long: 80 characters, the limit is 60"
+},
+{
+"en": "Services with minutes, price, deposit and patch test need",
+"kind": "title",
+"max": 60,
+"mt": "Services avec minutes, prix, dépôt et besoin de test de patch",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Team and outside contacts with studio figures",
+"kind": "title",
+"max": 60,
+"mt": "Contacts d'équipe et extérieurs avec des personnalités du studio",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Redo requests with the outcome and days to resolve",
+"kind": "title",
+"max": 60,
+"mt": "Refaire les demandes avec le résultat et les jours pour résoudre",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Client data requests with due date and days open",
+"kind": "title",
+"max": 60,
+"mt": "Demandes de données clients avec date d'échéance et jours d'ouverture",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Consent form with signed and expiry dates",
+"kind": "title",
+"max": 60,
+"mt": "Formulaire de consentement avec dates signées et d'expiration",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Rebooking due date and days overdue from the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Date d'échéance de la nouvelle réservation et jours de retard depuis la dernière visite",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "Is the consent form still valid on the visit day",
+"kind": "title",
+"max": 60,
+"mt": "Le formulaire de consentement est-il toujours valable le jour de la visite",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Does a product match an allergy the client noted",
+"kind": "title",
+"max": 60,
+"mt": "Un produit correspond-il à une allergie constatée par le client",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Tier and next step from visits, spend and the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Niveau et étape suivante à partir des visites, des dépenses et de la dernière visite",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Client value for an average ticket against visits a year",
+"kind": "title",
+"max": 60,
+"mt": "Valeur client pour un ticket moyen par rapport aux visites par an",
+"why": "too long: 65 characters, the limit is 60"
+}
+]
