@@ -1,0 +1,310 @@
+[
+{
+"en": "Price check of a service against its category target",
+"kind": "title",
+"max": 60,
+"mt": "Verificación del precio de un servicio en comparación con su categoría objetivo",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "every technician day shows booked and bookable minutes, utilisation, free minutes and a day check, so you see the chair you can still sell",
+"kind": "sentence",
+"max": 160,
+"mt": "Cada día del técnico muestra los minutos reservados y reservables, la utilización, los minutos libres y un control diario, para que veas la silla que aún puedes vender.",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Rebooked at desk",
+"kind": "list",
+"max": 30,
+"mt": "Reservado nuevamente en el escritorio",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Offered a later slot",
+"kind": "list",
+"max": 30,
+"mt": "Se ofreció un espacio posterior",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Asked another technician to cover",
+"kind": "list",
+"max": 30,
+"mt": "Le pedí a otro técnico que cubriera",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "End time matches",
+"kind": "list",
+"max": 30,
+"mt": "Partidos de hora de finalización",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "End time differs",
+"kind": "list",
+"max": 30,
+"mt": "La hora de finalización es diferente",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Booked up to 2 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Reservado con hasta 2 días de antelación.",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Booked 3 to 7 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Reservado con 3 a 7 días de antelación.",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Booked 8 to 14 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Reservado con 8 a 14 días de antelación",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Booked 15 to 28 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Reservado con 15 a 28 días de antelación.",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Booked over 28 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Reservado con más de 28 días de antelación",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Deposit used on the service",
+"kind": "list",
+"max": 30,
+"mt": "Depósito utilizado en el servicio.",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Deposit kept in full",
+"kind": "list",
+"max": 30,
+"mt": "Depósito mantenido en su totalidad",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "No fee, slot freed early",
+"kind": "list",
+"max": 30,
+"mt": "Sin cargo, espacio liberado anticipadamente",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Moved later than booked",
+"kind": "list",
+"max": 30,
+"mt": "Se mudó más tarde de lo reservado",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "No-show rate above target",
+"kind": "list",
+"max": 30,
+"mt": "Tasa de no presentación por encima del objetivo",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "No-show rate on target",
+"kind": "list",
+"max": 30,
+"mt": "Tasa de no presentación según el objetivo",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Reminder a day or more ahead",
+"kind": "list",
+"max": 30,
+"mt": "Recordatorio con un día o más de antelación",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Fee kept in full",
+"kind": "list",
+"max": 30,
+"mt": "Tarifa mantenida en su totalidad",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Utilisation under target",
+"kind": "list",
+"max": 30,
+"mt": "Utilización por debajo del objetivo",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Chair is busy enough",
+"kind": "list",
+"max": 30,
+"mt": "La silla está lo suficientemente ocupada",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Chair has room to sell",
+"kind": "list",
+"max": 30,
+"mt": "La silla tiene espacio para vender",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Day is overbooked, move appointments",
+"kind": "list",
+"max": 30,
+"mt": "El día está sobrevendido, cambie las citas",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "No-shows cost little",
+"kind": "list",
+"max": 30,
+"mt": "Las no presentaciones cuestan poco",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "No-shows cost a lot",
+"kind": "list",
+"max": 30,
+"mt": "Las no presentaciones cuestan mucho",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Part of the deposit is kept",
+"kind": "list",
+"max": 30,
+"mt": "Se conserva parte del depósito.",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Waiting list can fill the gap",
+"kind": "list",
+"max": 30,
+"mt": "La lista de espera puede llenar el vacío",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "More free time than waiting clients",
+"kind": "list",
+"max": 30,
+"mt": "Más tiempo libre que clientes esperando",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Booking window is long enough",
+"kind": "list",
+"max": 30,
+"mt": "La ventana de reserva es lo suficientemente larga.",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Send the reminder later",
+"kind": "list",
+"max": 30,
+"mt": "Enviar el recordatorio más tarde",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Day plan fits one technician",
+"kind": "list",
+"max": 30,
+"mt": "El plan diario se adapta a un técnico",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Day plan needs a second technician",
+"kind": "list",
+"max": 30,
+"mt": "El plan diario necesita un segundo técnico.",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Shorter set-up adds appointments",
+"kind": "list",
+"max": 30,
+"mt": "La configuración más corta agrega citas",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Longer set-up costs appointments",
+"kind": "list",
+"max": 30,
+"mt": "Citas con costos de instalación más largos",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Set-up time unchanged",
+"kind": "list",
+"max": 30,
+"mt": "Tiempo de preparación sin cambios",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Book is nearly full ahead",
+"kind": "list",
+"max": 30,
+"mt": "El libro está casi lleno por delante.",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Accept walk-ins today",
+"kind": "list",
+"max": 30,
+"mt": "Acepte visitas sin cita previa hoy",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Keep the free time for booked clients",
+"kind": "list",
+"max": 30,
+"mt": "Mantener el tiempo libre para los clientes reservados.",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Every client fits elsewhere",
+"kind": "list",
+"max": 30,
+"mt": "Cada cliente encaja en otro lugar",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Some clients need new days",
+"kind": "list",
+"max": 30,
+"mt": "Algunos clientes necesitan nuevos días",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Reminder schedule with the no-show rate of each reminder",
+"kind": "title",
+"max": 60,
+"mt": "Calendario de recordatorios con la tasa de citas perdidas de cada recordatorio",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Overbooking checks with minutes over and the action taken",
+"kind": "title",
+"max": 60,
+"mt": "Comprobaciones de overbooking con minutos superados y acción realizada",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Walk-ins to accept in the free time of a day",
+"kind": "title",
+"max": 60,
+"mt": "Visitas sin cita previa para aceptar en el tiempo libre de un día.",
+"why": "too long: 66 characters, the limit is 60"
+}
+]

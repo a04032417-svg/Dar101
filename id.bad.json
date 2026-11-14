@@ -1,0 +1,282 @@
+[
+{
+"en": "every technician day shows booked and bookable minutes, utilisation, free minutes and a day check, so you see the chair you can still sell",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap hari teknisi menunjukkan menit yang dipesan dan dapat dipesan, pemanfaatan, menit gratis, dan cek hari, sehingga Anda melihat kursi yang masih dapat Anda jual",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Asked another technician to cover",
+"kind": "list",
+"max": 30,
+"mt": "Meminta teknisi lain untuk meliput",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Booked 3 to 7 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Memesan 3 hingga 7 hari ke depan",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Booked 8 to 14 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Memesan 8 hingga 14 hari ke depan",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Booked 15 to 28 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Memesan 15 hingga 28 hari ke depan",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Booked over 28 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Memesan lebih dari 28 hari ke depan",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Wanted date passed",
+"kind": "list",
+"max": 30,
+"mt": "Tanggal yang diinginkan telah berlalu",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Deposit used on the service",
+"kind": "list",
+"max": 30,
+"mt": "Deposit yang digunakan pada layanan",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "No fee, slot freed early",
+"kind": "list",
+"max": 30,
+"mt": "Tanpa biaya, slot dibebaskan lebih awal",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Moved earlier than booked",
+"kind": "list",
+"max": 30,
+"mt": "Pindah lebih awal dari yang dipesan",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Moved later than booked",
+"kind": "list",
+"max": 30,
+"mt": "Pindah lebih lambat dari yang dipesan",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Same time as booked",
+"kind": "list",
+"max": 30,
+"mt": "Waktu yang sama seperti yang dipesan",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "No-show rate above target",
+"kind": "list",
+"max": 30,
+"mt": "Tingkat ketidakhadiran melebihi target",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "No-show rate on target",
+"kind": "list",
+"max": 30,
+"mt": "Tingkat ketidakhadiran sesuai target",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Reminder a day or more ahead",
+"kind": "list",
+"max": 30,
+"mt": "Pengingat satu hari atau lebih ke depan",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Chair has room to sell",
+"kind": "list",
+"max": 30,
+"mt": "Kursi memiliki ruang untuk dijual",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Appointment fits the day",
+"kind": "list",
+"max": 30,
+"mt": "Janji temu sesuai dengan hari itu",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Day is overbooked, move appointments",
+"kind": "list",
+"max": 30,
+"mt": "Hari sudah padat, pindahkan janji",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "No-shows cost little",
+"kind": "list",
+"max": 30,
+"mt": "Biaya ketidakhadiran tidak terlalu besar",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "No-shows cost a lot",
+"kind": "list",
+"max": 30,
+"mt": "Ketidakhadiran memerlukan biaya yang besar",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Full refund of the deposit",
+"kind": "list",
+"max": 30,
+"mt": "Pengembalian uang deposit secara penuh",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Waiting list can fill the gap",
+"kind": "list",
+"max": 30,
+"mt": "Daftar tunggu dapat mengisi kekosongan tersebut",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "More free time than waiting clients",
+"kind": "list",
+"max": 30,
+"mt": "Lebih banyak waktu luang daripada menunggu klien",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Open the book further ahead",
+"kind": "list",
+"max": 30,
+"mt": "Buka bukunya lebih jauh ke depan",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Day plan fits one technician",
+"kind": "list",
+"max": 30,
+"mt": "Rencana harian cocok untuk satu teknisi",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Day plan needs a second technician",
+"kind": "list",
+"max": 30,
+"mt": "Rencana hari membutuhkan teknisi kedua",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Shorter set-up adds appointments",
+"kind": "list",
+"max": 30,
+"mt": "Pengaturan yang lebih singkat menambah janji temu",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Longer set-up costs appointments",
+"kind": "list",
+"max": 30,
+"mt": "Pengaturan yang lebih lama memerlukan biaya janji temu",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Keep the free time for booked clients",
+"kind": "list",
+"max": 30,
+"mt": "Simpan waktu luang untuk klien yang dipesan",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Every client fits elsewhere",
+"kind": "list",
+"max": 30,
+"mt": "Setiap klien cocok di tempat lain",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Some clients need new days",
+"kind": "list",
+"max": 30,
+"mt": "Beberapa klien membutuhkan hari baru",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "No-shows and late cancels with revenue lost",
+"kind": "title",
+"max": 60,
+"mt": "Ketidakhadiran dan pembatalan yang terlambat menyebabkan hilangnya pendapatan",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Reminder schedule with the no-show rate of each reminder",
+"kind": "title",
+"max": 60,
+"mt": "Jadwal pengingat dengan tingkat janji temu yang terlewat dari setiap pengingat",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Overbooking checks with minutes over and the action taken",
+"kind": "title",
+"max": 60,
+"mt": "Pemeriksaan pemesanan berlebih dengan menit berlalu dan tindakan yang diambil",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Same-day changes with the minutes shifted",
+"kind": "title",
+"max": 60,
+"mt": "Perubahan pada hari yang sama seiring dengan pergeseran menit",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Appointments, no-shows and revenue by month",
+"kind": "title",
+"max": 60,
+"mt": "Janji temu, janji temu yang terlewat, dan pendapatan berdasarkan bulan",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Revenue, value lost and deposits kept by month",
+"kind": "title",
+"max": 60,
+"mt": "Pendapatan, nilai yang hilang, dan simpanan disimpan berdasarkan bulan",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "No-show follow-up with the call to make",
+"kind": "title",
+"max": 60,
+"mt": "Tindak lanjut ketidakhadiran dengan panggilan yang harus dilakukan",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Deposit with state, days held and refund",
+"kind": "title",
+"max": 60,
+"mt": "Setoran dengan negara bagian, hari ditahan dan pengembalian dana",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Revenue lost to no-shows and late cancels",
+"kind": "title",
+"max": 60,
+"mt": "Pendapatan hilang karena janji temu yang terlewat dan pembatalan yang terlambat",
+"why": "too long: 79 characters, the limit is 60"
+}
+]

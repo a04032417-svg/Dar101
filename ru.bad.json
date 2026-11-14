@@ -1,0 +1,296 @@
+[
+{
+"en": "Average minutes over plan by technician",
+"kind": "title",
+"max": 60,
+"mt": "Среднее количество минут сверх плана по техническим специалистам",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Technician day with bookable minutes",
+"kind": "label",
+"max": 50,
+"mt": "День технического специалиста с возможностью бронирования минут",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "every technician day shows booked and bookable minutes, utilisation, free minutes and a day check, so you see the chair you can still sell",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый день технического специалиста показывает забронированные и доступные для бронирования минуты, использование, свободные минуты и дневную проверку, так что вы видите кресло, которое все еще можете продать.",
+"why": "too long: 210 characters, the limit is 160"
+},
+{
+"en": "Rebooked at desk",
+"kind": "list",
+"max": 30,
+"mt": "Перебронировано на стойке регистрации",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Offered a later slot",
+"kind": "list",
+"max": 30,
+"mt": "Предлагается более поздний слот",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Asked another technician to cover",
+"kind": "list",
+"max": 30,
+"mt": "Попросил другого техника прикрыть",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Kept as booked",
+"kind": "list",
+"max": 30,
+"mt": "Сохранено согласно забронированному состоянию",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Booked 3 to 7 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Забронировано за 3-7 дней вперед",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Booked 8 to 14 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Забронировано за 8–14 дней вперед.",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Booked 15 to 28 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Забронировано за 15–28 дней вперед.",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Booked over 28 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Забронировано более чем за 28 дней вперед",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Offer is due",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия предложения истек",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Deposit used on the service",
+"kind": "list",
+"max": 30,
+"mt": "Депозит, использованный в услуге",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Deposit kept as a fee",
+"kind": "list",
+"max": 30,
+"mt": "Залог удерживается в качестве комиссии",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Deposit kept in full",
+"kind": "list",
+"max": 30,
+"mt": "Депозит сохранен в полном объеме",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "No fee, slot freed early",
+"kind": "list",
+"max": 30,
+"mt": "Без комиссии, слот освобождается досрочно",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Moved earlier than booked",
+"kind": "list",
+"max": 30,
+"mt": "Переехали раньше, чем было забронировано",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Moved later than booked",
+"kind": "list",
+"max": 30,
+"mt": "Переехал позже забронированного",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Same time as booked",
+"kind": "list",
+"max": 30,
+"mt": "В то же время, что и забронировано",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "No-show rate above target",
+"kind": "list",
+"max": 30,
+"mt": "Процент неявок выше целевого показателя",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Reminder a day or more ahead",
+"kind": "list",
+"max": 30,
+"mt": "Напоминание на день или больше вперед",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Fee kept in full",
+"kind": "list",
+"max": 30,
+"mt": "Плата сохраняется в полном объеме",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Utilisation under target",
+"kind": "list",
+"max": 30,
+"mt": "Использование ниже целевого показателя",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Day is overbooked, move appointments",
+"kind": "list",
+"max": 30,
+"mt": "День переполнен, перенесите встречи",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Waiting list can fill the gap",
+"kind": "list",
+"max": 30,
+"mt": "Список ожидания может заполнить пробел",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "More free time than waiting clients",
+"kind": "list",
+"max": 30,
+"mt": "Больше свободного времени, чем ожидание клиентов",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Booking window is long enough",
+"kind": "list",
+"max": 30,
+"mt": "Окно бронирования достаточно длинное",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Day plan fits one technician",
+"kind": "list",
+"max": 30,
+"mt": "План дня подходит для одного техника",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Day plan needs a second technician",
+"kind": "list",
+"max": 30,
+"mt": "План дня требует второго техника",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Shorter set-up adds appointments",
+"kind": "list",
+"max": 30,
+"mt": "При более короткой настройке добавляются встречи",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Longer set-up costs appointments",
+"kind": "list",
+"max": 30,
+"mt": "Длительные встречи с затратами на установку",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Plenty of free time ahead",
+"kind": "list",
+"max": 30,
+"mt": "Впереди много свободного времени",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Keep the free time for booked clients",
+"kind": "list",
+"max": 30,
+"mt": "Сохраняйте свободное время для забронированных клиентов",
+"why": "too long: 55 characters, the limit is 30"
+},
+{
+"en": "Every client fits elsewhere",
+"kind": "list",
+"max": 30,
+"mt": "Каждый клиент подходит для другого места",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Some clients need new days",
+"kind": "list",
+"max": 30,
+"mt": "Некоторым клиентам нужны новые дни",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Technician days with utilisation and overbooked flag",
+"kind": "title",
+"max": 60,
+"mt": "Дни технического специалиста с флагом использования и перебронирования",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Waiting list with days waiting and offer check",
+"kind": "title",
+"max": 60,
+"mt": "Список ожидания с указанием дней ожидания и проверки предложений",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Reminder schedule with the no-show rate of each reminder",
+"kind": "title",
+"max": 60,
+"mt": "График напоминаний с указанием частоты пропущенных встреч для каждого напоминания",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Overbooking checks with minutes over and the action taken",
+"kind": "title",
+"max": 60,
+"mt": "Проверка превышения бронирования с указанием минут и предпринятых действий.",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Revenue, value lost and deposits kept by month",
+"kind": "title",
+"max": 60,
+"mt": "Доход, потерянная стоимость и сохраненные депозиты по месяцам",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Walk-in or same-day booking record",
+"kind": "title",
+"max": 60,
+"mt": "Запись о бронировании без предварительной записи или в тот же день",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Free hours and revenue possible in the next 14 days",
+"kind": "title",
+"max": 60,
+"mt": "Бесплатные часы и доход возможны в течение следующих 14 дней.",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

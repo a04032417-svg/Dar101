@@ -1,0 +1,296 @@
+[
+{
+"en": "Price check of a service against its category target",
+"kind": "title",
+"max": 60,
+"mt": "Controllo del prezzo di un servizio rispetto al suo target di categoria",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Nearby studio price",
+"kind": "label",
+"max": 30,
+"mt": "Prezzo monolocale nelle vicinanze",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "every technician day shows booked and bookable minutes, utilisation, free minutes and a day check, so you see the chair you can still sell",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni giorno tecnico mostra i minuti prenotati e prenotabili, gli utilizzi, i minuti liberi ed un controllo giornaliero, così vedi la sedia che puoi ancora vendere",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "No-show and late-cancel log",
+"kind": "label",
+"max": 50,
+"mt": "Registro delle mancate presentazioni e delle cancellazioni tardive",
+"why": "too long: 66 characters, the limit is 50"
+},
+{
+"en": "Asked another technician to cover",
+"kind": "list",
+"max": 30,
+"mt": "Ho chiesto a un altro tecnico di coprire",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Booked up to 2 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Prenotato fino a 2 giorni prima",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Booked 3 to 7 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Prenotato da 3 a 7 giorni in anticipo",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Booked 8 to 14 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Prenotato da 8 a 14 giorni in anticipo",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Booked 15 to 28 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Prenotato da 15 a 28 giorni in anticipo",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Booked over 28 days ahead",
+"kind": "list",
+"max": 30,
+"mt": "Prenotato con più di 28 giorni di anticipo",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Deposit used on the service",
+"kind": "list",
+"max": 30,
+"mt": "Deposito utilizzato sul servizio",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Deposit kept as a fee",
+"kind": "list",
+"max": 30,
+"mt": "Deposito trattenuto a titolo di commissione",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "No fee, slot freed early",
+"kind": "list",
+"max": 30,
+"mt": "Nessuna commissione, slot liberato in anticipo",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Moved earlier than booked",
+"kind": "list",
+"max": 30,
+"mt": "Spostato prima di quanto prenotato",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Moved later than booked",
+"kind": "list",
+"max": 30,
+"mt": "Spostato più tardi di quanto prenotato",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "No-show rate above target",
+"kind": "list",
+"max": 30,
+"mt": "Tasso di mancata presentazione superiore al target",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "No-show rate on target",
+"kind": "list",
+"max": 30,
+"mt": "Tasso di mancata presentazione in linea con l'obiettivo",
+"why": "too long: 55 characters, the limit is 30"
+},
+{
+"en": "Reminder a day or more ahead",
+"kind": "list",
+"max": 30,
+"mt": "Promemoria un giorno o più in anticipo",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Appointment fits the day",
+"kind": "list",
+"max": 30,
+"mt": "L'appuntamento è adatto alla giornata",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Day is overbooked, move appointments",
+"kind": "list",
+"max": 30,
+"mt": "La giornata è overbooking, sposta gli appuntamenti",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "No-shows cost little",
+"kind": "list",
+"max": 30,
+"mt": "La mancata presentazione costa poco",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "No-shows cost a lot",
+"kind": "list",
+"max": 30,
+"mt": "La mancata presentazione costa molto",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Part of the deposit is kept",
+"kind": "list",
+"max": 30,
+"mt": "Parte del deposito viene trattenuta",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Waiting list can fill the gap",
+"kind": "list",
+"max": 30,
+"mt": "La lista d’attesa può colmare il divario",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "More free time than waiting clients",
+"kind": "list",
+"max": 30,
+"mt": "Più tempo libero che clienti in attesa",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Booking window is long enough",
+"kind": "list",
+"max": 30,
+"mt": "La finestra di prenotazione è abbastanza lunga",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Day plan fits one technician",
+"kind": "list",
+"max": 30,
+"mt": "Il piano giornaliero è adatto a un tecnico",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Day plan needs a second technician",
+"kind": "list",
+"max": 30,
+"mt": "Il piano giornaliero necessita di un secondo tecnico",
+"why": "too long: 52 characters, the limit is 30"
+},
+{
+"en": "Shorter set-up adds appointments",
+"kind": "list",
+"max": 30,
+"mt": "La configurazione più breve aggiunge appuntamenti",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Longer set-up costs appointments",
+"kind": "list",
+"max": 30,
+"mt": "Appuntamenti con costi di installazione più lunghi",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Set-up time unchanged",
+"kind": "list",
+"max": 30,
+"mt": "Orario di allestimento invariato",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Keep the free time for booked clients",
+"kind": "list",
+"max": 30,
+"mt": "Mantieni il tempo libero per i clienti prenotati",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Some clients need new days",
+"kind": "list",
+"max": 30,
+"mt": "Alcuni clienti hanno bisogno di nuovi giorni",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Appointment book with end check and lead time",
+"kind": "title",
+"max": 60,
+"mt": "Prenotazione degli appuntamenti con controllo finale e tempi di consegna",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "No-shows and late cancels with revenue lost",
+"kind": "title",
+"max": 60,
+"mt": "Mancate presentazioni e cancellazioni tardive con perdita di entrate",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Reminder schedule with the no-show rate of each reminder",
+"kind": "title",
+"max": 60,
+"mt": "Pianificazione dei promemoria con la percentuale di appuntamenti mancati per ciascun promemoria",
+"why": "too long: 95 characters, the limit is 60"
+},
+{
+"en": "Booking and cancellation rules with the fee on a deposit",
+"kind": "title",
+"max": 60,
+"mt": "Regole di prenotazione e cancellazione con addebito di caparra",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Weekday pattern per technician over 12 weeks",
+"kind": "title",
+"max": 60,
+"mt": "Schema dei giorni feriali per tecnico nell'arco di 12 settimane",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Overbooking checks with minutes over and the action taken",
+"kind": "title",
+"max": 60,
+"mt": "Verifiche dell'overbooking con i minuti trascorsi e l'azione intrapresa",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "No-show follow-up with the call to make",
+"kind": "title",
+"max": 60,
+"mt": "Follow-up per mancata presentazione con la chiamata da effettuare",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Revenue lost to no-shows and late cancels",
+"kind": "title",
+"max": 60,
+"mt": "Entrate perse a causa di appuntamenti mancati e cancellazioni tardive",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Appointments and revenue a waiting list can recover",
+"kind": "title",
+"max": 60,
+"mt": "Appuntamenti ed entrate che una lista d'attesa può recuperare",
+"why": "too long: 61 characters, the limit is 60"
+}
+]
