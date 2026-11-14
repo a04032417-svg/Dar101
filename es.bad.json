@@ -1,0 +1,44 @@
+[
+{
+"en": "Orders, quotes, deposits and daily limits for home bakeries and cake businesses",
+"kind": "sentence",
+"max": 80,
+"mt": "Pedidos, cotizaciones, depósitos y límites diarios para panaderías a domicilio y negocios de repostería",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "each quote shows its deposit, the days left, an expiry flag and the follow-up outcome, so no quote dies without a reply",
+"kind": "sentence",
+"max": 160,
+"mt": "Cada cotización muestra su depósito, los días restantes, un indicador de vencimiento y el resultado del seguimiento, por lo que ninguna cotización muere sin una respuesta.",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Guest count changed",
+"kind": "list",
+"max": 30,
+"mt": "El recuento de invitados cambió",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Orders are below the goal",
+"kind": "list",
+"max": 30,
+"mt": "Los pedidos están por debajo del objetivo.",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Birthday and occasion reminders for repeat clients",
+"kind": "title",
+"max": 60,
+"mt": "Recordatorios de cumpleaños y ocasiones para clientes habituales.",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "What-if grid: enquiries a week against conversion",
+"kind": "title",
+"max": 60,
+"mt": "Cuadrícula hipotética: consultas a la semana contra conversión",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

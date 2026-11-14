@@ -1,0 +1,86 @@
+[
+{
+"en": "Products re-priced in the last 12 months",
+"kind": "title",
+"max": 60,
+"mt": "Produkte, deren Preis in den letzten 12 Monaten geändert wurde",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Orders, quotes, deposits and daily limits for home bakeries and cake businesses",
+"kind": "sentence",
+"max": 80,
+"mt": "Bestellungen, Angebote, Anzahlungen und Tageslimits für Heimbäckereien und Konditoreien",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "every order shows its lead time, total, deposit asked and balance, with the rush and deposit flags filled in by themselves",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jede Bestellung werden die Lieferzeit, der Gesamtbetrag, die geforderte Anzahlung und der Saldo angezeigt, wobei die Eil- und Anzahlungsmarkierungen selbst ausgefüllt sind",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Allergy note check on every order",
+"kind": "label",
+"max": 50,
+"mt": "Überprüfung der Allergiehinweise bei jeder Bestellung",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "the deposit kept or refunded by the days before the due date, the refund amount and a note for the client",
+"kind": "sentence",
+"max": 160,
+"mt": "die Anzahlung, die innerhalb der Tage vor dem Fälligkeitsdatum einbehalten oder zurückerstattet wird, der Rückerstattungsbetrag und eine Mitteilung für den Kunden",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Allergen",
+"kind": "label",
+"max": null,
+"mt": "Allergen",
+"why": "not translated"
+},
+{
+"en": "Gluten",
+"kind": "list",
+"max": 30,
+"mt": "Gluten",
+"why": "not translated"
+},
+{
+"en": "Slots left",
+"kind": "list",
+"max": 30,
+"mt": "Es sind noch freie Plätze vorhanden",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Deposit is refunded",
+"kind": "list",
+"max": 30,
+"mt": "Die Anzahlung wird zurückerstattet",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Orders are below the goal",
+"kind": "list",
+"max": 30,
+"mt": "Die Bestellungen liegen unter dem Ziel",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Clients with orders, spend and days since the last order",
+"kind": "title",
+"max": 60,
+"mt": "Kunden mit Bestellungen, Ausgaben und Tagen seit der letzten Bestellung",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Cancellations with deposit kept and refund",
+"kind": "title",
+"max": 60,
+"mt": "Stornierungen mit Einbehaltung der Anzahlung und Rückerstattung",
+"why": "too long: 63 characters, the limit is 60"
+}
+]

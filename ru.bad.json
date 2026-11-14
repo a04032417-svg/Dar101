@@ -1,0 +1,44 @@
+[
+{
+"en": "Orders, quotes, deposits and daily limits for home bakeries and cake businesses",
+"kind": "sentence",
+"max": 80,
+"mt": "Заказы, котировки, депозиты и дневные лимиты для домашних пекарен и предприятий по производству тортов",
+"why": "too long: 102 characters, the limit is 80"
+},
+{
+"en": "Illness or emergency",
+"kind": "list",
+"max": 30,
+"mt": "Болезнь или чрезвычайная ситуация",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Rush surcharge applies",
+"kind": "list",
+"max": 30,
+"mt": "Взимается дополнительная плата за срочность.",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Quotes with days left and an expiry flag",
+"kind": "title",
+"max": 60,
+"mt": "Котировки с оставшимися днями и флажком истечения срока действия",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Clients with orders, spend and days since the last order",
+"kind": "title",
+"max": 60,
+"mt": "Клиенты с заказами, расходами и днями с момента последнего заказа",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Birthday and occasion reminders for repeat clients",
+"kind": "title",
+"max": 60,
+"mt": "Напоминания о днях рождения и событиях для постоянных клиентов",
+"why": "too long: 62 characters, the limit is 60"
+}
+]
