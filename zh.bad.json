@@ -1,0 +1,16 @@
+[
+{
+"en": "We offer {col:offers.offer_price} for the property at {col:offers.address} (asking price {col:offers.asking_price}).",
+"kind": "document",
+"max": null,
+"mt": "我们以 {col:offers.address} 的价格出售 {​​0} 的房产（要价 {col:offers.asking_price}）。",
+"why": "placeholders must be exactly: {col:offers.offer_price} {col:offers.address} {col:offers.asking_price}"
+},
+{
+"en": "Record each inspection on Inspections and each lender quote on Loan quotes. The repair share of the price and the cash to close fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "在“Inspections”上记录每次检查，并在“贷款报价”上记录每个贷方报价。修复份额的价格和现金收盘填写。",
+"why": "English/Latin words left: Inspections"
+}
+]

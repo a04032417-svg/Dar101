@@ -1,0 +1,107 @@
+[
+{
+"en": "Owner: a deal meets the target return",
+"kind": "label",
+"max": null,
+"mt": "مالک: یک معامله با بازده هدف مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, the analysis {analysis_id} for {address} meets the return target. The cash flow is {cash_flow} a year and the DSCR is {dscr}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، تجزیه و تحلیل {analysis_id} برای {address} با هدف بازگشتی مطابقت دارد. جریان نقدی سالانه {cash_flow} و نسبت پوشش خدمات بدهی {dscr} است.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name and your own targets in the yellow cells: the cash-on-cash return you want, the lowest DSCR, the loan share, the 70% rule, the management fee and the closing share.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و اهداف خود را در سلول های زرد تایپ کنید: بازده نقدی نقدی مورد نظرتان، کمترین نسبت پوشش خدمات بدهی، سهم وام، قانون 70 درصد، هزینه مدیریت و سهم پایانی.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Write every deal you look at on Deals with the asking price, your offer, the rehab budget, the ARV and the rent. The offer share of asking, the total cost, the gross yield, the cash needed and the decision flag fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "هر معامله ای را که در Deals نگاه می کنید با قیمت درخواستی، پیشنهاد خود، بودجه توانبخشی، ارزش تعمیرات پس از آن و اجاره نامه بنویسید. سهم پیشنهادی درخواست، هزینه کل، بازده ناخالص، پول نقد مورد نیاز و پرچم تصمیم پر می شود.",
+"why": "English/Latin words left: Deals"
+},
+{
+"en": "Record each offer on Offers with the counter-offer and the accepted price. The gap to asking and the offer flag show which offers expire soon.",
+"kind": "sentence",
+"max": null,
+"mt": "هر پیشنهاد را با پیشنهاد متقابل و قیمت پذیرفته شده در Offers ثبت کنید. شکاف در درخواست و پرچم پیشنهاد نشان می دهد که پیشنهادها به زودی منقضی می شوند.",
+"why": "English/Latin words left: Offers"
+},
+{
+"en": "Record each inspection on Inspections and each lender quote on Loan quotes. The repair share of the price and the cash to close fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "هر بازرسی را در Inspections و هر نقل قول وام دهنده را در مظنه وام ثبت کنید. سهم تعمیر قیمت و نقدی برای بسته شدن را پر کنید.",
+"why": "English/Latin words left: Inspections"
+},
+{
+"en": "Use the 14 calculators: rental and flip analysers, two maximum offers, closing costs, loan payment, rent and value estimators, rehab budget, five-year IRR, break-even, offer ladder, a what-if grid and a scorecard.",
+"kind": "sentence",
+"max": null,
+"mt": "از 14 ماشین حساب استفاده کنید: تحلیلگرهای اجاره و تلنگر، دو پیشنهاد حداکثر، هزینه های بسته شدن، پرداخت وام، برآورد کننده اجاره و ارزش، بودجه توانبخشی، نرخ بازده داخلی پنج ساله، نقطه سر به سر، نردبان پیشنهاد، شبکه what-if و کارت امتیاز.",
+"why": "English/Latin words left: what if"
+},
+{
+"en": "Rate comparison and what-if grid",
+"kind": "label",
+"max": 50,
+"mt": "مقایسه نرخ و شبکه what-if",
+"why": "English/Latin words left: what if"
+},
+{
+"en": "Line is heavily used",
+"kind": "list",
+"max": 30,
+"mt": "خط به شدت مورد استفاده قرار می گیرد",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "DSCR passes",
+"kind": "list",
+"max": 30,
+"mt": "نسبت پوشش خدمات بدهی عبور می کند",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "DSCR fails",
+"kind": "list",
+"max": 30,
+"mt": "نسبت پوشش خدمات بدهی با شکست مواجه می شود",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Loan A costs less over five years",
+"kind": "list",
+"max": 30,
+"mt": "هزینه وام A در طول پنج سال کمتر است",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Loan B costs less over five years",
+"kind": "list",
+"max": 30,
+"mt": "هزینه وام B در طول پنج سال کمتر است",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Costs more than a bank loan",
+"kind": "list",
+"max": 30,
+"mt": "هزینه ای بیشتر از وام بانکی دارد",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "What-if grid: rate against term for the payment",
+"kind": "title",
+"max": 60,
+"mt": "شبکه What-if: نرخ نسبت به مدت پرداخت",
+"why": "English/Latin words left: What if"
+}
+]

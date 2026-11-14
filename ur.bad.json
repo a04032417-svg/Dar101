@@ -1,0 +1,93 @@
+[
+{
+"en": "Status: {col:deals.status}. Decision flag: {col:deals.decision}. Decision: Go / No-go (circle one). Reason:",
+"kind": "document",
+"max": null,
+"mt": "حیثیت: {col:deals.status}۔ فیصلے کا جھنڈا: {col:deals.decision}۔ فیصلہ: Go/no-go (دائرہ ایک)۔ وجہ:",
+"why": "English/Latin words left: Go no go"
+},
+{
+"en": "DSCR of analysed rentals by town",
+"kind": "title",
+"max": 60,
+"mt": "شہر کے لحاظ سے تجزیہ کردہ کرائے کے قرض کی خدمت کی کوریج کا تناسب",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Loans, balloon dates, refinance and debt coverage for real estate investors",
+"kind": "sentence",
+"max": 80,
+"mt": "ریل اسٹیٹ کے سرمایہ کاروں کے لیے قرض، بیلون کی تاریخیں، ری فنانس اور قرض کی کوریج",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Loan-to-value and DSCR by property",
+"kind": "label",
+"max": 50,
+"mt": "قرض سے قدر اور جائیداد کے لحاظ سے قرض کی خدمت کی کوریج کا تناسب",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "DSCR (times)",
+"kind": "list",
+"max": 30,
+"mt": "قرض کی خدمت کی کوریج کا تناسب (بار)",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Line is heavily used",
+"kind": "list",
+"max": 30,
+"mt": "لائن بہت زیادہ استعمال ہوتی ہے۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "DSCR passes",
+"kind": "list",
+"max": 30,
+"mt": "قرض کی خدمت کی کوریج کا تناسب گزر جاتا ہے۔",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "DSCR fails",
+"kind": "list",
+"max": 30,
+"mt": "قرض کی خدمت کی کوریج کا تناسب ناکام ہوجاتا ہے۔",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "No cash is released",
+"kind": "list",
+"max": 30,
+"mt": "کوئی نقد رقم جاری نہیں کی جاتی ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Loan A costs less over five years",
+"kind": "list",
+"max": 30,
+"mt": "لون A کی لاگت پانچ سال سے کم ہے۔",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Loan B costs less over five years",
+"kind": "list",
+"max": 30,
+"mt": "لون B کی لاگت پانچ سال سے کم ہے۔",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Sale does not cover the balloon",
+"kind": "list",
+"max": 30,
+"mt": "فروخت غبارے کا احاطہ نہیں کرتی ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Costs more than a bank loan",
+"kind": "list",
+"max": 30,
+"mt": "بینک کے قرض سے زیادہ لاگت آتی ہے۔",
+"why": "too long: 33 characters, the limit is 30"
+}
+]
