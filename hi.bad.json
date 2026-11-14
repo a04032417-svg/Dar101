@@ -1,0 +1,121 @@
+[
+{
+"en": "Days since the last visit: {col:clients.days_since}. Tier: {col:clients.tier}. Next appointment: {col:clients.next_appointment}. Readiness: {col:clients.ready}.",
+"kind": "document",
+"max": null,
+"mt": "पिछली यात्रा के बाद से दिन: {col:clients.days_since}. टीयर 1}। अगली नियुक्ति: {col:clients.next_appointment}. तत्परता: {col:clients.ready}.",
+"why": "placeholders must be exactly: {col:clients.days_since} {col:clients.tier} {col:clients.next_appointment} {col:clients.ready}"
+},
+{
+"en": "Bring clients back on time, win back the lapsed and answer every review",
+"kind": "sentence",
+"max": 80,
+"mt": "ग्राहकों को समय पर वापस लाएँ, जो ख़त्म हो गया उसे वापस पाएं और हर समीक्षा का उत्तर दें",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "each technician month shows the rebooking rate against your target and the visits short, so you coach the right person",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक तकनीशियन माह उन ग्राहकों की हिस्सेदारी दिखाता है जिन्होंने आपके लक्ष्य के विरुद्ध अपनी अगली विजिट बुक की है और विजिट कम हैं, इसलिए आप सही व्यक्ति को प्रशिक्षित करते हैं",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "Due now, nudge to send",
+"kind": "list",
+"max": 30,
+"mt": "अभी देय है, भेजने के लिए प्रेरित करें",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Overdue over 7 days, call",
+"kind": "list",
+"max": 30,
+"mt": "7 दिन से अधिक समय हो गया है, कॉल करें",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Reward owed over 14 days",
+"kind": "list",
+"max": 30,
+"mt": "14 दिन से अधिक का इनाम बकाया है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fill is overdue, call the client",
+"kind": "list",
+"max": 30,
+"mt": "भरने का समय समाप्त हो गया है, ग्राहक को कॉल करें",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Offer costs more than it returns",
+"kind": "list",
+"max": 30,
+"mt": "ऑफर की कीमत रिटर्न से ज्यादा है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Reward costs more than it returns",
+"kind": "list",
+"max": 30,
+"mt": "पुरस्कार की लागत वापसी से अधिक होती है",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Target needs a big change",
+"kind": "list",
+"max": 30,
+"mt": "लक्ष्य में बड़े बदलाव की जरूरत है",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Medium risk, call this week",
+"kind": "list",
+"max": 30,
+"mt": "मध्यम जोखिम, इस सप्ताह कॉल करें",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Sessions at risk, book now",
+"kind": "list",
+"max": 30,
+"mt": "सत्र ख़तरे में है, अभी बुक करें",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Clients with days since the last visit and rebooking state",
+"kind": "title",
+"max": 60,
+"mt": "अंतिम विज़िट और पुनः बुकिंग की स्थिति के बाद के दिनों वाले ग्राहक",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Technician months with rebooking rate",
+"kind": "title",
+"max": 60,
+"mt": "उन ग्राहकों की हिस्सेदारी के साथ तकनीशियन महीने, जिन्होंने अपनी अगली यात्रा बुक की थी",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Rebooked visits, new clients and win-back revenue by month",
+"kind": "title",
+"max": 60,
+"mt": "महीने के हिसाब से दोबारा बुक की गई विज़िट, नए ग्राहक और विन-बैक राजस्व",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Extra bookings from a higher rebooking rate",
+"kind": "title",
+"max": 60,
+"mt": "उन ग्राहकों की अधिक संख्या से अतिरिक्त बुकिंग, जिन्होंने अपनी अगली यात्रा बुक की थी",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Revenue by rebooking rate and appointments",
+"kind": "title",
+"max": 60,
+"mt": "उन ग्राहकों के हिस्से के अनुसार राजस्व जिन्होंने अपनी अगली यात्रा और नियुक्तियाँ बुक कीं",
+"why": "too long: 88 characters, the limit is 60"
+}
+]

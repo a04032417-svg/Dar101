@@ -1,0 +1,268 @@
+[
+{
+"en": "Patch tests and consents due this week",
+"kind": "title",
+"max": 60,
+"mt": "Тестирование исправлений и получение согласия должны состояться на этой неделе",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Fills due list with nudge state",
+"kind": "label",
+"max": 50,
+"mt": "Заполняет список сроков с помощью состояния подталкивания",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "every fill, infill and facial series visit shows its due date, days overdue, nudge sent and revenue at risk, so no regular client slips away",
+"kind": "sentence",
+"max": 160,
+"mt": "при каждом посещении заполняющего, заполняющего и лицевого ряда отображается срок сдачи, дни просрочки, отправленные напоминания и риск дохода, поэтому ни один постоянный клиент не ускользнет",
+"why": "too long: 191 characters, the limit is 160"
+},
+{
+"en": "each technician month shows the rebooking rate against your target and the visits short, so you coach the right person",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый технический месяц показывает долю клиентов, забронировавших следующее посещение в соответствии с вашей целью, и короткие посещения, поэтому вы обучаете нужного человека",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "each promotion with visits redeemed, revenue, discount given and net gain, and a calculator for the break-even share of extra visits",
+"kind": "sentence",
+"max": 160,
+"mt": "каждая рекламная акция с указанием погашенных посещений, дохода, предоставленной скидки и чистой прибыли, а также калькулятора безубыточной доли дополнительных посещений.",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Due now, nudge to send",
+"kind": "list",
+"max": 30,
+"mt": "Срок истекает, подтолкнуть к отправке",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Overdue over 7 days, call",
+"kind": "list",
+"max": 30,
+"mt": "Просрочка более 7 дней, звоните.",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Booked at the desk",
+"kind": "list",
+"max": 30,
+"mt": "Забронировано на стойке регистрации",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Offer not due yet",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия предложения еще не истек",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Reward owed over 14 days",
+"kind": "list",
+"max": 30,
+"mt": "Задолженность по вознаграждению в течение 14 дней",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Low rating, follow up",
+"kind": "list",
+"max": 30,
+"mt": "Низкий рейтинг, следите за обновлениями",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Rebooking is below target",
+"kind": "list",
+"max": 30,
+"mt": "Повторное бронирование ниже целевого значения",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Fill is due now",
+"kind": "list",
+"max": 30,
+"mt": "Срок заполнения истекает сейчас",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fill is overdue, call the client",
+"kind": "list",
+"max": 30,
+"mt": "Заполнение просрочено, позвоните клиенту",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Offer costs more than it returns",
+"kind": "list",
+"max": 30,
+"mt": "Предложение стоит больше, чем приносит прибыль",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Reward costs more than it returns",
+"kind": "list",
+"max": 30,
+"mt": "Вознаграждение стоит больше, чем возвращается",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Target is within reach",
+"kind": "list",
+"max": 30,
+"mt": "Цель находится в пределах досягаемости",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Target needs a big change",
+"kind": "list",
+"max": 30,
+"mt": "Цель нуждается в больших изменениях",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Nudges win bookings",
+"kind": "list",
+"max": 30,
+"mt": "Подталкивания выигрывают заказы",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Nudges win few bookings",
+"kind": "list",
+"max": 30,
+"mt": "Подталкивания приносят мало заказов",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Low risk, send a reminder",
+"kind": "list",
+"max": 30,
+"mt": "Низкий риск, отправить напоминание",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Medium risk, call this week",
+"kind": "list",
+"max": 30,
+"mt": "Средний риск, позвоните на этой неделе",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "High risk, send a win-back offer",
+"kind": "list",
+"max": 30,
+"mt": "Высокий риск, отправьте предложение о возврате денег",
+"why": "too long: 52 characters, the limit is 30"
+},
+{
+"en": "Sessions at risk, book now",
+"kind": "list",
+"max": 30,
+"mt": "Сеансы под угрозой, забронируйте сейчас",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Average is on target",
+"kind": "list",
+"max": 30,
+"mt": "Среднее значение соответствует цели",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Clients with days since the last visit and rebooking state",
+"kind": "title",
+"max": 60,
+"mt": "Клиенты, у которых количество дней с момента последнего посещения и состояние перебронирования",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Fills due with nudge state and days overdue",
+"kind": "title",
+"max": 60,
+"mt": "Заполняется срок с указанием состояния подталкивания и дней просрочки",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Rebooking desk log with days to the next visit",
+"kind": "title",
+"max": 60,
+"mt": "Журнал перебронирования с указанием дней до следующего визита",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Technician months with rebooking rate",
+"kind": "title",
+"max": 60,
+"mt": "Месяцы технического специалиста с долей клиентов, забронировавших следующий визит",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Referral rules with the gap to the standard reward",
+"kind": "title",
+"max": 60,
+"mt": "Реферальные правила с отставанием от стандартного вознаграждения",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Review sources with count and average",
+"kind": "title",
+"max": 60,
+"mt": "Просмотрите источники с указанием количества и среднего значения.",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Team and outside contacts with rebooking and review results",
+"kind": "title",
+"max": 60,
+"mt": "Командные и внешние контакты с перебронированием и результатами проверки",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Rebooked visits, new clients and win-back revenue by month",
+"kind": "title",
+"max": 60,
+"mt": "Повторные посещения, новые клиенты и возврат дохода по месяцам",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Fill due with the cycle, due date and nudge state",
+"kind": "title",
+"max": 60,
+"mt": "Заполните срок, указав цикл, дату выполнения и состояние подталкивания.",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Win-back offer with the days lapsed and the result",
+"kind": "title",
+"max": 60,
+"mt": "Компенсационное предложение с учетом прошедших дней и результата",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Extra bookings from a higher rebooking rate",
+"kind": "title",
+"max": 60,
+"mt": "Дополнительные бронирования от большей доли клиентов, забронировавших следующее посещение",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Review average, low ratings and 5-star reviews needed",
+"kind": "title",
+"max": 60,
+"mt": "Средний отзыв, необходимы низкие оценки и 5-звездочные отзывы",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Revenue by rebooking rate and appointments",
+"kind": "title",
+"max": 60,
+"mt": "Выручка по доле клиентов, забронировавших следующий визит и встречи",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

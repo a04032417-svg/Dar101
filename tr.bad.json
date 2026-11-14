@@ -1,0 +1,226 @@
+[
+{
+"en": "Bring clients back on time, win back the lapsed and answer every review",
+"kind": "sentence",
+"max": 80,
+"mt": "Müşterileri zamanında geri getirin, geçenleri geri kazanın ve her incelemeyi yanıtlayın",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "every fill, infill and facial series visit shows its due date, days overdue, nudge sent and revenue at risk, so no regular client slips away",
+"kind": "sentence",
+"max": 160,
+"mt": "Her dolgu, dolum ve yüz serisi ziyareti vade tarihini, geciken günleri, gönderilen uyarıyı ve risk altındaki geliri gösterir, böylece hiçbir düzenli müşteri kaçmaz",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "each technician month shows the rebooking rate against your target and the visits short, so you coach the right person",
+"kind": "sentence",
+"max": 160,
+"mt": "Her teknisyen ayı, bir sonraki ziyaret için hedefinize göre rezervasyon yapan müşterilerin payını ve ziyaretlerin kısa olmasını gösterir, böylece doğru kişiye koçluk yapmış olursunuz",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "type your appointments and rates and see the extra bookings and revenue a higher rebooking rate adds each month",
+"kind": "sentence",
+"max": 160,
+"mt": "Randevularınızı ve fiyatlarınızı yazın ve ekstra rezervasyonları ve gelirleri görün Her ay bir sonraki ziyaretlerini rezerve eden müşterilerin payı daha yüksektir",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Overdue, not booked",
+"kind": "list",
+"max": 30,
+"mt": "Gecikmiş, rezervasyon yapılmadı",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Rebooked on time",
+"kind": "list",
+"max": 30,
+"mt": "Zamanında yeniden rezervasyon yapıldı",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Rebooked late",
+"kind": "list",
+"max": 30,
+"mt": "Geç yeniden rezervasyon yapıldı",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Due now, nudge to send",
+"kind": "list",
+"max": 30,
+"mt": "Zamanı geldi, göndermek için dürt",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Overdue over 7 days, call",
+"kind": "list",
+"max": 30,
+"mt": "Vadesi 7 günden fazla gecikti, arayın",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Returned and booked",
+"kind": "list",
+"max": 30,
+"mt": "Geri döndü ve rezervasyon yaptırdı",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Lapsed over 90 days",
+"kind": "list",
+"max": 30,
+"mt": "90 günden fazla zaman aşımına uğradı",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Reward owed over 14 days",
+"kind": "list",
+"max": 30,
+"mt": "14 gün içinde ödenmesi gereken ödül",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Reply due now",
+"kind": "list",
+"max": 30,
+"mt": "Yanıtın şimdi verilmesi gerekiyor",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Rebooking is below target",
+"kind": "list",
+"max": 30,
+"mt": "Yeniden rezervasyon hedefin altında",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Fill is overdue, call the client",
+"kind": "list",
+"max": 30,
+"mt": "Doldurma süresi geçti, müşteriyi arayın",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Offer costs more than it returns",
+"kind": "list",
+"max": 30,
+"mt": "Teklifin maliyeti getirisinden daha fazladır",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Reward costs more than it returns",
+"kind": "list",
+"max": 30,
+"mt": "Ödülün maliyeti, getirisinden daha fazladır",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Target needs a big change",
+"kind": "list",
+"max": 30,
+"mt": "Hedefin büyük bir değişikliğe ihtiyacı var",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Nudges win few bookings",
+"kind": "list",
+"max": 30,
+"mt": "Nudges az sayıda rezervasyon kazandı",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "High risk, send a win-back offer",
+"kind": "list",
+"max": 30,
+"mt": "Yüksek risk, geri kazanma teklifi gönderin",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Sessions at risk, book now",
+"kind": "list",
+"max": 30,
+"mt": "Risk altındaki oturumlar, hemen rezervasyon yapın",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Clients with days since the last visit and rebooking state",
+"kind": "title",
+"max": 60,
+"mt": "Son ziyaretten bu yana gün sayısı ve yeniden rezervasyon durumu olan müşteriler",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Fills due with nudge state and days overdue",
+"kind": "title",
+"max": 60,
+"mt": "Dürtme durumu ve vadesi geçmiş gün sayısıyla vadesi dolmuş doldurmalar",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Rebooking desk log with days to the next visit",
+"kind": "title",
+"max": 60,
+"mt": "Bir sonraki ziyarete kalan günleri içeren yeniden rezervasyon masası günlüğü",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Technician months with rebooking rate",
+"kind": "title",
+"max": 60,
+"mt": "Bir sonraki ziyaret için rezervasyon yapan müşterilerin payı ile teknisyen ayları",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Reviews with reply deadline and rating check",
+"kind": "title",
+"max": 60,
+"mt": "Yanıt son tarihi ve derecelendirme kontrolü içeren incelemeler",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Team and outside contacts with rebooking and review results",
+"kind": "title",
+"max": 60,
+"mt": "Yeniden rezervasyon ve inceleme sonuçları olan ekip ve dışarıdaki kişiler",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Rebooked visits, new clients and win-back revenue by month",
+"kind": "title",
+"max": 60,
+"mt": "Aylara göre yeniden rezerve edilen ziyaretler, yeni müşteriler ve geri kazanılan gelir",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Rebooking rate of a technician and the gap to the target",
+"kind": "title",
+"max": 60,
+"mt": "Teknisyenin yeniden rezervasyon oranı ve hedefle aradaki fark",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Extra bookings from a higher rebooking rate",
+"kind": "title",
+"max": 60,
+"mt": "Bir sonraki ziyaretleri için rezervasyon yapan müşterilerin büyük bir kısmından gelen ekstra rezervasyonlar",
+"why": "too long: 107 characters, the limit is 60"
+},
+{
+"en": "Review average, low ratings and 5-star reviews needed",
+"kind": "title",
+"max": 60,
+"mt": "İnceleme ortalaması, düşük puanlar ve 5 yıldızlı incelemeler gerekiyor",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Revenue by rebooking rate and appointments",
+"kind": "title",
+"max": 60,
+"mt": "Bir sonraki ziyaret ve randevularını alan müşterilerin payına göre gelir",
+"why": "too long: 72 characters, the limit is 60"
+}
+]
