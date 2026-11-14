@@ -1,0 +1,177 @@
+[
+{
+"en": "Get every cake to the client and know what each market really earns",
+"kind": "sentence",
+"max": 80,
+"mt": "Bringen Sie jeden Kuchen zum Kunden und erfahren Sie, was jeder Markt wirklich verdient",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "the stops, the km between them and the minutes at each stop give the total time, the finish time and whether the run fits the driver day",
+"kind": "sentence",
+"max": 160,
+"mt": "Die Stopps, die Kilometer dazwischen und die Minuten an jedem Stopp geben Aufschluss über die Gesamtzeit, die Zielzeit und darüber, ob der Lauf zum Fahrertag passt",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "each run shows its cost for each stop against the fee collected, so a zone where the fee does not cover the cost is found",
+"kind": "sentence",
+"max": 160,
+"mt": "Bei jeder Fahrt werden die Kosten für jeden Stopp im Vergleich zur erhobenen Gebühr angezeigt, sodass eine Zone gefunden wird, in der die Gebühr die Kosten nicht deckt",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "every late or failed delivery keeps its reason, the action taken, the cost of the redo and the credit to offer",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jede verspätete oder fehlgeschlagene Lieferung bleiben der Grund, die ergriffenen Maßnahmen, die Kosten für die erneute Lieferung und die angebotene Gutschrift erhalten",
+"why": "too long: 172 characters, the limit is 160"
+},
+{
+"en": "the units you expect to sell and the mix of products give the units of each group to bring, with a safety share on top",
+"kind": "sentence",
+"max": 160,
+"mt": "Die Einheiten, die Sie verkaufen möchten, und der Produktmix ergeben die Einheiten jeder Gruppe, die Sie mitbringen möchten, mit einem Sicherheitsanteil obendrauf",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "units brought against sold give the sell-through and the cost of what was left, so the next stock plan is based on real sales",
+"kind": "sentence",
+"max": 160,
+"mt": "Die gegen den Verkauf eingebrachten Einheiten geben den Durchverkauf und die Kosten für den Rest an, sodass der nächste Lagerplan auf tatsächlichen Verkäufen basiert",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "every item to pack for a coming market has a quantity, a person and a packed tick, and the units still missing are counted",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder Artikel, der für einen kommenden Markt verpackt werden soll, hat eine Menge, eine Person und ein verpacktes Häkchen, und die noch fehlenden Einheiten werden gezählt",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "each invitation shows the units you must sell to break even and how long it has waited, so the answer is made on numbers",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Einladung zeigt die Einheiten an, die Sie verkaufen müssen, um die Gewinnschwelle zu erreichen, und wie lange darauf gewartet wurde, sodass die Antwort anhand von Zahlen erfolgt",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "Office park lunch pop-up",
+"kind": "list",
+"max": 30,
+"mt": "Pop-up-Fenster zum Mittagessen im Büropark",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Station square evening pop-up",
+"kind": "list",
+"max": 30,
+"mt": "Abendliches Pop-up am Bahnhofsplatz",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Redelivered the same day",
+"kind": "list",
+"max": 30,
+"mt": "Noch am selben Tag erneut geliefert",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Redelivered another day",
+"kind": "list",
+"max": 30,
+"mt": "An einem anderen Tag erneut geliefert",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Free delivery applies",
+"kind": "list",
+"max": 30,
+"mt": "Es gilt eine kostenlose Lieferung",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Fee is below the cost",
+"kind": "list",
+"max": 30,
+"mt": "Die Gebühr liegt unter den Kosten",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Spare slots left",
+"kind": "list",
+"max": 30,
+"mt": "Es sind noch freie Steckplätze übrig",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Reduce the price today",
+"kind": "list",
+"max": 30,
+"mt": "Reduzieren Sie noch heute den Preis",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Apply for the stall",
+"kind": "list",
+"max": 30,
+"mt": "Bewerben Sie sich für den Stand",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Hours are fine",
+"kind": "list",
+"max": 30,
+"mt": "Die Öffnungszeiten sind in Ordnung",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Split the run in two",
+"kind": "list",
+"max": 30,
+"mt": "Teilen Sie den Lauf in zwei Teile auf",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Late and failed deliveries with the cost of the redo",
+"kind": "title",
+"max": 60,
+"mt": "Zu spät und gescheitert Lieferungen mit den Kosten für die Wiederholung",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Markets and pop-ups with profit after stall fee and labour",
+"kind": "title",
+"max": 60,
+"mt": "Märkte und Pop-ups mit Gewinn nach Standgebühr und Arbeitsaufwand",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Delivery feedback with a low rating flag",
+"kind": "title",
+"max": 60,
+"mt": "Rückmeldung zur Lieferung mit einer niedrigen Bewertungsmarkierung",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Late delivery apology with the credit to offer",
+"kind": "title",
+"max": 60,
+"mt": "Entschuldigung für verspätete Lieferung mit dem anzubietenden Guthaben",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Market stock planner from the expected sales and the mix",
+"kind": "title",
+"max": 60,
+"mt": "Marktbestandsplaner aus den erwarteten Verkäufen und der Mischung",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "What-if: units sold against average price",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn: Einheiten werden zum Durchschnittspreis verkauft",
+"why": "too long: 63 characters, the limit is 60"
+}
+]
