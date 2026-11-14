@@ -7,6 +7,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 LANGS = ['en', 'ar', 'fr', 'es', 'de', 'it', 'pt', 'tr', 'nl', 'ru', 'fa', 'ur', 'hi', 'zh', 'id']
 if os.environ.get('FX_LANGS'):  # test builds only (e.g. FX_LANGS=en,ar): a release build always has all 15
     LANGS = ['en'] + [l for l in LANGS[1:] if l in os.environ['FX_LANGS'].split(',')]
+EDITION_EN = os.environ.get('FX_EDITION') == 'en'  # English edition: sold in English only; nothing the buyer sees claims languages, translations or right-to-left
+if EDITION_EN: LANGS = ['en']
 TR_LANGS = LANGS[1:]
 RTL = {'ar', 'fa', 'ur'}
 LANG_NAMES = {'en': 'English', 'ar': 'العربية', 'fr': 'Français', 'es': 'Español', 'de': 'Deutsch', 'it': 'Italiano', 'pt': 'Português',

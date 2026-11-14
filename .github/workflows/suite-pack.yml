@@ -27,6 +27,7 @@ jobs:
           for p in $(python3 -c "import json;print(' '.join(json.load(open('$f'))['parts']))"); do
             git clone -q --depth 1 -b "out/$suite/$p" "https://github.com/${{ github.repository }}" "/tmp/parts/$p"
           done
+          if [ -f "build/$suite/EN_ONLY" ]; then export FX_EDITION=en FX_LANGS=en FX_PIC_LANGS=en; fi   # English edition
           python3 runtime/suite_pack.py "$f" /tmp/parts /tmp/pack
           echo "SUITE=$suite" >> $GITHUB_ENV
       - name: publish

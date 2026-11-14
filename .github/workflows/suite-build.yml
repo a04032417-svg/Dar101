@@ -47,6 +47,8 @@ jobs:
           FX_PIC_LANGS: "${{ contains(matrix.spec, '.test.') && 'none' || 'all' }}"
         run: |
           name=$(basename "$SPEC" .json | sed 's/\.test$//'); suite=$(basename "$(dirname "$SPEC")"); out=/tmp/out/$name
+          # English edition: build/<suite>/EN_ONLY in the checkout = this suite is sold in English only (no language claims anywhere)
+          if [ -f "build/$suite/EN_ONLY" ]; then export FX_EDITION=en FX_LANGS=en; [ "$FX_PIC_LANGS" = all ] && export FX_PIC_LANGS=en; fi   # (.test. builds keep FX_PIC_LANGS=none)
           python3 engine/run.py "$SPEC" "$out" | tail -40 || true
           python3 runtime/xlcheck.py "$out"/*.zip --json "$out/xlcheck.json" | tail -5 || true
           echo "SUITE=$suite" >> $GITHUB_ENV; echo "PART=$name" >> $GITHUB_ENV; echo "OUT=$out" >> $GITHUB_ENV

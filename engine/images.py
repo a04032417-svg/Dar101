@@ -6,7 +6,7 @@ make_images(spec, demo_recalc_xlsx, meta, outdir) -> [png paths]
 CLI: python3 images.py spec.json demo_recalculated.xlsx outdir   (meta read from <demo>.meta.json)"""
 import os, sys, json, glob, shutil, tempfile, subprocess, base64, html
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import LANGS, LANG_NAMES, RTL, FIXED, RECALC, tr, sheet_names
+from common import LANGS, LANG_NAMES, RTL, FIXED, RECALC, tr, sheet_names, EDITION_EN
 from openpyxl import load_workbook
 from openpyxl.chart import BarChart, Reference
 from openpyxl.utils import get_column_letter, column_index_from_string
@@ -172,7 +172,7 @@ def make_images(spec, demo_xlsx, meta, outdir, workdir=None):
     printables = printables[:2]; chk = (spec.get('checklists') or [None])[0]; msgs = spec.get('messages', [])
     jobs = [('dash', meta['monthly']['sheet'], meta['dash_range'], {'chart': True, 'portrait': True}),
             ('dashk', meta['monthly']['sheet'], f'A1:M{kpi_last}', {'portrait': False})]
-    jobs += [table_job(meta, t) for t in tabs[:3]]
+    jobs += [table_job(meta, t) for t in tabs[:4 if EDITION_EN else 3]]
     jobs += [('tool-' + x['key'], meta['tools'][x['key']]['sheet'], meta['tools'][x['key']]['range'], {'portrait': True}) for x in tools]
     for kind, f in printables:
         m = meta['forms' if kind == 'f' else 'documents'][f['key']]; jobs.append((f'{kind}-{f["key"]}', m['sheet'], m['range'], {'portrait': True}))
@@ -187,7 +187,7 @@ def make_images(spec, demo_xlsx, meta, outdir, workdir=None):
         return out[:n]
     calcs = lambda t: [c['label'] for c in t['columns'] if c['type'] == 'calc']
     feats = [(x['name'], x['why']) for x in sig[:6]] if sig else [(x, '') for x in L['features'][:6]]
-    pages = [('01-hero', hero(P, A, spec['name'], spec['tagline'], feats, shots['dashk'], 'Excel .xlsx · 15 languages', shots[tabs[0]['key']]))]
+    pages = [('01-hero', hero(P, A, spec['name'], spec['tagline'], feats, shots['dashk'], 'Excel .xlsx · ' + ('English' if EDITION_EN else '15 languages'), shots[tabs[0]['key']]))]
     pages.append(('02-dashboard', page(P, A, f'{d["title"]}: everything at a glance',
                   f'{len(d["kpis"])} numbers that update themselves, {d["monthly"]["title"].lower()} for the year you choose'
                   + (', ' + ', '.join(b['title'].lower() for b in d.get('breakdowns', [])) if d.get('breakdowns') else '') + '.',
@@ -213,7 +213,9 @@ def make_images(spec, demo_xlsx, meta, outdir, workdir=None):
               (f'{len(msgs)} ready messages ({", ".join(m["moment"].lower() for m in msgs[:5])}) open WhatsApp with the details filled in.' if msgs else '')
         pages.append((f'{len(pages) + 1:02d}-workflow', page(P, A, title, sub, chips(([chk['title']] if chk else []) + (['Messages'] if msgs else []), [m['moment'] for m in msgs]),
                       items, rows='1.3fr 1fr' if len(items) == 2 else '1fr')))
-    pages.append((f'{len(pages) + 1:02d}-languages', languages(spec, P, A)))
+    if not EDITION_EN: pages.append((f'{len(pages) + 1:02d}-languages', languages(spec, P, A)))
+    elif len(tabs) > 3:   # English edition: one more real sheet picture instead of the languages page (the picture count stays)
+        t4 = tabs[3]; pages.append((f'{len(pages) + 1:02d}-{t4["key"]}', page(P, A, t4['title'], t4['hint'], chips([t4['sheet']], calcs(t4)), [(shots[t4['key']], '1/1')])))
     out = []
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={'width': W, 'height': H}, device_scale_factor=1)

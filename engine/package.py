@@ -5,7 +5,7 @@
 CLI: python3 package.py --selftest        (makes an RSA-3072 key pair, encrypts, decrypts, compares)"""
 import os, sys, io, zipfile, struct, hashlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import LANGS, LANG_NAMES, file_base
+from common import LANGS, LANG_NAMES, file_base, EDITION_EN
 try:
     from cryptography.hazmat.primitives.ciphers.aead import AESGCM
     from cryptography.hazmat.primitives.asymmetric import padding, rsa
@@ -19,6 +19,18 @@ OAEP = padding.OAEP(mgf=padding.MGF1(algorithm=hashes.SHA1()), algorithm=hashes.
 
 def readme(spec):
     base = file_base(spec); xl = any(f in json_dump(spec) for f in ('MAXIFS', 'MINIFS', 'TEXTJOIN'))
+    if EDITION_EN:   # English edition: no language claims anywhere in the package
+        lines = [f'{spec["name"]}', spec['tagline'], '', 'FILES', f'  {base}_EN.xlsx   the workbook',
+                 f'  {base}_EN_DEMO-sample-data.xlsx   a copy filled with sample data, to see every feature working', '',
+                 'HOW TO START', '  1. Open the file and read the Start sheet.',
+                 '  2. Type your settings on the Start sheet (yellow cells).',
+                 '  3. Type your own data in the white cells; gray cells calculate by themselves.',
+                 '  4. Choose a value from the drop-downs wherever a cell offers one.', '',
+                 'FILE FORMAT',
+                 '  Standard .xlsx files for Microsoft Excel and LibreOffice Calc (tested in LibreOffice Calc). No macros.',
+                 '  The formulas calculate when the file opens; if your app asks, allow it to update.', '',
+                 'Personal use licence: one business may use the files; please do not resell or share them.']
+        return '\r\n'.join(lines) + '\r\n'
     lines = [f'{spec["name"]}', spec['tagline'], '',
              'FILES',
              *[f'  {base}_{l.upper()}.xlsx   {LANG_NAMES[l]}' for l in LANGS],

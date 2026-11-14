@@ -10,7 +10,7 @@ import os, sys, json, tempfile, html, shutil, re
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import board as B
 from images import render, pick_tables, languages
-from common import sheet_names, FIXED, LANGS, tr, RTL
+from common import sheet_names, FIXED, LANGS, tr, RTL, EDITION_EN
 PIC = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fixed_pic.json'), encoding='utf8'))
 SEP = {'zh': '、', 'ar': '، ', 'fa': '، ', 'ur': '، '}
 FONT = {'ar': "'Noto Sans Arabic','Noto Naskh Arabic'", 'fa': "'Noto Sans Arabic','Noto Naskh Arabic'", 'ur': "'Noto Naskh Arabic','Noto Sans Arabic'",
@@ -67,9 +67,18 @@ def make_images(spec, demo_xlsx, meta, outdir, workdir=None, lang='en'):
     for k, f in prints:
         m = meta['forms' if k == 'f' else 'documents'][f['key']]; jobs.append((f'{k}-{f["key"]}', m['sheet'], m['range'], {'portrait': True}))
     for x in spec.get('tools', [])[:2]: jobs.append(('tool-' + x['key'], meta['tools'][x['key']]['sheet'], meta['tools'][x['key']]['range'], {'portrait': True}))
+    # English edition: the "languages" page is replaced by one more real sheet — a tool, form or document the other pages do not show
+    # (or, when there is none, the fourth most telling data sheet, already rendered above)
+    extra = None
+    if EDITION_EN:
+        pool = [('tool-', x['key'], x, 'tools') for x in spec.get('tools', [])[2:]] + [('f-', x['key'], x, 'forms') for x in spec.get('forms', [])[1:]] \
+             + [('d-', x['key'], x, 'documents') for x in spec.get('documents', [])[1:]]
+        if pool:
+            pre, key, xx, grp = pool[0]; m = meta[grp][key]
+            extra = (pre + key, xx, m['sheet']); jobs.append((pre + key, m['sheet'], m['range'], {'portrait': True}))
     shots = render(demo_xlsx, meta, jobs, workdir)
     for k, p in shots.items(): shutil.copy(p, os.path.join(workdir, k + '.png'))
-    have = set(shots)
+    have = set(shots) - ({extra[0]} if extra else set())
     def why(sheet, fallback): x = by_sheet.get(sheet.lower()); return f'<b>{E(T(x["name"]))}</b> — {E(T(x["why"]))}' if x else fallback
     pts = [f'<b>{E(T(x["name"]))}</b>: {E(T(x["why"]))}' for x in sig[:4]] or [E(T(f)) for f in L['features'][:4]]
     NM = E(T(spec['name']))
@@ -82,7 +91,7 @@ def make_images(spec, demo_xlsx, meta, outdir, workdir=None, lang='en'):
         hero_body = B.stack(hero_win, fname, tabs(cs['sheet'] if cs else names[1]), cs['sheet'] if cs else names[1],
                             [('dashk', F('dash_zoom', title=E(T(d['title']))))] + ([('z-' + tabsel[0]['key'], why(tabsel[0]['sheet'], F('table_zoom', title=E(T(tabsel[0]['title'])))))] if tabsel else []))
     pages.append(('01-hero', B.page(NM, E(T(L.get('headline') or spec['tagline'])), E(T(spec['tagline'])), pts, hero_body,
-                  foot=['Excel', 'LibreOffice', F('foot_langs'), F('foot_download')])))   # (2026-11-09, the owner: «احذف التواريخ» — no Excel years on any picture: they were never tested in a real Excel)
+                  foot=['Excel', 'LibreOffice', F('foot_langs_en' if EDITION_EN else 'foot_langs'), F('foot_download')])))   # (2026-11-09, the owner: «احذف التواريخ» — no Excel years on any picture: they were never tested in a real Excel)
     if cs:
         ins = spec['insights']; gt = [T(g['title']) for g in ins.get('gauges', [])]; ct = [T(c['title']) for c in ins['charts']]
         fl = [T(f['label']) for f in ins.get('filters', [])]
@@ -121,8 +130,15 @@ def make_images(spec, demo_xlsx, meta, outdir, workdir=None, lang='en'):
     for (ttl, desc, sh), (x, y, w, h) in zip(groups, lay):
         rooms.append((x, y, w, h, ttl, desc, [('*' if s.lower() in by_sheet else '') + f'{s}|{hint.get(s, "")}' for s in sh[:9]]))
     pages.append((f'{len(pages) + 1:02d}-inside', B.plan_page(NM, E(F('plan_h1')), E(F('plan_sub')), rooms,
-                  E(F('plan_note', n=len(names))))))
-    pages.append((f'{len(pages) + 1:02d}-languages', languages(spec, P.lstrip('#'), A.lstrip('#'), h1=F('lang_h1'), sub=F('lang_sub'))))
+                  E(F('plan_note_en' if EDITION_EN else 'plan_note', n=len(names))))))
+    if not EDITION_EN: pages.append((f'{len(pages) + 1:02d}-languages', languages(spec, P.lstrip('#'), A.lstrip('#'), h1=F('lang_h1'), sub=F('lang_sub'))))
+    elif extra:
+        k, xx, sheet = extra
+        pages.append((f'{len(pages) + 1:02d}-more', B.page(NM, E(T(xx['title'])), E(T(xx.get('hint') or FIXED['form_hint'])), [why(sheet, E(F('print_pt')))], B.stack(k, fname, tabs(sheet), sheet, []))))
+    elif len(tabsel) > 3 and 't-' + tabsel[3]['key'] in have:
+        t = tabsel[3]; m = meta['tables'][t['key']]; calcs = [T(c['label']) for c in t['columns'] if c['type'] == 'calc'][:3]
+        pages.append((f'{len(pages) + 1:02d}-{t["key"]}', B.page_wide(NM, E(T(t['title'])), E(T(t['hint'])), [('t-' + t['key'], fname, tabs(m['sheet']), m['sheet'])],
+                      [('z-' + t['key'], why(t['sheet'], F('calc_zoom', calcs=E(J(calcs)))))])))
     return B.shoot(pages, outdir, head=lang_head(lang))
 
 
