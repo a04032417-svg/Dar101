@@ -1,0 +1,268 @@
+[
+{
+"en": "a failed charge shows the days late and the next action: set a retry date, retry or call the member",
+"kind": "sentence",
+"max": 160,
+"mt": "Bei einer fehlgeschlagenen Belastung werden die Verspätungstage und die nächste Aktion angezeigt: Legen Sie ein Wiederholungsdatum fest, versuchen Sie es erneut oder rufen Sie das Mitglied an",
+"why": "too long: 191 characters, the limit is 160"
+},
+{
+"en": "Skin glow monthly",
+"kind": "list",
+"max": 30,
+"mt": "Jeden Monat ein strahlendes Hautbild",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Lash and brow monthly",
+"kind": "list",
+"max": 30,
+"mt": "Wimpern und Augenbrauen monatlich",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Elodie Martin",
+"kind": "list",
+"max": 30,
+"mt": "Elodie Martin",
+"why": "not translated"
+},
+{
+"en": "Expires within 14 days",
+"kind": "list",
+"max": 30,
+"mt": "Läuft innerhalb von 14 Tagen ab",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Expires within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "Läuft innerhalb von 30 Tagen ab",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Set a retry date",
+"kind": "list",
+"max": 30,
+"mt": "Legen Sie ein Wiederholungsdatum fest",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "No action needed",
+"kind": "list",
+"max": 30,
+"mt": "Es sind keine Maßnahmen erforderlich",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Gift card fully used",
+"kind": "list",
+"max": 30,
+"mt": "Geschenkkarte vollständig aufgebraucht",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Gift card expires within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "Die Geschenkkarte läuft innerhalb von 30 Tagen ab",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Some sessions unused",
+"kind": "list",
+"max": 30,
+"mt": "Einige Sitzungen werden nicht genutzt",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Sessions are likely to expire",
+"kind": "list",
+"max": 30,
+"mt": "Sitzungen laufen wahrscheinlich ab",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Sessions should be used in time",
+"kind": "list",
+"max": 30,
+"mt": "Sitzungen sollten rechtzeitig genutzt werden",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Heavy use, check the fee",
+"kind": "list",
+"max": 30,
+"mt": "Starke Nutzung, überprüfen Sie die Gebühr",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Membership covers its cost",
+"kind": "list",
+"max": 30,
+"mt": "Die Mitgliedschaft deckt die Kosten",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Membership loses money",
+"kind": "list",
+"max": 30,
+"mt": "Durch die Mitgliedschaft geht Geld verloren",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Offer costs more than it saves",
+"kind": "list",
+"max": 30,
+"mt": "Angebot kostet mehr als es spart",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Retry the charge",
+"kind": "list",
+"max": 30,
+"mt": "Versuchen Sie den Ladevorgang erneut",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Pause the membership",
+"kind": "list",
+"max": 30,
+"mt": "Pausieren Sie die Mitgliedschaft",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Close the membership",
+"kind": "list",
+"max": 30,
+"mt": "Schließen Sie die Mitgliedschaft",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Nothing left to refund",
+"kind": "list",
+"max": 30,
+"mt": "Es gibt nichts mehr zu erstatten",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Prepaid share is on target",
+"kind": "list",
+"max": 30,
+"mt": "Der Prepaid-Anteil liegt im Plan",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Prepaid share is below target",
+"kind": "list",
+"max": 30,
+"mt": "Prepaid-Anteil liegt unter Zielwert",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Pause fee covers the cost",
+"kind": "list",
+"max": 30,
+"mt": "Die Pausengebühr deckt die Kosten ab",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Pause fee is below the cost",
+"kind": "list",
+"max": 30,
+"mt": "Die Pausengebühr liegt unter den Kosten",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Prepaid packs with sessions left and value owed",
+"kind": "title",
+"max": 60,
+"mt": "Prepaid-Pakete mit verbleibenden Sitzungen und geschuldetem Betrag",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Included and used sessions of each member by month",
+"kind": "title",
+"max": 60,
+"mt": "Eingeschlossene und genutzte Sitzungen jedes Mitglieds pro Monat",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Membership sign-up with fee and included sessions",
+"kind": "title",
+"max": 60,
+"mt": "Anmeldung zur Mitgliedschaft mit Gebühr und inbegriffenen Sitzungen",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Membership cancellation with what was billed",
+"kind": "title",
+"max": 60,
+"mt": "Kündigung der Mitgliedschaft mit dem, was in Rechnung gestellt wurde",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Sessions left in a pack and the value still owed",
+"kind": "title",
+"max": 60,
+"mt": "Es verbleiben noch Sitzungen im Paket und der Wert bleibt geschuldet",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Sessions likely to expire before they are used",
+"kind": "title",
+"max": 60,
+"mt": "Sitzungen laufen wahrscheinlich ab, bevor sie verwendet werden",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Value of a membership month for the client and the studio",
+"kind": "title",
+"max": 60,
+"mt": "Wert eines Mitgliedschaftsmonats für den Kunden und das Studio",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Value of packs and cards still owed to clients",
+"kind": "title",
+"max": 60,
+"mt": "Wert der Pakete und Karten, die den Kunden noch geschuldet werden",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Type the balance at the start of the month and the value sold, used and expired in it; see the balance owed at the end, the change and how many months of use it covers.",
+"kind": "sentence",
+"max": null,
+"mt": "Type the balance at the start of the month and the value sold, used and expired in it; see the balance owed at the end, the change and how many months of use it covers.",
+"why": "not translated"
+},
+{
+"en": "Type the sessions left, the days left, the session value, the new pack price, the discount, the margin and the chance of a yes; see the expected margin and the expected discount cost.",
+"kind": "sentence",
+"max": null,
+"mt": "Type the sessions left, the days left, the session value, the new pack price, the discount, the margin and the chance of a yes; see the expected margin and the expected discount cost.",
+"why": "not translated"
+},
+{
+"en": "Next step for a membership charge that did not go through",
+"kind": "title",
+"max": 60,
+"mt": "Nächster Schritt für einen Mitgliedsbeitrag, der nicht eingegangen ist",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Refund for the unused sessions of a pack",
+"kind": "title",
+"max": 60,
+"mt": "Rückerstattung für die nicht genutzten Sitzungen eines Pakets",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Monthly margin for a pack discount against packs sold",
+"kind": "title",
+"max": 60,
+"mt": "Monatliche Marge für einen Packungsrabatt auf verkaufte Packungen",
+"why": "too long: 65 characters, the limit is 60"
+}
+]

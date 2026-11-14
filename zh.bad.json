@@ -1,0 +1,37 @@
+[
+{
+"en": "Record every referral on Referrals and pay the reward as the Referral Rules say. Days pending and the reward owed fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "在“Referrals”（推荐）中记录每个推荐，并按照 推荐规则 的说明支付奖励。待处理天数和所欠奖励填写。",
+"why": "English/Latin words left: Referrals"
+},
+{
+"en": "Sessions should be used in time",
+"kind": "list",
+"max": 30,
+"mt": "Session要及时使用",
+"why": "English/Latin words left: Session"
+},
+{
+"en": "Type the days late, the charge and the retries so far; see the amount overdue, the retries left, the date of the next retry and the next action. The retry gap and the most retries come from Start.",
+"kind": "sentence",
+"max": null,
+"mt": "输入迟到天数、费用和迄今为止的重试次数；查看逾期金额、剩余重试次数、下次重试日期和下一步操作。重试间隙和最多重试次数来自 Start。",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Hello {technician}, {client} has a membership session this month ({plan}). Sessions used in the last 30 days: {sessions_last_30}.",
+"kind": "message",
+"max": null,
+"mt": "{technician}，您好，{client} 本月 ({plan}) 有一次会员会议。过去 30 天内使用的会话：{sessions_last_30}。",
+"why": "English/Latin words left: sessions last"
+},
+{
+"en": "Hello {name}, {exp14_count} packs expiring in 14 days have {exp14_value} unused.",
+"kind": "message",
+"max": null,
+"mt": "您好 {name}，{exp14_count} 个包将在 14 天后过期，其中 {exp14_value} 尚未使用。",
+"why": "English/Latin words left: exp count exp value"
+}
+]

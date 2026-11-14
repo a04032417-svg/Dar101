@@ -1,0 +1,93 @@
+[
+{
+"en": "Lash and brow monthly",
+"kind": "list",
+"max": 30,
+"mt": "मासिक रूप से चाबुक और भौंह लगाएं",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Paid after retry",
+"kind": "list",
+"max": 30,
+"mt": "पुनः प्रयास के बाद भुगतान किया गया",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Expires within 14 days",
+"kind": "list",
+"max": 30,
+"mt": "14 दिनों के भीतर समाप्त हो रहा है",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Expires within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "30 दिनों के भीतर समाप्त हो रहा है",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Set a retry date",
+"kind": "list",
+"max": 30,
+"mt": "पुनः प्रयास की तिथि निर्धारित करें",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Gift card expired",
+"kind": "list",
+"max": 30,
+"mt": "उपहार कार्ड की समय सीमा समाप्त हो गई",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Gift card fully used",
+"kind": "list",
+"max": 30,
+"mt": "उपहार कार्ड पूरी तरह से उपयोग किया गया",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Gift card expires within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "उपहार कार्ड 30 दिनों के भीतर समाप्त हो जाता है",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Sessions should be used in time",
+"kind": "list",
+"max": 30,
+"mt": "सत्र का सदुपयोग समय पर करना चाहिए",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Membership covers its cost",
+"kind": "list",
+"max": 30,
+"mt": "सदस्यता इसकी लागत को कवर करती है",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pause fee covers the cost",
+"kind": "list",
+"max": 30,
+"mt": "विराम शुल्क लागत को कवर करता है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Hello {technician}, {client} has a membership session this month ({plan}). Sessions used in the last 30 days: {sessions_last_30}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते {technician}, {client} का इस महीने एक सदस्यता सत्र है ({plan})। पिछले 30 दिनों में उपयोग किए गए सत्र: {sessions_last_30}.",
+"why": "English/Latin words left: sessions last"
+},
+{
+"en": "Hello {name}, {exp14_count} packs expiring in 14 days have {exp14_value} unused.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार {name}, 14 दिनों में समाप्त होने वाले {exp14_count} पैक में {exp14_value} अप्रयुक्त हैं।",
+"why": "English/Latin words left: exp count exp value"
+}
+]

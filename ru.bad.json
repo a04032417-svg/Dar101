@@ -1,0 +1,191 @@
+[
+{
+"en": "every pack with the sessions used and left, the value still owed to the client and the days to expiry on one row",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый пакет с использованными и оставшимися сеансами, оставшаяся сумма задолженности перед клиентом и количество дней до истечения срока действия в одной строке",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "packs and gift cards that end in 7, 14 or 30 days with the value left, who follows up and whether a reminder went out",
+"kind": "sentence",
+"max": 160,
+"mt": "пакеты и подарочные карты, срок действия которых истекает через 7, 14 или 30 дней, с указанием оставшейся суммы, кто будет следить за этим и было ли отправлено напоминание",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "what was sold, used and expired each month and the balance still owed to clients, a liability until it is used",
+"kind": "sentence",
+"max": 160,
+"mt": "то, что было продано, использовано и срок действия которого истек каждый месяц, а остаток по-прежнему должен клиентам, обязательство до тех пор, пока оно не будет использовано.",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Expires within 14 days",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия истекает в течение 14 дней",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Expires within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия истекает в течение 30 дней",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Retry booked",
+"kind": "list",
+"max": 30,
+"mt": "Повторная попытка забронирована",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Gift card expired",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия подарочной карты истек",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Gift card fully used",
+"kind": "list",
+"max": 30,
+"mt": "Подарочная карта полностью использована",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Gift card expires within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия подарочной карты истекает в течение 30 дней.",
+"why": "too long: 58 characters, the limit is 30"
+},
+{
+"en": "Some sessions unused",
+"kind": "list",
+"max": 30,
+"mt": "Некоторые сеансы не используются",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Sessions are likely to expire",
+"kind": "list",
+"max": 30,
+"mt": "Срок действия сеансов может истечь",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Sessions should be used in time",
+"kind": "list",
+"max": 30,
+"mt": "Сеансы следует использовать вовремя",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Heavy use, check the fee",
+"kind": "list",
+"max": 30,
+"mt": "Интенсивное использование, проверьте плату",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Membership covers its cost",
+"kind": "list",
+"max": 30,
+"mt": "Членство покрывает его стоимость",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Offer costs more than it saves",
+"kind": "list",
+"max": 30,
+"mt": "Предложение стоит больше, чем экономит",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Nothing left to refund",
+"kind": "list",
+"max": 30,
+"mt": "Ничего не осталось для возврата",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Prepaid share is on target",
+"kind": "list",
+"max": 30,
+"mt": "Предоплаченная доля достигает цели",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Pause fee covers the cost",
+"kind": "list",
+"max": 30,
+"mt": "Плата за паузу покрывает расходы",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Prepaid packs with sessions left and value owed",
+"kind": "title",
+"max": 60,
+"mt": "Предоплаченные пакеты с оставшимися сеансами и задолженностью",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Included and used sessions of each member by month",
+"kind": "title",
+"max": 60,
+"mt": "Включенные и использованные сессии каждого участника по месяцам",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Packs and gift cards that end soon",
+"kind": "title",
+"max": 60,
+"mt": "Наборы и подарочные карты, срок действия которых скоро закончится",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Prepaid pack sale with sessions and expiry",
+"kind": "title",
+"max": 60,
+"mt": "Распродажа предоплаченных пакетов с сессиями и сроком действия",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Sessions left in a pack and the value still owed",
+"kind": "title",
+"max": 60,
+"mt": "Сеансы остались в пакете, а задолженность по-прежнему остается.",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Sessions likely to expire before they are used",
+"kind": "title",
+"max": 60,
+"mt": "Срок действия сеансов может истечь до того, как они будут использованы.",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Monthly margin for a pack discount against packs sold",
+"kind": "title",
+"max": 60,
+"mt": "Ежемесячная маржа для скидки на пакет по отношению к проданным пакетам",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Hello {technician}, {client} has a membership session this month ({plan}). Sessions used in the last 30 days: {sessions_last_30}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {technician}! В этом месяце у {client} состоится членская сессия ({plan}). Сеансы, использованные за последние 30 дней: {sessions_last_30}.",
+"why": "English/Latin words left: sessions last"
+},
+{
+"en": "Hello {name}, {exp14_count} packs expiring in 14 days have {exp14_value} unused.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {name}! Пакеты из {exp14_count}, срок действия которых истекает через 14 дней, содержат неиспользованные {exp14_value}.",
+"why": "English/Latin words left: exp count exp value"
+}
+]

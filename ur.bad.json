@@ -1,0 +1,121 @@
+[
+{
+"en": "Record every answer on the Win-back sheet so the return rate stays true.",
+"kind": "document",
+"max": null,
+"mt": "ہر جواب کو Win-back شیٹ پر ریکارڈ کریں تاکہ واپسی کی شرح درست رہے۔",
+"why": "English/Latin words left: Win back"
+},
+{
+"en": "Use Message Log, Message Templates and Promotions to see which nudges, offers and promotions get answers and which ones pay.",
+"kind": "sentence",
+"max": null,
+"mt": "یہ دیکھنے کے لیے میسج لاگ، پیغام کے سانچے اور پروموشنز کا استعمال کریں کہ کون سے nudges، پیشکشوں اور پروموشنز کو جواب ملتا ہے اور کون سے ادائیگی کرتے ہیں۔",
+"why": "English/Latin words left: nudges"
+},
+{
+"en": "Paid after retry",
+"kind": "list",
+"max": 30,
+"mt": "دوبارہ کوشش کرنے کے بعد ادائیگی کی گئی۔",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Expires within 14 days",
+"kind": "list",
+"max": 30,
+"mt": "14 دنوں کے اندر ختم ہو جائے گا۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Expires within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "30 دنوں کے اندر ختم ہو جائے گا۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Set a retry date",
+"kind": "list",
+"max": 30,
+"mt": "دوبارہ کوشش کی تاریخ مقرر کریں۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Gift card fully used",
+"kind": "list",
+"max": 30,
+"mt": "گفٹ کارڈ مکمل طور پر استعمال کیا گیا ہے۔",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Gift card expires within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "گفٹ کارڈ کی میعاد 30 دنوں کے اندر ختم ہو جاتی ہے۔",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "No session used",
+"kind": "list",
+"max": 30,
+"mt": "کوئی سیشن استعمال نہیں کیا گیا۔",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Sessions are likely to expire",
+"kind": "list",
+"max": 30,
+"mt": "سیشنز کی میعاد ختم ہونے کا امکان ہے۔",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Sessions should be used in time",
+"kind": "list",
+"max": 30,
+"mt": "سیشن کو وقت پر استعمال کرنا چاہئے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Membership covers its cost",
+"kind": "list",
+"max": 30,
+"mt": "رکنیت اپنی لاگت کا احاطہ کرتی ہے۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Offer costs more than it saves",
+"kind": "list",
+"max": 30,
+"mt": "پیشکش کی لاگت اس سے زیادہ بچتی ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Nothing left to refund",
+"kind": "list",
+"max": 30,
+"mt": "رقم کی واپسی کے لیے کچھ نہیں بچا",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pause fee covers the cost",
+"kind": "list",
+"max": 30,
+"mt": "توقف کی فیس لاگت کا احاطہ کرتی ہے۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Hello {technician}, {client} has a membership session this month ({plan}). Sessions used in the last 30 days: {sessions_last_30}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {technician}، {client} کا اس ماہ رکنیت کا سیشن ہے ({plan})۔ پچھلے 30 دنوں میں استعمال کیے گئے سیشنز: {sessions_last_30}۔",
+"why": "English/Latin words left: sessions last"
+},
+{
+"en": "Hello {name}, {exp14_count} packs expiring in 14 days have {exp14_value} unused.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {name}، 14 دنوں میں ختم ہونے والے {exp14_count} پیکز میں {exp14_value} غیر استعمال شدہ ہیں۔",
+"why": "English/Latin words left: exp count exp value"
+}
+]

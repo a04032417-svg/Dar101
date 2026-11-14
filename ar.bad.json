@@ -1,0 +1,65 @@
+[
+{
+"en": "Set a retry date",
+"kind": "list",
+"max": 30,
+"mt": "قم بتعيين تاريخ لإعادة المحاولة",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Gift card expires within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "تنتهي صلاحية بطاقة الهدايا خلال 30 يومًا",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Sessions should be used in time",
+"kind": "list",
+"max": 30,
+"mt": "يجب استخدام الجلسات في الوقت المناسب",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Heavy use, check the fee",
+"kind": "list",
+"max": 30,
+"mt": "الاستخدام الكثيف، التحقق من الرسوم",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Prepaid share is on target",
+"kind": "list",
+"max": 30,
+"mt": "الحصة المدفوعة مسبقًا على الهدف",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Pause fee covers the cost",
+"kind": "list",
+"max": 30,
+"mt": "رسوم الإيقاف المؤقت تغطي التكلفة",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Pause fee is below the cost",
+"kind": "list",
+"max": 30,
+"mt": "رسوم الإيقاف المؤقت أقل من التكلفة",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Hello {technician}, {client} has a membership session this month ({plan}). Sessions used in the last 30 days: {sessions_last_30}.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {technician}، لدى {client} جلسة عضوية هذا الشهر ({plan}). الجلسات المستخدمة في آخر 30 يومًا: {sessions_last_30}.",
+"why": "English/Latin words left: sessions last"
+},
+{
+"en": "Hello {name}, {exp14_count} packs expiring in 14 days have {exp14_value} unused.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا {name}، حزم {exp14_count} التي تنتهي صلاحيتها خلال 14 يومًا بها {exp14_value} غير مستخدمة.",
+"why": "English/Latin words left: exp count exp value"
+}
+]

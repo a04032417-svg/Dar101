@@ -1,0 +1,114 @@
+[
+{
+"en": "Record every answer on the Win-back sheet so the return rate stays true.",
+"kind": "document",
+"max": null,
+"mt": "هر پاسخ را در برگه Win-back ثبت کنید تا نرخ بازگشت درست بماند.",
+"why": "English/Latin words left: Win back"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the wanted rebooking rate, the lapsed limit, the warning days, the reply days and the wanted review average.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: سهم مورد نظر مشتریانی که بازدید بعدی خود را رزرو کرده‌اند، محدودیت‌های گذشته، روزهای هشدار، روزهای پاسخ و میانگین بازبینی مورد نظر.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Run Lapsed Clients and Win-back: a win-back is an offer to a client who stopped coming. Write the offer, the result and the revenue so the return rate stays true.",
+"kind": "sentence",
+"max": null,
+"mt": "اجرای مشتریان از کار افتاده و Win-back: یک پیشنهاد بازگشت به مشتری است که دیگر مراجعه نکرده است. پیشنهاد، نتیجه و درآمد را بنویسید تا نرخ بازگشت درست بماند.",
+"why": "English/Latin words left: Win back"
+},
+{
+"en": "Record every referral on Referrals and pay the reward as the Referral Rules say. Days pending and the reward owed fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "هر ارجاع را در Referrals ثبت کنید و پاداش را همانطور که قوانین ارجاع می گویند پرداخت کنید. روزهای در انتظار و پاداش بدهی پر می شود.",
+"why": "English/Latin words left: Referrals"
+},
+{
+"en": "Glow series of 6",
+"kind": "list",
+"max": 30,
+"mt": "سری Glow 6",
+"why": "English/Latin words left: Glow"
+},
+{
+"en": "Set a retry date",
+"kind": "list",
+"max": 30,
+"mt": "یک تاریخ امتحان مجدد تنظیم کنید",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Gift card expires within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "کارت هدیه ظرف 30 روز منقضی می شود",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Sessions are likely to expire",
+"kind": "list",
+"max": 30,
+"mt": "جلسات به احتمال زیاد منقضی می شوند",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Sessions should be used in time",
+"kind": "list",
+"max": 30,
+"mt": "از جلسات باید به موقع استفاده شود",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Heavy use, check the fee",
+"kind": "list",
+"max": 30,
+"mt": "استفاده سنگین، هزینه را بررسی کنید",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Membership covers its cost",
+"kind": "list",
+"max": 30,
+"mt": "عضویت هزینه های آن را پوشش می دهد",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Offer costs more than it saves",
+"kind": "list",
+"max": 30,
+"mt": "هزینه پیشنهاد بیشتر از صرفه جویی است",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Nothing left to refund",
+"kind": "list",
+"max": 30,
+"mt": "چیزی برای بازپرداخت باقی نمانده است",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Type the days late, the charge and the retries so far; see the amount overdue, the retries left, the date of the next retry and the next action. The retry gap and the most retries come from Start.",
+"kind": "sentence",
+"max": null,
+"mt": "روزهای تأخیر، شارژ و تلاش‌های مجدد را تایپ کنید. مبلغ عقب افتاده، تلاش های مجدد باقی مانده، تاریخ تلاش مجدد بعدی و اقدام بعدی را ببینید. فاصله تلاش مجدد و بیشترین تلاش مجدد از Start می آید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Hello {technician}, {client} has a membership session this month ({plan}). Sessions used in the last 30 days: {sessions_last_30}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {technician}، {client} این ماه یک جلسه عضویت دارد ({plan}). جلسات استفاده شده در 30 روز گذشته: {sessions_last_30}.",
+"why": "English/Latin words left: sessions last"
+},
+{
+"en": "Hello {name}, {exp14_count} packs expiring in 14 days have {exp14_value} unused.",
+"kind": "message",
+"max": null,
+"mt": "سلام {name}، بسته‌های {exp14_count} که 14 روز دیگر منقضی می‌شوند، {exp14_value} استفاده نشده‌اند.",
+"why": "English/Latin words left: exp count exp value"
+}
+]
