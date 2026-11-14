@@ -1,0 +1,128 @@
+[
+{
+"en": "Monthly value of contracts ending",
+"kind": "label",
+"max": 30,
+"mt": "Ежемесячная стоимость контрактов, заканчивающихся",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Follow each renewal on Renewal Steps, change the price on Contract Price Reviews and log each week on Contract Visit Log so missed visits never go unseen. Office Client Notes keep the follow-ups.",
+"kind": "sentence",
+"max": null,
+"mt": "Следите за каждым продлением на Этапы продления, меняйте цену на Обзоры контрактных цен и регистрируйтесь каждую неделю на Журнал посещений контракта, чтобы пропущенные посещения никогда не оставались незамеченными. Заметки клиента Office продолжайте следить за происходящим.",
+"why": "English/Latin words left: Office"
+},
+{
+"en": "Know what each job, client and service really earns and keeps",
+"kind": "sentence",
+"max": 80,
+"mt": "Знайте, сколько на самом деле зарабатывает и сохраняет каждая работа, клиент и услуга",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "opening cash, cash in, crew pay, supplies, expenses, taxes and the owner draw for each month with the closing cash and a check against your floor",
+"kind": "sentence",
+"max": 160,
+"mt": "вступительные деньги, внесение наличных, оплата экипажа, расходные материалы, расходы, налоги и доход владельца за каждый месяц с заключительными деньгами и чеком на ваш этаж",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "the labour hours a week you must work to cover your fixed costs and the hours you work above that line, month by month",
+"kind": "sentence",
+"max": 160,
+"mt": "количество рабочих часов в неделю, которые вы должны отработать, чтобы покрыть свои постоянные расходы, и количество часов, которые вы работаете сверх этой черты, месяц за месяцем",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "a budget for each expense category and month set against what you paid, with the share used and a flag when a cost goes over",
+"kind": "sentence",
+"max": 160,
+"mt": "бюджет для каждой категории расходов и месяца, установленный на основе суммы, которую вы заплатили, с указанием использованной доли и флажком, когда затраты превышают",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "spend, leads and quotes won by lead source and month with the cost per lead, the cost per new client and a check against your target",
+"kind": "sentence",
+"max": 160,
+"mt": "расходы, лиды и котировки, полученные по источнику потенциальных клиентов и месяцу, с указанием стоимости за лид, стоимости за нового клиента и проверки на соответствие вашей цели",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "the profit before and after a price rise given the clients you may lose, and the share of revenue you can lose before the rise stops paying",
+"kind": "sentence",
+"max": 160,
+"mt": "прибыль до и после повышения цен с учетом клиентов, которых вы можете потерять, и долю дохода, которую вы можете потерять до того, как повышение перестанет приносить прибыль.",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Software and apps",
+"kind": "list",
+"max": 30,
+"mt": "Программное обеспечение и приложения",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Cash left is safe",
+"kind": "list",
+"max": 30,
+"mt": "Оставшиеся деньги в безопасности",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Cost per client high",
+"kind": "list",
+"max": 30,
+"mt": "Стоимость одного клиента высокая",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Utilization below target",
+"kind": "list",
+"max": 30,
+"mt": "Использование ниже целевого показателя",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Price rise loses profit",
+"kind": "list",
+"max": 30,
+"mt": "Рост цен приводит к потере прибыли",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Tax set-aside is enough",
+"kind": "list",
+"max": 30,
+"mt": "Налоговых отчислений достаточно",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Monthly summary with operating profit and the tax set-aside",
+"kind": "title",
+"max": 60,
+"mt": "Ежемесячная сводка с операционной прибылью и налоговыми отчислениями",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Owner draw plan with the cash left after the draw",
+"kind": "title",
+"max": 60,
+"mt": "План розыгрыша владельца с денежными средствами, оставшимися после розыгрыша",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Keep, reprice or end the visits for one client",
+"kind": "title",
+"max": 60,
+"mt": "Сохраните, измените цену или прекратите посещения одного клиента",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello, the year-end documents are ready: revenue of the last 12 months {rev_12m}, operating profit {profit_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, готовы документы на конец года: выручка за последние 12 месяцев {rev_12m}, операционная прибыль {profit_12m}.",
+"why": "English/Latin words left: rev profit"
+}
+]

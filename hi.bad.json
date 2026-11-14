@@ -1,0 +1,51 @@
+[
+{
+"en": "Monthly value of contracts ending",
+"kind": "label",
+"max": 30,
+"mt": "समाप्त होने वाले अनुबंधों का मासिक मूल्य",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Marketing pays back fast",
+"kind": "list",
+"max": 30,
+"mt": "मार्केटिंग का प्रतिफल तेजी से मिलता है",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Marketing pays back slowly",
+"kind": "list",
+"max": 30,
+"mt": "मार्केटिंग का प्रतिफल धीरे-धीरे मिलता है",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Hire pays back fast",
+"kind": "list",
+"max": 30,
+"mt": "किराया तेजी से वापस भुगतान करता है",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Hire pays back slowly",
+"kind": "list",
+"max": 30,
+"mt": "किराया धीरे-धीरे वापस भुगतान करता है",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Keep, reprice or end the visits for one client",
+"kind": "title",
+"max": 60,
+"mt": "एक ग्राहक के लिए विज़िट रखें, पुनर्मूल्यांकन करें या समाप्त करें",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello, the year-end documents are ready: revenue of the last 12 months {rev_12m}, operating profit {profit_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, साल के अंत के दस्तावेज़ तैयार हैं: पिछले 12 महीनों का राजस्व {rev_12m}, परिचालन लाभ {profit_12m}।",
+"why": "English/Latin words left: rev profit"
+}
+]
