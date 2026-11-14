@@ -346,6 +346,8 @@ if os.environ.get('TR_ENGINE') in ('google2', 'nllb', 'bing', 'edge2'):
             except urllib.error.HTTPError as e:
                 if e.code == 429:
                     if attempt % 10 == 0: print('  HTTP 429, waiting', attempt, flush=True)
+                    if attempt >= 5:   # this runner is banned: save the work so far and stop, so a re-run lands on another machine (tr_rerun.py)
+                        json.dump(done, open(OUT, 'w', encoding='utf8'), ensure_ascii=False, indent=0); print('  429 ban on this runner, stopping', flush=True); sys.exit(3)
                     time.sleep(120)
                 else: print('  HTTP', e.code, flush=True); time.sleep(20)
                 res = None
