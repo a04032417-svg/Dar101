@@ -1,0 +1,184 @@
+[
+{
+"en": "Bring clients back on time, win back the lapsed and answer every review",
+"kind": "sentence",
+"max": 80,
+"mt": "Traga os clientes de volta no prazo, recupere os que foram perdidos e responda a todas as avaliações",
+"why": "too long: 100 characters, the limit is 80"
+},
+{
+"en": "every fill, infill and facial series visit shows its due date, days overdue, nudge sent and revenue at risk, so no regular client slips away",
+"kind": "sentence",
+"max": 160,
+"mt": "cada visita de preenchimento, preenchimento e série facial mostra sua data de vencimento, dias de atraso, estímulo enviado e receita em risco, para que nenhum cliente regular escape",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "Due now, nudge to send",
+"kind": "list",
+"max": 30,
+"mt": "Vencido agora, pressione para enviar",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Overdue over 7 days, call",
+"kind": "list",
+"max": 30,
+"mt": "Atrasado há mais de 7 dias, ligue",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Reward owed over 14 days",
+"kind": "list",
+"max": 30,
+"mt": "Recompensa devida há mais de 14 dias",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Low rating, follow up",
+"kind": "list",
+"max": 30,
+"mt": "Classificação baixa, acompanhamento",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Rebooking is below target",
+"kind": "list",
+"max": 30,
+"mt": "A remarcação está abaixo da meta",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Fill is not due yet",
+"kind": "list",
+"max": 30,
+"mt": "O preenchimento ainda não está vencido",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Fill is overdue, call the client",
+"kind": "list",
+"max": 30,
+"mt": "O preenchimento está atrasado, ligue para o cliente",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Offer costs more than it returns",
+"kind": "list",
+"max": 30,
+"mt": "A oferta custa mais do que retorna",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Reward costs more than it returns",
+"kind": "list",
+"max": 30,
+"mt": "A recompensa custa mais do que retorna",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Reply when time allows",
+"kind": "list",
+"max": 30,
+"mt": "Responder quando o tempo permitir",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Target needs a big change",
+"kind": "list",
+"max": 30,
+"mt": "O alvo precisa de uma grande mudança",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "High risk, send a win-back offer",
+"kind": "list",
+"max": 30,
+"mt": "Alto risco, envie uma oferta de recuperação",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Clients with days since the last visit and rebooking state",
+"kind": "title",
+"max": 60,
+"mt": "Clientes com dias desde a última visita e estado de remarcação",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Fills due with nudge state and days overdue",
+"kind": "title",
+"max": 60,
+"mt": "Preenchimentos devidos com estado de estímulo e dias de atraso",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Technician months with rebooking rate",
+"kind": "title",
+"max": 60,
+"mt": "Meses do técnico com parcela de clientes que agendaram sua próxima visita",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Referral rules with the gap to the standard reward",
+"kind": "title",
+"max": 60,
+"mt": "Regras de indicação com lacuna em relação à recompensa padrão",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Reviews with reply deadline and rating check",
+"kind": "title",
+"max": 60,
+"mt": "Avaliações com prazo de resposta e verificação de classificação",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Team and outside contacts with rebooking and review results",
+"kind": "title",
+"max": 60,
+"mt": "Equipe e contatos externos com resultados de remarcação e revisão",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Rebooked visits, new clients and win-back revenue by month",
+"kind": "title",
+"max": 60,
+"mt": "Visitas remarcadas, novos clientes e recuperação de receita por mês",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Fill due with the cycle, due date and nudge state",
+"kind": "title",
+"max": 60,
+"mt": "Preencha o vencimento com o ciclo, data de vencimento e estado de estímulo",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Rebooking rate of a technician and the gap to the target",
+"kind": "title",
+"max": 60,
+"mt": "Taxa de remarcação de um técnico e a diferença em relação à meta",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Extra bookings from a higher rebooking rate",
+"kind": "title",
+"max": 60,
+"mt": "Reservas extras de uma parcela maior de clientes que reservaram sua próxima visita",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Review average, low ratings and 5-star reviews needed",
+"kind": "title",
+"max": 60,
+"mt": "Avaliações médias, baixas e avaliações de 5 estrelas necessárias",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Revenue by rebooking rate and appointments",
+"kind": "title",
+"max": 60,
+"mt": "Receita por parcela de clientes que agendaram sua próxima visita e agendamento",
+"why": "too long: 78 characters, the limit is 60"
+}
+]
