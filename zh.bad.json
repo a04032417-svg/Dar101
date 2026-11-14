@@ -1,0 +1,107 @@
+[
+{
+"en": "Use Pay for the monthly pay of each cleaner with the bonus, Bonus Rules for the levels, Kit Issued for what each cleaner holds and Crew Labour Cost for the labour cost per job.",
+"kind": "sentence",
+"max": null,
+"mt": "使用 Pay 表示每个清洁工的月薪和奖金，使用 奖金规则 表示级别，使用 套件已发放 表示每个清洁工拥有的物品，使用 船员人工成本 表示每个工作的劳动力成本。",
+"why": "English/Latin words left: Pay"
+},
+{
+"en": "Poor quality costs little",
+"kind": "list",
+"max": 30,
+"mt": "Poor quality costs little",
+"why": "English/Latin words left: Poor quality costs little"
+},
+{
+"en": "Photo review is manageable",
+"kind": "list",
+"max": 30,
+"mt": "Photo review is manageable",
+"why": "English/Latin words left: Photo review is manageable"
+},
+{
+"en": "Photo review is too heavy",
+"kind": "list",
+"max": 30,
+"mt": "Photo review is too heavy",
+"why": "English/Latin words left: Photo review is too"
+},
+{
+"en": "Inspections with score, pass flag and points lost",
+"kind": "title",
+"max": 60,
+"mt": "Inspections with score, pass flag and points lost",
+"why": "English/Latin words left: Inspections with score pass"
+},
+{
+"en": "One row per inspection of a finished job with the crew, the inspector, the items checked and failed and the weak area; the pass flag, the points lost and the phones fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "One row per inspection of a finished job with the crew, the inspector, the items checked and failed and the weak area; the pass flag, the points lost and the phones fill in by themselves.",
+"why": "English/Latin words left: One row per inspection"
+},
+{
+"en": "Jobs with score group and follow-up flag",
+"kind": "title",
+"max": 60,
+"mt": "Jobs with score group and follow-up flag",
+"why": "English/Latin words left: Jobs with score group"
+},
+{
+"en": "Every job of the last 30 days and a spread of older ones with the crew, cleaner, hours and score from 1 to 5; the follow-up flag and whether the job was inspected fill in by themselves.",
+"kind": "sentence",
+"max": null,
+"mt": "Every job of the last 30 days and a spread of older ones with the crew, cleaner, hours and score from 1 to 5; the follow-up flag and whether the job was inspected fill in by themselves.",
+"why": "English/Latin words left: Every job of the"
+},
+{
+"en": "Checklist items per service and room",
+"kind": "title",
+"max": 60,
+"mt": "Checklist items per service and room",
+"why": "English/Latin words left: Checklist items per service"
+},
+{
+"en": "The tasks of the checklist of each service, room by room, with the minutes each takes and whether it is critical; the share of the room and the minutes of the whole checklist fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "The tasks of the checklist of each service, room by room, with the minutes each takes and whether it is critical; the share of the room and the minutes of the whole checklist fill in.",
+"why": "English/Latin words left: The tasks of the"
+},
+{
+"en": "Type the items checked, the items failed and the pass mark; read the score and the result, and use the grid rows to compare lists of different length against the number of items failed.",
+"kind": "sentence",
+"max": null,
+"mt": "Type the items checked, the items failed and the pass mark; read the score and the result, and use the grid rows to compare lists of different length against the number of items failed.",
+"why": "English/Latin words left: Type the items checked"
+},
+{
+"en": "Hello {cleaner}, please fix {weak_area} before your next visit to {client}.",
+"kind": "message",
+"max": null,
+"mt": "Hello {cleaner}, please fix {weak_area} before your next visit to {client}.",
+"why": "English/Latin words left: Hello please fix before"
+},
+{
+"en": "Hello {cleaner}, your photos are missing for {job_id} at {client}. Please send them today.",
+"kind": "message",
+"max": null,
+"mt": "Hello {cleaner}, your photos are missing for {job_id} at {client}.请今天发送。",
+"why": "English/Latin words left: Hello your photos are"
+},
+{
+"en": "Hello {cleaner}, well done. The inspection at {client} on {date} found only {items_failed} items to fix.",
+"kind": "message",
+"max": null,
+"mt": "您好{cleaner}，干得好。 The inspection at {client} on {date} found only {items_failed} items to fix.",
+"why": "English/Latin words left: The inspection at on"
+},
+{
+"en": "Hello {cleaner}, please report any damage the same day. The report for {item} at {client} is on file.",
+"kind": "message",
+"max": null,
+"mt": "Hello {cleaner}, please report any damage the same day. {client} 的 {item} 报告已存档。",
+"why": "English/Latin words left: Hello please report any"
+}
+]
