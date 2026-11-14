@@ -1,0 +1,72 @@
+[
+{
+"en": "each enquiry shows the Essential, Signature and Luxury price for its guest count and says which tier the client budget fits, before you write a proposal",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر انکوائری اپنے مہمانوں کی گنتی کے لیے ضروری، دستخط اور لگژری قیمت دکھاتی ہے اور کہتی ہے کہ کلائنٹ کا بجٹ کس درجے میں فٹ بیٹھتا ہے، اس سے پہلے کہ آپ کوئی تجویز لکھیں۔",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Venue holds that lapse before the client signs",
+"kind": "label",
+"max": 50,
+"mt": "مقام کلائنٹ کے اشارے سے پہلے اس غلطی کو برقرار رکھتا ہے۔",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "days to sign, unsigned contracts and late or overdue deposits are flagged so no date is held without a signed contract and a deposit",
+"kind": "sentence",
+"max": 160,
+"mt": "دستخط کرنے کے دن، غیر دستخط شدہ معاہدوں اور دیر سے یا زائد المیعاد ڈپازٹس کو نشان زد کیا جاتا ہے اس لیے دستخط شدہ معاہدے اور جمع کے بغیر کوئی تاریخ نہیں رکھی جاتی",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "the notice scale and your vendor deposits show what you keep and lose when a client cancels, and a counter-offer shows what to cut when the budget is too low",
+"kind": "sentence",
+"max": 160,
+"mt": "نوٹس کا پیمانہ اور آپ کے وینڈر ڈپازٹس دکھاتے ہیں کہ جب کوئی کلائنٹ منسوخ کرتا ہے تو آپ کیا رکھتے ہیں اور کیا کھوتے ہیں، اور جوابی پیشکش دکھاتی ہے کہ بجٹ بہت کم ہونے پر کیا کم کرنا ہے۔",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "Chose another planner",
+"kind": "list",
+"max": 30,
+"mt": "ایک اور منصوبہ ساز کا انتخاب کریں۔",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Venues with hire fee, minimum spend and events held",
+"kind": "title",
+"max": 60,
+"mt": "کرائے کی فیس کے ساتھ مقامات، کم از کم خرچ اور منعقد ہونے والے پروگرام",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Team and crew with events led and enquiries handled",
+"kind": "title",
+"max": 60,
+"mt": "ٹیم اور عملے کے ساتھ واقعات کی قیادت کی گئی اور پوچھ گچھ کی گئی۔",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Signed value, planning fee, proposals and marketing by month",
+"kind": "title",
+"max": 60,
+"mt": "دستخط شدہ قیمت، منصوبہ بندی کی فیس، تجاویز اور ماہانہ مارکیٹنگ",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Planning fee signed",
+"kind": "label",
+"max": 30,
+"mt": "منصوبہ بندی کی فیس پر دستخط کیے گئے۔",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Hello, we confirm the booking of {venue} for {name} on {date}, {guests} guests. Please send the final terms.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، ہم {date}، {guests} مہمانوں کے لیے {venue} کی بکنگ کی تصدیق کرتے ہیں۔ براہ کرم حتمی شرائط بھیجیں۔",
+"why": "placeholders must be exactly: {venue} {name} {date} {guests}"
+}
+]
