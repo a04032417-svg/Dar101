@@ -1,0 +1,170 @@
+[
+{
+"en": "every item with the days of stock left, the date it runs out, the quantity to order and a check for orders that are waiting or late",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder Artikel wird mit den verbleibenden Lagertagen, dem Datum, an dem er aufgebraucht ist, der zu bestellenden Menge und einem Scheck für wartende oder verspätete Bestellungen angezeigt",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "the standard load of every van against what is on it, the shortfall and a ready message to the cleaner and the team lead",
+"kind": "sentence",
+"max": 160,
+"mt": "Vergleichen Sie die Standardladung jedes Lieferwagens mit dem, was darauf ist, geben Sie den Fehlbetrag an und senden Sie eine Fertigmeldung an die Reinigungskraft und den Teamleiter",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "what a supplier price rise adds to a month, a year and every job, and whether to absorb it or raise your prices",
+"kind": "sentence",
+"max": 160,
+"mt": "Welche Auswirkungen hat eine Erhöhung der Lieferantenpreise auf einen Monat, ein Jahr und jeden Auftrag und ob Sie diese auffangen oder Ihre Preise erhöhen sollten",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Bulk chemical supplier",
+"kind": "list",
+"max": 30,
+"mt": "Lieferant von Massenchemikalien",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Caddy",
+"kind": "list",
+"max": 30,
+"mt": "Caddy",
+"why": "not translated"
+},
+{
+"en": "Rosa Bianchi",
+"kind": "list",
+"max": 30,
+"mt": "Rosa Bianchi",
+"why": "not translated"
+},
+{
+"en": "Shrinkage is within the limit",
+"kind": "list",
+"max": 30,
+"mt": "Die Schrumpfung liegt im Rahmen",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Shrinkage is above the limit",
+"kind": "list",
+"max": 30,
+"mt": "Die Schrumpfung liegt über dem Grenzwert",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Cost per job is small",
+"kind": "list",
+"max": 30,
+"mt": "Die Kosten pro Auftrag sind gering",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Cost per job is large",
+"kind": "list",
+"max": 30,
+"mt": "Die Kosten pro Auftrag sind hoch",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Travel share is within target",
+"kind": "list",
+"max": 30,
+"mt": "Der Reiseanteil liegt innerhalb der Zielvorgabe",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Travel share is above target",
+"kind": "list",
+"max": 30,
+"mt": "Der Reiseanteil liegt über dem Zielwert",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Supplies share is within target",
+"kind": "list",
+"max": 30,
+"mt": "Der Vorratsanteil liegt innerhalb der Zielvorgabe",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Supplies share is above target",
+"kind": "list",
+"max": 30,
+"mt": "Der Versorgungsanteil liegt über dem Zielwert",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Stock on hand with value, days of cover and reorder flag",
+"kind": "title",
+"max": 60,
+"mt": "Lagerbestand mit Wert, Deckungstagen und Nachbestellkennzeichen",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Supplier quotes with the saving against the current price",
+"kind": "title",
+"max": 60,
+"mt": "Lieferantenangebote mit der Ersparnis gegenüber dem aktuellen Preis",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Van stock with the shortfall against the standard load",
+"kind": "title",
+"max": 60,
+"mt": "Lieferwagenbestand mit der Unterschreitung der Standardladung",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Reorder list with days waiting and delivery check",
+"kind": "title",
+"max": 60,
+"mt": "Nachbestellliste mit Wartezeiten in Tagen und Lieferkontrolle",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Supplies, equipment service, travel and waste cost by month",
+"kind": "title",
+"max": 60,
+"mt": "Lieferungen, Ausrüstungsservice, Reise- und Abfallkosten pro Monat",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Waste and spills",
+"kind": "label",
+"max": 30,
+"mt": "Abfall und verschüttete Flüssigkeiten",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Days left and the date an item runs out",
+"kind": "title",
+"max": 60,
+"mt": "Verbleibende Tage und das Datum, an dem ein Artikel aufgebraucht ist",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Whether to repair a machine or buy a new one",
+"kind": "title",
+"max": 60,
+"mt": "Ob eine Maschine repariert oder eine neue gekauft werden soll",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "What a supplier price rise does to a job",
+"kind": "title",
+"max": 60,
+"mt": "Was eine Erhöhung der Lieferantenpreise für einen Job bedeutet",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: supplies cost per job against jobs per month",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Materialkosten pro Auftrag im Vergleich zu Aufträgen pro Monat",
+"why": "too long: 84 characters, the limit is 60"
+}
+]

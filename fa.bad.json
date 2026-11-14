@@ -1,0 +1,37 @@
+[
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the pass mark, the target score, the fail rate you accept, the share of jobs you want to inspect and the working days to fix a finding.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: نمره قبولی، امتیاز هدف، میزان شکستی که می‌پذیرید، سهم مشاغلی که می‌خواهید بازرسی کنید و روزهای کاری برای اصلاح یک یافته.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Bulk buy saves money",
+"kind": "list",
+"max": 30,
+"mt": "خرید عمده باعث صرفه جویی در هزینه می شود",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "What-if grid: supplies cost per job against jobs per month",
+"kind": "title",
+"max": 60,
+"mt": "شبکه چه می‌شود: هزینه منابع برای هر شغل در برابر مشاغل در ماه",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Vendor: your invoice does not match",
+"kind": "label",
+"max": null,
+"mt": "فروشنده: فاکتور شما مطابقت ندارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, your invoice for {item} on {date} ({amount}) does not match our order. Please check it.",
+"kind": "message",
+"max": null,
+"mt": "سلام، فاکتور شما برای {item} در {date} ({amount}) با سفارش ما مطابقت ندارد. لطفا آن را بررسی کنید.",
+"why": "never use the word for \"compatible\""
+}
+]

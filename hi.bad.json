@@ -1,0 +1,65 @@
+[
+{
+"en": "Bulk buy saves money",
+"kind": "list",
+"max": 30,
+"mt": "थोक खरीद से पैसे की बचत होती है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Travel share is within target",
+"kind": "list",
+"max": 30,
+"mt": "यात्रा हिस्सेदारी लक्ष्य के भीतर है",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Travel share is above target",
+"kind": "list",
+"max": 30,
+"mt": "यात्रा हिस्सेदारी लक्ष्य से ऊपर है",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Supplies share is within target",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्ति हिस्सेदारी लक्ष्य के भीतर है",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Supplies share is above target",
+"kind": "list",
+"max": 30,
+"mt": "आपूर्ति हिस्सेदारी लक्ष्य से ऊपर है",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Reorder list with days waiting and delivery check",
+"kind": "title",
+"max": 60,
+"mt": "प्रतीक्षा के दिनों और डिलीवरी की जांच के साथ सूची को पुन: व्यवस्थित करें",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "What a machine costs each time you use it",
+"kind": "title",
+"max": 60,
+"mt": "हर बार जब आप इसका उपयोग करते हैं तो मशीन की लागत कितनी होती है",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: supplies cost per job against jobs per month",
+"kind": "title",
+"max": 60,
+"mt": "क्या-अगर ग्रिड: प्रति माह नौकरियों के मुकाबले प्रति नौकरी आपूर्ति लागत",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Count {col:counts.sc_id} on {col:counts.date}: {col:counts.item}, counted {col:counts.counted} against {col:counts.expected} expected, by {col:counts.counted_by}.",
+"kind": "document",
+"max": null,
+"mt": "{col:counts.sc_id} को {col:counts.date} पर गिनें: {col:counts.item}, अपेक्षित {col:counts.expected} के मुकाबले {col:counts.counted_by} तक गिनें।",
+"why": "placeholders must be exactly: {col:counts.sc_id} {col:counts.date} {col:counts.item} {col:counts.counted} {col:counts.expected} {col:counts.counted_by}"
+}
+]
