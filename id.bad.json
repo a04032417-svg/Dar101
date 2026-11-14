@@ -1,0 +1,114 @@
+[
+{
+"en": "every item shows what is on the shelf, the days it lasts, whether it is below its reorder point and how much to order",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap item menunjukkan apa yang ada di rak, berapa lama item tersebut bertahan, apakah item tersebut berada di bawah titik pemesanan ulang, dan berapa banyak yang harus dipesan",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "the units of each back-bar item one service uses and the product cost they add up to, so cost per service is not a guess",
+"kind": "sentence",
+"max": 160,
+"mt": "unit dari masing-masing item back-bar (digunakan dalam jasa) yang digunakan oleh suatu jasa dan jumlah biaya produknya, sehingga biaya per jasa bukanlah perkiraan",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Aftercare kit",
+"kind": "list",
+"max": 30,
+"mt": "Perlengkapan perawatan setelahnya",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Past use-by date",
+"kind": "list",
+"max": 30,
+"mt": "Tanggal penggunaan yang sudah lewat",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Attach rate is below target",
+"kind": "list",
+"max": 30,
+"mt": "Tingkat lampiran di bawah target",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Check usage was logged",
+"kind": "list",
+"max": 30,
+"mt": "Periksa penggunaan telah dicatat",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Possible loss or waste",
+"kind": "list",
+"max": 30,
+"mt": "Kemungkinan hilang atau terbuang",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Check the purchase was logged",
+"kind": "list",
+"max": 30,
+"mt": "Periksa pembelian telah dicatat",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Cost rise needs a price check",
+"kind": "list",
+"max": 30,
+"mt": "Kenaikan biaya memerlukan pemeriksaan harga",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Service is due soon",
+"kind": "list",
+"max": 30,
+"mt": "Layanan akan segera jatuh tempo",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Stock on hand, reorder flag and days of cover",
+"kind": "title",
+"max": 60,
+"mt": "Persediaan tersedia, susun ulang bendera dan hari perlindungan",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Units of a back-bar item one service uses",
+"kind": "title",
+"max": 60,
+"mt": "Unit item bilah belakang (digunakan dalam layanan) yang digunakan oleh satu layanan",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "When to order a back-bar item and how much",
+"kind": "title",
+"max": 60,
+"mt": "Kapan memesan barang back-bar (digunakan dalam layanan) dan berapa banyak",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Units of back-bar stock needed next month",
+"kind": "title",
+"max": 60,
+"mt": "Unit stok back-bar (digunakan dalam jasa) dibutuhkan bulan depan",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "How many visits end with a retail sale",
+"kind": "title",
+"max": 60,
+"mt": "Berapa banyak kunjungan yang diakhiri dengan penjualan eceran",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Retail revenue by attach rate and average sale",
+"kind": "title",
+"max": 60,
+"mt": "Pendapatan ritel berdasarkan tarif lampiran dan penjualan rata-rata",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

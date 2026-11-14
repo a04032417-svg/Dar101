@@ -1,0 +1,23 @@
+[
+{
+"en": "Rise you accept without a price check",
+"kind": "label",
+"max": null,
+"mt": "您无需检查价格即可接受 Rise",
+"why": "English/Latin words left: Rise"
+},
+{
+"en": "Hello, {item} is below its reorder point: {on_hand} left against {reorder_point}. Order value {order_value}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{item} 低于其再订购点：{on_hand} 相对于 {reorder_point} 还剩 {on_hand}。订单价值{order_value}。",
+"why": "placeholders must be exactly: {item} {on_hand} {reorder_point} {order_value}"
+},
+{
+"en": "Sign the cycle on the Steriliser Log",
+"kind": "label",
+"max": null,
+"mt": "在 Steriliser log 上签署周期",
+"why": "English/Latin words left: Steriliser log"
+}
+]
