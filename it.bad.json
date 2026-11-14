@@ -1,0 +1,226 @@
+[
+{
+"en": "Inspector: send the percent report",
+"kind": "label",
+"max": null,
+"mt": "Inspector: send the percent report",
+"why": "not translated"
+},
+{
+"en": "Agent: staging and photo date",
+"kind": "label",
+"max": null,
+"mt": "Agent: staging and photo date",
+"why": "not translated"
+},
+{
+"en": "Agent: a showing is booked",
+"kind": "label",
+"max": null,
+"mt": "Agent: a showing is booked",
+"why": "not translated"
+},
+{
+"en": "Assistant: file the permit documents",
+"kind": "label",
+"max": null,
+"mt": "Assistant: file the permit documents",
+"why": "not translated"
+},
+{
+"en": "Owner: the flip is over budget",
+"kind": "label",
+"max": null,
+"mt": "Owner: the flip is over budget",
+"why": "not translated"
+},
+{
+"en": "Hello, the rehab at {property} is over budget by {over_pct}. The forecast cost is {forecast_cost} against {budget}.",
+"kind": "message",
+"max": null,
+"mt": "Hello, the rehab at {property} is over budget by {over_pct}. The forecast cost is {forecast_cost} against {budget}.",
+"why": "not translated"
+},
+{
+"en": "Contractor agreement summary for one work line",
+"kind": "title",
+"max": 60,
+"mt": "Riepilogo del contratto del contraente per una linea di lavoro",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Percent complete against percent paid per project",
+"kind": "title",
+"max": 60,
+"mt": "Percentuale di completamento rispetto alla percentuale pagata per progetto",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Every unit, tenant, lease and late payment in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Ogni unità, inquilino, contratto di locazione e ritardi di pagamento in un unico quaderno di esercizi",
+"why": "too long: 101 characters, the limit is 80"
+},
+{
+"en": "Rent roll, tenants, leases, arrears and vacancy for real estate investors",
+"kind": "sentence",
+"max": 80,
+"mt": "Noleggio rotolo, inquilini, locazioni, arretrati e posti vacanti per investitori immobiliari",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "Rent roll with loss to lease and lease end alerts",
+"kind": "label",
+"max": 50,
+"mt": "Noleggio rotolo con perdita di leasing e avvisi di fine leasing",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "every unit with its rent against the market rent, the days to the lease end and a flag when a renewal offer is still missing",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni unità con il relativo canone rispetto al canone di mercato, i giorni mancanti alla fine della locazione ed un flag quando manca ancora un'offerta di rinnovo",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "Late rent and arrears tracker with payment plans",
+"kind": "label",
+"max": 50,
+"mt": "Tracker per affitti tardivi e arretrati con piani di pagamento",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "Lease not renewed",
+"kind": "list",
+"max": 30,
+"mt": "Contratto di locazione non rinnovato",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Increase within cap",
+"kind": "list",
+"max": 30,
+"mt": "Aumento entro il limite massimo",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Plan fits the lease",
+"kind": "list",
+"max": 30,
+"mt": "Il piano si adatta al contratto di locazione",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Plan runs past the lease",
+"kind": "list",
+"max": 30,
+"mt": "Il piano va oltre il contratto di locazione",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Renew the lease",
+"kind": "list",
+"max": 30,
+"mt": "Rinnovare il contratto di locazione",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Re-let at market rent",
+"kind": "list",
+"max": 30,
+"mt": "Riaffittato al canone di mercato",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Tenant owes more than the deposit",
+"kind": "list",
+"max": 30,
+"mt": "L'inquilino deve più del deposito",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Collection on target",
+"kind": "list",
+"max": 30,
+"mt": "Ritiro in linea con l'obiettivo",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Collection below target",
+"kind": "list",
+"max": 30,
+"mt": "Raccolta al di sotto dell'obiettivo",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Rent roll: every unit, tenant and lease",
+"kind": "title",
+"max": 60,
+"mt": "Noleggio rotolo: ogni unità, inquilino e contratto di locazione",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Rent payments: what was due and what was paid",
+"kind": "title",
+"max": 60,
+"mt": "Pagamenti dell'affitto: cosa era dovuto e cosa è stato pagato",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Arrears: rent owed and not paid, with payment plans",
+"kind": "title",
+"max": 60,
+"mt": "Arretrati: affitti dovuti e non pagati, con piani di pagamento",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Tenant requests: repairs asked for and how fast we answered",
+"kind": "title",
+"max": 60,
+"mt": "Richieste dell'inquilino: riparazioni richieste e velocità con cui abbiamo risposto",
+"why": "too long: 83 characters, the limit is 60"
+},
+{
+"en": "Tenant contacts: phone and e-mail for each unit",
+"kind": "title",
+"max": 60,
+"mt": "Contatti dell'inquilino: telefono ed e-mail per ciascuna unità",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Rent roll summary: occupancy and loss to lease",
+"kind": "title",
+"max": 60,
+"mt": "Riepilogo del registro degli affitti: occupazione e perdita per locazione",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Late rent and arrears calculator with the late fee",
+"kind": "title",
+"max": 60,
+"mt": "Calcolatore dell'affitto e degli arretrati in ritardo con la penale per il ritardo",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Rent increase calculator with the notice date",
+"kind": "title",
+"max": 60,
+"mt": "Calcolatore dell'aumento dell'affitto con la data dell'avviso",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Turnover cost estimator: the cost to re-let a unit",
+"kind": "title",
+"max": 60,
+"mt": "Stima dei costi di fatturato: il costo per riaffittare un'unità",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rent against vacancy for the yearly income",
+"kind": "title",
+"max": 60,
+"mt": "Griglia \"what-if\": affitto rispetto ai posti vacanti per il reddito annuo",
+"why": "too long: 73 characters, the limit is 60"
+}
+]

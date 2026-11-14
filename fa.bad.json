@@ -1,0 +1,37 @@
+[
+{
+"en": "Inspection: {col:draws.inspect_flag}. Status: {col:draws.status}. Approve only when the inspection matches the work.",
+"kind": "document",
+"max": null,
+"mt": "بازرسی: {col:draws.inspect_flag}. وضعیت: {col:draws.status}. فقط زمانی تایید کنید که بازرسی با کار مطابقت داشته باشد.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the retainage share, the contingency share, the overrun that is flagged, the selling costs and the profit you want from a flip.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: سهم احتیاطی، سهم احتمالی، بیش از حد مشخص شده، هزینه‌های فروش و سودی که از یک تلنگر می‌خواهید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Record every draw on Draws: a draw is a payment released to a contractor as work is finished. The retainage held back and an inspection check fill in; Inspection records keep what the inspector found.",
+"kind": "sentence",
+"max": null,
+"mt": "هر قرعه کشی را در Draws ثبت کنید: قرعه کشی پرداختی است که در پایان کار به پیمانکار پرداخت می شود. نگهدارنده متوقف شد و یک بررسی بازرسی پر می شود. سوابق بازرسی آنچه را که بازرس پیدا کرده است حفظ کنید.",
+"why": "English/Latin words left: Draws"
+},
+{
+"en": "Rent roll with loss to lease and lease end alerts",
+"kind": "label",
+"max": 50,
+"mt": "رول اجاره با هشدارهای خاتمه دادن به اجاره و پایان اجاره",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "Review before you decide",
+"kind": "list",
+"max": 30,
+"mt": "قبل از اینکه تصمیم بگیرید مرور کنید",
+"why": "too long: 35 characters, the limit is 30"
+}
+]
