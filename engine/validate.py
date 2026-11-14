@@ -303,7 +303,7 @@ class V:
 
     def forms(self):
         fs = self.s.get('forms', []); seen = set()
-        if not self.arr(fs, 'forms', 0, 10): return
+        if not self.arr(fs, 'forms', 0, 12): return
         for i, f in enumerate(fs):
             w = f'forms[{f.get("key", i) if isinstance(f, dict) else i}]'
             if not self.obj(f, w, ['key', 'sheet', 'title', 'pick', 'fields'], ['lines']): continue
@@ -454,7 +454,7 @@ def _ext(V):
 
     def tools(self):
         ts = self.s.get('tools', []); seen = set()
-        if not self.arr(ts, 'tools', 0, 14): return
+        if not self.arr(ts, 'tools', 0, 18): return
         for i, t in enumerate(ts):
             w = f'tools[{t.get("key", i) if isinstance(t, dict) else i}]'
             if not self.obj(t, w, ['key', 'sheet', 'title', 'hint', 'inputs', 'outputs'], ['grid']): continue
@@ -500,7 +500,7 @@ def _ext(V):
 
     def messages(self):
         ms = self.s.get('messages', []); seen = set()
-        if not self.arr(ms, 'messages', 0, 30): return
+        if not self.arr(ms, 'messages', 0, 36): return
         for i, m in enumerate(ms):
             w = f'messages[{m.get("key", i) if isinstance(m, dict) else i}]'
             if not self.obj(m, w, ['key', 'moment', 'text', 'table', 'phone']): continue
@@ -517,7 +517,7 @@ def _ext(V):
 
     def documents(self):
         ds = self.s.get('documents', []); seen = set()
-        if not self.arr(ds, 'documents', 0, 10): return
+        if not self.arr(ds, 'documents', 0, 12): return
         sets = {x.get('key') for x in self.s.get('settings', []) if isinstance(x, dict)}
         for i, d in enumerate(ds):
             w = f'documents[{d.get("key", i) if isinstance(d, dict) else i}]'
@@ -545,7 +545,7 @@ def _ext(V):
 
     def checklists(self):
         cs = self.s.get('checklists', []); seen = set()
-        if not self.arr(cs, 'checklists', 0, 10): return
+        if not self.arr(cs, 'checklists', 0, 12): return
         for i, c in enumerate(cs):
             w = f'checklists[{c.get("key", i) if isinstance(c, dict) else i}]'
             if not self.obj(c, w, ['key', 'title', 'table', 'start', 'steps']): continue
@@ -630,7 +630,7 @@ def _v13(V):
                 if not self.obj(g, w, ['title', 'num', 'den']): continue
                 self.text(g['title'], w + '.title', 40); self.agg(g['num'], w + '.num', False, False); self.agg(g['den'], w + '.den', False, False)
         ch = ins.get('charts')
-        if not self.arr(ch, 'insights.charts', 1, 20): return
+        if not self.arr(ch, 'insights.charts', 1, 24): return
         seen = set()
         for i, c in enumerate(ch):
             w = f'insights.charts[{i}]'
