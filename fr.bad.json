@@ -1,0 +1,289 @@
+[
+{
+"en": "Team tasks, hours, capacity, labour cost and hiring for event planners",
+"kind": "sentence",
+"max": 80,
+"mt": "Tâches d'équipe, horaires, capacité, coût de la main-d'œuvre et embauche des organisateurs d'événements",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "type the event type, the guests and the weeks left and see the hours it needs, who has the most room in the next four weeks and whether the team can take it",
+"kind": "sentence",
+"max": 160,
+"mt": "tapez le type d'événement, les invités et les semaines restantes et voyez les heures dont il a besoin, qui aura le plus de place dans les quatre prochaines semaines et si l'équipe peut l'accepter",
+"why": "too long: 195 characters, the limit is 160"
+},
+{
+"en": "hours available with leave taken off, hours planned and hours worked for every coordinator and week, with the load share and an overload flag",
+"kind": "sentence",
+"max": 160,
+"mt": "heures disponibles avec congés pris, heures planifiées et heures travaillées pour chaque coordinateur et semaine, avec la répartition de charge et un indicateur de surcharge",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Tasks with owners, due dates and checks",
+"kind": "label",
+"max": 50,
+"mt": "Tâches avec les propriétaires, échéances et chèques",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "every task of every event with its owner, the days to the due date, the days late and an overdue or blocked flag, counted from your own due-day setting",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque tâche de chaque événement avec son propriétaire, les jours jusqu'à la date d'échéance, les jours de retard et un indicateur en retard ou bloqué, comptés à partir de votre propre réglage de date d'échéance",
+"why": "too long: 211 characters, the limit is 160"
+},
+{
+"en": "Task templates counted back from the event date",
+"kind": "label",
+"max": 50,
+"mt": "Modèles de tâches décomptés à partir de la date de l'événement",
+"why": "too long: 62 characters, the limit is 50"
+},
+{
+"en": "19 steps for each event type with the days before the event, and a calculator that turns the event date into every due date, squeezed when you have less time",
+"kind": "sentence",
+"max": 160,
+"mt": "19 étapes pour chaque type d'événement avec les jours précédant l'événement, et un calculateur qui transforme la date de l'événement en chaque date d'échéance, pressée lorsque vous avez moins de temps",
+"why": "too long: 200 characters, the limit is 160"
+},
+{
+"en": "hours logged against the hours planned, the labour cost and the planning fee per hour for every event, with a flag when the fee does not cover the labour",
+"kind": "sentence",
+"max": 160,
+"mt": "heures enregistrées par rapport aux heures prévues, au coût de la main d'œuvre et aux frais de planification par heure pour chaque événement, avec un indicateur lorsque les frais ne couvrent pas la main d'œuvre",
+"why": "too long: 210 characters, the limit is 160"
+},
+{
+"en": "lead, second coordinator, crew, planned hours and planned labour cost for every event, and a warning when an event has no second coordinator",
+"kind": "sentence",
+"max": 160,
+"mt": "responsable, deuxième coordinateur, équipe, heures planifiées et coût de main-d'œuvre prévu pour chaque événement, et un avertissement lorsqu'un événement n'a pas de deuxième coordinateur",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "the working days away, the events of that person in those days and who covers, with a calculator that shares the cover hours between helpers",
+"kind": "sentence",
+"max": 160,
+"mt": "les jours ouvrables, les événements de cette personne pendant ces jours et qui couvre, avec un calculateur qui partage les heures de couverture entre les assistants",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Ownership calendar with a double-booking check",
+"kind": "label",
+"max": 50,
+"mt": "Calendrier de propriété avec chèque de double réservation",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "events per coordinator against your trigger, the hours over capacity, the months until you must hire and the break-even events of a new coordinator",
+"kind": "sentence",
+"max": 160,
+"mt": "événements par coordinateur par rapport à votre déclencheur, les heures de dépassement de capacité, les mois jusqu'à ce que vous deviez embaucher et les événements d'équilibre d'un nouveau coordinateur",
+"why": "too long: 201 characters, the limit is 160"
+},
+{
+"en": "Payroll, owner draw and crew cost together",
+"kind": "label",
+"max": 50,
+"mt": "Paie, tirage du propriétaire et coût de l'équipage ensemble",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "Study or training day",
+"kind": "list",
+"max": 30,
+"mt": "Journée d'étude ou de formation",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Expert",
+"kind": "list",
+"max": 30,
+"mt": "Expert",
+"why": "not translated"
+},
+{
+"en": "Fee covers labour",
+"kind": "list",
+"max": 30,
+"mt": "Les frais couvrent la main d’œuvre",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Fee below labour cost",
+"kind": "list",
+"max": 30,
+"mt": "Honoraires inférieurs au coût de la main d'œuvre",
+"why": "too long: 48 characters, the limit is 30"
+},
+{
+"en": "Fee covers the labour",
+"kind": "list",
+"max": 30,
+"mt": "Les frais couvrent la main d’œuvre",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Fee does not cover the labour",
+"kind": "list",
+"max": 30,
+"mt": "Les frais ne couvrent pas la main d'œuvre",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Tasks of every event with owner, due date and status",
+"kind": "title",
+"max": 60,
+"mt": "Tâches de chaque événement avec propriétaire, date d'échéance et statut",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Hours worked by each team member on each event",
+"kind": "title",
+"max": 60,
+"mt": "Heures travaillées par chaque membre de l'équipe sur chaque événement",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Team and freelance crew with open tasks and free hours",
+"kind": "title",
+"max": 60,
+"mt": "Équipe et équipe indépendante avec tâches ouvertes et heures libres",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Events with lead, planned hours and hours logged",
+"kind": "title",
+"max": 60,
+"mt": "Événements avec prospect, heures planifiées et heures enregistrées",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Hours available and planned for each coordinator every week",
+"kind": "title",
+"max": 60,
+"mt": "Horaires disponibles et prévus pour chaque coordinateur chaque semaine",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Who works each event, how many hours and how many crew",
+"kind": "title",
+"max": 60,
+"mt": "Qui travaille sur chaque événement, combien d'heures et combien d'équipage",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Task templates by event type with days before the event",
+"kind": "title",
+"max": 60,
+"mt": "Modèles de tâches par type d'événement avec jours avant l'événement",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Events led, tasks done and hours for each person and month",
+"kind": "title",
+"max": 60,
+"mt": "Événements menés, tâches effectuées et heures pour chaque personne et mois",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Owner draw each month with the running total",
+"kind": "title",
+"max": 60,
+"mt": "Le propriétaire tire au sort chaque mois avec le total cumulé",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "What each event cost in labour against its planning fee",
+"kind": "title",
+"max": 60,
+"mt": "Ce que coûte chaque événement en main d'œuvre par rapport à ses frais de planification",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Roles you plan to hire with cost and break-even events",
+"kind": "title",
+"max": 60,
+"mt": "Rôles que vous envisagez d'embaucher avec des événements de coût et d'équilibre",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Freelance crew booked for each event with pay",
+"kind": "title",
+"max": 60,
+"mt": "Equipage indépendant réservé pour chaque événement avec rémunération",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Team meetings with decisions, owners and due dates",
+"kind": "title",
+"max": 60,
+"mt": "Réunions d'équipe avec décisions, propriétaires et dates d'échéance",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Who leads which event each day, with double-booking check",
+"kind": "title",
+"max": 60,
+"mt": "Qui dirige quel événement chaque jour, avec contrôle de double réservation",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Overload finder: planned hours per person against capacity",
+"kind": "title",
+"max": 60,
+"mt": "Recherche de surcharge : heures planifiées par personne en fonction de la capacité",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Task due dates counted back from the event date",
+"kind": "title",
+"max": 60,
+"mt": "Dates d'échéance des tâches décomptées à partir de la date de l'événement",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Staffing for the day: crew, shifts and cost",
+"kind": "title",
+"max": 60,
+"mt": "Effectif pour la journée : équipage, quarts de travail et coût",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "New coordinator cost against extra events",
+"kind": "title",
+"max": 60,
+"mt": "Coût du nouveau coordinateur par rapport aux événements supplémentaires",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Freelance crew day cost with travel and meals",
+"kind": "title",
+"max": 60,
+"mt": "Coût journalier de l'équipage indépendant avec déplacement et repas",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Event ownership clash check for one person",
+"kind": "title",
+"max": 60,
+"mt": "Vérification des conflits de propriété d'un événement pour une personne",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Payroll month total: gross, employer cost and owner draw",
+"kind": "title",
+"max": 60,
+"mt": "Total mensuel de paie : brut, coût employeur et tirage propriétaire",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What-if grid: events and hours against team size",
+"kind": "title",
+"max": 60,
+"mt": "Grille de simulation : événements et heures par rapport à la taille de l'équipe",
+"why": "too long: 79 characters, the limit is 60"
+}
+]

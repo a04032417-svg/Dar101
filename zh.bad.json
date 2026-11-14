@@ -1,0 +1,51 @@
+[
+{
+"en": "Onboarding and training cost",
+"kind": "label",
+"max": null,
+"mt": "Onboarding and training cost",
+"why": "English/Latin words left: Onboarding and training cost"
+},
+{
+"en": "Extra events they can run in a year",
+"kind": "label",
+"max": null,
+"mt": "Extra events they can run in a year",
+"why": "English/Latin words left: Extra events they can"
+},
+{
+"en": "Cost of the first year with hiring",
+"kind": "label",
+"max": null,
+"mt": "Cost of the first year with hiring",
+"why": "English/Latin words left: Cost of the first"
+},
+{
+"en": "Margin from the extra events in year one",
+"kind": "label",
+"max": null,
+"mt": "Margin from the extra events in year one",
+"why": "English/Latin words left: Margin from the extra"
+},
+{
+"en": "Hello, {name} has {free4} free hours in the next four weeks and {open_tasks} open tasks.",
+"kind": "message",
+"max": null,
+"mt": "您好，{name} 在接下来的四个星期内有 {free4} 个小时的空闲时间和 {open_tasks} 个未完成的任务。",
+"why": "English/Latin words left: free"
+},
+{
+"en": "Event {col:events.event_id}: {col:events.name} for {col:events.client} on {col:events.date} at {col:events.venue}, {col:events.guests_now} guests.",
+"kind": "document",
+"max": null,
+"mt": "活动 {col:events.event_id}：{col:events.name}，时间：{col:events.date}，时间：{col:events.venue}，{col:events.guests_now} 位嘉宾。",
+"why": "placeholders must be exactly: {col:events.event_id} {col:events.name} {col:events.client} {col:events.date} {col:events.venue} {col:events.guests_now}"
+},
+{
+"en": "The task list, the vendor list and the run-of-show (event timeline) are attached. Please confirm that you have read them before the handover date.",
+"kind": "document",
+"max": null,
+"mt": "附上任务清单、供应商清单和事件时间线（eventtimeline）。请确认您在移交日期之前已阅读这些内容。",
+"why": "English/Latin words left: eventtimeline"
+}
+]

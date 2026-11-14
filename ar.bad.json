@@ -1,0 +1,51 @@
+[
+{
+"en": "Count the rented items",
+"kind": "label",
+"max": null,
+"mt": "Count the rented items",
+"why": "English/Latin words left: Count the rented items"
+},
+{
+"en": "Check the forecast and decide",
+"kind": "label",
+"max": null,
+"mt": "Check the forecast and decide",
+"why": "English/Latin words left: Check the forecast and"
+},
+{
+"en": "Build each run-of-show on Run-of-show (the event timeline): one row per item in time order. Use Run-of-show Templates and the Run-of-show Builder to start from ten steps.",
+"kind": "sentence",
+"max": null,
+"mt": "أنشئ مخططًا زمنيًا لكل حدث في Run-of-show (المخطط الزمني للحدث): صف واحد لكل عنصر بالترتيب الزمني. استخدم قوالب العرض ومنشئ العرض للبدء من عشر خطوات.",
+"why": "English/Latin words left: Run of show"
+},
+{
+"en": "Events with lead, planned hours and hours logged",
+"kind": "title",
+"max": 60,
+"mt": "الأحداث التي تحتوي على العميل المتوقع والساعات والساعات المخططة المسجلة",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Events led, tasks done and hours for each person and month",
+"kind": "title",
+"max": 60,
+"mt": "الأحداث التي تم إجراؤها والمهام المنجزة والساعات المخصصة لكل شخص وشهر",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Payroll month total: gross, employer cost and owner draw",
+"kind": "title",
+"max": 60,
+"mt": "إجمالي الرواتب الشهرية: الإجمالي وتكلفة صاحب العمل وسحب المالك",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello, {name} has {free4} free hours in the next four weeks and {open_tasks} open tasks.",
+"kind": "message",
+"max": null,
+"mt": "مرحبًا، لدى {name} {name} {free4} ساعات مجانية في الأسابيع الأربعة القادمة و{open_tasks} مهام مفتوحة.",
+"why": "placeholders must be exactly: {name} {open_tasks}"
+}
+]
