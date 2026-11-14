@@ -1,0 +1,16 @@
+[
+{
+"en": "Hello, {source} cost {cost_per_booking} per booking in {month}: spend {spend}, bookings {booked}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{month}每次预订的费用为 {source}：花费 {spend}，预订 {booked}。",
+"why": "placeholders must be exactly: {source} {cost_per_booking} {month} {spend} {booked}"
+},
+{
+"en": "Lead: the review score of your event",
+"kind": "label",
+"max": null,
+"mt": "Lead：您的活动的评论分数",
+"why": "English/Latin words left: Lead"
+}
+]

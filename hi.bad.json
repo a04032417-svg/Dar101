@@ -1,0 +1,79 @@
+[
+{
+"en": "Event profit, cash forecast, marketing return and break-even for event planners",
+"kind": "sentence",
+"max": 80,
+"mt": "इवेंट लाभ, नकद पूर्वानुमान, मार्केटिंग रिटर्न और इवेंट योजनाकारों के लिए ब्रेक-ईवन",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "Events needed each month to cover the fixed costs",
+"kind": "title",
+"max": 60,
+"mt": "निर्धारित लागतों को कवर करने के लिए प्रत्येक माह आवश्यक आयोजन",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Events per year needed to cover the fixed costs",
+"kind": "title",
+"max": 60,
+"mt": "निश्चित लागतों को कवर करने के लिए प्रति वर्ष की घटनाओं की आवश्यकता होती है",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Review {col:rev.review_id} of event {col:rev.event_id} by {col:rev.client}, dated {col:rev.date}, from {col:rev.source}.",
+"kind": "document",
+"max": null,
+"mt": "घटना {col:rev.event_id} की समीक्षा {col:rev.client}, दिनांक {col:rev.date}, {col:rev.source} से।",
+"why": "placeholders must be exactly: {col:rev.review_id} {col:rev.event_id} {col:rev.client} {col:rev.date} {col:rev.source}"
+},
+{
+"en": "Compare with the market",
+"kind": "label",
+"max": null,
+"mt": "Compare with the market",
+"why": "English/Latin words left: Compare with the market"
+},
+{
+"en": "Decide the changes",
+"kind": "label",
+"max": null,
+"mt": "Decide the changes",
+"why": "English/Latin words left: Decide the changes"
+},
+{
+"en": "Stop the weakest source",
+"kind": "label",
+"max": null,
+"mt": "Stop the weakest source",
+"why": "English/Latin words left: Stop the weakest source"
+},
+{
+"en": "Plan the next month",
+"kind": "label",
+"max": null,
+"mt": "Plan the next month",
+"why": "English/Latin words left: Plan the next month"
+},
+{
+"en": "Save the new documents",
+"kind": "label",
+"max": null,
+"mt": "Save the new documents",
+"why": "English/Latin words left: Save the new documents"
+},
+{
+"en": "Update the price guide",
+"kind": "label",
+"max": null,
+"mt": "Update the price guide",
+"why": "English/Latin words left: Update the price guide"
+},
+{
+"en": "Chase every late payment",
+"kind": "label",
+"max": null,
+"mt": "Chase every late payment",
+"why": "English/Latin words left: Chase every late payment"
+}
+]
