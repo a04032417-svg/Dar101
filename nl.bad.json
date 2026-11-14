@@ -1,0 +1,121 @@
+[
+{
+"en": "Allergens, labels, batch codes and cleaning for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Allergenen, labels, batchcodes en reiniging voor thuisbakkerijen en taartstudio's",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "each order with an allergy note is compared with the allergens of its product, so a nut allergy on a walnut cake is flagged before the bake",
+"kind": "sentence",
+"max": 160,
+"mt": "elke bestelling met een allergienotitie wordt vergeleken met de allergenen van het product, zodat een notenallergie op een walnotentaart vóór het bakken wordt gemarkeerd",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "every bake gets a batch code and a use-by date from the shelf days, and the label log checks that no label gives more days than the product keeps",
+"kind": "sentence",
+"max": 160,
+"mt": "elk baksel krijgt een batchcode en een houdbaarheidsdatum van de houdbaarheidsdagen, en het labellogboek controleert of geen enkel label meer dagen vermeldt dan het product bewaart",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "choose the product baked before and the product baked next; the calculator says if the bench, tools and trays need a full clean down",
+"kind": "sentence",
+"max": 160,
+"mt": "kies het eerder gebakken product en het volgende gebakken product; de rekenmachine geeft aan of de bank, het gereedschap en de bakken volledig moeten worden schoongemaakt",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "Cleaning log with days since the last clean",
+"kind": "label",
+"max": 50,
+"mt": "Reinigingslogboek met dagen sinds de laatste schoonmaakbeurt",
+"why": "too long: 60 characters, the limit is 50"
+},
+{
+"en": "Allergen missing on a label",
+"kind": "list",
+"max": 30,
+"mt": "Allergeen ontbreekt op een etiket",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Wrong allergen information given",
+"kind": "list",
+"max": 30,
+"mt": "Verkeerde allergeeninformatie gegeven",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Handling an allergy order",
+"kind": "list",
+"max": 30,
+"mt": "Het afhandelen van een allergiebestelling",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Use-by is today",
+"kind": "list",
+"max": 30,
+"mt": "De uiterste gebruiksdatum is vandaag",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Give the allergens from the chart",
+"kind": "list",
+"max": 30,
+"mt": "Geef de allergenen uit het schema",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Give the use-by date of the batch",
+"kind": "list",
+"max": 30,
+"mt": "Vermeld de houdbaarheidsdatum van de batch",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Check the recipe lines and declarations",
+"kind": "list",
+"max": 30,
+"mt": "Controleer de receptregels en declaraties",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Offer a product without nuts",
+"kind": "list",
+"max": 30,
+"mt": "Bied een product zonder noten aan",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Check the shelf life rules",
+"kind": "list",
+"max": 30,
+"mt": "Controleer de houdbaarheidsregels",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Ingredients with allergens, supplier and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Ingrediënten met allergenen, leverancier en houdbaarheidsdagen",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Cleaning log with the days since the previous clean",
+"kind": "title",
+"max": 60,
+"mt": "Reinigingslogboek met de dagen sinds de vorige schoonmaakbeurt",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Product changes with the days to update the label",
+"kind": "title",
+"max": 60,
+"mt": "Productwijzigingen met de dagen waarop het label moet worden bijgewerkt",
+"why": "too long: 71 characters, the limit is 60"
+}
+]

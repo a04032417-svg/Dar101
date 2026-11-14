@@ -1,0 +1,156 @@
+[
+{
+"en": "Open Start and type your company name and your own rules in the yellow cells: the waste you accept, the days of stock to hold, the expiry warning days and the count gap you accept.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و قوانین خود را در سلول‌های زرد تایپ کنید: ضایعاتی که می‌پذیرید، روزهای ذخیره‌سازی، روزهای هشدار انقضا و فاصله شماری که می‌پذیرید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Cleaning log with days since the last clean",
+"kind": "label",
+"max": 50,
+"mt": "ورود به سیستم تمیز کردن با چند روز از آخرین پاکسازی",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Wrong allergen information given",
+"kind": "list",
+"max": 30,
+"mt": "اطلاعات آلرژن اشتباه داده شده است",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Give the allergens from the chart",
+"kind": "list",
+"max": 30,
+"mt": "آلرژن ها را از نمودار ارائه دهید",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Read out the ingredient text",
+"kind": "list",
+"max": 30,
+"mt": "متن مواد تشکیل دهنده را بخوانید",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Check the recipe lines and declarations",
+"kind": "list",
+"max": 30,
+"mt": "خطوط دستور و اعلامیه ها را بررسی کنید",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Ingredients with allergens, supplier and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "مواد تشکیل دهنده با مواد حساسیت زا، عرضه کننده و روزهای نگهداری",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cleaning log with the days since the previous clean",
+"kind": "title",
+"max": 60,
+"mt": "ورود به سیستم تمیز کردن با روزهایی که از پاکسازی قبلی گذشته است",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "One row for each ingredient with the allergens the supplier declared and the date it was checked; whether it matches your list, the days since the check and an up to date flag fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر ماده با آلرژن هایی که تامین کننده اعلام کرده و تاریخ بررسی آن. آیا با لیست شما مطابقت دارد، روزهای پس از بررسی و پر کردن پرچم به‌روز.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Matches our list",
+"kind": "label",
+"max": null,
+"mt": "با لیست ما مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Second on the label",
+"kind": "label",
+"max": null,
+"mt": "Second on the label",
+"why": "English/Latin words left: Second on the label"
+},
+{
+"en": "Third on the label",
+"kind": "label",
+"max": null,
+"mt": "Third on the label",
+"why": "English/Latin words left: Third on the label"
+},
+{
+"en": "Total weight in grams",
+"kind": "label",
+"max": null,
+"mt": "Total weight in grams",
+"why": "English/Latin words left: Total weight in grams"
+},
+{
+"en": "Butter first",
+"kind": "label",
+"max": null,
+"mt": "Butter first",
+"why": "English/Latin words left: Butter first"
+},
+{
+"en": "Equal weights",
+"kind": "label",
+"max": null,
+"mt": "Equal weights",
+"why": "English/Latin words left: Equal weights"
+},
+{
+"en": "A big batch",
+"kind": "label",
+"max": null,
+"mt": "A big batch",
+"why": "English/Latin words left: big batch"
+},
+{
+"en": "Share with eggs",
+"kind": "label",
+"max": null,
+"mt": "Share with eggs",
+"why": "English/Latin words left: Share with eggs"
+},
+{
+"en": "Share with nuts",
+"kind": "label",
+"max": null,
+"mt": "Share with nuts",
+"why": "English/Latin words left: Share with nuts"
+},
+{
+"en": "Share with sesame",
+"kind": "label",
+"max": null,
+"mt": "Share with sesame",
+"why": "English/Latin words left: Share with sesame"
+},
+{
+"en": "Cost of the units left",
+"kind": "label",
+"max": null,
+"mt": "Cost of the units left",
+"why": "English/Latin words left: Cost of the units"
+},
+{
+"en": "Hello {client}, a refund of {refund} for your order {order_id} is sent. We are sorry about the problem with {product}.",
+"kind": "message",
+"max": null,
+"mt": "سلام {client}، بازپرداخت {refund} برای سفارش شما ارسال شد. بابت مشکل {product} متاسفیم.",
+"why": "placeholders must be exactly: {client} {refund} {order_id} {product}"
+},
+{
+"en": "Baker: the batch code for the product",
+"kind": "label",
+"max": null,
+"mt": "Baker: کد دسته ای محصول",
+"why": "English/Latin words left: Baker"
+}
+]

@@ -1,0 +1,51 @@
+[
+{
+"en": "Hello, purchase {purchase_id} of {amount} for {item} from {supplier} dated {date} belongs to the month starting {month}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {supplier} से {date} के लिए {amount} में से {purchase_id} की खरीदारी {month} से शुरू होने वाले महीने से संबंधित है।",
+"why": "placeholders must be exactly: {purchase_id} {amount} {item} {supplier} {date} {month}"
+},
+{
+"en": "each order with an allergy note is compared with the allergens of its product, so a nut allergy on a walnut cake is flagged before the bake",
+"kind": "sentence",
+"max": 160,
+"mt": "एलर्जी नोट के साथ प्रत्येक ऑर्डर की तुलना उसके उत्पाद के एलर्जी कारकों से की जाती है, इसलिए अखरोट के केक पर अखरोट की एलर्जी को बेक करने से पहले चिह्नित किया जाता है",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Wrong allergen information given",
+"kind": "list",
+"max": 30,
+"mt": "गलत एलर्जेन संबंधी जानकारी दी गई",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Allergic reaction reported",
+"kind": "list",
+"max": 30,
+"mt": "एलर्जी प्रतिक्रिया की सूचना दी गई",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "No clean down needed",
+"kind": "list",
+"max": 30,
+"mt": "साफ़ करने की कोई आवश्यकता नहीं है",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Give the allergens from the chart",
+"kind": "list",
+"max": 30,
+"mt": "चार्ट से एलर्जी पैदा करने वाले तत्व बताएं",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Check the recipe lines and declarations",
+"kind": "list",
+"max": 30,
+"mt": "रेसिपी पंक्तियों और घोषणाओं की जाँच करें",
+"why": "too long: 40 characters, the limit is 30"
+}
+]

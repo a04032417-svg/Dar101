@@ -1,0 +1,86 @@
+[
+{
+"en": "Know what is in every product and tell every client the truth",
+"kind": "sentence",
+"max": 80,
+"mt": "Ketahui apa yang ada di setiap produk dan sampaikan kebenarannya kepada setiap klien",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "gluten, milk, eggs, nuts, peanuts, soy and sesame as yes or no for each of the 24 products, with the count and the list ready for a label or an answer",
+"kind": "sentence",
+"max": 160,
+"mt": "gluten, susu, telur, kacang-kacangan, kacang tanah, kedelai dan wijen sebagai ya atau tidak untuk masing-masing dari 24 produk, dengan hitungan dan daftar siap untuk label atau jawaban",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "every bake gets a batch code and a use-by date from the shelf days, and the label log checks that no label gives more days than the product keeps",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap pemanggangan mendapatkan kode batch dan tanggal penggunaan dari hari penyimpanan, dan log label memeriksa bahwa tidak ada label yang memberikan hari lebih lama daripada produk disimpan",
+"why": "too long: 191 characters, the limit is 160"
+},
+{
+"en": "choose the product baked before and the product baked next; the calculator says if the bench, tools and trays need a full clean down",
+"kind": "sentence",
+"max": 160,
+"mt": "pilih produk yang dipanggang sebelumnya dan produk yang dipanggang berikutnya; kalkulator menunjukkan jika bangku, peralatan, dan baki perlu dibersihkan sepenuhnya",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Cleaning log with days since the last clean",
+"kind": "label",
+"max": 50,
+"mt": "Catatan pembersihan dengan hari sejak pembersihan terakhir",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "Incidents, questions and complaints with days open",
+"kind": "label",
+"max": 50,
+"mt": "Insiden, pertanyaan dan keluhan dengan hari terbuka",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Wrong allergen information given",
+"kind": "list",
+"max": 30,
+"mt": "Informasi alergen yang diberikan salah",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Give the shelf days and storage",
+"kind": "list",
+"max": 30,
+"mt": "Berikan hari penyimpanan dan penyimpanan",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Give the use-by date of the batch",
+"kind": "list",
+"max": 30,
+"mt": "Cantumkan tanggal penggunaan batch tersebut",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Check the recipe lines and declarations",
+"kind": "list",
+"max": 30,
+"mt": "Periksa baris resep dan deklarasinya",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Ask the head baker",
+"kind": "list",
+"max": 30,
+"mt": "Tanyakan pada kepala pembuat roti",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "What-if grid: shelf days against units baked",
+"kind": "title",
+"max": 60,
+"mt": "Grid bagaimana-jika: hari penyimpanan terhadap unit yang dipanggang",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

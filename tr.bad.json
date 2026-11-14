@@ -1,0 +1,100 @@
+[
+{
+"en": "Hello, purchase {purchase_id} of {amount} for {item} from {supplier} dated {date} belongs to the month starting {month}.",
+"kind": "message",
+"max": null,
+"mt": "Merhaba, {date} tarihli {supplier} adlı satıcıdan {item} karşılığında {purchase_id} adet satın alma işlemi {month} ile başlayan aya aittir.",
+"why": "placeholders must be exactly: {purchase_id} {amount} {item} {supplier} {date} {month}"
+},
+{
+"en": "Below the reorder point",
+"kind": "label",
+"max": 30,
+"mt": "Yeniden sipariş noktasının altında",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Allergens, labels, batch codes and cleaning for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Ev pastaneleri ve pasta stüdyoları için alerjenler, etiketler, parti kodları ve temizlik",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "every bake gets a batch code and a use-by date from the shelf days, and the label log checks that no label gives more days than the product keeps",
+"kind": "sentence",
+"max": 160,
+"mt": "Her fırında bir parti kodu ve raf günlerine ait bir son kullanma tarihi bulunur ve etiket günlüğü, hiçbir etiketin, ürünün tuttuğu günden daha fazla gün verip vermediğini kontrol eder.",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "choose the product baked before and the product baked next; the calculator says if the bench, tools and trays need a full clean down",
+"kind": "sentence",
+"max": 160,
+"mt": "daha önce pişirilen ürünü ve bir sonraki pişirilen ürünü seçin; hesap makinesi tezgahın, aletlerin ve tepsilerin tamamen temizlenmesi gerekip gerekmediğini söylüyor",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Cleaning log with days since the last clean",
+"kind": "label",
+"max": 50,
+"mt": "Son temizlikten bu yana geçen gün sayısıyla birlikte Temizleme günlüğü",
+"why": "too long: 70 characters, the limit is 50"
+},
+{
+"en": "Damaged in delivery",
+"kind": "list",
+"max": 30,
+"mt": "Teslimat sırasında hasar görmüş",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Give the shelf days and storage",
+"kind": "list",
+"max": 30,
+"mt": "Raf günlerini ve depolamayı verin",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Give the use-by date of the batch",
+"kind": "list",
+"max": 30,
+"mt": "Partinin son kullanma tarihini verin",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Check the recipe lines and declarations",
+"kind": "list",
+"max": 30,
+"mt": "Tarif satırlarını ve beyanlarını kontrol edin",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Check the shelf life rules",
+"kind": "list",
+"max": 30,
+"mt": "Raf ömrü kurallarını kontrol edin",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Cleaning log with the days since the previous clean",
+"kind": "title",
+"max": 60,
+"mt": "Önceki temizlikten bu yana geçen günlerle birlikte Temizleme günlüğü",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Product changes with the days to update the label",
+"kind": "title",
+"max": 60,
+"mt": "Etiketin güncelleneceği günlerle birlikte Ürün değişiklikleri",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Allergy order check {col:ao.order_id} of {set:company} for {col:ao.client}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "{today} tarihli, {col:ao.client} için {set:company} alerji sipariş kontrolü.",
+"why": "placeholders must be exactly: {col:ao.order_id} {set:company} {col:ao.client} {today}"
+}
+]

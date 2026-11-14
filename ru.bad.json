@@ -1,0 +1,121 @@
+[
+{
+"en": "every bake gets a batch code and a use-by date from the shelf days, and the label log checks that no label gives more days than the product keeps",
+"kind": "sentence",
+"max": 160,
+"mt": "каждая выпечка получает код партии и срок годности, указанный в днях хранения, а журнал этикеток проверяет, чтобы ни на одной этикетке не было указано больше дней, чем хранится продукт.",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "Cross-contact risk between two bakes",
+"kind": "label",
+"max": 50,
+"mt": "Риск перекрестного контакта между двумя запеканиями",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Cleaning log with days since the last clean",
+"kind": "label",
+"max": 50,
+"mt": "Журнал очистки с количеством дней с момента последней очистки",
+"why": "too long: 61 characters, the limit is 50"
+},
+{
+"en": "every task shows done on time, done late or overdue, and the days since the previous clean of that area",
+"kind": "sentence",
+"max": 160,
+"mt": "каждая задача показывает, что она выполнена вовремя, выполнена с опозданием или просрочена, а также количество дней, прошедших с момента предыдущей уборки этой области.",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Supplier declarations that expire",
+"kind": "label",
+"max": 50,
+"mt": "Декларации поставщиков, срок действия которых истекает",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Fridge and cool room",
+"kind": "list",
+"max": 30,
+"mt": "Холодильник и прохладная комната",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Allergen missing on a label",
+"kind": "list",
+"max": 30,
+"mt": "Аллерген отсутствует на этикетке",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Wrong allergen information given",
+"kind": "list",
+"max": 30,
+"mt": "Дана неверная информация об аллергене",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Allergic reaction reported",
+"kind": "list",
+"max": 30,
+"mt": "Сообщается об аллергической реакции",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Cross-contact control",
+"kind": "list",
+"max": 30,
+"mt": "Перекрестный контактный контроль",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Give the shelf days and storage",
+"kind": "list",
+"max": 30,
+"mt": "Дайте срок годности и место хранения.",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Check the recipe lines and declarations",
+"kind": "list",
+"max": 30,
+"mt": "Проверьте строки рецептов и объявления.",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Check the shelf life rules",
+"kind": "list",
+"max": 30,
+"mt": "Ознакомьтесь с правилами срока годности",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Cleaning log with the days since the previous clean",
+"kind": "title",
+"max": 60,
+"mt": "Журнал очистки с количеством дней, прошедших с момента предыдущей очистки",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Units baked and labels printed by month",
+"kind": "title",
+"max": 60,
+"mt": "Количество выпеченных единиц и напечатанных этикеток по месяцам",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: shelf days against units baked",
+"kind": "title",
+"max": 60,
+"mt": "Таблица «Что, если»: дни хранения по сравнению с выпеченными единицами",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Baker: the batch code for the product",
+"kind": "label",
+"max": null,
+"mt": "Baker: код партии продукта",
+"why": "English/Latin words left: Baker"
+}
+]

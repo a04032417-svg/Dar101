@@ -1,0 +1,219 @@
+[
+{
+"en": "Below the reorder point",
+"kind": "label",
+"max": 30,
+"mt": "En dessous du point de commande",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Allergens, labels, batch codes and cleaning for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Allergènes, étiquettes, codes de lots et nettoyage pour boulangeries et pâtisseries à domicile",
+"why": "too long: 94 characters, the limit is 80"
+},
+{
+"en": "gluten, milk, eggs, nuts, peanuts, soy and sesame as yes or no for each of the 24 products, with the count and the list ready for a label or an answer",
+"kind": "sentence",
+"max": 160,
+"mt": "gluten, lait, œufs, fruits à coque, cacahuètes, soja et sésame en oui ou non pour chacun des 24 produits, avec le décompte et la liste prêts pour une étiquette ou une réponse",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "each order with an allergy note is compared with the allergens of its product, so a nut allergy on a walnut cake is flagged before the bake",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque commande avec une note d'allergie est comparée aux allergènes de son produit, ainsi une allergie aux noix sur un gâteau aux noix est signalée avant la cuisson",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "every bake gets a batch code and a use-by date from the shelf days, and the label log checks that no label gives more days than the product keeps",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque cuisson reçoit un code de lot et une date limite de consommation à partir des jours de conservation, et le journal des étiquettes vérifie qu'aucune étiquette ne donne plus de jours que ce que le produit conserve",
+"why": "too long: 218 characters, the limit is 160"
+},
+{
+"en": "Cleaning log with days since the last clean",
+"kind": "label",
+"max": 50,
+"mt": "Journal de nettoyage avec jours depuis le dernier nettoyage",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "every task shows done on time, done late or overdue, and the days since the previous clean of that area",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque tâche indique qu'elle a été effectuée à temps, qu'elle a été effectuée en retard ou en retard, ainsi que le nombre de jours écoulés depuis le nettoyage précédent de cette zone.",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "Incidents, questions and complaints with days open",
+"kind": "label",
+"max": 50,
+"mt": "Incidents, questions et plaintes avec jours ouverts",
+"why": "too long: 51 characters, the limit is 50"
+},
+{
+"en": "Clean oven and trays",
+"kind": "list",
+"max": 30,
+"mt": "Nettoyer le four et les plaques",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Allergen missing on a label",
+"kind": "list",
+"max": 30,
+"mt": "Allergène manquant sur une étiquette",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Wrong allergen information given",
+"kind": "list",
+"max": 30,
+"mt": "Informations erronées sur les allergènes fournies",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Allergen basics",
+"kind": "list",
+"max": 30,
+"mt": "Notions de base sur les allergènes",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Use-by too long",
+"kind": "list",
+"max": 30,
+"mt": "Durée d'utilisation trop longue",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Use-by ok",
+"kind": "list",
+"max": 30,
+"mt": "Jusqu'à la fin de la période d'utilisation, ok",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Past use-by",
+"kind": "list",
+"max": 30,
+"mt": "Date limite de consommation passée",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Use-by is today",
+"kind": "list",
+"max": 30,
+"mt": "La date limite de consommation est aujourd'hui",
+"why": "too long: 46 characters, the limit is 30"
+},
+{
+"en": "Give the allergens from the chart",
+"kind": "list",
+"max": 30,
+"mt": "Donnez les allergènes du tableau",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Give the shelf days and storage",
+"kind": "list",
+"max": 30,
+"mt": "Donnez les jours de conservation et le stockage",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Give the use-by date of the batch",
+"kind": "list",
+"max": 30,
+"mt": "Donner la date limite de consommation du lot",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Check the recipe lines and declarations",
+"kind": "list",
+"max": 30,
+"mt": "Vérifier les lignes de recette et les déclarations",
+"why": "too long: 50 characters, the limit is 30"
+},
+{
+"en": "Check the allergen matrix",
+"kind": "list",
+"max": 30,
+"mt": "Vérifier la matrice des allergènes",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Check the label text",
+"kind": "list",
+"max": 30,
+"mt": "Vérifiez le texte de l'étiquette",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Check the shelf life rules",
+"kind": "list",
+"max": 30,
+"mt": "Vérifiez les règles de durée de conservation",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Check the batch record",
+"kind": "list",
+"max": 30,
+"mt": "Vérifier l'enregistrement du lot",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Ingredients with allergens, supplier and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Ingrédients contenant des allergènes, fournisseurs et jours de conservation",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Surfaces",
+"kind": "label",
+"max": null,
+"mt": "Surfaces",
+"why": "not translated"
+},
+{
+"en": "Cleaning log with the days since the previous clean",
+"kind": "title",
+"max": 60,
+"mt": "Journal de nettoyage avec les jours depuis le nettoyage précédent",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Supplier declarations with the days since the check",
+"kind": "title",
+"max": 60,
+"mt": "Déclarations des fournisseurs avec les jours depuis le contrôle",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Product changes with the days to update the label",
+"kind": "title",
+"max": 60,
+"mt": "Modifications du produit avec les jours pour mettre à jour le libellé",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Allergen check sheet for an allergy order",
+"kind": "title",
+"max": 60,
+"mt": "Feuille de contrôle des allergènes pour une commande d'allergie",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: shelf days against units baked",
+"kind": "title",
+"max": 60,
+"mt": "Grille de simulation : jours de conservation par rapport aux unités cuites",
+"why": "too long: 74 characters, the limit is 60"
+}
+]

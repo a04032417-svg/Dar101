@@ -1,0 +1,170 @@
+[
+{
+"en": "Know what is in every product and tell every client the truth",
+"kind": "sentence",
+"max": 80,
+"mt": "Wissen Sie, was in jedem Produkt enthalten ist, und sagen Sie jedem Kunden die Wahrheit",
+"why": "too long: 87 characters, the limit is 80"
+},
+{
+"en": "Allergens, labels, batch codes and cleaning for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Allergene, Etiketten, Chargencodes und Reinigung für Heimbäckereien und Kuchenstudios",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "gluten, milk, eggs, nuts, peanuts, soy and sesame as yes or no for each of the 24 products, with the count and the list ready for a label or an answer",
+"kind": "sentence",
+"max": 160,
+"mt": "Gluten, Milch, Eier, Nüsse, Erdnüsse, Soja und Sesam als Ja oder Nein für jedes der 24 Produkte, mit der Zählung und der Liste bereit für eine Beschriftung oder eine Antwort",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "each order with an allergy note is compared with the allergens of its product, so a nut allergy on a walnut cake is flagged before the bake",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Bestellung mit Allergiehinweis wird mit den Allergenen ihres Produkts verglichen, sodass eine Nussallergie auf einem Walnusskuchen vor dem Backen festgestellt wird",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "every bake gets a batch code and a use-by date from the shelf days, and the label log checks that no label gives more days than the product keeps",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Backware erhält einen Chargencode und ein Verfallsdatum anhand der Haltbarkeitsdauer, und das Etikettenprotokoll prüft, dass auf keinem Etikett mehr Tage angegeben sind, als das Produkt haltbar ist",
+"why": "too long: 202 characters, the limit is 160"
+},
+{
+"en": "Cross-contact risk between two bakes",
+"kind": "label",
+"max": 50,
+"mt": "Risiko von Kreuzkontakten zwischen zwei Backvorgängen",
+"why": "too long: 53 characters, the limit is 50"
+},
+{
+"en": "choose the product baked before and the product baked next; the calculator says if the bench, tools and trays need a full clean down",
+"kind": "sentence",
+"max": 160,
+"mt": "Wählen Sie das zuvor gebackene Produkt und das als nächstes gebackene Produkt. Der Rechner zeigt an, ob die Werkbank, die Werkzeuge und die Ablagen einer vollständigen Reinigung bedürfen",
+"why": "too long: 186 characters, the limit is 160"
+},
+{
+"en": "Cleaning log with days since the last clean",
+"kind": "label",
+"max": 50,
+"mt": "Reinigungsprotokoll mit Tagen seit der letzten Reinigung",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "Empty and clean fridge",
+"kind": "list",
+"max": 30,
+"mt": "Kühlschrank leeren und reinigen",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Allergen missing on a label",
+"kind": "list",
+"max": 30,
+"mt": "Auf einem Etikett fehlt ein Allergen",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Handling an allergy order",
+"kind": "list",
+"max": 30,
+"mt": "Bearbeitung einer Allergiebestellung",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Give the allergens from the chart",
+"kind": "list",
+"max": 30,
+"mt": "Geben Sie die Allergene aus der Tabelle an",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Read out the ingredient text",
+"kind": "list",
+"max": 30,
+"mt": "Lesen Sie den Inhaltsstofftext vor",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Give the shelf days and storage",
+"kind": "list",
+"max": 30,
+"mt": "Geben Sie die Haltbarkeitsdauer und die Lagerung an",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Give the use-by date of the batch",
+"kind": "list",
+"max": 30,
+"mt": "Geben Sie das Verfallsdatum der Charge an",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Check the recipe lines and declarations",
+"kind": "list",
+"max": 30,
+"mt": "Überprüfen Sie die Rezeptzeilen und Deklarationen",
+"why": "too long: 49 characters, the limit is 30"
+},
+{
+"en": "Offer a product without nuts",
+"kind": "list",
+"max": 30,
+"mt": "Bieten Sie ein Produkt ohne Nüsse an",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Check the allergen matrix",
+"kind": "list",
+"max": 30,
+"mt": "Überprüfen Sie die Allergenmatrix",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Check the label text",
+"kind": "list",
+"max": 30,
+"mt": "Überprüfen Sie den Etikettentext",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Check the shelf life rules",
+"kind": "list",
+"max": 30,
+"mt": "Überprüfen Sie die Haltbarkeitsregeln",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Check the batch record",
+"kind": "list",
+"max": 30,
+"mt": "Überprüfen Sie das Chargenprotokoll",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Product changes with the days to update the label",
+"kind": "title",
+"max": 60,
+"mt": "Produktänderungen mit den Tagen, in denen das Label aktualisiert werden muss",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Cross-contact risk check between two bakes",
+"kind": "title",
+"max": 60,
+"mt": "Risiko von Kreuzkontakten Prüfung zwischen zwei Backvorgängen",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "What-if grid: shelf days against units baked",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Haltbarkeitstage im Vergleich zu gebackenen Einheiten",
+"why": "too long: 75 characters, the limit is 60"
+}
+]

@@ -1,0 +1,121 @@
+[
+{
+"en": "Allergens, labels, batch codes and cleaning for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Alérgenos, etiquetas, códigos de lote y limpieza para panaderías caseras y pastelerías",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "gluten, milk, eggs, nuts, peanuts, soy and sesame as yes or no for each of the 24 products, with the count and the list ready for a label or an answer",
+"kind": "sentence",
+"max": 160,
+"mt": "gluten, leche, huevos, frutos secos, cacahuetes, soja y sésamo como sí o no para cada uno de los 24 productos, con el recuento y la lista listos para una etiqueta o una respuesta",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "each order with an allergy note is compared with the allergens of its product, so a nut allergy on a walnut cake is flagged before the bake",
+"kind": "sentence",
+"max": 160,
+"mt": "Cada pedido con una nota de alergia se compara con los alérgenos de su producto, por lo que se señala una alergia a las nueces en un pastel de nueces antes de hornearlo.",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "every bake gets a batch code and a use-by date from the shelf days, and the label log checks that no label gives more days than the product keeps",
+"kind": "sentence",
+"max": 160,
+"mt": "cada horneado recibe un código de lote y una fecha de caducidad de los días de estantería, y el registro de etiquetas comprueba que ninguna etiqueta indique más días de los que conserva el producto.",
+"why": "too long: 198 characters, the limit is 160"
+},
+{
+"en": "choose the product baked before and the product baked next; the calculator says if the bench, tools and trays need a full clean down",
+"kind": "sentence",
+"max": 160,
+"mt": "elegir el producto horneado antes y el producto horneado a continuación; la calculadora dice si el banco, las herramientas y las bandejas necesitan una limpieza completa",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "Cleaning log with days since the last clean",
+"kind": "label",
+"max": 50,
+"mt": "Registro de limpieza con días desde la última limpieza",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Wrong allergen information given",
+"kind": "list",
+"max": 30,
+"mt": "Se proporcionó información incorrecta sobre alérgenos.",
+"why": "too long: 54 characters, the limit is 30"
+},
+{
+"en": "Retest needed",
+"kind": "list",
+"max": 30,
+"mt": "Se necesita volver a realizar la prueba",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Give the shelf days and storage",
+"kind": "list",
+"max": 30,
+"mt": "Dale días de almacenamiento y almacenamiento.",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Give the use-by date of the batch",
+"kind": "list",
+"max": 30,
+"mt": "Indique la fecha de caducidad del lote.",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Check the recipe lines and declarations",
+"kind": "list",
+"max": 30,
+"mt": "Consulta las líneas de recetas y las declaraciones.",
+"why": "too long: 51 characters, the limit is 30"
+},
+{
+"en": "Offer a product without nuts",
+"kind": "list",
+"max": 30,
+"mt": "Ofrecer un producto sin frutos secos",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Check the allergen matrix",
+"kind": "list",
+"max": 30,
+"mt": "Consulta la matriz de alérgenos.",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Check the label text",
+"kind": "list",
+"max": 30,
+"mt": "Verifique el texto de la etiqueta",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Check the shelf life rules",
+"kind": "list",
+"max": 30,
+"mt": "Consulte las reglas de vida útil",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Client answer helper for a question about food",
+"kind": "title",
+"max": 60,
+"mt": "Ayudante de respuesta del cliente para una pregunta sobre comida",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "What-if grid: shelf days against units baked",
+"kind": "title",
+"max": 60,
+"mt": "Cuadrícula hipotética: días de estantería frente a unidades horneadas",
+"why": "too long: 69 characters, the limit is 60"
+}
+]
