@@ -1,0 +1,16 @@
+[
+{
+"en": "Hello, please collect the late rent for unit {unit_id} at {property}: {amount_owed} from {tenant}, open {days_open} days.",
+"kind": "message",
+"max": null,
+"mt": "您好，请在{property}收取{amount_owed}单元{tenant}的滞纳金，开放时间为{days_open}天。",
+"why": "placeholders must be exactly: {unit_id} {property} {amount_owed} {tenant} {days_open}"
+},
+{
+"en": "Your rent changes from {col:incr.old_rent} to {col:incr.new_rent} from {col:incr.date}, an increase of {col:incr.increase_pct}. This notice should go out by {col:incr.notice_by}.",
+"kind": "document",
+"max": null,
+"mt": "您的租金从 {col:incr.date} 更改为 {col:incr.new_rent}，增加了 {col:incr.increase_pct}。此通知应于 {col:incr.notice_by} 发出。",
+"why": "placeholders must be exactly: {col:incr.old_rent} {col:incr.new_rent} {col:incr.date} {col:incr.increase_pct} {col:incr.notice_by}"
+}
+]
