@@ -1,0 +1,226 @@
+[
+{
+"en": "Get every visit paid and see who pays late before cash runs short",
+"kind": "sentence",
+"max": 80,
+"mt": "Lassen Sie jeden Besuch bezahlen und sehen Sie, wer zu spät zahlt, bevor das Geld knapp wird",
+"why": "too long: 92 characters, the limit is 80"
+},
+{
+"en": "Invoice builder with due date and late fee",
+"kind": "label",
+"max": 50,
+"mt": "Rechnungsersteller mit Fälligkeitsdatum und Verzugsgebühr",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "jobs, add-ons and credits turned into an invoice amount, a due date by client type and the late fee you could add",
+"kind": "sentence",
+"max": 160,
+"mt": "Jobs, Add-ons und Gutschriften werden in einen Rechnungsbetrag, ein Fälligkeitsdatum nach Kundentyp und die Verspätungsgebühr umgewandelt, die Sie hinzufügen können",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "every unpaid invoice counted by how many days past the due date it is, month by month, with the share of the open amount in each bucket",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede unbezahlte Rechnung wird Monat für Monat gezählt, je nachdem wie viele Tage sie über dem Fälligkeitsdatum liegt, mit dem Anteil des offenen Betrags in jedem Bucket",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "the clients who pay late three times or more with the late share, the average days late, the open balance and a risk score from 0 to 100",
+"kind": "sentence",
+"max": 160,
+"mt": "die Kunden, die dreimal oder mehr zu spät zahlen, mit dem Verspätungsanteil, der durchschnittlichen Verspätungstage, dem offenen Saldo und einem Risikowert von 0 bis 100",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "a friendly reminder, a first notice, a second notice, a final notice and a call, each on its own day, with a check that every reminder went out on schedule",
+"kind": "sentence",
+"max": 160,
+"mt": "eine freundliche Erinnerung, eine erste Benachrichtigung, eine zweite Benachrichtigung, eine letzte Benachrichtigung und ein Anruf, jeweils an einem eigenen Tag, mit der Kontrolle, dass jede Erinnerung pünktlich eingegangen ist",
+"why": "too long: 227 characters, the limit is 160"
+},
+{
+"en": "a deposit and balance for one-off jobs and a schedule of instalments for a client with a large balance, with the amount still owed",
+"kind": "sentence",
+"max": 160,
+"mt": "eine Anzahlung und einen Restbetrag für einmalige Aufträge sowie einen Ratenplan für einen Kunden mit einem hohen Restbetrag, wobei der Betrag noch geschuldet wird",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "every invoice a client questioned with the reason, the days open and the outcome, and a gauge for disputes resolved in 14 days",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Rechnung, die ein Kunde befragt hat, mit Angabe des Grundes, der offenen Tage und des Ergebnisses sowie einem Maßstab für die innerhalb von 14 Tagen gelösten Streitigkeiten",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "the open invoices due in each of the next four weeks moved by your clients' usual delay into the cash you can expect each week",
+"kind": "sentence",
+"max": 160,
+"mt": "Die offenen Rechnungen, die in den nächsten vier Wochen fällig sind, werden durch die übliche Verzögerung Ihrer Kunden in die Barmittel verschoben, mit denen Sie jede Woche rechnen können",
+"why": "too long: 187 characters, the limit is 160"
+},
+{
+"en": "Service stopped early",
+"kind": "list",
+"max": 30,
+"mt": "Der Dienst wurde vorzeitig eingestellt",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Price differs from quote",
+"kind": "list",
+"max": 30,
+"mt": "Der Preis weicht vom Angebot ab",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Settled in client favour",
+"kind": "list",
+"max": 30,
+"mt": "Im Interesse des Kunden geklärt",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Asked for a payment plan",
+"kind": "list",
+"max": 30,
+"mt": "Nach einem Zahlungsplan gefragt",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Chase the invoice now",
+"kind": "list",
+"max": 30,
+"mt": "Verfolgen Sie jetzt die Rechnung",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Wait, it is not due yet",
+"kind": "list",
+"max": 30,
+"mt": "Warten Sie, es ist noch nicht fällig",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Plan fits the balance",
+"kind": "list",
+"max": 30,
+"mt": "Der Plan passt ins Gleichgewicht",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Failures are a small cost",
+"kind": "list",
+"max": 30,
+"mt": "Ausfälle sind ein kleiner Kostenfaktor",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Cash tied up is low",
+"kind": "list",
+"max": 30,
+"mt": "Die gebundene Liquidität ist gering",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Cash tied up is high",
+"kind": "list",
+"max": 30,
+"mt": "Die gebundene Liquidität ist hoch",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Overdue is within the limit",
+"kind": "list",
+"max": 30,
+"mt": "Die Überfälligkeit liegt innerhalb des Limits",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Overdue is above the limit",
+"kind": "list",
+"max": 30,
+"mt": "Überfällig liegt über dem Limit",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Send a friendly reminder",
+"kind": "list",
+"max": 30,
+"mt": "Senden Sie eine freundliche Erinnerung",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Send a first notice",
+"kind": "list",
+"max": 30,
+"mt": "Senden Sie eine erste Mitteilung",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Send a second notice",
+"kind": "list",
+"max": 30,
+"mt": "Senden Sie eine zweite Mitteilung",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Invoices with balance, days overdue and days to pay",
+"kind": "title",
+"max": 60,
+"mt": "Rechnungen mit Saldo, Überfälligkeitstagen und Zahlungsfristen",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Deposits for one-off jobs with the balance after the job",
+"kind": "title",
+"max": 60,
+"mt": "Anzahlung für einmalige Aufträge mit Restbetrag nach Abschluss des Auftrags",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "Invoiced, cash, credit notes and write-offs by month",
+"kind": "title",
+"max": 60,
+"mt": "Abrechnung, Bargeld, Gutschriften und Abschreibungen pro Monat",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Invoice amount and due date from jobs, add-ons and credits",
+"kind": "title",
+"max": 60,
+"mt": "Rechnungsbetrag und Fälligkeitsdatum von Jobs, Add-Ons und Gutschriften",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "The due date, the days late and the late fee",
+"kind": "title",
+"max": 60,
+"mt": "Das Fälligkeitsdatum, die Verspätungstage und die Verspätungsgebühr",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What a credit costs and its share of the invoice",
+"kind": "title",
+"max": 60,
+"mt": "Was ein Kredit kostet und wie hoch sein Anteil an der Rechnung ist",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Write off a balance or keep chasing",
+"kind": "title",
+"max": 60,
+"mt": "Schreiben Sie einen Restbetrag ab oder verfolgen Sie ihn weiter",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: late payment days against the amount invoiced",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Zahlungsverzugstage gegenüber dem Rechnungsbetrag",
+"why": "too long: 71 characters, the limit is 60"
+}
+]

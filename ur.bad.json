@@ -1,0 +1,51 @@
+[
+{
+"en": "Get every visit paid and see who pays late before cash runs short",
+"kind": "sentence",
+"max": 80,
+"mt": "ہر وزٹ کی ادائیگی کروائیں اور دیکھیں کہ نقد رقم کم ہونے سے پہلے کون دیر سے ادائیگی کرتا ہے۔",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "Invoices, payments, reminders and late payers for cleaning businesses",
+"kind": "sentence",
+"max": 80,
+"mt": "انوائسز، ادائیگیاں، یاد دہانیاں اور کاروبار کی صفائی کے لیے دیر سے ادائیگی کرنے والے",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "Clients pay slowly",
+"kind": "list",
+"max": 30,
+"mt": "کلائنٹ آہستہ سے ادائیگی کرتے ہیں۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Wait, it is not due yet",
+"kind": "list",
+"max": 30,
+"mt": "انتظار کرو، یہ ابھی باقی نہیں ہے۔",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Early discount costs too much",
+"kind": "list",
+"max": 30,
+"mt": "ابتدائی رعایت کی قیمت بہت زیادہ ہے۔",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "What-if grid: late payment days against the amount invoiced",
+"kind": "title",
+"max": 60,
+"mt": "کیا ہو تو گرڈ: انوائس کی گئی رقم کے خلاف ادائیگی میں تاخیر کے دن",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Receipt {col:pay.pay_id}: we received {col:pay.amount} from {col:pay.client} on {col:pay.date} by {col:pay.method} for invoice {col:pay.invoice_id}. Reference: {col:pay.reference}.",
+"kind": "document",
+"max": null,
+"mt": "رسید {col:pay.pay_id}: ہمیں رسید {col:pay.client} سے {col:pay.date} کو {col:pay.method} کے ذریعے رسید {col:pay.invoice_id} کے لیے موصول ہوئی۔ حوالہ: {col:pay.reference}۔",
+"why": "placeholders must be exactly: {col:pay.pay_id} {col:pay.amount} {col:pay.client} {col:pay.date} {col:pay.method} {col:pay.invoice_id} {col:pay.reference}"
+}
+]

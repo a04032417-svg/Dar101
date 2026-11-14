@@ -1,0 +1,44 @@
+[
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the supplies and travel share you accept, the days of supplies to hold, the days before a service warning and the repair limit.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت خود و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: منابع و سهم سفری که می‌پذیرید، روزهای نگه‌داشتن لوازم، روزهای قبل از هشدار خدمات و محدودیت تعمیر.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Get every visit paid and see who pays late before cash runs short",
+"kind": "sentence",
+"max": 80,
+"mt": "هر بازدیدی را پرداخت کنید و ببینید چه کسی قبل از کم شدن پول نقد دیر پرداخت می کند",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Client cannot be reached",
+"kind": "list",
+"max": 30,
+"mt": "دسترسی به مشتری امکان پذیر نیست",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Early discount costs too much",
+"kind": "list",
+"max": 30,
+"mt": "تخفیف زود هنگام هزینه زیادی دارد",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Coordinator: match the payments",
+"kind": "label",
+"max": null,
+"mt": "هماهنگ کننده: پرداخت ها را مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, please match the {payments} payments of the week of {week}, {amount} in total, with the bank file.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً {payments} پرداخت های هفته {week}، در مجموع {amount} را با فایل بانکی مطابقت دهید.",
+"why": "never use the word for \"compatible\""
+}
+]

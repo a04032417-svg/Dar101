@@ -1,0 +1,72 @@
+[
+{
+"en": "Invoice builder with due date and late fee",
+"kind": "label",
+"max": 50,
+"mt": "Criador de faturas com data de vencimento e taxa de atraso",
+"why": "too long: 58 characters, the limit is 50"
+},
+{
+"en": "a friendly reminder, a first notice, a second notice, a final notice and a call, each on its own day, with a check that every reminder went out on schedule",
+"kind": "sentence",
+"max": 160,
+"mt": "um lembrete amigável, um primeiro aviso, um segundo aviso, um aviso final e uma ligação, cada um em seu próprio dia, com a verificação de que cada lembrete foi enviado dentro do prazo",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "the open invoices due in each of the next four weeks moved by your clients' usual delay into the cash you can expect each week",
+"kind": "sentence",
+"max": 160,
+"mt": "as faturas em aberto com vencimento em cada uma das próximas quatro semanas transferidas pelo atraso habitual de seus clientes para o dinheiro que você pode esperar a cada semana",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "Client cannot be reached",
+"kind": "list",
+"max": 30,
+"mt": "O cliente não pode ser alcançado",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Asked for a payment plan",
+"kind": "list",
+"max": 30,
+"mt": "Solicitou um plano de pagamento",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Early discount is worth it",
+"kind": "list",
+"max": 30,
+"mt": "Desconto antecipado vale a pena",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Early discount costs too much",
+"kind": "list",
+"max": 30,
+"mt": "Desconto antecipado custa muito caro",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Plan fits the balance",
+"kind": "list",
+"max": 30,
+"mt": "O plano se ajusta ao equilíbrio",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Invoice amount and due date from jobs, add-ons and credits",
+"kind": "title",
+"max": 60,
+"mt": "Valor da fatura e data de vencimento de trabalhos, complementos e créditos",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "What-if grid: late payment days against the amount invoiced",
+"kind": "title",
+"max": 60,
+"mt": "Grade hipotética: dias de atraso no pagamento em relação ao valor faturado",
+"why": "too long: 74 characters, the limit is 60"
+}
+]

@@ -1,0 +1,128 @@
+[
+{
+"en": "Get every visit paid and see who pays late before cash runs short",
+"kind": "sentence",
+"max": 80,
+"mt": "Dapatkan setiap kunjungan dibayar dan lihat siapa yang terlambat membayar sebelum uang tunai habis",
+"why": "too long: 98 characters, the limit is 80"
+},
+{
+"en": "Invoice builder with due date and late fee",
+"kind": "label",
+"max": 50,
+"mt": "Pembuat faktur dengan tanggal jatuh tempo dan biaya keterlambatan",
+"why": "too long: 65 characters, the limit is 50"
+},
+{
+"en": "every unpaid invoice counted by how many days past the due date it is, month by month, with the share of the open amount in each bucket",
+"kind": "sentence",
+"max": 160,
+"mt": "setiap faktur yang belum dibayar dihitung berdasarkan berapa hari setelah tanggal jatuh tempo, bulan demi bulan, dengan bagian dari jumlah terbuka di setiap keranjang",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "a friendly reminder, a first notice, a second notice, a final notice and a call, each on its own day, with a check that every reminder went out on schedule",
+"kind": "sentence",
+"max": 160,
+"mt": "pengingat ramah, pemberitahuan pertama, pemberitahuan kedua, pemberitahuan terakhir dan panggilan, masing-masing pada hari tersendiri, dengan pemeriksaan bahwa setiap pengingat berjalan sesuai jadwal",
+"why": "too long: 199 characters, the limit is 160"
+},
+{
+"en": "the open invoices due in each of the next four weeks moved by your clients' usual delay into the cash you can expect each week",
+"kind": "sentence",
+"max": 160,
+"mt": "faktur terbuka yang jatuh tempo dalam empat minggu berikutnya dipindahkan berdasarkan penundaan yang biasa dilakukan klien Anda menjadi uang tunai yang dapat Anda harapkan setiap minggunya",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "First overdue notice",
+"kind": "list",
+"max": 30,
+"mt": "Pemberitahuan pertama yang terlambat",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Plan fits the balance",
+"kind": "list",
+"max": 30,
+"mt": "Rencana sesuai dengan keseimbangan",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Failures are a small cost",
+"kind": "list",
+"max": 30,
+"mt": "Kegagalan adalah biaya yang kecil",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Failures cost a lot",
+"kind": "list",
+"max": 30,
+"mt": "Kegagalan membutuhkan banyak biaya",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Overdue is within the limit",
+"kind": "list",
+"max": 30,
+"mt": "Keterlambatan masih dalam batas",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Overdue is above the limit",
+"kind": "list",
+"max": 30,
+"mt": "Keterlambatan sudah melebihi batas",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Deposits for one-off jobs with the balance after the job",
+"kind": "title",
+"max": 60,
+"mt": "Setoran untuk pekerjaan satu kali dengan saldo setelah pekerjaan",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Invoiced, cash, credit notes and write-offs by month",
+"kind": "title",
+"max": 60,
+"mt": "Faktur, uang tunai, nota kredit dan penghapusan berdasarkan bulan",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Invoice amount and due date from jobs, add-ons and credits",
+"kind": "title",
+"max": 60,
+"mt": "Jumlah faktur dan tanggal jatuh tempo dari pekerjaan, add-on dan kredit",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "The due date, the days late and the late fee",
+"kind": "title",
+"max": 60,
+"mt": "Tanggal jatuh tempo, hari keterlambatan dan biaya keterlambatan",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "How many days of revenue clients still owe you",
+"kind": "title",
+"max": 60,
+"mt": "Berapa hari pendapatan yang masih harus dibayar klien kepada Anda",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "The next reminder step from the days overdue",
+"kind": "title",
+"max": 60,
+"mt": "Langkah pengingat selanjutnya dari hari-hari yang telah lewat waktu",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What-if grid: late payment days against the amount invoiced",
+"kind": "title",
+"max": 60,
+"mt": "Kisi bagaimana-jika: jumlah hari pembayaran yang terlambat dibandingkan dengan jumlah yang ditagih",
+"why": "too long: 98 characters, the limit is 60"
+}
+]
