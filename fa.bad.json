@@ -1,0 +1,128 @@
+[
+{
+"en": "Open Start and type your company name and your numbers in the yellow cells: the tax rates your adviser gives you, years to depreciate, building share, selling cost share, highest LTV (loan divided by value) and wanted return on equity.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و اعداد خود را در سلول‌های زرد تایپ کنید: نرخ‌های مالیاتی که مشاور به شما می‌دهد، سال‌های کاهش ارزش، سهم ساختمان، سهم هزینه فروش، بالاترین وام به ارزش (وام تقسیم بر ارزش) و بازده مورد نظر حقوق صاحبان سهام.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Record every new value on Valuations and Agent opinions of value. An old opinion turns amber so you ask the agent for a new one.",
+"kind": "sentence",
+"max": null,
+"mt": "هر مقدار جدید را در Valuations و نظرات نماینده با ارزش ثبت کنید. یک نظر قدیمی کهربایی می شود، بنابراین از نماینده نظر جدید بخواهید.",
+"why": "English/Latin words left: Valuations"
+},
+{
+"en": "Use Tax set-asides, Tax summary by year and Depreciation to prepare the yearly package, and log every question for your accountant on Adviser questions.",
+"kind": "sentence",
+"max": null,
+"mt": "از کنار گذاشتن مالیات، خلاصه مالیات بر حسب سال و Depreciation برای تهیه بسته سالانه استفاده کنید و هر سؤالی را برای حسابدار خود در سوالات مشاور ثبت کنید.",
+"why": "English/Latin words left: Depreciation"
+},
+{
+"en": "rent, costs, loan payments, rehab draws, owner draw and the balloon week by week, with the closing cash and a warning when it nears or falls below your floor",
+"kind": "sentence",
+"max": 160,
+"mt": "اجاره، هزینه ها، پرداخت وام، قرعه کشی های توانبخشی، قرعه کشی مالک و بادکنک هفته به هفته، همراه با پول نقد بسته شدن و هشدار هنگام نزدیک شدن یا افتادن به زیر طبقه شما",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Flip and reinvest",
+"kind": "list",
+"max": 30,
+"mt": "ورق بزنید و دوباره سرمایه گذاری کنید",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Money is available to invest",
+"kind": "list",
+"max": 30,
+"mt": "پول برای سرمایه گذاری در دسترس است",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "No money to invest yet",
+"kind": "list",
+"max": 30,
+"mt": "هنوز پولی برای سرمایه گذاری وجود ندارد",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Balloon needs a refinance",
+"kind": "list",
+"max": 30,
+"mt": "بالون نیاز به تامین مالی مجدد دارد",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Refinance releases cash",
+"kind": "list",
+"max": 30,
+"mt": "Refinance پول نقد آزاد می کند",
+"why": "English/Latin words left: Refinance"
+},
+{
+"en": "Refinance releases little",
+"kind": "list",
+"max": 30,
+"mt": "Refinance مقدار کمی را منتشر می کند",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "One row for each quarter: doors, monthly net cash flow and net worth, target and actual. Gaps, the share reached and a check fill in. Net worth matches the Net Worth workbook.",
+"kind": "sentence",
+"max": null,
+"mt": "یک ردیف برای هر سه ماهه: درها، جریان نقدی خالص ماهانه و ارزش خالص، هدف و واقعی. شکاف ها، سهم به دست آمده و یک چک پر می شود. ارزش خالص با کتاب کار خالص ارزش مطابقت دارد.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Rent payments: what each tenant paid and when",
+"kind": "title",
+"max": 60,
+"mt": "پرداخت های اجاره: هر مستأجر چه چیزی و چه زمانی پرداخت کرده است",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "The 16 properties with value, strategy and units; the loan balance and the equity fill in. Values match the Net Worth workbook of this suite.",
+"kind": "sentence",
+"max": null,
+"mt": "16 ملک با ارزش، استراتژی و واحد. موجودی وام و حقوق صاحبان سهام را پر می کنند. ارزش ها با کتاب کار خالص ارزش این مجموعه مطابقت دارند.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Capital calls: money asked from partners and private lenders",
+"kind": "title",
+"max": 60,
+"mt": "سرمایه تماس می گیرد: پول درخواست شده از شرکا و وام دهندگان خصوصی",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Rehab draws 5,000 a week",
+"kind": "label",
+"max": null,
+"mt": "Rehab هفته ای 5000 قرعه کشی می کند",
+"why": "English/Latin words left: Rehab"
+},
+{
+"en": "Safe owner draw: what you can take and keep the cash floor",
+"kind": "title",
+"max": 60,
+"mt": "برداشت امن مالک: آنچه می توانید بردارید و کف نقدی را حفظ کنید",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Expected rent {col:forecast.expected_rent}. Costs {col:forecast.costs}. Loan payments {col:forecast.debt_service}. Rehab draws {col:forecast.rehab_draws}. Owner draw {col:forecast.owner_draw}.",
+"kind": "document",
+"max": null,
+"mt": "اجاره مورد انتظار {col:forecast.expected_rent}. هزینه {col:forecast.costs}. پرداخت های وام {col:forecast.debt_service}. Rehab قرعه کشی {col:forecast.rehab_draws}. قرعه کشی مالک {col:forecast.owner_draw}.",
+"why": "English/Latin words left: Rehab"
+},
+{
+"en": "Open Start and type your company name and your numbers in the yellow cells: cash floor, usual owner draw, months of reserve, highest loan-to-value, down payment and closing shares and the cash-on-cash return you want.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و شماره‌های خود را در سلول‌های زرد تایپ کنید: کف نقدی، قرعه کشی معمول مالک، ماه‌های ذخیره، بالاترین وام به ارزش، پیش پرداخت و سهام پایانی و بازده نقدی مورد نظرتان.",
+"why": "English/Latin words left: Start"
+}
+]
