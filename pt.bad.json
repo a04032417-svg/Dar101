@@ -1,0 +1,79 @@
+[
+{
+"en": "Stock, purchasing, supplier prices and waste for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Estoque, compras, preços de fornecedores e desperdícios para padarias caseiras e confeitarias",
+"why": "too long: 93 characters, the limit is 80"
+},
+{
+"en": "every ingredient and packaging item shows what is on hand, its reorder point, a status and the quantity to order, with out of stock items marked",
+"kind": "sentence",
+"max": 160,
+"mt": "cada ingrediente e item de embalagem mostra o que está disponível, seu ponto de pedido, um status e a quantidade a ser solicitada, com itens fora de estoque marcados",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "Above reorder point",
+"kind": "list",
+"max": 30,
+"mt": "Acima do ponto de reabastecimento",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Order within a few days",
+"kind": "list",
+"max": 30,
+"mt": "Encomende dentro de alguns dias",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Waste is above the target",
+"kind": "list",
+"max": 30,
+"mt": "O desperdício está acima da meta",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Ingredients with unit cost, allergens and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Ingredientes com custo unitário, alérgenos e prazos de validade",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Products with servings, ingredient cost and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Produtos com porções, custo dos ingredientes e dias de prateleira",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Ingredient price changes with the change in percent",
+"kind": "title",
+"max": 60,
+"mt": "Mudanças no preço dos ingredientes com a alteração em porcentagem",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Reorder quantity from stock, reorder point and par level",
+"kind": "title",
+"max": 60,
+"mt": "Reordenar quantidade do estoque, ponto de reabastecimento e nível nominal",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Safety stock and reorder point from use and lead days",
+"kind": "title",
+"max": 60,
+"mt": "Estoque de segurança e ponto de reabastecimento a partir do uso e dias de entrega",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "What-if grid: waste share against ingredient spend",
+"kind": "title",
+"max": 60,
+"mt": "Grade hipotética: proporção de resíduos em relação ao gasto com ingredientes",
+"why": "too long: 76 characters, the limit is 60"
+}
+]

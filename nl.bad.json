@@ -1,0 +1,72 @@
+[
+{
+"en": "Stock, purchasing, supplier prices and waste for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Voorraad, inkoop, leveranciersprijzen en verspilling voor thuisbakkerijen en taartstudio’s",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "every ingredient and packaging item shows what is on hand, its reorder point, a status and the quantity to order, with out of stock items marked",
+"kind": "sentence",
+"max": 160,
+"mt": "Bij elk ingrediënt en verpakkingsartikel wordt weergegeven wat er in voorraad is, het bestelpunt, de status en de te bestellen hoeveelheid, waarbij artikelen die niet op voorraad zijn gemarkeerd",
+"why": "too long: 194 characters, the limit is 160"
+},
+{
+"en": "waste of ingredients and finished products with its cost and reason, and the waste share of the ingredient spend against your target",
+"kind": "sentence",
+"max": 160,
+"mt": "verspilling van ingrediënten en eindproducten met de kosten en reden ervan, en het verspillingsaandeel van de uitgaven aan ingrediënten ten opzichte van uw doelstelling",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Waste is within the target",
+"kind": "list",
+"max": 30,
+"mt": "Afval valt binnen de doelstelling",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Ingredients with unit cost, allergens and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Ingrediënten met eenheidskosten, allergenen en houdbaarheidsdagen",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Products with servings, ingredient cost and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Producten met porties, ingrediëntenkosten en houdbaarheidsdagen",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Ingredient price changes with the change in percent",
+"kind": "title",
+"max": 60,
+"mt": "Prijswijzigingen van ingrediënten met de verandering in procent",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Low stock log with the days to restock",
+"kind": "title",
+"max": 60,
+"mt": "Laag voorraadlogboek met de dagen waarop de voorraad moet worden aangevuld",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Reorder quantity from stock, reorder point and par level",
+"kind": "title",
+"max": 60,
+"mt": "Aantal opnieuw bestellen uit voorraad, bestelpunt en par-niveau",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: waste share against ingredient spend",
+"kind": "title",
+"max": 60,
+"mt": "Wat-als-raster: aandeel afval versus uitgaven aan ingrediënten",
+"why": "too long: 62 characters, the limit is 60"
+}
+]

@@ -1,0 +1,30 @@
+[
+{
+"en": "Hello {baker}, you start the {product} bake on {date}: {batches} batch(es), {oven_minutes} oven minutes.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {baker}، آپ نے {product} کو {date} پر بیک کرنا شروع کیا: {batches} بیچ(es)، {oven_minutes} اوون منٹ۔",
+"why": "English/Latin words left: es"
+},
+{
+"en": "Hello {baker}, your batch on {date}: {product}, {batches} batch(es), {tray_loads} tray loads.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو {baker}، آپ کا بیچ {date} پر: {product}، {batches} بیچ(es)، {tray_loads} ٹرے لوڈز۔",
+"why": "English/Latin words left: es"
+},
+{
+"en": "Reorder quantity from stock, reorder point and par level",
+"kind": "title",
+"max": 60,
+"mt": "مقدار کو دوبارہ ترتیب دیں۔ اسٹاک سے، پوائنٹ کو دوبارہ ترتیب دیں اور برابری سطح پر",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Safety stock and reorder point from use and lead days",
+"kind": "title",
+"max": 60,
+"mt": "استعمال اور لیڈ دنوں سے حفاظتی اسٹاک اور دوبارہ ترتیب دینے والے پوائنٹ",
+"why": "too long: 70 characters, the limit is 60"
+}
+]

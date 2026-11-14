@@ -1,0 +1,93 @@
+[
+{
+"en": "every ingredient and packaging item shows what is on hand, its reorder point, a status and the quantity to order, with out of stock items marked",
+"kind": "sentence",
+"max": 160,
+"mt": "На каждом ингредиенте и упаковке указано, что имеется в наличии, точка повторного заказа, статус и количество для заказа, с пометкой товаров, которых нет на складе.",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Borrowed from another item",
+"kind": "list",
+"max": 30,
+"mt": "Заимствовано из другого предмета",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Order within a few days",
+"kind": "list",
+"max": 30,
+"mt": "Закажите в течение нескольких дней",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Waste is within the target",
+"kind": "list",
+"max": 30,
+"mt": "Отходы находятся в пределах цели",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Waste is above the target",
+"kind": "list",
+"max": 30,
+"mt": "Отходы превышают целевой показатель",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Purchase orders with the expected date and days late",
+"kind": "title",
+"max": 60,
+"mt": "Заказы на поставку с ожидаемой датой и опозданием на несколько дней",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Ingredients with unit cost, allergens and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Ингредиенты с указанием стоимости единицы, аллергенов и дней хранения.",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Products with servings, ingredient cost and shelf days",
+"kind": "title",
+"max": 60,
+"mt": "Товары с порциями, стоимостью ингредиентов и сроками годности",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Expiry watch with days left and value at risk",
+"kind": "title",
+"max": 60,
+"mt": "Срок годности смотреть, осталось дней и стоимость под угрозой",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Low stock log with the days to restock",
+"kind": "title",
+"max": 60,
+"mt": "Журнал низкого уровня запасов с указанием дней для пополнения запасов",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Reorder quantity from stock, reorder point and par level",
+"kind": "title",
+"max": 60,
+"mt": "Количество повторного заказа на складе, в точке повторного заказа и по номиналу",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Safety stock and reorder point from use and lead days",
+"kind": "title",
+"max": 60,
+"mt": "Резервный запас и точка повторного заказа в дни использования и поставки",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "What-if grid: waste share against ingredient spend",
+"kind": "title",
+"max": 60,
+"mt": "Таблица «Что, если»: доля отходов в сравнении с расходами на ингредиенты",
+"why": "too long: 72 characters, the limit is 60"
+}
+]

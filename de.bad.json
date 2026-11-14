@@ -1,0 +1,93 @@
+[
+{
+"en": "Stock, purchasing, supplier prices and waste for home bakeries and cake studios",
+"kind": "sentence",
+"max": 80,
+"mt": "Lagerbestand, Einkauf, Lieferantenpreise und Abfall für Heimbäckereien und Kuchenstudios",
+"why": "too long: 88 characters, the limit is 80"
+},
+{
+"en": "every ingredient and packaging item shows what is on hand, its reorder point, a status and the quantity to order, with out of stock items marked",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Zutat und jedes Verpackungselement zeigt an, was vorrätig ist, ihren Bestellpunkt, einen Status und die zu bestellende Menge, wobei nicht vorrätige Artikel gekennzeichnet sind",
+"why": "too long: 180 characters, the limit is 160"
+},
+{
+"en": "Dropped or damaged",
+"kind": "list",
+"max": 30,
+"mt": "Heruntergefallen oder beschädigt",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Borrowed from another item",
+"kind": "list",
+"max": 30,
+"mt": "Von einem anderen Gegenstand entlehnt",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Waited for the delivery",
+"kind": "list",
+"max": 30,
+"mt": "Habe auf die Lieferung gewartet",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Use within 7 days",
+"kind": "list",
+"max": 30,
+"mt": "Innerhalb von 7 Tagen verbrauchen",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Use within 30 days",
+"kind": "list",
+"max": 30,
+"mt": "Innerhalb von 30 Tagen verbrauchen",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Order within a few days",
+"kind": "list",
+"max": 30,
+"mt": "Bestellen Sie innerhalb weniger Tage",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Waste is within the target",
+"kind": "list",
+"max": 30,
+"mt": "Abfall liegt innerhalb der Zielvorgabe",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Waste is above the target",
+"kind": "list",
+"max": 30,
+"mt": "Der Abfall liegt über dem Zielwert",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Reorder quantity from stock, reorder point and par level",
+"kind": "title",
+"max": 60,
+"mt": "Menge nachbestellen ab Lagerbestand, Bestellpunkt und Nennwert",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Safety stock and reorder point from use and lead days",
+"kind": "title",
+"max": 60,
+"mt": "Sicherheitsbestand und Nachbestellpunkt ab Nutzung und Lieferzeiten",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "What-if grid: waste share against ingredient spend",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Abfallanteil im Verhältnis zu den Zutatenausgaben",
+"why": "too long: 71 characters, the limit is 60"
+}
+]
