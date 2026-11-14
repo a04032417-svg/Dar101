@@ -1,0 +1,142 @@
+[
+{
+"en": "Open Start and type your company name and your own targets in the yellow cells: the margin you want, your lowest margin, the rating you want, the reply days, the repeat customer share and the growth you plan.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و اهداف خود را در سلول های زرد تایپ کنید: حاشیه مورد نظر، کمترین حاشیه، رتبه مورد نظر، روزهای پاسخ، سهم مشتری تکراری و رشدی که برنامه ریزی می کنید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Product ideas, New product trials, Sample feedback and Waitlist run new products from the first idea to the launch: expected margin, trial sell-through (units sold as a share of units made), tester scores and customers waiting.",
+"kind": "sentence",
+"max": null,
+"mt": "ایده های محصول، آزمایشات محصول جدید، بازخورد نمونه و Waitlist محصولات جدیدی را از اولین ایده تا راه‌اندازی اجرا می‌کنند: حاشیه مورد انتظار، فروش آزمایشی (واحدهای فروخته شده به عنوان سهم واحدهای ساخته شده)، امتیاز آزمایش‌کنندگان و مشتریان در انتظار.",
+"why": "English/Latin words left: Waitlist"
+},
+{
+"en": "Profit, cash, payouts, sales tax and owner draw for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "سود، پول نقد، پرداخت ها، مالیات بر فروش و قرعه کشی مالک برای سازندگان شمع و صابون",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "your cash now, the money you expect in and out each week and one big payment give the cash for the next eight weeks and the lowest point against your floor",
+"kind": "sentence",
+"max": 160,
+"mt": "پول نقد شما در حال حاضر، پولی که انتظار دارید هر هفته وارد و خارج شوید و یک پرداخت کلان، پول نقد را برای هشت هفته آینده و پایین ترین امتیاز را در برابر طبقه شما می دهد.",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Channel payout matching",
+"kind": "label",
+"max": 50,
+"mt": "مطابقت پرداخت کانال",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Cash balance by month: money in, money out and closing cash",
+"kind": "title",
+"max": 60,
+"mt": "موجودی نقدی بر اساس ماه: پول وارد، پول خارج و بسته شدن پول نقد",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Sales tax collected, remitted and still owed each month",
+"kind": "title",
+"max": 60,
+"mt": "مالیات بر فروش هر ماه جمع آوری، حواله شده و همچنان بدهکار است",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Revenue, cost of goods, running costs and profit by quarter",
+"kind": "title",
+"max": 60,
+"mt": "درآمد، بهای تمام شده کالا، هزینه های جاری و سود به تفکیک سه ماهه",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Bank lines matched to your records",
+"kind": "title",
+"max": 60,
+"mt": "خطوط بانک با سوابق شما مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Marketplace pays in 14 days",
+"kind": "label",
+"max": null,
+"mt": "Marketplace در 14 روز پرداخت می کند",
+"why": "English/Latin words left: Marketplace"
+},
+{
+"en": "Marketplace pays in 3 days",
+"kind": "label",
+"max": null,
+"mt": "Marketplace در 3 روز پرداخت می کند",
+"why": "English/Latin words left: Marketplace"
+},
+{
+"en": "Hello, I cannot match this bank line from {date}: {description}, amount {amount}. Can you tell me how to record it?",
+"kind": "message",
+"max": null,
+"mt": "سلام، من نمی توانم با این خط بانکی از {date} مطابقت کنم: {description}، مبلغ {amount}. میشه بگید چطوری ضبطش کنم؟",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, please send the payout report for the period ending {date} ({channel}, gross {gross}, fees {fees}). I need it to match the bank.",
+"kind": "message",
+"max": null,
+"mt": "سلام، لطفاً گزارش پرداخت را برای دوره منتهی به {date} ({channel}، ناخالص {gross}، کارمزدها {fees}) ارسال کنید. من به آن نیاز دارم تا با بانک مطابقت داشته باشد.",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "{col:draw.draw_check}.",
+"kind": "document",
+"max": null,
+"mt": "{col:draw.draw_check}.",
+"why": "not translated"
+},
+{
+"en": "Match the bank lines of the month",
+"kind": "label",
+"max": null,
+"mt": "خطوط بانکی ماه را مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match the gross amount to the orders of the period",
+"kind": "label",
+"max": null,
+"mt": "مبلغ ناخالص را با سفارشات دوره مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Match each line to an expense, a payout or an invoice",
+"kind": "label",
+"max": null,
+"mt": "هر خط را با هزینه، پرداخت یا فاکتور مطابقت دهید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Write a note on every line you cannot match",
+"kind": "label",
+"max": null,
+"mt": "روی هر خطی که نمی توانید مطابقت داشته باشید، یادداشت بنویسید",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Open Start and type your company name and your own targets in the yellow cells: the cash floor, the owner draw, the share of profit you set aside, the sales tax rate, the margins you want and the days that raise a warning.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و اهداف خود را در سلول‌های زرد تایپ کنید: کف نقدی، قرعه‌کشی مالک، سهم سودی که کنار گذاشته‌اید، نرخ مالیات بر فروش، حاشیه‌هایی که می‌خواهید و روزهایی که هشدار ایجاد می‌کنند.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Channel payouts lists every payout with the gross, the fees, the day you expect it and the day it arrived; a payout that is late is flagged. Bank reconciliation matches the bank lines to your records.",
+"kind": "sentence",
+"max": null,
+"mt": "پرداخت های کانال هر پرداختی را با ناخالص، کارمزدها، روزی که آن را انتظار دارید و روزی که دریافت کرده اید فهرست می کند. پرداختی که تاخیر داشته باشد علامت گذاری شده است. تطبیق حساب بانکی خطوط بانکی را با سوابق شما مطابقت می دهد.",
+"why": "never use the word for \"compatible\""
+}
+]

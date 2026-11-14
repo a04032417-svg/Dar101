@@ -1,0 +1,16 @@
+[
+{
+"en": "Product ideas, New product trials, Sample feedback and Waitlist run new products from the first idea to the launch: expected margin, trial sell-through (units sold as a share of units made), tester scores and customers waiting.",
+"kind": "sentence",
+"max": null,
+"mt": "产品创意、新产品试用、反馈样本 和 Waitlist 运行新产品从第一个想法到发布的整个过程：预期利润、试用销售率（销售量占生产量的比例）、测试人员分数和等待的客户。",
+"why": "English/Latin words left: Waitlist"
+},
+{
+"en": "Hello, we are paying invoice {invoice_no} of {amount} for {note}. The payment is on its way.",
+"kind": "message",
+"max": null,
+"mt": "您好，我们正在支付 {note} 的发票，共 {amount} 张。付款正在路上。",
+"why": "placeholders must be exactly: {invoice_no} {amount} {note}"
+}
+]
