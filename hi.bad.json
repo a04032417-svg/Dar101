@@ -1,0 +1,30 @@
+[
+{
+"en": "What to bring to each event, what is packed and the gap",
+"kind": "title",
+"max": 60,
+"mt": "प्रत्येक कार्यक्रम में क्या लाना है, क्या पैक किया गया है और क्या अंतर है",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Staff shifts at each event with hours and pay",
+"kind": "title",
+"max": 60,
+"mt": "प्रत्येक कार्यक्रम में कर्मचारी घंटों और वेतन के साथ शिफ्ट होते हैं",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Quotes sent for custom orders with total, margin and outcome",
+"kind": "title",
+"max": 60,
+"mt": "कुल, मार्जिन और परिणाम के साथ कस्टम ऑर्डर के लिए उद्धरण भेजे गए",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Hello, {name} on {date} lost money: profit {profit} after stall fee {stall_fee}, helper cost {helper_cost} and travel {travel_cost}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, {name} खोए हुए पैसे पर {date}: स्टॉल शुल्क के बाद लाभ {profit}, सहायक लागत {helper_cost} और यात्रा {travel_cost}।",
+"why": "placeholders must be exactly: {name} {date} {profit} {stall_fee} {helper_cost} {travel_cost}"
+}
+]
