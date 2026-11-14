@@ -1,0 +1,58 @@
+[
+{
+"en": "Keep Zones and Time windows up to date: the fee of each zone and the hours of each window are read by Orders, Pick-up shelf and the calculators.",
+"kind": "sentence",
+"max": null,
+"mt": "Поддерживайте актуальность зон и Временные окна: плата за каждую зону и часы каждого окна считываются с помощью Orders, Полка для пикапа и калькуляторов.",
+"why": "English/Latin words left: Orders"
+},
+{
+"en": "every product an account takes each week shows its value, its renewal date and a flag for a renewal that is near or missed",
+"kind": "sentence",
+"max": 160,
+"mt": "Для каждого продукта, который учетная запись принимает каждую неделю, отображается его стоимость, дата продления и пометка о продлении, которое близко или пропущено.",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "every credit and every returned or unsold product keeps its reason and its value, so the next invoice is right and the cause can be fixed",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый кредит и каждый возвращенный или непроданный продукт сохраняют свою причину и стоимость, поэтому следующий счет будет верным, и причину можно будет устранить.",
+"why": "too long: 165 characters, the limit is 160"
+},
+{
+"en": "units, wholesale price, product cost and delivery handling give the margin of each account against your target, so a weak account is repriced",
+"kind": "sentence",
+"max": 160,
+"mt": "единиц, оптовая цена, стоимость продукта и способ доставки дают прибыль каждого аккаунта по сравнению с вашей целевой, поэтому для слабого аккаунта цена пересчитывается.",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "open invoices and their due dates give the cash that is late now and the cash due in each of the next four weeks",
+"kind": "sentence",
+"max": 160,
+"mt": "открытые счета-фактуры и сроки их оплаты дают информацию о денежных средствах, которые просрочены сейчас, и о денежных средствах, подлежащих оплате в течение каждой из следующих четырех недель.",
+"why": "too long: 193 characters, the limit is 160"
+},
+{
+"en": "Follow up soon",
+"kind": "list",
+"max": 30,
+"mt": "Следите за новостями в ближайшее время",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Standing orders (the same products delivered every week)",
+"kind": "title",
+"max": 60,
+"mt": "Повторяющиеся оптовые заказы (одни и те же товары доставляются каждую неделю)",
+"why": "too long: 77 characters, the limit is 60"
+},
+{
+"en": "Hello {contact}, thank you for {months} months of working together. We value {account} as an account.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {contact}! Благодарим вас за {months} месяцев совместной работы. Мы ценим {account} как учетную запись.",
+"why": "never use the word for \"compatible\""
+}
+]

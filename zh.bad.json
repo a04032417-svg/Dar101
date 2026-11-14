@@ -1,0 +1,16 @@
+[
+{
+"en": "Packing list {col:mpl.pack_id} of {set:company} for {col:mpl.event} on {col:mpl.date}.",
+"kind": "document",
+"max": null,
+"mt": "{col:mpl.date} 为 {col:mpl.event} 装箱清单，共 {set:company} 个。",
+"why": "placeholders must be exactly: {col:mpl.pack_id} {set:company} {col:mpl.event} {col:mpl.date}"
+},
+{
+"en": "Hello, {account} is {open_late} days late with invoice {invoice_id} for {amount_out}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{account} 的发票 {invoice_id} 晚于 {amount_out} 天。",
+"why": "placeholders must be exactly: {account} {open_late} {invoice_id} {amount_out}"
+}
+]

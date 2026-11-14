@@ -1,0 +1,121 @@
+[
+{
+"en": "Know which cafe or client has not paid and which account earns the most",
+"kind": "sentence",
+"max": 80,
+"mt": "Erfahren Sie, welches Café oder welcher Kunde nicht bezahlt hat und welches Konto am meisten verdient",
+"why": "too long: 101 characters, the limit is 80"
+},
+{
+"en": "every product an account takes each week shows its value, its renewal date and a flag for a renewal that is near or missed",
+"kind": "sentence",
+"max": 160,
+"mt": "Für jedes Produkt, das ein Konto jede Woche in Anspruch nimmt, werden sein Wert, sein Verlängerungsdatum und eine Markierung für eine bevorstehende oder verpasste Verlängerung angezeigt",
+"why": "too long: 185 characters, the limit is 160"
+},
+{
+"en": "Overdue invoice tracker with reminder steps",
+"kind": "label",
+"max": 50,
+"mt": "Tracker für überfällige Rechnungen mit Erinnerungsschritten",
+"why": "too long: 59 characters, the limit is 50"
+},
+{
+"en": "each invoice shows its days late and the amount outstanding, and the reminder step says which note to send or when to call",
+"kind": "sentence",
+"max": 160,
+"mt": "Auf jeder Rechnung werden die Verspätungstage und der ausstehende Betrag angezeigt. Im Erinnerungsschritt wird angegeben, welche Notiz gesendet oder wann ein Anruf erfolgen soll",
+"why": "too long: 177 characters, the limit is 160"
+},
+{
+"en": "every credit and every returned or unsold product keeps its reason and its value, so the next invoice is right and the cause can be fixed",
+"kind": "sentence",
+"max": 160,
+"mt": "Jede Gutschrift und jedes zurückgegebene oder nicht verkaufte Produkt behält seinen Grund und seinen Wert, sodass die nächste Rechnung korrekt ist und die Ursache behoben werden kann",
+"why": "too long: 182 characters, the limit is 160"
+},
+{
+"en": "units, wholesale price, product cost and delivery handling give the margin of each account against your target, so a weak account is repriced",
+"kind": "sentence",
+"max": 160,
+"mt": "Einheiten, Großhandelspreis, Produktkosten und Lieferabwicklung geben die Marge jedes Kontos gegenüber Ihrem Ziel an, sodass ein schwaches Konto neu bewertet wird",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "every client order shows the deposit, the balance outstanding and the days overdue, with the average days events take to pay",
+"kind": "sentence",
+"max": 160,
+"mt": "Bei jeder Kundenbestellung werden die Anzahlung, der ausstehende Restbetrag und die überfälligen Tage sowie die durchschnittliche Zahlungsdauer in Tagen angezeigt",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "each quarter the volume change, the margin and the decision are written down, and a margin below target is flagged for a price change",
+"kind": "sentence",
+"max": 160,
+"mt": "vierteljährlich werden die Volumenänderung, die Marge und die Entscheidung niedergeschrieben und eine unter dem Ziel liegende Marge als Preisänderung gekennzeichnet",
+"why": "too long: 164 characters, the limit is 160"
+},
+{
+"en": "Returned unsold items",
+"kind": "list",
+"max": 30,
+"mt": "Nicht verkaufte Artikel wurden zurückgegeben",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Unsold at day end",
+"kind": "list",
+"max": 30,
+"mt": "Am Ende des Tages nicht verkauft",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Add or drop a product",
+"kind": "list",
+"max": 30,
+"mt": "Fügen Sie ein Produkt hinzu oder löschen Sie es",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Renews in 30 days",
+"kind": "list",
+"max": 30,
+"mt": "Verlängert sich innerhalb von 30 Tagen",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Check the returns first",
+"kind": "list",
+"max": 30,
+"mt": "Überprüfen Sie zunächst die Retouren",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Standing orders (the same products delivered every week)",
+"kind": "title",
+"max": 60,
+"mt": "Wiederkehrende Großhandelsbestellungen (jede Woche werden die gleichen Produkte geliefert)",
+"why": "too long: 90 characters, the limit is 60"
+},
+{
+"en": "Monthly invoice builder with returns and due date",
+"kind": "title",
+"max": 60,
+"mt": "Monatlicher Rechnungsersteller mit Retouren und Fälligkeitsdatum",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Renewal price check after a cost change",
+"kind": "title",
+"max": 60,
+"mt": "Überprüfung des Verlängerungspreises nach einer Kostenänderung",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Renewal offer for a standing order",
+"kind": "title",
+"max": 60,
+"mt": "Verlängerungsangebot für eine wiederkehrende Großhandelsbestellung",
+"why": "too long: 66 characters, the limit is 60"
+}
+]

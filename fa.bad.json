@@ -1,0 +1,58 @@
+[
+{
+"en": "Open Start and type your company name and your own rules in the yellow cells: the fuel cost for each km, the driver wage, the minutes late you accept, the free-delivery order value and the stall labour.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و قوانین خود را در سلول‌های زرد تایپ کنید: هزینه سوخت برای هر کیلومتر، دستمزد راننده، دقیقه‌های تاخیری که می‌پذیرید، ارزش سفارش رایگان تحویل و کار غرفه.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "Keep Zones and Time windows up to date: the fee of each zone and the hours of each window are read by Orders, Pick-up shelf and the calculators.",
+"kind": "sentence",
+"max": null,
+"mt": "Zones و پنجره های زمانی را به روز نگه دارید: هزینه هر منطقه و ساعات کاری هر پنجره توسط Orders، قفسه تحویل و ماشین حساب ها خوانده می شود.",
+"why": "English/Latin words left: Zones Orders"
+},
+{
+"en": "Use Pick-ups for the orders collected at the kitchen and Pick-up shelf for the orders waiting. The status, the hours until the slot and the balance to collect fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "برای سفارش‌های جمع‌آوری‌شده در آشپزخانه از Pick-ups و برای سفارش‌های در انتظار قفسه تحویل استفاده کنید. وضعیت، ساعت‌های مانده به شکاف و موجودی جمع‌آوری شده را پر کنید.",
+"why": "English/Latin words left: Pick ups"
+},
+{
+"en": "Write each market or pop-up on Markets with the stall fee, the hours, the units brought and sold, the revenue and the costs. The profit, the sell-through (the share of what you brought that you sold) and a profit or loss flag fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "هر مارکت یا پاپ آپ را با هزینه غرفه، ساعت، واحدهای آورده و فروخته شده، درآمد و هزینه ها در Markets بنویسید. سود، میزان فروش (سهم آنچه آورده‌اید که فروخته‌اید) و یک پرچم سود یا زیان پر می‌شود.",
+"why": "English/Latin words left: Markets"
+},
+{
+"en": "Know which cafe or client has not paid and which account earns the most",
+"kind": "sentence",
+"max": 80,
+"mt": "بدانید کدام کافه یا مشتری پولی پرداخت نکرده است و کدام حساب بیشترین درآمد را دارد",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "Returned unsold items",
+"kind": "list",
+"max": 30,
+"mt": "اقلام فروخته نشده برگردانده شده است",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Standing orders (the same products delivered every week)",
+"kind": "title",
+"max": 60,
+"mt": "سفارشات عمده فروشی مکرر (هفته محصولات مشابه تحویل داده می شود)",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Hello {client}, please tell us when you make the bank transfer of {balance_out} for order {order_id}, so we can match it.",
+"kind": "message",
+"max": null,
+"mt": "سلام {client}، لطفاً به ما بگویید چه زمانی حواله بانکی {balance_out} را برای سفارش {order_id} انجام می دهید تا بتوانیم آن را مطابقت دهیم.",
+"why": "never use the word for \"compatible\""
+}
+]
