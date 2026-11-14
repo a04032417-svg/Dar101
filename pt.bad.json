@@ -1,0 +1,177 @@
+[
+{
+"en": "Repair cost per unit, last 12 months",
+"kind": "label",
+"max": 30,
+"mt": "Custo de reparo por unidade, últimos 12 meses",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "See which rental properties perform, and which lose money",
+"kind": "sentence",
+"max": 80,
+"mt": "Veja quais propriedades para aluguel apresentam desempenho e quais perdem dinheiro",
+"why": "too long: 82 characters, the limit is 80"
+},
+{
+"en": "NOI, cap rate, cash-on-cash and DSCR for every rental property",
+"kind": "sentence",
+"max": 80,
+"mt": "lucro operacional líquido, taxa de capitalização, retorno caixa e índice de cobertura do serviço da dívida para cada imóvel alugado",
+"why": "too long: 131 characters, the limit is 80"
+},
+{
+"en": "rent, costs and loan payments of the last 12 months set against the numbers used at purchase, with the cash flow gap for each property",
+"kind": "sentence",
+"max": 160,
+"mt": "aluguéis, custos e pagamentos de empréstimos dos últimos 12 meses comparados aos números usados na compra, com a diferença de fluxo de caixa para cada propriedade",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Cap rate, cash-on-cash and DSCR per property",
+"kind": "label",
+"max": 50,
+"mt": "Cap rate, retorno cash-on-cash e índice de cobertura do serviço da dívida por propriedade",
+"why": "too long: 89 characters, the limit is 50"
+},
+{
+"en": "Costs are above the benchmark",
+"kind": "list",
+"max": 30,
+"mt": "Os custos estão acima do benchmark",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Costs are within the benchmark",
+"kind": "list",
+"max": 30,
+"mt": "Os custos estão dentro do benchmark",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Rent is above break-even",
+"kind": "list",
+"max": 30,
+"mt": "O aluguel está acima do ponto de equilíbrio",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Rent is below break-even",
+"kind": "list",
+"max": 30,
+"mt": "O aluguel está abaixo do ponto de equilíbrio",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Equity return beats the target",
+"kind": "list",
+"max": 30,
+"mt": "O retorno do capital supera a meta",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Equity return is low",
+"kind": "list",
+"max": 30,
+"mt": "O retorno do patrimônio é baixo",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Property months: rent, costs and loan payments by month",
+"kind": "title",
+"max": 60,
+"mt": "Meses de propriedade: aluguel, custos e pagamentos de empréstimos por mês",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Budget by property: yearly budget and actual by category",
+"kind": "title",
+"max": 60,
+"mt": "Orçamento por propriedade: orçamento anual e real por categoria",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cash invested: the cash you put into each property",
+"kind": "title",
+"max": 60,
+"mt": "Dinheiro investido: o dinheiro que você investe em cada propriedade",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Property results: the last 12 months against the targets",
+"kind": "title",
+"max": 60,
+"mt": "Resultados de propriedade: os últimos 12 meses em relação às metas",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Benchmarks: the targets you judge each property by",
+"kind": "title",
+"max": 60,
+"mt": "Benchmarks: os alvos pelos quais você avalia cada propriedade",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Performance reviews: a rating for each property each quarter",
+"kind": "title",
+"max": 60,
+"mt": "Avaliações de desempenho: uma classificação para cada propriedade a cada trimestre",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Property result: NOI, cash flow, cap rate and DSCR",
+"kind": "title",
+"max": 60,
+"mt": "Resultado patrimonial: resultado operacional líquido, fluxo de caixa, taxa de capitalização e índice de cobertura do serviço da dívida",
+"why": "too long: 134 characters, the limit is 60"
+},
+{
+"en": "Expense ratio check: a cost against rent and your benchmark",
+"kind": "title",
+"max": 60,
+"mt": "Verificação do índice de despesas: um custo em relação ao aluguel e seu comparativo de mercado",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Operating expense reduction: the effect on NOI and value",
+"kind": "title",
+"max": 60,
+"mt": "Redução de despesas operacionais: o efeito na receita operacional líquida e no valor",
+"why": "too long: 84 characters, the limit is 60"
+},
+{
+"en": "Value from NOI and the effect of a cap rate change",
+"kind": "title",
+"max": 60,
+"mt": "Valor da receita operacional líquida e o efeito de uma alteração na taxa de capitalização",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Rent increase effect on NOI, value and return",
+"kind": "title",
+"max": 60,
+"mt": "Efeito de aumento de aluguel sobre receita operacional líquida, valor e retorno",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Vacancy effect on NOI and cash flow",
+"kind": "title",
+"max": 60,
+"mt": "Efeito de vaga sobre receita operacional líquida e fluxo de caixa",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Return on equity: the return on what is left in the property",
+"kind": "title",
+"max": 60,
+"mt": "Retorno sobre o patrimônio líquido: o retorno sobre o que resta na propriedade",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rent against cost ratio for cash flow",
+"kind": "title",
+"max": 60,
+"mt": "Grade hipotética: relação aluguel versus custo para fluxo de caixa",
+"why": "too long: 66 characters, the limit is 60"
+}
+]

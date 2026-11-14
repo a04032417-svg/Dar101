@@ -1,0 +1,198 @@
+[
+{
+"en": "Handyperson: send photos when done",
+"kind": "label",
+"max": null,
+"mt": "Handyperson: پس از اتمام، عکس ها را ارسال کنید",
+"why": "English/Latin words left: Handyperson"
+},
+{
+"en": "Handyperson: repair before the showing",
+"kind": "label",
+"max": null,
+"mt": "Handyperson: قبل از نمایش تعمیر کنید",
+"why": "English/Latin words left: Handyperson"
+},
+{
+"en": "Handyperson: quote for a repair",
+"kind": "label",
+"max": null,
+"mt": "Handyperson: نقل قول برای تعمیر",
+"why": "English/Latin words left: Handyperson"
+},
+{
+"en": "Hello, please send the repair costs for {name}. We counted {repairs_30d} in the last 30 days.",
+"kind": "message",
+"max": null,
+"mt": "سلام لطفا هزینه های تعمیر {name} را ارسال کنید. در 30 روز گذشته {repairs_30d} را شمارش کردیم.",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Hello, repair costs for {name} in the last 12 months were {repairs_12m}. Please advise how to split repairs and improvements.",
+"kind": "message",
+"max": null,
+"mt": "سلام، هزینه های تعمیر برای {name} در 12 ماه گذشته {repairs_12m} بوده است. لطفاً نحوه تقسیم تعمیرات و بهبود را راهنمایی کنید.",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Hello, repair costs at {name} are {repairs_12m} in 12 months against an allowance of {allowance}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، هزینه های تعمیر در {name} {repairs_12m} در 12 ماه در مقابل کمک هزینه {allowance} است.",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Capex plan for one property",
+"kind": "title",
+"max": 60,
+"mt": "طرح Capex برای یک ملک",
+"why": "English/Latin words left: Capex"
+},
+{
+"en": "Capex plan of {set:company} for {col:properties.name}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "طرح Capex از {set:company} برای {col:properties.name}، به تاریخ {today}.",
+"why": "English/Latin words left: Capex"
+},
+{
+"en": "Capex (big repairs and replacements) planned in the next five years: {col:properties.capex_next5}. Capex shortfall against the reserve: {col:properties.capex_gap}. Saving needed each month: {col:properties.monthly_need}.",
+"kind": "document",
+"max": null,
+"mt": "Capex (تعمیرات و تعویض های بزرگ) برنامه ریزی شده در پنج سال آینده: {col:properties.capex_next5}. کمبود سرمایه در برابر ذخیره: {col:properties.capex_gap}. پس انداز مورد نیاز هر ماه: {col:properties.monthly_need}.",
+"why": "English/Latin words left: Capex"
+},
+{
+"en": "List each item on the Capex plan page with its year, its life and its cost.",
+"kind": "document",
+"max": null,
+"mt": "هر مورد را در صفحه طرح Capex با سال، عمر و هزینه آن فهرست کنید.",
+"why": "English/Latin words left: Capex"
+},
+{
+"en": "Repair cost per unit, last 12 months",
+"kind": "label",
+"max": 30,
+"mt": "هزینه تعمیر هر واحد، 12 ماه گذشته",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Capex by planned year",
+"kind": "title",
+"max": 60,
+"mt": "Capex بر اساس سال برنامه ریزی شده",
+"why": "English/Latin words left: Capex"
+},
+{
+"en": "Capex by item",
+"kind": "title",
+"max": 60,
+"mt": "Capex بر اساس آیتم",
+"why": "English/Latin words left: Capex"
+},
+{
+"en": "Open Start and type your company name and your own limits in the yellow cells: the repair allowance, the days a repair should take, the approval limit and the warning days for policies, tax bills and warranties.",
+"kind": "sentence",
+"max": null,
+"mt": "Start را باز کنید و نام شرکت و محدودیت‌های خود را در سلول‌های زرد تایپ کنید: کمک هزینه تعمیر، روزهایی که تعمیر باید طول بکشد، محدودیت تأیید و روزهای هشدار برای سیاست‌ها، صورت‌حساب‌های مالیاتی و ضمانت‌ها.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "List every big item on Capex plan (capex means big repairs and replacements) with its planned year, life and cost. The shortfall and the monthly saving needed fill in, and Reserve deposits keeps the money you set aside.",
+"kind": "sentence",
+"max": null,
+"mt": "هر مورد بزرگ را در طرح Capex فهرست کنید (کاپکس به معنای تعمیرات و تعویض های بزرگ است) با سال برنامه ریزی شده، عمر و هزینه آن. کمبود و پس انداز ماهانه مورد نیاز پر می شود و سپرده های ذخیره پولی را که کنار گذاشته اید نگه می دارد.",
+"why": "English/Latin words left: Capex"
+},
+{
+"en": "Use Repair or replace for items that keep failing and Repair costs by kind to see where the money goes. Tenant-caused repairs keeps the cost, the deposit and what you recovered.",
+"kind": "sentence",
+"max": null,
+"mt": "برای مواردی که مدام خراب می شوند، از Repair یا جایگزینی استفاده کنید و از هزینه های تعمیرات بر حسب نوع ببینید پول کجا می رود. تعمیرات ناشی از مستاجر هزینه، سپرده و آنچه را که بازیابی کرده اید نگه می دارد.",
+"why": "English/Latin words left: Repair"
+},
+{
+"en": "Rate your Vendors out of 5 and read their jobs and spend. Properties shows the repair cost against the allowance, the capex shortfall, the premium and the last inspection score for each property.",
+"kind": "sentence",
+"max": null,
+"mt": "به فروشندگان خود از 5 امتیاز دهید و شغل و هزینه آنها را بخوانید. Properties هزینه تعمیر را در برابر کمک هزینه، کمبود سرمایه، حق بیمه و آخرین امتیاز بازرسی برای هر ملک نشان می دهد.",
+"why": "English/Latin words left: Properties"
+},
+{
+"en": "NOI, cap rate, cash-on-cash and DSCR for every rental property",
+"kind": "sentence",
+"max": 80,
+"mt": "درآمد خالص عملیاتی، نرخ سرمایه، بازده نقدی و نسبت پوشش خدمات بدهی برای هر ملک اجاره ای",
+"why": "too long: 86 characters, the limit is 80"
+},
+{
+"en": "Cap rate, cash-on-cash and DSCR per property",
+"kind": "label",
+"max": 50,
+"mt": "نرخ سقف، بازده نقدی و نسبت پوشش خدمات بدهی به ازای هر ملک",
+"why": "too long: 57 characters, the limit is 50"
+},
+{
+"en": "Rent against market: what each unit could rent for",
+"kind": "title",
+"max": 60,
+"mt": "اجاره در مقابل بازار: هر واحد برای چه چیزی می تواند اجاره کند",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Property result: NOI, cash flow, cap rate and DSCR",
+"kind": "title",
+"max": 60,
+"mt": "نتیجه دارایی: درآمد خالص عملیاتی، جریان نقدی، نرخ سرمایه و نسبت پوشش خدمات بدهی",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Hello, yearly results for {property}: rent {rent_12m}, operating costs {costs_12m}, NOI {noi_12m}. Please check them against your books.",
+"kind": "message",
+"max": null,
+"mt": "سلام، نتایج سالانه برای {property}: اجاره {rent_12m}، هزینه های عملیاتی {costs_12m}، درآمد عملیاتی خالص {noi_12m}. لطفا آنها را با کتاب های خود بررسی کنید.",
+"why": "English/Latin words left: rent costs noi"
+},
+{
+"en": "Hello, the lender asks for a performance package for {property}. NOI of the last 12 months is {noi_12m} and the DSCR is {dscr_12m}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، وام دهنده یک بسته عملکرد برای {property} می خواهد. درآمد خالص عملیاتی 12 ماه گذشته {noi_12m} و نسبت پوشش خدمات بدهی {dscr_12m} است.",
+"why": "English/Latin words left: noi dscr"
+},
+{
+"en": "Hello, for the refinance the DSCR on {property} is {dscr_12m} and the NOI is {noi_12m}. Please tell me what the lender needs.",
+"kind": "message",
+"max": null,
+"mt": "سلام، نسبت پوشش خدمات بدهی در {property} برای Refinance {dscr_12m} و درآمد عملیاتی خالص {noi_12m} است. لطفا به من بگویید که وام دهنده به چه چیزی نیاز دارد.",
+"why": "English/Latin words left: Refinance dscr noi"
+},
+{
+"en": "Handyperson: reduce repair visits",
+"kind": "label",
+"max": null,
+"mt": "Handyperson: بازدیدهای تعمیر را کاهش دهید",
+"why": "English/Latin words left: Handyperson"
+},
+{
+"en": "Hello, the cash-on-cash return of {property} is {coc}, below the target. The cash flow of the last 12 months is {cf_12m}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، بازده نقدی {property} {coc}، زیر هدف است. جریان نقدی 12 ماه گذشته {cf_12m} است.",
+"why": "English/Latin words left: cf"
+},
+{
+"en": "Hello, {property} lost money over 12 months: cash flow {cf_12m} after loan payments. We need a decision.",
+"kind": "message",
+"max": null,
+"mt": "سلام، {property} پول از دست داده طی 12 ماه: جریان نقدی {cf_12m} پس از پرداخت وام. ما نیاز به یک تصمیم داریم.",
+"why": "English/Latin words left: cf"
+},
+{
+"en": "Hello, the DSCR on {property} is {dscr}, below the minimum. NOI is {noi_12m} against loan payments of {loan_12m}.",
+"kind": "message",
+"max": null,
+"mt": "سلام، نسبت پوشش خدمات بدهی در {property} {dscr} است، کمتر از حداقل. درآمد خالص عملیاتی {noi_12m} در برابر پرداخت وام {loan_12m} است.",
+"why": "English/Latin words left: noi loan"
+}
+]

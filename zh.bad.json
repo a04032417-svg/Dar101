@@ -1,0 +1,65 @@
+[
+{
+"en": "Hello, please send the repair costs for {name}. We counted {repairs_30d} in the last 30 days.",
+"kind": "message",
+"max": null,
+"mt": "您好，请发送 {name} 的维修费用。我们在过去 30 天内统计了 {repairs_30d} 个。",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Hello, repair costs for {name} in the last 12 months were {repairs_12m}. Please advise how to split repairs and improvements.",
+"kind": "message",
+"max": null,
+"mt": "您好，过去 12 个月内 {name} 的维修费用为 {repairs_12m}。请告知如何分割维修和改进。",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Hello, repair costs at {name} are {repairs_12m} in 12 months against an allowance of {allowance}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{name} 的维修费用在 12 个月内为 {repairs_12m}，津贴为 {allowance}。",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Hello, yearly results for {property}: rent {rent_12m}, operating costs {costs_12m}, NOI {noi_12m}. Please check them against your books.",
+"kind": "message",
+"max": null,
+"mt": "您好，{property} 的年度结果：租金 {rent_12m}、运营成本 {costs_12m}、净运营收入 {noi_12m}。请对照你的书检查它们。",
+"why": "English/Latin words left: rent costs noi"
+},
+{
+"en": "Hello, the lender asks for a performance package for {property}. NOI of the last 12 months is {noi_12m} and the DSCR is {dscr_12m}.",
+"kind": "message",
+"max": null,
+"mt": "您好，贷方要求提供 {property} 的绩效包。过去 12 个月的净营业收入为 {noi_12m}，偿债覆盖率为 {dscr_12m}。",
+"why": "English/Latin words left: noi dscr"
+},
+{
+"en": "Hello, for the refinance the DSCR on {property} is {dscr_12m} and the NOI is {noi_12m}. Please tell me what the lender needs.",
+"kind": "message",
+"max": null,
+"mt": "您好，对于再融资，{property} 的偿债覆盖率为 {dscr_12m}，净营业收入为 {noi_12m}。请告诉我贷方需要什么。",
+"why": "English/Latin words left: dscr noi"
+},
+{
+"en": "Hello, the cash-on-cash return of {property} is {coc}, below the target. The cash flow of the last 12 months is {cf_12m}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{property} 的现金回报率为 {coc}，低于目标。过去 12 个月的现金流为 {cf_12m}。",
+"why": "English/Latin words left: cf"
+},
+{
+"en": "Hello, {property} lost money over 12 months: cash flow {cf_12m} after loan payments. We need a decision.",
+"kind": "message",
+"max": null,
+"mt": "您好，{property} 在 12 个月内亏损：偿还贷款后的现金流量 {cf_12m}。我们需要做出决定。",
+"why": "English/Latin words left: cf"
+},
+{
+"en": "Hello, the DSCR on {property} is {dscr}, below the minimum. NOI is {noi_12m} against loan payments of {loan_12m}.",
+"kind": "message",
+"max": null,
+"mt": "您好，{property} 的偿债覆盖率为 {dscr}，低于最低值。净营业收入为 {noi_12m}，贷款额为 {loan_12m}。",
+"why": "English/Latin words left: noi loan"
+}
+]

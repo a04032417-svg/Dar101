@@ -1,0 +1,163 @@
+[
+{
+"en": "Hello, repair costs for {name} in the last 12 months were {repairs_12m}. Please advise how to split repairs and improvements.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, पिछले 12 महीनों में {name} की मरम्मत लागत {Repairs_12m} थी। कृपया सलाह दें कि मरम्मत और सुधार को कैसे विभाजित किया जाए।",
+"why": "English/Latin words left: Repairs"
+},
+{
+"en": "Property: {col:capex.property}. Item: {col:capex.item}. Planned year {col:capex.planned_year}.",
+"kind": "document",
+"max": null,
+"mt": "संपत्ति: {col:capex.property}. वस्तु 1}। नियोजित वर्ष {col:capex.planned_year}.",
+"why": "placeholders must be exactly: {col:capex.property} {col:capex.item} {col:capex.planned_year}"
+},
+{
+"en": "Property: {col:rr.property}. Item: {col:rr.item}.",
+"kind": "document",
+"max": null,
+"mt": "संपत्ति: {col:rr.property}. वस्तु 1}।",
+"why": "placeholders must be exactly: {col:rr.property} {col:rr.item}"
+},
+{
+"en": "Repair cost per unit, last 12 months",
+"kind": "label",
+"max": 30,
+"mt": "प्रति इकाई मरम्मत लागत, पिछले 12 महीने",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "See which rental properties perform, and which lose money",
+"kind": "sentence",
+"max": 80,
+"mt": "देखें कि कौन सी किराये की संपत्तियाँ अच्छा प्रदर्शन करती हैं और कौन सी संपत्तियाँ घाटे में हैं",
+"why": "too long: 94 characters, the limit is 80"
+},
+{
+"en": "NOI, cap rate, cash-on-cash and DSCR for every rental property",
+"kind": "sentence",
+"max": 80,
+"mt": "प्रत्येक किराये की संपत्ति के लिए शुद्ध परिचालन आय, पूंजीकरण दर, कैश-ऑन-कैश रिटर्न और ऋण सेवा कवरेज अनुपात",
+"why": "too long: 106 characters, the limit is 80"
+},
+{
+"en": "Cap rate, cash-on-cash and DSCR per property",
+"kind": "label",
+"max": 50,
+"mt": "प्रति संपत्ति कैप दर, कैश-ऑन-कैश रिटर्न और ऋण सेवा कवरेज अनुपात",
+"why": "too long: 63 characters, the limit is 50"
+},
+{
+"en": "Equity return beats the target",
+"kind": "list",
+"max": 30,
+"mt": "इक्विटी रिटर्न लक्ष्य से अधिक है",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Underwriting: what each property was expected to earn",
+"kind": "title",
+"max": 60,
+"mt": "अंडरराइटिंग: प्रत्येक संपत्ति से क्या कमाई की उम्मीद की गई थी",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Rent payments: what each unit owed and paid",
+"kind": "title",
+"max": 60,
+"mt": "किराया भुगतान: प्रत्येक इकाई पर कितना बकाया है और कितना भुगतान किया गया है",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Benchmarks: the targets you judge each property by",
+"kind": "title",
+"max": 60,
+"mt": "बेंचमार्क: वे लक्ष्य जिनके आधार पर आप प्रत्येक संपत्ति का मूल्यांकन करते हैं",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Rent against market: what each unit could rent for",
+"kind": "title",
+"max": 60,
+"mt": "बाज़ार के विरुद्ध किराया: प्रत्येक इकाई का किराया क्या हो सकता है",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Performance reviews: a rating for each property each quarter",
+"kind": "title",
+"max": 60,
+"mt": "प्रदर्शन समीक्षाएँ: प्रत्येक तिमाही में प्रत्येक संपत्ति के लिए एक रेटिंग",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Property result: NOI, cash flow, cap rate and DSCR",
+"kind": "title",
+"max": 60,
+"mt": "संपत्ति परिणाम: शुद्ध परिचालन आय, नकदी प्रवाह, पूंजीकरण दर और ऋण सेवा कवरेज अनुपात",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Expense ratio check: a cost against rent and your benchmark",
+"kind": "title",
+"max": 60,
+"mt": "व्यय अनुपात की जाँच: किराये और आपके बेंचमार्क के विरुद्ध एक लागत",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Value from NOI and the effect of a cap rate change",
+"kind": "title",
+"max": 60,
+"mt": "शुद्ध परिचालन आय से मूल्य और पूंजीकरण दर में परिवर्तन का प्रभाव",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rent against cost ratio for cash flow",
+"kind": "title",
+"max": 60,
+"mt": "क्या-अगर ग्रिड: नकदी प्रवाह के लिए लागत अनुपात के मुकाबले किराया",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Hello, yearly results for {property}: rent {rent_12m}, operating costs {costs_12m}, NOI {noi_12m}. Please check them against your books.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, {property} के लिए वार्षिक परिणाम: किराया {किराया_12m}, परिचालन लागत {लागत_12m}, शुद्ध परिचालन आय {noi_12m}। कृपया उन्हें अपनी पुस्तकों से जांचें।",
+"why": "English/Latin words left: noi"
+},
+{
+"en": "Hello, the lender asks for a performance package for {property}. NOI of the last 12 months is {noi_12m} and the DSCR is {dscr_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, ऋणदाता {property} के लिए प्रदर्शन पैकेज मांगता है। पिछले 12 महीनों की शुद्ध परिचालन आय {noi_12m} है और ऋण सेवा कवरेज अनुपात {dscr_12m} है।",
+"why": "English/Latin words left: noi dscr"
+},
+{
+"en": "Hello, for the refinance the DSCR on {property} is {dscr_12m} and the NOI is {noi_12m}. Please tell me what the lender needs.",
+"kind": "message",
+"max": null,
+"mt": "नमस्ते, पुनर्वित्त के लिए {property} पर ऋण सेवा कवरेज अनुपात {dscr_12m} है और शुद्ध परिचालन आय {noi_12m} है। कृपया मुझे बताएं कि ऋणदाता को क्या चाहिए।",
+"why": "English/Latin words left: dscr noi"
+},
+{
+"en": "Hello, the cash-on-cash return of {property} is {coc}, below the target. The cash flow of the last 12 months is {cf_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {property} का कैश-ऑन-कैश रिटर्न रिटर्न लक्ष्य से नीचे {coc} है। पिछले 12 महीनों का नकदी प्रवाह {cf_12m} है।",
+"why": "English/Latin words left: cf"
+},
+{
+"en": "Hello, {property} lost money over 12 months: cash flow {cf_12m} after loan payments. We need a decision.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {property} ने 12 महीनों में पैसा खो दिया: ऋण भुगतान के बाद नकदी प्रवाह {cf_12m}। हमें निर्णय चाहिए.",
+"why": "English/Latin words left: cf"
+},
+{
+"en": "Hello, the DSCR on {property} is {dscr}, below the minimum. NOI is {noi_12m} against loan payments of {loan_12m}.",
+"kind": "message",
+"max": null,
+"mt": "नमस्कार, {property} पर ऋण सेवा कवरेज अनुपात न्यूनतम से नीचे {dscr} है। {ऋण_12m} के ऋण भुगतान के विरुद्ध शुद्ध परिचालन आय {noi_12m} है।",
+"why": "English/Latin words left: noi"
+}
+]

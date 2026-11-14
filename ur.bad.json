@@ -1,0 +1,128 @@
+[
+{
+"en": "Handyperson: quote for a repair",
+"kind": "label",
+"max": null,
+"mt": "Handyperson: مرمت کے لیے اقتباس",
+"why": "English/Latin words left: Handyperson"
+},
+{
+"en": "Hello, please send the repair costs for {name}. We counted {repairs_30d} in the last 30 days.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، براہ کرم {name} کی مرمت کے اخراجات بھیجیں۔ ہم نے پچھلے 30 دنوں میں {repairs_30d} کو شمار کیا۔",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Hello, repair costs for {name} in the last 12 months were {repairs_12m}. Please advise how to split repairs and improvements.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، پچھلے 12 مہینوں میں {name} کی مرمت کے اخراجات {repairs_12m} تھے۔ براہ کرم مشورہ دیں کہ مرمت اور بہتری کو کیسے تقسیم کیا جائے۔",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Hello, repair costs at {name} are {repairs_12m} in 12 months against an allowance of {allowance}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {name} پر مرمت کے اخراجات 12 مہینوں میں {allowance} کے الاؤنس کے مقابلے میں {repairs_12m} ہیں۔",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Repair cost per unit, last 12 months",
+"kind": "label",
+"max": 30,
+"mt": "فی یونٹ مرمت کی لاگت، پچھلے 12 ماہ",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "NOI, cap rate, cash-on-cash and DSCR for every rental property",
+"kind": "sentence",
+"max": 80,
+"mt": "ہر کرایے کی جائیداد کے لیے خالص آپریٹنگ آمدنی، کیپٹلائزیشن کی شرح، کیش آن کیش ریٹرن اور ڈیٹ سروس کوریج کا تناسب",
+"why": "too long: 111 characters, the limit is 80"
+},
+{
+"en": "Cap rate, cash-on-cash and DSCR per property",
+"kind": "label",
+"max": 50,
+"mt": "کیپ کی شرح، نقد پر نقد واپسی اور قرض کی خدمت کی کوریج کا تناسب فی جائیداد",
+"why": "too long: 73 characters, the limit is 50"
+},
+{
+"en": "Rent against market: what each unit could rent for",
+"kind": "title",
+"max": 60,
+"mt": "مارکیٹ کے خلاف کرایہ: ہر یونٹ کس چیز کے لیے کرایہ پر لے سکتا ہے۔",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Performance reviews: a rating for each property each quarter",
+"kind": "title",
+"max": 60,
+"mt": "کارکردگی کا جائزہ: ہر سہ ماہی میں ہر پراپرٹی کے لیے ایک درجہ بندی",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Property result: NOI, cash flow, cap rate and DSCR",
+"kind": "title",
+"max": 60,
+"mt": "پراپرٹی کا نتیجہ: خالص آپریٹنگ آمدنی، نقد بہاؤ، کیپٹلائزیشن کی شرح اور قرض کی خدمت کی کوریج کا تناسب",
+"why": "too long: 100 characters, the limit is 60"
+},
+{
+"en": "Expense ratio check: a cost against rent and your benchmark",
+"kind": "title",
+"max": 60,
+"mt": "اخراجات کا تناسب چیک کریں۔: کرایہ اور آپ کے بینچ مارک کے خلاف لاگت",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Value from NOI and the effect of a cap rate change",
+"kind": "title",
+"max": 60,
+"mt": "خالص آپریٹنگ آمدنی سے قیمت اور کیپٹلائزیشن کی شرح میں تبدیلی کا اثر",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Hello, yearly results for {property}: rent {rent_12m}, operating costs {costs_12m}, NOI {noi_12m}. Please check them against your books.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، سالانہ نتائج برائے {property}: کرایہ {rent_12m}، آپریٹنگ لاگت {costs_12m}، خالص آپریٹنگ آمدنی {noi_12m}۔ براہ کرم انہیں اپنی کتابوں کے خلاف چیک کریں۔",
+"why": "English/Latin words left: rent costs noi"
+},
+{
+"en": "Hello, the lender asks for a performance package for {property}. NOI of the last 12 months is {noi_12m} and the DSCR is {dscr_12m}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، قرض دہندہ {property} کے لیے کارکردگی کا پیکیج مانگتا ہے۔ پچھلے 12 مہینوں کی خالص آپریٹنگ آمدنی {noi_12m} ہے اور قرض سروس کوریج کا تناسب {dscr_12m} ہے۔",
+"why": "English/Latin words left: noi dscr"
+},
+{
+"en": "Hello, for the refinance the DSCR on {property} is {dscr_12m} and the NOI is {noi_12m}. Please tell me what the lender needs.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، ری فنانس کے لیے {property} پر قرض سروس کوریج کا تناسب {dscr_12m} ہے اور خالص آپریٹنگ آمدنی {noi_12m} ہے۔ براہ کرم مجھے بتائیں کہ قرض دینے والے کو کیا ضرورت ہے۔",
+"why": "English/Latin words left: dscr noi"
+},
+{
+"en": "Hello, the cash-on-cash return of {property} is {coc}, below the target. The cash flow of the last 12 months is {cf_12m}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {property} کا کیش آن کیش ریٹرن {coc} ہے، ہدف سے کم۔ پچھلے 12 مہینوں کا کیش فلو {cf_12m} ہے۔",
+"why": "English/Latin words left: cf"
+},
+{
+"en": "Hello, {property} lost money over 12 months: cash flow {cf_12m} after loan payments. We need a decision.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {property} نے 12 مہینوں میں رقم کھو دی: قرض کی ادائیگی کے بعد کیش فلو {cf_12m}۔ ہمیں فیصلے کی ضرورت ہے۔",
+"why": "English/Latin words left: cf"
+},
+{
+"en": "Hello, the DSCR on {property} is {dscr}, below the minimum. NOI is {noi_12m} against loan payments of {loan_12m}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، {property} پر قرض سروس کوریج کا تناسب {dscr} ہے، کم از کم سے کم۔ خالص آپریٹنگ آمدنی {noi_12m} قرض کی ادائیگیوں کے مقابلے میں {loan_12m} ہے۔",
+"why": "English/Latin words left: noi loan"
+}
+]

@@ -1,0 +1,303 @@
+[
+{
+"en": "Hello, please send the repair costs for {name}. We counted {repairs_30d} in the last 30 days.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, пришлите пожалуйста стоимость ремонта {name}. За последние 30 дней мы насчитали {repair_30d}.",
+"why": "English/Latin words left: repair"
+},
+{
+"en": "Hello, repair costs for {name} in the last 12 months were {repairs_12m}. Please advise how to split repairs and improvements.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Затраты на ремонт {name} за последние 12 месяцев составили {repairs_12m}. Подскажите, пожалуйста, как разделить ремонт и улучшения.",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Hello, repair costs at {name} are {repairs_12m} in 12 months against an allowance of {allowance}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, затраты на ремонт в {name} составляют {repairs_12m} за 12 месяцев с учетом скидки в размере {allowance}.",
+"why": "English/Latin words left: repairs"
+},
+{
+"en": "Repair cost per unit by property type",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость ремонта за единицу в зависимости от типа недвижимости",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Repair cost per unit, last 12 months",
+"kind": "label",
+"max": 30,
+"mt": "Стоимость ремонта за единицу за последние 12 месяцев",
+"why": "too long: 52 characters, the limit is 30"
+},
+{
+"en": "Rate your Vendors out of 5 and read their jobs and spend. Properties shows the repair cost against the allowance, the capex shortfall, the premium and the last inspection score for each property.",
+"kind": "sentence",
+"max": null,
+"mt": "Оцените своих поставщиков по 5-балльной шкале и ознакомьтесь с их работой и расходами. Properties показывает стоимость ремонта с учетом надбавки, дефицита капвложений, премии и последней оценки проверки для каждого объекта недвижимости.",
+"why": "English/Latin words left: Properties"
+},
+{
+"en": "See which rental properties perform, and which lose money",
+"kind": "sentence",
+"max": 80,
+"mt": "Посмотрите, какие объекты сдаваемой в аренду недвижимости работают, а какие теряют деньги",
+"why": "too long: 89 characters, the limit is 80"
+},
+{
+"en": "NOI, cap rate, cash-on-cash and DSCR for every rental property",
+"kind": "sentence",
+"max": 80,
+"mt": "чистый операционный доход, ставка капитализации, денежная рентабельность и коэффициент покрытия обслуживания долга для каждого сдаваемого в аренду объекта недвижимости",
+"why": "too long: 167 characters, the limit is 80"
+},
+{
+"en": "rent, costs and loan payments of the last 12 months set against the numbers used at purchase, with the cash flow gap for each property",
+"kind": "sentence",
+"max": 160,
+"mt": "арендная плата, расходы и платежи по кредиту за последние 12 месяцев сравниваются с цифрами, использованными при покупке, с разрывом денежных потоков для каждого объекта недвижимости.",
+"why": "too long: 183 characters, the limit is 160"
+},
+{
+"en": "Cap rate, cash-on-cash and DSCR per property",
+"kind": "label",
+"max": 50,
+"mt": "Ставка предела, доходность денежных средств и коэффициент покрытия обслуживания долга на объект недвижимости",
+"why": "too long: 108 characters, the limit is 50"
+},
+{
+"en": "return, DSCR, cost ratio and equity decide which properties to keep, fix first or review for a sale",
+"kind": "sentence",
+"max": 160,
+"mt": "доходность, коэффициент покрытия долга, коэффициент затрат и собственный капитал решают, какую недвижимость оставить, отремонтировать в первую очередь или рассмотреть для продажи.",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Rent is the cause",
+"kind": "list",
+"max": 30,
+"mt": "Арендная плата является причиной",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Costs are within the benchmark",
+"kind": "list",
+"max": 30,
+"mt": "Затраты находятся в пределах эталона",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Rent is above break-even",
+"kind": "list",
+"max": 30,
+"mt": "Арендная плата выше уровня безубыточности",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Rent is below break-even",
+"kind": "list",
+"max": 30,
+"mt": "Арендная плата ниже уровня безубыточности",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Equity return beats the target",
+"kind": "list",
+"max": 30,
+"mt": "Доходность акций превосходит целевой показатель",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Underwriting: what each property was expected to earn",
+"kind": "title",
+"max": 60,
+"mt": "Андеррайтинг: какую прибыль ожидалось получить от каждого объекта недвижимости",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Property months: rent, costs and loan payments by month",
+"kind": "title",
+"max": 60,
+"mt": "Месяцы недвижимости: аренда, расходы и платежи по кредиту по месяцам.",
+"why": "too long: 69 characters, the limit is 60"
+},
+{
+"en": "Rent payments: what each unit owed and paid",
+"kind": "title",
+"max": 60,
+"mt": "Арендные платежи: сколько задолжало и заплатило каждое подразделение",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Cash invested: the cash you put into each property",
+"kind": "title",
+"max": 60,
+"mt": "Вложенные денежные средства: деньги, которые вы вкладываете в каждый объект недвижимости.",
+"why": "too long: 89 characters, the limit is 60"
+},
+{
+"en": "Property results: the last 12 months against the targets",
+"kind": "title",
+"max": 60,
+"mt": "Результаты по недвижимости: последние 12 месяцев относительно целевых показателей",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Expense ratios: each cost as a share of rent",
+"kind": "title",
+"max": 60,
+"mt": "Коэффициенты расходов: каждая стоимость как доля арендной платы.",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Benchmarks: the targets you judge each property by",
+"kind": "title",
+"max": 60,
+"mt": "Контрольные показатели: цели, по которым вы оцениваете каждый объект недвижимости.",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "Rent against market: what each unit could rent for",
+"kind": "title",
+"max": 60,
+"mt": "Арендная плата по рынку: сколько можно арендовать за каждую единицу",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Performance reviews: a rating for each property each quarter",
+"kind": "title",
+"max": 60,
+"mt": "Обзоры производительности: рейтинг каждого объекта недвижимости каждый квартал.",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Rent, operating costs and cash flow by month",
+"kind": "title",
+"max": 60,
+"mt": "Арендная плата, эксплуатационные расходы и денежный поток по месяцам",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Property result: NOI, cash flow, cap rate and DSCR",
+"kind": "title",
+"max": 60,
+"mt": "Результат по недвижимости: чистый операционный доход, денежный поток, ставка капитализации и коэффициент покрытия долга.",
+"why": "too long: 120 characters, the limit is 60"
+},
+{
+"en": "Actual against underwriting: rent, costs and cash flow",
+"kind": "title",
+"max": 60,
+"mt": "Фактически против андеррайтинга: аренда, затраты и денежный поток",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Expense ratio check: a cost against rent and your benchmark",
+"kind": "title",
+"max": 60,
+"mt": "Проверка соотношения расходов: стоимость аренды и ваш ориентир",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Operating expense reduction: the effect on NOI and value",
+"kind": "title",
+"max": 60,
+"mt": "Снижение операционных расходов: влияние на чистый операционный доход и стоимость.",
+"why": "too long: 81 characters, the limit is 60"
+},
+{
+"en": "Value from NOI and the effect of a cap rate change",
+"kind": "title",
+"max": 60,
+"mt": "Стоимость чистого операционного дохода и влияние изменения ставки капитализации",
+"why": "too long: 79 characters, the limit is 60"
+},
+{
+"en": "Rent increase effect on NOI, value and return",
+"kind": "title",
+"max": 60,
+"mt": "Эффект повышения арендной платы о чистой операционной прибыли, стоимости и доходности",
+"why": "too long: 85 characters, the limit is 60"
+},
+{
+"en": "Vacancy effect on NOI and cash flow",
+"kind": "title",
+"max": 60,
+"mt": "Эффект вакансии о чистой операционной прибыли и движении денежных средств",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Keep, fix or sell signal for one property",
+"kind": "title",
+"max": 60,
+"mt": "Сохранить, исправить или продать сигнал для одного объекта недвижимости",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Return on equity: the return on what is left in the property",
+"kind": "title",
+"max": 60,
+"mt": "Рентабельность собственного капитала: доход от того, что осталось в собственности.",
+"why": "too long: 82 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rent against cost ratio for cash flow",
+"kind": "title",
+"max": 60,
+"mt": "Сетка «что, если»: соотношение ренты и затрат для денежного потока",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Hello, yearly results for {property}: rent {rent_12m}, operating costs {costs_12m}, NOI {noi_12m}. Please check them against your books.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, годовые результаты для {property}: аренда {rent_12m}, эксплуатационные расходы {costs_12m}, чистый операционный доход {noi_12m}. Пожалуйста, сверьте их со своими книгами.",
+"why": "English/Latin words left: rent costs noi"
+},
+{
+"en": "Hello, the lender asks for a performance package for {property}. NOI of the last 12 months is {noi_12m} and the DSCR is {dscr_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, кредитор запрашивает пакет производительности для {property}. чистый операционный доход за последние 12 месяцев составляет {noi_12m}, а коэффициент покрытия обслуживания долга — {dscr_12m}.",
+"why": "English/Latin words left: noi dscr"
+},
+{
+"en": "Hello, for the refinance the DSCR on {property} is {dscr_12m} and the NOI is {noi_12m}. Please tell me what the lender needs.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Для рефинансирования коэффициент покрытия обслуживания долга по {property} составляет {dscr_12m}, а чистый операционный доход – {noi_12m}. Подскажите, пожалуйста, что нужно кредитору.",
+"why": "English/Latin words left: dscr noi"
+},
+{
+"en": "Hello, the cash-on-cash return of {property} is {coc}, below the target. The cash flow of the last 12 months is {cf_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, доходность по наличным для суммы {property} составляет {coc}, что ниже целевого показателя. Денежный поток за последние 12 месяцев составляет {cf_12m}.",
+"why": "English/Latin words left: cf"
+},
+{
+"en": "Hello, {property} lost money over 12 months: cash flow {cf_12m} after loan payments. We need a decision.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте, {property} потерял деньги за 12 месяцев: денежный поток {cf_12m} после выплат по кредиту. Нам нужно решение.",
+"why": "English/Latin words left: cf"
+},
+{
+"en": "Hello, the DSCR on {property} is {dscr}, below the minimum. NOI is {noi_12m} against loan payments of {loan_12m}.",
+"kind": "message",
+"max": null,
+"mt": "Здравствуйте! Коэффициент покрытия долга по {property} составляет {dscr}, что ниже минимального значения. чистый операционный доход составляет {noi_12m} против выплат по кредиту в размере {loan_12m}.",
+"why": "English/Latin words left: noi loan"
+},
+{
+"en": "Portfolio scorecard line for one property",
+"kind": "title",
+"max": 60,
+"mt": "Строка системы показателей портфеля для одного объекта недвижимости",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

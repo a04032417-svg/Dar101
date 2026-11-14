@@ -1,0 +1,219 @@
+[
+{
+"en": "Repair cost per unit, last 12 months",
+"kind": "label",
+"max": 30,
+"mt": "Reparaturkosten pro Einheit, letzte 12 Monate",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "See which rental properties perform, and which lose money",
+"kind": "sentence",
+"max": 80,
+"mt": "Sehen Sie, welche Mietobjekte gute Leistungen erbringen und welche Geld verlieren",
+"why": "too long: 81 characters, the limit is 80"
+},
+{
+"en": "NOI, cap rate, cash-on-cash and DSCR for every rental property",
+"kind": "sentence",
+"max": 80,
+"mt": "Nettobetriebseinkommen, Kapitalisierungszinssatz, Cash-on-Cash-Rendite und Schuldendienstdeckungsgrad für jedes Mietobjekt",
+"why": "too long: 122 characters, the limit is 80"
+},
+{
+"en": "Cap rate, cash-on-cash and DSCR per property",
+"kind": "label",
+"max": 50,
+"mt": "Kapitalisierungssatz, Cash-on-Cash-Rendite und Schuldendienstdeckungsquote pro Immobilie",
+"why": "too long: 88 characters, the limit is 50"
+},
+{
+"en": "return, DSCR, cost ratio and equity decide which properties to keep, fix first or review for a sale",
+"kind": "sentence",
+"max": 160,
+"mt": "Rendite, Schuldendienstdeckungsgrad, Kostenquote und Eigenkapital entscheiden darüber, welche Immobilien behalten, zuerst repariert oder für einen Verkauf geprüft werden sollen",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "Costs are above the benchmark",
+"kind": "list",
+"max": 30,
+"mt": "Die Kosten liegen über dem Benchmark",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Costs are within the benchmark",
+"kind": "list",
+"max": 30,
+"mt": "Die Kosten liegen im Rahmen der Benchmark",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "Return is below the target",
+"kind": "list",
+"max": 30,
+"mt": "Die Rendite liegt unter dem Ziel",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Coverage is safe",
+"kind": "list",
+"max": 30,
+"mt": "Der Versicherungsschutz ist sicher",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Rent is above break-even",
+"kind": "list",
+"max": 30,
+"mt": "Die Miete liegt über der Gewinnschwelle",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Rent is below break-even",
+"kind": "list",
+"max": 30,
+"mt": "Die Miete liegt unter der Gewinnschwelle",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Equity return beats the target",
+"kind": "list",
+"max": 30,
+"mt": "Die Eigenkapitalrendite übertrifft das Ziel",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Equity return is low",
+"kind": "list",
+"max": 30,
+"mt": "Die Eigenkapitalrendite ist niedrig",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Underwriting: what each property was expected to earn",
+"kind": "title",
+"max": 60,
+"mt": "Underwriting: Was jede Immobilie voraussichtlich verdienen würde",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Property months: rent, costs and loan payments by month",
+"kind": "title",
+"max": 60,
+"mt": "Immobilienmonate: Miete, Kosten und Kreditzahlungen pro Monat",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "One row for each cost with the property, the category and the amount; the same category cost of the last 12 months fills in so a bill can be judged against the year.",
+"kind": "sentence",
+"max": null,
+"mt": "One row for each cost with the property, the category and the amount; the same category cost of the last 12 months fills in so a bill can be judged against the year.",
+"why": "not translated"
+},
+{
+"en": "One row for each loan payment with the interest and the principal; the share that is interest and whether the loan only pays interest fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "One row for each loan payment with the interest and the principal; the share that is interest and whether the loan only pays interest fill in.",
+"why": "not translated"
+},
+{
+"en": "Valuations: what each property was worth and when",
+"kind": "title",
+"max": 60,
+"mt": "Valuations: what each property was worth and when",
+"why": "not translated"
+},
+{
+"en": "Cash invested: the cash you put into each property",
+"kind": "title",
+"max": 60,
+"mt": "Cash invested: the cash you put into each property",
+"why": "not translated"
+},
+{
+"en": "One row for each held property with the down payment, the closing costs and the rehab paid in cash; total cash in, the cash flow of a year and the payback years fill in.",
+"kind": "sentence",
+"max": null,
+"mt": "One row for each held property with the down payment, the closing costs and the rehab paid in cash; total cash in, the cash flow of a year and the payback years fill in.",
+"why": "not translated"
+},
+{
+"en": "Property results: the last 12 months against the targets",
+"kind": "title",
+"max": 60,
+"mt": "Immobilienergebnisse: die letzten 12 Monate im Vergleich zu den Zielen",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Benchmarks: the targets you judge each property by",
+"kind": "title",
+"max": 60,
+"mt": "Benchmarks: die Ziele, anhand derer Sie jede Immobilie beurteilen",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "Performance reviews: a rating for each property each quarter",
+"kind": "title",
+"max": 60,
+"mt": "Leistungsbeurteilungen: eine Bewertung für jede Immobilie in jedem Quartal",
+"why": "too long: 74 characters, the limit is 60"
+},
+{
+"en": "Property result: NOI, cash flow, cap rate and DSCR",
+"kind": "title",
+"max": 60,
+"mt": "Immobilienergebnis: Nettobetriebsergebnis, Cashflow, Kapitalisierungssatz und Schuldendienstdeckungsgrad",
+"why": "too long: 104 characters, the limit is 60"
+},
+{
+"en": "Expense ratio check: a cost against rent and your benchmark",
+"kind": "title",
+"max": 60,
+"mt": "Überprüfung der Kostenquote: Kosten im Vergleich zur Miete und Ihrem Benchmark",
+"why": "too long: 78 characters, the limit is 60"
+},
+{
+"en": "Operating expense reduction: the effect on NOI and value",
+"kind": "title",
+"max": 60,
+"mt": "Reduzierung der Betriebskosten: die Auswirkung auf das Nettobetriebsergebnis und den Nettowert",
+"why": "too long: 94 characters, the limit is 60"
+},
+{
+"en": "Value from NOI and the effect of a cap rate change",
+"kind": "title",
+"max": 60,
+"mt": "Wert aus dem Nettobetriebsergebnis und die Auswirkung einer Änderung des Kapitalisierungssatzes",
+"why": "too long: 95 characters, the limit is 60"
+},
+{
+"en": "Rent increase effect on NOI, value and return",
+"kind": "title",
+"max": 60,
+"mt": "Mieterhöhungseffekt auf Nettobetriebseinkommen, Wert und Rendite",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Keep, fix or sell signal for one property",
+"kind": "title",
+"max": 60,
+"mt": "Signal für eine Immobilie behalten, reparieren oder verkaufen",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Return on equity: the return on what is left in the property",
+"kind": "title",
+"max": 60,
+"mt": "Eigenkapitalrendite: die Rendite auf das, was in der Immobilie übrig bleibt",
+"why": "too long: 75 characters, the limit is 60"
+},
+{
+"en": "What-if grid: rent against cost ratio for cash flow",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Miet-Kosten-Verhältnis für den Cashflow",
+"why": "too long: 61 characters, the limit is 60"
+}
+]
