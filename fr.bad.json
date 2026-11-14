@@ -1,0 +1,996 @@
+[
+{
+"en": "Deal Pipeline Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord du pipeline de transactions",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Deal Analysis Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche d'analyse de la transaction",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Inspection Findings Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche des résultats de l'inspection",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Loan Quote Comparison Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau comparatif des devis de prêt",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Deal scorecard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des transactions",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Rental Underwriting Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport de souscription de location",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Flip Profit Forecast",
+"kind": "sheet",
+"max": 31,
+"mt": "Inverser les prévisions de bénéfices",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Flip profit forecast",
+"kind": "sheet",
+"max": 31,
+"mt": "Inverser les prévisions de bénéfices",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Inspection Repair Request",
+"kind": "sheet",
+"max": 31,
+"mt": "Demande de réparation d'inspection",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Lender Package Cover Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de couverture du dossier du prêteur",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Weekly Pipeline Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport hebdomadaire sur le pipeline",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Deal Source Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Examen des sources de transaction",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Loans and Refinance Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des prêts et refinancements",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "DSCR by property",
+"kind": "sheet",
+"max": 31,
+"mt": "taux de couverture du service de la dette par propriété",
+"why": "too long: 55 characters, the limit is 31"
+},
+{
+"en": "Refinance Comparison Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de comparaison de refinancement",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Private Lender Term Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Liste des conditions du prêteur privé",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Line of Credit Draw Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de tirage de marge de crédit",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Rate Change Notice Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'avis de changement de taux",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Covenant Check Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de contrôle des alliances",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Loan Document Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de demande de document de prêt",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Extra Payment Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de paiement supplémentaire",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Interest-only or repaying",
+"kind": "sheet",
+"max": 31,
+"mt": "Intérêts seulement ou remboursement",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Refinance break-even",
+"kind": "sheet",
+"max": 31,
+"mt": "Refinancer le seuil de rentabilité",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Loan-to-value limit",
+"kind": "sheet",
+"max": 31,
+"mt": "Limite du rapport prêt/valeur",
+"why": "sheet names cannot contain [ ] : * ? / \\"
+},
+{
+"en": "DSCR test",
+"kind": "sheet",
+"max": 31,
+"mt": "test du ratio de couverture du service de la dette",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Lender Update Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Lettre de mise à jour du prêteur",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "DSCR Report",
+"kind": "sheet",
+"max": 31,
+"mt": "rapport sur le ratio de couverture du service de la dette",
+"why": "too long: 57 characters, the limit is 31"
+},
+{
+"en": "Payoff Request Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Lettre de demande de remboursement",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Balloon Date Preparation",
+"kind": "sheet",
+"max": 31,
+"mt": "Préparation de la date du ballon",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Rate Reset Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Examen de la réinitialisation des tarifs",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Loan Covenant Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification des clauses de prêt",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Year-end Interest Statement",
+"kind": "sheet",
+"max": 31,
+"mt": "Relevé des intérêts de fin d'année",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Renovation and Draws Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Rénovation et dessins de tableau de bord",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Change order impact",
+"kind": "sheet",
+"max": 31,
+"mt": "Impact de la commande de modification",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Maximum rehab spend",
+"kind": "sheet",
+"max": 31,
+"mt": "Dépenses maximales de réadaptation",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Contractor Bid Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de soumission de l'entrepreneur",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Draw Inspection Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Dessiner une feuille d'inspection",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Weekly Site Visit Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de visite de chantier hebdomadaire",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Rehab budget builder",
+"kind": "sheet",
+"max": 31,
+"mt": "Générateur de budget de réadaptation",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Value per rehab dollar",
+"kind": "sheet",
+"max": 31,
+"mt": "Valeur par dollar de réadaptation",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Draw Schedule Line",
+"kind": "sheet",
+"max": 31,
+"mt": "Dessiner une ligne de planification",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Flip Profit Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Retourner le rapport sur les bénéfices",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Bid Comparison Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport de comparaison des offres",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Lender Draw Package",
+"kind": "sheet",
+"max": 31,
+"mt": "Forfait de tirage au sort du prêteur",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Change Order Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Examen de la commande de modification",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Material Delivery Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Contrôle de livraison du matériel",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Rent Roll and Tenants Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Liste des loyers et tableau de bord des locataires",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Tenant screening score",
+"kind": "sheet",
+"max": 31,
+"mt": "Score de sélection des locataires",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Rent Increase Notice Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'avis d'augmentation de loyer",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Late Rent Notice Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'avis de retard de loyer",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Move-in Condition Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de conditions d'emménagement",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Move-out Settlement Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de règlement du déménagement",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Lease Renewal Offer Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche d'offre de renouvellement de bail",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Rent increase calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculateur d'augmentation de loyer",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Rent and vacancy grid",
+"kind": "sheet",
+"max": 31,
+"mt": "Grille des loyers et des vacances",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Rent Collection Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport de perception des loyers",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Lease Renewal Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Examen du renouvellement du bail",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "New Tenant Move-in",
+"kind": "sheet",
+"max": 31,
+"mt": "Emménagement d'un nouveau locataire",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Maintenance and Capex Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord de maintenance et d'investissement",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Tenant damage recovery",
+"kind": "sheet",
+"max": 31,
+"mt": "Récupération des dommages aux locataires",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Tenant-caused repairs",
+"kind": "sheet",
+"max": 31,
+"mt": "Réparations causées par le locataire",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Property Inspection Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche d'inspection de la propriété",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Warranty Record Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche d'enregistrement de garantie",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Tax Bill Check Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de contrôle de la facture fiscale",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Damage Recovery Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de récupération des dommages",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Capex reserve per month",
+"kind": "sheet",
+"max": 31,
+"mt": "Réserve d'investissement par mois",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Reserve funding check",
+"kind": "sheet",
+"max": 31,
+"mt": "Chèque de financement de réserve",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Insurance renewal comparison",
+"kind": "sheet",
+"max": 31,
+"mt": "Comparatif de renouvellement d'assurance",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Property tax appeal check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification de l'appel de la taxe foncière",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Roof or heating life left",
+"kind": "sheet",
+"max": 31,
+"mt": "Durée de vie restante du toit ou du chauffage",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Preventive service schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendrier des services préventifs",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Property Capex Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Plan d'investissement immobilier",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Tax Bill Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Calendrier des factures de taxes",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Weekly Work Order Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Révision hebdomadaire des bons de travail",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Seasonal Property Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification immobilière saisonnière",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Heating and Cooling Service",
+"kind": "sheet",
+"max": 31,
+"mt": "Service de chauffage et de climatisation",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Roof and Gutter Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification de la toiture et des gouttières",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Property Tax Bill Payment",
+"kind": "sheet",
+"max": 31,
+"mt": "Paiement de la facture de taxe foncière",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Annual Capex Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revue annuelle des investissements",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Smoke Alarm and Safety Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Détecteur de fumée et contrôle de sécurité",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Property Performance Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord des performances de la propriété",
+"why": "too long: 48 characters, the limit is 31"
+},
+{
+"en": "Rate and value changes",
+"kind": "sheet",
+"max": 31,
+"mt": "Modifications de taux et de valeur",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Property Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche d'évaluation de la propriété",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Underwriting Update Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de mise à jour de la souscription",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Rent Against Market Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Loyer par rapport à la feuille de marché",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Keep Fix or Sell Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Conserver la fiche de réparation ou de vente",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Return on Equity Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de rendement des capitaux propres",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Rate Change Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de révision du changement de taux",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Quarterly Property Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche d'évaluation immobilière trimestrielle",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Property result calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculateur de résultat de propriété",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Actual against underwriting",
+"kind": "sheet",
+"max": 31,
+"mt": "Réel par rapport à la souscription",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Expense ratio check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification du ratio de dépenses",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Operating expense reduction",
+"kind": "sheet",
+"max": 31,
+"mt": "Réduction des dépenses de fonctionnement",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Value from NOI",
+"kind": "sheet",
+"max": 31,
+"mt": "Valeur du résultat opérationnel net",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Rent increase effect",
+"kind": "sheet",
+"max": 31,
+"mt": "Effet de l'augmentation des loyers",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Keep fix or sell signal",
+"kind": "sheet",
+"max": 31,
+"mt": "Conserver le signal de réparation ou de vente",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "DSCR with a rate rise",
+"kind": "sheet",
+"max": 31,
+"mt": "taux de couverture du service de la dette avec une hausse des taux",
+"why": "too long: 66 characters, the limit is 31"
+},
+{
+"en": "Portfolio Scorecard",
+"kind": "sheet",
+"max": 31,
+"mt": "Carte de pointage du portefeuille",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Budget Variance Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur les écarts budgétaires",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Keep Fix or Sell Memo",
+"kind": "sheet",
+"max": 31,
+"mt": "Conserver un mémo de réparation ou de vente",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Quarterly Owner Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport trimestriel du propriétaire",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Rent Against Market Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Loyer par rapport au rapport du marché",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Lender Performance Package",
+"kind": "sheet",
+"max": 31,
+"mt": "Package de performance du prêteur",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Monthly Performance Close",
+"kind": "sheet",
+"max": 31,
+"mt": "Clôture des performances mensuelles",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Quarterly Property Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Bilan trimestriel de la propriété",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Lender Report Preparation",
+"kind": "sheet",
+"max": 31,
+"mt": "Préparation du rapport du prêteur",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Net Worth and Exit Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Valeur nette et tableau de bord de sortie",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Agent opinions of value",
+"kind": "sheet",
+"max": 31,
+"mt": "Opinions des agents sur la valeur",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Net Worth Statement Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de relevé de la valeur nette",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Cost Basis Record Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'enregistrement de la base de coût",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Depreciation Record Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'enregistrement de l'amortissement",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Exchange Timeline Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de chronologie d'échange",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Net Sale Proceeds Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche du produit net de la vente",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Adviser Question Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de questions du conseiller",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Equity and LTV",
+"kind": "sheet",
+"max": 31,
+"mt": "Fonds propres et ratio prêt-valeur",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Sale proceeds calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculateur du produit de la vente",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Sale against refinance cash",
+"kind": "sheet",
+"max": 31,
+"mt": "Vente contre cash de refinancement",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Equity Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur les capitaux propres",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Portfolio Exit Ladder",
+"kind": "sheet",
+"max": 31,
+"mt": "Échelle de sortie de portefeuille",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Quarterly Net Worth Update",
+"kind": "sheet",
+"max": 31,
+"mt": "Mise à jour trimestrielle de la valeur nette",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Property Value Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Examen de la valeur de la propriété",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Depreciation Schedule Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Vérification du plan d'amortissement",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Cash Flow and Growth Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Tableau de bord de trésorerie et de croissance",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Refinance cash release",
+"kind": "sheet",
+"max": 31,
+"mt": "Libération de trésorerie de refinancement",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Owner Draw Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de demande de tirage au sort du propriétaire",
+"why": "too long: 52 characters, the limit is 31"
+},
+{
+"en": "Purchase Funding Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Acheter une fiche de financement",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Reserve Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille de révision des réserves",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Cash Floor Alert Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Feuille d'alerte sur le plancher de trésorerie",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Quarterly Cash Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Fiche de revue de trésorerie trimestrielle",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Cash forecast calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calculateur de prévisions de trésorerie",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Doors for a cash flow goal",
+"kind": "sheet",
+"max": 31,
+"mt": "Des portes pour un objectif de trésorerie",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Break-even cash flow",
+"kind": "sheet",
+"max": 31,
+"mt": "Flux de trésorerie au seuil de rentabilité",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Owner Draw Approval",
+"kind": "sheet",
+"max": 31,
+"mt": "Approbation du tirage par le propriétaire",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Quarterly Targets Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapport sur les objectifs trimestriels",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Cash Position for the Lender",
+"kind": "sheet",
+"max": 31,
+"mt": "Situation de trésorerie du prêteur",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Yearly Cash Flow Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Récapitulatif annuel des flux de trésorerie",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Month-End Cash Close",
+"kind": "sheet",
+"max": 31,
+"mt": "Clôture en espèces de fin de mois",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Purchase Funding Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Acheter un chèque de financement",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Quarterly Target Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revue des objectifs trimestriels",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Cash Floor Response",
+"kind": "sheet",
+"max": 31,
+"mt": "Réponse au plancher de trésorerie",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Year-End Cash Planning",
+"kind": "sheet",
+"max": 31,
+"mt": "Planification de trésorerie de fin d'année",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Growth Plan Update",
+"kind": "sheet",
+"max": 31,
+"mt": "Mise à jour du plan de croissance",
+"why": "too long: 33 characters, the limit is 31"
+}
+]

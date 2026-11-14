@@ -1,0 +1,527 @@
+[
+{
+"en": "Deal Pipeline Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Панель управления конвейером сделок",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Loan Quote Comparison Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Сравнительная таблица кредитных котировок",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Go or No-go Decision Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист принятия решения «да или нет»",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Maximum rental offer",
+"kind": "sheet",
+"max": 31,
+"mt": "Максимальное предложение по аренде",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Loans and Refinance Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Панель управления кредитами и рефинансированием",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "DSCR by property",
+"kind": "sheet",
+"max": 31,
+"mt": "Коэффициент покрытия обслуживания долга по объектам недвижимости",
+"why": "too long: 64 characters, the limit is 31"
+},
+{
+"en": "Refinance Comparison Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Сравнительная таблица рефинансирования",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Rate Change Notice Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист уведомления об изменении тарифа",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Loan Document Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Бланк запроса документов на кредит",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Cash-out refinance",
+"kind": "sheet",
+"max": 31,
+"mt": "Рефинансирование с выводом средств",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "DSCR test",
+"kind": "sheet",
+"max": 31,
+"mt": "тест коэффициента покрытия обслуживания долга",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "DSCR Report",
+"kind": "sheet",
+"max": 31,
+"mt": "отчет о коэффициенте покрытия долга",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Monthly Loan Payment Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Проверка ежемесячного платежа по кредиту",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Balloon Date Preparation",
+"kind": "sheet",
+"max": 31,
+"mt": "Подготовка к свиданию на воздушном шаре",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Renovation and Draws Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Ремонт и рисование приборной панели",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Maximum rehab spend",
+"kind": "sheet",
+"max": 31,
+"mt": "Максимальные расходы на реабилитацию",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Weekly Site Visit Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Еженедельный лист посещения сайта",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Flip Closing Cost Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Закрытие листа затрат на переворот",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Contingency check",
+"kind": "sheet",
+"max": 31,
+"mt": "Проверка на случай непредвиденных обстоятельств",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Rent Roll and Tenants Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Панель арендной платы и арендаторов",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Rent Increase Notice Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Уведомление о повышении арендной платы",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Lease Renewal Offer Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист предложений по продлению аренды",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Late rent calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Калькулятор просроченной арендной платы",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Rent increase calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Калькулятор повышения арендной платы",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Rent collection rate",
+"kind": "sheet",
+"max": 31,
+"mt": "Уровень собираемости арендной платы",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Rent Increase Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Письмо о повышении арендной платы",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Late Rent Follow-up",
+"kind": "sheet",
+"max": 31,
+"mt": "Отслеживание задержки арендной платы",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Rent Increase Notice",
+"kind": "sheet",
+"max": 31,
+"mt": "Уведомление о повышении арендной платы",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Maintenance and Capex Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Информационная панель по техническому обслуживанию и капитальным затратам",
+"why": "too long: 73 characters, the limit is 31"
+},
+{
+"en": "Tax Bill Check Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Контрольный лист налоговой накладной",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Repair or replace tool",
+"kind": "sheet",
+"max": 31,
+"mt": "Отремонтировать или заменить инструмент",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Reserve funding check",
+"kind": "sheet",
+"max": 31,
+"mt": "Проверка резервного финансирования",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Maintenance cost per unit",
+"kind": "sheet",
+"max": 31,
+"mt": "Стоимость обслуживания за единицу",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Property tax appeal check",
+"kind": "sheet",
+"max": 31,
+"mt": "Проверка апелляции по налогу на имущество",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Roof or heating life left",
+"kind": "sheet",
+"max": 31,
+"mt": "Срок службы крыши или отопления остался",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Preventive service schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "График профилактического обслуживания",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Property Capex Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "План капитальных вложений в недвижимость",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Repair or Replace Memo",
+"kind": "sheet",
+"max": 31,
+"mt": "Отремонтировать или заменить памятку",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Maintenance Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Отчет о техническом обслуживании",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Weekly Work Order Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Еженедельный обзор заказов на работу",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Heating and Cooling Service",
+"kind": "sheet",
+"max": 31,
+"mt": "Услуги по отоплению и охлаждению",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Smoke Alarm and Safety Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Датчик дыма и проверка безопасности",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Property Performance Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Панель мониторинга эффективности объекта недвижимости",
+"why": "too long: 53 characters, the limit is 31"
+},
+{
+"en": "Rent Against Market Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Арендная плата по рыночному листу",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Keep Fix or Sell Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Сохраните лист исправления или продажи",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Quarterly Property Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Ежеквартальный лист обзора недвижимости",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Property result calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Калькулятор результатов недвижимости",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Value from NOI",
+"kind": "sheet",
+"max": 31,
+"mt": "Стоимость чистого операционного дохода",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Keep fix or sell signal",
+"kind": "sheet",
+"max": 31,
+"mt": "Сохраняйте сигнал «фиксировать или продавать»",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "DSCR with a rate rise",
+"kind": "sheet",
+"max": 31,
+"mt": "Коэффициент покрытия долга при повышении ставки",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "Keep Fix or Sell Memo",
+"kind": "sheet",
+"max": 31,
+"mt": "Сохраняйте заметку «Исправь или продай»",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Rent Against Market Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Арендная плата по рыночному отчету",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Quarterly Property Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Ежеквартальный обзор недвижимости",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Net Worth and Exit Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Собственный капитал и панель выхода",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Net Worth Statement Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Отчет о чистой стоимости активов",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Net Sale Proceeds Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Таблица чистой выручки от продажи",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Equity and LTV",
+"kind": "sheet",
+"max": 31,
+"mt": "Собственный капитал и соотношение кредита к стоимости",
+"why": "too long: 53 characters, the limit is 31"
+},
+{
+"en": "Estimated gain on sale",
+"kind": "sheet",
+"max": 31,
+"mt": "Предполагаемая прибыль от продажи",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Hold refinance or sell",
+"kind": "sheet",
+"max": 31,
+"mt": "Провести рефинансирование или продать",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "IRR of a holding period",
+"kind": "sheet",
+"max": 31,
+"mt": "внутренняя норма доходности периода владения",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Sale against refinance cash",
+"kind": "sheet",
+"max": 31,
+"mt": "Продажа под залог денежных средств рефинансирования",
+"why": "too long: 51 characters, the limit is 31"
+},
+{
+"en": "Quarterly Net Worth Update",
+"kind": "sheet",
+"max": 31,
+"mt": "Ежеквартальное обновление чистой стоимости активов",
+"why": "too long: 50 characters, the limit is 31"
+},
+{
+"en": "Cash Flow and Growth Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Панель управления денежными потоками и ростом",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Balloon cash plan",
+"kind": "sheet",
+"max": 31,
+"mt": "План наличных в виде воздушных шаров",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Refinance cash release",
+"kind": "sheet",
+"max": 31,
+"mt": "Рефинансирование выпуска денежных средств",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Owner Draw Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист заявки на розыгрыш от владельца",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Cash Floor Alert Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Лист оповещения о минимальной кассе",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Quarterly Cash Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Ежеквартальный отчет о кассовых операциях",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Cash forecast calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Калькулятор прогноза денежных средств",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Doors for a cash flow goal",
+"kind": "sheet",
+"max": 31,
+"mt": "Двери для достижения цели денежного потока",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Quarterly Targets Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Квартальный отчет о целевых показателях",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Yearly Cash Flow Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Годовой отчет о движении денежных средств",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Balloon Cash Preparation",
+"kind": "sheet",
+"max": 31,
+"mt": "Подготовка денежных средств на воздушном шаре",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Cash Floor Response",
+"kind": "sheet",
+"max": 31,
+"mt": "Ответ на минимальную сумму денежных средств",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Year-End Cash Planning",
+"kind": "sheet",
+"max": 31,
+"mt": "Планирование денежных средств на конец года",
+"why": "too long: 43 characters, the limit is 31"
+}
+]
