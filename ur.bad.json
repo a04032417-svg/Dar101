@@ -1,0 +1,58 @@
+[
+{
+"en": "Get paid before you pay the vendors: deposits and late payers",
+"kind": "sentence",
+"max": 80,
+"mt": "دکانداروں کو ادائیگی کرنے سے پہلے ادائیگی حاصل کریں: جمع اور دیر سے ادائیگی کرنے والے",
+"why": "too long: 85 characters, the limit is 80"
+},
+{
+"en": "Invoices, deposits and late payers for a wedding and event planning business",
+"kind": "sentence",
+"max": 80,
+"mt": "شادی اور تقریب کی منصوبہ بندی کے کاروبار کے لیے رسیدیں، ڈپازٹس اور دیر سے ادائیگی کرنے والے",
+"why": "too long: 91 characters, the limit is 80"
+},
+{
+"en": "for every event the cash received, the vendors paid and the vendor payments due in 30 days show whether client money funds the next bills",
+"kind": "sentence",
+"max": 160,
+"mt": "ہر ایونٹ کے لیے نقد وصول کیا گیا، دکانداروں کو ادائیگی کی گئی اور 30 دنوں میں واجب الادا ادائیگیاں یہ ظاہر کرتی ہیں کہ آیا کلائنٹ کی رقم اگلے بلوں میں فنڈ کرتی ہے",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "Vendor refund passed on",
+"kind": "list",
+"max": 30,
+"mt": "وینڈر کی رقم کی واپسی پر گزر گیا",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Paid after the reminder",
+"kind": "list",
+"max": 30,
+"mt": "یاد دہانی کے بعد ادائیگی کی گئی۔",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Plan drains cash",
+"kind": "list",
+"max": 30,
+"mt": "منصوبہ بندی سے نقد رقم نکل جاتی ہے۔",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Average days to pay and what slow payers cost",
+"kind": "title",
+"max": 60,
+"mt": "ادائیگی کرنے کے لیے اوسط دن اور سستے ادا کرنے والوں کی کتنی لاگت آتی ہے۔",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Hello, payments due in the 4 weeks from {week} total {four_wk}. Payments due in that first week: {expected}.",
+"kind": "message",
+"max": null,
+"mt": "ہیلو، کل {week} سے 4 ہفتوں میں ادائیگیاں باقی ہیں۔ اس پہلے ہفتے میں واجب الادا ادائیگیاں: {expected}۔",
+"why": "placeholders must be exactly: {week} {four_wk} {expected}"
+}
+]

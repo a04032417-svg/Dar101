@@ -1,0 +1,72 @@
+[
+{
+"en": "late payments, average days late and the overdue amount give every client a score, so you know who to ask for a deposit before holding the next date",
+"kind": "sentence",
+"max": 160,
+"mt": "geç ödemeler, ortalama geç gün sayısı ve vadesi geçmiş tutar her müşteriye bir puan verir, böylece bir sonraki tarihe geçmeden önce kimden depozito isteyeceğinizi bilirsiniz",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "for every event the cash received, the vendors paid and the vendor payments due in 30 days show whether client money funds the next bills",
+"kind": "sentence",
+"max": 160,
+"mt": "Alınan nakit, satıcılara ödenen ve 30 gün içinde ödenmesi gereken satıcı ödemeleri her olay için müşteri parasının bir sonraki faturaları karşılayıp karşılamadığını gösterir",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Vendor refund passed on",
+"kind": "list",
+"max": 30,
+"mt": "Satıcının geri ödemesi aktarıldı",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Notice of 90 days or more",
+"kind": "list",
+"max": 30,
+"mt": "90 gün veya daha uzun süreli bildirim",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Paid after the reminder",
+"kind": "list",
+"max": 30,
+"mt": "Hatırlatma sonrasında ödeme yapıldı",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Plan keeps cash positive",
+"kind": "list",
+"max": 30,
+"mt": "Plan nakit paranın pozitif kalmasını sağlar",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Payment schedule from a contract value and the event date",
+"kind": "title",
+"max": 60,
+"mt": "Sözleşme bedelinden ve etkinlik tarihinden itibaren ödeme planı",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Average days to pay and what slow payers cost",
+"kind": "title",
+"max": 60,
+"mt": "Ortalama ödeme günü sayısı ve yavaş ödeme yapanların maliyeti",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Client money held against vendors still to pay",
+"kind": "title",
+"max": 60,
+"mt": "Satıcılara karşı tutulan müşteri parasının hâlâ ödenmesi gerekiyor",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "What-if grid: deposit and instalments against lowest cash",
+"kind": "title",
+"max": 60,
+"mt": "What-if ızgarası: en düşük nakit karşılığında depozito ve taksitler",
+"why": "too long: 67 characters, the limit is 60"
+}
+]
