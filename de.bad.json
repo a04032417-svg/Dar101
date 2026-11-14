@@ -1,0 +1,128 @@
+[
+{
+"en": "Quotes sent within a day of the request",
+"kind": "title",
+"max": 60,
+"mt": "Angebote werden innerhalb eines Tages nach der Anfrage gesendet",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Quoted against actual hours by service",
+"kind": "title",
+"max": 60,
+"mt": "Angegeben im Vergleich zu den tatsächlichen Stunden pro Dienst",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "every repeating client with the weekday, time, crew and hours, the next visit date from the last visit and a flag for visits that are overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder wiederkehrende Kunde mit Wochentag, Uhrzeit, Besatzung und Öffnungszeiten, dem nächsten Besuchsdatum des letzten Besuchs und einer Markierung für überfällige Besuche",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "labour hours booked against the hours a crew has each day, the hours free, the load and a warning for overloaded days",
+"kind": "sentence",
+"max": 160,
+"mt": "Die gebuchten Arbeitsstunden werden mit den Stunden, die eine Mannschaft täglich hat, mit den freien Stunden, der Auslastung und einer Warnung bei überlasteten Tagen verglichen",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "every holiday with the visits to move, the days left and a flag when it is time to message clients, plus a tool that spreads the visits over the next days",
+"kind": "sentence",
+"max": 160,
+"mt": "Jeder Feiertag mit den umzuziehenden Besuchen, den verbleibenden Tagen und einer Markierung, wann es Zeit ist, den Kunden eine Nachricht zu senden, sowie einem Tool, das die Besuche auf die nächsten Tage verteilt",
+"why": "too long: 212 characters, the limit is 160"
+},
+{
+"en": "prospects waiting for a slot by area, frequency and weekday with the days waited and a warning when the wait is too long",
+"kind": "sentence",
+"max": 160,
+"mt": "Interessenten, die auf einen Slot warten, nach Region, Häufigkeit und Wochentag mit Angabe der Tage, an denen sie gewartet haben, und einer Warnung, wenn die Wartezeit zu lang ist",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "key type, alarm, parking, pets and how to get in, with the products to avoid and the rooms to skip for each client",
+"kind": "sentence",
+"max": 160,
+"mt": "Schlüsseltyp, Alarm, Parkplatz, Haustiere und wie man hineinkommt, mit den Produkten, die man meiden sollte, und den Zimmern, die man für jeden Kunden überspringen sollte",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "average jobs and hours of each crew on each weekday against the hours it has, so busy Fridays and empty Tuesdays are plain to see",
+"kind": "sentence",
+"max": 160,
+"mt": "Die durchschnittlichen Jobs und Stunden jeder Mannschaft an jedem Wochentag im Vergleich zu den Stunden, die sie hat, sodass geschäftige Freitage und leere Dienstage deutlich zu sehen sind",
+"why": "too long: 188 characters, the limit is 160"
+},
+{
+"en": "Moved to another day",
+"kind": "list",
+"max": 30,
+"mt": "Auf einen anderen Tag verschoben",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Crew day is overloaded",
+"kind": "list",
+"max": 30,
+"mt": "Der Mannschaftstag ist überlastet",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Start date is realistic",
+"kind": "list",
+"max": 30,
+"mt": "Der Starttermin ist realistisch",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Start date is far away",
+"kind": "list",
+"max": 30,
+"mt": "Der Starttermin liegt in weiter Ferne",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Within your load limit",
+"kind": "list",
+"max": 30,
+"mt": "Innerhalb Ihrer Belastungsgrenze",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Alarm",
+"kind": "label",
+"max": null,
+"mt": "Alarm",
+"why": "not translated"
+},
+{
+"en": "Visit confirmations and whether they came in time",
+"kind": "title",
+"max": 60,
+"mt": "Besuchsbestätigungen und ob diese rechtzeitig eingetroffen sind",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Revenue booked, revenue lost and fees by month",
+"kind": "title",
+"max": 60,
+"mt": "Gebuchte Einnahmen, entgangene Einnahmen und Gebühren pro Monat",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Revenue lost in skipped visits",
+"kind": "label",
+"max": 30,
+"mt": "Umsatzverlust durch übersprungene Besuche",
+"why": "too long: 41 characters, the limit is 30"
+},
+{
+"en": "What-if grid: visits per week against hours per visit",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Besuche pro Woche im Vergleich zu Stunden pro Besuch",
+"why": "too long: 74 characters, the limit is 60"
+}
+]

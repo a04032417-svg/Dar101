@@ -1,0 +1,107 @@
+[
+{
+"en": "every repeating client with the weekday, time, crew and hours, the next visit date from the last visit and a flag for visits that are overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "cada cliente recurrente con el día de la semana, hora, tripulación y horario, la fecha de la próxima visita desde la última visita y una bandera para las visitas vencidas",
+"why": "too long: 170 characters, the limit is 160"
+},
+{
+"en": "every holiday with the visits to move, the days left and a flag when it is time to message clients, plus a tool that spreads the visits over the next days",
+"kind": "sentence",
+"max": 160,
+"mt": "cada festivo con las visitas a desplazarse, los días que quedan y una bandera cuando toca enviar mensajes a los clientes, además de una herramienta que reparte las visitas en los próximos días",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "average jobs and hours of each crew on each weekday against the hours it has, so busy Fridays and empty Tuesdays are plain to see",
+"kind": "sentence",
+"max": 160,
+"mt": "promedio de trabajos y horas de cada equipo en cada día de la semana en comparación con las horas que tiene, por lo que los viernes ocupados y los martes vacíos son fáciles de ver",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Fits the crew day",
+"kind": "list",
+"max": 30,
+"mt": "Se adapta al día de la tripulación.",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Crew day is overloaded",
+"kind": "list",
+"max": 30,
+"mt": "El día de la tripulación está sobrecargado",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Start date is far away",
+"kind": "list",
+"max": 30,
+"mt": "La fecha de inicio está muy lejos",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "All visits moved",
+"kind": "list",
+"max": 30,
+"mt": "Todas las visitas se trasladaron",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "No crew has room",
+"kind": "list",
+"max": 30,
+"mt": "Ninguna tripulación tiene espacio",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Above your load limit",
+"kind": "list",
+"max": 30,
+"mt": "Por encima de su límite de carga",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Revenue lost in skipped visits",
+"kind": "label",
+"max": 30,
+"mt": "Ingresos perdidos en visitas saltadas",
+"why": "too long: 37 characters, the limit is 30"
+},
+{
+"en": "Visit duration from the area and the crew size",
+"kind": "title",
+"max": 60,
+"mt": "Duración de la visita según el área y el tamaño de la tripulación.",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Whether the jobs of a day fit the crew hours",
+"kind": "title",
+"max": 60,
+"mt": "Si los trabajos de un día se ajustan a las horas de la tripulación",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Day length and finish time of a crew route",
+"kind": "title",
+"max": 60,
+"mt": "Duración del día y hora de finalización de una ruta de tripulación",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "First visit date after a quote is accepted",
+"kind": "title",
+"max": 60,
+"mt": "Fecha de primera visita después de que se acepte una cotización.",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "What-if grid: visits per week against hours per visit",
+"kind": "title",
+"max": 60,
+"mt": "Cuadrícula hipotética: visitas por semana frente a horas por visita",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

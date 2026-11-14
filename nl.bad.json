@@ -1,0 +1,65 @@
+[
+{
+"en": "every repeating client with the weekday, time, crew and hours, the next visit date from the last visit and a flag for visits that are overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "elke terugkerende klant met de weekdag, tijd, bemanning en uren, de volgende bezoekdatum vanaf het laatste bezoek en een vlaggetje voor bezoeken die te laat zijn",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "every holiday with the visits to move, the days left and a flag when it is time to message clients, plus a tool that spreads the visits over the next days",
+"kind": "sentence",
+"max": 160,
+"mt": "elke vakantie met de te verplaatsen bezoeken, de resterende dagen en een vlag wanneer het tijd is om klanten een bericht te sturen, plus een tool die de bezoeken over de volgende dagen spreidt",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "No fee applies",
+"kind": "list",
+"max": 30,
+"mt": "Er zijn geen kosten van toepassing",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Charge the fee",
+"kind": "list",
+"max": 30,
+"mt": "Breng de vergoeding in rekening",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "No crew has room",
+"kind": "list",
+"max": 30,
+"mt": "Geen enkele bemanning heeft ruimte",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Alarm",
+"kind": "label",
+"max": null,
+"mt": "Alarm",
+"why": "not translated"
+},
+{
+"en": "Revenue lost in skipped visits",
+"kind": "label",
+"max": 30,
+"mt": "Inkomstenverlies door overgeslagen bezoeken",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Visit duration from the area and the crew size",
+"kind": "title",
+"max": 60,
+"mt": "Bezoekduur afhankelijk van het gebied en de bemanningsgrootte",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "The next visit from the last visit and the frequency",
+"kind": "title",
+"max": 60,
+"mt": "Het volgende bezoek vanaf het laatste bezoek en de frequentie",
+"why": "too long: 61 characters, the limit is 60"
+}
+]

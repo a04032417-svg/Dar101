@@ -1,0 +1,51 @@
+[
+{
+"en": "every repeating client with the weekday, time, crew and hours, the next visit date from the last visit and a flag for visits that are overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "Tekrar eden her müşteriye haftanın günü, saati, mürettebatı ve çalışma saatleri, son ziyaretten sonraki ziyaret tarihi ve gecikmiş ziyaretler için bir bayrak gösterilir",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "Crew day plan with free hours",
+"kind": "label",
+"max": 50,
+"mt": "Ücretsiz çalışma saatlerini içeren mürettebat günü planı",
+"why": "too long: 56 characters, the limit is 50"
+},
+{
+"en": "average jobs and hours of each crew on each weekday against the hours it has, so busy Fridays and empty Tuesdays are plain to see",
+"kind": "sentence",
+"max": 160,
+"mt": "Her ekibin hafta içi her günkü ortalama işleri ve çalışma saatleri, sahip oldukları saatlerle karşılaştırıldığında, yoğun Cuma günleri ve boş Salı günleri açıkça görülüyor",
+"why": "too long: 171 characters, the limit is 160"
+},
+{
+"en": "Alarm",
+"kind": "label",
+"max": null,
+"mt": "Alarm",
+"why": "not translated"
+},
+{
+"en": "Areas with travel minutes and surcharge by zone",
+"kind": "title",
+"max": 60,
+"mt": "Seyahat dakikaları ve bölgelere göre ek ücretler içeren alanlar",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Revenue lost in skipped visits",
+"kind": "label",
+"max": 30,
+"mt": "Atlanan ziyaretlerde gelir kaybı",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "What-if grid: visits per week against hours per visit",
+"kind": "title",
+"max": 60,
+"mt": "Durum tablosu: ziyaret başına saatlere karşı haftalık ziyaretler",
+"why": "too long: 64 characters, the limit is 60"
+}
+]

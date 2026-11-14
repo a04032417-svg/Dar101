@@ -1,0 +1,128 @@
+[
+{
+"en": "every repeating client with the weekday, time, crew and hours, the next visit date from the last visit and a flag for visits that are overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque client récurrent avec le jour de la semaine, l'heure, l'équipe et les heures, la date de la prochaine visite par rapport à la dernière visite et un indicateur pour les visites en retard",
+"why": "too long: 192 characters, the limit is 160"
+},
+{
+"en": "labour hours booked against the hours a crew has each day, the hours free, the load and a warning for overloaded days",
+"kind": "sentence",
+"max": 160,
+"mt": "heures de travail réservées par rapport aux heures dont dispose un équipage chaque jour, aux heures libres, à la charge et à un avertissement pour les jours de surcharge",
+"why": "too long: 169 characters, the limit is 160"
+},
+{
+"en": "every holiday with the visits to move, the days left and a flag when it is time to message clients, plus a tool that spreads the visits over the next days",
+"kind": "sentence",
+"max": 160,
+"mt": "chaque jour férié avec les visites à déplacer, les jours restants et un indicateur quand il est temps d'envoyer un message aux clients, plus un outil qui répartit les visites sur les jours suivants",
+"why": "too long: 197 characters, the limit is 160"
+},
+{
+"en": "average jobs and hours of each crew on each weekday against the hours it has, so busy Fridays and empty Tuesdays are plain to see",
+"kind": "sentence",
+"max": 160,
+"mt": "moyenne des tâches et des heures de travail de chaque équipe chaque jour de la semaine par rapport aux heures dont elle dispose, de sorte que les vendredis chargés et les mardis vides sont évidents",
+"why": "too long: 197 characters, the limit is 160"
+},
+{
+"en": "Move visits now",
+"kind": "list",
+"max": 30,
+"mt": "Déplacer les visites maintenant",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Fits the crew day",
+"kind": "list",
+"max": 30,
+"mt": "Convient à la journée de l'équipage",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Crew day is overloaded",
+"kind": "list",
+"max": 30,
+"mt": "La journée de l'équipage est surchargée",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Route saves time",
+"kind": "list",
+"max": 30,
+"mt": "L'itinéraire fait gagner du temps",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Route is not shorter",
+"kind": "list",
+"max": 30,
+"mt": "L'itinéraire n'est pas plus court",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "All visits moved",
+"kind": "list",
+"max": 30,
+"mt": "Toutes les visites ont été déplacées",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Above your load limit",
+"kind": "list",
+"max": 30,
+"mt": "Au-dessus de votre limite de charge",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Revenue lost in skipped visits",
+"kind": "label",
+"max": 30,
+"mt": "Revenus perdus lors de visites ignorées",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Visit duration from the area and the crew size",
+"kind": "title",
+"max": 60,
+"mt": "Durée de la visite en fonction de la zone et de la taille de l'équipage",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Whether the jobs of a day fit the crew hours",
+"kind": "title",
+"max": 60,
+"mt": "Si les tâches d'une journée correspondent aux heures de l'équipage",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Day length and finish time of a crew route",
+"kind": "title",
+"max": 60,
+"mt": "Durée de la journée et heure d'arrivée d'un itinéraire d'équipage",
+"why": "too long: 65 characters, the limit is 60"
+},
+{
+"en": "The next visit from the last visit and the frequency",
+"kind": "title",
+"max": 60,
+"mt": "La prochaine visite par rapport à la dernière visite et la fréquence",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "What a shorter route saves each month",
+"kind": "title",
+"max": 60,
+"mt": "Ce qu'un itinéraire plus court permet d'économiser chaque mois",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "What-if grid: visits per week against hours per visit",
+"kind": "title",
+"max": 60,
+"mt": "Grille de simulation : visites par semaine contre heures par visite",
+"why": "too long: 67 characters, the limit is 60"
+}
+]

@@ -1,0 +1,177 @@
+[
+{
+"en": "Client: {col:clients.client}. Service: {col:clients.service}, {col:clients.frequency}, in {col:clients.area}. Home: {col:clients.area_m2} m2, {col:clients.bedrooms} bedrooms, {col:clients.bathrooms} bathrooms.",
+"kind": "document",
+"max": null,
+"mt": "客户：{col:clients.client}。 Service: {col:clients.service}, {col:clients.frequency}, in {col:clients.area}. Home: {col:clients.area_m2} m2, {col:clients.bedrooms} bedrooms, {col:clients.bathrooms} bathrooms.",
+"why": "English/Latin words left: Service in Home bedrooms"
+},
+{
+"en": "Weekly quote pipeline report",
+"kind": "title",
+"max": 60,
+"mt": "Weekly quote pipeline report",
+"why": "English/Latin words left: Weekly quote pipeline report"
+},
+{
+"en": "Weekly quote pipeline report of {set:company}, dated {today}.",
+"kind": "document",
+"max": null,
+"mt": "Weekly quote pipeline report of {set:company}, dated {today}.",
+"why": "English/Latin words left: Weekly quote pipeline report"
+},
+{
+"en": "Open quotes waiting for an answer: {col:quotes.pipe_open}. Value of open quotes: {col:quotes.pipe_value}. Win rate of the last 90 days: {col:quotes.win_90}.",
+"kind": "document",
+"max": null,
+"mt": "Open quotes waiting for an answer: {col:quotes.pipe_open}.开盘报价的值：{col:quotes.pipe_value}。 Win rate of the last 90 days: {col:quotes.win_90}.",
+"why": "English/Latin words left: Open quotes waiting for"
+},
+{
+"en": "Quote shown: {col:quotes.quote_id} for {col:quotes.prospect}, {col:quotes.service}, {col:quotes.quoted_price}. Follow-up check: {col:quotes.follow_state}. Validity check: {col:quotes.valid_state}.",
+"kind": "document",
+"max": null,
+"mt": "Quote shown: {col:quotes.quote_id} for {col:quotes.prospect}, {col:quotes.service}, {col:quotes.quoted_price}.后续检查：{col:quotes.follow_state}。有效性检查：{col:quotes.valid_state}。",
+"why": "English/Latin words left: Quote shown for"
+},
+{
+"en": "Write down the address, the area and the rooms",
+"kind": "label",
+"max": null,
+"mt": "Write down the address, the area and the rooms",
+"why": "English/Latin words left: Write down the address"
+},
+{
+"en": "Choose the service and the frequency",
+"kind": "label",
+"max": null,
+"mt": "Choose the service and the frequency",
+"why": "English/Latin words left: Choose the service and"
+},
+{
+"en": "Check the price on the rate card",
+"kind": "label",
+"max": null,
+"mt": "Check the price on the price list",
+"why": "English/Latin words left: Check the price on"
+},
+{
+"en": "Follow up by message or call",
+"kind": "label",
+"max": null,
+"mt": "Follow up by message or call",
+"why": "English/Latin words left: Follow up by message"
+},
+{
+"en": "Confirm the time with the prospect",
+"kind": "label",
+"max": null,
+"mt": "Confirm the time with the prospect",
+"why": "English/Latin words left: Confirm the time with"
+},
+{
+"en": "Count the rooms and measure the area",
+"kind": "label",
+"max": null,
+"mt": "Count the rooms and measure the area",
+"why": "English/Latin words left: Count the rooms and"
+},
+{
+"en": "Walk every floor and count the desks",
+"kind": "label",
+"max": null,
+"mt": "Walk every floor and count the desks",
+"why": "English/Latin words left: Walk every floor and"
+},
+{
+"en": "Count the bathrooms and kitchens",
+"kind": "label",
+"max": null,
+"mt": "Count the bathrooms and kitchens",
+"why": "English/Latin words left: Count the bathrooms and"
+},
+{
+"en": "Ask about work outside office hours",
+"kind": "label",
+"max": null,
+"mt": "Ask about work outside office hours",
+"why": "English/Latin words left: Ask about work outside"
+},
+{
+"en": "Ask for the rooms and the state of the home",
+"kind": "label",
+"max": null,
+"mt": "Ask for the rooms and the state of the home",
+"why": "English/Latin words left: Ask for the rooms"
+},
+{
+"en": "Ask about the oven, fridge and windows",
+"kind": "label",
+"max": null,
+"mt": "Ask about the oven, fridge and windows",
+"why": "English/Latin words left: Ask about the oven"
+},
+{
+"en": "Ask for the day the keys are handed over",
+"kind": "label",
+"max": null,
+"mt": "Ask for the day the keys are handed over",
+"why": "English/Latin words left: Ask for the day"
+},
+{
+"en": "Count the days and the cleaners",
+"kind": "label",
+"max": null,
+"mt": "Count the days and the cleaners",
+"why": "English/Latin words left: Count the days and"
+},
+{
+"en": "List the quotes with no answer",
+"kind": "label",
+"max": null,
+"mt": "List the quotes with no answer",
+"why": "English/Latin words left: List the quotes with"
+},
+{
+"en": "Send a message to each one",
+"kind": "label",
+"max": null,
+"mt": "Send a message to each one",
+"why": "English/Latin words left: Send message to each"
+},
+{
+"en": "Offer a site visit where the price worries them",
+"kind": "label",
+"max": null,
+"mt": "Offer a site visit where the price worries them",
+"why": "English/Latin words left: Offer site visit where"
+},
+{
+"en": "Check the cost rise and the target margin",
+"kind": "label",
+"max": null,
+"mt": "Check the cost rise and the target margin",
+"why": "English/Latin words left: Check the cost rise"
+},
+{
+"en": "Tell the coordinator the new prices",
+"kind": "label",
+"max": null,
+"mt": "Tell the coordinator the new prices",
+"why": "English/Latin words left: Tell the coordinator the"
+},
+{
+"en": "Free hours of Crew B",
+"kind": "label",
+"max": null,
+"mt": "Crew B 的免费时间",
+"why": "English/Latin words left: Crew"
+},
+{
+"en": "Hello, please confirm the visit of {client} on {visit_date} by 4 pm. Check: {confirm_state}.",
+"kind": "message",
+"max": null,
+"mt": "您好，请在下午 4 点之前确认 {visit_date} 的访问。检查：{confirm_state}。",
+"why": "placeholders must be exactly: {client} {visit_date} {confirm_state}"
+}
+]

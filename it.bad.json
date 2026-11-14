@@ -1,0 +1,100 @@
+[
+{
+"en": "every repeating client with the weekday, time, crew and hours, the next visit date from the last visit and a flag for visits that are overdue",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni cliente ricorrente con il giorno della settimana, l'ora, il personale e gli orari, la data della visita successiva dall'ultima visita e un contrassegno per le visite scadute",
+"why": "too long: 178 characters, the limit is 160"
+},
+{
+"en": "Crew day plan with free hours",
+"kind": "label",
+"max": 50,
+"mt": "Programma giornaliero dell'equipaggio con ore libere",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "every holiday with the visits to move, the days left and a flag when it is time to message clients, plus a tool that spreads the visits over the next days",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni giorno festivo con le visite da spostare, i giorni rimasti e un flag quando è il momento di inviare un messaggio ai clienti, oltre a uno strumento che ripartisce le visite nei giorni successivi",
+"why": "too long: 198 characters, the limit is 160"
+},
+{
+"en": "average jobs and hours of each crew on each weekday against the hours it has, so busy Fridays and empty Tuesdays are plain to see",
+"kind": "sentence",
+"max": 160,
+"mt": "posti di lavoro e orari medi di ciascun equipaggio in ogni giorno feriale rispetto alle ore di lavoro disponibili, quindi i venerdì impegnativi e i martedì vuoti sono evidenti",
+"why": "too long: 175 characters, the limit is 160"
+},
+{
+"en": "Fits the crew day",
+"kind": "list",
+"max": 30,
+"mt": "Adatto alla giornata dell'equipaggio",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Crew day is overloaded",
+"kind": "list",
+"max": 30,
+"mt": "La giornata dell'equipaggio è sovraccarica",
+"why": "too long: 42 characters, the limit is 30"
+},
+{
+"en": "Route saves time",
+"kind": "list",
+"max": 30,
+"mt": "Il percorso fa risparmiare tempo",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "No fee applies",
+"kind": "list",
+"max": 30,
+"mt": "Non si applica alcuna commissione",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "All visits moved",
+"kind": "list",
+"max": 30,
+"mt": "Tutte le visite sono state spostate",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Revenue lost in skipped visits",
+"kind": "label",
+"max": 30,
+"mt": "Perdita di entrate nelle visite saltate",
+"why": "too long: 39 characters, the limit is 30"
+},
+{
+"en": "Crew day plan sheet with the route",
+"kind": "title",
+"max": 60,
+"mt": "Scheda del programma giornaliero dell'equipaggio con il percorso",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Whether the jobs of a day fit the crew hours",
+"kind": "title",
+"max": 60,
+"mt": "Se i lavori di una giornata si adattano alle ore dell'equipaggio",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Day length and finish time of a crew route",
+"kind": "title",
+"max": 60,
+"mt": "Durata del giorno e ora di arrivo di un percorso dell'equipaggio",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "What-if grid: visits per week against hours per visit",
+"kind": "title",
+"max": 60,
+"mt": "Griglia \"what-if\": visite settimanali rispetto alle ore per visita",
+"why": "too long: 66 characters, the limit is 60"
+}
+]
