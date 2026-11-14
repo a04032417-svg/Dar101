@@ -50,7 +50,7 @@ EN_TEXT = {'start_title': 'Before you start',
                            'Protection: every sheet is protected, without a password, so the formulas cannot be overwritten by accident. Calculated cells are locked; every cell you are meant to fill in stays open.',
                            'To change something that is locked: Review > Unprotect Sheet (no password needed). Protect the sheet again afterwards if you wish.',
                            'Currency symbol: type it once in the "Currency symbol" cell under Your settings below (default $). It appears in amounts written into sentences and next to the amounts on the dashboard and the tools.',
-                           'Dates: date cells follow your computer\'s regional format (MM/DD/YYYY in the US, DD/MM/YYYY in the UK). Dates written inside sentences (documents, messages) follow the "Date format" cell under Your settings below.'],
+                           'Dates: date cells follow your computer\'s regional format (MM/DD/YYYY in the US, DD/MM/YYYY in the UK). Dates written inside sentences (documents, messages) follow the "Date format" cell under Your settings below.', 'Google Sheets: upload this file to Google Drive and open it with Google Sheets (or use the Google Sheets copy link in your download). Everything calculates there too; sheet locks do not carry over to Google Sheets, so type only in the input cells.'],
            'set_currency': 'Currency symbol', 'set_datefmt': 'Date format'}
 
 

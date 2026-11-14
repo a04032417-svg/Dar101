@@ -187,7 +187,7 @@ def make_images(spec, demo_xlsx, meta, outdir, workdir=None):
         return out[:n]
     calcs = lambda t: [c['label'] for c in t['columns'] if c['type'] == 'calc']
     feats = [(x['name'], x['why']) for x in sig[:6]] if sig else [(x, '') for x in L['features'][:6]]
-    pages = [('01-hero', hero(P, A, spec['name'], spec['tagline'], feats, shots['dashk'], 'Excel .xlsx · ' + ('English' if EDITION_EN else '15 languages'), shots[tabs[0]['key']]))]
+    pages = [('01-hero', hero(P, A, spec['name'], spec['tagline'], feats, shots['dashk'], ('Excel & Google Sheets' if EDITION_EN else 'Excel .xlsx · 15 languages'), shots[tabs[0]['key']]))]
     pages.append(('02-dashboard', page(P, A, f'{d["title"]}: everything at a glance',
                   f'{len(d["kpis"])} numbers that update themselves, {d["monthly"]["title"].lower()} for the year you choose'
                   + (', ' + ', '.join(b['title'].lower() for b in d.get('breakdowns', [])) if d.get('breakdowns') else '') + '.',

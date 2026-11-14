@@ -27,7 +27,8 @@ def readme(spec):
                  '  3. Type your own data in the white cells; gray cells calculate by themselves.',
                  '  4. Choose a value from the drop-downs wherever a cell offers one.', '',
                  'FILE FORMAT',
-                 '  Standard .xlsx files for Microsoft Excel and LibreOffice Calc (tested in LibreOffice Calc). No macros.',
+                 '  Standard .xlsx files for Microsoft Excel, Google Sheets and LibreOffice Calc. No macros.',
+                 '  Google Sheets: upload the file to Google Drive and open it with Google Sheets, or use the copy link in your download.',
                  '  The formulas calculate when the file opens; if your app asks, allow it to update.', '',
                  'Personal use licence: one business may use the files; please do not resell or share them.']
         return '\r\n'.join(lines) + '\r\n'
@@ -41,7 +42,8 @@ def readme(spec):
              '  3. Type your own data in the white cells; gray cells calculate by themselves.',
              '  4. Choose a value from the drop-downs wherever a cell offers one.', '',
              'FILE FORMAT',
-             '  Standard .xlsx files for Microsoft Excel and LibreOffice Calc (tested in LibreOffice Calc). No macros.',
+             '  Standard .xlsx files for Microsoft Excel, Google Sheets and LibreOffice Calc. No macros.',
+                 '  Google Sheets: upload the file to Google Drive and open it with Google Sheets, or use the copy link in your download.',
              '  The formulas calculate when the file opens; if your app asks, allow it to update.', '',
              'Personal use licence: one business may use the files; please do not resell or share them.']
     return '\r\n'.join(lines) + '\r\n'

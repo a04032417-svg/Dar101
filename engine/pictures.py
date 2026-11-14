@@ -91,7 +91,7 @@ def make_images(spec, demo_xlsx, meta, outdir, workdir=None, lang='en'):
         hero_body = B.stack(hero_win, fname, tabs(cs['sheet'] if cs else names[1]), cs['sheet'] if cs else names[1],
                             [('dashk', F('dash_zoom', title=E(T(d['title']))))] + ([('z-' + tabsel[0]['key'], why(tabsel[0]['sheet'], F('table_zoom', title=E(T(tabsel[0]['title'])))))] if tabsel else []))
     pages.append(('01-hero', B.page(NM, E(T(L.get('headline') or spec['tagline'])), E(T(spec['tagline'])), pts, hero_body,
-                  foot=['Excel', 'LibreOffice', F('foot_langs_en' if EDITION_EN else 'foot_langs'), F('foot_download')])))   # (2026-11-09, the owner: «احذف التواريخ» — no Excel years on any picture: they were never tested in a real Excel)
+                  foot=(['Excel', 'Google Sheets', 'LibreOffice', F('foot_download')] if EDITION_EN else ['Excel', 'LibreOffice', F('foot_langs'), F('foot_download')]))))   # (2026-11-09, the owner: «احذف التواريخ» — no Excel years on any picture: they were never tested in a real Excel)
     if cs:
         ins = spec['insights']; gt = [T(g['title']) for g in ins.get('gauges', [])]; ct = [T(c['title']) for c in ins['charts']]
         fl = [T(f['label']) for f in ins.get('filters', [])]
