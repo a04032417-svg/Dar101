@@ -1,0 +1,807 @@
+[
+{
+"en": "Quote Add-ons",
+"kind": "sheet",
+"max": 31,
+"mt": "Componenti aggiuntivi per preventivi",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Post-construction Quote Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio preventivo post-costruzione",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Quote Follow-up Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di follow-up del preventivo",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Price Change Notice Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio avvisi di variazione prezzi",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Discount Approval Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di approvazione dello sconto",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Add-on Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio richiesta componenti aggiuntivi",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "New Client Setup Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Nuovo foglio di configurazione del cliente",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Area Quote Builder",
+"kind": "sheet",
+"max": 31,
+"mt": "Costruttore di preventivi per area",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Move-out Clean Quote",
+"kind": "sheet",
+"max": 31,
+"mt": "Preventivo pulito per il trasloco",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Quote Follow-up Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Citazione della lettera di follow-up",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Quote Pipeline Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapporto sulla pipeline dei preventivi",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Site Visit Measuring",
+"kind": "sheet",
+"max": 31,
+"mt": "Misurazione delle visite in loco",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Office Walkthrough",
+"kind": "sheet",
+"max": 31,
+"mt": "Procedura dettagliata per l'ufficio",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Post-construction Quote Steps",
+"kind": "sheet",
+"max": 31,
+"mt": "Passaggi di preventivo post-costruzione",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Quote Follow-up Week",
+"kind": "sheet",
+"max": 31,
+"mt": "Settimana di follow-up del preventivo",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Schedule and Routes Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Dashboard di pianificazione e percorsi",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Crew Day Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Programma giornaliero dell'equipaggio",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Area Weekday Matrix",
+"kind": "sheet",
+"max": 31,
+"mt": "Matrice dei giorni feriali dell'area",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "One-off Booking Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di prenotazione una tantum",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Reschedule Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Riprogrammare il foglio di richiesta",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Client Preference Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Scheda delle preferenze del cliente",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Crew Day Plan Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio del programma giornaliero dell'equipaggio",
+"why": "too long: 48 characters, the limit is 31"
+},
+{
+"en": "Pause and Restart Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Metti in pausa e riavvia il foglio",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Day Plan Fitter",
+"kind": "sheet",
+"max": 31,
+"mt": "Organizzatore del programma giornaliero",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Start Date Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Pianificatore della data di inizio",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Crew Week Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Piano settimanale dell'equipaggio",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Weekly Schedule Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Controllo del programma settimanale",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Next Day Route Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Controllo del percorso del giorno successivo",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Pause and Restart a Client",
+"kind": "sheet",
+"max": 31,
+"mt": "Mettere in pausa e riavviare un client",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Month-end Schedule Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisione del programma di fine mese",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Crews and Pay Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Equipaggi e dashboard dei pagamenti",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Jobs per Cleaner",
+"kind": "sheet",
+"max": 31,
+"mt": "Posti di lavoro per addetto alle pulizie",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Crew Labour Cost",
+"kind": "sheet",
+"max": 31,
+"mt": "Costo della manodopera dell'equipaggio",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Pay Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di revisione dei pagamenti",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Hiring Interview Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio del colloquio di assunzione",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "New Cleaner Onboarding Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Nuovo foglio di onboarding più pulito",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Performance Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Scheda di revisione delle prestazioni",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Labour Cost per Job",
+"kind": "sheet",
+"max": 31,
+"mt": "Costo del lavoro per posto di lavoro",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Leave Cover Planner",
+"kind": "sheet",
+"max": 31,
+"mt": "Lascia il pianificatore di copertina",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Crew Size Optimizer",
+"kind": "sheet",
+"max": 31,
+"mt": "Ottimizzatore delle dimensioni dell'equipaggio",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Crew Day Timesheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Scheda attività giornaliera dell'equipaggio",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Crew Capacity Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapporto sulla capacità dell'equipaggio",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Weekly Timesheet Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Controllo settimanale della scheda attività",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Monthly Capacity Review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisione mensile della capacità",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Checklist Items",
+"kind": "sheet",
+"max": 31,
+"mt": "Elementi della lista di controllo",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Checklist Results",
+"kind": "sheet",
+"max": 31,
+"mt": "Risultati della lista di controllo",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Job Checklist Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio della lista di controllo del lavoro",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Spot-check Plan Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio del piano di controllo a campione",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Satisfaction Call Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio chiamate di soddisfazione",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Coaching Note Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di appunti per il coaching",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Spot-check Sample",
+"kind": "sheet",
+"max": 31,
+"mt": "Campione di controllo a campione",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Crew Quality Ranking",
+"kind": "sheet",
+"max": 31,
+"mt": "Classifica della qualità dell'equipaggio",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Photo Check Scheduler",
+"kind": "sheet",
+"max": 31,
+"mt": "Programmatore di controllo delle foto",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Critical Item Weighting",
+"kind": "sheet",
+"max": 31,
+"mt": "Ponderazione degli elementi critici",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Failure Rate Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Controllo del tasso di fallimento",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Spot-check Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Programma di controlli a campione",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Move-out Checklist",
+"kind": "sheet",
+"max": 31,
+"mt": "Lista di controllo per il trasloco",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Standard clean room by room",
+"kind": "sheet",
+"max": 31,
+"mt": "Camera pulita standard per camera",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Kitchen and bathroom detail",
+"kind": "sheet",
+"max": 31,
+"mt": "Particolare della cucina e del bagno",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Corrective action follow-up",
+"kind": "sheet",
+"max": 31,
+"mt": "Follow-up delle azioni correttive",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Supplies and Cost Dashboard",
+"kind": "sheet",
+"max": 31,
+"mt": "Dashboard delle forniture e dei costi",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Equipment Service Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Scheda di servizio dell'attrezzatura",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Equipment Checkout Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di controllo dell'attrezzatura",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Spill and Waste Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio per sversamenti e rifiuti",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Equipment Replacement Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio sostituzione attrezzatura",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Stock Count Difference",
+"kind": "sheet",
+"max": 31,
+"mt": "Differenza nel conteggio delle scorte",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Equipment Cost per Job",
+"kind": "sheet",
+"max": 31,
+"mt": "Costo dell'attrezzatura per lavoro",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Van Load Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Controllo del carico del furgone",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Equipment Service Schedule",
+"kind": "sheet",
+"max": 31,
+"mt": "Programma di manutenzione dell'attrezzatura",
+"why": "too long: 43 characters, the limit is 31"
+},
+{
+"en": "Stock Count Result",
+"kind": "sheet",
+"max": 31,
+"mt": "Risultato del conteggio delle scorte",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Weekly stock count",
+"kind": "sheet",
+"max": 31,
+"mt": "Conteggio delle scorte settimanali",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Van load before the day",
+"kind": "sheet",
+"max": 31,
+"mt": "Carico del furgone prima della giornata",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "End of day van check",
+"kind": "sheet",
+"max": 31,
+"mt": "Controllo del furgone a fine giornata",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Equipment service round",
+"kind": "sheet",
+"max": 31,
+"mt": "Giro di servizio dell'attrezzatura",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Chemical storage check",
+"kind": "sheet",
+"max": 31,
+"mt": "Controllo dello stoccaggio dei prodotti chimici",
+"why": "too long: 47 characters, the limit is 31"
+},
+{
+"en": "New equipment setup",
+"kind": "sheet",
+"max": 31,
+"mt": "Nuova configurazione dell'attrezzatura",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Cash Received by Week",
+"kind": "sheet",
+"max": 31,
+"mt": "Contanti ricevuti settimanalmente",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Collection Call Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio chiamate per la riscossione",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Direct Debit Setup Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di configurazione dell'addebito diretto",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Due Date and Late Fee",
+"kind": "sheet",
+"max": 31,
+"mt": "Data di scadenza e penalità per il ritardo",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Part Payment Split",
+"kind": "sheet",
+"max": 31,
+"mt": "Suddivisione del pagamento parziale",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Late Payer Risk Score",
+"kind": "sheet",
+"max": 31,
+"mt": "Punteggio di rischio pagatore ritardato",
+"why": "too long: 39 characters, the limit is 31"
+},
+{
+"en": "Direct Debit Failure Cost",
+"kind": "sheet",
+"max": 31,
+"mt": "Costo del mancato addebito diretto",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Month-end billing run",
+"kind": "sheet",
+"max": 31,
+"mt": "Esecuzione della fatturazione di fine mese",
+"why": "too long: 42 characters, the limit is 31"
+},
+{
+"en": "Invoice check before sending",
+"kind": "sheet",
+"max": 31,
+"mt": "Controllo della fattura prima dell'invio",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Weekly payments match",
+"kind": "sheet",
+"max": 31,
+"mt": "I pagamenti settimanali corrispondono",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Overdue call day",
+"kind": "sheet",
+"max": 31,
+"mt": "Giorno della chiamata in ritardo",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Credit note approval",
+"kind": "sheet",
+"max": 31,
+"mt": "Approvazione della nota di credito",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Payment plan setup",
+"kind": "sheet",
+"max": 31,
+"mt": "Configurazione del piano di pagamento",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Contract Visit Log",
+"kind": "sheet",
+"max": 31,
+"mt": "Registro delle visite al contratto",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Contract Price Reviews",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisioni dei prezzi contrattuali",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Re-clean Request Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Pulisci nuovamente il foglio di richiesta",
+"why": "too long: 41 characters, the limit is 31"
+},
+{
+"en": "Satisfaction Survey Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Scheda sondaggio sulla soddisfazione",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Contract Price Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di revisione dei prezzi del contratto",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Service Credit Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calcolatore del credito di servizio",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Contract Value Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calcolatore del valore del contratto",
+"why": "too long: 36 characters, the limit is 31"
+},
+{
+"en": "Renewal Reminder Timing",
+"kind": "sheet",
+"max": 31,
+"mt": "Tempistica del promemoria del rinnovo",
+"why": "too long: 37 characters, the limit is 31"
+},
+{
+"en": "Office Contract Summary",
+"kind": "sheet",
+"max": 31,
+"mt": "Riepilogo del contratto d'ufficio",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Contract Renewal Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Lettera di rinnovo del contratto",
+"why": "too long: 32 characters, the limit is 31"
+},
+{
+"en": "Contract Price Review Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Lettera di revisione del prezzo del contratto",
+"why": "too long: 45 characters, the limit is 31"
+},
+{
+"en": "Client Review Report",
+"kind": "sheet",
+"max": 31,
+"mt": "Rapporto di revisione del cliente",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Referral Thank-you Letter",
+"kind": "sheet",
+"max": 31,
+"mt": "Lettera di ringraziamento di riferimento",
+"why": "too long: 40 characters, the limit is 31"
+},
+{
+"en": "Renewal 60 days before the end",
+"kind": "sheet",
+"max": 31,
+"mt": "Rinnovo 60 giorni prima della scadenza",
+"why": "too long: 38 characters, the limit is 31"
+},
+{
+"en": "Contract price review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisione dei prezzi contrattuali",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Owner Draw Plan",
+"kind": "sheet",
+"max": 31,
+"mt": "Piano di disegno del proprietario",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Profit by Client Type",
+"kind": "sheet",
+"max": 31,
+"mt": "Profitto per tipologia di cliente",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Expense Entry Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di registrazione delle spese",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Tax Payment Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di pagamento delle imposte",
+"why": "too long: 33 characters, the limit is 31"
+},
+{
+"en": "Growth Goal Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Scheda degli obiettivi di crescita",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Lease Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di revisione del contratto di locazione",
+"why": "too long: 46 characters, the limit is 31"
+},
+{
+"en": "Client Profit Review Sheet",
+"kind": "sheet",
+"max": 31,
+"mt": "Foglio di revisione dei profitti del cliente",
+"why": "too long: 44 characters, the limit is 31"
+},
+{
+"en": "Job Profit Calculator",
+"kind": "sheet",
+"max": 31,
+"mt": "Calcolatore del profitto del lavoro",
+"why": "too long: 35 characters, the limit is 31"
+},
+{
+"en": "Client Profit Check",
+"kind": "sheet",
+"max": 31,
+"mt": "Controllo del profitto del cliente",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Client profit review",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisione dei profitti del cliente",
+"why": "too long: 34 characters, the limit is 31"
+},
+{
+"en": "Pricing review from profit",
+"kind": "sheet",
+"max": 31,
+"mt": "Revisione dei prezzi dal profitto",
+"why": "too long: 33 characters, the limit is 31"
+}
+]
