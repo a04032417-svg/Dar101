@@ -1,0 +1,156 @@
+[
+{
+"en": "Wholesale orders, invoices, payments and margin for gift shops in one workbook",
+"kind": "sentence",
+"max": 80,
+"mt": "Großhandelsbestellungen, Rechnungen, Zahlungen und Marge für Geschenkartikelläden in einer Arbeitsmappe",
+"why": "too long: 103 characters, the limit is 80"
+},
+{
+"en": "Wholesale orders, invoices, payments and margin for candle and soap makers",
+"kind": "sentence",
+"max": 80,
+"mt": "Großhandelsbestellungen, Rechnungen, Zahlungen und Marge für Kerzen- und Seifenhersteller",
+"why": "too long: 89 characters, the limit is 80"
+},
+{
+"en": "price, unit cost, freight, studio costs and the wait for the money give the real margin, and a warning when an order falls below your lowest margin",
+"kind": "sentence",
+"max": 160,
+"mt": "Preis, Stückkosten, Fracht, Studiokosten und das Warten auf das Geld geben die tatsächliche Marge an und eine Warnung, wenn eine Bestellung unter Ihre niedrigste Marge fällt",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "Invoice tracker with late flags for open invoices",
+"kind": "label",
+"max": 50,
+"mt": "Rechnungs-Tracker mit Verspätungsmarkierungen für offene Rechnungen",
+"why": "too long: 67 characters, the limit is 50"
+},
+{
+"en": "each invoice shows the due date, what is paid and what is open; only open invoices turn late after the grace days, with the oldest on the dashboard",
+"kind": "sentence",
+"max": 160,
+"mt": "Auf jeder Rechnung sind das Fälligkeitsdatum, der bezahlte Betrag und die offenen Beträge aufgeführt. Nur offene Rechnungen werden nach Ablauf der Zahlungsfrist verspätet angezeigt, wobei die älteste auf dem Dashboard angezeigt wird",
+"why": "too long: 232 characters, the limit is 160"
+},
+{
+"en": "a friendly reminder, a late notice, a second notice and a letter are written with the shop, the invoice, the open amount and the days late already filled in",
+"kind": "sentence",
+"max": 160,
+"mt": "Es werden eine freundliche Mahnung, eine Verspätungsanzeige, eine zweite Mahnung und ein Brief verfasst, in dem der Shop, die Rechnung, der offene Betrag und die Verspätungstage bereits ausgefüllt sind",
+"why": "too long: 201 characters, the limit is 160"
+},
+{
+"en": "the gap between the orders of each shop and product gives the next expected order, the days overdue and a message that asks for the reorder",
+"kind": "sentence",
+"max": 160,
+"mt": "Die Lücke zwischen den Bestellungen jedes Shops und Produkts gibt die nächste erwartete Bestellung, die überfälligen Tage und eine Meldung an, die zur Nachbestellung auffordert",
+"why": "too long: 176 characters, the limit is 160"
+},
+{
+"en": "the cost of each sample pack against the orders the shop placed in the 90 days after, with a payback multiple and a calculator for the next pack",
+"kind": "sentence",
+"max": 160,
+"mt": "die Kosten für jede Probepackung im Vergleich zu den Bestellungen, die das Geschäft in den darauffolgenden 90 Tagen aufgegeben hat, mit einem Amortisationsmultiplikator und einem Rechner für die nächste Packung",
+"why": "too long: 210 characters, the limit is 160"
+},
+{
+"en": "open invoices, their due days and the days shops usually pay late give the cash you expect in each of the next four weeks",
+"kind": "sentence",
+"max": 160,
+"mt": "Offene Rechnungen, ihre Fälligkeitstage und die Tage, an denen Geschäfte normalerweise zu spät zahlen, ergeben in jeder der nächsten vier Wochen den erwarteten Betrag",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "Overdue to reorder",
+"kind": "list",
+"max": 30,
+"mt": "Eine Nachbestellung ist überfällig",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "The shops you sell to, with terms, tier and what they owe",
+"kind": "title",
+"max": 60,
+"mt": "Die Geschäfte, an die Sie verkaufen, mit Konditionen, Preisstufe und dem Betrag, den sie schulden",
+"why": "too long: 97 characters, the limit is 60"
+},
+{
+"en": "Wholesale orders with total, margin and due ship date",
+"kind": "title",
+"max": 60,
+"mt": "Großhandelsbestellungen mit Gesamtsumme, Marge und fälligem Versanddatum",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Products on each wholesale order with price and cost",
+"kind": "title",
+"max": 60,
+"mt": "Produkte auf jeder Großhandelsbestellung mit Preis und Kosten",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Wholesale invoices with due date, payment and days late",
+"kind": "title",
+"max": 60,
+"mt": "Großhandelsrechnungen mit Fälligkeitsdatum, Zahlung und Verspätungstagen",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Samples sent to shops with cost and orders after",
+"kind": "title",
+"max": 60,
+"mt": "Musterversand mit Kosten und Bestellungen im Anschluss an die Geschäfte",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Calls, visits and messages with each shop and the next step",
+"kind": "title",
+"max": 60,
+"mt": "Anrufe, Besuche und Nachrichten mit jedem Shop und dem nächsten Schritt",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Reorder dates from the usual gap between a shop orders",
+"kind": "title",
+"max": 60,
+"mt": "Nachbestellungen erfolgen aus der üblichen Lücke zwischen den Bestellungen eines Shops",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Notes about each shop: pricing, delivery, payment and range",
+"kind": "title",
+"max": 60,
+"mt": "Hinweise zu jedem Shop: Preise, Lieferung, Zahlung und Sortiment",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Items a shop sent back or claimed, with the credit",
+"kind": "title",
+"max": 60,
+"mt": "Artikel, die ein Shop mit der Gutschrift zurückgeschickt oder reklamiert hat",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Credit notes issued to shops and when they were used",
+"kind": "title",
+"max": 60,
+"mt": "Gutschriften an Geschäfte ausgegeben und wann sie verwendet wurden",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Shops you want to win, with source, status and next step",
+"kind": "title",
+"max": 60,
+"mt": "Shops, die Sie gewinnen möchten, mit Quelle, Status und nächstem Schritt",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "What-if grid: wholesale share against order size",
+"kind": "title",
+"max": 60,
+"mt": "Was-wäre-wenn-Raster: Großhandelsanteil im Verhältnis zur Bestellgröße",
+"why": "too long: 70 characters, the limit is 60"
+}
+]

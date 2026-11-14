@@ -1,0 +1,121 @@
+[
+{
+"en": "every product with wholesale and retail price, minimum pack, lead days and the margin each side keeps, ready to print for one shop",
+"kind": "sentence",
+"max": 160,
+"mt": "каждый продукт с оптовой и розничной ценой, минимальной упаковкой, сроками выполнения заказа и маржой, сохраняемой каждой стороной, готовый к печати для одного магазина",
+"why": "too long: 168 characters, the limit is 160"
+},
+{
+"en": "price, unit cost, freight, studio costs and the wait for the money give the real margin, and a warning when an order falls below your lowest margin",
+"kind": "sentence",
+"max": 160,
+"mt": "цена, стоимость единицы продукции, фрахт, затраты на студию и ожидание денег дают реальную прибыль, а также предупреждение, когда заказ падает ниже вашей минимальной прибыли.",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Invoice tracker with late flags for open invoices",
+"kind": "label",
+"max": 50,
+"mt": "Трекер счетов с пометками просрочки для открытых счетов",
+"why": "too long: 55 characters, the limit is 50"
+},
+{
+"en": "each invoice shows the due date, what is paid and what is open; only open invoices turn late after the grace days, with the oldest on the dashboard",
+"kind": "sentence",
+"max": 160,
+"mt": "в каждом счете указан срок оплаты, что оплачено и что открыто; только открытые счета задерживаются после льготных дней, причем самые старые из них отображаются на информационной панели",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "a friendly reminder, a late notice, a second notice and a letter are written with the shop, the invoice, the open amount and the days late already filled in",
+"kind": "sentence",
+"max": 160,
+"mt": "Дружеское напоминание, позднее уведомление, второе уведомление и письмо пишутся с магазином, счетом-фактурой, открытой суммой и днями задержки, которые уже заполнены.",
+"why": "too long: 166 characters, the limit is 160"
+},
+{
+"en": "the cost of each sample pack against the orders the shop placed in the 90 days after, with a payback multiple and a calculator for the next pack",
+"kind": "sentence",
+"max": 160,
+"mt": "стоимость каждого образца упаковки в сравнении с заказами, размещенными магазином в течение 90 дней после этого, с кратным окупаемости и калькулятором для следующей упаковки.",
+"why": "too long: 174 characters, the limit is 160"
+},
+{
+"en": "Overdue to reorder",
+"kind": "list",
+"max": 30,
+"mt": "Просрочено для повторного заказа",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Due to reorder soon",
+"kind": "list",
+"max": 30,
+"mt": "В связи с повторным заказом в ближайшее время",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "The shops you sell to, with terms, tier and what they owe",
+"kind": "title",
+"max": 60,
+"mt": "Магазины, в которых вы продаете, с указанием условий, уровня и суммы их задолженности.",
+"why": "too long: 86 characters, the limit is 60"
+},
+{
+"en": "Wholesale orders with total, margin and due ship date",
+"kind": "title",
+"max": 60,
+"mt": "Оптовые заказы с указанием общей суммы, маржи и даты поставки.",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Wholesale invoices with due date, payment and days late",
+"kind": "title",
+"max": 60,
+"mt": "Оптовые счета-фактуры со сроком оплаты, оплатой и просрочкой в днях",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Calls, visits and messages with each shop and the next step",
+"kind": "title",
+"max": 60,
+"mt": "Звонки, посещения и сообщения с каждым магазином и следующим шагом",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Reorder dates from the usual gap between a shop orders",
+"kind": "title",
+"max": 60,
+"mt": "Даты повторного заказа из обычного разрыва между заказами в магазине",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Notes about each shop: pricing, delivery, payment and range",
+"kind": "title",
+"max": 60,
+"mt": "Заметки о каждом магазине: цены, доставка, оплата и ассортимент.",
+"why": "too long: 64 characters, the limit is 60"
+},
+{
+"en": "Items a shop sent back or claimed, with the credit",
+"kind": "title",
+"max": 60,
+"mt": "Товары, которые магазин отправил обратно или запросил с указанием кредита",
+"why": "too long: 73 characters, the limit is 60"
+},
+{
+"en": "Shops you want to win, with source, status and next step",
+"kind": "title",
+"max": 60,
+"mt": "Магазины, которые вы хотите выиграть, с указанием источника, статуса и следующего шага.",
+"why": "too long: 87 characters, the limit is 60"
+},
+{
+"en": "What-if grid: wholesale share against order size",
+"kind": "title",
+"max": 60,
+"mt": "Таблица «Что если»: оптовая доля в зависимости от размера заказа",
+"why": "too long: 64 characters, the limit is 60"
+}
+]

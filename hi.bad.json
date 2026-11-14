@@ -1,0 +1,72 @@
+[
+{
+"en": "each invoice shows the due date, what is paid and what is open; only open invoices turn late after the grace days, with the oldest on the dashboard",
+"kind": "sentence",
+"max": 160,
+"mt": "प्रत्येक चालान नियत तारीख दिखाता है, क्या भुगतान किया गया है और क्या खुला है; केवल खुले चालान अनुग्रह दिनों के बाद देर से चालू होते हैं, डैशबोर्ड पर सबसे पुराने के साथ",
+"why": "too long: 167 characters, the limit is 160"
+},
+{
+"en": "Due to reorder soon",
+"kind": "list",
+"max": 30,
+"mt": "जल्द ही पुनः ऑर्डर करने के कारण",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Not ordering yet",
+"kind": "list",
+"max": 30,
+"mt": "अभी तक ऑर्डर नहीं किया जा रहा है",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Waiting to ship",
+"kind": "list",
+"max": 30,
+"mt": "भेजने की प्रतीक्षा की जा रही है",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "The shops you sell to, with terms, tier and what they owe",
+"kind": "title",
+"max": 60,
+"mt": "आप जिन दुकानों को सामान बेचते हैं, उनकी शर्तों, स्तर और उन पर क्या बकाया है, इसकी जानकारी दें",
+"why": "too long: 93 characters, the limit is 60"
+},
+{
+"en": "Reorder dates from the usual gap between a shop orders",
+"kind": "title",
+"max": 60,
+"mt": "किसी दुकान के ऑर्डरों के बीच सामान्य अंतर से दिनांकों को पुन: व्यवस्थित करें",
+"why": "too long: 76 characters, the limit is 60"
+},
+{
+"en": "Notes about each shop: pricing, delivery, payment and range",
+"kind": "title",
+"max": 60,
+"mt": "प्रत्येक दुकान के बारे में नोट्स: मूल्य निर्धारण, वितरण, भुगतान और रेंज",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Items a shop sent back or claimed, with the credit",
+"kind": "title",
+"max": 60,
+"mt": "किसी दुकान द्वारा क्रेडिट के साथ वापस भेजी गई या दावा की गई वस्तुएँ",
+"why": "too long: 67 characters, the limit is 60"
+},
+{
+"en": "Credit notes issued to shops and when they were used",
+"kind": "title",
+"max": 60,
+"mt": "क्रेडिट नोट्स दुकानों को जारी किए गए और उनका उपयोग कब किया गया",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Shops you want to win, with source, status and next step",
+"kind": "title",
+"max": 60,
+"mt": "वे दुकानें जिन्हें आप जीतना चाहते हैं, स्रोत, स्थिति और अगले चरण के साथ",
+"why": "too long: 71 characters, the limit is 60"
+}
+]
