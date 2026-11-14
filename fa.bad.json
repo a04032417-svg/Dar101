@@ -1,0 +1,128 @@
+[
+{
+"en": "Analyse every deal and run your offers from first look to closing",
+"kind": "sentence",
+"max": 80,
+"mt": "هر معامله را تجزیه و تحلیل کنید و پیشنهادات خود را از نگاه اول تا بسته شدن اجرا کنید",
+"why": "too long: 84 characters, the limit is 80"
+},
+{
+"en": "Deal analysis, offers, due diligence and loan quotes for real estate investors",
+"kind": "sentence",
+"max": 80,
+"mt": "تجزیه و تحلیل معاملات، پیشنهادات، بررسی دقیق و قیمت وام برای سرمایه گذاران املاک و مستغلات",
+"why": "too long: 90 characters, the limit is 80"
+},
+{
+"en": "Rental analyser with cap rate and DSCR",
+"kind": "label",
+"max": 50,
+"mt": "آنالایزر اجاره ای با نرخ سرمایه و نسبت پوشش خدمات بدهی",
+"why": "too long: 54 characters, the limit is 50"
+},
+{
+"en": "Meets the cash-on-cash target",
+"kind": "list",
+"max": 30,
+"mt": "هدف بازده نقدی را برآورده می کند",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Asking price is above the maximum",
+"kind": "list",
+"max": 30,
+"mt": "قیمت درخواستی بالاتر از حداکثر است",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Flip passes the 70% rule",
+"kind": "list",
+"max": 30,
+"mt": "فلیپ از قانون 70 درصد عبور می کند",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "IRR is below the target",
+"kind": "list",
+"max": 30,
+"mt": "نرخ بازده داخلی کمتر از هدف است",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Offer is at or above asking",
+"kind": "list",
+"max": 30,
+"mt": "پیشنهاد در یا بالاتر از درخواست است",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Every deal analysed, with offer, yield and cash needed",
+"kind": "title",
+"max": 60,
+"mt": "هر معامله با پیشنهاد، بازده و پول نقد مورد تجزیه و تحلیل قرار گرفت",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Rental analyses with cap rate, cash-on-cash and DSCR",
+"kind": "title",
+"max": 60,
+"mt": "تجزیه و تحلیل اجاره با نرخ سرمایه، بازده نقدی و نسبت پوشش خدمات بدهی",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Comp ID",
+"kind": "label",
+"max": null,
+"mt": "شناسه Comp",
+"why": "English/Latin words left: Comp"
+},
+{
+"en": "The ten numbers every analysis starts from; the same values sit in Start, so change them there and read them here.",
+"kind": "sentence",
+"max": null,
+"mt": "ده عددی که هر تحلیل از آن شروع می شود. همان مقادیر در Start قرار دارند، بنابراین آنها را در آنجا تغییر دهید و در اینجا بخوانید.",
+"why": "English/Latin words left: Start"
+},
+{
+"en": "The stages of the pipeline for holds and flips with the days each should take; the deals now at each stage and their asking value fill in from Deals.",
+"kind": "sentence",
+"max": null,
+"mt": "مراحل خط لوله برای نگه داشتن و چرخش با روزهایی که هر کدام باید طی کنند. معاملات اکنون در هر مرحله و ارزش درخواستی آنها از Deals پر می شود.",
+"why": "English/Latin words left: Deals"
+},
+{
+"en": "Asking value analysed and offers made by month",
+"kind": "title",
+"max": 60,
+"mt": "ارزش درخواستی تجزیه و تحلیل و پیشنهادات ارائه شده بر اساس ماه",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "What-if grid: cash-on-cash by price and rent",
+"kind": "title",
+"max": 60,
+"mt": "شبکه What-if: بازگشت نقدی بر اساس قیمت و اجاره",
+"why": "English/Latin words left: What if"
+},
+{
+"en": "Score the deal from 0 to 10 for return, risk, location and rehab, set the weight of each and the scores for Go and Review; see the weighted score and the decision.",
+"kind": "sentence",
+"max": null,
+"mt": "امتیاز معامله را از 0 تا 10 برای بازگشت، ریسک، مکان و توانبخشی، تعیین وزن هر یک و امتیازات برای Go and Review. نمره وزنی و تصمیم را ببینید.",
+"why": "English/Latin words left: Go and Review."
+},
+{
+"en": "Agent: a new deal matches the buy box",
+"kind": "label",
+"max": null,
+"mt": "نماینده: یک معامله جدید با جعبه خرید مطابقت دارد",
+"why": "never use the word for \"compatible\""
+},
+{
+"en": "Hello, the deal at {address} with an asking price of {asking_price} matches our buy box. Please send the seller details and a viewing date.",
+"kind": "message",
+"max": null,
+"mt": "سلام، معامله در {address} با قیمت درخواستی {asking_price} با جعبه خرید ما مطابقت دارد. لطفا مشخصات فروشنده و تاریخ مشاهده را ارسال کنید.",
+"why": "never use the word for \"compatible\""
+}
+]
