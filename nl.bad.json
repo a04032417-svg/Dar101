@@ -1,0 +1,226 @@
+[
+{
+"en": "contact details, allergy note, patch test and consent form with their dates, the days since the last visit, the tier and a record score on one row",
+"kind": "sentence",
+"max": 160,
+"mt": "contactgegevens, allergienotitie, pleistertest en toestemmingsformulier met hun data, de dagen sinds het laatste bezoek, het niveau en een recordscore op één rij",
+"why": "too long: 161 characters, the limit is 160"
+},
+{
+"en": "a new client's patch test, consent form and deposit are checked together and the visit is marked ready or not ready",
+"kind": "sentence",
+"max": 160,
+"mt": "de patchtest, het toestemmingsformulier en de aanbetaling van een nieuwe klant worden samen gecontroleerd en het bezoek wordt als gereed of niet gereed gemarkeerd",
+"why": "too long: 162 characters, the limit is 160"
+},
+{
+"en": "every upcoming visit that needs a patch test with the date on file, the days to the visit and a flag when the test is missing or runs out first",
+"kind": "sentence",
+"max": 160,
+"mt": "elk aankomend bezoek waarvoor een patchtest nodig is met de geregistreerde datum, de dagen tot het bezoek en een vlag wanneer de test ontbreekt of als eerste op is",
+"why": "too long: 163 characters, the limit is 160"
+},
+{
+"en": "Consent form expires soon",
+"kind": "list",
+"max": 30,
+"mt": "Het toestemmingsformulier verloopt binnenkort",
+"why": "too long: 45 characters, the limit is 30"
+},
+{
+"en": "Consent form due",
+"kind": "list",
+"max": 30,
+"mt": "Toestemmingsformulier verschuldigd",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Consent form expired",
+"kind": "list",
+"max": 30,
+"mt": "Toestemmingsformulier is verlopen",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Consent form due before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Toestemmingsformulier vóór het bezoek inleveren",
+"why": "too long: 47 characters, the limit is 30"
+},
+{
+"en": "Patch test and consent due",
+"kind": "list",
+"max": 30,
+"mt": "Patchtest en toestemming vereist",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Patch test expires before the visit",
+"kind": "list",
+"max": 30,
+"mt": "Patch-test verloopt vóór het bezoek",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Allergy note needs a review",
+"kind": "list",
+"max": 30,
+"mt": "Allergienotitie heeft een beoordeling nodig",
+"why": "too long: 43 characters, the limit is 30"
+},
+{
+"en": "Redo fix booked",
+"kind": "list",
+"max": 30,
+"mt": "Oplossing voor opnieuw uitvoeren geboekt",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Offer a package or membership",
+"kind": "list",
+"max": 30,
+"mt": "Bied een pakket of lidmaatschap aan",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Invite to rebook now",
+"kind": "list",
+"max": 30,
+"mt": "Nodig uit om nu opnieuw te boeken",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "Patch test valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Patchtest geldig op de bezoekdag",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Consent form valid on the visit day",
+"kind": "list",
+"max": 30,
+"mt": "Toestemmingsformulier geldig op de bezoekdag",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is healthy",
+"kind": "list",
+"max": 30,
+"mt": "De kosten per nieuwe klant zijn gezond",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Cost per new client is high",
+"kind": "list",
+"max": 30,
+"mt": "De kosten per nieuwe klant zijn hoog",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Client value above the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Klantwaarde boven de kosten om te winnen",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Client value below the cost to win",
+"kind": "list",
+"max": 30,
+"mt": "Klantwaarde lager dan de kosten om te winnen",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Conflict, check before the service",
+"kind": "list",
+"max": 30,
+"mt": "Conflict, controleer vóór de dienst",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Birthday offer pays back",
+"kind": "list",
+"max": 30,
+"mt": "Verjaardagsaanbieding betaalt zich terug",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Birthday offer costs more than it earns",
+"kind": "list",
+"max": 30,
+"mt": "Een verjaardagsaanbieding kost meer dan het oplevert",
+"why": "too long: 52 characters, the limit is 30"
+},
+{
+"en": "Referrals pay back the reward",
+"kind": "list",
+"max": 30,
+"mt": "Verwijzingen betalen de beloning terug",
+"why": "too long: 38 characters, the limit is 30"
+},
+{
+"en": "Referral reward is too high",
+"kind": "list",
+"max": 30,
+"mt": "De verwijzingsbeloning is te hoog",
+"why": "too long: 33 characters, the limit is 30"
+},
+{
+"en": "May keep in the client record",
+"kind": "list",
+"max": 30,
+"mt": "Kan in het klantendossier worden bewaard",
+"why": "too long: 40 characters, the limit is 30"
+},
+{
+"en": "Services with minutes, price, deposit and patch test need",
+"kind": "title",
+"max": 60,
+"mt": "Diensten met minuten, prijs, aanbetaling en patchtestbehoefte",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Redo requests with the outcome and days to resolve",
+"kind": "title",
+"max": 60,
+"mt": "Verzoeken opnieuw uitvoeren met de uitkomst en dagen om op te lossen",
+"why": "too long: 68 characters, the limit is 60"
+},
+{
+"en": "Birthday offer with the days left to use it",
+"kind": "title",
+"max": 60,
+"mt": "Verjaardagsaanbieding met de resterende dagen om er gebruik van te maken",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Rebooking due date and days overdue from the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Vervaldatum en dagen te laat vanaf het laatste bezoek omboeken",
+"why": "too long: 62 characters, the limit is 60"
+},
+{
+"en": "Does a product match an allergy the client noted",
+"kind": "title",
+"max": 60,
+"mt": "Komt een product overeen met een allergie die de klant heeft opgemerkt?",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Tier and next step from visits, spend and the last visit",
+"kind": "title",
+"max": 60,
+"mt": "Niveau en volgende stap vanaf bezoeken, uitgaven en het laatste bezoek",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Client value for an average ticket against visits a year",
+"kind": "title",
+"max": 60,
+"mt": "Klantwaarde voor een gemiddeld ticket versus bezoeken per jaar",
+"why": "too long: 62 characters, the limit is 60"
+}
+]
