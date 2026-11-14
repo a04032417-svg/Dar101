@@ -1,0 +1,177 @@
+[
+{
+"en": "Event budgets by guest count, quotes, reserve and margin for event planners",
+"kind": "sentence",
+"max": 80,
+"mt": "Budget degli eventi in base al conteggio degli ospiti, preventivi, riserva e margine per gli organizzatori di eventi",
+"why": "too long: 116 characters, the limit is 80"
+},
+{
+"en": "type the guests and the budget per guest and every category gets its amount from your own category shares, with the planning fee and the contract value",
+"kind": "sentence",
+"max": 160,
+"mt": "inserisci gli ospiti e il budget per ospite e ogni categoria ottiene il suo importo dalle quote della tua categoria, con la quota di pianificazione e il valore del contratto",
+"why": "too long: 173 characters, the limit is 160"
+},
+{
+"en": "planned and actual margin, margin share, cost per guest and the fee per labour hour for every event, with a flag for events below your target margin",
+"kind": "sentence",
+"max": 160,
+"mt": "margine pianificato ed effettivo, quota di margine, costo per ospite e compenso per ora di manodopera per ogni evento, con un contrassegno per gli eventi al di sotto del margine target",
+"why": "too long: 184 characters, the limit is 160"
+},
+{
+"en": "Guest count change and lock date",
+"kind": "label",
+"max": 50,
+"mt": "Modifica del conteggio degli ospiti e data di blocco",
+"why": "too long: 52 characters, the limit is 50"
+},
+{
+"en": "every change after signing with the reason, the client approval and the owner approval flag, and every saved version of the budget with its change",
+"kind": "sentence",
+"max": 160,
+"mt": "ogni modifica previa firma con motivazione, contrassegno di approvazione del cliente e di approvazione del proprietario, ed ogni versione salvata del budget con la relativa modifica",
+"why": "too long: 181 characters, the limit is 160"
+},
+{
+"en": "fixed and variable cost by guest count band show the cost per guest and the saving against the smallest band, so you quote right at 60, 114 or 250 guests",
+"kind": "sentence",
+"max": 160,
+"mt": "costo fisso e variabile per fascia di conteggio ospiti mostra il costo per ospite e il risparmio rispetto alla fascia più piccola, quindi citi correttamente a 60, 114 o 250 ospiti",
+"why": "too long: 179 characters, the limit is 160"
+},
+{
+"en": "Planning and admin",
+"kind": "list",
+"max": 30,
+"mt": "Pianificazione e amministrazione",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Buffet",
+"kind": "list",
+"max": 30,
+"mt": "Buffet",
+"why": "not translated"
+},
+{
+"en": "Family-style sharing",
+"kind": "list",
+"max": 30,
+"mt": "Condivisione in stile familiare",
+"why": "too long: 31 characters, the limit is 30"
+},
+{
+"en": "Client upgraded an item",
+"kind": "list",
+"max": 30,
+"mt": "Il cliente ha aggiornato un elemento",
+"why": "too long: 36 characters, the limit is 30"
+},
+{
+"en": "Vendor price increase",
+"kind": "list",
+"max": 30,
+"mt": "Aumento del prezzo del venditore",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Date or hours changed",
+"kind": "list",
+"max": 30,
+"mt": "La data o l'orario sono cambiati",
+"why": "too long: 32 characters, the limit is 30"
+},
+{
+"en": "Vendor price change",
+"kind": "list",
+"max": 30,
+"mt": "Variazione del prezzo del venditore",
+"why": "too long: 35 characters, the limit is 30"
+},
+{
+"en": "Needs owner approval",
+"kind": "list",
+"max": 30,
+"mt": "Necessita dell'approvazione del proprietario",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Above target yield",
+"kind": "list",
+"max": 30,
+"mt": "Rendimento superiore all'obiettivo",
+"why": "too long: 34 characters, the limit is 30"
+},
+{
+"en": "Margin stays above target",
+"kind": "list",
+"max": 30,
+"mt": "Il margine rimane al di sopra dell'obiettivo",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Margin falls below target",
+"kind": "list",
+"max": 30,
+"mt": "Il margine scende al di sotto dell'obiettivo",
+"why": "too long: 44 characters, the limit is 30"
+},
+{
+"en": "Planning fee share and hours by event type and tier",
+"kind": "title",
+"max": 60,
+"mt": "Quota di compenso e orari di pianificazione per tipo di evento e livello",
+"why": "too long: 72 characters, the limit is 60"
+},
+{
+"en": "Tasting and sample costs against what the client pays",
+"kind": "title",
+"max": 60,
+"mt": "Costi di degustazione e campione rispetto a quanto paga il cliente",
+"why": "too long: 66 characters, the limit is 60"
+},
+{
+"en": "Compare up to three venues by effective cost per guest",
+"kind": "title",
+"max": 60,
+"mt": "Confronta fino a tre sedi in base al costo effettivo per ospite",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "Cost, client price and margin when the guest count changes",
+"kind": "title",
+"max": 60,
+"mt": "Costo, prezzo cliente e margine quando cambia il conteggio degli ospiti",
+"why": "too long: 71 characters, the limit is 60"
+},
+{
+"en": "Drinks and bottles from the guests and the hours",
+"kind": "title",
+"max": 60,
+"mt": "Bevande e bottiglie a disposizione degli ospiti e degli orari",
+"why": "too long: 61 characters, the limit is 60"
+},
+{
+"en": "Planning fee per hour and labour cost of an event",
+"kind": "title",
+"max": 60,
+"mt": "Tariffa di pianificazione oraria e costo della manodopera di un evento",
+"why": "too long: 70 characters, the limit is 60"
+},
+{
+"en": "Compare two vendor quotes by total cost",
+"kind": "title",
+"max": 60,
+"mt": "Confronta i preventivi di due fornitori in base al costo totale",
+"why": "too long: 63 characters, the limit is 60"
+},
+{
+"en": "What-if grid: guests and cost per guest against profit",
+"kind": "title",
+"max": 60,
+"mt": "Griglia \"what-if\": ospiti e costo per ospite rispetto al profitto",
+"why": "too long: 65 characters, the limit is 60"
+}
+]
