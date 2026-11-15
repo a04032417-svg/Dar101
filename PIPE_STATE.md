@@ -57,3 +57,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 10:04Z 04-s3-p1 DONE (conv-C-0602): hc1 verified by me (validate 0, ok true, warnings [], zero_dates 0, qa.txt 18 lines). Open point for S4: one-person-agency note only in guide + capacity tool, not in every page help text.
 - 10:05Z 04-s3-p6 DONE (conv-C-0602): hc6 verified by me (validate 0, ok true, warnings [], zero_dates 0, qa.txt 18 lines).
 - 10:09Z 04-s3-p5 DONE (conv-C-0602): hc5 verified by me (validate 0, ok true, warnings [], zero_dates 0, qa.txt 18 lines).
+- 10:15Z 04-s3-p4 DONE (accD-0645): hc4 validate 0, build ok, warnings [], zero-dates 0, qa.txt 18 (checked by accD-0645).
