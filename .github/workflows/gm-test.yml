@@ -1,0 +1,21 @@
+name: gm-test
+on:
+  push:
+    branches: [gm]
+permissions:
+  contents: write
+  models: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: list models and try a call
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s -H "Authorization: Bearer $GH_TOKEN" https://models.github.ai/catalog/models | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d)); [print(m.get('id'), m.get('rate_limit_tier'), (m.get('limits') or {})) for m in d]" | head -60
+          for M in openai/gpt-4.1 openai/gpt-4.1-mini deepseek/deepseek-v3-0324 openai/o4-mini; do
+            echo "== $M"
+            curl -s https://models.github.ai/inference/chat/completions -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" \
+              -d "{\"model\":\"$M\",\"messages\":[{\"role\":\"user\",\"content\":\"Reply with: OK and your model name\"}],\"max_tokens\":20}" -D - | grep -i "x-ratelimit\|HTTP/\|content" | head -12
+          done
