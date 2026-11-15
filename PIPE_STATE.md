@@ -10,7 +10,7 @@ LOCK: none
 | 4..10 | ? | | - | |
 
 ## Professions already made (never repeat)
-real estate agent, real estate developer, photographer, contractor, restaurant, salon, teacher, property management, personal training, accounting and bookkeeping, social media management, construction, farm, project manager, online seller, trucking, interior designer, travel agent, short-term rental host, wedding and event planner, home bakery, cleaning business, real estate investor, beauty studio, handmade product maker, therapy private practice, (cc childcare in progress), lawn care and landscaping (lc, slot 3), home care agency non-medical (hc, slot 4), pet grooming (pg, slot 5), florist and floral design (fl, slot 6), auto repair shop (ar, slot 7).
+real estate agent, real estate developer, photographer, contractor, restaurant, salon, teacher, property management, personal training, accounting and bookkeeping, social media management, construction, farm, project manager, online seller, trucking, interior designer, travel agent, short-term rental host, wedding and event planner, home bakery, cleaning business, real estate investor, beauty studio, handmade product maker, therapy private practice, (cc childcare in progress), lawn care and landscaping (lc, slot 3), home care agency non-medical (hc, slot 4), pet grooming (pg, slot 5), florist and floral design (fl, slot 6), auto repair shop (ar, slot 7), dance studio (ds, slot 8).
 
 ## Queue of candidates for S0 (re-check evidence each time)
 pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home care / caregiver agency (planner 30 reviews); lawn care and landscaping (Kupkaike top 33%, low competition); tutoring / learning center; auto repair shop; food truck; dance or music school; moving company; pest control; dental or med spa (avoid clinical claims). Evidence so far: research6_20261115.md.
@@ -40,3 +40,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 06:42Z 07-s1 DONE (convB-0553): ar/STUDY.md (25 web calls; 8 part titles).
 - 06:43Z 02-cc-s3-p6 DONE (conv-B-0555): validate 0, build ok, warnings [], zero dates 0 (checked by conv-B). Note for workers whose git push is denied by the session proxy: Composio GitHub (Git Data API) works for commits.
 - 06:45Z 02-cc-s3-p7 DONE (conv-B-0555): validate 0, build ok, warnings [], zero dates 0 (checked by conv-B). Programs table has 5 rows (validator minimum).
+- 06:59Z 08-s0 DONE (accD-0645): slot 8 = ds Dance Studio Business Suite (evidence moderate-weak: Payhip tracker $39, Stan profit dashboard $97, SharpSheets model $119, recital toolkits sold to owners; no review counts found). Research 13 + REVISION. ds_STUDY_PROMPT.txt ready.
