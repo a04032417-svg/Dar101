@@ -37,3 +37,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 06:39Z 05-s1 DONE (convB-0553): pg/STUDY.md (25 web calls; 8 part titles).
 - 06:39Z 07-s0 DONE (convB-0553): slot 7 = ar Auto Repair Shop Business Suite (evidence: repair forms 18 and 5 reviews from an 8.3k-sale shop; moderate). Research 12.
 - 06:40Z 06-s1 DONE (convB-0553): fl/STUDY.md (25 web calls; 8 part titles).
+- 06:42Z 07-s1 DONE (convB-0553): ar/STUDY.md (25 web calls; 8 part titles).
