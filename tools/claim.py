@@ -43,6 +43,23 @@ def push(msg, paths=None):
             sh('git', 'rebase', '--abort', check=False); return False
         time.sleep(2)
     return False
+STAGES = ['S0', 'S1', 'S2'] + ['S3'] * 8 + ['S4', 'S5', 'S6', 'S7', 'S8', 'S9']
+def grow(T):
+    # the goal may go past 10 products: when every S0 is taken, open the next slot
+    s0 = [t for t in T.values() if t['stage'] == 'S0']
+    if s0 and any(t['status'] == 'todo' for t in s0): return []
+    n = max(t['slot'] for t in T.values()) + 1; pre = f'{n:02d}'; new = []
+    def add(i, stage, deps, needs, part=None):
+        new.append(dict(id=i, slot=n, stage=stage, part=part, deps=deps, needs=needs, status='todo', by='', at='', note=''))
+    add(f'{pre}-s0', 'S0', [f'{n-1:02d}-s0'] if f'{n-1:02d}-s0' in T else [], ['web'])
+    add(f'{pre}-s1', 'S1', [f'{pre}-s0'], ['web']); add(f'{pre}-s2', 'S2', [f'{pre}-s1'], [])
+    parts = [f'{pre}-s3-p{i}' for i in range(1, 9)]
+    for i in range(1, 9): add(parts[i-1], 'S3', [f'{pre}-s2'], [], part=i)
+    add(f'{pre}-s4', 'S4', parts, []); add(f'{pre}-s5', 'S5', [f'{pre}-s4'], [])
+    for a, b, need in (('s6', 's5', 'drive'), ('s7', 's6', 'whop'), ('s8', 's7', 'shopify'), ('s9', 's8', 'chrome')):
+        add(f'{pre}-{a}', a.upper(), [f'{pre}-{b}'], [need])
+    for t in new: save(t); T[t['id']] = t
+    return new
 def ready(t, T, caps):
     if t['status'] == 'done' or t['status'] == 'blocked': return False
     if t['status'] == 'claimed' and age_min(t.get('at', '')) < TTL: return False
@@ -62,7 +79,7 @@ def main():
         if '--max' in a: mx = int(a[a.index('--max') + 1])
         got = []
         for _ in range(8):
-            sync(); T = load()
+            sync(); T = load(); grow(T)
             cand = [t for t in sorted(T.values(), key=lambda t: (t['slot'], t['id'])) if ready(t, T, caps)][:mx - len(got)]
             if not cand: break
             for t in cand: t.update(status='claimed', by=worker, at=now()); save(t)

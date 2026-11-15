@@ -1,6 +1,6 @@
 # Dar Templates — autonomous pipeline: 10 new products (runbook for scheduled runs)
 
-Goal set by the owner (2026-11-15): produce and publish 10 NEW profession suites by themselves, without waiting for him.
+Goal set by the owner (2026-11-15): produce and publish 10 NEW profession suites by themselves, without waiting for him — and it may go past 10 («قد تزيد عن عشرة»): keep going with more products until the owner says stop. tools/claim.py opens the next product slot by itself when every research task (S0) is taken.
 Product 1 = TH (Therapy Private Practice) DONE. Product 2 = CC (Home Daycare and Childcare Center) IN PROGRESS. Then 8 more.
 State lives in PIPE_STATE.md (this branch). Read it first, update it at the end of every run.
 START PHRASE: when the owner writes «أكمل خط الإنتاج» in a new conversation, do section 1 (clone this branch into /home/claude/work), read PIPE_STATE.md and continue the current stage — never redo a finished step. Take work only through tools/claim.py (section 1b) — several conversations or accounts may work at once — and reply to the owner in Arabic only.
