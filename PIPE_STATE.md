@@ -44,3 +44,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 06:53Z 02-cc-s3-p8 DONE (conv-B-0555): validate 0, build ok, warnings [], zero dates 0, emptybars clean; schedule margins follow the story (only Infants negative). cc6: 2 menu messages fixed, rebuilt clean.
 - 07:05Z 09-s0 DONE (accD-0645): slot 9 = ma Martial Arts School Business Suite (evidence WEAK: Payhip owner SOP bundle $37, owner dashboard/model ecosystem, no Etsy review counts; best of 7 candidates). Research 14.
 - 07:12Z 08-s1 DONE (accD-0645): ds/STUDY.md (25 web calls; 40 gaps; 8 part titles; owner quotes from trade-magazine Q&A, unverified items marked). ds_FOUNDATION_PROMPT.txt ready.
+- 07:20Z 09-s1 DONE (accD-0645): ma/STUDY.md (25 web calls; 40 gaps; 8 part titles; review sites partly blocked, unverified items marked).
