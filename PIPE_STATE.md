@@ -89,3 +89,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 13:28Z 09-s2 DONE (accD-0645): au_core.py + BLUEPRINT.md + BRIEF.md + au_bpcheck.py (8 parts OK, model cc; story: title TL-020 not earned back 18 months (audio drags), ad AC-029 return 0.43, series read-through 0.172 < 0.25, statement ST-126 short 341.38, launch TL-015 late steps, invoice CP-0239 pushes cash below floor). prompts/au_p1..p8.txt (sed from cc_pN + owner Arabic-step rule).
 - 14:59Z 08-s3-p1 DONE (conv-C-0602): cr1 verified by me (validate 0, ok true, warnings [], zero_dates 0, qa.txt 18 lines).
 - 15:01Z 08-s3-p3 DONE (conv-C-0602): cr3 verified by me (validate 0, ok true, warnings [], zero_dates 0, qa.txt 18 lines).
+- 15:06Z 08-s3-p5 DONE (convB-0553): cr5 validate 0, build ok, warnings [], zero-dates 0, emptybars clean, qa 18 lines, cr_bpcheck 8/8 OK.
