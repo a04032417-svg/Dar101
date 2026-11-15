@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p6/images/01-hero.png",
+   "/tmp/out/p6/images/02-charts.png",
+   "/tmp/out/p6/images/03-dashboard.png",
+   "/tmp/out/p6/images/04-supmonth.png",
+   "/tmp/out/p6/images/05-renewals.png",
+   "/tmp/out/p6/images/06-ceyear.png",
+   "/tmp/out/p6/images/07-print.png",
+   "/tmp/out/p6/images/08-inside.png",
+   "/tmp/out/p6/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p6/Clinical-Admin-and-Renewals-English.zip",
+  "zip_sha256": "5ce7b5730f8f7953f04adc22bf1ce2a52a646f7c3c1bd4621730b866a97757d8",
+  "fxp": null,
+  "sha256": "5ce7b5730f8f7953f04adc22bf1ce2a52a646f7c3c1bd4621730b866a97757d8"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 35.1,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 104,
+   "calc_cols": 104,
+   "monthly_nonzero_cells": 34,
+   "form_fields_filled": 95,
+   "form_fields": 95,
+   "tool_outputs_ok": 653,
+   "tool_outputs": 653,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 36,
+   "document_paragraphs": 36
+  },
+  "compare": {},
+  "today": "2026-11-15",
+  "formulas": {
+   "en": 88820,
+   "en-demo": 88818,
+   "en-raw": 88818
+  },
+  "job_seconds_max": 33.3,
+  "seconds_images": 16.4,
+  "zip_mb": 1.9,
+  "seconds_package": 0.5,
+  "seconds_total": 52.1
+ },
+ "at": "2026-11-15T00:27:31+00:00",
+ "id": "fx-20261115-therapy-practice-p6"
+}
