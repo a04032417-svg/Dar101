@@ -1,0 +1,11 @@
+You write PART 1 of an eight-workbook Excel suite of Dar Templates in /home/claude/work/du/. Another writer is doing part 2 (du2* files) at the same time — do not touch them.
+
+Read first, in this order: /home/claude/work/du/BRIEF.md (all rules, commands, limits and lessons — follow every one), the "Shared contract" and "Part 1" sections of /home/claude/work/du/BLUEPRINT.md, the docstring of /home/claude/work/du/du_core.py, then the style model the BRIEF names (a finished part of another suite, with its _lists/_data/_tables/_tools files).
+
+Write /home/claude/work/du/du1.py (+ du1_lists.py, du1_data.py, du1_tables.py, du1_tools.py) producing /home/claude/work/du/du1.en.json with everything Part 1 of the blueprint lists (exact counts). Then run the validate command (0 errors) and the build command from BRIEF.md (out1, "ok": true; read out1/result.json yourself after the final build: warnings must be []), and the zero-dates check: python3 /home/claude/work/tools/zero_dates.py /home/claude/work/du/out1/work/v/en-demo.xlsx (must print 0). Iterate until clean. Never edit /home/claude/d101. Write only inside /home/claude/work/du/ and only du1* files.
+
+Lessons from earlier suites: charts and breakdowns group only by list or ref columns (never by an id, a person name or a calc column); "this month" KPIs read better as "last 30 days"; keep every formula < 5,000 characters; every list column must use >= 3 values in the demo; money columns whose demo values are all equal must be plain whole-number columns or get varied data; tables with 4+ columns need >= 12 demo rows; form demo records must have no empty calculated fields; optional dates blank, never 1899-12-30.
+
+Work efficiently: write files with few large writes, avoid re-reading big files, no web access. Report in <= 120 words: counts, validate errors, build ok, warnings, anything not done.
+
+Owner rule: write every step title (the "description" field of each tool call) in Arabic only.
