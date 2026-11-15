@@ -4,7 +4,7 @@ One file per task in tasks/<id>.json: {"id","slot","stage","part","deps":[ids],"
 "by","at","note"}. A claim is a git commit pushed to branch `pipeline`: git rejects the second of two simultaneous claims.
 
   python3 tools/claim.py list                         # board summary
-  python3 tools/claim.py next <worker> [--can web,whop,shopify,drive,chrome,ci] [--max 3]   # claim up to --max ready tasks, prints them
+  python3 tools/claim.py next <worker> [--can web,whop,shopify,drive,chrome,ci] [--max 3] [--id a,b]   # claim up to --max ready tasks (or only the listed ids), prints them
   python3 tools/claim.py beat <worker> <id>           # refresh the claim time of a long task (every ~45 min)
   python3 tools/claim.py done <worker> <id> [note]    # commit ALL your current changes + mark done, push (retries)
   python3 tools/claim.py release <worker> <id> [note] # give a task back (status todo) — or blocked: --blocked
@@ -77,10 +77,11 @@ def main():
         caps = set(); mx = 1
         if '--can' in a: caps = set(a[a.index('--can') + 1].split(','))
         if '--max' in a: mx = int(a[a.index('--max') + 1])
+        only = a[a.index('--id') + 1].split(',') if '--id' in a else None   # claim only these task ids
         got = []
         for _ in range(8):
             sync(); T = load(); grow(T)
-            cand = [t for t in sorted(T.values(), key=lambda t: (t['slot'], t['id'])) if ready(t, T, caps)][:mx - len(got)]
+            cand = [t for t in sorted(T.values(), key=lambda t: (t['slot'], t['id'])) if ready(t, T, caps) and (not only or t['id'] in only)][:mx - len(got)]
             if not cand: break
             for t in cand: t.update(status='claimed', by=worker, at=now()); save(t)
             if push(f"claim {','.join(t['id'] for t in cand)} by {worker}", ['tasks']):

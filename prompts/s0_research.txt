@@ -1,0 +1,11 @@
+You do S0 RESEARCH for the NEXT product (slot 3) of Dar Templates: premium 8-workbook Excel & Google Sheets suites for ONE profession, English edition, 29 USD. Work only inside /home/claude/pipe/.
+
+Read first: /home/claude/pipe/PIPE_STATE.md (sections "Professions already made" and "Queue of candidates"), /home/claude/pipe/research6_20261115.md (evidence found so far) and /home/claude/pipe/products/*.json (slots taken). Never pick a profession already made or taken (childcare is slot 2).
+
+Find the profession with the STRONGEST REAL SALES EVIDENCE for business spreadsheets/templates/forms bought by small-business owners of that profession: Etsy listing pages (item review count, shop total sales, price), Payhip/Gumroad pages (sales or ratings if shown). Search-interest data alone does not count. Use at most 12 WebSearch/WebFetch calls (Etsy shop pages are often blocked; listing pages usually work). Compare at least 4 candidates from the queue or better ones you find. Prefer: clear business owner buyer, many weekly money/admin jobs, few complete Excel systems on sale, no clinical/medical claims needed.
+
+Write:
+1. Append to /home/claude/pipe/research6_20261115.md a section "## Research 8 (<UTC time>) — slot 3" with each candidate's evidence lines (title, price, reviews, shop sales, URL) and the DECISION with the reason.
+2. /home/claude/pipe/products/03.json: {"slot": 3, "x": "<2 lowercase letters, not used by any folder name in /home/claude/work>", "name": "<Suite name, <= 40 chars>", "profession": "<one line>", "status": "chosen"}.
+3. Append one line to /home/claude/pipe/PIPE_STATE.md: "- <UTC time> 03-s0 DONE: slot 3 = <x> <name> (evidence: ...)" and add the profession to "Professions already made (never repeat)".
+Never write anywhere else. Report in <= 80 words: candidates with their strongest evidence numbers, the decision, x.
