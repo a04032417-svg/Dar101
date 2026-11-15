@@ -4,7 +4,7 @@
  "slug": "author-publisher-royalties",
  "profession": "Author and Self-Publisher Business",
  "name": "Sales and Royalties Ledger",
- "tagline": "Know what each store earned, paid and still owes you",
+ "tagline": "Match each store's earnings to its payments and claim what is short",
  "price_usd": 29,
  "colors": {
   "primary": "#2B3A55",
@@ -24808,57 +24808,57 @@
  "signature": [
   {
    "name": "Earned against paid reconciler",
-   "why": "pick a store and a month: statement, amount received, the gap fees do not explain and the days past the expected date, with a verdict",
+   "why": "Find the gap fees do not explain: pick a store and month for statement, amount received, days overdue and a verdict",
    "where": "Earned Against Paid Reconciler"
   },
   {
    "name": "Overdue statement ranker",
-   "why": "every store ranked by its oldest unpaid month and the amount owed, with write today, wait or escalate",
+   "why": "Chase the right store first: ranked by oldest unpaid month and amount owed, with write today, wait or escalate",
    "where": "Overdue Statement Ranker"
   },
   {
    "name": "Short-payment finder",
-   "why": "scans every payment for money that fees cannot explain and totals what to claim, with the largest one named",
+   "why": "Total what to claim: every payment scanned for money fees cannot explain, the largest one named",
    "where": "Short-Payment Finder"
   },
   {
    "name": "Expected cash by pay month",
-   "why": "unpaid statements and the run-rate for the months not yet reported, each store with its own delay, in Base, Best and Worst",
+   "why": "See when royalties really arrive: each store's own delay, in Base, Best and Worst",
    "where": "Expected Cash by Pay Month"
   },
   {
    "name": "Store dependence stress test",
-   "why": "lose any store and see the income left, the months of cash and a verdict against your own limit",
+   "why": "Test losing a store: the income left, the months of cash and a verdict against your own limit",
    "where": "Store Dependence Stress Test"
   },
   {
    "name": "Page-read income estimator",
-   "why": "the income at the rate minus and plus 10 and 20 percent and its share of all income, an estimate until the payment arrives",
+   "why": "See page-read income at the rate minus and plus 10 and 20 percent, with its share of all income, marked an estimate",
    "where": "Page-Read Income Estimator"
   },
   {
    "name": "Own-history compare",
-   "why": "this month projected against the 3-month average and the same month last year, store by store, flagged beyond your own limit",
+   "why": "Spot a store slipping: this month projected against the 3-month average and the same month last year",
    "where": "Own-History Compare"
   },
   {
    "name": "Royalty per copy by edition",
-   "why": "actual royalty per copy over 12 months against the plan from price, store share and cost of a copy",
+   "why": "Check each edition against plan: actual royalty per copy over 12 months against price, store share and cost",
    "where": "Royalty per copy by edition"
   },
   {
    "name": "Fee and exchange check",
-   "why": "every payment tested for the share that fees and exchange loss take, flagged above your own limit",
+   "why": "Find payments where fees and exchange loss take too much, flagged above your own limit",
    "where": "Fee and exchange check"
   },
   {
    "name": "Royalty trend and 3-month forecast",
-   "why": "your last 12 months, the trend and last year's season turn into the next 3 months in Base, Best and Worst",
+   "why": "Plan the next 3 months in Base, Best and Worst from your last 12 months, trend and last year's season",
    "where": "Royalty Trend and Forecast"
   },
   {
    "name": "Missing sale detector",
-   "why": "finds the edition that sold most months and has no sale this month, so you ask the store for the report",
+   "why": "Ask for the missing report: finds the edition that sold most months and has no sale this month",
    "where": "Missing Sale Detector"
   }
  ],
