@@ -46,3 +46,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 07:12Z 08-s1 DONE (accD-0645): ds/STUDY.md (25 web calls; 40 gaps; 8 part titles; owner quotes from trade-magazine Q&A, unverified items marked). ds_FOUNDATION_PROMPT.txt ready.
 - 07:20Z 09-s1 DONE (accD-0645): ma/STUDY.md (25 web calls; 40 gaps; 8 part titles; review sites partly blocked, unverified items marked).
 - 07:22Z 10-s0 DONE (accD-0645): slot 10 = bd Balloon and Event Decor Business Suite (evidence moderate-weak: balloon decor contract 15 item reviews from an 8.5k-sale shop, owner bundle $89.99, several pricing calculators; must stay distinct from event planner and florist). Research 15.
+- 06:58Z 05-s2 DONE (convB-0553): pg_core.py + BLUEPRINT.md + BRIEF.md + pg_bpcheck.py (8 parts OK); part prompts prompts/pg_p1..p8.txt.
