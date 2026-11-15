@@ -108,3 +108,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 20:05Z 08-s7 DONE (conv-B-0555): Whop prod_CAbJaEJFeDWma plan_8L8RFGMjy7cDh ($29 one-time) route car-rental-business-excel-suite; 8 gallery images; Download experience exp_EyHMtdyzYZVUgz + lesson with ZIP and 8 Make-a-copy links; page 200 with title, checkout 200, ZIP Range = PK. 08-s8 claimed by conv-B-0555.
 - 20:03Z 08-s8 DONE (conv-B-0555): Shopify gid://shopify/Product/15429823758640 car-rental-business-excel-suite ACTIVE $29, 8 media READY, 2 publications, whop_url plan_8L8RFGMjy7cDh, storefront 200. Next for cr: 08-s9 (needs chrome).
 - 20:15Z 09-s3-p7 DONE (conv-B-0555): au7 validate 0, build ok, warnings [], zero_dates 0, emptybars clean, msgcheck 0, 30 KPIs filled, qa au/qa/qa7.txt. p6/p8 still writing.
+- 20:20Z 09-s3-p6 DONE (conv-B-0555): au6 validate 0, build ok, warnings [], zero_dates 0, emptybars clean, msgcheck 0, 30 KPIs filled, qa au/qa/qa6.txt. p8 still writing.
