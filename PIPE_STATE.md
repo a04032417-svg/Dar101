@@ -95,3 +95,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 15:15Z 09-s3-p2 DONE (accD-0645): au2 validate 0, build ok, warnings [], zero-dates 0, qa.txt 18 (checked by accD-0645).
 - 15:30Z 09-s3-p3 DONE (accD-0645): au3 validate 0, build ok, warnings [], zero-dates 0, qa.txt 18 (checked by accD-0645).
 - 15:35Z 09-s3-p1 DONE (accD-0645): au1 validate 0, build ok, warnings [], zero-dates 0, qa.txt 18 (checked by accD-0645). 09-s3-p7 claimed by accD-0645 (writer running).
+- 15:18Z 08-s3-p8 DONE (conv-B-0555): validate 0, build ok (rebuilt from final files), warnings [], zero dates 0, emptybars clean, 34 messages without blank placeholders, dashboard KPIs non-zero (checked by conv-B).
