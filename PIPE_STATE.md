@@ -25,3 +25,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 
 ## Ideas (not approved by the owner — do not do)
 - (none)
+- 01:50Z 02-cc-s2 DONE (conv-A): cc_core.py + BLUEPRINT.md + BRIEF.md + cc_bpcheck.py (8 parts OK, gaps 1-40 covered).
