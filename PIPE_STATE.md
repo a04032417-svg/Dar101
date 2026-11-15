@@ -10,7 +10,7 @@ LOCK: none
 | 4..10 | ? | | - | |
 
 ## Professions already made (never repeat)
-real estate agent, real estate developer, photographer, contractor, restaurant, salon, teacher, property management, personal training, accounting and bookkeeping, social media management, construction, farm, project manager, online seller, trucking, interior designer, travel agent, short-term rental host, wedding and event planner, home bakery, cleaning business, real estate investor, beauty studio, handmade product maker, therapy private practice, (cc childcare in progress), lawn care and landscaping (lc, slot 3), home care agency non-medical (hc, slot 4), pet grooming (pg, slot 5).
+real estate agent, real estate developer, photographer, contractor, restaurant, salon, teacher, property management, personal training, accounting and bookkeeping, social media management, construction, farm, project manager, online seller, trucking, interior designer, travel agent, short-term rental host, wedding and event planner, home bakery, cleaning business, real estate investor, beauty studio, handmade product maker, therapy private practice, (cc childcare in progress), lawn care and landscaping (lc, slot 3), home care agency non-medical (hc, slot 4), pet grooming (pg, slot 5), florist and floral design (fl, slot 6).
 
 ## Queue of candidates for S0 (re-check evidence each time)
 pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home care / caregiver agency (planner 30 reviews); lawn care and landscaping (Kupkaike top 33%, low competition); tutoring / learning center; auto repair shop; food truck; dance or music school; moving company; pest control; dental or med spa (avoid clinical claims). Evidence so far: research6_20261115.md.
@@ -32,3 +32,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 02:50Z 02-cc-s3-p1 DONE (conv-A): validate 0, build ok, warnings [], zero dates 0.
 - 06:35Z 04-s0 DONE (conv-C-0602): slot 4 = hc Home Care Agency Business Suite, non-medical (evidence: WiseCaregiving agency paperwork shop 14.9k sales / 998 reviews, $39 handbook, bundle sold 500+; BocaBoca caregiver Excel log 16 reviews; kits $27-$325; no complete Excel system seen). Research 9 in research6_20261115.md.
 - 06:34Z 05-s0 DONE (convB-0553): slot 5 = pg Pet Grooming Business Suite (evidence: groomer shops 414-871 sales, groomer form 22 reviews, new groomer spreadsheets on sale; moderate). Research 10.
+- 06:36Z 06-s0 DONE (convB-0553): slot 6 = fl Florist and Floral Design Business Suite (evidence: florist pricing spreadsheets sold at $47 and $75, pricing guide 7 reviews from a 3.8k-sale shop; moderate). Research 11.
