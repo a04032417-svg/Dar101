@@ -14,11 +14,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           exec > >(tee /tmp/out.txt) 2>&1
-          curl -s -H "Authorization: Bearer $GH_TOKEN" https://models.github.ai/catalog/models | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d)); [print(m.get('id'), m.get('rate_limit_tier'), (m.get('limits') or {})) for m in d]" | head -60
+          curl -s -H "Authorization: Bearer $GH_TOKEN" https://models.github.ai/catalog/models | head -c 1500; echo
           for M in openai/gpt-4.1 openai/gpt-4.1-mini deepseek/deepseek-v3-0324 openai/o4-mini; do
             echo "== $M"
             curl -s https://models.github.ai/inference/chat/completions -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" \
-              -d "{\"model\":\"$M\",\"messages\":[{\"role\":\"user\",\"content\":\"Reply with: OK and your model name\"}],\"max_tokens\":20}" -D - | grep -i "x-ratelimit\|HTTP/\|content" | head -12
+              -d "{\"model\":\"$M\",\"messages\":[{\"role\":\"user\",\"content\":\"Reply with: OK and your model name\"}],\"max_tokens\":20}" -D - | head -c 1500; echo
           done
       - name: save
         if: always()
