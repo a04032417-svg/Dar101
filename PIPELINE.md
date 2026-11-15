@@ -3,7 +3,7 @@
 Goal set by the owner (2026-11-15): produce and publish 10 NEW profession suites by themselves, without waiting for him.
 Product 1 = TH (Therapy Private Practice) DONE. Product 2 = CC (Home Daycare and Childcare Center) IN PROGRESS. Then 8 more.
 State lives in PIPE_STATE.md (this branch). Read it first, update it at the end of every run.
-START PHRASE: when the owner writes «أكمل خط الإنتاج» in a new conversation, do section 1 (clone this branch into /home/claude/work), read PIPE_STATE.md and continue the current stage — never redo a finished step. In an interactive conversation the LOCK is still set and cleared, and replies go to the owner in Arabic only.
+START PHRASE: when the owner writes «أكمل خط الإنتاج» in a new conversation, do section 1 (clone this branch into /home/claude/work), read PIPE_STATE.md and continue the current stage — never redo a finished step. Take work only through tools/claim.py (section 1b) — several conversations or accounts may work at once — and reply to the owner in Arabic only.
 
 ## 0. Owner rules (binding, never break)
 - EVERY message to the owner in ARABIC ONLY (final run summary included). Brief; separate «تم وتحققت منه» from «لم يتم / لم أتحقق». Never claim anything unverified.
@@ -30,10 +30,28 @@ git -C suite config user.name a04032417-svg; git -C suite config user.email a040
 python3 -c "import openpyxl, PIL" && which soffice   # LibreOffice is needed by run.py; install only if missing
 ```
 Push errors "expected 'acknowledgments'" are harmless: verify with `git ls-remote origin <branch>`.
-LOCK: PIPE_STATE.md line `LOCK:`. If it holds a time less than 150 minutes old, another run is working: exit with a one-line Arabic note. Otherwise write `LOCK: <UTC now>`, commit, push `pipeline`, then work. Clear it (`LOCK: none`) at the end.
+## 1b. Several conversations / Claude accounts at once — work is SPLIT, never duplicated (owner 2026-11-15)
+The task board is tasks/<id>.json (one file per task: slot, stage, part, deps, needs, status, by, at). Use ONLY tools/claim.py to take work:
+```
+cd /home/claude/work
+W=<account-or-conversation-name>-<UTC start time, e.g. accB-0130>          # your worker name, the same for the whole conversation
+python3 tools/claim.py list | grep -v " done "                              # board
+python3 tools/claim.py next $W --can web,whop,shopify,drive,chrome --max 3   # claim up to 3 READY tasks (deps done); list only the tools you really have
+... do the claimed tasks (each writes only its own files: x/xN* for a part, copy/x/ for S4, products/NN.json for S0 ...) ...
+python3 tools/claim.py beat $W <id>        # every ~45 min on a long task (a claim without a beat expires after 150 min and another worker may take it)
+python3 tools/claim.py done $W <id> "<short verified result>"   # commits ALL your current changes and pushes (retries on conflict)
+python3 tools/claim.py release $W <id> "<why>" [--blocked]       # cannot finish: give it back (or block it with the reason)
+```
+- Never work on a task you did not claim; never edit files of a task claimed by another worker. If a claim is yours, finish or release it before your conversation ends.
+- `--can`: web = WebSearch/WebFetch; whop / shopify / drive = those connectors are connected for you; chrome = Claude in Chrome is connected. Tasks needing a tool you lack stay for another worker.
+- S0 (research) of slot N waits for S0 of slot N-1, so two workers never pick the same profession; before choosing, read products/*.json and the "Professions already made" list; write products/NN.json {slot, x, name, status} in the same `done`.
+- Parts S3 of one product can be written by different workers at once (each part only its own xN* files). Shared files (PIPE_STATE.md) get only short appended lines.
+- The suite branch (CI) is shared too: S5 pushes only build/x/*.
+- If another account cannot push to github.com/a04032417-svg/Dar101 it must not take tasks (its work would be lost): check with `git push --dry-run origin HEAD:pipeline` first.
+PIPE_STATE.md LOCK is no longer used (leave `LOCK: none`).
 
 ## 2. Budget per run
-At most ~100 minutes of work or 2 stages (whichever comes first), then save state (section 5). Leave the rest for the next run.
+At most ~100 minutes of work per conversation turn, then `done`/`release` every claimed task and save state (section 5). Claim more only when the previous ones are done.
 
 ## 3. Stages of one product (prefix x = 2 letters, folder /home/claude/work/x/)
 S0 RESEARCH (only when starting a new product): ~8-12 WebSearch/WebFetch calls for real sales evidence (Etsy listing review counts and shop sales, Payhip/Gumroad). Candidate list in PIPE_STATE "queue" (re-check, add better ones). Never repeat a profession already made (list in PIPE_STATE). Append the evidence to research6_20261115.md (new section) and record the decision in PIPE_STATE.
@@ -61,4 +79,4 @@ Then mark the product DONE in PIPE_STATE and start S0 of the next product (if bu
 - If something fails twice, record it in PIPE_STATE "problems" and continue with what can be done.
 
 ## 5. End of every run
-Update PIPE_STATE.md (product table, stage, ids, verified facts, problems, browser queue, `LOCK: none`), `git add -A` in /home/claude/work (.gitignore keeps out*/ xlsx zip pycache out), commit, push `pipeline`; push suite-branch work too. Final message to the owner IN ARABIC, max 8 lines: what was done and verified, what is waiting, the next step. No English sentences.
+Every finished task goes through `tools/claim.py done` (it commits and pushes your files). Append one short line per finished stage to PIPE_STATE.md (ids, verified facts, problems, browser queue) in the same `done`. Push suite-branch work too. Final message to the owner IN ARABIC, max 8 lines: what was done and verified, what is waiting, the next step. No English sentences.

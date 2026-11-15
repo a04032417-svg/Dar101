@@ -5,7 +5,7 @@ LOCK: none
 | # | x | Suite | Stage | Notes |
 |---|---|---|---|---|
 | 1 | th | Therapy Private Practice Suite | DONE (S0-S8) | Whop prod_eiBl6pF5TR5lk plan_a9Egm25KAFm21 ($29); Shopify gid://shopify/Product/15429113446704 handle therapy-private-practice-excel-suite; pack out/th/pack cf2c31de (with Google Sheets links); Drive masters folder 1u-Ks6OdfUh-oOZ-y5Fi0Qu2Hi9UnmaXj; S9 waiting (browser queue) |
-| 2 | cc | Home Daycare and Childcare Center Suite | S2 FOUNDATION (agent started 01:06Z 2026-11-15) | cc/STUDY.md done (25 web calls). If cc/BLUEPRINT.md or cc/cc_core.py is missing or `python3 cc/cc_bpcheck.py` fails: re-run S2 with cc_FOUNDATION_PROMPT.txt. Part prompts ready: prompts/cc_p1..p8.txt |
+| 2 | cc | Home Daycare and Childcare Center Suite | S2 FOUNDATION (task 02-cc-s2 claimed by conv-A) | cc/STUDY.md done (25 web calls). If cc/BLUEPRINT.md or cc/cc_core.py is missing or `python3 cc/cc_bpcheck.py` fails: re-run S2 with cc_FOUNDATION_PROMPT.txt. Part prompts ready: prompts/cc_p1..p8.txt |
 | 3 | ? | (S0 research) | - | |
 | 4..10 | ? | | - | |
 
