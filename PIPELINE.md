@@ -3,6 +3,7 @@
 Goal set by the owner (2026-11-15): produce and publish 10 NEW profession suites by themselves, without waiting for him.
 Product 1 = TH (Therapy Private Practice) DONE. Product 2 = CC (Home Daycare and Childcare Center) IN PROGRESS. Then 8 more.
 State lives in PIPE_STATE.md (this branch). Read it first, update it at the end of every run.
+START PHRASE: when the owner writes «أكمل خط الإنتاج» in a new conversation, do section 1 (clone this branch into /home/claude/work), read PIPE_STATE.md and continue the current stage — never redo a finished step. In an interactive conversation the LOCK is still set and cleared, and replies go to the owner in Arabic only.
 
 ## 0. Owner rules (binding, never break)
 - EVERY message to the owner in ARABIC ONLY (final run summary included). Brief; separate «تم وتحققت منه» from «لم يتم / لم أتحقق». Never claim anything unverified.
