@@ -4,7 +4,7 @@
  "slug": "home-care-visits",
  "profession": "Home Care Agency Business",
  "name": "Visits, Hours and Travel",
- "tagline": "Late visits, billed against paid hours and travel in one file",
+ "tagline": "Find the hours you pay for but never bill, and which visits run late",
  "price_usd": 29,
  "colors": {
   "primary": "#3A506B",
@@ -54562,57 +54562,57 @@
  "signature": [
   {
    "name": "Visit log against the schedule",
-   "why": "check-in and check-out are compared with the schedule: minutes late, hours worked, billable hours and a Late, Short, Long or Missed flag",
+   "why": "The check-in and check-out you type or paste give minutes late, hours worked and a Late, Short, Long or Missed flag",
    "where": "Visit Log"
   },
   {
-   "name": "Who to call today list",
-   "why": "visits without a check-in are ranked by minutes overdue with both phones and the verdict who to phone first",
+   "name": "Who to call today",
+   "why": "Visits with no check-in ranked by minutes overdue, with caregiver and client phones",
    "where": "Who to Call Today"
   },
   {
    "name": "Late and missed register",
-   "why": "every late or missed visit with reason, phoning, client told and a repeat-caregiver flag",
+   "why": "Reason, phoning, client told and a repeat-caregiver flag for every late or missed visit",
    "where": "Late and Missed Register"
   },
   {
    "name": "Area problem finder",
-   "why": "an area's late and missed rate against the agency rate, with the gap in points and a verdict",
+   "why": "An area's late and missed rate against the agency rate, with the gap in points and a verdict",
    "where": "Area Problem Finder"
   },
   {
-   "name": "Billed against paid hours with the leak",
-   "why": "delivered, billed and paid hours each week and the leak in money at loaded pay",
+   "name": "Hours you pay but do not bill",
+   "why": "Delivered, billed and paid hours each week, and the leak in money at loaded pay",
    "where": "Agency Hours by Week"
   },
   {
    "name": "Leak by cause",
-   "why": "paid travel, overrun, minimum-visit rounding and missed visits with pay, each in money",
+   "why": "Paid travel, overrun, minimum-visit rounding and missed visits with pay, each in money",
    "where": "Leak by Cause"
   },
   {
    "name": "Mileage and paid travel log",
-   "why": "every travel leg with kilometres, minutes and cost, checked against the distance between areas",
+   "why": "Every leg with km, minutes and cost, checked against the distance between areas",
    "where": "Mileage Log"
   },
   {
-   "name": "Visit pair sharing",
-   "why": "which two visits on one day should share a caregiver, and the travel saved a month",
+   "name": "Visit pairs that should share a caregiver",
+   "why": "Two visits on one day that should share a caregiver, and the travel saved a month",
    "where": "Visit Pair Sharing"
   },
   {
-   "name": "Time sheet reconciliation",
-   "why": "time sheet hours against check-in hours before payroll, with Pay as claimed, Query or Correct",
+   "name": "Time sheet check before payroll",
+   "why": "Time sheet hours against check-in hours, with Pay as claimed, Query or Correct",
    "where": "Time Sheet Check"
   },
   {
    "name": "Rounding rule test",
-   "why": "what a 5, 15 or 30 minute rounding step gains or loses a month",
+   "why": "See what a 5, 15 or 30 minute rounding step gains or loses a month",
    "where": "Rounding Rule Test"
   },
   {
-   "name": "Missed visit cost",
-   "why": "charge lost, cover and goodwill credits added up per month and per 100 visits",
+   "name": "Cost of a missed visit",
+   "why": "Charge lost, cover and goodwill credits added up per month and per 100 visits",
    "where": "Missed Visit Cost"
   }
  ],

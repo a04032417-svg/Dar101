@@ -4,7 +4,7 @@
  "slug": "home-care-payroll",
  "profession": "Home Care Agency Business",
  "name": "Caregiver Payroll and Overtime",
- "tagline": "Prepare the pay run and see overtime before it happens",
+ "tagline": "Check every pay line and see who crosses the overtime line this week",
  "price_usd": 29,
  "colors": {
   "primary": "#3A506B",
@@ -39425,33 +39425,33 @@
  },
  "signature": [
   {
-   "name": "Payroll line calculator with visible rules",
-   "why": "regular, overtime, holiday, travel, mileage, bonus and deductions line by line, so a miscalculated time is found before pay day",
+   "name": "Pay lines with visible rules",
+   "why": "Regular, overtime, holiday, travel, mileage, bonus and deductions line by line, so a wrong time shows before pay day",
    "where": "Payroll Line Calculator"
   },
   {
-   "name": "Pre-payroll check with a warnings log",
-   "why": "overtime near the line, missing check-outs, negative net pay and time sheet mismatches are logged, ranked by days open and fixed before the pay run",
+   "name": "Pre-payroll warnings log",
+   "why": "Overtime near the line, missing check-outs, negative net pay and time sheet mismatches, ranked by days open",
    "where": "Pre-payroll Check"
   },
   {
    "name": "Midweek overtime forecast",
-   "why": "hours worked so far plus hours still scheduled show who crosses the line this week and what it costs with burden",
+   "why": "Hours worked plus hours still scheduled show who crosses the line and what it costs with burden",
    "where": "Overtime Forecast"
   },
   {
-   "name": "Move this visit to avoid overtime",
-   "why": "three caregivers who could take a visit are compared on overtime created and travel, so you move the visit that saves the most",
+   "name": "Move a visit to avoid overtime",
+   "why": "Three caregivers compared on overtime created and travel, so you move the visit that saves most",
    "where": "Move Visit to Avoid Overtime"
   },
   {
-   "name": "Overtime rule test: weekly or daily line",
-   "why": "the same week of hours priced under a weekly line and a daily line, so you see what each rule would cost you",
+   "name": "Weekly or daily overtime line",
+   "why": "The same week priced under both rules, so you see what each would cost",
    "where": "Overtime Rule Test"
   },
   {
-   "name": "Payroll cost per hour against the bill rate",
-   "why": "cost per paid hour, share of the bill rate, margin per hour and the bill rate needed for your target margin",
+   "name": "Pay cost against the bill rate",
+   "why": "Cost per paid hour, share of the bill rate, margin per hour and the rate your target margin needs",
    "where": "Payroll Cost per Hour"
   },
   {
@@ -39460,28 +39460,28 @@
    "where": "Payroll Cost Ratio"
   },
   {
-   "name": "Holiday margin forecast and premium choice",
-   "why": "pay at 1.25, 1.5 or 2 times with your guess of volunteers: the expected margin of each choice and the best premium",
+   "name": "Best holiday premium",
+   "why": "Pay at 1.25, 1.5 or 2 times with your guess of volunteers, and the expected margin of each choice",
    "where": "Holiday Premium Choice"
   },
   {
    "name": "Paid travel policy test",
-   "why": "unpaid first minutes and a cap per leg priced for the whole team, with pay saved a year and the effect per caregiver",
+   "why": "Unpaid first minutes and a cap per leg priced for the whole team, with the pay saved a year",
    "where": "Paid Travel Policy Test"
   },
   {
    "name": "Pay run funding check",
-   "why": "cash after the pay run, invoices expected before pay day and your cash floor give Fund now or Wait",
+   "why": "Cash after the pay run, invoices due before pay day and your floor give Fund now or Wait",
    "where": "Pay Run Funding Check"
   },
   {
-   "name": "Burden check against your setting",
-   "why": "payroll taxes, workers insurance and benefits as shares of pay against the burden you plan with",
+   "name": "Burden check",
+   "why": "Payroll taxes, workers' insurance and benefits as shares of pay, against the burden you plan with",
    "where": "Burden Check"
   },
   {
-   "name": "Time sheet approval against check-ins",
-   "why": "hours entered against hours from check-ins with a mismatch flag and who approved and when",
+   "name": "Time sheet approval",
+   "why": "Hours entered against hours from check-ins, with a mismatch flag and who approved and when",
    "where": "Time Sheet Approvals"
   }
  ],

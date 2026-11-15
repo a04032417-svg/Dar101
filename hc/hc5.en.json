@@ -4,7 +4,7 @@
  "slug": "home-care-invoices",
  "profession": "Home Care Agency Business",
  "name": "Client Invoices, Deposits and Payers",
- "tagline": "Get paid faster for every care hour you deliver",
+ "tagline": "Phone the right balances first and track every payer claim to payment",
  "price_usd": 29,
  "colors": {
   "primary": "#3A506B",
@@ -48633,58 +48633,58 @@
  },
  "signature": [
   {
-   "name": "Invoice draft with the agreement check",
-   "why": "hours by time band, deposit and agreed travel give the total and say Send or Check hours against the agreed weekly hours",
+   "name": "Invoice draft with an hours check",
+   "why": "Hours by time band, deposit and agreed travel give the total and say Send or Check hours",
    "where": "Invoice Draft Builder"
   },
   {
-   "name": "Deposit and prepaid balance ledger",
-   "why": "every deposit and prepayment shows the weeks of hours left, a low-balance flag and the top-up to your buffer",
+   "name": "Prepaid balance ledger",
+   "why": "Weeks of hours left for every deposit, a low-balance flag and the top-up to your buffer",
    "where": "Deposits and Prepayments"
   },
   {
-   "name": "A/R ageing and the phone-first list",
-   "why": "open balances in 0-30, 31-60, 61-90 and over 90 days, and the five balances to phone first ranked by amount and age",
+   "name": "Balances by age, phone-first list",
+   "why": "Open balances in 0-30, 31-60, 61-90 and over 90 days, and the five to phone first",
    "where": "Collection Priority List"
   },
   {
-   "name": "Days to be paid against your own history",
-   "why": "private pay and payer days compared with targets, the last 3 months and the same month last year",
+   "name": "Days to be paid against history",
+   "why": "Private pay and payer days against targets, the last 3 months and the same month last year",
    "where": "Days to Be Paid"
   },
   {
-   "name": "Pause-care decision",
-   "why": "unpaid weeks, weekly bill and deposit give your exposure and Continue, Reminder or Pause",
+   "name": "Continue, remind or pause care",
+   "why": "Unpaid weeks, weekly bill and deposit give your exposure and a verdict",
    "where": "Pause-care Decision"
   },
   {
-   "name": "Payer claim tracker with the resubmission list",
-   "why": "status and amounts only: submitted, accepted, paid, short-paid, rejected and resubmitted, with days outstanding against the payer's usual days",
+   "name": "Payer claim tracker",
+   "why": "Status and amounts only, from submitted to paid, with a resubmission list and days outstanding",
    "where": "Payer Claims"
   },
   {
    "name": "Short-pay recovery",
-   "why": "shortfall, expected recovery and your cost give Resubmit, Accept or Write off",
+   "why": "Resubmit, Accept or Write off from the shortfall, expected recovery and your cost",
    "where": "Short-pay Recovery"
   },
   {
-   "name": "Payer cash forecast",
-   "why": "open claims become expected cash for each of the next 8 weeks, in a base, best or worst case",
+   "name": "8-week payer cash forecast",
+   "why": "Open claims become expected cash each week, in a base, best or worst case",
    "where": "Payer Cash Forecast"
   },
   {
    "name": "Write-off decision",
-   "why": "balance, age, cost to collect and your own chance of payment give Pursue or Write off and who must approve",
+   "why": "Balance, age, cost to collect and your chance of payment give Pursue or Write off and who approves",
    "where": "Write-off Decision"
   },
   {
-   "name": "Payer mix sensitivity",
+   "name": "Payer mix test",
    "why": "10 to 50 percent of hours paid by payers shows the effect on days to be paid, cash tied up and margin",
    "where": "Payer Mix Sensitivity"
   },
   {
-   "name": "Agreement hours mismatch check",
-   "why": "agreed, delivered and billed hours per client and month flag what to bill, query or credit",
+   "name": "Agreement hours mismatch",
+   "why": "Agreed, delivered and billed hours per client and month say what to bill, query or credit",
    "where": "Agreement Hours Check"
   }
  ],
