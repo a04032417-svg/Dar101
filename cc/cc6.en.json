@@ -30132,7 +30132,7 @@
    "moment": "Family: this week's menu",
    "table": "children",
    "phone": "children.phone",
-   "text": "Hello, the menu for this week is on the notice board. Please tell us about any change in the food status of {child}. Willow Lane Early Learning"
+   "text": "Hello {guardian}, this week's menu is on the notice board. Please tell us about any change in the food status of {child}. Willow Lane Early Learning"
   },
   {
    "key": "f_menuchange",
@@ -30181,7 +30181,7 @@
    "moment": "Cook: the menu for next week is ready",
    "table": "menu_week",
    "phone": "menu_week.cook_phone",
-   "text": "Hello, the menu for next week is ready. Please confirm quantities; the cost per child-day last week was {cost_child_day}. Willow Lane Early Learning"
+   "text": "Hello, the menu for next week is ready. Please confirm quantities: in the week of {week} we served {child_days} child-days at {cost_child_day} per child-day. Willow Lane Early Learning"
   },
   {
    "key": "c_claim",

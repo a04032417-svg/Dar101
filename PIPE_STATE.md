@@ -41,3 +41,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 06:43Z 02-cc-s3-p6 DONE (conv-B-0555): validate 0, build ok, warnings [], zero dates 0 (checked by conv-B). Note for workers whose git push is denied by the session proxy: Composio GitHub (Git Data API) works for commits.
 - 06:45Z 02-cc-s3-p7 DONE (conv-B-0555): validate 0, build ok, warnings [], zero dates 0 (checked by conv-B). Programs table has 5 rows (validator minimum).
 - 06:59Z 08-s0 DONE (accD-0645): slot 8 = ds Dance Studio Business Suite (evidence moderate-weak: Payhip tracker $39, Stan profit dashboard $97, SharpSheets model $119, recital toolkits sold to owners; no review counts found). Research 13 + REVISION. ds_STUDY_PROMPT.txt ready.
+- 06:53Z 02-cc-s3-p8 DONE (conv-B-0555): validate 0, build ok, warnings [], zero dates 0, emptybars clean; schedule margins follow the story (only Infants negative). cc6: 2 menu messages fixed, rebuilt clean.
