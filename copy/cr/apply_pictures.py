@@ -1,0 +1,108 @@
+import json
+T = {
+1: ("Price every quote above your own cost and see why enquiries are lost", [
+ ("Instant quote builder","Quote in one step: total, deposit and a floor price check from class, dates, season, delivery and add-ons"),
+ ("Cost-based floor price","Know the lowest daily price that covers your cost, tested at 5 utilisation steps"),
+ ("Seasonal rate card checker","Raise, hold or lower each class and season against the floor and what quotes paid"),
+ ("Weekly and monthly discount tester","Test a week or month step by revenue per available day, so no discount is a guess"),
+ ("Add-on profit ranker","Push the add-ons that earn most: profit per line and the uptake that pays for stock"),
+ ("Lost-enquiry cause analyser","Fix the biggest leak first: quote value lost by cause, from your own enquiries"),
+ ("Four-week quote forecast","Plan cars ahead: bookings and revenue per week in Base, Best and Worst"),
+ ("Reply-time impact","See what slow replies cost: conversion by hours to first reply and bookings lost a year"),
+ ("Quote follow-up list","Call the best quote first: open quotes ranked by value, decayed for each day waiting"),
+ ("Minimum rental days solver","Set a minimum stay: the days a rental needs to pay for prep, cleaning and delivery"),
+]),
+2: ("Find a free car for any dates and catch double bookings before pickup", [
+ ("Next free date and class finder","Offer a car or the first free date: pick a class, a start and a length"),
+ ("Double-booking guard","Catch clashes and tight turns: every booking checked against the others on the same car"),
+ ("Calendar by vehicle and day","See 14 days car by car: rented, reserved, in service or free"),
+ ("Calendar by class and day","Spot the day a class runs out: free cars of each class per day"),
+ ("Extension checker","Answer an extension request: checked against the next booking and service blocks, with another car offered"),
+ ("Mid-rental swap tool","Swap a car mid-rental: the best car, plus the change in day rate and miles allowance"),
+ ("Marketplace fee share","Compare channels fairly: fee per rented day against direct bookings"),
+ ("Weekend shortage and surplus","List more, list fewer or hold: weekend car-days booked against your target"),
+ ("Turnaround buffer tester","Set the right buffer: minutes between return and next pickup by class, and what a longer one blocks"),
+ ("Marketplace block list","Block the right dates today: every service block and booking, ready to send"),
+]),
+3: ("Bill every return fee, chase every claim and match every toll to a rental", [
+ ("Return fee calculator","Bill the right fee at the counter: time, miles, levels and cleaning give fee or no fee"),
+ ("Money left on the table","Collect fees you forgot: due but never billed, by month and kind"),
+ ("Claim chase list","Chase the oldest big claim first: open claims ranked by days open times estimate"),
+ ("Repeat-damage finder","Ask a larger deposit where it counts: segments ranked by damage cost per rental"),
+ ("Deposit size test","Size each deposit: 12 months of repair costs set against the deposit of each class"),
+ ("Toll and ticket pass-through","Pass on every toll and ticket: matched to the rental that had the car, admin fee added"),
+ ("Renter go or no-go screen","Decide before the keys change hands: status, documents, age band and extra driver give go, hold or no-go"),
+ ("Handover completeness check","Catch a missing check before the car leaves: photos, keys, level, odometer and deposit counted"),
+ ("Photo discipline score","Retrain the right person: handovers with photos both ways and two keys, by staff member"),
+ ("Damage cost per 100 rentals","Spot a bad month early: net damage cost against your own 3-month average"),
+]),
+4: ("Release deposits on time and chase short-paid payouts and unpaid invoices", [
+ ("Deposit and hold tracker","Know what you hold: every hold with its release date and the liability held now"),
+ ("Past-release holds","Release or keep: holds past their date ranked by days and amount"),
+ ("Holds to release list","Release the oldest first: held deposits ranked by formula, earliest date first"),
+ ("Marketplace payout reconciliation","Chase what is short or late: booking value, fee, expected and received payout"),
+ ("Payout lateness","Hold each marketplace to its word: real days from return to payout against days promised"),
+ ("Invoice and balance chase","Name the oldest account: open balances in ageing buckets with promised date and last contact"),
+ ("Invoice splitter","Settle part of an invoice: split into rental, fees and damage, each paid or questioned alone"),
+ ("Four-week cash forecast","See cash by week: payouts, releases, invoices and costs in Base, Best and Worst"),
+ ("Daily till check","Close the day: cash counted against cash expected, with a 30-day record of differences"),
+ ("Deposit liability against cash","Compare deposits held with cash: the money held for renters against your cash floor"),
+]),
+5: ("Know which car is due for service, which renewal is next and what each costs", [
+ ("Service due planner","Book service ahead: due by miles or months, with the date the miles run out"),
+ ("Overdue cars booked this week","Move the booking first: an overdue car with a booking this week, and a swap car named"),
+ ("Workshop slot planner","Lose the fewest rentals: candidate dates scored by the booked days each one costs"),
+ ("Renewals dashboard","See every renewal date: registration, insurance and inspection dates sorted, with overdue, 30-day and 60-day colours"),
+ ("Renewal cash plan","Set aside each month: 12 months of renewal costs turned into one monthly amount"),
+ ("Repair cost trend","Catch a rising bill: repair and tyre cost per month and per 1,000 miles against 12 months"),
+ ("Cost per 1,000 miles ranking","Name the money-eater: vehicles ranked by upkeep per 1,000 miles against their class"),
+ ("Rental days lost to service","Count the real loss: workshop days turned into booked days and revenue"),
+ ("Downtime cost","Compare the bill with the lost rentals: workshop days times utilisation and daily rate"),
+ ("Next-service forecast","Book the workshop before the peak: services due each week for 12 weeks, Base, Best and Worst"),
+]),
+6: ("Get cars ready before pickup, price delivery runs and match staff to bookings", [
+ ("Turnaround board","See ready, tight or late before the renter arrives: every returned car and its next pickup"),
+ ("Late-ready risk list","Clean the right car first: cars ranked by least time left before a pickup"),
+ ("Turnaround against the buffer","Set each class's buffer: the share of cars ready in time and the buffer really needed"),
+ ("Delivery run planner","Plan the day's runs: minutes, miles and driver cost against fees collected"),
+ ("Delivery fee check by zone","Reprice the zone that loses money: fee per leg against driver time and fuel"),
+ ("Driver assignment and clash check","Avoid overlapping runs: clashes shown, with the free driver named"),
+ ("Roster check against bookings","Name the days short of staff: pickups, returns and runs turned into hours needed"),
+ ("Hours cost per rental","Watch labour cost: shift pay per rental against 3 months and the same month last year"),
+ ("Peak-day staffing forecast","Hire for the right week: next 4 weeks in Base, Best and Worst"),
+ ("Task completion score","Review the right role: tasks done against missed, by role"),
+]),
+7: ("See profit per vehicle, idle days and which cars to keep, reprice or sell", [
+ ("Profit per vehicle per day","Rank every car best to worst: revenue per available day less every cost, depreciation and fees included"),
+ ("Break-even utilisation per vehicle","Know each car's break-even: months spent below it and the extra rented days needed"),
+ ("Vehicle verdict list","Name the weak car: Keep, Reprice or Sell for every vehicle"),
+ ("Idle-day finder","Fill the gaps: runs of idle days ranked by lost revenue, with an offer price"),
+ ("Discount-to-fill floor","Set a discount floor: the lowest price for an idle gap that still covers variable cost"),
+ ("Rate against history","Check you are not giving rates away: achieved daily rate against the rate card and last year"),
+ ("Demand forecast and weekend pressure","Plan 12 weeks ahead: booked days against fleet days in Base, Best and Worst"),
+ ("Fleet size fit","Test one car more or fewer: utilisation and the cars a class needs for your target"),
+ ("Utilisation target solver","Set the target: the utilisation a class needs for the profit you want per vehicle"),
+ ("Monthly performance review","Review the month: against 3 months and last year, with a green, amber or red light"),
+]),
+8: ("Decide replace or sell, track every loan and take a safe owner draw", [
+ ("Replace-or-sell tool","Decide keep, sell this season or replace: a year of keeping against replacing, in cost per day"),
+ ("Best month to sell","Sell before the car costs more than it earns: resale lost each month against revenue still earned"),
+ ("Financing and loan view","See every loan: payment, balance, rate, months left and equity per car"),
+ ("Owner draw and tax set-aside","Take a safe draw: cash after known costs and your floor, with the tax set-aside first"),
+ ("Scenario test","Test 5 what-ifs 12 months ahead: the lowest cash point against your floor"),
+ ("Add-a-vehicle business case","Check before you buy: profit, payback months and the utilisation that covers the cost"),
+ ("One-car host start-up case","Start with one car: profit, payback and the rental days a month to break even"),
+ ("Break-even revenue","Know the monthly revenue that covers every cost, with margin of safety and rented days"),
+ ("Refinance check","Test a new rate: monthly saving and months to earn back any fee"),
+ ("Sale proceeds against payoff","See what a sale frees or needs: sale price less cost of sale and loan balance"),
+]),
+}
+for i,(tag,sig) in T.items():
+    p=f'/home/claude/work/cr/cr{i}.en.json'
+    d=json.load(open(p))
+    assert len(sig)==len(d['signature'])==10
+    d['tagline']=tag
+    for s,(n,w) in zip(d['signature'],sig):
+        s['name']=n; s['why']=w
+    assert len(tag)<=80 and tag!=d['name']
+    json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)

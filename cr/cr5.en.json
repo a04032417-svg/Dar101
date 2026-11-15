@@ -4,7 +4,7 @@
  "slug": "car-rental-fleet",
  "profession": "Car Rental Business",
  "name": "Fleet Register, Service and Renewals",
- "tagline": "Know which car needs service, which renewal is due and what each vehicle costs",
+ "tagline": "Know which car is due for service, which renewal is next and what each costs",
  "price_usd": 29,
  "colors": {
   "primary": "#1D3557",
@@ -17330,52 +17330,52 @@
  "signature": [
   {
    "name": "Service due planner",
-   "why": "service falls due by miles or months, whichever comes first, with the date the miles run out at the car's own pace",
+   "why": "Book service ahead: due by miles or months, with the date the miles run out",
    "where": "Service Due Planner"
   },
   {
    "name": "Overdue cars booked this week",
-   "why": "a car past its interval with a booking this week is named first, with the booking to move and a swap car of the same class",
+   "why": "Move the booking first: an overdue car with a booking this week, and a swap car named",
    "where": "Overdue Cars Booked"
   },
   {
    "name": "Workshop slot planner",
-   "why": "candidate dates are scored by the booked days each one loses, so the slot that costs the fewest rentals is marked",
+   "why": "Lose the fewest rentals: candidate dates scored by the booked days each one costs",
    "where": "Workshop Slot Planner"
   },
   {
    "name": "Renewals dashboard",
-   "why": "registration, insurance and inspection dates across the fleet in one sorted list with overdue, 30-day and 60-day colours",
+   "why": "See every renewal date: registration, insurance and inspection dates sorted, with overdue, 30-day and 60-day colours",
    "where": "Renewals Dashboard"
   },
   {
    "name": "Renewal cash plan",
-   "why": "the cost of renewals over the next 12 months turned into the amount to set aside each month, so a big month never surprises you",
+   "why": "Set aside each month: 12 months of renewal costs turned into one monthly amount",
    "where": "Renewal Cash Plan"
   },
   {
    "name": "Repair cost trend",
-   "why": "repair and tyre cost per month and per 1,000 miles against the vehicle's own last 12 months, with a rising or steady flag",
+   "why": "Catch a rising bill: repair and tyre cost per month and per 1,000 miles against 12 months",
    "where": "Repair Cost Trend"
   },
   {
    "name": "Cost per 1,000 miles ranking",
-   "why": "vehicles ranked by maintenance cost per 1,000 miles against their class average so the money-eater is named",
+   "why": "Name the money-eater: vehicles ranked by upkeep per 1,000 miles against their class",
    "where": "Cost per 1,000 Miles Ranking"
   },
   {
    "name": "Rental days lost to service",
-   "why": "workshop days turned into booked days and revenue lost at the class average daily rate",
+   "why": "Count the real loss: workshop days turned into booked days and revenue",
    "where": "Rental Days Lost"
   },
   {
    "name": "Downtime cost",
-   "why": "workshop days times utilisation and daily rate compared with the repair bill itself",
+   "why": "Compare the bill with the lost rentals: workshop days times utilisation and daily rate",
    "where": "Downtime Cost"
   },
   {
    "name": "Next-service forecast",
-   "why": "services due each week for 12 weeks in Base, Best and Worst cases, so you book the workshop ahead of the peak",
+   "why": "Book the workshop before the peak: services due each week for 12 weeks, Base, Best and Worst",
    "where": "Next-Service Forecast"
   }
  ],

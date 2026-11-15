@@ -4,7 +4,7 @@
  "slug": "car-rental-profit",
  "profession": "Car Rental Business",
  "name": "Utilisation, Profit and Pricing",
- "tagline": "See which cars earn their place, where the idle days are and what to charge",
+ "tagline": "See profit per vehicle, idle days and which cars to keep, reprice or sell",
  "price_usd": 29,
  "colors": {
   "primary": "#1D3557",
@@ -30744,52 +30744,52 @@
  "signature": [
   {
    "name": "Profit per vehicle per day",
-   "why": "revenue per available day less every cost line, including depreciation and marketplace fees, ranked best to worst for every vehicle",
+   "why": "Rank every car best to worst: revenue per available day less every cost, depreciation and fees included",
    "where": "Profit per Vehicle per Day"
   },
   {
    "name": "Break-even utilisation per vehicle",
-   "why": "the utilisation at which each vehicle covers its cost, with the months spent below it and the extra rented days needed",
+   "why": "Know each car's break-even: months spent below it and the extra rented days needed",
    "where": "Vehicle Break-even Tool"
   },
   {
    "name": "Vehicle verdict list",
-   "why": "Keep, Reprice or Sell for every vehicle from profit, utilisation and break-even, so the weak car is named",
+   "why": "Name the weak car: Keep, Reprice or Sell for every vehicle",
    "where": "Vehicle verdict list"
   },
   {
    "name": "Idle-day finder",
-   "why": "runs of idle days ranked by lost revenue with an offer price and the revenue if the run is filled",
+   "why": "Fill the gaps: runs of idle days ranked by lost revenue, with an offer price",
    "where": "Idle-Day Finder"
   },
   {
    "name": "Discount-to-fill floor",
-   "why": "the lowest price for an idle gap that still covers the variable cost, in closed form",
+   "why": "Set a discount floor: the lowest price for an idle gap that still covers variable cost",
    "where": "Discount-to-Fill Floor"
   },
   {
    "name": "Rate against history",
-   "why": "achieved average daily rate by class against the rate card and last year, with the discount share given",
+   "why": "Check you are not giving rates away: achieved daily rate against the rate card and last year",
    "where": "Rate Against History"
   },
   {
    "name": "Demand forecast and weekend pressure",
-   "why": "12 weeks of booked days against fleet days with Base, Best and Worst scenarios and the weekend load",
+   "why": "Plan 12 weeks ahead: booked days against fleet days in Base, Best and Worst",
    "where": "Forecast and Weekend Pressure"
   },
   {
    "name": "Fleet size fit",
-   "why": "utilisation with one car more or one fewer and the cars a class needs for your target",
+   "why": "Test one car more or fewer: utilisation and the cars a class needs for your target",
    "where": "Fleet Size Fit"
   },
   {
    "name": "Utilisation target solver",
-   "why": "the utilisation a class needs for the profit you want from each vehicle, against what it reaches",
+   "why": "Set the target: the utilisation a class needs for the profit you want per vehicle",
    "where": "Utilisation Target Solver"
   },
   {
    "name": "Monthly performance review",
-   "why": "this month against your last 3 months and last year with a green, amber or red light for each measure",
+   "why": "Review the month: against 3 months and last year, with a green, amber or red light",
    "where": "Monthly Performance Review"
   }
  ],
