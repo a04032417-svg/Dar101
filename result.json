@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p4/images/01-hero.png",
+   "/tmp/out/p4/images/02-charts.png",
+   "/tmp/out/p4/images/03-dashboard.png",
+   "/tmp/out/p4/images/04-inv_check.png",
+   "/tmp/out/p4/images/05-weekly_run.png",
+   "/tmp/out/p4/images/06-statements.png",
+   "/tmp/out/p4/images/07-print.png",
+   "/tmp/out/p4/images/08-inside.png",
+   "/tmp/out/p4/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p4/Tuition-Fees-and-Invoices-English.zip",
+  "zip_sha256": "bd041c8d750c464603d20aa1e49bb7b3e1785f65015eeab76dda043b219befd6",
+  "fxp": null,
+  "sha256": "bd041c8d750c464603d20aa1e49bb7b3e1785f65015eeab76dda043b219befd6"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 22.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 162,
+   "calc_cols": 162,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 137,
+   "form_fields": 137,
+   "tool_outputs_ok": 907,
+   "tool_outputs": 907,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-15",
+  "formulas": {
+   "en": 57554,
+   "en-demo": 57552,
+   "en-raw": 57552
+  },
+  "job_seconds_max": 21.5,
+  "seconds_images": 14.8,
+  "zip_mb": 1.53,
+  "seconds_package": 0.4,
+  "seconds_total": 37.9
+ },
+ "at": "2026-11-15T10:23:34+00:00",
+ "id": "fx-20261115-childcare-center-p4"
+}
