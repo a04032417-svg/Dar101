@@ -10,7 +10,7 @@ LOCK: none
 | 4..10 | ? | | - | |
 
 ## Professions already made (never repeat)
-real estate agent, real estate developer, photographer, contractor, restaurant, salon, teacher, property management, personal training, accounting and bookkeeping, social media management, construction, farm, project manager, online seller, trucking, interior designer, travel agent, short-term rental host, wedding and event planner, home bakery, cleaning business, real estate investor, beauty studio, handmade product maker, therapy private practice, (cc childcare in progress), lawn care and landscaping (lc, slot 3), home care agency non-medical (hc, slot 4), pet grooming (pg, slot 5), florist and floral design (fl, slot 6).
+real estate agent, real estate developer, photographer, contractor, restaurant, salon, teacher, property management, personal training, accounting and bookkeeping, social media management, construction, farm, project manager, online seller, trucking, interior designer, travel agent, short-term rental host, wedding and event planner, home bakery, cleaning business, real estate investor, beauty studio, handmade product maker, therapy private practice, (cc childcare in progress), lawn care and landscaping (lc, slot 3), home care agency non-medical (hc, slot 4), pet grooming (pg, slot 5), florist and floral design (fl, slot 6), auto repair shop (ar, slot 7).
 
 ## Queue of candidates for S0 (re-check evidence each time)
 pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home care / caregiver agency (planner 30 reviews); lawn care and landscaping (Kupkaike top 33%, low competition); tutoring / learning center; auto repair shop; food truck; dance or music school; moving company; pest control; dental or med spa (avoid clinical claims). Evidence so far: research6_20261115.md.
@@ -34,3 +34,5 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 06:34Z 05-s0 DONE (convB-0553): slot 5 = pg Pet Grooming Business Suite (evidence: groomer shops 414-871 sales, groomer form 22 reviews, new groomer spreadsheets on sale; moderate). Research 10.
 - 06:36Z 06-s0 DONE (convB-0553): slot 6 = fl Florist and Floral Design Business Suite (evidence: florist pricing spreadsheets sold at $47 and $75, pricing guide 7 reviews from a 3.8k-sale shop; moderate). Research 11.
 - 06:38Z 04-s1 DONE (conv-C-0602): hc/STUDY.md (24 web calls, 40 gaps, wording rules non-medical). hc_FOUNDATION_PROMPT.txt ready.
+- 06:39Z 05-s1 DONE (convB-0553): pg/STUDY.md (25 web calls; 8 part titles).
+- 06:39Z 07-s0 DONE (convB-0553): slot 7 = ar Auto Repair Shop Business Suite (evidence: repair forms 18 and 5 reviews from an 8.3k-sale shop; moderate). Research 12.
