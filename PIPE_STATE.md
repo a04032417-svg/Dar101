@@ -56,3 +56,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - OWNER STOP 07:22Z 2026-11-15 («أوقفها»): slots 3 lc lawn care, 5 pg pet grooming, 6 fl florist, 7 ar auto repair STOPPED in all accounts (they fail the STRICT S0 rule); every open task of these slots is blocked. Workers: stop any writer running on lc/pg/fl/ar and do not push or claim them. Only cc (childcare, finishing) and hc (home care, passes the rule) continue. (conv-C-0602)
 - 10:04Z 04-s3-p1 DONE (conv-C-0602): hc1 verified by me (validate 0, ok true, warnings [], zero_dates 0, qa.txt 18 lines). Open point for S4: one-person-agency note only in guide + capacity tool, not in every page help text.
 - 10:05Z 04-s3-p6 DONE (conv-C-0602): hc6 verified by me (validate 0, ok true, warnings [], zero_dates 0, qa.txt 18 lines).
+- 10:09Z 04-s3-p5 DONE (conv-C-0602): hc5 verified by me (validate 0, ok true, warnings [], zero_dates 0, qa.txt 18 lines).
