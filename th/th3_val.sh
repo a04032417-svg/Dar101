@@ -1,0 +1,1 @@
+cd /home/claude/d101/engine && FX_LANGS=en python3 -c "import json,sys; sys.path.insert(0,'.'); from validate import validate; e=validate(json.load(open('/home/claude/work/th/th3.en.json'))); print(len(e)); print('\n'.join(e))"

@@ -1,0 +1,33 @@
+window.__IT={
+ sleep:ms=>new Promise(r=>setTimeout(r,ms)),
+ q:n=>document.querySelector(`[name="${n}"]`),
+ async load(){if(this.data)return this.data.order.length;const r=await fetch('https://raw.githubusercontent.com/a04032417-svg/Dar101/out/itch-json/itch.json',{cache:'no-store'});this.data=await r.json();return this.data.order.length;},
+ set(n,v){const e=this.q(n);e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));},
+ arm(){window.confirm=()=>true;if(!window.__oc)window.__oc=HTMLInputElement.prototype.click;window.__cap=window.__cap||[];HTMLInputElement.prototype.click=function(){if(this.type==='file'){window.__cap.push(this);if(!this.id)this.id='capf'+window.__cap.length;if(!this.isConnected){this.style.display='none';document.body.appendChild(this);}if(window.__next){const f=window.__next;window.__next=null;const dt=new DataTransfer();(Array.isArray(f)?f:[f]).forEach(x=>dt.items.add(x));this.files=dt.files;this.dispatchEvent(new Event('change',{bubbles:true}));}return;}return window.__oc.call(this);};},
+ btn(t){return [...document.querySelectorAll('button,.button,a.button')].find(b=>b.textContent.trim()===t);},
+ async blob(u){for(let i=0;i<3;i++){try{const r=await fetch(u);if(r.ok)return await r.blob();}catch(e){}await this.sleep(1500);}throw new Error('fetch fail '+u.slice(0,60));},
+ async cover(u){const b=await this.blob(u);const bm=await createImageBitmap(b);const W=1260,H=1000;const c=document.createElement('canvas');c.width=W;c.height=H;const g=c.getContext('2d');g.imageSmoothingQuality='high';const s=Math.max(W/bm.width,H/bm.height);const w=bm.width*s,h=bm.height*s;g.drawImage(bm,(W-w)/2,(H-h)/2,w,h);const o=await new Promise(r=>c.toBlob(r,'image/jpeg',0.92));return new File([o],'cover.jpg',{type:'image/jpeg'});},
+ async fill(k){const it=this.data.items[k];this.k=k;
+  this.set('game[title]',it.title);await this.sleep(300);
+  this.set('game[slug]',it.handle.replace(/-(in-)?15-languages$/,''));
+  this.set('game[short_text]',it.tag);
+  const s=this.q('game[user_classification]');s.innerHTML='<option value="tool" selected>Tools</option>';s.value='tool';s.dispatchEvent(new Event('change',{bubbles:true}));
+  document.querySelector('.payment_mode_paid').click();await this.sleep(400);this.set('game[min_price]','$17.00');
+  const red=$(this.q('game[description]')).data('redactor');red.code.set(it.html);red.code.sync();
+  const sz=this.q('game[tags]').selectize;sz.clear();for(const t of it.tags){sz.createItem(t,false);await this.sleep(120);}
+  document.querySelector('[name="ai_disclosure[ai_generated]"][value=yes]').click();await this.sleep(200);
+  ['ai_graphics','ai_text','ai_code'].forEach(n=>{const e=this.q(`ai_disclosure[${n}]`);if(!e.checked)e.click();});
+  const d=this.q('ai_disclosure[disclosure]');d.value='Workbook content, formulas, descriptions and preview images were created with the help of generative AI tools.';d.dispatchEvent(new Event('input',{bubbles:true}));
+  return true;},
+ nShots(){return document.querySelectorAll('.screenshot_list .screenshot').length;},
+ async delShots(){this.arm();for(const b of [...document.querySelectorAll('.screenshot_list .delete_screen_btn')]){b.click();await this.sleep(700);}await this.sleep(1500);return this.nShots();},
+ async coverUp(k){const it=this.data.items[k];this.arm();const before=(this.q('game[cover_image_id]')||{}).value;window.__next=await this.cover(it.imgs[0]);this.btn('Upload Cover Image').click();for(let t=0;t<60;t++){await this.sleep(1000);const v=(this.q('game[cover_image_id]')||{}).value;if(v&&v!==before)return v;}return 'timeout';},
+ async shotsSeq(k){const it=this.data.items[k];this.arm();const log=[];for(let i=0;i<it.imgs.length;i++){const b=await this.blob(it.imgs[i]);const ext=(b.type.split('/')[1]||'jpg').replace('jpeg','jpg');const n0=this.nShots();window.__next=[new File([b],`${it.handle.slice(0,40)}-${i+1}.${ext}`,{type:b.type})];this.btn('Add screenshots').click();let ok=false;for(let t=0;t<60;t++){await this.sleep(1000);if(this.nShots()>n0&&!document.querySelector('.screenshot_list .uploading, .screenshot_list progress')){ok=true;break;}}log.push(ok?1:0);await this.sleep(500);}return {log:log.join(''),n:this.nShots()};},
+ async zipRaw(k){const it=this.data.items[k];this.arm();const b=await this.blob(it.zip.url);const f=new File([b],it.zip.name,{type:'application/zip'});window.__next=f;this.btn('Upload files').click();return {name:f.name,size:f.size};},
+ check(){return {title:this.q('game[title]').value.length,slug:this.q('game[slug]').value,price:this.q('game[min_price]').value,pm:this.q('game[payment_mode]').value,cls:this.q('game[user_classification]').value,desc:this.q('game[description]').value.length,tags:this.q('game[tags]').value.split(',').length,ai:[...document.querySelectorAll('[name^=ai_disclosure]')].filter(e=>e.checked).length,cover:(this.q('game[cover_image_id]')||{}).value,shots:this.nShots(),pub:(document.querySelector('[name="game[published]"]:checked')||{}).value};},
+ save(){$(this.q('game[description]')).data('redactor').code.sync();const b=[...document.querySelectorAll('button')].find(x=>/^Save( & view page)?$/.test(x.textContent.trim()));b.click();return b.textContent.trim();},
+ setType(){document.querySelectorAll('.game_edit_upload_list_widget select[name$="[type]"]').forEach(x=>{x.value='other';x.dispatchEvent(new Event('change',{bubbles:true}));});return true;},
+ async run(k){await this.load();await this.fill(k);const c=await this.coverUp(k);await this.sleep(1500);const s=await this.shotsSeq(k);const ck=this.check();return {k,c,s,ck};}
+};
+window.__Q={log:[],cur:null,async go(list,url){const code=await (await fetch(url)).text();for(const [k,id] of list){this.cur=k+' start';try{const f=document.createElement('iframe');f.style.cssText='width:1100px;height:700px;border:0';document.body.appendChild(f);await new Promise(r=>{f.onload=r;f.src='/game/edit/'+id;});const w=f.contentWindow;w.eval(code);await w.__IT.load();this.cur=k+' fetch';const z=await w.__IT.zipRaw(k);this.cur=k+' upload '+z.size;await w.__IT.sleep(4000);let t=0;while(t++<1500&&w.document.querySelector('.file_list.upload_in_progress, .uploader.is_uploading'))await w.__IT.sleep(2000);const txt=w.document.querySelector('.game_edit_upload_list_widget').innerText;const ok=/Success/.test(txt)&&txt.includes(z.name);w.__IT.setType();if(ok){this.cur=k+' save';w.__IT.save();await new Promise(r=>{f.onload=r;setTimeout(r,25000);});}this.log.push(k+':'+(ok?'ok':'FAIL '+txt.slice(0,120).replace(/\s+/g,' ')));f.remove();}catch(e){this.log.push(k+':ERR '+e.message);}}this.cur='done';}};
+'ok';
