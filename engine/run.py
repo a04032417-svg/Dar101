@@ -8,7 +8,7 @@ import sys, os, json, time, shutil, datetime as dt, traceback
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from validate import validate
 from verify import verify
-from common import LANGS, file_base
+from common import LANGS, file_base, EDITION_EN
 
 
 def run(spec_path, outdir, pubkey=None):
@@ -58,7 +58,7 @@ def run(spec_path, outdir, pubkey=None):
     # 4. package
     res['stage'] = 'package'; t = time.time()
     from package import make_zip, encrypt, sha256
-    z = make_zip(spec, rep['files']['templates'], rep['files']['demo_en'], os.path.join(outdir, f'{file_base(spec)}-15-languages.zip'))
+    z = make_zip(spec, rep['files']['templates'], rep['files']['demo_en'], os.path.join(outdir, f'{file_base(spec)}-' + ('English' if EDITION_EN else '15-languages') + '.zip'))
     res['files']['zip'] = z; res['files']['zip_sha256'] = sha256(z); res['stats']['zip_mb'] = round(os.path.getsize(z) / 1e6, 2)
     if pubkey:
         blob = encrypt(open(z, 'rb').read(), open(pubkey, 'rb').read())

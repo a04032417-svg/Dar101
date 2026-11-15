@@ -7,6 +7,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 LANGS = ['en', 'ar', 'fr', 'es', 'de', 'it', 'pt', 'tr', 'nl', 'ru', 'fa', 'ur', 'hi', 'zh', 'id']
 if os.environ.get('FX_LANGS'):  # test builds only (e.g. FX_LANGS=en,ar): a release build always has all 15
     LANGS = ['en'] + [l for l in LANGS[1:] if l in os.environ['FX_LANGS'].split(',')]
+EDITION_EN = os.environ.get('FX_EDITION') == 'en'  # English edition: sold in English only; nothing the buyer sees claims languages, translations or right-to-left
+if EDITION_EN: LANGS = ['en']
 TR_LANGS = LANGS[1:]
 RTL = {'ar', 'fa', 'ur'}
 LANG_NAMES = {'en': 'English', 'ar': 'العربية', 'fr': 'Français', 'es': 'Español', 'de': 'Deutsch', 'it': 'Italiano', 'pt': 'Português',
@@ -38,7 +40,18 @@ PH = re.compile(r'\{([a-z][a-z0-9_]*)\}')          # message placeholders: {colu
 KEY_RE = re.compile(r'^[a-z][a-z0-9_]{1,20}$')
 TOK = re.compile(r'\{(col|range|set|list|in):([^{}]*)\}|\{(today|pick)\}')
 STRLIT = re.compile(r'"(?:[^"]|"")*"')
-NUMFMT = {'int': '#,##0', 'num': '#,##0.00', 'money': '#,##0.00', 'pct': '0.0%', 'date': 'yyyy-mm-dd', 'time': 'hh:mm', 'hours': '0.0', 'text': 'General'}
+DATE_FMT = 'mm-dd-yy' if EDITION_EN else 'yyyy-mm-dd'   # English edition: Excel's built-in locale-aware short date (number format id 14: MM/DD/YYYY in the US, DD/MM/YYYY in the UK)
+NUMFMT = {'int': '#,##0', 'num': '#,##0.00', 'money': '#,##0.00', 'pct': '0.0%', 'date': DATE_FMT, 'time': 'hh:mm', 'hours': '0.0', 'text': 'General'}
+
+# English edition only (never printed otherwise): the Start-sheet instructions and the two extra settings (not in fixed_en.json, so no other language needs them)
+DATE_CHOICES = ('MM/DD/YYYY', 'DD/MM/YYYY', 'YYYY-MM-DD')
+EN_TEXT = {'start_title': 'Before you start',
+           'start_lines': ['Colours: cream-yellow cells, and the white columns of the tables, are for you to type in. Light grey-blue cells are calculated for you.',
+                           'Protection: every sheet is protected, without a password, so the formulas cannot be overwritten by accident. Calculated cells are locked; every cell you are meant to fill in stays open.',
+                           'To change something that is locked: Review > Unprotect Sheet (no password needed). Protect the sheet again afterwards if you wish.',
+                           'Currency symbol: type it once in the "Currency symbol" cell under Your settings below (default $). It appears in amounts written into sentences and next to the amounts on the dashboard and the tools.',
+                           'Dates: date cells follow your computer\'s regional format (MM/DD/YYYY in the US, DD/MM/YYYY in the UK). Dates written inside sentences (documents, messages) follow the "Date format" cell under Your settings below.', 'Google Sheets: upload this file to Google Drive and open it with Google Sheets (or use the Google Sheets copy link in your download). Everything calculates there too; sheet locks do not carry over to Google Sheets, so type only in the input cells.'],
+           'set_currency': 'Currency symbol', 'set_datefmt': 'Date format'}
 
 
 def tr(spec, lang):
