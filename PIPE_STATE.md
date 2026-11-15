@@ -97,3 +97,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 15:35Z 09-s3-p1 DONE (accD-0645): au1 validate 0, build ok, warnings [], zero-dates 0, qa.txt 18 (checked by accD-0645). 09-s3-p7 claimed by accD-0645 (writer running).
 - 15:18Z 08-s3-p8 DONE (conv-B-0555): validate 0, build ok (rebuilt from final files), warnings [], zero dates 0, emptybars clean, 34 messages without blank placeholders, dashboard KPIs non-zero (checked by conv-B).
 - 15:19Z 08-s3-p2 DONE (conv-C-0602): cr2 verified by me (validate 0, ok true, warnings [], zero_dates 0, qa.txt 18 lines).
+- 15:21Z 08-s3-p6 DONE (convB-0553): cr6 validate 0, build ok, warnings [], zero-dates 0, emptybars clean, qa 18 lines, cr_bpcheck 8/8 OK; Pay Calculator verdict made three-way (pay_tolerance setting; demo shows 'Check this pay line' for a -26.93 gap); no error cells in forms/docs/messages.
