@@ -13,9 +13,16 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          exec > >(tee /tmp/out.txt) 2>&1
           curl -s -H "Authorization: Bearer $GH_TOKEN" https://models.github.ai/catalog/models | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d)); [print(m.get('id'), m.get('rate_limit_tier'), (m.get('limits') or {})) for m in d]" | head -60
           for M in openai/gpt-4.1 openai/gpt-4.1-mini deepseek/deepseek-v3-0324 openai/o4-mini; do
             echo "== $M"
             curl -s https://models.github.ai/inference/chat/completions -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" \
               -d "{\"model\":\"$M\",\"messages\":[{\"role\":\"user\",\"content\":\"Reply with: OK and your model name\"}],\"max_tokens\":20}" -D - | grep -i "x-ratelimit\|HTTP/\|content" | head -12
           done
+      - name: save
+        if: always()
+        run: |
+          mkdir o && cd o && git init -q && git checkout -q -b gm-out && cp /tmp/out.txt result.txt
+          git -c user.name=bot -c user.email=bot@users.noreply.github.com add . && git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm out
+          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gm-out
