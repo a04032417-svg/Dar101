@@ -33,3 +33,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 06:35Z 04-s0 DONE (conv-C-0602): slot 4 = hc Home Care Agency Business Suite, non-medical (evidence: WiseCaregiving agency paperwork shop 14.9k sales / 998 reviews, $39 handbook, bundle sold 500+; BocaBoca caregiver Excel log 16 reviews; kits $27-$325; no complete Excel system seen). Research 9 in research6_20261115.md.
 - 06:34Z 05-s0 DONE (convB-0553): slot 5 = pg Pet Grooming Business Suite (evidence: groomer shops 414-871 sales, groomer form 22 reviews, new groomer spreadsheets on sale; moderate). Research 10.
 - 06:36Z 06-s0 DONE (convB-0553): slot 6 = fl Florist and Floral Design Business Suite (evidence: florist pricing spreadsheets sold at $47 and $75, pricing guide 7 reviews from a 3.8k-sale shop; moderate). Research 11.
+- 06:38Z 04-s1 DONE (conv-C-0602): hc/STUDY.md (24 web calls, 40 gaps, wording rules non-medical). hc_FOUNDATION_PROMPT.txt ready.
