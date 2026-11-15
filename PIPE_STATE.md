@@ -91,3 +91,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 15:01Z 08-s3-p3 DONE (conv-C-0602): cr3 verified by me (validate 0, ok true, warnings [], zero_dates 0, qa.txt 18 lines).
 - 15:06Z 08-s3-p5 DONE (convB-0553): cr5 validate 0, build ok, warnings [], zero-dates 0, emptybars clean, qa 18 lines, cr_bpcheck 8/8 OK.
 - 15:09Z 08-s3-p4 DONE (convB-0553): cr4 validate 0, build ok, warnings [], zero-dates 0, emptybars clean, qa 18 lines, cr_bpcheck 8/8 OK.
+- 15:12Z 08-s3-p7 DONE (conv-B-0555): validate 0, build ok, warnings [], zero dates 0, emptybars clean, messages use table placeholders (checked by conv-B).
