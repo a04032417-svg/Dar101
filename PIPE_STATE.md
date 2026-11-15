@@ -110,3 +110,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 20:15Z 09-s3-p7 DONE (conv-B-0555): au7 validate 0, build ok, warnings [], zero_dates 0, emptybars clean, msgcheck 0, 30 KPIs filled, qa au/qa/qa7.txt. p6/p8 still writing.
 - 20:20Z 09-s3-p6 DONE (conv-B-0555): au6 validate 0, build ok, warnings [], zero_dates 0, emptybars clean, msgcheck 0, 30 KPIs filled, qa au/qa/qa6.txt. p8 still writing.
 - 20:35Z 10-s0 DONE (conv-C-0602): owner 23:31 Riyadh «اكمل بلا توقف 7/24» -> slot 10 = sb Sublimation Print Business Suite (below the strict bar: best verified = sublimation cost calculator 4 reviews; Research 19; kept distinct from handmade maker: print-shop production, blanks stock, bulk/wholesale orders).
+- 20:35Z 09-s3-p8 DONE (conv-B-0555): au8 validate 0, build ok, warnings [], zero_dates 0, emptybars clean, msgcheck 0, 30 KPIs filled, qa au/qa/qa8.txt. All 8 au parts done. 09-s4 claimed by conv-B-0555.
