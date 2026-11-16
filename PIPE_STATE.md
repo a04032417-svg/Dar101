@@ -152,3 +152,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 04:03Z 10-s3-p8: claim of conv-B-0555 (01:28Z) expired after 150 min with no np8 files; taken over by conv-C-0602. np parts 1-7 done (1,2,3,5,6,7 conv-C-0602; 4 convB-0553).
 - 05:55Z 13-s0 re-claimed by accD-0645 for STRICT research round 2 (verify the attorney 647 card + event venue, HOA board, videographer, translator, self-storage, laundromat, driving school, funeral home); owner has not answered yet.
 - 06:03Z 12-s3-p8 DONE (convB-0553): hv part 8: validate 0, build ok, warnings [], zero dates 0, emptybars clean, no 99999999 date fallbacks, hv/qa/qa8.txt (18 tools).
+- 06:11Z 12-s3-p7 DONE (convB-0553): hv part 7 Invoices, Collections and Seasonal Cash: validate 0, build ok, warnings [], zero dates 0, emptybars clean, no 99999999 date fallbacks, hv/qa/qa7.txt (18 tools).
