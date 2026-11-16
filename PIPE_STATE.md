@@ -132,3 +132,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 22:20Z 11-s3-p5 DONE (accD-0645): du5 validate 0, build ok, warnings [], zero dates 0, emptybars clean, qa.txt 18 (checked by accD-0645). 11-s3-p6 claimed by accD-0645.
 - 00:54Z 11-s3-p2 DONE (convB-0553): du part 2 Packages, Pricing and Profit per Hour: validate 0, build ok, warnings [], zero dates 0, emptybars clean, du/qa/qa2.txt (18 tools).
 - 01:05Z 12-s3-p1 DONE (accD-0645): hv1 validate 0, build ok, warnings [], zero dates 0, emptybars clean, qa.txt 18, no brand words (checked by accD-0645). 12-s3-p4 claimed by accD-0645.
+- 01:15Z 11-s3-p6 DONE (accD-0645): du6 validate 0, build ok, warnings [], zero dates 0, emptybars clean, qa.txt 21 (checked by accD-0645). 12-s3-p5 claimed by accD-0645.
