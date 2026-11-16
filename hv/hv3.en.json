@@ -4,7 +4,7 @@
  "slug": "hvac-plumbing-job-costing",
  "profession": "HVAC and Plumbing Contractor",
  "name": "Job Costing, Margin and Callbacks",
- "tagline": "See what every job earned, what callbacks cost and which prices to fix",
+ "tagline": "See which jobs lost money, what callbacks cost and which prices to fix",
  "price_usd": 29,
  "colors": {
   "primary": "#1F4E5F",
@@ -38139,62 +38139,62 @@
  "signature": [
   {
    "name": "Job costing per job",
-   "why": "hours times loaded rate, parts, permit, disposal, subcontract and vehicle against the price, with a one-line verdict on why a job won or lost money",
+   "why": "Know why a job won or lost money: hours, parts, permit, disposal, subcontract and vehicle against the price",
    "where": "Job Costing per Job"
   },
   {
-   "name": "Margin check of every job type",
-   "why": "all 15 job types against their own targets and the 12 months before, with the type that fell furthest named",
+   "name": "Margin by job type",
+   "why": "Spot the job type that slipped: all 15 job types against their own targets and the 12 months before",
    "where": "Margin by Job Type Check"
   },
   {
    "name": "Water heater margin watch",
-   "why": "margin by month against the target and the unit cost rise, the flat price that restores the target and what a rise could cost in lost jobs",
+   "why": "Restore the margin after a unit cost rise: the flat price that hits your target and the jobs a rise could cost",
    "where": "Water Heater Margin Watch"
   },
   {
    "name": "Losing-money job finder",
-   "why": "the jobs of the last 90 days ranked by the money they lost, with technician, cause and the biggest leak",
+   "why": "Stop repeating losses: jobs of the last 90 days ranked by money lost, with technician and cause",
    "where": "Losing-Money Job Finder"
   },
   {
-   "name": "Callback cost with the original job",
-   "why": "each return visit linked to its original job with hours, parts and travel, who paid and the money it takes this season",
+   "name": "Callback cost per job",
+   "why": "See what each return visit costs: hours, parts and travel tied to the original job and the season total",
    "where": "Callback Cost Tool"
   },
   {
-   "name": "Callback rate by technician and job type",
-   "why": "rate against your target and the shop average, the ratio and a verdict: talk this week, watch or fine",
+   "name": "Callback rate by technician",
+   "why": "Talk to the right person this week: rate against your target and the shop average, with a verdict",
    "where": "Callback Rate Tool"
   },
   {
    "name": "Callback-aware margin",
-   "why": "job margin after the cost of callbacks by technician and job type, so a margin that looks good and is not shows up",
+   "why": "Find margins that look good and are not: job margin after callback cost, by technician and job type",
    "where": "Callback-Aware Margin"
   },
   {
-   "name": "Replace versus repair sentence",
-   "why": "your own age, quote, price and life numbers become a cost per year of each choice and a plain sentence for the estimate",
+   "name": "Replace or repair sentence",
+   "why": "Give the customer a plain sentence: your own age, quote, price and life numbers give a cost per year of each choice",
    "where": "Replace versus Repair Sentence"
   },
   {
-   "name": "What-if on labour, parts and close rate",
-   "why": "monthly profit and break-even jobs a week for Base, Best and Worst and a sensitivity row",
+   "name": "What-if on labour and parts",
+   "why": "Test a cost rise before it hits: monthly profit and break-even jobs a week for Base, Best and Worst",
    "where": "What-if on Labour and Parts"
   },
   {
    "name": "Margin recovery planner",
-   "why": "job types ranked by the price rise needed, the money recovered a year and the net gain after the jobs you could lose",
+   "why": "Re-price in the right order: job types ranked by the rise needed, the money recovered and the net gain after lost jobs",
    "where": "Margin Recovery Planner"
   },
   {
-   "name": "Warranty cost against a reserve",
-   "why": "warranty callbacks by month and equipment type against the reserve your own history suggests",
+   "name": "Warranty cost against reserve",
+   "why": "Set a warranty reserve from your own history: callbacks by month and equipment type against it",
    "where": "Warranty Cost Tracker"
   },
   {
-   "name": "Job profit forecast with callbacks",
-   "why": "margin per job times booked jobs and your own seasonal index for the weeks ahead, callback cost deducted, Base, Best and Worst",
+   "name": "Job profit forecast",
+   "why": "Plan the weeks ahead: margin per job times booked jobs and your season index, callback cost deducted",
    "where": "Monthly Job Profit Forecast"
   }
  ],
