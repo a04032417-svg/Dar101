@@ -185,3 +185,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 17:39Z 14-s3-p3 DONE (convB-0553): hf part 3 Spending Tracker and Groceries: validate 0, build ok, warnings [], zero dates 0, emptybars clean, no 99999999, hf/qa/qa3.txt (18 tools). 14-s3-p8 claimed.
 - 17:41Z 14-s3-p1 DONE (convB-0553): hf part 1 Money Plan and Paychecks: validate 0, build ok, warnings [], zero dates 0, emptybars clean, no 99999999, hf/qa/qa1.txt (18 tools); story low point 254 before payday shown.
 - 22:07Z 14-s3-p7 DONE (convB-0553): hf part 7 Partners, Kids and Shared Costs: validate 0, build ok, warnings [], zero dates 0, emptybars clean, no 99999999, hf/qa/qa7.txt (18 tools).
+- 22:11Z 14-s3-p8 DONE (convB-0553): hf part 8 Big Purchases, Tax Papers and Year Review: validate 0, build ok, warnings [], zero dates 0, emptybars clean, no 99999999, hf/qa/qa8.txt (18 tools). 13-s3-p3 taken over (expired conv-C claim).
