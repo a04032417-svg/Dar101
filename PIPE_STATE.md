@@ -177,3 +177,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 15:00Z 15-s0 BLOCKED (conv-B-0555): STRICT round 6 (Research 29, 16 web calls): 0 verified PASS for slot 15 (homeschool and home-management numbers are unlabeled or shop-wide). Owner asked to choose.
 - 15:06Z 13-s2 DONE (conv-C-0602): wp foundation (model np): wp_core.py (Amara and Theo, wedding ~200 days out, 150 guests / 82 households, 130 seats, budget 34,000 paid 60/25/15; story PY-017 balance due ~10 days, 18 RSVPs missing, BL-05 flowers over, VD-01 capacity, TK-053 overdue, 9 gifts without thank-you; story() checked on 6 dates), BLUEPRINT.md, BRIEF.md (colors #7A4B68/#D9A86C, COUNTIFS blank-row + complete-periods lessons), wp_bpcheck 8/8 OK. 13-s3-p1..p3 claimed by conv-C-0602.
 - 15:31Z 13-s3-p7,p8 claimed by accD-0645 (wp writers).
+- 15:55Z 13-s3-p8 DONE (accD-0645): wp8 validate 0, build ok, warnings [], zero dates 0, emptybars clean, qa.txt 18 (checked by accD-0645).
