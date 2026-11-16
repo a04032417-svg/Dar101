@@ -281,7 +281,7 @@ tools.append(TOOL('peak_season', 'Peak Season Planner', 'Do you need more backup
     GR('What if the month or the trend changes', ('March', {'month_num': 3}), ('June', {'month_num': 6}), ('August', {'month_num': 8}), ('October', {'month_num': 10}), ('December', {'month_num': 12}), ('No growth', {'trend': 0}))))
 
 # 18 ----------------------------------------------------------- window-opens alerts
-SOON = 'SUMPRODUCT(MIN((%s>=%s)*%s+(1-(%s>=%s))*99999999))' % (OS, T0, OS, OS, T0)
+SOON = 'IFERROR(SMALL(%s,COUNTIF(%s,"<"&%s)+1),"")' % (OS, OS, T0)
 SPOS = 'MATCH(%s,%s,0)' % (SOON, OS)
 OPEN_N = 'COUNTIFS(%s,">="&%s,%s,"<="&(%s+{in:days}))' % (OS, T0, OS, T0)
 tools.append(TOOL('opens_alert', 'Window Opens Alerts', 'Which windows open soon and are they ready',
@@ -289,7 +289,7 @@ tools.append(TOOL('opens_alert', 'Window Opens Alerts', 'Which windows open soon
     I('days', 'Days ahead to look', 14, 'int')], [
     O('Windows opening in these days', 'int', OPEN_N), O('Of them with a backup named', 'int', 'COUNTIFS(%s,">="&%s,%s,"<="&(%s+{in:days}),%s,"<>")' % (OS, T0, OS, T0, OB)),
     O('Of them without a backup', 'int', 'COUNTIFS(%s,">="&%s,%s,"<="&(%s+{in:days}),%s,"")' % (OS, T0, OS, T0, OB)),
-    O('Next window opens', 'date', SOON), O('Days until it opens', 'int', '%s-%s' % (SOON, T0)), O('Client', 'text', 'IFERROR(INDEX(%s,%s),"-")' % (OCL, SPOS)), O('Doula', 'text', 'IFERROR(INDEX(%s,%s),"-")' % (OD, SPOS)),
+    O('Next window opens', 'date', SOON), O('Days until it opens', 'int', 'IF(%s="","",%s-%s)' % (SOON, SOON, T0)), O('Client', 'text', 'IFERROR(INDEX(%s,%s),"-")' % (OCL, SPOS)), O('Doula', 'text', 'IFERROR(INDEX(%s,%s),"-")' % (OD, SPOS)),
     O('Backup', 'text', 'IFERROR(IF(INDEX(%s,%s)="","-",INDEX(%s,%s)),"-")' % (OB, SPOS, OB, SPOS)), O('Doula phone', 'text', 'IFERROR(INDEX({range:oncall.doula_phone},%s)&"","-")' % SPOS),
     O('Verdict', 'text', 'IF(%s=0,%s,IF(COUNTIFS(%s,">="&%s,%s,"<="&(%s+{in:days}),%s,"")>0,%s,%s))' % (OPEN_N, c3('Nothing opens soon'), OS, T0, OS, T0, OB, c3('Needs a backup before the window opens'), c3('Ready: every window has a backup')))],
     GR('What if you look further ahead', ('7 days', {'days': 7}), ('14 days', {'days': 14}), ('30 days', {'days': 30}), ('60 days', {'days': 60}), ('90 days', {'days': 90}))))

@@ -16838,32 +16838,32 @@
     {
      "label": "Next window opens",
      "format": "date",
-     "formula": "SUMPRODUCT(MIN(({range:oncall.oncall_start}>={today})*{range:oncall.oncall_start}+(1-({range:oncall.oncall_start}>={today}))*99999999))"
+     "formula": "IFERROR(SMALL({range:oncall.oncall_start},COUNTIF({range:oncall.oncall_start},\"<\"&{today})+1),\"\")"
     },
     {
      "label": "Days until it opens",
      "format": "int",
-     "formula": "SUMPRODUCT(MIN(({range:oncall.oncall_start}>={today})*{range:oncall.oncall_start}+(1-({range:oncall.oncall_start}>={today}))*99999999))-{today}"
+     "formula": "IF(IFERROR(SMALL({range:oncall.oncall_start},COUNTIF({range:oncall.oncall_start},\"<\"&{today})+1),\"\")=\"\",\"\",IFERROR(SMALL({range:oncall.oncall_start},COUNTIF({range:oncall.oncall_start},\"<\"&{today})+1),\"\")-{today})"
     },
     {
      "label": "Client",
      "format": "text",
-     "formula": "IFERROR(INDEX({range:oncall.client},MATCH(SUMPRODUCT(MIN(({range:oncall.oncall_start}>={today})*{range:oncall.oncall_start}+(1-({range:oncall.oncall_start}>={today}))*99999999)),{range:oncall.oncall_start},0)),\"-\")"
+     "formula": "IFERROR(INDEX({range:oncall.client},MATCH(IFERROR(SMALL({range:oncall.oncall_start},COUNTIF({range:oncall.oncall_start},\"<\"&{today})+1),\"\"),{range:oncall.oncall_start},0)),\"-\")"
     },
     {
      "label": "Doula",
      "format": "text",
-     "formula": "IFERROR(INDEX({range:oncall.doula},MATCH(SUMPRODUCT(MIN(({range:oncall.oncall_start}>={today})*{range:oncall.oncall_start}+(1-({range:oncall.oncall_start}>={today}))*99999999)),{range:oncall.oncall_start},0)),\"-\")"
+     "formula": "IFERROR(INDEX({range:oncall.doula},MATCH(IFERROR(SMALL({range:oncall.oncall_start},COUNTIF({range:oncall.oncall_start},\"<\"&{today})+1),\"\"),{range:oncall.oncall_start},0)),\"-\")"
     },
     {
      "label": "Backup",
      "format": "text",
-     "formula": "IFERROR(IF(INDEX({range:oncall.backup},MATCH(SUMPRODUCT(MIN(({range:oncall.oncall_start}>={today})*{range:oncall.oncall_start}+(1-({range:oncall.oncall_start}>={today}))*99999999)),{range:oncall.oncall_start},0))=\"\",\"-\",INDEX({range:oncall.backup},MATCH(SUMPRODUCT(MIN(({range:oncall.oncall_start}>={today})*{range:oncall.oncall_start}+(1-({range:oncall.oncall_start}>={today}))*99999999)),{range:oncall.oncall_start},0))),\"-\")"
+     "formula": "IFERROR(IF(INDEX({range:oncall.backup},MATCH(IFERROR(SMALL({range:oncall.oncall_start},COUNTIF({range:oncall.oncall_start},\"<\"&{today})+1),\"\"),{range:oncall.oncall_start},0))=\"\",\"-\",INDEX({range:oncall.backup},MATCH(IFERROR(SMALL({range:oncall.oncall_start},COUNTIF({range:oncall.oncall_start},\"<\"&{today})+1),\"\"),{range:oncall.oncall_start},0))),\"-\")"
     },
     {
      "label": "Doula phone",
      "format": "text",
-     "formula": "IFERROR(INDEX({range:oncall.doula_phone},MATCH(SUMPRODUCT(MIN(({range:oncall.oncall_start}>={today})*{range:oncall.oncall_start}+(1-({range:oncall.oncall_start}>={today}))*99999999)),{range:oncall.oncall_start},0))&\"\",\"-\")"
+     "formula": "IFERROR(INDEX({range:oncall.doula_phone},MATCH(IFERROR(SMALL({range:oncall.oncall_start},COUNTIF({range:oncall.oncall_start},\"<\"&{today})+1),\"\"),{range:oncall.oncall_start},0))&\"\",\"-\")"
     },
     {
      "label": "Verdict",
