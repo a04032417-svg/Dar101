@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p3/images/01-hero.png",
+   "/tmp/out/p3/images/02-charts.png",
+   "/tmp/out/p3/images/03-dashboard.png",
+   "/tmp/out/p3/images/04-unearned_client.png",
+   "/tmp/out/p3/images/05-contracts.png",
+   "/tmp/out/p3/images/06-balances.png",
+   "/tmp/out/p3/images/07-print.png",
+   "/tmp/out/p3/images/08-inside.png",
+   "/tmp/out/p3/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p3/Contracts-Deposits-and-Payment-Plans-English.zip",
+  "zip_sha256": "9fb39f9550212211bb84b8ccc98b3d9d043dd4daebe941af74f6847521b0ac90",
+  "fxp": null,
+  "sha256": "9fb39f9550212211bb84b8ccc98b3d9d043dd4daebe941af74f6847521b0ac90"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 21.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 133,
+   "calc_cols": 133,
+   "monthly_nonzero_cells": 29,
+   "form_fields_filled": 106,
+   "form_fields": 106,
+   "tool_outputs_ok": 760,
+   "tool_outputs": 760,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 39,
+   "document_paragraphs": 39
+  },
+  "compare": {},
+  "today": "2026-11-17",
+  "formulas": {
+   "en": 51724,
+   "en-demo": 51722,
+   "en-raw": 51722
+  },
+  "job_seconds_max": 20.6,
+  "seconds_images": 16.1,
+  "zip_mb": 1.29,
+  "seconds_package": 0.4,
+  "seconds_total": 38.3
+ },
+ "at": "2026-11-17T23:48:25+00:00",
+ "id": "fx-20261116-doula-business-p3"
+}
