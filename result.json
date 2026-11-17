@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p7/images/01-hero.png",
+   "/tmp/out/p7/images/02-charts.png",
+   "/tmp/out/p7/images/03-dashboard.png",
+   "/tmp/out/p7/images/04-lose.png",
+   "/tmp/out/p7/images/05-settle.png",
+   "/tmp/out/p7/images/06-fair_split.png",
+   "/tmp/out/p7/images/07-print.png",
+   "/tmp/out/p7/images/08-inside.png",
+   "/tmp/out/p7/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p7/Partners-Kids-and-Shared-Costs-English.zip",
+  "zip_sha256": "257ab0fb9646bec194d6e3921915268618fbe11f10784c5188f30c1bc1c198b4",
+  "fxp": null,
+  "sha256": "257ab0fb9646bec194d6e3921915268618fbe11f10784c5188f30c1bc1c198b4"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 17.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 164,
+   "calc_cols": 164,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 126,
+   "form_fields": 126,
+   "tool_outputs_ok": 688,
+   "tool_outputs": 688,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-17",
+  "formulas": {
+   "en": 52162,
+   "en-demo": 52160,
+   "en-raw": 52160
+  },
+  "job_seconds_max": 16.7,
+  "seconds_images": 14.8,
+  "zip_mb": 0.94,
+  "seconds_package": 0.4,
+  "seconds_total": 32.8
+ },
+ "at": "2026-11-17T10:37:59+00:00",
+ "id": "fx-20261116-household-finance-p7"
+}
