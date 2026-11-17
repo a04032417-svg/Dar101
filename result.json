@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p3/images/01-hero.png",
+   "/tmp/out/p3/images/02-charts.png",
+   "/tmp/out/p3/images/03-dashboard.png",
+   "/tmp/out/p3/images/04-savings_rate.png",
+   "/tmp/out/p3/images/05-env_status.png",
+   "/tmp/out/p3/images/06-this_month.png",
+   "/tmp/out/p3/images/07-print.png",
+   "/tmp/out/p3/images/08-inside.png",
+   "/tmp/out/p3/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p3/Spending-Tracker-and-Groceries-English.zip",
+  "zip_sha256": "b16a54d107b060c9b524d7559acf07543e0e427ac4697dd67229da86a511a2d9",
+  "fxp": null,
+  "sha256": "b16a54d107b060c9b524d7559acf07543e0e427ac4697dd67229da86a511a2d9"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 22.5,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 162,
+   "calc_cols": 162,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 117,
+   "form_fields": 117,
+   "tool_outputs_ok": 458,
+   "tool_outputs": 458,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-17",
+  "formulas": {
+   "en": 48816,
+   "en-demo": 48814,
+   "en-raw": 48814
+  },
+  "job_seconds_max": 21.6,
+  "seconds_images": 16.3,
+  "zip_mb": 1.26,
+  "seconds_package": 0.3,
+  "seconds_total": 39.3
+ },
+ "at": "2026-11-17T10:38:03+00:00",
+ "id": "fx-20261116-household-finance-p3"
+}
