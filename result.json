@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-workorders.png",
+   "/tmp/out/p1/images/05-repeats.png",
+   "/tmp/out/p1/images/06-dispatch.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p1/Calls-Dispatch-and-Jobs-English.zip",
+  "zip_sha256": "a16d0664d0a77cdbe5124377c03c52a95ee3cbfb715a575b7210a188ad835304",
+  "fxp": null,
+  "sha256": "a16d0664d0a77cdbe5124377c03c52a95ee3cbfb715a575b7210a188ad835304"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 28.2,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 112,
+   "calc_cols": 112,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 139,
+   "form_fields": 139,
+   "tool_outputs_ok": 773,
+   "tool_outputs": 773,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-17",
+  "formulas": {
+   "en": 56945,
+   "en-demo": 56943,
+   "en-raw": 56943
+  },
+  "job_seconds_max": 26.8,
+  "seconds_images": 15.8,
+  "zip_mb": 1.65,
+  "seconds_package": 0.8,
+  "seconds_total": 45.0
+ },
+ "at": "2026-11-17T23:50:04+00:00",
+ "id": "fx-20261115-hvac-plumbing-p1"
+}
