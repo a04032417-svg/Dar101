@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p2/images/01-hero.png",
+   "/tmp/out/p2/images/02-charts.png",
+   "/tmp/out/p2/images/03-dashboard.png",
+   "/tmp/out/p2/images/04-price_book.png",
+   "/tmp/out/p2/images/05-estimates.png",
+   "/tmp/out/p2/images/06-close_tech.png",
+   "/tmp/out/p2/images/07-print.png",
+   "/tmp/out/p2/images/08-inside.png",
+   "/tmp/out/p2/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p2/Price-Book-Estimates-and-Options-English.zip",
+  "zip_sha256": "09684062627e30c137e0985124052007d8a09cb0942175114ccd7074abac22e4",
+  "fxp": null,
+  "sha256": "09684062627e30c137e0985124052007d8a09cb0942175114ccd7074abac22e4"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 32.5,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 161,
+   "calc_cols": 161,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 114,
+   "form_fields": 114,
+   "tool_outputs_ok": 643,
+   "tool_outputs": 643,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 37,
+   "document_paragraphs": 37
+  },
+  "compare": {},
+  "today": "2026-11-17",
+  "formulas": {
+   "en": 98687,
+   "en-demo": 98685,
+   "en-raw": 98685
+  },
+  "job_seconds_max": 30.5,
+  "seconds_images": 18.1,
+  "zip_mb": 1.69,
+  "seconds_package": 0.4,
+  "seconds_total": 51.1
+ },
+ "at": "2026-11-17T23:50:16+00:00",
+ "id": "fx-20261115-hvac-plumbing-p2"
+}
