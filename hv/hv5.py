@@ -195,13 +195,13 @@ insights = {"filters": [{"label": "Technician", "list": "tech"}, {"label": "Van"
                {"title": "Vehicle cost within budget", "num": AGG('count', 'vehicle_costs', where=[('per_day', '<=', '{set:vehicle_budget_day}')]), "den": AGG('count', 'vehicle_costs')}],
     "charts": [
         CM('Parts cost per month', 'column', 'stock_month', 'parts_cost', 'month', 'Parts cost'), CB('Parts used by category', 'parts_used', 'category', 'cost', 'Parts cost'), CB('Parts cost by van', 'parts_used', 'van', 'cost', 'Parts cost'),
-        CB('Parts cost by technician', 'parts_used', 'technician', 'cost', 'Parts cost'), CB('Stock value by van', 'van_stock', 'van', 'value', 'Stock value'), CM('Stock value per month', 'line', 'stock_month', 'stock_value', 'month', 'Stock value'),
+        CB('Parts cost by technician', 'parts_used', 'technician', 'cost', 'Parts cost'), CB('Stock value by van', 'van_stock', 'van', 'value', 'Stock value'), CM('Stock value per month', 'column', 'stock_month', 'stock_value', 'month', 'Stock value'),
         CB('Parts below minimum by van', 'van_stock', 'van', None, 'Parts below minimum', 'count', [('below_min', '=', BELOW)]), CB('Shrink by van, last 6 counts', 'shrink_van', 'van', 'last_missing', 'Stock missing'),
         CM('Stock missing per count month', 'column', 'stock_counts', 'missing_value', 'date', 'Stock missing'), CM('Restock cost per month', 'column', 'stock_month', 'restock_cost', 'month', 'Restock cost'),
         CB('Purchases by supplier', 'purchases', 'supplier', 'amount', 'Purchases'), CM('Unbilled parts per month', 'column', 'stock_month', 'unbilled_cost', 'month', 'Unbilled parts'),
         CHART('Supplier price changes per month', 'column', 'month', [AGG('count', 'price_changes', date='price_changes.date', label='Price changes')]), CB('Average rise by category', 'price_changes', 'category', 'rise', 'Average rise', 'avg'),
         CM('Purchases per month', 'column', 'purchases', 'amount', 'date', 'Purchases'), CM('Vehicle cost per month', 'column', 'vehicle_costs', 'total', 'month', 'Vehicle cost'),
-        CB('Vehicle cost by van', 'vehicle_costs', 'van', 'total', 'Vehicle cost'), CM('Fuel per month', 'line', 'vehicle_costs', 'fuel', 'month', 'Fuel'), CM('Repairs per month', 'column', 'vehicle_costs', 'repairs', 'month', 'Repairs'),
+        CB('Vehicle cost by van', 'vehicle_costs', 'van', 'total', 'Vehicle cost'), CM('Fuel per month', 'column', 'vehicle_costs', 'fuel', 'month', 'Fuel'), CM('Repairs per month', 'column', 'vehicle_costs', 'repairs', 'month', 'Repairs'),
         CB('Cost per working day by van', 'vehicle_van', 'van', 'per_day_last', 'Cost per working day'), CM('Tool spend per month', 'column', 'tools', 'cost', 'date', 'Tool spend'), CB('Tools by replacement year', 'tools', 'replace_year', None, 'Tools', 'count')]}
 assert len(insights['charts']) == 22
 signature = [

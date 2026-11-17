@@ -205,13 +205,13 @@ insights = {"filters": [{"label": "Technician", "list": "tech"}, {"label": "Sour
     "charts": [
         CM('Marketing spend per month', 'column', 'cpb_month', 'spend', 'Marketing spend'), CB('Marketing spend by source', 'marketing', 'source', 'spend', 'Spend'), CB('Calls by source', 'marketing', 'source', 'calls', 'Calls'),
         CB('Booked jobs by source', 'marketing', 'source', 'booked', 'Booked jobs'), CB('Revenue by source', 'marketing', 'source', 'revenue', 'Revenue'),
-        CM('Cost per booked job per month', 'line', 'cpb_month', 'cost_per_booked', 'Cost per booked job', 'avg'), CM('Revenue per spend per month', 'line', 'cpb_month', 'revenue_per_spend', 'Revenue per spend', 'avg'),
+        CM('Cost per booked job per month', 'column', 'cpb_month', 'cost_per_booked', 'Cost per booked job', 'avg'), CM('Revenue per spend per month', 'column', 'cpb_month', 'revenue_per_spend', 'Revenue per spend', 'avg'),
         CM('Calls from marketing per month', 'column', 'src_month', 'calls', 'Calls'), CM('Reviews received per month', 'column', 'rev_month', 'reviews', 'Reviews received'), CM('Review requests per month', 'column', 'rev_month', 'requests', 'Requests sent'),
         CB('Reviews by technician', 'reviews', 'technician', 'reviews_received', 'Reviews received'), CM('Referrals per month', 'column', 'rev_month', 'referrals', 'Referrals'), CB('Referrals by technician', 'reviews', 'technician', 'referrals', 'Referrals'),
-        CM('Review conversion per month', 'line', 'rev_month', 'conversion', 'Jobs to reviews', 'avg'), CB('Renewals by status', 'dates', 'status', None, 'Renewals', 'count'), CB('Renewals by item', 'dates', 'item', None, 'Renewals', 'count'),
+        CM('Review conversion per month', 'column', 'rev_month', 'conversion', 'Jobs to reviews', 'avg'), CB('Renewals by status', 'dates', 'status', None, 'Renewals', 'count'), CB('Renewals by item', 'dates', 'item', None, 'Renewals', 'count'),
         CM('Renewal cost per month', 'column', 'ren_budget', 'cost', 'Renewal cost'), CM('Renewals due by month', 'column', 'ren_budget', 'due', 'Renewals due'),
-        CB('Scorecard gap to target by measure', 'scorecard', 'measure', 'gap_pct', 'Gap, % of target', 'avg'), CM('Margin percent per month', 'line', 'hist', 'margin', 'Job margin', 'avg'),
-        CM('Utilisation per month', 'line', 'hist', 'utilisation', 'Utilisation', 'avg'), CM('Cash cover per month', 'line', 'hist', 'cash_cover', 'Cash cover, months', 'avg')]}
+        CB('Scorecard gap to target by measure', 'scorecard', 'measure', 'gap_pct', 'Gap, % of target', 'avg'), CM('Margin percent per month', 'column', 'hist', 'margin', 'Job margin', 'avg'),
+        CM('Utilisation per month', 'column', 'hist', 'utilisation', 'Utilisation', 'avg'), CM('Cash cover per month', 'column', 'hist', 'cash_cover', 'Cash cover, months', 'avg')]}
 assert len(insights['charts']) == 22
 signature = [
     {"name": "Lead Source Ranker", "why": "every source ranked by revenue per spend with a keep, renegotiate or drop verdict and the money moved if the weakest is cut", "where": "Lead Source Ranker"},

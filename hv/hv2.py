@@ -222,26 +222,26 @@ insights = {"filters": [{"label": "Technician", "list": "tech"}, {"label": "Job 
     "charts": [
         CHART('Estimates per month', 'column', 'month', [AGG('count', 'estimates', date='estimates.date', label='Estimates')]),
         CHART('Estimates won per month', 'column', 'month', [AGG('count', 'estimates', date='estimates.date', where=[OW], label='Won')]),
-        CHART('Close rate per month', 'line', 'month', [AGG('avg', 'estimates', 'estimates.won_flag', date='estimates.date', label='Close rate')]),
+        CHART('Close rate per month', 'column', 'month', [AGG('avg', 'estimates', 'estimates.won_flag', date='estimates.date', label='Close rate')]),
         CHART('Estimates by outcome', 'bar', 'estimates.outcome', [AGG('count', 'estimates', label='Estimates')]),
         CHART('Estimates by option chosen', 'bar', 'estimates.option_chosen', [AGG('count', 'estimates', label='Estimates')]),
         CHART('Estimates by job type', 'bar', 'estimates.job_type', [AGG('count', 'estimates', label='Estimates')]),
         CHART('Estimates by technician', 'bar', 'estimates.technician', [AGG('count', 'estimates', label='Estimates')]),
         CHART('Lost estimates by reason', 'bar', 'estimates.lost_reason', [AGG('count', 'estimates', where=[('outcome', '=', LOST)], label='Lost')]),
         CHART('Lost value per month', 'column', 'month', [AGG('sum', 'estimates', 'estimates.lost_value', date='estimates.date', label='Lost value')]),
-        CHART('Average ticket won per month', 'line', 'month', [AGG('avg', 'estimates', 'estimates.price_won', date='estimates.date', where=[OW], label='Average ticket')]),
+        CHART('Average ticket won per month', 'column', 'month', [AGG('avg', 'estimates', 'estimates.price_won', date='estimates.date', where=[OW], label='Average ticket')]),
         CHART('Open estimate value by technician', 'bar', 'estimates.technician', [AGG('sum', 'estimates', 'estimates.value_open', label='Open value')]),
         CHART('Price book lines by job type', 'bar', 'price_book.job_type', [AGG('count', 'price_book', label='Lines')]),
         CHART('Price book margin by job type', 'bar', 'price_book.job_type', [AGG('avg', 'price_book', 'price_book.margin', label='Margin')]),
         CHART('Price book lines by option', 'bar', 'price_book.tier', [AGG('count', 'price_book', label='Lines')]),
         CHART('Supplier price changes per month', 'column', 'month', [AGG('count', 'price_changes', date='price_changes.date', label='Changes')]),
         CHART('Supplier price change by supplier', 'bar', 'price_changes.supplier', [AGG('avg', 'price_changes', 'price_changes.rise', label='Average rise')]),
-        CHART('Price book margin per month', 'line', 'month', [AGG('avg', 'est_months', 'est_months.book_margin', date='est_months.month', label='Price book margin')]),
+        CHART('Price book margin per month', 'column', 'month', [AGG('avg', 'est_months', 'est_months.book_margin', date='est_months.month', label='Price book margin')]),
         CHART('Diagnostic visits per month', 'column', 'month', [AGG('sum', 'diag_months', 'diag_months.visits', date='diag_months.month', label='Visits')]),
-        CHART('Diagnostic conversion per month', 'line', 'month', [AGG('avg', 'diag_months', 'diag_months.conversion', date='diag_months.month', label='Conversion')]),
+        CHART('Diagnostic conversion per month', 'column', 'month', [AGG('avg', 'diag_months', 'diag_months.conversion', date='diag_months.month', label='Conversion')]),
         CHART('Estimate value per month', 'column', 'month', [AGG('sum', 'estimates', 'estimates.est_value', date='estimates.date', label='Estimate value')]),
         CHART('Value won by job type', 'bar', 'estimates.job_type', [AGG('sum', 'estimates', 'estimates.price_won', label='Value won')]),
-        CHART('Options offered per month', 'line', 'month', [AGG('avg', 'estimates', 'estimates.options_offered', date='estimates.date', label='Options offered')])]}
+        CHART('Options offered per month', 'column', 'month', [AGG('avg', 'estimates', 'estimates.options_offered', date='estimates.date', label='Options offered')])]}
 assert len(insights['charts']) == 22
 
 signature = [

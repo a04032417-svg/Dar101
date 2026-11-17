@@ -227,7 +227,7 @@ insights = {"filters": [{"label": "Category", "list": "category"}, {"label": "Pa
         CHART('Committed by month booked', 'column', 'month', [AG('sum', 'vendors', 'vendors.contract_total', date='vendors.booked_on', label='Contract total')]),
         CHART('Payments due by month', 'column', 'month', [AG('sum', 'schedule', 'schedule.amount_due', date='schedule.due_date', label='Payments due')]),
         CHART('Payments made by month', 'column', 'month', [AG('sum', 'payments', 'payments.amount', date='payments.date', label='Payments made')]),
-        CHART('Cash closing by month', 'line', 'month', [AG('sum', 'cash', 'cash.closing', date='cash.month', label='Closing cash')]),
+        CHART('Cash closing by month', 'column', 'month', [AG('sum', 'cash', 'cash.closing', date='cash.month', label='Closing cash')]),
         CHART('Savings and family transfers by month', 'column', 'month', [AG('sum', 'cash', 'cash.savings_in', date='cash.month', label='Savings'), AG('sum', 'cash', 'cash.family_in', date='cash.month', label='Family transfers')]),
         CHART('Funding by source', 'bar', 'funding.source', [AG('sum', 'funding', 'funding.amount', label='Amount')]),
         CHART('Funding by status', 'bar', 'funding.status', [AG('sum', 'funding', 'funding.amount', label='Amount')]),

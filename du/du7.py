@@ -280,7 +280,7 @@ insights = {"filters": [{"label": "Source", "list": "source"}, {"label": "Class 
         CHART('Class income per month', 'column', 'month', [AGG('sum', 'class_sessions', 'class_sessions.income', date='class_sessions.date', label='Class income')]),
         CHART('Class income by type', 'bar', 'class_sessions.class', [AGG('sum', 'class_sessions', 'class_sessions.income', label='Class income')]),
         CHART('Class sign-ups per month', 'column', 'month', [AGG('sum', 'class_sessions', 'class_sessions.signed_up', date='class_sessions.date', label='Sign-ups'), AGG('sum', 'class_sessions', 'class_sessions.seats', date='class_sessions.date', label='Seats')]),
-        CHART('Class attendees per month', 'line', 'month', [AGG('sum', 'class_sessions', 'class_sessions.attended', date='class_sessions.date', label='Attended')]),
+        CHART('Class attendees per month', 'column', 'month', [AGG('sum', 'class_sessions', 'class_sessions.attended', date='class_sessions.date', label='Attended')]),
         CHART('Class new clients per month', 'column', 'month', [AGG('sum', 'class_sessions', 'class_sessions.new_clients', date='class_sessions.date', label='New clients')]),
         CHART('Reviews asked per month', 'column', 'month', [AGG('sum', 'review_month', 'review_month.asked', date='review_month.month', label='Asked')]),
         CHART('Reviews received per month', 'column', 'month', [AGG('sum', 'review_month', 'review_month.received', date='review_month.month', label='Received')]),

@@ -220,7 +220,7 @@ insights = {"filters": [{"label": "Technician", "list": "tech"}, {"label": "Job 
         MO('Clawbacks per month', 'column', 'comm_stmts', 'month', 'clawback', 'Clawbacks'), BY('Revenue per day by technician', 'bar', 'scorecard', 'technician', 'avg', 'rev_day', 'Revenue per day', P13W),
         BY('Ticket by technician', 'bar', 'scorecard', 'technician', 'avg', 'ticket', 'Average ticket', P13W), BY('Close rate by technician', 'bar', 'scorecard', 'technician', 'avg', 'close_rate', 'Close rate', P13W),
         BY('Callback rate by technician', 'bar', 'scorecard', 'technician', 'avg', 'callback_rate', 'Callback rate', P13W), MO('Reviews received per month', 'column', 'reviews', 'month', 'reviews_received', 'Reviews received'),
-        CHART('Booked hours against available hours per month', 'line', 'month', [AGG('sum', 'capacity_week', 'capacity_week.booked_hours', date='capacity_week.week', label='Booked and expected hours'),
+        CHART('Booked hours against available hours per month', 'column', 'month', [AGG('sum', 'capacity_week', 'capacity_week.booked_hours', date='capacity_week.week', label='Booked and expected hours'),
               AGG('sum', 'capacity_week', 'capacity_week.available_hours', date='capacity_week.week', label='Available hours')]),
         MO('Hours needed by month', 'column', 'season_hours', 'month', 'hours_needed', 'Hours needed'), MO('Idle cost per month', 'column', 'timesheets', 'week', 'idle_cost', 'Idle cost'),
         BY('Pay by pay type', 'bar', 'payroll', 'pay_type', 'sum', 'total', 'Payroll total')]}

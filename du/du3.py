@@ -240,7 +240,7 @@ insights = {"filters": [{"label": "Package", "list": "package"}, {"label": "Paym
         CHART('Postpartum income per month', 'column', 'month', [AGG('sum', 'pnl', 'pnl.postpartum_income', date='pnl.month', label='Postpartum income')]),
         CHART('Hour packs bought per month', 'column', 'month', [AGG('count', 'packs', date='packs.bought_on', label='Hour packs')]),
         CHART('Hour packs by package', 'bar', 'packs.package', [AGG('count', 'packs', label='Hour packs')]),
-        CHART('Payments per month', 'line', 'month', [AGG('count', 'payments', date='payments.date', label='Payments')])]}
+        CHART('Payments per month', 'column', 'month', [AGG('count', 'payments', date='payments.date', label='Payments')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 
 signature = [

@@ -238,7 +238,7 @@ insights = {"filters": [{"label": "Event", "list": "event"}, {"label": "Honeymoo
         CHART('Honeymoon amount by kind and option', 'bar', 'hcomp.kind', [AG('sum', 'hcomp', 'hcomp.option_a', label='Option A'), AG('sum', 'hcomp', 'hcomp.option_b', label='Option B')]),
         CHART('Honeymoon option A against B', 'bar', 'hm.option', [AG('sum', 'hm', 'hm.amount', label='Total')]),
         CHART('Honeymoon items by status', 'bar', 'hm.status', [AG('count', 'hm', label='Items')]),
-        CHART('Honeymoon running total by month', 'line', 'month', [AG('sum', 'hfm', 'hfm.closing', date='hfm.month', label='Received and promised')]),
+        CHART('Honeymoon running total by month', 'column', 'month', [AG('sum', 'hfm', 'hfm.closing', date='hfm.month', label='Received and promised')]),
         CHART('Honeymoon fund by month', 'column', 'month', [AG('sum', 'hfm', 'hfm.savings', date='hfm.month', label='Savings'), AG('sum', 'hfm', 'hfm.cash_gifts', date='hfm.month', label='Cash gifts')]),
         CHART('Honeymoon fund by source', 'bar', 'hf.source', [AG('sum', 'hf', 'hf.amount', label='Amount')]),
         CHART('Honeymoon fund by status', 'bar', 'hf.status', [AG('sum', 'hf', 'hf.amount', label='Amount')]),

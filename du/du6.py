@@ -260,9 +260,9 @@ insights = {"filters": [{"label": "Paid person", "list": "payee"}, {"label": "Pa
         CHART('Clients by doula and status', 'bar', 'clients.doula', [AGG('count', 'clients', where=[('status', '=', tok('cstatus', s))], label=s) for s in ('Booked', 'On call', 'Postpartum care', 'Completed')]),
         CHART('Births attended by doula', 'bar', 'births.doula', [AGG('count', 'births', label='Births attended')]),
         CHART('Visit hours by doula', 'bar', 'visits.doula', [AGG('sum', 'visits', 'visits.hours', label='Visit hours')]),
-        CHART('Owner own-client hours per month', 'line', 'month', [AGG('sum', 'owner_time', 'owner_time.own_client_hours', date='owner_time.week', label='Own client hours')]),
-        CHART('Owner management hours per month', 'line', 'month', [AGG('sum', 'owner_time', 'owner_time.management_hours', date='owner_time.week', label='Management hours')]),
-        CHART('Owner admin hours per month', 'line', 'month', [AGG('sum', 'owner_time', 'owner_time.admin_hours', date='owner_time.week', label='Admin hours')]),
+        CHART('Owner own-client hours per month', 'column', 'month', [AGG('sum', 'owner_time', 'owner_time.own_client_hours', date='owner_time.week', label='Own client hours')]),
+        CHART('Owner management hours per month', 'column', 'month', [AGG('sum', 'owner_time', 'owner_time.management_hours', date='owner_time.week', label='Management hours')]),
+        CHART('Owner admin hours per month', 'column', 'month', [AGG('sum', 'owner_time', 'owner_time.admin_hours', date='owner_time.week', label='Admin hours')]),
         CHART('Unpaid pay per month', 'column', 'month', [AGG('sum', 'pay', 'pay.pay_due', date='pay.month', where=[('status', '=', DUE)], label='Pay not paid yet')]),
         CHART('Paid amount per month', 'column', 'month', [AGG('sum', 'pay', 'pay.paid_amount', date='pay.month', label='Paid')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6

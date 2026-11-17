@@ -255,7 +255,7 @@ insights = {"filters": [{"label": "Doula", "list": "doula"}, {"label": "Service 
         CHART('Contracts by status', 'bar', 'contracts.status', [AGG('count', 'contracts', label='Contracts')]),
         CHART('Income booked by package', 'bar', 'contracts.package', [AGG('sum', 'contracts', 'contracts.price', label='Income booked')]),
         CHART('Income booked per month by kind', 'column', 'month', [SER('Birth', 'Birth'), SER('Postpartum', 'Postpartum'), SER('Combined', 'Combined'), SER('Add-on', 'Add-on')]),
-        CHART('Average price per month', 'line', 'month', [AGG('avg', 'sales_month', 'sales_month.avg_price', date='sales_month.month', label='Average price')]),
+        CHART('Average price per month', 'column', 'month', [AGG('avg', 'sales_month', 'sales_month.avg_price', date='sales_month.month', label='Average price')]),
         CHART('Add-ons sold by add-on', 'bar', 'addons.addon', [AGG('count', 'addons', label='Add-ons sold')]),
         CHART('Add-on income per month', 'column', 'month', [AGG('sum', 'addons', 'addons.price', date='addons.date', label='Add-on income')]),
         CHART('Add-ons sold by doula', 'bar', 'addons.doula', [AGG('count', 'addons', label='Add-ons sold')]),
@@ -268,7 +268,7 @@ insights = {"filters": [{"label": "Doula", "list": "doula"}, {"label": "Service 
         CHART('Mileage cost by area', 'bar', 'hours.area', [AGG('sum', 'hours', 'hours.mileage_cost', label='Mileage cost')]),
         CHART('Discount given per month', 'column', 'month', [AGG('sum', 'sales_month', 'sales_month.discount_given', date='sales_month.month', label='Discount given')]),
         CHART('Contracts per postpartum pack', 'bar', 'pp_price.package', [AGG('avg', 'pp_price', 'pp_price.contracts', label='Contracts')]),
-        CHART('Combined contracts per month', 'line', 'month', [AGG('count', 'contracts', date='contracts.signed_on', where=[('kind', '=', tok('ckind', 'Combined'))], label='Combined contracts')]),
+        CHART('Combined contracts per month', 'column', 'month', [AGG('count', 'contracts', date='contracts.signed_on', where=[('kind', '=', tok('ckind', 'Combined'))], label='Combined contracts')]),
         CHART('Clients by kind', 'bar', 'clients.kind', [AGG('count', 'clients', label='Clients')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 

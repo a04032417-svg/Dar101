@@ -211,13 +211,13 @@ insights = {"filters": [{"label": "Technician", "list": "tech"}, {"label": "Area
                {"title": "Jobs without a repeat visit", "num": AGG('count', 'jobs', where=[NCJ, ('repeat', '<>', POSS)]), "den": AGG('count', 'jobs', where=[NCJ])}],
     "charts": [
         CM('Calls per month', 'column', 'calls', 'Calls'), CNT('Calls by source', 'calls', 'source'), CNT('Calls by call type', 'calls', 'call_type'), CNT('Calls by outcome', 'calls', 'outcome'), CNT('Calls by weekday', 'calls', 'weekday'),
-        CNT('Calls by who answered', 'calls', 'answered_by'), CM('Booking rate per month', 'line', 'booking_rate', 'Booking rate', 'avg'), CM('Unbooked call value per month', 'column', 'lost_value', 'Unbooked call value'),
-        CM('Emergency calls per month', 'line', 'emergency_calls', 'Emergency calls'), CM('Jobs per month', 'column', 'jobs', 'Jobs'), CNT('Jobs by job type', 'jobs', 'job_type', [NCJ]), CNT('Jobs by status', 'jobs', 'status'),
+        CNT('Calls by who answered', 'calls', 'answered_by'), CM('Booking rate per month', 'column', 'booking_rate', 'Booking rate', 'avg'), CM('Unbooked call value per month', 'column', 'lost_value', 'Unbooked call value'),
+        CM('Emergency calls per month', 'column', 'emergency_calls', 'Emergency calls'), CM('Jobs per month', 'column', 'jobs', 'Jobs'), CNT('Jobs by job type', 'jobs', 'job_type', [NCJ]), CNT('Jobs by status', 'jobs', 'status'),
         CNT('Jobs by technician', 'jobs', 'technician', [NCJ]), CNT('Jobs by van', 'jobs', 'van', [NCJ]), CNT('Jobs by area', 'jobs', 'area', [NCJ]), CNT('Jobs by site type', 'jobs', 'site_type', [NCJ]),
-        CNT('Jobs by weekday', 'jobs', 'weekday', [NCJ]), CM('Drive hours per month', 'line', 'drive_hours', 'Drive hours'), CNT('Permits by status', 'permits', 'status'),
+        CNT('Jobs by weekday', 'jobs', 'weekday', [NCJ]), CM('Drive hours per month', 'column', 'drive_hours', 'Drive hours'), CNT('Permits by status', 'permits', 'status'),
         CHART('Permits per month', 'column', 'month', [AGG('count', 'permits', date='permits.applied_on', label='Permits applied')]),
         CHART('Days waiting for a permit by job type', 'bar', 'permit_wait.job_type', [AGG('avg', 'permit_wait', 'permit_wait.avg_approve', label='Average days to approve')]),
-        CM('Possible callbacks per month', 'line', 'possible_callbacks', 'Possible callbacks')]}
+        CM('Possible callbacks per month', 'column', 'possible_callbacks', 'Possible callbacks')]}
 assert len(insights['charts']) == 22
 signature = [
     {"name": "Booking Rate Analyzer", "why": "booking rate by lead source and by who answered, with the value of unbooked calls and a verdict against your target", "where": "Booking Rate Analyzer"},

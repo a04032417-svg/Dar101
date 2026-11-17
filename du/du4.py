@@ -260,7 +260,7 @@ insights = {"filters": [{"label": "Doula", "list": "bdoula"}, {"label": "Backup 
         CHART('Time off by kind', 'bar', 'timeoff.kind', [AGG('count', 'timeoff', label='Blocks')]),
         CHART('Time-off days per month', 'column', 'month', [AGG('sum', 'timeoff', 'timeoff.days', date='timeoff.start', label='Days off')]),
         CHART('Time off by holder', 'bar', 'timeoff.holder', [AGG('count', 'timeoff', label='Blocks')]),
-        CHART('Contact hours per month', 'line', 'month', [AGG('sum', 'oncall', 'oncall.contact_hours', date='oncall.oncall_start', label='Contact hours')]),
+        CHART('Contact hours per month', 'column', 'month', [AGG('sum', 'oncall', 'oncall.contact_hours', date='oncall.oncall_start', label='Contact hours')]),
         CHART('Contact hours by doula', 'bar', 'oncall.doula', [AGG('sum', 'oncall', 'oncall.contact_hours', label='Contact hours')]),
         CHART('Windows attended by doula', 'bar', 'oncall.doula', [AGG('count', 'oncall', where=[('attended_on', '>', 0)], label='Windows attended')]),
         CHART('Due dates by source', 'bar', 'clients.source', [AGG('count', 'clients', label='Clients')]),
