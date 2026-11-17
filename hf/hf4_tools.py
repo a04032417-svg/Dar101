@@ -24,7 +24,7 @@ for key_, name, order, sched, title, hint in (
     tools.append(TOOL(key_, name, title, hint, [I('look', 'Months to look ahead', 12, 'int')], [
         O('Payment each month, all debts', 'money', F1(order('budget'))), O('Debt paid first', 'text', F1(order('debt'))), O('Cleared in month', 'int', F1(order('payoff_month'))),
         O('Months to debt-free', 'int', F1(order('months_all'))), O('Debt-free date', 'date', F1(order('free_date'))), O('Total interest', 'money', F1(order('interest_all'))),
-        O('Balance after the months you chose', 'money', 'IFERROR(INDEX(%s,{in:look}),0)' % sched('balance')), O('Debts left after those months', 'int', 'IFERROR(INDEX(%s,{in:look}),0)' % sched('debts_left')),
+        O('Balance after the months you chose', 'money', 'IFERROR(INDEX(%s,{in:look})+0,0)' % sched('balance')), O('Debts left after those months', 'int', 'IFERROR(INDEX(%s,{in:look})+0,0)' % sched('debts_left')),
         O('Verdict', 'text', VERD_FREE(F1(order('months_all'))))],
         GR('What if you look ahead', ('6 months', {'look': 6}), ('12 months', {'look': 12}), ('24 months', {'look': 24}), ('36 months', {'look': 36}), ('48 months', {'look': 48}))))
 # 3 snowball against avalanche -----------------------------------------------------------------------------------------------------------------
@@ -34,7 +34,7 @@ tools.append(TOOL('snow_vs_aval', 'Snowball Against Avalanche', 'Which order cos
     O('Avalanche: debt-free date', 'date', F1(AV('free_date'))), O('Snowball: debt-free date', 'date', F1(SN('free_date'))),
     O('Avalanche: total interest', 'money', F1(AV('interest_all'))), O('Snowball: total interest', 'money', F1(SN('interest_all'))), O('Interest saved by avalanche', 'money', '%s-%s' % (F1(SN('interest_all')), F1(AV('interest_all')))),
     O('Avalanche clears first', 'text', F1(AV('debt'))), O('Snowball clears first', 'text', F1(SN('debt'))),
-    O('Avalanche: balance after the months you chose', 'money', 'IFERROR(INDEX(%s,{in:look}),0)' % SA('balance')), O('Snowball: balance after the months you chose', 'money', 'IFERROR(INDEX(%s,{in:look}),0)' % SS('balance')),
+    O('Avalanche: balance after the months you chose', 'money', 'IFERROR(INDEX(%s,{in:look})+0,0)' % SA('balance')), O('Snowball: balance after the months you chose', 'money', 'IFERROR(INDEX(%s,{in:look})+0,0)' % SS('balance')),
     O('Verdict', 'text', 'IF(ABS(%s-%s)<1,%s,IF(%s<%s,%s,%s))' % (F1(AV('interest_all')), F1(SN('interest_all')), vd('Both cost the same'), F1(AV('interest_all')), F1(SN('interest_all')), vd('Avalanche costs less interest'), vd('Snowball costs less interest')))],
     GR('What if you look ahead', ('6 months', {'look': 6}), ('12 months', {'look': 12}), ('24 months', {'look': 24}), ('36 months', {'look': 36}))))
 # 4 extra payment test -----------------------------------------------------------------------------------------------------------------------------

@@ -267,7 +267,7 @@ insights = {"filters": [{"label": "Person", "list": "person"}, {"label": "Purcha
         CHART('Deductions by category', 'bar', 'deductions.category', [AM('deductions', 'amount', label='Recorded')]),
         CHART('Deductions by person', 'bar', 'deductions.person', [AM('deductions', 'amount', label='Recorded')]),
         CHART('Receipts kept and missing by category', 'bar', 'ded_cat.category', [AM('ded_cat', 'kept', label='Receipts kept'), AM('ded_cat', 'missing', label='Receipts missing')]),
-        CHART('Tax set-aside per month', 'line', 'month', [AM('set_aside', 'moved', 'date', 'Moved to the set-aside')]),
+        CHART('Tax set-aside per month', 'column', 'month', [AM('set_aside', 'moved', 'date', 'Moved to the set-aside')]),
         CHART('Estimated payments per year', 'bar', 'est_payments.tax_year', [AM('est_payments', 'payment', label='Payments')]),
         CHART('Year income per month', 'stacked', 'month', [AM('year_months', 'paycheck', 'month', 'Partner 1 paychecks'), AM('year_months', 'other_income', 'month', 'Freelance and other')]),
         CHART('Year spending by group', 'bar', 'category_changes.group', [AM('category_changes', 'this_year', label='Last 12 months'), AM('category_changes', 'last_year', label='The 12 months before')]),

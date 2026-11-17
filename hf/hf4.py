@@ -241,7 +241,7 @@ insights = {"filters": [{"label": "Person", "list": "person"}, {"label": "Debt k
         {"title": "Debts paid on time", "num": AGG('count', 'debt_payments', where=[('ontime', '=', 1)]), "den": AGG('count', 'debt_payments')},
         {"title": "Months at or above the planned extra", "num": AGG('count', 'interest_month', where=[('extra_met', '=', 1)]), "den": AGG('count', 'interest_month')}],
     "charts": [
-        CHART('Total debt per month', 'line', 'month', [AM('history', 'total_debt', 'month', 'Total debt')]),
+        CHART('Total debt per month', 'column', 'month', [AM('history', 'total_debt', 'month', 'Total debt')]),
         CHART('Debt by type per month', 'stacked', 'month', [AM('history', 'cards', 'month', 'Card balances'), AM('history', 'loans', 'month', 'Loan balances')]),
         CHART('Balance by debt', 'bar', 'extra_plan.debt', [AM('extra_plan', 'balance', label='Balance')]),
         CHART('Interest each month by debt', 'bar', 'min_only.debt', [AM('min_only', 'monthly_interest', label='Interest a month')]),
@@ -251,7 +251,7 @@ insights = {"filters": [{"label": "Person", "list": "person"}, {"label": "Debt k
         CHART('Payments by debt, last 12 months', 'bar', 'pay_by_debt.debt', [AM('pay_by_debt', 'interest12', label='Interest'), AM('pay_by_debt', 'principal12', label='Principal')]),
         CHART('Rate by debt', 'bar', 'min_only.debt', [AM('min_only', 'rate', label='Yearly rate', agg='avg')]),
         CHART('Minimum payment by debt', 'bar', 'min_only.debt', [AM('min_only', 'min_payment', label='Minimum payment')]),
-        CHART('Minimums share of take-home per month', 'line', 'month', [AM('mins_pay', 'share', 'month', 'Share of take-home', agg='avg')]),
+        CHART('Minimums share of take-home per month', 'column', 'month', [AM('mins_pay', 'share', 'month', 'Share of take-home', agg='avg')]),
         CHART('Snowball balance by plan year', 'bar', 'sched_snow.planyear', [AM('sched_snow', 'balance', label='Average balance', agg='avg')]),
         CHART('Avalanche balance by plan year', 'bar', 'sched_aval.planyear', [AM('sched_aval', 'balance', label='Average balance', agg='avg')]),
         CHART('Interest by payoff plan', 'bar', 'compare.plan', [AM('compare', 'interest', label='Total interest')]),
@@ -263,7 +263,7 @@ insights = {"filters": [{"label": "Person", "list": "person"}, {"label": "Debt k
         CHART('Months to debt-free by payoff plan', 'bar', 'compare.plan', [AM('compare', 'months', label='Months')]),
         CHART('Interest saved by extra payment step', 'bar', 'extra_test.step', [AM('extra_test', 'interest_saved', label='Interest saved')]),
         CHART('Debt balance by kind', 'bar', 'debts.kind', [AM('debts', 'balance', label='Balance')]),
-        CHART('Net worth and total debt per month', 'line', 'month', [AM('history', 'net_worth', 'month', 'Net worth'), AM('history', 'total_debt', 'month', 'Total debt')])]}
+        CHART('Net worth and total debt per month', 'column', 'month', [AM('history', 'net_worth', 'month', 'Net worth'), AM('history', 'total_debt', 'month', 'Total debt')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 
 signature = [

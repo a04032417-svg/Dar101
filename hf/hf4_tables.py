@@ -107,9 +107,9 @@ tables.append(T('networth', 'Net worth', 'Net Worth by Account and Month',
 # ---- the payoff engine: order tables with a closed-form cascade (the freed payments roll to the next debt) -------------------------
 def slot_vals(t, j, W=None, scen=False):
     """expressions of slot j: balance (less a windfall), monthly rate, minimum, payment while first"""
-    B = 'INDEX(%s,%d)' % (R(t, 'bal'), j) if W is None else 'MAX(0,INDEX(%s,%d)-MAX(0,%s-INDEX(%s,%d)))' % (R(t, 'bal'), j, W, R(t, 'bcum'), j)
-    P = 'INDEX(%s,%d)' % (R(t, 'pay'), j) if not scen else '(INDEX(%s,%d)+{col:xtr}+INDEX(%s,%d))' % (R(t, 'mnp'), j, R(t, 'mroll'), j)
-    return dict(B=B, r='INDEX(%s,%d)' % (R(t, 'rm'), j), m='INDEX(%s,%d)' % (R(t, 'mnp'), j), P=P)
+    B = 'IFERROR(INDEX(%s,%d)+0,0)' % (R(t, 'bal'), j) if W is None else 'MAX(0,IFERROR(INDEX(%s,%d)+0,0)-MAX(0,%s-IFERROR(INDEX(%s,%d)+0,0)))' % (R(t, 'bal'), j, W, R(t, 'bcum'), j)
+    P = 'IFERROR(INDEX(%s,%d)+0,0)' % (R(t, 'pay'), j) if not scen else '(IFERROR(INDEX(%s,%d)+0,0)+{col:xtr}+IFERROR(INDEX(%s,%d)+0,0))' % (R(t, 'mnp'), j, R(t, 'mroll'), j)
+    return dict(B=B, r='MAX(IFERROR(INDEX(%s,%d)+0,0),0.000000001)' % (R(t, 'rm'), j), m='IFERROR(INDEX(%s,%d)+0,0)' % (R(t, 'mnp'), j), P=P)
 
 
 def RAW(B, r, m, prev): return '(%s*(1+%s)^%s-%s*((1+%s)^%s-1)/%s)' % (B, r, prev, m, r, prev, r)
@@ -141,7 +141,7 @@ def order_table(t, sheet, title, hint, rank, other):
         z = ZV(B, r, m, prev)
         ch.append(CA('c%d' % j, 'Work: cleared in month, slot %d' % j, 'int', G('slot', 'MIN(999,%s+IF(%s=0,0,IF(%s<=%s*%s+0.005,999,%s)))' % (prev, z, Pj, z, r, NP(r, Pj, z))), 9))
     cs = ','.join('{col:c%d}' % j for j in range(1, NS + 1))
-    cols = [C('slot', 'Order', 'int', 7, required=True),
+    cols0 = [C('slot', 'Order', 'int', 7, required=True),
         CA('debt', 'Debt', 'text', pick('debt', '""'), 20), CA('bal', 'Balance', 'money', pick('balance'), 11),
         CA('rate', 'Yearly rate', 'pct', pick('rate'), 9), CA('mnp', 'Minimum payment', 'money', pick('min_payment'), 11),
         CA('rm', 'Monthly rate', 'pct', 'MAX({col:rate}/12,0.000000001)', 9),
@@ -164,6 +164,7 @@ def order_table(t, sheet, title, hint, rank, other):
         CA('other_months', 'Months, other method', 'int', 'MAX(%s)' % R(other, 'payoff_month'), 10), CA('other_interest', 'Interest, other method', 'money', 'SUM(%s)' % R(other, 'interest'), 12),
         CA('saved_interest', 'Interest less than the other method', 'money', '{col:other_interest}-{col:interest_all}', 13), CA('saved_months', 'Months less than the other method', 'int', '{col:other_months}-{col:months_all}', 11),
         HH(), N1(), N2(), PHC('p1', 'Partner 1 phone'), PHC('p2', 'Partner 2 phone')]
+    cols = [c if (c['key'] in ('slot', 'debt') or c.get('type') != 'calc' or not isinstance(c.get('formula'), str)) else dict(c, formula=G('debt', c['formula'])) for c in cols0]
     return T(t, sheet, title, hint, cols, D.slots_d(), 50, [A('payoff_month', '>= 999', 'bad')])
 
 
@@ -180,6 +181,7 @@ def BALX(t, nx):
 
 def sched_table(t, sheet, title, hint, order):
     Rt = lambda c: R(t, c)
+    G = lambda idc, body: 'IF(OR({col:month_no}="",{col:month_no}>MAX(%s)),"",%s)' % (R(order, 'payoff_month'), body)
     return T(t, sheet, title, hint, [
         C('month_no', 'Month number', 'int', 8, required=True), CA('month', 'Month', 'date', G('month_no', 'EDATE(%s,{col:month_no})' % MS), 11),
         CA('payment', 'Payment', 'money', G('month_no', '{col:interest}+{col:principal}'), 11),

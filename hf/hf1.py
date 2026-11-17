@@ -273,11 +273,11 @@ insights = {"filters": [{"label": "Person", "list": "person"}, {"label": "Income
         CHART('Income by source per month', 'stacked', 'month', [AGG('sum', 'income', 'income.net', date='income.month', where=[W('source', '=', tok('isource', s))], label=s) for s in ('Paycheck', 'Client A', 'Client B', 'Client C')]),
         CHART('Gross, deductions and net per month', 'column', 'month', [AGG('sum', 'income', 'income.gross', date='income.month', label='Gross'), AGG('sum', 'income', 'income.deductions', date='income.month', label='Deductions'), AGG('sum', 'income', 'income.net', date='income.month', label='Take-home')]),
         CHART('Windfalls per month', 'column', 'month', [AGG('sum', 'windfalls', 'windfalls.amount', date='windfalls.date', label='Windfalls')]),
-        CHART('Income against baseline per month', 'line', 'month', [AGG('sum', 'baseline', 'baseline.received', date='baseline.month', label='Received'), AGG('sum', 'baseline', 'baseline.baseline', date='baseline.month', label='Baseline')]),
-        CHART('Above-baseline income, running total', 'line', 'month', [AGG('sum', 'baseline', 'baseline.buffer', date='baseline.month', label='Running total')]),
+        CHART('Income against baseline per month', 'column', 'month', [AGG('sum', 'baseline', 'baseline.received', date='baseline.month', label='Received'), AGG('sum', 'baseline', 'baseline.baseline', date='baseline.month', label='Baseline')]),
+        CHART('Above-baseline income, running total', 'column', 'month', [AGG('sum', 'baseline', 'baseline.buffer', date='baseline.month', label='Running total')]),
         CHART('Expected pay per month, next 12', 'column', 'pay_rhythm.ahead', [AGG('sum', 'pay_rhythm', 'pay_rhythm.total_expected', label='Expected pay')]),
         CHART('Pay days per month, next 12', 'column', 'pay_rhythm.ahead', [AGG('sum', 'pay_rhythm', 'pay_rhythm.p1_days', label='Partner 1 pay days')]),
-        CHART('Joint balance at month end', 'line', 'month', [AGG('sum', 'glance', 'glance.joint_close', date='glance.month', label='Joint balance')]),
+        CHART('Joint balance at month end', 'column', 'month', [AGG('sum', 'glance', 'glance.joint_close', date='glance.month', label='Joint balance')]),
         CHART('Joint balance forecast by week, next 90 days', 'line', 'forecast.week', [AGG('avg', 'forecast', 'forecast.closing', label='Average closing balance')]),
         CHART('Bills due per month', 'column', 'month', [AGG('sum', 'bills_due', 'bills_due.amount', date='bills_due.month', label='Bills due')]),
         CHART('Bills due by category', 'bar', 'bills_due.category', [AGG('sum', 'bills_due', 'bills_due.amount', label='Bills due')]),
@@ -286,7 +286,7 @@ insights = {"filters": [{"label": "Person", "list": "person"}, {"label": "Income
                                                                  AGG('sum', 'budget', 'budget.p_save', date='budget.month', label='Savings'), AGG('sum', 'budget', 'budget.p_debt', date='budget.month', label='Debt')]),
         CHART('Planned by group, average per line', 'bar', 'budget.group', [AGG('avg', 'budget', 'budget.planned', label='Planned')]),
         CHART('Planned against actual spending per month', 'column', 'month', [AGG('sum', 'glance', 'glance.planned_spend', date='glance.month', label='Planned'), AGG('sum', 'glance', 'glance.spending', date='glance.month', label='Spent')]),
-        CHART('Savings planned per month', 'line', 'month', [AGG('sum', 'budget', 'budget.p_save', date='budget.month', label='Savings planned')]),
+        CHART('Savings planned per month', 'column', 'month', [AGG('sum', 'budget', 'budget.p_save', date='budget.month', label='Savings planned')]),
         CHART('Freelance invoices by status', 'bar', 'invoices.status', [AGG('count', 'invoices', label='Invoices')]),
         CHART('Freelance invoice amount per month', 'column', 'month', [AGG('sum', 'invoices', 'invoices.amount', date='invoices.issued', label='Invoiced')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6

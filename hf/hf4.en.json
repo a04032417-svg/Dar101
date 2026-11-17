@@ -6758,7 +6758,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IFERROR(INDEX({range:debts.balance},MATCH({col:slot},{range:debts.snow_rank},0)),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IFERROR(INDEX({range:debts.balance},MATCH({col:slot},{range:debts.snow_rank},0)),0))"
     },
     {
      "key": "rate",
@@ -6766,7 +6766,7 @@
      "type": "calc",
      "width": 9,
      "format": "pct",
-     "formula": "IFERROR(INDEX({range:debts.rate},MATCH({col:slot},{range:debts.snow_rank},0)),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IFERROR(INDEX({range:debts.rate},MATCH({col:slot},{range:debts.snow_rank},0)),0))"
     },
     {
      "key": "mnp",
@@ -6774,7 +6774,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IFERROR(INDEX({range:debts.min_payment},MATCH({col:slot},{range:debts.snow_rank},0)),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IFERROR(INDEX({range:debts.min_payment},MATCH({col:slot},{range:debts.snow_rank},0)),0))"
     },
     {
      "key": "rm",
@@ -6782,7 +6782,7 @@
      "type": "calc",
      "width": 9,
      "format": "pct",
-     "formula": "MAX({col:rate}/12,0.000000001)"
+     "formula": "IF({col:debt}=\"\",\"\",MAX({col:rate}/12,0.000000001))"
     },
     {
      "key": "tm",
@@ -6790,7 +6790,7 @@
      "type": "calc",
      "width": 10,
      "format": "int",
-     "formula": "IF({col:bal}>0,IF({col:mnp}>{col:bal}*{col:rm}+0.005,ROUNDUP(NPER({col:rm},-{col:mnp},{col:bal}),0),999),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:bal}>0,IF({col:mnp}>{col:bal}*{col:rm}+0.005,ROUNDUP(NPER({col:rm},-{col:mnp},{col:bal}),0),999),0))"
     },
     {
      "key": "mroll",
@@ -6798,7 +6798,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:slot}=\"\",0,SUMIFS({range:snow_order.mnp},{range:snow_order.slot},\"<\"&{col:slot}))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",0,SUMIFS({range:snow_order.mnp},{range:snow_order.slot},\"<\"&{col:slot})))"
     },
     {
      "key": "bcum",
@@ -6806,7 +6806,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:slot}=\"\",0,SUMIFS({range:snow_order.bal},{range:snow_order.slot},\"<\"&{col:slot}))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",0,SUMIFS({range:snow_order.bal},{range:snow_order.slot},\"<\"&{col:slot})))"
     },
     {
      "key": "pay",
@@ -6814,7 +6814,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:bal}>0,{col:mnp}+{set:extra_payment}+{col:mroll},0)"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:bal}>0,{col:mnp}+{set:extra_payment}+{col:mroll},0))"
     },
     {
      "key": "c1",
@@ -6822,7 +6822,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,0+IF(MAX(0,ROUND((INDEX({range:snow_order.bal},1)*(1+INDEX({range:snow_order.rm},1))^0-INDEX({range:snow_order.mnp},1)*((1+INDEX({range:snow_order.rm},1))^0-1)/INDEX({range:snow_order.rm},1)),2))=0,0,IF(INDEX({range:snow_order.pay},1)<=MAX(0,ROUND((INDEX({range:snow_order.bal},1)*(1+INDEX({range:snow_order.rm},1))^0-INDEX({range:snow_order.mnp},1)*((1+INDEX({range:snow_order.rm},1))^0-1)/INDEX({range:snow_order.rm},1)),2))*INDEX({range:snow_order.rm},1)+0.005,999,ROUNDUP(NPER(INDEX({range:snow_order.rm},1),-INDEX({range:snow_order.pay},1),MAX(0,ROUND((INDEX({range:snow_order.bal},1)*(1+INDEX({range:snow_order.rm},1))^0-INDEX({range:snow_order.mnp},1)*((1+INDEX({range:snow_order.rm},1))^0-1)/INDEX({range:snow_order.rm},1)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,0+IF(MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},1)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001))^0-IFERROR(INDEX({range:snow_order.mnp},1)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001))^0-1)/MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:snow_order.pay},1)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},1)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001))^0-IFERROR(INDEX({range:snow_order.mnp},1)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001))^0-1)/MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001),-IFERROR(INDEX({range:snow_order.pay},1)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},1)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001))^0-IFERROR(INDEX({range:snow_order.mnp},1)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001))^0-1)/MAX(IFERROR(INDEX({range:snow_order.rm},1)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c2",
@@ -6830,7 +6830,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c1}+IF(MAX(0,ROUND((INDEX({range:snow_order.bal},2)*(1+INDEX({range:snow_order.rm},2))^{col:c1}-INDEX({range:snow_order.mnp},2)*((1+INDEX({range:snow_order.rm},2))^{col:c1}-1)/INDEX({range:snow_order.rm},2)),2))=0,0,IF(INDEX({range:snow_order.pay},2)<=MAX(0,ROUND((INDEX({range:snow_order.bal},2)*(1+INDEX({range:snow_order.rm},2))^{col:c1}-INDEX({range:snow_order.mnp},2)*((1+INDEX({range:snow_order.rm},2))^{col:c1}-1)/INDEX({range:snow_order.rm},2)),2))*INDEX({range:snow_order.rm},2)+0.005,999,ROUNDUP(NPER(INDEX({range:snow_order.rm},2),-INDEX({range:snow_order.pay},2),MAX(0,ROUND((INDEX({range:snow_order.bal},2)*(1+INDEX({range:snow_order.rm},2))^{col:c1}-INDEX({range:snow_order.mnp},2)*((1+INDEX({range:snow_order.rm},2))^{col:c1}-1)/INDEX({range:snow_order.rm},2)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c1}+IF(MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},2)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001))^{col:c1}-IFERROR(INDEX({range:snow_order.mnp},2)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001))^{col:c1}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:snow_order.pay},2)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},2)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001))^{col:c1}-IFERROR(INDEX({range:snow_order.mnp},2)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001))^{col:c1}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001),-IFERROR(INDEX({range:snow_order.pay},2)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},2)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001))^{col:c1}-IFERROR(INDEX({range:snow_order.mnp},2)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001))^{col:c1}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},2)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c3",
@@ -6838,7 +6838,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c2}+IF(MAX(0,ROUND((INDEX({range:snow_order.bal},3)*(1+INDEX({range:snow_order.rm},3))^{col:c2}-INDEX({range:snow_order.mnp},3)*((1+INDEX({range:snow_order.rm},3))^{col:c2}-1)/INDEX({range:snow_order.rm},3)),2))=0,0,IF(INDEX({range:snow_order.pay},3)<=MAX(0,ROUND((INDEX({range:snow_order.bal},3)*(1+INDEX({range:snow_order.rm},3))^{col:c2}-INDEX({range:snow_order.mnp},3)*((1+INDEX({range:snow_order.rm},3))^{col:c2}-1)/INDEX({range:snow_order.rm},3)),2))*INDEX({range:snow_order.rm},3)+0.005,999,ROUNDUP(NPER(INDEX({range:snow_order.rm},3),-INDEX({range:snow_order.pay},3),MAX(0,ROUND((INDEX({range:snow_order.bal},3)*(1+INDEX({range:snow_order.rm},3))^{col:c2}-INDEX({range:snow_order.mnp},3)*((1+INDEX({range:snow_order.rm},3))^{col:c2}-1)/INDEX({range:snow_order.rm},3)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c2}+IF(MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},3)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001))^{col:c2}-IFERROR(INDEX({range:snow_order.mnp},3)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001))^{col:c2}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:snow_order.pay},3)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},3)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001))^{col:c2}-IFERROR(INDEX({range:snow_order.mnp},3)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001))^{col:c2}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001),-IFERROR(INDEX({range:snow_order.pay},3)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},3)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001))^{col:c2}-IFERROR(INDEX({range:snow_order.mnp},3)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001))^{col:c2}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},3)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c4",
@@ -6846,7 +6846,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c3}+IF(MAX(0,ROUND((INDEX({range:snow_order.bal},4)*(1+INDEX({range:snow_order.rm},4))^{col:c3}-INDEX({range:snow_order.mnp},4)*((1+INDEX({range:snow_order.rm},4))^{col:c3}-1)/INDEX({range:snow_order.rm},4)),2))=0,0,IF(INDEX({range:snow_order.pay},4)<=MAX(0,ROUND((INDEX({range:snow_order.bal},4)*(1+INDEX({range:snow_order.rm},4))^{col:c3}-INDEX({range:snow_order.mnp},4)*((1+INDEX({range:snow_order.rm},4))^{col:c3}-1)/INDEX({range:snow_order.rm},4)),2))*INDEX({range:snow_order.rm},4)+0.005,999,ROUNDUP(NPER(INDEX({range:snow_order.rm},4),-INDEX({range:snow_order.pay},4),MAX(0,ROUND((INDEX({range:snow_order.bal},4)*(1+INDEX({range:snow_order.rm},4))^{col:c3}-INDEX({range:snow_order.mnp},4)*((1+INDEX({range:snow_order.rm},4))^{col:c3}-1)/INDEX({range:snow_order.rm},4)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c3}+IF(MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},4)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001))^{col:c3}-IFERROR(INDEX({range:snow_order.mnp},4)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001))^{col:c3}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:snow_order.pay},4)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},4)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001))^{col:c3}-IFERROR(INDEX({range:snow_order.mnp},4)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001))^{col:c3}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001),-IFERROR(INDEX({range:snow_order.pay},4)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},4)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001))^{col:c3}-IFERROR(INDEX({range:snow_order.mnp},4)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001))^{col:c3}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},4)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c5",
@@ -6854,7 +6854,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c4}+IF(MAX(0,ROUND((INDEX({range:snow_order.bal},5)*(1+INDEX({range:snow_order.rm},5))^{col:c4}-INDEX({range:snow_order.mnp},5)*((1+INDEX({range:snow_order.rm},5))^{col:c4}-1)/INDEX({range:snow_order.rm},5)),2))=0,0,IF(INDEX({range:snow_order.pay},5)<=MAX(0,ROUND((INDEX({range:snow_order.bal},5)*(1+INDEX({range:snow_order.rm},5))^{col:c4}-INDEX({range:snow_order.mnp},5)*((1+INDEX({range:snow_order.rm},5))^{col:c4}-1)/INDEX({range:snow_order.rm},5)),2))*INDEX({range:snow_order.rm},5)+0.005,999,ROUNDUP(NPER(INDEX({range:snow_order.rm},5),-INDEX({range:snow_order.pay},5),MAX(0,ROUND((INDEX({range:snow_order.bal},5)*(1+INDEX({range:snow_order.rm},5))^{col:c4}-INDEX({range:snow_order.mnp},5)*((1+INDEX({range:snow_order.rm},5))^{col:c4}-1)/INDEX({range:snow_order.rm},5)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c4}+IF(MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},5)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001))^{col:c4}-IFERROR(INDEX({range:snow_order.mnp},5)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001))^{col:c4}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:snow_order.pay},5)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},5)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001))^{col:c4}-IFERROR(INDEX({range:snow_order.mnp},5)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001))^{col:c4}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001),-IFERROR(INDEX({range:snow_order.pay},5)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},5)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001))^{col:c4}-IFERROR(INDEX({range:snow_order.mnp},5)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001))^{col:c4}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},5)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c6",
@@ -6862,7 +6862,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c5}+IF(MAX(0,ROUND((INDEX({range:snow_order.bal},6)*(1+INDEX({range:snow_order.rm},6))^{col:c5}-INDEX({range:snow_order.mnp},6)*((1+INDEX({range:snow_order.rm},6))^{col:c5}-1)/INDEX({range:snow_order.rm},6)),2))=0,0,IF(INDEX({range:snow_order.pay},6)<=MAX(0,ROUND((INDEX({range:snow_order.bal},6)*(1+INDEX({range:snow_order.rm},6))^{col:c5}-INDEX({range:snow_order.mnp},6)*((1+INDEX({range:snow_order.rm},6))^{col:c5}-1)/INDEX({range:snow_order.rm},6)),2))*INDEX({range:snow_order.rm},6)+0.005,999,ROUNDUP(NPER(INDEX({range:snow_order.rm},6),-INDEX({range:snow_order.pay},6),MAX(0,ROUND((INDEX({range:snow_order.bal},6)*(1+INDEX({range:snow_order.rm},6))^{col:c5}-INDEX({range:snow_order.mnp},6)*((1+INDEX({range:snow_order.rm},6))^{col:c5}-1)/INDEX({range:snow_order.rm},6)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c5}+IF(MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},6)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001))^{col:c5}-IFERROR(INDEX({range:snow_order.mnp},6)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001))^{col:c5}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:snow_order.pay},6)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},6)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001))^{col:c5}-IFERROR(INDEX({range:snow_order.mnp},6)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001))^{col:c5}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001),-IFERROR(INDEX({range:snow_order.pay},6)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},6)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001))^{col:c5}-IFERROR(INDEX({range:snow_order.mnp},6)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001))^{col:c5}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},6)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c7",
@@ -6870,7 +6870,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c6}+IF(MAX(0,ROUND((INDEX({range:snow_order.bal},7)*(1+INDEX({range:snow_order.rm},7))^{col:c6}-INDEX({range:snow_order.mnp},7)*((1+INDEX({range:snow_order.rm},7))^{col:c6}-1)/INDEX({range:snow_order.rm},7)),2))=0,0,IF(INDEX({range:snow_order.pay},7)<=MAX(0,ROUND((INDEX({range:snow_order.bal},7)*(1+INDEX({range:snow_order.rm},7))^{col:c6}-INDEX({range:snow_order.mnp},7)*((1+INDEX({range:snow_order.rm},7))^{col:c6}-1)/INDEX({range:snow_order.rm},7)),2))*INDEX({range:snow_order.rm},7)+0.005,999,ROUNDUP(NPER(INDEX({range:snow_order.rm},7),-INDEX({range:snow_order.pay},7),MAX(0,ROUND((INDEX({range:snow_order.bal},7)*(1+INDEX({range:snow_order.rm},7))^{col:c6}-INDEX({range:snow_order.mnp},7)*((1+INDEX({range:snow_order.rm},7))^{col:c6}-1)/INDEX({range:snow_order.rm},7)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c6}+IF(MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},7)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001))^{col:c6}-IFERROR(INDEX({range:snow_order.mnp},7)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001))^{col:c6}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:snow_order.pay},7)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},7)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001))^{col:c6}-IFERROR(INDEX({range:snow_order.mnp},7)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001))^{col:c6}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001),-IFERROR(INDEX({range:snow_order.pay},7)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},7)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001))^{col:c6}-IFERROR(INDEX({range:snow_order.mnp},7)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001))^{col:c6}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},7)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c8",
@@ -6878,7 +6878,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c7}+IF(MAX(0,ROUND((INDEX({range:snow_order.bal},8)*(1+INDEX({range:snow_order.rm},8))^{col:c7}-INDEX({range:snow_order.mnp},8)*((1+INDEX({range:snow_order.rm},8))^{col:c7}-1)/INDEX({range:snow_order.rm},8)),2))=0,0,IF(INDEX({range:snow_order.pay},8)<=MAX(0,ROUND((INDEX({range:snow_order.bal},8)*(1+INDEX({range:snow_order.rm},8))^{col:c7}-INDEX({range:snow_order.mnp},8)*((1+INDEX({range:snow_order.rm},8))^{col:c7}-1)/INDEX({range:snow_order.rm},8)),2))*INDEX({range:snow_order.rm},8)+0.005,999,ROUNDUP(NPER(INDEX({range:snow_order.rm},8),-INDEX({range:snow_order.pay},8),MAX(0,ROUND((INDEX({range:snow_order.bal},8)*(1+INDEX({range:snow_order.rm},8))^{col:c7}-INDEX({range:snow_order.mnp},8)*((1+INDEX({range:snow_order.rm},8))^{col:c7}-1)/INDEX({range:snow_order.rm},8)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c7}+IF(MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},8)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001))^{col:c7}-IFERROR(INDEX({range:snow_order.mnp},8)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001))^{col:c7}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:snow_order.pay},8)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},8)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001))^{col:c7}-IFERROR(INDEX({range:snow_order.mnp},8)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001))^{col:c7}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001),-IFERROR(INDEX({range:snow_order.pay},8)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:snow_order.bal},8)+0,0)*(1+MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001))^{col:c7}-IFERROR(INDEX({range:snow_order.mnp},8)+0,0)*((1+MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001))^{col:c7}-1)/MAX(IFERROR(INDEX({range:snow_order.rm},8)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "sp",
@@ -6886,7 +6886,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IFERROR(IF({col:slot}=1,0,CHOOSE({col:slot}-1,{col:c1},{col:c2},{col:c3},{col:c4},{col:c5},{col:c6},{col:c7})),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IFERROR(IF({col:slot}=1,0,CHOOSE({col:slot}-1,{col:c1},{col:c2},{col:c3},{col:c4},{col:c5},{col:c6},{col:c7})),0))"
     },
     {
      "key": "clr",
@@ -6894,7 +6894,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IFERROR(CHOOSE({col:slot},{col:c1},{col:c2},{col:c3},{col:c4},{col:c5},{col:c6},{col:c7},{col:c8}),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IFERROR(CHOOSE({col:slot},{col:c1},{col:c2},{col:c3},{col:c4},{col:c5},{col:c6},{col:c7},{col:c8}),0))"
     },
     {
      "key": "bal0",
@@ -6902,7 +6902,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:bal}=0,0,MAX(0,ROUND(({col:bal}*(1+{col:rm})^{col:sp}-{col:mnp}*((1+{col:rm})^{col:sp}-1)/{col:rm}),2)))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:bal}=0,0,MAX(0,ROUND(({col:bal}*(1+{col:rm})^{col:sp}-{col:mnp}*((1+{col:rm})^{col:sp}-1)/{col:rm}),2))))"
     },
     {
      "key": "payoff_month",
@@ -6910,7 +6910,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:bal}=0,0,IF({col:bal0}=0,{col:tm},{col:clr}))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:bal}=0,0,IF({col:bal0}=0,{col:tm},{col:clr})))"
     },
     {
      "key": "payoff_date",
@@ -6918,7 +6918,7 @@
      "type": "calc",
      "width": 11,
      "format": "date",
-     "formula": "IF(OR({col:bal}=0,{col:payoff_month}>=999),\"\",EOMONTH(DATE(YEAR({today}),MONTH({today}),1),{col:payoff_month}))"
+     "formula": "IF({col:debt}=\"\",\"\",IF(OR({col:bal}=0,{col:payoff_month}>=999),\"\",EOMONTH(DATE(YEAR({today}),MONTH({today}),1),{col:payoff_month})))"
     },
     {
      "key": "interest",
@@ -6926,7 +6926,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF(OR({col:bal}=0,{col:payoff_month}>=999),0,IF({col:bal0}=0,({col:mnp}*({col:tm}-1)+({col:bal}*(1+{col:rm})^({col:tm}-1)-{col:mnp}*((1+{col:rm})^({col:tm}-1)-1)/{col:rm})*(1+{col:rm})-{col:bal}),({col:mnp}*{col:sp}+{col:pay}*({col:clr}-{col:sp}-1)+({col:bal0}*(1+{col:rm})^({col:clr}-{col:sp}-1)-{col:pay}*((1+{col:rm})^({col:clr}-{col:sp}-1)-1)/{col:rm})*(1+{col:rm})-{col:bal})))"
+     "formula": "IF({col:debt}=\"\",\"\",IF(OR({col:bal}=0,{col:payoff_month}>=999),0,IF({col:bal0}=0,({col:mnp}*({col:tm}-1)+({col:bal}*(1+{col:rm})^({col:tm}-1)-{col:mnp}*((1+{col:rm})^({col:tm}-1)-1)/{col:rm})*(1+{col:rm})-{col:bal}),({col:mnp}*{col:sp}+{col:pay}*({col:clr}-{col:sp}-1)+({col:bal0}*(1+{col:rm})^({col:clr}-{col:sp}-1)-{col:pay}*((1+{col:rm})^({col:clr}-{col:sp}-1)-1)/{col:rm})*(1+{col:rm})-{col:bal}))))"
     },
     {
      "key": "tot_b",
@@ -6934,7 +6934,7 @@
      "type": "calc",
      "width": 12,
      "format": "money",
-     "formula": "SUM({range:snow_order.bal})"
+     "formula": "IF({col:debt}=\"\",\"\",SUM({range:snow_order.bal}))"
     },
     {
      "key": "budget",
@@ -6942,7 +6942,7 @@
      "type": "calc",
      "width": 13,
      "format": "money",
-     "formula": "SUM({range:snow_order.mnp})+{set:extra_payment}"
+     "formula": "IF({col:debt}=\"\",\"\",SUM({range:snow_order.mnp})+{set:extra_payment})"
     },
     {
      "key": "months_all",
@@ -6950,7 +6950,7 @@
      "type": "calc",
      "width": 10,
      "format": "int",
-     "formula": "MAX({range:snow_order.payoff_month})"
+     "formula": "IF({col:debt}=\"\",\"\",MAX({range:snow_order.payoff_month}))"
     },
     {
      "key": "interest_all",
@@ -6958,7 +6958,7 @@
      "type": "calc",
      "width": 12,
      "format": "money",
-     "formula": "SUM({range:snow_order.interest})"
+     "formula": "IF({col:debt}=\"\",\"\",SUM({range:snow_order.interest}))"
     },
     {
      "key": "free_date",
@@ -6966,7 +6966,7 @@
      "type": "calc",
      "width": 12,
      "format": "date",
-     "formula": "IF(OR({col:months_all}=0,{col:months_all}>=999),\"\",EOMONTH(DATE(YEAR({today}),MONTH({today}),1),{col:months_all}))"
+     "formula": "IF({col:debt}=\"\",\"\",IF(OR({col:months_all}=0,{col:months_all}>=999),\"\",EOMONTH(DATE(YEAR({today}),MONTH({today}),1),{col:months_all})))"
     },
     {
      "key": "other_months",
@@ -6974,7 +6974,7 @@
      "type": "calc",
      "width": 10,
      "format": "int",
-     "formula": "MAX({range:aval_order.payoff_month})"
+     "formula": "IF({col:debt}=\"\",\"\",MAX({range:aval_order.payoff_month}))"
     },
     {
      "key": "other_interest",
@@ -6982,7 +6982,7 @@
      "type": "calc",
      "width": 12,
      "format": "money",
-     "formula": "SUM({range:aval_order.interest})"
+     "formula": "IF({col:debt}=\"\",\"\",SUM({range:aval_order.interest}))"
     },
     {
      "key": "saved_interest",
@@ -6990,7 +6990,7 @@
      "type": "calc",
      "width": 13,
      "format": "money",
-     "formula": "{col:other_interest}-{col:interest_all}"
+     "formula": "IF({col:debt}=\"\",\"\",{col:other_interest}-{col:interest_all})"
     },
     {
      "key": "saved_months",
@@ -6998,7 +6998,7 @@
      "type": "calc",
      "width": 11,
      "format": "int",
-     "formula": "{col:other_months}-{col:months_all}"
+     "formula": "IF({col:debt}=\"\",\"\",{col:other_months}-{col:months_all})"
     },
     {
      "key": "household",
@@ -7006,7 +7006,7 @@
      "type": "calc",
      "width": 22,
      "format": "text",
-     "formula": "{set:household}"
+     "formula": "IF({col:debt}=\"\",\"\",{set:household})"
     },
     {
      "key": "partner1",
@@ -7014,7 +7014,7 @@
      "type": "calc",
      "width": 14,
      "format": "text",
-     "formula": "{set:partner1}"
+     "formula": "IF({col:debt}=\"\",\"\",{set:partner1})"
     },
     {
      "key": "partner2",
@@ -7022,7 +7022,7 @@
      "type": "calc",
      "width": 14,
      "format": "text",
-     "formula": "{set:partner2}"
+     "formula": "IF({col:debt}=\"\",\"\",{set:partner2})"
     },
     {
      "key": "p1_phone",
@@ -7030,7 +7030,7 @@
      "type": "calc",
      "width": 18,
      "format": "text",
-     "formula": "\"+44 62 555 5837\""
+     "formula": "IF({col:debt}=\"\",\"\",\"+44 62 555 5837\")"
     },
     {
      "key": "p2_phone",
@@ -7038,7 +7038,7 @@
      "type": "calc",
      "width": 18,
      "format": "text",
-     "formula": "\"+49 69 555 5874\""
+     "formula": "IF({col:debt}=\"\",\"\",\"+49 69 555 5874\")"
     }
    ],
    "demo": [
@@ -7115,7 +7115,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IFERROR(INDEX({range:debts.balance},MATCH({col:slot},{range:debts.aval_rank},0)),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IFERROR(INDEX({range:debts.balance},MATCH({col:slot},{range:debts.aval_rank},0)),0))"
     },
     {
      "key": "rate",
@@ -7123,7 +7123,7 @@
      "type": "calc",
      "width": 9,
      "format": "pct",
-     "formula": "IFERROR(INDEX({range:debts.rate},MATCH({col:slot},{range:debts.aval_rank},0)),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IFERROR(INDEX({range:debts.rate},MATCH({col:slot},{range:debts.aval_rank},0)),0))"
     },
     {
      "key": "mnp",
@@ -7131,7 +7131,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IFERROR(INDEX({range:debts.min_payment},MATCH({col:slot},{range:debts.aval_rank},0)),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IFERROR(INDEX({range:debts.min_payment},MATCH({col:slot},{range:debts.aval_rank},0)),0))"
     },
     {
      "key": "rm",
@@ -7139,7 +7139,7 @@
      "type": "calc",
      "width": 9,
      "format": "pct",
-     "formula": "MAX({col:rate}/12,0.000000001)"
+     "formula": "IF({col:debt}=\"\",\"\",MAX({col:rate}/12,0.000000001))"
     },
     {
      "key": "tm",
@@ -7147,7 +7147,7 @@
      "type": "calc",
      "width": 10,
      "format": "int",
-     "formula": "IF({col:bal}>0,IF({col:mnp}>{col:bal}*{col:rm}+0.005,ROUNDUP(NPER({col:rm},-{col:mnp},{col:bal}),0),999),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:bal}>0,IF({col:mnp}>{col:bal}*{col:rm}+0.005,ROUNDUP(NPER({col:rm},-{col:mnp},{col:bal}),0),999),0))"
     },
     {
      "key": "mroll",
@@ -7155,7 +7155,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:slot}=\"\",0,SUMIFS({range:aval_order.mnp},{range:aval_order.slot},\"<\"&{col:slot}))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",0,SUMIFS({range:aval_order.mnp},{range:aval_order.slot},\"<\"&{col:slot})))"
     },
     {
      "key": "bcum",
@@ -7163,7 +7163,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:slot}=\"\",0,SUMIFS({range:aval_order.bal},{range:aval_order.slot},\"<\"&{col:slot}))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",0,SUMIFS({range:aval_order.bal},{range:aval_order.slot},\"<\"&{col:slot})))"
     },
     {
      "key": "pay",
@@ -7171,7 +7171,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:bal}>0,{col:mnp}+{set:extra_payment}+{col:mroll},0)"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:bal}>0,{col:mnp}+{set:extra_payment}+{col:mroll},0))"
     },
     {
      "key": "c1",
@@ -7179,7 +7179,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,0+IF(MAX(0,ROUND((INDEX({range:aval_order.bal},1)*(1+INDEX({range:aval_order.rm},1))^0-INDEX({range:aval_order.mnp},1)*((1+INDEX({range:aval_order.rm},1))^0-1)/INDEX({range:aval_order.rm},1)),2))=0,0,IF(INDEX({range:aval_order.pay},1)<=MAX(0,ROUND((INDEX({range:aval_order.bal},1)*(1+INDEX({range:aval_order.rm},1))^0-INDEX({range:aval_order.mnp},1)*((1+INDEX({range:aval_order.rm},1))^0-1)/INDEX({range:aval_order.rm},1)),2))*INDEX({range:aval_order.rm},1)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},1),-INDEX({range:aval_order.pay},1),MAX(0,ROUND((INDEX({range:aval_order.bal},1)*(1+INDEX({range:aval_order.rm},1))^0-INDEX({range:aval_order.mnp},1)*((1+INDEX({range:aval_order.rm},1))^0-1)/INDEX({range:aval_order.rm},1)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,0+IF(MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},1)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^0-IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^0-1)/MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:aval_order.pay},1)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},1)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^0-IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^0-1)/MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.pay},1)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},1)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^0-IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^0-1)/MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c2",
@@ -7187,7 +7187,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c1}+IF(MAX(0,ROUND((INDEX({range:aval_order.bal},2)*(1+INDEX({range:aval_order.rm},2))^{col:c1}-INDEX({range:aval_order.mnp},2)*((1+INDEX({range:aval_order.rm},2))^{col:c1}-1)/INDEX({range:aval_order.rm},2)),2))=0,0,IF(INDEX({range:aval_order.pay},2)<=MAX(0,ROUND((INDEX({range:aval_order.bal},2)*(1+INDEX({range:aval_order.rm},2))^{col:c1}-INDEX({range:aval_order.mnp},2)*((1+INDEX({range:aval_order.rm},2))^{col:c1}-1)/INDEX({range:aval_order.rm},2)),2))*INDEX({range:aval_order.rm},2)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},2),-INDEX({range:aval_order.pay},2),MAX(0,ROUND((INDEX({range:aval_order.bal},2)*(1+INDEX({range:aval_order.rm},2))^{col:c1}-INDEX({range:aval_order.mnp},2)*((1+INDEX({range:aval_order.rm},2))^{col:c1}-1)/INDEX({range:aval_order.rm},2)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c1}+IF(MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},2)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^{col:c1}-IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^{col:c1}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:aval_order.pay},2)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},2)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^{col:c1}-IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^{col:c1}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.pay},2)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},2)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^{col:c1}-IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^{col:c1}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c3",
@@ -7195,7 +7195,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c2}+IF(MAX(0,ROUND((INDEX({range:aval_order.bal},3)*(1+INDEX({range:aval_order.rm},3))^{col:c2}-INDEX({range:aval_order.mnp},3)*((1+INDEX({range:aval_order.rm},3))^{col:c2}-1)/INDEX({range:aval_order.rm},3)),2))=0,0,IF(INDEX({range:aval_order.pay},3)<=MAX(0,ROUND((INDEX({range:aval_order.bal},3)*(1+INDEX({range:aval_order.rm},3))^{col:c2}-INDEX({range:aval_order.mnp},3)*((1+INDEX({range:aval_order.rm},3))^{col:c2}-1)/INDEX({range:aval_order.rm},3)),2))*INDEX({range:aval_order.rm},3)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},3),-INDEX({range:aval_order.pay},3),MAX(0,ROUND((INDEX({range:aval_order.bal},3)*(1+INDEX({range:aval_order.rm},3))^{col:c2}-INDEX({range:aval_order.mnp},3)*((1+INDEX({range:aval_order.rm},3))^{col:c2}-1)/INDEX({range:aval_order.rm},3)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c2}+IF(MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},3)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^{col:c2}-IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^{col:c2}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:aval_order.pay},3)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},3)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^{col:c2}-IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^{col:c2}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.pay},3)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},3)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^{col:c2}-IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^{col:c2}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c4",
@@ -7203,7 +7203,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c3}+IF(MAX(0,ROUND((INDEX({range:aval_order.bal},4)*(1+INDEX({range:aval_order.rm},4))^{col:c3}-INDEX({range:aval_order.mnp},4)*((1+INDEX({range:aval_order.rm},4))^{col:c3}-1)/INDEX({range:aval_order.rm},4)),2))=0,0,IF(INDEX({range:aval_order.pay},4)<=MAX(0,ROUND((INDEX({range:aval_order.bal},4)*(1+INDEX({range:aval_order.rm},4))^{col:c3}-INDEX({range:aval_order.mnp},4)*((1+INDEX({range:aval_order.rm},4))^{col:c3}-1)/INDEX({range:aval_order.rm},4)),2))*INDEX({range:aval_order.rm},4)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},4),-INDEX({range:aval_order.pay},4),MAX(0,ROUND((INDEX({range:aval_order.bal},4)*(1+INDEX({range:aval_order.rm},4))^{col:c3}-INDEX({range:aval_order.mnp},4)*((1+INDEX({range:aval_order.rm},4))^{col:c3}-1)/INDEX({range:aval_order.rm},4)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c3}+IF(MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},4)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^{col:c3}-IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^{col:c3}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:aval_order.pay},4)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},4)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^{col:c3}-IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^{col:c3}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.pay},4)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},4)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^{col:c3}-IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^{col:c3}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c5",
@@ -7211,7 +7211,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c4}+IF(MAX(0,ROUND((INDEX({range:aval_order.bal},5)*(1+INDEX({range:aval_order.rm},5))^{col:c4}-INDEX({range:aval_order.mnp},5)*((1+INDEX({range:aval_order.rm},5))^{col:c4}-1)/INDEX({range:aval_order.rm},5)),2))=0,0,IF(INDEX({range:aval_order.pay},5)<=MAX(0,ROUND((INDEX({range:aval_order.bal},5)*(1+INDEX({range:aval_order.rm},5))^{col:c4}-INDEX({range:aval_order.mnp},5)*((1+INDEX({range:aval_order.rm},5))^{col:c4}-1)/INDEX({range:aval_order.rm},5)),2))*INDEX({range:aval_order.rm},5)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},5),-INDEX({range:aval_order.pay},5),MAX(0,ROUND((INDEX({range:aval_order.bal},5)*(1+INDEX({range:aval_order.rm},5))^{col:c4}-INDEX({range:aval_order.mnp},5)*((1+INDEX({range:aval_order.rm},5))^{col:c4}-1)/INDEX({range:aval_order.rm},5)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c4}+IF(MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},5)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^{col:c4}-IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^{col:c4}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:aval_order.pay},5)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},5)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^{col:c4}-IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^{col:c4}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.pay},5)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},5)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^{col:c4}-IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^{col:c4}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c6",
@@ -7219,7 +7219,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c5}+IF(MAX(0,ROUND((INDEX({range:aval_order.bal},6)*(1+INDEX({range:aval_order.rm},6))^{col:c5}-INDEX({range:aval_order.mnp},6)*((1+INDEX({range:aval_order.rm},6))^{col:c5}-1)/INDEX({range:aval_order.rm},6)),2))=0,0,IF(INDEX({range:aval_order.pay},6)<=MAX(0,ROUND((INDEX({range:aval_order.bal},6)*(1+INDEX({range:aval_order.rm},6))^{col:c5}-INDEX({range:aval_order.mnp},6)*((1+INDEX({range:aval_order.rm},6))^{col:c5}-1)/INDEX({range:aval_order.rm},6)),2))*INDEX({range:aval_order.rm},6)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},6),-INDEX({range:aval_order.pay},6),MAX(0,ROUND((INDEX({range:aval_order.bal},6)*(1+INDEX({range:aval_order.rm},6))^{col:c5}-INDEX({range:aval_order.mnp},6)*((1+INDEX({range:aval_order.rm},6))^{col:c5}-1)/INDEX({range:aval_order.rm},6)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c5}+IF(MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},6)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^{col:c5}-IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^{col:c5}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:aval_order.pay},6)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},6)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^{col:c5}-IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^{col:c5}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.pay},6)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},6)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^{col:c5}-IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^{col:c5}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c7",
@@ -7227,7 +7227,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c6}+IF(MAX(0,ROUND((INDEX({range:aval_order.bal},7)*(1+INDEX({range:aval_order.rm},7))^{col:c6}-INDEX({range:aval_order.mnp},7)*((1+INDEX({range:aval_order.rm},7))^{col:c6}-1)/INDEX({range:aval_order.rm},7)),2))=0,0,IF(INDEX({range:aval_order.pay},7)<=MAX(0,ROUND((INDEX({range:aval_order.bal},7)*(1+INDEX({range:aval_order.rm},7))^{col:c6}-INDEX({range:aval_order.mnp},7)*((1+INDEX({range:aval_order.rm},7))^{col:c6}-1)/INDEX({range:aval_order.rm},7)),2))*INDEX({range:aval_order.rm},7)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},7),-INDEX({range:aval_order.pay},7),MAX(0,ROUND((INDEX({range:aval_order.bal},7)*(1+INDEX({range:aval_order.rm},7))^{col:c6}-INDEX({range:aval_order.mnp},7)*((1+INDEX({range:aval_order.rm},7))^{col:c6}-1)/INDEX({range:aval_order.rm},7)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c6}+IF(MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},7)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^{col:c6}-IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^{col:c6}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:aval_order.pay},7)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},7)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^{col:c6}-IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^{col:c6}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.pay},7)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},7)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^{col:c6}-IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^{col:c6}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "c8",
@@ -7235,7 +7235,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:slot}=\"\",\"\",MIN(999,{col:c7}+IF(MAX(0,ROUND((INDEX({range:aval_order.bal},8)*(1+INDEX({range:aval_order.rm},8))^{col:c7}-INDEX({range:aval_order.mnp},8)*((1+INDEX({range:aval_order.rm},8))^{col:c7}-1)/INDEX({range:aval_order.rm},8)),2))=0,0,IF(INDEX({range:aval_order.pay},8)<=MAX(0,ROUND((INDEX({range:aval_order.bal},8)*(1+INDEX({range:aval_order.rm},8))^{col:c7}-INDEX({range:aval_order.mnp},8)*((1+INDEX({range:aval_order.rm},8))^{col:c7}-1)/INDEX({range:aval_order.rm},8)),2))*INDEX({range:aval_order.rm},8)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},8),-INDEX({range:aval_order.pay},8),MAX(0,ROUND((INDEX({range:aval_order.bal},8)*(1+INDEX({range:aval_order.rm},8))^{col:c7}-INDEX({range:aval_order.mnp},8)*((1+INDEX({range:aval_order.rm},8))^{col:c7}-1)/INDEX({range:aval_order.rm},8)),2))),0)))))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:slot}=\"\",\"\",MIN(999,{col:c7}+IF(MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},8)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^{col:c7}-IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^{col:c7}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001)),2))=0,0,IF(IFERROR(INDEX({range:aval_order.pay},8)+0,0)<=MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},8)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^{col:c7}-IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^{col:c7}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001)),2))*MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.pay},8)+0,0),MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},8)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^{col:c7}-IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^{col:c7}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001)),2))),0))))))"
     },
     {
      "key": "sp",
@@ -7243,7 +7243,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IFERROR(IF({col:slot}=1,0,CHOOSE({col:slot}-1,{col:c1},{col:c2},{col:c3},{col:c4},{col:c5},{col:c6},{col:c7})),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IFERROR(IF({col:slot}=1,0,CHOOSE({col:slot}-1,{col:c1},{col:c2},{col:c3},{col:c4},{col:c5},{col:c6},{col:c7})),0))"
     },
     {
      "key": "clr",
@@ -7251,7 +7251,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IFERROR(CHOOSE({col:slot},{col:c1},{col:c2},{col:c3},{col:c4},{col:c5},{col:c6},{col:c7},{col:c8}),0)"
+     "formula": "IF({col:debt}=\"\",\"\",IFERROR(CHOOSE({col:slot},{col:c1},{col:c2},{col:c3},{col:c4},{col:c5},{col:c6},{col:c7},{col:c8}),0))"
     },
     {
      "key": "bal0",
@@ -7259,7 +7259,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:bal}=0,0,MAX(0,ROUND(({col:bal}*(1+{col:rm})^{col:sp}-{col:mnp}*((1+{col:rm})^{col:sp}-1)/{col:rm}),2)))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:bal}=0,0,MAX(0,ROUND(({col:bal}*(1+{col:rm})^{col:sp}-{col:mnp}*((1+{col:rm})^{col:sp}-1)/{col:rm}),2))))"
     },
     {
      "key": "payoff_month",
@@ -7267,7 +7267,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:bal}=0,0,IF({col:bal0}=0,{col:tm},{col:clr}))"
+     "formula": "IF({col:debt}=\"\",\"\",IF({col:bal}=0,0,IF({col:bal0}=0,{col:tm},{col:clr})))"
     },
     {
      "key": "payoff_date",
@@ -7275,7 +7275,7 @@
      "type": "calc",
      "width": 11,
      "format": "date",
-     "formula": "IF(OR({col:bal}=0,{col:payoff_month}>=999),\"\",EOMONTH(DATE(YEAR({today}),MONTH({today}),1),{col:payoff_month}))"
+     "formula": "IF({col:debt}=\"\",\"\",IF(OR({col:bal}=0,{col:payoff_month}>=999),\"\",EOMONTH(DATE(YEAR({today}),MONTH({today}),1),{col:payoff_month})))"
     },
     {
      "key": "interest",
@@ -7283,7 +7283,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF(OR({col:bal}=0,{col:payoff_month}>=999),0,IF({col:bal0}=0,({col:mnp}*({col:tm}-1)+({col:bal}*(1+{col:rm})^({col:tm}-1)-{col:mnp}*((1+{col:rm})^({col:tm}-1)-1)/{col:rm})*(1+{col:rm})-{col:bal}),({col:mnp}*{col:sp}+{col:pay}*({col:clr}-{col:sp}-1)+({col:bal0}*(1+{col:rm})^({col:clr}-{col:sp}-1)-{col:pay}*((1+{col:rm})^({col:clr}-{col:sp}-1)-1)/{col:rm})*(1+{col:rm})-{col:bal})))"
+     "formula": "IF({col:debt}=\"\",\"\",IF(OR({col:bal}=0,{col:payoff_month}>=999),0,IF({col:bal0}=0,({col:mnp}*({col:tm}-1)+({col:bal}*(1+{col:rm})^({col:tm}-1)-{col:mnp}*((1+{col:rm})^({col:tm}-1)-1)/{col:rm})*(1+{col:rm})-{col:bal}),({col:mnp}*{col:sp}+{col:pay}*({col:clr}-{col:sp}-1)+({col:bal0}*(1+{col:rm})^({col:clr}-{col:sp}-1)-{col:pay}*((1+{col:rm})^({col:clr}-{col:sp}-1)-1)/{col:rm})*(1+{col:rm})-{col:bal}))))"
     },
     {
      "key": "tot_b",
@@ -7291,7 +7291,7 @@
      "type": "calc",
      "width": 12,
      "format": "money",
-     "formula": "SUM({range:aval_order.bal})"
+     "formula": "IF({col:debt}=\"\",\"\",SUM({range:aval_order.bal}))"
     },
     {
      "key": "budget",
@@ -7299,7 +7299,7 @@
      "type": "calc",
      "width": 13,
      "format": "money",
-     "formula": "SUM({range:aval_order.mnp})+{set:extra_payment}"
+     "formula": "IF({col:debt}=\"\",\"\",SUM({range:aval_order.mnp})+{set:extra_payment})"
     },
     {
      "key": "months_all",
@@ -7307,7 +7307,7 @@
      "type": "calc",
      "width": 10,
      "format": "int",
-     "formula": "MAX({range:aval_order.payoff_month})"
+     "formula": "IF({col:debt}=\"\",\"\",MAX({range:aval_order.payoff_month}))"
     },
     {
      "key": "interest_all",
@@ -7315,7 +7315,7 @@
      "type": "calc",
      "width": 12,
      "format": "money",
-     "formula": "SUM({range:aval_order.interest})"
+     "formula": "IF({col:debt}=\"\",\"\",SUM({range:aval_order.interest}))"
     },
     {
      "key": "free_date",
@@ -7323,7 +7323,7 @@
      "type": "calc",
      "width": 12,
      "format": "date",
-     "formula": "IF(OR({col:months_all}=0,{col:months_all}>=999),\"\",EOMONTH(DATE(YEAR({today}),MONTH({today}),1),{col:months_all}))"
+     "formula": "IF({col:debt}=\"\",\"\",IF(OR({col:months_all}=0,{col:months_all}>=999),\"\",EOMONTH(DATE(YEAR({today}),MONTH({today}),1),{col:months_all})))"
     },
     {
      "key": "other_months",
@@ -7331,7 +7331,7 @@
      "type": "calc",
      "width": 10,
      "format": "int",
-     "formula": "MAX({range:snow_order.payoff_month})"
+     "formula": "IF({col:debt}=\"\",\"\",MAX({range:snow_order.payoff_month}))"
     },
     {
      "key": "other_interest",
@@ -7339,7 +7339,7 @@
      "type": "calc",
      "width": 12,
      "format": "money",
-     "formula": "SUM({range:snow_order.interest})"
+     "formula": "IF({col:debt}=\"\",\"\",SUM({range:snow_order.interest}))"
     },
     {
      "key": "saved_interest",
@@ -7347,7 +7347,7 @@
      "type": "calc",
      "width": 13,
      "format": "money",
-     "formula": "{col:other_interest}-{col:interest_all}"
+     "formula": "IF({col:debt}=\"\",\"\",{col:other_interest}-{col:interest_all})"
     },
     {
      "key": "saved_months",
@@ -7355,7 +7355,7 @@
      "type": "calc",
      "width": 11,
      "format": "int",
-     "formula": "{col:other_months}-{col:months_all}"
+     "formula": "IF({col:debt}=\"\",\"\",{col:other_months}-{col:months_all})"
     },
     {
      "key": "household",
@@ -7363,7 +7363,7 @@
      "type": "calc",
      "width": 22,
      "format": "text",
-     "formula": "{set:household}"
+     "formula": "IF({col:debt}=\"\",\"\",{set:household})"
     },
     {
      "key": "partner1",
@@ -7371,7 +7371,7 @@
      "type": "calc",
      "width": 14,
      "format": "text",
-     "formula": "{set:partner1}"
+     "formula": "IF({col:debt}=\"\",\"\",{set:partner1})"
     },
     {
      "key": "partner2",
@@ -7379,7 +7379,7 @@
      "type": "calc",
      "width": 14,
      "format": "text",
-     "formula": "{set:partner2}"
+     "formula": "IF({col:debt}=\"\",\"\",{set:partner2})"
     },
     {
      "key": "p1_phone",
@@ -7387,7 +7387,7 @@
      "type": "calc",
      "width": 18,
      "format": "text",
-     "formula": "\"+44 62 555 5837\""
+     "formula": "IF({col:debt}=\"\",\"\",\"+44 62 555 5837\")"
     },
     {
      "key": "p2_phone",
@@ -7395,7 +7395,7 @@
      "type": "calc",
      "width": 18,
      "format": "text",
-     "formula": "\"+49 69 555 5874\""
+     "formula": "IF({col:debt}=\"\",\"\",\"+49 69 555 5874\")"
     }
    ],
    "demo": [
@@ -7464,7 +7464,7 @@
      "type": "calc",
      "width": 11,
      "format": "date",
-     "formula": "IF({col:month_no}=\"\",\"\",EDATE(DATE(YEAR({today}),MONTH({today}),1),{col:month_no}))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:snow_order.payoff_month})),\"\",EDATE(DATE(YEAR({today}),MONTH({today}),1),{col:month_no}))"
     },
     {
      "key": "payment",
@@ -7472,7 +7472,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:month_no}=\"\",\"\",{col:interest}+{col:principal})"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:snow_order.payoff_month})),\"\",{col:interest}+{col:principal})"
     },
     {
      "key": "interest",
@@ -7480,7 +7480,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:month_no}=\"\",\"\",SUMPRODUCT(IFERROR({range:snow_order.rm}*((({col:month_no}-1)<={range:snow_order.sp})*(({col:month_no}-1)<{range:snow_order.tm})*({range:snow_order.bal}*(1+{range:snow_order.rm})^({col:month_no}-1)-{range:snow_order.mnp}*((1+{range:snow_order.rm})^({col:month_no}-1)-1)/{range:snow_order.rm})+(({col:month_no}-1)>{range:snow_order.sp})*(({col:month_no}-1)<{range:snow_order.clr})*({range:snow_order.bal0}*(1+{range:snow_order.rm})^(({col:month_no}-1)-{range:snow_order.sp})-{range:snow_order.pay}*((1+{range:snow_order.rm})^(({col:month_no}-1)-{range:snow_order.sp})-1)/{range:snow_order.rm})),0)))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:snow_order.payoff_month})),\"\",SUMPRODUCT(IFERROR({range:snow_order.rm}*((({col:month_no}-1)<={range:snow_order.sp})*(({col:month_no}-1)<{range:snow_order.tm})*({range:snow_order.bal}*(1+{range:snow_order.rm})^({col:month_no}-1)-{range:snow_order.mnp}*((1+{range:snow_order.rm})^({col:month_no}-1)-1)/{range:snow_order.rm})+(({col:month_no}-1)>{range:snow_order.sp})*(({col:month_no}-1)<{range:snow_order.clr})*({range:snow_order.bal0}*(1+{range:snow_order.rm})^(({col:month_no}-1)-{range:snow_order.sp})-{range:snow_order.pay}*((1+{range:snow_order.rm})^(({col:month_no}-1)-{range:snow_order.sp})-1)/{range:snow_order.rm})),0)))"
     },
     {
      "key": "principal",
@@ -7488,7 +7488,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:month_no}=\"\",\"\",IF({col:month_no}=1,SUM({range:snow_order.bal}),INDEX({range:sched_snow.balance},{col:month_no}-1))-{col:balance})"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:snow_order.payoff_month})),\"\",IF({col:month_no}=1,SUM({range:snow_order.bal}),INDEX({range:sched_snow.balance},{col:month_no}-1))-{col:balance})"
     },
     {
      "key": "balance",
@@ -7496,7 +7496,7 @@
      "type": "calc",
      "width": 12,
      "format": "money",
-     "formula": "IF({col:month_no}=\"\",\"\",SUMPRODUCT(IFERROR(({col:month_no}<={range:snow_order.sp})*({col:month_no}<{range:snow_order.tm})*({range:snow_order.bal}*(1+{range:snow_order.rm})^{col:month_no}-{range:snow_order.mnp}*((1+{range:snow_order.rm})^{col:month_no}-1)/{range:snow_order.rm})+({col:month_no}>{range:snow_order.sp})*({col:month_no}<{range:snow_order.clr})*({range:snow_order.bal0}*(1+{range:snow_order.rm})^({col:month_no}-{range:snow_order.sp})-{range:snow_order.pay}*((1+{range:snow_order.rm})^({col:month_no}-{range:snow_order.sp})-1)/{range:snow_order.rm}),0)))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:snow_order.payoff_month})),\"\",SUMPRODUCT(IFERROR(({col:month_no}<={range:snow_order.sp})*({col:month_no}<{range:snow_order.tm})*({range:snow_order.bal}*(1+{range:snow_order.rm})^{col:month_no}-{range:snow_order.mnp}*((1+{range:snow_order.rm})^{col:month_no}-1)/{range:snow_order.rm})+({col:month_no}>{range:snow_order.sp})*({col:month_no}<{range:snow_order.clr})*({range:snow_order.bal0}*(1+{range:snow_order.rm})^({col:month_no}-{range:snow_order.sp})-{range:snow_order.pay}*((1+{range:snow_order.rm})^({col:month_no}-{range:snow_order.sp})-1)/{range:snow_order.rm}),0)))"
     },
     {
      "key": "debts_left",
@@ -7504,7 +7504,7 @@
      "type": "calc",
      "width": 8,
      "format": "int",
-     "formula": "IF({col:month_no}=\"\",\"\",SUMPRODUCT(ISNUMBER({range:snow_order.bal})*ISNUMBER({range:snow_order.payoff_month})*({range:snow_order.bal}>0)*({col:month_no}<{range:snow_order.payoff_month})))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:snow_order.payoff_month})),\"\",SUMPRODUCT(ISNUMBER({range:snow_order.bal})*ISNUMBER({range:snow_order.payoff_month})*({range:snow_order.bal}>0)*({col:month_no}<{range:snow_order.payoff_month})))"
     },
     {
      "key": "cum_interest",
@@ -7512,7 +7512,7 @@
      "type": "calc",
      "width": 12,
      "format": "money",
-     "formula": "IF({col:month_no}=\"\",\"\",SUMIFS({range:sched_snow.interest},{range:sched_snow.month_no},\"<=\"&{col:month_no}))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:snow_order.payoff_month})),\"\",SUMIFS({range:sched_snow.interest},{range:sched_snow.month_no},\"<=\"&{col:month_no}))"
     },
     {
      "key": "paid_share",
@@ -7520,7 +7520,7 @@
      "type": "calc",
      "width": 10,
      "format": "pct",
-     "formula": "IF({col:month_no}=\"\",\"\",IF(SUM({range:snow_order.bal})>0,1-{col:balance}/SUM({range:snow_order.bal}),0))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:snow_order.payoff_month})),\"\",IF(SUM({range:snow_order.bal})>0,1-{col:balance}/SUM({range:snow_order.bal}),0))"
     },
     {
      "key": "planyear",
@@ -7793,7 +7793,7 @@
      "type": "calc",
      "width": 11,
      "format": "date",
-     "formula": "IF({col:month_no}=\"\",\"\",EDATE(DATE(YEAR({today}),MONTH({today}),1),{col:month_no}))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:aval_order.payoff_month})),\"\",EDATE(DATE(YEAR({today}),MONTH({today}),1),{col:month_no}))"
     },
     {
      "key": "payment",
@@ -7801,7 +7801,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:month_no}=\"\",\"\",{col:interest}+{col:principal})"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:aval_order.payoff_month})),\"\",{col:interest}+{col:principal})"
     },
     {
      "key": "interest",
@@ -7809,7 +7809,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:month_no}=\"\",\"\",SUMPRODUCT(IFERROR({range:aval_order.rm}*((({col:month_no}-1)<={range:aval_order.sp})*(({col:month_no}-1)<{range:aval_order.tm})*({range:aval_order.bal}*(1+{range:aval_order.rm})^({col:month_no}-1)-{range:aval_order.mnp}*((1+{range:aval_order.rm})^({col:month_no}-1)-1)/{range:aval_order.rm})+(({col:month_no}-1)>{range:aval_order.sp})*(({col:month_no}-1)<{range:aval_order.clr})*({range:aval_order.bal0}*(1+{range:aval_order.rm})^(({col:month_no}-1)-{range:aval_order.sp})-{range:aval_order.pay}*((1+{range:aval_order.rm})^(({col:month_no}-1)-{range:aval_order.sp})-1)/{range:aval_order.rm})),0)))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:aval_order.payoff_month})),\"\",SUMPRODUCT(IFERROR({range:aval_order.rm}*((({col:month_no}-1)<={range:aval_order.sp})*(({col:month_no}-1)<{range:aval_order.tm})*({range:aval_order.bal}*(1+{range:aval_order.rm})^({col:month_no}-1)-{range:aval_order.mnp}*((1+{range:aval_order.rm})^({col:month_no}-1)-1)/{range:aval_order.rm})+(({col:month_no}-1)>{range:aval_order.sp})*(({col:month_no}-1)<{range:aval_order.clr})*({range:aval_order.bal0}*(1+{range:aval_order.rm})^(({col:month_no}-1)-{range:aval_order.sp})-{range:aval_order.pay}*((1+{range:aval_order.rm})^(({col:month_no}-1)-{range:aval_order.sp})-1)/{range:aval_order.rm})),0)))"
     },
     {
      "key": "principal",
@@ -7817,7 +7817,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:month_no}=\"\",\"\",IF({col:month_no}=1,SUM({range:aval_order.bal}),INDEX({range:sched_aval.balance},{col:month_no}-1))-{col:balance})"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:aval_order.payoff_month})),\"\",IF({col:month_no}=1,SUM({range:aval_order.bal}),INDEX({range:sched_aval.balance},{col:month_no}-1))-{col:balance})"
     },
     {
      "key": "balance",
@@ -7825,7 +7825,7 @@
      "type": "calc",
      "width": 12,
      "format": "money",
-     "formula": "IF({col:month_no}=\"\",\"\",SUMPRODUCT(IFERROR(({col:month_no}<={range:aval_order.sp})*({col:month_no}<{range:aval_order.tm})*({range:aval_order.bal}*(1+{range:aval_order.rm})^{col:month_no}-{range:aval_order.mnp}*((1+{range:aval_order.rm})^{col:month_no}-1)/{range:aval_order.rm})+({col:month_no}>{range:aval_order.sp})*({col:month_no}<{range:aval_order.clr})*({range:aval_order.bal0}*(1+{range:aval_order.rm})^({col:month_no}-{range:aval_order.sp})-{range:aval_order.pay}*((1+{range:aval_order.rm})^({col:month_no}-{range:aval_order.sp})-1)/{range:aval_order.rm}),0)))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:aval_order.payoff_month})),\"\",SUMPRODUCT(IFERROR(({col:month_no}<={range:aval_order.sp})*({col:month_no}<{range:aval_order.tm})*({range:aval_order.bal}*(1+{range:aval_order.rm})^{col:month_no}-{range:aval_order.mnp}*((1+{range:aval_order.rm})^{col:month_no}-1)/{range:aval_order.rm})+({col:month_no}>{range:aval_order.sp})*({col:month_no}<{range:aval_order.clr})*({range:aval_order.bal0}*(1+{range:aval_order.rm})^({col:month_no}-{range:aval_order.sp})-{range:aval_order.pay}*((1+{range:aval_order.rm})^({col:month_no}-{range:aval_order.sp})-1)/{range:aval_order.rm}),0)))"
     },
     {
      "key": "debts_left",
@@ -7833,7 +7833,7 @@
      "type": "calc",
      "width": 8,
      "format": "int",
-     "formula": "IF({col:month_no}=\"\",\"\",SUMPRODUCT(ISNUMBER({range:aval_order.bal})*ISNUMBER({range:aval_order.payoff_month})*({range:aval_order.bal}>0)*({col:month_no}<{range:aval_order.payoff_month})))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:aval_order.payoff_month})),\"\",SUMPRODUCT(ISNUMBER({range:aval_order.bal})*ISNUMBER({range:aval_order.payoff_month})*({range:aval_order.bal}>0)*({col:month_no}<{range:aval_order.payoff_month})))"
     },
     {
      "key": "cum_interest",
@@ -7841,7 +7841,7 @@
      "type": "calc",
      "width": 12,
      "format": "money",
-     "formula": "IF({col:month_no}=\"\",\"\",SUMIFS({range:sched_aval.interest},{range:sched_aval.month_no},\"<=\"&{col:month_no}))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:aval_order.payoff_month})),\"\",SUMIFS({range:sched_aval.interest},{range:sched_aval.month_no},\"<=\"&{col:month_no}))"
     },
     {
      "key": "paid_share",
@@ -7849,7 +7849,7 @@
      "type": "calc",
      "width": 10,
      "format": "pct",
-     "formula": "IF({col:month_no}=\"\",\"\",IF(SUM({range:aval_order.bal})>0,1-{col:balance}/SUM({range:aval_order.bal}),0))"
+     "formula": "IF(OR({col:month_no}=\"\",{col:month_no}>MAX({range:aval_order.payoff_month})),\"\",IF(SUM({range:aval_order.bal})>0,1-{col:balance}/SUM({range:aval_order.bal}),0))"
     },
     {
      "key": "planyear",
@@ -8491,7 +8491,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((INDEX({range:aval_order.bal},1)*(1+INDEX({range:aval_order.rm},1))^0-INDEX({range:aval_order.mnp},1)*((1+INDEX({range:aval_order.rm},1))^0-1)/INDEX({range:aval_order.rm},1)),2)))"
+     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},1)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^0-IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^0-1)/MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c1",
@@ -8499,7 +8499,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:step}=\"\",\"\",MIN(999,0+IF({col:z1}=0,0,IF((INDEX({range:aval_order.mnp},1)+{col:xtr}+INDEX({range:aval_order.mroll},1))<={col:z1}*INDEX({range:aval_order.rm},1)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},1),-(INDEX({range:aval_order.mnp},1)+{col:xtr}+INDEX({range:aval_order.mroll},1)),{col:z1}),0)))))"
+     "formula": "IF({col:step}=\"\",\"\",MIN(999,0+IF({col:z1}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},1)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},1)+0,0))<={col:z1}*MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},1)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},1)+0,0)),{col:z1}),0)))))"
     },
     {
      "key": "i1",
@@ -8507,7 +8507,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",IF(INDEX({range:aval_order.bal},1)<=0,0,IF({col:z1}=0,(INDEX({range:aval_order.mnp},1)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},1),-INDEX({range:aval_order.mnp},1),INDEX({range:aval_order.bal},1)),0)-1)+(INDEX({range:aval_order.bal},1)*(1+INDEX({range:aval_order.rm},1))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},1),-INDEX({range:aval_order.mnp},1),INDEX({range:aval_order.bal},1)),0)-1)-INDEX({range:aval_order.mnp},1)*((1+INDEX({range:aval_order.rm},1))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},1),-INDEX({range:aval_order.mnp},1),INDEX({range:aval_order.bal},1)),0)-1)-1)/INDEX({range:aval_order.rm},1))*(1+INDEX({range:aval_order.rm},1))-INDEX({range:aval_order.bal},1)),IF({col:c1}>=999,0,(INDEX({range:aval_order.mnp},1)*0+(INDEX({range:aval_order.mnp},1)+{col:xtr}+INDEX({range:aval_order.mroll},1))*(({col:c1}-0)-1)+({col:z1}*(1+INDEX({range:aval_order.rm},1))^(({col:c1}-0)-1)-(INDEX({range:aval_order.mnp},1)+{col:xtr}+INDEX({range:aval_order.mroll},1))*((1+INDEX({range:aval_order.rm},1))^(({col:c1}-0)-1)-1)/INDEX({range:aval_order.rm},1))*(1+INDEX({range:aval_order.rm},1))-INDEX({range:aval_order.bal},1))))))"
+     "formula": "IF({col:step}=\"\",\"\",IF(IFERROR(INDEX({range:aval_order.bal},1)+0,0)<=0,0,IF({col:z1}=0,(IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},1)+0,0),IFERROR(INDEX({range:aval_order.bal},1)+0,0)),0)-1)+(IFERROR(INDEX({range:aval_order.bal},1)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},1)+0,0),IFERROR(INDEX({range:aval_order.bal},1)+0,0)),0)-1)-IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},1)+0,0),IFERROR(INDEX({range:aval_order.bal},1)+0,0)),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},1)+0,0)),IF({col:c1}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*0+(IFERROR(INDEX({range:aval_order.mnp},1)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},1)+0,0))*(({col:c1}-0)-1)+({col:z1}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^(({col:c1}-0)-1)-(IFERROR(INDEX({range:aval_order.mnp},1)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},1)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^(({col:c1}-0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},1)+0,0))))))"
     },
     {
      "key": "z2",
@@ -8515,7 +8515,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((INDEX({range:aval_order.bal},2)*(1+INDEX({range:aval_order.rm},2))^{col:c1}-INDEX({range:aval_order.mnp},2)*((1+INDEX({range:aval_order.rm},2))^{col:c1}-1)/INDEX({range:aval_order.rm},2)),2)))"
+     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},2)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^{col:c1}-IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^{col:c1}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c2",
@@ -8523,7 +8523,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c1}+IF({col:z2}=0,0,IF((INDEX({range:aval_order.mnp},2)+{col:xtr}+INDEX({range:aval_order.mroll},2))<={col:z2}*INDEX({range:aval_order.rm},2)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},2),-(INDEX({range:aval_order.mnp},2)+{col:xtr}+INDEX({range:aval_order.mroll},2)),{col:z2}),0)))))"
+     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c1}+IF({col:z2}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},2)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},2)+0,0))<={col:z2}*MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},2)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},2)+0,0)),{col:z2}),0)))))"
     },
     {
      "key": "i2",
@@ -8531,7 +8531,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",IF(INDEX({range:aval_order.bal},2)<=0,0,IF({col:z2}=0,(INDEX({range:aval_order.mnp},2)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},2),-INDEX({range:aval_order.mnp},2),INDEX({range:aval_order.bal},2)),0)-1)+(INDEX({range:aval_order.bal},2)*(1+INDEX({range:aval_order.rm},2))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},2),-INDEX({range:aval_order.mnp},2),INDEX({range:aval_order.bal},2)),0)-1)-INDEX({range:aval_order.mnp},2)*((1+INDEX({range:aval_order.rm},2))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},2),-INDEX({range:aval_order.mnp},2),INDEX({range:aval_order.bal},2)),0)-1)-1)/INDEX({range:aval_order.rm},2))*(1+INDEX({range:aval_order.rm},2))-INDEX({range:aval_order.bal},2)),IF({col:c2}>=999,0,(INDEX({range:aval_order.mnp},2)*{col:c1}+(INDEX({range:aval_order.mnp},2)+{col:xtr}+INDEX({range:aval_order.mroll},2))*(({col:c2}-{col:c1})-1)+({col:z2}*(1+INDEX({range:aval_order.rm},2))^(({col:c2}-{col:c1})-1)-(INDEX({range:aval_order.mnp},2)+{col:xtr}+INDEX({range:aval_order.mroll},2))*((1+INDEX({range:aval_order.rm},2))^(({col:c2}-{col:c1})-1)-1)/INDEX({range:aval_order.rm},2))*(1+INDEX({range:aval_order.rm},2))-INDEX({range:aval_order.bal},2))))))"
+     "formula": "IF({col:step}=\"\",\"\",IF(IFERROR(INDEX({range:aval_order.bal},2)+0,0)<=0,0,IF({col:z2}=0,(IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},2)+0,0),IFERROR(INDEX({range:aval_order.bal},2)+0,0)),0)-1)+(IFERROR(INDEX({range:aval_order.bal},2)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},2)+0,0),IFERROR(INDEX({range:aval_order.bal},2)+0,0)),0)-1)-IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},2)+0,0),IFERROR(INDEX({range:aval_order.bal},2)+0,0)),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},2)+0,0)),IF({col:c2}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*{col:c1}+(IFERROR(INDEX({range:aval_order.mnp},2)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},2)+0,0))*(({col:c2}-{col:c1})-1)+({col:z2}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^(({col:c2}-{col:c1})-1)-(IFERROR(INDEX({range:aval_order.mnp},2)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},2)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^(({col:c2}-{col:c1})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},2)+0,0))))))"
     },
     {
      "key": "z3",
@@ -8539,7 +8539,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((INDEX({range:aval_order.bal},3)*(1+INDEX({range:aval_order.rm},3))^{col:c2}-INDEX({range:aval_order.mnp},3)*((1+INDEX({range:aval_order.rm},3))^{col:c2}-1)/INDEX({range:aval_order.rm},3)),2)))"
+     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},3)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^{col:c2}-IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^{col:c2}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c3",
@@ -8547,7 +8547,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c2}+IF({col:z3}=0,0,IF((INDEX({range:aval_order.mnp},3)+{col:xtr}+INDEX({range:aval_order.mroll},3))<={col:z3}*INDEX({range:aval_order.rm},3)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},3),-(INDEX({range:aval_order.mnp},3)+{col:xtr}+INDEX({range:aval_order.mroll},3)),{col:z3}),0)))))"
+     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c2}+IF({col:z3}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},3)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},3)+0,0))<={col:z3}*MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},3)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},3)+0,0)),{col:z3}),0)))))"
     },
     {
      "key": "i3",
@@ -8555,7 +8555,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",IF(INDEX({range:aval_order.bal},3)<=0,0,IF({col:z3}=0,(INDEX({range:aval_order.mnp},3)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},3),-INDEX({range:aval_order.mnp},3),INDEX({range:aval_order.bal},3)),0)-1)+(INDEX({range:aval_order.bal},3)*(1+INDEX({range:aval_order.rm},3))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},3),-INDEX({range:aval_order.mnp},3),INDEX({range:aval_order.bal},3)),0)-1)-INDEX({range:aval_order.mnp},3)*((1+INDEX({range:aval_order.rm},3))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},3),-INDEX({range:aval_order.mnp},3),INDEX({range:aval_order.bal},3)),0)-1)-1)/INDEX({range:aval_order.rm},3))*(1+INDEX({range:aval_order.rm},3))-INDEX({range:aval_order.bal},3)),IF({col:c3}>=999,0,(INDEX({range:aval_order.mnp},3)*{col:c2}+(INDEX({range:aval_order.mnp},3)+{col:xtr}+INDEX({range:aval_order.mroll},3))*(({col:c3}-{col:c2})-1)+({col:z3}*(1+INDEX({range:aval_order.rm},3))^(({col:c3}-{col:c2})-1)-(INDEX({range:aval_order.mnp},3)+{col:xtr}+INDEX({range:aval_order.mroll},3))*((1+INDEX({range:aval_order.rm},3))^(({col:c3}-{col:c2})-1)-1)/INDEX({range:aval_order.rm},3))*(1+INDEX({range:aval_order.rm},3))-INDEX({range:aval_order.bal},3))))))"
+     "formula": "IF({col:step}=\"\",\"\",IF(IFERROR(INDEX({range:aval_order.bal},3)+0,0)<=0,0,IF({col:z3}=0,(IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},3)+0,0),IFERROR(INDEX({range:aval_order.bal},3)+0,0)),0)-1)+(IFERROR(INDEX({range:aval_order.bal},3)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},3)+0,0),IFERROR(INDEX({range:aval_order.bal},3)+0,0)),0)-1)-IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},3)+0,0),IFERROR(INDEX({range:aval_order.bal},3)+0,0)),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},3)+0,0)),IF({col:c3}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*{col:c2}+(IFERROR(INDEX({range:aval_order.mnp},3)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},3)+0,0))*(({col:c3}-{col:c2})-1)+({col:z3}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^(({col:c3}-{col:c2})-1)-(IFERROR(INDEX({range:aval_order.mnp},3)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},3)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^(({col:c3}-{col:c2})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},3)+0,0))))))"
     },
     {
      "key": "z4",
@@ -8563,7 +8563,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((INDEX({range:aval_order.bal},4)*(1+INDEX({range:aval_order.rm},4))^{col:c3}-INDEX({range:aval_order.mnp},4)*((1+INDEX({range:aval_order.rm},4))^{col:c3}-1)/INDEX({range:aval_order.rm},4)),2)))"
+     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},4)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^{col:c3}-IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^{col:c3}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c4",
@@ -8571,7 +8571,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c3}+IF({col:z4}=0,0,IF((INDEX({range:aval_order.mnp},4)+{col:xtr}+INDEX({range:aval_order.mroll},4))<={col:z4}*INDEX({range:aval_order.rm},4)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},4),-(INDEX({range:aval_order.mnp},4)+{col:xtr}+INDEX({range:aval_order.mroll},4)),{col:z4}),0)))))"
+     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c3}+IF({col:z4}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},4)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},4)+0,0))<={col:z4}*MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},4)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},4)+0,0)),{col:z4}),0)))))"
     },
     {
      "key": "i4",
@@ -8579,7 +8579,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",IF(INDEX({range:aval_order.bal},4)<=0,0,IF({col:z4}=0,(INDEX({range:aval_order.mnp},4)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},4),-INDEX({range:aval_order.mnp},4),INDEX({range:aval_order.bal},4)),0)-1)+(INDEX({range:aval_order.bal},4)*(1+INDEX({range:aval_order.rm},4))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},4),-INDEX({range:aval_order.mnp},4),INDEX({range:aval_order.bal},4)),0)-1)-INDEX({range:aval_order.mnp},4)*((1+INDEX({range:aval_order.rm},4))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},4),-INDEX({range:aval_order.mnp},4),INDEX({range:aval_order.bal},4)),0)-1)-1)/INDEX({range:aval_order.rm},4))*(1+INDEX({range:aval_order.rm},4))-INDEX({range:aval_order.bal},4)),IF({col:c4}>=999,0,(INDEX({range:aval_order.mnp},4)*{col:c3}+(INDEX({range:aval_order.mnp},4)+{col:xtr}+INDEX({range:aval_order.mroll},4))*(({col:c4}-{col:c3})-1)+({col:z4}*(1+INDEX({range:aval_order.rm},4))^(({col:c4}-{col:c3})-1)-(INDEX({range:aval_order.mnp},4)+{col:xtr}+INDEX({range:aval_order.mroll},4))*((1+INDEX({range:aval_order.rm},4))^(({col:c4}-{col:c3})-1)-1)/INDEX({range:aval_order.rm},4))*(1+INDEX({range:aval_order.rm},4))-INDEX({range:aval_order.bal},4))))))"
+     "formula": "IF({col:step}=\"\",\"\",IF(IFERROR(INDEX({range:aval_order.bal},4)+0,0)<=0,0,IF({col:z4}=0,(IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},4)+0,0),IFERROR(INDEX({range:aval_order.bal},4)+0,0)),0)-1)+(IFERROR(INDEX({range:aval_order.bal},4)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},4)+0,0),IFERROR(INDEX({range:aval_order.bal},4)+0,0)),0)-1)-IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},4)+0,0),IFERROR(INDEX({range:aval_order.bal},4)+0,0)),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},4)+0,0)),IF({col:c4}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*{col:c3}+(IFERROR(INDEX({range:aval_order.mnp},4)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},4)+0,0))*(({col:c4}-{col:c3})-1)+({col:z4}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^(({col:c4}-{col:c3})-1)-(IFERROR(INDEX({range:aval_order.mnp},4)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},4)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^(({col:c4}-{col:c3})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},4)+0,0))))))"
     },
     {
      "key": "z5",
@@ -8587,7 +8587,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((INDEX({range:aval_order.bal},5)*(1+INDEX({range:aval_order.rm},5))^{col:c4}-INDEX({range:aval_order.mnp},5)*((1+INDEX({range:aval_order.rm},5))^{col:c4}-1)/INDEX({range:aval_order.rm},5)),2)))"
+     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},5)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^{col:c4}-IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^{col:c4}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c5",
@@ -8595,7 +8595,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c4}+IF({col:z5}=0,0,IF((INDEX({range:aval_order.mnp},5)+{col:xtr}+INDEX({range:aval_order.mroll},5))<={col:z5}*INDEX({range:aval_order.rm},5)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},5),-(INDEX({range:aval_order.mnp},5)+{col:xtr}+INDEX({range:aval_order.mroll},5)),{col:z5}),0)))))"
+     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c4}+IF({col:z5}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},5)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},5)+0,0))<={col:z5}*MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},5)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},5)+0,0)),{col:z5}),0)))))"
     },
     {
      "key": "i5",
@@ -8603,7 +8603,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",IF(INDEX({range:aval_order.bal},5)<=0,0,IF({col:z5}=0,(INDEX({range:aval_order.mnp},5)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},5),-INDEX({range:aval_order.mnp},5),INDEX({range:aval_order.bal},5)),0)-1)+(INDEX({range:aval_order.bal},5)*(1+INDEX({range:aval_order.rm},5))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},5),-INDEX({range:aval_order.mnp},5),INDEX({range:aval_order.bal},5)),0)-1)-INDEX({range:aval_order.mnp},5)*((1+INDEX({range:aval_order.rm},5))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},5),-INDEX({range:aval_order.mnp},5),INDEX({range:aval_order.bal},5)),0)-1)-1)/INDEX({range:aval_order.rm},5))*(1+INDEX({range:aval_order.rm},5))-INDEX({range:aval_order.bal},5)),IF({col:c5}>=999,0,(INDEX({range:aval_order.mnp},5)*{col:c4}+(INDEX({range:aval_order.mnp},5)+{col:xtr}+INDEX({range:aval_order.mroll},5))*(({col:c5}-{col:c4})-1)+({col:z5}*(1+INDEX({range:aval_order.rm},5))^(({col:c5}-{col:c4})-1)-(INDEX({range:aval_order.mnp},5)+{col:xtr}+INDEX({range:aval_order.mroll},5))*((1+INDEX({range:aval_order.rm},5))^(({col:c5}-{col:c4})-1)-1)/INDEX({range:aval_order.rm},5))*(1+INDEX({range:aval_order.rm},5))-INDEX({range:aval_order.bal},5))))))"
+     "formula": "IF({col:step}=\"\",\"\",IF(IFERROR(INDEX({range:aval_order.bal},5)+0,0)<=0,0,IF({col:z5}=0,(IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},5)+0,0),IFERROR(INDEX({range:aval_order.bal},5)+0,0)),0)-1)+(IFERROR(INDEX({range:aval_order.bal},5)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},5)+0,0),IFERROR(INDEX({range:aval_order.bal},5)+0,0)),0)-1)-IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},5)+0,0),IFERROR(INDEX({range:aval_order.bal},5)+0,0)),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},5)+0,0)),IF({col:c5}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*{col:c4}+(IFERROR(INDEX({range:aval_order.mnp},5)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},5)+0,0))*(({col:c5}-{col:c4})-1)+({col:z5}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^(({col:c5}-{col:c4})-1)-(IFERROR(INDEX({range:aval_order.mnp},5)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},5)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^(({col:c5}-{col:c4})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},5)+0,0))))))"
     },
     {
      "key": "z6",
@@ -8611,7 +8611,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((INDEX({range:aval_order.bal},6)*(1+INDEX({range:aval_order.rm},6))^{col:c5}-INDEX({range:aval_order.mnp},6)*((1+INDEX({range:aval_order.rm},6))^{col:c5}-1)/INDEX({range:aval_order.rm},6)),2)))"
+     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},6)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^{col:c5}-IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^{col:c5}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c6",
@@ -8619,7 +8619,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c5}+IF({col:z6}=0,0,IF((INDEX({range:aval_order.mnp},6)+{col:xtr}+INDEX({range:aval_order.mroll},6))<={col:z6}*INDEX({range:aval_order.rm},6)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},6),-(INDEX({range:aval_order.mnp},6)+{col:xtr}+INDEX({range:aval_order.mroll},6)),{col:z6}),0)))))"
+     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c5}+IF({col:z6}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},6)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},6)+0,0))<={col:z6}*MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},6)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},6)+0,0)),{col:z6}),0)))))"
     },
     {
      "key": "i6",
@@ -8627,7 +8627,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",IF(INDEX({range:aval_order.bal},6)<=0,0,IF({col:z6}=0,(INDEX({range:aval_order.mnp},6)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},6),-INDEX({range:aval_order.mnp},6),INDEX({range:aval_order.bal},6)),0)-1)+(INDEX({range:aval_order.bal},6)*(1+INDEX({range:aval_order.rm},6))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},6),-INDEX({range:aval_order.mnp},6),INDEX({range:aval_order.bal},6)),0)-1)-INDEX({range:aval_order.mnp},6)*((1+INDEX({range:aval_order.rm},6))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},6),-INDEX({range:aval_order.mnp},6),INDEX({range:aval_order.bal},6)),0)-1)-1)/INDEX({range:aval_order.rm},6))*(1+INDEX({range:aval_order.rm},6))-INDEX({range:aval_order.bal},6)),IF({col:c6}>=999,0,(INDEX({range:aval_order.mnp},6)*{col:c5}+(INDEX({range:aval_order.mnp},6)+{col:xtr}+INDEX({range:aval_order.mroll},6))*(({col:c6}-{col:c5})-1)+({col:z6}*(1+INDEX({range:aval_order.rm},6))^(({col:c6}-{col:c5})-1)-(INDEX({range:aval_order.mnp},6)+{col:xtr}+INDEX({range:aval_order.mroll},6))*((1+INDEX({range:aval_order.rm},6))^(({col:c6}-{col:c5})-1)-1)/INDEX({range:aval_order.rm},6))*(1+INDEX({range:aval_order.rm},6))-INDEX({range:aval_order.bal},6))))))"
+     "formula": "IF({col:step}=\"\",\"\",IF(IFERROR(INDEX({range:aval_order.bal},6)+0,0)<=0,0,IF({col:z6}=0,(IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},6)+0,0),IFERROR(INDEX({range:aval_order.bal},6)+0,0)),0)-1)+(IFERROR(INDEX({range:aval_order.bal},6)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},6)+0,0),IFERROR(INDEX({range:aval_order.bal},6)+0,0)),0)-1)-IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},6)+0,0),IFERROR(INDEX({range:aval_order.bal},6)+0,0)),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},6)+0,0)),IF({col:c6}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*{col:c5}+(IFERROR(INDEX({range:aval_order.mnp},6)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},6)+0,0))*(({col:c6}-{col:c5})-1)+({col:z6}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^(({col:c6}-{col:c5})-1)-(IFERROR(INDEX({range:aval_order.mnp},6)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},6)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^(({col:c6}-{col:c5})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},6)+0,0))))))"
     },
     {
      "key": "z7",
@@ -8635,7 +8635,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((INDEX({range:aval_order.bal},7)*(1+INDEX({range:aval_order.rm},7))^{col:c6}-INDEX({range:aval_order.mnp},7)*((1+INDEX({range:aval_order.rm},7))^{col:c6}-1)/INDEX({range:aval_order.rm},7)),2)))"
+     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},7)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^{col:c6}-IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^{col:c6}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c7",
@@ -8643,7 +8643,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c6}+IF({col:z7}=0,0,IF((INDEX({range:aval_order.mnp},7)+{col:xtr}+INDEX({range:aval_order.mroll},7))<={col:z7}*INDEX({range:aval_order.rm},7)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},7),-(INDEX({range:aval_order.mnp},7)+{col:xtr}+INDEX({range:aval_order.mroll},7)),{col:z7}),0)))))"
+     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c6}+IF({col:z7}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},7)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},7)+0,0))<={col:z7}*MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},7)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},7)+0,0)),{col:z7}),0)))))"
     },
     {
      "key": "i7",
@@ -8651,7 +8651,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",IF(INDEX({range:aval_order.bal},7)<=0,0,IF({col:z7}=0,(INDEX({range:aval_order.mnp},7)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},7),-INDEX({range:aval_order.mnp},7),INDEX({range:aval_order.bal},7)),0)-1)+(INDEX({range:aval_order.bal},7)*(1+INDEX({range:aval_order.rm},7))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},7),-INDEX({range:aval_order.mnp},7),INDEX({range:aval_order.bal},7)),0)-1)-INDEX({range:aval_order.mnp},7)*((1+INDEX({range:aval_order.rm},7))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},7),-INDEX({range:aval_order.mnp},7),INDEX({range:aval_order.bal},7)),0)-1)-1)/INDEX({range:aval_order.rm},7))*(1+INDEX({range:aval_order.rm},7))-INDEX({range:aval_order.bal},7)),IF({col:c7}>=999,0,(INDEX({range:aval_order.mnp},7)*{col:c6}+(INDEX({range:aval_order.mnp},7)+{col:xtr}+INDEX({range:aval_order.mroll},7))*(({col:c7}-{col:c6})-1)+({col:z7}*(1+INDEX({range:aval_order.rm},7))^(({col:c7}-{col:c6})-1)-(INDEX({range:aval_order.mnp},7)+{col:xtr}+INDEX({range:aval_order.mroll},7))*((1+INDEX({range:aval_order.rm},7))^(({col:c7}-{col:c6})-1)-1)/INDEX({range:aval_order.rm},7))*(1+INDEX({range:aval_order.rm},7))-INDEX({range:aval_order.bal},7))))))"
+     "formula": "IF({col:step}=\"\",\"\",IF(IFERROR(INDEX({range:aval_order.bal},7)+0,0)<=0,0,IF({col:z7}=0,(IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},7)+0,0),IFERROR(INDEX({range:aval_order.bal},7)+0,0)),0)-1)+(IFERROR(INDEX({range:aval_order.bal},7)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},7)+0,0),IFERROR(INDEX({range:aval_order.bal},7)+0,0)),0)-1)-IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},7)+0,0),IFERROR(INDEX({range:aval_order.bal},7)+0,0)),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},7)+0,0)),IF({col:c7}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*{col:c6}+(IFERROR(INDEX({range:aval_order.mnp},7)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},7)+0,0))*(({col:c7}-{col:c6})-1)+({col:z7}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^(({col:c7}-{col:c6})-1)-(IFERROR(INDEX({range:aval_order.mnp},7)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},7)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^(({col:c7}-{col:c6})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},7)+0,0))))))"
     },
     {
      "key": "z8",
@@ -8659,7 +8659,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((INDEX({range:aval_order.bal},8)*(1+INDEX({range:aval_order.rm},8))^{col:c7}-INDEX({range:aval_order.mnp},8)*((1+INDEX({range:aval_order.rm},8))^{col:c7}-1)/INDEX({range:aval_order.rm},8)),2)))"
+     "formula": "IF({col:step}=\"\",\"\",MAX(0,ROUND((IFERROR(INDEX({range:aval_order.bal},8)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^{col:c7}-IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^{col:c7}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c8",
@@ -8667,7 +8667,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c7}+IF({col:z8}=0,0,IF((INDEX({range:aval_order.mnp},8)+{col:xtr}+INDEX({range:aval_order.mroll},8))<={col:z8}*INDEX({range:aval_order.rm},8)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},8),-(INDEX({range:aval_order.mnp},8)+{col:xtr}+INDEX({range:aval_order.mroll},8)),{col:z8}),0)))))"
+     "formula": "IF({col:step}=\"\",\"\",MIN(999,{col:c7}+IF({col:z8}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},8)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},8)+0,0))<={col:z8}*MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},8)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},8)+0,0)),{col:z8}),0)))))"
     },
     {
      "key": "i8",
@@ -8675,7 +8675,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:step}=\"\",\"\",IF(INDEX({range:aval_order.bal},8)<=0,0,IF({col:z8}=0,(INDEX({range:aval_order.mnp},8)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},8),-INDEX({range:aval_order.mnp},8),INDEX({range:aval_order.bal},8)),0)-1)+(INDEX({range:aval_order.bal},8)*(1+INDEX({range:aval_order.rm},8))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},8),-INDEX({range:aval_order.mnp},8),INDEX({range:aval_order.bal},8)),0)-1)-INDEX({range:aval_order.mnp},8)*((1+INDEX({range:aval_order.rm},8))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},8),-INDEX({range:aval_order.mnp},8),INDEX({range:aval_order.bal},8)),0)-1)-1)/INDEX({range:aval_order.rm},8))*(1+INDEX({range:aval_order.rm},8))-INDEX({range:aval_order.bal},8)),IF({col:c8}>=999,0,(INDEX({range:aval_order.mnp},8)*{col:c7}+(INDEX({range:aval_order.mnp},8)+{col:xtr}+INDEX({range:aval_order.mroll},8))*(({col:c8}-{col:c7})-1)+({col:z8}*(1+INDEX({range:aval_order.rm},8))^(({col:c8}-{col:c7})-1)-(INDEX({range:aval_order.mnp},8)+{col:xtr}+INDEX({range:aval_order.mroll},8))*((1+INDEX({range:aval_order.rm},8))^(({col:c8}-{col:c7})-1)-1)/INDEX({range:aval_order.rm},8))*(1+INDEX({range:aval_order.rm},8))-INDEX({range:aval_order.bal},8))))))"
+     "formula": "IF({col:step}=\"\",\"\",IF(IFERROR(INDEX({range:aval_order.bal},8)+0,0)<=0,0,IF({col:z8}=0,(IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},8)+0,0),IFERROR(INDEX({range:aval_order.bal},8)+0,0)),0)-1)+(IFERROR(INDEX({range:aval_order.bal},8)+0,0)*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},8)+0,0),IFERROR(INDEX({range:aval_order.bal},8)+0,0)),0)-1)-IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},8)+0,0),IFERROR(INDEX({range:aval_order.bal},8)+0,0)),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},8)+0,0)),IF({col:c8}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*{col:c7}+(IFERROR(INDEX({range:aval_order.mnp},8)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},8)+0,0))*(({col:c8}-{col:c7})-1)+({col:z8}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^(({col:c8}-{col:c7})-1)-(IFERROR(INDEX({range:aval_order.mnp},8)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},8)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^(({col:c8}-{col:c7})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))-IFERROR(INDEX({range:aval_order.bal},8)+0,0))))))"
     }
    ],
    "demo": [
@@ -10119,7 +10119,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,INDEX({range:aval_order.bal},1)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},1)))*(1+INDEX({range:aval_order.rm},1))^0-INDEX({range:aval_order.mnp},1)*((1+INDEX({range:aval_order.rm},1))^0-1)/INDEX({range:aval_order.rm},1)),2)))"
+     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,IFERROR(INDEX({range:aval_order.bal},1)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},1)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^0-IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^0-1)/MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c1",
@@ -10127,7 +10127,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,0+IF({col:z1}=0,0,IF((INDEX({range:aval_order.mnp},1)+{col:xtr}+INDEX({range:aval_order.mroll},1))<={col:z1}*INDEX({range:aval_order.rm},1)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},1),-(INDEX({range:aval_order.mnp},1)+{col:xtr}+INDEX({range:aval_order.mroll},1)),{col:z1}),0)))))"
+     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,0+IF({col:z1}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},1)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},1)+0,0))<={col:z1}*MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},1)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},1)+0,0)),{col:z1}),0)))))"
     },
     {
      "key": "i1",
@@ -10135,7 +10135,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,INDEX({range:aval_order.bal},1)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},1)))<=0,0,IF({col:z1}=0,(INDEX({range:aval_order.mnp},1)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},1),-INDEX({range:aval_order.mnp},1),MAX(0,INDEX({range:aval_order.bal},1)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},1)))),0)-1)+(MAX(0,INDEX({range:aval_order.bal},1)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},1)))*(1+INDEX({range:aval_order.rm},1))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},1),-INDEX({range:aval_order.mnp},1),MAX(0,INDEX({range:aval_order.bal},1)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},1)))),0)-1)-INDEX({range:aval_order.mnp},1)*((1+INDEX({range:aval_order.rm},1))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},1),-INDEX({range:aval_order.mnp},1),MAX(0,INDEX({range:aval_order.bal},1)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},1)))),0)-1)-1)/INDEX({range:aval_order.rm},1))*(1+INDEX({range:aval_order.rm},1))-MAX(0,INDEX({range:aval_order.bal},1)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},1)))),IF({col:c1}>=999,0,(INDEX({range:aval_order.mnp},1)*0+(INDEX({range:aval_order.mnp},1)+{col:xtr}+INDEX({range:aval_order.mroll},1))*(({col:c1}-0)-1)+({col:z1}*(1+INDEX({range:aval_order.rm},1))^(({col:c1}-0)-1)-(INDEX({range:aval_order.mnp},1)+{col:xtr}+INDEX({range:aval_order.mroll},1))*((1+INDEX({range:aval_order.rm},1))^(({col:c1}-0)-1)-1)/INDEX({range:aval_order.rm},1))*(1+INDEX({range:aval_order.rm},1))-MAX(0,INDEX({range:aval_order.bal},1)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},1))))))))"
+     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,IFERROR(INDEX({range:aval_order.bal},1)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},1)+0,0)))<=0,0,IF({col:z1}=0,(IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},1)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},1)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},1)+0,0)))),0)-1)+(MAX(0,IFERROR(INDEX({range:aval_order.bal},1)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},1)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},1)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},1)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},1)+0,0)))),0)-1)-IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},1)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},1)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},1)+0,0)))),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},1)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},1)+0,0)))),IF({col:c1}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},1)+0,0)*0+(IFERROR(INDEX({range:aval_order.mnp},1)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},1)+0,0))*(({col:c1}-0)-1)+({col:z1}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^(({col:c1}-0)-1)-(IFERROR(INDEX({range:aval_order.mnp},1)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},1)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))^(({col:c1}-0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},1)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},1)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},1)+0,0))))))))"
     },
     {
      "key": "z2",
@@ -10143,7 +10143,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,INDEX({range:aval_order.bal},2)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},2)))*(1+INDEX({range:aval_order.rm},2))^{col:c1}-INDEX({range:aval_order.mnp},2)*((1+INDEX({range:aval_order.rm},2))^{col:c1}-1)/INDEX({range:aval_order.rm},2)),2)))"
+     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,IFERROR(INDEX({range:aval_order.bal},2)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},2)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^{col:c1}-IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^{col:c1}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c2",
@@ -10151,7 +10151,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c1}+IF({col:z2}=0,0,IF((INDEX({range:aval_order.mnp},2)+{col:xtr}+INDEX({range:aval_order.mroll},2))<={col:z2}*INDEX({range:aval_order.rm},2)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},2),-(INDEX({range:aval_order.mnp},2)+{col:xtr}+INDEX({range:aval_order.mroll},2)),{col:z2}),0)))))"
+     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c1}+IF({col:z2}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},2)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},2)+0,0))<={col:z2}*MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},2)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},2)+0,0)),{col:z2}),0)))))"
     },
     {
      "key": "i2",
@@ -10159,7 +10159,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,INDEX({range:aval_order.bal},2)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},2)))<=0,0,IF({col:z2}=0,(INDEX({range:aval_order.mnp},2)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},2),-INDEX({range:aval_order.mnp},2),MAX(0,INDEX({range:aval_order.bal},2)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},2)))),0)-1)+(MAX(0,INDEX({range:aval_order.bal},2)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},2)))*(1+INDEX({range:aval_order.rm},2))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},2),-INDEX({range:aval_order.mnp},2),MAX(0,INDEX({range:aval_order.bal},2)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},2)))),0)-1)-INDEX({range:aval_order.mnp},2)*((1+INDEX({range:aval_order.rm},2))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},2),-INDEX({range:aval_order.mnp},2),MAX(0,INDEX({range:aval_order.bal},2)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},2)))),0)-1)-1)/INDEX({range:aval_order.rm},2))*(1+INDEX({range:aval_order.rm},2))-MAX(0,INDEX({range:aval_order.bal},2)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},2)))),IF({col:c2}>=999,0,(INDEX({range:aval_order.mnp},2)*{col:c1}+(INDEX({range:aval_order.mnp},2)+{col:xtr}+INDEX({range:aval_order.mroll},2))*(({col:c2}-{col:c1})-1)+({col:z2}*(1+INDEX({range:aval_order.rm},2))^(({col:c2}-{col:c1})-1)-(INDEX({range:aval_order.mnp},2)+{col:xtr}+INDEX({range:aval_order.mroll},2))*((1+INDEX({range:aval_order.rm},2))^(({col:c2}-{col:c1})-1)-1)/INDEX({range:aval_order.rm},2))*(1+INDEX({range:aval_order.rm},2))-MAX(0,INDEX({range:aval_order.bal},2)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},2))))))))"
+     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,IFERROR(INDEX({range:aval_order.bal},2)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},2)+0,0)))<=0,0,IF({col:z2}=0,(IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},2)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},2)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},2)+0,0)))),0)-1)+(MAX(0,IFERROR(INDEX({range:aval_order.bal},2)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},2)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},2)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},2)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},2)+0,0)))),0)-1)-IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},2)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},2)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},2)+0,0)))),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},2)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},2)+0,0)))),IF({col:c2}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},2)+0,0)*{col:c1}+(IFERROR(INDEX({range:aval_order.mnp},2)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},2)+0,0))*(({col:c2}-{col:c1})-1)+({col:z2}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^(({col:c2}-{col:c1})-1)-(IFERROR(INDEX({range:aval_order.mnp},2)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},2)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))^(({col:c2}-{col:c1})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},2)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},2)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},2)+0,0))))))))"
     },
     {
      "key": "z3",
@@ -10167,7 +10167,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,INDEX({range:aval_order.bal},3)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},3)))*(1+INDEX({range:aval_order.rm},3))^{col:c2}-INDEX({range:aval_order.mnp},3)*((1+INDEX({range:aval_order.rm},3))^{col:c2}-1)/INDEX({range:aval_order.rm},3)),2)))"
+     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,IFERROR(INDEX({range:aval_order.bal},3)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},3)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^{col:c2}-IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^{col:c2}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c3",
@@ -10175,7 +10175,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c2}+IF({col:z3}=0,0,IF((INDEX({range:aval_order.mnp},3)+{col:xtr}+INDEX({range:aval_order.mroll},3))<={col:z3}*INDEX({range:aval_order.rm},3)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},3),-(INDEX({range:aval_order.mnp},3)+{col:xtr}+INDEX({range:aval_order.mroll},3)),{col:z3}),0)))))"
+     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c2}+IF({col:z3}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},3)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},3)+0,0))<={col:z3}*MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},3)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},3)+0,0)),{col:z3}),0)))))"
     },
     {
      "key": "i3",
@@ -10183,7 +10183,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,INDEX({range:aval_order.bal},3)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},3)))<=0,0,IF({col:z3}=0,(INDEX({range:aval_order.mnp},3)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},3),-INDEX({range:aval_order.mnp},3),MAX(0,INDEX({range:aval_order.bal},3)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},3)))),0)-1)+(MAX(0,INDEX({range:aval_order.bal},3)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},3)))*(1+INDEX({range:aval_order.rm},3))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},3),-INDEX({range:aval_order.mnp},3),MAX(0,INDEX({range:aval_order.bal},3)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},3)))),0)-1)-INDEX({range:aval_order.mnp},3)*((1+INDEX({range:aval_order.rm},3))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},3),-INDEX({range:aval_order.mnp},3),MAX(0,INDEX({range:aval_order.bal},3)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},3)))),0)-1)-1)/INDEX({range:aval_order.rm},3))*(1+INDEX({range:aval_order.rm},3))-MAX(0,INDEX({range:aval_order.bal},3)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},3)))),IF({col:c3}>=999,0,(INDEX({range:aval_order.mnp},3)*{col:c2}+(INDEX({range:aval_order.mnp},3)+{col:xtr}+INDEX({range:aval_order.mroll},3))*(({col:c3}-{col:c2})-1)+({col:z3}*(1+INDEX({range:aval_order.rm},3))^(({col:c3}-{col:c2})-1)-(INDEX({range:aval_order.mnp},3)+{col:xtr}+INDEX({range:aval_order.mroll},3))*((1+INDEX({range:aval_order.rm},3))^(({col:c3}-{col:c2})-1)-1)/INDEX({range:aval_order.rm},3))*(1+INDEX({range:aval_order.rm},3))-MAX(0,INDEX({range:aval_order.bal},3)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},3))))))))"
+     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,IFERROR(INDEX({range:aval_order.bal},3)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},3)+0,0)))<=0,0,IF({col:z3}=0,(IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},3)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},3)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},3)+0,0)))),0)-1)+(MAX(0,IFERROR(INDEX({range:aval_order.bal},3)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},3)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},3)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},3)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},3)+0,0)))),0)-1)-IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},3)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},3)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},3)+0,0)))),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},3)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},3)+0,0)))),IF({col:c3}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},3)+0,0)*{col:c2}+(IFERROR(INDEX({range:aval_order.mnp},3)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},3)+0,0))*(({col:c3}-{col:c2})-1)+({col:z3}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^(({col:c3}-{col:c2})-1)-(IFERROR(INDEX({range:aval_order.mnp},3)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},3)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))^(({col:c3}-{col:c2})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},3)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},3)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},3)+0,0))))))))"
     },
     {
      "key": "z4",
@@ -10191,7 +10191,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,INDEX({range:aval_order.bal},4)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},4)))*(1+INDEX({range:aval_order.rm},4))^{col:c3}-INDEX({range:aval_order.mnp},4)*((1+INDEX({range:aval_order.rm},4))^{col:c3}-1)/INDEX({range:aval_order.rm},4)),2)))"
+     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,IFERROR(INDEX({range:aval_order.bal},4)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},4)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^{col:c3}-IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^{col:c3}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c4",
@@ -10199,7 +10199,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c3}+IF({col:z4}=0,0,IF((INDEX({range:aval_order.mnp},4)+{col:xtr}+INDEX({range:aval_order.mroll},4))<={col:z4}*INDEX({range:aval_order.rm},4)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},4),-(INDEX({range:aval_order.mnp},4)+{col:xtr}+INDEX({range:aval_order.mroll},4)),{col:z4}),0)))))"
+     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c3}+IF({col:z4}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},4)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},4)+0,0))<={col:z4}*MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},4)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},4)+0,0)),{col:z4}),0)))))"
     },
     {
      "key": "i4",
@@ -10207,7 +10207,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,INDEX({range:aval_order.bal},4)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},4)))<=0,0,IF({col:z4}=0,(INDEX({range:aval_order.mnp},4)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},4),-INDEX({range:aval_order.mnp},4),MAX(0,INDEX({range:aval_order.bal},4)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},4)))),0)-1)+(MAX(0,INDEX({range:aval_order.bal},4)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},4)))*(1+INDEX({range:aval_order.rm},4))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},4),-INDEX({range:aval_order.mnp},4),MAX(0,INDEX({range:aval_order.bal},4)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},4)))),0)-1)-INDEX({range:aval_order.mnp},4)*((1+INDEX({range:aval_order.rm},4))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},4),-INDEX({range:aval_order.mnp},4),MAX(0,INDEX({range:aval_order.bal},4)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},4)))),0)-1)-1)/INDEX({range:aval_order.rm},4))*(1+INDEX({range:aval_order.rm},4))-MAX(0,INDEX({range:aval_order.bal},4)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},4)))),IF({col:c4}>=999,0,(INDEX({range:aval_order.mnp},4)*{col:c3}+(INDEX({range:aval_order.mnp},4)+{col:xtr}+INDEX({range:aval_order.mroll},4))*(({col:c4}-{col:c3})-1)+({col:z4}*(1+INDEX({range:aval_order.rm},4))^(({col:c4}-{col:c3})-1)-(INDEX({range:aval_order.mnp},4)+{col:xtr}+INDEX({range:aval_order.mroll},4))*((1+INDEX({range:aval_order.rm},4))^(({col:c4}-{col:c3})-1)-1)/INDEX({range:aval_order.rm},4))*(1+INDEX({range:aval_order.rm},4))-MAX(0,INDEX({range:aval_order.bal},4)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},4))))))))"
+     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,IFERROR(INDEX({range:aval_order.bal},4)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},4)+0,0)))<=0,0,IF({col:z4}=0,(IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},4)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},4)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},4)+0,0)))),0)-1)+(MAX(0,IFERROR(INDEX({range:aval_order.bal},4)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},4)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},4)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},4)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},4)+0,0)))),0)-1)-IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},4)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},4)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},4)+0,0)))),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},4)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},4)+0,0)))),IF({col:c4}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},4)+0,0)*{col:c3}+(IFERROR(INDEX({range:aval_order.mnp},4)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},4)+0,0))*(({col:c4}-{col:c3})-1)+({col:z4}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^(({col:c4}-{col:c3})-1)-(IFERROR(INDEX({range:aval_order.mnp},4)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},4)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))^(({col:c4}-{col:c3})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},4)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},4)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},4)+0,0))))))))"
     },
     {
      "key": "z5",
@@ -10215,7 +10215,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,INDEX({range:aval_order.bal},5)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},5)))*(1+INDEX({range:aval_order.rm},5))^{col:c4}-INDEX({range:aval_order.mnp},5)*((1+INDEX({range:aval_order.rm},5))^{col:c4}-1)/INDEX({range:aval_order.rm},5)),2)))"
+     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,IFERROR(INDEX({range:aval_order.bal},5)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},5)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^{col:c4}-IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^{col:c4}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c5",
@@ -10223,7 +10223,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c4}+IF({col:z5}=0,0,IF((INDEX({range:aval_order.mnp},5)+{col:xtr}+INDEX({range:aval_order.mroll},5))<={col:z5}*INDEX({range:aval_order.rm},5)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},5),-(INDEX({range:aval_order.mnp},5)+{col:xtr}+INDEX({range:aval_order.mroll},5)),{col:z5}),0)))))"
+     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c4}+IF({col:z5}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},5)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},5)+0,0))<={col:z5}*MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},5)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},5)+0,0)),{col:z5}),0)))))"
     },
     {
      "key": "i5",
@@ -10231,7 +10231,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,INDEX({range:aval_order.bal},5)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},5)))<=0,0,IF({col:z5}=0,(INDEX({range:aval_order.mnp},5)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},5),-INDEX({range:aval_order.mnp},5),MAX(0,INDEX({range:aval_order.bal},5)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},5)))),0)-1)+(MAX(0,INDEX({range:aval_order.bal},5)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},5)))*(1+INDEX({range:aval_order.rm},5))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},5),-INDEX({range:aval_order.mnp},5),MAX(0,INDEX({range:aval_order.bal},5)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},5)))),0)-1)-INDEX({range:aval_order.mnp},5)*((1+INDEX({range:aval_order.rm},5))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},5),-INDEX({range:aval_order.mnp},5),MAX(0,INDEX({range:aval_order.bal},5)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},5)))),0)-1)-1)/INDEX({range:aval_order.rm},5))*(1+INDEX({range:aval_order.rm},5))-MAX(0,INDEX({range:aval_order.bal},5)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},5)))),IF({col:c5}>=999,0,(INDEX({range:aval_order.mnp},5)*{col:c4}+(INDEX({range:aval_order.mnp},5)+{col:xtr}+INDEX({range:aval_order.mroll},5))*(({col:c5}-{col:c4})-1)+({col:z5}*(1+INDEX({range:aval_order.rm},5))^(({col:c5}-{col:c4})-1)-(INDEX({range:aval_order.mnp},5)+{col:xtr}+INDEX({range:aval_order.mroll},5))*((1+INDEX({range:aval_order.rm},5))^(({col:c5}-{col:c4})-1)-1)/INDEX({range:aval_order.rm},5))*(1+INDEX({range:aval_order.rm},5))-MAX(0,INDEX({range:aval_order.bal},5)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},5))))))))"
+     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,IFERROR(INDEX({range:aval_order.bal},5)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},5)+0,0)))<=0,0,IF({col:z5}=0,(IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},5)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},5)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},5)+0,0)))),0)-1)+(MAX(0,IFERROR(INDEX({range:aval_order.bal},5)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},5)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},5)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},5)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},5)+0,0)))),0)-1)-IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},5)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},5)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},5)+0,0)))),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},5)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},5)+0,0)))),IF({col:c5}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},5)+0,0)*{col:c4}+(IFERROR(INDEX({range:aval_order.mnp},5)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},5)+0,0))*(({col:c5}-{col:c4})-1)+({col:z5}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^(({col:c5}-{col:c4})-1)-(IFERROR(INDEX({range:aval_order.mnp},5)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},5)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))^(({col:c5}-{col:c4})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},5)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},5)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},5)+0,0))))))))"
     },
     {
      "key": "z6",
@@ -10239,7 +10239,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,INDEX({range:aval_order.bal},6)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},6)))*(1+INDEX({range:aval_order.rm},6))^{col:c5}-INDEX({range:aval_order.mnp},6)*((1+INDEX({range:aval_order.rm},6))^{col:c5}-1)/INDEX({range:aval_order.rm},6)),2)))"
+     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,IFERROR(INDEX({range:aval_order.bal},6)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},6)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^{col:c5}-IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^{col:c5}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c6",
@@ -10247,7 +10247,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c5}+IF({col:z6}=0,0,IF((INDEX({range:aval_order.mnp},6)+{col:xtr}+INDEX({range:aval_order.mroll},6))<={col:z6}*INDEX({range:aval_order.rm},6)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},6),-(INDEX({range:aval_order.mnp},6)+{col:xtr}+INDEX({range:aval_order.mroll},6)),{col:z6}),0)))))"
+     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c5}+IF({col:z6}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},6)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},6)+0,0))<={col:z6}*MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},6)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},6)+0,0)),{col:z6}),0)))))"
     },
     {
      "key": "i6",
@@ -10255,7 +10255,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,INDEX({range:aval_order.bal},6)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},6)))<=0,0,IF({col:z6}=0,(INDEX({range:aval_order.mnp},6)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},6),-INDEX({range:aval_order.mnp},6),MAX(0,INDEX({range:aval_order.bal},6)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},6)))),0)-1)+(MAX(0,INDEX({range:aval_order.bal},6)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},6)))*(1+INDEX({range:aval_order.rm},6))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},6),-INDEX({range:aval_order.mnp},6),MAX(0,INDEX({range:aval_order.bal},6)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},6)))),0)-1)-INDEX({range:aval_order.mnp},6)*((1+INDEX({range:aval_order.rm},6))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},6),-INDEX({range:aval_order.mnp},6),MAX(0,INDEX({range:aval_order.bal},6)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},6)))),0)-1)-1)/INDEX({range:aval_order.rm},6))*(1+INDEX({range:aval_order.rm},6))-MAX(0,INDEX({range:aval_order.bal},6)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},6)))),IF({col:c6}>=999,0,(INDEX({range:aval_order.mnp},6)*{col:c5}+(INDEX({range:aval_order.mnp},6)+{col:xtr}+INDEX({range:aval_order.mroll},6))*(({col:c6}-{col:c5})-1)+({col:z6}*(1+INDEX({range:aval_order.rm},6))^(({col:c6}-{col:c5})-1)-(INDEX({range:aval_order.mnp},6)+{col:xtr}+INDEX({range:aval_order.mroll},6))*((1+INDEX({range:aval_order.rm},6))^(({col:c6}-{col:c5})-1)-1)/INDEX({range:aval_order.rm},6))*(1+INDEX({range:aval_order.rm},6))-MAX(0,INDEX({range:aval_order.bal},6)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},6))))))))"
+     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,IFERROR(INDEX({range:aval_order.bal},6)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},6)+0,0)))<=0,0,IF({col:z6}=0,(IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},6)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},6)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},6)+0,0)))),0)-1)+(MAX(0,IFERROR(INDEX({range:aval_order.bal},6)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},6)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},6)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},6)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},6)+0,0)))),0)-1)-IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},6)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},6)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},6)+0,0)))),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},6)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},6)+0,0)))),IF({col:c6}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},6)+0,0)*{col:c5}+(IFERROR(INDEX({range:aval_order.mnp},6)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},6)+0,0))*(({col:c6}-{col:c5})-1)+({col:z6}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^(({col:c6}-{col:c5})-1)-(IFERROR(INDEX({range:aval_order.mnp},6)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},6)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))^(({col:c6}-{col:c5})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},6)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},6)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},6)+0,0))))))))"
     },
     {
      "key": "z7",
@@ -10263,7 +10263,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,INDEX({range:aval_order.bal},7)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},7)))*(1+INDEX({range:aval_order.rm},7))^{col:c6}-INDEX({range:aval_order.mnp},7)*((1+INDEX({range:aval_order.rm},7))^{col:c6}-1)/INDEX({range:aval_order.rm},7)),2)))"
+     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,IFERROR(INDEX({range:aval_order.bal},7)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},7)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^{col:c6}-IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^{col:c6}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c7",
@@ -10271,7 +10271,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c6}+IF({col:z7}=0,0,IF((INDEX({range:aval_order.mnp},7)+{col:xtr}+INDEX({range:aval_order.mroll},7))<={col:z7}*INDEX({range:aval_order.rm},7)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},7),-(INDEX({range:aval_order.mnp},7)+{col:xtr}+INDEX({range:aval_order.mroll},7)),{col:z7}),0)))))"
+     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c6}+IF({col:z7}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},7)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},7)+0,0))<={col:z7}*MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},7)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},7)+0,0)),{col:z7}),0)))))"
     },
     {
      "key": "i7",
@@ -10279,7 +10279,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,INDEX({range:aval_order.bal},7)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},7)))<=0,0,IF({col:z7}=0,(INDEX({range:aval_order.mnp},7)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},7),-INDEX({range:aval_order.mnp},7),MAX(0,INDEX({range:aval_order.bal},7)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},7)))),0)-1)+(MAX(0,INDEX({range:aval_order.bal},7)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},7)))*(1+INDEX({range:aval_order.rm},7))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},7),-INDEX({range:aval_order.mnp},7),MAX(0,INDEX({range:aval_order.bal},7)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},7)))),0)-1)-INDEX({range:aval_order.mnp},7)*((1+INDEX({range:aval_order.rm},7))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},7),-INDEX({range:aval_order.mnp},7),MAX(0,INDEX({range:aval_order.bal},7)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},7)))),0)-1)-1)/INDEX({range:aval_order.rm},7))*(1+INDEX({range:aval_order.rm},7))-MAX(0,INDEX({range:aval_order.bal},7)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},7)))),IF({col:c7}>=999,0,(INDEX({range:aval_order.mnp},7)*{col:c6}+(INDEX({range:aval_order.mnp},7)+{col:xtr}+INDEX({range:aval_order.mroll},7))*(({col:c7}-{col:c6})-1)+({col:z7}*(1+INDEX({range:aval_order.rm},7))^(({col:c7}-{col:c6})-1)-(INDEX({range:aval_order.mnp},7)+{col:xtr}+INDEX({range:aval_order.mroll},7))*((1+INDEX({range:aval_order.rm},7))^(({col:c7}-{col:c6})-1)-1)/INDEX({range:aval_order.rm},7))*(1+INDEX({range:aval_order.rm},7))-MAX(0,INDEX({range:aval_order.bal},7)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},7))))))))"
+     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,IFERROR(INDEX({range:aval_order.bal},7)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},7)+0,0)))<=0,0,IF({col:z7}=0,(IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},7)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},7)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},7)+0,0)))),0)-1)+(MAX(0,IFERROR(INDEX({range:aval_order.bal},7)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},7)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},7)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},7)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},7)+0,0)))),0)-1)-IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},7)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},7)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},7)+0,0)))),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},7)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},7)+0,0)))),IF({col:c7}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},7)+0,0)*{col:c6}+(IFERROR(INDEX({range:aval_order.mnp},7)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},7)+0,0))*(({col:c7}-{col:c6})-1)+({col:z7}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^(({col:c7}-{col:c6})-1)-(IFERROR(INDEX({range:aval_order.mnp},7)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},7)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))^(({col:c7}-{col:c6})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},7)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},7)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},7)+0,0))))))))"
     },
     {
      "key": "z8",
@@ -10287,7 +10287,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,INDEX({range:aval_order.bal},8)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},8)))*(1+INDEX({range:aval_order.rm},8))^{col:c7}-INDEX({range:aval_order.mnp},8)*((1+INDEX({range:aval_order.rm},8))^{col:c7}-1)/INDEX({range:aval_order.rm},8)),2)))"
+     "formula": "IF({col:wfa}=\"\",\"\",MAX(0,ROUND((MAX(0,IFERROR(INDEX({range:aval_order.bal},8)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},8)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^{col:c7}-IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^{col:c7}-1)/MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001)),2)))"
     },
     {
      "key": "c8",
@@ -10295,7 +10295,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c7}+IF({col:z8}=0,0,IF((INDEX({range:aval_order.mnp},8)+{col:xtr}+INDEX({range:aval_order.mroll},8))<={col:z8}*INDEX({range:aval_order.rm},8)+0.005,999,ROUNDUP(NPER(INDEX({range:aval_order.rm},8),-(INDEX({range:aval_order.mnp},8)+{col:xtr}+INDEX({range:aval_order.mroll},8)),{col:z8}),0)))))"
+     "formula": "IF({col:wfa}=\"\",\"\",MIN(999,{col:c7}+IF({col:z8}=0,0,IF((IFERROR(INDEX({range:aval_order.mnp},8)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},8)+0,0))<={col:z8}*MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001)+0.005,999,ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001),-(IFERROR(INDEX({range:aval_order.mnp},8)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},8)+0,0)),{col:z8}),0)))))"
     },
     {
      "key": "i8",
@@ -10303,7 +10303,7 @@
      "type": "calc",
      "width": 11,
      "format": "money",
-     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,INDEX({range:aval_order.bal},8)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},8)))<=0,0,IF({col:z8}=0,(INDEX({range:aval_order.mnp},8)*(ROUNDUP(NPER(INDEX({range:aval_order.rm},8),-INDEX({range:aval_order.mnp},8),MAX(0,INDEX({range:aval_order.bal},8)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},8)))),0)-1)+(MAX(0,INDEX({range:aval_order.bal},8)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},8)))*(1+INDEX({range:aval_order.rm},8))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},8),-INDEX({range:aval_order.mnp},8),MAX(0,INDEX({range:aval_order.bal},8)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},8)))),0)-1)-INDEX({range:aval_order.mnp},8)*((1+INDEX({range:aval_order.rm},8))^(ROUNDUP(NPER(INDEX({range:aval_order.rm},8),-INDEX({range:aval_order.mnp},8),MAX(0,INDEX({range:aval_order.bal},8)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},8)))),0)-1)-1)/INDEX({range:aval_order.rm},8))*(1+INDEX({range:aval_order.rm},8))-MAX(0,INDEX({range:aval_order.bal},8)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},8)))),IF({col:c8}>=999,0,(INDEX({range:aval_order.mnp},8)*{col:c7}+(INDEX({range:aval_order.mnp},8)+{col:xtr}+INDEX({range:aval_order.mroll},8))*(({col:c8}-{col:c7})-1)+({col:z8}*(1+INDEX({range:aval_order.rm},8))^(({col:c8}-{col:c7})-1)-(INDEX({range:aval_order.mnp},8)+{col:xtr}+INDEX({range:aval_order.mroll},8))*((1+INDEX({range:aval_order.rm},8))^(({col:c8}-{col:c7})-1)-1)/INDEX({range:aval_order.rm},8))*(1+INDEX({range:aval_order.rm},8))-MAX(0,INDEX({range:aval_order.bal},8)-MAX(0,{col:wfa}-INDEX({range:aval_order.bcum},8))))))))"
+     "formula": "IF({col:wfa}=\"\",\"\",IF(MAX(0,IFERROR(INDEX({range:aval_order.bal},8)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},8)+0,0)))<=0,0,IF({col:z8}=0,(IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},8)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},8)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},8)+0,0)))),0)-1)+(MAX(0,IFERROR(INDEX({range:aval_order.bal},8)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},8)+0,0)))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},8)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},8)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},8)+0,0)))),0)-1)-IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*((1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^(ROUNDUP(NPER(MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001),-IFERROR(INDEX({range:aval_order.mnp},8)+0,0),MAX(0,IFERROR(INDEX({range:aval_order.bal},8)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},8)+0,0)))),0)-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},8)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},8)+0,0)))),IF({col:c8}>=999,0,(IFERROR(INDEX({range:aval_order.mnp},8)+0,0)*{col:c7}+(IFERROR(INDEX({range:aval_order.mnp},8)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},8)+0,0))*(({col:c8}-{col:c7})-1)+({col:z8}*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^(({col:c8}-{col:c7})-1)-(IFERROR(INDEX({range:aval_order.mnp},8)+0,0)+{col:xtr}+IFERROR(INDEX({range:aval_order.mroll},8)+0,0))*((1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))^(({col:c8}-{col:c7})-1)-1)/MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))*(1+MAX(IFERROR(INDEX({range:aval_order.rm},8)+0,0),0.000000001))-MAX(0,IFERROR(INDEX({range:aval_order.bal},8)+0,0)-MAX(0,{col:wfa}-IFERROR(INDEX({range:aval_order.bcum},8)+0,0))))))))"
     }
    ],
    "demo": [
@@ -11416,7 +11416,7 @@
   "charts": [
    {
     "title": "Total debt per month",
-    "type": "line",
+    "type": "column",
     "by": "month",
     "series": [
      {
@@ -11564,7 +11564,7 @@
    },
    {
     "title": "Minimums share of take-home per month",
-    "type": "line",
+    "type": "column",
     "by": "month",
     "series": [
      {
@@ -11748,7 +11748,7 @@
    },
    {
     "title": "Net worth and total debt per month",
-    "type": "line",
+    "type": "column",
     "by": "month",
     "series": [
      {
@@ -11893,12 +11893,12 @@
     {
      "label": "Balance after the months you chose",
      "format": "money",
-     "formula": "IFERROR(INDEX({range:sched_snow.balance},{in:look}),0)"
+     "formula": "IFERROR(INDEX({range:sched_snow.balance},{in:look})+0,0)"
     },
     {
      "label": "Debts left after those months",
      "format": "int",
-     "formula": "IFERROR(INDEX({range:sched_snow.debts_left},{in:look}),0)"
+     "formula": "IFERROR(INDEX({range:sched_snow.debts_left},{in:look})+0,0)"
     },
     {
      "label": "Verdict",
@@ -11989,12 +11989,12 @@
     {
      "label": "Balance after the months you chose",
      "format": "money",
-     "formula": "IFERROR(INDEX({range:sched_aval.balance},{in:look}),0)"
+     "formula": "IFERROR(INDEX({range:sched_aval.balance},{in:look})+0,0)"
     },
     {
      "label": "Debts left after those months",
      "format": "int",
-     "formula": "IFERROR(INDEX({range:sched_aval.debts_left},{in:look}),0)"
+     "formula": "IFERROR(INDEX({range:sched_aval.debts_left},{in:look})+0,0)"
     },
     {
      "label": "Verdict",
@@ -12105,12 +12105,12 @@
     {
      "label": "Avalanche: balance after the months you chose",
      "format": "money",
-     "formula": "IFERROR(INDEX({range:sched_aval.balance},{in:look}),0)"
+     "formula": "IFERROR(INDEX({range:sched_aval.balance},{in:look})+0,0)"
     },
     {
      "label": "Snowball: balance after the months you chose",
      "format": "money",
-     "formula": "IFERROR(INDEX({range:sched_snow.balance},{in:look}),0)"
+     "formula": "IFERROR(INDEX({range:sched_snow.balance},{in:look})+0,0)"
     },
     {
      "label": "Verdict",

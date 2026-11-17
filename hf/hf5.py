@@ -257,20 +257,20 @@ insights = {"filters": [{"label": "Person", "list": "person"}, {"label": "Goal k
         CHART('Goals by kind', 'bar', 'goals.kind', [AM('goals', 'target', label='Target'), AM('goals', 'saved', label='Saved')]),
         CHART('Deposits per month', 'column', 'month', [AM('contributions', 'amount', 'date', 'Deposits', where=[('kind', '=', DEP)])]),
         CHART('Spends from goals per month', 'column', 'month', [AM('contributions', 'amount', 'date', 'Spends', where=[('kind', '=', SPEND)])]),
-        CHART('Net saved per month', 'line', 'month', [AM('contrib_months', 'net', 'month', 'Net saved')]),
-        CHART('Emergency fund per month', 'line', 'month', [AM('emergency_months', 'balance', 'month', 'Emergency fund')]),
-        CHART('Emergency fund months per month', 'line', 'month', [AM('emergency_months', 'months_covered', 'month', 'Months covered')]),
-        CHART('Essential spending per month', 'line', 'month', [AM('essential_months', 'essential', 'month', 'Essential spending'), AM('essential_months', 'avg_before', 'month', 'Average of the months before')]),
+        CHART('Net saved per month', 'column', 'month', [AM('contrib_months', 'net', 'month', 'Net saved')]),
+        CHART('Emergency fund per month', 'column', 'month', [AM('emergency_months', 'balance', 'month', 'Emergency fund')]),
+        CHART('Emergency fund months per month', 'column', 'month', [AM('emergency_months', 'months_covered', 'month', 'Months covered')]),
+        CHART('Essential spending per month', 'column', 'month', [AM('essential_months', 'essential', 'month', 'Essential spending'), AM('essential_months', 'avg_before', 'month', 'Average of the months before')]),
         CHART('Annual costs by due month', 'column', 'month', [AM('annual_months', 'costs_due', 'month', 'Costs due'), AM('annual_months', 'gap', 'month', 'Short at the due dates')]),
         CHART('Annual costs by category', 'bar', 'annual_costs.category', [AM('annual_costs', 'amount', label='Yearly amount')]),
-        CHART('Sinking fund balance per month', 'line', 'month', [AM('contrib_months', 'sink_balance', 'month', 'Sinking fund balance')]),
+        CHART('Sinking fund balance per month', 'column', 'month', [AM('contrib_months', 'sink_balance', 'month', 'Sinking fund balance')]),
         CHART('Planned and actual deposits per month', 'column', 'month', [AM('contrib_months', 'planned', 'month', 'Planned deposits'), AM('contrib_months', 'deposits', 'month', 'Deposits made')]),
         CHART('Deposits by goal, last 12 months', 'bar', 'contrib_goals.goal', [AM('contrib_goals', 'dep12', label='Deposits'), AM('contrib_goals', 'planned12', label='Planned')]),
         CHART('Goal changes by reason', 'bar', 'goal_changes.reason', [AM('goal_changes', 'change_year', label='Change over a year')]),
         CHART('Retirement per month', 'column', 'month', [AM('retirement_months', 'total', 'month', 'Total')]),
         CHART('Retirement by person', 'bar', 'retirement.person', [AM('retirement', 'total', label='Total')]),
         CHART('Employer and employee per month', 'column', 'month', [AM('retirement_months', 'employee', 'month', 'Your amount'), AM('retirement_months', 'employer', 'month', 'Employer amount')]),
-        CHART('Retirement share of take-home per month', 'line', 'month', [AM('retirement_months', 'share', 'month', 'Share of take-home')])]}
+        CHART('Retirement share of take-home per month', 'column', 'month', [AM('retirement_months', 'share', 'month', 'Share of take-home')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 
 signature = [
