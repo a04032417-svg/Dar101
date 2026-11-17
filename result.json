@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-baseline.png",
+   "/tmp/out/p1/images/05-bills_due.png",
+   "/tmp/out/p1/images/06-low_point.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p1/Money-Plan-and-Paychecks-English.zip",
+  "zip_sha256": "0e1868dcf9e919689763b5b0416d547506286f0642a16be6792817b56d47238d",
+  "fxp": null,
+  "sha256": "0e1868dcf9e919689763b5b0416d547506286f0642a16be6792817b56d47238d"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 30.2,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 177,
+   "calc_cols": 177,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 128,
+   "form_fields": 128,
+   "tool_outputs_ok": 854,
+   "tool_outputs": 854,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-17",
+  "formulas": {
+   "en": 53772,
+   "en-demo": 53770,
+   "en-raw": 53770
+  },
+  "job_seconds_max": 28.8,
+  "seconds_images": 19.6,
+  "zip_mb": 1.2,
+  "seconds_package": 0.4,
+  "seconds_total": 50.3
+ },
+ "at": "2026-11-17T10:37:39+00:00",
+ "id": "fx-20261116-household-finance-p1"
+}
