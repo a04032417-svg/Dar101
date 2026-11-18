@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-plan_needs.png",
+   "/tmp/out/p1/images/05-cook_load.png",
+   "/tmp/out/p1/images/06-people_home.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p1/Meal-Plan-and-Grocery-List-English.zip",
+  "zip_sha256": "78d2284e7c456d740f9001df3a08a5203b8936e849b13f0fc91f45f97615f5c9",
+  "fxp": null,
+  "sha256": "78d2284e7c456d740f9001df3a08a5203b8936e849b13f0fc91f45f97615f5c9"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 19.8,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 203,
+   "calc_cols": 203,
+   "monthly_nonzero_cells": 22,
+   "form_fields_filled": 139,
+   "form_fields": 139,
+   "tool_outputs_ok": 447,
+   "tool_outputs": 447,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 50644,
+   "en-demo": 50642,
+   "en-raw": 50642
+  },
+  "job_seconds_max": 18.9,
+  "seconds_images": 14.0,
+  "zip_mb": 1.13,
+  "seconds_package": 0.3,
+  "seconds_total": 34.1
+ },
+ "at": "2026-11-18T06:37:01+00:00",
+ "id": "fx-20261118-home-management-p1"
+}
