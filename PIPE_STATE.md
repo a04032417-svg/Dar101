@@ -221,3 +221,5 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 2026-11-18T05:34Z conv-A-0518: ho p4 done (validate 0, build ok, warnings [], zero-dates 0, no line charts, tool checks OK 64 BAD 0).
 - 2026-11-18T05:39Z conv-A-0518: ho p6 done (writer stopped; finished by me: reorder_days default 14->10 so the pet-food gauge is not 0% on demo; validate 0, build ok, errors [], zero-dates 0, no line charts).
 - 2026-11-18T07:12Z conv-A-0518: ho S5 pack 9636c50c; S6 Drive folder 1ysgnq8yQ1k9rbGjn61R_ddkcnYRUBsAy, 8 masters anyoneWithLink reader (verified), pack with copy links pushed out/ho/pack 8cea42af (8,360,652 B).
+
+- 2026-11-18 conv-A-0518: ho S7 Whop prod_pbumrvnvmaYIv, S8 Shopify 15434165518640 live. All 36 Shopify products set to category Software > Digital Goods & Currency > Document Templates (Google had guessed Books for 241 offers). Merchant Center 5903596821: website verified+claimed, no account or policy issues, products under first review. Shopify Collabs installed.
