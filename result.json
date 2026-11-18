@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p7/images/01-hero.png",
+   "/tmp/out/p7/images/02-charts.png",
+   "/tmp/out/p7/images/03-dashboard.png",
+   "/tmp/out/p7/images/04-trend.png",
+   "/tmp/out/p7/images/05-forecast.png",
+   "/tmp/out/p7/images/06-verdict.png",
+   "/tmp/out/p7/images/07-print.png",
+   "/tmp/out/p7/images/08-inside.png",
+   "/tmp/out/p7/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p7/Utilisation-Profit-and-Pricing-English.zip",
+  "zip_sha256": "f8c539968bb2518d0240cc2602e85534edc598bed5219a7b81dedf62764d6888",
+  "fxp": null,
+  "sha256": "f8c539968bb2518d0240cc2602e85534edc598bed5219a7b81dedf62764d6888"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 16.7,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 152,
+   "calc_cols": 152,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 135,
+   "form_fields": 135,
+   "tool_outputs_ok": 743,
+   "tool_outputs": 743,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 40015,
+   "en-demo": 40013,
+   "en-raw": 40013
+  },
+  "job_seconds_max": 15.9,
+  "seconds_images": 14.6,
+  "zip_mb": 1.09,
+  "seconds_package": 0.3,
+  "seconds_total": 31.8
+ },
+ "at": "2026-11-18T01:37:53+00:00",
+ "id": "fx-20261115-car-rental-p7"
+}
