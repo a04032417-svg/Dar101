@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p7/images/01-hero.png",
+   "/tmp/out/p7/images/02-charts.png",
+   "/tmp/out/p7/images/03-dashboard.png",
+   "/tmp/out/p7/images/04-rises.png",
+   "/tmp/out/p7/images/05-margin.png",
+   "/tmp/out/p7/images/06-minvisit.png",
+   "/tmp/out/p7/images/07-print.png",
+   "/tmp/out/p7/images/08-inside.png",
+   "/tmp/out/p7/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p7/Client-Margin-and-Hours-Growth-English.zip",
+  "zip_sha256": "784a6af044fd9e84997d4e5fa4744a002788e156650285d27e48ed46fdebe527",
+  "fxp": null,
+  "sha256": "784a6af044fd9e84997d4e5fa4744a002788e156650285d27e48ed46fdebe527"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 24.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 148,
+   "calc_cols": 148,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 167,
+   "form_fields": 167,
+   "tool_outputs_ok": 850,
+   "tool_outputs": 850,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 45,
+   "document_paragraphs": 45
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 73748,
+   "en-demo": 73746,
+   "en-raw": 73746
+  },
+  "job_seconds_max": 23.2,
+  "seconds_images": 17.3,
+  "zip_mb": 1.54,
+  "seconds_package": 0.4,
+  "seconds_total": 42.4
+ },
+ "at": "2026-11-18T01:04:16+00:00",
+ "id": "fx-20261115-home-care-agency-p7"
+}
