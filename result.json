@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p6/images/01-hero.png",
+   "/tmp/out/p6/images/02-charts.png",
+   "/tmp/out/p6/images/03-dashboard.png",
+   "/tmp/out/p6/images/04-events.png",
+   "/tmp/out/p6/images/05-school_view.png",
+   "/tmp/out/p6/images/06-conflicts.png",
+   "/tmp/out/p6/images/07-print.png",
+   "/tmp/out/p6/images/08-inside.png",
+   "/tmp/out/p6/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p6/Family-Calendar-Pets-and-Vehicles-English.zip",
+  "zip_sha256": "2e16cd1a73a828cac3d9b52fb876946c69f153f0ded42c125deddfeed871a10f",
+  "fxp": null,
+  "sha256": "2e16cd1a73a828cac3d9b52fb876946c69f153f0ded42c125deddfeed871a10f"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 29.3,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 185,
+   "calc_cols": 185,
+   "monthly_nonzero_cells": 30,
+   "form_fields_filled": 153,
+   "form_fields": 153,
+   "tool_outputs_ok": 641,
+   "tool_outputs": 641,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 91393,
+   "en-demo": 91391,
+   "en-raw": 91391
+  },
+  "job_seconds_max": 27.8,
+  "seconds_images": 16.2,
+  "zip_mb": 1.66,
+  "seconds_package": 0.4,
+  "seconds_total": 45.9
+ },
+ "at": "2026-11-18T06:02:21+00:00",
+ "id": "fx-20261118-home-management-p6"
+}
