@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-clients.png",
+   "/tmp/out/p1/images/05-enquiries.png",
+   "/tmp/out/p1/images/06-quotes.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p1/Enquiries-Quotes-and-Agreements-English.zip",
+  "zip_sha256": "5b1b5ccc441913050ce2bb25d018a6893688296f744c73c91160cb0c12096ca6",
+  "fxp": null,
+  "sha256": "5b1b5ccc441913050ce2bb25d018a6893688296f744c73c91160cb0c12096ca6"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 22.5,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 111,
+   "calc_cols": 111,
+   "monthly_nonzero_cells": 42,
+   "form_fields_filled": 160,
+   "form_fields": 160,
+   "tool_outputs_ok": 886,
+   "tool_outputs": 886,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 41,
+   "document_paragraphs": 41
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 62622,
+   "en-demo": 62620,
+   "en-raw": 62620
+  },
+  "job_seconds_max": 21.4,
+  "seconds_images": 15.0,
+  "zip_mb": 1.33,
+  "seconds_package": 0.1,
+  "seconds_total": 37.7
+ },
+ "at": "2026-11-18T02:16:05+00:00",
+ "id": "fx-20261115-home-care-agency-p1"
+}
