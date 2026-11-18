@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p3/images/01-hero.png",
+   "/tmp/out/p3/images/02-charts.png",
+   "/tmp/out/p3/images/03-dashboard.png",
+   "/tmp/out/p3/images/04-break_plan.png",
+   "/tmp/out/p3/images/05-team.png",
+   "/tmp/out/p3/images/06-staff_hour.png",
+   "/tmp/out/p3/images/07-print.png",
+   "/tmp/out/p3/images/08-inside.png",
+   "/tmp/out/p3/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p3/Staff-Rota-and-Ratios-English.zip",
+  "zip_sha256": "45a982cde5621988ef75d541731bac04ada11d3a60d72c978b4cba2804a43393",
+  "fxp": null,
+  "sha256": "45a982cde5621988ef75d541731bac04ada11d3a60d72c978b4cba2804a43393"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 25.1,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 151,
+   "calc_cols": 151,
+   "monthly_nonzero_cells": 14,
+   "form_fields_filled": 112,
+   "form_fields": 112,
+   "tool_outputs_ok": 804,
+   "tool_outputs": 804,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 36,
+   "document_paragraphs": 36
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 75587,
+   "en-demo": 75585,
+   "en-raw": 75585
+  },
+  "job_seconds_max": 23.8,
+  "seconds_images": 16.8,
+  "zip_mb": 1.76,
+  "seconds_package": 0.4,
+  "seconds_total": 42.4
+ },
+ "at": "2026-11-18T00:57:06+00:00",
+ "id": "fx-20261115-childcare-center-p3"
+}
