@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p8/images/01-hero.png",
+   "/tmp/out/p8/images/02-charts.png",
+   "/tmp/out/p8/images/03-dashboard.png",
+   "/tmp/out/p8/images/04-pnl.png",
+   "/tmp/out/p8/images/05-scenario_months.png",
+   "/tmp/out/p8/images/06-cases.png",
+   "/tmp/out/p8/images/07-print.png",
+   "/tmp/out/p8/images/08-inside.png",
+   "/tmp/out/p8/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p8/Finance-Replace-or-Sell-and-Owner-Pay-English.zip",
+  "zip_sha256": "9b5d7f4b6098e6586ad4393c79b0bd9422a7d89d74a3081d198bb1c666424208",
+  "fxp": null,
+  "sha256": "9b5d7f4b6098e6586ad4393c79b0bd9422a7d89d74a3081d198bb1c666424208"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 12.1,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 174,
+   "calc_cols": 174,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 129,
+   "form_fields": 129,
+   "tool_outputs_ok": 746,
+   "tool_outputs": 746,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 22319,
+   "en-demo": 22317,
+   "en-raw": 22317
+  },
+  "job_seconds_max": 11.5,
+  "seconds_images": 14.6,
+  "zip_mb": 0.83,
+  "seconds_package": 0.3,
+  "seconds_total": 27.0
+ },
+ "at": "2026-11-18T01:51:51+00:00",
+ "id": "fx-20261115-car-rental-p8"
+}
