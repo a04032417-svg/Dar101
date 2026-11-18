@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p6/images/01-hero.png",
+   "/tmp/out/p6/images/02-charts.png",
+   "/tmp/out/p6/images/03-dashboard.png",
+   "/tmp/out/p6/images/04-agreements.png",
+   "/tmp/out/p6/images/05-visits_month.png",
+   "/tmp/out/p6/images/06-renew_due.png",
+   "/tmp/out/p6/images/07-print.png",
+   "/tmp/out/p6/images/08-inside.png",
+   "/tmp/out/p6/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p6/Sites-Equipment-and-Agreements-English.zip",
+  "zip_sha256": "d24a9302c13e926a439babe9441fd224ae5c78d4442ba7541159c0a1c93bd45e",
+  "fxp": null,
+  "sha256": "d24a9302c13e926a439babe9441fd224ae5c78d4442ba7541159c0a1c93bd45e"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 39.3,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 168,
+   "calc_cols": 168,
+   "monthly_nonzero_cells": 30,
+   "form_fields_filled": 126,
+   "form_fields": 126,
+   "tool_outputs_ok": 826,
+   "tool_outputs": 826,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 47,
+   "document_paragraphs": 47
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 131173,
+   "en-demo": 131171,
+   "en-raw": 131171
+  },
+  "job_seconds_max": 37.4,
+  "seconds_images": 15.3,
+  "zip_mb": 2.45,
+  "seconds_package": 0.4,
+  "seconds_total": 55.2
+ },
+ "at": "2026-11-18T00:42:27+00:00",
+ "id": "fx-20261115-hvac-plumbing-p6"
+}
