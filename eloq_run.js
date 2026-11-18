@@ -101,9 +101,11 @@
     var s2 = c.d.querySelector('select[name=filter_format]'); s2.value = 'models'; s2.dispatchEvent(new c.w.Event('change', { bubbles: true }));
     var ed = c.d.querySelector('.rte.countable'); ed.focus(); ed.innerHTML = item.long;
     ['input', 'keyup', 'change', 'blur'].forEach(function (t) { ed.dispatchEvent(new c.w.Event(t, { bubbles: true })); });
-    var J = c.w.jQuery, kw = J('#nvKeywords');
-    item.tags.forEach(function (tg) { kw.val(tg); kw.trigger(J.Event('keydown', { which: 13, keyCode: 13 })); kw.trigger(J.Event('keyup', { which: 13, keyCode: 13 })); });
-    await sleep(2500);
+    var kw = c.d.getElementById('nvKeywords');
+    function key(type) { var e = new c.w.KeyboardEvent(type, { key: 'Enter', code: 'Enter', bubbles: true, cancelable: true }); Object.defineProperty(e, 'keyCode', { get: function () { return 13; } }); Object.defineProperty(e, 'which', { get: function () { return 13; } }); kw.dispatchEvent(e); }
+    for (var t = 0; t < item.tags.length; t++) { kw.focus(); kw.value = item.tags[t]; kw.dispatchEvent(new c.w.Event('input', { bubbles: true })); key('keydown'); key('keypress'); key('keyup'); await sleep(300); }
+    log(k + ' tags ' + c.q('.tags-editor span.tag').length);
+    await sleep(2000);
     clickStep(c, /^Next step$/i); await sleep(3000);
     clickStep(c, /^Next step$/i); await sleep(3000);
     c.setv(c.d.getElementById('pvLicenseBusiness'), String(item.price));
