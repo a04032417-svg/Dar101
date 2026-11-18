@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p5/images/01-hero.png",
+   "/tmp/out/p5/images/02-charts.png",
+   "/tmp/out/p5/images/03-dashboard.png",
+   "/tmp/out/p5/images/04-titles.png",
+   "/tmp/out/p5/images/05-swapres.png",
+   "/tmp/out/p5/images/06-ranking.png",
+   "/tmp/out/p5/images/07-print.png",
+   "/tmp/out/p5/images/08-inside.png",
+   "/tmp/out/p5/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p5/Readers-Newsletter-and-Launches-English.zip",
+  "zip_sha256": "37ea471ca1699daa42f00789c38d0a6ee32bdddfb643b125484105abaac4a4bb",
+  "fxp": null,
+  "sha256": "37ea471ca1699daa42f00789c38d0a6ee32bdddfb643b125484105abaac4a4bb"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 16.0,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 143,
+   "calc_cols": 143,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 136,
+   "form_fields": 136,
+   "tool_outputs_ok": 779,
+   "tool_outputs": 779,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 40710,
+   "en-demo": 40708,
+   "en-raw": 40708
+  },
+  "job_seconds_max": 15.2,
+  "seconds_images": 15.2,
+  "zip_mb": 0.98,
+  "seconds_package": 0.3,
+  "seconds_total": 31.6
+ },
+ "at": "2026-11-18T01:04:13+00:00",
+ "id": "fx-20261115-author-publisher-p5"
+}
