@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p6/images/01-hero.png",
+   "/tmp/out/p6/images/02-charts.png",
+   "/tmp/out/p6/images/03-dashboard.png",
+   "/tmp/out/p6/images/04-menu.png",
+   "/tmp/out/p6/images/05-cook.png",
+   "/tmp/out/p6/images/06-drill_plan.png",
+   "/tmp/out/p6/images/07-print.png",
+   "/tmp/out/p6/images/08-inside.png",
+   "/tmp/out/p6/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p6/Meals-Health-and-Safety-Records-English.zip",
+  "zip_sha256": "4f8edc319436329dfd84d61ff467140030e0482c9597385e4fbd5ce5de0a6861",
+  "fxp": null,
+  "sha256": "4f8edc319436329dfd84d61ff467140030e0482c9597385e4fbd5ce5de0a6861"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 18.7,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 160,
+   "calc_cols": 160,
+   "monthly_nonzero_cells": 22,
+   "form_fields_filled": 118,
+   "form_fields": 118,
+   "tool_outputs_ok": 1066,
+   "tool_outputs": 1066,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 36,
+   "document_paragraphs": 36
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 52083,
+   "en-demo": 52081,
+   "en-raw": 52081
+  },
+  "job_seconds_max": 17.8,
+  "seconds_images": 14.8,
+  "zip_mb": 1.19,
+  "seconds_package": 0.4,
+  "seconds_total": 34.0
+ },
+ "at": "2026-11-18T01:39:52+00:00",
+ "id": "fx-20261115-childcare-center-p6"
+}
