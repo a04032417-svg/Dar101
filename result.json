@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p2/images/01-hero.png",
+   "/tmp/out/p2/images/02-charts.png",
+   "/tmp/out/p2/images/03-dashboard.png",
+   "/tmp/out/p2/images/04-clin_weeks.png",
+   "/tmp/out/p2/images/05-sessions.png",
+   "/tmp/out/p2/images/06-room_months.png",
+   "/tmp/out/p2/images/07-print.png",
+   "/tmp/out/p2/images/08-inside.png",
+   "/tmp/out/p2/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p2/Scheduling-Caseload-and-Rooms-English.zip",
+  "zip_sha256": "c4c40965234268653d3a53d843450e37b6c0cba1069f374478af53fa10f2df38",
+  "fxp": null,
+  "sha256": "c4c40965234268653d3a53d843450e37b6c0cba1069f374478af53fa10f2df38"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 46.1,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 77,
+   "calc_cols": 77,
+   "monthly_nonzero_cells": 45,
+   "form_fields_filled": 138,
+   "form_fields": 138,
+   "tool_outputs_ok": 739,
+   "tool_outputs": 739,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 46,
+   "document_paragraphs": 46
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 85860,
+   "en-demo": 85858,
+   "en-raw": 85858
+  },
+  "job_seconds_max": 43.7,
+  "seconds_images": 20.6,
+  "zip_mb": 1.92,
+  "seconds_package": 0.7,
+  "seconds_total": 67.6
+ },
+ "at": "2026-11-18T00:53:30+00:00",
+ "id": "fx-20261115-therapy-practice-p2"
+}
