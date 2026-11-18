@@ -291,7 +291,7 @@ insights = {"filters": [{"label": "Vehicle class", "list": "class"}, {"label": "
         CHART('Shift hours by task', 'bar', 'shifts.task', [AGG('sum', 'shifts', 'shifts.hours', label='Shift hours')]),
         CHART('Staff pay per month', 'column', 'month', [AGG('sum', 'pay', 'pay.total', date='pay.month', where=[('pay_type', '<>', tok('paytype', 'Owner draw'))], label='Staff pay')]),
         CHART('Pay and owner draw by staff member', 'bar', 'pay.staff', [AGG('sum', 'pay', 'pay.total', label='Pay and draw')]),
-        CHART('Hours cost per rental per month', 'line', 'month', [AGG('sum', 'hours_month', 'hours_month.cost_rental', date='hours_month.month', label='Hours cost per rental')]),
+        CHART('Hours cost per rental per month', 'column', 'month', [AGG('sum', 'hours_month', 'hours_month.cost_rental', date='hours_month.month', label='Hours cost per rental')]),
         CHART('Tasks missed by role', 'bar', 'tasks_role.role', [AGG('sum', 'tasks_role', 'tasks_role.tasks_missed', label='Tasks missed')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 

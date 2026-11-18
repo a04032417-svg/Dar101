@@ -222,8 +222,8 @@ insights = {"filters": [{"label": "Area", "list": "area"}, {"label": "Service", 
   {"title": "Area months with travel within share", "num": AGG('count', 'areamonths', where=[('travel_share', '<=', '{set:travel_share_target}')]), "den": AGG('count', 'areamonths', where=[('travel_share', '>=', 0)])}],
  "charts": [
   CHART('Visits per month', 'column', 'month', [AGG('sum', 'agencyweeks', 'agencyweeks.visits', date='agencyweeks.week', label='Visits')]),
-  CHART('Late rate per month', 'line', 'month', [AGG('avg', 'agencyweeks', 'agencyweeks.late_rate', date='agencyweeks.week', label='Late rate')]),
-  CHART('Missed rate per month', 'line', 'month', [AGG('avg', 'agencyweeks', 'agencyweeks.missed_rate', date='agencyweeks.week', label='Missed rate')]),
+  CHART('Late rate per month', 'column', 'month', [AGG('avg', 'agencyweeks', 'agencyweeks.late_rate', date='agencyweeks.week', label='Late rate')]),
+  CHART('Missed rate per month', 'column', 'month', [AGG('avg', 'agencyweeks', 'agencyweeks.missed_rate', date='agencyweeks.week', label='Missed rate')]),
   CHART('Late visits by area', 'bar', 'register.area', [AGG('count', 'register', where=[LT], label='Late visits')]),
   CHART('Missed visits by area', 'bar', 'register.area', [AGG('count', 'register', where=[MI], label='Missed visits')]),
   CHART('Late visits by reason', 'bar', 'register.delay_reason', [AGG('count', 'register', label='Late visits')]),
@@ -234,7 +234,7 @@ insights = {"filters": [{"label": "Area", "list": "area"}, {"label": "Service", 
   CHART('Delivered, billed and paid hours per month', 'column', 'month', [AGG('sum', 'agencyweeks', 'agencyweeks.delivered_hours', date='agencyweeks.week', label='Delivered'),
         AGG('sum', 'agencyweeks', 'agencyweeks.billed_hours', date='agencyweeks.week', label='Billed'), AGG('sum', 'agencyweeks', 'agencyweeks.paid_hours', date='agencyweeks.week', label='Paid')]),
   CHART('Leak amount per month', 'column', 'month', [AGG('sum', 'agencyweeks', 'agencyweeks.leak_amount', date='agencyweeks.week', label='Leak amount')]),
-  CHART('Billed minus paid hours per month', 'line', 'month', [AGG('sum', 'agencyweeks', 'agencyweeks.billed_minus_paid', date='agencyweeks.week', label='Billed minus paid')]),
+  CHART('Billed minus paid hours per month', 'column', 'month', [AGG('sum', 'agencyweeks', 'agencyweeks.billed_minus_paid', date='agencyweeks.week', label='Billed minus paid')]),
   CHART('Paid travel hours per month', 'column', 'month', [AGG('sum', 'areamonths', 'areamonths.travel_hours', date='areamonths.month', label='Paid travel hours')]),
   CHART('Mileage amount per month', 'column', 'month', [AGG('sum', 'areamonths', 'areamonths.mileage_pay', date='areamonths.month', label='Mileage amount')]),
   CHART('Travel cost by area', 'bar', 'pairs.from_area', [AGG('sum', 'pairs', 'pairs.cost', label='Travel cost')]),
@@ -243,7 +243,7 @@ insights = {"filters": [{"label": "Area", "list": "area"}, {"label": "Service", 
   CHART('Cancellations by notice band', 'bar', 'cancels.notice_band', [AGG('count', 'cancels', label='Cancellations')]),
   CHART('Corrections per month', 'column', 'month', [AGG('count', 'corrections', date='corrections.date', label='Corrections')]),
   CHART('Time sheet mismatches per month', 'column', 'month', [AGG('count', 'timesheets', date='timesheets.week', where=[('flag', '=', ck('Mismatch'))], label='Mismatches')]),
-  CHART('Average minutes late per month', 'line', 'month', [AGG('avg', 'agencyweeks', 'agencyweeks.avg_late_min', date='agencyweeks.week', label='Minutes late')])]}
+  CHART('Average minutes late per month', 'column', 'month', [AGG('avg', 'agencyweeks', 'agencyweeks.avg_late_min', date='agencyweeks.week', label='Minutes late')])]}
 assert len(insights['charts']) == 22
 
 signature = [

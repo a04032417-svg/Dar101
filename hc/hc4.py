@@ -272,10 +272,10 @@ insights = {"filters": [{"label": "Employment", "list": "emp"}, {"label": "Warni
   {"title": "Holidays with a positive margin", "num": AGG('count', 'holidays', where=[('holiday_margin', '>', 0)]), "den": AGG('count', 'holidays')}],
  "charts": [
   CHART('Payroll cost per month', 'column', 'month', [AGG('sum', 'payratio', 'payratio.total_pay_cost', date='payratio.month', label='Total pay cost')]),
-  CHART('Payroll cost ratio per month', 'line', 'month', [AGG('avg', 'payratio', 'payratio.ratio', date='payratio.month', label='Ratio to revenue')]),
+  CHART('Payroll cost ratio per month', 'column', 'month', [AGG('avg', 'payratio', 'payratio.ratio', date='payratio.month', label='Ratio to revenue')]),
   CHART('Overtime hours per month', 'column', 'month', [AGG('sum', 'otmonth', 'otmonth.overtime_hours', date='otmonth.month', label='Overtime hours')]),
   CHART('Overtime pay per month', 'column', 'month', [AGG('sum', 'otmonth', 'otmonth.overtime_pay', date='otmonth.month', label='Overtime pay')]),
-  CHART('Overtime share per month', 'line', 'month', [AGG('avg', 'otmonth', 'otmonth.overtime_share', date='otmonth.month', label='Overtime share')]),
+  CHART('Overtime share per month', 'column', 'month', [AGG('avg', 'otmonth', 'otmonth.overtime_share', date='otmonth.month', label='Overtime share')]),
   CHART('Pay by component per month', 'stacked', 'month', [AGG('sum', 'payratio', 'payratio.caregiver_pay', date='payratio.month', label='Caregiver pay'), AGG('sum', 'payratio', 'payratio.overtime_pay', date='payratio.month', label='Overtime pay'),
         AGG('sum', 'payratio', 'payratio.travel_mileage', date='payratio.month', label='Travel and mileage'), AGG('sum', 'payratio', 'payratio.burden', date='payratio.month', label='Payroll burden')]),
   CHART('Pay run total per month', 'column', 'month', [AGG('sum', 'payperiods', 'payperiods.total_cost', date='payperiods.pay_date', label='Pay run total')]),
@@ -290,7 +290,7 @@ insights = {"filters": [{"label": "Employment", "list": "emp"}, {"label": "Warni
   CHART('Cover premium per month', 'column', 'month', [AGG('sum', 'payperiods', 'payperiods.cover_premium', date='payperiods.pay_date', label='Cover premium')]),
   CHART('Bonuses and deductions by kind', 'bar', 'adjust.kind', [AGG('sum', 'adjust', 'adjust.amount', label='Amount')]),
   CHART('Pay rate changes by reason', 'bar', 'raises.reason', [AGG('count', 'raises', label='Pay rate changes')]),
-  CHART('Burden share per month', 'line', 'month', [AGG('avg', 'burden', 'burden.burden_share', date='burden.month', label='Burden share of pay')]),
+  CHART('Burden share per month', 'column', 'month', [AGG('avg', 'burden', 'burden.burden_share', date='burden.month', label='Burden share of pay')]),
   CHART('Warnings by kind', 'bar', 'warnings.kind', [AGG('count', 'warnings', label='Warnings')]),
   CHART('Warnings found per month', 'column', 'month', [AGG('count', 'warnings', date='warnings.found_on', label='Warnings found')]),
   CHART('Time sheet mismatches per month', 'column', 'month', [AGG('count', 'timesheets', date='timesheets.period_end', label='Mismatches', where=[('mismatch', '=', ck('Mismatch'))])])]}

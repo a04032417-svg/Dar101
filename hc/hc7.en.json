@@ -36463,7 +36463,7 @@
   "charts": [
    {
     "title": "Margin share per month",
-    "type": "line",
+    "type": "column",
     "by": "month",
     "series": [
      {
@@ -36551,7 +36551,7 @@
    },
    {
     "title": "Margin per client hour per month",
-    "type": "line",
+    "type": "column",
     "by": "month",
     "series": [
      {
@@ -36641,7 +36641,7 @@
    },
    {
     "title": "Weekly hours at month end",
-    "type": "line",
+    "type": "column",
     "by": "month",
     "series": [
      {
@@ -36718,7 +36718,7 @@
    },
    {
     "title": "Churn rate per month",
-    "type": "line",
+    "type": "column",
     "by": "month",
     "series": [
      {
@@ -36783,7 +36783,7 @@
    },
    {
     "title": "Hours forecast by scenario",
-    "type": "line",
+    "type": "column",
     "by": "month",
     "series": [
      {

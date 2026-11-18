@@ -232,9 +232,9 @@ insights = {"filters": [{"label": "Source", "list": "recsrc"}, {"label": "Creden
   CHART('Starts by source', 'bar', 'sources.source', [AGG('sum', 'sources', 'sources.starts', label='Starts')]),
   CHART('Funnel by stage per month', 'column', 'month', [AGG('sum', 'funnel', 'funnel.phone_screens', date='funnel.month', label='Phone screens'), AGG('sum', 'funnel', 'funnel.interviews', date='funnel.month', label='Interviews'),
                                                        AGG('sum', 'funnel', 'funnel.offers', date='funnel.month', label='Offers'), AGG('sum', 'funnel', 'funnel.starts', date='funnel.month', label='Starts')]),
-  CHART('Conversion per month', 'line', 'month', [AGG('avg', 'funnel', 'funnel.screen_rate', date='funnel.month', label='Screened'), AGG('avg', 'funnel', 'funnel.offer_rate', date='funnel.month', label='Offered'), AGG('avg', 'funnel', 'funnel.start_rate', date='funnel.month', label='Started')]),
-  CHART('Days to start per month', 'line', 'month', [AGG('avg', 'applicants', 'applicants.days_to_start', date='applicants.applied_on', label='Days to start')]),
-  CHART('Cost per hire per month', 'line', 'month', [AGG('avg', 'hirecost', 'hirecost.cost_per_hire', date='hirecost.month', label='Cost per hire')]),
+  CHART('Conversion per month', 'column', 'month', [AGG('avg', 'funnel', 'funnel.screen_rate', date='funnel.month', label='Screened'), AGG('avg', 'funnel', 'funnel.offer_rate', date='funnel.month', label='Offered'), AGG('avg', 'funnel', 'funnel.start_rate', date='funnel.month', label='Started')]),
+  CHART('Days to start per month', 'column', 'month', [AGG('avg', 'applicants', 'applicants.days_to_start', date='applicants.applied_on', label='Days to start')]),
+  CHART('Cost per hire per month', 'column', 'month', [AGG('avg', 'hirecost', 'hirecost.cost_per_hire', date='hirecost.month', label='Cost per hire')]),
   CHART('Applicants by status', 'bar', 'applicants.status', [AGG('count', 'applicants', label='Applicants')]),
   CHART('Reasons applicants dropped out', 'bar', 'applicants.reason', [AGG('count', 'applicants', label='Applicants')]),
   CHART('Active after 90 days by source', 'bar', 'sources.source', [AGG('sum', 'sources', 'sources.active_90', label='Active after 90 days')]),
@@ -247,10 +247,10 @@ insights = {"filters": [{"label": "Source", "list": "recsrc"}, {"label": "Creden
   CHART('Leavers by tenure band', 'stacked', 'month', [AGG('count', 'leavers', date='leavers.left_date', label='First 90 days', where=[('tenure_days', '<=', 90)]),
                                                      AGG('count', 'leavers', date='leavers.left_date', label='4 to 12 months', where=[('tenure_days', '>', 90), ('tenure_days', '<=', 365)]),
                                                      AGG('count', 'leavers', date='leavers.left_date', label='Over 1 year', where=[('tenure_days', '>', 365)])]),
-  CHART('Turnover rate per month', 'line', 'month', [AGG('avg', 'turnover', 'turnover.trail12', date='turnover.month', label='Trailing 12 months'), AGG('avg', 'turnover', 'turnover.turnover_rate', date='turnover.month', label='In the month')]),
+  CHART('Turnover rate per month', 'column', 'month', [AGG('avg', 'turnover', 'turnover.trail12', date='turnover.month', label='Trailing 12 months'), AGG('avg', 'turnover', 'turnover.turnover_rate', date='turnover.month', label='In the month')]),
   CHART('First-90-day leavers per month', 'column', 'month', [AGG('sum', 'turnover', 'turnover.first90', date='turnover.month', label='First-90-day leavers')]),
   CHART('Training hours per month', 'column', 'month', [AGG('sum', 'training', 'training.hours', date='training.date', label='Training hours')]),
-  CHART('Hours waiting for a caregiver per month', 'line', 'month', [AGG('avg', 'hireplan', 'hireplan.hours_waiting', date='hireplan.week', label='Hours waiting a week')])]}
+  CHART('Hours waiting for a caregiver per month', 'column', 'month', [AGG('avg', 'hireplan', 'hireplan.hours_waiting', date='hireplan.week', label='Hours waiting a week')])]}
 assert len(insights['charts']) == 22
 
 signature = [

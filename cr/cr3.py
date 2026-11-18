@@ -294,7 +294,7 @@ insights = {"filters": [{"label": "Vehicle class", "list": "class"}, {"label": "
         CHART('Tolls and tickets by kind', 'bar', 'tolls.kind', [AGG('sum', 'tolls', 'tolls.amount', label='Amount')]),
         CHART('Tolls and tickets by status', 'bar', 'tolls.status', [AGG('count', 'tolls', label='Items')]),
         CHART('Handovers per month', 'column', 'month', [AGG('count', 'checkout', date='checkout.out_date', label='Handovers')]),
-        CHART('Handovers with photos both ways per month', 'line', 'month', [AGG('count', 'checkout', date='checkout.out_date', where=[('photos_out', '=', YES), ('photos_in', '=', YES)], label='With photos both ways')])]}
+        CHART('Handovers with photos both ways per month', 'column', 'month', [AGG('count', 'checkout', date='checkout.out_date', where=[('photos_out', '=', YES), ('photos_in', '=', YES)], label='With photos both ways')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 
 signature = [

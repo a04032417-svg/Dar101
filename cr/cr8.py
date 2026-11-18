@@ -247,7 +247,7 @@ insights = {"filters": [{"label": "Vehicle class", "list": "class"}, {"label": "
         {"title": "Owner draw against cash profit", "num": AGG('sum', 'draw', 'draw.total'), "den": AGG('sum', 'pnl', 'pnl.profit_cash')},
         {"title": "Fleet within the replacement age", "num": AGG('count', 'vehicles', where=[('age_months', '<', '{set:replace_months}'), ('status', '<>', SOLD)]), "den": AGG('count', 'vehicles', where=[('status', '<>', SOLD)])}],
     "charts": [
-        CHART('Revenue and profit per month', 'line', 'month', [AGG('sum', 'pnl', 'pnl.revenue', date='pnl.month', label='Revenue'), AGG('sum', 'pnl', 'pnl.profit', date='pnl.month', label='Profit')]),
+        CHART('Revenue and profit per month', 'column', 'month', [AGG('sum', 'pnl', 'pnl.revenue', date='pnl.month', label='Revenue'), AGG('sum', 'pnl', 'pnl.profit', date='pnl.month', label='Profit')]),
         MC('Profit per month', 'pnl', 'profit', label='Profit'), BC('Profit by class, last 12 months', 'class_profit', 'class', 'profit_12m', label='Profit'),
         BC('Revenue by class, 24 months', 'class_month', 'class', 'revenue', label='Revenue'), BC('Costs by category, last 12 months', 'cost_cat', 'category', 'amount', label='Costs'),
         MC('Costs per month', 'pnl', 'costs', label='Total costs'), MC('Staff pay per month', 'pnl', 'staff', label='Staff pay'), MC('Financing per month', 'pnl', 'financing', label='Financing'),

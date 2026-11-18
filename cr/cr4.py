@@ -267,13 +267,13 @@ insights = {"filters": [{"label": "Channel", "list": "channel"}, {"label": "Paym
         CHART('Payouts by status', 'bar', 'payouts.status', [AGG('count', 'payouts', label='Payouts')]),
         CHART('Expected payouts by marketplace', 'bar', 'payouts.channel', [AGG('sum', 'payouts', 'payouts.expected_payout', label='Expected payout')]),
         CHART('Marketplace fees per month', 'column', 'month', [AGG('sum', 'payouts', 'payouts.fee', date='payouts.month', label='Fees')]),
-        CHART('Fee share per month', 'line', 'month', [AGG('avg', 'feeshare', 'feeshare.fee_share', date='feeshare.month', label='Fee share')]),
-        CHART('Days to payout per month', 'line', 'month', [AGG('avg', 'payouts', 'payouts.days_to_pay', date='payouts.month', label='Days to payout')]),
+        CHART('Fee share per month', 'column', 'month', [AGG('avg', 'feeshare', 'feeshare.fee_share', date='feeshare.month', label='Fee share')]),
+        CHART('Days to payout per month', 'column', 'month', [AGG('avg', 'payouts', 'payouts.days_to_pay', date='payouts.month', label='Days to payout')]),
         CHART('Invoices issued per month', 'column', 'month', [AGG('count', 'invoices', date='invoices.issued_on', label='Invoices')]),
         CHART('Invoices by status', 'bar', 'invoices.status', [AGG('count', 'invoices', label='Invoices')]),
         CHART('Balance by ageing bucket', 'bar', 'ageing.bucket', [AGG('sum', 'ageing', 'ageing.balance', label='Balance')]),
         CHART('Balance by account', 'bar', 'corporate.account', [AGG('sum', 'corporate', 'corporate.balance', label='Balance')]),
-        CHART('Collected share per month', 'line', 'month', [AGG('avg', 'invoices', 'invoices.collected_pct', date='invoices.issued_on', label='Collected share')]),
+        CHART('Collected share per month', 'column', 'month', [AGG('avg', 'invoices', 'invoices.collected_pct', date='invoices.issued_on', label='Collected share')]),
         CHART('Card fees per month', 'column', 'month', [AGG('sum', 'payments', 'payments.card_fee', date='payments.date', label='Card fees')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 
