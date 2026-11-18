@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p4/images/01-hero.png",
+   "/tmp/out/p4/images/02-charts.png",
+   "/tmp/out/p4/images/03-dashboard.png",
+   "/tmp/out/p4/images/04-scorecard.png",
+   "/tmp/out/p4/images/05-timesheets.png",
+   "/tmp/out/p4/images/06-hours_week.png",
+   "/tmp/out/p4/images/07-print.png",
+   "/tmp/out/p4/images/08-inside.png",
+   "/tmp/out/p4/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p4/Technicians-Hours-Pay-and-Capacity-English.zip",
+  "zip_sha256": "2654e25e13e6e87fcce931432cbf8faaac49de6e24ff3798b65f3aacbf2375f4",
+  "fxp": null,
+  "sha256": "2654e25e13e6e87fcce931432cbf8faaac49de6e24ff3798b65f3aacbf2375f4"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 24.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 156,
+   "calc_cols": 156,
+   "monthly_nonzero_cells": 42,
+   "form_fields_filled": 130,
+   "form_fields": 130,
+   "tool_outputs_ok": 1023,
+   "tool_outputs": 1023,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 39,
+   "document_paragraphs": 39
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 70125,
+   "en-demo": 70123,
+   "en-raw": 70123
+  },
+  "job_seconds_max": 23.3,
+  "seconds_images": 16.9,
+  "zip_mb": 1.51,
+  "seconds_package": 0.2,
+  "seconds_total": 41.9
+ },
+ "at": "2026-11-18T00:54:37+00:00",
+ "id": "fx-20261115-hvac-plumbing-p4"
+}
