@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-rates.png",
+   "/tmp/out/p1/images/05-quote_log.png",
+   "/tmp/out/p1/images/06-enquiries.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p1/Enquiries-Quotes-and-Rate-Card-English.zip",
+  "zip_sha256": "fc3d5ba7eed14653607e50fa462a3795467bc40600ac7f0b691127b6b04418da",
+  "fxp": null,
+  "sha256": "fc3d5ba7eed14653607e50fa462a3795467bc40600ac7f0b691127b6b04418da"
+ },
+ "stats": {
+  "seconds_validate": 0.2,
+  "seconds_verify": 43.1,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 100,
+   "calc_cols": 100,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 141,
+   "form_fields": 141,
+   "tool_outputs_ok": 996,
+   "tool_outputs": 996,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 94365,
+   "en-demo": 94363,
+   "en-raw": 94363
+  },
+  "job_seconds_max": 40.9,
+  "seconds_images": 21.8,
+  "zip_mb": 1.61,
+  "seconds_package": 2.0,
+  "seconds_total": 67.2
+ },
+ "at": "2026-11-18T00:52:32+00:00",
+ "id": "fx-20261115-car-rental-p1"
+}
