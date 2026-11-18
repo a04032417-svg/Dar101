@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p8/images/01-hero.png",
+   "/tmp/out/p8/images/02-charts.png",
+   "/tmp/out/p8/images/03-dashboard.png",
+   "/tmp/out/p8/images/04-room_months.png",
+   "/tmp/out/p8/images/05-budget.png",
+   "/tmp/out/p8/images/06-pnl.png",
+   "/tmp/out/p8/images/07-print.png",
+   "/tmp/out/p8/images/08-inside.png",
+   "/tmp/out/p8/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p8/Business-Health-and-Planning-English.zip",
+  "zip_sha256": "d0b0981fe6ba20b72209448714c306a854ad3c99fa2c209ccbf816884a32675d",
+  "fxp": null,
+  "sha256": "d0b0981fe6ba20b72209448714c306a854ad3c99fa2c209ccbf816884a32675d"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 20.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 223,
+   "calc_cols": 223,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 128,
+   "form_fields": 128,
+   "tool_outputs_ok": 1004,
+   "tool_outputs": 1004,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 38664,
+   "en-demo": 38662,
+   "en-raw": 38662
+  },
+  "job_seconds_max": 19.7,
+  "seconds_images": 16.9,
+  "zip_mb": 1.04,
+  "seconds_package": 0.1,
+  "seconds_total": 37.7
+ },
+ "at": "2026-11-18T00:49:35+00:00",
+ "id": "fx-20261115-childcare-center-p8"
+}
