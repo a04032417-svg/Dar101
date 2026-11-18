@@ -221,7 +221,7 @@ tools = [
   GR('What if', ('Big client: 16 hours', {'new': 16}), ('Short visits: 1.5 hours', {'vis': 1.5}), ('Work 55 hours', {'own': 55}), ('Less admin: 3 hours', {'admin': 3}))),
  TOOL('holiday_quote', 'Holiday Visit Quote', 'Holiday visit quote: charge, pay with premium and margin',
   'Type a holiday date, the hours and the service; see the client charge at the holiday rate, the caregiver cost with the holiday premium, the margin and the extra charged over a weekday visit.', [
-  I('hdate', 'Holiday date', 'today+40', 'date'), I('hrs', 'Hours', 6, 'num'), IL('svc', 'Service', 'svc', 'Companion care')], [
+  I('hdate', 'Holiday date', '2026-12-25', 'date'), I('hrs', 'Hours', 6, 'num'), IL('svc', 'Service', 'svc', 'Companion care')], [
   O('Holiday on that date', 'text', 'IFERROR(INDEX({range:holidays.holiday},MATCH({in:hdate},{range:holidays.date},0))&"","")'),
   O('Bill multiplier used', 'num', 'IF(SUMIFS({range:holidays.bill_mult},{range:holidays.date},{in:hdate})=0,{set:holiday_bill_mult},SUMIFS({range:holidays.bill_mult},{range:holidays.date},{in:hdate}))'),
   O('Client charge at the holiday rate', 'money', '{in:hrs}*%s*IF(SUMIFS({range:holidays.bill_mult},{range:holidays.date},{in:hdate})=0,{set:holiday_bill_mult},SUMIFS({range:holidays.bill_mult},{range:holidays.date},{in:hdate}))' % RC('bill_rate', '{in:svc}', BT('Weekday'))),

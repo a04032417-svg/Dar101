@@ -1,0 +1,18 @@
+Week plan check: busy-day limit = 75 -> busiest day 135 min, 1 day over, verdict "Busy day, minutes over the limit: 60" (checked: 135-75=60)
+Servings for the week: extra eaters = 0 -> eaters 29, portions 27, 2 more to cook, verdict "Cook 2 portions more" (checked: 29-27=2)
+Grocery list builder: restock = 1 -> needs 31, in stock 25, to buy 6, on list 11, cost 20.8 (checked: 31-25=6; 6 plan + 5 under minimum = 11)
+Shop split: most items on one trip = 30 -> weekly 8, top-up 1, market 1, online 1 = 11 items, cost 12.6+1.5+0.5+6.2 = 20.8 (checked: equals list builder)
+One adult away: adults away 1, first day 1, days 3 -> 3 dinners, portions 27 -> 24 (checked: 27-3=24), 0 fewer items (logical zero: stock covers the plan either way)
+Guests staying: guests 2, dinners with guests 2 -> extra portions 4 (checked: 2x2), 2 extra packs, verdict "Add 2 packs for 2 guests"
+Cook rota: days ahead 7 -> Adult 2 cooks 4, Adult 1 cooks 3 (checked: 4+3=7), 2 late days need prep ahead
+Busy-day meal picker: max prep 30 -> 19 recipes, quickest Omelette and salad 15 min (checked: lowest prep minutes in recipes)
+Prep minutes budget: limit 75 -> 425 min in 7 days, average 61 (checked: 425/7=60.7), busiest 135, cut 60 (checked: 135-75)
+Always runs out: weeks needed 20 of 26 -> 14 standing items, potatoes first with 26 weeks (checked: 26>=20)
+Pack rounding: needed 1.3, on hand 0.2, pack 0.5, price 1.6 -> still 1.1, 3 packs, bought 1.5, left over 0.4, cost 4.8 (checked: ceil(1.1/0.5)=3; 3x1.6=4.8)
+List vs last 4 weeks: margin 0.15 -> 38 items vs average 33, cost 149.33 vs 98.14, difference 51.2, ratio 0.522 (checked: 149.33-98.14=51.19; 51.2/98.14=0.52)
+Recipe rotation: not planned for 90 days -> 7 recipes, Spaghetti with tomato sauce 216 days (checked: oldest planned date)
+Preference balance: dominating share = 0.4 -> 14 dinners, 7 labelled, Family favourite 3 = 0.43 (checked: 3/7=0.43 > 0.4 so dominates)
+Leftover lunch planner: eaters at lunch 2 -> 5 fridge portions, 2 lunches (checked: 5/2=2.5 rounded down); spare dinner portions 0 (logical zero: plan has no spare dinner portions)
+Moving the shop day: move 2 days -> usual 21 Nov, new 23 Nov, 5 days from today, short 1 -> 6, 5 more short (checked: 6-1=5)
+Plan for one person: recipe RC-01, portions 1 -> serves 4, scale 0.25 (checked: 1/4), 5 ingredient lines, 5 packs, 25 min
+Cost line per dinner: compare 4 weeks, margin 0.1 -> 85.75/7 = 12.25 vs 16.66 average, difference -4.41 (checked: 12.25-16.66), verdict "Below your own average by 4.41"
