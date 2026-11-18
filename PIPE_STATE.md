@@ -340,3 +340,7 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - [VERIFIED] Shopify sessions last 3d: 22 (direct US 9, direct SA 9, X 2, shopify 2). No search referrals.
 - German de1 (de1.py/de1_vars.json): cm, ry, sr, cn registered (no userErrors), NOT yet verified live, NOT IndexNow'd; fd, os not registered.
 - Conclusion given to owner: within hours only his own network (WhatsApp groups/status, personal accounts) can realistically reach buyers; ready per-product texts exist at /pages/partners.
+- 2026-11-19 ~00:20 Riyadh [VERIFIED] LinkedIn (Chrome): name now "Dar Templates", headline EN "Ready-made Excel systems for business and home | 36 templates, one-time payment, 15 languages", About EN saved; 0 connections, 0 followers; no photo (no logo file). Real-name policy risk told to owner.
+- [VERIFIED] Eloquens channel dar-templates: 39 contributions = 30 pending review (cloud_off+clock), 8 offline drafts, 0 online; dashboard 0 views / 0 downloads / 0 sales.
+- [VERIFIED] Pinterest analytics last 30d: no impressions data ("-", "Not enough data") despite 61+ pins.
+- [VERIFIED] Shopify conversion benchmark (Littledata, 449 stores, 90d): median 1.4%, top20% >2.8% => ~164 qualified visitors for 90% chance of >=1 sale at 1.4%.
