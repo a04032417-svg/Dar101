@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-quotes.png",
+   "/tmp/out/p1/images/05-enquiries.png",
+   "/tmp/out/p1/images/06-funnel.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p1/Enquiries-Consultations-Quotes-English.zip",
+  "zip_sha256": "2d72715ec8e09e3d68f65a08f6365943db09d4d2fd6989344778c5a04e41a078",
+  "fxp": null,
+  "sha256": "2d72715ec8e09e3d68f65a08f6365943db09d4d2fd6989344778c5a04e41a078"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 23.4,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 96,
+   "calc_cols": 96,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 135,
+   "form_fields": 135,
+   "tool_outputs_ok": 737,
+   "tool_outputs": 737,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 42,
+   "document_paragraphs": 42
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 80379,
+   "en-demo": 80377,
+   "en-raw": 80377
+  },
+  "job_seconds_max": 22.2,
+  "seconds_images": 15.3,
+  "zip_mb": 1.51,
+  "seconds_package": 0.3,
+  "seconds_total": 39.0
+ },
+ "at": "2026-11-18T00:12:53+00:00",
+ "id": "fx-20261115-doula-business-p1"
+}
