@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p3/images/01-hero.png",
+   "/tmp/out/p3/images/02-charts.png",
+   "/tmp/out/p3/images/03-dashboard.png",
+   "/tmp/out/p3/images/04-billing.png",
+   "/tmp/out/p3/images/05-ar_clients.png",
+   "/tmp/out/p3/images/06-invoices.png",
+   "/tmp/out/p3/images/07-print.png",
+   "/tmp/out/p3/images/08-inside.png",
+   "/tmp/out/p3/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p3/Client-Fees-Accounts-and-Packages-English.zip",
+  "zip_sha256": "5a36365f57d8044518439cdb0ece0034c11006ea6e374cd4ec3020d17237dd33",
+  "fxp": null,
+  "sha256": "5a36365f57d8044518439cdb0ece0034c11006ea6e374cd4ec3020d17237dd33"
+ },
+ "stats": {
+  "seconds_validate": 0.2,
+  "seconds_verify": 50.7,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 127,
+   "calc_cols": 127,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 153,
+   "form_fields": 153,
+   "tool_outputs_ok": 790,
+   "tool_outputs": 790,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 43,
+   "document_paragraphs": 43
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 134586,
+   "en-demo": 134584,
+   "en-raw": 134584
+  },
+  "job_seconds_max": 47.9,
+  "seconds_images": 18.4,
+  "zip_mb": 2.92,
+  "seconds_package": 0.4,
+  "seconds_total": 69.7
+ },
+ "at": "2026-11-18T00:54:01+00:00",
+ "id": "fx-20261115-therapy-practice-p3"
+}
