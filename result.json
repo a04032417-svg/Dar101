@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p7/images/01-hero.png",
+   "/tmp/out/p7/images/02-charts.png",
+   "/tmp/out/p7/images/03-dashboard.png",
+   "/tmp/out/p7/images/04-dmargin.png",
+   "/tmp/out/p7/images/05-stockpos.png",
+   "/tmp/out/p7/images/06-evprofit.png",
+   "/tmp/out/p7/images/07-print.png",
+   "/tmp/out/p7/images/08-inside.png",
+   "/tmp/out/p7/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p7/Direct-Sales-Stock-Events-and-Rights-English.zip",
+  "zip_sha256": "9a1d3985c20cb3f030f5dfd9b26f624971cb4500907adc0e34cf66078b14cabf",
+  "fxp": null,
+  "sha256": "9a1d3985c20cb3f030f5dfd9b26f624971cb4500907adc0e34cf66078b14cabf"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 22.4,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 181,
+   "calc_cols": 181,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 172,
+   "form_fields": 172,
+   "tool_outputs_ok": 860,
+   "tool_outputs": 860,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 66573,
+   "en-demo": 66571,
+   "en-raw": 66571
+  },
+  "job_seconds_max": 21.3,
+  "seconds_images": 15.6,
+  "zip_mb": 1.1,
+  "seconds_package": 0.3,
+  "seconds_total": 38.4
+ },
+ "at": "2026-11-18T00:28:13+00:00",
+ "id": "fx-20261115-author-publisher-p7"
+}
