@@ -67,6 +67,7 @@
     await sleep(2500);
     c = Ctx(fr.contentWindow);
     var draft = fr.contentWindow.location.pathname.split('/')[2];
+    S.drafts = S.drafts || {}; S.drafts[k] = draft;
     log(k + ' draft ' + draft);
 
     var imgs = item.imgs;
@@ -114,20 +115,40 @@
     if (free.checked) { free.click(); await sleep(1000); }
     if (free.checked) throw new Error('free toggle still on');
     await sleep(1500);
-    clickStep(c, /^Confirm$/i); await sleep(5000);
-    var page = c.d.querySelector('main').innerText;
+    await confirmSubmit(c);
+    S.done[k] = draft; log(k + ' SUBMITTED ' + draft);
+  }
+
+  async function confirmSubmit(c) {
+    var b = c.byText('.btn, span, a, div', /^Confirm$/i)[0];
+    if (b) b.click(); else { var li = c.q('li').filter(function (e) { return c.vis(e) && /^Confirm$/i.test(e.innerText.trim()); })[0]; if (!li) throw new Error('no confirm'); li.click(); }
+    var page = await waitFor(function () { var t = c.d.querySelector('main').innerText; return /Everything seems good|there is a problem/i.test(t) ? t : null; }, 20000, 'confirm page');
     if (!/Everything seems good/i.test(page)) {
       var i0 = page.indexOf('problem');
       throw new Error('validation: ' + page.slice(i0, i0 + 300).replace(/\s+/g, ' '));
     }
     var ack = c.q('input[type=checkbox]').filter(function (x) { return /acknowledge/i.test((x.labels && x.labels[0] && x.labels[0].innerText) || ''); })[0];
     if (!ack.checked) { ack.labels[0].click(); await sleep(800); }
-    clickStep(c, /^Submit for validation$/i);
+    c.byText('.btn, span, a, div', /^Submit for validation$/i)[0].click();
     await waitFor(function () { return /sent for validation/i.test(c.d.body.innerText); }, 30000, 'submit confirmation');
-    S.done[k] = draft; log(k + ' SUBMITTED ' + draft);
+  }
+
+  async function finishDraft(id) {
+    var fr = document.getElementById('elqFrame'); if (fr) fr.remove();
+    fr = document.createElement('iframe'); fr.id = 'elqFrame';
+    fr.style.cssText = 'position:fixed;left:0;top:0;width:1300px;height:900px;z-index:99999;background:#fff;border:3px solid #0f6b4f';
+    fr.src = '/contributions/' + id + '/edit-draft'; document.body.appendChild(fr);
+    await waitFor(function () { return fr.contentWindow.document.readyState === 'complete' && fr.contentWindow.document.getElementById('pvLicenseBusiness'); }, 90000, 'draft ' + id);
+    await sleep(3000);
+    var c = Ctx(fr.contentWindow);
+    var free = c.d.getElementById('chkFreeForAll');
+    if (free.checked) { (free.closest('label') || free.parentElement).click(); await sleep(1000); }
+    await confirmSubmit(c);
+    log('draft ' + id + ' SUBMITTED');
   }
 
   window.ELQ = {
+    finish: async function (ids) { for (var i = 0; i < ids.length; i++) { try { await finishDraft(ids[i]); S.done['d' + ids[i]] = ids[i]; } catch (e) { log('draft ' + ids[i] + ' ERR ' + e.message); } } var f = document.getElementById('elqFrame'); if (f) f.remove(); return 'finished'; },
     run: async function (keys) {
       if (S.running) return 'already running';
       S.running = true; S.errors = S.errors || {};
