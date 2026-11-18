@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p6/images/01-hero.png",
+   "/tmp/out/p6/images/02-charts.png",
+   "/tmp/out/p6/images/03-dashboard.png",
+   "/tmp/out/p6/images/04-onboarding.png",
+   "/tmp/out/p6/images/05-turnover.png",
+   "/tmp/out/p6/images/06-credentials.png",
+   "/tmp/out/p6/images/07-print.png",
+   "/tmp/out/p6/images/08-inside.png",
+   "/tmp/out/p6/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p6/Recruiting-Onboarding-and-Renewals-English.zip",
+  "zip_sha256": "14c77094d068c8a766af7f607cf21cfbf63818b9a5a8b1653a61c66bbd80b8d2",
+  "fxp": null,
+  "sha256": "14c77094d068c8a766af7f607cf21cfbf63818b9a5a8b1653a61c66bbd80b8d2"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 20.0,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 89,
+   "calc_cols": 89,
+   "monthly_nonzero_cells": 41,
+   "form_fields_filled": 119,
+   "form_fields": 119,
+   "tool_outputs_ok": 583,
+   "tool_outputs": 583,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 36,
+   "document_paragraphs": 36
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 60164,
+   "en-demo": 60162,
+   "en-raw": 60162
+  },
+  "job_seconds_max": 19.0,
+  "seconds_images": 14.2,
+  "zip_mb": 1.21,
+  "seconds_package": 0.1,
+  "seconds_total": 34.3
+ },
+ "at": "2026-11-18T00:47:41+00:00",
+ "id": "fx-20261115-home-care-agency-p6"
+}
