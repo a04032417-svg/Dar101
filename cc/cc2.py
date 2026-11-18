@@ -224,11 +224,11 @@ insights = {"filters": [{"label": "Room", "list": "room"}, {"label": "Weekday", 
         CHART('Occupancy by weekday', 'bar', 'room_day.weekday', [AGG('avg', 'room_day', 'room_day.occupancy', label='Occupancy')]),
         CHART('Children by room', 'bar', 'children.room', [AGG('count', 'children', where=[EN], label='Children')]),
         CHART('Children by schedule', 'bar', 'children.schedule', [AGG('count', 'children', where=[EN], label='Children')]),
-        CHART('Attendance rate per month', 'line', 'month', [AGG('avg', 'attendance', 'attendance.present_flag', date='attendance.date', where=[BK], label='Attendance rate')]),
+        CHART('Attendance rate per month', 'column', 'month', [AGG('avg', 'attendance', 'attendance.present_flag', date='attendance.date', where=[BK], label='Attendance rate')]),
         CHART('Attendance status by month', 'bar', 'month', [AGG('sum', 'attendance', 'attendance.present_flag', date='attendance.date', label='Present'), AGG('sum', 'attendance', 'attendance.sick_flag', date='attendance.date', label='Sick absence'),
                                                               AGG('sum', 'attendance', 'attendance.holiday_flag', date='attendance.date', label='Family holiday')]),
         CHART('Paid but absent days per month', 'bar', 'month', [AGG('sum', 'attendance', 'attendance.absent_flag', date='attendance.date', label='Absent booked days')]),
-        CHART('Booked and attended hours per month', 'line', 'month', [AGG('avg', 'attendance', 'attendance.booked_hours', date='attendance.date', where=[BK], label='Booked hours'), AGG('avg', 'attendance', 'attendance.hours', date='attendance.date', where=[BK], label='Attended hours')]),
+        CHART('Booked and attended hours per month', 'column', 'month', [AGG('avg', 'attendance', 'attendance.booked_hours', date='attendance.date', where=[BK], label='Booked hours'), AGG('avg', 'attendance', 'attendance.hours', date='attendance.date', where=[BK], label='Attended hours')]),
         CHART('Late pickups per month', 'bar', 'month', [AGG('count', 'late_pickups', date='late_pickups.date', label='Late pickups')]),
         CHART('Late fees per month', 'bar', 'month', [AGG('sum', 'late_pickups', 'late_pickups.charged', date='late_pickups.date', label='Late fees charged')]),
         CHART('Late minutes by room', 'bar', 'late_pickups.room', [AGG('sum', 'late_pickups', 'late_pickups.late_minutes', label='Late minutes')]),
@@ -242,7 +242,7 @@ insights = {"filters": [{"label": "Room", "list": "room"}, {"label": "Weekday", 
         CHART('Place holds by room', 'bar', 'holds.room', [AGG('count', 'holds', label='Place holds')]),
         CHART('Absent days by room', 'bar', 'absences.room', [AGG('sum', 'absences', 'absences.days_absent', label='Absent days')]),
         CHART('Closure days per month', 'bar', 'month', [AGG('count', 'closures', date='closures.date', label='Closure days')]),
-        CHART('New children enrolled per month', 'line', 'month', [AGG('count', 'children', date='children.start_date', label='Children starting')])]}
+        CHART('New children enrolled per month', 'column', 'month', [AGG('count', 'children', date='children.start_date', label='Children starting')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 signature = [
     {"name": "Occupancy by room and weekday", "why": "booked over licensed places for each room and day, the paid-but-absent share and revenue left unfilled, ranked so you market the emptiest day first", "where": "Occupancy by Room and Day"},

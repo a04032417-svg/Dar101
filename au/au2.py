@@ -255,7 +255,7 @@ insights = {"filters": [{"label": "Job kind", "list": "jobkind"}, {"label": "Ser
         CHART('Jobs by kind', 'bar', 'jobs.kind', [AGG('count', 'jobs', label='Jobs')]),
         CHART('Job payments by status', 'bar', 'jobpay.status', [AGG('count', 'jobpay', label='Payments')]),
         CHART('Job payments by stage', 'bar', 'jobpay.stage', [AGG('sum', 'jobpay', 'jobpay.amount', label='Amount')]),
-        CHART('Payments per month', 'line', 'month', [AGG('count', 'jobpay', date='jobpay.date', label='Payments')]),
+        CHART('Payments per month', 'column', 'month', [AGG('count', 'jobpay', date='jobpay.date', label='Payments')]),
         CHART('Average quote by job kind', 'bar', 'jobs.kind', [AGG('avg', 'jobs', 'jobs.quote', label='Average quote')]),
         CHART('Production cost by series', 'bar', 'titles.series', [AGG('sum', 'titles', 'titles.total_cost', label='Production cost')]),
         CHART('Production cost by pen name', 'bar', 'titles.pen_name', [AGG('sum', 'titles', 'titles.total_cost', label='Production cost')]),
@@ -268,7 +268,7 @@ insights = {"filters": [{"label": "Job kind", "list": "jobkind"}, {"label": "Ser
         CHART('Go or no-go cases by format', 'bar', 'gonogo.format', [AGG('count', 'gonogo', label='Cases')]),
         CHART('Translation cases by language', 'bar', 'translation.language', [AGG('count', 'translation', label='Cases')]),
         CHART('Price per unit of quotes by job kind', 'bar', 'quotes.kind', [AGG('avg', 'quotes', 'quotes.price_per_unit', label='Price per unit')]),
-        CHART('Closing cash by month', 'line', 'month', [AGG('sum', 'cash_month', 'cash_month.closing', date='cash_month.month', label='Closing cash'), AGG('sum', 'cash_month', 'cash_month.free_cash', date='cash_month.month', label='Above the floor')])]}
+        CHART('Closing cash by month', 'column', 'month', [AGG('sum', 'cash_month', 'cash_month.closing', date='cash_month.month', label='Closing cash'), AGG('sum', 'cash_month', 'cash_month.free_cash', date='cash_month.month', label='Above the floor')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 
 signature = [

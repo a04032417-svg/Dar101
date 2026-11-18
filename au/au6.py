@@ -255,14 +255,14 @@ insights = {"filters": [{"label": "Series", "list": "series"}, {"label": "Pen na
         CHART('Royalties by pen name, last 12 months', 'bar', 'titles.pen_name', [AGG('sum', 'titles', 'titles.royalties_12m', label='Royalties')]),
         CHART('Royalties by genre, last 12 months', 'bar', 'titles.genre', [AGG('sum', 'titles', 'titles.royalties_12m', label='Royalties')]),
         CHART('Royalties by title status, last 12 months', 'bar', 'titles.status', [AGG('sum', 'titles', 'titles.royalties_12m', label='Royalties')]),
-        CHART('Royalties per month by pen name', 'line', 'month', [PNL_M('royalties', p, p) for p in PEN_NAMES]),
+        CHART('Royalties per month by pen name', 'column', 'month', [PNL_M('royalties', p, p) for p in PEN_NAMES]),
         CHART('Copies by series, last 12 months', 'bar', 'titles.series', [AGG('sum', 'titles', 'titles.copies_12m', label='Copies')]),
-        CHART('Series income per month', 'line', 'month', [AGG('sum', 'sincome', 'sincome.royalties', date='sincome.month', where=[('series', '=', tok('series', s))], label=s) for s in SERIES4]),
+        CHART('Series income per month', 'column', 'month', [AGG('sum', 'sincome', 'sincome.royalties', date='sincome.month', where=[('series', '=', tok('series', s))], label=s) for s in SERIES4]),
         CHART('Read-through by series step', 'bar', 'rtstep.stepno', [AGG('avg', 'rtstep', 'rtstep.readthrough', label='Read-through')]),
         CHART('Copies by book number', 'bar', 'chain.bookno', [AGG('sum', 'chain', 'chain.copies', label='Copies')]),
         CHART('Readers lost by series', 'bar', 'rtstep.series', [AGG('sum', 'rtstep', 'rtstep.lost', label='Readers lost')]),
         CHART('Pen-name costs per month', 'stacked', 'month', [AGG('sum', 'pnl', 'pnl.direct', date='pnl.month', label='Direct costs'), AGG('sum', 'pnl', 'pnl.shared', date='pnl.month', label='Shared costs')]),
-        CHART('Pen-name profit per month', 'line', 'month', [PNL_M('profit', p, p) for p in PEN_NAMES]),
+        CHART('Pen-name profit per month', 'column', 'month', [PNL_M('profit', p, p) for p in PEN_NAMES]),
         CHART('Shared costs by category', 'bar', 'expenses.category', [AGG('sum', 'expenses', 'expenses.amount', where=[('pen_name', '=', SHARED)], label='Shared costs')]),
         CHART('Production cost by series', 'bar', 'titles.series', [AGG('sum', 'titles', 'titles.production_cost', label='Production cost')]),
         CHART('Ad spend by series, last 12 months', 'bar', 'titles.series', [AGG('sum', 'titles', 'titles.ad_12m', label='Ad spend')]),
@@ -272,7 +272,7 @@ insights = {"filters": [{"label": "Series", "list": "series"}, {"label": "Pen na
         CHART('Box set royalties per month', 'column', 'month', [AGG('sum', 'sincome', 'sincome.royalties', date='sincome.month', where=[('series', '=', tok('series', 'Box set'))], label='Box set royalties')]),
         CHART('Target income steps by books needed', 'bar', 'target.tstep', [AGG('sum', 'target', 'target.books_needed', label='Books needed')]),
         CHART('Backlist royalties per month', 'column', 'month', [AGG('sum', 'backlist', 'backlist.back', date='backlist.month', label='Backlist royalties')]),
-        CHART('Backlist share of royalties per month', 'line', 'month', [AGG('avg', 'backlist', 'backlist.backlist_share', date='backlist.month', label='Backlist share')])]}
+        CHART('Backlist share of royalties per month', 'column', 'month', [AGG('avg', 'backlist', 'backlist.backlist_share', date='backlist.month', label='Backlist share')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 
 signature = [
