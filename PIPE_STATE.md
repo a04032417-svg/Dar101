@@ -332,3 +332,11 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - Total pt-BR calculator pages: 12 + hub. Remaining untranslated to pt: dv, gr, id, ta, fm, pj, co.
 - [VERIFIED] FINDING: /sitemap.xml pages sitemap lists only 2 pages (contact, data-sharing-opt-out); range to=163809362224. All calculator pages (created 2026-11-18 16:30Z+) not yet in sitemap. No noindex, no seo.hidden, canonical OK, robots allows /pages/. => Shopify sitemap regeneration lag; recheck tomorrow. IndexNow is the only fast discovery path for Bing/Yandex meanwhile.
 - [VERIFIED] Sales check ~21:10Z: Whop 0 payments since 18:30Z; Shopify 0 orders.
+
+## 2026-11-19 ~00:05 Riyadh — owner: "first purchase within hours"
+- [VERIFIED] Merchant Center: 432 offers, 0 approved, 360 under review, 72 not approved (Russia local rules), 0 clicks/28d; no account-level blocker visible.
+- [VERIFIED] Chrome (owner) logged in to X as @Dar_Templates: 0 followers / 0 following; latest posts 16:20Z and 16:23Z = 1 view each; intro post 53 views. X search for live buyer intent (pricing questions, template requests in our niches) returned nothing relevant.
+- [VERIFIED] Not logged in: LinkedIn (Chrome), X in built-in browser. Typefully: no social sets. Search Console not connected in Adspirer.
+- [VERIFIED] Shopify sessions last 3d: 22 (direct US 9, direct SA 9, X 2, shopify 2). No search referrals.
+- German de1 (de1.py/de1_vars.json): cm, ry, sr, cn registered (no userErrors), NOT yet verified live, NOT IndexNow'd; fd, os not registered.
+- Conclusion given to owner: within hours only his own network (WhatsApp groups/status, personal accounts) can realistically reach buyers; ready per-product texts exist at /pages/partners.
