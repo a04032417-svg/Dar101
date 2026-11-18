@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p5/images/01-hero.png",
+   "/tmp/out/p5/images/02-charts.png",
+   "/tmp/out/p5/images/03-dashboard.png",
+   "/tmp/out/p5/images/04-forecast.png",
+   "/tmp/out/p5/images/05-aging.png",
+   "/tmp/out/p5/images/06-collect.png",
+   "/tmp/out/p5/images/07-print.png",
+   "/tmp/out/p5/images/08-inside.png",
+   "/tmp/out/p5/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p5/Payments-Balances-and-Cash-English.zip",
+  "zip_sha256": "98b2ac1ef6b80c71757ff52dd3dcec814c329c8d851d750d957dfe02278d38cf",
+  "fxp": null,
+  "sha256": "98b2ac1ef6b80c71757ff52dd3dcec814c329c8d851d750d957dfe02278d38cf"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 22.9,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 160,
+   "calc_cols": 160,
+   "monthly_nonzero_cells": 22,
+   "form_fields_filled": 124,
+   "form_fields": 124,
+   "tool_outputs_ok": 789,
+   "tool_outputs": 789,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 36,
+   "document_paragraphs": 36
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 73330,
+   "en-demo": 73328,
+   "en-raw": 73328
+  },
+  "job_seconds_max": 21.8,
+  "seconds_images": 14.6,
+  "zip_mb": 1.83,
+  "seconds_package": 0.3,
+  "seconds_total": 38.1
+ },
+ "at": "2026-11-18T01:10:07+00:00",
+ "id": "fx-20261115-childcare-center-p5"
+}
