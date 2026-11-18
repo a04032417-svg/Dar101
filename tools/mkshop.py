@@ -13,7 +13,7 @@ for block in desc.split('\n\n'):
         h += f'<p>{e(block)}</p>'
 h += '<p><strong>What it does for you</strong></p><ul>' + ''.join(f'<li>{e(fix(f))}</li>' for f in C['features']) + '</ul>'
 h += ''.join(f'<p><strong>{e(q["q"])}</strong><br>{e(fix(q["a"]))}</p>' for q in C['faq'])
-out = {"title": C['seo_title'], "handle": handle, "vendor": "Dar Templates", "status": "ACTIVE", "descriptionHtml": h,
+out = {"title": C['seo_title'], "handle": handle, "vendor": "Dar Templates", "status": "ACTIVE", "productType": "Digital download", "category": "gid://shopify/TaxonomyCategory/so-2-4", "descriptionHtml": h,
        "seo": {"title": C['seo_title'], "description": C['seo_description']}, "tags": C['tags'],
        "productOptions": [{"name": "Title", "values": [{"name": "Default Title"}]}],
        "variants": [{"optionValues": [{"optionName": "Title", "name": "Default Title"}], "price": __import__("os").environ.get("PRICE","17.00")}],
