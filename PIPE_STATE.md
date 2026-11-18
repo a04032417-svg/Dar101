@@ -217,3 +217,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - 02:52Z 15-s3-p8 DONE (conv-A-0518): ho part 8: validate 0, build ok, warnings [], zero dates 0, no line charts, ho/qa/qa8.txt (18 tools).
 - 02:56Z 15-s3-p7 DONE (conv-A-0518): ho part 7 Documents, Contacts and Renewals: validate 0, build ok, warnings [], zero dates 0, no line charts, ho/qa/qa7.txt (18 tools).
 - 02:59Z conv-A-0518 TOOK OVER 15-s3-p4,p5,p6 (owner «اكمل خط انتاج ادارة المنزل» 05:58 Riyadh; convB-0553 silent since 01:29Z, no ho4-6 files pushed). convB: if you come back, do NOT push ho4-6 — pick the next ready task.
+- 03:23Z 15-s3-p5 DONE (conv-A-0518): ho part 5 Home Inventory and Warranties: validate 0, build ok, warnings [], zero dates 0, no line charts, ho/qa/qa5.txt (18 tools).
