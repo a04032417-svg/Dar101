@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p7/images/01-hero.png",
+   "/tmp/out/p7/images/02-charts.png",
+   "/tmp/out/p7/images/03-dashboard.png",
+   "/tmp/out/p7/images/04-referrers.png",
+   "/tmp/out/p7/images/05-groups.png",
+   "/tmp/out/p7/images/06-sourcemonths.png",
+   "/tmp/out/p7/images/07-print.png",
+   "/tmp/out/p7/images/08-inside.png",
+   "/tmp/out/p7/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p7/Referrals-Marketing-and-Groups-English.zip",
+  "zip_sha256": "5a0b2fcf8c0721d35a5196601593f22b524c5de7a8b05713d41ff9c265ee925e",
+  "fxp": null,
+  "sha256": "5a0b2fcf8c0721d35a5196601593f22b524c5de7a8b05713d41ff9c265ee925e"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 17.5,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 105,
+   "calc_cols": 105,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 141,
+   "form_fields": 141,
+   "tool_outputs_ok": 837,
+   "tool_outputs": 837,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 38407,
+   "en-demo": 38405,
+   "en-raw": 38405
+  },
+  "job_seconds_max": 16.6,
+  "seconds_images": 14.4,
+  "zip_mb": 1.05,
+  "seconds_package": 0.3,
+  "seconds_total": 32.2
+ },
+ "at": "2026-11-18T01:21:09+00:00",
+ "id": "fx-20261115-therapy-practice-p7"
+}
