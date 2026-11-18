@@ -297,7 +297,7 @@ insights = {"filters": [{"label": "Clinician", "list": "clin"}, {"label": "Fee t
   CHART('Invoices by status', 'bar', 'invoices.status', [AGG('count', 'invoices', label='Invoices')]),
   CHART('Overdue balance by fee type', 'bar', 'invoices.fee_type', [AGG('sum', 'invoices', 'invoices.balance', where=[('days_overdue', '>', 0)], label='Overdue balance')]),
   CHART('Payment promises by outcome', 'bar', 'promises.outcome', [AGG('count', 'promises', label='Promises')]),
-  CHART('Average days to pay per month', 'line', 'month', [AGG('avg', 'invoices', 'invoices.days_to_pay', date='invoices.issued_on', label='Days to pay')]),
+  CHART('Average days to pay per month', 'column', 'month', [AGG('avg', 'invoices', 'invoices.days_to_pay', date='invoices.issued_on', label='Days to pay')]),
   CHART('Packages sold per month', 'column', 'month', [AGG('count', 'packages', date='packages.bought_on', label='Packages sold')]),
   CHART('Collection gap per month by cause', 'stacked', 'month', [GAPS('Sliding scale', 'Sliding scale'), GAPS('Waived late fee', 'Waived late fee'), GAPS('Written off', 'Written off'), GAPS('Unpaid', 'Unpaid')]),
   CHART('Collection gap by cause', 'bar', 'gap.cause', [AGG('sum', 'gap', 'gap.amount', label='Amount not collected')]),

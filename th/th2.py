@@ -248,9 +248,9 @@ insights = {"filters": [{"label": "Clinician", "list": "clin"}, {"label": "Servi
         CHART('Used hours by room', 'bar', 'room_months.room', [AGG('sum', 'room_months', 'room_months.used_hours', label='Used hours')]),
         CHART('Sublet hours per month', 'column', 'month', [SUMC('sublets', 'hours', 'Sublet hours', 'month')]),
         CHART('Sublet income by room', 'bar', 'sublets.room', [AGG('sum', 'sublets', 'sublets.amount', label='Income')]),
-        CHART('Online sessions per month', 'line', 'month', [SUMC('clin_weeks', 'online', 'Online or phone', 'week')]),
+        CHART('Online sessions per month', 'column', 'month', [SUMC('clin_weeks', 'online', 'Online or phone', 'week')]),
         CHART('Absence weeks by clinician', 'bar', 'absences.clinician', [AGG('count', 'absences', label='Absence weeks')]),
-        CHART('Reminders confirmed per month', 'line', 'month', [SUMC('clin_weeks', 'reminders_confirmed', 'Confirmed', 'week')]),
+        CHART('Reminders confirmed per month', 'column', 'month', [SUMC('clin_weeks', 'reminders_confirmed', 'Confirmed', 'week')]),
         CHART('Diary slots ahead by status', 'bar', 'diary.status', [AGG('count', 'diary', label='Slots')])]}
 signature = [
     {"name": "Clinician capacity with a target load band", "why": "booked sessions against the weekly cap and a band such as 22 to 25 sessions, amber at the top and red above, so one clinician at 31 sessions stands out", "where": "Clinician Capacity"},

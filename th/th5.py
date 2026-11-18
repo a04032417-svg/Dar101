@@ -253,7 +253,7 @@ insights = {"filters": [{"label": "Clinician", "list": "clin"}, {"label": "Servi
         CHART('Clinical hours per month', 'column', 'month', [SUMC('clin_months', 'clinical_hours', 'Clinical hours', 'month')]),
         CHART('Clinical hours by clinician', 'bar', 'clin_months.clinician', [AGG('sum', 'clin_months', 'clin_months.clinical_hours', label='Clinical hours')]),
         CHART('Revenue by clinician', 'bar', 'clin_months.clinician', [AGG('sum', 'clin_months', 'clin_months.revenue', label='Revenue')]),
-        CHART('Revenue per clinical hour per month', 'line', 'month', [AVGC('clin_months', 'rev_per_hour', 'Revenue per hour', 'month')]),
+        CHART('Revenue per clinical hour per month', 'column', 'month', [AVGC('clin_months', 'rev_per_hour', 'Revenue per hour', 'month')]),
         CHART('Capacity against attended per month', 'column', 'month', [SUMC('clin_months', 'capacity', 'Capacity', 'month'), SUMC('clin_months', 'attended', 'Attended', 'month')]),
         CHART('Target against attended per month', 'column', 'month', [SUMC('targets', 'target_sessions', 'Target', 'month'), SUMC('targets', 'attended', 'Attended', 'month')]),
         CHART('Booked share of cap by clinician and strain line', 'combo', 'clin_months.clinician', [AGG('avg', 'clin_months', 'clin_months.share_of_cap', label='Booked share of cap'), AGG('avg', 'clin_months', 'clin_months.strain_line', label='Strain line')], line=1),
@@ -266,12 +266,12 @@ insights = {"filters": [{"label": "Clinician", "list": "clin"}, {"label": "Servi
         CHART('Supervision cost per month', 'column', 'month', [SUMC('allin', 'supervision_cost', 'Supervision cost', 'month')]),
         CHART('All-in cost per session by pay type', 'bar', 'allin.pay_type', [AGG('avg', 'allin', 'allin.cost_per_session', label='All-in cost per session')]),
         CHART('Practice margin by clinician', 'bar', 'allin.clinician', [AGG('sum', 'allin', 'allin.margin', label='Margin')]),
-        CHART('Rebooked within 14 days per month', 'line', 'month', [SUMC('rebook', 'rebooked', 'Rebooked', 'date')]),
+        CHART('Rebooked within 14 days per month', 'column', 'month', [SUMC('rebook', 'rebooked', 'Rebooked', 'date')]),
         CHART('Drop-outs by clinician', 'bar', 'dropouts.clinician', [AGG('count', 'dropouts', label='Drop-outs')]),
         CHART('Retained clients by service', 'bar', 'retention.service', [AGG('count', 'retention', where=[('retained', '=', V('Retained to 6'))], label='Retained to 6')]),
         CHART('Admin minutes by clinician', 'bar', 'admin_log.clinician', [AGG('sum', 'admin_log', 'admin_log.minutes', label='Admin minutes')]),
-        CHART('Admin minutes per month', 'line', 'month', [SUMC('admin_log', 'minutes', 'Admin minutes', 'date')]),
-        CHART('Contractor effective split per month', 'line', 'month', [AVGC('contractor_statements', 'effective_split', 'Effective split', 'month')])]}
+        CHART('Admin minutes per month', 'column', 'month', [SUMC('admin_log', 'minutes', 'Admin minutes', 'date')]),
+        CHART('Contractor effective split per month', 'column', 'month', [AVGC('contractor_statements', 'effective_split', 'Effective split', 'month')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6
 signature = [
     {"name": "Utilization and revenue per hour by clinician", "why": "booked share of cap in an idle, healthy or strain band beside the revenue of every clinical hour, each with the clinician's own 3-month and last-year figures", "where": "Clinician Months"},

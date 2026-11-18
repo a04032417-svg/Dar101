@@ -254,7 +254,7 @@ insights = {"filters": [{"label": "Referral source", "list": "src"}, {"label": "
   CHART('Enquiries by activity kind', 'bar', 'campaigns.kind', [AGG('sum', 'campaigns', 'campaigns.enquiries', label='Enquiries')]),
   CHART('Clients won by activity kind', 'bar', 'campaigns.kind', [AGG('sum', 'campaigns', 'campaigns.clients_won', label='Clients won')]),
   CHART('Directory enquiries per month', 'column', 'month', [AGG('sum', 'directory', 'directory.enquiries', date='directory.month', label='Enquiries'), AGG('sum', 'directory', 'directory.clients_won', date='directory.month', label='Clients won')]),
-  CHART('Website enquiry forms per month', 'line', 'month', [AGG('sum', 'website', 'website.enquiry_forms', date='website.month', label='Enquiry forms'), AGG('sum', 'website', 'website.bookings', date='website.month', label='Bookings')]),
+  CHART('Website enquiry forms per month', 'column', 'month', [AGG('sum', 'website', 'website.enquiry_forms', date='website.month', label='Enquiry forms'), AGG('sum', 'website', 'website.bookings', date='website.month', label='Bookings')]),
   CHART('Months to pay back one listing, by directory listing', 'bar', 'directory.listing', [AGG('avg', 'directory', 'directory.payback_months', label='Months to pay back')]),
   CHART('Referrer contacts per month', 'column', 'month', [AGG('count', 'contacts', date='contacts.date', label='Contacts')]),
   CHART('Value per enquiry by source, last 12 months', 'bar', 'sourcemonths.source', [AGG('avg', 'sourcemonths', 'sourcemonths.val_enq_12m', label='Revenue per enquiry')]),
@@ -264,7 +264,7 @@ insights = {"filters": [{"label": "Referral source", "list": "src"}, {"label": "
   CHART('Groups by status', 'bar', 'groups.status', [AGG('count', 'groups', label='Groups')]),
   CHART('Facilitator pay share of fees by program', 'bar', 'groups.program', [AGG('avg', 'groups', 'groups.pay_share', label='Pay share of fees')]),
   CHART('Group attendance per month', 'column', 'month', [AGG('sum', 'attendance', 'attendance.attended', date='attendance.date', label='People attending')]),
-  CHART('Feedback score per month', 'line', 'month', [AGG('avg', 'feedback', 'feedback.rating', date='feedback.date', label='Average score')]),
+  CHART('Feedback score per month', 'column', 'month', [AGG('avg', 'feedback', 'feedback.rating', date='feedback.date', label='Average score')]),
   CHART('Feedback score by topic', 'bar', 'feedback.topic', [AGG('avg', 'feedback', 'feedback.rating', label='Average score')]),
   CHART('Revenue per client by source, all clients', 'bar', 'clientvalue.source', [AGG('avg', 'clientvalue', 'clientvalue.revenue', label='Revenue per client')])]}
 assert len(insights['charts']) == 22

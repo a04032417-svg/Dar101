@@ -284,12 +284,12 @@ insights = {"filters": [{"label": "Fund", "list": "fund"}, {"label": "Funder typ
         CHART('Spent by grant category', 'bar', 'grant_spending.category', [AGG('sum', 'grant_spending', 'grant_spending.amount', label='Spent')]),
         CHART('Share spent by funder type, grants with a budget', 'bar', 'grant_actual.funder_type', [AGG('avg', 'grant_actual', 'grant_actual.share_spent', label='Share spent')]),
         CHART('Balance by fund, this month', 'bar', 'fund_position.fund', [AGG('sum', 'fund_position', 'fund_position.balance', where=[W('is_now', '=', 1)], label='Balance')]),
-        CHART('Restricted and designated money per month', 'line', 'month', [AGG('sum', 'fund_months', 'fund_months.restricted_bal', date='fund_months.month', label='Restricted'), AGG('sum', 'fund_months', 'fund_months.designated_bal', date='fund_months.month', label='Designated')]),
+        CHART('Restricted and designated money per month', 'column', 'month', [AGG('sum', 'fund_months', 'fund_months.restricted_bal', date='fund_months.month', label='Restricted'), AGG('sum', 'fund_months', 'fund_months.designated_bal', date='fund_months.month', label='Designated')]),
         CHART('Released from restriction per month', 'column', 'month', [AGG('sum', 'release_journal', 'release_journal.amount', date='release_journal.date', label='Released')]),
         CHART('Released by program', 'bar', 'release_journal.program', [AGG('sum', 'release_journal', 'release_journal.amount', label='Released')]),
         CHART('Receipts by fund', 'bar', 'fund_months.fund', [AGG('sum', 'fund_months', 'fund_months.receipts', label='Receipts')]),
-        CHART('Free money per month', 'line', 'month', [AGG('sum', 'free_money', 'free_money.free_money', date='free_money.month', label='Free money')]),
-        CHART('Months of reserve per month', 'line', 'month', [AGG('sum', 'free_money', 'free_money.reserve_months', date='free_money.month', label='Months of reserve')]),
+        CHART('Free money per month', 'column', 'month', [AGG('sum', 'free_money', 'free_money.free_money', date='free_money.month', label='Free money')]),
+        CHART('Months of reserve per month', 'column', 'month', [AGG('sum', 'free_money', 'free_money.reserve_months', date='free_money.month', label='Months of reserve')]),
         CHART('Staff time cost by program', 'bar', 'staff_time.program', [AGG('sum', 'staff_time', 'staff_time.cost', label='Staff time cost')]),
         CHART('Staff time cost per month', 'column', 'month', [AGG('sum', 'staff_time', 'staff_time.cost', date='staff_time.month', label='Staff time cost')])]}
 assert len(insights['charts']) == 22 and len(insights['gauges']) == 6

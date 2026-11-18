@@ -242,7 +242,7 @@ insights = {"filters": [{"label": "Clinician", "list": "clin"}, {"label": "Payer
   CHART('Payer money received per month', 'column', 'month', [AGG('sum', 'monthly', 'monthly.paid', date='monthly.month', label='Payer money received')]),
   CHART('Claims submitted per month', 'column', 'month', [AGG('sum', 'monthly', 'monthly.claims_submitted', date='monthly.month', label='Claims submitted')]),
   CHART('Clean claims and claims submitted per month', 'column', 'month', [AGG('sum', 'monthly', 'monthly.clean_claims', date='monthly.month', label='Accepted first time'), AGG('sum', 'monthly', 'monthly.claims_submitted', date='monthly.month', label='Submitted')]),
-  CHART('Average days to payment per month', 'line', 'month', [AGG('avg', 'monthly', 'monthly.avg_days_to_pay', date='monthly.month', label='Days to payment')]),
+  CHART('Average days to payment per month', 'column', 'month', [AGG('avg', 'monthly', 'monthly.avg_days_to_pay', date='monthly.month', label='Days to payment')]),
   CHART('Written off per month', 'column', 'month', [AGG('sum', 'monthly', 'monthly.written_off', date='monthly.month', label='Written off')]),
   CHART('Short-paid amount per month', 'column', 'month', [AGG('sum', 'monthly', 'monthly.short_paid', date='monthly.month', label='Short-paid amount')]),
   CHART('Receipts for claim back per month', 'column', 'month', [AGG('sum', 'monthly', 'monthly.receipts', date='monthly.month', label='Receipts')]),
