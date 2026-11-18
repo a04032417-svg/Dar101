@@ -1,6 +1,6 @@
 /* Eloquens listing automation for Dar Templates (runs in the logged-in author's page). */
 (function () {
-  var DATA_URL = 'https://raw.githubusercontent.com/a04032417-svg/Dar101/refs/heads/pipeline/partners/eloq_data.json';
+  var DATA_URL = window.__ELQ_DATA || 'https://cdn.jsdelivr.net/gh/a04032417-svg/Dar101@4b339cf/partners/eloq_data.json';
   var SHOP = 'https://cdn.shopify.com/s/files/1/1007/1887/0832/files/';
   var S = window.__elq = window.__elq || { log: [] };
   function log(m) { S.log.push(new Date().toISOString().slice(11, 19) + ' ' + m); S.last = m; }
@@ -15,7 +15,7 @@
   }
   async function data() {
     if (S.data) return S.data;
-    S.data = await fetch(DATA_URL + '?t=' + Date.now()).then(function (r) { return r.json(); });
+    S.data = await fetch(DATA_URL).then(function (r) { return r.json(); });
     return S.data;
   }
   function item(d, k) { return d.filter(function (x) { return x.k === k; })[0]; }
