@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p3/images/01-hero.png",
+   "/tmp/out/p3/images/02-charts.png",
+   "/tmp/out/p3/images/03-dashboard.png",
+   "/tmp/out/p3/images/04-edroy.png",
+   "/tmp/out/p3/images/05-fees.png",
+   "/tmp/out/p3/images/06-depmonth.png",
+   "/tmp/out/p3/images/07-print.png",
+   "/tmp/out/p3/images/08-inside.png",
+   "/tmp/out/p3/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p3/Sales-and-Royalties-Ledger-English.zip",
+  "zip_sha256": "db279f7f1642169df470ed5adf7304ac7e76f74ceb407b1980d9965984ed3ac4",
+  "fxp": null,
+  "sha256": "db279f7f1642169df470ed5adf7304ac7e76f74ceb407b1980d9965984ed3ac4"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 31.3,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 108,
+   "calc_cols": 108,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 129,
+   "form_fields": 129,
+   "tool_outputs_ok": 801,
+   "tool_outputs": 801,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 96590,
+   "en-demo": 96588,
+   "en-raw": 96588
+  },
+  "job_seconds_max": 29.7,
+  "seconds_images": 17.1,
+  "zip_mb": 1.67,
+  "seconds_package": 0.6,
+  "seconds_total": 49.1
+ },
+ "at": "2026-11-18T00:24:01+00:00",
+ "id": "fx-20261115-author-publisher-p3"
+}
