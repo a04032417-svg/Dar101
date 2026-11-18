@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p3/images/01-hero.png",
+   "/tmp/out/p3/images/02-charts.png",
+   "/tmp/out/p3/images/03-dashboard.png",
+   "/tmp/out/p3/images/04-checkout.png",
+   "/tmp/out/p3/images/05-toll_match.png",
+   "/tmp/out/p3/images/06-claims.png",
+   "/tmp/out/p3/images/07-print.png",
+   "/tmp/out/p3/images/08-inside.png",
+   "/tmp/out/p3/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p3/Handover-Return-Fees-and-Damage-English.zip",
+  "zip_sha256": "cccdf1ff89dd81c46acce942b94175255f54100a0dc656b0caa4df1785f8a1cf",
+  "fxp": null,
+  "sha256": "cccdf1ff89dd81c46acce942b94175255f54100a0dc656b0caa4df1785f8a1cf"
+ },
+ "stats": {
+  "seconds_validate": 0.2,
+  "seconds_verify": 70.4,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 107,
+   "calc_cols": 107,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 155,
+   "form_fields": 155,
+   "tool_outputs_ok": 777,
+   "tool_outputs": 777,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 162251,
+   "en-demo": 162249,
+   "en-raw": 162249
+  },
+  "job_seconds_max": 66.4,
+  "seconds_images": 24.5,
+  "zip_mb": 3.1,
+  "seconds_package": 0.5,
+  "seconds_total": 95.7
+ },
+ "at": "2026-11-18T00:54:50+00:00",
+ "id": "fx-20261115-car-rental-p3"
+}
