@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-waiting.png",
+   "/tmp/out/p1/images/05-enquiries.png",
+   "/tmp/out/p1/images/06-offers.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p1/Intake-Screening-and-Waitlist-English.zip",
+  "zip_sha256": "d90cfd42ae14faa8240e8c9e94acf7485ee715b0b1b11a1ddaf9a5084c19e37c",
+  "fxp": null,
+  "sha256": "d90cfd42ae14faa8240e8c9e94acf7485ee715b0b1b11a1ddaf9a5084c19e37c"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 42.9,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 73,
+   "calc_cols": 73,
+   "monthly_nonzero_cells": 41,
+   "form_fields_filled": 145,
+   "form_fields": 145,
+   "tool_outputs_ok": 694,
+   "tool_outputs": 694,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 43,
+   "document_paragraphs": 43
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 121475,
+   "en-demo": 121473,
+   "en-raw": 121473
+  },
+  "job_seconds_max": 40.5,
+  "seconds_images": 19.2,
+  "zip_mb": 2.15,
+  "seconds_package": 0.7,
+  "seconds_total": 62.9
+ },
+ "at": "2026-11-18T00:51:39+00:00",
+ "id": "fx-20261115-therapy-practice-p1"
+}
