@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p6/images/01-hero.png",
+   "/tmp/out/p6/images/02-charts.png",
+   "/tmp/out/p6/images/03-dashboard.png",
+   "/tmp/out/p6/images/04-decisions.png",
+   "/tmp/out/p6/images/05-sincome.png",
+   "/tmp/out/p6/images/06-pnl.png",
+   "/tmp/out/p6/images/07-print.png",
+   "/tmp/out/p6/images/08-inside.png",
+   "/tmp/out/p6/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p6/Series-Title-and-Pen-Name-Performance-English.zip",
+  "zip_sha256": "fd1103d39ae7e9ab10d88dab372d638277c374c0a5035ebc8069f4262235fbcc",
+  "fxp": null,
+  "sha256": "fd1103d39ae7e9ab10d88dab372d638277c374c0a5035ebc8069f4262235fbcc"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 11.9,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 204,
+   "calc_cols": 204,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 155,
+   "form_fields": 155,
+   "tool_outputs_ok": 591,
+   "tool_outputs": 591,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 43,
+   "document_paragraphs": 43
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 22415,
+   "en-demo": 22413,
+   "en-raw": 22413
+  },
+  "job_seconds_max": 11.4,
+  "seconds_images": 14.5,
+  "zip_mb": 0.74,
+  "seconds_package": 0.3,
+  "seconds_total": 26.8
+ },
+ "at": "2026-11-18T00:42:44+00:00",
+ "id": "fx-20261115-author-publisher-p6"
+}
