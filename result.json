@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p8/images/01-hero.png",
+   "/tmp/out/p8/images/02-charts.png",
+   "/tmp/out/p8/images/03-dashboard.png",
+   "/tmp/out/p8/images/04-pnl.png",
+   "/tmp/out/p8/images/05-fixes.png",
+   "/tmp/out/p8/images/06-health.png",
+   "/tmp/out/p8/images/07-print.png",
+   "/tmp/out/p8/images/08-inside.png",
+   "/tmp/out/p8/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p8/Practice-Profit-Cash-Flow-and-Growth-English.zip",
+  "zip_sha256": "396cee77f2801eaaa79ed0e45310ed46300bf3695ba92fc4f88bd089b071c4b0",
+  "fxp": null,
+  "sha256": "396cee77f2801eaaa79ed0e45310ed46300bf3695ba92fc4f88bd089b071c4b0"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 22.7,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 155,
+   "calc_cols": 155,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 131,
+   "form_fields": 131,
+   "tool_outputs_ok": 848,
+   "tool_outputs": 848,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 43,
+   "document_paragraphs": 43
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 32879,
+   "en-demo": 32877,
+   "en-raw": 32877
+  },
+  "job_seconds_max": 21.6,
+  "seconds_images": 18.0,
+  "zip_mb": 1.02,
+  "seconds_package": 0.7,
+  "seconds_total": 41.4
+ },
+ "at": "2026-11-18T01:00:12+00:00",
+ "id": "fx-20261115-therapy-practice-p8"
+}
