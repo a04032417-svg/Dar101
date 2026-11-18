@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p7/images/01-hero.png",
+   "/tmp/out/p7/images/02-charts.png",
+   "/tmp/out/p7/images/03-dashboard.png",
+   "/tmp/out/p7/images/04-camp_cal.png",
+   "/tmp/out/p7/images/05-families.png",
+   "/tmp/out/p7/images/06-obs_status.png",
+   "/tmp/out/p7/images/07-print.png",
+   "/tmp/out/p7/images/08-inside.png",
+   "/tmp/out/p7/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p7/Families-Programs-and-Camps-English.zip",
+  "zip_sha256": "65558e432485c7096319ef03501fafafd3dfc9d190628d53b6bec4200dbd21ab",
+  "fxp": null,
+  "sha256": "65558e432485c7096319ef03501fafafd3dfc9d190628d53b6bec4200dbd21ab"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 21.9,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 138,
+   "calc_cols": 138,
+   "monthly_nonzero_cells": 18,
+   "form_fields_filled": 111,
+   "form_fields": 111,
+   "tool_outputs_ok": 785,
+   "tool_outputs": 785,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 36,
+   "document_paragraphs": 36
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 63682,
+   "en-demo": 63680,
+   "en-raw": 63680
+  },
+  "job_seconds_max": 20.8,
+  "seconds_images": 15.2,
+  "zip_mb": 1.35,
+  "seconds_package": 0.4,
+  "seconds_total": 37.5
+ },
+ "at": "2026-11-18T01:38:59+00:00",
+ "id": "fx-20261115-childcare-center-p7"
+}
