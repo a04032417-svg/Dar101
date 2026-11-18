@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-completeness.png",
+   "/tmp/out/p1/images/05-coverage.png",
+   "/tmp/out/p1/images/06-reading.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p1/Catalogue-Series-Plan-and-Releases-English.zip",
+  "zip_sha256": "7c93a14fcdf05cc5a0b2c9fcf5ee080c2519ad4bcbb7b65944685674cd6bddaf",
+  "fxp": null,
+  "sha256": "7c93a14fcdf05cc5a0b2c9fcf5ee080c2519ad4bcbb7b65944685674cd6bddaf"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 12.4,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 140,
+   "calc_cols": 140,
+   "monthly_nonzero_cells": 8,
+   "form_fields_filled": 128,
+   "form_fields": 128,
+   "tool_outputs_ok": 636,
+   "tool_outputs": 636,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 20759,
+   "en-demo": 20757,
+   "en-raw": 20757
+  },
+  "job_seconds_max": 11.9,
+  "seconds_images": 14.1,
+  "zip_mb": 0.7,
+  "seconds_package": 0.4,
+  "seconds_total": 26.9
+ },
+ "at": "2026-11-18T00:16:51+00:00",
+ "id": "fx-20261115-author-publisher-p1"
+}
