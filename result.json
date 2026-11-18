@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p4/images/01-hero.png",
+   "/tmp/out/p4/images/02-charts.png",
+   "/tmp/out/p4/images/03-dashboard.png",
+   "/tmp/out/p4/images/04-ledger.png",
+   "/tmp/out/p4/images/05-adsmonth.png",
+   "/tmp/out/p4/images/06-promoresults.png",
+   "/tmp/out/p4/images/07-print.png",
+   "/tmp/out/p4/images/08-inside.png",
+   "/tmp/out/p4/images/09-more.png"
+  ],
+  "images_i18n": {},
+  "zip": "/tmp/out/p4/Ads-and-Price-Promotions-English.zip",
+  "zip_sha256": "fe8b7fc5cccd6063dd8744b43f8419f52d0c302eddad743c1b1453cc6ca9588c",
+  "fxp": null,
+  "sha256": "fe8b7fc5cccd6063dd8744b43f8419f52d0c302eddad743c1b1453cc6ca9588c"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 23.7,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 187,
+   "calc_cols": 187,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 142,
+   "form_fields": 142,
+   "tool_outputs_ok": 1039,
+   "tool_outputs": 1039,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {},
+  "today": "2026-11-18",
+  "formulas": {
+   "en": 57172,
+   "en-demo": 57170,
+   "en-raw": 57170
+  },
+  "job_seconds_max": 22.6,
+  "seconds_images": 14.9,
+  "zip_mb": 1.12,
+  "seconds_package": 0.3,
+  "seconds_total": 39.0
+ },
+ "at": "2026-11-18T00:16:34+00:00",
+ "id": "fx-20261115-author-publisher-p4"
+}
