@@ -361,3 +361,7 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - Joined, not posted yet: Daycare Directors/Owners (1151643492055096), New Owner Operators (249914393010660), Beginners wedding photography (2057903534654504), Therapists Growing Together (2154556018405446: "no unsolicited promotions" -> do not post).
 - Skipped: Cleaning Business Owners 15K (run by Qleno, vendors not admitted).
 - Lesson: in comments, Enter posts; never type "\n" in a comment box. In group composer, focus the contenteditable via JS before typing (one time the click missed and typing hit FB shortcuts; single-char shortcuts are off, nothing happened).
+- 2026-11-19 ~04:50 Riyadh: +1 post New Owner Operators (live). Joined OWNER OPERATORS (122K), Owner Operators and Truck Drivers (39K), Box Trucks business-help (25K) — not posted yet. Free niche calculators exist for hooks: cake-pricing, trucking-cost-per-mile, hvac-plumbing-flat-rate, photography-pricing, therapist-session-fee, contractor-bid-markup, daycare-rate, cleaning-quote.
+- [VERIFIED] FB sessions 24h: 27, bounce 100% (Buy now leaves to Whop). Trucking post -> 4 sessions on trucking product. Whop BF50 promo active, product=null (all), uses 0.
+- Claude in Chrome then disconnected ("extension not connected"; owner on mobile). GitHub MCP cannot fork or open issues on other repos (403 integration). Gumroad via AnythingMCP = paid trial ended -> skipped.
+- Sales: Whop 0, Shopify 0.
