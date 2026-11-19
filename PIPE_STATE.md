@@ -386,3 +386,7 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - Joined, no composer (Page cannot post): USA Cleaning Business Owners. Pending membership: Micro-bakery/Farmstand/CottageFood 134K (private).
 - Skipped by rules: COTTAGE FOOD BUSINESS 205K (not a marketplace), Airbnb Cleaners Community (no promotions), Cleaning Service USA (client-facing), Minnesota Cottage Food (MN makers only), Private Pay Care Agency Network (promos need approval), Home Health Care Agency Owners & Entrepreneurs (no promotions), DAYCARE business owners 18.5K and How to START/GROW Daycare 13.3K (no promotions).
 - Sales: Whop 0, Shopify 0.
+- 2026-11-20 ~02:45-03:30 Riyadh: Turo/car rental: TURO talks 509702524612988 (5.5K, one-car math + car-rental-profit-calculator, live), Turo Car Hosting in California 1038943520243691 (3.4K, Car A vs Car B, live), Turo Hosts and Car rental Owners in USA (fleethq, 1.2K, after-trip checks, posted). Authors: Self Published Authors 239731050716074 (32.9K, ebook ad break-even + book-royalty-calculator, live), Indie Self-publishing 1386186001441988 (11.2K, paperback vs ebook, live).
+- [VERIFIED] Sessions last 3h: 42 (car rental calc 4 + product 3, author product 3 + calc 2, bakery 4+3, home care 3+3, photography calc 3, STR 3). Trucking posts: no sessions yet.
+- Skipped: Authors Supporting Authors (participant questions require following the admin page), Turo Orlando (services only in comments), Turo Florida (no promotions), small/dead city Turo groups.
+- Sales: Whop 0, Shopify 0.
