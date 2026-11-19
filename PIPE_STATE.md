@@ -399,3 +399,9 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - [VERIFIED] Merchant Center (free listings): 432 offers = 300 approved, 63 limited, 9 not approved, 60 under review; clicks 0 in 28 days (no click data yet). Shopify product category is already Software > Digital Goods & Currency > Document Templates (Google's "Books" suggestion is its own inference; nothing changed).
 - [VERIFIED] Our group posts show no reactions/comments; trucking and Turo groups are flooded with dispatcher/vendor posts. Whop checkout page for the bakery plan loads fine with "Add promo code".
 - Sales: Whop 0, Shopify 0.
+- 2026-11-20 02:25 Riyadh: owner again «لا تكرر الإرسال قبل أن يأتي مشتري - هذا آخر إنذار». My previous turn ended with an English line — must not happen: no status lines, no English, no turn endings that look like reports. Background wait (sleep) stopped so it does not re-invoke and send another message.
+- NEXT (when work resumes, US Friday = from 08:00 Riyadh Fri until 08:00 Sat; Cleaners Connect also Saturday):
+  1) "How Much Should I Charge For This Cake?" 1588412931764776: one promo post with #PromotionFriday (cake-pricing-calculator + bakery product, BF50).
+  2) Cleaners Connect 1773536586898519: Friday/Saturday self-promo post (cleaning-quote-calculator + cleaning product); also reply to commenters on our pending no-link question if approved.
+  3) Keep sales checks (Whop payments_list biz_EPdES7EEpWl9qp; Shopify list-orders). Only message the owner (Arabic, brief) after a verified real sale.
+- Evidence so far says link posts in groups bring no human clicks; prefer promo-day threads, replies to real questions, and Google free listings (300 approved) over more cold group posts.
