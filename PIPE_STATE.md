@@ -374,3 +374,7 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - Skipped by rules: Chicago Friendly Landlord Group (no ads), Restaurant Owners and Managers (no self-promo), Home Care Business Owners Tools (no promotions), Lash Tech Help Group (lash techs only).
 - Joined for later: UK Property Investors (SWUKPropertyInvestors), Cottage Food Bakers 3298061400548...(check), Roofing Contractors and Companies.
 - Sessions 24h: STR post -> 3 product + 2 calculator sessions. Sales: Whop 0, Shopify 0.
+- 2026-11-20 ~00:50-01:25 Riyadh posts (Page, all live): Cottage Food Bakers 329806140054817 (December planning + cake calculator), how to start a candle business (startingacandlebusiness; candle cost + handmade-pricing-calculator), The Doula Group (theDoula; package per hour + doula-package-price-calculator), Roofing Contractors and Companies (roofingcontractorsandcompanies; job margin + contractor calc).
+- Skipped by rules: UK Property Investors SW (no self-promo), Gym/Personal trainers growth group (no self-promo). Event planner groups mostly PH/IN, skipped.
+- Joined for later: Make and sell Candles, Candle Making! Tips (526K), Homemade candles (49K).
+- [VERIFIED] Shopify sessions last 3h: 28, all on the posted niches (bakery 7, home care 6, STR 5, photography 3, contractor 3, doula 2, handmade 2). Sales: Whop 0, Shopify 0.
