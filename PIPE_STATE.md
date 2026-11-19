@@ -370,3 +370,7 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - Skipped by rules: Owner Operators and Truck Drivers (no promotions), Box Trucks business-help (invite-300 junk), Women General Contractors (women GCs only).
 - Free niche calculator pages to use as hooks also include: airbnb-vs-long-term-rental, rent-increase, property-management-fee, food-cost, etsy-fee-profit, beauty-service-profit, booth-rent-vs-commission, personal-trainer-rate, home-care-bill-rate.
 - Sales: Whop 0, Shopify 0.
+- 2026-11-20 ~00:15-00:50 Riyadh posts (Page): NYC Landlords 896513224132729 (3 Monday lists + rent-increase-calculator, live), Landlords Investors and Developers UK (investorsanddevelopers, investor suite post, live), HOME CARE BUSINESS OWNERS 2156388261379184 (74K, client margin + home-care-bill-rate-calculator, live), START A HOME CARE AGENCY 3418619368390863 (bill rate post, live), Food truck & Trailers for Newbies 269311841821742 (food-cost post, pending approval), Airbnb Host USA 243505615065555 (rates review post, live).
+- Skipped by rules: Chicago Friendly Landlord Group (no ads), Restaurant Owners and Managers (no self-promo), Home Care Business Owners Tools (no promotions), Lash Tech Help Group (lash techs only).
+- Joined for later: UK Property Investors (SWUKPropertyInvestors), Cottage Food Bakers 3298061400548...(check), Roofing Contractors and Companies.
+- Sessions 24h: STR post -> 3 product + 2 calculator sessions. Sales: Whop 0, Shopify 0.
