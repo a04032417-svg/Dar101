@@ -378,3 +378,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - Skipped by rules: UK Property Investors SW (no self-promo), Gym/Personal trainers growth group (no self-promo). Event planner groups mostly PH/IN, skipped.
 - Joined for later: Make and sell Candles, Candle Making! Tips (526K), Homemade candles (49K).
 - [VERIFIED] Shopify sessions last 3h: 28, all on the posted niches (bakery 7, home care 6, STR 5, photography 3, contractor 3, doula 2, handmade 2). Sales: Whop 0, Shopify 0.
+- 2026-11-20 ~01:25-01:50 Riyadh posts: Make and sell Candles 1048065726078623 (fair break-even, live), Homemade candles 1171389129951998 (wholesale margin, pending approval), Bookkeepers Helping Bookkeepers 1753756208440623 (repricing + bookkeeping-pricing-calculator, live). Skipped: Candle Making! Tips 526K (promos need admin approval), soap groups (mostly non-US). Sales 0.
