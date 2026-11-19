@@ -390,3 +390,7 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - [VERIFIED] Sessions last 3h: 42 (car rental calc 4 + product 3, author product 3 + calc 2, bakery 4+3, home care 3+3, photography calc 3, STR 3). Trucking posts: no sessions yet.
 - Skipped: Authors Supporting Authors (participant questions require following the admin page), Turo Orlando (services only in comments), Turo Florida (no promotions), small/dead city Turo groups.
 - Sales: Whop 0, Shopify 0.
+- (Clock note: the times in the last entries were estimates; real clock at this entry is ~2026-11-20 02:05 Riyadh = 18:05 US Eastern Thu.)
+- More Page posts: Amazon KDP: Publishing Success For Authors 2067416627400348 (7.7K, series read-through math, live), Event Planners, Party Decorators + Creative Business Owners (ten23designs, 12.1K, planner fee + event-planner-fee-calculator, posted), Salon business owner only 5054200361357303 (3K, booth rent vs commission + calculator, live), Real Estate Investors of America 53818560398 (9.5K, rental cash flow + rental-property-cash-flow-calculator, posted), Real Estate Investing 1025377980867673 (1.5K, break-even rent, likely pending).
+- Skipped: Amazon KDP Self Publishing - Guide (no promotions), USA Real Estate Investors 105K (self-promo needs approval), most salon/photography search results (non-US or job/hobby groups).
+- Sales: Whop 0, Shopify 0.
