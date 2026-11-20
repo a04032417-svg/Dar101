@@ -479,3 +479,5 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
   - [VERIFIED] Cleaners Connect 1773536586898519 (88K; rule: "FRIDAY and SATURDAYS ARE FOR SELF-PROMOTIONS ONLY"): self-promo Friday post (quote method + cleaning-quote-offer.png + product link + BF50) -> "Pending admin approval".
   - [VERIFIED] How Much Should I Charge For This Cake? 1588412931764776: joined as personal profile (instant), #PromotionFriday post (true-cost method + cake-price-offer.png + product link + BF50) -> in my_pending_content.
   - Cleaning Business Owners Australia 787696872811812: does not allow Pages; self-promo only in a designated thread.
+- [VERIFIED] ~09:55 Riyadh: The Landlord's Group 897718222980148 (29.8K, no rules; personal profile): rental return worked example + /mnt/user-data/uploads/offer/rental-cashflow-offer.png + real-estate-investor product link + BF50 -> LIVE. Join request sent (personal) to Cleaning Business Owners Australia 787696872811812.
+- Offer images (no calculator link, product + BF50 footer) in /mnt/user-data/uploads/offer/: daycare, homecare, str, beauty, handmade, trucking, contractor, event, rental-cashflow.
