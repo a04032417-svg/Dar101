@@ -523,3 +523,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - Temporary crons LThQZqDa8f and bghlJRMiOJ deleted; protected crons untouched.
 - Site check from the server: dar.ink 200, /app/ 200, dar-sync ping 200; main cron green, v3.34.18.
 - Card at signup still ON (billing.checkout_first unset, Whop ready) — not changed (not asked this turn).
+- 2026-11-20 22:10: owner asked «اجعل التجربة لا تتطلب ادخال بطاقة» → t/tc.php set billing.checkout_first=false (backup kv `bak:nocard:billing`). Check: trial_checkout_first_on()=false; simulated office/basic signup → no checkout, status trial, 5 days. 2 older accounts still suspended card_needed (not touched). Cron uwbs43jHEr deleted; main cron green.
