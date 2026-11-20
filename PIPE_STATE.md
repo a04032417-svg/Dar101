@@ -435,3 +435,4 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - Posted (Page): Interior Designer's Business Lounge 186726848696217 (9.3K, rules: self-promo welcome, 1 promo post/24h, moderated; Page participation pending) — interior design system post with BF50 + product link (submitted, likely pending).
 - [VERIFIED] TPT basic seller now has a one-time $29 fee (edubracket, read 2026-10-19) -> not free. Etsy: $0.20/listing + setup fee $15-29 (unverified for KSA) -> owner declined.
 - Previous rule check correction: Restaurant Owners and Managers = no self-promo (log line 374). Pinterest analytics 30d: still no data.
+- 2026-11-20 ~05:10 Riyadh: owner: Whop card spends instantly; «لا تتوقف إلا بمشتري». Merchant Center summary: product clicks 0, no sale-price suggestions. Big "Black Friday deals" FB group (63.7K) = no promotions; small deal groups (1.1K) are spam-only. Prepared AirBnB vendor-thread comment (work/fri/texts.md).
