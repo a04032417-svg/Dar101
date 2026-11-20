@@ -475,3 +475,7 @@ pet grooming / pet sitting and dog walking (shops 414-871 sales, weak); home car
 - Cake group 1588412931764776: the Page has NO composer there ("Write something" missing) -> cannot post as Page.
 - Rules checked: Australian small business network (aussbn, Australian businesses only), Australian Business Owners (no promotions), UK Small Business Owners (ads via admin only), UK Small Business Market 121K (UK businesses + "No AI content") -> skipped.
 - [VERIFIED] Posted LIVE (Page) in Cleaning Business UK (Help&Advice) 918693848728665 (7.3K, UK cleaning business owners, no rules, joined instantly): quote method + cleaning-quote-offer.png + product link + BF50. Note: typing "?" before the editor has focus opens FB keyboard shortcuts and drops text.
+- 2026-11-20 ~09:35-09:50 Riyadh: personal profile is named "ـدار ـدار" (not the owner's real name) -> usable where Pages are not allowed. Switched to it (account menu "Switch to ـدار ـدار").
+  - [VERIFIED] Cleaners Connect 1773536586898519 (88K; rule: "FRIDAY and SATURDAYS ARE FOR SELF-PROMOTIONS ONLY"): self-promo Friday post (quote method + cleaning-quote-offer.png + product link + BF50) -> "Pending admin approval".
+  - [VERIFIED] How Much Should I Charge For This Cake? 1588412931764776: joined as personal profile (instant), #PromotionFriday post (true-cost method + cake-price-offer.png + product link + BF50) -> in my_pending_content.
+  - Cleaning Business Owners Australia 787696872811812: does not allow Pages; self-promo only in a designated thread.
