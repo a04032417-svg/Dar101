@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p8/images/01-hero.png",
+   "/tmp/out/p8/images/02-charts.png",
+   "/tmp/out/p8/images/03-dashboard.png",
+   "/tmp/out/p8/images/04-tax_docs.png",
+   "/tmp/out/p8/images/05-car_decision.png",
+   "/tmp/out/p8/images/06-rb_compare.png",
+   "/tmp/out/p8/images/07-print.png",
+   "/tmp/out/p8/images/08-inside.png",
+   "/tmp/out/p8/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p8/images/ar/01-hero.png",
+    "/tmp/out/p8/images/ar/02-charts.png",
+    "/tmp/out/p8/images/ar/03-dashboard.png",
+    "/tmp/out/p8/images/ar/04-tax_docs.png",
+    "/tmp/out/p8/images/ar/05-car_decision.png",
+    "/tmp/out/p8/images/ar/06-rb_compare.png",
+    "/tmp/out/p8/images/ar/07-print.png",
+    "/tmp/out/p8/images/ar/08-inside.png",
+    "/tmp/out/p8/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p8/Big-Purchases-Tax-and-Year-Review-English-Arabic.zip",
+  "zip_sha256": "470be6ab93bf9d02af41d9e47c41c5cc4085dbf2ed8ac2eb08ae69329e03d28c",
+  "fxp": null,
+  "sha256": "470be6ab93bf9d02af41d9e47c41c5cc4085dbf2ed8ac2eb08ae69329e03d28c"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 21.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 179,
+   "calc_cols": 179,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 125,
+   "form_fields": 125,
+   "tool_outputs_ok": 521,
+   "tool_outputs": 521,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 4956,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 17189,
+   "ar-demo": 17187,
+   "en": 17189,
+   "en-demo": 17187,
+   "en-raw": 17187
+  },
+  "job_seconds_max": 12.7,
+  "seconds_images": 26.1,
+  "zip_mb": 1.37,
+  "seconds_package": 0.3,
+  "seconds_total": 48.1
+ },
+ "at": "2026-11-21T18:40:24+00:00",
+ "id": "fx-20261116-household-finance-p8"
+}
