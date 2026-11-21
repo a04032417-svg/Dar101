@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p2/images/01-hero.png",
+   "/tmp/out/p2/images/02-charts.png",
+   "/tmp/out/p2/images/03-dashboard.png",
+   "/tmp/out/p2/images/04-price_book.png",
+   "/tmp/out/p2/images/05-estimates.png",
+   "/tmp/out/p2/images/06-close_tech.png",
+   "/tmp/out/p2/images/07-print.png",
+   "/tmp/out/p2/images/08-inside.png",
+   "/tmp/out/p2/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p2/images/ar/01-hero.png",
+    "/tmp/out/p2/images/ar/02-charts.png",
+    "/tmp/out/p2/images/ar/03-dashboard.png",
+    "/tmp/out/p2/images/ar/04-price_book.png",
+    "/tmp/out/p2/images/ar/05-estimates.png",
+    "/tmp/out/p2/images/ar/06-close_tech.png",
+    "/tmp/out/p2/images/ar/07-print.png",
+    "/tmp/out/p2/images/ar/08-inside.png",
+    "/tmp/out/p2/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p2/Price-Book-Estimates-and-Options-English-Arabic.zip",
+  "zip_sha256": "7d285b0f39ff0143e1bb38ebc20fa865f43ef5ac2c5684ef9483ba4a27d4aaec",
+  "fxp": null,
+  "sha256": "7d285b0f39ff0143e1bb38ebc20fa865f43ef5ac2c5684ef9483ba4a27d4aaec"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 61.7,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 161,
+   "calc_cols": 161,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 114,
+   "form_fields": 114,
+   "tool_outputs_ok": 643,
+   "tool_outputs": 643,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 37,
+   "document_paragraphs": 37
+  },
+  "compare": {
+   "ar": {
+    "compared": 28144,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 98687,
+   "ar-demo": 98685,
+   "en": 98687,
+   "en-demo": 98685,
+   "en-raw": 98685
+  },
+  "job_seconds_max": 32.4,
+  "seconds_images": 31.1,
+  "zip_mb": 3.56,
+  "seconds_package": 0.4,
+  "seconds_total": 93.3
+ },
+ "at": "2026-11-21T23:35:14+00:00",
+ "id": "fx-20261115-hvac-plumbing-p2"
+}
