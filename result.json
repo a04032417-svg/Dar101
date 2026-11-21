@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p8/images/01-hero.png",
+   "/tmp/out/p8/images/02-charts.png",
+   "/tmp/out/p8/images/03-dashboard.png",
+   "/tmp/out/p8/images/04-forecast.png",
+   "/tmp/out/p8/images/05-pnl.png",
+   "/tmp/out/p8/images/06-expvar.png",
+   "/tmp/out/p8/images/07-print.png",
+   "/tmp/out/p8/images/08-inside.png",
+   "/tmp/out/p8/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p8/images/ar/01-hero.png",
+    "/tmp/out/p8/images/ar/02-charts.png",
+    "/tmp/out/p8/images/ar/03-dashboard.png",
+    "/tmp/out/p8/images/ar/04-forecast.png",
+    "/tmp/out/p8/images/ar/05-pnl.png",
+    "/tmp/out/p8/images/ar/06-expvar.png",
+    "/tmp/out/p8/images/ar/07-print.png",
+    "/tmp/out/p8/images/ar/08-inside.png",
+    "/tmp/out/p8/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p8/Money-Owner-Pay-and-Renewals-English-Arabic.zip",
+  "zip_sha256": "ac8f8bf38cc6a5d570bf87b6dab325980b76f4c231f860f4606f96f16c9d7a50",
+  "fxp": null,
+  "sha256": "ac8f8bf38cc6a5d570bf87b6dab325980b76f4c231f860f4606f96f16c9d7a50"
+ },
+ "stats": {
+  "seconds_validate": 0.2,
+  "seconds_verify": 59.1,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 211,
+   "calc_cols": 211,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 145,
+   "form_fields": 145,
+   "tool_outputs_ok": 749,
+   "tool_outputs": 749,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 15686,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 50050,
+   "ar-demo": 50048,
+   "en": 50050,
+   "en-demo": 50048,
+   "en-raw": 50048
+  },
+  "job_seconds_max": 34.3,
+  "seconds_images": 35.9,
+  "zip_mb": 2.37,
+  "seconds_package": 0.7,
+  "seconds_total": 96.0
+ },
+ "at": "2026-11-21T23:46:48+00:00",
+ "id": "fx-20261115-doula-business-p8"
+}
