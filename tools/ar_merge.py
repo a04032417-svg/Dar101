@@ -61,7 +61,11 @@ def main():
     types = {(t['key'], c['key']): c['type'] for t in spec['tables'] for c in t['columns']}
     for t in spec['tables']:
         for c in t['columns']:
-            for m in re.finditer(r'\{range:(\w+)\.(\w+)\}\s*[<>]=?\s*\{col:(\w+)\}', c.get('formula') or ''):
+            f = c.get('formula') or ''
+            for m in re.finditer(r'\{range:(\w+)\.(\w+)\}\s*,\s*"[<>]=?"\s*&\s*\{(?:col|in):(\w+)\}', f):   # COUNTIFS(range,"<"&label)
+                if types.get((m.group(1), m.group(2))) == 'list':
+                    errs.append(f'order by translated labels in {t["key"]}.{c["key"]}: {m.group(0)} -> order by a position column (PIPELINE.md section 6, step 4b)')
+            for m in re.finditer(r'\{range:(\w+)\.(\w+)\}\s*[<>]=?\s*\{col:(\w+)\}', f):
                 if types.get((m.group(1), m.group(2))) == 'list':
                     errs.append(f'tie-break on translated labels in {t["key"]}.{c["key"]}: {m.group(0)} -> compare an ID column or a MATCH position (PIPELINE.md section 6, step 4b)')
     if not errs and not only_check:
