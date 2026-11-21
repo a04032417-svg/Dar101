@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p4/images/01-hero.png",
+   "/tmp/out/p4/images/02-charts.png",
+   "/tmp/out/p4/images/03-dashboard.png",
+   "/tmp/out/p4/images/04-snow_order.png",
+   "/tmp/out/p4/images/05-aval_order.png",
+   "/tmp/out/p4/images/06-windfall.png",
+   "/tmp/out/p4/images/07-print.png",
+   "/tmp/out/p4/images/08-inside.png",
+   "/tmp/out/p4/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p4/images/ar/01-hero.png",
+    "/tmp/out/p4/images/ar/02-charts.png",
+    "/tmp/out/p4/images/ar/03-dashboard.png",
+    "/tmp/out/p4/images/ar/04-snow_order.png",
+    "/tmp/out/p4/images/ar/05-aval_order.png",
+    "/tmp/out/p4/images/ar/06-windfall.png",
+    "/tmp/out/p4/images/ar/07-print.png",
+    "/tmp/out/p4/images/ar/08-inside.png",
+    "/tmp/out/p4/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p4/Debt-Payoff-Planner-English-Arabic.zip",
+  "zip_sha256": "4e5060e0b58d027dcde8cce0ce7c59214a14bbceb911d44cc3357c38f95a020d",
+  "fxp": null,
+  "sha256": "4e5060e0b58d027dcde8cce0ce7c59214a14bbceb911d44cc3357c38f95a020d"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 25.1,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 312,
+   "calc_cols": 312,
+   "monthly_nonzero_cells": 32,
+   "form_fields_filled": 140,
+   "form_fields": 140,
+   "tool_outputs_ok": 482,
+   "tool_outputs": 482,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 7152,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 26979,
+   "ar-demo": 26977,
+   "en": 26979,
+   "en-demo": 26977,
+   "en-raw": 26977
+  },
+  "job_seconds_max": 14.5,
+  "seconds_images": 25.9,
+  "zip_mb": 1.74,
+  "seconds_package": 0.4,
+  "seconds_total": 51.5
+ },
+ "at": "2026-11-21T18:32:00+00:00",
+ "id": "fx-20261116-household-finance-p4"
+}
