@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-schedule.png",
+   "/tmp/out/p1/images/05-budget.png",
+   "/tmp/out/p1/images/06-cash.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p1/images/ar/01-hero.png",
+    "/tmp/out/p1/images/ar/02-charts.png",
+    "/tmp/out/p1/images/ar/03-dashboard.png",
+    "/tmp/out/p1/images/ar/04-schedule.png",
+    "/tmp/out/p1/images/ar/05-budget.png",
+    "/tmp/out/p1/images/ar/06-cash.png",
+    "/tmp/out/p1/images/ar/07-print.png",
+    "/tmp/out/p1/images/ar/08-inside.png",
+    "/tmp/out/p1/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p1/Budget-Payments-and-Cash-Plan-English-Arabic.zip",
+  "zip_sha256": "f5ef2441913a62698fcfe20baba498eebaebc410024a0c3aaac311e1c6bb2a54",
+  "fxp": null,
+  "sha256": "f5ef2441913a62698fcfe20baba498eebaebc410024a0c3aaac311e1c6bb2a54"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 22.4,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 145,
+   "calc_cols": 145,
+   "monthly_nonzero_cells": 28,
+   "form_fields_filled": 88,
+   "form_fields": 88,
+   "tool_outputs_ok": 554,
+   "tool_outputs": 554,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 36,
+   "document_paragraphs": 36
+  },
+  "compare": {
+   "ar": {
+    "compared": 3447,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 20865,
+   "ar-demo": 20863,
+   "en": 20865,
+   "en-demo": 20863,
+   "en-raw": 20863
+  },
+  "job_seconds_max": 13.2,
+  "seconds_images": 26.7,
+  "zip_mb": 1.39,
+  "seconds_package": 0.3,
+  "seconds_total": 49.4
+ },
+ "at": "2026-11-21T13:27:54+00:00",
+ "id": "fx-20261116-wedding-p1"
+}
