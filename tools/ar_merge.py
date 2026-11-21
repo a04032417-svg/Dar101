@@ -30,7 +30,8 @@ def main():
     for t in todo:
         en = t['en']; v = ar.get(en)
         if not isinstance(v, str) or not v.strip(): errs.append(f'missing: {en[:70]!r} ({t["where"]})'); continue
-        if sorted(ANY_PH.findall(en)) != sorted(ANY_PH.findall(v)): errs.append(f'placeholders differ: {en[:50]!r} needs {sorted(ANY_PH.findall(en))}, got {sorted(ANY_PH.findall(v))}')
+        # (the engine's own hint 'words in {braces}' is plain text, not a placeholder)
+        if not t['where'].startswith('engine/') and sorted(ANY_PH.findall(en)) != sorted(ANY_PH.findall(v)): errs.append(f'placeholders differ: {en[:50]!r} needs {sorted(ANY_PH.findall(en))}, got {sorted(ANY_PH.findall(v))}')
         if v.lstrip().startswith('='): errs.append(f'starts with "=": {v[:40]!r}')
         if t.get('max') and len(v) > t['max']: errs.append(f'too long ({len(v)} > {t["max"]}): {v!r} ({t["where"]})')
         if t['kind'] == 'sheet' and re.search(r'[\[\]:*?/\\]', v): errs.append(f'sheet name with [ ] : * ? / \\: {v!r}')
