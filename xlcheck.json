@@ -1,0 +1,46 @@
+{
+ "files": 4,
+ "formulas": 103572,
+ "problems": 0,
+ "warnings": 10,
+ "by_file": {
+  "Documents-Contacts-and-Renewals-English-Arabic.zip/Documents-Contacts-and-Renewals_EN.xlsx": {
+   "lang": "en",
+   "formulas": 25894,
+   "problems": [],
+   "warnings": [
+    "functions: MAXIFS needs Excel 2019 or later",
+    "functions: MINIFS needs Excel 2019 or later"
+   ]
+  },
+  "Documents-Contacts-and-Renewals-English-Arabic.zip/Documents-Contacts-and-Renewals_AR.xlsx": {
+   "lang": "ar",
+   "formulas": 25894,
+   "problems": [],
+   "warnings": [
+    "functions: MAXIFS needs Excel 2019 or later",
+    "functions: MINIFS needs Excel 2019 or later",
+    "language: 1 text cell(s) still in English, e.g. 1:C31"
+   ]
+  },
+  "Documents-Contacts-and-Renewals-English-Arabic.zip/Documents-Contacts-and-Renewals_EN_DEMO-sample-data.xlsx": {
+   "lang": "en",
+   "formulas": 25892,
+   "problems": [],
+   "warnings": [
+    "functions: MAXIFS needs Excel 2019 or later",
+    "functions: MINIFS needs Excel 2019 or later"
+   ]
+  },
+  "Documents-Contacts-and-Renewals-English-Arabic.zip/Documents-Contacts-and-Renewals_AR_DEMO-sample-data.xlsx": {
+   "lang": "ar",
+   "formulas": 25892,
+   "problems": [],
+   "warnings": [
+    "functions: MAXIFS needs Excel 2019 or later",
+    "functions: MINIFS needs Excel 2019 or later",
+    "language: 602 text cell(s) still in English, e.g. 1:C31, 4:B5, 4:D5, 4:G5, 4:I5, 4:B6"
+   ]
+  }
+ }
+}

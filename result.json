@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p7/images/01-hero.png",
+   "/tmp/out/p7/images/02-charts.png",
+   "/tmp/out/p7/images/03-dashboard.png",
+   "/tmp/out/p7/images/04-documents.png",
+   "/tmp/out/p7/images/05-board.png",
+   "/tmp/out/p7/images/06-renew_month.png",
+   "/tmp/out/p7/images/07-print.png",
+   "/tmp/out/p7/images/08-inside.png",
+   "/tmp/out/p7/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p7/images/ar/01-hero.png",
+    "/tmp/out/p7/images/ar/02-charts.png",
+    "/tmp/out/p7/images/ar/03-dashboard.png",
+    "/tmp/out/p7/images/ar/04-documents.png",
+    "/tmp/out/p7/images/ar/05-board.png",
+    "/tmp/out/p7/images/ar/06-renew_month.png",
+    "/tmp/out/p7/images/ar/07-print.png",
+    "/tmp/out/p7/images/ar/08-inside.png",
+    "/tmp/out/p7/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p7/Documents-Contacts-and-Renewals-English-Arabic.zip",
+  "zip_sha256": "7b1d5c1cd5050d4df95a34795a93fb860f9252202091cc6bb3d1e238dd4540fe",
+  "fxp": null,
+  "sha256": "7b1d5c1cd5050d4df95a34795a93fb860f9252202091cc6bb3d1e238dd4540fe"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 36.5,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 183,
+   "calc_cols": 183,
+   "monthly_nonzero_cells": 11,
+   "form_fields_filled": 121,
+   "form_fields": 121,
+   "tool_outputs_ok": 686,
+   "tool_outputs": 686,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 4099,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 25894,
+   "ar-demo": 25892,
+   "en": 25894,
+   "en-demo": 25892,
+   "en-raw": 25892
+  },
+  "job_seconds_max": 21.0,
+  "seconds_images": 29.4,
+  "zip_mb": 1.56,
+  "seconds_package": 0.8,
+  "seconds_total": 66.8
+ },
+ "at": "2026-11-21T18:21:38+00:00",
+ "id": "fx-20261118-home-management-p7"
+}
