@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p3/images/01-hero.png",
+   "/tmp/out/p3/images/02-charts.png",
+   "/tmp/out/p3/images/03-dashboard.png",
+   "/tmp/out/p3/images/04-margin_jt.png",
+   "/tmp/out/p3/images/05-costing.png",
+   "/tmp/out/p3/images/06-tick_month.png",
+   "/tmp/out/p3/images/07-print.png",
+   "/tmp/out/p3/images/08-inside.png",
+   "/tmp/out/p3/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p3/images/ar/01-hero.png",
+    "/tmp/out/p3/images/ar/02-charts.png",
+    "/tmp/out/p3/images/ar/03-dashboard.png",
+    "/tmp/out/p3/images/ar/04-margin_jt.png",
+    "/tmp/out/p3/images/ar/05-costing.png",
+    "/tmp/out/p3/images/ar/06-tick_month.png",
+    "/tmp/out/p3/images/ar/07-print.png",
+    "/tmp/out/p3/images/ar/08-inside.png",
+    "/tmp/out/p3/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p3/Job-Costing-Margin-and-Callbacks-English-Arabic.zip",
+  "zip_sha256": "6f176b9394d79f8905e6984e32c1b961aeef335b6a2d86f6c46175bf5b364e7e",
+  "fxp": null,
+  "sha256": "6f176b9394d79f8905e6984e32c1b961aeef335b6a2d86f6c46175bf5b364e7e"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 90.8,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 174,
+   "calc_cols": 174,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 145,
+   "form_fields": 145,
+   "tool_outputs_ok": 545,
+   "tool_outputs": 545,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 30662,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 87648,
+   "ar-demo": 87646,
+   "en": 87648,
+   "en-demo": 87646,
+   "en-raw": 87646
+  },
+  "job_seconds_max": 49.7,
+  "seconds_images": 42.4,
+  "zip_mb": 3.55,
+  "seconds_package": 1.0,
+  "seconds_total": 134.5
+ },
+ "at": "2026-11-21T23:27:02+00:00",
+ "id": "fx-20261115-hvac-plumbing-p3"
+}
