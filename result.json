@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p7/images/01-hero.png",
+   "/tmp/out/p7/images/02-charts.png",
+   "/tmp/out/p7/images/03-dashboard.png",
+   "/tmp/out/p7/images/04-forecast.png",
+   "/tmp/out/p7/images/05-ageing.png",
+   "/tmp/out/p7/images/06-invoices.png",
+   "/tmp/out/p7/images/07-print.png",
+   "/tmp/out/p7/images/08-inside.png",
+   "/tmp/out/p7/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p7/images/ar/01-hero.png",
+    "/tmp/out/p7/images/ar/02-charts.png",
+    "/tmp/out/p7/images/ar/03-dashboard.png",
+    "/tmp/out/p7/images/ar/04-forecast.png",
+    "/tmp/out/p7/images/ar/05-ageing.png",
+    "/tmp/out/p7/images/ar/06-invoices.png",
+    "/tmp/out/p7/images/ar/07-print.png",
+    "/tmp/out/p7/images/ar/08-inside.png",
+    "/tmp/out/p7/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p7/Invoices-Collections-and-Cash-English-Arabic.zip",
+  "zip_sha256": "699aff3e85e0068eddfe56fb3dc77b3d55d17ef788e97f2290fee3f6dac2330d",
+  "fxp": null,
+  "sha256": "699aff3e85e0068eddfe56fb3dc77b3d55d17ef788e97f2290fee3f6dac2330d"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 63.5,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 155,
+   "calc_cols": 155,
+   "monthly_nonzero_cells": 22,
+   "form_fields_filled": 107,
+   "form_fields": 107,
+   "tool_outputs_ok": 551,
+   "tool_outputs": 551,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 39,
+   "document_paragraphs": 39
+  },
+  "compare": {
+   "ar": {
+    "compared": 34990,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 94990,
+   "ar-demo": 94988,
+   "en": 94990,
+   "en-demo": 94988,
+   "en-raw": 94988
+  },
+  "job_seconds_max": 34.8,
+  "seconds_images": 31.3,
+  "zip_mb": 4.21,
+  "seconds_package": 0.5,
+  "seconds_total": 95.5
+ },
+ "at": "2026-11-21T23:27:23+00:00",
+ "id": "fx-20261115-hvac-plumbing-p7"
+}
