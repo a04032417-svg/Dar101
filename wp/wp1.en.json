@@ -3575,7 +3575,7 @@
      "type": "calc",
      "width": 12,
      "format": "num",
-     "formula": "IFERROR((INDEX({range:pscore.score_p1},MATCH({col:area},{range:pscore.area},0))+INDEX({range:pscore.score_p2},MATCH({col:area},{range:pscore.area},0)))/2,\"\")"
+     "formula": "IFERROR((INDEX({range:pscore.score_p1},MATCH({col:area},{range:pscore.area},0))+INDEX({range:pscore.score_p2},MATCH({col:area},{range:pscore.area},0)))/2-MATCH({col:area},{range:pscore.area},0)/1000000,\"\")"
     },
     {
      "key": "rank",
@@ -3583,7 +3583,7 @@
      "type": "calc",
      "width": 9,
      "format": "int",
-     "formula": "IF({col:avg}=\"\",\"\",COUNTIFS({range:prank.avg},\">\"&{col:avg})+1+SUMPRODUCT(({range:prank.avg}={col:avg})*({range:prank.area}<{col:area})))"
+     "formula": "IF({col:avg}=\"\",\"\",COUNTIFS({range:prank.avg},\">\"&{col:avg})+1)"
     }
    ],
    "demo": [
@@ -4582,6 +4582,13 @@
      "required": true
     },
     {
+     "key": "line",
+     "label": "Budget line",
+     "type": "calc",
+     "formula": "IFERROR(MATCH({col:category},{range:budget.category},0),\"\")",
+     "format": "int"
+    },
+    {
      "key": "flex",
      "label": "Flexibility 1 to 5",
      "type": "int",
@@ -4617,7 +4624,7 @@
      "type": "calc",
      "width": 8,
      "format": "int",
-     "formula": "IF({col:score}=\"\",\"\",COUNTIFS({range:rebal.score},\">\"&{col:score})+1+SUMPRODUCT(({range:rebal.score}={col:score})*({range:rebal.category}<{col:category})))"
+     "formula": "IF({col:score}=\"\",\"\",COUNTIFS({range:rebal.score},\">\"&{col:score})+1+SUMPRODUCT(({range:rebal.score}={col:score})*({range:rebal.line}<{col:line})))"
     }
    ],
    "demo": [
@@ -10154,7 +10161,8 @@
    "Dates: date cells follow your computer's regional format (MM/DD/YYYY in the US, DD/MM/YYYY in the UK). Dates written inside sentences (documents, messages) follow the \"Date format\" cell under Your settings below.": "التواريخ: خلايا التاريخ تتبع التنسيق الإقليمي لجهازك (مثل DD/MM/YYYY أو MM/DD/YYYY)، أما التواريخ المكتوبة داخل النصوص (المستندات والرسائل) فتتبع خانة «تنسيق التاريخ» ضمن الإعدادات أدناه.",
    "Google Sheets: upload this file to Google Drive and open it with Google Sheets (or use the Google Sheets copy link in your download). Everything calculates there too; sheet locks do not carry over to Google Sheets, so type only in the input cells.": "Google Sheets: ارفع هذا الملف إلى Google Drive وافتحه باستخدام Google Sheets؛ كل شيء يُحسب هناك أيضاً. قفل الأوراق لا ينتقل إلى Google Sheets، لذا اكتب في خلايا الإدخال فقط.",
    "Currency symbol": "رمز العملة",
-   "Date format": "تنسيق التاريخ"
+   "Date format": "تنسيق التاريخ",
+   "Budget line": "رقم بند الميزانية"
   }
  }
 }

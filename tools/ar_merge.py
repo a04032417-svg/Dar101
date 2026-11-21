@@ -56,6 +56,14 @@ def main():
                 if LABEL_BAD.search(lab): errs.append(f'list {l["key"]}: label {lab!r} starts with = < > + - @ or holds * ? ~')
                 if lab.lower() in seen: errs.append(f'list {l["key"]}: {seen[lab.lower()]} and {val["key"]} both {lab!r}')
                 seen[lab.lower()] = val['key']
+    # a rank tie-break that compares translated drop-down labels ({range:t.c}<{col:c} on a list column) orders rows differently
+    # in Arabic, and the build then fails "ar-demo differs from the English demo": compare a language-independent column instead
+    types = {(t['key'], c['key']): c['type'] for t in spec['tables'] for c in t['columns']}
+    for t in spec['tables']:
+        for c in t['columns']:
+            for m in re.finditer(r'\{range:(\w+)\.(\w+)\}\s*[<>]=?\s*\{col:(\w+)\}', c.get('formula') or ''):
+                if types.get((m.group(1), m.group(2))) == 'list':
+                    errs.append(f'tie-break on translated labels in {t["key"]}.{c["key"]}: {m.group(0)} -> compare an ID column or a MATCH position (PIPELINE.md section 6, step 4b)')
     if not errs and not only_check:
         spec.setdefault('i18n', {})['ar'] = merged
         json.dump(spec, open(sp_path, 'w', encoding='utf8'), ensure_ascii=False, indent=1)

@@ -38,4 +38,7 @@ HOW THE ARABIC MUST READ (the owner is a native Arabic speaker and rejected poor
 9. Colours named in instructions: cream-yellow = الأصفر الفاتح، light grey-blue = الرمادي المزرق الفاتح، white = الأبيض.
 10. Before writing each batch, check it yourself: every key present, placeholders identical, sheet names <= 31, no Latin words left.
 
-Use only Read, Write and Bash (for tools/ar_merge.py and a quick python count). No web access needed. Do not touch git.
+Use only Read, Write and Bash (for tools/ar_merge.py and small python helpers). No web access needed. Do not touch git.
+Temporary files only in /home/claude/work/tmp_XN/ (delete it at the end). The engine sentence "Edit the wording here; words in {braces} ..."
+is plain text: its approved Arabic with {الأقواس} is correct. Drop-down values that formulas join into short verdict sentences
+("Order", "Behind by", "days") are read in that order: pick Arabic that reads well when joined (an imperative stays an imperative).

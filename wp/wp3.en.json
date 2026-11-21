@@ -3278,6 +3278,13 @@
      "required": true
     },
     {
+     "key": "line",
+     "label": "First vendor line",
+     "type": "calc",
+     "formula": "IFERROR(MATCH({col:category},{range:vendors.category},0),\"\")",
+     "format": "int"
+    },
+    {
      "key": "vendors",
      "label": "Vendors listed",
      "type": "calc",
@@ -3371,7 +3378,7 @@
      "type": "calc",
      "width": 8,
      "format": "int",
-     "formula": "IF({col:deadline}=\"\",\"\",COUNTIFS({range:pipeline.deadline},\"<\"&{col:deadline})+1+SUMPRODUCT(({range:pipeline.deadline}={col:deadline})*({range:pipeline.category}<{col:category})))"
+     "formula": "IF({col:deadline}=\"\",\"\",COUNTIFS({range:pipeline.deadline},\"<\"&{col:deadline})+1+SUMPRODUCT(({range:pipeline.deadline}={col:deadline})*({range:pipeline.line}<{col:line})))"
     }
    ],
    "demo": [
@@ -5977,7 +5984,7 @@
      "type": "calc",
      "width": 8,
      "format": "int",
-     "formula": "COUNTIFS({range:followups.urgency},\">\"&{col:urgency})+1+SUMPRODUCT(({range:followups.urgency}={col:urgency})*({range:followups.vendor}<{col:vendor}))"
+     "formula": "COUNTIFS({range:followups.urgency},\">\"&{col:urgency})+1+SUMPRODUCT(({range:followups.urgency}={col:urgency})*({range:followups.vendor_id}<{col:vendor_id}))"
     },
     {
      "key": "flag",
@@ -6508,6 +6515,13 @@
      "required": true
     },
     {
+     "key": "vendor_id",
+     "label": "Vendor ID",
+     "type": "calc",
+     "formula": "IFERROR(INDEX({range:vendors.vendor_id},MATCH({col:vendor},{range:vendors.vendor},0))&\"\",\"\")",
+     "format": "text"
+    },
+    {
      "key": "category",
      "label": "Category",
      "type": "calc",
@@ -6545,7 +6559,7 @@
      "type": "calc",
      "width": 8,
      "format": "int",
-     "formula": "COUNTIFS({range:response.avg_days},\">\"&{col:avg_days})+1+SUMPRODUCT(({range:response.avg_days}={col:avg_days})*({range:response.vendor}<{col:vendor}))"
+     "formula": "COUNTIFS({range:response.avg_days},\">\"&{col:avg_days})+1+SUMPRODUCT(({range:response.avg_days}={col:avg_days})*({range:response.vendor_id}<{col:vendor_id}))"
     },
     {
      "key": "open",
@@ -6569,7 +6583,7 @@
      "type": "calc",
      "width": 8,
      "format": "int",
-     "formula": "IF({col:open}=1,COUNTIFS({range:response.open_score},\">\"&{col:open_score})+1+SUMPRODUCT(({range:response.open_score}={col:open_score})*({range:response.vendor}<{col:vendor})),\"\")"
+     "formula": "IF({col:open}=1,COUNTIFS({range:response.open_score},\">\"&{col:open_score})+1+SUMPRODUCT(({range:response.open_score}={col:open_score})*({range:response.vendor_id}<{col:vendor_id})),\"\")"
     },
     {
      "key": "flag",
@@ -12203,7 +12217,8 @@
    "Dates: date cells follow your computer's regional format (MM/DD/YYYY in the US, DD/MM/YYYY in the UK). Dates written inside sentences (documents, messages) follow the \"Date format\" cell under Your settings below.": "التواريخ: خلايا التاريخ تتبع التنسيق الإقليمي لجهازك (مثل DD/MM/YYYY أو MM/DD/YYYY)، أما التواريخ المكتوبة داخل النصوص (المستندات والرسائل) فتتبع خانة «تنسيق التاريخ» ضمن الإعدادات أدناه.",
    "Google Sheets: upload this file to Google Drive and open it with Google Sheets (or use the Google Sheets copy link in your download). Everything calculates there too; sheet locks do not carry over to Google Sheets, so type only in the input cells.": "Google Sheets: ارفع هذا الملف إلى Google Drive وافتحه باستخدام Google Sheets؛ كل شيء يُحسب هناك أيضاً. قفل الأوراق لا ينتقل إلى Google Sheets، لذا اكتب في خلايا الإدخال فقط.",
    "Currency symbol": "رمز العملة",
-   "Date format": "تنسيق التاريخ"
+   "Date format": "تنسيق التاريخ",
+   "First vendor line": "سطر أول مورّد"
   }
  }
 }
