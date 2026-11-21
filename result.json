@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p8/images/01-hero.png",
+   "/tmp/out/p8/images/02-charts.png",
+   "/tmp/out/p8/images/03-dashboard.png",
+   "/tmp/out/p8/images/04-hosting_timeline.png",
+   "/tmp/out/p8/images/05-task_deps.png",
+   "/tmp/out/p8/images/06-move_countdown.png",
+   "/tmp/out/p8/images/07-print.png",
+   "/tmp/out/p8/images/08-inside.png",
+   "/tmp/out/p8/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p8/images/ar/01-hero.png",
+    "/tmp/out/p8/images/ar/02-charts.png",
+    "/tmp/out/p8/images/ar/03-dashboard.png",
+    "/tmp/out/p8/images/ar/04-hosting_timeline.png",
+    "/tmp/out/p8/images/ar/05-task_deps.png",
+    "/tmp/out/p8/images/ar/06-move_countdown.png",
+    "/tmp/out/p8/images/ar/07-print.png",
+    "/tmp/out/p8/images/ar/08-inside.png",
+    "/tmp/out/p8/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p8/Projects-Hosting-and-Declutter-English-Arabic.zip",
+  "zip_sha256": "dd86436f07994986ac7a8559405b69e7d107ea64aed7b7b0903a94466fdee8b9",
+  "fxp": null,
+  "sha256": "dd86436f07994986ac7a8559405b69e7d107ea64aed7b7b0903a94466fdee8b9"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 33.0,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 193,
+   "calc_cols": 193,
+   "monthly_nonzero_cells": 11,
+   "form_fields_filled": 102,
+   "form_fields": 102,
+   "tool_outputs_ok": 532,
+   "tool_outputs": 532,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 38,
+   "document_paragraphs": 38
+  },
+  "compare": {
+   "ar": {
+    "compared": 6071,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 23967,
+   "ar-demo": 23965,
+   "en": 23967,
+   "en-demo": 23965,
+   "en-raw": 23965
+  },
+  "job_seconds_max": 18.8,
+  "seconds_images": 28.8,
+  "zip_mb": 1.56,
+  "seconds_package": 0.3,
+  "seconds_total": 62.3
+ },
+ "at": "2026-11-21T18:21:34+00:00",
+ "id": "fx-20261118-home-management-p8"
+}
