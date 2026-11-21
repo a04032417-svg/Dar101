@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p2/images/01-hero.png",
+   "/tmp/out/p2/images/02-charts.png",
+   "/tmp/out/p2/images/03-dashboard.png",
+   "/tmp/out/p2/images/04-subs.png",
+   "/tmp/out/p2/images/05-bills.png",
+   "/tmp/out/p2/images/06-bills_cal.png",
+   "/tmp/out/p2/images/07-print.png",
+   "/tmp/out/p2/images/08-inside.png",
+   "/tmp/out/p2/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p2/images/ar/01-hero.png",
+    "/tmp/out/p2/images/ar/02-charts.png",
+    "/tmp/out/p2/images/ar/03-dashboard.png",
+    "/tmp/out/p2/images/ar/04-subs.png",
+    "/tmp/out/p2/images/ar/05-bills.png",
+    "/tmp/out/p2/images/ar/06-bills_cal.png",
+    "/tmp/out/p2/images/ar/07-print.png",
+    "/tmp/out/p2/images/ar/08-inside.png",
+    "/tmp/out/p2/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p2/Bills-Subscriptions-and-Due-Dates-English-Arabic.zip",
+  "zip_sha256": "42179694db3b3248d4b0b5963fc754dab791029fd1705e06fc7fdf30346b893a",
+  "fxp": null,
+  "sha256": "42179694db3b3248d4b0b5963fc754dab791029fd1705e06fc7fdf30346b893a"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 32.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 196,
+   "calc_cols": 196,
+   "monthly_nonzero_cells": 34,
+   "form_fields_filled": 142,
+   "form_fields": 142,
+   "tool_outputs_ok": 537,
+   "tool_outputs": 537,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 38,
+   "document_paragraphs": 38
+  },
+  "compare": {
+   "ar": {
+    "compared": 7213,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 37389,
+   "ar-demo": 37387,
+   "en": 37389,
+   "en-demo": 37387,
+   "en-raw": 37387
+  },
+  "job_seconds_max": 18.0,
+  "seconds_images": 26.1,
+  "zip_mb": 1.95,
+  "seconds_package": 0.3,
+  "seconds_total": 59.2
+ },
+ "at": "2026-11-21T18:32:01+00:00",
+ "id": "fx-20261116-household-finance-p2"
+}
