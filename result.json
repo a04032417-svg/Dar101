@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p8/images/01-hero.png",
+   "/tmp/out/p8/images/02-charts.png",
+   "/tmp/out/p8/images/03-dashboard.png",
+   "/tmp/out/p8/images/04-cash.png",
+   "/tmp/out/p8/images/05-forecast.png",
+   "/tmp/out/p8/images/06-income_source.png",
+   "/tmp/out/p8/images/07-print.png",
+   "/tmp/out/p8/images/08-inside.png",
+   "/tmp/out/p8/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p8/images/ar/01-hero.png",
+    "/tmp/out/p8/images/ar/02-charts.png",
+    "/tmp/out/p8/images/ar/03-dashboard.png",
+    "/tmp/out/p8/images/ar/04-cash.png",
+    "/tmp/out/p8/images/ar/05-forecast.png",
+    "/tmp/out/p8/images/ar/06-income_source.png",
+    "/tmp/out/p8/images/ar/07-print.png",
+    "/tmp/out/p8/images/ar/08-inside.png",
+    "/tmp/out/p8/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p8/Budget-Cash-and-Annual-Report-English-Arabic.zip",
+  "zip_sha256": "86b1dfc0ed6970786a049dd6139674ab944c33440ba20b6430e580e6b27b4f9d",
+  "fxp": null,
+  "sha256": "86b1dfc0ed6970786a049dd6139674ab944c33440ba20b6430e580e6b27b4f9d"
+ },
+ "stats": {
+  "seconds_validate": 0.2,
+  "seconds_verify": 36.9,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 151,
+   "calc_cols": 151,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 116,
+   "form_fields": 116,
+   "tool_outputs_ok": 699,
+   "tool_outputs": 699,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 21111,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 22239,
+   "ar-demo": 22237,
+   "en": 22239,
+   "en-demo": 22237,
+   "en-raw": 22237
+  },
+  "job_seconds_max": 23.7,
+  "seconds_images": 25.9,
+  "zip_mb": 2.06,
+  "seconds_package": 0.3,
+  "seconds_total": 63.2
+ },
+ "at": "2026-11-21T08:22:37+00:00",
+ "id": "fx-20261115-nonprofit-p8"
+}
