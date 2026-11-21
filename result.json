@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p4/images/01-hero.png",
+   "/tmp/out/p4/images/02-charts.png",
+   "/tmp/out/p4/images/03-dashboard.png",
+   "/tmp/out/p4/images/04-tasks.png",
+   "/tmp/out/p4/images/05-key.png",
+   "/tmp/out/p4/images/06-week.png",
+   "/tmp/out/p4/images/07-print.png",
+   "/tmp/out/p4/images/08-inside.png",
+   "/tmp/out/p4/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p4/images/ar/01-hero.png",
+    "/tmp/out/p4/images/ar/02-charts.png",
+    "/tmp/out/p4/images/ar/03-dashboard.png",
+    "/tmp/out/p4/images/ar/04-tasks.png",
+    "/tmp/out/p4/images/ar/05-key.png",
+    "/tmp/out/p4/images/ar/06-week.png",
+    "/tmp/out/p4/images/ar/07-print.png",
+    "/tmp/out/p4/images/ar/08-inside.png",
+    "/tmp/out/p4/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p4/Master-Timeline-and-Task-Owners-English-Arabic.zip",
+  "zip_sha256": "c2520a183cfc803efec923ff23ccfc3698fa883f5d91c966fcb74bf282406040",
+  "fxp": null,
+  "sha256": "c2520a183cfc803efec923ff23ccfc3698fa883f5d91c966fcb74bf282406040"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 25.9,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 155,
+   "calc_cols": 155,
+   "monthly_nonzero_cells": 30,
+   "form_fields_filled": 91,
+   "form_fields": 91,
+   "tool_outputs_ok": 486,
+   "tool_outputs": 486,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 31,
+   "document_paragraphs": 31
+  },
+  "compare": {
+   "ar": {
+    "compared": 4321,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 31363,
+   "ar-demo": 31361,
+   "en": 31363,
+   "en-demo": 31361,
+   "en-raw": 31361
+  },
+  "job_seconds_max": 15.0,
+  "seconds_images": 24.7,
+  "zip_mb": 1.64,
+  "seconds_package": 0.3,
+  "seconds_total": 50.9
+ },
+ "at": "2026-11-21T13:19:49+00:00",
+ "id": "fx-20261116-wedding-p4"
+}
