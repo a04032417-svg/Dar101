@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p3/images/01-hero.png",
+   "/tmp/out/p3/images/02-charts.png",
+   "/tmp/out/p3/images/03-dashboard.png",
+   "/tmp/out/p3/images/04-compare.png",
+   "/tmp/out/p3/images/05-contact.png",
+   "/tmp/out/p3/images/06-vendors.png",
+   "/tmp/out/p3/images/07-print.png",
+   "/tmp/out/p3/images/08-inside.png",
+   "/tmp/out/p3/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p3/images/ar/01-hero.png",
+    "/tmp/out/p3/images/ar/02-charts.png",
+    "/tmp/out/p3/images/ar/03-dashboard.png",
+    "/tmp/out/p3/images/ar/04-compare.png",
+    "/tmp/out/p3/images/ar/05-contact.png",
+    "/tmp/out/p3/images/ar/06-vendors.png",
+    "/tmp/out/p3/images/ar/07-print.png",
+    "/tmp/out/p3/images/ar/08-inside.png",
+    "/tmp/out/p3/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p3/Vendors-Quotes-and-Contracts-English-Arabic.zip",
+  "zip_sha256": "4c684a474b201992b57a9af07bd162e3d91c0387f49887d344043b20413bb159",
+  "fxp": null,
+  "sha256": "4c684a474b201992b57a9af07bd162e3d91c0387f49887d344043b20413bb159"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 21.2,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 217,
+   "calc_cols": 217,
+   "monthly_nonzero_cells": 25,
+   "form_fields_filled": 116,
+   "form_fields": 116,
+   "tool_outputs_ok": 454,
+   "tool_outputs": 454,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 38,
+   "document_paragraphs": 38
+  },
+  "compare": {
+   "ar": {
+    "compared": 4943,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 18483,
+   "ar-demo": 18481,
+   "en": 18483,
+   "en-demo": 18481,
+   "en-raw": 18481
+  },
+  "job_seconds_max": 12.4,
+  "seconds_images": 25.6,
+  "zip_mb": 1.33,
+  "seconds_package": 0.4,
+  "seconds_total": 47.2
+ },
+ "at": "2026-11-21T13:28:13+00:00",
+ "id": "fx-20261116-wedding-p3"
+}
