@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-plan_needs.png",
+   "/tmp/out/p1/images/05-cook_load.png",
+   "/tmp/out/p1/images/06-people_home.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p1/images/ar/01-hero.png",
+    "/tmp/out/p1/images/ar/02-charts.png",
+    "/tmp/out/p1/images/ar/03-dashboard.png",
+    "/tmp/out/p1/images/ar/04-plan_needs.png",
+    "/tmp/out/p1/images/ar/05-cook_load.png",
+    "/tmp/out/p1/images/ar/06-people_home.png",
+    "/tmp/out/p1/images/ar/07-print.png",
+    "/tmp/out/p1/images/ar/08-inside.png",
+    "/tmp/out/p1/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p1/Meal-Plan-and-Grocery-List-English-Arabic.zip",
+  "zip_sha256": "58cb77918b4818200fa193db06430db5f8466e9b73e85a65a7d36d2c79753ff5",
+  "fxp": null,
+  "sha256": "58cb77918b4818200fa193db06430db5f8466e9b73e85a65a7d36d2c79753ff5"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 38.8,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 203,
+   "calc_cols": 203,
+   "monthly_nonzero_cells": 22,
+   "form_fields_filled": 139,
+   "form_fields": 139,
+   "tool_outputs_ok": 447,
+   "tool_outputs": 447,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 29392,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 50644,
+   "ar-demo": 50642,
+   "en": 50644,
+   "en-demo": 50642,
+   "en-raw": 50642
+  },
+  "job_seconds_max": 23.1,
+  "seconds_images": 26.7,
+  "zip_mb": 2.32,
+  "seconds_package": 0.3,
+  "seconds_total": 65.9
+ },
+ "at": "2026-11-21T18:13:32+00:00",
+ "id": "fx-20261118-home-management-p1"
+}
