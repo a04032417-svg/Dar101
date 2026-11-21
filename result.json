@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p5/images/01-hero.png",
+   "/tmp/out/p5/images/02-charts.png",
+   "/tmp/out/p5/images/03-dashboard.png",
+   "/tmp/out/p5/images/04-inventory.png",
+   "/tmp/out/p5/images/05-repairs.png",
+   "/tmp/out/p5/images/06-contents.png",
+   "/tmp/out/p5/images/07-print.png",
+   "/tmp/out/p5/images/08-inside.png",
+   "/tmp/out/p5/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p5/images/ar/01-hero.png",
+    "/tmp/out/p5/images/ar/02-charts.png",
+    "/tmp/out/p5/images/ar/03-dashboard.png",
+    "/tmp/out/p5/images/ar/04-inventory.png",
+    "/tmp/out/p5/images/ar/05-repairs.png",
+    "/tmp/out/p5/images/ar/06-contents.png",
+    "/tmp/out/p5/images/ar/07-print.png",
+    "/tmp/out/p5/images/ar/08-inside.png",
+    "/tmp/out/p5/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p5/Home-Inventory-and-Warranties-English-Arabic.zip",
+  "zip_sha256": "d41afaf15f1bb202e8ea9f82d55a41d34d4adf4bd5f10b2e4dcd7674084c4ca8",
+  "fxp": null,
+  "sha256": "d41afaf15f1bb202e8ea9f82d55a41d34d4adf4bd5f10b2e4dcd7674084c4ca8"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 29.1,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 158,
+   "calc_cols": 158,
+   "monthly_nonzero_cells": 20,
+   "form_fields_filled": 108,
+   "form_fields": 108,
+   "tool_outputs_ok": 470,
+   "tool_outputs": 470,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 6343,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 37153,
+   "ar-demo": 37151,
+   "en": 37153,
+   "en-demo": 37151,
+   "en-raw": 37151
+  },
+  "job_seconds_max": 16.2,
+  "seconds_images": 25.9,
+  "zip_mb": 1.78,
+  "seconds_package": 0.3,
+  "seconds_total": 55.4
+ },
+ "at": "2026-11-21T18:21:54+00:00",
+ "id": "fx-20261118-home-management-p5"
+}
