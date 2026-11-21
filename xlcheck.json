@@ -1,0 +1,42 @@
+{
+ "files": 4,
+ "formulas": 365568,
+ "problems": 0,
+ "warnings": 6,
+ "by_file": {
+  "Family-Calendar-Pets-and-Vehicles-English-Arabic.zip/Family-Calendar-Pets-and-Vehicles_EN.xlsx": {
+   "lang": "en",
+   "formulas": 91393,
+   "problems": [],
+   "warnings": [
+    "functions: MINIFS needs Excel 2019 or later"
+   ]
+  },
+  "Family-Calendar-Pets-and-Vehicles-English-Arabic.zip/Family-Calendar-Pets-and-Vehicles_AR.xlsx": {
+   "lang": "ar",
+   "formulas": 91393,
+   "problems": [],
+   "warnings": [
+    "functions: MINIFS needs Excel 2019 or later",
+    "language: 2 text cell(s) still in English, e.g. 1:C31, 1:C35"
+   ]
+  },
+  "Family-Calendar-Pets-and-Vehicles-English-Arabic.zip/Family-Calendar-Pets-and-Vehicles_EN_DEMO-sample-data.xlsx": {
+   "lang": "en",
+   "formulas": 91391,
+   "problems": [],
+   "warnings": [
+    "functions: MINIFS needs Excel 2019 or later"
+   ]
+  },
+  "Family-Calendar-Pets-and-Vehicles-English-Arabic.zip/Family-Calendar-Pets-and-Vehicles_AR_DEMO-sample-data.xlsx": {
+   "lang": "ar",
+   "formulas": 91391,
+   "problems": [],
+   "warnings": [
+    "functions: MINIFS needs Excel 2019 or later",
+    "language: 1780 text cell(s) still in English, e.g. 1:C31, 1:C35, 4:B5, 4:G5, 4:I5, 4:B6"
+   ]
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p6/images/01-hero.png",
+   "/tmp/out/p6/images/02-charts.png",
+   "/tmp/out/p6/images/03-dashboard.png",
+   "/tmp/out/p6/images/04-events.png",
+   "/tmp/out/p6/images/05-school_view.png",
+   "/tmp/out/p6/images/06-conflicts.png",
+   "/tmp/out/p6/images/07-print.png",
+   "/tmp/out/p6/images/08-inside.png",
+   "/tmp/out/p6/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p6/images/ar/01-hero.png",
+    "/tmp/out/p6/images/ar/02-charts.png",
+    "/tmp/out/p6/images/ar/03-dashboard.png",
+    "/tmp/out/p6/images/ar/04-events.png",
+    "/tmp/out/p6/images/ar/05-school_view.png",
+    "/tmp/out/p6/images/ar/06-conflicts.png",
+    "/tmp/out/p6/images/ar/07-print.png",
+    "/tmp/out/p6/images/ar/08-inside.png",
+    "/tmp/out/p6/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p6/Family-Calendar-Pets-and-Vehicles-English-Arabic.zip",
+  "zip_sha256": "c0cd398357ffe3733ca7641305b45e2ca801ae62357bce09c7f319f9d11919f9",
+  "fxp": null,
+  "sha256": "c0cd398357ffe3733ca7641305b45e2ca801ae62357bce09c7f319f9d11919f9"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 61.8,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 185,
+   "calc_cols": 185,
+   "monthly_nonzero_cells": 30,
+   "form_fields_filled": 153,
+   "form_fields": 153,
+   "tool_outputs_ok": 641,
+   "tool_outputs": 641,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 19755,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 91393,
+   "ar-demo": 91391,
+   "en": 91393,
+   "en-demo": 91391,
+   "en-raw": 91391
+  },
+  "job_seconds_max": 33.9,
+  "seconds_images": 30.0,
+  "zip_mb": 3.2,
+  "seconds_package": 0.4,
+  "seconds_total": 92.4
+ },
+ "at": "2026-11-21T18:22:01+00:00",
+ "id": "fx-20261118-home-management-p6"
+}
