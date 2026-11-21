@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p5/images/01-hero.png",
+   "/tmp/out/p5/images/02-charts.png",
+   "/tmp/out/p5/images/03-dashboard.png",
+   "/tmp/out/p5/images/04-report_numbers.png",
+   "/tmp/out/p5/images/05-cpp_quarter.png",
+   "/tmp/out/p5/images/06-program_months.png",
+   "/tmp/out/p5/images/07-print.png",
+   "/tmp/out/p5/images/08-inside.png",
+   "/tmp/out/p5/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p5/images/ar/01-hero.png",
+    "/tmp/out/p5/images/ar/02-charts.png",
+    "/tmp/out/p5/images/ar/03-dashboard.png",
+    "/tmp/out/p5/images/ar/04-report_numbers.png",
+    "/tmp/out/p5/images/ar/05-cpp_quarter.png",
+    "/tmp/out/p5/images/ar/06-program_months.png",
+    "/tmp/out/p5/images/ar/07-print.png",
+    "/tmp/out/p5/images/ar/08-inside.png",
+    "/tmp/out/p5/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p5/Programs-and-People-Served-English-Arabic.zip",
+  "zip_sha256": "5160625894b0ee01e8b1a8ff35a850c4e0884dde5f1160235ffddb268901dce7",
+  "fxp": null,
+  "sha256": "5160625894b0ee01e8b1a8ff35a850c4e0884dde5f1160235ffddb268901dce7"
+ },
+ "stats": {
+  "seconds_validate": 0.2,
+  "seconds_verify": 104.9,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 168,
+   "calc_cols": 168,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 120,
+   "form_fields": 120,
+   "tool_outputs_ok": 1170,
+   "tool_outputs": 1170,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 41,
+   "document_paragraphs": 41
+  },
+  "compare": {
+   "ar": {
+    "compared": 57091,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 174764,
+   "ar-demo": 174762,
+   "en": 174764,
+   "en-demo": 174762,
+   "en-raw": 174762
+  },
+  "job_seconds_max": 55.0,
+  "seconds_images": 30.5,
+  "zip_mb": 5.57,
+  "seconds_package": 0.4,
+  "seconds_total": 136.0
+ },
+ "at": "2026-11-21T08:22:36+00:00",
+ "id": "fx-20261115-nonprofit-p5"
+}
