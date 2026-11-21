@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p5/images/01-hero.png",
+   "/tmp/out/p5/images/02-charts.png",
+   "/tmp/out/p5/images/03-dashboard.png",
+   "/tmp/out/p5/images/04-seating.png",
+   "/tmp/out/p5/images/05-rentals.png",
+   "/tmp/out/p5/images/06-balance.png",
+   "/tmp/out/p5/images/07-print.png",
+   "/tmp/out/p5/images/08-inside.png",
+   "/tmp/out/p5/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p5/images/ar/01-hero.png",
+    "/tmp/out/p5/images/ar/02-charts.png",
+    "/tmp/out/p5/images/ar/03-dashboard.png",
+    "/tmp/out/p5/images/ar/04-seating.png",
+    "/tmp/out/p5/images/ar/05-rentals.png",
+    "/tmp/out/p5/images/ar/06-balance.png",
+    "/tmp/out/p5/images/ar/07-print.png",
+    "/tmp/out/p5/images/ar/08-inside.png",
+    "/tmp/out/p5/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p5/Venue-Capacity-and-Seating-Plan-English-Arabic.zip",
+  "zip_sha256": "760c4abd1ca68aed1266eecde74caf9dc0491bc5767bc6c2d31047e524459de1",
+  "fxp": null,
+  "sha256": "760c4abd1ca68aed1266eecde74caf9dc0491bc5767bc6c2d31047e524459de1"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 23.9,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 204,
+   "calc_cols": 204,
+   "monthly_nonzero_cells": 23,
+   "form_fields_filled": 107,
+   "form_fields": 107,
+   "tool_outputs_ok": 806,
+   "tool_outputs": 806,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 36,
+   "document_paragraphs": 36
+  },
+  "compare": {
+   "ar": {
+    "compared": 5119,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 27996,
+   "ar-demo": 27994,
+   "en": 27996,
+   "en-demo": 27994,
+   "en-raw": 27994
+  },
+  "job_seconds_max": 13.8,
+  "seconds_images": 23.4,
+  "zip_mb": 1.4,
+  "seconds_package": 0.3,
+  "seconds_total": 47.7
+ },
+ "at": "2026-11-21T13:19:39+00:00",
+ "id": "fx-20261116-wedding-p5"
+}
