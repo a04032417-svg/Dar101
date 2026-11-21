@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p2/images/01-hero.png",
+   "/tmp/out/p2/images/02-charts.png",
+   "/tmp/out/p2/images/03-dashboard.png",
+   "/tmp/out/p2/images/04-chase.png",
+   "/tmp/out/p2/images/05-households.png",
+   "/tmp/out/p2/images/06-forecast.png",
+   "/tmp/out/p2/images/07-print.png",
+   "/tmp/out/p2/images/08-inside.png",
+   "/tmp/out/p2/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p2/images/ar/01-hero.png",
+    "/tmp/out/p2/images/ar/02-charts.png",
+    "/tmp/out/p2/images/ar/03-dashboard.png",
+    "/tmp/out/p2/images/ar/04-chase.png",
+    "/tmp/out/p2/images/ar/05-households.png",
+    "/tmp/out/p2/images/ar/06-forecast.png",
+    "/tmp/out/p2/images/ar/07-print.png",
+    "/tmp/out/p2/images/ar/08-inside.png",
+    "/tmp/out/p2/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p2/Guests-Invitations-and-RSVPs-English-Arabic.zip",
+  "zip_sha256": "0d0057bd7cb131ddd9741f346c9fecf1e9f3a35f0fec9bb570fd5ec1fe737963",
+  "fxp": null,
+  "sha256": "0d0057bd7cb131ddd9741f346c9fecf1e9f3a35f0fec9bb570fd5ec1fe737963"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 27.8,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 153,
+   "calc_cols": 153,
+   "monthly_nonzero_cells": 5,
+   "form_fields_filled": 120,
+   "form_fields": 120,
+   "tool_outputs_ok": 731,
+   "tool_outputs": 731,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 39,
+   "document_paragraphs": 39
+  },
+  "compare": {
+   "ar": {
+    "compared": 5361,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 30973,
+   "ar-demo": 30971,
+   "en": 30973,
+   "en-demo": 30971,
+   "en-raw": 30971
+  },
+  "job_seconds_max": 16.2,
+  "seconds_images": 25.2,
+  "zip_mb": 1.55,
+  "seconds_package": 0.3,
+  "seconds_total": 53.4
+ },
+ "at": "2026-11-21T13:19:37+00:00",
+ "id": "fx-20261116-wedding-p2"
+}
