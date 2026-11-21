@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p6/images/01-hero.png",
+   "/tmp/out/p6/images/02-charts.png",
+   "/tmp/out/p6/images/03-dashboard.png",
+   "/tmp/out/p6/images/04-vendors.png",
+   "/tmp/out/p6/images/05-run.png",
+   "/tmp/out/p6/images/06-team.png",
+   "/tmp/out/p6/images/07-print.png",
+   "/tmp/out/p6/images/08-inside.png",
+   "/tmp/out/p6/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p6/images/ar/01-hero.png",
+    "/tmp/out/p6/images/ar/02-charts.png",
+    "/tmp/out/p6/images/ar/03-dashboard.png",
+    "/tmp/out/p6/images/ar/04-vendors.png",
+    "/tmp/out/p6/images/ar/05-run.png",
+    "/tmp/out/p6/images/ar/06-team.png",
+    "/tmp/out/p6/images/ar/07-print.png",
+    "/tmp/out/p6/images/ar/08-inside.png",
+    "/tmp/out/p6/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p6/Wedding-Party-and-Day-Of-Run-of-Show-English-Arabic.zip",
+  "zip_sha256": "48faa7c862c12cdbb7c8b8053218c388a4d1cb8841ee335451b9181e53cd3ca4",
+  "fxp": null,
+  "sha256": "48faa7c862c12cdbb7c8b8053218c388a4d1cb8841ee335451b9181e53cd3ca4"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 20.4,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 169,
+   "calc_cols": 169,
+   "monthly_nonzero_cells": 4,
+   "form_fields_filled": 101,
+   "form_fields": 101,
+   "tool_outputs_ok": 482,
+   "tool_outputs": 482,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 36,
+   "document_paragraphs": 36
+  },
+  "compare": {
+   "ar": {
+    "compared": 2736,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 15058,
+   "ar-demo": 15056,
+   "en": 15058,
+   "en-demo": 15056,
+   "en-raw": 15056
+  },
+  "job_seconds_max": 11.7,
+  "seconds_images": 24.6,
+  "zip_mb": 1.24,
+  "seconds_package": 0.3,
+  "seconds_total": 45.4
+ },
+ "at": "2026-11-21T13:19:35+00:00",
+ "id": "fx-20261116-wedding-p6"
+}
