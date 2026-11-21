@@ -5,8 +5,8 @@
  "part": null,
  "deps": [],
  "needs": [],
- "status": "claimed",
+ "status": "done",
  "by": "conv-C-0602",
- "at": "2026-11-21T07:49:06Z",
- "note": "OWNER 2026-11-21 10:44 Riyadh: «العربية والإنجليزية» + Arabic ad pictures in the same style. Engine: English edition + Arabic workbook (FX_ADD_LANGS / build/<x>/ADD_LANGS), tools/ar_todo.py + ar_merge.py, runbook PIPELINE.md section 6. Wait for this task before taking NN-arabic."
+ "at": "2026-11-21T08:02:31Z",
+ "note": "engine on branch suite fc03595 (English edition + Arabic via build/<x>/ADD_LANGS; local test np1: ok, no warnings, ZIP EN+AR+2 demos, 9 Arabic pictures; English-only rebuild unchanged). Tools: tools/ar_todo.py, tools/ar_merge.py, tools/ar_common.json, prompts/ar_translate.txt; runbook PIPELINE.md section 6. NN-arabic tasks are open."
 }
