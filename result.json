@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p5/images/01-hero.png",
+   "/tmp/out/p5/images/02-charts.png",
+   "/tmp/out/p5/images/03-dashboard.png",
+   "/tmp/out/p5/images/04-vehicle_van.png",
+   "/tmp/out/p5/images/05-shrink_van.png",
+   "/tmp/out/p5/images/06-stock_counts.png",
+   "/tmp/out/p5/images/07-print.png",
+   "/tmp/out/p5/images/08-inside.png",
+   "/tmp/out/p5/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p5/images/ar/01-hero.png",
+    "/tmp/out/p5/images/ar/02-charts.png",
+    "/tmp/out/p5/images/ar/03-dashboard.png",
+    "/tmp/out/p5/images/ar/04-vehicle_van.png",
+    "/tmp/out/p5/images/ar/05-shrink_van.png",
+    "/tmp/out/p5/images/ar/06-stock_counts.png",
+    "/tmp/out/p5/images/ar/07-print.png",
+    "/tmp/out/p5/images/ar/08-inside.png",
+    "/tmp/out/p5/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p5/Parts-Van-Stock-and-Vehicles-English-Arabic.zip",
+  "zip_sha256": "27da8f93c21d6a535cd9da728d4df4402b8eb458dbde30e3983e35fa9aa666d3",
+  "fxp": null,
+  "sha256": "27da8f93c21d6a535cd9da728d4df4402b8eb458dbde30e3983e35fa9aa666d3"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 37.9,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 154,
+   "calc_cols": 154,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 124,
+   "form_fields": 124,
+   "tool_outputs_ok": 1070,
+   "tool_outputs": 1070,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 41,
+   "document_paragraphs": 41
+  },
+  "compare": {
+   "ar": {
+    "compared": 22118,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 43475,
+   "ar-demo": 43473,
+   "en": 43475,
+   "en-demo": 43473,
+   "en-raw": 43473
+  },
+  "job_seconds_max": 21.3,
+  "seconds_images": 26.9,
+  "zip_mb": 2.52,
+  "seconds_package": 0.3,
+  "seconds_total": 65.2
+ },
+ "at": "2026-11-21T23:35:09+00:00",
+ "id": "fx-20261115-hvac-plumbing-p5"
+}
