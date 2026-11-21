@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p8/images/01-hero.png",
+   "/tmp/out/p8/images/02-charts.png",
+   "/tmp/out/p8/images/03-dashboard.png",
+   "/tmp/out/p8/images/04-src_results.png",
+   "/tmp/out/p8/images/05-scorecard.png",
+   "/tmp/out/p8/images/06-dates.png",
+   "/tmp/out/p8/images/07-print.png",
+   "/tmp/out/p8/images/08-inside.png",
+   "/tmp/out/p8/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p8/images/ar/01-hero.png",
+    "/tmp/out/p8/images/ar/02-charts.png",
+    "/tmp/out/p8/images/ar/03-dashboard.png",
+    "/tmp/out/p8/images/ar/04-src_results.png",
+    "/tmp/out/p8/images/ar/05-scorecard.png",
+    "/tmp/out/p8/images/ar/06-dates.png",
+    "/tmp/out/p8/images/ar/07-print.png",
+    "/tmp/out/p8/images/ar/08-inside.png",
+    "/tmp/out/p8/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p8/Leads-Reviews-Renewals-Scorecard-English-Arabic.zip",
+  "zip_sha256": "4ebfd79b0e1bec364fc0ece3c95e0aeeeda5c02d5305ea3c627663e9624909c8",
+  "fxp": null,
+  "sha256": "4ebfd79b0e1bec364fc0ece3c95e0aeeeda5c02d5305ea3c627663e9624909c8"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 34.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 141,
+   "calc_cols": 141,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 85,
+   "form_fields": 85,
+   "tool_outputs_ok": 857,
+   "tool_outputs": 857,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 13905,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 42355,
+   "ar-demo": 42353,
+   "en": 42355,
+   "en-demo": 42353,
+   "en-raw": 42353
+  },
+  "job_seconds_max": 18.6,
+  "seconds_images": 24.9,
+  "zip_mb": 2.08,
+  "seconds_package": 0.4,
+  "seconds_total": 60.0
+ },
+ "at": "2026-11-21T23:35:23+00:00",
+ "id": "fx-20261115-hvac-plumbing-p8"
+}
