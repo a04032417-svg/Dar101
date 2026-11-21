@@ -67,7 +67,7 @@ class Builder:
         # Start sheet layout
         # English edition: an instructions block on top of the Start sheet and two more settings (currency symbol, date format)
         self.extra = ([{'key': 'fx_cur', 'label': EN_TEXT['set_currency'], 'type': 'text', 'default': '$'},
-                       {'key': 'fx_datefmt', 'label': EN_TEXT['set_datefmt'], 'type': 'text', 'default': DATE_CHOICES[0], 'choices': DATE_CHOICES}] if EDITION_EN else [])
+                       {'key': 'fx_datefmt', 'label': EN_TEXT['set_datefmt'], 'type': 'text', 'default': DATE_CHOICES[1] if lang in RTL else DATE_CHOICES[0], 'choices': DATE_CHOICES}] if EDITION_EN else [])   # (Arabic workbook: day first)
         self.r_intro = 5; self.n_intro = len(EN_TEXT['start_lines']) + 2 if EDITION_EN else 0
         self.r_how = 5 + self.n_intro; self.r_steps = self.r_how + 1; self.r_set = self.r_steps + len(spec['guide']) + 1
         self.setrow = {x['key']: self.r_set + 1 + i for i, x in enumerate(spec['settings'] + self.extra)}
