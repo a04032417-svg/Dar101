@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p7/images/01-hero.png",
+   "/tmp/out/p7/images/02-charts.png",
+   "/tmp/out/p7/images/03-dashboard.png",
+   "/tmp/out/p7/images/04-lines.png",
+   "/tmp/out/p7/images/05-party.png",
+   "/tmp/out/p7/images/06-dest.png",
+   "/tmp/out/p7/images/07-print.png",
+   "/tmp/out/p7/images/08-inside.png",
+   "/tmp/out/p7/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p7/images/ar/01-hero.png",
+    "/tmp/out/p7/images/ar/02-charts.png",
+    "/tmp/out/p7/images/ar/03-dashboard.png",
+    "/tmp/out/p7/images/ar/04-lines.png",
+    "/tmp/out/p7/images/ar/05-party.png",
+    "/tmp/out/p7/images/ar/06-dest.png",
+    "/tmp/out/p7/images/ar/07-print.png",
+    "/tmp/out/p7/images/ar/08-inside.png",
+    "/tmp/out/p7/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p7/Events-Travel-and-Honeymoon-English-Arabic.zip",
+  "zip_sha256": "6517368b80763fbd4d9a6e286221e5d9187f390de413eb936753a559faabda40",
+  "fxp": null,
+  "sha256": "6517368b80763fbd4d9a6e286221e5d9187f390de413eb936753a559faabda40"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 30.5,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 85,
+   "calc_cols": 85,
+   "monthly_nonzero_cells": 12,
+   "form_fields_filled": 103,
+   "form_fields": 103,
+   "tool_outputs_ok": 611,
+   "tool_outputs": 611,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 37,
+   "document_paragraphs": 37
+  },
+  "compare": {
+   "ar": {
+    "compared": 2726,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 12664,
+   "ar-demo": 12662,
+   "en": 12664,
+   "en-demo": 12662,
+   "en-raw": 12662
+  },
+  "job_seconds_max": 18.4,
+  "seconds_images": 35.6,
+  "zip_mb": 1.18,
+  "seconds_package": 0.4,
+  "seconds_total": 66.6
+ },
+ "at": "2026-11-21T13:19:42+00:00",
+ "id": "fx-20261116-wedding-p7"
+}
