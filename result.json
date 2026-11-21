@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p5/images/01-hero.png",
+   "/tmp/out/p5/images/02-charts.png",
+   "/tmp/out/p5/images/03-dashboard.png",
+   "/tmp/out/p5/images/04-ledger.png",
+   "/tmp/out/p5/images/05-phase.png",
+   "/tmp/out/p5/images/06-team.png",
+   "/tmp/out/p5/images/07-print.png",
+   "/tmp/out/p5/images/08-inside.png",
+   "/tmp/out/p5/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p5/images/ar/01-hero.png",
+    "/tmp/out/p5/images/ar/02-charts.png",
+    "/tmp/out/p5/images/ar/03-dashboard.png",
+    "/tmp/out/p5/images/ar/04-ledger.png",
+    "/tmp/out/p5/images/ar/05-phase.png",
+    "/tmp/out/p5/images/ar/06-team.png",
+    "/tmp/out/p5/images/ar/07-print.png",
+    "/tmp/out/p5/images/ar/08-inside.png",
+    "/tmp/out/p5/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p5/Visits-Hours-Mileage-and-Births-English-Arabic.zip",
+  "zip_sha256": "3c41abf1064ddd86dc58850c58536bde95c159f0a374a605160db4be312b5430",
+  "fxp": null,
+  "sha256": "3c41abf1064ddd86dc58850c58536bde95c159f0a374a605160db4be312b5430"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 50.7,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 150,
+   "calc_cols": 150,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 140,
+   "form_fields": 140,
+   "tool_outputs_ok": 857,
+   "tool_outputs": 857,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 36602,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 79881,
+   "ar-demo": 79879,
+   "en": 79881,
+   "en-demo": 79879,
+   "en-raw": 79879
+  },
+  "job_seconds_max": 28.7,
+  "seconds_images": 27.7,
+  "zip_mb": 2.99,
+  "seconds_package": 0.4,
+  "seconds_total": 78.9
+ },
+ "at": "2026-11-21T23:43:02+00:00",
+ "id": "fx-20261115-doula-business-p5"
+}
