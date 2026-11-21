@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p8/images/01-hero.png",
+   "/tmp/out/p8/images/02-charts.png",
+   "/tmp/out/p8/images/03-dashboard.png",
+   "/tmp/out/p8/images/04-backlog.png",
+   "/tmp/out/p8/images/05-diy.png",
+   "/tmp/out/p8/images/06-gifts.png",
+   "/tmp/out/p8/images/07-print.png",
+   "/tmp/out/p8/images/08-inside.png",
+   "/tmp/out/p8/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p8/images/ar/01-hero.png",
+    "/tmp/out/p8/images/ar/02-charts.png",
+    "/tmp/out/p8/images/ar/03-dashboard.png",
+    "/tmp/out/p8/images/ar/04-backlog.png",
+    "/tmp/out/p8/images/ar/05-diy.png",
+    "/tmp/out/p8/images/ar/06-gifts.png",
+    "/tmp/out/p8/images/ar/07-print.png",
+    "/tmp/out/p8/images/ar/08-inside.png",
+    "/tmp/out/p8/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p8/Attire-Decor-Gifts-and-Wrap-up-English-Arabic.zip",
+  "zip_sha256": "fe188e2bd42ffb84bc9d0159f8aac649a8b748298de8f42e741465b960420a5b",
+  "fxp": null,
+  "sha256": "fe188e2bd42ffb84bc9d0159f8aac649a8b748298de8f42e741465b960420a5b"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 25.3,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 153,
+   "calc_cols": 153,
+   "monthly_nonzero_cells": 14,
+   "form_fields_filled": 119,
+   "form_fields": 119,
+   "tool_outputs_ok": 436,
+   "tool_outputs": 436,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 36,
+   "document_paragraphs": 36
+  },
+  "compare": {
+   "ar": {
+    "compared": 3514,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 31722,
+   "ar-demo": 31720,
+   "en": 31722,
+   "en-demo": 31720,
+   "en-raw": 31720
+  },
+  "job_seconds_max": 14.7,
+  "seconds_images": 25.1,
+  "zip_mb": 1.5,
+  "seconds_package": 0.4,
+  "seconds_total": 50.8
+ },
+ "at": "2026-11-21T13:19:39+00:00",
+ "id": "fx-20261116-wedding-p8"
+}
