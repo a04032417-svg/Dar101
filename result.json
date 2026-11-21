@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p6/images/01-hero.png",
+   "/tmp/out/p6/images/02-charts.png",
+   "/tmp/out/p6/images/03-dashboard.png",
+   "/tmp/out/p6/images/04-payrun.png",
+   "/tmp/out/p6/images/05-margin.png",
+   "/tmp/out/p6/images/06-cap.png",
+   "/tmp/out/p6/images/07-print.png",
+   "/tmp/out/p6/images/08-inside.png",
+   "/tmp/out/p6/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p6/images/ar/01-hero.png",
+    "/tmp/out/p6/images/ar/02-charts.png",
+    "/tmp/out/p6/images/ar/03-dashboard.png",
+    "/tmp/out/p6/images/ar/04-payrun.png",
+    "/tmp/out/p6/images/ar/05-margin.png",
+    "/tmp/out/p6/images/ar/06-cap.png",
+    "/tmp/out/p6/images/ar/07-print.png",
+    "/tmp/out/p6/images/ar/08-inside.png",
+    "/tmp/out/p6/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p6/Doulas-Agency-Splits-and-Pay-Runs-English-Arabic.zip",
+  "zip_sha256": "6b627cd8d847a7a79760f9a0bf32df61f8644190ad0427ec2542ad87775969db",
+  "fxp": null,
+  "sha256": "6b627cd8d847a7a79760f9a0bf32df61f8644190ad0427ec2542ad87775969db"
+ },
+ "stats": {
+  "seconds_validate": 0.2,
+  "seconds_verify": 72.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 137,
+   "calc_cols": 137,
+   "monthly_nonzero_cells": 43,
+   "form_fields_filled": 121,
+   "form_fields": 121,
+   "tool_outputs_ok": 657,
+   "tool_outputs": 657,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 47,
+   "document_paragraphs": 47
+  },
+  "compare": {
+   "ar": {
+    "compared": 26643,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 60456,
+   "ar-demo": 60454,
+   "en": 60456,
+   "en-demo": 60454,
+   "en-raw": 60454
+  },
+  "job_seconds_max": 41.9,
+  "seconds_images": 38.9,
+  "zip_mb": 2.79,
+  "seconds_package": 0.5,
+  "seconds_total": 112.2
+ },
+ "at": "2026-11-21T23:46:42+00:00",
+ "id": "fx-20261115-doula-business-p6"
+}
