@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-baseline.png",
+   "/tmp/out/p1/images/05-bills_due.png",
+   "/tmp/out/p1/images/06-low_point.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p1/images/ar/01-hero.png",
+    "/tmp/out/p1/images/ar/02-charts.png",
+    "/tmp/out/p1/images/ar/03-dashboard.png",
+    "/tmp/out/p1/images/ar/04-baseline.png",
+    "/tmp/out/p1/images/ar/05-bills_due.png",
+    "/tmp/out/p1/images/ar/06-low_point.png",
+    "/tmp/out/p1/images/ar/07-print.png",
+    "/tmp/out/p1/images/ar/08-inside.png",
+    "/tmp/out/p1/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p1/Money-Plan-and-Paychecks-English-Arabic.zip",
+  "zip_sha256": "f9f4a6e02f8ccdd69ff47d7fc5ba36e5612e6c4287db19ad8cc1ad20d950796e",
+  "fxp": null,
+  "sha256": "f9f4a6e02f8ccdd69ff47d7fc5ba36e5612e6c4287db19ad8cc1ad20d950796e"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 42.2,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 177,
+   "calc_cols": 177,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 128,
+   "form_fields": 128,
+   "tool_outputs_ok": 854,
+   "tool_outputs": 854,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 19531,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 53772,
+   "ar-demo": 53770,
+   "en": 53772,
+   "en-demo": 53770,
+   "en-raw": 53770
+  },
+  "job_seconds_max": 23.0,
+  "seconds_images": 27.7,
+  "zip_mb": 2.49,
+  "seconds_package": 0.5,
+  "seconds_total": 70.5
+ },
+ "at": "2026-11-21T18:31:50+00:00",
+ "id": "fx-20261116-household-finance-p1"
+}
