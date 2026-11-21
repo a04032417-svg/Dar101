@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-workorders.png",
+   "/tmp/out/p1/images/05-repeats.png",
+   "/tmp/out/p1/images/06-dispatch.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p1/images/ar/01-hero.png",
+    "/tmp/out/p1/images/ar/02-charts.png",
+    "/tmp/out/p1/images/ar/03-dashboard.png",
+    "/tmp/out/p1/images/ar/04-workorders.png",
+    "/tmp/out/p1/images/ar/05-repeats.png",
+    "/tmp/out/p1/images/ar/06-dispatch.png",
+    "/tmp/out/p1/images/ar/07-print.png",
+    "/tmp/out/p1/images/ar/08-inside.png",
+    "/tmp/out/p1/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p1/Calls-Dispatch-and-Jobs-English-Arabic.zip",
+  "zip_sha256": "211ee26cad13f2ae9b0a0c88589f815924584f5d38884d5bdbedc86de9a2d745",
+  "fxp": null,
+  "sha256": "211ee26cad13f2ae9b0a0c88589f815924584f5d38884d5bdbedc86de9a2d745"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 52.0,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 112,
+   "calc_cols": 112,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 139,
+   "form_fields": 139,
+   "tool_outputs_ok": 773,
+   "tool_outputs": 773,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 24944,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 56945,
+   "ar-demo": 56943,
+   "en": 56945,
+   "en-demo": 56943,
+   "en-raw": 56943
+  },
+  "job_seconds_max": 29.1,
+  "seconds_images": 27.7,
+  "zip_mb": 3.4,
+  "seconds_package": 0.4,
+  "seconds_total": 80.3
+ },
+ "at": "2026-11-21T23:35:19+00:00",
+ "id": "fx-20261115-hvac-plumbing-p1"
+}
