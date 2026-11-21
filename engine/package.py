@@ -5,7 +5,7 @@
 CLI: python3 package.py --selftest        (makes an RSA-3072 key pair, encrypts, decrypts, compares)"""
 import os, sys, io, zipfile, struct, hashlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import LANGS, LANG_NAMES, file_base, EDITION_EN
+from common import LANGS, LANG_NAMES, file_base, EDITION_EN, ADD_LANGS
 try:
     from cryptography.hazmat.primitives.ciphers.aead import AESGCM
     from cryptography.hazmat.primitives.asymmetric import padding, rsa
@@ -19,7 +19,26 @@ OAEP = padding.OAEP(mgf=padding.MGF1(algorithm=hashes.SHA1()), algorithm=hashes.
 
 def readme(spec):
     base = file_base(spec); xl = any(f in json_dump(spec) for f in ('MAXIFS', 'MINIFS', 'TEXTJOIN'))
-    if EDITION_EN:   # English edition: no language claims anywhere in the package
+    if EDITION_EN and ADD_LANGS:   # English edition + Arabic (owner 2026-11-21): the workbook and its sample copy in each language
+        files = [x for l in LANGS for x in (f'  {base}_{l.upper()}.xlsx   the workbook in {AR_NAME.get(l, l)}',
+                                             f'  {base}_{l.upper()}_DEMO-sample-data.xlsx   the same workbook filled with sample data ({AR_NAME.get(l, l)})')]
+        lines = [f'{spec["name"]}', spec['tagline'], '', 'FILES', *files, '',
+                 'HOW TO START', '  1. Open the file and read the Start sheet.',
+                 '  2. Type your settings on the Start sheet (yellow cells).',
+                 '  3. Type your own data in the white cells; gray cells calculate by themselves.',
+                 '  4. Choose a value from the drop-downs wherever a cell offers one.', '',
+                 'FILE FORMAT',
+                 '  Standard .xlsx files for Microsoft Excel, Google Sheets and LibreOffice Calc. No macros.',
+                 '  Google Sheets: upload the file to Google Drive and open it with Google Sheets, or use the copy link in your download.',
+                 '  The formulas calculate when the file opens; if your app asks, allow it to update.', '',
+                 'Personal use licence: one business may use the files; please do not resell or share them.', '',
+                 'بالعربية',
+                 f'  {base}_AR.xlsx   ملف العمل باللغة العربية',
+                 f'  {base}_AR_DEMO-sample-data.xlsx   الملف نفسه مملوءاً ببيانات تجريبية لترى كل ميزة وهي تعمل',
+                 '  ابدأ بالورقة الأولى: اكتب إعداداتك في الخانات الصفراء، ثم بياناتك في الخانات البيضاء؛ الخانات الرمادية تُحسب وحدها.',
+                 '  الملفات بصيغة xlsx وتعمل في Excel وGoogle Sheets وLibreOffice، بلا وحدات ماكرو.']
+        return '\r\n'.join(lines) + '\r\n'
+    elif EDITION_EN:   # English edition: no language claims anywhere in the package
         lines = [f'{spec["name"]}', spec['tagline'], '', 'FILES', f'  {base}_EN.xlsx   the workbook',
                  f'  {base}_EN_DEMO-sample-data.xlsx   a copy filled with sample data, to see every feature working', '',
                  'HOW TO START', '  1. Open the file and read the Start sheet.',
@@ -54,12 +73,22 @@ def json_dump(spec):
     return json.dumps(spec, ensure_ascii=False)
 
 
-def make_zip(spec, templates, demo, out_zip):
-    """templates: {lang: path}; demo: path of the English demo workbook."""
+AR_NAME = {'en': 'English', 'ar': 'Arabic'}
+
+
+def edition_name():
+    """The language part of the ZIP names: English, or English-Arabic for the English edition + Arabic."""
+    return '-'.join(AR_NAME.get(l, l.upper()) for l in LANGS)
+
+
+def make_zip(spec, templates, demo, out_zip, demos=None):
+    """templates: {lang: path}; demo: path of the English demo workbook; demos: {lang: demo path} (English edition + Arabic: each extra language's demo too)."""
     base = file_base(spec)
     with zipfile.ZipFile(out_zip, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for l in LANGS: z.write(templates[l], f'{base}_{l.upper()}.xlsx')
         z.write(demo, f'{base}_EN_DEMO-sample-data.xlsx')
+        if EDITION_EN and ADD_LANGS:
+            for l in ADD_LANGS: z.write(demos[l], f'{base}_{l.upper()}_DEMO-sample-data.xlsx')
         z.writestr('README.txt', readme(spec))
     return out_zip
 

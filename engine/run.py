@@ -8,7 +8,7 @@ import sys, os, json, time, shutil, datetime as dt, traceback
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from validate import validate
 from verify import verify
-from common import LANGS, file_base, EDITION_EN
+from common import LANGS, file_base, EDITION_EN, ADD_LANGS
 
 
 def run(spec_path, outdir, pubkey=None):
@@ -48,6 +48,7 @@ def run(spec_path, outdir, pubkey=None):
     li = {}
     if os.environ.get('FX_PIC_LANGS', 'all') != 'none':
         want = LANGS[1:] if os.environ.get('FX_PIC_LANGS', 'all') == 'all' else [l for l in os.environ['FX_PIC_LANGS'].split(',') if l in LANGS[1:]]
+        if ADD_LANGS: want = LANGS[1:]   # English edition + Arabic: the Arabic pictures are part of the product (the CI sets FX_PIC_LANGS=en for every English edition)
         for l in want:
             v = rep['files'].get('demo_recalc', {}).get(l); mp = rep['files'].get('meta_demo', {}).get(l)
             if not v or not os.path.exists(v) or not mp or not os.path.exists(mp): res['warnings'].append(f'pictures {l}: no recalculated demo'); continue
@@ -57,8 +58,8 @@ def run(spec_path, outdir, pubkey=None):
     res['stats']['seconds_images'] = round(time.time() - t, 1)
     # 4. package
     res['stage'] = 'package'; t = time.time()
-    from package import make_zip, encrypt, sha256
-    z = make_zip(spec, rep['files']['templates'], rep['files']['demo_en'], os.path.join(outdir, f'{file_base(spec)}-' + ('English' if EDITION_EN else '15-languages') + '.zip'))
+    from package import make_zip, encrypt, sha256, edition_name
+    z = make_zip(spec, rep['files']['templates'], rep['files']['demo_en'], os.path.join(outdir, f'{file_base(spec)}-' + (edition_name() if EDITION_EN else '15-languages') + '.zip'), demos=rep['files'].get('demos'))
     res['files']['zip'] = z; res['files']['zip_sha256'] = sha256(z); res['stats']['zip_mb'] = round(os.path.getsize(z) / 1e6, 2)
     if pubkey:
         blob = encrypt(open(z, 'rb').read(), open(pubkey, 'rb').read())

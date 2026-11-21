@@ -244,9 +244,9 @@ class Builder:
         for c in 'BCDEF': ws[f'{c}3'].fill = fill(self.A)
         ws.row_dimensions[3].height = 5
         if EDITION_EN:
-            self.section(ws, f'B{self.r_intro}', EN_TEXT['start_title'])
+            self.section(ws, f'B{self.r_intro}', T(EN_TEXT['start_title']))
             for i, txt in enumerate(EN_TEXT['start_lines']):
-                r = self.r_intro + 1 + i; txt = f'{i + 1}.  {txt}'
+                r = self.r_intro + 1 + i; txt = f'{i + 1}.  {T(txt)}'
                 self.put(ws, f'B{r}', txt, self.F(size=11), align=self.AL(v='top', wrap=True)); ws.merge_cells(f'B{r}:F{r}')
                 ws.row_dimensions[r].height = 16 * lines(txt, 112) + 6
         self.section(ws, f'B{self.r_how}', T(FIXED['how']))

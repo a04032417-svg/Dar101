@@ -229,6 +229,7 @@ class Verify:
                 'jobs': {n: {k: v for k, v in r.items() if k != 'errors'} for n, r in sorted(self.jobs.items())},
                 'files': {'templates': files, 'demo_en': self.path('build', 'en-demo'), 'demo_en_recalc': self.path('v', 'en-demo'),
                           'meta_demo_en': self.path('build', 'en-demo') + '.meta.json',
+                          'demos': {l: self.path('build', self.name(l, True)) for l in self.langs},   # every language's demo (the English edition + Arabic ships the Arabic one too)
                           # v1.4: every language's recalculated demo, for its own pictures
                           'demo_recalc': {l: self.path('v', self.name(l, True)) for l in self.langs if 'fail' not in self.jobs.get(self.name(l, True), {'fail': 1})},
                           'meta_demo': {l: self.path('build', self.name(l, True)) + '.meta.json' for l in self.langs}}, 'seconds': self.seconds, 'today': self.today.isoformat()}

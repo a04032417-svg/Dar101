@@ -5,10 +5,23 @@ import os, re, json, datetime as dt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 LANGS = ['en', 'ar', 'fr', 'es', 'de', 'it', 'pt', 'tr', 'nl', 'ru', 'fa', 'ur', 'hi', 'zh', 'id']
+ALL_LANGS = list(LANGS)
 if os.environ.get('FX_LANGS'):  # test builds only (e.g. FX_LANGS=en,ar): a release build always has all 15
     LANGS = ['en'] + [l for l in LANGS[1:] if l in os.environ['FX_LANGS'].split(',')]
 EDITION_EN = os.environ.get('FX_EDITION') == 'en'  # English edition: sold in English only; nothing the buyer sees claims languages, translations or right-to-left
-if EDITION_EN: LANGS = ['en']
+# English edition + extra languages (the owner, 2026-11-21: «العربية والإنجليزية»): FX_ADD_LANGS=ar, or a file ADD_LANGS ("ar") next to
+# the spec / suite.json given on the command line (build/<suite>/ADD_LANGS on the CI). Each extra language gets its own workbook, demo and pictures;
+# everything else stays the English edition (Start-sheet instructions, currency symbol, date format, protection, no "15 languages" claims).
+def _add_langs():
+    import sys
+    v = os.environ.get('FX_ADD_LANGS')
+    if v is None:
+        for a in sys.argv[1:]:
+            m = os.path.join(os.path.dirname(os.path.abspath(a)), 'ADD_LANGS')
+            if a.endswith('.json') and os.path.exists(m): v = open(m, encoding='utf8').read(); break
+    return [l for l in (v or '').replace(',', ' ').split() if l in ALL_LANGS[1:]]
+ADD_LANGS = _add_langs() if EDITION_EN else []
+if EDITION_EN: LANGS = ['en'] + ADD_LANGS
 TR_LANGS = LANGS[1:]
 RTL = {'ar', 'fa', 'ur'}
 LANG_NAMES = {'en': 'English', 'ar': 'العربية', 'fr': 'Français', 'es': 'Español', 'de': 'Deutsch', 'it': 'Italiano', 'pt': 'Português',
@@ -212,6 +225,24 @@ def texts(spec):
         for j, y in enumerate(g(x, 'series') or []): add(g(y, 'label'), f'insights.charts[{i}].series[{j}].label')
     for i, s in enumerate(spec.get('guide') or []): add(s, f'guide[{i}]')
     for k, v in fixed_needed(spec).items(): add(v, f'engine/fixed_en.json:{k}')
+    if EDITION_EN and ADD_LANGS:   # English edition + Arabic: the Start-sheet instructions and the two extra settings are printed too
+        add(EN_TEXT['start_title'], 'engine/common.py:EN_TEXT.start_title')
+        for i, x in enumerate(EN_TEXT['start_lines']): add(x, f'engine/common.py:EN_TEXT.start_lines[{i}]')
+        add(EN_TEXT['set_currency'], 'engine/common.py:EN_TEXT.set_currency'); add(EN_TEXT['set_datefmt'], 'engine/common.py:EN_TEXT.set_datefmt')
+    return out
+
+
+def pic_texts(spec):
+    """English strings that only the pictures print (they fall back to English when untranslated): signature, listing headline and features."""
+    out = {}
+    def add(s, where):
+        if isinstance(s, str) and s.strip() and s not in out: out[s] = where
+    for i, x in enumerate(spec.get('signature') or []):
+        if isinstance(x, dict):
+            for f in ('name', 'why', 'where'): add(x.get(f), f'signature[{i}].{f}')
+    L = spec.get('listing') or {}
+    add(L.get('headline'), 'listing.headline')
+    for i, x in enumerate(L.get('features') or []): add(x, f'listing.features[{i}]')
     return out
 
 

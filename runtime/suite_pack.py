@@ -10,7 +10,7 @@ Writes out_dir/<Suite>-<n>-workbooks-15-languages.zip (English edition, FX_EDITI
 import sys, os, json, zipfile, re, html, shutil
 HERE = os.path.dirname(os.path.abspath(__file__)); ENGINE = os.path.join(os.path.dirname(HERE), 'engine'); sys.path.insert(0, ENGINE)
 import board as B
-from common import LANGS, RTL, FIXED, sheet_names, EDITION_EN
+from common import LANGS, RTL, FIXED, sheet_names, EDITION_EN, ADD_LANGS
 from pictures import lang_head
 E = lambda s: html.escape(str(s))
 
@@ -31,7 +31,7 @@ def main(suite_json, parts_dir, out):
         z = [f for f in os.listdir(os.path.join(parts_dir, p)) if f.endswith('.zip')][0]
         parts.append((p, spec, os.path.join(parts_dir, p, z), res))
     # 1. one ZIP, a folder per workbook
-    zname = re.sub(r'[^A-Za-z0-9]+', '-', S['name']['en']).strip('-') + f'-{len(parts)}-workbooks-' + ('English' if EDITION_EN else '15-languages') + '.zip'
+    zname = re.sub(r'[^A-Za-z0-9]+', '-', S['name']['en']).strip('-') + f'-{len(parts)}-workbooks-' + (('English-Arabic' if ADD_LANGS == ['ar'] else '-'.join(['English'] + [l.upper() for l in ADD_LANGS])) if EDITION_EN else '15-languages') + '.zip'
     zp = os.path.join(out, zname)
     readme = [S['name']['en'], S['headline']['en'], '', 'WORKBOOKS']
     with zipfile.ZipFile(zp, 'w', zipfile.ZIP_DEFLATED) as zo:
@@ -42,7 +42,7 @@ def main(suite_json, parts_dir, out):
                 for n in zi.namelist():
                     if n.endswith('/'): continue
                     zo.writestr(folder + '/' + n.split('/')[-1], zi.read(n))
-        readme += ['', 'Each folder holds the workbook and a copy full of sample data.' if EDITION_EN else 'Each folder holds the workbook in 15 languages and an English copy full of sample data.',
+        readme += ['', ('Each folder holds the workbook in English and in Arabic, and a copy of each full of sample data. / كل مجلد فيه ملف العمل بالإنجليزية وبالعربية، ونسخة من كل منهما مملوءة ببيانات تجريبية.' if ADD_LANGS else 'Each folder holds the workbook and a copy full of sample data.') if EDITION_EN else 'Each folder holds the workbook in 15 languages and an English copy full of sample data.',
                    'Standard .xlsx files for Microsoft Excel and LibreOffice Calc. No macros. Personal use licence for one business.']
         zo.writestr('README.txt', '\r\n'.join(readme) + '\r\n')
     # 2. pictures, every language
@@ -60,7 +60,7 @@ def main(suite_json, parts_dir, out):
             names.append((T(spec['name']), T(spec['tagline']), [n for _, n in sh], bool(pic)))
         title, head = S['name'].get(lang, S['name']['en']), S['headline'].get(lang, S['headline']['en'])
         note = S['stats_note'].get(lang, S['stats_note']['en']).format(files=len(parts), pages=pages_total)
-        if EDITION_EN: note = f'{len(parts)} workbooks · {pages_total} pages · English edition'   # (suite.json's note says "15 languages")
+        if EDITION_EN: note = (f'{len(parts)} ملفات عمل · {pages_total} صفحة · Excel وGoogle Sheets' if lang == 'ar' else f'{len(parts)} workbooks · {pages_total} pages · ' + ('English & Arabic' if ADD_LANGS else 'English edition'))   # (suite.json's note says "15 languages")
         rtl = lang in RTL
         # 2026-11-13 (the owner: «يجب ان تكون 8 صور نفس السابق»): the cover shows a picture of EVERY workbook (2 columns); the rows shrink so 8 fit the page
         cards = ''; rows = (len(names) + 1) // 2; ch = min(530, (1690 - 110) // max(rows, 1) - 26)
