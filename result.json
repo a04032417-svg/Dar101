@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-gifts.png",
+   "/tmp/out/p1/images/05-thankyou.png",
+   "/tmp/out/p1/images/06-instalments.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p1/images/ar/01-hero.png",
+    "/tmp/out/p1/images/ar/02-charts.png",
+    "/tmp/out/p1/images/ar/03-dashboard.png",
+    "/tmp/out/p1/images/ar/04-gifts.png",
+    "/tmp/out/p1/images/ar/05-thankyou.png",
+    "/tmp/out/p1/images/ar/06-instalments.png",
+    "/tmp/out/p1/images/ar/07-print.png",
+    "/tmp/out/p1/images/ar/08-inside.png",
+    "/tmp/out/p1/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p1/Donor-Book-and-Gift-Log-English-Arabic.zip",
+  "zip_sha256": "9f949f96ef70584e0527ef67c2044bd38985a749d516c518fbcef70d67894550",
+  "fxp": null,
+  "sha256": "9f949f96ef70584e0527ef67c2044bd38985a749d516c518fbcef70d67894550"
+ },
+ "stats": {
+  "seconds_validate": 0.4,
+  "seconds_verify": 106.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 168,
+   "calc_cols": 168,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 133,
+   "form_fields": 133,
+   "tool_outputs_ok": 514,
+   "tool_outputs": 514,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 40,
+   "document_paragraphs": 40
+  },
+  "compare": {
+   "ar": {
+    "compared": 52078,
+    "different": 0
+   }
+  },
+  "today": "2026-11-21",
+  "formulas": {
+   "ar": 149578,
+   "ar-demo": 149576,
+   "en": 149578,
+   "en-demo": 149576,
+   "en-raw": 149576
+  },
+  "job_seconds_max": 63.9,
+  "seconds_images": 38.8,
+  "zip_mb": 5.74,
+  "seconds_package": 0.7,
+  "seconds_total": 146.6
+ },
+ "at": "2026-11-21T08:23:00+00:00",
+ "id": "fx-20261115-nonprofit-p1"
+}
