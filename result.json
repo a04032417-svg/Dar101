@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-completeness.png",
+   "/tmp/out/p1/images/05-coverage.png",
+   "/tmp/out/p1/images/06-reading.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p1/images/ar/01-hero.png",
+    "/tmp/out/p1/images/ar/02-charts.png",
+    "/tmp/out/p1/images/ar/03-dashboard.png",
+    "/tmp/out/p1/images/ar/04-completeness.png",
+    "/tmp/out/p1/images/ar/05-coverage.png",
+    "/tmp/out/p1/images/ar/06-reading.png",
+    "/tmp/out/p1/images/ar/07-print.png",
+    "/tmp/out/p1/images/ar/08-inside.png",
+    "/tmp/out/p1/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p1/Catalogue-Series-Plan-and-Releases-English-Arabic.zip",
+  "zip_sha256": "d6ca64f3cbbfb64be7b3b3c0466d78b60d8cd75a5946278f5c26cc904f0d5ddf",
+  "fxp": null,
+  "sha256": "d6ca64f3cbbfb64be7b3b3c0466d78b60d8cd75a5946278f5c26cc904f0d5ddf"
+ },
+ "stats": {
+  "seconds_validate": 0.0,
+  "seconds_verify": 22.9,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 140,
+   "calc_cols": 140,
+   "monthly_nonzero_cells": 8,
+   "form_fields_filled": 128,
+   "form_fields": 128,
+   "tool_outputs_ok": 636,
+   "tool_outputs": 636,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 5011,
+    "different": 0
+   }
+  },
+  "today": "2026-11-22",
+  "formulas": {
+   "ar": 20759,
+   "ar-demo": 20757,
+   "en": 20759,
+   "en-demo": 20757,
+   "en-raw": 20757
+  },
+  "job_seconds_max": 13.2,
+  "seconds_images": 25.3,
+  "zip_mb": 1.44,
+  "seconds_package": 0.3,
+  "seconds_total": 48.5
+ },
+ "at": "2026-11-22T04:29:33+00:00",
+ "id": "fx-20261115-author-publisher-p1"
+}
