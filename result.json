@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p8/images/01-hero.png",
+   "/tmp/out/p8/images/02-charts.png",
+   "/tmp/out/p8/images/03-dashboard.png",
+   "/tmp/out/p8/images/04-pnl.png",
+   "/tmp/out/p8/images/05-scenario_months.png",
+   "/tmp/out/p8/images/06-cases.png",
+   "/tmp/out/p8/images/07-print.png",
+   "/tmp/out/p8/images/08-inside.png",
+   "/tmp/out/p8/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p8/images/ar/01-hero.png",
+    "/tmp/out/p8/images/ar/02-charts.png",
+    "/tmp/out/p8/images/ar/03-dashboard.png",
+    "/tmp/out/p8/images/ar/04-pnl.png",
+    "/tmp/out/p8/images/ar/05-scenario_months.png",
+    "/tmp/out/p8/images/ar/06-cases.png",
+    "/tmp/out/p8/images/ar/07-print.png",
+    "/tmp/out/p8/images/ar/08-inside.png",
+    "/tmp/out/p8/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p8/Finance-Replace-or-Sell-and-Owner-Pay-English-Arabic.zip",
+  "zip_sha256": "4813dbaf423739aa0a7e6efdb4e2b2b97d063954d07c11ecaada83976bf48bc7",
+  "fxp": null,
+  "sha256": "4813dbaf423739aa0a7e6efdb4e2b2b97d063954d07c11ecaada83976bf48bc7"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 25.0,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 174,
+   "calc_cols": 174,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 129,
+   "form_fields": 129,
+   "tool_outputs_ok": 746,
+   "tool_outputs": 746,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 12177,
+    "different": 0
+   }
+  },
+  "today": "2026-11-22",
+  "formulas": {
+   "ar": 22319,
+   "ar-demo": 22317,
+   "en": 22319,
+   "en-demo": 22317,
+   "en-raw": 22317
+  },
+  "job_seconds_max": 14.4,
+  "seconds_images": 25.7,
+  "zip_mb": 1.7,
+  "seconds_package": 0.3,
+  "seconds_total": 51.2
+ },
+ "at": "2026-11-22T05:00:52+00:00",
+ "id": "fx-20261115-car-rental-p8"
+}
