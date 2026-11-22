@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p2/images/01-hero.png",
+   "/tmp/out/p2/images/02-charts.png",
+   "/tmp/out/p2/images/03-dashboard.png",
+   "/tmp/out/p2/images/04-due.png",
+   "/tmp/out/p2/images/05-payback.png",
+   "/tmp/out/p2/images/06-cost_edition.png",
+   "/tmp/out/p2/images/07-print.png",
+   "/tmp/out/p2/images/08-inside.png",
+   "/tmp/out/p2/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p2/images/ar/01-hero.png",
+    "/tmp/out/p2/images/ar/02-charts.png",
+    "/tmp/out/p2/images/ar/03-dashboard.png",
+    "/tmp/out/p2/images/ar/04-due.png",
+    "/tmp/out/p2/images/ar/05-payback.png",
+    "/tmp/out/p2/images/ar/06-cost_edition.png",
+    "/tmp/out/p2/images/ar/07-print.png",
+    "/tmp/out/p2/images/ar/08-inside.png",
+    "/tmp/out/p2/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p2/Production-Costs-and-Break-Even-English-Arabic.zip",
+  "zip_sha256": "f4c178a525901c5b41e6c75d7add40915de31752581ecb2beeebb6c356e88767",
+  "fxp": null,
+  "sha256": "f4c178a525901c5b41e6c75d7add40915de31752581ecb2beeebb6c356e88767"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 38.4,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 173,
+   "calc_cols": 173,
+   "monthly_nonzero_cells": 23,
+   "form_fields_filled": 158,
+   "form_fields": 158,
+   "tool_outputs_ok": 1121,
+   "tool_outputs": 1121,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 9398,
+    "different": 0
+   }
+  },
+  "today": "2026-11-22",
+  "formulas": {
+   "ar": 53161,
+   "ar-demo": 53159,
+   "en": 53161,
+   "en-demo": 53159,
+   "en-raw": 53159
+  },
+  "job_seconds_max": 20.9,
+  "seconds_images": 27.0,
+  "zip_mb": 2.15,
+  "seconds_package": 0.3,
+  "seconds_total": 65.9
+ },
+ "at": "2026-11-22T04:29:39+00:00",
+ "id": "fx-20261115-author-publisher-p2"
+}
