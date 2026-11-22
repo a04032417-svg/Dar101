@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p1/images/01-hero.png",
+   "/tmp/out/p1/images/02-charts.png",
+   "/tmp/out/p1/images/03-dashboard.png",
+   "/tmp/out/p1/images/04-quotes.png",
+   "/tmp/out/p1/images/05-enquiries.png",
+   "/tmp/out/p1/images/06-funnel.png",
+   "/tmp/out/p1/images/07-print.png",
+   "/tmp/out/p1/images/08-inside.png",
+   "/tmp/out/p1/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p1/images/ar/01-hero.png",
+    "/tmp/out/p1/images/ar/02-charts.png",
+    "/tmp/out/p1/images/ar/03-dashboard.png",
+    "/tmp/out/p1/images/ar/04-quotes.png",
+    "/tmp/out/p1/images/ar/05-enquiries.png",
+    "/tmp/out/p1/images/ar/06-funnel.png",
+    "/tmp/out/p1/images/ar/07-print.png",
+    "/tmp/out/p1/images/ar/08-inside.png",
+    "/tmp/out/p1/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p1/Enquiries-Consultations-Quotes-English-Arabic.zip",
+  "zip_sha256": "e403feae7b912d9598fc3341b3393c7192844bb0347c38a532c093ab4b16ecfc",
+  "fxp": null,
+  "sha256": "e403feae7b912d9598fc3341b3393c7192844bb0347c38a532c093ab4b16ecfc"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 85.4,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 96,
+   "calc_cols": 96,
+   "monthly_nonzero_cells": 44,
+   "form_fields_filled": 135,
+   "form_fields": 135,
+   "tool_outputs_ok": 737,
+   "tool_outputs": 737,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 42,
+   "document_paragraphs": 42
+  },
+  "compare": {
+   "ar": {
+    "compared": 16188,
+    "different": 0
+   }
+  },
+  "today": "2026-11-22",
+  "formulas": {
+   "ar": 80379,
+   "ar-demo": 80377,
+   "en": 80379,
+   "en-demo": 80377,
+   "en-raw": 80377
+  },
+  "job_seconds_max": 45.0,
+  "seconds_images": 42.5,
+  "zip_mb": 3.1,
+  "seconds_package": 0.5,
+  "seconds_total": 128.6
+ },
+ "at": "2026-11-22T04:19:51+00:00",
+ "id": "fx-20261115-doula-business-p1"
+}
