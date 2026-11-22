@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p7/images/01-hero.png",
+   "/tmp/out/p7/images/02-charts.png",
+   "/tmp/out/p7/images/03-dashboard.png",
+   "/tmp/out/p7/images/04-referrers.png",
+   "/tmp/out/p7/images/05-class_sessions.png",
+   "/tmp/out/p7/images/06-thanks.png",
+   "/tmp/out/p7/images/07-print.png",
+   "/tmp/out/p7/images/08-inside.png",
+   "/tmp/out/p7/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p7/images/ar/01-hero.png",
+    "/tmp/out/p7/images/ar/02-charts.png",
+    "/tmp/out/p7/images/ar/03-dashboard.png",
+    "/tmp/out/p7/images/ar/04-referrers.png",
+    "/tmp/out/p7/images/ar/05-class_sessions.png",
+    "/tmp/out/p7/images/ar/06-thanks.png",
+    "/tmp/out/p7/images/ar/07-print.png",
+    "/tmp/out/p7/images/ar/08-inside.png",
+    "/tmp/out/p7/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p7/Referrals-Classes-Reviews-Marketing-English-Arabic.zip",
+  "zip_sha256": "116bfcd6daef52bafd0379e17f08d35dc97d046d54ec23381fbec701a9c39e49",
+  "fxp": null,
+  "sha256": "116bfcd6daef52bafd0379e17f08d35dc97d046d54ec23381fbec701a9c39e49"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 47.7,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 136,
+   "calc_cols": 136,
+   "monthly_nonzero_cells": 42,
+   "form_fields_filled": 132,
+   "form_fields": 132,
+   "tool_outputs_ok": 875,
+   "tool_outputs": 875,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 41,
+   "document_paragraphs": 41
+  },
+  "compare": {
+   "ar": {
+    "compared": 21540,
+    "different": 0
+   }
+  },
+  "today": "2026-11-22",
+  "formulas": {
+   "ar": 73483,
+   "ar-demo": 73481,
+   "en": 73483,
+   "en-demo": 73481,
+   "en-raw": 73481
+  },
+  "job_seconds_max": 26.3,
+  "seconds_images": 26.3,
+  "zip_mb": 3.02,
+  "seconds_package": 0.4,
+  "seconds_total": 74.5
+ },
+ "at": "2026-11-22T04:18:50+00:00",
+ "id": "fx-20261115-doula-business-p7"
+}
