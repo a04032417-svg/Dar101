@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p2/images/01-hero.png",
+   "/tmp/out/p2/images/02-charts.png",
+   "/tmp/out/p2/images/03-dashboard.png",
+   "/tmp/out/p2/images/04-pickups_returns.png",
+   "/tmp/out/p2/images/05-bookings.png",
+   "/tmp/out/p2/images/06-extensions.png",
+   "/tmp/out/p2/images/07-print.png",
+   "/tmp/out/p2/images/08-inside.png",
+   "/tmp/out/p2/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p2/images/ar/01-hero.png",
+    "/tmp/out/p2/images/ar/02-charts.png",
+    "/tmp/out/p2/images/ar/03-dashboard.png",
+    "/tmp/out/p2/images/ar/04-pickups_returns.png",
+    "/tmp/out/p2/images/ar/05-bookings.png",
+    "/tmp/out/p2/images/ar/06-extensions.png",
+    "/tmp/out/p2/images/ar/07-print.png",
+    "/tmp/out/p2/images/ar/08-inside.png",
+    "/tmp/out/p2/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p2/Booking-Calendar-and-Availability-English-Arabic.zip",
+  "zip_sha256": "f7340846a972030f0e863b6813b094cb79dd0143c21f2e65f72a0db4ab996759",
+  "fxp": null,
+  "sha256": "f7340846a972030f0e863b6813b094cb79dd0143c21f2e65f72a0db4ab996759"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 84.8,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 183,
+   "calc_cols": 183,
+   "monthly_nonzero_cells": 36,
+   "form_fields_filled": 151,
+   "form_fields": 151,
+   "tool_outputs_ok": 795,
+   "tool_outputs": 795,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 33660,
+    "different": 0
+   }
+  },
+  "today": "2026-11-22",
+  "formulas": {
+   "ar": 116056,
+   "ar-demo": 116054,
+   "en": 116056,
+   "en-demo": 116054,
+   "en-raw": 116054
+  },
+  "job_seconds_max": 55.9,
+  "seconds_images": 31.5,
+  "zip_mb": 5.06,
+  "seconds_package": 0.4,
+  "seconds_total": 116.8
+ },
+ "at": "2026-11-22T04:50:14+00:00",
+ "id": "fx-20261115-car-rental-p2"
+}
