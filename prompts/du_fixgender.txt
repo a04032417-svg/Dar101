@@ -1,0 +1,18 @@
+Fix one consistency problem in the Arabic of the Doula Business suite (folder /home/claude/work/du/). Owner rule: write every step title in Arabic only.
+
+PROBLEM: parts 1 and 3 address the person USING the workbook (the agency owner reading labels, hints, guide lines, checklist steps,
+tool instructions) in the feminine (قارني، تحددينه، اكتبي، لديكِ). Parts 2, 4, 6, 7, 8 use the standard generic masculine (قارن، تحدده، اكتب، لديك).
+The owner wants the generic masculine for the user everywhere («لماذا موظفة وليس موظف»).
+
+KEEP feminine where the text is about or to a specific woman: the nouns الدولا / العميلة (glossary), and WhatsApp messages or documents
+written TO a client or a doula (kind "message" / "document"), e.g. «نرجو السداد… راجعي شروط العقد» stays.
+
+STEPS (for N in 1 and 3):
+1. Read /home/claude/work/du/duN.en.json -> i18n.ar (English key -> Arabic). Find every Arabic value that addresses the workbook user in the
+   feminine (feminine imperatives such as قارني اكتبي اختاري أدخلي راجعي تابعي ابدئي ضعي; feminine 2nd-person verbs and suffixes such as
+   تحددينه تستطيعين لديكِ عندكِ مبيعاتكِ when they address the user). Use the English key and its context to decide who is addressed.
+2. Write /home/claude/work/du/ar/duN.add.zfix_gender.json = {"<English key exactly>": "<same Arabic, masculine address>"} for those keys only.
+   Change nothing else in the wording; keep every {placeholder}, number and sheet name exactly.
+3. Run: cd /home/claude/work && python3 tools/ar_merge.py du N   -> must print "errors 0".
+4. Re-check with a quick python count that no user-addressed feminine imperative is left in duN (messages to clients may keep it).
+Last line: "du1: <changed> fixed, errors 0 | du3: <changed> fixed, errors 0". Use only Read, Write, Bash. Do not touch git.
