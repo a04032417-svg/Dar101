@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p4/images/01-hero.png",
+   "/tmp/out/p4/images/02-charts.png",
+   "/tmp/out/p4/images/03-dashboard.png",
+   "/tmp/out/p4/images/04-ledger.png",
+   "/tmp/out/p4/images/05-adsmonth.png",
+   "/tmp/out/p4/images/06-promoresults.png",
+   "/tmp/out/p4/images/07-print.png",
+   "/tmp/out/p4/images/08-inside.png",
+   "/tmp/out/p4/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p4/images/ar/01-hero.png",
+    "/tmp/out/p4/images/ar/02-charts.png",
+    "/tmp/out/p4/images/ar/03-dashboard.png",
+    "/tmp/out/p4/images/ar/04-ledger.png",
+    "/tmp/out/p4/images/ar/05-adsmonth.png",
+    "/tmp/out/p4/images/ar/06-promoresults.png",
+    "/tmp/out/p4/images/ar/07-print.png",
+    "/tmp/out/p4/images/ar/08-inside.png",
+    "/tmp/out/p4/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p4/Ads-and-Price-Promotions-English-Arabic.zip",
+  "zip_sha256": "8cdd041671a0379c97f6f9c4759ed882ac868b6ee51d6c1d952bf0e3b0ee9fa8",
+  "fxp": null,
+  "sha256": "8cdd041671a0379c97f6f9c4759ed882ac868b6ee51d6c1d952bf0e3b0ee9fa8"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 42.0,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 187,
+   "calc_cols": 187,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 142,
+   "form_fields": 142,
+   "tool_outputs_ok": 1039,
+   "tool_outputs": 1039,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 48,
+   "document_paragraphs": 48
+  },
+  "compare": {
+   "ar": {
+    "compared": 25305,
+    "different": 0
+   }
+  },
+  "today": "2026-11-22",
+  "formulas": {
+   "ar": 57172,
+   "ar-demo": 57170,
+   "en": 57172,
+   "en-demo": 57170,
+   "en-raw": 57170
+  },
+  "job_seconds_max": 23.4,
+  "seconds_images": 26.7,
+  "zip_mb": 2.32,
+  "seconds_package": 0.1,
+  "seconds_total": 69.0
+ },
+ "at": "2026-11-22T04:33:49+00:00",
+ "id": "fx-20261115-author-publisher-p4"
+}
