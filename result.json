@@ -1,0 +1,82 @@
+{
+ "ok": true,
+ "stage": "done",
+ "errors": [],
+ "warnings": [],
+ "files": {
+  "images": [
+   "/tmp/out/p6/images/01-hero.png",
+   "/tmp/out/p6/images/02-charts.png",
+   "/tmp/out/p6/images/03-dashboard.png",
+   "/tmp/out/p6/images/04-decisions.png",
+   "/tmp/out/p6/images/05-sincome.png",
+   "/tmp/out/p6/images/06-pnl.png",
+   "/tmp/out/p6/images/07-print.png",
+   "/tmp/out/p6/images/08-inside.png",
+   "/tmp/out/p6/images/09-more.png"
+  ],
+  "images_i18n": {
+   "ar": [
+    "/tmp/out/p6/images/ar/01-hero.png",
+    "/tmp/out/p6/images/ar/02-charts.png",
+    "/tmp/out/p6/images/ar/03-dashboard.png",
+    "/tmp/out/p6/images/ar/04-decisions.png",
+    "/tmp/out/p6/images/ar/05-sincome.png",
+    "/tmp/out/p6/images/ar/06-pnl.png",
+    "/tmp/out/p6/images/ar/07-print.png",
+    "/tmp/out/p6/images/ar/08-inside.png",
+    "/tmp/out/p6/images/ar/09-more.png"
+   ]
+  },
+  "zip": "/tmp/out/p6/Series-Title-and-Pen-Name-Performance-English-Arabic.zip",
+  "zip_sha256": "c86b78f2aff850c59fc11978100a3821fda44a89dcfc155884b2a40d14d32a5c",
+  "fxp": null,
+  "sha256": "c86b78f2aff850c59fc11978100a3821fda44a89dcfc155884b2a40d14d32a5c"
+ },
+ "stats": {
+  "seconds_validate": 0.1,
+  "seconds_verify": 25.6,
+  "checks": {
+   "charts_ok": 22,
+   "charts": 22,
+   "gauges_ok": 6,
+   "gauges": 6,
+   "kpis_ok": 30,
+   "kpis": 30,
+   "calc_cols_ok": 204,
+   "calc_cols": 204,
+   "monthly_nonzero_cells": 33,
+   "form_fields_filled": 155,
+   "form_fields": 155,
+   "tool_outputs_ok": 591,
+   "tool_outputs": 591,
+   "checklists_ok": 12,
+   "checklists": 12,
+   "message_columns_ok": 34,
+   "message_columns": 34,
+   "document_paragraphs_filled": 43,
+   "document_paragraphs": 43
+  },
+  "compare": {
+   "ar": {
+    "compared": 9831,
+    "different": 0
+   }
+  },
+  "today": "2026-11-22",
+  "formulas": {
+   "ar": 22415,
+   "ar-demo": 22413,
+   "en": 22415,
+   "en-demo": 22413,
+   "en-raw": 22413
+  },
+  "job_seconds_max": 14.7,
+  "seconds_images": 26.7,
+  "zip_mb": 1.53,
+  "seconds_package": 0.3,
+  "seconds_total": 52.7
+ },
+ "at": "2026-11-22T04:29:51+00:00",
+ "id": "fx-20261115-author-publisher-p6"
+}
