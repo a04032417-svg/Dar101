@@ -8,9 +8,11 @@ $H = '/home/u791571885'; $D = "$H/domains/dar.ink/public_html"; $T = "$H/xfer-tm
 $tag8 = substr(hash('sha256', 'dir' . $key), 0, 24); $name = substr(hash('sha256', 'file' . $key), 0, 24) . '.bin';
 $outDir = "$D/x$tag8"; $out = "$outDir/$name"; $rep = "$T/report.json";
 if (is_file($rep) && is_file($out)) { echo file_get_contents($rep), "\n"; exit; }
+$lk = fopen("$T/lock", 'c'); if (!flock($lk, LOCK_EX | LOCK_NB)) { echo "{\"busy\":true}\n"; exit; }
+if (is_file($rep) && is_file($out)) { echo file_get_contents($rep), "\n"; exit; }
 $skipTop = ['dl', 'fxtr', 'fxv', 'upload', 'x' . $tag8];
 $skipRe = '#^(\.dar/(data|fx|cache|tmp|logs?)(/|$))#';
-$zipPath = "$T/src.zip"; @unlink($zipPath);
+$zipPath = "$T/src-" . getmypid() . ".zip"; @unlink($zipPath);
 $z = new ZipArchive(); if ($z->open($zipPath, ZipArchive::CREATE | ZipArchive::OVERWRITE) !== true) { echo "{\"err\":\"zip\"}\n"; exit; }
 $n = 0; $bytes = 0; $skipped = [];
 $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($D, FilesystemIterator::SKIP_DOTS), RecursiveIteratorIterator::SELF_FIRST);
