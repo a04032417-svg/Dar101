@@ -7,7 +7,7 @@
 // the factory's folders and the removed files are MOVED outside the site, not erased; only the Telegram keys are erased.
 if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 $key = $argv[1] ?? ''; if (!preg_match('/^[0-9a-f]{64}$/', $key)) { echo "{\"err\":\"key\"}\n"; exit; }
-const BLOB = 'https://raw.githubusercontent.com/a04032417-svg/Dar101/398ab6381bcd06a07a27a3bdf6e053dada36b58a/t/dp.bin';
+const BLOB = 'https://raw.githubusercontent.com/a04032417-svg/Dar101/6a8b7a5d6e1a42aaca23c362d28b915b4cd91e43/t/dp.bin';
 $H = '/home/u791571885'; $D = "$H/domains/dar.ink/public_html"; $T = "$H/xfer-dp"; @mkdir($T, 0700, true);
 $stamp = '20261125'; $KEEP = "$H/dar-removed-$stamp"; @mkdir($KEEP, 0700, true);
 $rep = "$T/report.json"; if (is_file($rep)) { echo file_get_contents($rep), "\n"; exit; }
@@ -55,7 +55,7 @@ if ($g['ok'] === false) {
     $say($out + ['err' => 'canary_failed_rolled_back', 'back' => $again['ok']]);
 }
 try { $mj = json_decode((string)@file_get_contents($D . '/lib/manifest.json'), true); if (is_array($mj) && is_array($mj['files'] ?? null) && function_exists('doc_golden_make')) $out['golden'] = doc_golden_make($mj); } catch (Throwable $e) { $out['golden'] = false; }
-meta_set('guard_update', jenc(['at' => now_ms(), 'backup' => $backup, 'version' => '3.34.19', 'files' => []]));
+meta_set('guard_update', jenc(['at' => now_ms(), 'backup' => $backup, 'version' => '3.34.20', 'files' => []]));
 try { $out['assets'] = assets_autoswitch(true); } catch (Throwable $e) { $out['assets'] = substr($e->getMessage(), 0, 100); }
 // 6) Telegram's keys and settings erased (the keys of his own account and of the bot; the channel; the alerts' chat)
 $tg = [];
