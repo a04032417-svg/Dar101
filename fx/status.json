@@ -1,0 +1,31 @@
+{
+ "fingerprint": "294a0edbfd45acaf",
+ "last_change_at": "2026-11-24T23:07:43Z",
+ "work": true,
+ "reasons": [
+  "Dar's feed unreachable: HTTP Error 404: Not Found"
+ ],
+ "parts": {
+  "ready": 0,
+  "work": 7,
+  "dropped": 1210,
+  "other": 0
+ },
+ "suites_total": 109,
+ "undelivered": [],
+ "complete_not_built": [],
+ "in_progress": [
+  "fx-20261121-0345-car-wash (Car wash)",
+  "fx-20261123-0021-horse-stable (Horse stable)",
+  "fx-20261124-0053-cosmetics-manufacturer (Cosmetics manufacturer)",
+  "fx-20261124-0225-saas-startup (SaaS startup)"
+ ],
+ "failed": [],
+ "complete_seen": {},
+ "complete_last_24h": 0,
+ "target_per_day": 8,
+ "last_complete_at": null,
+ "counter_since": "2026-11-09T01:10:24Z",
+ "note": "last_change_at = when any file of Dar last changed status; stalled if now minus last_change_at >= 12 h. 3-hour alert (the owner, 2026-11-09: one specialised product every 3 hours): now minus the later of last_complete_at and counter_since >= 3 h. The watcher computes both, so this file changes only when Dar does.",
+ "excel_problems": {}
+}
