@@ -1,11 +1,13 @@
 <?php
-// Installs an encrypted package on the host. Run by a one-off scheduled command:
-//   php deploy.php <package-url> <hex-key> <site-folder>
+// Installs an encrypted package on the host. Run by a one-off scheduled command (the host limits a command to 255 characters):
+//   php deploy.php <hex-key> [package-url] [site-folder]
+// then runs one scheduler pass and prints the owner's one-time setup code while no owner exists.
 // app/ is replaced as a whole (the previous one is kept in _deploy/), public files are copied over public_html,
 // members' media and the private data folder are never touched.
 declare(strict_types=1);
-[, $url, $hex, $site] = $argv + [null, null, null, null];
-if (!$url || !preg_match('/^[a-f0-9]{64}$/', (string)$hex) || !$site || !is_dir($site)) { fwrite(STDERR, "usage: deploy.php <url> <key> <site>\n"); exit(1); }
+[, $hex, $url, $site] = $argv + [null, null, null, null];
+$url = $url ?: 'https://raw.githubusercontent.com/a04032417-svg/Dar101/jaww/jaww.pkg'; $site = $site ?: getenv('HOME') . '/domains/alpine-magenta-cod-14.hostingersite.com';
+if (!$url || !preg_match('/^[a-f0-9]{64}$/', (string)$hex) || !$site || !is_dir($site)) { fwrite(STDERR, "usage: deploy.php <key> [url] [site]\n"); exit(1); }
 $c = curl_init($url); curl_setopt_array($c, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => 120]); $blob = curl_exec($c); $st = curl_getinfo($c, CURLINFO_HTTP_CODE); curl_close($c);
 if (($st !== 200 && !str_starts_with($url, 'file://')) || !is_string($blob) || strlen($blob) < 40) { fwrite(STDERR, "download failed: HTTP $st\n"); exit(1); }
 $data = openssl_decrypt(substr($blob, 28), 'aes-256-gcm', hex2bin($hex), OPENSSL_RAW_DATA, substr($blob, 0, 12), substr($blob, 12, 16), 'jaww-deploy');
@@ -24,3 +26,6 @@ foreach (glob("$site/_deploy/*", GLOB_ONLYDIR) as $d) if (basename($d) < gmdate(
 function exec_rm(string $d): void { foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($d, FilesystemIterator::SKIP_DOTS), RecursiveIteratorIterator::CHILD_FIRST) as $f) $f->isDir() ? rmdir($f->getPathname()) : unlink($f->getPathname()); rmdir($d); }
 @unlink("$work/pkg.tar.gz"); exec_rm("$work/x");
 echo json_encode(['installed' => $ts, 'public_files' => $n, 'php' => PHP_VERSION, 'pdo_sqlite' => extension_loaded('pdo_sqlite'), 'gd' => extension_loaded('gd'), 'zip' => class_exists('ZipArchive')]), "\n";
+if (str_contains(__FILE__, '/jd.php')) @unlink(__FILE__);
+// first run of the new code, in this same process (the host does not allow starting other programs)
+$argv = [$site . '/app/cli.php', 'cron']; ob_start(); require $site . '/app/cli.php'; $o = ob_get_clean(); echo 'cron ', trim($o), "\n"; echo 'setup ', setup_code() ?? 'owner exists', "\n";
