@@ -13,6 +13,9 @@ echo 'push key in page: ', preg_match('/"vapid":"([A-Za-z0-9_-]{80,})"/', $html)
 foreach (['/assets/logos/thread-huddle-192.png', '/sw.js', '/manifest.webmanifest', '/icon.svg'] as $p) { $x = http_call('GET', 'https://alpine-magenta-cod-14.hostingersite.com' . $p, [], null, 15); echo "$p {$x['status']}", $p === '/sw.js' ? (str_contains($x['body'], "addEventListener('push'") ? ' (push handler)' : ' (no push handler)') . ' type=' . ($x['headers']['content-type'] ?? '-') . ' cache=' . ($x['headers']['cache-control'] ?? '-') : '', "\n"; }
 echo 'sw.js on disk has push: ', str_contains((string)@file_get_contents(APP_PUBLIC . '/sw.js'), 'showNotification') ? 'yes' : 'no', "\n";
 echo 'version: ', APP_VERSION, "\n";
+if (preg_match('#/assets/app-[A-Z0-9]+\.js#', $html, $js)) { $b = http_call('GET', 'https://alpine-magenta-cod-14.hostingersite.com' . $js[0], [], null, 20)['body'];
+  foreach (['meets.create' => 'friend meetup screen (must be absent)', 'knock.send' => 'knock', 'zajel.sky' => 'pigeons sky', 'feathers.gift' => 'feather gifts'] as $k => $label) echo "bundle $label: ", str_contains($b, $k) ? 'present' : 'absent', "\n"; }
+echo 'schema: ', (int)db()->query('PRAGMA user_version')->fetchColumn(), "\n";
 echo "brand: ", json_encode(array_intersect_key(brand(), array_flip(['id', 'allowed', 'mark', 'accent', 'accent2'])), JSON_UNESCAPED_SLASHES), "\n";
 echo "errors:\n"; foreach (all('SELECT where_, msg, file, at FROM errors ORDER BY id DESC LIMIT 6') as $e) echo '  ', date('c', (int)$e['at']), ' ', $e['where_'], ' ', substr((string)$e['msg'], 0, 160), ' @', $e['file'], "\n";
 @unlink(__FILE__);
