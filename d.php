@@ -17,9 +17,15 @@ file_put_contents("$work/pkg.tar.gz", $data); (new PharData("$work/pkg.tar.gz"))
 if (!is_file("$work/x/app/boot.php") || !is_file("$work/x/public/index.php")) { fwrite(STDERR, "package incomplete\n"); exit(1); }
 $copy = function (string $from, string $to) use (&$copy): int { $n = 0; @mkdir($to, 0755, true);
     foreach (scandir($from) as $e) { if ($e === '.' || $e === '..') continue; $a = "$from/$e"; $b = "$to/$e"; if (is_dir($a)) $n += $copy($a, $b); else { copy($a, $b) || throw new RuntimeException("cannot write $b"); chmod($b, 0644); $n++; } } return $n; };
+// full backup of what is being replaced: the old app, and every file of public_html except members' media (m/) — kept 14 days
+$pub = "$site/public_html"; $bak = new PharData("$work/public_html.prev.tar"); $nb = 0;
+foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($pub, FilesystemIterator::SKIP_DOTS)) as $f) { $rel = substr($f->getPathname(), strlen($pub) + 1); if (str_starts_with($rel, 'm/') || str_starts_with($rel, 'pm/')) continue; $bak->addFile($f->getPathname(), $rel); $nb++; }
+if (is_file("$site/private/config.php")) copy("$site/private/config.php", "$work/config.php.prev");
+echo "backup: $nb files of public_html + app -> _deploy/$ts\n";
 if (is_dir("$site/app")) rename("$site/app", "$work/app.prev"); rename("$work/x/app", "$site/app");
-$pub = "$site/public_html"; if (is_file("$pub/default.php")) rename("$pub/default.php", "$work/default.php.prev");
+if (is_file("$pub/default.php")) rename("$pub/default.php", "$work/default.php.prev");
 if (is_dir("$pub/assets")) rename("$pub/assets", "$work/assets.prev");
+foreach (["web.php", "admin.php", "api.php"] as $old) if (is_file("$pub/$old")) rename("$pub/$old", "$work/$old.prev");
 $n = $copy("$work/x/public", $pub);
 if (!is_dir("$site/private")) mkdir("$site/private", 0700, true); @chmod("$site/private", 0700);
 foreach (glob("$site/_deploy/*", GLOB_ONLYDIR) as $d) if (basename($d) < gmdate('Ymd-His', time() - 14 * 86400)) { exec_rm($d); }

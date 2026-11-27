@@ -8,7 +8,7 @@ $site = $argv[1] ?? getenv('HOME') . '/domains/alpine-magenta-cod-14.hostingersi
 define('APP_PUBLIC', "$site/public_html"); define('APP_DATA', "$site/private"); define('APP_ENV', 'prod');
 require "$site/app/boot.php";
 $o = [];
-$ids = ['push', 'cron', 'embed', 'places', 'catalog']; foreach ((array)setting('ai.providers', []) as $p) if (empty($p['off'])) $ids[] = 'ai.' . $p['id'];
+$ids = ['cron', 'embed', 'places', 'catalog', 'weather']; foreach ((array)setting('ai.providers', []) as $p) if (empty($p['off'])) $ids[] = 'ai.' . $p['id'];
 foreach ($ids as $id) { echo "… $id\n"; $t0 = microtime(true); try { $r = integration_test($id, ['email' => '']); } catch (Throwable $e) { $r = ['ok' => false, 'note' => 'error: ' . $e->getMessage() . ' at ' . basename($e->getFile()) . ':' . $e->getLine()]; } $o[$id] = ['ok' => $r['ok'], 'note' => substr((string)$r['note'], 0, 140), 'ms' => (int)((microtime(true) - $t0) * 1000)]; echo '  ', json_encode($o[$id], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE), "\n"; }
 $h = health(); unset($h['backup_last']['counts']);
 echo json_encode(['health' => $h, 'mail_function' => function_exists('mail')], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT), "\n";
