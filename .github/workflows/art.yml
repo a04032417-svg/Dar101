@@ -1,0 +1,28 @@
+name: art
+on:
+  push:
+    branches: [art-check]
+permissions:
+  contents: write
+jobs:
+  art:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: draw samples
+        run: |
+          mkdir -p out
+          S="die-cut sticker illustration, SUBJ, cute modern cartoon style, thick clean dark outline, vibrant colors, soft cel shading, big expressive eyes, centered, whole figure visible, isolated on a plain solid white background, no text, no watermark, high quality vector art"
+          i=0
+          while IFS= read -r subj; do
+            i=$((i+1)); p="${S/SUBJ/$subj}"; enc=$(python3 -c "import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]))" "$p")
+            for t in 1 2 3; do
+              code=$(curl -s -o out/s$i.jpg -w "%{http_code}" -m 120 "https://image.pollinations.ai/prompt/$enc?width=768&height=768&model=flux&nologo=true&seed=$((i*7))")
+              echo "$i $code $(stat -c%s out/s$i.jpg)"; [ "$code" = "200" ] && break; sleep 50
+            done
+            sleep 50
+          done < prompts.txt
+      - name: save
+        run: |
+          git config user.name art-bot; git config user.email art-bot@users.noreply.github.com
+          git add out; git commit -m "art samples" || true; git push
