@@ -9,7 +9,7 @@ $out = [];
 foreach (['قمر يبتسم حين ألمسه', 'نجوم تتفرقع عند اللمس', 'كلمة «صباح الخير» تتمايل مع الضوء'] as $p) {
     $t0 = microtime(true); $code = null; $raw = '';
     for ($try = 0; $try < 2 && !$code; $try++) { $raw = (string)ai_chat([['role' => 'system', 'content' => "You are a creative coder who makes tiny living animated stickers.\n" . STUDIO_DOC], ['role' => 'user', 'content' => 'The sticker: ' . $p]], ['max' => 2200, 'temp' => .7]); $code = studio_code($raw); }
-    $out[] = ['prompt' => $p, 'ok' => (bool)$code, 'ms' => (int)((microtime(true) - $t0) * 1000), 'via' => meta('ai.last_provider', ''), 'code' => base64_encode($code ?? $raw)];
+    $out[] = ['prompt' => $p, 'ok' => (bool)$code, 'ms' => (int)((microtime(true) - $t0) * 1000), 'code' => base64_encode($code ?? $raw)];
 }
-echo "STICKERS ", json_encode($out), "\n";
+$z = base64_encode(gzencode(json_encode($out), 9)); echo 'STICKERS ', strlen($z), "\n"; foreach (str_split($z, 1800) as $i => $part) echo "Z$i $part\n";
 @unlink(__FILE__);
